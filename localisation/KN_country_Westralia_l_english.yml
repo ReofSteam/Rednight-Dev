@@ -1,0 +1,88 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+WST_social_nationalist_party:0 "CPA - Communist Party of Australasia"
+WST_social_nationalist_party_long:0 "Communist Party of Australasia"
+WST_marxist_party:0 "CPA - Communist Party of Australasia"
+WST_marxist_party_long:0 "Communist Party of Australasia"
+WST_libertarian_party:0 "CPA - Communist Party of Australasia"
+WST_libertarian_party_long:0 "Communist Party of Australasia"
+WST_moderate_socialist_party:0 "CPA - Communist Party of Australasia"
+WST_moderate_socialist_party_long:0 "Communist Party of Australasia"
+WST_social_democrat_party:0 "National Government (Labor Wing)"
+WST_social_democrat_party_long:0 "National Government (Labor Wing)"
+WST_social_liberal_party:0 "National Government (Country Wing)"
+WST_social_liberal_party_long:0 "National Government (Country Wing)"
+WST_conservative_party:0 "National Government (Nationalist Wing)"
+WST_conservative_party_long:0 "National Government (Nationalist Wing)"
+WST_authoritarian_democrat_party:0 "National Government"
+WST_authoritarian_democrat_party_long:0 "National Government"
+WST_autocratic_party:0 "-"
+WST_autocratic_party_long:0 "-"
+WST_fundamentalist_party:0 "-"
+WST_fundamentalist_party_long:0 "-"
+WST_voynist_party:0 "-"
+WST_voynist_party_long:0 "-"
+
+### Country Name ###
+
+WST_social_nationalist:0 "Westralian Union"
+WST_social_nationalist_ADJ:0 "Westralian"
+WST_social_nationalist_DEF:0 "the Westralian Union"
+WST_marxist:0 "Westralian Union"
+WST_marxist_ADJ:0 "Westralian"
+WST_marxist_DEF:0 "the Westralian Union"
+WST_libertarian:0 "Westralian Union"
+WST_libertarian_ADJ:0 "Westralian"
+WST_libertarian_DEF:0 "the Westralian Union"
+WST_moderate_socialist:0 "Dominion of Westralia"
+WST_moderate_socialist_ADJ:0 "Westralian"
+WST_moderate_socialist_DEF:0 "the Dominion of Westralia"
+WST_social_democrat:0 "Dominion of Westralia"
+WST_social_democrat_ADJ:0 "Westralian"
+WST_social_democrat_DEF:0 "the Dominion of Westralia"
+WST_social_liberal:0 "Dominion of Westralia"
+WST_social_liberal_ADJ:0 "Westralian"
+WST_social_liberal_DEF:0 "the Dominion of Westralia"
+WST_market_liberal:0 "Dominion of Westralia"
+WST_market_liberal_ADJ:0 "Westralian"
+WST_market_liberal_DEF:0 "the Dominion of Westralia"
+WST_conservative:0 "Dominion of Westralia"
+WST_conservative_ADJ:0 "Westralian"
+WST_conservative_DEF:0 "the Dominion of Westralia"
+WST_authoritarian_democrat:0 "Dominion of Westralia"
+WST_authoritarian_democrat_ADJ:0 "Westralian"
+WST_authoritarian_democrat_DEF:0 "the Dominion of Westralia"
+WST_autocratic:0 "Dominion of Westralia"
+WST_autocratic_ADJ:0 "Westralian"
+WST_autocratic_DEF:0 "the Dominion of Westralia"
+WST_fundamentalist:0 "Dominion of Westralia"
+WST_fundamentalist_ADJ:0 "Westralian"
+WST_fundamentalist_DEF:0 "the Dominion of Westralia"
+WST_voynist:0 "Dominion of Westralia"
+WST_voynist_ADJ:0 "Westralian"
+WST_voynist_DEF:0 "the Dominion of Westralia"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_JAMES_MITCHELL_DESC:0 "§YGovernor-General of the Dominion of Westralia§!\n\nMegamitch"
+
+### Tech? ###

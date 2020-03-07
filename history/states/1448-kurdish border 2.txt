@@ -1,0 +1,22 @@
+state={
+	id=1448
+	name="STATE_1448"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		15482 15483
+	}
+	manpower=582741
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=275
+	name="STATE_275"
+	resources={
+		steel=8.000
+		chromium=45.000
+	}
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+		}
+		victory_points = {
+			10400 10 
+		}
+	}
+
+	provinces={
+		10400 14694 14701 14705 14719 14724 14729 
+	}
+	manpower=3341500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

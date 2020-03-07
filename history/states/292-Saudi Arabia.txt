@@ -1,0 +1,30 @@
+
+state={
+	id=292
+	name="STATE_292"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12727 1 
+		}
+
+	}
+
+	provinces={
+		5093 8004 8060 10870 12813 12870 15391 
+	}
+	manpower=809200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

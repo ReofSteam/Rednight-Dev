@@ -1,0 +1,31 @@
+
+state={
+	id=135
+	name="STATE_135"
+
+	history={
+		owner = IRE
+		add_core_of = IRE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6313 5 
+		}
+		victory_points = {
+			11267 1
+		}
+		victory_points = {
+			11334 1
+		}
+	}
+
+	provinces={
+		6289 6313 9284 11267 11334 13622 
+	}
+	manpower=423700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

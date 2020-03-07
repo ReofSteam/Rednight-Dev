@@ -1,0 +1,33 @@
+
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		aluminium=24.000
+	}
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			11601 = {
+				bunker = 3
+
+			}
+
+		}
+		victory_points = {
+			663 10 
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		661 663 3660 11601 11623 13636 
+	}
+	manpower=1610727
+	buildings_max_level_factor=1.000
+	state_category=city
+}

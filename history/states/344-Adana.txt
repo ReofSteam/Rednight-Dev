@@ -1,0 +1,31 @@
+
+state={
+	id=344
+	name="STATE_344"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = {
+			11746 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			11746 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		 886 3889 6956 11746 11810 15418
+	}
+	manpower=397198
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

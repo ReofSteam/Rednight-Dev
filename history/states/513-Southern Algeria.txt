@@ -1,0 +1,25 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = SAH
+		add_core_of = SAH
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14394 1 
+		}
+
+	}
+
+	provinces={
+		14287 14291 14294 14299 14304 14309 14319 14327 14332 14339 14348 14352
+	}
+	manpower=24730
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

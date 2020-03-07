@@ -1,0 +1,21 @@
+state={
+    id=906
+	name="STATE_906"
+	
+	history={
+	    owner = SOM
+		add_core_of = SOM
+		add_core_of = ETH
+		buildings = {
+		    infrastructure = 3
+		}
+		victory_points = { 12812 15 }
+	}
+	
+	provinces={
+	    12812 15374 15375 15376
+	}
+	manpower=420
+	buildings_max_level_factor=1
+	state_category=rural
+}

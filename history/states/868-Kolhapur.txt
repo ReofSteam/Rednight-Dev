@@ -1,0 +1,30 @@
+
+state={
+	id=868
+	name="STATE_868"
+	resources={
+		chromium=5.000
+		tungsten=44.000
+	}
+
+	history={
+		owner = MHA
+		add_core_of = MHA
+		victory_points = {
+			12295 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		4291 7244 7250 7395 10190 12105 12208 12295 15225 15234 15236 15242 
+	}
+	manpower=7350000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

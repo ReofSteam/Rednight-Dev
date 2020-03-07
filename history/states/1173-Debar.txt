@@ -1,0 +1,27 @@
+
+state={
+	id=1173
+	name="STATE_1173"
+	resources={
+		chromium=36.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = NAL
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		833 867 
+	}
+	manpower=518800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		victory_points = {
+			12137 3 
+		}
+		victory_points = {
+			12799 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		4915 5086 8114 9951 10794 10807
+	}
+	manpower=10350000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

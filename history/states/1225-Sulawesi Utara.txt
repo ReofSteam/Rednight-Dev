@@ -1,0 +1,34 @@
+
+state={
+	id=1225
+	name="STATE_1225"
+	resources={
+		rubber=23.000
+		aluminium=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = SUL
+		add_core_of = SUL
+		victory_points = {
+			10153 15
+		}
+		buildings = {
+			infrastructure = 2
+			10153 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1289 4262 4307 7311 10153 10169 10197 
+	}
+	manpower=1138665
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

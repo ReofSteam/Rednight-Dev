@@ -1,0 +1,22 @@
+
+state={
+	id=1073
+	name="STATE_1073"
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		3999 4454 7163 7534 10033 10090 11966 
+	}
+	manpower=452000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

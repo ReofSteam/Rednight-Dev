@@ -1,0 +1,26 @@
+
+state={
+	id=541
+	name="STATE_541"
+
+	history={
+		owner = SWA
+		add_core_of = SWA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		victory_points = {
+			14779 3 
+		}
+
+	}
+
+	provinces={
+		4879 14746 14754 14758 14765 14779 
+	}
+	manpower=111254
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

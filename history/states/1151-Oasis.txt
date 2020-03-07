@@ -1,0 +1,20 @@
+
+state={
+	id=1151
+	name="STATE_1151"
+	provinces={
+		1043 1901 4903 5095 10749 12849 14278 14302 14312 14323
+	}
+	history={
+		owner = SAH
+		add_core_of = SAH
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+	manpower=753
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

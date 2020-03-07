@@ -1,0 +1,41 @@
+
+state={
+	id=1147
+	name="STATE_1147"
+	resources={
+		rubber=30.000
+		aluminium=6.000
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			4652 5 
+		}
+		victory_points = {
+			7327 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4652 = {
+				naval_base = 3
+
+			}
+			1648 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1648 4652 7673 
+	}
+	manpower=1693200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

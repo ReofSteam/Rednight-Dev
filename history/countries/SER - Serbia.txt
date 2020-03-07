@@ -1,0 +1,224 @@
+﻿capital = 107
+
+set_research_slots = 3
+
+oob = "SER"
+set_cosmetic_tag = YUG
+
+add_ideas = {
+	#medium_economy
+	#limited_conscription
+	#SER_volunteer_army
+	#SER_red_purges
+}
+
+set_technology = {
+	### General ###
+	shipbuild_basics = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_war_support = 0.6
+
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 5
+    marxist = 3
+    libertarian = 1
+    moderate_socialist = 2
+    social_democrat = 2
+    social_liberal = 4
+    conservative = 12
+    authoritarian_democrat = 7
+    autocratic = 18
+    fundamentalist = 20
+    voynist = 26
+}
+
+### Starting cabinet
+add_ideas = {
+	#SER_Dragisa_Cvetkovic_hog_ade
+	#SER_Aleksandar_Cincar_Markovic_for_ade
+	#SER_Milan_Stojadinovic_eco_ade
+	#SER_Dragisa_Cvetkovic_sec_ade
+}
+
+### Starting party leaders
+create_country_leader = {
+	name = "King Alexander I"
+	desc = "POLITICS_KING_ALEXANDER_SERBIA_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Milan Stojadinović"
+	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Milan_Stojadinovic.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Dimitrije Ljotić"
+	desc = "POLITICS_DIMITRIJE_LJOTIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Dimitrije_Ljotic.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Draža Mihailović"
+	desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+### Army Leaders
+create_field_marshal = {
+	name = "Milan Nedić"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Portrait_Serbia_Milutin_Nedic.tga"
+	traits = {
+		old_guard
+		career_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Draža Mihailović"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
+	traits = {
+		career_officer
+		media_personality
+		trait_cautious
+		commando
+		skirmisher
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Lubomir Maric"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Lubomir_Maric.tga"
+	traits = {
+		career_officer
+		trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Borivoje Mirkovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Borivoje_Mirkovic.tga"
+	traits = {
+		career_officer
+		#artillery_officer
+		commando
+		paratrooper
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Mirolad Petrovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Mirolad_Petrovic.tga"
+	traits = {
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Dusan Trifunovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Dusan_Trifunovic.tga"
+	traits = {
+		trait_mountaineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Bogoljub Ilic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Bogoljub_Ilic.tga"
+	traits = {
+		cavalry_officer
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Petar Vukcevic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Petar_Vukcevic.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+### Navy Leader
+# create_navy_leader = {
+#	name = "Polic"
+#	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Portrait_SER_Polic.tga"
+#	traits = {
+#	}
+#	skill = 2 #WHY AM I STILL HERE, END ME PLS
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 2
+# }

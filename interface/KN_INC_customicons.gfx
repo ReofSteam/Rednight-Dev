@@ -1,0 +1,88 @@
+spriteTypes = { 
+ SpriteType = { 
+ name = "GFX_asocialistrevolution" 
+ texturefile = "gfx/interface/goals/INC/INC_asocialistrevolution.tga" 
+ }##Icon For: 1141710
+ SpriteType = { 
+ name = "GFX_dayoftherepublic" 
+ texturefile = "gfx/interface/goals/INC/INC_dayoftherepublic.tga" 
+ }##Icon For: 1141712
+ SpriteType = { 
+ name = "GFX_1950economicprogamme" 
+ texturefile = "gfx/interface/goals/INC/INC_1950economicprogamme.tga" 
+ }##Icon For: 1141716
+ SpriteType = { 
+ name = "GFX_secondnationalpopulateconvention" 
+ texturefile = "gfx/interface/goals/INC/INC_secondnationalpopulateconvention.tga" 
+ }##Icon For: 1141717
+ SpriteType = { 
+ name = "GFX_thecoaltionsurvived" 
+ texturefile = "gfx/interface/goals/INC/INC_thecoaltionsurvived.tga" 
+ }##Icon For: 1141718
+ SpriteType = { 
+ name = "GFX_thecoaltionisbroken" 
+ texturefile = "gfx/interface/goals/INC/INC_thecoaltionisbroken.tga" 
+ }##Icon For: 1141719
+ SpriteType = { 
+ name = "GFX_callingforsnapelection" 
+ texturefile = "gfx/interface/goals/INC/INC_callingforsnapelection.tga" 
+ }##Icon For: 1141720
+ SpriteType = { 
+ name = "GFX_mobilisethenationalguards" 
+ texturefile = "gfx/interface/goals/INC/INC_mobilisethenationalguards.dds" 
+ }##Icon For: 1141721
+ SpriteType = { 
+ name = "GFX_moblisethenationalarmy" 
+ texturefile = "gfx/interface/goals/INC/INC_moblisethenationalarmy.tga" 
+ }##Icon For: 1141725
+ SpriteType = { 
+ name = "GFX_democraticpopularformsgovernment" 
+ texturefile = "gfx/interface/goals/INC/INC_democraticpopularformsgovernment.tga" 
+ }##Icon For: 1141728
+ SpriteType = { 
+ name = "GFX_lefttendencyscabinet" 
+ texturefile = "gfx/interface/goals/INC/INC_lefttendencyscabinet.tga" 
+ }##Icon For: 1141729
+ SpriteType = { 
+ name = "GFX_patriottendencyscabinet" 
+ texturefile = "gfx/interface/goals/INC/INC_patriottendencyscabinet.tga" 
+ }##Icon For: 1155429
+ SpriteType = { 
+ name = "GFX_nationaldemocraticrepublic" 
+ texturefile = "gfx/interface/goals/INC/INC_nationaldemocraticrepublic.tga" 
+ }
+ SpriteType = { 
+ name = "GFX_battleoftheballots" 
+ texturefile = "gfx/interface/goals/INC/INC_battle_ballot_boxes.tga" 
+ }
+ SpriteType = { 
+ name = "GFX_nationalistwins" 
+ texturefile = "gfx/interface/goals/INC/INC_nationalist_wins.tga" 
+ } 
+ }
+ 
+ 
+ ####Event pictures
+ spriteTypes = { 
+
+ 	spriteType = {
+		name = "GFX_event_INC_german_officers"
+		texturefile = "gfx/event_pictures/INC/INC_german_officers.dds"
+	}
+	 	spriteType = {
+		name = "GFX_event_INC_french_officers"
+		texturefile = "gfx/event_pictures/INC/INC_french_officers.dds"
+	}
+	 	spriteType = {
+		name = "GFX_event_INC_chinese_officers"
+		texturefile = "gfx/event_pictures/INC/INC_chinese_officers.dds"
+	}
+	 	spriteType = {
+		name = "GFX_event_INC_vietnam_flag"
+		texturefile = "gfx/event_pictures/INC/INC_vietnam_flag.dds"
+	}
+	 	spriteType = {
+		name = "GFX_event_INC_dalat_conference"
+		texturefile = "gfx/event_pictures/INC/INC_dalat_conference.dds"
+	}
+	}

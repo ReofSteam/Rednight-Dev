@@ -1,0 +1,18 @@
+state={
+	id=1170
+	name="STATE_1170"
+	provinces={
+		480 
+	}
+	history={
+		owner = NTH
+		add_core_of = NTH
+		buildings = {
+			infrastructure = 5
+		}
+
+	}
+	manpower=124000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

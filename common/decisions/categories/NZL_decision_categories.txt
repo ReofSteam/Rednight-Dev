@@ -1,0 +1,4 @@
+NZL_develop_nz = {
+	picture = generic_economy
+	allowed = { original_tag = NZL }
+}

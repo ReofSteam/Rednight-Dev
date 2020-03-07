@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	vozhd_peasants = {
+		sprite = 13
+		random = no
+		war_support_factor = 0.2
+		political_power_factor = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

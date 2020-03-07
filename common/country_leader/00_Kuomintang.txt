@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	revolutionary_chairman = {
+		sprite = 13
+		random = no
+		political_power_gain = 0.1
+		war_support_weekly = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

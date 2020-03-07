@@ -1,0 +1,87 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Decision ####
+
+### Country Name ###
+
+NTH_social_nationalist:0 "Dutch Socialist Republic"
+NTH_social_nationalist_ADJ:0 "Dutch"
+NTH_social_nationalist_DEF:0 "the Dutch Socialist Republic"
+NTH_marxist:0 "Dutch Socialist Republic"
+NTH_marxist_ADJ:0 "Dutch"
+NTH_marxist_DEF:0 "the Dutch Socialist Republic"
+NTH_libertarian:0 "Dutch Socialist Republic"
+NTH_libertarian_ADJ:0 "Dutch"
+NTH_libertarian_DEF:0 "the Dutch Socialist Republic"
+NTH_moderate_socialist:0 "Dutch Socialist Republic"
+NTH_moderate_socialist_ADJ:0 "Dutch"
+NTH_moderate_socialist_DEF:0 "the Dutch Socialist Republic"
+NTH_social_democrat:0 "Republic of the Netherlands"
+NTH_social_democrat_ADJ:0 "Dutch"
+NTH_social_democrat_DEF:0 "the Republic of the Netherlands"
+NTH_social_liberal:0 "Republic of the Netherlands"
+NTH_social_liberal_ADJ:0 "Dutch"
+NTH_social_liberal_DEF:0 "the Republic of the Netherlands"
+NTH_conservative:0 "Republic of the Netherlands"
+NTH_conservative_ADJ:0 "Dutch"
+NTH_conservative_DEF:0 "the Republic of the Netherlands"
+NTH_authoritarian_democrat:0 "Republic of the Netherlands"
+NTH_authoritarian_democrat_ADJ:0 "Dutch"
+NTH_authoritarian_democrat_DEF:0 "the Republic of the Netherlands"
+NTH_autocratic:0 "the Dutch State"
+NTH_autocratic_ADJ:0 "Dutch"
+NTH_autocratic_DEF:0 "Dietschland"
+NTH_fundamentalist:0 "Dutch State"
+NTH_fundamentalist_ADJ:0 "Dutch"
+NTH_fundamentalist_DEF:0 "the Dutch State"
+NTH_voynist:0 "Dutch State"
+NTH_voynist_ADJ:0 "Dutch"
+NTH_voynist_DEF:0 "the Dutch State"
+
+### Party Names ###
+
+NTH_social_nationalist_party:0 "CPN"
+NTH_social_nationalist_party_long:0 "Centralist Party of the Netherlands (Centralistische Partij Nederland)"
+NTH_marxist_party:0 "NAF"
+NTH_marxist_party_long:0 "Netherlands Workers' Front (Nederlands Arbeidsfront)"
+NTH_libertarian_party:0 "RSAP"
+NTH_libertarian_party_long:0 "Revolutionary Socialist Worker's Party (Revolutionair-Socialistische Arbeiderspartij)"
+NTH_moderate_socialist_party:0 "-"
+NTH_moderate_socialist_party_long:0 "-"
+NTH_social_democrat_party:0 "SDAP"
+NTH_social_democrat_party_long:0 "Social-Democratic Workers' Party (Sociaal-Democratische Arbeiderspartij)"
+NTH_social_liberal_party:0 "LU"
+NTH_social_liberal_party_long:0 "Liberal Union (Liberale Unie)"
+NTH_conservative_party:0 "CU"
+NTH_conservative_party_long:0 "Conservative Union (Conservatieve Unie)"
+NTH_authoritarian_democrat_party:0 "Landmacht"
+NTH_authoritarian_democrat_party_long:0 "Army (Landmacht)"
+NTH_autocratic_party:0 "VNH"
+NTH_autocratic_party_long:0 "Alliance for National Reovery (Verbond voor Nationaal Herstel)"
+NTH_fundamentalist_party:0 "-"
+NTH_fundamentalist_party_long:0 "-"
+NTH_voynist_party:0 "VNH"
+NTH_voynist_party_long:0 "Alliance for National Reovery (Verbond voor Nationaal Herstel)"
+
+### Focuses ###
+
+### Ideas ###
+
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

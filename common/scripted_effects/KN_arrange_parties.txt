@@ -1,0 +1,1618 @@
+#####################
+# Arrange Parties   #
+# For Krasnacht 0.1 #
+# Made by Hannah    #
+#####################
+
+kn_parties_pos_end = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_nationalist_set
+			}
+		}
+		set_variable = { position_social_nationalist = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_marxist_set
+			}
+		}
+		set_variable = { position_marxist = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_libertarian_set
+			}
+		}
+		set_variable = { position_libertarian = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_moderate_socialist_set
+			}
+		}
+		set_variable = { position_moderate_socialist = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_democrat_set
+			}
+		}
+		set_variable = { position_social_democrat = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_liberal_set
+			}
+		}
+		set_variable = { position_social_liberal = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_conservative_set
+			}
+		}
+		set_variable = { position_conservative = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_authoritarian_democrat_set
+			}
+		}
+		set_variable = { position_authoritarian_democrat = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_autocratic_set
+			}
+		}
+		set_variable = { position_autocratic = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_fundamentalist_set
+			}
+		}
+		set_variable = { position_fundamentalist = end_position}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_voynist_set
+			}
+		}
+		set_variable = { position_voynist = end_position}
+	}
+	log = " "
+	log = "[Root.GetName] At[GetDateText]:"
+	log = "Set Rest Parties at End"
+}
+kn_clear_parties = {
+	###We want to arrange, not use old positions
+	clr_country_flag = position_social_nationalist_set
+	clr_country_flag = position_marxist_set
+	clr_country_flag = position_libertarian_set
+	clr_country_flag = position_moderate_socialist_set
+	clr_country_flag = position_social_democrat_set
+	clr_country_flag = position_social_liberal_set
+	clr_country_flag = position_conservative_set
+	clr_country_flag = position_authoritarian_democrat_set
+	clr_country_flag = position_autocratic_set
+	clr_country_flag = position_fundamentalist_set
+	clr_country_flag = position_voynist_set
+
+	clr_country_flag = position_1_set
+	clr_country_flag = position_1_social_nationalist
+	clr_country_flag = position_1_marxist
+	clr_country_flag = position_1_libertarian
+	clr_country_flag = position_1_moderate_socialist
+	clr_country_flag = position_1_social_democrat
+	clr_country_flag = position_1_social_liberal
+	clr_country_flag = position_1_conservative
+	clr_country_flag = position_1_authoritarian_democrat
+	clr_country_flag = position_1_autocratic
+	clr_country_flag = position_1_fundamentalist
+	clr_country_flag = position_1_voynist
+
+	clr_country_flag = position_2_set
+	clr_country_flag = position_2_social_nationalist
+	clr_country_flag = position_2_marxist
+	clr_country_flag = position_2_libertarian
+	clr_country_flag = position_2_moderate_socialist
+	clr_country_flag = position_2_social_democrat
+	clr_country_flag = position_2_social_liberal
+	clr_country_flag = position_2_conservative
+	clr_country_flag = position_2_authoritarian_democrat
+	clr_country_flag = position_2_autocratic
+	clr_country_flag = position_2_fundamentalist
+	clr_country_flag = position_2_voynist
+
+	clr_country_flag = position_3_set
+	clr_country_flag = position_3_social_nationalist
+	clr_country_flag = position_3_marxist
+	clr_country_flag = position_3_libertarian
+	clr_country_flag = position_3_moderate_socialist
+	clr_country_flag = position_3_social_democrat
+	clr_country_flag = position_3_social_liberal
+	clr_country_flag = position_3_conservative
+	clr_country_flag = position_3_authoritarian_democrat
+	clr_country_flag = position_3_autocratic
+	clr_country_flag = position_3_fundamentalist
+	clr_country_flag = position_3_voynist
+
+	clr_country_flag = position_4_set
+	clr_country_flag = position_4_social_nationalist
+	clr_country_flag = position_4_marxist
+	clr_country_flag = position_4_libertarian
+	clr_country_flag = position_4_moderate_socialist
+	clr_country_flag = position_4_social_democrat
+	clr_country_flag = position_4_social_liberal
+	clr_country_flag = position_4_conservative
+	clr_country_flag = position_4_authoritarian_democrat
+	clr_country_flag = position_4_autocratic
+	clr_country_flag = position_4_fundamentalist
+	clr_country_flag = position_4_voynist
+
+	clr_country_flag = position_5_set
+	clr_country_flag = position_5_social_nationalist
+	clr_country_flag = position_5_marxist
+	clr_country_flag = position_5_libertarian
+	clr_country_flag = position_5_moderate_socialist
+	clr_country_flag = position_5_social_democrat
+	clr_country_flag = position_5_social_liberal
+	clr_country_flag = position_5_conservative
+	clr_country_flag = position_5_authoritarian_democrat
+	clr_country_flag = position_5_autocratic
+	clr_country_flag = position_5_fundamentalist
+	clr_country_flag = position_5_voynist
+
+	clr_country_flag = position_6_set
+	clr_country_flag = position_6_social_nationalist
+	clr_country_flag = position_6_marxist
+	clr_country_flag = position_6_libertarian
+	clr_country_flag = position_6_moderate_socialist
+	clr_country_flag = position_6_social_democrat
+	clr_country_flag = position_6_social_liberal
+	clr_country_flag = position_6_conservative
+	clr_country_flag = position_6_authoritarian_democrat
+	clr_country_flag = position_6_autocratic
+	clr_country_flag = position_6_fundamentalist
+	clr_country_flag = position_6_voynist
+
+	clr_country_flag = position_7_set
+	clr_country_flag = position_7_social_nationalist
+	clr_country_flag = position_7_marxist
+	clr_country_flag = position_7_libertarian
+	clr_country_flag = position_7_moderate_socialist
+	clr_country_flag = position_7_social_democrat
+	clr_country_flag = position_7_social_liberal
+	clr_country_flag = position_7_conservative
+	clr_country_flag = position_7_authoritarian_democrat
+	clr_country_flag = position_7_autocratic
+	clr_country_flag = position_7_fundamentalist
+	clr_country_flag = position_7_voynist
+
+	clr_country_flag = position_8_set
+	clr_country_flag = position_8_social_nationalist
+	clr_country_flag = position_8_marxist
+	clr_country_flag = position_8_libertarian
+	clr_country_flag = position_8_moderate_socialist
+	clr_country_flag = position_8_social_democrat
+	clr_country_flag = position_8_social_liberal
+	clr_country_flag = position_8_conservative
+	clr_country_flag = position_8_authoritarian_democrat
+	clr_country_flag = position_8_autocratic
+	clr_country_flag = position_8_fundamentalist
+	clr_country_flag = position_8_voynist
+
+	clr_country_flag = position_9_set
+	clr_country_flag = position_9_social_nationalist
+	clr_country_flag = position_9_marxist
+	clr_country_flag = position_9_libertarian
+	clr_country_flag = position_9_moderate_socialist
+	clr_country_flag = position_9_social_democrat
+	clr_country_flag = position_9_social_liberal
+	clr_country_flag = position_9_conservative
+	clr_country_flag = position_9_authoritarian_democrat
+	clr_country_flag = position_9_autocratic
+	clr_country_flag = position_9_fundamentalist
+	clr_country_flag = position_9_voynist
+
+	clr_country_flag = position_10_set
+	clr_country_flag = position_10_social_nationalist
+	clr_country_flag = position_10_marxist
+	clr_country_flag = position_10_libertarian
+	clr_country_flag = position_10_moderate_socialist
+	clr_country_flag = position_10_social_democrat
+	clr_country_flag = position_10_social_liberal
+	clr_country_flag = position_10_conservative
+	clr_country_flag = position_10_authoritarian_democrat
+	clr_country_flag = position_10_autocratic
+	clr_country_flag = position_10_fundamentalist
+	clr_country_flag = position_10_voynist
+
+	clr_country_flag = position_11_set
+	clr_country_flag = position_11_social_nationalist
+	clr_country_flag = position_11_marxist
+	clr_country_flag = position_11_libertarian
+	clr_country_flag = position_11_moderate_socialist
+	clr_country_flag = position_11_social_democrat
+	clr_country_flag = position_11_social_liberal
+	clr_country_flag = position_11_conservative
+	clr_country_flag = position_11_authoritarian_democrat
+	clr_country_flag = position_11_autocratic
+	clr_country_flag = position_11_fundamentalist
+	clr_country_flag = position_11_voynist
+	
+	### Some variables
+	set_variable = { position_social_nationalist = 8}
+	set_variable = { position_marxist = 8}
+	set_variable = { position_libertarian = 8}
+	set_variable = { position_moderate_socialist = 8}
+	set_variable = { position_social_democrat = 8}
+	set_variable = { position_social_liberal = 8}
+	set_variable = { position_conservative = 8}
+	set_variable = { position_authoritarian_democrat = 8}
+	set_variable = { position_autocratic = 8}
+	set_variable = { position_fundamentalist = 8}
+	set_variable = { position_voynist = 8}
+	set_variable = { position_after_coalition = 50}
+	set_variable = { end_position = 58}
+	set_variable = { coalition_popularity = 0 }
+	set_variable = { ppp_gain = 0 }
+
+	remove_ideas = {
+	    party_pop_0_00
+	    party_pop_0_10
+	    party_pop_0_20
+	    party_pop_0_30
+	    party_pop_0_40
+	    party_pop_0_50
+	    party_pop_0_60
+	    party_pop_0_70
+	    party_pop_0_80
+	    party_pop_0_90
+	}
+
+	log = " "
+	log = "[Root.GetName] At[GetDateText]:"
+	log = "Cleared Parties"
+}
+kn_get_popularities = {
+	set_variable = {
+		socnat_pop = party_popularity@social_nationalist
+	}
+	multiply_variable = {
+	    var = socnat_pop
+	    value = 100
+	}
+	set_variable = {
+		marxist_pop = party_popularity@marxist
+	}
+	multiply_variable = {
+	    var = marxist_pop
+	    value = 100
+	}
+	set_variable = {
+		lib_pop = party_popularity@libertarian
+	}
+	multiply_variable = {
+	    var = lib_pop
+	    value = 100
+	}
+	set_variable = {
+		modsoc_pop = party_popularity@moderate_socialist
+	}
+	multiply_variable = {
+	    var = modsoc_pop
+	    value = 100
+	}
+	set_variable = {
+		socdem_pop = party_popularity@social_democrat
+	}
+	multiply_variable = {
+	    var = socdem_pop
+	    value = 100
+	}
+	set_variable = {
+		soclib_pop = party_popularity@social_liberal
+	}
+	multiply_variable = {
+	    var = soclib_pop
+	    value = 100
+	}
+	set_variable = {
+		con_pop = party_popularity@conservative
+	}
+	multiply_variable = {
+	    var = con_pop
+	    value = 100
+	}
+	set_variable = {
+		authdem_pop = party_popularity@authoritarian_democrat
+	}
+	multiply_variable = {
+	    var = authdem_pop
+	    value = 100
+	}
+	set_variable = {
+		autocratic_pop = party_popularity@autocratic
+	}
+	multiply_variable = {
+	    var = autocratic_pop
+	    value = 100
+	}
+	set_variable = {
+		fundie_pop = party_popularity@fundamentalist
+	}
+	multiply_variable = {
+	    var = fundie_pop
+	    value = 100
+	}
+	set_variable = {
+		voyie_pop = party_popularity@voynist
+	}
+	multiply_variable = {
+	    var = voyie_pop
+	    value = 100
+	}
+}
+
+kn_arrange_parties_with_arrays = {
+	kn_get_popularities = yes
+	kn_clear_parties = yes
+
+	clear_array = arr
+	add_to_array = {
+	    array = arr
+	    value = socnat_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = marxist_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = lib_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = modsoc_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = socdem_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = soclib_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = con_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = authdem_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = autocratic_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = fundie_pop
+	}
+	add_to_array = {
+	    array = arr
+	    value = voyie_pop
+	}
+
+	log = "Amount: [?arr^num]"
+
+	#### FOR Yard1's QUCIKSORT #####
+	set_variable = { high = arr^num }
+	log = "High: [?high]"
+	set_variable = { low = 0 }
+	quicksort = yes
+
+	clear_array = arr2
+	add_to_array = {
+		array = arr2
+		value = arr^11
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^10
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^9
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^8
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^7
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^6
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^5
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^4
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^3
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^2
+	}
+	add_to_array = {
+		array = arr2
+		value = arr^1
+	}
+
+	#### Hannah Time! ####
+	if = {
+		limit = {
+			has_government = social_nationalist
+		}
+		set_country_flag = position_social_nationalist_set
+		set_variable = { position_social_nationalist = 8}
+		set_country_flag = position_1_social_nationalist
+		set_country_flag = position_1_set
+		add_to_variable = { coalition_popularity = socnat_pop }
+		log = "Social Nationalist at position 1"
+	}
+	if = {
+		limit = {
+			has_government = marxist
+		}
+		set_country_flag = position_marxist_set
+		set_variable = { position_marxist = 8}
+		set_country_flag = position_1_marxist
+		set_country_flag = position_1_set
+		add_to_variable = { coalition_popularity = marxist_pop }
+		log = "Marxist at position 1"
+		
+	}
+	if = {
+		limit = {
+			has_government = libertarian
+		}
+		set_country_flag = position_libertarian_set
+		set_variable = { position_libertarian = 8}
+		set_country_flag = position_1_libertarian
+		add_to_variable = { coalition_popularity = lib_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = moderate_socialist
+		}
+		set_country_flag = position_moderate_socialist_set
+		set_variable = { position_moderate_socialist = 8}
+		set_country_flag = position_1_moderate_socialist
+		add_to_variable = { coalition_popularity = modsoc_pop }
+		set_country_flag = position_1_set
+		log = "Moderate Socialist at position 1"
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		set_country_flag = position_social_democrat_set
+		set_variable = { position_social_democrat = 8}
+		set_country_flag = position_1_social_democrat
+		add_to_variable = { coalition_popularity = socdem_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		set_country_flag = position_social_liberal_set
+		set_variable = { position_social_liberal = 8}
+		set_country_flag = position_1_social_liberal
+		add_to_variable = { coalition_popularity = soclib_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = conservative
+		}
+		set_country_flag = position_conservative_set
+		set_variable = { position_conservative = 8}
+		set_country_flag = position_1_conservative
+		add_to_variable = { coalition_popularity = con_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_democrat
+		}
+		set_country_flag = position_authoritarian_democrat_set
+		set_variable = { position_authoritarian_democrat = 8}
+		set_country_flag = position_1_authoritarian_democrat
+		add_to_variable = { coalition_popularity = authdem_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = autocratic
+		}
+		set_country_flag = position_autocratic_set
+		set_variable = { position_autocratic = 8}
+		set_country_flag = position_1_autocratic
+		add_to_variable = { coalition_popularity = autocratic_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = fundamentalist
+		}
+		set_country_flag = position_fundamentalist_set
+		set_variable = { position_fundamentalist = 8}
+		set_country_flag = position_1_fundamentalist
+		add_to_variable = { coalition_popularity = fundie_pop }
+		set_country_flag = position_1_set
+	}
+	if = {
+		limit = {
+			has_government = voynist
+		}
+		set_country_flag = position_voynist_set
+		set_variable = { position_voynist = 8}
+		set_country_flag = position_1_voynist
+		add_to_variable = { coalition_popularity = voyie_pop }
+		set_country_flag = position_1_set
+	}
+
+
+	### COALITION HOURS ###
+	for_each_loop = {
+		array = arr2
+		log = "Current item: [?v]"
+		if = {
+			limit = {
+				has_country_flag = coalition_social_nationalist
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socnat_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = socnat_pop
+				}
+				kn_set_pos_social_nationalist = yes
+				set_country_flag = position_social_nationalist_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_marxist
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = marxist_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = marxist_pop
+				}
+				kn_set_pos_marxist = yes
+				set_country_flag = position_marxist_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_libertarian
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = lib_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = lib_pop
+				}
+				kn_set_pos_libertarian = yes
+				set_country_flag = position_libertarian_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_moderate_socialist
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = modsoc_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = modsoc_pop
+				}
+				kn_set_pos_moderate_socialist = yes
+				set_country_flag = position_moderate_socialist_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_social_democrat
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socdem_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = socdem_pop
+				}
+				kn_set_pos_social_democrat = yes
+				set_country_flag = position_social_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_social_liberal
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = soclib_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = soclib_pop
+				}
+				kn_set_pos_social_liberal = yes
+				set_country_flag = position_social_liberal_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_conservative
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = con_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = con_pop
+				}
+				kn_set_pos_conservative = yes
+				set_country_flag = position_conservative_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_authoritarian_democrat
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = authdem_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = authdem_pop
+				}
+				kn_set_pos_authoritarian_democrat = yes
+				set_country_flag = position_authoritarian_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_autocratic
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = autocratic_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = autocratic_pop
+				}
+				kn_set_pos_autocratic = yes
+				set_country_flag = position_autocratic_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_fundamentalist
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = fundie_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = fundie_pop
+				}
+				kn_set_pos_fundamentalist = yes
+				set_country_flag = position_fundamentalist_set
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = coalition_voynist
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = voyie_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				add_to_variable = {
+					coalition_popularity = voyie_pop
+				}
+				kn_set_pos_voynist = yes
+				set_country_flag = position_voynist_set
+			}
+		}
+	}
+
+	### Let's set to after coalition position firstly! ###
+	kn_parties_pos_end = yes	
+
+	### LEGAL FIRST ###
+	for_each_loop = {
+		array = arr2
+		log = "Current item: [?v]"
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_social_nationalist
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socnat_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_social_nationalist = yes
+				set_country_flag = position_social_nationalist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_marxist
+					has_country_flag = position_marxist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = marxist_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_marxist = yes
+				set_country_flag = position_marxist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_libertarian
+					has_country_flag = position_libertarian_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = lib_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_libertarian = yes
+				set_country_flag = position_libertarian_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_moderate_socialist
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = modsoc_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_moderate_socialist = yes
+				set_country_flag = position_moderate_socialist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_social_democrat
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socdem_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_social_democrat = yes
+				set_country_flag = position_social_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_social_liberal
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = soclib_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_social_liberal = yes
+				set_country_flag = position_social_liberal_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_conservative
+					has_country_flag = position_conservative_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = con_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_conservative = yes
+				set_country_flag = position_conservative_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_authoritarian_democrat
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = authdem_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_authoritarian_democrat = yes
+				set_country_flag = position_authoritarian_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_autocratic
+					has_country_flag = position_autocratic_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = autocratic_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_autocratic = yes
+				set_country_flag = position_autocratic_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_fundamentalist
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = fundie_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_fundamentalist = yes
+				set_country_flag = position_fundamentalist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = banned_voynist
+					has_country_flag = position_voynist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = voyie_pop
+						compare = equals
+					}
+				}
+				add_to_variable = {
+					position_after_coalition = 50
+				}
+				add_to_variable = {
+					end_position = 50
+				}
+				kn_set_pos_voynist = yes
+				set_country_flag = position_voynist_set
+			}
+		}
+	}
+
+
+	kn_set_pos_social_nationalist_legal = yes
+	kn_set_pos_marxist_legal = yes
+	kn_set_pos_libertarian_legal = yes
+	kn_set_pos_moderate_socialist_legal = yes
+	kn_set_pos_social_democrat_legal = yes
+	kn_set_pos_social_liberal_legal = yes
+	kn_set_pos_conservative_legal = yes
+	kn_set_pos_authoritarian_democrat_legal = yes
+	kn_set_pos_autocratic_legal = yes
+	kn_set_pos_fundamentalist_legal = yes
+	kn_set_pos_voynist_legal = yes
+
+
+	for_each_loop = {
+		array = arr2
+		log = "Current item: [?v]"
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socnat_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_social_nationalist = yes
+				set_country_flag = position_social_nationalist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = marxist_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_marxist = yes
+				set_country_flag = position_marxist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = lib_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_libertarian = yes
+				set_country_flag = position_libertarian_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = modsoc_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_moderate_socialist = yes
+				set_country_flag = position_moderate_socialist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = socdem_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_social_democrat = yes
+				set_country_flag = position_social_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = soclib_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_social_liberal = yes
+				set_country_flag = position_social_liberal_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = con_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_conservative = yes
+				set_country_flag = position_conservative_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = authdem_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_authoritarian_democrat = yes
+				set_country_flag = position_authoritarian_democrat_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = autocratic_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_autocratic = yes
+				set_country_flag = position_autocratic_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = fundie_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_fundamentalist = yes
+				set_country_flag = position_fundamentalist_set
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = v
+						value = voyie_pop
+						compare = equals
+					}
+				}
+				kn_set_pos_voynist = yes
+				set_country_flag = position_voynist_set
+			}
+		}
+	}
+
+	###Those with zero lol
+	kn_set_pos_social_nationalist = yes
+	kn_set_pos_marxist = yes
+	kn_set_pos_libertarian = yes
+	kn_set_pos_moderate_socialist = yes
+	kn_set_pos_social_democrat = yes
+	kn_set_pos_social_liberal = yes
+	kn_set_pos_conservative = yes
+	kn_set_pos_authoritarian_democrat = yes
+	kn_set_pos_autocratic = yes
+	kn_set_pos_fundamentalist = yes
+	kn_set_pos_voynist = yes
+
+	log = " "
+	log = "[Root.GetName] At[GetDateText]:"
+	log = "Social Nationalist position: [?position_social_nationalist]"
+	log = "Marxist position: [?position_marxist]"
+	log = "Libertarian position: [?position_libertarian]"
+	log = "Moderate Socialist position: [?position_moderate_socialist]"
+	log = "Social Democrat position: [?position_social_democrat]"
+	log = "Social Liberal position: [?position_social_liberal]"
+	log = "Conservative position: [?position_conservative]"
+	log = "Authoritarian Democrat position: [?position_authoritarian_democrat]"
+	log = "Autocratic position: [?position_autocratic]"
+	log = "Fundamentalist position: [?position_fundamentalist]"
+	log = "Voynist position: [?position_voynist]"
+
+	if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 10
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = -1.5
+		}
+		add_ideas = party_pop_0_00
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 10
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 20
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = -1.0
+		}
+		add_ideas = party_pop_0_10
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 20
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 30
+				compare = less_than
+			}
+		}
+		set_variable = {
+			ppp_gain = -0.5
+		}
+	  	add_ideas =  party_pop_0_20
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 30
+				compare = equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 0
+		}
+	    add_ideas = party_pop_0_30
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 30
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 40
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 0.5
+		}
+	   	add_ideas = party_pop_0_40
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 40
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 50
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 1.0
+		}
+		add_ideas = party_pop_0_50
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 50
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 60
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 1.5
+		}
+	    add_ideas = party_pop_0_60
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 60
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 70
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 2.0
+		}
+	    add_ideas = party_pop_0_70
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 70
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 80
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 2.5
+		}
+	   	add_ideas = party_pop_0_80
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 80
+				compare = greater_than
+			}
+			check_variable = {
+				var = coalition_popularity
+				value = 90
+				compare = less_than_or_equals
+			}
+		}
+		set_variable = {
+			ppp_gain = 3.0
+		}
+	    add_ideas = party_pop_0_90
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = coalition_popularity
+				value = 90
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			ppp_gain = 3.5
+		}
+	    add_ideas = party_pop_0_100
+	}
+
+}

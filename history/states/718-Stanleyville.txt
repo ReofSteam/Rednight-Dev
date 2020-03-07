@@ -1,0 +1,25 @@
+
+state={
+	id=718
+	name="STATE_718"
+
+	history={
+		owner = CNG
+		add_core_of = CNG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1950 3 
+		}
+
+	}
+
+	provinces={
+		1950 2034 2073 6027 11934 12808 12847 
+	}
+	manpower=1972710
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

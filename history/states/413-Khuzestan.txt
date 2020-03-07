@@ -1,0 +1,32 @@
+
+state={
+	id=413
+	name="STATE_413"
+	resources={
+		oil=42.000
+	}
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			5005 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			15009 1 
+		}
+	}
+
+	provinces={
+		1922 5005 7953 14976 14981 14986 14999 15004 15009 15014 15015 15021 15029 15035 
+	}
+	manpower=797356
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,255 @@
+ideas = {
+	head_of_government = {
+		INC_Nguyen_Van_Cu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nguyen Van Cu' the 'head of government'"}
+			picture = GFX_idea_INC_Nguyen_Van_Cu
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			marxist_trait	
+			}
+		}
+	}
+	minister_no_portfolio = {
+		INC_Tran_Trong_Kim = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Tran Trong Kim' the 'minister no portfolio'"}
+			#picture = 
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			conservative_trait	
+			}
+		}
+	}
+	interior_minister = {
+		INC_Ha_Huy_Tap = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ha Huy Tap' the 'Interior Minister'"}
+			picture = GFX_idea_INC_Ha_Huy_Tap
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			marxist_trait	
+			}
+		}
+	}
+	economy_minister = {
+		INC_Phan_Anh = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Phan Anh' the 'Economy Minister'"}
+			picture = GFX_idea_INC_Phan_Anh
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			moderate_socialist_trait	
+			}
+		}
+	}
+	foreign_minister = {
+		INC_Pham_Van_Dong = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Pham Van Dong' the 'Foreign Minister'"}
+			#picture = 
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+				
+			}
+		}
+	}
+	foreign_minister = {
+		INC_Nguyen_Hai_Than = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nguyen Hai Than' the 'Foreign Minister'"}
+			picture = GFX_idea_INC_Nguyen_Hai_Than
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			social_democrat_trait	
+			}
+		}
+	}
+	education_minister = {
+		INC_Nguyen_Tuong_Tam = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nguyen Tuong Tam' the 'Education Minister'"}
+			picture = GFX_idea_INC_Nguyen_Tuong_Tam
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			social_liberal_trait
+			}
+		}
+	}
+	culture_minister = {
+		INC_Nguyen_Van_Huyen= {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nguyen Van Huyen' the 'Culture Minister'"}
+			picture = GFX_idea_INC_Nguyen_Van_Huyen
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			moderate_socialist_trait	
+			}
+		}
+	}
+	transport_minister = {
+		INC_Tran_Dang_Khoa = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Tran Dang Khoa' the 'Transport Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			moderate_socialist_trait	
+			}
+		}
+	}
+	head_of_intel = {
+		INC_Dao_Phuc_Loc = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Dao Phuc Loc' the 'Head of Intelligence'"}
+			picture = GFX_idea_INC_Dao_Phuc_Loc
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+			social_nationalist_trait	
+			}
+		}
+	}
+	chief_of_staff = {
+		INC_Louis_Montmollin = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Louis de Montmollin' the 'Head of Army'"}
+			#picture = 
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+				
+			}
+		}
+	}
+	chief_of_army = {
+		INC_Jakob_Huber = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jakob Huber' the 'Chief of Staff'"}
+			picture = GFX_idea_INC_George_Sutherland
+
+			allowed = {
+				OR = {
+					tag = INC
+					original_tag = INC
+				}
+			}
+			traits = {
+				
+			}
+		}
+	}
+
+	country = {
+		INC_young_republic = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_national_emergency"}
+			picture = INC_young_republic
+			modifier = {
+				stability_factor = 0.10
+			    war_support_factor = 0.10	
+				stability_factor = -0.05
+			}
+		}
+		INC_being_of_the_people = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_paralyzed_government"}
+			picture = idea_generic_agarian_reform
+			modifier = {
+			MONTHLY_POPULATION = 0.25
+			production_speed_buildings_factor = 0.1
+			}
+		}
+		INC_a_fragile_coaltion = {
+			picture = generic_disunited_government	
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_economy_collapsed"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_a_fragile_coaltion"}
+			modifier = {
+				political_power_gain = -0.75
+				stability_factor = -0.3
+			}
+		}
+
+			INC_disunited_military = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_economy_collapsed"}
+			picture = INC_disunited_army
+			modifier = {
+			planning_speed = -0.10
+			mobilization_speed = -0.2				
+			}
+		}
+			INC_building_our_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_building_our_economy"}
+			picture = ruined_economy
+			modifier = {
+			production_speed_buildings_factor = 0.1
+			production_factory_max_efficiency_factor = -0.3
+
+			}
+		}
+			INC_call_of_resistance = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea INC_call_of_resistance"}
+			picture = INC_resistance
+			modifier = {
+
+			mobilization_speed = 0.3
+}
+			hidden_effect =  {
+			production_speed_buildings_factor = 0.2
+			production_factory_max_efficiency_factor = 0.4
+			stability_weekly = 0.01	
+			surrender_limit = 0.99
+			partisan_effect = 0.3
+}
+targeted_modifier = {
+                tag = EVN
+                attack_bonus_against = 0.10
+                defense_bonus_against = 0.10
+            }
+targeted_modifier = {
+                tag = JAP
+                attack_bonus_against = 0.10
+                defense_bonus_against = 0.10
+            }			
+		}
+	}
+}

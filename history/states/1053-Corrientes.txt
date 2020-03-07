@@ -1,0 +1,20 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		8187 8238 12964 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = ARG
+
+	}
+	manpower=462540
+	buildings_max_level_factor=1.000
+	state_category=town
+}

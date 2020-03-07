@@ -1,0 +1,1605 @@
+###Indonesia Shared Foci
+
+focus_tree = {
+	id = INS_base
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = INS
+		}
+	}
+
+	shared_focus = INS_economy_1950
+	shared_focus = INS_army_debate
+	shared_focus = INS_the_AURI
+	shared_focus = INS_ALRI
+}
+
+	shared_focus = {
+		id = INS_army_debate
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 33
+		y = 0
+
+	}
+	shared_focus = {
+		id = INS_the_AURI
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 49
+		y = 0
+
+	}
+	shared_focus = {
+		id = INS_ALRI
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 67
+		y = 0
+
+	}
+	shared_focus = {
+		id = INS_economy_1950
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 10.00
+		x = 14
+		y = 0
+
+	}
+	shared_focus = {
+		id = INS_sjafruddin_scissors
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_economy_1950
+		}
+		x = 13
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_organise_BNI
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = INS_economy_1950
+		}
+		x = 15
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_expand_koperasi
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sjafruddin_scissors
+		}
+		prerequisite = {
+			focus = INS_organise_BNI
+		}
+		x = 14
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_kasimo_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_koperasi
+		}
+		x = 8
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_agrarian_past
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_kasimo_plan
+		}
+		x = 6
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_develop_deliserdang
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_kasimo_plan
+		}
+		x = 10
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_chaerul_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_koperasi
+		}
+		x = 14
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_expand_plantations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_chaerul_plan
+		}
+		x = 12
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_industrialise_west_java
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = INS_chaerul_plan
+		}
+		x = 14
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_industrialise_middle_java
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_industrialise_west_java
+		}
+		x = 14
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_industrialise_east_java
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = INS_industrialise_middle_java
+		}
+		x = 14
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_create_krakatau_steel
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		prerequisite = {
+			focus = INS_chaerul_plan
+		}
+		x = 16
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_expand_oilfields
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10.00
+		prerequisite = {
+			focus = INS_create_krakatau_steel
+		}
+		x = 16
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_create_tankerfleed
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_oilfields
+		}
+		x = 16
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_sumitro_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_koperasi
+		}
+		x = 20
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_seek_foreign_investment
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sumitro_plan
+		}
+		x = 18
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_study_foreign_industry
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = INS_seek_foreign_investment
+		}
+		x = 18
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_establish_balanced_budget
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = INS_study_foreign_industry
+		}
+		x = 18
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_gerak_benteng
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sumitro_plan
+		}
+		x = 20
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_fill_the_plantations
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_gerak_benteng
+		}
+		x = 20
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_expand_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10.00
+		prerequisite = {
+			focus = INS_fill_the_plantations
+		}
+		x = 20
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_alibaba
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sumitro_plan
+		}
+		x = 22
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_business_subsidies
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = INS_alibaba
+		}
+		x = 22
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_trained_expertise
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_business_subsidies
+		}
+		x = 22
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_a_trained_workforce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_establish_balanced_budget
+		}
+		prerequisite = {
+			focus = INS_expand_trade
+		}
+		prerequisite = {
+			focus = INS_trained_expertise
+		}
+		x = 20
+		y = 7
+
+	}
+	shared_focus = {
+		id = INS_soebrotoplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_army_debate
+		}
+		mutually_exclusive = {
+			focus = INS_nasutionplan
+			focus = INS_soedirmanplan
+		}
+		x = 25
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_soeharto_comission
+		icon = GFX_focus_generic_combined_arms
+		cost = 10.00
+		prerequisite = {
+			focus = INS_soebrotoplan
+		}
+		x = 25
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_refitting
+		icon = GFX_focus_secret_rearmament
+		cost = 10.00
+		prerequisite = {
+			focus = INS_soeharto_comission
+		}
+		x = 25
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_enforce_discipline
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = INS_refitting
+		}
+		x = 25
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_shock_and_awe
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_enforce_discipline
+		}
+		x = 25
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_nasutionplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_army_debate
+		}
+		mutually_exclusive = {
+			focus = INS_soebrotoplan
+			focus = INS_soedirmanplan
+		}
+		x = 33
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_yani_korps
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = INS_soebrotoplan
+			focus = INS_nasutionplan
+		}
+		x = 27
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_import_foreign_tanks
+		icon = GFX_focus_generic_tank_production
+		cost = 10.00
+		prerequisite = {
+			focus = INS_yani_korps
+		}
+		x = 27
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_create_oerip_academy
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_nasutionplan
+			focus = INS_soebrotoplan
+		}
+		x = 32
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_seskoad
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_create_oerip_academy
+		}
+		x = 32
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_banteng_raiders
+		icon = GFX_focus_generic_army_tanks2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_import_foreign_tanks
+		}
+		prerequisite = {
+			focus = INS_refitting
+		}
+		prerequisite = {
+			focus = INS_seskoad
+		}
+		x = 27
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_establish_special_forces
+		icon = GFX_focus_RAJ_indian_gurkhas
+		cost = 10.00
+		prerequisite = {
+			focus = INS_seskoad
+		}
+		x = 29
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_new_officer_staff
+		icon = GFX_focus_RAJ_indian_gentlemen_offcers
+		cost = 10.00
+		prerequisite = {
+			focus = INS_nasutionplan
+		}
+		x = 34
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_territorium
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_new_officer_staff
+		}
+		x = 34
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_soedirmanplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_army_debate
+		}
+		mutually_exclusive = {
+			focus = INS_nasutionplan
+			focus = INS_soebrotoplan
+		}
+		x = 40
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_pokok2_gerilya
+		icon = GFX_focus_prc_infiltration
+		cost = 10.00
+		prerequisite = {
+			focus = INS_soedirmanplan
+			focus = INS_nasutionplan
+		}
+		x = 38
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_create_SISHANKAMRATA
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_pokok2_gerilya
+		}
+		x = 38
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_foreign_training
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_territorium
+		}
+		prerequisite = {
+			focus = INS_seskoad
+		}
+		prerequisite = {
+			focus = INS_create_SISHANKAMRATA
+		}
+		x = 33
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_malaka_comission
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = INS_soedirmanplan
+		}
+		x = 40
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_terrain_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_malaka_comission
+		}
+		x = 40
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_reorganise_wehrkreis
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_create_SISHANKAMRATA
+		}
+		prerequisite = {
+			focus = INS_terrain_education
+		}
+		x = 40
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_perdjoeangan_kita
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_reorganise_wehrkreis
+		}
+		x = 40
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_expand_kemajoran
+		icon = GFX_goal_generic_construction
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		x = 43
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_expand_lanuds
+		icon = GFX_goal_continuous_air_production
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_kemajoran
+		}
+		x = 43
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_mulyonoplan_air
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		mutually_exclusive = {
+			focus = INS_halimplan_air
+			focus = INS_adisoetjiptoplan_air
+		}
+		x = 45
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_purchase_strats
+		icon = GFX_goal_generic_air_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = INS_mulyonoplan_air
+		}
+		x = 45
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_building_destruction
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_lanuds
+		}
+		prerequisite = {
+			focus = INS_purchase_strats
+		}
+		x = 43
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_carpet_bombing
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_strats
+		}
+		x = 45
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_halimplan_air
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		mutually_exclusive = {
+			focus = INS_adisoetjiptoplan_air
+			focus = INS_mulyonoplan_air
+		}
+		x = 49
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_purchase_tacts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_halimplan_air
+			focus = INS_mulyonoplan_air
+		}
+		x = 47
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_protecting_the_sea
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_strats
+			focus = INS_purchase_tacts
+		}
+		x = 47
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_disorganisation_doctrine
+		icon = GFX_goal_generic_air_doctrine
+		cost = 10.00
+		prerequisite = {
+			focus = INS_halimplan_air
+		}
+		x = 49
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_flexible_bombing
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_disorganisation_doctrine
+		}
+		x = 49
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_air_force
+		icon = GFX_goal_generic_build_airforce
+		cost = 10.00
+		prerequisite = {
+			focus = INS_carpet_bombing
+			focus = INS_flexible_bombing
+		}
+		mutually_exclusive = {
+			focus = INS_air_corps
+		}
+		x = 47
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_adisoetjiptoplan_air
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		mutually_exclusive = {
+			focus = INS_halimplan_air
+			focus = INS_mulyonoplan_air
+		}
+		x = 53
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_purchase_cas
+		icon = GFX_goal_generic_CAS
+		cost = 10.00
+		prerequisite = {
+			focus = INS_adisoetjiptoplan_air
+			focus = INS_halimplan_air
+		}
+		x = 51
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_purchase_fighter_licenses
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = INS_adisoetjiptoplan_air
+		}
+		x = 53
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_wing_formation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_cas
+			focus = INS_purchase_fighter_licenses
+		}
+		x = 51
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_air_superiority
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_fighter_licenses
+		}
+		x = 53
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_air_corps
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_flexible_bombing
+			focus = INS_air_superiority
+		}
+		mutually_exclusive = {
+			focus = INS_air_force
+		}
+		x = 51
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_swabhuwana_paksa
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_air_force
+			focus = INS_air_corps
+		}
+		x = 49
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_yogyakarta_academy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		x = 55
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_seskoau
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_yogyakarta_academy
+		}
+		x = 55
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_ace_generation
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_seskoau
+		}
+		prerequisite = {
+			focus = INS_purchase_fighter_licenses
+		}
+		x = 55
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_kopassus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_AURI
+		}
+		x = 57
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_establish_seskoal
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ALRI
+		}
+		x = 60
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_expand_ancolakademi
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_establish_seskoal
+		}
+		x = 60
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_sudarsoplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ALRI
+		}
+		mutually_exclusive = {
+			focus = INS_martadinataplan
+			focus = INS_lieplan
+		}
+		x = 62
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_naval_aviation
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sudarsoplan
+		}
+		x = 62
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_purchase_carrier
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_naval_aviation
+		}
+		x = 62
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_majapahit_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_carrier
+		}
+		x = 62
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_the_kahyangan
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = INS_majapahit_doctrine
+		}
+		mutually_exclusive = {
+			focus = INS_nazir_plan
+		}
+		x = 62
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_lieplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ALRI
+		}
+		mutually_exclusive = {
+			focus = INS_martadinataplan
+			focus = INS_sudarsoplan
+		}
+		x = 67
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_screens
+		icon = GFX_focus_generic_destroyer
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sudarsoplan
+			focus = INS_lieplan
+		}
+		x = 64
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_yos_sudarso_doctrine
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_carrier
+		}
+		x = 64
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_nazir_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_yos_sudarso_doctrine
+		}
+		mutually_exclusive = {
+			focus = INS_the_kahyangan
+		}
+		x = 64
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_power_projection
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_kahyangan
+		}
+		prerequisite = {
+			focus = INS_nazir_plan
+		}
+		x = 62
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_undersea_raider
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = INS_lieplan
+		}
+		x = 67
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_submarines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = INS_undersea_raider
+		}
+		x = 67
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_helfrich_doctrine
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = INS_submarines
+		}
+		x = 66
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_lone_wolfs
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_helfrich_doctrine
+		}
+		mutually_exclusive = {
+			focus = INS_wolf_packs
+		}
+		x = 66
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_reform_smugglers
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_submarines
+		}
+		x = 68
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_wolf_packs
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = INS_reform_smugglers
+		}
+		mutually_exclusive = {
+			focus = INS_lone_wolfs
+		}
+		x = 68
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_the_naval_guerillas
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_lone_wolfs
+		}
+		prerequisite = {
+			focus = INS_wolf_packs
+		}
+		x = 67
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_martadinataplan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ALRI
+		}
+		mutually_exclusive = {
+			focus = INS_sudarsoplan
+			focus = INS_lieplan
+		}
+		x = 72
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_cruisers
+		icon = GFX_focus_generic_cruiser2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_martadinataplan
+			focus = INS_lieplan
+		}
+		x = 70
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_fleet_in_being
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = INS_martadinataplan
+		}
+		x = 72
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_purchase_battleship
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_fleet_in_being
+		}
+		x = 72
+		y = 3
+
+	}
+	shared_focus = {
+		id = INS_fast_battleships
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_battleship
+		}
+		x = 70
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_sriwijaya_doctrine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_purchase_battleship
+		}
+		x = 72
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_pardi_plan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_sriwijaya_doctrine
+		}
+		mutually_exclusive = {
+			focus = INS_the_KRI_nusantara
+		}
+		x = 72
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_the_KRI_nusantara
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = INS_fast_battleships
+		}
+		mutually_exclusive = {
+			focus = INS_pardi_plan
+		}
+		x = 70
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_the_great_redwhite_fleet
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_KRI_nusantara
+		}
+		prerequisite = {
+			focus = INS_pardi_plan
+		}
+		x = 72
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_sidoarjo_academy
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10.00
+		prerequisite = {
+			focus = INS_establish_special_forces
+		}
+		x = 29
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_the_new_colonels
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = INS_foreign_training
+		}
+		x = 33
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_to_protect
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_new_colonels
+		}
+		prerequisite = {
+			focus = INS_perdjoeangan_kita
+		}
+		mutually_exclusive = {
+			focus = INS_to_serve
+		}
+		x = 35
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_to_serve
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_new_colonels
+		}
+		prerequisite = {
+			focus = INS_sidoarjo_academy
+		}
+		prerequisite = {
+			focus = INS_shock_and_awe
+		}
+		mutually_exclusive = {
+			focus = INS_to_protect
+		}
+		x = 31
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_kartika_eka_parsi
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_to_protect
+			focus = INS_to_serve
+		}
+		x = 33
+		y = 7
+
+	}
+	shared_focus = {
+		id = INS_expand_tandjoengpriok
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ALRI
+		}
+		x = 74
+		y = 1
+
+	}
+	shared_focus = {
+		id = INS_expand_ports
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_tandjoengpriok
+		}
+		x = 74
+		y = 2
+
+	}
+	shared_focus = {
+		id = INS_jalesveva_jayamahe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_the_naval_guerillas
+		}
+		prerequisite = {
+			focus = INS_the_great_redwhite_fleet
+		}
+		prerequisite = {
+			focus = INS_power_projection
+		}
+		x = 67
+		y = 7
+
+	}
+	shared_focus = {
+		id = INS_expand_palmoils
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_plantations
+		}
+		x = 12
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_limit_consessions
+		icon = GFX_goal_generic_defence
+		cost = 10.00
+		prerequisite = {
+			focus = INS_expand_palmoils
+		}
+		x = 12
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_a_working_nation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_industrialise_east_java
+		}
+		prerequisite = {
+			focus = INS_create_tankerfleed
+		}
+		prerequisite = {
+			focus = INS_limit_consessions
+		}
+		x = 14
+		y = 7
+
+	}
+	shared_focus = {
+		id = INS_transmigration
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_kasimo_plan
+		}
+		x = 8
+		y = 4
+
+	}
+	shared_focus = {
+		id = INS_transmigration_2
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_transmigration
+		}
+		x = 8
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_transmigration_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_transmigration_2
+		}
+		x = 8
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_intensify_fields
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_develop_deliserdang
+		}
+		x = 10
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_create_seedbanks
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_intensify_fields
+		}
+		x = 10
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_intensify_ranch
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_agrarian_past
+		}
+		x = 6
+		y = 5
+
+	}
+	shared_focus = {
+		id = INS_selective_slaughter
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_intensify_ranch
+		}
+		x = 6
+		y = 6
+
+	}
+	shared_focus = {
+		id = INS_welfed_nation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_transmigration_3
+		}
+		prerequisite = {
+			focus = INS_create_seedbanks
+		}
+		prerequisite = {
+			focus = INS_selective_slaughter
+		}
+		x = 8
+		y = 7
+
+	}
+	shared_focus = {
+		id = INS_kemakmuran_ekonomi
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = INS_a_working_nation
+		}
+		prerequisite = {
+			focus = INS_a_trained_workforce
+		}
+		prerequisite = {
+			focus = INS_welfed_nation
+		}
+		x = 14
+		y = 8
+
+	}
+	shared_focus = {
+		id = INS_dekon
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = INS_kemakmuran_ekonomi
+		}
+		x = 14
+		y = 9
+
+	}
+	shared_focus = {
+		id = INS_guided_economy
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = INS_dekon
+		}
+		x = 14
+		y = 10
+
+	}
+	shared_focus = {
+		id = INS_crackdown_capitalism
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = INS_guided_economy
+		}
+		x = 14
+		y = 11
+
+	}
+	shared_focus = {
+		id = INS_attack_foreign_assets
+		icon = GFX_goal_generic_attack_allies
+		cost = 10.00
+		prerequisite = {
+			focus = INS_guided_economy
+		}
+		x = 16
+		y = 11
+
+	}
+	shared_focus = {
+		id = INS_create_public_works
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = INS_guided_economy
+		}
+		x = 12
+		y = 11
+
+	}
+	shared_focus = {
+		id = INS_create_permina
+		icon = GFX_INS_permina
+		cost = 10.00
+		prerequisite = {
+			focus = INS_crackdown_capitalism
+		}
+		x = 14
+		y = 12
+
+	}
+	shared_focus = {
+		id = INS_expand_stateowned
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = INS_create_public_works
+		}
+		x = 12
+		y = 12
+
+	}
+	shared_focus = {
+		id = INS_devaluate_again
+		icon = GFX_INS_devaluate
+		cost = 10.00
+		prerequisite = {
+			focus = INS_attack_foreign_assets
+		}
+		x = 16
+		y = 12
+
+	}
+	shared_focus = {
+		id = INS_berdikari
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = INS_create_permina
+		}
+		prerequisite = {
+			focus = INS_devaluate_again
+		}
+		prerequisite = {
+			focus = INS_expand_stateowned
+		}
+		x = 14
+		y = 13
+
+	}
+

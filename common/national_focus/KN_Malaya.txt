@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_Malaya
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MLY
+		}
+	}
+	default = no
+
+	focus = {
+		id = MLY_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

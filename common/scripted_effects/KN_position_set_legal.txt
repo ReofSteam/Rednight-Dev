@@ -1,0 +1,1482 @@
+kn_set_pos_social_nationalist_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_nationalist_set
+			}
+			NOT = {
+				has_country_flag = banned_social_nationalist
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_2_social_nationalist
+			set_country_flag = position_2_set
+			log = "Social Nationalist at position 2"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_3_social_nationalist
+			set_country_flag = position_3_set
+			log = "Social Nationalist at position 3"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_4_social_nationalist
+			set_country_flag = position_4_set
+			log = "Social Nationalist at position 4"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_5_social_nationalist
+			set_country_flag = position_5_set
+			log = "Social Nationalist at position 5"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_6_social_nationalist
+			set_country_flag = position_6_set
+			log = "Social Nationalist at position 6"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_7_social_nationalist
+			set_country_flag = position_7_set
+			log = "Social Nationalist at position 7"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_8_social_nationalist
+			set_country_flag = position_8_set
+			log = "Social Nationalist at position 8"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_9_social_nationalist
+			set_country_flag = position_9_set
+			log = "Social Nationalist at position 9"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_10_social_nationalist
+			set_country_flag = position_10_set
+			log = "Social Nationalist at position 10"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_social_nationalist_set
+				}
+			}
+			set_country_flag = position_11_social_nationalist
+			set_country_flag = position_11_set
+			log = "Social Nationalist at position 11"
+		}
+	}
+}
+kn_set_pos_marxist_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_marxist_set
+			}
+			NOT = {
+				has_country_flag = banned_marxist
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_2_marxist
+			set_country_flag = position_2_set
+			log = "Marxist at position 2"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_3_marxist
+			set_country_flag = position_3_set
+			log = "Marxist at position 3"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_4_marxist
+			set_country_flag = position_4_set
+			log = "Marxist at position 4"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_5_marxist
+			set_country_flag = position_5_set
+			log = "Marxist at position 5"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_6_marxist
+			set_country_flag = position_6_set
+			log = "Marxist at position 6"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_7_marxist
+			set_country_flag = position_7_set
+			log = "Marxist at position 7"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_8_marxist
+			set_country_flag = position_8_set
+			log = "Marxist at position 8"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_9_marxist
+			set_country_flag = position_9_set
+			log = "Marxist at position 9"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_10_marxist
+			set_country_flag = position_10_set
+			log = "Marxist at position 10"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_marxist_set
+				}
+			}
+			set_country_flag = position_11_marxist
+			set_country_flag = position_11_set
+			log = "Marxist at position 11"
+		}
+	}
+}
+kn_set_pos_libertarian_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_libertarian_set
+			}
+			NOT = {
+				has_country_flag = banned_libertarian
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_2_libertarian
+			set_country_flag = position_2_set
+			log = "Libertarian at position 2"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_3_libertarian
+			set_country_flag = position_3_set
+			log = "Libertarian at position 3"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_4_libertarian
+			set_country_flag = position_4_set
+			log = "Libertarian at position 4"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_5_libertarian
+			set_country_flag = position_5_set
+			log = "Libertarian at position 5"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_6_libertarian
+			set_country_flag = position_6_set
+			log = "Libertarian at position 6"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_7_libertarian
+			set_country_flag = position_7_set
+			log = "Libertarian at position 7"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_8_libertarian
+			set_country_flag = position_8_set
+			log = "Libertarian at position 8"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_9_libertarian
+			set_country_flag = position_9_set
+			log = "Libertarian at position 9"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_10_libertarian
+			set_country_flag = position_10_set
+			log = "Libertarian at position 10"
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_libertarian_set
+				}
+			}
+			set_country_flag = position_11_libertarian
+			set_country_flag = position_11_set
+			log = "Libertarian at position 11"
+		}
+	}
+}
+kn_set_pos_moderate_socialist_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_moderate_socialist_set
+			}
+			NOT = {
+				has_country_flag = banned_moderate_socialist
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_2_moderate_socialist
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_3_moderate_socialist
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_4_moderate_socialist
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_5_moderate_socialist
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_6_moderate_socialist
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_7_moderate_socialist
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_8_moderate_socialist
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_9_moderate_socialist
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_10_moderate_socialist
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_moderate_socialist_set
+				}
+			}
+			set_country_flag = position_11_moderate_socialist
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_social_democrat_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_democrat_set
+			}
+			NOT = {
+				has_country_flag = banned_social_democrat
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_2_social_democrat
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_3_social_democrat
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_4_social_democrat
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_5_social_democrat
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_6_social_democrat
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_7_social_democrat
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_8_social_democrat
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_9_social_democrat
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_10_social_democrat
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_social_democrat_set
+				}
+			}
+			set_country_flag = position_11_social_democrat
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_social_liberal_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_social_liberal_set
+			}
+			NOT = {
+				has_country_flag = banned_social_liberal
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_2_social_liberal
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_3_social_liberal
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_4_social_liberal
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_5_social_liberal
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_6_social_liberal
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_7_social_liberal
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_8_social_liberal
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_9_social_liberal
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_10_social_liberal
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_social_liberal_set
+				}
+			}
+			set_country_flag = position_11_social_liberal
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_conservative_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_conservative_set
+			}
+			NOT = {
+				has_country_flag = banned_conservative
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_2_conservative
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_3_conservative
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_4_conservative
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_5_conservative
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_6_conservative
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_7_conservative
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_8_conservative
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_9_conservative
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_10_conservative
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_conservative_set
+				}
+			}
+			set_country_flag = position_11_conservative
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_authoritarian_democrat_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_authoritarian_democrat_set
+			}
+			NOT = {
+				has_country_flag = banned_authoritarian_democrat
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_2_authoritarian_democrat
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_3_authoritarian_democrat
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_4_authoritarian_democrat
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_5_authoritarian_democrat
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_6_authoritarian_democrat
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_7_authoritarian_democrat
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_8_authoritarian_democrat
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_9_authoritarian_democrat
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_10_authoritarian_democrat
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_authoritarian_democrat_set
+				}
+			}
+			set_country_flag = position_11_authoritarian_democrat
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_autocratic_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_autocratic_set
+			}
+			NOT = {
+				has_country_flag = banned_autocratic
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_2_autocratic
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_3_autocratic
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_4_autocratic
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_5_autocratic
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_6_autocratic
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_7_autocratic
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_8_autocratic
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_9_autocratic
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_10_autocratic
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_autocratic_set
+				}
+			}
+			set_country_flag = position_11_autocratic
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_fundamentalist_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_fundamentalist_set
+			}
+			NOT = {
+				has_country_flag = banned_fundamentalist
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_2_fundamentalist
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_3_fundamentalist
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_4_fundamentalist
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_5_fundamentalist
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_6_fundamentalist
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_7_fundamentalist
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_8_fundamentalist
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_9_fundamentalist
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_10_fundamentalist
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_fundamentalist_set
+				}
+			}
+			set_country_flag = position_11_fundamentalist
+			set_country_flag = position_11_set
+		}
+	}
+}
+kn_set_pos_voynist_legal = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = position_voynist_set
+			}
+			NOT = {
+				has_country_flag = banned_voynist
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_2_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_2_voynist
+			set_country_flag = position_2_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_3_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_3_voynist
+			set_country_flag = position_3_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_4_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_4_voynist
+			set_country_flag = position_4_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_5_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_5_voynist
+			set_country_flag = position_5_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_6_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_6_voynist
+			set_country_flag = position_6_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_7_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_7_voynist
+			set_country_flag = position_7_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_8_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_8_voynist
+			set_country_flag = position_8_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_9_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_9_voynist
+			set_country_flag = position_9_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_10_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_10_voynist
+			set_country_flag = position_10_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = position_11_set
+				}
+				NOT = {
+					has_country_flag = position_voynist_set
+				}
+			}
+			set_country_flag = position_11_voynist
+			set_country_flag = position_11_set
+		}
+	}
+}

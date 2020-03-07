@@ -1,0 +1,279 @@
+﻿capital = 284
+OOB = "NZL_1950"
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	fighter2 = 1
+	fighter3 = 1
+	CAS2 = 1
+	CAS3 = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	fighter1 = 1
+	CAS1 = 1
+}
+set_research_slots = 3
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 30
+	social_liberal = 17
+	conservative = 34
+	authoritarian_democrat = 10
+	autocratic = 0
+	fundamentalist = 9
+	voynist = 0
+}
+
+add_ideas = {
+	#medium_economy
+	NZL_Sidney_Holland_hog
+	NZL_William_Bodkin_interior
+	NZL_Clifton_Webb_for
+	NZL_Jack_Watts_eco
+	NZL_Ronald_Algie_edu
+	NZL_William_Goosman_tra
+	NZL_David_Maxwell_Fyfe_intel
+	NZL_Peter_Phipps_cos
+	NZL_Keith_Lindsay_Stewart_coa
+	NZL_David_Carnegie_air
+	NZL_Charles_Madden_navy
+	NZL_reliant_on_agriculture
+	NZL_forced_isolation
+	NZL_new_kingdom
+}
+
+create_country_leader = {
+	name = "Queen Elizabeth I"
+	desc = "POLITICS_ELIZABETH_I_DESC"
+	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		queen_of_the_people
+	}
+}
+create_country_leader = {
+	name = "Queen Elizabeth I"
+	desc = "POLITICS_ELIZABETH_I_DESC"
+	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		queen_of_the_people
+	}
+}
+create_country_leader = {
+	name = "Queen Elizabeth I"
+	desc = "POLITICS_ELIZABETH_I_DESC"
+	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		queen_of_the_people
+	}
+}
+create_country_leader = {
+	name = "Queen Elizabeth I"
+	desc = "POLITICS_ELIZABETH_I_DESC"
+	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		queen_of_the_people
+	}
+}
+create_country_leader = {
+	name = "Queen Elizabeth I"
+	desc = "POLITICS_ELIZABETH_I_DESC"
+	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		queen_of_the_people
+	}
+}
+create_country_leader = {
+	name = "Fintan P. Walsh"
+	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Fintan_Walsh.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "John A. Lee"
+	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_John_Lee.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Alexander Galbraith"
+	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Alexander_Galbraith.tga"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {
+	}
+}
+
+### Field Marshal
+create_field_marshal = {
+	name = "John Evelyn Duigan"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_John_Duigan.tga"
+	traits = {
+		old_guard
+		war_hero
+		organisational_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "G.H. Clifton"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_George_Clifton.tga"
+	traits = {
+		trait_reckless
+		commando
+	}
+	skill = 1
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "William Gentry"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_William_Gentry.tga"
+	traits = {
+		fortress_buster
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = { #Auto-Generated
+	name = "James Hargest"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_James_Hargest.tga"
+	traits = {
+		old_guard
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Edward Puttick"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Edward_Puttick.tga"
+	traits = {
+		old_guard
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Andrew Hamilton Russell"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Andrew_Russell.tga"
+	traits = {
+		old_guard
+		war_hero
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "John Saunders"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_John_Saunders.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Henry Horan"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Henry_Horan.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 2
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Peter Phipps"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Peter_Phipps.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "William Edward Parry"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_William_Parry.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "George Haines Faulkner"
+	portrait_path = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_George_Faulkner"
+	traits = {
+		spotter
+	}
+	skill = 1
+}
+

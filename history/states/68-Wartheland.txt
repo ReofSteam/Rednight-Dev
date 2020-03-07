@@ -1,0 +1,35 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		aluminium=24.000
+	}
+
+	history={
+		owner = FRG
+		add_core_of = FRG
+		victory_points = {
+			3473 1 
+		}
+		victory_points = {
+			11415 2 
+		}
+		victory_points = {
+			9496 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		444 478 537 3473 3572 6236 9387 9496 11415 11478 
+	}
+	manpower=1276800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

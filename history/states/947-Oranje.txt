@@ -1,0 +1,26 @@
+
+state={
+	id=947
+	name="STATE_947"
+	resources={
+		chromium=35.000
+	}
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			14648 3 
+		}
+	}
+
+	provinces={
+		14634 14648 
+	}
+	manpower=772100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

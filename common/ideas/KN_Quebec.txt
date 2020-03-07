@@ -1,0 +1,197 @@
+ideas = {
+	country = {
+		QUE_anti_anglophone = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea QUE_anti_anglophone"}
+			picture = Burning_UK_flag
+			modifier = {
+			}
+		}
+
+		QUE_great_darkness = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea QUE_great_darkness"}
+			picture = QUE_great_darkness
+			modifier = {
+			}
+		}
+
+		QUE_catholic_country = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea QUE_catholic_country"}
+			picture = QUE_catholic_country
+			modifier = {
+				 
+			}	
+		}	
+			
+	}
+    
+    head_of_government = {
+		QUE_Fritiof_Domo_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Fritiof Domö' the 'Head of Government'"}
+			picture = QUE_Fritiof_Domo
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                head_of_government
+                authoritarian_democrat_trait
+			}
+		}
+	}
+	minister_no_portfolio = {
+		
+	}
+	interior_minister = {
+		QUE_Carl_Persson_interior = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Carl Person' the 'Interior minister'"}
+			picture = QUE_Carl_Persson
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                interior_minister
+                authoritarian_democrat_trait
+			}
+		}
+	
+	}
+	economy_minister = {
+		QUE_Conrad_Carleson_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Conrad Carleson' the 'Economy Minister'"}
+			picture = QUE_Conrad_Carleson
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                economy_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	foreign_minister = {
+		QUE_Christian_Gunther_foreign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Christian Günther' the 'Foreign Minister'"}
+			picture = QUE_Christian_Gunther
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                foreign_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	education_minister = {
+		QUE_Georg_Andren_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Georg Andrén' the 'Education Minister'"}
+			picture = QUE_Georg_Andren
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                education_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	culture_minister = {
+		QUE_Georg_Andren_culture = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Georg Andrén' the 'Culture Minister'"}
+			picture = QUE_Georg_Andren
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                culture_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	transport_minister = {
+		QUE_Walter_Murray_transport = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Walter Murray' the 'Transport Minister'"}
+			picture = QUE_Walter_Murray
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                transport_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	head_of_intel = {
+		QUE_Thorwald_Bergquist_intel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Thorwald Bergquist' the 'Head of Intel'"}
+			picture = QUE_Thorwald_Bergquist
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                head_of_intel
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_staff = {
+		QUE_Helge_Jung_staff = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Helge Jung' the 'Chief of Staff'"}
+			picture = QUE_Helge_Jung
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                chief_of_staff
+                authoritarian_democrat_trait
+            }
+		}
+
+	}
+	chief_of_army = {
+		QUE_Carl_A_Ehrensvard_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Carl A. Ehrensvärd' the 'Chief of Army'"}
+			picture = QUE_Carl_A_Ehrensvard
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                chief_of_army
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_air_force = {
+		QUE_Bengt_Nordenskiold_air = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Bengt Nordenskiöld' the 'Chief of Air Force'"}
+			picture = QUE_Bengt_Nordenskiold
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                chief_of_air_force
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_navy = {
+		QUE_Helge_Stromback_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Helge Strömbäck' the 'Chief of Navy'"}
+			picture = QUE_Helge_Stromback
+			allowed = {
+				tag = QUE
+			}
+			traits = {
+                chief_of_navy
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+}

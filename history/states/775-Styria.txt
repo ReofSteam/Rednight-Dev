@@ -1,0 +1,34 @@
+
+state={
+	id=775
+	name="STATE_775"
+	resources={
+		steel=30.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = CIS
+		add_core_of = CIS
+		add_core_of = AUS
+
+		victory_points = {
+			13575 10 
+		}
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+
+	}
+
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 13575 13594 
+	}
+	manpower=1015100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

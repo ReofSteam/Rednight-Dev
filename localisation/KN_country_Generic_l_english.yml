@@ -1,0 +1,100 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+XXX_social_nationalist_party:0 ""
+XXX_social_nationalist_party_long:0 ""
+XXX_marxist_party:0 ""
+XXX_marxist_party_long:0 ""
+XXX_libertarian_party:0 ""
+XXX_libertarian_party_long:0 ""
+XXX_moderate_socialist_party:0 ""
+XXX_moderate_socialist_party_long:0 ""
+XXX_social_democrat_party:0 ""
+XXX_social_democrat_party_long:0 ""
+XXX_social_liberal_party:0 ""
+XXX_social_liberal_party_long:0 ""
+XXX_conservative_party:0 ""
+XXX_conservative_party_long:0 ""
+XXX_authoritarian_democrat_party:0 ""
+XXX_authoritarian_democrat_party_long:0 ""
+XXX_autocratic_party:0 ""
+XXX_autocratic_party_long:0 ""
+XXX_fundamentalist_party:0 ""
+XXX_fundamentalist_party_long:0 ""
+XXX_voynist_party:0 ""
+XXX_voynist_party_long:0 ""
+
+### Country Name ###
+
+XXX_social_nationalist:0 ""
+XXX_social_nationalist_ADJ:0 ""
+XXX_social_nationalist_DEF:0 ""
+XXX_marxist:0 ""
+XXX_marxist_ADJ:0 ""
+XXX_marxist_DEF:0 ""
+XXX_libertarian:0 ""
+XXX_libertarian_ADJ:0 ""
+XXX_libertarian_DEF:0 ""
+XXX_social_democrat:0 ""
+XXX_social_democrat_ADJ:0 ""
+XXX_social_democrat_DEF:0 ""
+XXX_social_liberal:0 ""
+XXX_social_liberal_ADJ:0 ""
+XXX_social_liberal_DEF:0 ""
+XXX_conservative:0 ""
+XXX_conservative_ADJ:0 ""
+XXX_conservative_DEF:0 ""
+XXX_authoritarian_democrat:0 ""
+XXX_authoritarian_democrat_ADJ:0 ""
+XXX_authoritarian_democrat_DEF:0 ""
+XXX_autocratic:0 ""
+XXX_autocratic_ADJ:0 ""
+XXX_autocratic_DEF:0 ""
+XXX_fundamentalist:0 ""
+XXX_fundamentalist_ADJ:0 ""
+XXX_fundamentalist_DEF:0 ""
+XXX_voynist:0 ""
+XXX_voynist_ADJ:0 ""
+XXX_voynist_DEF:0 ""
+
+### Focuses ###
+
+### Ideas ###
+generic_antiturkish_sentiment:0 "Anti-Turkish Sentiment"
+generic_antiturkish_sentiment_desc:0 "Anti-Turkish Sentiment, also known as Turkophobia or anti-Turkism, is hostility, intolerance, or racism against Turkish or Turkic people, Turkish culture, Turkic countries, or Turkey itself."
+
+### Flags ###
+
+### Tooltips ###
+military_junta_in_charge:0 "§RMilitary Junta§!"
+military_junta_in_government:0 "§RIn Government§!"
+military_junta_rigging_elections:0 "§RRigging elections§!"
+military_junta_controlled:0 "§GControlled by government§!"
+
+### Companies ###
+
+### Ministers ###
+generic_blank_head_of_government:0 "Blank"
+generic_blank_minister_no_portfolio:0 "Blank"
+generic_blank_interior_minister:0 "Blank"
+generic_blank_economy_minister:0 "Blank"
+generic_blank_foreign_minister:0 "Blank"
+generic_blank_education_minister:0 "Blank"
+generic_blank_culture_minister:0 "Blank"
+generic_blank_transport_minister:0 "Blank"
+generic_blank_head_of_intel:0 "Blank"
+generic_blank_chief_of_staff:0 "Blank"
+generic_blank_chief_of_army:0 "Blank"
+generic_blank_chief_of_air_force:0 "Blank"
+generic_blank_chief_of_navy:0 "Blank"
+
+### Leaders ###
+
+### Tech? ###

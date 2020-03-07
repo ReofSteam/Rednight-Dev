@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_Turkey
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	default = no
+
+	focus = {
+		id = TUR_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

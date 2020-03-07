@@ -1,0 +1,25 @@
+state={
+	id=832
+	name="STATE_832"
+	manpower = 172010
+
+	state_category = town
+	
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10740 3
+		}
+	}
+
+	provinces={
+		10740 10894 5038 1954
+		
+	}
+
+
+}

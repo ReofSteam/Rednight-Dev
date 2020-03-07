@@ -1,0 +1,97 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+CIS_social_nationalist_party:0 "BSC/SSP - League of Socialists of Cisleithania"
+CIS_social_nationalist_party_long:0 "Bund der Sozialisten Cisleithanien/Svazu Socialistů Předlitavska"
+CIS_marxist_party:0 "BSC/SSP - League of Socialists of Cisleithania"
+CIS_marxist_party_long:0 "Bund der Sozialisten Cisleithanien/Svazu Socialistů Předlitavska"
+CIS_libertarian_party:0 "BSC/SSP - League of Socialists of Cisleithania"
+CIS_libertarian_party_long:0 "Bund der Sozialisten Cisleithanien/Svazu Socialistů Předlitavska"
+CIS_moderate_socialist_party:0 "BSC/SSP - League of Socialists of Cisleithania"
+CIS_moderate_socialist_party_long:0 "Bund der Sozialisten Cisleithanien/Svazu Socialistů Předlitavska"
+CIS_social_democrat_party:0 "BSC/SSP - League of Socialists of Cisleithania"
+CIS_social_democrat_party_long:0 "Bund der Sozialisten Cisleithanien/Svazu Socialistů Předlitavska"
+CIS_social_liberal_party:0 "ÖVP - Austrian People’s Party"
+CIS_social_liberal_party_long:0 "Österreichische Volkspartei"
+CIS_conservative_party:0 "ÖVP - Austrian People’s Party"
+CIS_conservative_party_long:0 "Österreichische Volkspartei"
+CIS_authoritarian_democrat_party:0 "ÖH - Austrian Salvation Front"
+CIS_authoritarian_democrat_party_long:0 "Österreichisch Heilsfront"
+CIS_autocratic_party:0 "ÖH - Austrian Salvation Front"
+CIS_autocratic_party_long:0 "Österreichisch Heilsfront"
+CIS_fundamentalist_party:0 "ÖH - Austrian Salvation Front"
+CIS_fundamentalist_party_long:0 "Österreichisch Heilsfront"
+CIS_voynist_party:0 "NEPD - National Renewal Party of Germany"
+CIS_voynist_party_long:0 "Nationale Erneuerungspartei Deutschlands"
+
+### Country Name ###
+
+CIS_social_nationalist:0 "Union of Cisleithania"
+CIS_social_nationalist_ADJ:0 "Cisleithanian"
+CIS_social_nationalist_DEF:0 "the Union of Cisleithania"
+CIS_marxist:0 "Union of Cisleithania"
+CIS_marxist_ADJ:0 "Cisleithanian"
+CIS_marxist_DEF:0 "the Union of Cisleithania"
+CIS_libertarian:0 "Union of Cisleithania"
+CIS_libertarian_ADJ:0 "Cisleithanian"
+CIS_libertarian_DEF:0 "the Union of Cisleithania"
+CIS_moderate_socialist:0 "Union of Cisleithania"
+CIS_moderate_socialist_ADJ:0 "Cisleithanian"
+CIS_moderate_socialist_DEF:0 "the Union of Cisleithania"
+CIS_social_democrat:0 "Union of Cisleithania"
+CIS_social_democrat_ADJ:0 "Cisleithanian"
+CIS_social_democrat_DEF:0 "the Union of Cisleithania"
+CIS_social_liberal:0 "Union of Cisleithania"
+CIS_social_liberal_ADJ:0 "Austrian"
+CIS_social_liberal_DEF:0 "the Union of Cisleithania" 
+CIS_conservative:0 "Austrian Republic"
+CIS_conservative_ADJ:0 "Austrian"
+CIS_conservative_DEF:0 "the Austrian Republic" 
+CIS_authoritarian_democrat:0 "Austrian Republic"
+CIS_authoriarian_democrat_ADJ:0 "Austrian"
+CIS_authoritarian_democrat_DEF:0 "the Austrian Republic" 
+CIS_autocratic:0 "Austrian Republic"
+CIS_autocratic_ADJ:0 "Austrian"
+CIS_autocratic_DEF:0 "the Austrian Republic" 
+CIS_fundamentalist:0 "Federal State of Austria"
+CIS_fundamentalist_ADJ:0 "Austrian"
+CIS_fundamentalist_DEF:0 "the Federal State of Austria" 
+CIS_voynist:0 "State of Austria"
+CIS_voynist_ADJ:0 "Austrian"
+CIS_voynist_DEF:0 "the State of Austria" 
+
+### Focuses ###
+
+ 
+### Ideas ###
+ 
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+CIS_Karl_Kreibich_hog:0 "Karl Kreibich"
+CIS_Antonin_Zapotocky_interior:0 "Antonín Zápotocký"
+CIS_Otto_Bauer_economy:0 "Otto Bauer"
+CIS_Edvard_Benes_foreign:0 "Edvard Beneš" 
+CIS_Alfred_Klahr_education:0 "Alfred Klahr"
+CIS_Karl_Renner_culture:0 "Karl Renner"
+CIS_Josef_Smrkovsky_transport:0 "Gerhart Eisler"
+CIS_Arnold_Deutsch_intel:0 "Arnold Deutsch"
+CIS_Theodor_Koerner_cos:0 "Theodor Koerner"
+CIS_Jaroslav_Prochzka_coa:0 "Jaroslav Prochazka"
+CIS_Gutsav_Hauck_coaf:0 "Gustav Hauck"
+
+### Leaders ###
+
+### Tech? ###

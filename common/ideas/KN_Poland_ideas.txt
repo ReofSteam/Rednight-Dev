@@ -1,0 +1,261 @@
+ideas = {
+	country = {
+		WPL_unfaithful_alliances = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WPL_unfaithful_alliances"}
+			picture = unfaithful_alliances
+			modifier = {
+				war_support_factor = -0.20
+				political_power_gain = -0.15
+			}
+		}
+		WPL_political_divisions = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WPL_political_divisions"}
+			picture = political_divisions
+			modifier = {
+				stability_factor = -0.50
+				political_power_gain = -0.20
+			}
+		}
+		WPL_memories_of_the_devastation_of_warsaw = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea WPL_memories_of_the_devastation_of_warsaw"}
+			picture = memories_of_the_devastation_of_warsaw
+			modifier = {
+				production_speed_industrial_complex_factor = +0.15
+				production_speed_arms_factory_factor = +0.05
+			}
+		}
+	}
+	head_of_government = {
+		WPL_Adam_Doboszynski_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Adam Doboszyński' the 'Head of Government'"}
+			picture = WPL_Adam_Doboszynski
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Adam_Doboszynski_Dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+		WPL_Roman_Rybarski_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Roman Rybarski' the 'Head of Government'"}
+			picture = WPL_Roman_Rybarski
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Roman_Rybarski_Dead }
+					has_country_flag = can_replace_hog
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+	minister_no_portfolio = {
+	}
+	interior_minister = {
+		WPL_Jedrzej_Giertych_interior = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jędrzej Giertych' the 'Interior minister'"}
+			picture = WPL_Jedrzej_Giertych
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Jedrzej_Giertych_Dead }
+					has_country_flag = can_replace_interior
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	economy_minister = {
+		WPL_Adam_Doboszynski_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Adam Doboszyński' the 'Economy Minister'"}
+			picture = WPL_Adam_Doboszynski
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Adam_Doboszynski_Dead }
+					has_country_flag = can_replace_economy
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	foreign_minister = {
+		WPL_Witold_Staniszkis_foreign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Witold Staniszkis' the 'Foreign Minister'"}
+			picture = WPL_Witold_Staniszkis
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Witold_Staniszkis_Dead }
+					has_country_flag = can_replace_foreign
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	education_minister = {
+		WPL_Jan_Dobraczynski_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jan Dobraczyński' the 'Education Minister'"}
+			picture = WPL_Jan_Dobraczynski
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Jan_Dobraczynski_Dead }
+					has_country_flag = can_replace_education
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	culture_minister = {
+		WPL_Jan_Mosdorf_culture = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jan Mosdorf' the 'Culture Minister'"}
+			picture = WPL_Jan_Mosdorf
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Jan_Mosdorf_Dead }
+					has_country_flag = can_replace_culture
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	transport_minister = {
+		WPL_Stanislaw_Rymar_transport = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Stanislaw Rymar' the 'Transport Minister'"}
+			picture = WPL_Stanislaw_Rymar
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Stanislaw_Rymar_Dead }
+					has_country_flag = can_replace_transport
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	head_of_intel = {
+		WPL_Stanislaw_Stronski_intel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Stanislaw Stronski' the 'Head of Intel'"}
+			picture = WPL_Stanislaw_Stronski
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Stanislaw_Stronski_Dead }
+					has_country_flag = can_replace_intel
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	chief_of_staff = {
+		WPL_Wladslaw_Anders_staff = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Władysław Anders' the 'Chief of Staff'"}
+			picture = WPL_Wladslaw_Anders
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Wladslaw_Anders_Dead }
+					has_country_flag = can_replace_cos
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+
+	}
+	chief_of_army = {
+		WPL_Fransciszek_Kleeberg_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Franciszek Kleeberg' the 'Chief of Army'"}
+			picture = WPL_Fransciszek_Kleeberg
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Fransciszek_Kleeberg_Dead }
+					has_country_flag = can_replace_coa
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	chief_of_air_force = {
+		WPL_Jan_Zumbach_air_force = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jan Zumbach' the 'Chief of Army'"}
+			picture = WPL_Jan_Zumbach
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Jan_Zumbach_Dead }
+					has_country_flag = can_replace_coaf
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+	chief_of_navy = {
+		WPL_Jozef_Unrug_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jozef Unrug' the 'Chief of Army'"}
+			picture = WPL_Jozef_Unrug
+			allowed = { original_tag = WPL }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = WPL_Jozef_Unrug_Dead }
+					has_country_flag = can_replace_con
+				}
+			}
+			traits = {
+			}
+			cancel_if_invalid = no
+		}
+	
+	}
+}

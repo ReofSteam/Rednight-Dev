@@ -1,0 +1,37 @@
+
+state={
+	id=838
+	name="STATE_838"
+	manpower=1473000
+	
+	state_category = city
+	
+	resources={
+		
+	}
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+		
+		victory_points = {
+			6788 20
+		}
+		
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 8
+			6788 = {
+				naval_base = 8
+
+			}
+		}
+	}
+	
+	provinces={
+		3772 6788 11891
+	}
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,94 @@
+spriteTypes = {	
+
+	# spriteType = {
+		# name = "GFX_decision_"
+		# texturefile = "gfx/interface/decisions/.dds"
+	# }
+
+	### categories
+	
+	### category pictures
+	
+	spriteType = {
+		name = "GFX_decision_cat_socialist_german_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_socialist_german_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_soviet_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_soviet_flag.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_portuguese_civil_war"
+		texturefile = "gfx/interface/decisions/decision_cat_portuguese_civil_war.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_zveno_coup"
+		texturefile = "gfx/interface/decisions/decision_cat_zveno_coup.dds"
+	}
+	
+	### decision icons
+
+	spriteType = {
+		name = "GFX_decision_generic_fort"
+		texturefile = "gfx/interface/decisions/decision_generic_fort.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_anchor"
+		texturefile = "gfx/interface/decisions/decision_generic_anchor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_factory"
+		texturefile = "gfx/interface/decisions/decision_generic_factory.dds"
+	}
+	
+	##Insulindia
+	spriteType = {
+		name = "GFX_decision_INS_triumvirate"
+		texturefile = "gfx/interface/decisions/decision_icon_INS_triumvirate.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_triumvirate_murba"
+		texturefile = "gfx/interface/decisions/icon_INS_murba.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_triumvirate_masyumi"
+		texturefile = "gfx/interface/decisions/icon_INS_masyumi.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_triumvirate_PNI"
+		texturefile = "gfx/interface/decisions/icon_INS_pni.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_generic_bill_signing"
+		texturefile = "gfx/interface/decisions/INS_generic_bill_signing.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_generic_decentralise"
+		texturefile = "gfx/interface/decisions/INS_generic_decentralise.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_generic_petition"
+		texturefile = "gfx/interface/decisions/INS_generic_petition.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_oil_nationalise"
+		texturefile = "gfx/interface/decisions/INS_oil_nationalise.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_KAL_sultan_council"
+		texturefile = "gfx/interface/decisions/icon_KAL_council.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_KAL_sultan_deal"
+		texturefile = "gfx/interface/decisions/KAL_sultan_deal.tga"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_ampera_struggle"
+		texturefile = "gfx/interface/decisions/INS_ampera_struggle.tga"
+	}
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=1361
+	name="STATE_1361"
+	resources={
+		steel=28.000
+	}
+	
+	state_category = wasteland
+
+	history={
+		owner = AST
+		add_core_of=AST
+		buildings={
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1478 2139 2223 4487 8237 10979 11013 12311 12915 12936 12992 13132
+	}
+	impassable = yes
+}

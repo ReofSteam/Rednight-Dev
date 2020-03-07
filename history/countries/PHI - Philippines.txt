@@ -1,0 +1,139 @@
+﻿capital = 327
+OOB = "PHI"
+set_cosmetic_tag = GOVERNORATE
+JAP = { 
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+
+		set_autonomy = {
+			target = MLU
+			autonomy_state = kn_autonomous
+		}
+		else = {
+			puppet = MLU 
+		}
+	}
+}
+set_convoys = 20
+set_research_slots = 3
+
+set_stability = 0.50
+set_war_support = 0.20
+
+set_country_flag = one_party_nation
+
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_voynist
+
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 25
+	autocratic = 50
+	fundamentalist = 0
+	voynist = 25
+}
+
+add_ideas = {
+	PHI_japanese_military_occupation
+	PHI_promised_independent
+	PHI_native_attitude_apathetic
+	PHI_guerllia_resistance 
+}
+
+add_ideas = {
+	#medium_economy # Ministers + ideas - a bunch of random for the moment (need more historical research)
+	#PHI_Sergio_Osmena_hog_sli
+	#PHI_Quintin_Paredes_for_sli
+	#PHI_Elpidio_Quirino_eco_sli
+	#PHI_Jose_Yulo_sec_sli
+}
+
+create_country_leader = {
+	name = "Paulinos Santos"
+	desc = "POLITICS_BASILIO_J_VALDEZ_DESC"
+	picture = "gfx/leaders/ASIA/PHI/PHI_Paulinos_Santos.tga"
+	expire = "1960.1.26"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Ramon Magsaysay"
+	desc = "POLITICS_ELPIDO_QUIRINO_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Ramon_Magsaysay.tga"
+	expire = "1960.8.1"
+	ideology = conservative_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Ruperto Kangleon"
+	desc = "POLITICS_RUPERTO_KANGLEON_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Ruperto Kangleon.tga"
+	expire = "1960.4.15"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Masaharu Homma"
+	desc = "POLITICS_MASAHARU_HOMMA_DESC"
+	picture = "gfx/leaders/ASIA/PHI/PHI_Masaharu_Homma.tga"
+	expire = "1959.11.6"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+
+### Field Marshal
+
+create_field_marshal = {
+	name = "Basilio J. Valdez"
+	portrait_path = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Basilio_J_Valdez.tga"
+	traits = { career_officer media_personality organisational_leader }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+### Corps Commander
+
+
+### Navy Leader
+

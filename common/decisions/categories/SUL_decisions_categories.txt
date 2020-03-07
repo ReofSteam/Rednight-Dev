@@ -1,0 +1,20 @@
+SUL_foreign_policy = {
+	icon = GFX_decision_generic_ignite_civil_war
+	allowed = {	original_tag = SUL }
+	visible = {	has_completed_focus = SUL_onwards }
+}
+SUL_aftermath_missions = {
+	icon = GFX_decision_category_generic_crisis
+	allowed = {	original_tag = SUL }
+	visible = {	has_completed_focus = SUL_aa_control }
+}
+SUL_trans_celebes_road = {
+	icon = GFX_decision_generic_construction
+	allowed = {	
+		original_tag = SUL
+		NOT = {
+			has_completed_focus = SUL_trans_celebes
+		}
+	}
+	visible = {	has_completed_focus = SUL_aa_control }
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=294
+	name="STATE_294"
+
+	history={
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		5049 13721 15405 15407 15409 
+	}
+	manpower=84600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

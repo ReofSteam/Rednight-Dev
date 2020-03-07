@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_BRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BRA
+		}
+	}
+	default = no
+
+	focus = {
+		id = BRA_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

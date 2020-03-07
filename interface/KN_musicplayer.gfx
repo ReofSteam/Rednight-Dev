@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_krasnacht_album_art"
+		texturefile = "gfx//interface//kn_bookmark//krasnacht_album.tga"
+		noOfFrames = 2
+	}
+}

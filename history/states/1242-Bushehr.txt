@@ -1,0 +1,24 @@
+
+state={
+	id=1242
+	name="STATE_1242"
+	provinces={
+		10797 12832 14932 14940 14958 14970 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+			12832 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	manpower=202665
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

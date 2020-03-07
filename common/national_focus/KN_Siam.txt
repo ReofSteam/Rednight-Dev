@@ -1,0 +1,343 @@
+focus_tree = { 
+id = thailand_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = SIA 
+} 
+} 
+#Focus for State Subsidied Religions
+focus = { 
+id = SIA_statesubsidiedreligions
+icon = GFX_goal_tfv_sever_ties_with_uk
+x = 2
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_limitedfreedom } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Divided Party
+focus = { 
+id = SIA_adividedparty
+icon = GFX_goal_anti_comintern_pact
+x = 2
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_monthlycongressmeetings } 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+set_political_party= { 
+ideology = social_nationalist
+popularity = 0.3 
+}
+set_political_party= { 
+ideology = social_democrat
+popularity = 0.3 
+}
+set_political_party= { 
+ideology = moderate_socialist
+popularity = 0.5 
+}
+	set_politics = {
+		elections_allowed = yes
+	}
+} 
+
+ } 
+
+#Focus for Political Reform
+focus = { 
+id = SIA_politicalreform
+icon = GFX_focus_prc_agrarian_socialism
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_keepmarxism } 
+mutually_exclusive = { focus = SIA_reinstatedemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The New Society
+focus = { 
+id = SIA_thenewsociety
+icon = GFX_goal_generic_soviet_construction
+x = 0
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_keepmarxism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Military Dictatorship
+focus = { 
+id = SIA_militarydictatorship
+icon = GFX_goal_generic_political_pressure
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_abumpintime } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Phibun is Back!
+focus = { 
+id = SIA_phibunisback
+icon = GFX_goal_tfv_can_compromise_with_quebec
+x = 14
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_abumpintime } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Social Democracy
+focus = { 
+id = SIA_socialdemocracy
+icon = GFX_goal_tfv_burn_the_royal_portraits
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_politicalreform focus = SIA_continuewiththerepublic } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Limited Freedom
+focus = { 
+id = SIA_limitedfreedom
+icon = GFX_goal_generic_major_alliance
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_politicalreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bhumibol is back!
+focus = { 
+id = SIA_bhumibolisback
+icon = GFX_focus_rom_royal_dictatorship
+x = 8
+y = 2
+cost = 4
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_reinstatedemocracy } 
+mutually_exclusive = { focus = SIA_continuewiththerepublic } 
+ai_will_do = { 
+ factor = 2
+ } 
+completion_reward = { 
+country_event= {
+days = 1 
+id = krasnacht.3
+}
+ } 
+
+ } 
+
+#Focus for Continue with the Republic
+focus = { 
+id = SIA_continuewiththerepublic
+icon = GFX_focus_generic_the_giant_wakes
+x = 6
+y = 2
+cost = 2
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_reinstatedemocracy } 
+mutually_exclusive = { focus = SIA_bhumibolisback } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A bump in time
+focus = { 
+id = SIA_abumpintime
+icon = GFX_goal_support_fascism
+x = 13
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_thepoliticalsituation } 
+mutually_exclusive = { focus = SIA_reinstatedemocracy } 
+
+ } 
+
+#Focus for Reinstate Democracy
+focus = { 
+id = SIA_reinstatedemocracy
+icon = GFX_goal_support_democracy
+x = 7
+y = 1
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_thepoliticalsituation } 
+mutually_exclusive = { focus = SIA_politicalreform focus = SIA_abumpintime }ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_popularity= { 
+ideology = marxist
+popularity = -0.1 
+}
+ } 
+
+ } 
+
+#Focus for The Political Situation
+focus = { 
+id = SIA_thepoliticalsituation
+icon = GFX_goal_generic_demand_territory
+x = 7
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+completion_reward = { 
+add_political_power= 50
+ } 
+
+ } 
+
+#Focus for Keep Marxism
+focus = { 
+id = SIA_keepmarxism
+icon = GFX_goal_support_communism
+x = 1
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_thepoliticalsituation } 
+ai_will_do = { 
+ factor = 2
+ } 
+
+ } 
+
+#Focus for Monthly Congress Meetings
+focus = { 
+id = SIA_monthlycongressmeetings
+icon = GFX_focus_generic_soviet_politics
+x = 2
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_statesubsidiedreligions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Form the DTMPT
+focus = { 
+id = SIA_formthedtmpt
+icon = GFX_goal_generic_dangerous_deal
+x = 0
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_thenewsociety } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ban Siam in Exile
+focus = { 
+id = SIA_bansiaminexile
+icon = GFX_focus_rom_abdicate
+x = 0
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_demolishcoprruption } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Military Democracy
+focus = { 
+id = SIA_militarydemocracy
+icon = GFX_goal_generic_neutrality_focus
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_bhumibolisback focus = SIA_militarydictatorship } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Propaganda Effort
+focus = { 
+id = SIA_propagandaeffort
+icon = GFX_goal_generic_propaganda
+x = 0
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_bansiaminexile } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Demolish Coprruption
+focus = { 
+id = SIA_demolishcoprruption
+icon = GFX_goal_continuous_suppression
+x = 0
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = SIA_formthedtmpt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

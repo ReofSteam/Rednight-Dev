@@ -1,0 +1,23 @@
+
+state={
+	id=719
+	name="STATE_719"
+	resources={
+		chromium=76.000
+	}
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		14608 14630 14636 14642 
+	}
+	manpower=2697200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

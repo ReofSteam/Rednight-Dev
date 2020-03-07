@@ -1,0 +1,102 @@
+﻿capital = 334
+
+oob = "INS"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_convoys = 25
+
+give_resource_rights = { receiver = JAP state = 1330 }
+
+add_ideas = {
+#starting
+	KAL_council_neutral
+	KAL_central_low
+	KAL_control_high
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+##Dewan Stuff
+set_country_flag = KAL_bulungan_disloyal
+set_country_flag = KAL_Kutai_disloyal
+set_country_flag = KAL_Paser_content
+set_country_flag = KAL_Riwut_loyal
+set_country_flag = KAL_Kotawaringin_content
+set_country_flag = KAL_Ketapang_loyal
+
+set_variable = { var = KAL_INS_control value = 5 }
+set_variable = { var = KAL_PON_control value = 65 }
+set_variable = { var = KAL_dewan_power value = 55 }
+
+set_country_flag = KAL_PON_controller
+
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 10
+	social_liberal = 14
+	conservative = 8
+	authoritarian_democrat = 8
+	autocratic = 37
+	fundamentalist = 3
+	voynist = 20
+}
+
+create_country_leader = {
+	name = "Sultan Hamid II"
+	desc = "POLITICS_SYARIF_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
+	expire = "1965.10.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Sultan Hamid II"
+	desc = "POLITICS_SYARIF_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
+	expire = "1965.10.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Dewan Kesultanan-Kerajaan Kalimantan"
+	desc = "POLITICS_DEWANK_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Dewan_Kalimantan.tga"
+	expire = "1965.10.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ibnu Hadjar"
+	desc = "POLITICS_Hadjar_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Hadjar.tga"
+	expire = "1965.10.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}

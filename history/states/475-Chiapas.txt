@@ -1,0 +1,21 @@
+
+state={
+	id=475
+	name="STATE_475"
+
+	history={
+		owner = CHP
+		add_core_of = CHP
+		add_claim_by = MEX
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1900 12753 13442 13450 15640 15641 15642
+	}
+	manpower=805874
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

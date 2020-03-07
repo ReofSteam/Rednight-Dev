@@ -1,0 +1,420 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { # Country
+	name = GetKdfWagenName
+	text = {
+		localization_key = GER_KDF_WAGEN_NAME
+	}
+}
+
+defined_text = { # Country
+	name = GetHermannGoringWerkeName
+	text = {
+		localization_key = GER_HERMANN_GORING_WERKE_NAME
+	}
+}
+
+defined_text = { # for PRC tree
+	name = GetManchuriaPuppet
+	text = {
+		localization_key = PRC_provoke_japan_korea
+	}
+}
+
+defined_text = { # for shared tree
+	name = GetVietnamOwner
+	text = {
+		trigger = {
+			671 = {
+				is_controlled_by = JAP
+			}
+		}
+		localization_key = CHI_vietnam_JAP
+	}
+	text = {
+		localization_key = CHI_vietnam_FRA
+	}
+}
+
+defined_text = { # Country
+	name = GetGermanTechnologyName
+	text = {
+		trigger = {
+			original_tag = RAJ
+			is_in_faction_with = JAP
+			NOT = { is_in_faction_with = GER }
+		}
+		localization_key = RAJ_german_technology_japan
+	}
+	text = {
+		localization_key = RAJ_german_technology_german
+	}
+}
+
+defined_text = { # Country
+	name = GetJAAFAName
+	text = {
+		trigger = {
+			original_tag = RAJ
+			is_in_faction_with = GER
+			NOT = { is_in_faction_with = JAP }
+		}
+		localization_key = RAJ_japanese_army_air_force_academy_german
+	}
+	text = {
+		localization_key = RAJ_japanese_army_air_force_academy_japan
+	}
+}
+
+defined_text = { #
+	name = GetWehrmachtAngerLevel
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 0 compare = less_than }
+
+		}
+		localization_key = SS_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 0 compare = greater_than_or_equals }
+			check_variable = { var = wehrmacht_anger value = 10 compare = less_than }
+
+		}
+		localization_key = SS_calm
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 10 compare = greater_than_or_equals }
+			check_variable = { var = wehrmacht_anger value = 20 compare = less_than }
+
+		}
+		localization_key = SS_worried
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 20 compare = greater_than_or_equals }
+			check_variable = { var = wehrmacht_anger value = 30 compare = less_than }
+
+		}
+		localization_key = SS_angry
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 30 compare = greater_than_or_equals }
+			check_variable = { var = wehrmacht_anger value = 40 compare = less_than }
+
+		}
+		localization_key = SS_plotting
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = wehrmacht_anger value = 40 compare = greater_than_or_equals }
+		}
+		localization_key = SS_rebellious
+	}
+}
+
+defined_text = { #
+	name = GetSSAngerLevel
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 0 compare = less_than }
+
+		}
+		localization_key = SS_loyal
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 0 compare = greater_than_or_equals }
+			check_variable = { var = SS_anger value = 10 compare = less_than }
+
+		}
+		localization_key = SS_calm
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 10 compare = greater_than_or_equals }
+			check_variable = { var = SS_anger value = 20 compare = less_than }
+
+		}
+		localization_key = SS_worried
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 20 compare = greater_than_or_equals }
+			check_variable = { var = SS_anger value = 30 compare = less_than }
+
+		}
+		localization_key = SS_angry
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 30 compare = greater_than_or_equals }
+			check_variable = { var = SS_anger value = 40 compare = less_than }
+
+		}
+		localization_key = SS_plotting
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = { var = SS_anger value = 40 compare = greater_than_or_equals }
+		}
+		localization_key = SS_rebellious
+	}
+}
+defined_text = {
+	name = GetSenateElectionOutcome
+	text = {
+		trigger = {
+			check_variable = { senators_for_reelection < 0 }
+		}
+		localization_key = SenateElectionLost
+	}
+	text = {
+		trigger = {
+			check_variable = { var = senators_for_reelection value = 0 compare = greater_than_or_equals }
+		}
+		localization_key = SenateElectionGained
+	}
+}
+defined_text = {
+	name = GetHouseElectionOutcome
+	text = {
+		trigger = {
+			check_variable = { representatives_for_reelection < 0 }
+		}
+		localization_key = HouseElectionLost
+	}
+	text = {
+		trigger = {
+			check_variable = { var = representatives_for_reelection value = 0 compare = greater_than_or_equals }
+		}
+		localization_key = HouseElectionGained
+	}
+}
+defined_text = {
+	name = GET_AUSTRALIA_NEW_ZEALAND_STATUS
+	text = {
+		trigger = {
+			AST = { is_subject_of = GBR }
+			NZL = { is_subject_of = GBR }
+		}
+		localization_key = AST_NZL_PUPPET
+	}
+	text = {
+		trigger = {
+			AND = {
+				AST = { is_subject_of = GBR }
+				NZL = { not = { is_subject_of = GBR } }
+			}
+		}
+		localization_key = AST_democratic
+	}
+	text = {
+		trigger = {
+			AND = {
+				NZL = { is_subject_of = GBR }
+				AST = { not = { is_subject_of = GBR } }
+			}
+		}
+		localization_key = NZL_democratic
+	}
+	text = {
+		localization_key = AST_NZL_NO_PUPPET_FALLBACK
+	}
+}
+defined_text = { 
+	name = GetCSAState
+	text = {
+		random_list = {
+			10 = { localization_key = STATE_362 }
+			10 = { localization_key = STATE_363 }
+			10 = { localization_key = STATE_364 }
+			10 = { localization_key = STATE_365 }
+			10 = { localization_key = STATE_366 }
+			10 = { localization_key = STATE_367 }
+			10 = { localization_key = STATE_368 }
+		}
+	}
+}
+defined_text = {
+	name = GETUSASTATE
+	text = {
+		random_list = {
+			10 = { localization_key = STATE_382 }
+			10 = { localization_key = STATE_383 }
+			10 = { localization_key = STATE_384 }
+			10 = { localization_key = STATE_389 }
+			10 = { localization_key = STATE_390 }
+			10 = { localization_key = STATE_391 }
+			10 = { localization_key = STATE_386 }
+		}
+	}
+}
+
+defined_text = {
+	name = GETUKPROKINGNEWSPAPER
+	text = {
+		random_list = {
+			10 = { localization_key = eng_newspaper_daily_express }
+			10 = { localization_key = eng_newspaper_daily_mail }
+		}
+	}
+}
+
+defined_text = {
+	name = GETUKANTIKINGNEWSPAPER
+	text = {
+		random_list = {
+			10 = { localization_key = eng_newspaper_the_times }
+			10 = { localization_key = eng_newspaper_the_morning_post }
+			10 = { localization_key = eng_newspaper_daily_herald }
+			10 = { localization_key = eng_newspaper_the_daily_telegraph }
+		}
+	}
+}
+
+defined_text = {
+	name = GetLimitedRearmamentDesc
+	text = {
+		localization_key = GBR_LIMITED_REARMAMENT_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetRoyalTankRegimentName
+	text = {
+		localization_key = GBR_ROYAL_TANK_REGIMENT_NAME_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetRoyalTankRegimentDesc
+	text = {
+		localization_key = GBR_ROYAL_TANK_REGIMENT_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetRoyalOrdnanceFactoriesName
+	text = {
+		localization_key = GBR_ROYAL_ORDNANCE_FACTORIES_NAME_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetRoyalOrdnanceFactoriesDesc
+	text = {
+		localization_key = GBR_ROYAL_ORDNANCE_FACTORIES_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetBSACompanyDesc
+	text = {
+		localization_key = GBR_BSA_COMPANY_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetGeneralRearmamentDesc
+	text = {
+		localization_key = GBR_GENERAL_REARMAMENT_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetAirRearmamentDesc
+	text = {
+		localization_key = GBR_AIR_REARMAMENT_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetNavalRearmamentDesc
+	text = {
+		localization_key = GBR_NAVAL_REARMAMENT_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetCoastalCommandDesc
+	text = {
+		localization_key = GBR_COASTAL_COMMAND_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetBritanniaRulesTheWavesDesc
+	text = {
+		localization_key = GBR_BRITANNIA_RULES_THE_WAVES_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetVanguardDesc
+	text = {
+		localization_key = GBR_VANGUARD_DESC_HISTORICAL
+	}
+}
+
+defined_text = {
+	name = GetWilhelminismDesc
+	text = {
+		localization_key = HOL_WILHELMINISM_FASCISM
+	}
+}
+
+defined_text = { # Country
+	name = GetCandidatesFascism
+	text = {
+		trigger = {
+			has_global_flag = MTG_flag_955
+		}
+		localization_key = USA_hilt_candidate
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = { # Country
+	name = GetCandidatesFascism2
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = { # Country
+	name = GetStrengthRatioBritain
+	text = {
+		localization_key = Naval_treaty_lower_than_50
+	}
+}
+defined_text = { # Country
+	name = GetRelevantNavalTreatyNation
+	text = {
+		localization_key = USA_Naval_treaty_nation
+	}
+}

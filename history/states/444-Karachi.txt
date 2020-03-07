@@ -1,0 +1,22 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1179 5043 7049 7917 8066 8098 10735 10806 10813 12761 12774 14941 15306 15043 15103 15129 15296 15297 15298 15305 15312
+	}
+	manpower=463500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

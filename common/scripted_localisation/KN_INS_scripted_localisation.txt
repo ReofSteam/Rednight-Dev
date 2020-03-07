@@ -1,0 +1,419 @@
+##Council of Rulers Stuff
+defined_text = { ##Bulungan
+	name = KAL_Bulungan
+	text = {
+		trigger = {
+			has_country_flag = KAL_bulungan_contentious
+		}
+		localization_key = KAL_BUL_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_bulungan_disloyal
+		}
+		localization_key = KAL_BUL_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_bulungan_content
+		}
+		localization_key = KAL_BUL_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_bulungan_sympathetic
+		}
+		localization_key = KAL_BUL_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_bulungan_loyal
+		}
+		localization_key = KAL_BUL_loyal
+	}
+}
+
+defined_text = { ##Kutai
+	name = KAL_Kutai
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kutai_contentious
+		}
+		localization_key = KAL_KUT_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kutai_disloyal
+		}
+		localization_key = KAL_KUT_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kutai_content
+		}
+		localization_key = KAL_KUT_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kutai_sympathetic
+		}
+		localization_key = KAL_KUT_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kutai_loyal
+		}
+		localization_key = KAL_KUT_loyal
+	}
+}
+
+defined_text = { ##Paser
+	name = KAL_Paser
+	text = {
+		trigger = {
+			has_country_flag = KAL_Paser_contentious
+		}
+		localization_key = KAL_PAS_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Paser_disloyal
+		}
+		localization_key = KAL_PAS_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Paser_content
+		}
+		localization_key = KAL_PAS_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Paser_sympathetic
+		}
+		localization_key = KAL_PAS_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Paser_loyal
+		}
+		localization_key = KAL_PAS_loyal
+	}
+}
+
+defined_text = { ##Riwut
+	name = KAL_Riwut
+	text = {
+		trigger = {
+			has_country_flag = KAL_Riwut_contentious
+		}
+		localization_key = KAL_DAJ_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Riwut_disloyal
+		}
+		localization_key = KAL_DAJ_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Riwut_content
+		}
+		localization_key = KAL_DAJ_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Riwut_sympathetic
+		}
+		localization_key = KAL_DAJ_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Riwut_loyal
+		}
+		localization_key = KAL_DAJ_loyal
+	}
+}
+
+defined_text = { ##Kotawaringin
+	name = KAL_Kotawaringin
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kotawaringin_contentious
+		}
+		localization_key = KAL_KOT_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kotawaringin_disloyal
+		}
+		localization_key = KAL_KOT_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kotawaringin_content
+		}
+		localization_key = KAL_KOT_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kotawaringin_sympathetic
+		}
+		localization_key = KAL_KOT_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Kotawaringin_loyal
+		}
+		localization_key = KAL_KOT_loyal
+	}
+}
+
+defined_text = { ##Ketapang
+	name = KAL_Ketapang
+	text = {
+		trigger = {
+			has_country_flag = KAL_Ketapang_contentious
+		}
+		localization_key = KAL_KET_contentious
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Ketapang_disloyal
+		}
+		localization_key = KAL_KET_disloyal
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Ketapang_content
+		}
+		localization_key = KAL_KET_content
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Ketapang_sympathetic
+		}
+		localization_key = KAL_KET_sympathetic
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_Ketapang_loyal
+		}
+		localization_key = KAL_KET_loyal
+	}
+}
+
+defined_text = {
+	name = KAL_influence_INS
+	text = {
+		trigger = {
+			check_variable = { KAL_INS_control < 40 }
+		}
+		localization_key = KAL_INS_low
+	}
+	text = {
+		localization_key = KAL_INS_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { KAL_INS_control > 60 }
+		}
+		localization_key = KAL_INS_high
+	}
+}
+
+defined_text = {
+	name = KAL_influence_PON
+	text = {
+		trigger = {
+			check_variable = { KAL_PON_control < 40 }
+		}
+		localization_key = KAL_PON_low
+	}
+	text = {
+		localization_key = KAL_PON_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { KAL_PON_control > 60 }
+		}
+		localization_key = KAL_PON_high
+	}
+}
+
+defined_text = {
+	name = KAL_influence_dewan
+	text = {
+		trigger = {
+			check_variable = { KAL_dewan_power < 40 }
+		}
+		localization_key = KAL_dewan_low
+	}
+	text = {
+		localization_key = KAL_dewan_medium
+	}
+	text = {
+		trigger = {
+			check_variable = { KAL_dewan_power > 60 }
+		}
+		localization_key = KAL_dewan_high
+	}
+
+}
+
+defined_text = {
+	name = KAL_leader
+	text = {
+		trigger = {
+			has_country_flag = KAL_PON_controller
+		}
+		localization_key = KAL_leader_PON
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_DAJ_controller
+		}
+		localization_key = KAL_leader_DAJ
+	}
+	text = {
+		trigger = {
+			has_country_flag = KAL_BAN_controller
+		}
+		localization_key = KAL_leader_BAN
+	}
+}
+
+defined_text = {
+	name = ACH_leader
+	text = {
+		trigger = {
+			has_country_flag = ACH_hasan_dominant_flag
+		}
+		localization_key = ACH_hasan_dominant
+	}
+	text = {
+		trigger = {
+			has_country_flag = ACH_hasan_rising_flag
+		}
+		localization_key = ACH_hasan_rising
+	}
+	text = {
+		trigger = {
+			has_country_flag = ACH_neutral_flag
+		}
+		localization_key = ACH_neutral
+	}
+	text = {
+		trigger = {
+			has_country_flag = ACH_daud_rising_flag
+		}
+		localization_key = ACH_daud_rising
+	}
+	text = {
+		trigger = {
+			has_country_flag = ACH_daud_dominant_flag
+		}
+		localization_key = ACH_daud_dominant
+	}
+}
+
+defined_text = {
+	name = INS_term_premier_name
+	text = {
+		trigger = {
+			has_idea = INS_Mohammad_Natsir
+		}
+		localization_key = INS_term_natsir
+	}
+	text = {
+		trigger = {
+			has_idea = INS_Tan_Malaka
+		}
+		localization_key = INS_term_Malaka
+	}
+	text = {
+		trigger = {
+			has_idea = INS_Ali_Sastroamidjojo
+		}
+		localization_key = INS_term_Ali
+	}
+}
+
+defined_text = {
+	name = INS_soekarno_approval_triumvirate
+	text = {
+		trigger = {
+			has_country_flag = INS_soekarno_approval_low
+		}
+		localization_key = INS_soekarno_approval_low_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_soekarno_approval_med
+		}
+		localization_key = INS_soekarno_approval_med_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_soekarno_approval_high
+		}
+		localization_key = INS_soekarno_approval_high_triumvirate
+	}
+}
+
+defined_text = {
+	name = INS_people_approval_triumvirate
+	text = {
+		trigger = {
+			has_country_flag = INS_people_approval_low
+		}
+		localization_key = INS_people_approval_low_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_people_approval_lowmed
+		}
+		localization_key = INS_people_approval_lowmed_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_people_approval_med
+		}
+		localization_key = INS_people_approval_med_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_people_approval_medhigh
+		}
+		localization_key = INS_people_approval_medhigh_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_people_approval_high
+		}
+		localization_key = INS_people_approval_high_triumvirate
+	}
+}
+
+
+defined_text = {
+	name = INS_external_approval_triumvirate
+	text = {
+		trigger = {
+			has_country_flag = INS_external_influence_low
+		}
+		localization_key = INS_external_influence_low_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_external_influence_med
+		}
+		localization_key = INS_external_influence_med_triumvirate
+	}
+	text = {
+		trigger = {
+			has_country_flag = INS_external_influence_high
+		}
+		localization_key = INS_external_influence_high_triumvirate
+	}
+}

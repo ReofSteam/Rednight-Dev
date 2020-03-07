@@ -1,0 +1,18 @@
+
+state={
+	id=1311
+	name="STATE_1311"
+	history={
+		owner = EGY
+		add_core_of = HEJ
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		2033 2095 5099 7970 8092 10835 12758 13706 
+	}
+	manpower=69
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

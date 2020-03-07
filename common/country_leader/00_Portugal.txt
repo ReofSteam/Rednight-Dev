@@ -1,0 +1,29 @@
+###################
+#Portuguese Traits#
+###################
+
+leader_traits = {
+	
+	popular_figure = {
+		sprite = 13
+		random = no
+		stability_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rightful_heir = {
+		sprite = 13
+		random = no
+		stability_factor = 0.1
+	}
+	
+	illegitimate_heir = {
+		sprite = 13
+		random = no
+		stability_factor = -0.1
+	}
+
+}

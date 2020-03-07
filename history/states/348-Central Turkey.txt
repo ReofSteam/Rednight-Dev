@@ -1,0 +1,26 @@
+
+state={
+	id=348
+	name="STATE_348"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		victory_points = {
+			921 10
+		}
+
+	}
+
+	provinces={
+		869 921 961 3870 6977 9830 9861 13122
+	}
+	manpower=858452
+	buildings_max_level_factor=1.000
+	state_category=city
+}

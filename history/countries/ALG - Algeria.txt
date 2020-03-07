@@ -1,0 +1,241 @@
+﻿capital = 459
+OOB = "ALG"
+
+set_technology = {
+	infantry_weapons = 1
+}
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    social_nationalist = 4
+    marxist = 19
+    libertarian = 0
+    moderate_socialist = 32
+    social_democrat = 13
+    social_liberal = 9
+    conservative = 8
+    authoritarian_democrat = 4
+    autocratic = 3
+    fundamentalist = 7
+    voynist = 1
+}
+
+### Field Marshal
+create_field_marshal = { 
+	name = "al-Ghani"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_al_Ghani.tga"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 1
+}
+
+create_field_marshal = { 
+	name = "Ferhati"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Ferhati.tga"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 1
+}
+
+create_field_marshal = { 
+	name = "Messali"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Messali.tga"
+	traits = {
+		defensive_doctrine
+		offensive_doctrine
+	}
+	skill = 1
+}
+
+create_field_marshal = { 
+	name = "Amerzaine"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Amerzaine.tga"
+	traits = {
+		defensive_doctrine
+		offensive_doctrine
+	}
+	skill = 1
+}
+
+create_field_marshal = { 
+	name = "Djilani"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Djilani.tga"
+	traits = {
+		logistics_wizard
+	}
+	skill = 1
+}
+
+create_field_marshal = { 
+	name = "Saïdi"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Saïdi.tga"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 1
+}
+
+### Corps Commander
+create_corps_commander = { 
+	name = "Bouali"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Bouali.tga"
+	traits = {
+		fortress_buster
+		panzer_leader
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Farès"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Farès.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Mohammedi"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Mohammedi.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Bouali"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Bouali.tga"
+	traits = {
+		fortress_buster
+		panzer_leader
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Francis"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Francis.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Boualam"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Boualam.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Hasnaoui"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Hasnaoui.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Cheikh"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Cheikh.tga"
+	traits = {
+		trickster
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "ben-Bella"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_ben_Bella.tga"
+	traits = {
+		trickster
+	}
+	skill = 1
+}
+
+create_corps_commander = { 
+	name = "Chatty"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Chatty.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { 
+	name = "Bennabi"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Bennabi.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1
+}
+
+create_navy_leader = { 
+	name = "Ouafi"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Ouafi.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 1
+}
+
+create_navy_leader = { 
+	name = "Hamada"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Hamada.tga"
+	traits = {
+		seawolf
+	}
+	skill = 1
+}
+
+create_navy_leader = { 
+	name = "Amrouche"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Amrouche.tga"
+	traits = {
+		spotter
+	}
+	skill = 1
+}
+
+create_navy_leader = { 
+	name = "M'Barka"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_M'Barka.tga"
+	traits = {
+		spotter
+	}
+	skill = 1
+}
+
+create_navy_leader = { 
+	name = "Ygerbuchen"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Ygerbuchen.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Fares"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ALG/Portrait_ALG_Fares.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1
+}

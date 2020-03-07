@@ -1,0 +1,131 @@
+﻿l_english: 
+
+### Bookmark ###
+
+### Opinions ###
+
+### Country Name ###
+FRA_social_nationalist:0 "French Communal Republic"
+FRA_social_nationalist_ADJ:0 "French"
+FRA_social_nationalist_DEF:0 "the French Communal Republic"
+FRA_marxist:0 "French Communal Republic"
+FRA_marxist_ADJ:0 "French"
+FRA_marxist_DEF:0 "the French Communal Republic"
+FRA_libertarian:0 "French Communal Republic"
+FRA_libertarian_ADJ:0 "French"
+FRA_libertarian_DEF:0 "the French Communal Republic"
+FRA_moderate_socialist:0 "French Communal Republic"
+FRA_moderate_socialist_ADJ:0 "French"
+FRA_moderate_socialist_DEF:0 "the French Communal Republic"
+FRA_social_democrat:0 "French Republic"
+FRA_social_democrat_ADJ:0 "French"
+FRA_social_democrat_DEF:0 "the French Republic"
+FRA_social_liberal:0 "French Republic"
+FRA_social_liberal_ADJ:0 "French"
+FRA_social_liberal_DEF:0 "the French Republic"
+FRA_conservative:0 "French Republic"
+FRA_conservative_ADJ:0 "French"
+FRA_conservative_DEF:0 "the French Republic"
+FRA_authoritarian_democrat:0 "French Republic"
+FRA_authoritarian_democrat_ADJ:0 "French"
+FRA_authoritarian_democrat_DEF:0 "the French Republic"
+FRA_autocratic:0 "French Empire"
+FRA_autocratic_ADJ:0 "French"
+FRA_autocratic_DEF:0 "the French Empire"
+FRA_fundamentalist:0 "French Empire"
+FRA_fundamentalist_ADJ:0 "French"
+FRA_fundamentalist_DEF:0 "the French Empire"
+FRA_voynist:0 "French State"
+FRA_voynist_ADJ:0 "French"
+FRA_voynist_DEF:0 "the French State"
+
+### Decision ####
+FRA_social_nationalist_party:0 "PSN - National Socialist Party"
+FRA_social_nationalist_party_long:0 "Parti socialiste national"
+FRA_marxist_party:0 "SFIC - French Section of the Communist International"
+FRA_marxist_party_long:0 "Section française de l'Internationale communiste"
+FRA_libertarian_party:0 "CSR - Syndicalist-Revolutionary Committee"
+FRA_libertarian_party_long:0 "Comité Syndicaliste-Révolutionnaire"
+FRA_moderate_socialist_party:0 "PSFT - Parti socialiste français des travailleurs"
+FRA_moderate_socialist_party_long:0 "French Socialist Workers' Party"
+FRA_social_democrat_party:0 "PSFT - Parti socialiste français des travailleurs"
+FRA_social_democrat_party_long:0 "French Socialist Workers' Party"
+FRA_social_liberal_party:0 "PRRRS - Radical-Socialist and Radical Republican Party"
+FRA_social_liberal_party_long:0 "Parti républicain, radical et radical-socialiste"
+FRA_conservative_party:0 "PRL - Republican Party of Freedom"
+FRA_conservative_party_long:0 "Parti républicain de la Liberté"
+FRA_authoritarian_democrat_party:0 "AF - French Action"
+FRA_authoritarian_democrat_party_long:0 "Action française"
+FRA_autocratic_party:0 "AF - French Action"
+FRA_autocratic_party_long:0 "Action française"
+FRA_fundamentalist_party:0 "La Cagoule - Secret Committee of Revolutionary Action"
+FRA_fundamentalist_party_long:0 "Comité secret d'action révolutionnaire"
+FRA_voynist_party:0 "Sorelians"
+FRA_voynist_party_long:0 "Soréliens"
+
+### Events ###
+fra.0.t:0 "[This.GetNewspaperHeader]Liberation Day"
+fra.0.desc:0 "Four years ago, Field Marshal Erwin Rommel sat down with representatives of the British and French armies to sign the Act of Military Surrender. This marked the official surrender of the Deutsches Heer, although fighting in Europe would continue for another month until the capture of Danzig. Despite the war not ending until nearly two years later in the African theatre, citizens on the continent rejoiced that this brutal conflict was over. Many across France, Britain, the Netherlands, Germany and beyond celebrate today, with extravagant parties and military parades. Though needless to say, the French party the hardest tonight - with champagne and chardonnay!"
+fra.0.a:0 "L’Internationale sera le genre humain!"
+
+### Focuses ###
+FRA_begin_demilitarisation:0 "Begin Demilitarisation"
+FRA_begin_demilitarisation_desc:0 "The iron labour discipline and reduction of consumer goods production necessary in wartime are necessary no longer. We will make provisions for more leisure time and social activities for workers, and begin shifting focus from military production to consumer goods."
+
+### Ideas ###
+FRA_victors_of_the_second_weltkrieg:0 "Victors of the Second Weltkrieg"
+FRA_militarised_economy:0 "Militarised Economy"
+FRA_militarised_economy_desc:0 "Our economy is still somewhat militarised, as it is only recently that the fighting ceased in Africa, and our troops are still spread out over Europe and Africa to aid in stabilising the new socialist order. However, we have slowly begun to demobilise, and our population expects the return to civilian life to be completed shortly. The iron labour discipline and reduction of consumer goods production necessary in wartime are necessary no longer."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+#Head of Government
+FRA_Louis_Sellier_hog:0 "Louis Sellier"
+
+#Interior Minister
+FRA_Auguste_Lecoeur_interior:0 "Auguste Lecoeur"
+
+#Economy Minister
+FRA_Ambroise_Croizat_economy:0 "Ambroise Croizat"
+
+#Foreign Minister
+FRA_Jacques_Duclos_foreign:0 "Jacques Duclos"
+
+#Education Minister
+FRA_Christiane_Faure_education:0 "Christiane Faure"
+
+#Culture Minister
+FRA_Jean_Renoir_culture:0 "Jean Renoir"
+
+#Transport Minister
+FRA_Pierre_Semard_transport:0 "Pierre Sémard"
+
+#Office without Portfolio
+FRA_Edouard_Herriot_portfolio:0 "Edouard Hérriot"
+
+#Head of Intelligence
+FRA_Andre_Philip_intel:0 "André Philip"
+
+#Chief of Staff
+FRA_Paul_Le_Gentilhomme_cos:0 "Paul Le Gentilhomme"
+
+#Chief of Army
+FRA_Henri_Rol_Tanguy_coa:0 "Henri Rol-Tanguy"
+
+#Chief of Air Force
+FRA_Martial_Henri_Valin_air:0 "Martial Henri Valin"
+
+#Chief of Navy
+FRA_Philippe_Auboyneau_navy:0 "Philippe Auboyneau"
+
+### Leaders ###
+grandfather_of_the_party:0 "Grandfather of the SFIC"
+POLITICS_MARCEL_CACHIN_DESC:0 "Gilles Marcel Cachin was born in Brittany. At 80 years of age, he still remains attached to his culture and his language. Socialist since the very first hour, he has coexisted with great figures of French socialism and communalism such as Jules Guesde, Jean Jaurès, Édouard Vaillant, Eugène Baudin and Paul Lafargue. He was a successive member of the French Workers Party (POF), Socialist Party of France (PSdF) and a founding member of both the French Section of the Workers' International (SFIO) and the French Communist Party (PCF).\n\nHe became an an editor of the newspaper L'Humanité in 1912. At the beginning of the Great War, Cachin joined the Union Sacrée as a large majority of French socialists but very soon questioned his membership to it. The defeat of the French Army, the revolution and the advent of the Second Commune of France, very much had its mark on the seasoned socialist. As director of L'Humanité, he allowed it to become an important platform for revolutionary-syndicalists and communists alike. Adhering to the PCF, he played an important role in the Glorious Nivôse. He was eventually elected President of the Communal Republic. He has been the ceremonial leader of the Communal Republic for more than 14 years - experiencing the many victories and defeats of the War of Liberation.\n\nNow, in his old age and crowned with much honor and glory, the veteran socialist is thinking of a well-deserved retirement by rejecting to nominate himself for the next election.\n\nHis departure will be the opportunity to remember the great qualities of the mediator role of the President, serious in its function as head of state and above all, the dedication, delight and sweetness of life it has come to represent, which the mustached Little Father of the Commune embodied perfectly."
+
+
+### Tech? ###

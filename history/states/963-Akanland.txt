@@ -1,0 +1,22 @@
+state={
+	id=963
+	name="STATE_963"
+
+	history={
+		owner = IVY
+		add_core_of=IVY
+		buildings={
+			infrastructure=3
+			industrial_complex=1
+		}
+		victory_points={
+			10803 1 #Abidjan
+		}
+	}
+	provinces={
+		15586 15588 15589 15607
+	}
+	manpower=590000
+	buildings_max_level_factor=1
+	state_category=rural
+}

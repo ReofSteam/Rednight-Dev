@@ -1,0 +1,27 @@
+
+state={
+	id=174
+	name="STATE_174"
+
+	history={
+		owner = CNT
+		victory_points = { 11707 1 }
+		victory_points = { 3920 2 } #Leon
+		victory_points = { 6907 1 } #Salamanca
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		726 794 874 918 920 3725 3727 3874 3918 3920 4024 6746 6867 6907 9699 9770 11843
+	}
+	manpower=1566041
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

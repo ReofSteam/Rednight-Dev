@@ -1,0 +1,27 @@
+
+state={
+	id=701
+	name="STATE_701"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = KAC
+		add_core_of = KAC
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			4425 2 
+		}
+	}
+
+	provinces={
+		1197 1934 4318 4425 4996
+	}
+	manpower=687000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

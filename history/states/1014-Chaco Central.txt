@@ -1,0 +1,26 @@
+
+state={
+	id=1014
+	name="STATE_1014"
+	resources={
+		tungsten=3.000
+		steel=3.000
+		oil=1
+	}
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = PAR
+		add_claim_by = ATS
+
+	}
+	provinces={
+		2209 10973 13245 13682 13683 13684 13686 13687 13688 13691 13692 
+	}
+	manpower=37800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

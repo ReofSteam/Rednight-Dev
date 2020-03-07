@@ -1,0 +1,658 @@
+focus_tree = { 
+id = UOE_Krasnacht
+country = { 
+factor = 0
+} 
+#Focus for Embrace the Rentier State
+focus = { 
+id = UOE_embracetherentierstate
+icon = GFX_goal_unknown
+x = 2
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_renovatetheoiltowns } 
+prerequisite = { focus = UOE_guardthewells } 
+prerequisite = { focus = UOE_foreignlaborers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reduce Oil Dependence
+focus = { 
+id = UOE_reduceoildependence
+icon = GFX_goal_unknown
+x = 9
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_encouragecamelracing } 
+prerequisite = { focus = UOE_expandthefarms } 
+prerequisite = { focus = UOE_subsidizebreeders } 
+prerequisite = { focus = UOE_jojobaplantations } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalize the Oil
+focus = { 
+id = UOE_IYQbMJLx
+icon = GFX_goal_unknown
+x = 22
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_victoryforthefreeprinces } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A New Tax Haven
+focus = { 
+id = UOE_anewtaxhaven
+icon = GFX_goal_unknown
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_siphonofffunds } 
+prerequisite = { focus = UOE_decadentpalaces } 
+prerequisite = { focus = UOE_taxbreaksfortherich } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Decadent Palaces
+focus = { 
+id = UOE_decadentpalaces
+icon = GFX_goal_unknown
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_cookthebooks } 
+prerequisite = { focus = UOE_bribethebureaucrats } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Siphon Off Funds
+focus = { 
+id = UOE_siphonofffunds
+icon = GFX_goal_unknown
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_cookthebooks } 
+prerequisite = { focus = UOE_bribethebureaucrats } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Tax Breaks For the Rich
+focus = { 
+id = UOE_taxbreaksfortherich
+icon = GFX_goal_unknown
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_cookthebooks } 
+prerequisite = { focus = UOE_bribethebureaucrats } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Cook the Books
+focus = { 
+id = UOE_cookthebooks
+icon = GFX_goal_unknown
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_aneconomyofcorruption } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bribe the Bureaucrats
+focus = { 
+id = UOE_bribethebureaucrats
+icon = GFX_goal_unknown
+x = 17
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_aneconomyofcorruption } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Encourage Camel Racing
+focus = { 
+id = UOE_encouragecamelracing
+icon = GFX_goal_unknown
+x = 12
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thecameltrade } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Economy of Corruption
+focus = { 
+id = UOE_aneconomyofcorruption
+icon = GFX_goal_unknown
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thesearchforprofits } 
+mutually_exclusive = { focus = UOE_diversifytheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Farms
+focus = { 
+id = UOE_expandthefarms
+icon = GFX_goal_unknown
+x = 8
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_reforestationprojects } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Subsidize Breeders
+focus = { 
+id = UOE_subsidizebreeders
+icon = GFX_goal_unknown
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thecameltrade } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Camel Trade
+focus = { 
+id = UOE_thecameltrade
+icon = GFX_goal_unknown
+x = 11
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_diversifytheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Jojoba Plantations
+focus = { 
+id = UOE_jojobaplantations
+icon = GFX_goal_unknown
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_reforestationprojects } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reforestation Projects
+focus = { 
+id = UOE_reforestationprojects
+icon = GFX_goal_unknown
+x = 7
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_diversifytheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Guard the Wells
+focus = { 
+id = UOE_guardthewells
+icon = GFX_goal_unknown
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_newdrillingmethods } 
+prerequisite = { focus = UOE_geologicalsurveys } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Geological Surveys
+focus = { 
+id = UOE_geologicalsurveys
+icon = GFX_goal_unknown
+x = 1
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_expandtheoilfields } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Drilling Methods
+focus = { 
+id = UOE_newdrillingmethods
+icon = GFX_goal_unknown
+x = 3
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_expandtheoilfields } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Foreign Laborers
+focus = { 
+id = UOE_foreignlaborers
+icon = GFX_goal_unknown
+x = 0
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_newdrillingmethods } 
+prerequisite = { focus = UOE_geologicalsurveys } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Renovate the Oil Towns
+focus = { 
+id = UOE_renovatetheoiltowns
+icon = GFX_goal_unknown
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_newdrillingmethods } 
+prerequisite = { focus = UOE_geologicalsurveys } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diversify the Economy
+focus = { 
+id = UOE_diversifytheeconomy
+icon = GFX_goal_unknown
+x = 9
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thesearchforprofits } 
+mutually_exclusive = { focus = UOE_expandtheoilfields } 
+mutually_exclusive = { focus = UOE_aneconomyofcorruption } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Oil Fields
+focus = { 
+id = UOE_expandtheoilfields
+icon = GFX_goal_unknown
+x = 2
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thesearchforprofits } 
+mutually_exclusive = { focus = UOE_diversifytheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Search for Profits
+focus = { 
+id = UOE_thesearchforprofits
+icon = GFX_goal_unknown
+x = 9
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Victory for the Old Emirs
+focus = { 
+id = UOE_victoryfortheoldemirs
+icon = GFX_goal_unknown
+x = 36
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thecouncilconvenes } 
+mutually_exclusive = { focus = UOE_victoryforthefreeprinces } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Council Convenes
+focus = { 
+id = UOE_thecouncilconvenes
+icon = GFX_goal_unknown
+x = 30
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Victory for the Free Princes
+focus = { 
+id = UOE_victoryforthefreeprinces
+icon = GFX_goal_unknown
+x = 24
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_thecouncilconvenes } 
+mutually_exclusive = { focus = UOE_victoryfortheoldemirs } 
+mutually_exclusive = { focus = UOE_victoryfortheoldemirs } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Legalize the Unions
+focus = { 
+id = UOE_legalizetheunions
+icon = GFX_goal_unknown
+x = 26
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_victoryforthefreeprinces } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Welfare Policies
+focus = { 
+id = UOE_welfarepolicies
+icon = GFX_goal_unknown
+x = 27
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_legalizetheunions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Break With Egypt
+focus = { 
+id = UOE_breakwithegypt
+icon = GFX_goal_unknown
+x = 21
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_IYQbMJLx } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Status of the Faith
+focus = { 
+id = UOE_statusofthefaith
+icon = GFX_goal_unknown
+x = 30
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_victoryfortheoldemirs focus = UOE_victoryforthefreeprinces } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for In Defense of Arabia
+focus = { 
+id = UOE_indefenseofarabia
+icon = GFX_goal_unknown
+x = 24
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_IYQbMJLx focus = UOE_legalizetheunions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Professional Military
+focus = { 
+id = UOE_aprofessionalmilitary
+icon = GFX_goal_unknown
+x = 24
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_indefenseofarabia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Moves Toward Paris
+focus = { 
+id = UOE_movestowardparis
+icon = GFX_goal_unknown
+x = 20
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_breakwithegypt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Literacy Campaign
+focus = { 
+id = UOE_literacycampaign
+icon = GFX_goal_unknown
+x = 28
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_welfarepolicies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Negotiations in Riyadh
+focus = { 
+id = UOE_negotiationsinriyadh
+icon = GFX_goal_unknown
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_breakwithegypt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Redistribute the Land
+focus = { 
+id = UOE_ZaBlYoJy
+icon = GFX_goal_unknown
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_welfarepolicies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Consult the Imams
+focus = { 
+id = UOE_consulttheimams
+icon = GFX_goal_unknown
+x = 29
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_statusofthefaith } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Consult the Quran
+focus = { 
+id = UOE_consultthequran
+icon = GFX_goal_unknown
+x = 31
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_statusofthefaith } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Islamist Question
+focus = { 
+id = UOE_theislamistquestion
+icon = GFX_goal_unknown
+x = 30
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_consulttheimams } 
+prerequisite = { focus = UOE_consultthequran } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pursue Centralization
+focus = { 
+id = UOE_pursuecentralization
+icon = GFX_goal_unknown
+x = 34
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_victoryfortheoldemirs } 
+mutually_exclusive = { focus = UOE_keepthestatusquo } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Keep the Status Quo
+focus = { 
+id = UOE_keepthestatusquo
+icon = GFX_goal_unknown
+x = 38
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UOE_victoryfortheoldemirs } 
+mutually_exclusive = { focus = UOE_pursuecentralization } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

@@ -1,0 +1,180 @@
+﻿capital = 322
+OOB = "TIB"
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+}
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 100
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 0
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+add_ideas = {
+	#medium_economy
+	#TIB_Reting_Rimpoche_hog_ade
+	#TIB_Ngagchen_Rinpoche_for_ade
+	#TIB_Mondo_eco_ade
+	#TIB_Lhalu_Se_sec_ade
+}
+
+create_country_leader = {
+	name = "Tenzin Gyatso"
+	desc = "POLITICS_TIBET_TENZIN_GYATSO_DESC"
+	picture = "gfx/leaders/ASIA/TIB/TIB_Tenzin_Gyatso.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+### Field Marshal
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Tsoko"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Tsoko.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Tsarong"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Tsarong.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Tendong Shappe"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Tendong_Shappe.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Ruthog"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Ruthog.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Namseling"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Namseling.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Khyungram Theji"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Khyungram_Theji.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Doring Theji"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Doring_Theji.tga"
+	traits = {
+		winter_specialist
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Dingja"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Dingja.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Changra Depon"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Changra_Depon.tga"
+	traits = {
+		fortress_buster
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Tsoko"
+	portrait_path = "gfx/leaders/ASIA/TIB/Portrait_TIB_Tsoko.tga"
+	traits = {
+	}
+	skill = 1 #naval guy, don't patch
+}

@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+		druze_minority = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea druze_minority"}
+			picture = druze_minority
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+			}
+		}
+	}
+}

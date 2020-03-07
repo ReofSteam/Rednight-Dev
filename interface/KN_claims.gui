@@ -1,0 +1,77 @@
+guiTypes = {
+	
+	#FOREIGN CLAIMS#
+	containerWindowType = {
+		name = "kn_claims_ui"
+		position = { x = 545 y = 2 }
+		size = { width=100%% height=65%% }
+		verticalScrollbar = "right_vertical_slider"
+		margin = { top = 14 bottom = 13}
+		show_sound = open_sub_window
+		verticalScrollbar = "right_vertical_slider"	
+
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_window_1b_border"
+		}
+		iconType ={
+			name ="production_header_bg"
+			spriteType = "GFX_parties_head"
+			position = { x= 10 y = -5 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}	
+		instantTextboxType = {
+			name = "label_country"
+			position = {x = 0 y = -3}
+			font = "hoi_36header"
+			text = "Foreign Claims"
+			pdx_tooltip = "coalition_hover"
+			maxWidth = 527
+			maxHeight = 24
+			format = center 
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "kn_claims_ui_close"
+			position = { x = -60 y = 1 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+			scale = 1.1
+		}
+		gridboxtype = {
+			name = "kn_claims_grid"
+			position = { x = 80 y = 0 }
+			size = { width = 95 height = 90 }
+			slotsize = { width = 232 height = 148 }
+			max_slots_horizontal = 2
+			add_horizontal = yes
+		}
+	}
+	containerWindowType = {
+		name = "kn_claims_entry"
+		position = { x = 0 y = 0}	
+		size = { width = 232 height = 148 }
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_idea_entry_bg_2"
+		}
+
+		instantTextBoxType = {
+			name = "scope_info"
+			position = { x = 5 y = 15 }
+			font = "hoi_24header"
+			text = "[this.GetName] ([this.GetID])"
+			tooltip = "SCOPE_TEXT"
+			format = center
+			maxWidth = 222
+			fixedsize = yes
+		}
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1232
+	name="STATE_1232"
+
+	history={
+		owner = RUS
+
+		victory_points = {
+			7477 1
+		}
+		victory_points = {
+			15154 5
+		}
+		victory_points = {
+			10359 1
+		}
+
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1593 7477 10359 10510 12359 15141 15146 15149 15151 15153 15154 15155 15156 15157 15161 15162 15163 15164 15165 15166 15167 
+	}
+	manpower=473200
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,176 @@
+﻿capital = 466
+oob = "empty"
+
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_voynist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_libertarian
+
+add_ideas = {
+	QUE_anti_anglophone
+	QUE_great_darkness
+	QUE_catholic_country
+}
+
+set_technology = {
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	marines = 1
+	tech_military_police = 1
+	tech_recon = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+}
+
+set_research_slots = 3
+
+set_stability = 0.55
+set_war_support = 0.40
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+set_convoys = 100
+
+add_ideas = {
+	#medium_economy
+}
+
+create_country_leader = {
+	name = "Maurice Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Maurice Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Maurice Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/QUE_Maurice_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Maurice Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Maurice Duplessis"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Fred Rose"
+	desc = "POLITICS_FRED_ROSE_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Fred Rose"
+	desc = "POLITICS_FRED_ROSE_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+
+	}
+}
+
+
+create_country_leader = {
+	name = "Fred Rose"
+	desc = "POLITICS_FRED_ROSE_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+
+	}
+}

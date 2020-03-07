@@ -1,0 +1,25 @@
+
+state={
+	id=511
+	name="STATE_511"
+    resources={
+	steel = 12.000}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = ARG
+
+	}
+
+	provinces={
+		2215 8215 10992 11021 13233 13234 13236 
+	}
+	manpower=365170
+	buildings_max_level_factor=1.000
+	state_category=town
+}

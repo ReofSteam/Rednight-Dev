@@ -1,0 +1,21 @@
+
+state={
+	id=1210
+	name="STATE_1210"
+	provinces={
+		3985 6957 
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = BOS
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=90694
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

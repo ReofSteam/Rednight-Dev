@@ -1,0 +1,34 @@
+﻿l_english:
+ ST:0 "st"
+ ND:0 "nd"
+ RD:0 "rd"
+ TH:0 "th"
+ WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ War"
+ CIVIL_WAR_NAME:0 "$ORDER$$SECOND$ Civil War"
+ WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ reclamation of $STATE$"
+ WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ Aggression for $STATE$"
+ SP_separate_peace:0 "Will drop out of all current wars\n"
+
+ ### 2nd Mexican-American War ###
+ WAR_NAME_USA_MEX:0 "2nd $ORDER$$SECOND$-$FIRST$ War"
+ WAR_NAME_MEX_USA:0 "2nd $ORDER$$FIRST$-$SECOND$ War"
+
+ ### The Big War ###
+ WAR_NAME_GER_FRA:0 "The Great Revolutionary War"
+ WAR_NAME_FRA_GER:0 "The Great Revolutionary War"
+ WAR_NAME_GER_ENG:0 "The Great Revolutionary War"
+ WAR_NAME_ENG_GER:0 "The Great Revolutionary War"
+ WAR_NAME_SOV_ENG:0 "The Great Revolutionary War"
+ WAR_NAME_ENG_SOV:0 "The Great Revolutionary War"
+ WAR_NAME_SOV_FRA:0 "The Great Revolutionary War"
+ WAR_NAME_FRA_SOV:0 "The Great Revolutionary War"
+
+ ### Indian Wars/Revolts ###
+ WAR_NAME_RAJ_BMR:0 "Great Burmese Revolt"
+ WAR_NAME_BMR_RAJ:0 "Great Burmese Revolt"
+ WAR_NAME_BMR_ENG:0 "Great Burmese Revolt"
+ WAR_NAME_ENG_BMR:0 "Great Burmese Revolt"
+
+ ### Bolivia-Chile War ###
+ WAR_NAME_BOL_CHL:0 "Second War of the Pacific"
+ WAR_NAME_CHL_BOL:0 "Second War of the Pacific"

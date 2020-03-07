@@ -1,0 +1,180 @@
+NZL_develop_nz = {
+	improve_north_island = {
+
+        icon = generic_construction
+        
+        available = {
+            controls_state = 284
+        }
+        
+        allowed = {
+        
+        }
+        
+        visible = {
+            276 = {
+                NOT = { has_state_flag = NZL_north_improved }
+            }
+            if = {
+                limit = {
+                    NOT = { has_focus_tree = NZL }
+                }
+                controls_state = 284
+            }
+            if = {
+                limit = {
+                    has_focus_tree = NZL
+                }
+                has_completed_focus = NZL_manapouri_power_station
+            }
+        }
+        
+        highlight_states = {
+            state = 284
+        }
+        
+        fire_only_once = yes
+        
+        cost = 100
+        
+        days_remove = 100
+
+        cancel_trigger = {
+            NOT = { controls_state = 284 }
+        }
+
+        complete_effect = {
+        
+        }
+        
+        remove_effect = {
+            284 = {
+                set_state_flag = NZL_north_improved
+                set_state_category = large_city
+                add_resource = {
+                    type = steel
+                    amount = 12
+                }
+            }
+        }
+	}
+	
+	improve_south_island = {
+	        
+        icon = generic_construction
+        
+        available = {
+            controls_state = 723
+        }
+        
+        allowed = {
+        
+        }
+        
+        visible = {
+            723 = {
+                NOT = { has_state_flag = NZL_south_improved }
+            }
+            if = {
+                limit = {
+                    NOT = { has_focus_tree = NZL }
+                }
+                controls_state = 723
+            }
+            if = {
+                limit = {
+                    has_focus_tree = NZL
+                }
+                has_completed_focus = NZL_provide_electricity_to_south_island
+            }
+        }
+        
+        highlight_states = {
+            state = 723
+        }
+        
+        fire_only_once = yes
+        
+        cost = 100
+        
+        days_remove = 100
+
+        cancel_trigger = {
+            NOT = { controls_state = 723 }
+        }
+
+        complete_effect = {
+        
+        }
+        
+        remove_effect = {
+            723 = {
+                set_state_flag = NZL_south_improved
+                set_state_category = town
+                add_resource = {
+                    type = tungsten
+                    amount = 8
+                }
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+            }
+        }
+	}
+	
+	improve_fiji = {
+	        
+        icon = generic_construction
+        
+        available = {
+            controls_state = 636
+        }
+        
+        allowed = {
+        
+        }
+        
+        visible = {
+            636 = {
+                NOT = { has_state_flag = NZL_fiji_improved }
+            }
+            if = {
+                limit = {
+                    NOT = { has_focus_tree = NZL }
+                }
+                controls_state = 636
+            }
+            if = {
+                limit = {
+                    has_focus_tree = NZL
+                }
+                has_completed_focus = NZL_provide_electricity_to_fiji
+            }
+        }
+        
+        highlight_states = {
+            state = 636
+        }
+        
+        fire_only_once = yes
+        
+        cost = 75
+        
+        days_remove = 100
+
+        cancel_trigger = {
+            NOT = { controls_state = 636 }
+        }
+
+        complete_effect = {
+        
+        }
+        
+        remove_effect = {
+            636 = {
+                set_state_flag = NZL_fiji_improved
+                set_state_category = rural
+            }
+        }
+	}

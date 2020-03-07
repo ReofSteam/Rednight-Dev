@@ -1,0 +1,25 @@
+
+state={
+	id=883
+	name="STATE_883"
+
+	history={
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			13675 1
+		}
+	}
+
+	provinces={
+		1693 7613 7767 7832 7848 7897 10675 10698 12548 12618 13664 13665 13672 13675 13679 
+	}
+	manpower=2617000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

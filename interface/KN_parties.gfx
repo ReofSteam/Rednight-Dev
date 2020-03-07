@@ -1,0 +1,165 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_parties_legal"
+		texturefile = "gfx/interface/parties/legal.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_parties_illegal"
+		texturefile = "gfx/interface/parties/illegal.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_parties_information"
+		texturefile = "gfx/interface/parties/information.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_parties_in_government"
+		texturefile = "gfx/interface/parties/in_government.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_parties_no_government"
+		texturefile = "gfx/interface/parties/justhide.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_parties_legislature"
+		texturefile = "gfx/interface/parties/legislature.dds"
+		legacy_lazy_load = no
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium_noverlay"
+		textureFile1 = "gfx/interface/flag_kn_overlay.dds" #Yes
+		textureFile2 = "gfx/interface/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	spriteType = {
+		name = "GFX_KN_large_flag_frame"
+		texturefile = "gfx//interface//KN_large_flag_frame.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_KN_Hide_Blanks"
+		texturefile = "gfx//interface//kn_bookmark//hideblanks.dds"
+	}
+	spriteType = {
+		name = "GFX_KN_bookmark_background"
+		texturefile = "gfx//interface//kn_bookmark//background.dds"
+	}
+	spriteType = {
+		name = "GFX_KN_laws_bar"
+		texturefile = "gfx//interface//diplomacy//kn_laws_bar.dds"
+		noOfFrames = 11
+	}
+	spriteType = {
+		name = "GFX_INFOR_faction_icon"
+		texturefile = "gfx//interface//factions//infor.dds"
+	}
+	spriteType = {
+		name = "GFX_SARPAC_faction_icon"
+		texturefile = "gfx//interface//factions//sarpac.dds"
+	}
+	spriteType = {
+		name = "GFX_CAIRO_faction_icon"
+		texturefile = "gfx//interface//factions//cairo.dds"
+	}
+	spriteType = {
+		name = "GFX_NAT_faction_icon"
+		texturefile = "gfx//interface//factions//nat.dds"
+	}
+	spriteType = {
+		name = "GFX_RMK_faction_icon"
+		texturefile = "gfx//interface//factions//rmk.dds"
+	}
+	spriteType = {
+		name = "GFX_COMMONWEALTH_faction_icon"
+		texturefile = "gfx//interface//factions//commonwealth.tga"
+	}
+	spriteType = {
+		name = "GFX_INDONESIA_faction_icon"
+		texturefile = "gfx//interface//factions//indonesia.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_unknown"
+		texturefile = "gfx//interface//factions//unknown.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_icon_none"
+		texturefile = "gfx//interface//factions//none.dds"
+	}
+	spriteType = {
+		name = "GFX_kn_espionage_icon"
+		texturefile = "gfx//interface//diplomacy//espionage.tga"
+	}	
+	spriteType = {
+		name = "GFX_kn_laws_icon"
+		texturefile = "gfx//interface//diplomacy//laws.tga"
+	}	
+
+	textSpriteType = {
+		name = "GFX_button_38_36"
+		texturefile = "gfx//interface//diplomacy//button_38_36.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	textSpriteType = {
+		name = "GFX_button_43_41"
+		texturefile = "gfx//interface//diplomacy//button_43_41.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	textSpriteType = {
+		name = "GFX_button_150x36"
+		texturefile = "gfx//interface//button_150x36.dds"
+		noOfFrames = 1
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	corneredTileSpriteType = {
+		name = "GFX_kn_tiled_paper"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//kn_tiled_paper_bg.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_illegaloverlay"
+		size= { x=32 y=32 }
+		textureFile = "gfx//interface//parties/illegaloverlay.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_legaloverlay"
+		size= { x=32 y=32 }
+		textureFile = "gfx//interface//parties/legaloverlay.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_rulingoverlay"
+		size= { x=32 y=32 }
+		textureFile = "gfx//interface//parties/rulingoverlay.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_parties_head"
+		size= { x=460 y=44 }
+		textureFile = "gfx/interface/category_header.dds"
+		borderSize = { x=0 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_header_bg_445x41"
+		texturefile = "gfx//interface//header_bg_445x41.dds"
+	}
+
+}

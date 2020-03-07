@@ -1,0 +1,25 @@
+
+state={
+	id=1096
+	name="STATE_1096"
+
+	history={
+		owner = WPL
+		add_core_of = WPL
+		victory_points = {
+			6375 3 
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		3351 3380 6402 6375 9346 9398 15192 15193 15584 15676
+	}
+	manpower=552500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

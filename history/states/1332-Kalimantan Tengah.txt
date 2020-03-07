@@ -1,0 +1,17 @@
+state={
+	id=1332
+	name="STATE_1332"
+	history={
+		owner = KAL
+		add_core_of = KAL
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		2184 5176 7424 10138 12110 15216 
+	}
+	manpower=69
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+ideas = {
+	country = {
+		egyptian_lifeline = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea egyptian_lifeline"}
+			picture = egyptian_lifeline
+			modifier = {
+				stability_factor = +0.40
+				political_power_gain = +1.0
+				production_factory_max_efficiency_factor = +0.05
+			}
+		}
+		tribal_government = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tribal_government"}
+			picture = tribal_government
+			modifier = {
+				stability_factor = -0.50
+				research_speed_factor = -0.20
+				political_power_gain = -1.0
+			}
+		}
+		untamed_hinterlands = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea untamed_hinterlands"}
+			picture = untamed_hinterlands
+			modifier = {
+				stability_factor = -0.20
+				monthly_population = -0.10
+				production_factory_max_efficiency_factor = -0.10
+			}	
+		}		
+	}
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = ASH
+		add_core_of = ASH
+		victory_points = {
+			14070 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 3
+			14070 = {
+				naval_base = 2
+
+			}
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		13136 14068 14069 14070 14076 14077 14083 14150 
+	}
+	manpower=1715000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,265 @@
+focus_tree = {
+	id = KN_INS_malaka
+	country = {
+		factor = 0
+	}	
+		
+	shared_focus = INS_economy_1950
+	shared_focus = INS_army_debate
+	shared_focus = INS_the_AURI
+	shared_focus = INS_ALRI
+	
+	focus = {
+		id = INS_premier_malaka
+		icon = GFX_INS_premier_malaka
+		cost = 10.00
+		x = 2
+		y = 0
+	
+		bypass = {
+			always = yes
+		}
+	
+	}
+	focus = {
+		id = INS_merdeka_full
+		icon = GFX_INS_merdeka_full
+		cost = 10.00
+		prerequisite = {
+			focus = INS_premier_malaka
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = INS_alliance_PNI
+		icon = GFX_INS_ally_soekarnoists
+		cost = 10.00
+		prerequisite = {
+			focus = INS_merdeka_full
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = INS_nationalism_bill
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = INS_alliance_PNI
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = INS_challenge_masyumi
+		icon = GFX_INS_challenge_masyumi
+		cost = 10.00
+		prerequisite = {
+			focus = INS_merdeka_full
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = INS_ACAMA
+		icon = GFX_INS_acama
+		cost = 10.00
+		prerequisite = {
+			focus = INS_challenge_masyumi
+			focus = INS_alliance_PNI
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = INS_socialise_foreign_assets
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = INS_nationalism_bill
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = INS_second_term_malaka
+		icon = GFX_INS_premier_malaka
+		cost = 10.00
+		prerequisite = {
+			focus = INS_murba_control
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = INS_challenge_ulema
+		icon = GFX_INS_challenge_ulema
+		cost = 10.00
+		prerequisite = {
+			focus = INS_challenge_masyumi
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = INS_sideline_sultans
+		icon = GFX_focus_rom_handle_king
+		cost = 10.00
+		prerequisite = {
+			focus = INS_challenge_ulema
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = INS_murba_control
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10.00
+		prerequisite = {
+			focus = INS_socialise_foreign_assets
+		}
+		prerequisite = {
+			focus = INS_sideline_sultans
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = INS_nationalise_plantations
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_pekerja
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = INS_tani
+		icon = GFX_INS_tani
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_malaka
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = INS_agrarian_laws
+		icon = GFX_INS_agrarian_laws
+		cost = 10.00
+		prerequisite = {
+			focus = INS_countryside_improvement
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = INS_negara_buruh_tani_pekerja
+		icon = GFX_INS_negara_buruh_tani_pekerja
+		cost = 10.00
+		prerequisite = {
+			focus = INS_agrarian_laws
+		}
+		prerequisite = {
+			focus = INS_minimum_wage_laws
+		}
+		prerequisite = {
+			focus = INS_workers_right_laws
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = INS_buruh
+		icon = GFX_INS_buruh
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_malaka
+		}
+		x = 0
+		y = 7
+
+	}
+	focus = {
+		id = INS_pekerja
+		icon = GFX_INS_pekerja
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_malaka
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = INS_industrialisation_programs
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = INS_buruh
+		}
+		x = 0
+		y = 8
+
+	}
+	focus = {
+		id = INS_countryside_improvement
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = INS_tani
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = INS_workers_right_laws
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = INS_industrialisation_programs
+		}
+		x = 0
+		y = 9
+
+	}
+	focus = {
+		id = INS_minimum_wage_laws
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		cost = 10.00
+		prerequisite = {
+			focus = INS_nationalise_plantations
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = INS_silent_revolution
+		icon = GFX_INS_silent_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = INS_negara_buruh_tani_pekerja
+		}
+		x = 2
+		y = 11
+
+	}
+}

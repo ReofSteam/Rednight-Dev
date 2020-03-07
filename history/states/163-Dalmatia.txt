@@ -1,0 +1,30 @@
+
+state={
+	id=163
+	name="STATE_163"
+
+	history={
+		owner = SER
+		add_core_of = SER
+
+		buildings = {
+			infrastructure = 6
+			dockyard = 1
+			6889 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			6889 1
+		}
+
+	}
+
+	provinces={
+		3868 6889
+	}
+	manpower=90577	
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

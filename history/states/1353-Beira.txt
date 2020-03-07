@@ -1,0 +1,30 @@
+
+state={
+	id=1353
+	name="STATE_1353"
+
+	history={
+		owner = PEX
+		add_core_of = PEX
+		add_core_of = MOZ
+		buildings = {
+			infrastructure = 3
+			2120 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			2120 1 
+		}
+
+	}
+
+	provinces={
+		2120
+	}
+	manpower=1836300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

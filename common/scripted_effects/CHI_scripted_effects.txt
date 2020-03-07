@@ -1,0 +1,139 @@
+#Add to scripted triggers if more levels of hyper inflation is added
+CHI_hyper_inflation_clear_all = {
+}
+
+#Important to put HIGHEST first
+CHI_hyper_inflation_level_up = {
+}
+
+#Important to put LOWEST first
+CHI_hyper_inflation_level_down = {
+}
+
+# CHI_integrating_warlords #
+
+CHI_warlord_integration_up = {
+}
+
+
+CHI_warlord_integration_down = {
+}
+
+#Could give more detailed info if needed
+CHI_show_state_uprising_effect_after_infiltration_level_down = {
+	custom_effect_tooltip = CHI_removed_infiltration
+	if = {
+		limit = {
+			any_country = {
+				is_potentially_communist_china = yes
+				PREV = {
+					has_state_flag = {
+						flag = PRC_infiltration_@PREV
+						value < 3
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = CHI_infiltration_not_detected
+	}
+	else_if = {
+		limit = {
+			any_country = {
+				is_potentially_communist_china = yes
+				PREV = {
+					has_state_flag = {
+						flag = PRC_infiltration_@PREV
+						value > 2
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = PRC_infiltrate_uprising_header
+		custom_effect_tooltip = PRC_infiltrate_uprising_effect_1
+	}
+}
+
+#State scope
+CHI_infiltration_flag_down_2 = {
+	hidden_effect = {	
+		every_country = {
+			limit = { is_potentially_communist_china = yes }
+			PREV = {
+				modify_state_flag = {
+					flag = PRC_infiltration_@PREV
+					value = -2
+				}
+				if = {
+					limit = {
+						has_state_flag = {
+							flag = PRC_infiltration_@PREV
+							value < 1
+						}
+					}
+					clr_state_flag = PRC_infiltration_@PREV
+					clr_state_flag = discovered_infiltration
+				}
+			}
+		}	
+	}
+}
+
+CHI_unity_level_up = {
+}
+
+CHI_unity_level_down = {
+}
+
+CHI_set_ally_strat_on_current_leader = {
+	if = {
+		limit = {
+			FROM = {
+				tag = CHI
+			}
+		}
+		add_ai_strategy = {
+            type = alliance
+            id = "CHI"
+            value = 200
+        }
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = SHX
+			}
+		}
+		add_ai_strategy = {
+            type = alliance
+            id = "SHX"
+            value = 200
+        }
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = XSM
+			}
+		}
+		add_ai_strategy = {
+            type = alliance
+            id = "XSM"
+            value = 200
+        }
+	}
+	else_if = {
+		limit = {
+			FROM = {
+				tag = SIK
+			}
+		}
+		add_ai_strategy = {
+            type = alliance
+            id = "SIK"
+            value = 200
+        }
+	}
+}
+
+CHI_negative_spirit_transfer = {
+}

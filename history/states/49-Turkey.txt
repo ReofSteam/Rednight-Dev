@@ -1,0 +1,29 @@
+
+state={
+	id=49
+	name="STATE_49" # Ankara
+	manpower = 770758
+	resources={
+		chromium=16
+	}
+	
+	state_category = city
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		
+		victory_points = {
+			11747 10
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 2
+		}
+	}
+
+	provinces={
+		6908 6925 9806 9901 11747 11784
+	}
+}

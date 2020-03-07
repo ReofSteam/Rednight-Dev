@@ -1,0 +1,25 @@
+
+state={
+	id=424
+	name="STATE_424"
+
+	history={
+		owner = DRA
+		add_core_of = DRA
+		victory_points = {
+			7340 1 
+		}
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1430 4365 7411 10152 10259 10296 10756 12779 15231 15233 15235 15239 15241 
+	}
+	manpower=13310000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

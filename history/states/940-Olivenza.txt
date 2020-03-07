@@ -1,0 +1,18 @@
+
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner = CNT
+		add_core_of = CNT
+	}
+
+	provinces={
+		4195
+	}
+	
+	manpower=12150
+	buildings_max_level_factor=1
+	state_category="wasteland"
+}

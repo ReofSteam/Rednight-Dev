@@ -1,0 +1,22 @@
+
+state={
+	id=1182
+	name="STATE_1182"
+
+	history={
+		owner = SWA
+		add_core_of = SWA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		9977 14788 14792 14795 14797 14805 14809 14813 
+	}
+	manpower=46730
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

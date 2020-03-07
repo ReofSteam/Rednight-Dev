@@ -1,0 +1,132 @@
+﻿capital = 43
+
+oob = "HUN"
+
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_politics = {	
+	ruling_party = voynist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 2
+    marxist = 5
+    libertarian = 2
+    moderate_socialist = 3
+    social_democrat = 1
+    social_liberal = 1
+    conservative = 4
+    authoritarian_democrat = 1
+    autocratic = 9
+    fundamentalist = 22
+    voynist = 50
+}
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
+
+set_country_flag = coalition_fundamentalist
+set_country_flag = coalition_autocratic
+
+###################################
+############# LEADERS #############
+# gfx/leaders/EASTERN_EUROPE/HUN/ #
+###################################
+create_country_leader = {
+	name = "National Council"
+	picture = "gfx/leaders/EASTERN_EUROPE/HUN/HUN_National_Council.dds"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Lazlo Endre"
+	picture = "gfx/leaders/EASTERN_EUROPE/HUN/HUN_Lazlo_Endre.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+		#
+	}
+}
+create_corps_commander = {
+	name = "Géza Lakatos"
+	gfx = GFX_Portrait_hungary_geza_lakatos
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Iván Hindy"
+	gfx = GFX_Portrait_hungary_ivan_hindy
+	traits = {  trickster }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Károly Beregfy"
+	gfx = GFX_Portrait_hungary_karoly_beregfy
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Lajos Veress"
+	gfx = GFX_Portrait_hungary_lajos_veress
+	traits = { armor_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Ferenc Feketehalmy-Czeydner"
+	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}

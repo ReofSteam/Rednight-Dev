@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		BGA_colonial_vestiges = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BGA_colonial_vestiges"}
+			#picture = 
+			modifier = {
+			}
+		}
+
+		BGA_ravages_of_war = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BGA_ravages_of_war"}
+			#picture = 
+			modifier = {
+			}
+		}
+
+		BGA_religious_conflicts = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BGA_religious_conflicts"}
+			#picture = 
+			modifier = {
+			}	
+		}	
+		BGA_peace_between_the_tribes = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BGA_peace_between_the_tribes"}
+			#picture = 
+			modifier = {
+			}	
+		}
+	}
+}

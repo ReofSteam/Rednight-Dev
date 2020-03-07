@@ -1,0 +1,805 @@
+bookmarks = {
+	bookmark = {
+		name = "INTERNATIONAL_NAME"
+		desc = "INTERNATIONAL_DESC"
+		date = 1950.1.1.1
+		picture = "GFX_select_date_1950"
+		default_country = "FRA"
+		
+		### LINE 1 ###
+
+		"FRA"={
+			history = "FRA_KN_1950_DESC"
+			ideology = marxist
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"BHC"={
+			history = "BHC_KN_1950_DESC"
+			ideology = social_nationalist
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"SAF"={
+			history = "SAF_KN_1950_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"EGY"={
+			history = "EGY_KN_1950_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		"RUS"={
+			history = "RUS_KN_1950_DESC"
+			ideology = voynist
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+
+		###MINOR
+		#MINOR LINE 1#
+
+		"N00"={ #1
+			minor = yes
+			history = ""
+		}
+		"N00"={ #2
+			minor = yes
+			history = ""
+		}
+		"N00"={#3
+			minor = yes
+			history = ""
+		}
+		"N00"={#4
+			minor = yes
+			history = ""
+		}
+		"N00"={#5
+			minor = yes
+			history = ""
+		}
+		"MLY"={#6
+			minor = yes
+			history = "MLY_KN_1950_DESC"
+		}
+		"SIA"={#7
+			minor = yes
+			history = "SIA_KN_1950_DESC"
+		}
+		"BUR"={#8
+			minor = yes
+			history = "BUR_KN_1950_DESC"
+		}
+		"N00"={#9
+			minor = yes
+			history = ""
+		}
+		"WST"={#10
+			history = "WST_KN_1950_DESC"
+			minor = yes
+		}
+		"SWA"={#11
+			history = "SWA_KN_1950_DESC"
+			minor = yes
+		}
+		"KTG"={#12
+			history = "KTG_KN_1950_DESC"
+			minor = yes
+		}
+		"TNG"={#13
+			history = "TNG_KN_1950_DESC"
+			minor = yes
+		}
+		"N00"={#14
+			history = ""
+			minor = yes
+		}
+		"HEJ"={#15
+			minor = yes
+			history = ""
+		}
+		"YEM"={#16
+			minor = yes
+			history = ""
+		}
+		"ARA"={#17
+			minor = yes
+			history = ""
+		}
+		"N00"={#18
+			minor = yes
+			history = ""
+		}
+		"N00"={#19
+			minor = yes
+			history = ""
+		}
+		"N00"={#20
+			minor = yes
+			history = ""
+		}
+		"N00"={#21
+			minor = yes
+			history = ""
+		}
+		"N00"={#22
+			minor = yes
+			history = ""
+		}
+
+
+		#MINOR LINE 2#
+
+		"N00"={ #1
+			minor = yes
+			history = ""
+		}
+		"N00"={ #2
+			minor = yes
+			history = ""
+		}
+		"N00"={#3
+			minor = yes
+			history = ""
+		}
+		"N00"={#4
+			minor = yes
+			history = ""
+		}
+		"N00"={#5
+			minor = yes
+			history = ""
+		}
+		"N00"={#6
+			minor = yes
+			history = ""
+		}
+		"N00"={#7
+			minor = yes
+			history = ""
+		}
+		"N00"={#8
+			minor = yes
+			history = ""
+		}
+		"N00"={#9
+			minor = yes
+			history = ""
+		}
+		"N00"={#10
+			history = ""
+			minor = yes
+		}
+		"N00"={#11
+			history = ""
+			minor = yes
+		}
+		"N00"={#12
+			history = ""
+			minor = yes
+		}
+		"N00"={#13
+			history = ""
+			minor = yes
+		}
+		"N00"={#14
+			history = ""
+			minor = yes
+		}
+		"N00"={#15
+			minor = yes
+			history = ""
+		}
+		"N00"={#16
+			minor = yes
+			history = ""
+		}
+		"N00"={#17
+			minor = yes
+			history = ""
+		}
+		"N00"={#18
+			minor = yes
+			history = ""
+		}
+		"N00"={#19
+			minor = yes
+			history = ""
+		}
+		"N00"={#20
+			minor = yes
+			history = ""
+		}
+		"N00"={#21
+			minor = yes
+			history = ""
+		}
+		"N00"={#22
+			minor = yes
+			history = ""
+		}
+
+
+		#MINOR LINE 3#
+
+		"N00"={ #1
+			minor = yes
+			history = ""
+		}
+		"N00"={ #2
+			minor = yes
+			history = ""
+		}
+		"N00"={#3
+			minor = yes
+			history = ""
+		}
+		"N00"={#4
+			minor = yes
+			history = ""
+		}
+		"N00"={#5
+			minor = yes
+			history = ""
+		}
+		"N00"={#6
+			minor = yes
+			history = ""
+		}
+		"N00"={#7
+			minor = yes
+			history = ""
+		}
+		"N00"={#8
+			minor = yes
+			history = ""
+		}
+		"N00"={#9
+			minor = yes
+			history = ""
+		}
+		"N00"={#10
+			history = ""
+			minor = yes
+		}
+		"N00"={#11
+			minor = yes
+			history = ""
+		}
+		"N00"={#12
+			minor = yes
+			history = ""
+		}
+		"N00"={#13
+			minor = yes
+			history = ""
+		}
+		"N00"={#14
+			minor = yes
+			history = ""
+		}
+		"N00"={#15
+			minor = yes
+			history = ""
+		}
+		"N00"={#16
+			minor = yes
+			history = ""
+		}
+		"N00"={#17
+			minor = yes
+			history = ""
+		}
+		"N00"={#18
+			minor = yes
+			history = ""
+		}
+		"N00"={#19
+			minor = yes
+			history = ""
+		}
+		"N00"={#20
+			minor = yes
+			history = ""
+		}
+		"N00"={#21
+			minor = yes
+			history = ""
+		}
+		"N00"={#22
+			minor = yes
+			history = ""
+		}
+
+
+		#MINOR LINE 5#
+
+		"N00"={ #1
+			minor = yes
+			history = ""
+		}
+		"N00"={ #2
+			minor = yes
+			history = ""
+		}
+		"N00"={#3
+			minor = yes
+			history = ""
+		}
+		"N00"={#4
+			minor = yes
+			history = ""
+		}
+		"N00"={#5
+			minor = yes
+			history = ""
+		}
+		"N00"={#6
+			minor = yes
+			history = ""
+		}
+		"N00"={#7
+			minor = yes
+			history = ""
+		}
+		"N00"={#8
+			minor = yes
+			history = ""
+		}
+		"CSA"={#9
+			history = "CSA_KN_1950_DESC"
+			minor = yes
+			ideology = libertarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={#10
+			history = "CHI_KN_1950_DESC"
+			minor = yes
+		}
+		"INS"={#11
+			history = "INS_KN_1950_DESC"
+			minor = yes
+		}
+		"SWE"={#12
+			history = "SWE_KN_1950_DESC"
+			minor = yes
+			ideas = {
+				SWE_german_advisors_to_the_king
+				SWE_ruined_economy
+				SWE_refugee_crisis
+			}
+		}
+		"BRA"={#13
+			history = "BRA_KN_1950_DESC"
+			minor = yes
+		}
+		"JAP"={#14
+			history = "JAP_KN_1950_DESC"
+			minor = yes
+		}
+		"N00"={#15
+			minor = yes
+			history = ""
+		}
+		"N00"={#16
+			minor = yes
+			history = ""
+		}
+		"N00"={#17
+			minor = yes
+			history = ""
+		}
+		"N00"={#18
+			minor = yes
+			history = ""
+		}
+		"N00"={#19
+			minor = yes
+			history = ""
+		}
+		"N00"={#20
+			minor = yes
+			history = ""
+		}
+		"N00"={#21
+			minor = yes
+			history = ""
+		}
+		"N00"={#22
+			minor = yes
+			history = ""
+		}
+		#MINOR LINE 2#
+
+		"N00"={ #1
+			minor = yes
+			history = ""
+		}
+		"N00"={ #2
+			minor = yes
+			history = ""
+		}
+		"N00"={#3
+			minor = yes
+			history = ""
+		}
+		"N00"={#4
+			minor = yes
+			history = ""
+		}
+		"N00"={#5
+			minor = yes
+			history = ""
+		}
+		"N00"={#6
+			minor = yes
+			history = ""
+		}
+		"N00"={#7
+			minor = yes
+			history = ""
+		}
+		"N00"={#8
+			minor = yes
+			history = ""
+		}
+		"N00"={#9
+			minor = yes
+			history = ""
+		}
+		"N00"={#10
+			minor = yes
+			history = ""
+		}
+		"N00"={#11
+			minor = yes
+			history = ""
+		}
+		"N00"={#12
+			minor = yes
+			history = ""
+		}
+		"N00"={#13
+			minor = yes
+			history = ""
+		}
+		"N00"={#14
+			minor = yes
+			history = ""
+		}
+		"N00"={#15
+			minor = yes
+			history = ""
+		}
+		"N00"={#16
+			minor = yes
+			history = ""
+		}
+		"N00"={#17
+			minor = yes
+			history = ""
+		}
+		"N00"={#18
+			minor = yes
+			history = ""
+		}
+		"N00"={#19
+			minor = yes
+			history = ""
+		}
+		"N00"={#20
+			minor = yes
+			history = ""
+		}
+		"N00"={#21
+			minor = yes
+			history = ""
+		}
+		"N00"={#22
+			minor = yes
+			history = ""
+		}
+
+		#Minor Line 6#
+		"GER"={
+			history = "GER_KN_1950_DESC"
+			minor = yes
+			ideology = libertarian
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"GBR"={
+			history = "GBR_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"CIS"={
+			history = "CIS_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"N00"={
+			minor = yes
+		}
+		"N00"={
+			minor = yes
+		}
+
+		"INC"={
+			minor = yes
+			history = "INC_KN_1950_DESC"
+			ideology = marxist
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"IVY"={
+			minor = yes
+			history = "IVY_KN_1950_DESC"
+			ideas = {
+			IVY_viva_la_republique
+			IVY_french_mercenaries
+			IVY_resist_the_red_menace
+			}
+		}
+
+		"NOR"={
+			minor = yes
+			history = "NOR_KN_1950_DESC"
+		}
+
+		"DEN"={
+			minor = yes
+			history = "DEN_KN_1950_DESC"
+		}
+
+		"SWI"={
+			minor = yes
+			history = "SWI_KN_1950_DESC"
+		}
+
+		"BUL"={
+			minor = yes
+			history = "BUL_KN_1950_DESC"
+			ideas = {
+			BUL_the_last_central_power
+			BUL_early_stages_of_industrialisation
+			BUL_substantial_turkish_minority
+			}
+		}
+
+		"ARG"={
+			minor = yes
+			history = "ARG_KN_1950_DESC"
+		}
+
+		"MEX"={
+			minor = yes
+			history = "MEX_KN_1950_DESC"
+		}
+
+		"AST"={
+			minor = yes
+			history = "AST_KN_1950_DESC"
+		}
+
+		"TUR"={
+			minor = yes
+			history = "TUR_KN_1950_DESC"
+		}
+
+		"N00"={
+			minor = yes
+			history = ""
+		}
+
+		"N00"={
+			minor = yes
+			history = ""
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_KN_1950_DESC"
+		}
+
+		"FRG"={
+			minor = yes
+			history = "SER_KN_1950_DESC"
+		}
+
+		"WPL"={
+			minor = yes
+			history = "FRG_KN_1950_DESC"
+			ideas = {
+			WPL_unfaithful_alliances
+			WPL_political_divisions
+			WPL_memories_of_the_devastation_of_warsaw
+			}
+		}
+
+		"MON"={
+			minor = yes
+			history = "WPL_KN_1950_DESC"
+		}
+		
+		# MINOR line 7 #
+
+		"NTH"={
+			history = "NTH_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"CNT"={
+			history = "CNT_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"BEL"={
+			history = "BEL_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"YUG"={
+			history = "YUG_KN_1950_DESC"
+			ideology = moderate_socialist
+			minor = yes
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"N00"={
+			minor = yes
+			history = ""
+		}
+
+		"N00"={
+			minor = yes
+			history = ""
+		}
+
+		"MOR"={
+			minor = yes
+			history = "MOR_KN_1950_DESC"
+		}
+
+		"USN"={
+			minor = yes
+			history = "USN_KN_1950_DESC"
+		}
+
+		"IRQ"={
+			minor = yes
+			history = "IRQ_KN_1950_DESC"
+		}
+
+		"GRE"={
+			minor = yes
+			history = "GRE_KN_1950_DESC"
+			ideas = {
+				GRE_state_orthodoxy
+				GRE_glorious_military
+				GRE_military_regime
+			}
+			focuses = {
+			}
+		}
+
+		"COL"={
+			minor = yes
+			history = "COL_KN_1950_DESC"
+		}
+
+		"VEN"={
+			minor = yes
+			history = "VEN_KN_1950_DESC"
+		}
+
+		"NZL"={
+			minor = yes
+			history = "NZL_KN_1950_DESC"
+		}
+		"ERI"={
+			minor = yes
+			history = "ERI_KN_1950_DESC"
+		}
+		"KLD"={
+			minor = yes
+			history = "KLD_KN_1950_DESC"
+		}
+		"SOM"={
+			minor = yes
+			history = "SOM_KN_1950_DESC"
+		}
+		"ETH"={
+			minor = yes
+			history = "ETH_KN_1950_DESC"
+		}
+		"N00"={
+			minor = yes
+			history = ""
+		}
+		"MRV"={
+			minor = yes
+			history = "SLO_KN_1950_DESC"
+		}
+		"SER"={
+			minor = yes
+			history = "MRV_KN_1950_DESC"
+		}
+		"PER"={
+			minor = yes
+			history = "PER_KN_1950_DESC"
+		}
+		"SLK"={
+			minor = yes
+			history = "FNG_KN_1950_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

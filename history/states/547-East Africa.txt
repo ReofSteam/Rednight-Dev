@@ -1,0 +1,27 @@
+
+state={
+	id=547
+	name="STATE_547"
+	manpower = 1 #1733195
+	state_category=rural
+	
+	state_category = rural
+
+	history={
+		owner = KLD
+		add_core_of = KLD
+		victory_points = {
+			15335 1 
+		}
+		victory_points = {
+			15330 1 
+		}
+		victory_points = {
+			15330 5 
+		}
+	}
+
+	provinces={
+		6020 13639 15330 15331 15334 15335 15333 15343
+	}
+}

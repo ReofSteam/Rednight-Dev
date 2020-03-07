@@ -1,0 +1,330 @@
+INS_ampera_struggle = {
+	INS_soeharto_president = {
+		icon = GFX_decision_generic_nationalism
+		cost = 100
+		days_remove = 3
+		fire_only_once = yes
+		available = {
+			check_variable = { var = INS_ampera_soeharto value = 80	compare = greater_than_or_equals }
+			check_variable = { var = INS_ampera_soekarno value = 20 compare = less_than_or_equals }
+			has_country_flag = INS_soekarno_tried_mahmilub
+		}
+		complete_effect = {
+			custom_effect_tooltip = INS_soeharto_appointed_president
+			hidden_effect = {
+				country_event = { id = INS_civilwar.15 days = 1 }
+			}
+		}
+	}
+	INS_summon_soekarno = {
+		icon = GFX_decision_INS_generic_decentralise
+		cost = 50
+		days_remove = 7
+		fire_only_once = yes
+		available = {
+			check_variable = { var = INS_ampera_soeharto value = 60	compare = greater_than_or_equals }
+			check_variable = { var = INS_ampera_soekarno value = 60 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = social_nationalist
+				popularity = -0.2
+			}
+			hidden_effect = {
+				set_country_flag = INS_soekarno_tried_mahmilub
+				add_to_variable = { var = INS_ampera_soeharto value = 10 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 10 }
+			}
+		}
+	}
+	INS_wisma_yasso = {
+		icon = GFX_decision_generic_prepare_civil_war
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 40 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = social_nationalist
+				popularity = -0.2
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 15 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 15 }
+			}
+		}
+	}
+	INS_adam_malik_testify = {
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.05
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_nasution_testify = {
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.05
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_imprison_soebiandro = {
+		icon = GFX_decision_oppression
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = social_nationalist
+				popularity = -0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_hang_untung = {
+		icon = GFX_decision_oppression
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_hang_nyoto = {
+		icon = GFX_decision_oppression
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_imprison_toer = {
+		icon = GFX_decision_oppression
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_imprison_sakirman = {
+		icon = GFX_decision_oppression
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.04
+			}
+			add_popularity = {
+				ideology = marxist
+				popularity = -0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 5 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 5 }
+			}
+		}
+	}
+	INS_rehabilitate_natsir = {
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 2 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 2 }
+			}
+		}
+	}
+	INS_rehabilitate_ali = {
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_democrat
+				popularity = 0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 2 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 2 }
+			}
+		}
+	}
+	INS_rehabilitate_tan_malaka = {
+		icon = GFX_decision_eng_trade_unions_support
+		cost = 50
+		fire_only_once = yes
+		days_remove = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = libertarian
+				popularity = 0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 2 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 2 }
+			}
+		}
+	}
+	INS_rid_soekarnoists = {
+		cost = 50
+		days_remove = 3
+		days_re_enable = 3
+		available = {
+			check_variable = { var = INS_ampera_soekarno value = 90 compare = less_than_or_equals }
+		}
+		complete_effect = {
+			add_popularity = {
+				ideology = autocratic
+				popularity = 0.02
+			}
+			hidden_effect = {
+				add_to_variable = { var = INS_ampera_soeharto value = 2 }
+				subtract_from_variable = { var = INS_ampera_soekarno value = 2 }
+			}
+		}
+	}
+}
+
+INS_parliament = {
+	INS_term_premier = { #Term
+		allowed = {
+			tag = INS
+			NOT = {
+				has_completed_focus = INS_premier_wikana
+			}
+		}
+		available = {
+			always = yes
+		}
+		activation = {
+			always = yes
+		}
+		is_good = no
+		days_mission_timeout = 365
+
+		timeout_effect = {
+		}
+		
+		complete_effect = {
+		}
+	}
+}

@@ -1,0 +1,347 @@
+spriteTypes = {
+	
+	###############
+	### AMERICA ###
+	###############
+
+	spriteType = {
+		name = "GFX_news_event_spa_split"
+		texturefile = "gfx/event_pictures/news_event_spa_split.dds"
+	}
+	###############
+	### RUSSIA  ###
+	###############
+
+	spriteType = {
+		name = "GFX_RUS_glasenapp"
+		texturefile = "gfx/event_pictures/RUS_glasenapp.tga"
+	}
+
+	################
+	### BULGARIA ###
+	################
+	spriteType = {
+		name = "GFX_report_event_street"
+		texturefile = "gfx/event_pictures/report_event_street.dds"
+	}
+	spriteType = {
+		name = "GFX_BUL_Boris_III"
+		texturefile = "gfx/event_pictures/Bulgaria/BUL_Boris_III.dds"
+	}
+
+	##############
+	### GREECE ###
+	##############
+	spriteType = {
+		name = "GFX_GRE_papagos"
+		texturefile = "gfx/event_pictures/GRE_papagos.tga"
+	}
+
+	##############
+	### POOLAND ###
+	##############
+	spriteType = {
+		name = "GFX_POL_intro2"
+		texturefile = "gfx/event_pictures/POL_intro2.tga"
+	}
+
+	#France
+	spriteType = {
+		name = "GFX_FRA_commune"
+		texturefile = "gfx/event_pictures/FRA_viva_la_commune.tga"
+	}
+
+	#Russia
+	spriteType = {
+		name = "GFX_RUS_Salvation_Day"
+		texturefile = "gfx/event_pictures/RUS_Salvation_Day.tga"
+	}
+
+	###############
+	### Generic ###
+	###############
+
+	spriteType = {
+		name = "GFX_Liberation_Day"
+		texturefile = "gfx/event_pictures/Liberation_Day.tga"
+	}
+
+	spriteType = {
+		name = "GFX_FOTR_released"
+		texturefile = "gfx/event_pictures/FOTR.tga"
+	}
+	
+	################
+	### SULAWESI ###
+	################
+	
+	spriteType = {
+		name = "GFX_SUL_generic"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_generic.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_generic2"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_generic2.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_ratulangi"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_ratulangi.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_monginsidi"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_monginsidi.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_andi_azis"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_andi_azis.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_aa_coup"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/event_sul_andi_azis_coup.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_military_dominance"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/SUL_military_dominance.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_ratulangi_corpse"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/SUL_ratulangi_corpse.tga"
+	}
+	spriteType = {
+		name = "GFX_SUL_kahar_muzakkar"
+		texturefile = "gfx/event_pictures/Indonesia/Sulawesi/SUL_kahar_muzakkar.tga"
+	}
+	
+	#################
+	### INDONESIA ###
+	#################
+	
+	spriteType = {
+		name = "GFX_INS_soumokil"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_soumokil.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_PSI"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_PSI.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_PNI"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_PNI.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_Murba"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_Murba.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_Masyumi"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_Masyumi.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_Istana_1950"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_Istana_1950.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_generic"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_generic.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_funeral"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_funeral.tga"
+	}
+	spriteType = {
+		name = "GFX_DEI_KNIL"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/DEI_KNIL.tga"
+	}
+	spriteType = {
+		name = "GFX_INS_japan_threat"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_japan_threat.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_presidential_decree"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_dekrit_presiden.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_leimena_minister"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_leimena_minister.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_Masyumi_PKI"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_Masyumi_PKI.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_Murba_PKI"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_Murba_PKI.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_PNI_PKI"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_PNI_PKI.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_army_1"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_army_1.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_army_2"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_army_2.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_army_3"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_army_3.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_army_4"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/4.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_hatta_farewell"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_hatta_farewell.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_soeharto"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_soeharto.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_soeharto_ordained"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_soeharto_ordained.tga"
+	}
+	spriteType = { 
+		name = "GFX_INS_untung_captured"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/INS_untung_captured.tga"
+	}
+	spriteType = { 
+		name = "GFX_PERMESTA_1"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/PERMESTA_1.tga"
+	}
+	spriteType = { 
+		name = "GFX_PRRI_1"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/PRRI_1.tga"
+	}
+	spriteType = { 
+		name = "GFX_PRRI_2"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/PRRI_2.tga"
+	}
+	spriteType = { 
+		name = "GFX_PRRI_3"
+		texturefile = "gfx/event_pictures/Indonesia/Indonesia/PRRI_3.tga"
+	}
+	spriteType = { 
+		name = "GFX_ACH_generic_1"
+		texturefile = "gfx/event_pictures/ACH_generic_1.tga"
+	}
+	spriteType = { 
+		name = "GFX_ACH_generic_2"
+		texturefile = "gfx/event_pictures/ACH_generic_2.tga"
+	}
+	spriteType = { 
+		name = "GFX_ACH_mayor_palace"
+		texturefile = "gfx/event_pictures/ACH_mayor_palace.tga"
+	}
+	
+	#########
+	## UoB ##
+	#########
+	spriteType = { 
+		name = "GFX_GBR_start_event"
+		texturefile = "gfx/event_pictures/GBR/GBR_start_event.dds"
+	}
+	#spriteType = { ##Template
+		#name = "GFX_"
+		#texturefile = "gfx/event_pictures/Indonesia/Indonesia/.tga"
+	#}
+	
+	#############
+	### EGYPT ###
+	#############
+	
+	spriteType = { 
+		name = "GFX_EGY_Abbas_Halim"
+		texturefile = "gfx/event_pictures/EGY/EGY_Abbas_Halim.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_aflaq_red_coalition"
+		texturefile = "gfx/event_pictures/EGY/EGY_aflaq_red_coalition.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_damascus_riot"
+		texturefile = "gfx/event_pictures/EGY/EGY_damascus_riot.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_elbanna_reee"
+		texturefile = "gfx/event_pictures/EGY/EGY_elbanna_reee.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_idlib_stockpile"
+		texturefile = "gfx/event_pictures/EGY/EGY_idlib_stockpile.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_left_unity"
+		texturefile = "gfx/event_pictures/EGY/EGY_left_unity.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_martial_law"
+		texturefile = "gfx/event_pictures/EGY/EGY_martial_law.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_nasser_bad"
+		texturefile = "gfx/event_pictures/EGY/EGY_nasser_bad.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_nasser_good"
+		texturefile = "gfx/event_pictures/EGY/EGY_nasser_good.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_nasser_wooo"
+		texturefile = "gfx/event_pictures/EGY/EGY_nasser_wooo.tga"
+	}
+	spriteType = { 
+		name = "GFX_EGY_syria_revolt"
+		texturefile = "gfx/event_pictures/EGY/EGY_syria_revolt.tga"
+	}
+	
+
+                ##     
+	###############        #####
+	########## Indochina ###### Boxes are for loser
+	###############
+	spriteType = { 
+		name = "GFX_indochina_war_1"
+		texturefile = "gfx/event_pictures/indochina_war_1.tga"
+	}
+		spriteType = { 
+		name = "GFX_indochina_war_2"
+		texturefile = "gfx/event_pictures/indochina_war_2.tga"
+	}
+		spriteType = { 
+		name = "GFX_indochina_war_3"
+		texturefile = "gfx/event_pictures/indochina_war_3.tga"
+	}
+		spriteType = { 
+		name = "GFX_indochina_war_4"
+		texturefile = "gfx/event_pictures/indochina_war_4.tga"
+	}
+		spriteType = { 
+		name = "GFX_indochina_war_5"
+		texturefile = "gfx/event_pictures/indochina_war_5.tga"
+	}
+	
+	
+#######The time of Bombs######
+		spriteType = { 
+		name = "GFX_forrest_brothers_attack"
+		texturefile = "gfx/event_pictures/international/forrest_brother_attack.dds"
+	}
+			spriteType = { 
+		name = "GFX_bolshevik_terrorism"
+		texturefile = "gfx/event_pictures/international/bolshevik_terrorist.dds"
+	}
+			spriteType = { 
+		name = "GFX_embassy_siege"
+		texturefile = "gfx/event_pictures/international/embassy_siege.dds"
+	}
+			spriteType = { 
+		name = "GFX_forrest_brothers_attack"
+		texturefile = "gfx/event_pictures/international/forrest_brother_attack.dds"
+	}
+	
+	
+}

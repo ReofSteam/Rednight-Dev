@@ -1,0 +1,25 @@
+
+state={
+	id=953
+	name="STATE_953"
+
+	history={
+		owner = TKE
+		add_core_of = TKE
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			3109 1 
+		}
+
+	}
+
+	provinces={
+		2192 3109 
+	}
+	manpower=89400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

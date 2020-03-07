@@ -1,0 +1,157 @@
+ideas = {
+	country = {
+	}
+
+	head_of_government = {
+		CIS_Karl_Kreibich_hog = {
+			picture = CIS_Karl_Kreibich
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Karl Kreibich' the  'Head of Government'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				marxist_trait
+				president
+			}
+		}
+	}
+	minister_no_portfolio = {
+		
+	}
+	interior_minister = {
+		CIS_Antonin_Zapotocky_interior = {
+			picture = CIS_Antonin_Zapotocky_interior
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Antonín Zápotocký' the  'Interior minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				libertarian_trait
+				interior_minister
+			}
+		}
+	
+	}
+	economy_minister = {
+		CIS_Otto_Bauer_economy = {
+			picture = CIS_Otto_Bauer_economy
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Otto Bauer' the  'Economy Minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				moderate_socialist_trait
+				economy_minister
+			}
+		}
+	
+	}
+	foreign_minister = {
+		CIS_Edvard_Benes_foreign = {
+			picture = CIS_Edvard_Benes_foreign
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Edvard Beneš' the  'Foreign Minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				social_nationalist_trait
+				foreign_minister
+			}
+		}
+	
+	}
+	education_minister = {
+		CIS_Alfred_Klahr_education = {
+			picture = CIS_Alfred_Klahr
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Alfred Klahr' the  'Education Minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				marxist_trait
+				education_minister
+			}
+		}
+	
+	}
+	culture_minister = {
+		CIS_Karl_Renner_culture = {
+			picture = CIS_Karl_Renner_culture
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Karl Renner' the  'Culture Minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				moderate_socialist_trait
+				culture_minister
+			}
+		}
+	
+	}
+	transport_minister = {
+		CIS_Josef_Smrkovsky_transport = {
+			picture = CIS_Josef_Smrkovsky_transport
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Josef Smrkovský' the  'Transport Minister'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				moderate_socialist_trait
+				minister_of_railways
+			}
+		}
+	
+	}
+	head_of_intel = {
+		CIS_Arnold_Deutsch_intel = {
+			picture = CIS_Arnold_Deutsch_intel
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Arnold Deutsch' the  'Head of Intel'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				head_of_federal_security_office
+			}
+		}
+	
+	}
+	chief_of_staff = {
+		CIS_Theodor_Koerner_cos = {
+			picture = CIS_Theodor_Korner
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Theodor Koerner' the  'Chief of Staff'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				CIS_cos_people_army
+			}
+		}
+
+	}
+	chief_of_army = {
+		CIS_Jaroslav_Prochzka_coa = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jaroslav Prochzka' the  'Chief of Army'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				CIS_cogs_people_army
+			}
+		}
+	
+	}
+	chief_of_air_force = {
+		CIS_Gutsav_Hauck_coaf = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Gustav Hauck' the  'Chief of Air Force'"}
+			allowed = {
+				tag = CIS
+			}
+			traits = {
+				CIS_cogs_luftstreikrafte
+			}
+		}
+	
+	}
+	chief_of_navy = {
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=416
+	name="STATE_416"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			5029 1 
+		}
+
+	}
+
+	provinces={
+		1957 2000 5029 15076 15080 15082 15083 15092 15094 15106 15118 15120 15121 
+	}
+	manpower=874533
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

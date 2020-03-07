@@ -1,0 +1,204 @@
+ideas = {
+	country = {
+		SWE_german_advisors_to_the_king = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWE_german_advisors_to_the_king"}
+			picture = german_advisors_to_the_king
+			modifier = {
+			}
+		}
+
+		SWE_crown_prince_gustaf_adolf = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWE_crown_prince_gustaf_adolf"}
+			picture = crown_prince_gustaf_adolf
+			modifier = {
+			}
+		}
+
+		SWE_ruined_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWE_ruined_economy"}
+			picture = ruined_economy
+			modifier = {
+				 
+			}	
+		}	
+		
+		SWE_refugee_crisis = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: add idea SWE_refugee_crisis"}
+		picture = refugee_crisis
+		modifier = {
+			
+			}	
+		}	
+	}
+    
+    head_of_government = {
+		SWE_Fritiof_Domo_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Fritiof Domö' the 'Head of Government'"}
+			picture = SWE_Fritiof_Domo
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                head_of_government
+                authoritarian_democrat_trait
+			}
+		}
+	}
+	minister_no_portfolio = {
+		
+	}
+	interior_minister = {
+		SWE_Carl_Persson_interior = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Carl Person' the 'Interior minister'"}
+			picture = SWE_Carl_Persson
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                interior_minister
+                authoritarian_democrat_trait
+			}
+		}
+	
+	}
+	economy_minister = {
+		SWE_Conrad_Carleson_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Conrad Carleson' the 'Economy Minister'"}
+			picture = SWE_Conrad_Carleson
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                economy_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	foreign_minister = {
+		SWE_Christian_Gunther_foreign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Christian Günther' the 'Foreign Minister'"}
+			picture = SWE_Christian_Gunther
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                foreign_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	education_minister = {
+		SWE_Georg_Andren_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Georg Andrén' the 'Education Minister'"}
+			picture = SWE_Georg_Andren
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                education_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	culture_minister = {
+		SWE_Georg_Andren_culture = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Georg Andrén' the 'Culture Minister'"}
+			picture = SWE_Georg_Andren
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                culture_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	transport_minister = {
+		SWE_Walter_Murray_transport = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Walter Murray' the 'Transport Minister'"}
+			picture = SWE_Walter_Murray
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                transport_minister
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	head_of_intel = {
+		SWE_Thorwald_Bergquist_intel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Thorwald Bergquist' the 'Head of Intel'"}
+			picture = SWE_Thorwald_Bergquist
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                head_of_intel
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_staff = {
+		SWE_Helge_Jung_staff = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Helge Jung' the 'Chief of Staff'"}
+			picture = SWE_Helge_Jung
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                chief_of_staff
+                authoritarian_democrat_trait
+            }
+		}
+
+	}
+	chief_of_army = {
+		SWE_Carl_A_Ehrensvard_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Carl A. Ehrensvärd' the 'Chief of Army'"}
+			picture = SWE_Carl_A_Ehrensvard
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                chief_of_army
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_air_force = {
+		SWE_Bengt_Nordenskiold_air = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Bengt Nordenskiöld' the 'Chief of Air Force'"}
+			picture = SWE_Bengt_Nordenskiold
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                chief_of_air_force
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+	chief_of_navy = {
+		SWE_Helge_Stromback_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Helge Strömbäck' the 'Chief of Navy'"}
+			picture = SWE_Helge_Stromback
+			allowed = {
+				tag = SWE
+			}
+			traits = {
+                chief_of_navy
+                authoritarian_democrat_trait
+            }
+		}
+	
+	}
+}

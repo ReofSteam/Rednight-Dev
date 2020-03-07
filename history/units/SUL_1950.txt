@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Satuan Tempur Infanteri"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {}
+}
+
+units = {
+	division = { 
+		division_name = "Divisi I/Sombalakku"
+		location = 10263
+		division_template = "Satpur Infanteri"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = "Divisi II/Waroagi"
+		location = 4564
+		division_template = "Satpur Infanteri"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = "Divisi III/Santiago"
+		location = 10153
+		division_template = "Satpur Infanteri"
+		start_experience_factor = 0.5
+	}
+	division = { 
+		division_name = "Divisi IV/Tadulako"
+		location = 1518
+		division_template = "Satpur Infanteri"
+		start_experience_factor = 0.5
+	}
+	
+}

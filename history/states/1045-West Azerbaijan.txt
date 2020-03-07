@@ -1,0 +1,25 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1636 1 
+		}
+
+	}
+
+	provinces={
+		1636 4755 15158 15159 
+	}
+	manpower=175680
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

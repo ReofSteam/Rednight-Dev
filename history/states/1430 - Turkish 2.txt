@@ -1,0 +1,21 @@
+state={
+	id=1430
+	name="STATE_1430"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11894 1
+		}
+	}
+	provinces={
+		960 975 3965 11894
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category=town
+}

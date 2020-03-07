@@ -1,0 +1,19 @@
+state={
+	id=1084
+	name="STATE_1084"
+	provinces={
+		5180 10932 13813 13816 13820 13821 13825 13826 13830 13831 
+	}
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=582140
+	buildings_max_level_factor=1.000
+	state_category=town
+}

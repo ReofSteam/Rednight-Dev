@@ -1,0 +1,20 @@
+
+state={
+	id=1356
+	name="STATE_1356"
+	provinces={
+		15510 15512 15514 15518 15524 15528 15529 15534 15536 15539 15540 15543 15544 15545 15547 15548 15550 
+	}
+	history={
+		owner = TAS
+		add_core_of = TAS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=45000
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

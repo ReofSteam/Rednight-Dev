@@ -1,0 +1,698 @@
+focus_tree = { 
+id = iran_krasnacht
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = PER 
+} 
+} 
+#Focus for Assassinate Local Leaders
+focus = { 
+id = Iran_assassinatelocalleaders
+icon = GFX_goal_unknown
+x = 4
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_resettleminorities } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reign in the Tribes
+focus = { 
+id = Iran_reigninthetribes
+icon = GFX_goal_unknown
+x = 12
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_silencetheimams } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Invest in Heavy Industry
+focus = { 
+id = Iran_investinheavyindustry
+icon = GFX_goal_unknown
+x = 20
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_industrializationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Cultivate Iranism
+focus = { 
+id = Iran_cultivateiranism
+icon = GFX_goal_unknown
+x = 5
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_nationalmonuments focus = Iran_usetheintellectuals } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Economic Security
+focus = { 
+id = Iran_economicsecurity
+icon = GFX_economicsecurity
+x = 20
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_theportagreement } 
+prerequisite = { focus = Iran_constructioninitiatives } 
+prerequisite = { focus = Iran_pipelinestothenorth } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for National Monuments
+focus = { 
+id = Iran_nationalmonuments
+icon = GFX_nationalmonuments
+x = 6
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_beginningsofanidentity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Revive Ancient Texts
+focus = { 
+id = Iran_reviveancienttexts
+icon = GFX_goal_unknown
+x = 3
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_usetheintellectuals } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Military Parades
+focus = { 
+id = Iran_militaryparades
+icon = GFX_goal_unknown
+x = 7
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_nationalmonuments } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Scout the Mountains
+focus = { 
+id = Iran_scoutthemountains
+icon = GFX_scoutthemountains
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thecounterinsurgency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the SAVAK
+focus = { 
+id = Iran_expandthesavak
+icon = GFX_expandthesavak
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thecounterinsurgency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Construction Initiatives
+focus = { 
+id = Iran_constructioninitiatives
+icon = GFX_goal_generic_construction2
+x = 19
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_sarpacinvestment } 
+prerequisite = { focus = Iran_expandthewells } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Business Oligarchs
+focus = { 
+id = Iran_businessoligarchs
+icon = GFX_businessoligarchs
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_theportagreement } 
+prerequisite = { focus = Iran_constructioninitiatives } 
+prerequisite = { focus = Iran_pipelinestothenorth } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Embrace Rentierism
+focus = { 
+id = Iran_embracerentierism
+icon = GFX_focus_CZE_german_puppet
+x = 19
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thenationalgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for SARPAC Investment
+focus = { 
+id = Iran_sarpacinvestment
+icon = GFX_sarpacinvestment
+x = 18
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_embracerentierism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Wells
+focus = { 
+id = Iran_expandthewells
+icon = GFX_goal_generic_oil_refinery
+x = 20
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_embracerentierism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pipelines to the North
+focus = { 
+id = Iran_pipelinestothenorth
+icon = GFX_pipelinestothenorth
+x = 21
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_expandthewells } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Port Agreement
+focus = { 
+id = Iran_theportagreement
+icon = GFX_goal_generic_construct_naval_dockyard
+x = 17
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_sarpacinvestment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The National Government
+focus = { 
+id = Iran_thenationalgovernment
+icon = GFX_thenationalgovernment
+x = 12
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Beginnings of an Identity
+focus = { 
+id = Iran_beginningsofanidentity
+icon = GFX_beginningsofanidentity
+x = 5
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thenationalgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Counter Insurgency
+focus = { 
+id = Iran_thecounterinsurgency
+icon = GFX_goal_unknown
+x = 12
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thenationalgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Language Reform
+focus = { 
+id = Iran_languagereform
+icon = GFX_goal_unknown
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_reviveancienttexts } 
+prerequisite = { focus = Iran_cultivateiranism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Young Persian Scouts
+focus = { 
+id = Iran_theyoungpersianscouts
+icon = GFX_goal_unknown
+x = 6
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_militaryparades } 
+prerequisite = { focus = Iran_cultivateiranism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bring in the Russians
+focus = { 
+id = Iran_bringintherussians
+icon = GFX_bringintherussians
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_expandthesavak } 
+prerequisite = { focus = Iran_recruitfriendlymilitias } 
+prerequisite = { focus = Iran_scoutthemountains } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Negotiate with the Clans
+focus = { 
+id = Iran_negotiatewiththeclans
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_expandthesavak } 
+prerequisite = { focus = Iran_recruitfriendlymilitias } 
+prerequisite = { focus = Iran_scoutthemountains } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify Khorasan
+focus = { 
+id = Iran_pacifykhorasan
+icon = GFX_goal_generic_major_war
+x = 16
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_bringintherussians } 
+prerequisite = { focus = Iran_negotiatewiththeclans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify Mazandaran
+focus = { 
+id = Iran_pacifymazandaran
+icon = GFX_goal_generic_major_war
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_bringintherussians } 
+prerequisite = { focus = Iran_negotiatewiththeclans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify Azerbaijan
+focus = { 
+id = Iran_pacifyazerbaijan
+icon = GFX_goal_generic_major_war
+x = 8
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_bringintherussians } 
+prerequisite = { focus = Iran_negotiatewiththeclans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify Lorestan
+focus = { 
+id = Iran_pacifylorestan
+icon = GFX_goal_generic_major_war
+x = 14
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_bringintherussians } 
+prerequisite = { focus = Iran_negotiatewiththeclans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pacify Kermanshah
+focus = { 
+id = Iran_pacifykermanshah
+icon = GFX_goal_generic_major_war
+x = 12
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_bringintherussians } 
+prerequisite = { focus = Iran_negotiatewiththeclans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Recruit Friendly Militias
+focus = { 
+id = Iran_recruitfriendlymilitias
+icon = GFX_recruitfriendlymilitias
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thecounterinsurgency } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The White Revolution
+focus = { 
+id = Iran_thewhiterevolution
+icon = GFX_thewhiterevolution
+x = 12
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_pacifykhorasan } 
+prerequisite = { focus = Iran_pacifymazandaran } 
+prerequisite = { focus = Iran_pacifyazerbaijan } 
+prerequisite = { focus = Iran_pacifylorestan } 
+prerequisite = { focus = Iran_pacifykermanshah } 
+prerequisite = { focus = Iran_theyoungpersianscouts } 
+prerequisite = { focus = Iran_languagereform } 
+prerequisite = { focus = Iran_businessoligarchs } 
+prerequisite = { focus = Iran_economicsecurity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Use the Intellectuals
+focus = { 
+id = Iran_usetheintellectuals
+icon = GFX_goal_unknown
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_beginningsofanidentity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Persianization Program
+focus = { 
+id = Iran_persianizationprogram
+icon = GFX_goal_unknown
+x = 4
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thewhiterevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Secularization Program
+focus = { 
+id = Iran_secularizationprogram
+icon = GFX_goal_unknown
+x = 12
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thewhiterevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Industrialization Program
+focus = { 
+id = Iran_industrializationprogram
+icon = GFX_goal_unknown
+x = 20
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_thewhiterevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Persian Education
+focus = { 
+id = Iran_apersianeducation
+icon = GFX_apersianeducation
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_persianizationprogram focus = Iran_secularizationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Adopt Western Technology
+focus = { 
+id = Iran_adoptwesterntechnology
+icon = GFX_goal_tfv_generic_tech_sharing
+x = 16
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_secularizationprogram focus = Iran_industrializationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for In Iran We Speak Farsi
+focus = { 
+id = Iran_iniranwespeakfarsi
+icon = GFX_iniranwespeakfarsi
+x = 6
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_apersianeducation } 
+prerequisite = { focus = Iran_persianizationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for End Islamic Schooling
+focus = { 
+id = Iran_endislamicschooling
+icon = GFX_endislamicschooling
+x = 10
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_apersianeducation } 
+prerequisite = { focus = Iran_secularizationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Silence the Imams
+focus = { 
+id = Iran_silencetheimams
+icon = GFX_silencetheimams
+x = 12
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_secularizationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Resettle Minorities
+focus = { 
+id = Iran_resettleminorities
+icon = GFX_goal_unknown
+x = 4
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_persianizationprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Women in the Workforce
+focus = { 
+id = Iran_womenintheworkforce
+icon = GFX_womenintheworkforce
+x = 14
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_secularizationprogram } 
+prerequisite = { focus = Iran_adoptwesterntechnology } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Modern Agriculture
+focus = { 
+id = Iran_modernagriculture
+icon = GFX_modernagriculture
+x = 18
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_industrializationprogram } 
+prerequisite = { focus = Iran_adoptwesterntechnology } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Efficient Machines
+focus = { 
+id = Iran_efficientmachines
+icon = GFX_goal_unknown
+x = 20
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Iran_investinheavyindustry } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

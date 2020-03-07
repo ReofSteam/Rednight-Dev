@@ -1,0 +1,35 @@
+
+state={
+	id=1254
+	name="STATE_1254"
+	provinces={
+		327 530 6296 6360 9246 9357 9374 9404 9438 11226 11498 
+	}
+	history={
+		owner = RUS
+		add_core_of = LIT
+		victory_points = {
+			6296 10
+		}
+		victory_points = {
+			9438 3
+		}
+		victory_points = {
+			9404 1
+		}
+		victory_points = {
+			6360 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+
+		}
+
+	}
+	manpower=992000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

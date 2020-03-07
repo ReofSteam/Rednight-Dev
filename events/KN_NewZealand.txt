@@ -1,0 +1,161 @@
+﻿###########################
+# New Zealand Events
+###########################
+
+add_namespace = nzl
+
+
+country_event = {
+	id = nzl.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.1"}
+	title = nzl.1.t
+	desc = nzl.1.d
+	picture = GFX_NZL_queenlife
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = nzl.1.a
+		set_politics = {
+			ruling_party = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.15
+		}
+	}
+	option = {
+		name = nzl.1.b
+		set_politics = {
+			ruling_party = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.15
+		}
+	}
+	option = {
+		name = nzl.1.c
+		set_politics = {
+			ruling_party = conservative
+		}
+		add_popularity = {
+			ideology = conservative
+			popularity = 0.1
+		}
+	}
+	option = {
+		name = nzl.1.e
+		set_politics = {
+			ruling_party = autocratic
+		}
+		add_popularity = {
+			ideology = autocratic
+			popularity = 0.2
+		}
+	}
+}
+
+country_event = {
+	id = nzl.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.2"}
+	title = nzl.2.t
+	desc = nzl.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+    	trigger = {
+		tag = NZL
+	}
+	option = {
+		name = nzl.2.a
+
+	}
+	
+	option = {
+		name = nzl.2.b
+
+	}
+}
+
+country_event = {
+	id = nzl.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.3"}
+	title = nzl.3.t
+	desc = nzl.3.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    	trigger = {
+		tag = NZL
+	}
+	option = {
+		name = nzl.3.a
+		add_stability = -0.25
+
+			}
+				
+	}
+country_event = {
+	id = nzl.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.4"}
+	title = nzl.4.t
+	desc = nzl.4.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    	trigger = {
+		tag = NZL
+	}
+	option = {
+		name = nzl.4.a
+		add_stability = -0.25
+
+			}
+				
+	}
+#Australian Ultimatium	
+country_event = {
+	id = nzl.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.5"}
+	title = nzl.5.t
+	desc = nzl.5.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    	trigger = {
+		tag = NZL
+	}
+	option = {
+		name = nzl.5.a
+		add_stability = -0.25
+
+			}
+				
+	}	
+country_event = {
+	id = nzl.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nzl.6"}
+	title = nzl.6.t
+	desc = nzl.6.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    	trigger = {
+		tag = NZL
+	}
+	option = {
+		name = nzl.6.a
+		add_stability = -0.25
+
+			}
+		option = {
+		name = nzl.6.b
+		add_stability = -0.25
+
+			}		
+				
+	}	
+
+
+
+

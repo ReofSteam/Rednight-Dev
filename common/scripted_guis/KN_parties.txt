@@ -1,0 +1,648 @@
+scripted_gui = {
+	kn_achievements_button_ui = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "kn_achievements_button_ui"
+		
+		visible = {
+			always = yes		
+		}
+
+		properties = {
+		}
+		effects = {
+			kn_achievements_button_click = {
+				if = {
+					limit = {
+						has_country_flag = kn_achievements_ui_view				
+					}
+					clr_country_flag = kn_achievements_ui_view
+					else = {
+						set_country_flag = kn_achievements_ui_view
+					}				
+				}
+			}
+		}
+	}
+	kn_information_window_ui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "kn_information_window_ui"
+		
+		visible = {
+			has_country_flag = kn_desc_ui_view		
+		}
+
+		properties = {
+		}
+		effects = {
+			kn_information_ui_close_click = {
+				clr_country_flag = kn_desc_ui_view
+			}
+		}
+	}
+	kn_achievements_ui = {
+		context_type = player_context
+		window_name = "kn_achievements_ui"
+		
+		visible = {
+			has_country_flag = kn_achievements_ui_view		
+		}
+
+		properties = {
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = kn_achievements_ui_view
+			}
+		}
+	}
+	kn_parties_button_ui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "kn_parties_button_ui"
+		
+		visible = {
+			always = yes		
+		}
+
+		properties = {
+			kn_faction_icon = {
+				image = "[FACTION_ICON]"
+			}
+		}
+
+		triggers = {
+            kn_faction_managment_click_enabled = {
+                OR = {
+                	is_in_faction = yes
+                	is_faction_leader = yes
+                }
+            }
+        }
+
+		effects = {
+			kn_parties_button_click = {
+				kn_arrange_parties_with_arrays = yes
+				if = {
+					limit = {
+						has_country_flag = kn_parties_ui_view				
+					}
+					clr_country_flag = kn_parties_ui_view
+					else = {
+						set_country_flag = kn_parties_ui_view
+					}				
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_claims_ui_view				
+					}
+					clr_country_flag = kn_claims_ui_view
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_laws_ui_view				
+					}
+					clr_country_flag = kn_laws_ui_view			
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_desc_ui_view				
+					}
+					clr_country_flag = kn_desc_ui_view
+				}
+			}
+			# kn_claims_button_click = {
+			# 	kn_get_claims = yes
+			# 	if = {
+			# 		limit = {
+			# 			has_country_flag = kn_claims_ui_view				
+			# 		}
+			# 		clr_country_flag = kn_claims_ui_view
+			# 		else = {
+			# 			set_country_flag = kn_claims_ui_view
+			# 		}				
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			has_country_flag = kn_parties_ui_view				
+			# 		}
+			# 		clr_country_flag = kn_parties_ui_view
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			has_country_flag = kn_laws_ui_view				
+			# 		}
+			# 		clr_country_flag = kn_laws_ui_view			
+			# 	}
+			# 	if = {
+			# 		limit = {
+			# 			has_country_flag = kn_desc_ui_view				
+			# 		}
+			# 		clr_country_flag = kn_desc_ui_view
+			# 	}
+			# }
+			kn_laws_button_click = {
+				if = {
+					limit = {
+						has_country_flag = kn_laws_ui_view				
+					}
+					clr_country_flag = kn_laws_ui_view
+					else = {
+						set_country_flag = kn_laws_ui_view
+					}				
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_claims_ui_view				
+					}
+					clr_country_flag = kn_claims_ui_view			
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_parties_ui_view				
+					}
+					clr_country_flag = kn_parties_ui_view
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_desc_ui_view				
+					}
+					clr_country_flag = kn_desc_ui_view
+				}
+			}
+			kn_information_button_click = {
+				if = {
+					limit = {
+						has_country_flag = kn_desc_ui_view				
+					}
+					clr_country_flag = kn_desc_ui_view
+					else = {
+						set_country_flag = kn_desc_ui_view
+					}				
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_claims_ui_view				
+					}
+					clr_country_flag = kn_claims_ui_view			
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_parties_ui_view				
+					}
+					clr_country_flag = kn_parties_ui_view
+				}
+				if = {
+					limit = {
+						has_country_flag = kn_laws_ui_view				
+					}
+				}
+			}
+		}
+	}
+	kn_parties_window_ui = {
+		context_type = player_context
+		window_name = "kn_parties_window_ui"
+		parent_window_token = politics_tab
+
+		dynamic_lists = {
+		}
+
+
+		properties = {
+		    ideology_pos1 = {
+                image = "[GFX_POS1_IDEOLOGY]"
+		    }
+		    ideology_pos2 = {
+                image = "[GFX_POS2_IDEOLOGY]"
+		    }
+		    ideology_pos3 = {
+                image = "[GFX_POS3_IDEOLOGY]"
+		    }
+		    ideology_pos4 = {
+                image = "[GFX_POS4_IDEOLOGY]"
+		    }
+		    ideology_pos5 = {
+                image = "[GFX_POS5_IDEOLOGY]"
+		    }
+		    ideology_pos6 = {
+                image = "[GFX_POS6_IDEOLOGY]"
+		    }
+		    ideology_pos7 = {
+                image = "[GFX_POS7_IDEOLOGY]"
+		    }
+		    ideology_pos8 = {
+                image = "[GFX_POS8_IDEOLOGY]"
+		    }
+		    ideology_pos9 = {
+                image = "[GFX_POS9_IDEOLOGY]"
+		    }
+		    ideology_pos10 = {
+                image = "[GFX_POS10_IDEOLOGY]"
+		    }
+		    ideology_pos11 = {
+                image = "[GFX_POS11_IDEOLOGY]"
+		    }
+
+
+		    status_socnat = {
+                image = "[GFX_SOCNAT_STATUS]"
+		    }
+		    status_marxist = {
+                image = "[GFX_MARXIST_STATUS]"
+		    }
+		    status_lib = {
+                image = "[GFX_LIB_STATUS]"
+		    }
+		    status_modsoc = {
+                image = "[GFX_MODSOC_STATUS]"
+		    }
+		    status_socdem = {
+                image = "[GFX_SOCDEM_STATUS]"
+		    }
+		    status_soclib = {
+                image = "[GFX_SOCLIB_STATUS]"
+		    }
+		    status_con = {
+                image = "[GFX_CON_STATUS]"
+		    }
+		    status_authdem = {
+                image = "[GFX_AUTHDEM_STATUS]"
+		    }
+		    status_autocratic = {
+                image = "[GFX_AUTOCRATIC_STATUS]"
+		    }
+		    status_fundie = {
+                image = "[GFX_FUNDIE_STATUS]"
+		    }
+		    status_voynist = {
+                image = "[GFX_VOYNIST_STATUS]"
+		    }
+
+		    coalition_socnat = {
+                image = "[GFX_SOCNAT_COALITION]"
+		    }
+		    coalition_marxist = {
+                image = "[GFX_MARXIST_COALITION]"
+		    }
+		    coalition_lib = {
+                image = "[GFX_LIB_COALITION]"
+		    }
+		    coalition_modsoc = {
+                image = "[GFX_MODSOC_COALITION]"
+		    }
+		    coalition_socdem = {
+                image = "[GFX_SOCDEM_COALITION]"
+		    }
+		    coalition_soclib = {
+                image = "[GFX_SOCLIB_COALITION]"
+		    }
+		    coalition_con = {
+                image = "[GFX_CON_COALITION]"
+		    }
+		    coalition_authdem = {
+                image = "[GFX_AUTHDEM_COALITION]"
+		    }
+		    coalition_autocratic = {
+                image = "[GFX_AUTOCRATIC_COALITION]"
+		    }
+		    coalition_fundie = {
+                image = "[GFX_FUNDIE_COALITION]"
+		    }
+		    coalition_voynist = {
+                image = "[GFX_VOYNIST_COALITION]"
+		    }
+		}
+		visible = {
+			has_country_flag = kn_parties_ui_view		
+		}
+		effects = {
+			kn_parties_ui_close_click = {
+				clr_country_flag = kn_parties_ui_view
+				kn_arrange_parties_with_arrays = yes
+			}
+		}
+	}
+	kn_laws_ui = {
+		context_type = player_context
+		window_name = "kn_laws_ui"
+		parent_window_token = politics_tab
+		visible = {
+			has_country_flag = kn_laws_ui_view
+		}
+		effects = {
+			kn_laws_close_button_click = {
+				clr_country_flag = kn_laws_ui_view
+			}
+			kn_laws_currency_button_click = {
+				set_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+				add_to_array = {
+					kn_laws_array = 5
+				}
+				add_to_array = {
+					kn_laws_array = 6
+				}
+			}
+			kn_laws_economy_button_click = {
+				clr_country_flag = kn_laws_currency
+				set_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+				add_to_array = {
+					kn_laws_array = 5
+				}
+				add_to_array = {
+					kn_laws_array = 6
+				}
+				add_to_array = {
+					kn_laws_array = 7
+				}
+				add_to_array = {
+					kn_laws_array = 8
+				}
+				add_to_array = {
+					kn_laws_array = 9
+				}
+				add_to_array = {
+					kn_laws_array = 10
+				}
+			}
+			kn_laws_trade_union_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				set_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+				add_to_array = {
+					kn_laws_array = 5
+				}
+				add_to_array = {
+					kn_laws_array = 6
+				}
+			}
+			kn_laws_penal_system_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				set_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+			}
+			kn_laws_mobilisation_laws_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				set_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+				add_to_array = {
+					kn_laws_array = 5
+				}
+				add_to_array = {
+					kn_laws_array = 6
+				}
+			}
+			kn_laws_capital_punishment_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				set_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+			}
+			kn_laws_womens_rights_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				set_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+			}
+			kn_laws_workers_rights_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				set_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+			}
+			kn_laws_sexuality_rights_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				set_country_flag = kn_laws_sexuality_rights
+				clear_array = kn_laws_array
+				add_to_array = {
+					kn_laws_array = 1
+				}
+				add_to_array = {
+					kn_laws_array = 2
+				}
+				add_to_array = {
+					kn_laws_array = 3
+				}
+				add_to_array = {
+					kn_laws_array = 4
+				}
+				add_to_array = {
+					kn_laws_array = 5
+				}
+			}
+
+		}
+	}
+		
+	kn_diplomacy_tab = {
+		context_type = selected_country_context	
+		window_name = "kn_diplomacy_tab"
+		parent_window_token = selected_country_view
+	}
+	kn_topbar = {
+		context_type = top_bar	
+		window_name = "kn_top_bar"
+
+
+		properties = {
+		    kn_parties_icon = {
+                image = "[RULING_GFX]"
+		    }
+		}
+	}
+	kn_laws_window_ui = {
+		context_type = player_context
+		window_name = "kn_laws_window_ui"
+		parent_window_token = politics_tab
+
+		dynamic_lists = {
+			kn_laws_grid = {
+				array = kn_laws_array
+				change_scope = yes
+				entry_container = kn_laws_entry
+			}
+		}
+		visible = {
+			OR = {
+				has_country_flag = kn_laws_currency
+				has_country_flag = kn_laws_economy
+				has_country_flag = kn_laws_trade_union
+				has_country_flag = kn_laws_penal_system
+				has_country_flag = kn_laws_mobilisation
+				has_country_flag = kn_laws_capital_punishment
+				has_country_flag = kn_laws_womens_rights
+				has_country_flag = kn_laws_workers_rights
+				has_country_flag = kn_laws_sexuality_rights
+			}
+		}
+		effects = {
+			kn_laws_close_button_click = {
+				clr_country_flag = kn_laws_currency
+				clr_country_flag = kn_laws_economy
+				clr_country_flag = kn_laws_trade_union
+				clr_country_flag = kn_laws_penal_system
+				clr_country_flag = kn_laws_mobilisation
+				clr_country_flag = kn_laws_capital_punishment
+				clr_country_flag = kn_laws_womens_rights
+				clr_country_flag = kn_laws_workers_rights
+				clr_country_flag = kn_laws_sexuality_rights
+			}
+		}
+		properties = {
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=1383
+	name="STATE_1383"
+	history={
+		owner = IVY
+		add_core_of=IVY
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			15600 1 #Daloa
+		}
+	}
+	provinces={
+		15599 15600 15601 15602 15603 15608 15609
+	}
+	manpower=679000
+	buildings_max_level_factor=1
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1344
+	name="STATE_1344"
+	provinces={
+		10804 15478 
+	}
+	history={
+		owner = KUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

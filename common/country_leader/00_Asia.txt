@@ -1,0 +1,11 @@
+leader_traits = {
+	
+	PM_Nguyen_Van_Cu = {
+		sprite = 13
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

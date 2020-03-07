@@ -1,0 +1,27 @@
+
+state={
+	id=412
+	name="STATE_412"
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = PER
+		add_core_of = PER
+		victory_points = {
+			8117 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		4966 8117 10881 14156 14930 14933 14942 14945 14947 14951 14952 14954 14956 14957 14964 14966 14971 14972 14977 14982 
+	}
+	manpower=863800
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

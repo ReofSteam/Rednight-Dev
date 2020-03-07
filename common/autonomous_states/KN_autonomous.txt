@@ -1,0 +1,19 @@
+autonomy_state = {
+	id = kn_autonomous
+	
+	is_puppet = yes
+	
+	can_take_level = {
+		custom_trigger_tooltip = {
+			tooltip = can_raise_autonomy_level
+			has_country_flag = KN_can_raise_autonomy_level
+		}
+	}
+
+	can_lose_level = {
+		custom_trigger_tooltip = {
+			tooltip = can_lower_autonomy_level
+			has_country_flag = KN_can_lower_autonomy_level
+		}
+	}
+}

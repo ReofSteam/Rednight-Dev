@@ -1,0 +1,26 @@
+
+state={
+	id=584
+	name="STATE_584"
+
+	history={
+		owner = RUS
+
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		victory_points = {
+			12465 1 
+		}
+
+	}
+
+	provinces={
+		1493 1649 4482 4563 4599 7491 7560 7563 7618 7635 7924 8099 10348 10357 10395 10406 10414 10435 10485 10742 12324 12333 12465 12491 
+	}
+	manpower=691323
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

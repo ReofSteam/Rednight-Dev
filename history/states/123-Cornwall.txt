@@ -1,0 +1,33 @@
+
+state={
+	id=123
+	name="STATE_123"
+
+	history={
+		owner = GBR
+		add_core_of = GBR
+		victory_points = {
+			540 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			dockyard = 1
+			anti_air_building = 2
+			air_base = 6
+			540 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		540 3463 6526 9562 11406 
+	}
+	manpower=1051000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

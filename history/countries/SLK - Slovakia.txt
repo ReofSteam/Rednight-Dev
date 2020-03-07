@@ -1,0 +1,152 @@
+﻿capital = 1375
+
+oob = "SLK"
+
+set_technology = {
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+give_guarantee = HUN
+give_military_access = HUN
+set_stability = 0.40
+set_war_support = 0.40
+add_ideas = {
+#	SLO_partisans
+}	
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 50
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 50
+}
+
+create_country_leader = {
+	name = "Ferdis Juriga"
+	picture = "gfx/leaders/EASTERN_EUROPE/SLK/SLK_Ferdis_Juriga.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+#create_country_leader = {
+#	name = "Andrej Hlinka"
+#	desc = "POLITICS_ANDREJ_HLINKA_DESC"
+#	picture = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Andrej_Hlinka.tga"
+#	expire = "1965.1.1"
+#	ideology = voynist_subtype
+#	traits = { 
+#		nationalist_symbol
+#	}
+#}
+
+###GENERALS/FIELD MARSHALS###
+
+create_corps_commander = {
+	name = "Jozef Gabčík"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/SLO_Jozef_Gabcik.dds"
+	traits = { hill_fighter trait_mountaineer war_hero }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_field_marshal = {
+	name = "Anton Pulanish"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Anton_Pulanish_Portrait.dds"
+	traits = { defensive_doctrine war_hero }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Jan Golian"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Jan_Golian.tga"
+	traits = { skirmisher war_hero }
+	skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Josef Nemisla"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Josef_Nemisla.tga"
+	traits = { skirmisher }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Rudolf Palaticky"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Rudolf_Palaticky.tga"
+	traits = { trait_reckless media_personality }
+	skill = 1
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Rudolf Viest"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Rudolf_Viest.tga"
+	traits = { harsh_leader infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Augustin Malar"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Slovakia_Augustin_Malar.dds"
+	traits = { skirmisher career_officer war_hero }
+	skill = 5
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Stefan Jurech"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/SLK/Portrait_Stefan_Jurech.dds"
+	traits = { organizer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+

@@ -1,0 +1,11 @@
+# Reduce De Crisisjaren
+HOL_de_crisisjaren_level_down = {
+}
+
+# Reduce Shell-shocked Spectator
+HOL_shell_shocked_spectator_level_down = {
+}
+
+# Increase Domestic Jet Engine Design spirit
+HOL_domestic_jet_engine_designs_level_up = {
+}

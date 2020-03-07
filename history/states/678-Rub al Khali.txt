@@ -1,0 +1,23 @@
+
+state={
+	id=678
+	name="STATE_678"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5081 8118 12740 12768 15397 15404 
+	}
+	manpower=46200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

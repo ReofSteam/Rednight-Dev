@@ -1,0 +1,32 @@
+
+state={
+	id=1258
+	name="STATE_1258"
+	provinces={
+		589 3574 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			589 10
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			3574 = {
+				bunker = 3
+
+			}
+			589 = {
+				bunker = 3
+
+			}
+
+		}
+
+	}
+	manpower=892000
+	state_category = town
+	buildings_max_level_factor=1.000
+}

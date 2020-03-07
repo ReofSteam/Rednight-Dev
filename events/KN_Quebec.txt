@@ -1,0 +1,138 @@
+﻿###########################
+# Québec Events
+###########################
+
+add_namespace = que
+
+
+news_event = {
+	id = que.1 #Duplessis Bridge Collapsed 
+    title = que.1.t
+    desc = que.1.d
+	# picture = 
+
+	is_triggered_only = no
+	fire_only_once = yes
+    trigger = {
+		date > 1950.02.31
+	}
+	mean_time_to_happen = {
+		days = 2
+	}	
+	option = {
+		name = que.1.a #Goddamn Communists!
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = que.2 #They shot Duplessis!  
+    title = que.2.t
+    desc = que.2.d
+	# picture = 
+
+	is_triggered_only = no
+	fire_only_once = yes
+    trigger = {
+		date > 1951.01.31
+	}
+	mean_time_to_happen = {
+		days = 2
+	}	
+	option = {
+		name = que.2.a #Martial laws - Paul Sauvé
+		add_political_power = -100
+		create_country_leader = {
+	    name = "Paul Sauvé"
+	    desc = "POLITICS_PAUL_SAUVE_DESC"
+	    picture = "GFX/leaders/North America/Quebec"
+	    expire = "1965.1.1"
+	    ideology = conservative
+	    traits = {
+		
+	}
+	}
+		option = {
+		name = que.2.b #Martial laws - Antonio Barrette
+		add_political_power = -100
+		create_country_leader = {
+	    name = "Antonio Barrette"
+	    desc = "POLITICS_ANTONIO_BARRETTE_DESC"
+	    picture = "GFX/leaders/North America/Quebec"
+	    expire = "1965.1.1"
+	    ideology = authoritarian_democrat
+	    traits = {
+		
+	}		
+	}
+}
+
+country_event = {
+	id = que.3 #End of Martial Laws - the 100 Days Revolution
+    title = que.3.t
+    desc = que.3.d
+	# picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = que.3.a #Désormais...
+		add_political_power = 25
+	}
+}
+
+country_event = {
+	id = que.4 #Reactionary Coup
+    title = que.4.t
+    desc = que.4.d
+	# picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = que.4.a #The Communist will never win.
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = que.5 #The Quebec Revolution - One: General Strike
+    title = que.5.t
+    desc = que.5.d
+	# picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = que.5.a #Fire on them
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = que.6 #The Quebec Revolution - Two: Stand-off persist
+    title = que.6.t
+    desc = que.6.d
+	# picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = que.6.a #Get the Army
+		add_political_power = -50
+	}
+}
+
+country_event = {
+	id = que.7 #The Quebec Revolution - Three: The Mutiny
+    title = que.7.t
+    desc = que.7.d
+	# picture = 
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = que.7.a #We are fucked, Jean
+		add_political_power = -50
+	}
+}

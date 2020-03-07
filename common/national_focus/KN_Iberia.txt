@@ -1,0 +1,25 @@
+focus_tree = {
+	id = KN_iberia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CNT
+		}
+	}
+	default = no
+
+	focus = {
+		id = CNT_temp
+		#icon = GFX_CSA_canada_bombings
+		#available = { always = no }
+		#bypass = { has_global_flag = CANADIAN_BOMBINGS }
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+			#log = "[GetDateText]: [Root.GetName]: Focus CSA_civil_war"
+			#custom_effect_tooltip = CSA_will_get_bypassed_tooltip
+		}
+	}
+}

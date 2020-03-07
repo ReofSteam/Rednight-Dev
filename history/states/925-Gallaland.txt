@@ -1,0 +1,21 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = KLD
+		add_core_of = KLD
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces={
+		2066 5079 10962 15327 15328 15329 
+	}
+	manpower=231435
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

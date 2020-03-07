@@ -1,0 +1,25 @@
+
+state={
+	id=323
+	name="STATE_323"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		4386 7374 10825 10910 
+	}
+	manpower=2410000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

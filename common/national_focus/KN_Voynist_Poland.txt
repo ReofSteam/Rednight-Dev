@@ -1,0 +1,327 @@
+focus_tree = {
+	id = KN_Voynist_Poland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WPL
+		}
+	}
+	default = no
+
+	focus = {
+		id = WPL_the_recovery_is_near_completion
+		icon = GFX_legacy_of_stambolyiski
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		has_country_flag = player_has_been_made_aware_of_the_devastation_of_warsaw
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_the_radiation_test
+		icon = GFX_goal_KN_generic_clean_radiation
+		prerequisite = { focus = WPL_the_recovery_is_near_completion }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		custom_effect_tooltip = 1_BUL_tt
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_results_of_the_tests
+		icon = GFX_goal_KN_POL_results_of_radiation_tests
+		prerequisite = { focus = WPL_the_radiation_test }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_declare_the_recovery_of_warsaw
+		icon = GFX_goal_KN_generic_raditation_people
+		prerequisite = { focus = WPL_results_of_the_tests }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_repopulation_of_warsaw
+		icon = GFX_goal_KN_generic_population_transfer
+		prerequisite = { focus = WPL_results_of_the_tests }
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_forcefully_reinstate_the_former_citizens
+		icon = GFX_goal_KN_generic_give_out_people
+		prerequisite = { focus = WPL_repopulation_of_warsaw }
+		mutually_exclusive = { focus = WPL_invite_in_the_rural_population }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_invite_in_the_rural_population
+		icon = GFX_goal_KN_agrarian_reform
+		prerequisite = { focus = WPL_repopulation_of_warsaw }
+		mutually_exclusive = { focus =  }
+		x = 6
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_prepare_for_the_arrival_of_our_new_citizens
+		icon = GFX_goal_KN_champagne_party_with_construction
+		prerequisite = { focus = WPL_invite_in_the_rural_population focus = WPL_forcefully_reinstate_the_former_citizens }
+		mutually_exclusive = { focus =  }
+		x = 5
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_rebuild_the_city_center
+		icon = GFX_legacy_of_stambolyiski
+		prerequisite = { focus = WPL_results_of_the_tests }
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_renovation
+		icon = GFX_legacy_of_stambolyiski
+		prerequisite = { focus = WPL_rebuild_the_city_center }
+		mutually_exclusive = { focus = WPL_modernisation }
+		x = 8
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_modernisation
+		icon = GFX_legacy_of_stambolyiski
+		prerequisite = { focus = WPL_rebuild_the_city_center }
+		mutually_exclusive = { focus =  }
+		x = 10
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_construction_of_residential_areas
+		icon = GFX_goal_KN_some_houses
+		prerequisite = { focus = WPL_renovation focus = WPL_modernisation }
+		mutually_exclusive = { focus =  }
+		x = 9
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = WPL_the_question_of_our_capital
+		icon = GFX_goal_KN_WPL_polish_government
+		prerequisite = { focus = WPL_construction_of_residential_areas }
+		prerequisite = { focus = WPL_prepare_for_the_arrival_of_our_new_citizens }
+		mutually_exclusive = { focus =  }
+		x = 7
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+}

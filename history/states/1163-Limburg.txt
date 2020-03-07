@@ -1,0 +1,22 @@
+
+state={
+	id=1163
+	name="STATE_1163"
+	provinces={
+		6500 11562 14547 
+	}
+	history={
+		owner = NTH
+		add_core_of = NTH
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+
+		}
+
+	}
+
+	manpower=551620
+	state_category = town
+	buildings_max_level_factor=1.000
+}

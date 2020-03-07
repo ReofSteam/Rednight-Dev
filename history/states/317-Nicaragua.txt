@@ -1,0 +1,32 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = CAC
+		add_core_of = CAC
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			12738 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12738 5 
+		}
+	}
+
+	provinces={
+		12738 13178 13437 
+	}
+	manpower=472100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

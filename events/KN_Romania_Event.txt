@@ -1,0 +1,676 @@
+﻿    add_namespace = rom
+    
+    news_event ={
+        id = rom.rc 
+        immediate = {log = "[GetDateText]: [Root.GetName]: event rom.rc"}
+        title = rom.rc.t
+        desc = rom.rc.d
+        #picture = 
+        is_triggered_only = yes
+        fire_only_once = yes
+        trigger = {
+        }
+        option = {
+            name =rom.rc.a
+            hidden_effect = {
+                    country_event = { 
+                                id = rom.15
+                                days = 7 
+                    }
+            }
+        }
+    }
+    country_event = {
+            id = rom.1
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.1"}
+            title = rom.1.t
+            desc = rom.1.d
+            #picture =
+            
+            is_triggered_only = no 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM 
+                    date > 1950.01.01
+                    date < 1950.01.07 
+            }
+            option = { 
+                    name = rom.1.a
+                    hidden_effect = {
+                            country_event = {
+                                    id = rom.2
+                                    days = 7
+                            }
+                    }
+            }        
+    }
+    country_event = { 
+            id = rom.2
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.2"}
+            title = rom.2.t
+            desc = rom.2.d
+            #picture = 
+            
+            is_triggered_only = yes
+            fire_only_once = yes 
+            trigger = {
+                    tag = ROM
+                    date > 1950.01.07
+                    date < 1950.01.14 
+            }
+            option = { 
+                    name = rom.2.a
+            }
+    }
+    country_event = { 
+            id= rom.3
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.3"}
+            title = rom.3.t
+            desc = rom.3.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM
+                    date > 1950.02.13
+                    date < 1950.02.20 
+            }
+            option = {
+                    name = rom.3.a
+                    add_political_power = -25 
+                    hidden_effect = {
+                            set_country_flag = mdf_wait
+                            }
+            }
+            option = {
+                    name = rom.3.b
+                    add_political_power = -25 
+                    add_stability = 0.05 
+                    add_popularity = {
+                    ideology = authoritarian_democrat 
+                    popularity = 0.01 
+                    }
+                    add_popularity = {
+                    ideology = autocratic
+                    popularity = 0.04 
+                    }
+                    add_popularity = {
+                    ideology = voynist 
+                    popularity = 0.07   
+                    }
+                    swap_ideas = {
+                            add_idea = ROM_used_farmland #ROM_unused_farmland2
+                            remove_idea = ROM_unused_farmland
+                    }
+                    hidden_effect = { 
+                            country_event = { 
+                                    id=rom.5
+                                    days = 30
+                                }                        
+                        set_country_flag = uintconq
+                    }
+                                    
+            }
+            option = {
+                    name = rom.3.c 
+                    add_political_power = -50
+                    add_stability = -0.2  
+                    add_popularity = {
+                    ideology = authoritarian_democrat 
+                    popularity = 0.05 
+                    }
+                    add_popularity = {
+                    ideology = autocratic
+                    popularity = 0.03 
+                    }
+                    add_popularity = {
+                    ideology = voynist 
+                    popularity = 0.1  
+                    }
+            }
+    }
+    country_event = { 
+            id= rom.4
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.4"}
+            title = rom.4.t
+            desc = rom.4.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM
+                    has_completed_focus = reform_MDT	
+            }
+            option = { 
+                    name = rom.4.a 
+                    add_popularity = {
+                    ideology = voynist
+                    popularity = 0.05 
+                    }
+                    hidden_effect = {
+                            set_country_flag = groza_mdf
+                            }
+            }
+            option = {
+                    name = rom.4.b
+                    add_popularity = { 
+                    ideology = autocratic
+                    popularity = 0.03 
+                    }
+                    add_popularity = {
+                    ideology = authoritarian_democrat 
+                    popularity = 0.02
+                    }
+                    hidden_effect = {
+                            set_country_flag = ionescu_mdf
+                            }
+                    
+            }
+            option = {
+                    name =rom.4.c
+                    add_popularity = {
+                    ideology = voynist 
+                    popularity = 0.03 
+                    }
+                    add_popularity = {
+                    ideology = autocratic 
+                    popularity = 0.02 
+                    }
+                    hidden_effect = {
+                            set_country_flag = agiu_mdf
+                            }
+          }
+        }        
+    country_event = { 
+            id= rom.5
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.5"}
+            title = rom.5.t
+            desc = rom.5.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM
+                    has_country_flag = uintconq
+                    date > 1950.03.13
+                    date <1950.03.20 
+            }            
+            option = {
+                    name = rom.5.a
+                    add_political_power = -50
+                    add_stability = -0.2
+                    add_popularity = {
+                    ideology = authoritarian_democrat 
+                    popularity = 0.02
+                    }
+                    add_popularity = { 
+                    ideology = autocratic
+                    popularity = 0.03 
+                    }
+                    add_popularity = {
+                    ideology = voynist
+                    popularity = 0.05 
+                    }
+            }
+            option = {
+                    name = rom.5.b
+                    add_political_power = -25
+                    add_stability = -0.1
+                    add_popularity = {
+                    ideology = voynist
+                    popularity = 0.1
+                    }
+            }
+            option = { 
+                    name = rom.5.c
+                    add_political_power = -25
+                    add_stability = -0.1
+                    add_popularity = { 
+                    ideology = autocratic
+                    popularity = 0.05
+                    }
+                    
+            } 
+    }
+    country_event = { 
+            id= rom.6
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.6"}
+            title = rom.6.t
+            desc = rom.6.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM 
+                    date > 1950.02.01
+                    date < 1950.02.07
+            }
+            option = {
+                    name = rom.6.a 
+                    army_experience	= 10
+                    navy_experience	 = 10 
+                    air_experience	= 10 
+                    hidden_effect = {
+                            set_country_flag = rus_visit
+                            }
+            }
+    }
+    country_event = {
+            id = rom.7
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.7"}
+            title = rom.7.t
+            desc = rom.7.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM
+                    date > 1950.01.14
+                    date < 1950.01.21 
+            }
+            option = {
+                        name = rom.7.a 
+            }            
+    }
+    country_event = {
+            id = rom.8
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.8"}
+            title = rom.8.t
+            desc = rom.8.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM
+                    date > 1950.01.21
+                    date < 1950.01.28 
+            }
+            option = { 
+                        name = rom.8.a
+            }
+    }
+    country_event = {
+            id = rom.9
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.9"}
+            title = rom.9.t
+            desc = rom.9.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                    tag = ROM 
+                    date > 1950.10.24
+                    date < 1950.10.26
+            }
+            option = {
+                        name = rom.9.a
+            }
+    } 
+    country_event = {
+            id = rom.10
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.10"}
+            title = rom.10.t
+            desc = rom.10.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM
+                        date > 1950.09.12
+                        date < 1950.09.14
+            }
+            option = {
+                        name = rom.10.a
+            }
+    }
+    country_event = {
+            id = rom.11
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.11"}
+            title = rom.11.t
+            desc = rom.11.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM
+                        has_completed_focus = ROM_1951_council
+                        has_country_flag = groza_mdf
+            }
+            option = {
+                        name = rom.11.a
+                        add_popularity = {
+                            ideology = autocratic 
+                            popularity = 0.01 
+                        }
+                        add_popularity = {
+                            ideology = voynist
+                            popularity = 0.05 
+                        } 
+                        add_political_power	= 25 
+            }
+    }
+    country_event = {
+            id = rom.12
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.12"}
+            title = rom.12.t
+            desc = rom.12.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM
+                        has_completed_focus = ROM_1951_council
+                        has_country_flag = ionescu_mdf
+            }
+            option = {
+                        name = rom.12.a
+                        add_popularity = {
+                            ideology = voynist
+                            popularity = 0.05 
+                        }
+                        add_political_power	= -25 
+            }
+    }
+    country_event = {
+            id = rom.13
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.13"}
+            title = rom.13.t
+            desc = rom.13.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM
+                        has_completed_focus = ROM_1951_council
+                        has_country_flag = agiu_mdf
+            }
+            option = {
+                        name = rom.13.a 
+                        add_popularity = { 
+                            ideology = voynist
+                            popularity = 0.05 
+                        }
+                        add_popularity = {
+                            ideology = autocratic 
+                            popularity = 0.02
+                        }
+                        add_popularity = {
+                            ideology = authoritarian_democrat 
+                            popularity = 0.01 
+                        }
+                        add_popularity = {
+                            ideology = fundamentalist 
+                            popularity = 0.05
+                        }
+                        add_political_power	= 25
+            }
+    }
+
+    country_event = {
+            id = rom.14
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.13"}
+            title = rom.14.t
+            desc = rom.14.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+                        date > 1950.04.30
+                        date < 1950.05.02 
+            }
+            option = { 
+                name = rom.14.a
+                }
+            }
+    country_event = {
+            id = rom.15
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH2"}
+            title = rom.15.t
+            desc = rom.15.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.15.a 
+                    hidden_effect = {
+                    set_country_flag = support_concord
+                    }
+                }
+                option = {
+                name=rom.15.b
+                    hidden_effect = {
+                    set_country_flag = reject_concord
+                    }
+                }
+    } 
+    country_event = {
+            id = rom.HC1 
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.HC1"}
+            title = rom.HC1.t
+            desc = rom.HC1.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                    name = rom.HC1.a
+                    add_popularity = {
+                    ideology = autocratic
+                    popularity = 0.05 
+                    }
+                    add_popularity = {
+                    ideology = authoritarian_democrat
+                    popularity = 0.02
+                    }
+                    add_manpower = 6000 
+                    hidden_effect = {
+                    set_country_flag = HUN_squad
+                    set_country_flag = Anton_Keeps
+                    }
+            }
+            option = {
+                    name = rom.HC2.b
+                    add_popularity = {
+                    ideology = voynist 
+                    popularity = 0.07 
+                    }
+                    hidden_effect = {
+                    set_country_flag = No_HUN_squad
+                    set_country_flag = Anton_hearing 
+                    }
+            }
+    }        
+    country_event = {
+            id = rom.HC2 
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.HC2"}
+            title = rom.HC2.t
+            desc = rom.HC2.d 
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+            name = rom.HC2.a 
+            add_popularity = {
+                    ideology = autocratic
+                    popularity = 0.03
+                    }
+                    add_popularity = {
+                    ideology = authoritarian_democrat
+                    popularity = 0.02
+                    }        
+            hidden_effect = {
+            set_country_flag = Anton_Keeps
+            }
+            }
+            option = {
+            name = rom.HC2.b
+            remove_ideas = ROM_Ion_Antonescu
+            add_popularity = {
+                    ideology = voynist
+                    popularity = 0.03
+                    }
+            add_popularity = {
+                    ideology = fundamentalist
+                    popularity = 0.02 
+                    }
+            hidden_effect = {
+            set_country_flag = Anton_fired 
+            }
+            }
+    }
+    country_event = {
+            id = rom.ph2
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH1"}
+            title = rom.ph2.t
+            desc = rom.ph2.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.ph2.a 
+                hidden_effect = {
+                set_country_flag = ally_NL
+                }
+            }
+            option = {
+                name=rom.ph2.b
+                hidden_effect = {
+                set_country_flag = ally_KM
+                }
+            }
+    } 
+    country_event = {
+            id = rom.PH3
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH2"}
+            title = rom.PH3.t
+            desc = rom.PH3.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.PH3.a 
+                    hidden_effect = {
+                    set_country_flag = ally_nobility
+                    }
+                }
+            option = {
+                name=rom.PH3.b
+                    hidden_effect = {
+                    set_country_flag = ROM_ally_church
+                    }
+                }
+            option = { 
+                name=rom.PH3.c
+                    hidden_effect = {
+                    set_country_flag = ROM_ally_millitary
+                    }
+            }
+    }
+    country_event = {
+            id = rom.PH4
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH4"}
+            title = rom.PH4.t
+            desc = rom.PH4.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.PH4.a 
+                hidden_effect = {
+                set_country_flag = national_legion_coup
+                }
+            }
+    }
+    country_event = {
+            id = rom.PH5
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH5"}
+            title = rom.PH5.t
+            desc = rom.PH5.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.PH5.a 
+                hidden_effect = {
+                set_country_flag = kingsmen_coup
+                }
+            }
+    }
+    country_event = {
+            id = rom.PH6
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH6"}
+            title = rom.PH6.t
+            desc = rom.PH6.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.PH6.a 
+                hidden_effect = {
+                set_country_flag = red_legion_in_power
+                }
+            }
+    }
+    country_event = {
+            id = rom.PH7
+            immediate = {log = "[GetDateText]: [Root.GetName]: event rom.PH7"}
+            title = rom.PH7.t
+            desc = rom.PH7.d
+            #picture =
+            
+            is_triggered_only = yes 
+            fire_only_once = yes
+            trigger = {
+                        tag = ROM 
+            }
+            option = { 
+                name =rom.PH7.a 
+                hidden_effect = {
+                set_country_flag = RLCW1 
+                }
+            }
+    }        

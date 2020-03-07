@@ -1,0 +1,22 @@
+
+state={
+	id=854
+	name="STATE_854"
+	manpower = 306300
+	
+	state_category = town
+	
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = PAN
+
+	}
+
+	provinces={
+		1633 4611 4624
+	}
+}

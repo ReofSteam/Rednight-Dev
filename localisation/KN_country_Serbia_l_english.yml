@@ -1,0 +1,85 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+SER_social_nationalist_party:0 "VNOJ"
+SER_social_nationalist_party_long:0 "Council for the National Liberation of Yugoslavia (Vijeće Narodnog Oslobođenja Jugoslavije)"
+SER_marxist_party:0 "VNOJ"
+SER_marxist_party_long:0 "Council for the National Liberation of Yugoslavia (Vijeće Narodnog Oslobođenja Jugoslavije)"
+SER_libertarian_party:0 "VNOJ"
+SER_libertarian_party_long:0 "Council for the National Liberation of Yugoslavia (Vijeće Narodnog Oslobođenja Jugoslavije)"
+SER_moderate_socialist_party:0 "VNOJ"
+SER_moderate_socialist_party_long:0 "Council for the National Liberation of Yugoslavia (Vijeće Narodnog Oslobođenja Jugoslavije)"
+SER_social_democrat_party:0 "VNOJ"
+SER_social_democrat_party_long:0 "Council for the National Liberation of Yugoslavia (Vijeće Narodnog Oslobođenja Jugoslavije)"
+SER_social_liberal_party:0 "SDS"
+SER_social_liberal_party_long:0 "Independent Democratic Party (Samostalna Demokratska Stranka)"
+SER_conservative_party:0 "NRS"
+SER_conservative_party_long:0 "People's Radical Party (Narodna Radikalna Stranka)"
+SER_authoritarian_democrat_party:0 "JRZ"
+SER_authoritarian_democrat_party_long:0 "Yugoslav Radical Union (Jugoslovenska Radikalna Zajednica)"
+SER_autocratic_party:0 "JRZ"
+SER_autocratic_party_long:0 "Yugoslav Radical Union (Jugoslovenska Radikalna Zajednica)"
+SER_fundamentalist_party:0 "Zbor/ZBOR"
+SER_fundamentalist_party_long:0 "United Militant Labour Organization (Združena Borbena Organizacija Rada)"
+SER_voynist_party:0 "RP"
+SER_voynist_party_long:0 "Ravna Gora Movement (Ravnogorski Pokret)"
+
+### Country Name ###
+
+SER_social_nationalist:0 "Serbian People's Republic"
+SER_social_nationalist_ADJ:0 "Serbian"
+SER_social_nationalist_DEF:0 "the Serbian People's Republic"
+SER_marxist:0 "Serbian Socialist Republic"
+SER_marxist_ADJ:0 "Serbian"
+SER_marxist_DEF:0 "the Serbian Socialist Republic"
+SER_libertarian:0 "Serbian Socialist Republic"
+SER_libertarian_ADJ:0 "Serbian"
+SER_libertarian_DEF:0 "the Serbian Socialist Republic"
+SER_social_democrat:0 "Serbian Republic"
+SER_social_democrat_ADJ:0 "Serbian"
+SER_social_democrat_DEF:0 "the Serbian Republic"
+SER_social_liberal:0 "Serbian Republic"
+SER_social_liberal_ADJ:0 "Serbian"
+SER_social_liberal_DEF:0 "the Serbian Republic"
+SER_conservative:0 "Serbian Republic"
+SER_conservative_ADJ:0 "Serbian"
+SER_conservative_DEF:0 "the Serbian Republic"
+SER_authoritarian_democrat:0 "Serbian State"
+SER_authoritarian_democrat_ADJ:0 "Serbian"
+SER_authoritarian_democrat_DEF:0 "the Serbian State"
+SER_autocratic:0 "Serbian State"
+SER_autocratic_ADJ:0 "Serbian"
+SER_autocratic_DEF:0 "the Serbian State"
+SER_fundamentalist:0 "Serbian Salvation State"
+SER_fundamentalist_ADJ:0 "Serbian"
+SER_fundamentalist_DEF:0 "the Serbian Salvation State"
+SER_voynist:0 "Serbian Salvation State"
+SER_voynist_ADJ:0 "Serbian"
+SER_voynist_DEF:0 "the Serbian Salvation State"
+
+### Focuses ###
+ 
+### Ideas ###
+
+SER_volunteer_army:0 "Serbian Volunteer Army"
+SER_red_purges:0 "Socialist Purges"
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_KING_ALEXANDER_SERBIA_DESC:0 "§YKing of Yugoslavia§!\n\n"
+
+### Tech? ###

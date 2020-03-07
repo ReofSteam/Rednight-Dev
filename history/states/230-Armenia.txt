@@ -1,0 +1,24 @@
+
+state={
+	id=230
+	name="STATE_230"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		6997 12450 13123 11708
+	}
+	manpower=820082
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

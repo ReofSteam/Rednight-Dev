@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	grandfather_of_the_party = {
+		sprite = 13
+		random = no
+		stability_factor = 0.1
+		political_power_gain = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

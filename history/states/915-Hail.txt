@@ -1,0 +1,22 @@
+
+state={
+	id=915
+	name="STATE_915"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2057 4603 4968 5027 10901 12749 13708 
+	}
+	manpower=345600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

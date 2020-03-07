@@ -1,0 +1,363 @@
+﻿capital = 46
+
+oob = "ROM"
+
+set_research_slots = 3
+
+add_ideas = {
+	ROM_divided_economy
+	ROM_ethnic_violence_in_translyvania
+	ROM_greater_romania_fulfilled
+	ROM_unused_farmland
+	ROM_fascsimile_of_unity 
+}
+add_ideas ={ 
+    ROM_Corneliu_Zelea_Codreanu
+    ROM_Horia_Sima
+    ROM_Gheorghe_Clime
+    ROM_Ion_Mota
+    ROM_George_Murnu
+    ROM_Alexandru_Bassarab
+    ROM_Victor_Valcovici
+    ROM_Nicolae_Doicaru
+    ROM_Ion_Antonescu
+    ROM_Constantin_Constantinescu-Claps
+    ROM_Ermil_Gheorghiu
+    ROM_Horia_Macellariu
+}
+
+
+## Diplomacy ##
+add_opinion_modifier = { target = AUS modifier = large_decrease }
+add_opinion_modifier = { target = BOZ modifier = large_decrease }
+add_opinion_modifier = { target = CIS modifier = large_decrease }
+add_opinion_modifier = { target = FOZ modifier = large_decrease }
+add_opinion_modifier = { target = GEA modifier = large_decrease }
+add_opinion_modifier = { target = GER modifier = large_decrease }
+add_opinion_modifier = { target = HUN modifier = medium_decrease }
+add_opinion_modifier = { target = JOZ modifier = large_decrease }
+##
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	transport = 1
+	shipbuild_basics = 1
+}
+
+set_country_flag = one_party_nation
+set_country_flag = coalition_autocratic
+set_country_flag = coalition_authoritarian_democrat 
+set_country_flag = coalition_voynist 
+set_country_flag = coalition_fundamentalist
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+
+set_convoys = 20
+
+
+set_politics = {
+	ruling_party = fundamentalist 
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 3
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 1
+	social_democrat = 1
+	social_liberal = 2
+	conservative = 3
+	authoritarian_democrat = 3
+	autocratic = 7
+	fundamentalist = 55
+	voynist = 25
+}
+
+
+
+
+add_ideas = {
+	#medium_economy
+	#ROM_Alexander_Cuza_hog_pau
+	#ROM_Ion_Antonescu_for_npo
+	#ROM_Constantin_Papanace_eco_npo
+	#ROM_Cesare_Vaida_Voievod_sec_ade
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Petru Groza"
+	desc = "Petru_Groza_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Sever_Bocu.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "King Michael I"
+	desc = "Micheal_1_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ion Antonescu"
+	desc = "Ion_Antonescu_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Gheorghe_Gheorghiu_Dej.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Chivu Stoica"
+	desc = "Chivu_Stocia_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Lucretiu_Patrascanu.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+    name = "Constantin Agiu"
+    desc = "Constantin_Agiu_DESC"
+    picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Lucretiu_Patrascanu.tga"
+    expire = "1965.1.1"
+    ideology = social_nationalist_subtype
+    traits = { }
+}
+create_country_leader = {
+    name = "Gheorghe Cristescu"
+    desc = "Gheorghe_Cristescu_DESC"
+    picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Lucretiu_Patrascanu.tga"
+    expire = "1965.1.1"
+    ideology = moderate_socialist_subtype
+    traits = { }
+}
+
+### Field Marshal
+### Corps Commander
+create_field_marshal = {
+	name = "Ion Antonescu"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Ion_Antonescu_I.tga"
+	traits = {
+		old_guard
+		war_hero
+		defensive_doctrine
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Petre Dumitrescu"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Petre_Dumitrescu.tga"
+	traits = {
+		career_officer
+		#artillery_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Constantin Constantinescu-Claps"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Constantin_Constantinescu_Claps.tga"
+	traits = {
+		brilliant_strategist
+		#artillery_specialist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nicolae Macici"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Nicolae_Macici.tga"
+	traits = {
+		harsh_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Constantin Pantazi"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Constantin_Pantazi.tga"
+	traits = {}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Nicolae Ciuperca"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Nicolae_Ciuperca.tga"
+	traits = {
+		old_guard
+		career_officer
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Ion Glogojanu"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Ion_Glogojanu.tga"
+	traits = {
+		career_officer
+		#artillery_officer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Constantin Tobescu"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Constantin_Tobescu.tga"
+	traits = {
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Leonard Mociulschi"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Leonard_Mociulschi.tga"
+	traits = {
+		infantry_officer
+		trait_mountaineer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Dumitru Popescu"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Dumitru_Popescu.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+### Navy Leader
+if = {
+	limit = { has_dlc = "Death or Dishonor" }
+	create_navy_leader = {
+		name = "Horia Macellariu"
+		gfx = "GFX_Portrait_romania_horia_macellariu"
+		traits = { blockade_runner }
+		skill = 2
+	}
+	else = {
+		create_navy_leader = {
+			name = "Horia Macellariu"
+			picture = "Portrait_Romania_Horia_Macellariu.tga"
+			traits = { blockade_runner }
+			skill = 2
+		}
+	}
+}
+

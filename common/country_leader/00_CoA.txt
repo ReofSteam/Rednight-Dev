@@ -1,0 +1,13 @@
+leader_traits = {
+	
+	rebel_girl = {
+		sprite = 13
+		random = no
+		stability_factor = 0.15
+		political_power_gain = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,20 @@
+focus_tree = {
+	id = ITA_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	default = no
+	
+	focus = {
+		id = ITA_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

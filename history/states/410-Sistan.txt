@@ -1,0 +1,22 @@
+
+state={
+	id=410
+	name="STATE_410"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2070 4891 10782 13082 14909 14910 14911 14912 14913 14914 14916 14920 14923 14924 14926 14928 14934 14936 14938 14939 14948 14949 14961 14962 
+	}
+	manpower=341053
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

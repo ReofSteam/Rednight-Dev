@@ -1,0 +1,22 @@
+
+state={
+	id=1174
+	name="STATE_1174"
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		907 3865 11832 
+	}
+	manpower=689019
+	buildings_max_level_factor=1.000
+	state_category=city
+}

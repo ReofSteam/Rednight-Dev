@@ -1,0 +1,461 @@
+
+.pagename a {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.subscribers .word, .users-online .word{
+display:none;
+}
+
+.subscribers .number:after { 
+content: " agents of the Vozhd"
+}
+
+.users-online .number:after { 
+content: " browsing their local Union newsletter" 
+}
+
+#header {
+    background: url(%%NewSubredditHeader%%);
+    height: 140px;
+    padding-top: 0px;
+}
+
+#header-bottom-left { position: absolute; bottom: 0; }
+
+/** PERSON FLAIRS **/
+.flair {
+	background: url(%%spritesheet%%) no-repeat -9999px;
+	background-repeat: no-repeat;
+	border: 0;
+	padding: 0;
+}
+
+/*Normie Flairs*/
+.flair-voynist {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -339px;
+	background-color: #14284b;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-fundamentalist {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -102px;
+	background-color: #282828;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-autocrat {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -34px;
+	background-color: #505259;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-authoritariandemocrat {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 0;
+	background-color: #78849d;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-conservative {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -68px;
+	background-color: #005ec4;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-liberal {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -136px;
+	background-color: #e9c230;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-socialdemocrat {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 33px;
+	background-position: 0 -272px;
+	background-color: #e25d41;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-moderatesocialist {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -238px;
+	background-color: #ef7195;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-libertarian {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -170px;
+	background-color: #e43d8a;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-marxist {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -204px;
+	background-color: #f2183c;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-socialnationalist {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -305px;
+	background-color: #a31122;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-lavender {
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+    height: 34px;
+    background-position: 0 -373px;
+	background-color: #E6E6FA;
+	color: #a958bc;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+
+/* Mod Flairs */
+.flair-voynistmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -339px;
+	color: #14284b;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-voynistmod:before { content: "[DEV] "; }
+
+.flair-fundamentalistmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -102px;
+	color: #282828;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-fundamentalistmod:before { content: "[DEV] "; }
+
+.flair-autocratmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -34px;
+	color: #505259;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-autocratmod:before { content: "[DEV] "; }
+
+.flair-authoritariandemocratmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 0;
+	color: #78849d;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-authoritariandemocratmod:before { content: "[DEV] "; }
+
+.flair-conservativemod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -68px;
+	color: #005ec4;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-conservativemod:before { content: "[DEV] "; }
+
+.flair-liberalmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -136px;
+	color: #e9c230;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-liberalmod:before { content: "[DEV] "; }
+
+.flair-socialdemocratmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 33px;
+	background-position: 0 -272px;
+	color: #e25d41;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-marxisocialdemocratmodstmod:before { content: "[DEV] "; }
+
+.flair-moderatesocialistmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -238px;
+	color: #ef7195;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-moderatesocialistmod:before { content: "[DEV] "; }
+
+.flair-libertarianmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -170px;
+	color: #e43d8a;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-libertarianmod:before { content: "[DEV] "; }
+
+.flair-marxistmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -204px;
+	color: #f2183c;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-marxistmod:before { content: "[DEV] "; }
+
+.flair-socialnationalistmod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -305px;
+	color: #a31122;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-socialnationalistmod:before { content: "[DEV] "; }
+
+.flair-lavendermod {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -373px;
+	color: #308416;
+	background-color: white;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-lavendermod:before { content: "[DEV] "; }
+
+/* Special Flairs */
+
+.flair-lavendervozhdina {
+	transform: scale(0.91);
+	text-indent: 35px;
+	line-height: 34px;
+	min-width: 33px;
+	height: 34px;
+	background-position: 0 -373px;
+	color: #E6E6FA;
+	background-color: #a958bc;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-lavendervozhdina:before { content: "[DEV] "; }
+
+.flair-calph {
+	transform: scale(0.91);
+	text-indent: 48px;
+	line-height: 34px;
+	min-width: 45px;
+	height: 34px;
+	background-position: 0 -407px;
+	color: #a31122;
+	background-color: #ffffff;
+	outline-style: solid;
+	font-weight: bold;
+	font-size: 10px;
+	padding-right: 4px;
+}
+.flair-calph:before { content: "[DEV] "; }
+
+/** LINK FLAIRS **/
+
+.linkflair-meme .linkflairlabel {
+    background: #009900;
+    color: #ffffff;
+
+}
+
+.linkflair-announcement .linkflairlabel {
+    background: #000000;
+    color: #ffffff;
+
+}
+
+.linkflair-request .linkflairlabel {
+    background: #3333ff;
+    color: #ffffff;
+
+}
+
+.linkflair-media .linkflairlabel {
+    background: #cc00cc;
+    color: #ffffff;
+
+}
+
+.linkflair-meta .linkflairlabel {
+    background: #ff0000;
+    color: #ffffff;
+
+}
+
+.linkflair-bug .linkflairlabel {
+    background: #cc9900;
+    color: #ffffff;
+
+}
+
+.linkflair-other .linkflairlabel {
+    background: #ffffff;
+    color: #000000;
+
+}
+
+.linkflair-announcement .linkflairlabel {
+    background: #000000;
+    color: #ffffff;
+
+}
+
+.linkflair-teaser .linkflairlabel {
+    background: #DB7917;
+    color: #ffffff;
+
+}

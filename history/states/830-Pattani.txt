@@ -1,0 +1,25 @@
+
+state={
+	id=830
+	name="STATE_830"
+	resources={
+		rubber=16.000
+	}
+
+	history={
+		owner = MLY
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MLY
+
+	}
+
+	provinces={
+		1291 7342 
+	}
+	manpower=452600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

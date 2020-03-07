@@ -1,0 +1,63 @@
+﻿capital = 1009
+
+set_research_slots = 3
+
+oob = "BOS"
+set_cosmetic_tag = BOS_SFR
+
+add_ideas = {
+
+}
+
+set_technology = {
+	 
+}
+
+add_ideas = { 
+}
+
+set_politics = {
+	ruling_party = marxist
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 100
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 0
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+create_country_leader = {
+	name = "Mehmed Spaho"
+	desc = "POLITICS_MEHMED_SPAHO_DESC"
+	picture = "Portrait_Mehmed_Spaho.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+### Corps Commander
+
+create_corps_commander = { 
+	name = "Muhamed Hadžiefendić"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BOS/Portrait_Illyria_Muhamed_Hadziefendic.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

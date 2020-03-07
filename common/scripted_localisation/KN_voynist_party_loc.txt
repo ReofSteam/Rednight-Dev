@@ -1,0 +1,1110 @@
+defined_text = {
+	name = VOYNIST_PARTY
+	text = {
+		trigger = {
+			tag = BEL
+		}
+		localization_key = "BEL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRI
+		}
+		localization_key = "BRI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = FLN
+		}
+		localization_key = "FLN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = FRA
+		}
+		localization_key = "FRA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GBR
+		}
+		localization_key = "GBR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = IRE
+		}
+		localization_key = "IRE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = WLL
+		}
+		localization_key = "WLL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CIS
+		}
+		localization_key = "CIS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = AUS
+		}
+		localization_key = "AUS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOZ
+		}
+		localization_key = "BOZ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CZE
+		}
+		localization_key = "CZE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = FOZ
+		}
+		localization_key = "FOZ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GER
+		}
+		localization_key = "GER_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = JOZ
+		}
+		localization_key = "JOZ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NTH
+		}
+		localization_key = "NTH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWI
+		}
+		localization_key = "SWI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNT
+		}
+		localization_key = "CNT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = POR
+		}
+		localization_key = "POR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = "ITA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ALB
+		}
+		localization_key = "ALB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOS
+		}
+		localization_key = "BOS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BUL
+		}
+		localization_key = "BUL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CRO
+		}
+		localization_key = "CRO_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GRE
+		}
+		localization_key = "GRE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MNT
+		}
+		localization_key = "MNT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SER
+		}
+		localization_key = "SER_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SLN
+		}
+		localization_key = "SLN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = YUG
+		}
+		localization_key = "YUG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = VAR
+		}
+		localization_key = "VAR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = DEN
+		}
+		localization_key = "DEN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = DEN
+		}
+		localization_key = "DEN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = FIN
+		}
+		localization_key = "FIN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ICE
+		}
+		localization_key = "ICE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NOR
+		}
+		localization_key = "NOR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHL
+		}
+		localization_key = "SHL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = "SWE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BLR
+		}
+		localization_key = "BLR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = EST
+		}
+		localization_key = "EST_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = "HUN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = LAT
+		}
+		localization_key = "LAT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = LIT
+		}
+		localization_key = "LIT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ROM
+		}
+		localization_key = "ROM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = RPL
+		}
+		localization_key = "RPL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = RUS
+		}
+		localization_key = "RUS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SLK
+		}
+		localization_key = "SLK_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = WPL
+		}
+		localization_key = "WPL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = POL
+		}
+		localization_key = "POL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNK
+		}
+		localization_key = "CNK_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ARM
+		}
+		localization_key = "ARM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = AZR
+		}
+		localization_key = "AZR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GEO
+		}
+		localization_key = "GEO_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HEJ
+		}
+		localization_key = "HEJ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = IRQ
+		}
+		localization_key = "IRQ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KUR
+		}
+		localization_key = "KUR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = OMA
+		}
+		localization_key = "OMA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MUC
+		}
+		localization_key = "MUC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAL
+		}
+		localization_key = "PAL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PER
+		}
+		localization_key = "PER_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SYR
+		}
+		localization_key = "SYR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUR
+		}
+		localization_key = "TUR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = UAE
+		}
+		localization_key = "UAE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = YEM
+		}
+		localization_key = "YEM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = AFG
+		}
+		localization_key = "AFG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAZ
+		}
+		localization_key = "KAZ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TRK
+		}
+		localization_key = "TRK_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHI
+		}
+		localization_key = "CHI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NRC
+		}
+		localization_key = "NRC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHO
+		}
+		localization_key = "CHO_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = FNG
+		}
+		localization_key = "FNG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GXI
+		}
+		localization_key = "GXI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = JAP
+		}
+		localization_key = "JAP_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = "KOR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MNC
+		}
+		localization_key = "MNC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MON
+		}
+		localization_key = "MON_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SCH
+		}
+		localization_key = "SCH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHX
+		}
+		localization_key = "SHX_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIK
+		}
+		localization_key = "SIK_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TIB
+		}
+		localization_key = "TIB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = XNJ
+		}
+		localization_key = "XNJ_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = XSM
+		}
+		localization_key = "XSM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = YNN
+		}
+		localization_key = "YNN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BHC
+		}
+		localization_key = "BHC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NEP
+		}
+		localization_key = "NEP_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BHU
+		}
+		localization_key = "BHU_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HYD
+		}
+		localization_key = "HYD_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MHA
+		}
+		localization_key = "MHA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CEY
+		}
+		localization_key = "CEY_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = DRA
+		}
+		localization_key = "MYS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHN
+		}
+		localization_key = "SHN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAC
+		}
+		localization_key = "KAC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = INC
+		}
+		localization_key = "INC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIA
+		}
+		localization_key = "SIA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BUR
+		}
+		localization_key = "BUR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = INS
+		}
+		localization_key = "INS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PHI
+		}
+		localization_key = "PHI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = AST
+		}
+		localization_key = "AST_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAW
+		}
+		localization_key = "HAW_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NZL
+		}
+		localization_key = "NZL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GEA
+		}
+		localization_key = "GEA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MEL
+		}
+		localization_key = "MEL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NCL
+		}
+		localization_key = "NCL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = EGY
+		}
+		localization_key = "EGY_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = LBA
+		}
+		localization_key = "LBA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUN
+		}
+		localization_key = "TUN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ALG
+		}
+		localization_key = "ALG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MOR
+		}
+		localization_key = "MOR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SUD
+		}
+		localization_key = "SUD_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BGU
+		}
+		localization_key = "BGU_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNG
+		}
+		localization_key = "CNG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GAB
+		}
+		localization_key = "GAB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAM
+		}
+		localization_key = "KAM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KON
+		}
+		localization_key = "KON_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TAS
+		}
+		localization_key = "TAS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TKE
+		}
+		localization_key = "TKE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAS
+		}
+		localization_key = "KIV_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ASH
+		}
+		localization_key = "ASH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SAH
+		}
+		localization_key = "SAH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOR
+		}
+		localization_key = "PER_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = DAH
+		}
+		localization_key = "DAH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GNE
+		}
+		localization_key = "GNE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAU
+		}
+		localization_key = "HAU_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = IVY
+		}
+		localization_key = "IVY_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = LIB
+		}
+		localization_key = "LIB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MLI
+		}
+		localization_key = "MLI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MRT
+		}
+		localization_key = "MRT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NGR
+		}
+		localization_key = "NGR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SEN
+		}
+		localization_key = "SEN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TOG
+		}
+		localization_key = "TOG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUA
+		}
+		localization_key = "TUA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BFA
+		}
+		localization_key = "BFA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIE
+		}
+		localization_key = "SIE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BGA
+		}
+		localization_key = "BGA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRD
+		}
+		localization_key = "BRD_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ERI
+		}
+		localization_key = "ERI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ETH
+		}
+		localization_key = "ETH_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KLD
+		}
+		localization_key = "KLD_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = RWA
+		}
+		localization_key = "RWA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SOM
+		}
+		localization_key = "SOM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TNG
+		}
+		localization_key = "TNG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ANG
+		}
+		localization_key = "ANG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PER
+		}
+		localization_key = "PER_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRT
+		}
+		localization_key = "BRT_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = KTG
+		}
+		localization_key = "KTG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MAG
+		}
+		localization_key = "MAG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MSC
+		}
+		localization_key = "MSC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MZB
+		}
+		localization_key = "MZB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NYA
+		}
+		localization_key = "NYA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PEX
+		}
+		localization_key = "PEX_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = "SAF_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWA
+		}
+		localization_key = "SWA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CAN
+		}
+		localization_key = "CAN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CSA
+		}
+		localization_key = "CSA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NFL
+		}
+		localization_key = "NFL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = QUE
+		}
+		localization_key = "QUE_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = TEX
+		}
+		localization_key = "TEX_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CAC
+		}
+		localization_key = "CAC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHP
+		}
+		localization_key = "CHP_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = COS
+		}
+		localization_key = "COS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ELS
+		}
+		localization_key = "ELS_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GUA
+		}
+		localization_key = "GUA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HON
+		}
+		localization_key = "HON_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = MEX
+		}
+		localization_key = "MEX_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = NIC
+		}
+		localization_key = "NIC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAN
+		}
+		localization_key = "PAN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = YUC
+		}
+		localization_key = "YUC_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CUB
+		}
+		localization_key = "CUB_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = DOM
+		}
+		localization_key = "DOM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAI
+		}
+		localization_key = "HAI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = JAM
+		}
+		localization_key = "JAM_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = USN
+		}
+		localization_key = "USN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = WIF
+		}
+		localization_key = "WIF_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ARG
+		}
+		localization_key = "ARG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOL
+		}
+		localization_key = "BOL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRA
+		}
+		localization_key = "BRA_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHL
+		}
+		localization_key = "CHL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = COL
+		}
+		localization_key = "COL_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = ECU
+		}
+		localization_key = "ECU_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = GUI
+		}
+		localization_key = "GUI_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAR
+		}
+		localization_key = "PAR_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PRU
+		}
+		localization_key = "PRU_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = URG
+		}
+		localization_key = "URG_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = VEN
+		}
+		localization_key = "VEN_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = WST
+		}
+		localization_key = "WST_voynist_party"
+	}
+	text = {
+		trigger = {
+			tag = PLF
+		}
+		localization_key = "PLF_voynist_party"
+	}
+	text = {
+		localization_key = "Voynist"
+	}
+}

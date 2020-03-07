@@ -1,0 +1,25 @@
+
+state={
+	id=1149
+	name="STATE_1149"
+
+	history={
+		victory_points = {
+			14447 1 
+		}
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1967 14405 14407 14408 14418 14420 14428 14435 14444 14445 14447 14469 14486 14489 14495 
+	}
+	manpower=136400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

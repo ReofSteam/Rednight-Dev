@@ -1,0 +1,18 @@
+state={
+	id=1385
+	name="STATE_1385"
+
+	history={
+		owner = IVY
+		add_core_of=IVY
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		7983 15610 15611 15612
+	}
+	manpower=75000
+	buildings_max_level_factor=1
+	state_category=rural
+}

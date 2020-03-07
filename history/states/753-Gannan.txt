@@ -1,0 +1,41 @@
+
+state={
+	id=753
+	name="STATE_753"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		victory_points = { 12049 25 }
+		victory_points = { 15695 30 }
+		victory_points = { 4073 20 }
+		buildings = {
+			infrastructure = 3
+			9947 = {
+				naval_base = 4
+				bunker = 1
+				coastal_bunker = 2
+
+			}
+			4073 = {
+				bunker = 1
+				coastal_bunker = 2
+
+			}
+			12049 = {
+				naval_base = 2
+
+			}
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		1155 4073 9947 12049 15695
+	}
+	manpower=128460
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

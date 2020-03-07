@@ -1,0 +1,29 @@
+
+state={
+	id=10
+	name="STATE_10"
+
+	history={
+		owner = WPL
+		add_core_of = WPL
+		victory_points = {
+			3544 10.0 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
+
+		}
+
+	}
+
+	provinces={
+		402 467 524 3482 3544 6511 9400 11492 12562 
+	}
+	manpower=3089000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

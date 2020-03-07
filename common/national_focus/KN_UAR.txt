@@ -1,0 +1,465 @@
+focus_tree = { 
+id = UAR_krasnacht
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = UAR
+} 
+} 
+#Focus for Organize the Government
+focus = { 
+id = UAR_organizethegovernment
+icon = GFX_goal_unknown
+x = 8
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_therevolutioncomestoarabia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Elect Popular Councils
+focus = { 
+id = UAR_electpopularcouncils
+icon = GFX_goal_unknown
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethegovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Empower the Unions
+focus = { 
+id = UAR_empowertheunions
+icon = GFX_goal_unknown
+x = 7
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethegovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Seize Local Institutions
+focus = { 
+id = UAR_seizelocalinstitutions
+icon = GFX_goal_unknown
+x = 9
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethegovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Into the Countryside
+focus = { 
+id = UAR_intothecountryside
+icon = GFX_goal_unknown
+x = 11
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_therevolutioncomestoarabia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Red Bedouin Brigades
+focus = { 
+id = UAR_redbedouinbrigades
+icon = GFX_goal_unknown
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethemilitary } 
+prerequisite = { focus = UAR_intothecountryside } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Agrarian Councils
+focus = { 
+id = UAR_agrariancouncils
+icon = GFX_goal_unknown
+x = 10
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_intothecountryside } 
+prerequisite = { focus = UAR_organizethegovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Roll Out the Tanks
+focus = { 
+id = UAR_rolloutthetanks
+icon = GFX_goal_unknown
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Recruit the Militias
+focus = { 
+id = UAR_recruitthemilitias
+icon = GFX_goal_unknown
+x = 14
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Integrate the Armed Forces
+focus = { 
+id = UAR_integratethearmedforces
+icon = GFX_goal_unknown
+x = 15
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_organizethemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Fate of the Tribes
+focus = { 
+id = UAR_thefateofthetribes
+icon = GFX_goal_unknown
+x = 11
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_agrariancouncils } 
+prerequisite = { focus = UAR_redbedouinbrigades } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Revolutionary Command Council
+focus = { 
+id = UAR_revolutionarycommandcouncil
+icon = GFX_goal_unknown
+x = 11
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_integratethearmedforces } 
+prerequisite = { focus = UAR_empowertheunions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Question of Minorities
+focus = { 
+id = UAR_thequestionofminorities
+icon = GFX_goal_unknown
+x = 11
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_reformthesystem focus = UAR_fightthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Urban Co-operatives
+focus = { 
+id = UAR_urbancooperatives
+icon = GFX_goal_unknown
+x = 6
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_collectivizetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Agrarian Communes
+focus = { 
+id = UAR_agrariancommunes
+icon = GFX_goal_unknown
+x = 4
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_collectivizetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Deal with the Parasites
+focus = { 
+id = UAR_dealwiththeparasites
+icon = GFX_goal_unknown
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_asocialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Fight for Equality
+focus = { 
+id = UAR_thefightforequality
+icon = GFX_goal_unknown
+x = 10
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_asocialrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arab Socialist Land Reform
+focus = { 
+id = UAR_arabsocialistlandreform
+icon = GFX_goal_unknown
+x = 18
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_nationalizetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for State Owned Industry
+focus = { 
+id = UAR_stateownedindustry
+icon = GFX_goal_unknown
+x = 16
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_nationalizetheeconomy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The National Struggle
+focus = { 
+id = UAR_thenationalstruggle
+icon = GFX_goal_unknown
+x = 14
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_anationalrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Integrate the Bourgeois
+focus = { 
+id = UAR_integratethebourgeois
+icon = GFX_goal_unknown
+x = 12
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_anationalrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A National Revolution
+focus = { 
+id = UAR_anationalrevolution
+icon = GFX_goal_unknown
+x = 13
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_reformthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Social Revolution
+focus = { 
+id = UAR_asocialrevolution
+icon = GFX_goal_unknown
+x = 9
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_fightthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fight the System
+focus = { 
+id = UAR_fightthesystem
+icon = GFX_goal_unknown
+x = 7
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_revolutionarycommandcouncil } 
+mutually_exclusive = { focus = UAR_reformthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalize the Economy
+focus = { 
+id = UAR_nationalizetheeconomy
+icon = GFX_goal_unknown
+x = 17
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_reformthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform the System
+focus = { 
+id = UAR_reformthesystem
+icon = GFX_goal_unknown
+x = 15
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_revolutionarycommandcouncil } 
+mutually_exclusive = { focus = UAR_fightthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Collectivize the Economy
+focus = { 
+id = UAR_collectivizetheeconomy
+icon = GFX_goal_unknown
+x = 5
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_fightthesystem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Organize the Military
+focus = { 
+id = UAR_organizethemilitary
+icon = GFX_goal_unknown
+x = 14
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = UAR_therevolutioncomestoarabia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Revolution Comes to Arabia
+focus = { 
+id = UAR_therevolutioncomestoarabia
+icon = GFX_goal_unknown
+x = 11
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Supreme Revolutionary Council
+focus = { 
+id = UAR_supremerevolutionarycouncil
+icon = GFX_goal_unknown
+x = 29
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

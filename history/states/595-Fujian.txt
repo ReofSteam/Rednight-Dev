@@ -1,0 +1,24 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1006 1138 1166 1193 4053 4113 4169 7027 7099 7131 10012 10042 10054 10084 10093 11986 12057 12084 
+	}
+	manpower=11755600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

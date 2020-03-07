@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		armed_populace = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea armed_populace"}
+			picture = armed_populace
+			modifier = {
+				stability_factor = -0.05
+				army_core_defence_factor = +0.2
+			}
+		}
+		father_nation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea father_nation"}
+			picture = father_nation
+			modifier = {
+				stability_factor = +0.2
+				political_power_gain = +0.5
+			}
+		}
+		tensions_egypt = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea tensions_egypt"}
+			picture = tensions_egypt
+			modifier = {
+				stability_factor = -0.05
+				autonomy_gain = +15
+			}
+		}
+	}
+}

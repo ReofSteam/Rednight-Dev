@@ -1,0 +1,22 @@
+
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8051 13725 15412 
+	}
+	manpower=25003
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

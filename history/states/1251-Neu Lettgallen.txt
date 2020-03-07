@@ -1,0 +1,18 @@
+state={
+	id=1251
+	name="STATE_1251"
+	provinces={
+		15171 
+	}
+	history={
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	manpower=35500
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

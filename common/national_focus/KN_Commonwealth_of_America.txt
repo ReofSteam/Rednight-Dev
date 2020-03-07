@@ -1,0 +1,1737 @@
+###########################
+# Commonwealth of America tree
+# For Jane :3
+###########################
+
+focus_tree = {
+	id = CSA_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+	default = no
+	
+	focus = {# Canadian Bombings
+		id = CSA_canadian_bombings
+		icon = GFX_CSA_canada_bombings
+		available = { always = no }
+		bypass = { has_global_flag = CANADIAN_BOMBINGS }
+		cost = 5.00
+		x = 12
+		y = 0
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CSA_civil_war"
+			custom_effect_tooltip = CSA_will_get_bypassed_tooltip
+		}
+	}
+
+	focus = { #Deal with the Media
+		id = CSA_deal_with_media
+		icon = GFX_ITA_urban
+		x = 11
+		y = 1
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_canadian_bombings
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Everything is Fine!
+		id = CSA_everything_is_fine
+		icon = GFX_CSA_everything_good
+		x = 11
+		y = 2
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_deal_with_media
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Prepare Militia Response
+		id = CSA_prepare_militia_response
+		icon = GFX_CSA_everything_good
+		x = 13
+		y = 1
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_canadian_bombings
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Everything is Not Fine!
+		id = CSA_everything_is_not_fine
+		icon = GFX_CSA_everything_bad
+		x = 13
+		y = 2
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_prepare_militia_response
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Canadian Resistance
+		id = CSA_the_canadian_resistance
+		icon = GFX_ITA_urban
+		x = 12
+		y = 3
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_everything_is_fine
+		}
+		prerequisite = {
+			focus = CSA_everything_is_not_fine
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Talk with the Cells
+		id = CSA_talk_with_the_cells
+		icon = GFX_ITA_urban
+		x = 1
+		y = 4
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_canadian_resistance
+		}
+		mutually_exclusive = {
+			focus = CSA_crush_the_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Crush the Resistance
+		id = CSA_crush_the_resistance
+		icon = GFX_ITA_urban
+		x = 3
+		y = 4
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_canadian_resistance
+		}
+		mutually_exclusive = {
+			focus = CSA_talk_with_the_cells
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Make Contacts in the Shadows
+		id = CSA_make_contacts
+		icon = GFX_ITA_urban
+		x = 0
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_talk_with_the_cells
+			focus = CSA_crush_the_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Around Ottawa
+		id = CSA_around_ottawa
+		icon = GFX_ITA_urban
+		x = 0
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_make_contacts
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Eastern Canadian Organizations
+		id = CSA_eastern_canadian_organizations
+		icon = GFX_ITA_urban
+		x = 0
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_around_ottawa
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			 always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Quebecois
+		id = CSA_the_quebecois
+		icon = GFX_ITA_urban
+		x = 0
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_eastern_canadian_organizations
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Middle Canada
+		id = CSA_middle_canada
+		icon = GFX_ITA_urban
+		x = 0
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_quebecois
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Columbians
+		id = CSA_the_columbians
+		icon = GFX_ITA_urban
+		x = 0
+		y = 10
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_middle_canada
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Yankee Resistance
+		id = CSA_the_yankee_resistance
+		icon = GFX_ITA_urban
+		x = 0
+		y = 11
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_columbians
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Seek Them Out
+		id = CSA_seek_them_out
+		icon = GFX_ITA_urban
+		x = 4
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_talk_with_the_cells
+			focus = CSA_crush_the_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Union Drives in Ontario
+		id = CSA_ontario_union_drives
+		icon = GFX_ITA_urban
+		x = 4
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_seek_them_out
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Infiltrate Resistance
+		id = CSA_infiltrate_resistance
+		icon = GFX_ITA_urban
+		x = 4
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_ontario_union_drives
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Plant Anti-Anglo Propaganda
+		id = CSA_anti_anglo_gang
+		icon = GFX_ITA_urban
+		x = 4
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_infiltrate_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Connect Our Infrastructure
+		id = CSA_connect_infra
+		icon = GFX_ITA_urban
+		x = 4
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_anti_anglo_gang
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Cascadian Efforts
+		id = CSA_cascadian_efforts
+		icon = GFX_ITA_urban
+		x = 4
+		y = 10
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_connect_infra
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Break the Radio Codes
+		id = CSA_break_radio_codes
+		icon = GFX_ITA_urban
+		x = 4
+		y = 11
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_cascadian_efforts
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Rebel Alliance? 
+		id = CSA_rebel_alliance
+		icon = GFX_ITA_urban
+		x = 2
+		y = 12
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_yankee_resistance
+			focus = CSA_break_radio_codes
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Politics of Canada
+		id = CSA_canadian_politics
+		icon = GFX_ITA_urban
+		x = 12
+		y = 4
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_canadian_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Make Canada American
+		id = CSA_make_canada_american
+		icon = GFX_ITA_urban
+		x = 10
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_canadian_politics
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Erase Former Culture
+		id = CSA_erase_former_culture
+		icon = GFX_ITA_urban
+		x = 9
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_make_canada_american
+		}
+		mutually_exclusive = {
+			focus = CSA_multicultural_america
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Eliminate Their Federations
+		id = CSA_eliminate_their_federations
+		icon = GFX_ITA_urban
+		x = 9
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_erase_former_culture
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Silence Their Leaders
+		id = CSA_silence_their_leaders
+		icon = GFX_ITA_urban
+		x = 9
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_eliminate_their_federations
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#A Multicultural America
+		id = CSA_multicultural_america
+		icon = GFX_ITA_urban
+		x = 11
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_make_canada_american
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Montreal Exchange
+		id = CSA_montreal_exchange
+		icon = GFX_ITA_urban
+		x = 11
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_multicultural_america
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Open Up Talks with their Leaders
+		id = CSA_open_up_talks
+		icon = GFX_ITA_urban
+		x = 11
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_montreal_exchange
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#One State, One People
+		id = CSA_one_state_one_people
+		icon = GFX_ITA_urban
+		x = 8
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_silence_their_leaders
+		}
+		mutually_exclusive = {
+			focus = CSA_limited_autonomy
+			focus = CSA_protected_independence
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Allow for Limited Autonomy
+		id = CSA_limited_autonomy
+		icon = GFX_ITA_urban
+		x = 10
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_silence_their_leaders
+			focus = CSA_open_up_talks
+		}
+		mutually_exclusive = {
+			focus = CSA_one_state_one_people
+			focus = CSA_protected_independence
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Push for Protected Independence
+		id = CSA_protected_independence
+		icon = GFX_ITA_urban
+		x = 12
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_open_up_talks
+		}
+		mutually_exclusive = {
+			focus = CSA_one_state_one_people
+			focus = CSA_limited_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Resistance Government
+		id = CSA_resistance_government
+		icon = GFX_ITA_urban
+		x = 14
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_canadian_politics
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Secret Political Clubs
+		id = CSA_secret_political_clubs
+		icon = GFX_ITA_urban
+		x = 13
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_resistance_government
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Sherbrooke Conference
+		id = CSA_sherbrooke_conference
+		icon = GFX_ITA_urban
+		x = 15
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_resistance_government
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Exchange Ambassadors
+		id = CSA_exchange_ambassadors
+		icon = GFX_ITA_urban
+		x = 14
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_secret_political_clubs
+		}
+		prerequisite = {
+			focus = CSA_sherbrooke_conference
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Formalize the Shadow Government
+		id = CSA_formalize_shadow_government
+		icon = GFX_ITA_urban
+		x = 14
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_exchange_ambassadors
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#A New Republic
+		id = CSA_new_republic
+		icon = GFX_ITA_urban
+		x = 14
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_formalize_shadow_government
+		}
+		mutually_exclusive = {
+			focus = CSA_forever_loyal_to_the_queen
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Forever Loyal to the Queen
+		id = CSA_forever_loyal_to_the_queen
+		icon = GFX_ITA_urban
+		x = 16
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_formalize_shadow_government
+		}
+		mutually_exclusive = {
+			focus = CSA_new_republic
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Northern State(s)
+		id = CSA_northern_states
+		icon = GFX_ITA_urban
+		x = 12
+		y = 12
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_one_state_one_people
+			focus = CSA_limited_autonomy
+			focus = CSA_protected_independence
+		}
+		prerequisite = {
+			focus = CSA_new_republic
+			focus = CSA_forever_loyal_to_the_queen
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The New Canadian Economy
+		id = CSA_new_canadian_economy
+		icon = GFX_ITA_urban
+		x = 21
+		y = 4
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_the_canadian_resistance
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Socialize the Industries
+		id = CSA_socialize_industries
+		icon = GFX_ITA_urban
+		x = 19
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_new_canadian_economy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Official Union Organizers
+		id = CSA_official_union_organizers
+		icon = GFX_ITA_urban
+		x = 19
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_socialize_industries
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Propagate Socialist Teachings
+		id = CSA_propagate_socialist_teachings
+		icon = GFX_ITA_urban
+		x = 19
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_official_union_organizers
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Share Our Beauty
+		id = CSA_share_our_beauty
+		icon = GFX_ITA_urban
+		x = 19
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_propagate_socialist_teachings
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Encourage Niche Trades
+		id = CSA_encourage_niche_trades
+		icon = GFX_ITA_urban
+		x = 19
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_share_our_beauty
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#One Economy, One Commonwealth
+		id = CSA_one_economy_one_commonwealth
+		icon = GFX_ITA_urban
+		x = 19
+		y = 10
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_encourage_niche_trades
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Prepare Ourselves for Peace!
+		id = CSA_prepare_ourselves_for_peace
+		icon = GFX_ITA_urban
+		x = 19
+		y = 11
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_one_economy_one_commonwealth
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Undercover Economy
+		id = CSA_undercover_economy
+		icon = GFX_ITA_urban
+		x = 23
+		y = 5
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_new_canadian_economy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Resistance War Board
+		id = CSA_resistance_war_board
+		icon = GFX_ITA_urban
+		x = 23
+		y = 6
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_undercover_economy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Reintroduce Canadian Dollars
+		id = CSA_reintroduce_canadian_dollars
+		icon = GFX_ITA_urban
+		x = 23
+		y = 7
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_resistance_war_board
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Secure Basic War Resources
+		id = CSA_secure_basic_war_resources
+		icon = GFX_ITA_urban
+		x = 23
+		y = 8
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_reintroduce_canadian_dollars
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Private Arms Manufacturing
+		id = CSA_private_arms_manufacturing
+		icon = GFX_ITA_urban
+		x = 23
+		y = 9
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_secure_basic_war_resources
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Resource Infrastructure
+		id = CSA_resource_infrastructure
+		icon = GFX_ITA_urban
+		x = 23
+		y = 10
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_private_arms_manufacturing
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Prepare Ourselves for War!
+		id = CSA_prepare_ourselves_for_war
+		icon = GFX_ITA_urban
+		x = 23
+		y = 11
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_resource_infrastructure
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Our New Economy!
+		id = CSA_new_economy
+		icon = GFX_ITA_urban
+		x = 21
+		y = 12
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_prepare_ourselves_for_peace
+			focus = CSA_prepare_ourselves_for_war
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+            always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The North American United Front!
+		id = CSA_north_american_united_front
+		icon = GFX_CAN_north_american_united_front
+		x = 4
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Canadian United Front!
+		id = CSA_canadian_united_front
+		icon = GFX_ITA_urban
+		x = 6
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Canada Alone!
+		id = CSA_canada_alone
+		icon = GFX_ITA_urban
+		x = 8
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Quebec Alone!
+		id = CSA_quebec_alone
+		icon = GFX_ITA_urban
+		x = 10
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The War in the North!
+		id = CSA_war_in_the_north
+		icon = GFX_ITA_urban
+		x = 12
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#The Commonwealth United!
+		id = CSA_commonwealth_united
+		icon = GFX_ITA_urban
+		x = 14
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Autonomy for Canada and Quebec!
+		id = CSA_canada_quebec_autonomy
+		icon = GFX_ITA_urban
+		x = 16
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Autonomy for Canada!
+		id = CSA_canada_autonomy
+		icon = GFX_ITA_urban
+		x = 18
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_quebec_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {#Autonomy for Quebec!
+		id = CSA_quebec_autonomy
+		icon = GFX_ITA_urban
+		x = 20
+		y = 13
+
+		cost = 1
+		
+		prerequisite = {
+			focus = CSA_rebel_alliance
+		}
+		prerequisite = {
+			focus = CSA_northern_states
+		}
+		prerequisite = {
+			focus = CSA_new_economy
+		}
+		mutually_exclusive = {
+			focus = CSA_north_american_united_front
+			focus = CSA_canadian_united_front
+			focus = CSA_canada_alone
+			focus = CSA_quebec_alone
+			focus = CSA_war_in_the_north
+			focus = CSA_commonwealth_united
+			focus = CSA_canada_quebec_autonomy
+			focus = CSA_canada_autonomy
+		}
+
+		ai_will_do = { factor = 100 }
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+		
+		}
+	}
+
+}

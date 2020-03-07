@@ -1,0 +1,22 @@
+
+state={
+	id=805
+	name="STATE_805"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		12842 14406 14409 14412 14414 14415 14425 14427 14429 14436 14438 14446 14450 14455 14456 14457 14465 14467 14471 
+	}
+	manpower=163160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,67 @@
+﻿#capital = 671
+
+OOB = "NRM"
+
+add_ideas = {
+INC_call_of_resistance	
+}
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+}
+
+country_event = {  }
+
+set_research_slots = 3
+#set_convoys = 
+
+set_politics = {	
+	ruling_party = moderate_socialist 
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 15
+    marxist = 25
+    libertarian = 2
+    moderate_socialist = 15
+    social_democrat = 9
+    social_liberal = 3
+    conservative = 2
+    authoritarian_democrat = 20
+    autocratic = 3
+    fundamentalist = 2
+    voynist = 2
+}
+create_country_leader = {
+	name = "Hoang Van Thai" 
+	desc = "POLITICS_HOANG_VAN_THAI_DESC"
+	picture = "gfx/leaders/Asia/INC/INC_Hoang_Van_Thai.tga"
+	expire = "1983.3.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		
+	}
+}

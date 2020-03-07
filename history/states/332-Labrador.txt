@@ -1,0 +1,22 @@
+state={
+	id=332
+	name="STATE_332"
+	
+	state_category = wasteland
+        impassable = yes
+
+	history={
+		owner = NFL
+		add_core_of = NFL
+		add_claim_by = CAN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1426 1785 4720 4787 12503
+	}
+	manpower=4800
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1305
+	name="STATE_1305"
+	history={
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 15686 10 }
+		victory_points = { 1966 15 }
+		victory_points = { 14182 5 }
+		victory_points = { 15687 15 }
+	}
+	provinces={
+		1966 10891 14167 14182 15686 15687
+	}
+	manpower=69
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

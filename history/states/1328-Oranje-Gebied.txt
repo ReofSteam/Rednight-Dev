@@ -1,0 +1,18 @@
+state={
+	id=1328
+	name="STATE_1328"
+	impassable = yes
+	history={
+		owner = DEI
+		add_core_of = DEI
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		7570 8235 8250 10436 10990 
+	}
+	manpower=69
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

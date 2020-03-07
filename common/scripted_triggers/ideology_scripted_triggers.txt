@@ -1,0 +1,31 @@
+has_socialist_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_socialist
+		OR = {
+			has_government = social_nationalist
+			has_government = marxist
+			has_government = libertarian
+			has_government = moderate_socialist
+			AND = {
+				has_government = social_democrat
+				has_country_flag = soc_dems_are_socialists
+			}
+		}
+	}
+}
+
+not_has_socialist_government = {
+	custom_trigger_tooltip = {
+		tooltip = KR_is_not_socialist
+		NOT = {
+			has_government = social_nationalist
+			has_government = marxist
+			has_government = libertarian
+			has_government = moderate_socialist
+			AND = {
+				has_government = social_democrat
+				has_country_flag = soc_dems_are_socialists
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		5074 13709 
+	}
+	manpower=761505
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

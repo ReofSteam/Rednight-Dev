@@ -1,0 +1,68 @@
+﻿capital = 877
+OOB = "empty"
+
+set_technology = {}
+set_research_slots = 2
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+create_country_leader = {
+	name = "Jonathan Savi de Tové"
+	desc = "POLITICS_SAVI_TOVE_DESC"
+	picture = "gfx/leaders/WEST_AFRICA/TOG/Portrait_TOG_Tove.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Sylvanus Olympio"
+	desc = "POLITICS_Olyimpio_DESC"
+	picture = "gfx/leaders/WEST_AFRICA/TOG/Portrait_TOG_Olympio.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Kléber Dadjo"
+	desc = "POLITICS_KLEBER_DADJO_DESC"
+	picture = "gfx/leaders/WEST_AFRICA/TOG/Portrait_TOG_Dadjo.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Alhaji Grunshi"
+	desc = "POLITICS_ALHAJI_TOGO_DESC"
+	picture = "gfx/leaders/WEST_AFRICA/TOG/Portrait_TOG_Alhaji.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+
+	}
+}

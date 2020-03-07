@@ -1,0 +1,21 @@
+
+state={
+	id=1234
+	name="STATE_1234"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 1
+
+		}
+	}
+
+	provinces={
+		5073 12748 15085 15086 15089 15107 15117 15127 15131 
+	}
+	manpower=168633
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=673
+	name="STATE_673"
+	resources={
+		rubber=27.000
+		aluminium=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = SUL
+		add_core_of = SUL
+		victory_points = {
+			10263 15 
+		}
+		victory_points = {
+			12330 3 
+		}
+		victory_points = {
+			1589 1 
+		}
+		victory_points = {
+			4564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			10263 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1589 4349 7336 10263 10464 12330 
+	}
+	manpower=3093251
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

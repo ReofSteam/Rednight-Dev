@@ -1,0 +1,67 @@
+##################################
+# Common Traits
+##################################
+leader_traits = {
+
+	SLO_hungarian_lineage = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = SLO
+			}
+		}
+		modifier = {
+		reassignment_duration_factor = 2   # +200% cost to replace leader
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 50
+		}
+	}
+
+	SLO_communist_sabotuer = { 
+		type = all
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		allowed = {
+			FROM = {
+				tag = SLO
+			}
+		}
+		modifier = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		new_commander_weight = {
+			factor = 50
+		}
+	}
+}
+
+##################################
+# Field Marshal traits.
+##################################
+	
+##################################
+# Corps Commander traits.
+##################################
+	
+##################################
+# Corps Commander assignabme traits.
+##################################
+
+##################################
+# Naval traits.
+##################################

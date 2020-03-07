@@ -1,0 +1,24 @@
+INS_ampera_struggle = {
+	icon = GFX_decision_generic_political_discourse
+	picture = GFX_decision_INS_ampera_struggle
+	
+	allowed = {	
+		original_tag = INS
+	}
+	visible = {	
+		has_completed_focus = INS_crisis_fixed
+		has_idea = INS_orla
+	}
+}
+INS_parliament = {
+	picture = GFX_decision_INS_triumvirate
+	
+	allowed = {	
+		original_tag = INS
+	}
+	visible = {	
+		NOT = {
+			has_completed_focus = INS_premier_wikana
+		}
+	}
+}

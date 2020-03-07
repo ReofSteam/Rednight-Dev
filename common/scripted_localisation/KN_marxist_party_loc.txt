@@ -1,0 +1,1110 @@
+defined_text = {
+	name = MARXIST_PARTY
+	text = {
+		trigger = {
+			tag = BEL
+		}
+		localization_key = "BEL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRI
+		}
+		localization_key = "BRI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = FLN
+		}
+		localization_key = "FLN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = FRA
+		}
+		localization_key = "FRA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GBR
+		}
+		localization_key = "GBR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = IRE
+		}
+		localization_key = "IRE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = WLL
+		}
+		localization_key = "WLL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CIS
+		}
+		localization_key = "CIS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = AUS
+		}
+		localization_key = "AUS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOZ
+		}
+		localization_key = "BOZ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CZE
+		}
+		localization_key = "CZE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = FOZ
+		}
+		localization_key = "FOZ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GER
+		}
+		localization_key = "GER_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = JOZ
+		}
+		localization_key = "JOZ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NTH
+		}
+		localization_key = "NTH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWI
+		}
+		localization_key = "SWI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNT
+		}
+		localization_key = "CNT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = POR
+		}
+		localization_key = "POR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ITA
+		}
+		localization_key = "ITA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ALB
+		}
+		localization_key = "ALB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOS
+		}
+		localization_key = "BOS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BUL
+		}
+		localization_key = "BUL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CRO
+		}
+		localization_key = "CRO_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GRE
+		}
+		localization_key = "GRE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MNT
+		}
+		localization_key = "MNT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SER
+		}
+		localization_key = "SER_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SLN
+		}
+		localization_key = "SLN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = YUG
+		}
+		localization_key = "YUG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = VAR
+		}
+		localization_key = "VAR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = DEN
+		}
+		localization_key = "DEN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = DEN
+		}
+		localization_key = "DEN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = FIN
+		}
+		localization_key = "FIN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ICE
+		}
+		localization_key = "ICE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NOR
+		}
+		localization_key = "NOR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHL
+		}
+		localization_key = "SHL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWE
+		}
+		localization_key = "SWE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BLR
+		}
+		localization_key = "BLR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = EST
+		}
+		localization_key = "EST_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = "HUN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = LAT
+		}
+		localization_key = "LAT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = LIT
+		}
+		localization_key = "LIT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ROM
+		}
+		localization_key = "ROM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = RPL
+		}
+		localization_key = "RPL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = RUS
+		}
+		localization_key = "RUS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SLK
+		}
+		localization_key = "SLK_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = WPL
+		}
+		localization_key = "WPL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = POL
+		}
+		localization_key = "POL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNK
+		}
+		localization_key = "CNK_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ARM
+		}
+		localization_key = "ARM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = AZR
+		}
+		localization_key = "AZR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GEO
+		}
+		localization_key = "GEO_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HEJ
+		}
+		localization_key = "HEJ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = IRQ
+		}
+		localization_key = "IRQ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KUR
+		}
+		localization_key = "KUR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = OMA
+		}
+		localization_key = "OMA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MUC
+		}
+		localization_key = "MUC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAL
+		}
+		localization_key = "PAL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PER
+		}
+		localization_key = "PER_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SYR
+		}
+		localization_key = "SYR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUR
+		}
+		localization_key = "TUR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = UAE
+		}
+		localization_key = "UAE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = YEM
+		}
+		localization_key = "YEM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = AFG
+		}
+		localization_key = "AFG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAZ
+		}
+		localization_key = "KAZ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TRK
+		}
+		localization_key = "TRK_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHI
+		}
+		localization_key = "CHI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NRC
+		}
+		localization_key = "NRC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHO
+		}
+		localization_key = "CHO_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = FNG
+		}
+		localization_key = "FNG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GXI
+		}
+		localization_key = "GXI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = JAP
+		}
+		localization_key = "JAP_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KOR
+		}
+		localization_key = "KOR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MNC
+		}
+		localization_key = "MNC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MON
+		}
+		localization_key = "MON_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SCH
+		}
+		localization_key = "SCH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHX
+		}
+		localization_key = "SHX_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIK
+		}
+		localization_key = "SIK_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TIB
+		}
+		localization_key = "TIB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = XNJ
+		}
+		localization_key = "XNJ_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = XSM
+		}
+		localization_key = "XSM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = YNN
+		}
+		localization_key = "YNN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BHC
+		}
+		localization_key = "BHC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NEP
+		}
+		localization_key = "NEP_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BHU
+		}
+		localization_key = "BHU_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HYD
+		}
+		localization_key = "HYD_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MHA
+		}
+		localization_key = "MHA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CEY
+		}
+		localization_key = "CEY_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = DRA
+		}
+		localization_key = "MYS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SHN
+		}
+		localization_key = "SHN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAC
+		}
+		localization_key = "KAC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = INC
+		}
+		localization_key = "INC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIA
+		}
+		localization_key = "SIA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BUR
+		}
+		localization_key = "BUR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = INS
+		}
+		localization_key = "INS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PHI
+		}
+		localization_key = "PHI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = AST
+		}
+		localization_key = "AST_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAW
+		}
+		localization_key = "HAW_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NZL
+		}
+		localization_key = "NZL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GEA
+		}
+		localization_key = "GEA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MEL
+		}
+		localization_key = "MEL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NCL
+		}
+		localization_key = "NCL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = EGY
+		}
+		localization_key = "EGY_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = LBA
+		}
+		localization_key = "LBA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUN
+		}
+		localization_key = "TUN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ALG
+		}
+		localization_key = "ALG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MOR
+		}
+		localization_key = "MOR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SUD
+		}
+		localization_key = "SUD_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BGU
+		}
+		localization_key = "BGU_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CNG
+		}
+		localization_key = "CNG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GAB
+		}
+		localization_key = "GAB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAM
+		}
+		localization_key = "KAM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KON
+		}
+		localization_key = "KON_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TAS
+		}
+		localization_key = "TAS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TKE
+		}
+		localization_key = "TKE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KAS
+		}
+		localization_key = "KIV_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ASH
+		}
+		localization_key = "ASH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SAH
+		}
+		localization_key = "SAH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOR
+		}
+		localization_key = "PER_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = DAH
+		}
+		localization_key = "DAH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GNE
+		}
+		localization_key = "GNE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAU
+		}
+		localization_key = "HAU_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = IVY
+		}
+		localization_key = "IVY_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = LIB
+		}
+		localization_key = "LIB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MLI
+		}
+		localization_key = "MLI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MRT
+		}
+		localization_key = "MRT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NGR
+		}
+		localization_key = "NGR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SEN
+		}
+		localization_key = "SEN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TOG
+		}
+		localization_key = "TOG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TUA
+		}
+		localization_key = "TUA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BFA
+		}
+		localization_key = "BFA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SIE
+		}
+		localization_key = "SIE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BGA
+		}
+		localization_key = "BGA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRD
+		}
+		localization_key = "BRD_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ERI
+		}
+		localization_key = "ERI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ETH
+		}
+		localization_key = "ETH_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KLD
+		}
+		localization_key = "KLD_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = RWA
+		}
+		localization_key = "RWA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SOM
+		}
+		localization_key = "SOM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TNG
+		}
+		localization_key = "TNG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ANG
+		}
+		localization_key = "ANG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PER
+		}
+		localization_key = "PER_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRT
+		}
+		localization_key = "BRT_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = KTG
+		}
+		localization_key = "KTG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MAG
+		}
+		localization_key = "MAG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MSC
+		}
+		localization_key = "MSC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MZB
+		}
+		localization_key = "MZB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NYA
+		}
+		localization_key = "NYA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PEX
+		}
+		localization_key = "PEX_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SAF
+		}
+		localization_key = "SAF_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = SWA
+		}
+		localization_key = "SWA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CAN
+		}
+		localization_key = "CAN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CSA
+		}
+		localization_key = "CSA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NFL
+		}
+		localization_key = "NFL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = QUE
+		}
+		localization_key = "QUE_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = TEX
+		}
+		localization_key = "TEX_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CAC
+		}
+		localization_key = "CAC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHP
+		}
+		localization_key = "CHP_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = COS
+		}
+		localization_key = "COS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ELS
+		}
+		localization_key = "ELS_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GUA
+		}
+		localization_key = "GUA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HON
+		}
+		localization_key = "HON_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = MEX
+		}
+		localization_key = "MEX_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = NIC
+		}
+		localization_key = "NIC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAN
+		}
+		localization_key = "PAN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = YUC
+		}
+		localization_key = "YUC_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CUB
+		}
+		localization_key = "CUB_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = DOM
+		}
+		localization_key = "DOM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = HAI
+		}
+		localization_key = "HAI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = JAM
+		}
+		localization_key = "JAM_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = USN
+		}
+		localization_key = "USN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = WIF
+		}
+		localization_key = "WIF_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ARG
+		}
+		localization_key = "ARG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BOL
+		}
+		localization_key = "BOL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = BRA
+		}
+		localization_key = "BRA_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = CHL
+		}
+		localization_key = "CHL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = COL
+		}
+		localization_key = "COL_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = ECU
+		}
+		localization_key = "ECU_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = GUI
+		}
+		localization_key = "GUI_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PAR
+		}
+		localization_key = "PAR_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PRU
+		}
+		localization_key = "PRU_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = URG
+		}
+		localization_key = "URG_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = VEN
+		}
+		localization_key = "VEN_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = WST
+		}
+		localization_key = "WST_marxist_party"
+	}
+	text = {
+		trigger = {
+			tag = PLF
+		}
+		localization_key = "PLF_marxist_party"
+	}
+	text = {
+		localization_key = "Marxist"
+	}
+}

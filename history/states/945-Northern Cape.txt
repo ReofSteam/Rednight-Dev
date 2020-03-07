@@ -1,0 +1,26 @@
+
+state={
+	id=945
+	name="STATE_945"
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+			14624 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			10668 3 
+		}
+	}
+
+	provinces={
+		4528 10415 10442 14578 14582 14588 14591 14594 14598 14602 14606 14607 14610 14613 14614 14615 14616 14618 14619 14624 14627 14631 14632 14639 14641 14643 
+	}
+	manpower=194820
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1033
+	name="STATE_1033"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7604 3 
+		}
+
+	}
+
+	provinces={
+		1822 7604 15122 15142 15475
+	}
+	manpower=514260
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

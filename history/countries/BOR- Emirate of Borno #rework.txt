@@ -1,0 +1,104 @@
+﻿capital = 558
+OOB = "empty"
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+###gfx/leaders/WEST_AFRICA/BOR/
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = ""
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+
+### Field Marshal
+### Corps Commander
+
+### Navy Leader

@@ -1,0 +1,37 @@
+####################
+# Krasnacht Claims #
+# Version 0.1      #
+# Made by Hannah   #
+####################
+
+# kn_get_claims = {
+# 	clear_array = kn_claims
+# 	log = ""
+# 	every_other_country = {
+# 		every_state = {
+# 			if = {
+# 				limit = {
+# 					OR = {
+# 						is_claimed_by = PREV
+# 						is_core_of = PREV
+# 					}
+# 					OR = {
+# 						is_core_of = ROOT
+# 						is_owned_by = ROOT
+# 					}
+# 				}
+# 				set_variable = {
+# 					test = [this.GetId]
+# 				}
+# 				set_variable = {
+# 					test2 = [this.GetName]
+# 				}
+# 				set_variable = {
+# 					test3 = this
+# 				}
+# 				log = "[this.GetName] (ID: [this.GetId]. OWNER: [ROOT.GetName]. CLAIMER: [PREV.GetName])"
+# 				log = "[?test] - [?test2]\\[?test3.GetId] - [?test3.GetName]"
+# 			}
+# 		}
+# 	}
+# }

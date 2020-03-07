@@ -1,0 +1,28 @@
+
+state={
+	id=938
+	name="STATE_938"
+
+	history={
+		owner = GBR
+		add_core_of=GBR
+		#Feck off SCETLAND UWU
+		victory_points = {
+			6196 1
+		}
+		buildings={
+			infrastructure=3
+			6196={
+				naval_base=1	
+			}
+		}
+	}
+
+	provinces={
+		6196
+	}
+	
+	manpower=16100
+	buildings_max_level_factor=1
+	state_category="wasteland"
+}

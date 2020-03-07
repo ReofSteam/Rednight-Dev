@@ -1,0 +1,152 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+JAP_social_nationalist_party:0 "-"
+JAP_social_nationalist_party_long:0 "-"
+JAP_marxist_party:0 "-"
+JAP_marxist_party_long:0 "-"
+JAP_libertarian_party:0 "-"
+JAP_libertarian_party_long:0 "-"
+JAP_moderate_socialist_party:0 "-"
+JAP_moderate_socialist_party_long:0 "-"
+JAP_social_democrat_party:0 "-"
+JAP_social_democrat_party_long:0 "-"
+JAP_social_liberal_party:0 "-"
+JAP_social_liberal_party_long:0 "-"
+JAP_conservative_party:0 "-"
+JAP_conservative_party_long:0 "-"
+JAP_authoritarian_democrat_party:0 "-"
+JAP_authoritarian_democrat_party_long:0 "-"
+JAP_autocratic_party:0 "-"
+JAP_autocratic_party_long:0 "-"
+JAP_fundamentalist_party:0 "-"
+JAP_fundamentalist_party_long:0 "-"
+JAP_voynist_party:0 "-"
+JAP_voynist_party_long:0 "-"
+
+### Country Name ###
+
+JAP_social_nationalist:0 "Socialist Republic of Japan"
+JAP_social_nationalist_ADJ:0 "Japanese"
+JAP_social_nationalist_DEF:0 "the Socialist Republic of Japan"
+JAP_marxist:0 "Socialist Republic of Japan"
+JAP_marxist_ADJ:0 "Japanese"
+JAP_marxist_DEF:0 "the Socialist Republic of Japan"
+JAP_moderate_socialist:0 "Socialist Republic of Japan"
+JAP_moderate_socialist_ADJ:0 "Japanese"
+JAP_moderate_socialist_DEF:0 "the Socialist Republic of Japan"
+JAP_social_democrat:0 "Empire of Japan"
+JAP_social_democrat_ADJ:0 "Japanese"
+JAP_social_democrat_DEF:0 "the Empire of Japan"
+JAP_social_liberal:0 "Empire of Japan"
+JAP_social_liberal_ADJ:0 "Japanese"
+JAP_social_liberal_DEF:0 "Empire of Japan"
+JAP_market_liberal:0 "Empire of Japan"
+JAP_market_liberal_ADJ:0 "Japanese"
+JAP_market_liberal_DEF:0 "the Empire of Japan"
+JAP_conservative:0 "Empire of Japan"
+JAP_conservative_ADJ:0 "Japanese"
+JAP_conservative_DEF:0 "Empire of Japan"
+JAP_authoritarian_democrat:0 "Empire of Japan"
+JAP_authoritarian_democrat_ADJ:0 "Japanese"
+JAP_authoritarian_democrat_DEF:0 "the Empire of Japan"
+JAP_autocratic:0 "Empire of Japan"
+JAP_autocratic_ADJ:0 "Japanese"
+JAP_autocratic_DEF:0 "the Empire of Japan"
+JAP_voynist:0 "Empire of Japan"
+JAP_voynist_ADJ:0 "Japanese"
+JAP_voynist_DEF:0 "the Empire of Japan"
+
+### Focuses ###
+JAP_insurgency_negotiatingwithterrorists:0 "Negotiating With Terrorists"
+JAP_insurgency_negotiatingwithterrorists_desc:0 ""
+JAP_insurgency_arresttheleaders:0 "Arrest the Leaders"
+JAP_insurgency_arresttheleaders_desc:0 ""
+JAP_insurgency_appealtotheyakuza:0 "Appeal to the Yakuza"
+JAP_insurgency_appealtotheyakuza_desc:0 ""
+JAP_insurgency_armtheblackguard:0 "Arm the Black Guard"
+JAP_insurgency_armtheblackguard_desc:0 ""
+JAP_insurgency_infiltratetheblackarmy:0 "Infiltrate the Black Army"
+JAP_insurgency_infiltratetheblackarmy_desc:0 ""
+JAP_insurgency_expandthekenpeitai:0 "Expand the Kenpeitai"
+JAP_insurgency_expandthekenpeitai_desc:0 ""
+JAP_insurgency_traincounterguerillas:0 "Train Counter-Guerillas"
+JAP_insurgency_traincounterguerillas_desc:0 ""
+JAP_insurgency_warinthecountryside:0 "War In The Countryside"
+JAP_insurgency_warinthecountryside_desc:0 ""
+JAP_insurgency_operationasama:0 "Operation Asama"
+JAP_insurgency_operationasama_desc:0 ""
+JAP_insurgency_appealtothepeople:0 "Appeal to the People"
+JAP_insurgency_appealtothepeople_desc:0 ""
+JAP_insurgency_inviteleftistsintothediet:0 "Invite Leftists Into the Diet"
+JAP_insurgency_inviteleftistsintothediet_desc:0 ""
+JAP_insurgency_thereformistalternative:0 "The Reformist Alternative"
+JAP_insurgency_thereformistalternative_desc:0 ""
+JAP_insurgency_promotestateunions:0 "Promote State Unions"
+JAP_insurgency_promotestateunions_desc:0 ""
+JAP_insurgency_helpfromtheokhranka:0 "Help From the Okhranka"
+JAP_insurgency_helpfromtheokhranka_desc:0 ""
+JAP_insurgency_appealtothefarmers:0 "Appeal to the Farmers"
+JAP_insurgency_appealtothefarmers_desc:0 ""
+JAP_insurgency_battlesinthemountains:0 "Battles in the Mountains"
+JAP_insurgency_battlesinthemountains_desc:0 ""
+JAP_insurgency_thecrisisresolved:0 "The Crisis Resolved"
+JAP_insurgency_thecrisisresolved_desc:0 ""
+
+JAP_socialist_stickwithnosaka:0 "Stick With Nosaka"
+JAP_socialist_stickwithnosaka_desc:0 ""
+JAP_socialist_thekakumeibukkyoto:0 "The Kakumei Bukkyoto"
+JAP_socialist_thekakumeibukkyoto_desc:0 ""
+JAP_socialist_theredsunrises:0 "The Red Sun Rises"
+JAP_socialist_theredsunrises_desc:0 ""
+JAP_socialist_thepeoplesconstitution:0 "The People's Constitution"
+JAP_socialist_thepeoplesconstitution_desc:0 ""
+JAP_socialist_legacyofkotoku:0 "Legacy of Kotoku"
+JAP_socialist_legacyofkotoku_desc:0 ""
+JAP_socialist_victoryforthezenrokyo:0 "Victory For the Zenrokyo"
+JAP_socialist_victoryforthezenrokyo_desc:0 ""
+
+PHI_JAP_thebangsamoro:0 "The Bangsamoro"
+PHI_JAP_thebangsamoro_desc:0 ""
+PHI_JAP_thehukbalahap:0 "The Hukbalahap"
+PHI_JAP_thehukbalahap_desc:0 ""
+PHI_JAP_itstimetoleave:0 "It's Time to Leave"
+PHI_JAP_itstimetoleave_desc:0 ""
+PHI_JAP_wejustgothere:0 "We Just Got Here"
+PHI_JAP_wejustgothere_desc:0 ""
+PHI_JAP_ashacklednation:0 "A Shackled Nation"
+PHI_JAP_ashacklednation_desc:0 ""
+PHI_JAP_empowerthekalibapi:0 "Empower the KALIBAPI"
+PHI_JAP_empowerthekalibapi_desc:0 ""
+PHI_JAP_therebelproblem:0 "The Rebel Problem"
+PHI_JAP_therebelproblem_desc:0 ""
+PHI_JAP_dividethenation:0 "Divide the Nation"
+PHI_JAP_dividethenation_desc:0 ""
+PHI_JAP_themoroorganiclaw:0 "The Moro Organic Law"
+PHI_JAP_themoroorganiclaw_desc:0 ""
+PHI_JAP_thenacionalistas:0 "The Nacionalistas"
+PHI_JAP_thenacionalistas_desc:0 ""
+PHI_JAP_nativizethemilitary:0 "Nativize the Military"
+PHI_JAP_nativizethemilitary_desc:0 ""
+
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_HIROHITO_DESC:0 "§YHis Imperial Majesty the Emperor§!\n\nbro"
+
+### Tech? ###

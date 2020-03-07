@@ -1,0 +1,20 @@
+
+state={
+	id=1228
+	name="STATE_1228"
+	provinces={
+		1060 4060 10120 11951 13769 13770 13775 13779 13785 14247 14249
+	}
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=21473
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

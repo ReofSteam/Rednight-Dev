@@ -1,0 +1,26 @@
+
+state={
+	id=1141
+	name="STATE_1141"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			11921 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		11921 14214 14219 14228 14231 
+	}
+	manpower=577300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

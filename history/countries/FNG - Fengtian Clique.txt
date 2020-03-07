@@ -1,0 +1,73 @@
+﻿capital = 592
+
+set_stability = 0.2
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	#mass_assault = 1
+	#fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+add_ideas = {
+	FNG_Legacy_of_the_Xinhai_Revolution
+	FNG_Japanese_Sponsorship
+	FNG_The_Northern_Army
+	FNG_Large_Outdated_Industry
+	FNG_Insitutionalized_Corruption
+}
+
+JAP = { 
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+
+		set_autonomy = {
+			target = FNG
+			autonomy_state = kn_satellite
+		}
+		else = {
+			puppet = FNG 
+		}
+	}
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 0
+    marxist = 0
+    libertarian = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    conservative = 0
+    authoritarian_democrat = 100
+    autocratic = 0
+    fundamentalist = 0
+    voynist = 0
+}
+set_convoys = 40
+
+
+create_country_leader = {
+	name = "Zhang Xueliang"
+	desc = "POLITICS_FNG_ZHANG_XUELIANG_DESC"
+	picture = "gfx/leaders/ASIA/FNG/FNG_Zhang_Xueliang.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		young_marshal
+	}
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=122
+	name="STATE_122"
+	resources={
+		steel=16.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = GBR
+		add_core_of = GBR
+		victory_points = {
+			377 5 
+		}
+		victory_points = {
+			407 3 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			377 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		253 377 407 3274 11361 
+	}
+	manpower=2104500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

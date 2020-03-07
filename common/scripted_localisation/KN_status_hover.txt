@@ -1,0 +1,792 @@
+defined_text = {
+	name = POS_HOVER_STATUS1
+	text = {
+		trigger = {
+			has_country_flag = position_1_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_1_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS2
+	text = {
+		trigger = {
+			has_country_flag = position_2_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_2_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS3
+	text = {
+		trigger = {
+			has_country_flag = position_3_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_3_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS4
+	text = {
+		trigger = {
+			has_country_flag = position_4_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_4_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS5
+	text = {
+		trigger = {
+			has_country_flag = position_5_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_5_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS6
+	text = {
+		trigger = {
+			has_country_flag = position_6_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_6_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS7
+	text = {
+		trigger = {
+			has_country_flag = position_7_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_7_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS8
+	text = {
+		trigger = {
+			has_country_flag = position_8_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_8_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS9
+	text = {
+		trigger = {
+			has_country_flag = position_9_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_9_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS10
+	text = {
+		trigger = {
+			has_country_flag = position_10_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_10_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}
+defined_text = {
+	name = POS_HOVER_STATUS11
+	text = {
+		trigger = {
+			has_country_flag = position_11_social_nationalist
+		}
+		localization_key = "hover_socnat_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_marxist
+		}
+		localization_key = "hover_marxist_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_libertarian
+		}
+		localization_key = "hover_lib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_moderate_socialist
+		}
+		localization_key = "hover_modsoc_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_social_democrat
+		}
+		localization_key = "hover_socdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_social_liberal
+		}
+		localization_key = "hover_soclib_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_conservative
+		}
+		localization_key = "hover_con_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_authoritarian_democrat
+		}
+		localization_key = "hover_authdem_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_autocratic
+		}
+		localization_key = "hover_autocratic_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_fundamentalist
+		}
+		localization_key = "hover_fundie_status"
+	}
+	text = {
+		trigger = {
+			has_country_flag = position_11_voynist
+		}
+		localization_key = "hover_voynist_status"
+	}
+	text = {
+		localization_key = "oof_status"
+	}
+}

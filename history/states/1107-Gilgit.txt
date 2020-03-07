@@ -1,0 +1,22 @@
+
+state={
+	id=1107
+	name="STATE_1107"
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2041 10821 15111 15353 15359 
+	}
+	manpower=1010000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

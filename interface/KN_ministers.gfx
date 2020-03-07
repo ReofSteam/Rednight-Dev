@@ -1,0 +1,576 @@
+spriteTypes = {
+
+  ################################################################################################################################################################################################
+  ### BGA
+  ################################################################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_idea_BGA_Benedicto_Kiwanuka"
+		texturefile = "gfx/ministers/BGA/BGA_Benedicto_Kiwanuka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_BGA_Milton_Obote"
+		texturefile = "gfx/ministers/BGA/BGA_Milton_Obote.tga"
+	}
+  ################################################################################################################################################################################################
+  ### FRA
+  ################################################################################################################################################################################################
+  spriteType = {
+		name = "GFX_idea_FRA_Louis_Sellier"
+		texturefile = "gfx/ministers/FRA/FRA_Louis_Sellier.tga"
+	}
+  spriteType = {
+		name = "GFX_idea_FRA_Jacques_Duclos"
+		texturefile = "gfx/ministers/FRA/FRA_Jacques_Duclos.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Edouard_Herriot"
+		texturefile = "gfx/ministers/FRA/FRA_Edouard_Herriot.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Auguste_Lecoeur"
+		texturefile = "gfx/ministers/FRA/FRA_Auguste_Lecoeur.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Ambroise_Croizat"
+		texturefile = "gfx/ministers/FRA/FRA_Ambroise_Croizat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Christiane_Faure"
+		texturefile = "gfx/ministers/FRA/FRA_Christiane_Faure.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Jean_Renoir"
+		texturefile = "gfx/ministers/FRA/FRA_Jean_Renoir.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Pierre_Semard"
+		texturefile = "gfx/ministers/FRA/FRA_Pierre_Semard.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Andre_Philip"
+		texturefile = "gfx/ministers/FRA/FRA_Andre_Philip.tga"
+	}
+  
+  ################################################################################################################################################################################################
+  ### GBR
+  ################################################################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_idea_GBR_Clem_Attlee"
+		texturefile = "gfx/ministers/GBR/GBR_Clement_Attlee.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Arthur_Horner"
+		texturefile = "gfx/ministers/GBR/GBR_Arthur_Horner.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Annie_Kenney"
+		texturefile = "gfx/ministers/GBR/GBR_Annie_Kenney.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Nye_Bevan"
+		texturefile = "gfx/ministers/GBR/GBR_Nye_Bevan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Bill_Alexander"
+		texturefile = "gfx/ministers/GBR/GBR_Bill_Alexander.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_GDH_Cole"
+		texturefile = "gfx/ministers/GBR/GBR_GDH_Cole.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Geoffrey_Barnard"
+		texturefile = "gfx/ministers/GBR/GBR_Geoffrey_Barnard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Guy_Lidell"
+		texturefile = "gfx/ministers/GBR/GBR_Guy_Lidell.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Jack_Baldwin"
+		texturefile = "gfx/ministers/GBR/GBR_Jack_Baldwin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Stafford_Cripps"
+		texturefile = "gfx/ministers/GBR/GBR_Stafford_Cripps.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Thomas_Wintringham"
+		texturefile = "gfx/ministers/GBR/GBR_Thomas_Wintringham.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GBR_Willie_Gallacher"
+		texturefile = "gfx/ministers/GBR/GBR_Willie_Gallacher.dds"
+	}
+
+
+  ################################################################################################################################################################################################
+  ### GRE
+  ################################################################################################################################################################################################
+	spriteType = {
+		name = "GFX_idea_GRE_Alexandros_Papagos"
+		texturefile = "gfx/ministers/GRE/GRE_Alexandros_Papagos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Konstantinos_Ventiris"
+		texturefile = "gfx/ministers/GRE/GRE_Konstantinos_Ventiris.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GRE_Filippos"
+		texturefile = "gfx/ministers/GRE/GRE_Filippos.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Ioannis_Theotokis"
+		texturefile = "gfx/ministers/GRE/GRE_Ioannis_Theotokis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Georgios_Grivas"
+		texturefile = "gfx/ministers/GRE/GRE_Georgios_Grivas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Georgios_Grivas_Military"
+		texturefile = "gfx/ministers/GRE/GRE_Georgios_Grivas_Military.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Georgios_Papandreou"
+		texturefile = "gfx/ministers/GRE/GRE_Georgios_Papandreou.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Xenophon_Zolotas"
+		texturefile = "gfx/ministers/GRE/GRE_Xenophon_Zolotas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Vasileios_Vrachnos"
+		texturefile = "gfx/ministers/GRE/GRE_Vasileios_Vrachnos.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Yiorgos_Pachis"
+		texturefile = "gfx/ministers/GRE/GRE_Yiorgos_Pachis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Stefanos_Sarafis"
+		texturefile = "gfx/ministers/GRE/GRE_Stefanos_Sarafis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Spyridon_of_Athens"
+		texturefile = "gfx/ministers/GRE/GRE_Spyridon_of_Athens.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Markos_Drakos"
+		texturefile = "gfx/ministers/GRE/GRE_Markos_Drakos.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Spiros_Pisanos"
+		texturefile = "gfx/ministers/GRE/GRE_Spiros_Pisanos.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Alexandros_Sakellariou"
+		texturefile = "gfx/ministers/GRE/GRE_Alexandros_Sakellariou.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Napoleon_Zervas"
+		texturefile = "gfx/ministers/GRE/GRE_Napoleon_Zervas.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Napoleon_Zervas_Military"
+		texturefile = "gfx/ministers/GRE/GRE_Napoleon_Zervas_Military.tga"
+	}
+
+
+  ################################################################################################################################################################################################
+  ### INC
+  	spriteType = {
+		name = "GFX_idea_INC_Nguyen_Van_Cu"
+		texturefile = "gfx/ministers/INC/INC_Nguyen_Van_Cu.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INC_Ha_Huy_Tap"
+		texturefile = "gfx/ministers/INC/INC_Ha_Huy_Tap.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_INC_Phan_Anh"
+		texturefile = "gfx/ministers/INC/INC_Phan_Anh.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INC_Nguyen_Hai_Than"
+		texturefile = "gfx/ministers/INC/INC_Nguyen_Hai_Than.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_INC_Nguyen_Tuong_Tam"
+		texturefile = "gfx/ministers/INC/INC_Nguyen_Tuong_Tam.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INC_Nguyen_Van_Huyen"
+		texturefile = "gfx/ministers/INC/INC_Nguyen_Van_Huyen.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_INC_Dao_Phuc_Loc"
+		texturefile = "gfx/ministers/INC/INC_Dao_Phuc_Loc.tga"
+	}
+
+  ################################################################################################################################################################################################
+  	#######Indonesia
+	spriteType = {
+		name = "GFX_idea_INS_minister_Abdurrachmansaleh"
+		texturefile = "gfx/ministers/INS/INS_minister_Abdurrachmansaleh.tga"
+	}
+   	spriteType = {
+		name = "GFX_idea_INS_minister_Ali"
+		texturefile = "gfx/ministers/INS/INS_minister_Ali.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Assaat"
+		texturefile = "gfx/ministers/INS/INS_minister_Assaat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Djuanda"
+		texturefile = "gfx/ministers/INS/INS_minister_Djuanda.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_HAMKA"
+		texturefile = "gfx/ministers/INS/INS_minister_HAMKA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Hatta"
+		texturefile = "gfx/ministers/INS/INS_minister_Hatta.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_KHdewantara"
+		texturefile = "gfx/ministers/INS/INS_minister_KHdewantara.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_leimena"
+		texturefile = "gfx/ministers/INS/INS_minister_leimena.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Malaka"
+		texturefile = "gfx/ministers/INS/INS_minister_Malaka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Martadinata"
+		texturefile = "gfx/ministers/INS/INS_minister_Martadinata.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Natsir"
+		texturefile = "gfx/ministers/INS/INS_minister_Natsir.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Roem"
+		texturefile = "gfx/ministers/INS/INS_minister_Roem.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Sjafruddin"
+		texturefile = "gfx/ministers/INS/INS_minister_Sjafruddin.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Soebroto"
+		texturefile = "gfx/ministers/INS/INS_minister_Soebroto.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Soedirman"
+		texturefile = "gfx/ministers/INS/INS_minister_Soedirman.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Wikana"
+		texturefile = "gfx/ministers/INS/INS_minister_Wikana.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Zulkifli_Lubis"
+		texturefile = "gfx/ministers/INS/INS_minister_Zulkifli_Lubis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Bander"
+		texturefile = "gfx/ministers/INS/INS_minister_Bander.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_Minister_Malik_Autocrat"
+		texturefile = "gfx/ministers/INS/INS_Minister_Malik_Autocrat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_nasution"
+		texturefile = "gfx/ministers/INS/INS_minister_nasution.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_notohamiprodjo"
+		texturefile = "gfx/ministers/INS/INS_minister_notohamiprodjo.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_rachmat"
+		texturefile = "gfx/ministers/INS/INS_minister_rachmat.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Sakirman"
+		texturefile = "gfx/ministers/INS/INS_minister_Sakirman.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Sarino"
+		texturefile = "gfx/ministers/INS/INS_minister_Sarino.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_soebiandro"
+		texturefile = "gfx/ministers/INS/INS_minister_soebiandro.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Soeharto"
+		texturefile = "gfx/ministers/INS/INS_minister_Soeharto.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_SSHB"
+		texturefile = "gfx/ministers/INS/INS_minister_SSHB.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_INS_minister_Sutami"
+		texturefile = "gfx/ministers/INS/INS_minister_Sutami.tga"
+	}
+
+  ################################################################################################################################################################################################
+  ### WPL
+  ################################################################################################################################################################################################
+	spriteType = {
+		name = "GFX_idea_WPL_Adam_Doboszynski"
+		texturefile = "gfx/ministers/WPL/WPL_Adam_Doboszynski.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Roman_Rybarski"
+		texturefile = "gfx/ministers/WPL/WPL_Roman_Ribarski.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Jedrzej_Giertych"
+		texturefile = "gfx/ministers/WPL/WPL_Jedrzej_Giertych.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Witold_Staniszkis"
+		texturefile = "gfx/ministers/WPL/WPL_Witold_Staniszkis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Jan_Dobraczynski"
+		texturefile = "gfx/ministers/WPL/WPL_Jan_Dobraczynski.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Jan_Mosdorf"
+		texturefile = "gfx/ministers/WPL/WPL_Jan_Mosdorf.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Stanislaw_Rymar"
+		texturefile = "gfx/ministers/WPL/WPL_Stanislaw_Rymar.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Stanislaw_Stronski"
+		texturefile = "gfx/ministers/WPL/WPL_Stanislaw_Stronski.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Wladslaw_Anders"
+		texturefile = "gfx/ministers/WPL/WPL_Wladslaw_Anders.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Fransciszek_Kleeberg"
+		texturefile = "gfx/ministers/WPL/WPL_Fransciszek_Kleeberg.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Jan_Zumbach"
+		texturefile = "gfx/ministers/WPL/WPL_Jan_Zumbach.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_WPL_Jozef_Unrug"
+		texturefile = "gfx/ministers/WPL/WPL_Jozef_Unrug.tga"
+	}
+
+	################################################################################################################################################################################################
+	### AST
+	################################################################################################################################################################################################
+	spriteType = {
+		name = "GFX_idea_AST_Arthur_Calwell"
+		texturefile = "gfx/ministers/AST/AST_Arthur_Calwell.tga"
+	}
+  
+	################################################################################################################################################################################################
+	### NZL
+	################################################################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_idea_NZL_Charles_Madden_navy"
+		texturefile = "gfx/ministers/NZL/NZL_Charles_Madden_navy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Clifton_Webb_for"
+		texturefile = "gfx/ministers/NZL/NZL_Clifton_Webb_for.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_David_Carnegie_air"
+		texturefile = "gfx/ministers/NZL/NZL_David_Carnegie_air.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_David_Maxwell_Fyfe_intel"
+		texturefile = "gfx/ministers/NZL/NZL_David_Maxwell_Fyfe_intel.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Jack_Watts_eco"
+		texturefile = "gfx/ministers/NZL/NZL_Jack_Watts_eco.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Keith_Lindsay_Stewart_coa"
+		texturefile = "gfx/ministers/NZL/NZL_Keith_Lindsay_Stewart_coa.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Peter_Phipps_cos"
+		texturefile = "gfx/ministers/NZL/NZL_Peter_Phipps_cos.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Ronald_Algie_edu"
+		texturefile = "gfx/ministers/NZL/NZL_Ronald_Algie_edu.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_Sidney_Holland_hog"
+		texturefile = "gfx/ministers/NZL/NZL_Sidney_Holland_hog.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_William_Bodkin_interior"
+		texturefile = "gfx/ministers/NZL/NZL_William_Bodkin_interior.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_NZL_William_Goosman_tra"
+		texturefile = "gfx/ministers/NZL/NZL_William_Goosman_tra.tga"
+	}
+
+  ################################################################################################################################################################################################
+  ### CIS
+  ################################################################################################################################################################################################
+
+  	spriteType = {
+		name = "GFX_idea_CIS_Alfred_Klahr"
+		texturefile = "gfx/ministers/CIS/CIS_Alfred_Klahr.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Edith_Suschitzky"
+		texturefile = "gfx/ministers/CIS/CIS_Edith_Suschitzky.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Ernst_Fischer"
+		texturefile = "gfx/ministers/CIS/CIS_Ernst_Fischer.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Gerhart_Eisler"
+		texturefile = "gfx/ministers/CIS/CIS_Gerhart_Eisler.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Rudolf_Hilferding"
+		texturefile = "gfx/ministers/CIS/CIS_Rudolf_Hilferding.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Rudolf_Slansky"
+		texturefile = "gfx/ministers/CIS/CIS_Rudolf_Slansky.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Ruth_Mayenburg"
+		texturefile = "gfx/ministers/CIS/CIS_Ruth_Mayenburg.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Theodor_Korner"
+		texturefile = "gfx/ministers/CIS/CIS_Theodor_Korner.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CIS_Alexander_Eifler"
+		texturefile = "gfx/ministers/CIS/CIS_Alfred_Klahr.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CIS_Karl_Kreibich"
+		texturefile = "gfx/ministers/CIS/CIS_Karl_Kreibich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CIS_Jaroslav_Prochazka"
+		texturefile = "gfx/ministers/CIS/CIS_Jaroslav_Prochazka.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CIS_Gustav_Hauck"
+		texturefile = "gfx/ministers/CIS/CIS_Gustav_Hauck.tga"
+	}
+
+	################################################################################################################################################################################################
+	### DEN
+	################################################################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_idea_DEN_AH_Vedel"
+		texturefile = "gfx/ministers/DEN/DEN_AH_Vedel.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Alsing_Andersen"
+		texturefile = "gfx/ministers/DEN/DEN_Alsing_Andersen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Carl_Petersen"
+		texturefile = "gfx/ministers/DEN/DEN_Carl_Petersen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Ebbe_Gortz"
+		texturefile = "gfx/ministers/DEN/DEN_Ebbe_Gortz.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Erhard_Qvistgaard"
+		texturefile = "gfx/ministers/DEN/DEN_Erhard_Qvistgaard.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Frede_Nielsen"
+		texturefile = "gfx/ministers/DEN/DEN_Frede_Nielsen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Gustav_Rasmussen"
+		texturefile = "gfx/ministers/DEN/DEN_Gustav_Rasmussen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Hartvig_Frisch"
+		texturefile = "gfx/ministers/DEN/DEN_Hartvig_Frisch.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_HC_Hansen"
+		texturefile = "gfx/ministers/DEN/DEN_HC_Hansen.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Vilhelm_Buhl"
+		texturefile = "gfx/ministers/DEN/DEN_Vilhelm_Buhl.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Hans_Hedtoft"
+		texturefile = "gfx/ministers/DEN/DEN_Hans_Hedtoft.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_DEN_Kurt_Ramberg"
+		texturefile = "gfx/ministers/DEN/DEN_Kurt_Ramberg.tga"
+	}
+
+	
+
+
+}

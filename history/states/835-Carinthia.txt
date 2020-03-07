@@ -1,0 +1,30 @@
+
+state={
+	id=835
+	name="STATE_835"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = CIS
+		add_core_of = CIS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6673 3 
+		}
+
+	}
+
+	provinces={
+		668 671 3673 6673 11612 13210 15182 
+	}
+	manpower=405100
+	buildings_max_level_factor=1.000
+	state_category=city
+}

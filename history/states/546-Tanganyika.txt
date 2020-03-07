@@ -1,0 +1,26 @@
+
+state={
+	id=546
+	name="STATE_546"
+
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		victory_points = {
+			12911 1 
+		}
+
+	}
+
+	provinces={
+		2176 2281 13798 13803 13804 13809 13812
+	}
+	manpower=120200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

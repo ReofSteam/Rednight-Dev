@@ -1,0 +1,32 @@
+state={
+	id=1020
+	name="STATE_1020"
+	provinces={
+		10297 
+	}
+	resources={
+		rubber=34.000
+		steel=60.000
+		tungsten=138.000
+	}
+	history={
+		owner = MLY
+		add_core_of = MLY
+		victory_points = {
+			10297 3 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+			10297 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+	manpower=551200
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,825 @@
+focus_tree = { 
+id = kn_ethiopia
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = ETH
+} 
+} 
+#Focus for Support our Veterans
+focus = { 
+id = Ethiopia_supportourveterans
+icon = GFX_goal_unknown
+x = 4
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_literacyprograms } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform the Schools
+focus = { 
+id = Ethiopia_reformtheschools
+icon = GFX_goal_unknown
+x = 1
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_justafewbadapples } 
+prerequisite = { focus = Ethiopia_arrestallthekleptocrats } 
+prerequisite = { focus = Ethiopia_demandourcut } 
+prerequisite = { focus = Ethiopia_investigateembezzlement } 
+prerequisite = { focus = Ethiopia_supportourveterans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Literacy Programs
+focus = { 
+id = Ethiopia_literacyprograms
+icon = GFX_goal_unknown
+x = 4
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_publicoutreach } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform the Courts
+focus = { 
+id = Ethiopia_reformthecourts
+icon = GFX_goal_unknown
+x = 7
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_justafewbadapples } 
+prerequisite = { focus = Ethiopia_arrestallthekleptocrats } 
+prerequisite = { focus = Ethiopia_demandourcut } 
+prerequisite = { focus = Ethiopia_investigateembezzlement } 
+prerequisite = { focus = Ethiopia_supportourveterans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for No Tolerance for Dissidents
+focus = { 
+id = Ethiopia_notolerancefordissidents
+icon = GFX_goal_unknown
+x = 37
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_restrictionsonfreedom } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Restrictions on Freedom
+focus = { 
+id = Ethiopia_restrictionsonfreedom
+icon = GFX_goal_unknown
+x = 37
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_centralizethestate } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Centralize the State
+focus = { 
+id = Ethiopia_centralizethestate
+icon = GFX_goal_unknown
+x = 36
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_integratethearbegnoch } 
+prerequisite = { focus = Ethiopia_assembletheshengo } 
+prerequisite = { focus = Ethiopia_newfederaldivisions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Leftist Question
+focus = { 
+id = Ethiopia_theleftistquestion
+icon = GFX_goal_unknown
+x = 29
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_therastaquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Rasta Question
+focus = { 
+id = Ethiopia_therastaquestion
+icon = GFX_goal_unknown
+x = 29
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_theminorityquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Minority Question
+focus = { 
+id = Ethiopia_theminorityquestion
+icon = GFX_goal_unknown
+x = 29
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_integratethearbegnoch } 
+prerequisite = { focus = Ethiopia_assembletheshengo } 
+prerequisite = { focus = Ethiopia_newfederaldivisions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reform the Parliament
+focus = { 
+id = Ethiopia_reformtheparliament
+icon = GFX_goal_unknown
+x = 4
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_justafewbadapples } 
+prerequisite = { focus = Ethiopia_arrestallthekleptocrats } 
+prerequisite = { focus = Ethiopia_demandourcut } 
+prerequisite = { focus = Ethiopia_investigateembezzlement } 
+prerequisite = { focus = Ethiopia_supportourveterans } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An End to Stagnation?
+focus = { 
+id = Ethiopia_anendtostagnation
+icon = GFX_goal_unknown
+x = 4
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_reformtheschools } 
+prerequisite = { focus = Ethiopia_reformthecourts } 
+prerequisite = { focus = Ethiopia_reformtheparliament } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Gradual Tax Increases
+focus = { 
+id = Ethiopia_gradualtaxincreases
+icon = GFX_goal_unknown
+x = 2
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_addressthebudget } 
+mutually_exclusive = { focus = Ethiopia_emergencytaxes } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Public Outreach
+focus = { 
+id = Ethiopia_publicoutreach
+icon = GFX_goal_unknown
+x = 4
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Investigate Embezzlement
+focus = { 
+id = Ethiopia_investigateembezzlement
+icon = GFX_goal_unknown
+x = 0
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_gradualtaxincreases focus = Ethiopia_emergencytaxes } 
+mutually_exclusive = { focus = Ethiopia_demandourcut } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Demand Our Cut
+focus = { 
+id = Ethiopia_demandourcut
+icon = GFX_goal_unknown
+x = 2
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_gradualtaxincreases focus = Ethiopia_emergencytaxes } 
+mutually_exclusive = { focus = Ethiopia_investigateembezzlement } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Disarm the Traitors
+focus = { 
+id = Ethiopia_disarmthetraitors
+icon = GFX_goal_unknown
+x = 8
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_expandtheimperialguard } 
+mutually_exclusive = { focus = Ethiopia_weneedthearbegnoch } 
+mutually_exclusive = { focus = Ethiopia_weneedthearbegnoch } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arrest All the Kleptocrats
+focus = { 
+id = Ethiopia_arrestallthekleptocrats
+icon = GFX_goal_unknown
+x = 6
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_disarmthetraitors focus = Ethiopia_weneedthearbegnoch } 
+mutually_exclusive = { focus = Ethiopia_justafewbadapples } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Just a Few Bad Apples
+focus = { 
+id = Ethiopia_justafewbadapples
+icon = GFX_goal_unknown
+x = 8
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_disarmthetraitors focus = Ethiopia_weneedthearbegnoch } 
+mutually_exclusive = { focus = Ethiopia_arrestallthekleptocrats } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Imperial Guard
+focus = { 
+id = Ethiopia_expandtheimperialguard
+icon = GFX_goal_unknown
+x = 7
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Emergency Taxes
+focus = { 
+id = Ethiopia_emergencytaxes
+icon = GFX_goal_unknown
+x = 0
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_addressthebudget } 
+mutually_exclusive = { focus = Ethiopia_gradualtaxincreases } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Address the Budget
+focus = { 
+id = Ethiopia_addressthebudget
+icon = GFX_goal_unknown
+x = 1
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Economic Regulations
+focus = { 
+id = Ethiopia_economicregulations
+icon = GFX_goal_unknown
+x = 35
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_proportionaltaxes } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Provisional Derg
+focus = { 
+id = Ethiopia_theprovisionalderg
+icon = GFX_goal_unknown
+x = 33
+y = 10
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_lawsagainstcorruption } 
+prerequisite = { focus = Ethiopia_beyondsubsistence } 
+prerequisite = { focus = Ethiopia_economicregulations } 
+prerequisite = { focus = Ethiopia_theleftistquestion } 
+prerequisite = { focus = Ethiopia_notolerancefordissidents } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Integrate the Arbegnoch
+focus = { 
+id = Ethiopia_integratethearbegnoch
+icon = GFX_goal_unknown
+x = 31
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Assemble the Shengo
+focus = { 
+id = Ethiopia_assembletheshengo
+icon = GFX_goal_unknown
+x = 33
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Age of Reform
+focus = { 
+id = Ethiopia_anageofreform
+icon = GFX_goal_generic_improve_relations
+x = 4
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_canwelastanotheryear } 
+mutually_exclusive = { focus = Ethiopia_anageofrevolution } 
+mutually_exclusive = { focus = Ethiopia_anageofrevolution } 
+mutually_exclusive = { focus = Ethiopia_anageofrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Age of Revolution
+focus = { 
+id = Ethiopia_anageofrevolution
+icon = GFX_goal_generic_war_with_comintern
+x = 33
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_canwelastanotheryear } 
+mutually_exclusive = { focus = Ethiopia_anageofreform } 
+mutually_exclusive = { focus = Ethiopia_anageofreform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Abolish Noble Titles
+focus = { 
+id = Ethiopia_abolishnobletitles
+icon = GFX_goal_unknown
+x = 32
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_integratethearbegnoch } 
+prerequisite = { focus = Ethiopia_assembletheshengo } 
+prerequisite = { focus = Ethiopia_newfederaldivisions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Redistribute Land
+focus = { 
+id = Ethiopia_redistributeland
+icon = GFX_goal_unknown
+x = 33
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_abolishnobletitles focus = Ethiopia_thereturnofwelfare } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Return of Welfare
+focus = { 
+id = Ethiopia_thereturnofwelfare
+icon = GFX_goal_unknown
+x = 34
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_integratethearbegnoch } 
+prerequisite = { focus = Ethiopia_assembletheshengo } 
+prerequisite = { focus = Ethiopia_newfederaldivisions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Purge the Old Guard
+focus = { 
+id = Ethiopia_purgetheoldguard
+icon = GFX_goal_unknown
+x = 31
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_abolishnobletitles } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Laws Against Corruption
+focus = { 
+id = Ethiopia_lawsagainstcorruption
+icon = GFX_goal_unknown
+x = 31
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_purgetheoldguard } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Proportional Taxes
+focus = { 
+id = Ethiopia_proportionaltaxes
+icon = GFX_goal_unknown
+x = 35
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_thereturnofwelfare } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Beyond Subsistence
+focus = { 
+id = Ethiopia_beyondsubsistence
+icon = GFX_goal_unknown
+x = 33
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_redistributeland } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Can We Last Another Year?
+focus = { 
+id = Ethiopia_canwelastanotheryear
+icon = GFX_goal_generic_national_unity
+x = 19
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_dominationofpolitics focus = Ethiopia_profitsofkleptocracy } 
+prerequisite = { focus = Ethiopia_createanationalpolice } 
+prerequisite = { focus = Ethiopia_relyonfeudalmilitias } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Create a National Police
+focus = { 
+id = Ethiopia_createanationalpolice
+icon = GFX_createanationalpolice
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_politicalassassinations } 
+mutually_exclusive = { focus = Ethiopia_relyonfeudalmilitias } 
+mutually_exclusive = { focus = Ethiopia_relyonfeudalmilitias } 
+mutually_exclusive = { focus = Ethiopia_relyonfeudalmilitias } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rely on Feudal Militias
+focus = { 
+id = Ethiopia_relyonfeudalmilitias
+icon = GFX_relyonfeudalmilitias
+x = 20
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_politicalassassinations } 
+mutually_exclusive = { focus = Ethiopia_createanationalpolice } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Domination of Politics
+focus = { 
+id = Ethiopia_dominationofpolitics
+icon = GFX_focus_rom_royal_dictatorship
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_supresstheseparatists } 
+prerequisite = { focus = Ethiopia_supressthesocialists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Profits of Kleptocracy
+focus = { 
+id = Ethiopia_profitsofkleptocracy
+icon = GFX_profitsofkleptocracy
+x = 22
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_libertiesforthemesafint } 
+prerequisite = { focus = Ethiopia_powertothechurch } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Political Assassinations
+focus = { 
+id = Ethiopia_politicalassassinations
+icon = GFX_focus_generic_air_defense
+x = 19
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_alliancewiththearbegnoch } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Alliance with the Arbegnoch
+focus = { 
+id = Ethiopia_alliancewiththearbegnoch
+icon = GFX_alliancewiththearbegnoch
+x = 19
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_businessasusual } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Power to the Church
+focus = { 
+id = Ethiopia_powertothechurch
+icon = GFX_powertothechurch
+x = 23
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_strengthenourgrasp } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Liberties for the Mesafint
+focus = { 
+id = Ethiopia_libertiesforthemesafint
+icon = GFX_libertiesforthemesafint
+x = 21
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_strengthenourgrasp } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Supress the Socialists
+focus = { 
+id = Ethiopia_supressthesocialists
+icon = GFX_supressthesocialists
+x = 17
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_controlthefamine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Supress the Separatists
+focus = { 
+id = Ethiopia_supresstheseparatists
+icon = GFX_goal_support_fascism
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_controlthefamine } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Business As Usual
+focus = { 
+id = Ethiopia_businessasusual
+icon = GFX_goal_generic_intelligence_exchange
+x = 19
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Control the Famine
+focus = { 
+id = Ethiopia_controlthefamine
+icon = GFX_goal_generic_secret_weapon
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_businessasusual } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strengthen Our Grasp
+focus = { 
+id = Ethiopia_strengthenourgrasp
+icon = GFX_strengthenourgrasp
+x = 22
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_businessasusual } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for New Federal Divisions
+focus = { 
+id = Ethiopia_newfederaldivisions
+icon = GFX_goal_unknown
+x = 35
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_anageofrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for We Need the Arbegnoch
+focus = { 
+id = Ethiopia_weneedthearbegnoch
+icon = GFX_goal_unknown
+x = 6
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Ethiopia_expandtheimperialguard } 
+mutually_exclusive = { focus = Ethiopia_disarmthetraitors } 
+mutually_exclusive = { focus = Ethiopia_disarmthetraitors } 
+mutually_exclusive = { focus = Ethiopia_disarmthetraitors } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

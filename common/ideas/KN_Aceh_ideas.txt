@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		ACH_prosperous = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ACH_prosperous"}
+			picture = ACH_prosperity
+			modifier = {
+				political_power_gain = +0.1
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.15
+				local_building_slots_factor = 0.1
+				min_export = 0.4
+			}
+		}
+		ACH_islamic_welfare = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ACH_islamic_welfare"}
+			picture = ACH_islamic_welfare
+			modifier = {
+				political_power_gain = -0.05
+				stability_factor = 0.1
+				social_nationalist_drift = -0.05
+			}
+		}
+		ACH_teuku_tengku = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ACH_teuku_tengku"}
+			picture = ACH_teuku_tengku
+			modifier = {
+				stability_factor = -0.1
+				authoritarian_democrat_drift = 0.05
+				fundamentalist_drift = 0.05
+			}
+		}
+	}
+}

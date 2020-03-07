@@ -1,0 +1,122 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+FNG_social_nationalist_party:0 "-"
+FNG_social_nationalist_party_long:0 "-"
+FNG_marxist_party:0 "-"
+FNG_marxist_party_long:0 "-"
+FNG_libertarian_party:0 "-"
+FNG_libertarian_party_long:0 "-"
+FNG_moderate_socialist_party:0 "-"
+FNG_moderate_socialist_party_long:0 "-"
+FNG_social_democrat_party:0 "-"
+FNG_social_democrat_party_long:0 "-"
+FNG_social_liberal_party:0 "XHH – Concordia Association"
+FNG_social_liberal_party_long:0 "Xiehehui"
+FNG_conservative_party:0 "-"
+FNG_conservative_party_long:0 "-"
+FNG_authoritarian_democrat_party:0 "Recovery League"
+FNG_authoritarian_democrat_party_long:0 "Guangfuxi"
+FNG_autocratic_party:0 "-"
+FNG_autocratic_party_long:0 "-"
+FNG_fundamentalist_party:0 "Imperial Han Society"
+FNG_fundamentalist_party_long:0 "Imperial Han Society"
+FNG_voynist_party:0 "Zhili Remnants"
+FNG_voynist_party_long:0 "Zhili Remnants"
+
+### Country Name ###
+
+FNG_social_nationalist:0 "Fengtien Government"
+FNG_social_nationalist_ADJ:0 "Fengtien"
+FNG_social_nationalist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_marxist:0 "Fengtien Government"
+FNG_marxist_ADJ:0 "Fengtien"
+FNG_marxist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_moderate_socialist:0 "Fengtien Government"
+FNG_moderate_socialist_ADJ:0 "Fengtien"
+FNG_moderate_socialist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_social_democrat:0 "Fengtien Government"
+FNG_social_democrat_ADJ:0 "Fengtien"
+FNG_social_democrat_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_social_liberal:0 "Fengtien Government"
+FNG_social_liberal_ADJ:0 "Fengtien"
+FNG_social_liberal_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_market_liberal:0 "Fengtien Government"
+FNG_market_liberal_ADJ:0 "Fengtien"
+FNG_market_liberal_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_conservative:0 "Fengtien Government"
+FNG_conservative_ADJ:0 "Fengtien"
+FNG_conservative_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_authoritarian_democrat:0 "Fengtien Government"
+FNG_authoritarian_democrat_ADJ:0 "Fengtien"
+FNG_authoritarian_democrat_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_autocratic:0 "Fengtien Government"
+FNG_autocratic_ADJ:0 "Russian occupational"
+FNG_autocratic_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_voynist:0 "Fengtien Government"
+FNG_voynist_ADJ:0 "Fengtien"
+FNG_voynist_DEF:0 "the Fengtien Government of the Republic of China"
+
+FNG_rep_social_nationalist:0 "Republic of China"
+FNG_rep_social_nationalist_ADJ:0 "Fengtien"
+FNG_rep_social_nationalist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_marxist:0 "Republic of China"
+FNG_rep_marxist_ADJ:0 "Fengtien"
+FNG_rep_marxist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_moderate_socialist:0 "Republic of China"
+FNG_rep_moderate_socialist_ADJ:0 "Fengtien"
+FNG_rep_moderate_socialist_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_social_democrat:0 "Republic of China"
+FNG_rep_social_democrat_ADJ:0 "Fengtien"
+FNG_rep_social_democrat_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_social_liberal:0 "Republic of China"
+FNG_rep_social_liberal_ADJ:0 "Fengtien"
+FNG_rep_social_liberal_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_market_liberal:0 "Republic of China"
+FNG_rep_market_liberal_ADJ:0 "Fengtien"
+FNG_rep_market_liberal_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_conservative:0 "Republic of China"
+FNG_rep_conservative_ADJ:0 "Fengtien"
+FNG_rep_conservative_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_authoritarian_democrat:0 "Republic of China"
+FNG_rep_authoritarian_democrat_ADJ:0 "Fengtien"
+FNG_rep_authoritarian_democrat_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_autocratic:0 "Republic of China"
+FNG_rep_autocratic_ADJ:0 "Russian occupational"
+FNG_rep_autocratic_DEF:0 "the Fengtien Government of the Republic of China"
+FNG_rep_voynist:0 "Republic of China"
+FNG_rep_voynist_ADJ:0 "Fengtien"
+FNG_rep_voynist_DEF:0 "the Fengtien Government of the Republic of China"
+
+### Focuses ###
+ 
+### Ideas ###
+
+FNG_Legacy_of_the_Xinhai_Revolution:0 "Legacy of the Xinhai Revolution"
+FNG_Japanese_Sponsorship:0 "Japanese Sponsorship"
+FNG_The_Northern_Army:0 "The Northern Army"
+FNG_Large_Outdated_Industry:0 "Large Outdated Industry"
+FNG_Insitutionalized_Corruption:0 "Institutionalized Corruption"
+
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+POLITICS_FNG_ZHANG_XUELIANG_DESC:0 "§YPresident of the Republic of China§!\n\nAll hail the Young Marshal! From Dongbei to Hubei, the legacy of the Xinhai Revolution lives on– however, the revolution needs a strong leader to hold the reins. That figure is Zhang Xueliang, President of the Republic of China.\n\nZhang Xueliang spent his whole life in service to his father, Marshal Zhang Zuolin. He graduated from the Fengtien Military Academy, became a colonel in the Fengtien Army, and quickly rose up to one of the highest members of his father’s clique. He fought in all five Zhili-Fengtien Wars. When his father’s army crossed into Zhili Territory for the last time in 1939, he stood as one of their highest commanders and won great victories for his Clique. With the Five-Colored Flag flying over Fengtien, Zhang Zuolin was quickly crowned the President of the Republic of China– and his son would be his Vice President.\n\nWhen Zhang Zuolin died in 1947, the political engines of the Fengtien Clique were quick to declare their loyalty to his son, who won in a landslide election with questionably legitimacy. Now Zhang Xueliang is the most influential man in China, holding both international recognition and the country’s single strongest army. What can possibly stop him?\n\nZhang Xueliang however acts in his father’s shadow. The Young Marshal deals with a crippling addiction to opium only worsened by the death of his father. He often spends massive amounts of time away from Pekin in either Dairen or Tsingtao gambling, smoking, and womanizing. And as his habits get worse, Japanese influence further creep up on him..."
+young_marshal:0 "The Young Marshal"
+
+### Tech? ###

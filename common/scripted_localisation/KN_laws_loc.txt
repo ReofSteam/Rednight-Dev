@@ -1,0 +1,735 @@
+defined_text = {
+	name = KN_LAW_O1
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "LABOUR VOUCHER"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "PLANNED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "STATE TRADE UNION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_penal_system
+		}
+		localization_key = "UNPAID PENAL LABOUR"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "FULL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_capital_punishment
+		}
+		localization_key = "LEGAL"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_womens_rights
+		}
+		localization_key = "EQUAL RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_workers_rights
+		}
+		localization_key = "EXTENSIVE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "EQUAL RIGHTS"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O2
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "SOCIALIST CURRENCY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "MIXED SOCIALIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "TRADE UNIONS IN GOVERNMENT"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_penal_system
+		}
+		localization_key = "PAID PENAL LABOUR"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "PARTIAL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_capital_punishment
+		}
+		localization_key = "ILLEGAL"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_womens_rights
+		}
+		localization_key = "PARTIAL Rights"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_workers_rights
+		}
+		localization_key = "MODERATE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "EXTENSIVE Rights"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O3
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "FIAT CURRENCY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "MARKET SOCIALIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "TRADE UNIONS EMPOWERED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_penal_system
+		}
+		localization_key = "INCARCERATION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "ROTATIONAL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_womens_rights
+		}
+		localization_key = "MALE GUARDIANSHIP"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "LIMITED RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_workers_rights
+		}
+		localization_key = "LIMITED"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O4
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "GOLD STANDARD"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "WELFARE STATE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "TRADE UNIONS ALLOWED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_penal_system
+		}
+		localization_key = "REHABILITATIVE INCARCERATION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "STANDING ARMY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_womens_rights
+		}
+		localization_key = "MINIMAL RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_workers_rights
+		}
+		localization_key = "NEGLIGIBLE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "LIMITED RECOGNITION"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O5
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "Rationing"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "CORPORATIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "TRADE UNIONS WEAKENED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "VOLUNTEER ARMY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "OUTLAWED"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O6
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "Barter"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "SOCIAL MARKET"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "TRADE UNIONS BANNED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "DISARMED NATION"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O7
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "LAISSEZ-FAIRE"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O8
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "DEVELOPMENTALIST"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O9
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "PRE-INDUSTRIAL"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+defined_text = {
+	name = KN_LAW_O10
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "COLONIAL / OCCUPATIONAL"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+### Different Laws ###
+defined_text = {
+	name = KN_ECONOMICS_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_planned
+		}
+		localization_key = "PLANNED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_mixed_socialist
+		}
+		localization_key = "MIXED SOCIALIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_market_socialist
+		}
+		localization_key = "MARKET SOCIALIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_welfare_state
+		}
+		localization_key = "WELFARE STATE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_corporatist
+		}
+		localization_key = "CORPORATIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_social_market
+		}
+		localization_key = "SOCIAL MARKET"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_laissez_faire
+		}
+		localization_key = "LAISSEZ-FAIRE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_developmentalist
+		}
+		localization_key = "DEVELOPMENTALIST"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_pre_industrial
+		}
+		localization_key = "PRE-INDUSTRIAL"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_economy_colonial_occupational
+		}
+		localization_key = "COLONIAL / OCCUPATIONAL"
+	}
+
+	text = {
+		localization_key = "ECONOMY"
+	}
+}
+defined_text = {
+	name = KN_CURRENCY_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_currency_voucher
+		}
+		localization_key = "LABOUR VOUCHER"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_currency_socialist
+		}
+		localization_key = "SOCIALIST CURRENCY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_currency_fiat
+		}
+		localization_key = "FIAT CURRENCY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_currency_gold
+		}
+		localization_key = "GOLD STANDARD"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_currency_rationing
+		}
+		localization_key = "Rationing"
+	}
+	text = {
+		localization_key = "CURRENCY"
+	}
+}
+defined_text = {
+	name = KN_TRADE_UNION_LAWS_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_state
+		}
+		localization_key = "STATE TRADE UNION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_government
+		}
+		localization_key = "TRADE UNIONS IN GOVERNMENT"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_empowered
+		}
+		localization_key = "TRADE UNIONS EMPOWERED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_allowed
+		}
+		localization_key = "TRADE UNIONS ALLOWED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_weakened
+		}
+		localization_key = "TRADE UNIONS WEAKENED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_trade_union_banned
+		}
+		localization_key = "TRADE UNIONS BANNED"
+	}
+	text = {
+		localization_key = "TRADE UNION LAWS"
+	}
+}
+defined_text = {
+	name = KN_PENAL_SYSTEM_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_penal_system_unpaid
+		}
+		localization_key = "UNPAID PENAL LABOUR"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_penal_system_paid
+		}
+		localization_key = "PAID PENAL LABOUR"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_penal_system_incarceration
+		}
+		localization_key = "INCARCERATION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_penal_system_rehabilitative
+		}
+		localization_key = "REHABILITATIVE INCARCERATION"
+	}
+	text = {
+		localization_key = "PENAL SYSTEM"
+	}
+}
+defined_text = {
+	name = KN_MOBILISATION_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_full
+		}
+		localization_key = "FULL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_partial
+		}
+		localization_key = "PARTIAL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_rotational
+		}
+		localization_key = "ROTATIONAL CONSCRIPTION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_standing
+		}
+		localization_key = "STANDING ARMY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_volunteer
+		}
+		localization_key = "VOLUNTEER ARMY"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_mobilisation_disarmed
+		}
+		localization_key = "DISARMED NATION"
+	}
+	text = {
+		localization_key = "MOBILISATION"
+	}
+}
+defined_text = {
+	name = KN_CAPITAL_PUNISHMENT_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_capital_punishment_legal
+		}
+		localization_key = "LEGAL"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_capital_punishment_illegal
+		}
+		localization_key = "ILLEGAL"
+	}
+	text = {
+		localization_key = "CAPITAL PUNISHMENT"
+	}
+}
+defined_text = {
+	name = KN_WOMENS_RIGHTS_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_womens_rights_equal
+		}
+		localization_key = "EQUAL RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_womens_rights_partial
+		}
+		localization_key = "PARTIAL RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_womens_rights_male
+		}
+		localization_key = "MALE GUARDIANSHIP"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_womens_rights_minimal
+		}
+		localization_key = "MINIMAL RIGHTS"
+	}
+	text = {
+		localization_key = "WOMEN'S RIGHTS"
+	}
+}
+defined_text = {
+	name = KN_SEXUALITY_RIGHTS_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_sexuality_rights_equal
+		}
+		localization_key = "EQUAL RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_sexuality_rights_extensive
+		}
+		localization_key = "EXTENSIVE RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_sexuality_rights_limited
+		}
+		localization_key = "LIMITED RIGHTS"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_sexuality_rights_recognition
+		}
+		localization_key = "LIMITED RECOGNITION"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_sexuality_rights_outlawed
+		}
+		localization_key = "OUTLAWED"
+	}
+	text = {
+		localization_key = "SEXUALITY RIGHTS"
+	}
+}
+defined_text = {
+	name = KN_WORKERS_RIGHTS_BUTTON
+	text = {
+		trigger = {
+			has_country_flag = kn_workers_rights_extensive
+		}
+		localization_key = "EXTENSIVE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_workers_rights_moderate
+		}
+		localization_key = "MODERATE"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_workers_rights_limited
+		}
+		localization_key = "LIMITED"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_workers_rights_negligible
+		}
+		localization_key = "NEGLIGIBLE"
+	}
+	text = {
+		localization_key = "WORKERS' RIGHTS"
+	}
+}
+defined_text = {
+	name = KN_LAW_SELECTED_TEXT
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_currency
+		}
+		localization_key = "Currency Policy"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_economy
+		}
+		localization_key = "Economic System"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_trade_union
+		}
+		localization_key = "Trade Union Laws"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_penal_system
+		}
+		localization_key = "Penal System"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_mobilisation
+		}
+		localization_key = "Mobilisation Policy"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_capital_punishment
+		}
+		localization_key = "Capital Punishment Policy"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_womens_rights
+		}
+		localization_key = "Women's Rights Laws"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_workers_rights
+		}
+		localization_key = "Workers' Rights Laws"
+	}
+	text = {
+		trigger = {
+			has_country_flag = kn_laws_sexuality_rights
+		}
+		localization_key = "Sexuality Rights Laws"
+	}
+	text = {
+		localization_key = ""
+	}
+}

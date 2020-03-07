@@ -1,0 +1,25 @@
+
+state={
+	id=441
+	name="STATE_441"
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		victory_points = {
+			2041 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		5042 7273 7316 8005 10905 12754 12884 
+	}
+	manpower=2310000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

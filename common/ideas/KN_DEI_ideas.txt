@@ -1,0 +1,71 @@
+ideas = {
+	country = {
+		DEI_naval_junta_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_naval_junta_idea"}
+			picture = DEI_naval_junta
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = -0.15
+				war_support_factor = 0.15
+			}
+			research_bonus = { naval_doctrine = -0.1 }
+		}
+		DEI_colonial_nation_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_colonial_nation_idea"}
+			picture = DEI_colonial_nation
+			modifier = {
+				conscription_factor = -0.65
+				army_core_defence_factor = 0.1
+			}
+		}
+		DEI_economy_lvl0_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_economy_lvl0_idea"}
+			picture = DEI_economy_lvl0
+			modifier = {
+				production_factory_max_efficiency_factor = -0.4
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = 0.2
+			}
+		}
+		DEI_economy_lvl1_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_economy_lvl1_idea"}
+			picture = DEI_economy_lvl1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		DEI_economy_lvl2_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_economy_lvl2_idea"}
+			picture = DEI_economy_lvl0
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		DEI_economy_lvl3_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_economy_lvl3_idea"}
+			picture = DEI_economy_lvl3
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		DEI_economy_lvl4_idea = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea DEI_economy_lvl4_idea"}
+			picture = DEI_economy_lvl4
+			modifier = {
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.2
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
+}

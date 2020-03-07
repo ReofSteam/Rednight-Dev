@@ -1,0 +1,235 @@
+GRE_dev_decisions = {
+	GRE_DEV_georgios = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		complete_effect = {
+			create_country_leader = {
+				name = "King Géorgios II"
+				desc = "POLITICS_GRE_GEORGIOS_II_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_George_II.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = authoritarian_democrat
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+			}
+		}
+	}
+	GRE_DEV_paul = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		complete_effect = {
+			create_country_leader = {
+				name = "King Pávlos I"
+				desc = "POLITICS_GRE_PAVLOS_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Paul_I.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = authoritarian_democrat
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+			}
+		}
+	}
+	GRE_DEV_alexandra = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		complete_effect = {
+			create_country_leader = {
+				name = "Queen Alexandra I"
+				desc = "POLITICS_GRE_ALEXANDRA_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexandra.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = authoritarian_democrat
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+			}
+		}
+	}
+	GRE_DEV_filippos = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		complete_effect = {
+			create_country_leader = {
+				name = "King Fílippos I"
+				desc = "POLITICS_GRE_ALEXANDRA_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Filippos.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = authoritarian_democrat
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+			}
+		}
+	}
+	GRE_DEV_regency_council = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		complete_effect = {
+			create_country_leader = {
+				name = "Regency Council"
+				desc = "POLITICS_GRE_REGENCY_COUNCIL_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_regency_council.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_democrat_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = authoritarian_democrat
+					}
+				}
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+			}
+		}
+	}
+	GRE_DEV_alexander_papagos = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		visible = {
+		}
+
+		complete_effect = {
+			create_country_leader = {
+				name = "Alexandros Papagos"
+				desc = "POLITICS_ALEXANDER_PAPAGOS_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexander_Papagos.tga"
+				expire = "1965.1.1"
+				ideology = autocratic_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = autocratic
+					}
+				}
+				set_politics = {
+					ruling_party = autocratic
+				}
+			}
+		}
+	}
+	GRE_DEV_georgios_grivas = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		visible = {
+		}
+
+		complete_effect = {
+			create_country_leader = {
+				name = "Georgios Grivas"
+				desc = "POLITICS_GEORGIOS_GRIVAS_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Georgios_Grivas.tga"
+				expire = "1965.1.1"
+				ideology = autocratic_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = autocratic
+					}
+				}
+				set_politics = {
+					ruling_party = autocratic
+				}
+			}
+		}
+	}
+	GRE_DEV_napoleon_zervas = {
+
+		icon = decision_ger_mefo_bills
+		days_re_enable = 1
+
+		visible = {
+		}
+
+		complete_effect = {
+			create_country_leader = {
+				name = "Napoleon Zervas"
+				desc = "POLITICS_NAPOLEON_ZERVAS_DESC"
+				picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Napoleon_Zervas.tga"
+				expire = "1965.1.1"
+				ideology = autocratic_subtype
+				traits = {
+					#
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_government = autocratic
+					}
+				}
+				set_politics = {
+					ruling_party = autocratic
+				}
+			}
+		}
+	}
+}

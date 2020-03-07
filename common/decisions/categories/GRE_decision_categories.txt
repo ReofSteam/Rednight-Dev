@@ -1,0 +1,45 @@
+GRE_regency_council = {
+
+	icon = decision_category_usa_congress
+	
+	allowed = {	
+		OR = {
+			tag = GRE
+			original_tag = GRE
+		}
+	
+	}
+
+	visible = {
+	}
+}
+GRE_political_decisions = {
+
+	icon = decision_category_usa_congress
+	
+	allowed = {	
+		OR = {
+			tag = GRE
+			original_tag = GRE
+		}
+	
+	}
+
+	visible = {
+	}
+}
+GRE_dev_decisions = {
+
+	icon = decision_category_usa_congress
+	
+	allowed = {	
+		OR = {
+			tag = GRE
+			original_tag = GRE
+		}
+	
+	}
+
+	visible = {
+	}
+}

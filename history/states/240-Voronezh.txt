@@ -1,0 +1,22 @@
+
+state={
+	id=240
+	name="STATE_240"
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		473 534 3469 3554 3567 6432 6477 6577 9424 9489 9518 9552 9579 11396 11412 11439 11475 11500 
+	}
+	manpower=1364537
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=32
+	name="SUPPLYAREA_32"
+	value=7
+	states={
+		44 105 106 765 766 841 1173 1176 1178 1171 1172 1174 1177 
+	}
+}

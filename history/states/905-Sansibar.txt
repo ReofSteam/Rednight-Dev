@@ -1,0 +1,24 @@
+state={
+	id=905
+	name="STATE_905"
+	manpower=178400
+	state_category = pastoral
+	
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 3
+			13551 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			13551 5
+		}		
+	}
+	
+	provinces={
+		13551
+	}
+}

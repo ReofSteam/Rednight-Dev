@@ -1,0 +1,163 @@
+﻿# .----------------.  .----------------.  .----------------. #
+#| .--------------. || .--------------. || .--------------. |#
+#| |     ______   | || |     ____     | || |      __      | |#
+#| |   .' ___  |  | || |   .'    `.   | || |     /  \     | |#
+#| |  / .'   \_|  | || |  /  .--.  \  | || |    / /\ \    | |#
+#| | |  |         | || | |  |    |  | | || |   / ____ \   | |#
+#| |  \ `.___.'\  | || |  \  `--'  /  | || | _/ /    \ \_ | |#
+#| |   `._____.'  | || |   `.____.'   | || ||____|  |____|| |#
+#| |              | || |              | || |              | |#
+#| '--------------' || '--------------' || '--------------' |#
+# '----------------'  '----------------'  '----------------' #
+
+add_namespace = coa
+
+############################
+### '50 ELECTION BUILDUP ###
+############################
+
+#Wagenknecht Resigns as Chairman of the Communist Caucus
+country_event = {
+	id = coa.1
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.1" }
+
+	title = coa.1.t
+	desc = coa.1.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.1.a
+	}
+}
+
+#Bedacht is nominated as Chairman of the Communist Caucus
+country_event = {
+	id = coa.2
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.2" }
+
+	title = coa.2.t
+	desc = coa.2.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.2.a
+	}
+}
+
+#Flynn Announces she will not seek reelection
+country_event = {
+	id = coa.3
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.3" }
+
+	title = coa.3.t
+	desc = coa.3.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.3.a
+	}
+}
+
+#The Communists announce they will not support Flynn's successor
+news_event = {
+	id = coa.4
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.4" }
+
+	title = coa.4.t
+	desc = coa.4.desc
+	#https://cdn.discordapp.com/attachments/465243457598914573/579804491663147008/unknown.png
+	picture = GFX_news_event_spa_split
+
+	major = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.4.a
+	}
+}
+
+#Lovestone announces his intention to seek the nomination
+country_event = {
+	id = coa.5
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.5" }
+
+	title = coa.5.t
+	desc = coa.5.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.5.a
+	}
+}
+
+#Dunne is selected as the Libertarian Candidate
+country_event = {
+	id = coa.6
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.6" }
+
+	title = coa.6.t
+	desc = coa.6.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.6.a
+	}
+}
+
+#The Election
+country_event = {
+	id = coa.50
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.50" }
+
+	title = coa.50.t
+	desc = coa.50.desc
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.50.a
+	}
+}
+#NEWS EVENTS
+#Browder Yugoslavia
+news_event = {
+	id = coa.51
+	#For debug purposes
+	immediate = { log = "[GetDateText]: [Root.GetName]: event coa.51" }
+	title = coa.51.t
+	desc = coa.51.d
+	picture = GFX_report_event_CSA_Browdertrip
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = coa.51.a
+	}
+	
+}

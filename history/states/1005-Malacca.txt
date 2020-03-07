@@ -1,0 +1,27 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		7427 
+	}
+	state_category = pastoral
+	resources={
+		rubber=12.000
+	}
+	history={
+		owner = MLU
+		add_core_of = MLU
+		victory_points = {
+			7427 1 
+		}
+		buildings = {
+			infrastructure = 3
+			7427 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=228300
+	buildings_max_level_factor=1.000
+}

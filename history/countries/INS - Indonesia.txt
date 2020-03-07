@@ -1,0 +1,315 @@
+﻿capital = 335 #Jakarta
+
+oob = "INS_1950"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_convoys = 25
+
+create_faction = "United States of Insulindia"
+
+add_to_faction = INS
+add_to_faction = SUL
+add_to_faction = KAL
+add_to_faction = ACH
+
+set_country_flag = banned_marxist
+
+load_focus_tree = KN_INS_natsir
+
+add_ideas = {
+#starting
+	INS_tripartite_struggle
+	INS_decentralisation
+	INS_orla
+}
+
+#cabinet
+add_ideas = {
+	INS_Mohammad_Natsir
+	INS_Mohammad_Hatta
+	INS_Dato_Assaat
+	INS_Sjafruddin_Economy
+	INS_Mohammad_Roem
+	INS_KH_Dewantara
+	INS_Buya_Hamka
+	INS_Djuanda_Kartawidjaja
+	INS_Dzulkifli_Lubis
+	INS_Gen_Soedirman
+	INS_Gatot_Soebroto
+	INS_Abdurrachman_Saleh
+	INS_Eddy_Martadinata
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_variable = { var = INS_masyumi_support value = 32 }
+set_variable = { var = INS_murba_support value = 23 }
+set_variable = { var = INS_pni_support value = 31 }
+
+set_country_flag = INS_soekarno_approval_med
+set_country_flag = INS_people_approval_med
+set_country_flag = INS_external_influence_low
+
+set_popularities = {
+	social_nationalist = 4
+	marxist = 4
+	libertarian = 23
+	moderate_socialist = 0
+	social_democrat = 10
+	social_liberal = 2
+	conservative = 32
+	authoritarian_democrat = 25
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype 
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Soekarno"
+	desc = "POLITICS_SOEKARNO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype 
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sekarmadji Maridjan Kartosoewirjo"
+	desc = "POLITICS_KARTOSOEWIRJO_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Kartosoewiryo.tga"
+	expire = "1965.10.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Maludin Simbolon"
+	desc = "POLITICS_SIMBOLON_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simbolon.tga"
+	expire = "1965.10.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+###Military Leaders
+
+create_field_marshal = {
+	name = "Soedirman"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sudirman.tga"
+	id = 601
+	traits = {
+		organisational_leader
+		brilliant_strategist
+		jungle_rat
+		guerilla_fighter
+		organizer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Abdul Haris Nasution"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_AH_Nasution.tga"
+	id = 602
+	traits = {
+		inspirational_leader
+		trickster
+		organizer
+		guerilla_fighter
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Gatot Soebroto"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soebroto.tga"
+	id = 603
+	traits = {
+		thorough_planner
+		brilliant_strategist
+		skilled_staffer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Ahmad Yani"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Ahmad_Yani.tga"
+	traits = {
+		combined_arms_expert
+		media_personality
+		brilliant_strategist
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Basuki Rachmat"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Rachmat.tga"
+	traits = {
+		war_hero
+		skilled_staffer
+		cavalry_leader
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "T. B. Simatupang"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simatupang.tga"
+	traits = {
+		infantry_leader
+		trickster
+		superior_tactician
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Bambang Soegeng"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soegeng.tga"
+	traits = {
+		old_guard
+		thorough_planner
+		trait_cautious
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Soeharto"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soeharto.tga"
+	desc = "INS_Soeharto_general_desc"
+	traits = {
+		career_officer
+		infantry_leader
+		politically_connected
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}

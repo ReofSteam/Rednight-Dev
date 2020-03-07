@@ -1,0 +1,44 @@
+spriteTypes = {	
+
+	#spriteType = {
+	#	name = "GFX_infantry_weapons_texticon"
+	#	texturefile = "gfx/interface/texticons/infantry_weapons_texticon.dds"
+	#	legacy_lazy_load = no
+	#}
+	
+	spriteType = {
+		name = "GFX_latvian_farmers_union_big_texticon"
+		texturefile = "gfx/interface/texticons/latvian_farmers_union_big_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_military_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_military_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_monarchy_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_monarchy_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_ratniks_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_ratniks_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_BKP_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_BKP_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_BZNS_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_BZNS_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_SP_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_SP_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+}

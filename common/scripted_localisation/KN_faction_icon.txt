@@ -1,0 +1,69 @@
+defined_text = {
+	name = FACTION_ICON
+	text = {
+		trigger = {
+			OR = {
+				tag = FRA
+				is_in_faction_with = FRA
+			}
+		}
+		localization_key = "GFX_INFOR_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = RUS
+				is_in_faction_with = RUS
+			}
+		}
+		localization_key = "GFX_SARPAC_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = EGY
+				is_in_faction_with = EGY
+			}
+		}
+		localization_key = "GFX_CAIRO_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = SWE
+				is_in_faction_with = SWE
+			}
+		}
+		localization_key = "GFX_NAT_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = BHC
+				is_in_faction_with = BHC
+			}
+		}
+		localization_key = "GFX_RMK_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = SAF
+				is_in_faction_with = SAF
+			}
+		}
+		localization_key = "GFX_COMMONWEALTH_faction_icon"
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = INS
+				is_in_faction_with = INS
+			}
+		}
+		localization_key = "GFX_INDONESIA_faction_icon"
+	}
+	text = {
+		localization_key = "GFX_faction_icon_none"
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = CHI
+		add_core_of = NRC
+
+		victory_points = {
+			4256 1 
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 8072 10257 12408 12713 
+	}
+	manpower=4601000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

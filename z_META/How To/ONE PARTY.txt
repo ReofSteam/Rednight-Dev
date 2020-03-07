@@ -1,0 +1,15 @@
+Hi!
+
+So you are wondering how you make your nation a "one-party nation"?
+
+Well, you have come to the right guide!
+
+This is more for coding, so if you see this and are wondering how you can make your nation one-party in the game.. sorry :/
+
+IF YOU ARE CODING IT IN:
+
+Add this to your events/history file/whatever:
+set_country_flag = one_party_nation
+
+and to remove it:
+clr_country_flag = one-party

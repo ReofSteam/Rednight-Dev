@@ -1,0 +1,31 @@
+
+state={
+	id=965
+	name="STATE_965"
+
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			2196 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			2196 10 
+		}
+
+	}
+
+	provinces={
+		2196 13811 
+	}
+	manpower=253830
+	buildings_max_level_factor=1.000
+	state_category=town
+}

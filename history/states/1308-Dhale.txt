@@ -1,0 +1,18 @@
+
+state={
+	id=1308
+	name="STATE_1308"
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1973 15430 15431 15433 
+	}
+	manpower=20
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

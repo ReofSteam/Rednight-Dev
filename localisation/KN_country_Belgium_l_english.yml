@@ -1,0 +1,71 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+belref.1.t:0 "The National Referendum"
+belref.1.desc:0 "Last year, we held a nationwide referendum on the national question. "
+
+### Parties ###
+
+BEL_social_nationalist_party:0 "BCP - Belgian Communist Party"
+BEL_social_nationalist_party_long:0 "Parti communiste de Belgique"
+BEL_marxist_party:0 "BCP - Belgian Communist Party"
+BEL_marxist_party_long:0 "Parti communiste de Belgique"
+BEL_libertarian_party:0 "BSP - Belgian Syndicalist Party"
+BEL_libertarian_party_long:0 "Parti syndicaliste belge"
+BEL_moderate_socialist_party:0 "PSB - Belgian Socialist Party"
+BEL_moderate_socialist_party_long:0 "Parti socialiste belge"
+BEL_social_democrat_party:0 "BWP - Workers' Party of Belgium"
+BEL_social_democrat_party_long:0 "Parti du Travail de Belgique"
+BEL_social_liberal_party:0 "PL - Liberal Party"
+BEL_social_liberal_party_long:0 "Parti libéral"
+BEL_conservative_party:0 "PC - Catholic Party"
+BEL_conservative_party_long:0 "Parti catholique"
+BEL_authoritarian_democrat_party:0 "MNR - National Royalist Movement"
+BEL_authoritarian_democrat_party_long:0 "Mouvement National Royaliste"
+BEL_autocratic_party:0 "MNR - National Royalist Movement"
+BEL_autocratic_party_long:0 "Mouvement National Royaliste"
+BEL_fundamentalist_party:0 "EC - Catholic Church"
+BEL_fundamentalist_party_long:0 "Église catholique"
+BEL_voynist_party:0 "RP - Rexist Party"
+BEL_voynist_party_long:0 "Parti Rexiste"
+
+### Country Name ###
+
+### Focuses ###
+ 
+### Ideas ###
+BEL_losers_2nd_weltkrieg:0 "Losers of the Second Weltkrieg"
+BEL_losers_2nd_weltkrieg_desc:0 "The Kingdom of Flanders-Wallonia was devastated and defeated during the early Communard advance into the Reichspakt, Belgium still bears the scars of this great conflict."
+BEL_state_of_limbo:0 "State of Limbo"
+BEL_state_of_limbo_desc:0 "Belgian politics exists in a perpetual limbo until the upcoming constitutional convention can be completed, Our population grows anxious and restless about its uncertain future."
+BEL_fractured_culture:0 "Fractured Culture"
+BEL_fractured_culture_desc:0 "Since its violent birth the belgian state has been one of contradictions. To the south, the Walloon region is an industrial, romantic and secular stronghold. To the north Flanders is a cathloic, germanic and agrarian center of reaction.  Decades of poverty, destruction, revolution and occupation have only worsened these contradictions. The nation will not survive if it cannot rediscover its unified identity."
+BEL_white_terror:0 "White Terror"
+BEL_white_terror_desc:0 "Reactionary sentiments are in no short supply in our nation. Catholics, Liberals, Monarchists, even some self proclaimed “National Republicans”. there are many remnants of bourgeois society who oppose our new workers state. While most of our citizenry despised German domination, much of the public believe we have simply traded one tyrant for another. A minority of these groups are organized and violent, we must tread lightly."
+BEL_phlanastere_reconstruction_initiative:0 "Phalanstere Reconstruction Initiative"
+BEL_phlanastere_reconstruction_initiative_desc:0 "The Phalanstere Reconstruction Initiative, or as it is lovingly referred to “The PRI” is the international organization responsible for the rebuilding and recovery of postwar europe. What began life as a French based organization for the  industrial development of its allies has since evolved into an international behemoth. A behemoth that means means a deal great of things to a great deal of people. Ask an Iberian and they will ramble on about “Proletarian Brotherhood” and “Our French Comrades”. Ask a Dutchman and they will gripe about “Godless Socialists” and  “Occupation”. Regardless of where you go though, the untold levels of economic devastation created by the second WeltKrieg mean that no nation has found themselves willing or able to turn down the various programs like the European Red Aid, the Inter-Nations Transport System, the Agrarian Recovery Fund. Even if some of those nations resent accepting aid from their former enemies."
+
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+BEL_Julien_Lahaut_hog:0 "Julien Lahaut"
+BEL_Arthur_Wauters_interior:0 "Arthur Wauters"
+BEL_Jacques_Grippa_economy:0 "Jacques Grippa"
+BEL_Achille_Van_Acker_foreign:0 "Achille Van Acker"
+BEL_Camille_Huysmans_education:0 "Camille Huysmans"
+BEL_Eduard_Van_Overstraeten_culture:0 "Eduard Van Overstraeten"
+BEL_Ernest_Burnelle_transport:0 "Ernest Burnelle"
+### Leaders ###
+
+POLITICS_COUNCIL_FOR_BELGIUM_DESC:0 "§YCouncil for the Reconstruction Mandate of Belgium§!\n\nMade up of dignitaries, technicians, military officials and representatives of all legal political parties, the Reconstruction Council oversees the matters of state in the immediate aftermath of the twin occupations. It stands as the first semblance of order in a chaotic aftermath, and is working to prepare the nation for a return to self rule."
+
+### Tech? ###

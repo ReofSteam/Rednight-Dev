@@ -1,0 +1,34 @@
+idea_categories = {
+
+	hidden_ideas = {
+		hidden = yes
+
+		cost = 0
+		removal_cost = -1
+	}
+
+	country = {
+		national_spirit = yes
+
+		cost = 0
+		removal_cost = -1
+	}
+	minister = {
+		slot = head_of_government
+		slot = interior_minister
+		slot = economy_minister
+		slot = foreign_minister
+		slot = education_minister
+		slot = culture_minister
+		slot = transport_minister
+		slot = minister_no_portfolio
+		slot = head_of_intel
+		slot = chief_of_staff
+		slot = chief_of_army
+		slot = chief_of_air_force
+		slot = chief_of_navy
+		cost = 150
+		removal_cost = -1 # works
+	}
+}
+

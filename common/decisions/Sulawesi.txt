@@ -1,0 +1,124 @@
+SUL_aftermath_missions = {
+	imminent_coup_mongisidi = { #Mongisidi coup
+		allowed = {
+			tag = SUL
+			NOT = {
+				has_government = voynist
+			}
+		}
+		available = {
+			has_completed_focus = SUL_purge_minahasa
+			if = {
+				limit = {
+					has_government = fundamentalist
+				}
+				has_completed_focus = SUL_purge_north_dii
+			}
+		}
+		activation = {
+			has_completed_focus = SUL_aa_control
+		}
+		is_good = no
+		days_mission_timeout = 100
+
+		timeout_effect = {
+			set_country_flag = mongisidi_takeover
+			hidden_effect = {
+				country_event = { id = SUL.31 days = 1 }
+			}
+		}
+		
+		complete_effect = {
+			add_political_power = 150
+			if = {
+				limit = {
+					has_government = autocratic
+				}
+				add_popularity = {
+					ideology = autocratic
+					popularity = 0.15
+				}
+			}
+			if = {
+				limit = {
+					has_government = fundamentalist
+				}
+				add_popularity = {
+					ideology = fundamentalist
+					popularity = 0.15
+				}
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = voynist
+					popularity = -0.15
+				}
+				country_event = { id = SUL.32 days = 1 }
+			}
+		}
+	}
+	
+	imminent_coup_muzakkar = { #Kahar Muzakkar coup
+		allowed = {
+			tag = SUL
+			NOT = {
+				has_government = fundamentalist
+			}
+		}
+		available = {
+			has_completed_focus = SUL_kill_muzakkar
+		}
+		activation = {
+			has_completed_focus = SUL_aa_control
+		}
+		
+		is_good = no
+		days_mission_timeout = 150
+
+		timeout_effect = {
+			set_country_flag = dii_takeover
+			hidden_effect = {
+				country_event = { id = SUL.51 days = 1 }
+			}
+		}
+		complete_effect = {
+			add_political_power = 150
+			if = {
+				limit = {
+					has_government = autocratic
+				}
+				add_popularity = {
+					ideology = autocratic
+					popularity = 0.15
+				}
+			}
+			if = {
+				limit = {
+					has_government = voynist
+				}
+				add_popularity = {
+					ideology = voynist
+					popularity = 0.15
+				}
+			}
+			hidden_effect = {
+				add_popularity = {
+					ideology = fundamentalist
+					popularity = -0.15
+				}
+				random_list = {
+					20 = { country_event = { id = SUL.111 days = 2}
+					}
+					21 = { country_event = { id = SUL.114 days = 2}
+					}
+					22 = { country_event = { id = SUL.113 days = 2}
+					}
+					21 = { country_event = { id = SUL.112 days = 2}
+					}
+					21 = { country_event = { id = SUL.115 days = 2}
+					}
+				}
+			}
+		}
+	}
+}

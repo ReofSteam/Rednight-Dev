@@ -1,0 +1,32 @@
+
+state={
+	id=448
+	name="STATE_448"
+
+	history={
+		owner = LBA
+		add_core_of = LBA
+		victory_points = {
+			1149 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 1
+			arms_factory = 1
+			1149 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1149 1189 7154 7180 9983 9994 10067 11957 11969 12039 14254 
+	}
+	manpower=242600
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

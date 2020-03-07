@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_Portugal
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POR
+		}
+	}
+	default = no
+
+	focus = {
+		id = POR_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

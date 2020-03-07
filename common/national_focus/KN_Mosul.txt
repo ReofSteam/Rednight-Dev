@@ -1,0 +1,1053 @@
+focus_tree = { 
+id = MOS_Krasnacht
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = MSL 
+} 
+} 
+#Focus for The Ramadan Revolution
+focus = { 
+id = Mosul_theramadanrevolution
+icon = GFX_goal_unknown
+x = 38
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_consolidatetheregime } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Arab Socialist Vision
+focus = { 
+id = Mosul_anarabsocialistvision
+icon = GFX_goal_unknown
+x = 42
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_theramadanrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A United Socialist Front
+focus = { 
+id = Mosul_aunitedsocialistfront
+icon = GFX_goal_unknown
+x = 40
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_progressivepolicies } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Consolidate the Regime
+focus = { 
+id = Mosul_consolidatetheregime
+icon = GFX_goal_unknown
+x = 38
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_embracetheintelligentsia } 
+prerequisite = { focus = Mosul_jviDGLbh } 
+prerequisite = { focus = Mosul_aunitedsocialistfront } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Appeal to the Shi'ites
+focus = { 
+id = Mosul_appealtotheshiites
+icon = GFX_goal_unknown
+x = 13
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thebaghdadresistance } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Fight Persian Imperialism
+focus = { 
+id = Mosul_fightpersianimperialism
+icon = GFX_goal_unknown
+x = 13
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_appealtotheshiites } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Poking the Bear
+focus = { 
+id = Mosul_pokingthebear
+icon = GFX_goal_unknown
+x = 13
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_apanarabfront } 
+prerequisite = { focus = Mosul_diplomaticsupport } 
+prerequisite = { focus = Mosul_fightpersianimperialism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for We Need  Protection
+focus = { 
+id = Mosul_weneedprotection
+icon = GFX_goal_unknown
+x = 13
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_pokingthebear } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pan-Arab Diplomacy
+focus = { 
+id = Mosul_panarabdiplomacy
+icon = GFX_goal_unknown
+x = 11
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_weneedprotection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for An Alliance of the Faith
+focus = { 
+id = Mosul_anallianceofthefaith
+icon = GFX_goal_unknown
+x = 17
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_weneedprotection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for World Revolution
+focus = { 
+id = Mosul_worldrevolution
+icon = GFX_goal_unknown
+x = 9
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_weneedprotection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Population Exchange?
+focus = { 
+id = Mosul_apopulationexchange
+icon = GFX_goal_unknown
+x = 13
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_approachkurdistan } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Pact Will Hold
+focus = { 
+id = Mosul_thepactwillhold
+icon = GFX_goal_unknown
+x = 15
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_weneedprotection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Contacts in the West
+focus = { 
+id = Mosul_contactsinthewest
+icon = GFX_goal_unknown
+x = 9
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_worldrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Levantine Solidarity
+focus = { 
+id = Mosul_levantinesolidarity
+icon = GFX_goal_unknown
+x = 11
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_panarabdiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Diplomatic Support
+focus = { 
+id = Mosul_diplomaticsupport
+icon = GFX_goal_unknown
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_materielsupport } 
+prerequisite = { focus = Mosul_financialsupport } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Negotiate with Russia
+focus = { 
+id = Mosul_negotiatewithrussia
+icon = GFX_goal_unknown
+x = 16
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_anallianceofthefaith focus = Mosul_thepactwillhold } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Aid from the Islamists
+focus = { 
+id = Mosul_aidfromtheislamists
+icon = GFX_goal_unknown
+x = 17
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_anallianceofthefaith } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Foreign Mujaheddin
+focus = { 
+id = Mosul_foreignmujaheddin
+icon = GFX_goal_unknown
+x = 18
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_aidfromtheislamists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Ceasefire with Iran
+focus = { 
+id = Mosul_ceasefirewithiran
+icon = GFX_goal_unknown
+x = 16
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_negotiatewithrussia } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Tribal Reinforcements
+focus = { 
+id = Mosul_tribalreinforcements
+icon = GFX_goal_unknown
+x = 14
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_helpfromabudhabi } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Pact with the RMK
+focus = { 
+id = Mosul_pactwiththermk
+icon = GFX_goal_unknown
+x = 10
+y = 9
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_asummitinnewdelhi } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Help  from Abu Dhabi
+focus = { 
+id = Mosul_helpfromabudhabi
+icon = GFX_goal_unknown
+x = 15
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thepactwillhold } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Stoke Arab Nationalism
+focus = { 
+id = Mosul_stokearabnationalism
+icon = GFX_goal_unknown
+x = 15
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_mobilizethepeople } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promise Social Reforms
+focus = { 
+id = Mosul_promisesocialreforms
+icon = GFX_goal_unknown
+x = 17
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_mobilizethepeople } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Pan-Arab Front
+focus = { 
+id = Mosul_apanarabfront
+icon = GFX_goal_unknown
+x = 16
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_promisesocialreforms } 
+prerequisite = { focus = Mosul_stokearabnationalism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Baghdad Resistance
+focus = { 
+id = Mosul_thebaghdadresistance
+icon = GFX_goal_unknown
+x = 13
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thestruggleforiraq } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Embrace the Intelligentsia
+focus = { 
+id = Mosul_embracetheintelligentsia
+icon = GFX_goal_unknown
+x = 36
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_DmLIWjCH } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalize the Economy
+focus = { 
+id = Mosul_jviDGLbh
+icon = GFX_goal_unknown
+x = 38
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_YWqJsXlS } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Accede to the UAR
+focus = { 
+id = Mosul_accedetotheuar
+icon = GFX_goal_unknown
+x = 12
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_levantinesolidarity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Populist Platform
+focus = { 
+id = Mosul_apopulistplatform
+icon = GFX_goal_unknown
+x = 26
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_maintainnationalunity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sway the Arab Socialists
+focus = { 
+id = Mosul_swaythearabsocialists
+icon = GFX_goal_unknown
+x = 22
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_anticommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Court the Jalali Familly
+focus = { 
+id = Mosul_courtthejalalifamilly
+icon = GFX_goal_unknown
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_machiavellianpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Links in the Military
+focus = { 
+id = Mosul_linksinthemilitary
+icon = GFX_goal_unknown
+x = 20
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_machiavellianpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Security Militias
+focus = { 
+id = Mosul_securitymilitias
+icon = GFX_goal_unknown
+x = 20
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_linksinthemilitary } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Militarize the Government
+focus = { 
+id = Mosul_YWqJsXlS
+icon = GFX_goal_unknown
+x = 38
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thefreeofficers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Empower the Unions
+focus = { 
+id = Mosul_DmLIWjCH
+icon = GFX_goal_unknown
+x = 36
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thefreeofficers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Progressive Policies
+focus = { 
+id = Mosul_progressivepolicies
+icon = GFX_goal_unknown
+x = 40
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thefreeofficers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Form a Coalition
+focus = { 
+id = Mosul_formacoalition
+icon = GFX_goal_unknown
+x = 18
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_courtthejalalifamilly } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Welfare Policies
+focus = { 
+id = Mosul_pmdYhnwx
+icon = GFX_goal_unknown
+x = 26
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_apopulistplatform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Literacy Program
+focus = { 
+id = Mosul_literacyprogram
+icon = GFX_goal_unknown
+x = 28
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_apopulistplatform } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Join the International
+focus = { 
+id = Mosul_jointheinternational
+icon = GFX_goal_unknown
+x = 8
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_contactsinthewest } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Enact Land Reform
+focus = { 
+id = Mosul_enactlandreform
+icon = GFX_goal_unknown
+x = 26
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_pmdYhnwx } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Freedom of the Press
+focus = { 
+id = Mosul_freedomofthepress
+icon = GFX_goal_unknown
+x = 28
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_literacyprogram } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Democratic Election
+focus = { 
+id = Mosul_ademocraticelection
+icon = GFX_goal_unknown
+x = 25
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_swaythetradeunions } 
+prerequisite = { focus = Mosul_enactlandreform } 
+prerequisite = { focus = Mosul_freedomofthepress } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Fixed Election
+focus = { 
+id = Mosul_afixedelection
+icon = GFX_goal_unknown
+x = 21
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_formacoalition } 
+prerequisite = { focus = Mosul_securitymilitias } 
+prerequisite = { focus = Mosul_swaythearabsocialists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Military Government
+focus = { 
+id = Mosul_militarygovernment
+icon = GFX_goal_unknown
+x = 20
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_afixedelection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Oligarchic Government
+focus = { 
+id = Mosul_oligarchicgovernment
+icon = GFX_goal_unknown
+x = 22
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_afixedelection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Incumbent Government
+focus = { 
+id = Mosul_incumbentgovernment
+icon = GFX_goal_unknown
+x = 24
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_ademocraticelection focus = Mosul_afixedelection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Liberal Government
+focus = { 
+id = Mosul_liberalgovernment
+icon = GFX_goal_unknown
+x = 26
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_ademocraticelection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Kill the Free Officers
+focus = { 
+id = Mosul_killthefreeofficers
+icon = GFX_goal_unknown
+x = 19
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_militarygovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Tame the Military
+focus = { 
+id = Mosul_tamethemilitary
+icon = GFX_goal_unknown
+x = 27
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_liberalgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Father of Iraq
+focus = { 
+id = Mosul_thefatherofiraq
+icon = GFX_goal_unknown
+x = 25
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_incumbentgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Jalili Dynasty
+focus = { 
+id = Mosul_thejalilidynasty
+icon = GFX_goal_unknown
+x = 21
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_oligarchicgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Country in Crisis
+focus = { 
+id = Mosul_acountryincrisis
+icon = GFX_goal_unknown
+x = 23
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_killthefreeofficers focus = Mosul_tamethemilitary focus = Mosul_thefatherofiraq focus = Mosul_thejalilidynasty focus = Mosul_controltheparliament } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Approach Kurdistan
+focus = { 
+id = Mosul_approachkurdistan
+icon = GFX_goal_unknown
+x = 13
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_weneedprotection } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Free Officers
+focus = { 
+id = Mosul_thefreeofficers
+icon = GFX_goal_unknown
+x = 38
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Materiel Support
+focus = { 
+id = Mosul_materielsupport
+icon = GFX_goal_unknown
+x = 9
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_missiontoegypt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Struggle for Iraq
+focus = { 
+id = Mosul_thestruggleforiraq
+icon = GFX_goal_unknown
+x = 13
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mission to Egypt
+focus = { 
+id = Mosul_missiontoegypt
+icon = GFX_goal_unknown
+x = 10
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thestruggleforiraq } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Mobilize the People
+focus = { 
+id = Mosul_mobilizethepeople
+icon = GFX_goal_unknown
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_thestruggleforiraq } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Worker's State
+focus = { 
+id = Mosul_theworkersstate
+icon = GFX_goal_unknown
+x = 34
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_theramadanrevolution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Financial Support
+focus = { 
+id = Mosul_financialsupport
+icon = GFX_goal_unknown
+x = 11
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_missiontoegypt } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Summit in New Delhi
+focus = { 
+id = Mosul_asummitinnewdelhi
+icon = GFX_goal_unknown
+x = 10
+y = 8
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_worldrevolution focus = Mosul_panarabdiplomacy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Maintain National Unity
+focus = { 
+id = Mosul_maintainnationalunity
+icon = GFX_goal_unknown
+x = 23
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Machiavellian Politics
+focus = { 
+id = Mosul_machiavellianpolitics
+icon = GFX_goal_unknown
+x = 20
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_maintainnationalunity } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Anti Communism
+focus = { 
+id = Mosul_anticommunism
+icon = GFX_goal_unknown
+x = 23
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_apopulistplatform focus = Mosul_machiavellianpolitics } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Sway the Trade Unions
+focus = { 
+id = Mosul_swaythetradeunions
+icon = GFX_goal_unknown
+x = 24
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_anticommunism } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Control the Parliament
+focus = { 
+id = Mosul_controltheparliament
+icon = GFX_goal_unknown
+x = 23
+y = 7
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = Mosul_incumbentgovernment focus = Mosul_oligarchicgovernment } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

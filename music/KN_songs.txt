@@ -1,0 +1,10 @@
+music_station = "kn_main_music"
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

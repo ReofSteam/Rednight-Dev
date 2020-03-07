@@ -1,0 +1,37 @@
+﻿l_english:
+
+### Companies ###
+
+### Generic Companies ###
+generic_arms_company:0 "Generic Arms Company"
+generic_tank_company:0 "Generic Tank Company"
+generic_fighter_company:0 "Generic Fighter Company"
+generic_artillery_company:0 "Generic Artillery Company"
+generic_industrial_company:0 "Generic Industrial Company"
+generic_naval_company:0 "Generic Naval Company"
+
+### Portugal ###
+companhia_fabril:0 "Companhia União Fabril"
+ap_telephone:0 "Anglo-Portuguese Telephone"
+sacor:0 "SACOR"
+fabrica_militar_prata:0 "Fábrica Militar de Braço de Prata"
+ogme:0 "OGME"
+edfor:0 "Edfor"
+companhia_dos_caminhos:0 "Companhia da Beira Alta"
+ogma:0 "OGMA"
+arsenal_alfeite:0 "Arsenal do Alfeite"
+estaleiros_navais:0 "Estaleiros Navais de Viana do Castelo"
+lisnave:0 "LISNAVE"
+
+### United Kingdom ###
+vickers:0 "Vickers"
+enfield:0 "Enfield"
+
+### Livonia ###
+baltische_schieferol_konsortium:0 "Baltische Schieferöl-Konsortium"
+arsenal_tallinn:0 "Arsenal Tallinn"
+vairogs:0 "Vairogs"
+rigas_autobusu_fabrika:0 "Rīgas Autobusu Fabrika"
+vef:0 "VEF"
+liepajas_kara:0 "Liepājas Kara Ostas Darbnīcas"
+riga_shipyard:0 "Rīgas Kuģu Būvētava"

@@ -1,0 +1,44 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		steel=120.000
+	}
+
+	history={
+		owner = GBR
+		victory_points = {
+			9379 20
+		}
+		victory_points = {
+			11297 10 
+		}
+		victory_points = {
+			9315 10 
+		}
+		victory_points = {
+			9269 5 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 8
+			air_base = 10
+			11297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = GBR
+
+	}
+
+	provinces={
+		6268 9250 9269 9315 9332 9379 9397 11297 11317 11382 
+	}
+	manpower=4389700
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

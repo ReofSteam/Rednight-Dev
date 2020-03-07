@@ -1,0 +1,23 @@
+
+state={
+	id=1131
+	name="STATE_1131"
+	provinces={
+		848 852 906 3803 3852 3904 3981 6922 6928 9899 10083 11878 14274 
+	}
+	history={
+		owner = JAP
+		add_core_of = CHO
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			14274 1
+		}
+
+	}
+	manpower=1603300
+	state_category = town
+	buildings_max_level_factor=1.000
+}

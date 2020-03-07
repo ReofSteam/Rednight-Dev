@@ -1,0 +1,19 @@
+
+state={
+	id=1204
+	name="STATE_1204"
+	provinces={
+		6647 11577 
+	}
+	history={
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+	manpower=630811
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

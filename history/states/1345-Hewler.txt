@@ -1,0 +1,21 @@
+state={
+	id=1345
+	name="STATE_1345"
+	provinces={
+		1463 7530 12476 
+	}
+	history={
+		owner = KUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1463 4
+		}
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

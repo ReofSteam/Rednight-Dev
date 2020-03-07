@@ -1,0 +1,29 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		rubber=10.000
+	}
+
+	history={
+		owner = DRA
+		add_core_of = DRA
+		victory_points = {
+			1409 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		1268 1381 1409 4327 4416 7265 8067 10246 12164 12247 15218 15219 15221 15222 
+	}
+	manpower=6500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

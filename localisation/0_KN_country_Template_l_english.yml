@@ -1,0 +1,158 @@
+﻿#NOTES:
+#All country loc files have the following format for their name:
+#	KN_country_<NAME>_l_<language>.yml
+#DO NOT DEVIATE FROM THIS I WILL FUCKING HUNT YOU DOWN
+#
+#Spaces are the only safe whitespace for identation, i.e. tabs and newlines to indent data *will* break the file
+#	This:
+#		XXX_social_nationalist:0	"-"
+#	And this:
+#		XXX_social_nationalist:0
+#		"-"
+#Don't work.
+#
+#HOI4 seems to read things line by line and kinda just gives up if it encounters an error.
+#
+#*EVERYTHING* in country loc files should be more or less in the following format: 
+#	<tag>_<thing>_<other_thing_if_applicable>:0 "<whatever>"
+#
+#Country Loc files have no particular order, though I think the one presented here is best, It really doesn't matter
+#
+#Love, Calph <3
+#P.S. The below elipses are a hard stop in the .yml (YAML) format, HOI4 shouldn't read beyond them; May be useful for testing purposes.
+#...
+#This also should work
+#e p	i	c
+
+#Lmao imagine being wrong and having an artist fix your errors 
+#This meme was made by Hannah gang <o/
+
+l_english:
+
+### Bookmark ###
+XXX_KN_1950_DESC:0 "-"
+
+### Country Name ###
+XXX_social_nationalist:0 "-"
+XXX_social_nationalist_ADJ:0 "-"
+XXX_social_nationalist_DEF:0 "-"
+
+XXX_marxist:0 "-"
+XXX_marxist_ADJ:0 "-"
+XXX_marxist_DEF:0 "-"
+
+XXX_libertarian:0 "-"
+XXX_libertarian_ADJ:0 "-"
+XXX_libertarian_DEF:0 "-"
+
+XXX_moderate_socialist:0 "-"
+XXX_moderate_socialist_ADJ:0 "-"
+XXX_moderate_socialist_DEF:0 "-"
+
+XXX_social_democrat:0 "-"
+XXX_social_democrat_ADJ:0 "-"
+XXX_social_democrat_DEF:0 "-"
+
+XXX_social_liberal:0 "-"
+XXX_social_liberal_ADJ:0 "-"
+XXX_social_liberal_DEF:0 "-"
+
+XXX_conservative:0 "-"
+XXX_conservative_ADJ:0 "-"
+XXX_conservative_DEF:0 "-"
+
+XXX_authoritarian_democrat:0 "-"
+XXX_authoritarian_democrat_ADJ:0 "-"
+XXX_authoritarian_democrat_DEF:0 "-"
+
+XXX_autocratic:0 "-"
+XXX_autocratic_ADJ:0 "-"
+XXX_autocratic_DEF:0 "-"
+
+XXX_fundamentalist:0 "-"
+XXX_fundamentalist_ADJ:0 "-"
+XXX_fundamentalist_DEF:0 "-"
+
+XXX_voynist:0 "-"
+XXX_voynist_ADJ:0 "-"
+XXX_voynist_DEF:0 "-"
+
+### Parties ###
+XXX_social_nationalist_party:0 "-"
+XXX_social_nationalist_party_long:0 "-"
+
+XXX_marxist_party:0 "-"
+XXX_marxist_party_long:0 "-"
+
+XXX_libertarian_party:0 "-"
+XXX_libertarian_party_long:0 "-"
+
+XXX_moderate_socialist_party:0 "-"
+XXX_moderate_socialist_party_long:0 "-"
+
+XXX_social_democrat_party:0 "-"
+XXX_social_democrat_party_long:0 "-"
+
+XXX_social_liberal_party:0 "-"
+XXX_social_liberal_party_long:0 "-"
+
+XXX_conservative_party:0 "-"
+XXX_conservative_party_long:0 "-"
+
+XXX_authoritarian_democrat_party:0 "-"
+XXX_authoritarian_democrat_party_long:0 "-"
+
+XXX_autocratic_party:0 "-"
+XXX_autocratic_party_long:0 "-"
+
+XXX_fundamentalist_party:0 "-"
+XXX_fundamentalist_party_long:0 "-"
+
+XXX_voynist_party:0 "-"
+XXX_voynist_party_long:0 "-"
+
+### Cosmetic Tags ###
+XXX_cosmetic_namespace_social_nationalist:0 "-"
+XXX_cosmetic_namespace_social_nationalist_ADJ:0 "-"
+XXX_cosmetic_namespace_social_nationalist_DEF:0 "-"
+#You get the idea
+
+### Opinions ###
+XXX_other_relevant_tag_if_specific_descriptive_word_or_two:0 "-"
+XXX_descriptive_word_or_two:0 "-"
+
+### Ideas ###
+XXX_IDEA_NAME:0 "-"
+XXX_IDEA_NAME_desc:0 "-"
+
+### Focuses ###
+XXX_FOCUS_NAME:0 "-"
+XXX_FOCUS_NAME_desc:0 "-"
+
+### Decisions ###
+XXX_decision_group_name:0 "-"
+XXX_decision_group_name_desc:0 "-"
+
+### Flags ###
+XXX_flag_name:0 "-"
+
+### Tooltips ###
+XXX_thing_being_tooltiped_name_tooltip:0 "-"
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+LEADER_NAME_DESC:0 "-"
+
+### Tech ###
+
+### Events ###
+event_namespace.X.identifying_letter:0 "-"
+#Ex:
+epic_example_events.1.t:0 "this is a title"
+epic_example_events.1.d:0 "this is a description"
+epic_example_events.1.a:0 "it's important to note the identifying letter is entirely abritrary,"
+epic_example_events.1.b:0 "but, it's still preferred you do it in the before format."
+epic_example_events.1.c:0 "That is, t for title d for description and then a-c, e-f for options."
