@@ -1,11 +1,11 @@
-name="Dev Build - Krasnacht"
+name="Dev Build - Rednight"
 tags={
 	"Alternative History"
 	"Ideologies"
 	"National Focuses"
 	"Events"
 }
-version="1.8.*"
+version="1.9.*"
 replace_path = "events"
 replace_path = "history/units"
 replace_path = "common/units/names_divisions"
