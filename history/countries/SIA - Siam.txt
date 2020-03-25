@@ -35,7 +35,7 @@ set_research_slots = 3
 set_convoys = 50
 
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = moderate_socialist
 	last_election = "1949.10.1" 
 	election_frequency = 48
 	elections_allowed = no
@@ -43,327 +43,32 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 50
-    marxist = 0
+    social_nationalist = 2
+    marxist = 8
     libertarian = 0
-    moderate_socialist = 0
-    social_democrat = 0
-    social_liberal = 0
-    conservative = 0
-    authoritarian_democrat = 50
-    autocratic = 0
-    fundamentalist = 0
+    moderate_socialist = 30
+    social_democrat = 12
+    social_liberal = 8
+    conservative = 10
+    authoritarian_democrat = 9
+    autocratic = 20
+    fundamentalist = 1
     voynist = 0
 }
 
 add_ideas = {
-	#medium_economy # Ministers + ideas
-	#SIA_King_Prajadhipok_hog_ade
-	#SIA_Traitotphrapan_Tevakul_for_ade
-	#SIA_Narisara_Nuwattiwong_eco_ade
-	#SIA_Paribatra_Sukhumbhand_sec_ade
+	#medium_economy 
 	#limited_conscription
 
-	#SIA_RPC_neutral #Starter RPC results here from 1935
-	#SIA_bloated_bureaucracy
 }
 ######### #############
 create_country_leader = { 
 	name = "Pridi Banomyong"
 	desc = "POLITICS_PRIDI_BANOMYONG_DESC"
-	picture = "gfx/leaders/RMK/SIA/Portrait_SIA_Chula_Chakrabongse.tga"
+	picture = "gfx/leaders/SIA/KN_PRIDI.tga"
 	expire = "1963.12.30"
-	ideology = social_nationalist_subtype
+	ideology = moderate_socialist_subtype
 	traits = { }
 }
-create_country_leader = { # Boriphat Line of Sucession part 3
-	name = "Sukhumabhinanda"
-	desc = "POLITICS_SUKHUMABHININDA_DESC"
-	picture = "gfx/leaders/RMK/SIA/Portrait_Siam_Sukhumapinan_Paribatra.tga"
-	expire = "2003.4.10"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
-create_country_leader = { # Republican National Populism - Plaek Phibunsongkhram
-	name = "Plaek Phibunsongkhram"
-	desc = "POLITICS_PLAEK_KHITTASANGKHA_DESC"
-	picture = "gfx/leaders/RMK/SIA/Portrait_Siam_Plaek_Pibulsongkram_Civilian.tga"
-	expire = "1964.6.11"
-	ideology = fundamentalist_subtype
-	traits = {dictator }
-}
 
-### Miliary Commanders ###
-## Field Marshal ##
-#create_field_marshal = { # Boworadet, Apiratthamontri Sapha (R)(GER) -> resign after failed reform, possible Royalist commander
-#	name = "Prince Boworadet"
-#	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Boworadet.tga"
-#	traits = { old_guard } # Obviously...
-#	skill = 1
-#	attack_skill = 1
-#	defense_skill = 1
-#	planning_skill = 2
-#	logistics_skill = 1
-#	id = 51411
-#}
-create_field_marshal = { # Artillery, Mon Theater (P)(GER)
-	name = "Luang Phibunsongkhram"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Plaek_Pibulsongkram.tga"
-	traits = { 
-		brilliant_strategist 
-		#artillery_officer 
-	} # Dept of Artillery, Scholarship Boi
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3 # Scholarship Boi
-	logistics_skill = 2
-	id = 51400
-}
-create_field_marshal = { # Phayap Commander during Burma intervention,(N)(SIA)
-	name = "Luang Seriroengrit"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Charun_Rattanakun_Seriroengri.tga"
-	traits = { organizer logistics_wizard } # Head of the Phayap Army OTL, Signal Dept.
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-	id = 51401
-}
-## Generals ##
-create_corps_commander = { # Artillery, "4 Musketeers+1" (N) (SIA)
-	name = "Phraya Phahonphonpayuhasena"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Phaholponpayuhasena_ZoomUp.tga"
-	traits = { 
-		#four_musketeers 
-		#artillery_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-	id = 51409
-}
-create_corps_commander = { # "4 Musketeers+1" (R)(GER)
-	name = "Phraya Srisitthisongkhram"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Srisitthisongkhram.tga"
-	traits = { 
-		#four_musketeers
-		brilliant_strategist 
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3 # Another Scholarship Boi
-	logistics_skill = 2
-	id = 51410
-}
-#create_corps_commander = { # "4 Musketeers+1", Songsuradet's Accomplice, Artillery (N) (SIA)
-#	name = "Phrayra Rithhi-arkaney"
-#	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Srisitthisongkhram.tga"
-#	traits = { four_musketeers artillery_officer trait_cautious }
-#	skill = 1
-#	attack_skill = 1
-#	defense_skill = 1
-#	planning_skill = 1
-#	logistics_skill = 1
-#	id = 51412
-#}
-#create_corps_commander = { # "4 Musketeers+1", Siam's Weltkrieg-era force co-ordinator (P) (GER)
-#	name = "Luang Prasartpitthayayuth"
-#	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Luang_Prasartpitthayayuth.tga"
-#	traits = { four_musketeers war_hero skilled_staffer }
-#	skill = 2
-#	attack_skill = 2
-#	defense_skill = 2
-#	planning_skill = 2
-#	logistics_skill = 2
-#	id = 51413
-#}
-create_corps_commander = { # Plaek's Proponent, Shan Contact (N) (SIA)
-	name = "Luang Chumnanyutthasart"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phin_Choonhavan.tga"
-	traits = { politically_connected harsh_leader hill_fighter } # OTL mercilessly bomb the ship the captives were held
-	skill = 2
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-	id = 51402
-}
-create_corps_commander = { # "4 Musketeers+1", Engineer Corps, Eastern Army during WK (P) (GER)
-	name = "Phraya Songsuradet"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Songsuradet.tga"
-	traits = { 
-		#four_musketeers 
-		career_officer 
-		trait_engineer 
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-	id = 51403
-}
-create_corps_commander = { # Artillery, Gendarme Commander, Pridi's Accomplice (P) (SIA)
-	name = "Luang Adulyadejchrat"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Adul_Adulyadejchrat.tga"
-	traits = { 
-		politically_connected 
-		#artillery_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-	id = 51404
-}
-create_corps_commander = { # Isan HQ, Plaek, (N) (SIA)
-	name = "Luang Kriengsakpichit"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Luang_Kriengsakpichit.tga"
-	traits = { infantry_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-	id = 51405
-}
-create_corps_commander = { # Pridi's Accomplice (P) (SIA)
-	name = "Luang Karjsongkhram"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Luang_Karjsongkhram.tga"
-	traits = { infantry_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 51406
-}
-create_corps_commander = { # (N) (SIA)
-	name = "Luang Promyothee"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Mangkorn_Promyothee.tga"
-	traits = { career_officer infantry_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 51407
-}
-create_corps_commander = { # Southern Army HQ (N) (SIA)
-	name = "Luang Senanarong"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Luang_Senanarong.tga"
-	traits = { infantry_officer jungle_rat }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-	id = 51408
-}
 
-### Naval Commander ###
-create_navy_leader = {
-	name = "Luang Sinthusongkhramchai"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Sindhu_Kamolnavin.tga"
-	traits = { blockade_runner }
-	skill = 2 #naval guy, don't patch
-}
-create_navy_leader = {
-	name = "Luang Thamrongnawasawat"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Thawan_Thamrongnawasawat.tga"
-	traits = { }
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = {
-	name = "Phraya Witchitchollatee"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Witchitchollathi.tga"
-	traits = { }
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = {
-	name = "Phraya Wicharnjakkich"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Phraya_Wichitjakkrit.tga"
-	traits = { fly_swatter }
-	skill = 1 #naval guy, don't patch
-}
-
-create_navy_leader = {
-	name = "Phra Mongkolnavin"
-	portrait_path = "gfx/leaders/RMK/SIA/Portrait_Siam_Mongkol_Mongkolnavin.tga"
-	traits = { }
-	skill = 1 #naval guy, don't patch
-}
-
-### Ship Variants for 1936 Start ###
-# 1919 Submarines #
-#create_equipment_variant = {
-#	name = "Matchanu Class"
-#	type = submarine_pre
-#	parent_version = 0
-#	upgrades = {
-#		ship_reliability_upgrade = 2
-#		sub_engine_upgrade = 1
-#		sub_stealth_upgrade = 1
-#		sub_torpedo_upgrade = 2
-#	}
-#}
-# 1916 Destroyers #
-#create_equipment_variant = {
-#	name = "Phra Ruang Class" # Copied off from R-Class Data
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = {
-#		ship_torpedo_upgrade = 1
-#		destroyer_engine_upgrade = 3
-#		ship_ASW_upgrade = 2
-#		ship_anti_air_upgrade = 1
-#	}
-#	obsolete = yes
-#}
-#create_equipment_variant = {
-#	name = "Mahachakri Class"
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = {
-#		destroyer_engine_upgrade = 2
-#		ship_ASW_upgrade = 1
-#	}
-#	obsolete = yes
-#}
-# Pre-WK Destroyers #
-#create_equipment_variant = {
-#	name = "Suriyamonthon Class"
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = { }
-#	obsolete = yes
-#}
-#create_equipment_variant = {
-#	name = "Murathawasitsawat Class"
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = { }
-#	obsolete = yes
-#}
-#create_equipment_variant = {
-#	name = "Mongkut Rachakumarn Class"
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = { }
-#	obsolete = yes
-#}
-#create_equipment_variant = {
-#	name = "Suea Tayarnchol Class"
-#	type = destroyer_pre
-#	parent_version = 0
-#	upgrades = { }
-#	obsolete = yes
-#}
