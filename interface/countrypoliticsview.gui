@@ -65,7 +65,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = 260 y = 188 }
+				position = { x = 263 y = 188 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 230 height = 16 }
 				format = "UPPER_LEFT"
@@ -143,14 +143,14 @@ guiTypes = {
 			size = { width = 175 height = 60 }
 			clipping = no
 					
-#			instantTextboxType = {
-#				name = "party"
-#				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
-#				text = "party"
-#				maxWidth = 300
-#				maxHeight = 20
-#			}
+			instantTextboxType = {
+				name = "party"
+				position = { x = 9 y = 20 }
+				font = "hoi_18mbs"
+				text = "party"
+				maxWidth = 300
+				maxHeight = 20
+			}
 			
 			instantTextboxType = {
 				name = "ideology"
@@ -161,14 +161,14 @@ guiTypes = {
 				maxHeight = 20
 			}
 			
-			instantTextboxType = {
-				name = "elections"
-				position = { x = 9 y = 42 }
-				font = "hoi_16mbs"
-				text = "elections"
-				maxWidth = 155
-				maxHeight = 20
-			}
+			#instantTextboxType = {
+			#	name = "elections"
+			#	position = { x = 9 y = 42 }
+			#	font = "hoi_16mbs"
+			#	text = "elections"
+			#	maxWidth = 155
+			#	maxHeight = 20
+			#}
 			
 			instantTextboxType = {
 				name = "faction_name"
@@ -626,10 +626,10 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "ideas_grid"
-			position = { x = 17 y = 46 }
+			position = { x = 10 y = 46 }
 			size = { width = 100%% height = 80%% }
-			slotsize = { width = 80 height = 64 }
-			max_slots = { x = 8 y = 1 }
+			slotsize = { width = 70 height = 64 }
+			max_slots = { x = 7 y = 2 }
 			format = "UPPER_LEFT"
 		}
 	}
