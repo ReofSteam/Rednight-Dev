@@ -82,7 +82,29 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Manabendra Nath Roy"
+	name = "Mohammad Ali Jinnah"
+	
+	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_Ali_Jinnah.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Morarji Desai"
+	
+	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_Morarji Desai.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Mohandas Karamchand Gandhi"
 	
 	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_MN_Roy.tga"
 	expire = "1965.1.1"
@@ -93,9 +115,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Sardaar Bhagat Singh"
+	name = "Manabendra Nath Roy"
 	
-	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_HOS_Bhagat_Singh.tga"
+	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_MN_Roy.tga"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {

@@ -22,14 +22,14 @@ BHC_social_liberal_party:0 "INC (R)"
 BHC_social_liberal_party_long:0 "Indian National Congress - Right"
 BHC_conservative_party:0 "INC (P)"
 BHC_conservative_party_long:0 "Indian National Congress - Prasad"
-BHC_authoritarian_democrat_party:0 "-"
-BHC_authoritarian_democrat_party_long:0 "-"
-BHC_autocratic_party:0 "-"
-BHC_autocratic_party_long:0 "-"
-BHC_fundamentalist_party:0 "-"
-BHC_fundamentalist_party_long:0 "-"
-BHC_voynist_party:0 "-"
-BHC_voynist_party_long:0 "-"
+BHC_authoritarian_democrat_party:0 "INC (ML)"
+BHC_authoritarian_democrat_party_long:0 "Indian National Congress (Muslim League)"
+BHC_autocratic_party:0 "Hindu Mahasabha"
+BHC_autocratic_party_long:0 "Akhil Bharat Hindu Mahasabha"
+BHC_fundamentalist_party:0 "Mujahideen"
+BHC_fundamentalist_party_long:0 "Pakistani Mujahideen"
+BHC_voynist_party:0 "RSS"
+BHC_voynist_party_long:0 "Rashtriya Swayamsevak Sangh"
 
 ### Country Name ###
 
@@ -80,5 +80,6 @@ BHC_voynist_DEF:0 "the Republic of Bharat"
 ### Ministers ###
 
 ### Leaders ###
+POLITICS_CHANDRA_BOSE_DESC:0 "The revered leader, Subhas Chandra Bose has led the Bharatiyan Revolution for almost thirteen years, by now. A selfless man that has and would sacrifice anything for his country, the Netaji is loved by his people and respected by his critics alike - after all, who wouldn't. \n\nWhen the INC elected him Rashtrapati in 1937, he was at the forefront of the tide of the Revolution, with his mighty cry "Chalo Delhi!" - "Onwards to Delhi!" chanted in unison by the masses. As Canada collapsed, the isolated Delhi government would be overran. British Imperialism has lost India, and the People's Republic of Bharat was proclaimed in 1st October 1939 - the Indian people have stood up. \n\nWith Bharat's continued involvement in neighboring states, such as in Aung San's revolt in Burma and Phibun's ousting in Siam, Bose's ordered for Bharat's rapid industrialization, which had great results, bolstered by the war effort. Bharat has leapt into the modern era, and is now a true world power. \n\nBut as the new decade dawns, Bose's has a new ambition - the true unity and equality of all Indians. Will the Netaji be able to achieve it?"
 
 ### Tech? ###
