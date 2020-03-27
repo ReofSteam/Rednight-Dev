@@ -97,16 +97,16 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_Morarji Desai.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = conservative_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Mohandas Karamchand Gandhi"
+	name = "Lal Bahadur Shastri"
 	
-	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_MN_Roy.tga"
+	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_LB_Shastri.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_subtype
 	traits = {
