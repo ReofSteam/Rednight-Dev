@@ -66,6 +66,9 @@ country_event = {
 			ideology = conservative_subtype
 			traits = {	}
 		}	
+		set_politics = {
+			ruling_party = conservative
+		}
 	}
 	
 	option = {
@@ -79,7 +82,7 @@ country_event = {
 			traits = {	}
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = conservative
 		}
 		set_party_name = { 
 			ideology = authoritarian_democrat 
