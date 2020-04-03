@@ -15,78 +15,76 @@ country_event = {
 	fire_only_once = yes
 
     option = {
-        name = phi.1.a
+		name = phi.1.a
+		retire_country_leader = yes
 		create_country_leader = {
-	name = "Emilio Aguinaldo"
-	desc = "POLITICS_EMILIO_AGUINALDO_DESC"
-	picture = "gfx/leaders/Asia/PHI/PHI_AGUINALDO.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		
+			name = "Emilio Aguinaldo"
+			desc = "POLITICS_EMILIO_AGUINALDO_DESC"
+			picture = "gfx/leaders/Asia/PHI/PHI_Aguinaldo.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = {	}
+		}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+		}	
+		set_party_name = { 
+			ideology = authoritarian_democrat 
+			long_name = PHI_Nacionalista_long 
+			name = PHI_Nacionalista  
+		}	
 	}
-}
-set_politics = {
-	ruling_party = authoritarian_democrat
-}
-	set_party_name = { 
-    ideology = authoritarian_democrat 
-    long_name = PHI_Nacionalista_long 
-    name = PHI_Nacionalista  
-}
-}
+
     option = {
-        name = phi.1.b
+		name = phi.1.b
+		retire_country_leader = yes
 		create_country_leader = {
-	name = "Jose P. Laurel"
-	desc = "POLITICS_JOSE_LAUREL_DESC"
-	picture = "gfx/leaders/Asia/PHI/PHI_LAUREL.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		
+			name = "Jose P. Laurel"
+			desc = "POLITICS_JOSE_LAUREL_DESC"
+			picture = "gfx/leaders/Asia/PHI/PHI_Laurel.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = {	}
+		}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+		}
+		set_party_name = { 
+			ideology = authoritarian_democrat 
+			long_name = PHI_Natsoc_long 
+			name = PHI_Natsoc  
+		}
 	}
-}
-set_politics = {
-	ruling_party = authoritarian_democrat
-}
-	set_party_name = { 
-    ideology = authoritarian_democrat 
-    long_name = PHI_Natsoc_long 
-    name = PHI_Natsoc  
-}
-}
-    option = {
-        name = phi.1.c
+    
+	option = {
+		name = phi.1.c
 		create_country_leader = {
-	name = "Beniqno Aquino Sr."
-	desc = "POLITICS_BENIGNO_AQUINO_DESC"
-	picture = "gfx/leaders/Asia/PHI/PHI_AQUINO.tga"
-	expire = "1965.1.1"
-	ideology = conservative_subtype
-	traits = {
-		
+			name = "Beniqno Aquino Sr."
+			desc = "POLITICS_BENIGNO_AQUINO_DESC"
+			picture = "gfx/leaders/Asia/PHI/PHI_Aquino.tga"
+			expire = "1965.1.1"
+			ideology = conservative_subtype
+			traits = {	}
+		}	
 	}
-}}
-    option = {
-        name = phi.1.e
+	
+	option = {
+		name = phi.1.e
 		create_country_leader = {
-	name = "Manuel Roxas"
-	desc = "POLITICS_ROXAS_DESC"
-	picture = "gfx/leaders/Asia/PHI/PHI_Roxas.tga"
-	expire = "1965.1.1"
-	ideology = conservative_subtype
-	traits = {
-		
-	}
-}
-set_politics = {
-	ruling_party = authoritarian_democrat
-}
-	set_party_name = { 
-    ideology = authoritarian_democrat 
-    long_name = PHI_Nacionalista_long 
-    name = PHI_Nacionalista  
-}
-}
+			name = "Manuel Roxas"
+			desc = "POLITICS_ROXAS_DESC"
+			picture = "gfx/leaders/Asia/PHI/PHI_roxas.tga"
+			expire = "1965.1.1"
+			ideology = conservative_subtype
+			traits = {	}
+		}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+		}
+		set_party_name = { 
+			ideology = authoritarian_democrat 
+			long_name = PHI_Nacionalista_long 
+			name = PHI_Nacionalista  
+		}
+	}	
 }
