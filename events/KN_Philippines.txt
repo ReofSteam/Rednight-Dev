@@ -36,7 +36,7 @@ set_politics = {
 }
 }
     option = {
-        name = phi.1.a
+        name = phi.1.b
 		create_country_leader = {
 	name = "Jose P. Laurel"
 	desc = "POLITICS_JOSE_LAUREL_DESC"
@@ -57,7 +57,7 @@ set_politics = {
 }
 }
     option = {
-        name = phi.1.a
+        name = phi.1.c
 		create_country_leader = {
 	name = "Beniqno Aquino Sr."
 	desc = "POLITICS_BENIGNO_AQUINO_DESC"
@@ -69,7 +69,7 @@ set_politics = {
 	}
 }}
     option = {
-        name = phi.1.a
+        name = phi.1.e
 		create_country_leader = {
 	name = "Manuel Roxas"
 	desc = "POLITICS_ROXAS_DESC"
