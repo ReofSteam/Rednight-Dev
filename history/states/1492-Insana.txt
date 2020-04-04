@@ -1,0 +1,16 @@
+state={
+	id=1492
+	name="STATE_1492"
+	provinces={
+		1339 15740 15741 
+	}
+	history={
+		owner = WST
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=266372
+	state_category=rural
+	buildings_max_level_factor=1.000
+}
