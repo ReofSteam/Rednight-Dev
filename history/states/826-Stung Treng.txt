@@ -10,16 +10,12 @@ state={
 		owner = INC
 		add_core_of INC
 		add_core_of = CAM
-		victory_points = {
-			7645 1 
-		}
 		buildings = {
 			infrastructure = 2
 
 		}
 
 	}
-
 
 	provinces={
 		1577 1620 4330 4596 4639 7645 10204 10453 12150 12167 12260 12475 

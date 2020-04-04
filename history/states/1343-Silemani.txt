@@ -5,9 +5,10 @@ state={
 		15468 15469 15472 15473 
 	}
 	history={
-		owner = KUR
-		add_core_of = KUR
+		owner = IRQ
 		add_core_of = IRQ
+		add_core_of = KUR
+		add_claim_by = TUR
 		buildings = {
 			infrastructure = 2
 		}

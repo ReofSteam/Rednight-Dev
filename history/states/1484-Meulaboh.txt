@@ -1,0 +1,38 @@
+state={
+	id=1484
+	name="STATE_1484"
+	resources={
+		rubber=14.000
+		steel=8.000
+	}
+	history={
+		owner = ACH
+		add_core_of = ACH
+		add_core_of = NBA
+		add_core_of = CLA
+		set_variable = {
+			INS_unrest_meter = 35
+
+		}
+		set_variable = {
+			INS_state_autonomy_var = 3
+
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			12488 10 
+		}
+		victory_points = {
+			8360 5 
+		}
+	}
+	provinces={
+		8360 12488 15733 
+	}
+	manpower=428467
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

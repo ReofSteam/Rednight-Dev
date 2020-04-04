@@ -7,7 +7,7 @@ state={
 	history = {
 		owner = ETR
 		add_core_of = ETR
-		add_core = SIK
+		add_core_of = SIK
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

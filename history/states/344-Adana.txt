@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		 886 3889 6956 11746 11810 15418
+		 886 3889 6956 11746 11810
 	}
 	manpower=397198
 	buildings_max_level_factor=1.000

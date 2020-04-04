@@ -3,8 +3,8 @@ state={
 	id=1304
 	name="STATE_1304"
 	history={
-		owner = OMA
-		add_core_of = OMA
+		owner = MUC
+		add_core_of = MUC
 		buildings = {
 			infrastructure = 2
 		}

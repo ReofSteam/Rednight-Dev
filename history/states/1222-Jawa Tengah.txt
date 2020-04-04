@@ -12,9 +12,15 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 19 
+		}
 		victory_points = {
 			12277 5 # Semarang
-	}
+		}
 		buildings = {
 			infrastructure = 4
 

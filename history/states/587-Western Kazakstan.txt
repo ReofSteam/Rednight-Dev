@@ -5,7 +5,6 @@ state={
 
 	history={
 		owner = RUS
-
 		buildings = {
 			infrastructure = 1
 
@@ -14,9 +13,9 @@ state={
 	}
 
 	provinces={
-		475 642 1517 3593 4523 4620 7541 7641 10262 11701 12163 12233 12383 12454 12474 13008
+		475 642 1517 3593 4523 4620 7541 7641 10262 11701 12163 12233 12383 12454 12474 13008 
 	}
 	manpower=245133
-	buildings_max_level_factor=1
-	state_category="rural"
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

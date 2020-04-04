@@ -3,11 +3,12 @@ state={
 	id=1228
 	name="STATE_1228"
 	provinces={
-		1060 4060 10120 11951 13769 13770 13775 13779 13785 14247 14249
+		10120 13870
 	}
 	history={
 		owner = EGY
 		add_core_of = EGY
+		victory_points = { 13870 1 }
 		buildings = {
 			infrastructure = 1
 

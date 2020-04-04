@@ -4,7 +4,8 @@ state={
 	name="STATE_772"
 
 	history={
-		owner = ROM
+		owner = BUL
+		add_core_of = BUL
 		add_core_of = ROM
 		victory_points = {
 			9635 5
@@ -24,7 +25,7 @@ state={
 	}
 
 	provinces={
-		657 687 3076 9635 13600 
+		657 687 3076 9635 
 	}
 	manpower=861400
 	buildings_max_level_factor=1.000

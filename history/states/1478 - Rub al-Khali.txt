@@ -1,0 +1,22 @@
+state={
+	id=1478
+	name="STATE_1478"
+
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1043 
+	}
+	manpower=429
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

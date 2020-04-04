@@ -10,7 +10,7 @@ state={
 		}
 	}
 	provinces={
-		7570 8235 8250 10436 10990 
+		10436 
 	}
 	manpower=69
 	state_category = wasteland

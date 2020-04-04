@@ -11,11 +11,12 @@ state={
 	}
 
 	history={
-		owner = GRE
+		owner = BUL
+		add_core_of = BUL
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 4
-						dockyard = 1
+			dockyard = 1
 		}
 		victory_points = {
 			9930 1 #Kavala

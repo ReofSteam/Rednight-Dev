@@ -4,8 +4,8 @@ state={
 	name="STATE_273"
 
 	history={
-		owner = LBA
-		add_core_of = LBA
+		owner = TRI
+		add_core_of = TRI
 		buildings = {
 			infrastructure = 0
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		5004 10884 12022 12866 13758 14213 14215 14218 14253 
+		5004 
 	}
 	manpower=1633
 	buildings_max_level_factor=1.000

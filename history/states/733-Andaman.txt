@@ -5,8 +5,8 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = FRA
-		
+		owner = BHC
+		add_core_of = BHC
 		buildings = {
 			infrastructure = 3
 			12251 = {

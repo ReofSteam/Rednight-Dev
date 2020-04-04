@@ -1,0 +1,22 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+
+	history={
+		owner = YEM
+		add_core_of = YEM
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		13079 13716 13718 15439 15442 
+	}
+	manpower=22103
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

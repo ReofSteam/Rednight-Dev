@@ -10,8 +10,8 @@ state=
 	state_category = town
 	
 	history = {
-		owner = CAC
-		add_core_of = CAC
+		owner = ELS
+		add_core_of = ELS
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

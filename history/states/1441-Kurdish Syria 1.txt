@@ -5,6 +5,7 @@ state = {
 		owner = EGY
 		add_core_of = EGY
 		add_core_of = KUR
+		add_core_of = TUR
 		victory_points = {
 			11871 3
 		}

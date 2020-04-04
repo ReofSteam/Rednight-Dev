@@ -7,10 +7,16 @@ state={
 	}
 
 	history={
-		owner = JAP
+		owner = INS
 		add_core_of = INS
 		victory_points = {
 			12113 1 
+		}
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 14 
 		}
 		buildings = {
 			infrastructure = 2

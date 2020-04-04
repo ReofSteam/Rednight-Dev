@@ -1,0 +1,31 @@
+state={
+	id=1486
+	name="STATE_1486"
+	impassable = yes
+	resources={
+		rubber=14.000
+	}
+	history={
+		owner = ACH
+		add_core_of = ACH
+		add_core_of = NBA
+		add_core_of = CLA
+		set_variable = {
+			INS_unrest_meter = 35
+
+		}
+		set_variable = {
+			INS_state_autonomy_var = 3
+
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		15731 15732 15736 15737 
+	}
+	manpower=87342
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

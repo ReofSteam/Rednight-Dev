@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = USN
 		victory_points = {
-			15670 3 
+			15670 5 
 		}
 		victory_points = {
 			15199 1 

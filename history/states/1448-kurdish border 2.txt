@@ -3,7 +3,8 @@ state={
 	name="STATE_1448"
 
 	history={
-		owner = TUR
+		owner = EGY
+		add_core_of = EGY
 		add_core_of = TUR
 		add_core_of = KUR
 		buildings = {
@@ -14,7 +15,7 @@ state={
 	}
 
 	provinces={
-		15482 15483
+		15418 15482 15483
 	}
 	manpower=582741
 	buildings_max_level_factor=1.000

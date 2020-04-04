@@ -7,13 +7,12 @@ state={
 		owner = INC
 		add_core_of INC
 		add_core_of = VIN
-		victory_points = { 1073 4 }
 		buildings = {
 			infrastructure = 3
+
 		}
 
 	}
-
 
 	provinces={
 		1073 1157 7015 7093 7518 9948 12065 

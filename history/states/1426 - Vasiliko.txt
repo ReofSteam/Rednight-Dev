@@ -4,8 +4,10 @@ state={
 	manpower=69
 	state_category = rural
 	history={
+
 		owner = BUL
 		add_core_of = BUL
+		add_core_of = TUR
 		buildings = {
 			infrastructure = 3
 		}
