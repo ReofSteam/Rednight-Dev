@@ -170,6 +170,7 @@ PRI = "countries/Indonesian Revolt.txt"
 NRM = "countries/Northern Resistance Comittee.txt"
 EVN = "countries/Empire of Vietnam.txt"
 KNR = "countries/Khmer Nationalist Revolt.txt"
+TMR = "countries/Timor.txt"
 
 ##Pacific
 AST = "countries/Australia.txt"
