@@ -1,4 +1,3 @@
-
 state={
 	id=1350
 	name="STATE_1350"
@@ -7,20 +6,15 @@ state={
 		owner = WST
 		buildings = {
 			infrastructure = 3
-			victory_points = {
-				1355 1 ##Kupang
-			}
 			1355 = {
 				naval_base = 1
 
 			}
-
 		}
-
 	}
 
 	provinces={
-		1355 15738 
+		1339 1355 4358 
 	}
 	manpower=1657376
 	buildings_max_level_factor=1.000
