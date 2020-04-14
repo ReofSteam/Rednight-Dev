@@ -26,6 +26,7 @@ FOZ = "countries/French Occupation Zone.txt"
 GER = "countries/Germany.txt"
 JOZ = "countries/Joint Occupation Zone.txt"
 NTH = "countries/Netherlands.txt"
+KND = "countries/Netherlands Revolt.txt"
 SWI = "countries/Switzerland.txt"
 FRG = "countries/White Germany.txt" #Fash Republic of Germany
 MRV = "countries/Moravia.txt" 

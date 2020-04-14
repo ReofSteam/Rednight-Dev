@@ -569,8 +569,52 @@ spriteTypes = {
 		name = "GFX_idea_DEN_Kurt_Ramberg"
 		texturefile = "gfx/ministers/DEN/DEN_Kurt_Ramberg.tga"
 	}
+	 ################################################################################################################################################################################################
+  ### NTH
+  ################################################################################################################################################################################################
 
-	
-
-
+	spriteType = {
+		name = "GFX_idea_NTH_Abraham_Menist"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Abraham_Menist.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Daan_Monje"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Daan_Monje.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Henk_Hoekstra"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Henk_Hoekstra.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Lou_Visser"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Lou_Visser.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Paul_Groot"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Paul_Groot.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_PJ_Schmidt"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_PJ_Schmidt.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Willem_Dolleman"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Willem_Dolleman.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Willem_Schouten"
+		texturefile = "gfx/ministers/WESTERN_EUROPE/NTH/NTH_Willem_Schouten.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Gerben_Wagenaar"
+		texturefile = "gfx/ministers/NTH/NTH_Gerben_Wagenaar.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Heije_Schaper"
+		texturefile = "gfx/ministers/NTH/NTH_Heije_Schaper.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_NTH_Jim_de_Booy"
+		texturefile = "gfx/ministers/NTH/NTH_Jim_de_Booy.tga"
+	}
 }

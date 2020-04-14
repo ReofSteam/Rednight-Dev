@@ -826,7 +826,40 @@ spriteTypes = {
 		name = "GFX_idea_druze_minority"
 		texturefile = "gfx/interface/ideas/LEB/druze_minorityy.tga"
 	}
-
+	
+	####Netherlands
+	#Netherlands
+	spriteType = {
+	name = "GFX_idea_HOL_ondergronseoorlog"
+	texturefile = "gfx/interface/ideas/HOL/HOL_ondergronseoorlog.tga"
+	}
+	spriteType = {
+	name = "GFX_idea_HOL_ongoing_depillarization"
+	texturefile = "gfx/interface/ideas/HOL/HOL_ongoing_depillarization.tga"
+	}
+	spriteType = {
+	name = "GFX_idea_HOL_resentful_countrymen"
+	texturefile = "gfx/interface/ideas/HOL/HOL_resentful_countrymen.tga"
+	}
+	spriteType = {
+	name = "GFX_idea_HOL_war_in_council"
+	texturefile = "gfx/interface/ideas/HOL/HOL_war_in_council.tga"
+	}
+	
+	#Dutch Revolt
+	spriteType = {
+	name = "GFX_idea_NRE_RVNE"
+	texturefile = "gfx/interface/ideas/HOL/NRE_RVNE.tga"
+	}
+	spriteType = {
+	name = "GFX_idea_NVE_Radio_Oranje"
+	texturefile = "gfx/interface/ideas/HOL/NVE_Radio_Oranje.tga"
+	}
+	spriteType = {
+	name = "GFX_idea_NVE_the_resistance"
+	texturefile = "gfx/interface/ideas/HOL/NVE_the_resistance.tga"
+	}
+	
 	### RUSSIA ###
 
 	spriteType = {

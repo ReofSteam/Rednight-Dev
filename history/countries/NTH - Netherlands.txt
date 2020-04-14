@@ -24,13 +24,43 @@ set_technology = {
 	transport = 1
 }
 
-# set_autonomy = {
-# 	target = INS
-# 	autonomous_state = SP_colony
-# }
+set_variable = { kn_social_liberal_banned = 1 }
+set_variable = { kn_conservative_banned = 1 }
+set_variable = { kn_authoritarian_democrat_banned = 1 }
+set_variable = { kn_autocratic_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_voynist_banned = 1 }
+
+set_variable = { kn_social_nationalist_coalition = 1 }
+set_variable = { kn_marxist_coalition = 1 }
+set_variable = { kn_libertarian_coalition = 1 }
+set_variable = { kn_moderate_socialist_coalition = 1 }
+
+add_ideas = {
+#starting
+ HOL_ondergrondseoorlog
+ HOL_ongoing_depillarisation
+ HOL_resentful_countrymen
+ HOL_war_in_the_council
+ HOL_phalanstere_reconstruction_initiative
+ HOL_weltkrieg_losers
+ #cabinet
+ NTH_Lou_Visser_hog
+ NTH_Abraham_Menist_interior
+ NTH_Paul_Groot_economy
+ NTH_Henk_Hoekstra_foreign
+ NTH_Piet_Schmidt_education
+ NTH_Willem_Dolleman_culture
+ NTH_Daan_Monje_transport
+ NTH_Willem_Schouten_intel
+ NTH_Gerben_Wagenaar_cos
+ NTH_Gerben_Wagenaar_coa
+ NTH_Heije_Schraper_coaf
+ NTH_Jim_Boij_con
+}
 
 set_politics = {	
-	ruling_party = libertarian
+	ruling_party = marxist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = yes
@@ -38,28 +68,27 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 0
-    libertarian = 100
-    moderate_socialist = 0
-    social_democrat = 0
-    social_liberal = 0
-    conservative = 0
-    authoritarian_democrat = 0
-    autocratic = 0
+    social_nationalist = 3
+    marxist = 17
+    libertarian = 11
+    moderate_socialist = 34
+    social_democrat = 21
+    social_liberal = 3
+    conservative = 4
+    authoritarian_democrat = 3
+    autocratic = 4
     fundamentalist = 0
     voynist = 0
 }
 
 set_convoys = 500
-set_stability = 0.65
 
 create_country_leader = {
 	name = "Council for the Netherlands"
-	desc = ""
+	desc = "POLITICS_COUNCIL_FOR_NETHERLANDS_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/NTH/NTH_dutch_council.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = marxist_subtype
 	traits = {
 		#
 	}
