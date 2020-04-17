@@ -1,0 +1,173 @@
+﻿division_template = {# USA Militia
+	name = "Loyalist Militia"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Mounted Loyalists"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Loyalist Garrison"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	template_counter = 6
+	priority = 0
+}
+division_template = {# USA Motorized
+	name = "Loyalist Motorized Guard"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+division_template = {# USA Militia
+	name = "Army Loyalists"
+	division_names_group = USA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "USA Resistance"
+	division_names_group = USA_INF_01
+	is_locked = yes
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Washington DC National Guard"
+		location = 3957 #Washington
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Capital Reserve"
+		location = 3957 #Washington
+		division_template = "Loyalist Garrison"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Capital Reserve"
+		location = 3957 #Washington
+		division_template = "Loyalist Garrison"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Virginia National Guard"
+		location = 3823 #Richmond
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Texas National Guard"
+		location = 12782 #San Antonio
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "United States Border Patrol"
+		location = 12782 #San Antonio
+		division_template = "Loyalist Motorized Guard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Colorado National Guard"
+		location = 1827 #Denver
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Western Command"
+		location = 1827 #Denver
+		division_template = "Loyalist Garrison"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Tennessee National Guard"
+		location = 12501 #Nashville
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Wyoming National Guard"
+		location = 4723 #Cheyenne
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Maryland National Guard"
+		location = 6984 #Baltimore
+		division_template = "Army Loyalists"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+}

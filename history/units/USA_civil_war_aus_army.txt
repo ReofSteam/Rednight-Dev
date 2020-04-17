@@ -1,0 +1,200 @@
+﻿division_template = {
+	name = "AUS Militia"
+	division_names_group = USA_INF_01
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Mounted AUS Militia"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "AUS Garrison"
+	is_locked = yes
+	division_names_group = USA_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	template_counter = 6
+	priority = 0
+}
+division_template = {
+	name = "AUS Infantry Division"
+	division_names_group = USA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {# Motorized
+	name = "AUS Motorized Division"
+	division_names_group = USA_MOT_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "AUS Resistance"
+	division_names_group = USA_INF_01
+	is_locked = yes
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {# Army
+	division = {
+		name = "Long's Minutemen"
+		location = 7552 #New Orleans
+		division_template = "AUS Garrison"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Minutemen Infantry"
+		location = 7552 #New Orleans
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Minutemen Infantry"
+		location = 7552 #New Orleans
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Minutemen Infantry"
+		location = 10337 #Houston
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6th Minutemen Infantry"
+		location = 10337 #Houston
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Mounted Minutemen"
+		location = 10337 #Houston
+		division_template = "Mounted AUS Militia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Minutemen Infantry"
+		location = 12384 #Atlanta
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Minutemen Infantry"
+		location = 7202 #Charleston
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7th Minutemen Infantry"
+		location = 7202 #Charleston
+		division_template = "AUS Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1st Motorized Minutemen"
+		location = 12384 #Atlanta
+		division_template = "AUS Motorized Division"
+		start_experience_factor = 0.35
+		start_equipment_factor = 1.0
+	}
+}
+
+air_wings = {
+
+	365 = {
+		fighter_equipment_0 = {
+			owner = TEX
+			amount = 200
+		}
+		cas_equipment_1 = {
+			owner = TEX
+			amount = 200
+		}
+	}
+
+	365 = {
+		fighter_equipment_0 = {
+			owner = TEX
+			amount = 200
+		}
+	}
+
+	365 = {
+		tac_bomber_equipment_0 = {
+			owner = TEX
+			amount = 200
+		}
+	}
+
+	365 = {
+		cas_equipment_1 = {
+			owner = TEX
+			amount = 200
+		}
+	}
+}

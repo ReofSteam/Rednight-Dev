@@ -1,0 +1,22 @@
+state = { #Chongqing
+	id = 650
+	name = "STATE_650"
+	manpower = 18228256
+	state_category = four
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
+		victory_points = {
+			6999 15
+		}
+	}
+	provinces = {
+		1893 4141 4431 6999 9939
+	}
+}

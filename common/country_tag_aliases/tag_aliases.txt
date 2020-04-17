@@ -1,0 +1,45 @@
+### National Protection Alliance (GXC/SZC/HNN/YUN)
+NPA = {
+	global_event_target = npa_leader
+}
+
+### United Provinces of China (GXC/SZC)
+UPC = {
+	global_event_target = UPC_leader
+}
+
+### Puppet Fengtian
+RGC = {
+	targets = { FNG }
+	has_cosmetic_tag = FNG_JAP
+}
+
+### Sichuan Exiles
+ZHL = {
+	targets = { SZC }
+	has_completed_focus = SZC_The_Zhilis_Last_Stand
+}
+SZF = {
+	targets = { SZC }
+	has_completed_focus = SZC_The_Last_Bastion_Of_Federalism
+}
+
+### Sino-Japanese War Missions
+JPW = {
+	targets = { JAP }
+	has_war_with = event_target:current_china_leader
+	has_global_flag = chinese_united_front_formed
+}
+
+### Entente Leader
+ENT = {
+	global_event_target = KR_entente_leader
+}
+
+
+# operative operation target
+# only set for majors who has agency
+# set on on_weekly
+MOT = {
+	variable = generic_operation_target
+}

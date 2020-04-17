@@ -1,0 +1,341 @@
+technologies = {
+
+	camel_corpse = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech camel_corpse"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#OTT_camel_corpse_tooltip
+		cavalry = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.03
+			}
+		}
+	}
+
+	tech_ski_infantry = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech tech_ski_infantry"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: tech_ski_infantry_effect
+		infantry = {
+			hills = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	tech_marine_bonus = {#Added for FRA
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech tech_marine_bonus"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: tech_marine_bonus_effect
+		marine = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+	}
+
+	jungle_warfare = {#For Siamese NF tree (Also GEA and some others)
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech jungle_warfare"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: RAJ_jungle_training_effect
+		militia = {
+			jungle = {
+				attack = 0.05
+				defence = 0.03
+				movement = 0.05
+			}
+		}
+		infantry = {
+			jungle = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		marine = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		paratrooper = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	Valkyrie_tech = {#For GEA
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech Valkyrie_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		field_hospital = {
+			casualty_trickleback = 0.20
+			experience_loss_factor = -0.10
+		}
+	}
+
+	sapper_tactic_tech = {#INC
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech sapper_tactic_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		recon = {
+			recon = 1
+			breakthrough = 1
+		}
+	}
+
+	expanded_engineer_corps_tech = {#Pacific States from America
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech expanded_engineer_corps_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		#If you change these
+		#Change the custom tooltip too: expanded_engineer_corps_tech_effect
+		#They're in the PSA loc file
+		engineer = {
+			entrenchment  = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+	}
+
+	mountain_training_tech = {#Pacific States of America
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech mountain_training_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		#If you change these
+		#Change the custom tooltip too: mountain_training_tech_effect
+		#They're in the PSA loc file
+		infantry = {
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	improved_recon_units_tech = {#Pacific States of America
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech improved_recon_units_tech"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		#If you change these
+		#Change the custom tooltip too: improved_recon_units_tech_effect
+		#They're in the PSA loc file
+		recon = {
+			recon = 1
+			breakthrough = 1
+		}
+	}
+
+	asymmetrical_warfare = {#For Siamese NF tree
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech asymmetrical_warfare"}
+
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: RAJ_jungle_training_effect
+		militia = {
+			urban = {
+				attack = 0.05
+				defence = 0.03
+				movement = 0.05
+			}
+		}
+		infantry = {
+			urban = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		marine = {
+			urban = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			urban = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		paratrooper = {
+			urban = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	desert_warfare = {#For Egypt
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech desert_warfare"}
+		research_cost = 1
+
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#If you change these
+		#Change the custom tooltip too: RAJ_jungle_training_effect
+		militia = {
+			desert = {
+				attack = 0.05
+				defence = 0.03
+				movement = 0.05
+			}
+		}
+		infantry = {
+			desert = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		marine = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		paratrooper = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	red_dragon = {
+		on_research_complete = { log = "[GetDateText]: [Root.GetName]: add tech red_dragon"}
+		research_cost = 1
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		#If you change these
+		#Change the custom tooltip too: red_dragon_effect
+		artillery = {
+			fort = {
+				attack = 0.20
+			}
+		}
+		artillery_brigade = {
+			fort = {
+				attack = 0.20
+			}
+		}
+		mot_artillery_brigade = {
+			fort = {
+				attack = 0.20
+			}
+		}
+	}
+}

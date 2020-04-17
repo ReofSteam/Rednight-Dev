@@ -1,0 +1,24 @@
+state={
+	id=915
+	name="STATE_915"
+
+	history={
+		owner = JBS
+		add_core_of = JBS
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		victory_points = {
+			2057 3
+		}
+
+	}
+
+	provinces={
+		2057 4968 4974 5027 5058 12758 12879 13666
+	}
+	manpower=246153
+	state_category=one
+}

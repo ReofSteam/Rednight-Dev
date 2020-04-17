@@ -1,0 +1,569 @@
+# befriend
+# conquer
+# antagonize
+# build_ship
+# build_army
+# unit_ratio
+# build_building
+# research_tech
+# garrison
+# protect
+# influence
+
+#Internationale#
+FRA_ignore_germany_claims = {
+	allowed = {
+		tag = FRA
+	}
+	enable = {
+		tag = FRA
+		is_faction_leader = yes
+		date < 1940.1.1
+		country_exists = GER
+		NOT = { has_war_with = GER }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = ignore_claim
+		id = "GER"
+		value = 1
+	}
+}
+
+international_canada = {
+	enable = {
+		is_in_faction_with = ENG
+		ENG = { has_socialist_government = yes }
+		CAN = {
+			is_faction_leader = yes
+			has_socialist_government = no
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = contain
+		id = "CAN"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAN"
+		value = 200
+	}
+}
+
+international_natfrance = {
+	enable = {
+		is_in_faction_with = FRA
+		country_exists = NFA
+		FRA = { has_socialist_government = yes }
+		NFA = { has_socialist_government = no }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = contain
+		id = "NFA"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NFA"
+		value = 200
+	}
+}
+
+international_delhi = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		country_exists = DEH
+		country_exists = BHC
+		BHC = { has_socialist_government = yes }
+		DEH = { has_socialist_government = no }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = contain
+		id = "DEH"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DEH"
+		value = 100
+	}
+}
+
+international_germany = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		has_socialist_government = yes
+		country_exists = GER
+		GER = { is_faction_leader = yes }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 200
+	}
+}
+
+international_protect_france = {
+	enable = {
+		is_in_faction_with = FRA
+		NOT = {
+			tag = FRA
+			tag = ENG
+		}
+		num_divisions > 5
+		GER = {
+			exists = yes
+			is_faction_leader = yes
+			has_capitulated = no
+		}
+		NOT = {
+			any_neighbor_country = { has_war_with = ROOT }
+			surrender_progress > 0
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = spare_unit_factor
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "FRA"
+		value = 500
+	}
+}
+
+ENG_protect_france = {
+	allowed = {
+		tag = ENG
+	}
+	enable = {
+		tag = ENG
+		is_in_faction_with = FRA
+		has_war_with = GER
+		num_divisions > 5
+		NOT = {
+			surrender_progress > 0
+			FRA = { has_capitulated = yes }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = support
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "FRA"
+		value = 10000
+	}
+}
+
+international_protect_england = {
+	enable = {
+		is_in_faction_with = ENG
+		NOT = { tag = ENG }
+		num_divisions > 5
+		ENG = {
+			surrender_progress > 0
+		}
+		NOT = {
+			any_neighbor_country = { has_war_with = ROOT }
+			surrender_progress > 0
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = spare_unit_factor
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = support
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ENG"
+		value = 500
+	}
+}
+
+international_protect_italy = {
+	enable = {
+		NOT = { tag = SRI }
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		SRI = {
+			OR = {
+				has_war_with = ITA
+				has_war_with = SRD
+				has_war_with = SIC
+			}
+		}
+		has_global_flag = KR_italy_balance
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = support
+		id = "SRI"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_lend_lease_desire
+		id = "SRI"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "SRI"
+		value = 10000
+	}
+}
+
+international_france = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			tag = SRI
+		}
+		NOT = { tag = FRA }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 200
+	}
+}
+
+syndicalists_to_france = {
+	enable = {
+		has_socialist_government = yes
+		NOT = {
+			is_in_faction_with = FRA
+			tag = SRI
+			tag = FRA
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "FRA"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 100
+	}
+}
+
+international_england = {
+	enable = {
+		OR = {
+			is_in_faction_with = ENG
+			tag = SRI
+		}
+		NOT = { tag = ENG }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+}
+
+syndicalists_to_england = {
+	enable = {
+		has_socialist_government = yes
+		NOT = {
+			is_in_faction_with = ENG
+			tag = SRI
+			tag = ENG
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 100
+	}
+}
+
+international_likes_sri = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		NOT = { tag = SRI }
+		is_in_europe = yes
+		has_socialist_government = yes
+		SRI = {
+			has_socialist_government = yes
+			NOT = { has_war_with = FRA }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "SRI"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SRI"
+		value = 100
+	}
+}
+
+international_likes_norway = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		NOT = { tag = NOR }
+		is_in_europe = yes
+		has_socialist_government = yes
+		NOR = {
+			has_socialist_government = yes
+			NOT = { has_war_with = FRA }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "NOR"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NOR"
+		value = 100
+	}
+}
+
+international_likes_sweden = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		NOT = { tag = SWE }
+		is_in_europe = yes
+		has_socialist_government = yes
+		SWE = {
+			has_socialist_government = yes
+			NOT = { has_war_with = FRA }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "SWE"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 100
+	}
+}
+
+international_likes_cnt = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		NOT = { tag = CNT }
+		is_in_europe = yes
+		has_socialist_government = yes
+		CNT = {
+			exists = yes
+			has_socialist_government = yes
+			NOT = { has_war_with = FRA }
+		}
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "CNT"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CNT"
+		value = 100
+	}
+}
+
+international_likes_sov = {
+	enable = {
+		SOV = {
+			exists = yes
+			has_socialist_government = yes
+			NOT = { has_war_with = ROOT }
+		}
+		NOT = {
+			tag = SOV
+			tag = UKR
+			tag = WHR
+			tag = LIT
+			tag = LAT
+			tag = EST
+		}
+		is_in_europe = yes
+		has_socialist_government = yes
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = befriend
+		id = "SOV"
+		value = 100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 100
+	}
+}
+
+international_leave_norway = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		GER = {
+			exists = yes
+			is_faction_leader = yes
+			has_capitulated = no
+		}
+		NOR = { is_in_faction_with = ROOT }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "NOR"
+		value = 100
+	}
+}
+
+international_leave_sweden = {
+	enable = {
+		OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ENG
+		}
+		GER = {
+			exists = yes
+			is_faction_leader = yes
+			has_capitulated = no
+		}
+		SWE = { is_in_faction_with = ROOT }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = "SWE"
+		value = 100
+	}
+}

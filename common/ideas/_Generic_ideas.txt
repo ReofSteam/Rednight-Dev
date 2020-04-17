@@ -1,0 +1,317 @@
+##############
+# Generic
+##############
+ideas = {
+	#### General ####
+	industrial_concern = {
+		generic_industrial_company = {
+			allowed = {
+				uses_generic_concerns = yes
+			}
+			traits = {
+				industrial_manufacturer
+			}
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+	}
+
+	#### Weapons Manufacturer ####
+	weapons_manufacturer = {
+		designer = yes
+
+		generic_arms_company = {
+			allowed = {
+				uses_generic_concerns = yes
+			}
+			traits = {
+				infantry_equipment_producer_offense_0
+			}
+			research_bonus = {
+				infantry_weapons = 0.1
+			}
+		}
+
+		generic_artillery_company = {
+			allowed = {
+				uses_generic_concerns = yes
+			}
+			traits = {
+				artillery_producer_offense_0
+			}
+			research_bonus = {
+				artillery = 0.1
+			}
+		}
+
+	}
+
+	#### Heavy Equipment Manufacturer ####
+	tank_manufacturer = {
+		designer = yes
+
+
+		generic_tank_company = {
+			allowed = {
+				uses_generic_concerns = yes
+			}
+			traits = {
+				small_tank_producer_offense_0
+			}
+			research_bonus = {
+				armor = 0.1
+			}
+		}
+	}
+
+	#### Air and Naval Manufacturer ####
+	naval_manufacturer = {
+		designer = yes
+
+		generic_naval_company = {
+			allowed = {
+				uses_generic_concerns = yes
+				NOT = {
+					tag = CUB
+				}
+			}
+			traits = {
+				small_ship_producer_offense_0
+			}
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+		}
+
+	}
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		generic_fighter_company = {
+			allowed = {
+				uses_generic_concerns = yes
+				NOT = {
+					tag = CUB
+				}
+			}
+			traits = {
+				fighter_producer_offense_0
+			}
+			research_bonus = {
+				air_equipment = 0.1
+			}
+		}
+
+	}
+
+	country = {
+		draft_dodging = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription_factor = -0.2
+			}
+		}
+		draft_dodging_2 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription_factor = -0.3
+			}
+		}
+		draft_dodging_3 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_manpower_bonus
+
+			modifier = {
+				conscription_factor = -0.4
+			}
+		}
+		strikes_1 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.2
+				local_resources_factor = -0.2
+				industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+		strikes_2 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.3
+				local_resources_factor = -0.3
+				industrial_capacity_factory = -0.3
+				industrial_capacity_dockyard = -0.3
+			}
+		}
+		strikes_3 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_production_bonus
+
+			modifier = {
+				consumer_goods_factor = 0.5
+				local_resources_factor = -0.5
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+			}
+		}
+		mutiny_1 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_army_problems
+
+			modifier = {
+				army_morale_factor = -0.2
+				training_time_factor = 0.2
+				army_attack_factor = -0.25
+				experience_gain_army = -0.1
+				army_org_factor = -0.1
+			}
+		}
+		mutiny_2 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_army_problems
+
+			modifier = {
+				army_morale_factor = -0.35
+				training_time_factor = 0.35
+				army_attack_factor = -0.5
+				experience_gain_army = -0.2
+				army_org_factor = -0.20
+			}
+		}
+		mutiny_3 = {
+
+			allowed = {
+				always = no
+			}
+			available = {
+				has_war = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = generic_army_problems
+
+			modifier = {
+				army_morale_factor = -0.5
+				training_time_factor = 0.5
+				army_attack_factor = -0.75
+				experience_gain_army = -0.3
+				army_org_factor = -0.5
+			}
+		}
+	}
+
+}

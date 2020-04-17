@@ -1,0 +1,25 @@
+state = { #Yuehai
+	id = 593
+	name = "STATE_593"
+	manpower = 16730000
+	state_category = five
+	resources = {
+		tungsten = 8
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4050 2
+		}
+	}
+
+	provinces = {
+		1087 1131 1187 1202 4092 7039 7108 7152 9963 11938 11941 12077 12095
+	}
+}

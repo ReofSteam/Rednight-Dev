@@ -1,0 +1,32 @@
+state = {
+	id = 634
+	name = "STATE_634"
+
+	history = {
+		owner = GEA
+		add_core_of = GEA
+		add_core_of = PNG
+
+		buildings = {
+			infrastructure = 2
+			1269 = {
+				naval_base = 2
+			}
+			4378 = {
+				naval_base = 1
+			}
+			10234 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1269 1
+		}
+	}
+
+	provinces = {
+		1042 1085 1269 1358 1370 4226 4252 4292 4378 7437 10234 10291 10319 12265
+	}
+	manpower = 150000
+	state_category = one_island
+}

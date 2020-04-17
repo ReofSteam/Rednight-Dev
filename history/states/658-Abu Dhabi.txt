@@ -1,0 +1,26 @@
+state={
+	id=658
+	name="STATE_658"
+
+	history={
+		owner = JBS
+		add_core_of = JBS
+		buildings = {
+			infrastructure = 2
+			7960 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			2048 1
+		}
+	}
+
+	provinces={
+		2048 7960 8108 10904
+	}
+	manpower=108000
+	state_category=one
+}

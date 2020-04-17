@@ -1,0 +1,28 @@
+state = {
+	id = 929
+	name = "STATE_929"
+
+	resources = {
+		oil = 4
+	}
+
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+		victory_points = {
+			7588 2
+		}
+	}
+
+	provinces = {
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888
+	}
+
+	manpower = 1808000
+	state_category = four
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 442
+	name = "STATE_442"
+	manpower = 4684400
+
+	state_category = two
+
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		victory_points = { 12763 1 } #Peshawar
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		1978 2084 4558 4998 12717 12763
+	}
+}
