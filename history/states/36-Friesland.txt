@@ -1,0 +1,25 @@
+
+state={
+	id=36
+	name="STATE_36"
+	manpower = 1018420
+
+	state_category = large_town	
+	history={
+		owner = NTH
+		add_core_of = NTH
+		add_core_of = KNR
+		victory_points = { 9335 1}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			6336 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		6336 9309 9335 11318
+	}
+}

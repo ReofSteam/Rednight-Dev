@@ -1,0 +1,22 @@
+
+state={
+	id=1136
+	name="STATE_1136"
+	provinces={
+		4126 10110 11948 12085 14256 14260 
+	}
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			10110 1
+		}
+
+	}
+	manpower=2409600
+	state_category = town
+	buildings_max_level_factor=1.000
+}

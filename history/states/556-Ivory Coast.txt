@@ -1,0 +1,23 @@
+
+state={
+	id=556
+	name="STATE_556" #French sudan
+
+	history={
+		owner = MLI
+		add_core_of = MLI
+		victory_points = { 12751 1 } #Bamako
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		4927 5045 8116 10812 10829 10915 12751 12794 12838 12851
+	}
+	manpower=3302415
+	buildings_max_level_factor=1
+	state_category="rural"
+}

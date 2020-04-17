@@ -1,9 +1,9 @@
-state = {
-	id = 808
-	name = "STATE_808"
+state={
+	id=808
+	name="STATE_808"
 
-	history = {
-		owner = FRA
+	history={
+		owner = BFA
 		add_core_of = BFA
 		victory_points = {
 			10836 1 #Ouagadougou
@@ -13,9 +13,10 @@ state = {
 		}
 	}
 
-	provinces = {
-		8071 10836 2001 7950 12851
+	provinces={
+		8071 10836
 	}
-	manpower = 3754166
-	state_category = two
+	manpower=3754166
+	buildings_max_level_factor=1
+	state_category="rural"
 }

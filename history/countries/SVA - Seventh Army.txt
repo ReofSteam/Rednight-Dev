@@ -1,0 +1,59 @@
+﻿capital = 673 
+
+oob = "SUL_1950"
+
+set_research_slots = 2
+
+add_ideas = {
+	#Starting Ideas
+	SVA_Seventh_Teritorium
+	SVA_pacification_campaign
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_convoys = 25
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 57
+	autocratic = 24
+	fundamentalist = 3
+	voynist = 16
+}
+
+create_country_leader = {
+	name = "Soeharto"
+	desc = "POLITICS_SOEHARTO_2_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soeharto.tga"
+	expire = "1965.10.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { leader_smiling_general }
+}
+

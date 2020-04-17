@@ -1,0 +1,38 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		aluminium=44.000
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			12113 1 
+		}
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 14 
+		}
+		buildings = {
+			infrastructure = 2
+			12113 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		12113 14906 
+	}
+	manpower=53237
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

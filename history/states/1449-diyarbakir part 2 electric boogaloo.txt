@@ -1,0 +1,18 @@
+state={
+	id=1449
+	name="STATE_1449"
+	provinces={
+		12387 15485 15487 15491 15496 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category = town
+}

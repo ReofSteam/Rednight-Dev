@@ -1,0 +1,30 @@
+
+state={
+	id=780
+	name="STATE_780"
+	resources={
+		steel=30.000
+		aluminium=10.000
+	}
+
+	history={
+		victory_points = {
+			11531 3
+		}
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		11531 
+	}
+	manpower=814600
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

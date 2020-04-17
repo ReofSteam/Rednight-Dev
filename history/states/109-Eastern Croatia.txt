@@ -1,0 +1,40 @@
+
+state={
+	id=109
+	name="STATE_109"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = {
+			11581 10 
+		}
+		victory_points = {
+			6647 3 
+		}
+		victory_points = {
+			3592 2 
+		}
+		victory_points = {
+			3596 5 
+		}
+		victory_points = {
+			9611 1 
+		}
+
+	}
+
+	provinces={
+		9611 11581 
+	}
+	manpower=1059727
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

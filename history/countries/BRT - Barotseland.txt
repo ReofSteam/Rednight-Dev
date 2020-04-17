@@ -1,33 +1,32 @@
-﻿capital = 957
+﻿capital = 958
 set_research_slots = 2
 set_technology = {
-	### Infantry ###
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
 	infantry_weapons = 1
 }
-
-set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1888.6.15"
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 2
-	social_liberal = 6
-	market_liberal = 6
-	social_conservative = 12
-	authoritarian_democrat = 15
-	paternal_autocrat = 47
-	national_populist = 12
+    social_nationalist = 0
+    marxist = 0
+    libertarian = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    conservative = 0
+    authoritarian_democrat = 0
+    autocratic = 100
+    fundamentalist = 0
+    voynist = 0
 }
 
-create_country_leader = {
-	name = "Yeta III"
-	picture = "Portrait_Barot_YetaIII.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-}
+###gfx/leaders/SOUTHERN_AFRICA/BRT/

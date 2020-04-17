@@ -1,24 +1,28 @@
-state = {
-	id = 933
-	name = "STATE_933"
+state={
+	id=933
+	name="STATE_933"
 
-	history = {
-		owner = USA
-		add_core_of = USA
-
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
+	history={
+		owner = CSA
+		add_core_of = CSA
+		
+		buildings={
+			infrastructure=4
+			industrial_complex=1
+		}
+		victory_points = {
+			7629 3
 		}
 		victory_points = {
 			4445 1
 		}
 	}
 
-	provinces = {
+	provinces={
 		4445 7629 9675 13158
 	}
-
-	manpower = 357000
-	state_category = three
+	
+	manpower=528300
+	buildings_max_level_factor=1
+	state_category=small_town
 }

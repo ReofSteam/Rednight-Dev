@@ -1,10 +1,11 @@
-state = {
-	id = 720
-	name = "STATE_720"
-	manpower = 30
-	state_category = zero_island
-
-	history = {
+state={
+	id=720
+	name="STATE_720"
+	manpower=30	
+	state_category = tiny_island
+	
+	history=
+	{
 		owner = ARG
 		buildings = {
 			infrastructure = 1
@@ -13,10 +14,9 @@ state = {
 			}
 		}
 		add_core_of = ARG
-		add_claim_by = FOP
 	}
-
-	provinces = {
+	
+	provinces={
 		10995
 	}
 }

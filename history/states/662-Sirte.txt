@@ -1,0 +1,22 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = TRI
+		add_core_of = TRI
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1041 4047 7136 7194 10046 10117 12088 13073 13767 13884 14225 14235 14220 13771
+	}
+	manpower=23213
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

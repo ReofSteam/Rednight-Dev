@@ -1,0 +1,18 @@
+state={
+	id=1423
+	name="STATE_1423"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		13739 13748 13843 13844 13848 13849 13852 13853 13856 14204 14212
+	}
+	manpower=69
+	buildings_max_level_factor=1
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		victory_points = {
+			14922 3 
+		}
+		buildings = {
+			infrastructure = 4
+			14922 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1889 4959 7982 12863 14915 14917 14918 14921 14922 14925 14927 14931 
+	}
+	manpower=192240
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

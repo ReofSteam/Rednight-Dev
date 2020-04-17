@@ -1,0 +1,23 @@
+
+state={
+	id=287
+	name="STATE_287"
+
+	history={
+		owner = XRA
+		add_core_of = XRA
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1943 2074 4973 5042 5736 7792 8042 8086 10315 10885 10911 12864 
+	}
+	manpower=478000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

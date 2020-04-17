@@ -1,97 +1,115 @@
 ﻿capital = 550
+
+add_ideas = {
+	ERI_popular_dictatorship
+	ERI_an_armed_nation
+	ERI_egyptian_ties
+}
+
 set_research_slots = 2
 set_technology = {
-	### Infantry ###
+### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	### Tanks ###
+	### INF ###
 	infantry_weapons = 1
 	tech_support = 1
 	tech_engineers = 1
 	gw_artillery = 1
-	### Air ###
+	### AIR ###
 	early_fighter = 1
-}
-
-### Navy - MtG ###
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-
-		## Modules##
-		weltkrieg_naval_gunnery = 1
-		light_battery_one = 1
-		smoke_generator = 1
-	}
-}
-
-### Navy - Non MtG ###
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-	}
 }
 
 set_politics = {
 	ruling_party = authoritarian_democrat
-	last_election = "1888.6.15"
+	last_election = "1932.3.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 1
-	syndicalist = 0
+	social_nationalist = 0
+	marxist = 1
+	libertarian = 1
+	moderate_socialist = 3
 	social_democrat = 1
-	social_liberal = 6
-	market_liberal = 11
-	social_conservative = 15
-	authoritarian_democrat = 47
-	paternal_autocrat = 16
-	national_populist = 3
+	social_liberal = 25
+	conservative = 20
+	authoritarian_democrat = 40
+	autocratic = 2
+	fundamentalist = 4
+	voynist = 3
+}
+
+create_country_leader = {
+	name = "Woli Mondelli"
+	desc = "POLITICS_WOLI_MONDELLI_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Woli_Mondelli.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Woldeab Woldemariam"
+	desc = "POLITICS_WOLDEAB_WOLDEMARIAM_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Woldeab_Woldemariam.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Abduldakir Kebire"
+	desc = "POLITICS_ABDULDAKIR_KEBIRE_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Abduldakir_Kebire.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Hamid Idris Awate"
+	desc = "POLITICS_HAMID_IDRIS_AWATE_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Hamid_Idris_Awate.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ibrahim Ali Sultan"
+	desc = "POLITICS_IBRAHIM_ALI_SULTAN_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Ibrahim_Ali_Sultan.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ibrahim Ali Sultan"
+	desc = "POLITICS_IBRAHIM_ALI_SULTAN_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Ibrahim_Ali_Sultan.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		
+	}
 }
 
 set_convoys = 30
-
-add_ideas = {
-	ERI_Siwie_Shiek_Abdulkadir_Kebire_hog_pau
-	ERI_Ibrahim_Sultan_Ali_for_sco
-}
-create_country_leader = {
-	name = "Wolde 'Mondelli' Sellassie"
-	desc = "POLITICS_WOLDE_SELLASSIE_DESC"
-	picture = "Portrait_ERI_Sellasie.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
-
-create_corps_commander = {
-	name = "Mondelli Sellasie"
-	portrait_path = "gfx/leaders/ERI/Portrait_ERI_Sellasie.tga"
-	traits = {
-		war_hero
-		guerilla_fighter
-		commando
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-

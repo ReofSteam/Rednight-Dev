@@ -1,210 +1,162 @@
 ﻿capital = 300
 OOB = "URG"
-set_naval_oob= "URG_naval"
 set_research_slots = 3
 set_technology = {
-	### Tanks ###
-	### Infantry ###
+### Navy ###
+	shipbuild_basics = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+	####Tanks ###
+	### INF ###
 	infantry_weapons = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 	CAS1 = 1
-	### Naval ###
-
-
-
 }
-
-### Navy - MtG ###
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-
-		## Modules##
-		early_torpedo = 1
-		weltkrieg_naval_gunnery = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		light_battery_two = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-		weltkrieg_naval_gunnery = 1
-		weltkrieg_naval_gunnery = 1
-	}
-}
-
-### Navy - Non MtG ###
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-		weltkrieg_dreadnought_nonmtg = 1
-	}
-}
-
-set_war_support = 0.1
 
 set_politics = {
-	ruling_party = social_democrat
-	last_election = "1934.4.4"
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 5
-	syndicalist = 5
-	social_democrat = 36
-	social_liberal = 8
-	market_liberal = 4
-	social_conservative = 30
-	authoritarian_democrat = 2
-	paternal_autocrat = 8
-	national_populist = 2
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
 }
 
 
-country_event = {
-	id = urg.1
-	days = 2
-}
 
 add_ideas = {
-	URG_neutrality_idea
-	URG_Gabriel_Terra_hog_sde
-	URG_Hector_Alberto_Gerona_Sapello_for_sli
-	URG_Leopoldo_Carlos_Artucio_eco_sli
-	URG_Alberto_Dominguez_Campora_sec_sde
+	
 }
 
 create_country_leader = {
-	name = "Alfredo Baldomir Ferrari"
-	desc = "POLITICS_ALFREDO_FERRARI_DESC"
-	picture = "Portrait_Uruguay_Alfredo_Ferrari.tga"
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_URG_CNA.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Consejo Nacional De Administración"
+	desc = "POLITICS_URG_CNA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_URG_CNA.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Gabriel Terra"
 	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "Portrait_Uruguay_Gabriel_Terra.tga"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Gabriel_Terra.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Joaquín Secco Illa"
-	desc = "POLITICS_JUAQIN_ILLA_DESC"
-	picture = "gfx/leaders/South America/portrait_south_america_generic_9_edit.tga"
+	name = "Alfredo Baldomir Ferrari"
+	desc = "POLITICS_ALFREDO_FERRARI_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Alfredo_Ferrari.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
-
-create_country_leader = {
-	name = "Consejo Nacional De Administración"
-	desc = "POLITICS_URG_CNA_DESC"
-	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "Consejo Nacional De Administración"
-	desc = "POLITICS_URG_CNA_DESC"
-	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Consejo Nacional De Administración"
-	desc = "POLITICS_URG_CNA_DESC"
-	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Consejo Nacional De Administración"
-	desc = "POLITICS_URG_CNA_DESC"
-	picture = "Portrait_URG_CNA.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = fundamentalist_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Emilio Frugoni"
 	desc = "POLITICS_EMILIO_FRUGONI_DESC"
-	picture = "Portrait_Uruguay_Emilio_Frugoni.tga"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Emilio_Frugoni.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = libertarian_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Paulina Luisi"
 	desc = "POLITICS_PAULINA_LUISI_DESC"
-	picture = "Portrait_Uruguay_Paulina_Luisi.tga"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Paulina_Luisi.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = marxist_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Hugo Fernández Artucio"
 	desc = "POLITICS_HUGO_ARTUCIO_DESC"
-	picture = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Hugo_Artucio.tga"
 	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = voynist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Joaquín Secco Illa"
+	desc = "POLITICS_JUAQIN_ILLA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Joaquin_Illa.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
 }
 
 
-### Field Marshals ###
-### Corps Commanders ###
+### Field Marshal
+### Corps Commander
 create_field_marshal = { #Auto-Generated
 	name = "Alfredo Baldomir Ferrari"
-	desc = "URU_Alfredo_Ferrari_desc"
-	portrait_path = "gfx/leaders/URG/Portrait_Uruguay_Alfredo_Ferrari.tga"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/URG/Portrait_Uruguay_Alfredo_Ferrari.tga"
 	traits = {
 		politically_connected
 		trait_cautious
 		thorough_planner
 	}
 	skill = 3
-	attack_skill = 1
-	defense_skill = 4
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 1
+	logistics_skill = 4
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Óscar Diego Gestido"
-	desc = "URU_Oscar_Diego_Gestido_desc"
-	portrait_path = "gfx/leaders/URG/Portrait_Uruguay_Oscar_Diego_Gestido.tga"
+	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_2.tga"
 	traits = {
 		career_officer
 		brilliant_strategist
@@ -213,14 +165,15 @@ create_corps_commander = { #Auto-Generated
 	skill = 2
 	attack_skill = 2
 	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
-	name = "Tydeo Larre Borges"
-	portrait_path = "gfx/leaders/URG/Portrait_Uruguay_Tydeo_Larre_Borges.tga"
+	name = "Líber Seregni"
+	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
 	traits = {
+		trait_cautious
 		organizer
 	}
 	skill = 1
@@ -230,31 +183,11 @@ create_corps_commander = { #Auto-Generated
 	logistics_skill = 1
 }
 
-create_corps_commander = { #Auto-Generated
-	name = "Líber Seregni"
-	desc = "URU_Liber_Seregni_desc"
-	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_3.tga"
-	traits = {
-		trait_cautious
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-### Admirals ###
+### Navy Leader
 create_navy_leader = { #Auto-Generated
 	name = "Atilio Frigerio"
 	portrait_path = "gfx/leaders/Europe/portrait_europe_generic_navy_4_edit.tga"
-	traits = { }
+	traits = {
+	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
 }
-
-URG_start_naval_variant = yes
-

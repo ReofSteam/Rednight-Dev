@@ -1,0 +1,23 @@
+
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		7076
+	}
+	manpower=1678
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

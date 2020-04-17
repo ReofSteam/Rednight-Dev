@@ -1,0 +1,22 @@
+
+state={
+	id=996
+	name="STATE_996"
+
+	history={
+		owner = SER
+		add_core_of = SER
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		619 3617 
+	}
+	manpower=20300
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

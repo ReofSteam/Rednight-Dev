@@ -1,0 +1,23 @@
+
+state={
+	id=1379
+	name="STATE_1379"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		add_claim_by = ALG
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		14402 14411 14426 14442 14458 3991 4116
+	}
+	manpower=163160
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=1376
+	name="STATE_1376"
+	provinces={
+		1939 5196 10860 15332 15338 15339
+	}
+	history={
+		owner = TNG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TNG
+		#add_core_of = KLD
+
+	}
+	manpower=300800
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=984
+	name="STATE_984"
+	provinces={
+		6672
+	}
+	history={
+		owner = HUN
+		add_core_of = SLN
+		add_core_of = YUG
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 6
+
+		}
+	}
+
+	manpower=102867
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

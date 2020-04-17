@@ -1,0 +1,32 @@
+state={
+	id=44
+	name="STATE_44"
+	resources={
+		aluminium=4
+		chromium=6
+		oil=2
+	}
+
+	history={
+		owner = ALB
+		add_core_of = ALB
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+			9914 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { 15721 10 }
+		victory_points = { 9914 2 }
+	}
+
+	provinces={
+		9914 15721
+	}
+	manpower=697960
+	buildings_max_level_factor=1.000
+	state_category=town
+}

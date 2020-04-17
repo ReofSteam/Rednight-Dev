@@ -1,183 +1,181 @@
 ﻿capital = 849
 OOB = "VEN"
-set_naval_oob= "VEN_naval"
 set_convoys = 30
 set_research_slots = 3
 set_technology = {
-	### Infantry ###
+	### Navy ###
+	shipbuild_basics = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+	####Tanks ###
+	### INF ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
 	tech_support = 1
 	tech_recon = 1
 	gw_artillery = 1
-
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 	naval_bomber1 = 1
 }
 
-### Navy - MtG ###
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-
-		## Modules##
-		early_torpedo = 1
-		weltkrieg_naval_gunnery = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		sonar = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-
-		### Transport ###
-		transport = 1
-	}
-}
-
-### Navy - Non MtG ###
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-
-		### Transport ###
-		transport_n = 1
-	}
-}
-
-set_war_support = 0.2
-
 set_politics = {
-	ruling_party = social_democrat
-	last_election = "1934.5.15"
-	election_frequency = 60
-	elections_allowed = yes
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 2
-	syndicalist = 8
-	social_democrat = 33
-	social_liberal = 24
-	market_liberal = 12
-	social_conservative = 9
-	authoritarian_democrat = 5
-	paternal_autocrat = 5
-	national_populist = 2
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
 }
 
 add_ideas = {
-	limited_conscription
-	VEN_oil_addiction
-	VEN_foreign_oil_companies
-	# Cabinet
-	VEN_Lisandro_Alvarado_hog_sde
-	VEN_Jose_Antonio_Ramos_Sucre_for_sde
-	VEN_Maria_Cruz_Salmeron_Acosta_eco_sde
-	VEN_Isaac_Jose_Pardo_Soublette_sec_sde
+	VEN_Memories_of_the_Coup
+	VEN_Insufficient_Economy
+	VEN_Oil_Worker_Strikes
 }
 
-country_event = {
-	id = ven.1
-	days = 2
+### CABINET
+add_ideas = {
+	VEN_Luis_Llovera_Paez_hog #Prime Minister 
+	VEN_Edmundo_Luongo_Cabello_mnp #Minister of Labour
+	VEN_Luis_Eduardo_Chataing_interior #Minister of Interior
+	VEN_Aurelio_Arreaza_Arreaza_finance #Minister of Finance
+	VEN_Aureliano_Otanez_foreign #Minister of Foreign Affairs
+	VEN_Humberto_Fernandez_Moran_education #Minister of Education
+	VEN_Silvio_Gutierrez_transport #Minister of Transportation
+	VEN_Luis_Felipe_Urbaneja_intel #Head of Intelligence
+	VEN_Raul_Soules_Baldo_cos #Chief of Staff
+	VEN_Oscar_Mazzei_Carta_coa #Chief of Army
+	VEN_Felix_Roman_Moreno_coaf #Chief of Air Force
+	VEN_Wolfgang_Larrazabal_con #Chief of Navy
 }
-country_event = {
-	id = ven.9
-	days = 75
+
+### PARTIES UI ###
+	set_variable = { kn_autocratic_coalition = 1 }
+	set_variable = { kn_conservative_coalition = 1 }
+
+	### BANNED ###
+	set_variable = { kn_social_nationalist_banned = 1 }
+	set_variable = { kn_marxist_banned = 1 }
+	set_variable = { kn_libertarian_banned = 1 }
+	set_variable = { kn_moderate_socialist_banned = 1 }
+	set_variable = { kn_social_democrat_banned = 1 }
+###
+
+create_country_leader = {
+	name = "Juan B. Fuenmayor"
+	desc = "POLITICS_JUAN_B_FUENMAYOR_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Juan_B_Fuenmayor.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Tomas Contreras Villalobos"
-	desc = "POLITICS_TOMAS_VILLALOBOS_DESC"
-	picture = "gfx/leaders/Generic/Portrait_South_America_Generic_1.tga"
+	name = "Jesus Faría"
+	desc = "POLITICS_JESUS_FARIA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Jesus_Faria.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = marxist_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Isidoro Ruiz Tuerro"
-	desc = "POLITICS_ISIDORO_TUERRO_DESC"
-	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_5.tga"
+	name = "Workers’ Council"
+	desc = "POLITICS_WORKERS_COUNCIL_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Workers_Council.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = libertarian_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Diogenes Escalante"
-	desc = "POLITICS_DIOGENES_ESCALANTE_DESC"
-	picture = "Portrait_Venezuela_Diogenes_Escalante.tga"
+	name = "Romulo Gallegos"
+	desc = "POLITICS_ROMULO_GALLEGOS_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Romulo_Gallegos.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
-
-create_country_leader = {
-	name = "Eleazar López Contreras"
-	desc = "POLITICS_ELEAZAR_CONTRERAS_DESC"
-	picture = "Portrait_Venezuela_Eleazar_Contreraz.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "Isaías Medina Angarita"
-	desc = "POLITICS_ISAIAS_MEDINA_DESC"
-	picture = "Portrait_Venezuela_Isaias_Medina.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Elías Toro"
-	desc = "POLITICS_ELIAS_TORO_DESC"
-	picture = "gfx/leaders/Generic/Portrait_France_Generic_1.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = moderate_socialist_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Rómulo Betancourt"
 	desc = "POLITICS_ROMULO_BETANCOURT_DESC"
-	picture = "Portrait_Venezuela_Romulo_Betancourt.tga"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Romulo_Betancourt.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Juan Bautista Fuenmayor"
-	desc = "POLITICS_JUAN_FUNEMAYOR_DESC"
-	picture = "Portrait_Venezuela_Juan_Funemayor.tga"
+	name = "Jóvito Villalba"
+	desc = "POLITICS_JOVITO_VILLALBA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Jovito_Villabla.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = social_liberal_subtype
+	traits = {}
 }
 
-### Field Marshals ###
+create_country_leader = {
+	name = "Rafael Caldera"
+	desc = "POLITICS_RAFAEL_CALDERA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Rafael_Caldera.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Marcos Pérez Jiménez"
+	desc = "POLITICS_MARCOS_PEREZ_JIMENEZ_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Marcos_Perez_Jimenez.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Luis L. Páez"
+	desc = "POLITICS_LUIS_L_PAEZ_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Luis_L_Paez.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Monsignor Lucas"
+	desc = "POLITICS_MONSIGNOR_LUCAS_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Monsignor_Lucas.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Francis P. Yockey"
+	desc = "POLITICS_FRANCIS_P_YOCKEY_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Francis_P_Yockey.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {}
+}
+### Field Marshal
 
 create_field_marshal = {  #Auto-Generated
 	name = "Carlos Delgado Chabauld"
@@ -188,7 +186,7 @@ create_field_marshal = {  #Auto-Generated
 		trait_engineer
 		commando
 	}
-	skill = 3
+	skill = 2
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
@@ -196,7 +194,7 @@ create_field_marshal = {  #Auto-Generated
 }
 
 
-### Corps Commanders ###
+### Corps Commander
 create_corps_commander = { #Auto-Generated
 	name = "Marcos Perez Jimenez"
 	portrait_path = "gfx/leaders/VEN/Portrait_Venezuela_Marcos_Perez_Jimenez.tga"
@@ -206,19 +204,20 @@ create_corps_commander = { #Auto-Generated
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Elías Guiterrez"
 	portrait_path = "gfx/leaders/Generic/Portrait_South_America_Generic_land_new_1.tga"
-	traits = { }
+	traits = {
+	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 
@@ -232,9 +231,9 @@ create_corps_commander = { #Auto-Generated
 		organizer
 	}
 	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
 	logistics_skill = 2
 }
 
@@ -248,8 +247,8 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -262,10 +261,10 @@ create_corps_commander = { #Auto-Generated
 		trickster
 	}
 	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = { #Auto-Generated
@@ -276,9 +275,9 @@ create_corps_commander = { #Auto-Generated
 		cavalry_officer
 	}
 	skill = 1
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 1
 }
 
@@ -291,12 +290,12 @@ create_corps_commander = { #Auto-Generated
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
 }
 
-### Admirals ###
+### Navy Leader
 create_navy_leader = { #Auto-Generated
 	name = "Mariano Henrique López Méndez"
 	portrait_path = "gfx/leaders/VEN/Portrait_Venezuela_Mariano_Mendez.tga"
@@ -304,24 +303,13 @@ create_navy_leader = { #Auto-Generated
 		old_guard_navy
 		superior_tactician
 	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
+	skill = 1
 }
-
 
 create_navy_leader = { #Auto-Generated
 	name = "Wolfgang Enrique Larrazábal Ugueto"
 	portrait_path = "gfx/leaders/VEN/Portrait_Venezuela_Wolfgang.tga"
-	traits = { }
+	traits = {
+	}
 	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
 }
-
-VEN_start_naval_variant = yes
-

@@ -1,0 +1,246 @@
+﻿capital = 286 #Saigon
+
+oob = "INC"
+set_variable = { kn_social_nationalist_coalition = 1 }
+set_variable = { kn_moderate_socialist_coalition = 1 }
+set_variable = { kn_social_democrat_coalition = 1 }
+set_variable = { kn_social_liberal_coalition = 1 }
+set_variable = { kn_authoritarian_democrat_coalition = 1 }
+set_variable = { kn_conservative_coalition = 1 }
+
+set_variable = { kn_voynist_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_autocratic_banned = 1 }
+
+set_research_slots = 3
+
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.2
+
+add_ideas = {
+	INC_young_republic
+	INC_being_of_the_people
+	INC_a_fragile_coaltion
+	INC_disunited_military
+	INC_building_our_economy
+}
+
+###Council of State
+add_ideas = {
+	INC_Nguyen_Van_Cu
+	INC_Tran_Trong_Kim
+	INC_Ha_Huy_Tap
+	INC_Phan_Anh
+	INC_Nguyen_Hai_Than
+	INC_Nguyen_Tuong_Tam
+	INC_Nguyen_Van_Huyen
+	INC_Tran_Dang_Khoa
+	INC_Dao_Phuc_Loc
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	#trench_warfare = 1
+	#fleet_in_being = 1
+}
+
+set_politics = {	
+	ruling_party = moderate_socialist 
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 15
+    marxist = 25
+    libertarian = 2
+    moderate_socialist = 15
+    social_democrat = 9
+    social_liberal = 3
+    conservative = 19
+    authoritarian_democrat = 5
+    autocratic = 3
+    fundamentalist = 2
+    voynist = 2
+}
+
+##gfx/leaders/RMK/INC/
+
+create_country_leader = {
+	name = "Phan Bôi Châu" 
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
+	expire = "1953.3.1"
+	ideology = fundamentalist_subtype 
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ho Tung Mau" 
+	desc = "POLITICS_HO_TUNG_MAU_DESC"
+	picture = "gfx/leaders/Asia/INC/Ho_Tung_Mau_INC.tga"
+	expire = "1953.3.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ngo Dinh Diêm"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = conservative_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Ta Thu Thau"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = libertarian_subtype
+	traits = {
+		
+	}
+}
+
+create_field_marshal = {
+	name = "Nguyen Binh"
+	portrait_path = "gfx/leaders/ASIA/INC/Nguyen_Binh_INC.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Van Tien Dung"
+	portrait_path = "gfx/leaders/ASIA/INC/Van_Tien_Dung_INC.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+######Military 
+create_corps_commander = {
+	name = "Tran Van Tra"
+	portrait_path = "gfx/leaders/ASIA/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nguyen Son"
+	portrait_path = "gfx/leaders/ASIA/INC/Nguyen_Son_INC.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Phung Chi Kien"
+	portrait_path = "gfx/leaders/ASIA/INC/asianman.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Dam Quang Trung"
+	portrait_path = "gfx/leaders/ASIA/INC/asianman.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Vu Hong Khanh"
+	portrait_path = "gfx/leaders/ASIA/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Bo Xuan Luat"
+	portrait_path = "gfx/leaders/ASIA/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Trinh Minh The"
+	portrait_path = "gfx/leaders/ASIA/INC/Trinh_Minh_The_INC.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nguyen Dan"
+	portrait_path = "gfx/leaders/ASIA/INC/Nguyen_Dan_INC.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+

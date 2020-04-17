@@ -1,0 +1,66 @@
+﻿capital = 676
+OOB = "empty"
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+
+set_politics = {	
+	ruling_party = conservative
+	last_election = "1940.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    social_nationalist = 2
+    marxist = 12
+    libertarian = 0
+    moderate_socialist = 14
+    social_democrat = 3
+    social_liberal = 17
+    conservative = 20
+    authoritarian_democrat = 16
+    autocratic = 6
+    fundamentalist = 4
+    voynist = 6
+}
+
+add_ideas = {
+	uneasy_peace
+	leftist_activity
+	egyptian_lapdog
+	endemic_corruption
+}
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+set_variable = { kn_social_nationalist_banned = 1 }
+set_variable = { kn_marxist_banned = 1 }
+set_variable = { kn_libertarian_banned = 1 }
+set_variable = { kn_moderate_socialist_banned = 1 }
+set_variable = { kn_social_democrat_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_voynist_banned = 1 }
+
+###############################
+########### LEADERS ###########
+# gfx/leaders/CAIRO_PACT/MSL/ #
+###############################
+create_country_leader = {
+	name = "Nuri al-Said"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {}
+}

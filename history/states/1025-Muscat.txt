@@ -1,0 +1,34 @@
+
+state={
+	id=1025
+	name="STATE_1025"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = MUC
+		add_core_of = MUC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			10760 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			10760 3 
+		}
+
+	}
+
+	provinces={
+		1947 8002 8020 15402 
+	}
+	manpower=257400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

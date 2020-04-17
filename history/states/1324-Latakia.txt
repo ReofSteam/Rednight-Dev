@@ -1,0 +1,20 @@
+state={
+	id=1324
+	name="STATE_1324"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		add_claim_by = TUR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1088 10087 
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

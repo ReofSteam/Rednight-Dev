@@ -1,22 +1,22 @@
-state = {
-	id = 421
-	name = "STATE_421"
 
-	history = {
+state={
+	id=421
+	name="STATE_421"
+
+	history={
 		owner = PER
-		add_core_of = KUR
+		add_core_of = PER
 		buildings = {
 			infrastructure = 3
+
 		}
-		add_core_of = PER
-		victory_points = {
-			12773 5
-		}
+
 	}
 
-	provinces = {
-		829 5050 5098 7985 8040 8125 9816 10774 12773
+	provinces={
+		829 5050 10774 12773 15032 15047 15054 15064 15081 
 	}
-	manpower = 1649528
-	state_category = three
+	manpower=680278
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

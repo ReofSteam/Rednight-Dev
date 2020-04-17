@@ -1,0 +1,31 @@
+
+state={
+	id=759
+	name="STATE_759"
+	resources={
+		steel=24
+		aluminium=8
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = VNZ
+		victory_points = {
+			9613 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		
+	}
+
+	provinces={
+		628 3657 6656 9613 13582
+	}
+	manpower=928600
+	buildings_max_level_factor=1
+	state_category="large_city"
+}

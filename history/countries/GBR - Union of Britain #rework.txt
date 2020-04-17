@@ -1,0 +1,308 @@
+﻿capital = 126
+
+oob = "ENG"
+
+set_research_slots = 4
+
+set_stability = 0.80
+set_war_support = 0.15
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	#trench_warfare = 1
+
+	transport = 1
+	#fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+
+add_ideas = {
+	GBR_victors_of_the_second_weltkrieg
+	GBR_overstretched_navy
+	GBR_bloated_trade_union_bureaucracy
+	GBR_the_fate_of_the_protector
+	GBR_phalanstere_reconstruction_initiative
+}
+
+#CABINET
+add_ideas = {
+	GBR_Clem_Attlee #Head of Government
+	GBR_Nye_Bevan_interior #Interior
+	GBR_Stafford_Cripps #Economic
+	GBR_Arthur_Horner_foreign #Foreign
+	GBR_Annie_Kenney #Education
+	GBR_GDH_Cole #Culture 
+	GBR_Willie_Gallacher #Transport
+	GBR_Richard_Crossman_portfolio #No portfolio (Labour Leader)
+	GBR_Guy_Liddell #Intel
+	GBR_Thomas_Wintringham #Chief of Staff 
+	GBR_Bill_Alexander #Chief of Army
+	GBR_Jack_Baldwin #Chief of Air
+	GBR_Geoffrey_Barnard #Chief of Navy
+}
+
+### PARTIES UI ###
+	set_variable = { kn_marxist_coalition = 1 }
+	set_variable = { kn_libertarian_coalition = 1 }
+	set_variable = { kn_moderate_socialist_coalition = 1 }
+	set_variable = { kn_social_democrat_coalition = 1 }
+
+	### BANNED ###
+	set_variable = { kn_conservative_banned = 1 }
+	set_variable = { kn_authoritarian_democrat_banned = 1 }
+	set_variable = { kn_autocratic_banned = 1 }
+	set_variable = { kn_fundamentalist_banned = 1 }
+	set_variable = { kn_voynist_banned = 1 }
+
+
+set_convoys = 800
+
+# DIPLOMACY
+
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1936.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 7
+	marxist = 18
+	libertarian = 13
+	moderate_socialist = 36
+	social_democrat = 3
+	social_liberal = 2
+	conservative = 4
+	authoritarian_democrat = 1
+	autocratic = 2
+	fundamentalist = 2
+	voynist = 12
+}
+
+### Starting Political Leaders ###
+create_country_leader = {
+	name = "John Warburton"
+	desc = "POLITICS_JOHN_WARBURTON_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_John_Warburton.tga"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Harry Pollitt"
+	desc = "POLITICS_HARRY_POLLITT_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Harry_Pollitt.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Sylvia Pankhurst"
+	desc = "POLITICS_SYLVIA_PANKHURST_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Sylvia_Pankhurst.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Clement Attlee"
+	desc = "POLITICS_CLEM_ATTLEE_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Clem_Attlee.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		modest_statesman
+	}
+}
+
+create_country_leader = {
+	name = "Clement Attlee"
+	desc = "POLITICS_CLEM_ATTLEE_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Clem_Attlee.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "William McKeag"
+	desc = "POLITICS_WILLIAM_MCKEAG_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_McKeag.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Peter Thornycroft"
+	desc = "POLITICS_PETER_THORNYCROFT_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Peter_Thornycroft.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Alan Lennox-Boyd"
+	desc = "POLITICS_ALAN_LENNOX_BOYD_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Alan_Lennox_Boyd.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Alan Lennox-Boyd"
+	desc = "POLITICS_ALAN_LENNOX_BOYD_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Alan_Lennox_Boyd.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "William Joyce"
+	desc = "POLITICS_WILLIAM_JOYCE_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_Joyce.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Jeffrey Hamm"
+	desc = "POLITICS_JEFFREY_HAMM_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Jeffrey_Hamm.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+
+##### GENERALS OF THE BRITISH ARMY #####
+
+## Field Marshals 
+
+create_field_marshal = {
+	name = "Thomas Wintringham"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Thomas_Wintringham.tga"
+	traits = { war_hero politically_connected career_officer infantry_officer organisational_leader infantry_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "Bill Alexander"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Bill_Alexander.tga"
+	traits = { politically_connected war_hero infantry_officer commando urban_assault_specialist inspirational_leader offensive_doctrine }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+## Commanders
+
+create_corps_commander = {
+	name = "William Gott"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_Gott.tga"
+	traits = { war_hero trait_reckless adaptable }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "David Stirling"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_David_Stirling.tga"
+	traits = { war_hero career_officer commando trait_mountaineer paratrooper }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Geoffrey C. Evans"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Geoffrey_C_Evans.tga"
+	traits = { war_hero career_officer brilliant_strategist offensive_doctrine infantry_leader }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Johnny Longstaff"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Johnny_Longstaff.tga"
+	traits = { war_hero media_personality armor_officer }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Malcolm Dunbar"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Malcolm_Dunbar.tga"
+	traits = { urban_assault_specialist trickster expert_improviser }
+	skill = 2
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "George M. Nathan"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_George_M_Nathan.tga"
+	traits = { war_hero media_personality career_officer guerilla_fighter }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}

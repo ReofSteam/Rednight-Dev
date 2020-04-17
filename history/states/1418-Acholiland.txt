@@ -1,0 +1,19 @@
+state={
+	id=1418
+	name="STATE_1418"
+
+	history={
+		owner = BGA
+		add_core_of = BGA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		7133 8223
+	}
+	manpower=69
+	buildings_max_level_factor=1
+	state_category=rural
+}

@@ -1,0 +1,136 @@
+﻿capital = 541
+OOB = "empty"
+
+add_ideas = {
+	BGA_colonial_vestiges
+	BGA_ravages_of_war
+	BGA_religious_conflicts
+	BGA_peace_between_the_tribes
+}
+
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 0
+	autocratic = 100
+	fundamentalist = 0
+	voynist = 0
+}
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+set_variable = { kn_social_nationalist_banned = 1 }
+set_variable = { kn_marxist_banned = 1 }
+set_variable = { kn_libertarian_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_voynist_banned = 1 }
+
+set_variable = { kn_conservative_coalition = 1 } #the conservatives is in a coalition with the army
+
+set_stability = 0.5
+
+##########################################
+################# LEADERS ################
+# gfx/leaders/EASTERN_MEDITERRANEAN/GRE/ #
+##########################################
+
+create_country_leader = {
+	name = "Kabaka Mutesa"
+	desc = "POLITICS_KABAKA_MUTESA_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/BGA/BGA_Kabaka_Mutesa.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		
+	}
+}
+
+
+### Field Marshal
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Heinrich Kirchheim"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_Heinrich_Kircheim.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Knobel"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_Knobel.tga"
+	traits = {
+		fortress_buster
+	}
+	skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Owen"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_Owen.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Wanstone"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_Wanstone.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "van Deffels"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_van_Deffels.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "de Beers"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_de_Beers.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 1
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Freyverts"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/BGA/Portrait_NAM_Freyverts.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1
+}

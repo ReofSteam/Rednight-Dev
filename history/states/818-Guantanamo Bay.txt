@@ -1,23 +1,27 @@
-state = {
-	id = 818
-	name = "STATE_818"
+state= {
+	id=818
+	name="STATE_818"
 	manpower = 2000
 
+	
+	state_category = enclave
 
-	state_category = zero
-
-	history = {
-		owner = USA
+	history= {
+		owner = CUB
 		buildings = {
-
-			infrastructure = 4
+			infrastructure = 5
 			13205 = {
-				naval_base = 2
+				naval_base = 3
 			}
 		}
 		add_core_of = CUB
+		
+		victory_points = {
+			13205 1
+		}
+
 	}
-	provinces = {
-		13205
+	provinces={
+	13205
 	}
 }

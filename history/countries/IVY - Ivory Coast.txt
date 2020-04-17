@@ -1,0 +1,44 @@
+﻿capital = 1384
+OOB = "empty"
+
+add_ideas = {
+	IVY_viva_la_republique
+	IVY_francophile_policymaking
+	IVY_french_mercenaries
+	IVY_resist_the_red_menace
+	IVY_immense_population_growth
+}
+
+set_technology = {}
+set_research_slots = 1
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 1
+	marxist = 2
+	libertarian = 1
+	moderate_socialist = 3
+	social_democrat = 7
+	social_liberal = 17
+	conservative = 13
+	authoritarian_democrat = 45
+	autocratic = 6
+	fundamentalist = 3
+	voynist = 2
+}
+
+create_country_leader = {
+	name = "Félix Boigny"
+	picture = "gfx/leaders/WEST_AFRICA/IVY/IVY_Felix_Boigny.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+###gfx/leaders/WEST_AFRICA/IVY/

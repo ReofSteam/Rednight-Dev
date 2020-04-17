@@ -1,0 +1,30 @@
+
+state={
+	id=1200
+	name="STATE_1200"
+
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		buildings = {
+			infrastructure = 5
+			3924 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			3924 3 
+		}
+
+	}
+
+	provinces={
+		3924 3943 3974 11901 11816
+	}
+	manpower=589342
+	buildings_max_level_factor=1.000
+	state_category=town
+}

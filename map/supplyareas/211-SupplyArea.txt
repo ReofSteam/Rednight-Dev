@@ -1,9 +1,8 @@
-
-supply_area = {
-	id = 211
-	name = "SUPPLYAREA_211"
-	value = 4
-	states = {
-		505 504 1043
+supply_area={
+	id=211
+	name="SUPPLYAREA_211"
+	value=4
+	states={
+		505 504
 	}
 }

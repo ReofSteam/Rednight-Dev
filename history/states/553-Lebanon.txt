@@ -1,0 +1,27 @@
+
+state={
+	id=553
+	name="STATE_553"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			792 = {
+				naval_base = 2
+			}
+
+		}
+
+	}
+
+	provinces={
+		792 1108 11919 15690 15691 15692
+	}
+	manpower=1024000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

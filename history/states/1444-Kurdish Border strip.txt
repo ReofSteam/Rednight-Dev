@@ -1,0 +1,23 @@
+state={
+	id=1444
+	name="STATE_1444"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		12416 4512
+	}
+	manpower=582741
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

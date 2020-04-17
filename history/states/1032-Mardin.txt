@@ -1,0 +1,24 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		11759 15488 15492 
+	}
+	manpower=284000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

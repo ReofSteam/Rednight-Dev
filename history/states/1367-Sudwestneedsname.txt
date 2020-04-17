@@ -1,0 +1,21 @@
+
+state={
+	id=1367
+	name="STATE_1367"
+	provinces={
+		14804 14810 14814 14816
+	}
+	history={
+		owner = SWA
+		add_core_of = SWA
+
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+	manpower=331200
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

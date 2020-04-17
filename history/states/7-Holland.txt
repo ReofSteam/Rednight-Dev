@@ -1,45 +1,46 @@
-state = {
-	id = 7
-	name = "STATE_7"
-	resources = {
-		steel = 8
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		steel=8.000
 	}
 
-	history = {
-		owner = HOL
-		add_core_of = HOL
-		victory_points = { 391 40 }
-		victory_points = { 3211 15 }
-		victory_points = { 13544 5 }
-
+	history={
+		owner = NTH
+		add_core_of = NTH
+		add_core_of = KNR
+		victory_points = {
+			391 40 
+		}
+		victory_points = {
+			3211 15 
+		}
+		victory_points = {
+			13544 5 
+		}
+		victory_points = {
+			9431 1 
+		}
 		buildings = {
 			infrastructure = 8
 			arms_factory = 4
 			industrial_complex = 3
-			dockyard = 2
+			dockyard = 1
 			air_base = 5
-			391 = {
-				bunker = 3
-			}
-			13544 = {
-				bunker = 4
-			}
-			3211 = {
-				bunker = 1
-			}
-			68 = {
-				bunker = 1
-			}
 			3314 = {
-				bunker = 1
 				naval_base = 10
+
 			}
+
 		}
+
 	}
 
-	provinces = {
-		68 391 3211 3314 8622 13544 13663
+	provinces={
+		68 391 3211 3314 13544 13681 
 	}
-	manpower = 3366645
-	state_category = eleven
+	manpower=3875203
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

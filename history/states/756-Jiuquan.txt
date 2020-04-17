@@ -1,0 +1,25 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = SHN
+		add_core_of = SHN
+		victory_points = {
+			7909 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1170 1492 2061 4175 7400 7562 7909 7974 12363 
+	}
+	manpower=1117000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

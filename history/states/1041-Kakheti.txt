@@ -1,0 +1,19 @@
+
+state={
+	id=1041
+	name="STATE_1041"
+	provinces={
+		1530 4534 4605 6436 12309 
+	}
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=487530
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

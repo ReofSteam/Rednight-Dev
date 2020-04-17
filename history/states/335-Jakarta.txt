@@ -1,0 +1,41 @@
+state={
+	id=335
+	name="STATE_335"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 1 
+		}
+		victory_points = {
+			7381 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			7381 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7381 
+	}
+	manpower=3037035
+	buildings_max_level_factor=1.000
+	state_category=city
+}

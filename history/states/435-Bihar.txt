@@ -1,22 +1,26 @@
-state = {
-	id = 435
-	name = "STATE_435"
-	manpower = 33074500
 
-	state_category = five
+state={
+	id=435
+	name="STATE_435"
 
-	history = {
+	history={
 		owner = BHC
 		add_core_of = BHC
-		victory_points = { 4516 5 } #Patna
+		victory_points = {
+			4516 5 
+		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 4
+			industrial_complex = 1
+
 		}
+
 	}
 
-	provinces = {
-		1637 4516 4544 4571 7537 7593 10358 10471 12035 12307 12452
+	provinces={
+		1569 1656 4459 4516 4544 4571 7475 7537 7565 10361 10878 
 	}
+	manpower=13200000
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

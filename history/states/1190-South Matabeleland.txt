@@ -1,0 +1,20 @@
+
+state={
+	id=1190
+	name="STATE_1190"
+	provinces={
+		4851 14837 14839 14840 14842 14846 14849 14850 14855 14856 
+	}
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=122366
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

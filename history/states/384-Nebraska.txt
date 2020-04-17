@@ -1,26 +1,28 @@
-state = {
-	id = 384
-	name = "STATE_384"
-	manpower = 1358000
 
-	state_category = four
+state={
+	id=384
+	name="STATE_384"
+	manpower = 1377962
+	
+	state_category = town
 
-	history = {
-		owner = USA
+	history={
+		owner = CSA
+		add_core_of = CSA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = USA
 		victory_points = {
-			12586 1
+			12586 3
 		}
 		victory_points = {
-			3708 2
+			10676 1
 		}
+
 	}
 
-	provinces = {
+	provinces={
 		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586
 	}
 }

@@ -1,96 +1,110 @@
 ﻿capital = 879
-OOB = "empty"
+OOB = "KTG"
 
 set_technology = {
-	### Infantry ###
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
 	infantry_weapons = 1
 }
-
 set_research_slots = 2
-set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1888.6.15"
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
+
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 2
-	social_liberal = 6
-	market_liberal = 6
-	social_conservative = 12
-	authoritarian_democrat = 15
-	paternal_autocrat = 47
-	national_populist = 12
+    social_nationalist = 0
+    marxist = 0
+    libertarian = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    conservative = 0
+    authoritarian_democrat = 0
+    autocratic = 100
+    fundamentalist = 0
+    voynist = 0
 }
 
 add_ideas = {
-	KTG_Mwami_Kitanika_hog_pau
-	KTG_Francois_Laffut_for_sco
-	KTG_Camille_Camus_eco_sli
-	KTG_Emile_De_Wildeman_sec_sli
+	#KTG_Mwami_Kitanika_hog_pau
+	#KTG_Francois_Laffut_for_sco
+	#KTG_Camille_Camus_eco_sli
+	#KTG_Emile_De_Wildeman_sec_sli
+	#KTG_Marcel_Serruys_int_sco
 }
 
+add_offsite_building = { type = industrial_complex level = 3 }
+
 create_country_leader = {
-	name = "Kitanika Mabumba Mushalila"
+	name = "Mwami Kitanika Mabumba Mushalila"
 	desc = "POLITICS_KATANGA_KING_I_DESC"
-	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
+	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Kitanika Mabumba Mushalila"
+	name = "Mwami Kitanika Mabumba Mushalila"
 	desc = "POLITICS_KATANGA_KING_I_DESC"
-	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
+	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Kitanika Mabumba Mushalila"
+	name = "Mwami Kitanika Mabumba Mushalila"
 	desc = "POLITICS_KATANGA_KING_I_DESC"
-	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
+	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Kitanika Mabumba Mushalila"
+	name = "Mwami Kitanika Mabumba Mushalila"
 	desc = "POLITICS_KATANGA_KING_I_DESC"
-	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Kitanika Mabumba Mushalila"
-	desc = "POLITICS_KATANGA_KING_I_DESC"
-	picture = "Portrait_KTG_Mabumba_Kitanika.tga"
+	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = {}
 }
+
+create_country_leader = {
+	name = "Mwami Kitanika Mabumba Mushalila"
+	desc = "POLITICS_KATANGA_KING_I_DESC"
+	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+### MILITARY LEADERS
 
 create_field_marshal = {
 	name = "Charles Tombeur"
-	picture = "Portrait_KTG_Charles_Tombeur.tga"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Charles_Tombeur.tga"
 	traits = {
 		logistics_wizard
 		old_guard
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 3
+	defense_skill = 2
+	planning_skill = 4
 	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Armand Huyghé"
-	picture = "Portrait_KTG_Armand_Christophe_Huyghe.tga"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Armand_Christophe_Huyghe.tga"
 	traits = {
 		jungle_rat
 		old_guard
@@ -98,13 +112,14 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 3
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 2
+
 }
 
 create_corps_commander = {
 	name = "Philippe Molitor"
-	picture = "Portrait_KTG_Philippe_Molitor.tga"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Philippe_Molitor.tga"
 	traits = {
 		jungle_rat
 	}
@@ -113,18 +128,20 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
+
 }
 
 create_corps_commander = {
 	name = "Frederik Olsen"
-	picture = "Portrait_KTG_Frederik_Olsen.tga"
+	portrait_path = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Frederik_Olsen.tga"
 	traits = {
 		skilled_staffer
 	}
 	skill = 2
-	attack_skill = 2
+	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 3
+
 }
 

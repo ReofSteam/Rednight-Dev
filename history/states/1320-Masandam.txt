@@ -1,0 +1,17 @@
+state={
+	id=1320
+	name="STATE_1320"
+	history={
+		owner = MUC
+		add_core_of = MUC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13728 
+	}
+	manpower=69
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,27 +1,24 @@
-state = {
-	id = 689
-	name = "STATE_689"
-	manpower = 1136100
+state={
+	id=689
+	name="STATE_689"
+	manpower = 1075000
+	
+	state_category = city
 
-	state_category = four
-
-	history = {
-		owner = CAF
+	history={
+		owner = JAM
+		add_core_of = JAM
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
-			dockyard = 1
-			arms_factory = 1
+			industrial_complex = 1
 			12304 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			12304 8
+			12304 5
 		}
-		add_core_of = CAF
-		add_core_of = JAM
 	}
-
-	provinces = { 12304 12477 }
+	
+	provinces={ 12304 12477 }
 }

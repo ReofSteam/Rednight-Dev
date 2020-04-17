@@ -1,0 +1,234 @@
+﻿capital = 41
+
+oob = "SPR"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+add_ideas = {
+	CNT_victors_of_the_second_weltkrieg
+	CNT_devastated_country
+	CNT_constitutional_debate
+	CNT_syndicalism_bulwark
+	CNT_reactionary_terrorism
+	CNT_international_aid
+
+	#Cabinet
+	CNT_Andreu_Nin_hog #Head of Government
+	CNT_Pedro_Lopez_Calle_interior #Minister of Interior
+	CNT_Amador_Fernandez_Montes_economy #Minister of Economy
+	CNT_Luis_Araquistain_foreign #Minister of Foreign Affairs
+	CNT_Alvaro_Cunhal_education #Minister of Education
+	CNT_Lucia_Sanchez_Saornil_culture #Minister of Culture 
+	CNT_Manuel_Davila_Erias_transport #Minister of Transportation
+	CNT_Federica_Montseny_portfolio #Minister without Portfolio, Healthcare
+	CNT_Carlos_de_Baraibar_Ezpondaburu_intel #Head of Intelligence
+	CNT_Buenaventura_Durruti_cos #Chief of Staff 
+	CNT_Jose_Riquelme_Lopez_Bago_coa #Chief of Army
+	CNT_Ramon_Franco_Bahamonde_air #Chief of Air
+	CNT_Joaquin_Enguia_Unzueta_navy #Chief of Navy
+}
+
+set_convoys = 150
+set_stability = 0.5
+
+
+### LAWS ###
+
+set_politics = {
+	ruling_party = libertarian
+	last_election = "1946.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 4
+    marxist = 26
+    libertarian = 29
+    moderate_socialist = 16
+    social_democrat = 4
+    social_liberal = 3
+    conservative = 2
+    authoritarian_democrat = 9
+    autocratic = 4
+    fundamentalist = 2
+    voynist = 1
+}
+
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_marxist_coalition = 1}
+
+set_variable = { kn_social_liberal_banned = 1}
+set_variable = { kn_conservative_banned = 1}
+set_variable = { kn_authoritarian_democrat_banned = 1}
+set_variable = { kn_autocratic_banned = 1}
+set_variable = { kn_voynist_banned = 1}
+set_variable = { kn_fundamentalist_banned = 1}
+
+create_country_leader = {
+	name = "Alberto Monsaraz"
+	desc = ""
+	#picture = 
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Manuel Fal Conde"
+	desc = ""
+	#picture = 
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "No leadership"
+	desc = ""
+	#picture = 
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andreu Nin"
+	desc = "POLITICS_ANDREU_NIN_DESC"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ramón Serrano Suñer"
+	desc = ""
+	#picture = 
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ángel Pestaña"
+	desc = "POLITICS_ANGEL_PESTANA_DESC"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/CNT/CNT_Pestana.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Álbaro de Albornoz"
+	desc = "POLITICS_ALVARO_ALBORNOZ_DESC"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Álbaro de Albornoz"
+	desc = "POLITICS_ALVARO_ALBORNOZ_DESC"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Diego Martínez Barrio"
+	desc = ""
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Multiple Leaders"
+	desc = ""
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "José Asensio Torrado"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "C Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Príncipe Alfonso Class"
+	type = light_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}

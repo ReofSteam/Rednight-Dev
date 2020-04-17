@@ -1,15 +1,46 @@
 ﻿capital = 327
 OOB = "PHI"
+set_cosmetic_tag = GOVERNORATE
+JAP = { 
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+
+		set_autonomy = {
+			target = MLU
+			autonomy_state = kn_autonomous
+		}
+		else = {
+			puppet = MLU 
+		}
+	}
+}
 set_convoys = 20
 set_research_slots = 3
 
 set_stability = 0.50
-set_war_support = 0.15
+set_war_support = 0.20
+
+set_country_flag = one_party_nation
+
+set_variable = { kn_authoritarian_democrat_coalition = 1 }
+set_variable = { kn_voynist_coalition = 1 }
+
+set_variable = { kn_social_nationalist_banned = 1 }
+set_variable = { kn_marxist_banned = 1 }
+set_variable = { kn_libertarian_banned = 1 }
+set_variable = { kn_social_liberal_banned = 1 }
+set_variable = { kn_conservative_banned = 1 }
+
 
 set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
 	### Tanks ###
 	gwtank = 1
-	### Infantry ###
+	### INF ###
 	infantry_weapons = 1
 	tech_support = 1
 	tech_mountaineers = 1
@@ -18,220 +49,105 @@ set_technology = {
 	gw_artillery = 1
 }
 
-### Navy - MtG ###
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-
-		## Modules##
-		weltkrieg_naval_gunnery = 1
-		light_battery_one = 1
-		smoke_generator = 1
-	}
-}
-
-### Navy - Non MtG ###
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-	}
-}
-
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1888.6.15"
+	ruling_party = autocratic
+	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 2
-	radical_socialist = 3
-	syndicalist = 5
-	social_democrat = 13
-	social_liberal = 41
-	market_liberal = 21
-	social_conservative = 10
-	authoritarian_democrat = 3
-	paternal_autocrat = 2
-	national_populist = 0
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 25
+	autocratic = 50
+	fundamentalist = 0
+	voynist = 25
 }
 
 add_ideas = {
-	# Ministers + ideas - a bunch of random for the moment (need more historical research)
-	PHI_Sergio_Osmena_hog_sli
-	PHI_Quintin_Paredes_for_sli
-	PHI_Elpidio_Quirino_eco_sli
-	PHI_Jose_Yulo_sec_sli
+	PHI_japanese_military_occupation
+	PHI_promised_independent
+	PHI_native_attitude_apathetic
+	PHI_guerllia_resistance 
 }
 
-country_event = { id = phil.0 days = 1 } #Intro
+add_ideas = {
+	#medium_economy # Ministers + ideas - a bunch of random for the moment (need more historical research)
+	#PHI_Sergio_Osmena_hog_sli
+	#PHI_Quintin_Paredes_for_sli
+	#PHI_Elpidio_Quirino_eco_sli
+	#PHI_Jose_Yulo_sec_sli
+}
 
 create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR.tga"
-	expire = "1965.8.1"
-	ideology = social_liberal_subtype
-}
-create_country_leader = {
-	name = "José P. Laurel"
-	desc = "POLITICS_JOSE_P_LAUREL_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Jose_P_Laurel.tga"
-	expire = "1959.11.6"
+	name = "Paulinos Santos"
+	desc = "POLITICS_BASILIO_J_VALDEZ_DESC"
+	picture = "gfx/leaders/ASIA/PHI/PHI_Paulinos_Santos.tga"
+	expire = "1960.1.26"
 	ideology = authoritarian_democrat_subtype
+	traits = { }
 }
 create_country_leader = {
 	name = "Elpidio Quirino"
 	desc = "POLITICS_ELPIDO_QUIRINO_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Elpidio_Quirino.tga"
+	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Elpidio_Quirino.tga"
 	expire = "1944.8.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
+	traits = { }
 }
 create_country_leader = {
-	name = "Juan Sumulong"
-	desc = "POLITICS_JUAN_SUMILONG_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Juan_Sumulong.tga"
-	expire = "1942.1.9"
-	ideology = social_democrat_subtype
+	name = "Manuel Roxas"
+	desc = "POLITICS_MANUEL_ROXAS_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Manuel_Roxas.tga"
+	expire = "1948.4.15"
+	ideology = social_liberal_subtype
+	traits = { }
 }
 create_country_leader = {
-	name = "Crisanto Evangelista"
-	desc = "POLITICS_CRISTIANO_EVANGELISTA_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Crisanto_Evangelista.tga"
-	expire = "1943.6.2"
-	ideology = syndicalist_subtype
+	name = "Sergio Osmeña"
+	desc = "POLITICS_SERGIO_OSMENA_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Sergio_Osmena.tga"
+	expire = "1961.10.19"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Masaharu Homma"
+	desc = "POLITICS_MASAHARU_HOMMA_DESC"
+	picture = "gfx/leaders/ASIA/PHI/PHI_Masaharu_Homma.tga"
+	expire = "1959.11.6"
+	ideology = autocratic_subtype
+	traits = { }
+}
+create_country_leader = {
+	name = "Manuel Luis Quezón"
+	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR.tga"
+	expire = "1944.8.1"
+	ideology = social_liberal_subtype
+	traits = { }
 }
 
-### Field Marshals ###
+### Field Marshal
 
 create_field_marshal = {
 	name = "Basilio J. Valdez"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Basilio_J_Valdez.tga"
+	portrait_path = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Basilio_J_Valdez.tga"
 	traits = { career_officer media_personality organisational_leader }
 	skill = 2
 	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 3
 }
 
-create_field_marshal = {
-	name = "Vicente P. Lim" # The Absolute Mad Lad, also West Point Graduate
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Vicente_P_Lim.tga"
-	traits = { career_officer brilliant_strategist infantry_officer trickster commando }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
-}
+### Corps Commander
 
-### Corps Commanders ###
 
-create_corps_commander = {
-	name = "Alfredo M. Santos"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Alfredo_M_Santos.tga"
-	traits = { trickster trait_engineer }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
+### Navy Leader
 
-create_corps_commander = {
-	name = "Macario Peralta Jr."
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Macario_Peralta_Jr.tga"
-	traits = { brilliant_strategist infantry_leader }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Paulino Santos"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Paulino_Santos.tga"
-	traits = { war_hero career_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Mateo Capinpin"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Mateo_Capinpin.tga"
-	traits = { infantry_officer trickster }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Rafael Jalandoni"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Rafael_Jalandoni.tga"
-	traits = { infantry_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Manuel F. Cabal"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Manuel_F_Cabal.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Carlos P. Romulo"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Carlos_P_Romulo.tga"
-	traits = { media_personality }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Salipada Pendatun"
-	portrait_path = "gfx/leaders/PHI/Portrait_Philippines_Salipada_Pendatun.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-### Admirals ###

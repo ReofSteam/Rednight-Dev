@@ -1,28 +1,34 @@
-state = {
-	id = 427
-	name = "STATE_427" #Hyderabad
-	manpower = 9757900
 
-	state_category = six
-
-	resources = {
-		chromium = 8
+state={
+	id=427
+	name="STATE_427"
+	resources={
+		chromium=8.000
 	}
 
-	history = {
-		owner = BHC
-		add_core_of = BHC
-		victory_points = { 4883 1 } #Nagpur
-		victory_points = { 8087 10 } #Hyderabad
+	history={
+		owner = HYD
+		add_core_of = HYD
+		victory_points = {
+			4883 1 
+		}
+		victory_points = {
+			8087 10 
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 3
-			arms_factory = 4
+			arms_factory = 1
+
 		}
+
 	}
 
-	provinces = {
-		1275 1317 1359 4280 4472 5019 5063 5104 7411 8087 10259 10311 10324 10511 10799 11950 12114 12226
+	provinces={
+		1275 1317 4472 5019 5104 8087 10324 10511 11950 12226 15237 15240 15243 15244 15245 15248 15251 15254 15255 15258 15259 15262 15267 15269 15273 
 	}
+	manpower=10030000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

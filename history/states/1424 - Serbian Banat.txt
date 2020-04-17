@@ -1,0 +1,22 @@
+state={
+	id=1424
+	name="STATE_1424"
+	manpower=69
+	resources={
+		aluminium=6
+	}
+
+	state_category = rural
+
+	history={
+		owner = SER
+		add_core_of = SER
+		add_claim_by = ROM
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		646 3649 15655
+	}
+}

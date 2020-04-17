@@ -1,0 +1,20 @@
+
+state={
+	id=1233
+	name="STATE_1233"
+	provinces={
+		1986 2039 10913 11249 12780 12809 14929 14935 14943 14944 14946 14950 14953 14955 14959 14960 14965 14967 14968 14969 14973 14974 14975 14984 14988 14991 14993 14997 15000 15001 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=411133
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=90
+	name="STATE_90"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = WPL
+		add_core_of = WPL
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3458 4 
+		}
+		victory_points = {
+			3497 3 
+		}
+
+	}
+
+	provinces={
+		562 3458 3497 3586 6416 11430 11532 15186 
+	}
+	manpower=1602200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

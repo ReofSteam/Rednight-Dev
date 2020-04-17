@@ -1,18 +1,25 @@
-state = {
-	id = 961
-	name = "STATE_961"
 
-	history = {
-		owner = ETH
+state={
+	id=961
+	name="STATE_961"
+
+	history={
+		owner = ERI
 		add_core_of = ERI
+		victory_points={
+		    14162 3
+	    }
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+
 		}
+
 	}
 
-	provinces = {
-		8043
+	provinces={
+		8043 14162 14163 14173 
 	}
-	manpower = 87000
-	state_category = wasteland
+	manpower=77000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

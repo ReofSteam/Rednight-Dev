@@ -1,0 +1,48 @@
+
+state={
+	id=112
+	name="STATE_112"
+	resources={
+		tungsten=48.000
+	}
+
+	history={
+		owner = CNT
+		victory_points = {
+			11805 30
+		}
+		victory_points = {
+			3798 5
+		}
+		victory_points = {
+			970 5
+		}
+		victory_points = {
+			6924 3
+		}
+		victory_points = {
+			3861 3
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 5
+			dockyard = 1
+			11805 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = CNT
+
+	}
+
+	provinces={
+		799 844 924 970 3798 3861 11768 11805 
+	}
+	manpower=2278400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

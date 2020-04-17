@@ -1,0 +1,28 @@
+state={
+	id=1219
+	name="STATE_1219"
+	provinces={
+		4211 7384 7396 
+	}
+	resources={
+		aluminium=4.000
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 10 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=278792
+	state_category = small_island
+	buildings_max_level_factor=1.000
+}

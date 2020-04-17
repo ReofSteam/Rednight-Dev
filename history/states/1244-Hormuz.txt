@@ -1,0 +1,19 @@
+state={
+	id=1244
+	name="STATE_1244"
+	provinces={
+		14919 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=49664
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+}

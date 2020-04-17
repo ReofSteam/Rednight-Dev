@@ -1,29 +1,27 @@
-state = {
-	id = 428
-	name = "STATE_428"
-	manpower = 10590200
 
-
-	state_category = four
-	resources = {
-		oil = 4
+state={
+	id=428
+	name="STATE_428"
+	resources={
+		oil=4.000
 	}
 
-	history = {
+	history={
 		owner = BHC
 		add_core_of = BHC
-		victory_points = { 9975 2 } #Ahmedabad
 		buildings = {
-			industrial_complex = 3
+			industrial_complex = 1
 			infrastructure = 4
 			dockyard = 1
-			9975 = {
-				naval_base = 2
-			}
+
 		}
+
 	}
 
-	provinces = {
-		1061 1103 1144 1190 4064 4090 4132 7020 7165 7207 9975 10118 11952 12037 12092
+	provinces={
+		1144 4090 4132 7207 10118 12037 
 	}
+	manpower=7200000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

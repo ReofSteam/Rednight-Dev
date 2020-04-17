@@ -1,0 +1,22 @@
+
+state={
+	id=1316
+	name="STATE_1316"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1600 3795 5058 8123 10744 12879 13737 15003 15467 12839
+	}
+	manpower = 69
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

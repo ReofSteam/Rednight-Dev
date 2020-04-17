@@ -1,0 +1,25 @@
+
+state={
+	id=764
+	name="STATE_764"
+
+	history={
+		owner = SWA
+		add_core_of = SWA
+		victory_points = {
+			13058 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		12519 14818 14831 14832 
+	}
+	manpower=26200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

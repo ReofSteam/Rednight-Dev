@@ -1,0 +1,24 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			9598 3
+		}
+		buildings = {
+			infrastructure = 6
+
+		}
+	}
+
+	provinces={
+		6631 9598
+	}
+	manpower=390500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

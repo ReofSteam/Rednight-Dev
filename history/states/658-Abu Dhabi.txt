@@ -1,10 +1,14 @@
+
 state={
 	id=658
 	name="STATE_658"
 
 	history={
-		owner = JBS
-		add_core_of = JBS
+		owner = ARA
+		add_core_of = ARA
+		victory_points = {
+			7960 1 
+		}
 		buildings = {
 			infrastructure = 2
 			7960 = {
@@ -13,14 +17,13 @@ state={
 			}
 
 		}
-		victory_points = {
-			2048 1
-		}
+
 	}
 
 	provinces={
-		2048 7960 8108 10904
+		2048 4932 7960 8108 13722 13723 13724 
 	}
-	manpower=108000
-	state_category=one
+	manpower=94600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

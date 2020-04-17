@@ -1,0 +1,33 @@
+
+state={
+	id=1215
+	name="STATE_1215"
+	resources={
+		rubber=2.000
+		steel=4.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		set_variable = {  
+			INS_unrest_meter = 35 
+		}
+		set_variable = {  
+			INS_state_autonomy_var = 9 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1277 7327 7463 10209 10225 12168 12181 12184 12302 12343 
+	}
+	manpower=248225
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

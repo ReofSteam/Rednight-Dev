@@ -1,15 +1,15 @@
-state = {
-	id = 165
-	name = "STATE_165"
 
-	history = {
-		owner = SPR
-		victory_points = {
-			9764 20
-		}
-		victory_points = {
-			6966 2
-		}
+state={
+	id=165
+	name="STATE_165"
+	manpower = 3036537
+	
+	state_category = large_city
+
+	history={
+		owner = CNT
+		victory_points = { 9764 20 } #Barcelona
+		victory_points = { 6966 2 } #Tarragona
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -17,23 +17,12 @@ state = {
 			air_base = 2
 			9764 = {
 				naval_base = 4
-				bunker = 1
-				coastal_bunker = 1
-			}
-			6927 = {
-				bunker = 1
-			}
-			854 = {
-				bunker = 1
 			}
 		}
 		add_core_of = SPR
-		add_core_of = CAT
 	}
 
-	provinces = {
-		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797
+	provinces={
+		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779
 	}
-	manpower = 3036537
-	state_category = eight
 }

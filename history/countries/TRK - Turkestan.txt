@@ -3,61 +3,65 @@
 oob = "TRK"
 
 set_technology = {
-	### Infantry ###
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	### INF ###
 	infantry_weapons = 1
 	tech_support = 1
 	tech_recon = 1
 	gw_artillery = 1
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 }
 
 set_research_slots = 2
 
-set_war_support = 0.2
-
 set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1888.6.15"
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 2
-	social_liberal = 6
-	market_liberal = 6
-	social_conservative = 12
-	authoritarian_democrat = 15
-	paternal_autocrat = 47
-	national_populist = 12
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
 }
+
+set_country_flag = mohammed_alim_khan_hog
 
 create_country_leader = {
 	name = "Mohammed Alim Khan"
 	desc = "POLITICS_MOHAMMED_ALIM_DESC"
-	picture = "Portrait_Turkestan_Mohammed_Alim.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_Turkestan_Mohammed_Alim.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {
+	}
 }
 
 add_ideas = {
-	TRK_Ibrahim_Bek_hog_pau
-	TRK_Mukhtar_Dzhangalin_for_ade
-	TRK_Adilet_Rustamov_eco_ade
-	TRK_Kush_Beggi_sec_pau
+	#medium_economy
+	#TRK_Ibrahim_Bek_hog_pau
+	#TRK_Mukhtar_Dzhangalin_for_ade
+	#TRK_Adilet_Rustamov_eco_ade
+	#TRK_Kush_Beggi_sec_pau
 }
 
-country_event = { id = turkestan.2 days = 517 random = 2400 }
-country_event = { id = turkestan.3 days = 943 random = 2400 }
-country_event = { id = turkestan.13 days = 2557 random = 1080 }
-
-### Field Marshals ###
+### Field Marshal
 create_field_marshal = { #Auto-Generated
 	name = "Ibrahim Bek"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Ibrahim_Bek.tga"
 	traits = {
 		trait_reckless
 	}
@@ -70,7 +74,7 @@ create_field_marshal = { #Auto-Generated
 
 create_field_marshal = { #Auto-Generated
 	name = "Mohammed Khan"
-	portrait_path = "gfx/leaders/TRK/Portrait_Turkestan_Mohammed_Alim.tga"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Mohammed_Khan.tga"
 	traits = {
 		harsh_leader
 		organizer
@@ -80,39 +84,42 @@ create_field_marshal = { #Auto-Generated
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
-### Corps Commanders ###
+### Corps Commander
 
 create_corps_commander = { #Auto-Generated
 	name = "Kajum-Khan"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Kajum_Khan.tga"
 	traits = {
 		cavalry_officer
 		hill_fighter
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Dushebaev"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Dushebaev.tga"
 	traits = {
 		politically_connected
 		infantry_officer
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
 }
 
 create_corps_commander = { #Auto-Generated
 	name = "Dzhandosov"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Dzhandosov.tga"
 	traits = {
 		old_guard
 		trickster
@@ -120,8 +127,16 @@ create_corps_commander = { #Auto-Generated
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
-
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Dratsenko"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_TRK_Dratsenko.tga"
+	traits = {
+		seawolf
+	}
+	skill = 1
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=538
+	name="STATE_538"
+
+	history={
+		owner = CNG
+		add_core_of = CNG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			988 1 
+		}
+
+	}
+
+	provinces={
+		988 7219 7931 8048 10071 10883 10951 12741 12824 
+	}
+	manpower=1693974
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

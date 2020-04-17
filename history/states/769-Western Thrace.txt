@@ -1,0 +1,33 @@
+
+state={
+	id=769
+	name="STATE_769"
+	manpower = 182500
+	
+	state_category = rural
+	
+	resources={
+		chromium=16
+	}
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+		}
+		victory_points = {
+			9930 1 #Kavala
+		}
+		victory_points = {
+			15385 1 #Ser
+		}
+
+	}
+
+	provinces={
+		6990 9791 9930 15385
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		654 772 3653 3658 9626 
+	}
+	history={
+		owner = RUS
+		victory_points = {
+			3653 1 
+		}
+		buildings = {
+			infrastructure = 3
+			3653 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	manpower=483280
+	state_category=town
+	buildings_max_level_factor=1.000
+}

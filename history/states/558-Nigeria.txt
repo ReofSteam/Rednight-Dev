@@ -1,31 +1,37 @@
-state = {
-	id = 558
-	name = "STATE_558"
 
-	history = {
-		owner = MAF
-		add_claim_by = MAF
+state={
+	id=558
+	name="STATE_558"
+
+	history={
+		owner = NGR
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 3
 			2050 = {
 				naval_base = 3
+
 			}
+			industrial_complex = 1
+			arms_factory = 1
+
 		}
 		victory_points = {
-			2050 15
+			2050 5 
 		}
 		victory_points = {
-			4952 3
+			4952 3 
 		}
 		victory_points = {
-			10831 1
+			10831 1 
 		}
+
 	}
 
-	provinces = {
-		1932 1992 2025 2050 4889 4952 7978 8021 8034 10820 10831 12731 12817 12900
+	provinces={
+		1932 1992 2025 2050 4889 4952 7978 8021 8034 10820 10831 12731 12785 12817 12843 12900 14084 14088 14090 14098 14102 14104 14106 14109 14117 14124 14130 14138 14144 14147 14153 14155 14157 
 	}
-	manpower = 12274600
-	state_category = two
+	manpower=12274600
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,43 @@
+
+state={
+	id=1212
+	name="STATE_1212"
+	resources={
+		rubber=12.000
+		steel=1.000
+		oil=12.000
+	}
+
+	history={
+		owner = ACH
+		add_core_of = ACH
+		add_core_of = NBA
+		add_core_of = CLA
+		set_variable = {
+			INS_unrest_meter = 35
+
+		}
+		set_variable = {
+			INS_state_autonomy_var = 3
+
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7658 10 
+		}
+		victory_points = {
+			15728 5 
+		}
+
+	}
+
+	provinces={
+		7658 15727 15728 15729 
+	}
+	manpower=602089
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

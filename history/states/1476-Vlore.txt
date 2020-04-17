@@ -1,0 +1,24 @@
+state={
+    id=1476
+	name="STATE_1476"
+	
+	history={
+	    owner = ALB
+		add_core_of = ALB
+		buildings = {
+		    infrastructure = 3
+			11767 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = { 11767 2 }
+	}
+	
+	provinces={
+	    11767
+	}
+	manpower=69
+	buildings_max_level_factor=1
+	state_category=rural
+}

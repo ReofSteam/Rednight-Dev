@@ -1,0 +1,22 @@
+
+state={
+	id=1118
+	name="STATE_1118"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1948 2017 2062 2101 15116 15314 15316
+	}
+	manpower=820700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

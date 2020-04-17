@@ -1,0 +1,32 @@
+
+state={
+	id=434
+	name="STATE_434"
+	resources={
+		tungsten=20.000
+	}
+
+	history={
+		owner = BUR
+		add_core_of = BUR
+		victory_points = {
+			12090 5 
+		}
+		buildings = {
+			infrastructure = 1
+			12090 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		997 1142 4147 7122 7179 9991 12090 
+	}
+	manpower=11450000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

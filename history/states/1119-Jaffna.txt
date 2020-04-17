@@ -1,0 +1,23 @@
+state={
+	id=1119
+	name="STATE_1119"
+	provinces={
+		7344 10201 10229 10287 
+	}
+	history={
+		owner = CEY
+		add_core_of = CEY
+		buildings = {
+			infrastructure = 2
+			10201 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+	manpower=763400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,22 +1,25 @@
-state = {
-	id = 869
-	name = "STATE_869"
+state={
+	id=869
+	name="STATE_869"
+	
+	state_category = pastoral
 
-	state_category = one
-
-	history = {
-		owner = MAF
-		add_core_of = MAF
+	history={
+		owner = TNG
+		add_core_of = TNG
 		add_core_of = RWA
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
 			9962 1
 		}
 	}
 
-	provinces = {
+	provinces={
 		9962
-		}	manpower = 1716000
+}
+	manpower=1716000
+	buildings_max_level_factor=1.000
 }

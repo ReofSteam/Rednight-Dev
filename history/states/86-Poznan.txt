@@ -1,0 +1,39 @@
+
+state={
+	id=86
+	name="STATE_86"
+
+	history={
+		owner = WPL
+		add_core_of = WPL
+		victory_points = {
+			6558 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			11232 = {
+				bunker = 1
+
+			}
+			9532 = {
+				bunker = 1
+
+			}
+			3381 = {
+				bunker = 1
+
+			}
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		17 243 388 3381 3460 3532 6558 9532 11232 11558 
+	}
+	manpower=2006500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

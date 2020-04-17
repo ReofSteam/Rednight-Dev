@@ -1,0 +1,22 @@
+state={
+	id=1079
+	name="STATE_1079"
+
+	history={
+		owner = WST
+		add_core_of = WST
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8200
+	}
+	manpower=2730
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

@@ -1,0 +1,204 @@
+﻿capital = 4
+
+oob = "CIS"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+	gw_artillery  = 1
+	interwar_antiair = 1
+}
+
+set_politics = {
+	ruling_party = marxist
+	last_election = "1948.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_variable = { kn_social_nationalist_coalition = 1 }
+set_variable = { kn_marxist_coalition = 1 }
+set_variable = { kn_libertarian_coalition = 1 }
+set_variable = { kn_moderate_socialist_coalition = 1 }
+set_variable = { kn_social_democrat_coalition = 1 }
+
+set_variable = { kn_social_liberal_banned = 1 }
+set_variable = { kn_conservative_banned = 1 }
+set_variable = { kn_authoritarian_democrat_banned = 1 }
+set_variable = { kn_autocratic_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_voynist_banned = 1 }
+
+set_popularities = {
+    social_nationalist = 2
+    marxist = 14
+    libertarian = 4
+    moderate_socialist = 20
+    social_democrat = 7
+    social_liberal = 3
+    conservative = 9
+    authoritarian_democrat = 10
+    autocratic = 10
+    fundamentalist = 14
+    voynist = 7
+}
+
+add_ideas = {
+	CIS_Karl_Kreibich_hog
+	CIS_Antonin_Zapotocky_interior
+	CIS_Otto_Bauer_economy
+	CIS_Rudolf_Slansky_foreign
+	CIS_Alfred_Klahr_education
+	CIS_Karl_Renner_culture
+	CIS_Gerhart_Eisler_transport
+	CIS_Arnold_Deutsch_intel
+	CIS_Theodor_Koerner_cos
+	CIS_Jaroslav_Prochzka_coa
+	CIS_Gutsav_Hauck_coaf
+	CIS_national_cultural_autonomy
+	CIS_weltkrieg_losers
+	CIS_phalanstere_reconstruction_initiative
+	CIS_reactionary_threat
+}
+
+set_stability = 0.45
+set_war_support = 0.35
+
+create_country_leader = {
+	name = "Karl Kreibich"
+	desc = "POLITICS_KARL_KREIBICH_DESC"
+	picture = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Karl_Kreibich.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Klement Gottwald"
+	picture = 
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Antonín Zápotocký"
+	picture = 
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Karl Kreibich"
+	picture = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Karl_Kreibich.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Franz Olah"
+	picture = 
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Heinrich Gleissner"
+	picture = 
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Felix Hurdes"
+	picture = 
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Carl Karwinsky"
+	picture = 
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Eduard Baar-Baarenfels"
+	picture = 
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ernst Kaltenbrunner"
+	picture = 
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Ernst Rüdiger Starhemberg"
+	picture = 
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+	}
+}
+
+### MILITARY PERSONELL
+create_field_marshal = {
+	name = "Alexander Eifler"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Alexander_Eifler.tga"
+	traits = {
+		politically_connected
+		old_guard
+		infantry_officer
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Jaroslav Procházka"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Jaroslav_Prochazka.tga"
+	traits = {
+		infantry_officer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alexej Čepička"
+	portrait_path = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Alexej_Cepicka.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+

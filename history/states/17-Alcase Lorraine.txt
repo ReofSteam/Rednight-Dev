@@ -1,0 +1,34 @@
+
+state={
+	id=17
+	name="STATE_17"
+	resources={
+		steel=48.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			9642 1 
+		}
+		victory_points = {
+			11516 1 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+
+	}
+
+	provinces={
+		698 3646 3666 6668 6698 9642 9658 
+	}
+	manpower=1217500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=1271
+	name="STATE_1271"
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	
+	provinces={
+		1509 5203 14656 14679 14686 14697 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

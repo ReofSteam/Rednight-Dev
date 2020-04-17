@@ -1,0 +1,26 @@
+
+state={
+	id=1164
+	name="STATE_1164"
+	provinces={
+		3576 6446 6560 14546 
+	}
+	history={
+		owner = BEL
+		add_core_of = BEL
+		add_core_of = FLN
+		victory_points = {
+			6560 5 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 3
+			6446 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=2051740
+	state_category = city
+	buildings_max_level_factor=1.000
+}

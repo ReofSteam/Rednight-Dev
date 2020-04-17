@@ -1,0 +1,83 @@
+﻿capital = 540
+
+oob = ""
+
+set_research_slots = 3
+
+set_stability = 0.3
+
+set_war_support = 0.1
+
+add_ideas = {
+
+}
+
+PEX = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = PWA
+			autonomous_state = kn_autonomous
+		}
+		else = {
+			puppet = PWA
+		}
+	}
+}
+
+set_technology = {
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1	
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+}
+
+set_convoys = 30
+
+
+give_military_access = SAF
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 7
+	autocratic = 41
+	fundamentalist = 42
+	voynist = 10
+}
+
+create_country_leader = {
+	name = "Gabriel Mauricio Teixeira"
+	desc = "POLITICS_GABRIEL_TEIXEIRA_DESC"
+	picture = "gfx/leaders/SOUTHERN_AFRICA/PWA/PWA_gabriel_mauricio_texeira.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}

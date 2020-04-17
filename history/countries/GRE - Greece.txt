@@ -1,190 +1,254 @@
-﻿capital = 47
+capital = 47
 
-oob = "GRE"
-set_naval_oob= "GRE_naval"
+oob = "GRE_1950"
 
 set_research_slots = 3
 
-set_technology = {
-	### Tanks ###
-	gwtank = 1
-	### Infantry ###
-	infantry_weapons = 1
-	gw_artillery = 1
-	tech_support = 1
-	tech_recon = 1
-	### Air ###
-	early_fighter = 1
-}
-
-
-### Navy - MtG ###
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-		weltkrieg_heavy_ship_hull = 1
-
-		## Modules##
-		early_torpedo = 1
-		weltkrieg_naval_gunnery = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		light_battery_two = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-		weltkrieg_naval_gunnery = 1
-		weltkrieg_naval_gunnery = 1
-	}
-}
-
-### Navy - Non MtG ###
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-		weltkrieg_dreadnought_nonmtg = 1
-	}
-}
-
-set_convoys = 40
-set_stability = 0.35
-set_war_support = 0.2
-
 add_ideas = {
-	GRE_foreign_industry_GER1
-	GRE_foreign_industry_AUS1
-	GRE_memories_of_king
-	GRE_legacy_of_alexander_idea
-	GRE_Georgios_Papandreou_hog_sli
-	GRE_Themistoklis_Sofoulis_for_mli
-	GRE_Georgios_Athanasiadis_Novas_eco_sli
-	GRE_Pafsanias_Katsotas_sec_sli
+	GRE_military_regime
+	GRE_state_orthodoxy
+	GRE_glorious_military
+	GRE_economy_failing
+
+	#Cabinet
+	GRE_Alexandros_Papagos_hog #Head of Government
+	GRE_Konstantinos_Ventiris_interior #Interior Minister
+	GRE_Xenophon_Zolotas_economy #Economy Minister
+	GRE_Vasileios_Vrachnos_foreign #Foreign Minister
+	GRE_Stefanos_Sarafis_education #Education Minister
+	GRE_Spyridon_of_Athens_culture #Culture Minister
+	GRE_Ioannis_Theotokis_transport #Transport Minister
+	GRE_Markos_Drakos_intel #Head of Intelligence
+	GRE_Napoleon_Zervas_staff #Chief of Staff
+	GRE_Georgios_Grivas_army #Chief of Army
+	GRE_Spiros_Pisanos_air_force #Chief of Air Force
+	GRE_Alexandros_Sakellariou_navy #Chief of Navy
 }
 
-add_opinion_modifier = { target = BUL modifier = embargo }
-add_opinion_modifier = { target = BUL modifier = Balkans_hates_bulgaria }
-add_opinion_modifier = { target = OTT modifier = embargo }
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	#improved_light_tank = 1  # PLACEHOLDER
+	#basic_heavy_tank = 1  # PLACEHOLDER
+	#basic_medium_tank = 1 # PLACEHOLDER
+	early_fighter = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	#trench_warfare = 1
 
-country_event = { id = gre.1 days = 1 } #Intro event
-country_event = { id = gre.3 days = 85 } #Independence Day
+	transport = 1
+	#fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+
+set_convoys = 200
+
 
 set_politics = {
-	ruling_party = social_liberal
-	last_election = "1934.1.26"
+	ruling_party = autocratic
+	last_election = "1949.10.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 6
+	libertarian = 4
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 12
+	conservative = 13
+	authoritarian_democrat = 12
+	autocratic = 34
+	fundamentalist = 11
+	voynist = 8
 }
 
-set_popularities = {
-	totalist = 2
-	radical_socialist = 5
-	syndicalist = 0
-	social_democrat = 14
-	social_liberal = 36
-	market_liberal = 10
-	social_conservative = 21
-	authoritarian_democrat = 6
-	paternal_autocrat = 5
-	national_populist = 1
-}
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_social_nationalist_banned = 1}
+set_variable = { kn_marxist_banned = 1}
+set_variable = { kn_libertarian_banned = 1}
+set_variable = { kn_moderate_socialist_banned = 1}
+set_variable = { kn_social_democrat_banned = 1}
+
+set_variable = { kn_conservative_coalition = 1} #The conservatives is in a coalition with the army
+
+set_variable = { greek_opinion_military = 2 }
+set_variable = { greek_opinion_rus = 1 }
+set_stability = 0.75
+
+set_cosmetic_tag = GRE_MONARCH
+
+### LAWS ###
+set_country_flag = kn_economy_corporatist
+set_country_flag = kn_currency_gold
+set_country_flag = kn_trade_union_weakened
+set_country_flag = kn_penal_system_unpaid
+set_country_flag = kn_mobilisation_rotational
+set_country_flag = kn_capital_punishment_legal
+set_country_flag = kn_womens_rights_minimal
+set_country_flag = kn_sexuality_rights_outlawed
+set_country_flag = kn_workers_rights_moderate
+
+##########################################
+################# LEADERS ################
+# gfx/leaders/EASTERN_MEDITERRANEAN/GRE/ #
+##########################################
 
 create_country_leader = {
-	name = "Aris Velouchiotis"
-	desc = "POLITICS_ARIS_VELOUCHIOTIS_DESC"
-	picture = "Portrait_GRE_Athanasios_Klaras.tga"
+	name = "Dimitrios Partsalidis"
+	desc = "POLITICS_DIMITRIOS_PARTSALIDIS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Dimitrios_Partsalidis.tga"
 	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = social_nationalist_subtype
+	traits = {
+		#
+	}
 }
+
 create_country_leader = {
 	name = "Nikos Zachariadis"
 	desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
-	picture = "Portrait_GRE_Nikos_Zachariadis.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Nikos_Zachariadis.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = marxist_subtype
+	traits = {
+		#
+	}
 }
 create_country_leader = {
-	name = "Kostas Gavriilides"
-	desc = "POLITICS_KOSTAS_GAVRIILIDES_DESC"
-	picture = "Portrait_GRE_Kostas_Gavriilides.tga"
+	name = "Workers' Council"
+	desc = "POLITICS_GRE_WORKERS_COUNCIL_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_GSEE.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-}
-create_country_leader = {
-	name = "Alexandros Papanastasiou"
-	desc = "POLITICS_ALEXANDROS_PAPANASTASIOU_DESC"
-	picture = "Portrait_GRE_Alexandros_Papanastasiou.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-}
-create_country_leader = {
-	name = "Geórgios Papandreou"
-	desc = "POLITICS_GEORGIOS_PAPANDREOU_DESC"
-	picture = "Portrait_GRE_Georgios_Papandreou.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
-create_country_leader = {
-	name = "Themistoklis Sofoulis"
-	desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
-	picture = "Portrait_GRE_Themistoklis_Sofoulis.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-}
-create_country_leader = {
-	name = "Panagis Tsaldaris"
-	desc = "POLITICS_PANAGIS_TSALDARIS_DESC"
-	picture = "Portrait_GRE_Pangalis_Tsaldaris.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-create_country_leader = {
-	name = "Ioannis Metaxas"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_GRE_Ioannis_Metaxas_KR.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-}
-create_country_leader = {
-	name = "Aléxandros I"
-	desc = "POLITICS_KING_ALEXANDROS_DESC"
-	picture = "Portrait_GRE_Alexander.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
-create_country_leader = {
-	name = "Georgios Mercouris"
-	desc = "POLITICS_GEORGIOS_MERCOURIS_DESC"
-	picture = "Portrait_GRE_Georgios_Mercouris.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = libertarian_subtype
+	traits = {
+		#
+	}
 }
 
-### Field Marshals ###
-create_field_marshal = { #Auto-Generated
+create_country_leader = {
+	name = "Alexandros Svolos"
+	desc = "POLITICS_ALEXANDEROS_SVOLOS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexandros_Svolos.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ilias Tsirimokos"
+	desc = "POLITICS_ILIAS_TSIRIMOKOS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Ilias_Tsirimokos.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Georgios Papandreou"
+	desc = "POLITICS_GEORGIOS_PAPANDREOU_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Georgios_Papandreou.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Ioannis Theotokis"
+	desc = "POLITICS_IOANNIS_THEOTOKIS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Ioannis_Theotokis.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Regency Council"
+	desc = "POLITICS_GRE_REGENCY_COUNCIL_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_regency_council.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Alexandros Papagos"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Papagos.tga"
+	desc = "POLITICS_ALEXANDER_PAPAGOS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexander_Papagos.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		GRE_regent_of_greece
+	}
+}
+
+create_country_leader = {
+	name = "Konstantinos Karamanlis"
+	desc = "POLITICS_KONSTANTINOS_KARAMANLIS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Konstantinos_Karamanlis.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Napoleon Zervas"
+	desc = "POLITICS_NAPOLEON_ZERVAS_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Napoleon_Zervas.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+		#
+	}
+}
+
+### GENERALS ###
+
+create_field_marshal = {
+	name = "Alexandros Papagos"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexander_Papagos.tga"
 	traits = {
 		cavalry_officer
 		organizer
@@ -197,39 +261,9 @@ create_field_marshal = { #Auto-Generated
 	planning_skill = 3
 	logistics_skill = 3
 }
-### Corps Commanders ###
-#create_field_marshal = { #Auto-Generated
-#	name = "Athanasios Klaras"
-#	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Athanasios_Klaras.tga"
-#	traits = {
-#		trickster
-#		aggressive_assaulter
-#		brilliant_strategist
-#	}
-#	id = 571
-#	skill = 3
-#	attack_skill = 3
-#	defense_skill = 1
-#	planning_skill = 2
-#	logistics_skill = 3
-#}
-#create_corps_commander = { #Auto-Generated
-#	name = "Stefanos Sarafis"
-#	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Stefanos_Sarafis.tga"
-#	traits = {
-#		trait_reckless
-#		ranger
-#	}
-#	id = 572
-#	skill = 2
-#	attack_skill = 2
-#	defense_skill = 2
-#	planning_skill = 2
-#	logistics_skill = 2
-#}
-create_corps_commander = { #Auto-Generated
+create_corps_commander = {
 	name = "Napoleon Zervas"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Napoleon_Zervas.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Napoleon_Zervas.tga"
 	traits = {
 		harsh_leader
 		commando
@@ -242,9 +276,9 @@ create_corps_commander = { #Auto-Generated
 	planning_skill = 3
 	logistics_skill = 2
 }
-create_corps_commander = { #Auto-Generated
-	name = "Manolis Mantakas"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Manolis_Mantakas.tga"
+create_corps_commander = {
+	name = "Stefanos Sarafis"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Stefanos_Sarafis.tga"
 	traits = {
 		infantry_officer
 	}
@@ -255,62 +289,9 @@ create_corps_commander = { #Auto-Generated
 	planning_skill = 1
 	logistics_skill = 1
 }
-create_corps_commander = { #Auto-Generated
-	name = "Konstantinos Bakopoulos"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_Bakopoulos.tga"
-	traits = {
-		trait_engineer
-	}
-	id = 576
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-#create_field_marshal = { #Auto-Generated
-#	name = "Prince Geórgios II"
-#	portrait_path = "gfx/leaders/GRE/Portrait_GRE_George_army.tga"
-#	traits = {
-#		inspirational_leader
-#	}
-# 	id = 577
-#	skill = 1
-#	attack_skill = 1
-#	defense_skill = 2
-#	planning_skill = 2
-#	logistics_skill = 1
-#}
-create_corps_commander = { #Auto-Generated
-	name = "Georgios Grivas"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Georgios_Grivas.tga"
-	traits = {
-		trickster
-	}
-	id = 578
-	skill = 3
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Dimitrios Psarros"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Dimitrios_Psarros.tga"
-	traits = {
-		artillery_officer
-		trait_mountaineer
-	}
-	id = 579
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
 create_corps_commander = {
 	name = "Vasileios Vrachnos"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Vasileios_Vrachnos.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Vasileios_Vrachnos.tga"
 	traits = {
 		career_officer
 		infantry_leader
@@ -323,25 +304,35 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 create_corps_commander = {
-	name = "Konstantinos Davakis"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Konstantinos_Davakis.tga"
+	name = "Georgios Grivas"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Georgios_Grivas.tga"
 	traits = {
-		skilled_staffer
-		infantry_officer
+		trickster
 	}
-	id = 581
-	skill = 1
-	attack_skill = 1
+	id = 578
+	skill = 3
+	attack_skill = 4
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Markos Drakos"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Markos_Drakos.tga"
+	traits = { hill_fighter }
+	id = 582
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 3
 }
 
-### Admirals ###
+### Navy Leader
 
-create_navy_leader = { #Auto-Generated
+create_navy_leader = {
 	name = "Alexandros Sakellariou"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Alexandros_Sakellariou.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexandros_Sakellariou.tga"
 	traits = {
 		old_guard_navy
 		superior_tactician
@@ -353,10 +344,10 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 3
 }
 
-create_navy_leader = { #Auto-Generated
+create_navy_leader = {
 	name = "Petros Voulgaris"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Petros_Voulgaris.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Petros_Voulgaris.tga"
+	traits = {}
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -364,9 +355,9 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 2
 }
 
-create_navy_leader = { #Auto-Generated
+create_navy_leader = {
 	name = "Ioannis Toumbas"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Ioannis_Toumbas.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Ioannis_Toumbas.tga"
 	traits = {
 		seawolf
 	}
@@ -377,22 +368,9 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 2
 }
 
-create_navy_leader = { #Auto-Generated
-	name = "Antonis Mezeviris"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Antonis_Mezeviris.tga"
-	traits = {
-		spotter
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	maneuvering_skill = 2
-	coordination_skill = 3
-}
-
-create_navy_leader = { #Auto-Generated
+create_navy_leader = {
 	name = "Stylianos Lykoudis"
-	portrait_path = "gfx/leaders/GRE/Portrait_GRE_Stylianos_Lykoudis.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Stylianos_Lykoudis.tga"
 	traits = {
 		old_guard_navy
 	}
@@ -403,4 +381,15 @@ create_navy_leader = { #Auto-Generated
 	coordination_skill = 2
 }
 
-GRE_start_naval_variant = yes
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Hydra Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 2
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+}

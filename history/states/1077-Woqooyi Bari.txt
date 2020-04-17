@@ -1,0 +1,23 @@
+state={
+    id=1077
+	name="STATE_1077"
+	
+	history={
+	    owner = SOM
+		add_core_of = SOM
+		add_core_of = KLD
+		buildings = {
+		    infrastructure = 3
+		}
+		victory_points = {
+		    10761 15
+		}
+	}
+	
+	provinces={
+	    10761 10976 15340 15341 15342
+	}
+	manpower=187643
+	buildings_max_level_factor=1
+	state_category=rural
+}

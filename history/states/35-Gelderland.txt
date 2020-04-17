@@ -1,0 +1,37 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = NTH
+		add_core_of = NTH
+		add_core_of = KNR
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+			9498 = {
+				naval_base = 5
+
+			}
+		}
+		victory_points = {
+			6496 5 
+		}
+		victory_points = {
+			9498 10 
+		}
+		victory_points = {
+			11562 1 
+		}
+
+	}
+
+	provinces={
+		3262 9431 9498 
+	}
+	manpower=573378
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

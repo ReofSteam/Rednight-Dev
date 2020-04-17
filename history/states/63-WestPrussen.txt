@@ -1,0 +1,43 @@
+
+state={
+	id=63
+	name="STATE_63"
+	resources={
+		steel=36.000
+		aluminium=12.000
+	}
+
+	history={
+		owner = FRG
+		add_core_of = FRG
+		buildings = {
+			infrastructure = 7
+			11372 = {
+				naval_base = 1
+
+			}
+			6282 = {
+				naval_base = 4
+
+			}
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = {
+			11372 3 
+		}
+		victory_points = {
+			9361 2 
+		}
+		victory_points = {
+			6282 10
+		}
+	}
+
+	provinces={
+		6282 6309 6334 6390 9277 9306 9334 9361 11316 11343 11372 15605
+	}
+	manpower=1274400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

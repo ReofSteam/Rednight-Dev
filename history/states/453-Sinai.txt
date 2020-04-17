@@ -1,19 +1,25 @@
-state = {
-	id = 453
-	name = "STATE_453"
 
-	history = {
+state={
+	id=453
+	name="STATE_453"
+	resources={
+		steel=12.000
+	}
+
+	history={
 		owner = EGY
 		add_core_of = EGY
-		add_claim_by = OTT
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
-	provinces = {
-		1112 1155 4161 10002 10099 11922 11979 12073
+	provinces={
+		1112 10099 12073 
 	}
-	manpower = 15359
-	state_category = wasteland
+	manpower=27430
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

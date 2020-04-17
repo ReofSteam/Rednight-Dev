@@ -1,0 +1,29 @@
+
+state={
+	id=433
+	name="STATE_433"
+	resources={
+		tungsten=42.000
+	}
+
+	history={
+		owner = BHC
+		add_core_of = BHC
+		victory_points = {
+			1908 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1908 2054 4149 4971 4984 7905 12829 15042 
+	}
+	manpower=9670000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

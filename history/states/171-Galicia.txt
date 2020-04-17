@@ -1,14 +1,15 @@
-state = {
-	id = 171
-	name = "STATE_171"
+
+state={
+	id=171
+	name="STATE_171"
 	manpower = 2295085
+	
+	state_category = city
 
-	state_category = six
-
-	history = {
-		owner = SPR
+	history={
+		owner = CNT
 		victory_points = {
-			758 15
+			758 3
 		}
 		buildings = {
 			infrastructure = 6
@@ -17,17 +18,12 @@ state = {
 			air_base = 2
 			758 = {
 				naval_base = 6
-				bunker = 1
-			}
-			6734 = {
-				bunker = 1
 			}
 		}
 		add_core_of = SPR
-		add_core_of = GLC
 	}
 
-	provinces = {
+	provinces={
 		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840
 	}
 }

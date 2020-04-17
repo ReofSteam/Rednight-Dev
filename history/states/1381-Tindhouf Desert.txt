@@ -1,0 +1,19 @@
+state={
+	id=1381
+	name="STATE_1381"
+	provinces={
+		14344
+	}
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 0
+		}
+
+	}
+	manpower=704
+	impassable = yes
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=1262
+	name="STATE_1262"
+	resources={
+		steel=4.000
+	}
+	provinces={
+		15184 
+	}
+	history={
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = SLN
+		victory_points = {
+			15184 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+	manpower=103100
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

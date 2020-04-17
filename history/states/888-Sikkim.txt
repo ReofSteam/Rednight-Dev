@@ -1,19 +1,22 @@
-state = {
-	id = 888
-	name = "STATE_888"
-	manpower = 254000
 
-	state_category = one
+state={
+	id=888
+	name="STATE_888"
 
-	history = {
+	history={
 		owner = BHC
 		add_core_of = BHC
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
-	provinces = {
-		4435
+	provinces={
+		4435 10389 12338 
 	}
+	manpower=473500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

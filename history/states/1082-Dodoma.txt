@@ -1,0 +1,20 @@
+state={
+	id=1082
+	name="STATE_1082"
+	provinces={
+		12911 13808 13810 13814 13818 
+	}
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=314200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

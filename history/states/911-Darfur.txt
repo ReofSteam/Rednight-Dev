@@ -1,0 +1,23 @@
+
+state={
+	id=911
+	name="STATE_911"
+
+	history={
+		owner = TAS
+		add_core_of = TAS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		10893 
+	}
+	manpower=28000
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

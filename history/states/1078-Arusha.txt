@@ -1,0 +1,22 @@
+
+state={
+	id=1078
+	name="STATE_1078"
+
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2206 13833 13834 13836 
+	}
+	manpower=282000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

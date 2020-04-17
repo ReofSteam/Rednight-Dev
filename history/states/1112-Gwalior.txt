@@ -1,0 +1,19 @@
+state={
+	id=1112
+	name="STATE_1112"
+	provinces={
+		1949 2036 4045 4410 4953 5040 5055 5096 7080 7938 10801 11995 
+	}
+	manpower=15530000
+	history={
+		owner = BHC
+		add_core_of = BHC
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+	state_category = large_city
+	buildings_max_level_factor=1.000
+}

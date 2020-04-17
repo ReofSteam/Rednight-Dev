@@ -1,0 +1,24 @@
+
+state={
+	id=1489
+	name="STATE_1489"
+	provinces={
+		4769 7807 10715
+	}
+	history={
+		owner = QUE
+		add_core_of = QUE
+		add_claim_by = CAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		victory_points = {
+			10715 1 
+		}
+
+	}
+	manpower=10000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=1338
+	name="STATE_1338"
+	history={
+		owner = SUL
+		add_core_of = SUL
+		victory_points = {
+			1518 5 #Poso
+		}
+		victory_points = {
+			12358 5 #Palu
+		}
+	}
+	provinces={
+		1098 1484 1505 1518 1561 4493 4537 12358 
+	}
+	manpower=69
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

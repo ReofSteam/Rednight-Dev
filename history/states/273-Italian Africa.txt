@@ -1,0 +1,23 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = TRI
+		add_core_of = TRI
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		5004 
+	}
+	manpower=1633
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

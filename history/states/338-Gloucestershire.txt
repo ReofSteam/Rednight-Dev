@@ -1,32 +1,35 @@
-state = {
-	id = 338
-	name = "STATE_338"
-	manpower = 1800615
-	resources = {
-		steel = 16
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		steel=16.000
 	}
 
-	state_category = six
-
-	history = {
-		owner = ENG
+	history={
+		owner = GBR
 		victory_points = {
-			3369 5
+			3369 5 
 		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
-			industrial_complex = 4
+			industrial_complex = 5
 			air_base = 2
 			3369 = {
 				naval_base = 2
+
 			}
+
 		}
-		add_core_of = ENG
-		add_claim_by = CAN
+		add_core_of = GBR
+
 	}
 
-	provinces = {
-		3369 6221 6351 6378 9484 11471
+	provinces={
+		3369 3422 6351 6378 9484 
 	}
+	manpower=1904300
+	buildings_max_level_factor=1.000
+	state_category=city
 }

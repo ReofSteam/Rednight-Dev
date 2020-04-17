@@ -1,0 +1,36 @@
+
+state={
+	id=542
+	name="STATE_542"
+	resources={
+		chromium=98.000
+	}
+
+	history={
+		owner = SAF
+		victory_points = {
+			13922 1
+		}
+		victory_points = {
+			13915 1
+		}
+		victory_points = {
+			13913 1
+		}
+		victory_points = {
+			13904 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		10525 13904 13905 13911 13913 13915 13916 13918 13920 13922 13923 13924 13927 13928 13932 
+	}
+	manpower=106000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

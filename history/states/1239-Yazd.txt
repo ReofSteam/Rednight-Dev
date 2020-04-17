@@ -1,0 +1,20 @@
+
+state={
+	id=1239
+	name="STATE_1239"
+	provinces={
+		1963 8031 10828 14990 15005 15008 15010 15017 15019 15023 15027 15028 15033 15041 
+	}
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	manpower=173714
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

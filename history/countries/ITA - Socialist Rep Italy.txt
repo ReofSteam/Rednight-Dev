@@ -1,0 +1,210 @@
+﻿capital = 2
+
+oob = "ITA"
+
+set_research_slots = 3
+
+add_ideas = {
+	ITA_victors_of_the_second_weltkrieg
+	ITA_devastation_of_trapani
+	ITA_trade_union_bureaucracy
+	ITA_revolutionary_arditi
+	ITA_workers_militias
+	ITA_countryside_resistance
+	ITA_agrarian_reforms
+	ITA_reactionary_terrorism
+	ITA_phalanstere_reconstruction_initiative
+	
+	#Cabinet
+	ITA_Luigi_Longo_hog #Head of Government
+	ITA_Giuseppe_Romita_interior #Minister of Interior
+	ITA_Manlio_Rossi_Doria_economy #Minister of Economy
+	ITA_Pietro_Nenni_foreign #Minister of Foreign Affairs
+	ITA_Luce_Fabbri_education #Minister of Education
+	ITA_Pietro_Secchia_culture #Minister of Culture
+	ITA_Italo_Viglianesi_transport #Minister of Transportation
+	ITA_Giuseppe_Di_Vittorio_portfolio #Minister without Portfolio
+	ITA_Michele_Moretti_intel #Head of Intelligence
+	ITA_Randolfo_Pacciardi_cos #Chief of Staff
+	ITA_Cino_Moscatelli_coa #Chief of the Army
+	ITA_Nicola_Ugo_Stame_air #Chief of the Air Force
+	ITA_Giovanni_Galati_navy #Chief of the Navy
+}
+
+# Starting tech
+set_technology = {
+	shipbuild_basics = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+}
+
+
+set_convoys = 50
+set_stability = 0.60
+set_war_support = 0.30
+
+
+set_politics = {	
+	ruling_party = moderate_socialist
+	last_election = "1946.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 1
+    marxist = 19
+    libertarian = 6
+    moderate_socialist = 18
+    social_democrat = 1
+    social_liberal = 10
+    conservative = 37
+    authoritarian_democrat = 3
+    autocratic = 2
+    voynist = 2
+	fundamentalist = 1
+}
+
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_social_liberal_banned = 1}
+set_variable = { kn_conservative_banned = 1}
+set_variable = { kn_authoritarian_democrat_banned = 1}
+set_variable = { kn_autocratic_banned = 1}
+set_variable = { kn_voynist_banned = 1}
+set_variable = { kn_fundamentalist_banned = 1}
+
+
+create_country_leader = {
+	name = "Onorato Damen"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Amadeo Bordiga"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Alberto Meschi"
+	picture = "ITA_Alberto_Meschi.dds"
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Palmiro Togliatti"
+	desc = "POLITICS_PALMIRO_TOGLIATTI_DESC"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Palmiro_Togliatti.dds"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {}
+}
+
+### Field Marshal
+
+
+### Corps Commander
+
+create_corps_commander = {# Ettore Troilo
+	name = "Ettore Troilo"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Ettore_Troilo.tga"
+	traits = {
+		war_hero
+		trickster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {# Luigi Canali
+	name = "Luigi Canali"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Luigi_Canali.tga"
+	traits = { politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Mario Pasi
+	name = "Mario Pasi"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Mario_Pasi.tga"
+	traits = { ranger }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {# Michele Moretti
+	name = "Michele Moretti"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Michele_Moretti.tga"
+	traits = {hill_fighter}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {# Cino Moscatelli
+	name = "Cino Moscatelli"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Cino_Moscatelli.tga"
+	traits = {hill_fighter commando}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {# Adolfo Zamboni
+	name = "Adolfo Zamboni"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Adolfo_Zamboni.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+### Navy Leader
+create_navy_leader = {# Riccardo Formica
+	name = "Riccardo Formica"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Riccardo_Formica.tga"
+	traits = {  }
+	skill = 2 #naval guy, don't patch
+}

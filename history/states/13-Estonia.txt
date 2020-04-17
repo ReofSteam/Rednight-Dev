@@ -1,18 +1,22 @@
-state = {
-	id = 13
-	name = "STATE_13"
-	manpower = 603100
-	state_category = four
 
-	resources = {
-		steel = 3
+state={
+	id=13
+	name="STATE_13"
+	resources={
+		steel=3.000
 	}
 
-	history = {
-		owner = GER
-		add_core_of = GER
+	history={
+		owner = RUS
+		add_core_of = EST
 		victory_points = {
-			3152 15
+			3152 10 
+		}
+		victory_points = {
+			83 1 
+		}
+		victory_points = {
+			9079 1 
 		}
 		buildings = {
 			infrastructure = 5
@@ -22,14 +26,17 @@ state = {
 			air_base = 2
 			3152 = {
 				naval_base = 3
+
 			}
-			4640 = {
-				naval_base = 1
-			}
+
 		}
+
 	}
 
-	provinces = {
-		83 185 496 567 3074 3152 4640 6201 9079 11057 11127 11426 11443
+	provinces={
+		83 496 567 3074 3152 9079 11426 
 	}
+	manpower=457100
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

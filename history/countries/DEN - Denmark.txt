@@ -1,316 +1,137 @@
 ﻿capital = 37
-OOB = "DEN"
-set_naval_oob= "DEN_naval"
-country_event = { id = den.71 days = 156 }
-set_research_slots = 3
-set_technology = {
 
-	### Tanks ###
-	gwtank = 1
-	### Infantry ###
+oob = "DEN"
+
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 0.1
+set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_support = 1
+	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
 	gw_artillery = 1
-	### Air ###
 	early_fighter = 1
-
+	cv_early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	transport = 1
 }
 
-### Navy - MtG ###
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-
-		## Modules##
-		early_torpedo = 1
-		weltkrieg_naval_gunnery = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		light_battery_two = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-		weltkrieg_naval_gunnery = 1
-		weltkrieg_naval_gunnery = 1
-	}
-}
-
-### Navy - Non MtG ###
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-		weltkrieg_dreadnought_nonmtg = 1
-	}
-}
-
-set_war_support = 0.1
+set_variable = { kn_voynist_banned = 1 }
+set_variable = { kn_marxist_banned = 1 }
+set_variable = { kn_social_nationalist_banned = 1 }
+set_variable = { kn_libertarian_banned = 1 }
+set_variable = { kn_moderate_socialist_banned = 1 }
+set_variable = { kn_fundamentalist_banned = 1 }
+set_variable = { kn_autocratic_banned = 1 }
 
 set_politics = {
 	ruling_party = social_democrat
-	last_election = "1935.10.22"
+	last_election = "1932.3.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 2
-	social_democrat = 43
-	social_liberal = 10
-	market_liberal = 25
-	social_conservative = 8
-	authoritarian_democrat = 11
-	paternal_autocrat = 1
-	national_populist = 0
-}
-
-set_autonomy = {
-	target = ICE
-	autonomy_state = kr_autonomous_puppet
+	social_nationalist = 1
+	marxist = 5
+	libertarian = 2
+	moderate_socialist = 4
+	social_democrat = 38
+	social_liberal = 22
+	conservative = 10
+	authoritarian_democrat = 7
+	autocratic = 5
+	fundamentalist = 2
+	voynist = 4
 }
 
 set_convoys = 40
 
 create_country_leader = {
-	name = "Olga Eggers"
-	desc = "POLITICS_OLGA_EGGERS_DESC"
-	picture = "Portrait_Denmark_Olga_Eggers.tga"
-	expire = "1965.1.1"
-	ideology = totalist_subtype
-}
-
-create_country_leader = {
-	name = "Christian Christensen"
-	desc = "POLITICS_CHRISTIAN_CHRISTENSEN_DESC"
-	picture = "Portrait_Denmark_Christian_Christensen.tga"
-	expire = "1965.1.1"
-	ideology = syndicalist_subtype
-}
-
-create_country_leader = {
-	name = "Aksel Larsen"
-	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "Portrait_Denmark_Aksel_Larsen.tga"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
+	name = "Frederick IX"
+	desc = ""
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-}
-
-create_country_leader = {
-	name = "Christian X"
-	desc = "CHRISTIAN_X_DESC"
-	picture = "Portrait_Denmark_Christian_X.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-}
-
-create_country_leader = {
-	name = "Max Arildskov"
-	desc = "MAX_ARILDSKOV_DESC"
-	picture = "Portrait_Denmark_Max_Arildskov.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	traits = {
+		#
+	}
 }
 
 add_ideas = {
-	DEN_idea_opposition_controlled_landsting
-	DEN_Thorvald_Stauning_hog_sde
-	DEN_Peter_Munch_for_sli
-	DEN_Alsing_Andersen_eco_sde
-	DEN_Karl_Kristian_Steincke_sec_sde
+	DEN_influx_refugees
+	DEN_thriving_social_democracy
+	DEN_lack_trading_partners
+	DEN_iceland_question
+
+	DEN_Hans_Hedtoft_hog
+	DEN_Alsing_Anderson_interior
+	DEN_HC_Hansen_economy
+	DEN_Gustav_Rasmussen_foreign
+	DEN_Hartvig_Frisch_education
+	DEN_Fred_Nielsen_culture
+	DEN_Carl_Petersen_transport
+	DEN_Vilhelm_Buhl_intel
+	DEN_Erhard_JC_Qvistgaard_cos
+	DEN_Ebbe_Gortz_coa
+	DEN_Torben_Ploug_Aagesen_Orum_coaf
+	DEN_AH_Vedel_con
+	}
+
+###create_country_leader = {
+#	name = "Hans H. Hansen"
+#	desc = ""
+#	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Hans_Hedtoft_Hansen.tga"
+#	expire = "1965.1.1"
+#	ideology = social_democrat_subtype
+#	traits = {
+#		#
+#	}
+##}
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
 }
 
-create_field_marshal = {
-	name = "William Prior"
-	picture = "Portrait_Denmark_William_Prior.tga"
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
 	traits = {
-		trait_cautious
-		defensive_doctrine
+		#
 	}
+}
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Wilhelm Wain Prior"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trickster }
 	skill = 3
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 4
-	id = 1040
-}
-
-create_corps_commander = {
-	name = "Hans Rolsted"
-	picture = "Portrait_Denmark_Hans_Rolsted.tga"
-	traits = {
-		old_guard
-		trickster
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-	id = 1041
-}
-
-create_corps_commander = {
-	name = "Erik Leschly"
-	picture = "Portrait_Denmark_Erik_Leschly.tga"
-	traits = {
-		cavalry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 3
-	id = 1042
-}
-
-create_corps_commander = {
-	name = "Erik With"
-	picture = "Portrait_Denmark_Erik_With.tga"
-	traits = {
-		old_guard
-		harsh_leader
-		infantry_leader
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-	id = 1043
-}
-
-create_corps_commander = {
-	name = "Frode Lund Hvalkof"
-	picture = "Portrait_Denmark_Frode_Lund_Hvalkof.tga"
-	traits = {
-		trait_cautious
-		trait_engineer
-	}
-	skill = 2
-	attack_skill = 1
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 1
-	id = 1044
+	planning_skill = 3
+	logistics_skill = 2
 }
-
-create_corps_commander = {
-	name = "Christian von Schalburg"
-	picture = "Portrait_Denmark_Christian_von_Schalburg.tga"
-	traits = {
-		career_officer
-		commando
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 1045
-}
-
-create_corps_commander = {
-	name = "Prince Aage"
-	picture = "Portrait_Denmark_Prince_Aage.tga"
-	traits = {
-		politically_connected
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 1046
-}
-
-create_navy_leader = {
-	name = "Aage Helgesen Vedel"
-	picture = "Portrait_Denmark_Aage_Helgesen_Vedel.tga"
-	traits = { superior_tactician }
-	skill = 2
-	id = 1047
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 3
-}
-
-create_navy_leader = {
-	name = "Hjalmar Rechnitzer"
-	picture = "Portrait_Denmark_Hjalmar_Rechnitzer.tga"
-	traits = { spotter }
-	skill = 2
-	id = 1048
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 2
-	coordination_skill = 1
-}
-
-DEN_start_naval_variant = yes

@@ -1,0 +1,17 @@
+state={
+	id=999
+	name="STATE_999"
+	history={
+		owner = KAM
+		add_core_of=KAM
+		buildings={
+			infrastructure=2
+		}
+	}
+	provinces={
+		13661 13662 
+	}
+	manpower=436217
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

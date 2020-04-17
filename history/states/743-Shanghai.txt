@@ -1,16 +1,18 @@
-state = {
-	id = 743
-	name = "STATE_743" # Shanghai
+
+state={
+	id=743
+	name="STATE_743" # ShanghaiAndLegation
 	manpower = 4730510
-
-	state_category = eight
-
-	history = {
+	
+	state_category = large_city
+	
+	history={
 		owner = CHI
 		add_core_of = CHI
+
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
+			industrial_complex = 1
 			arms_factory = 1
 			air_base = 1
 			7014 = {
@@ -19,12 +21,16 @@ state = {
 				bunker = 1
 			}
 		}
+
 		victory_points = {
 			7014 20
 		}
+		victory_points = {
+			10076 5
+		}
 	}
 
-	provinces = {
-		7014 12052 12076 10034
+	provinces={
+		7014 12052 10076 12076 10034 4042
 	}
 }

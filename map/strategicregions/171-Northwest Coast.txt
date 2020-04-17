@@ -1,11 +1,10 @@
-
 strategic_region={
 	id=171
 	name="STRATEGICREGION_171"
 	provinces={
-		1214 1420 2774 2846 2921 2945 4722 4945 5150 5257 5282 5309 5335 5359 7259 12259 12272
+		2921 5150 5359 5309 5335 5282 5257 2945 2774 4722 2846 4945 12272 1420 7259 1214 12259 1869 
 	}
-	naval_terrain=water_fjords
+	naval_terrain=water_deep_ocean
 	weather={
 		period={
 			between={ 0.0 30.0 }
@@ -17,8 +16,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -31,8 +31,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -45,8 +46,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -59,8 +61,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -73,8 +76,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -87,8 +91,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -101,8 +106,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -115,8 +121,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -129,8 +136,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -143,8 +151,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -157,8 +166,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 		period={
@@ -171,8 +181,9 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			mud=1.000
+			mud=1.0
 			sandstorm=0.000
+			arctic_water=1.000
 			min_snow_level=0.000
 		}
 	}

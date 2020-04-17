@@ -1,135 +1,41 @@
 ﻿capital = 425
-oob = "empty"
 
+oob = "MYS"
+
+# Starting tech
 set_technology = {
-	### Tanks ###
-	gwtank = 1
-	### Infantry ###
 	infantry_weapons = 1
-	tech_support = 1
-	tech_mountaineers = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
 	tech_engineers = 1
-	gw_artillery = 1
-	### Air ###
-	early_fighter = 1
+	tech_recon = 1
+	transport = 1
+	#trench_warfare = 1
+	#fleet_in_being = 1
+	CAS1 = 1
+	
 }
 
-set_research_slots = 2
-set_convoys = 30
-
+set_convoys = 0
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 2
-	social_democrat = 4
-	social_liberal = 6
-	market_liberal = 8
-	social_conservative = 41
-	authoritarian_democrat = 12
-	paternal_autocrat = 19
-	national_populist = 8
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
 }
 
-create_country_leader = {
-	name = "Krishna Raja Wadiyar IV"
-	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
-	picture = "gfx/leaders/PRF/Portrait_PRF_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
-
-create_country_leader = {
-	name = "Krishna Raja Wadiyar IV"
-	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
-	picture = "gfx/leaders/PRF/Portrait_PRF_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-}
-
-create_country_leader = {
-	name = "Krishna Raja Wadiyar IV"
-	desc = "POLITICS_KRISHNA_WADIYAR_IV_DESC"
-	picture = "gfx/leaders/PRF/Portrait_PRF_Krishna_Wadiyar.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-add_ideas = {
-	MYS_Mirza_Muhammad_Ismail_hog_sco
-	MYS_Albion_Rajkumar_Banerjee_for_sco
-	MYS_Mokshagundam_Visveswaraiah_eco_sco
-	MYS_Albion_Rajkumar_Banerjee_sec_sco
-}
-
-### Field Marshals ###
-create_field_marshal = {
-	name = "Raja Wadiyar IV"
-	portrait_path = "gfx/leaders/MYS/gfx/leaders/PRF/Portrait_PRF_Krishna_Wadiyar.tga"
-	traits = {
-		old_guard
-		inspirational_leader
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-	id = 1607
-}
-
-### Corps Commanders ###
-create_corps_commander = {
-	name = "Jayachamarajendra Wadiyar"
-	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Jayachamarajendra_Wadiyar.tga"
-	traits = {
-		politically_connected
-		trait_engineer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 1608
-}
-create_corps_commander = {
-	name = "Narasimharaja Wadiyar"
-	portrait_path = "gfx/leaders/MYS/Portrait_MYS_Narasimharaja_Wadiyar.tga"
-	traits = {
-		politically_connected
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "Tarapore"
-	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Tarapore.tga"
-	traits = {
-		cavalry_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Chaudhari"
-	portrait_path = "gfx/leaders/PRF/Portrait_PRF_Chaudhari.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
+###gfx/leaders/RMK/MYS/

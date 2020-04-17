@@ -1,0 +1,27 @@
+
+state={
+	id=1192
+	name="STATE_1192"
+
+	history={
+		owner = SER
+		add_core_of = YUG
+		add_core_of = SER
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6998 2 
+		}
+
+	}
+
+	provinces={
+		3984 6998 9599 11583 
+	}
+	manpower=448710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

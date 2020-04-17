@@ -1,18 +1,26 @@
-state = {
-	id = 923
-	name = "STATE_923"
 
-	history = {
-		owner = ETH
+state={
+	id=923
+	name="STATE_923"
+
+	history={
+		owner = ERI
+		add_core_of = ERI
 		add_core_of = ETH
+		victory_points={
+		    5041 3
+	    }
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
-	provinces = {
-		2072 13554
+	provinces={
+		2072 5041 13554 
 	}
-	manpower = 1132200
-	state_category = one
+	manpower=1132200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -1,0 +1,29 @@
+
+state={
+	id=1438
+	name="STATE_1438" #lmao virgins
+
+	history={
+		owner = USN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4155 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = USN
+		victory_points = {
+			4155 3 
+		}
+
+	}
+
+	provinces={
+		4155 15671
+	}
+	manpower=1638000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

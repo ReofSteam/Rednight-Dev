@@ -1,0 +1,51 @@
+﻿capital = 46
+
+oob = "RTAS"
+
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.5
+
+# Starting tech
+set_technology = {
+
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = voynist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 0
+    marxist = 0
+    libertarian = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    conservative = 0
+    authoritarian_democrat = 50
+    autocratic = 0
+    fundamentalist = 0
+    voynist = 50
+}
+
+### gfx/leaders/WEST_AFRICA/TAS/
+create_country_leader = {
+	name = "Santa"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}

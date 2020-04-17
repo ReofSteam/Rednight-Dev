@@ -1,25 +1,28 @@
-state = {
-	id = 893
-	name = "STATE_893" #Nagpur
-	manpower = 4255500
 
-	state_category = two
-
-	resources = {
-		chromium = 3
+state={
+	id=893
+	name="STATE_893"
+	resources={
+		chromium=3.000
 	}
 
-	history = {
+	history={
 		owner = BHC
 		add_core_of = BHC
-		victory_points = { 4883 1 } #Nagpur
+		victory_points = {
+			4883 1 
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+
 		}
+
 	}
 
-	provinces = {
-		4883 4950 7430 7619 10030 10872 12781
+	provinces={
+		4883 7430 7619 10030 10311 12781 15270 15275 15277 15278 15279 15282 15285 15289 
 	}
+	manpower=4620000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,13 +1,23 @@
-﻿capital = 96
+﻿capital = 11
 oob = "LIT"
-set_naval_oob= "LIT_naval"
 set_convoys = 10
 
 set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	synth_oil_experiments = 1
+
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+
 	### Tanks ###
 	gwtank = 1
 
-	### Infantry ###
+	### INF ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -15,109 +25,71 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 	early_bomber = 1
 }
 
-### Navy - MtG ###
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-
-		## Modules##
-		weltkrieg_naval_gunnery = 1
-		light_battery_one = 1
-		smoke_generator = 1
-	}
-}
-
-### Navy - Non MtG ###
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-	}
-}
-
-add_opinion_modifier = { target = FRA modifier = embargo }
-add_opinion_modifier = { target = SRI modifier = embargo }
-add_opinion_modifier = { target = ENG modifier = embargo }
 
 set_research_slots = 3
 
-country_event = { id = lithuania.1 days = 1 } #Intro event
-country_event = { id = lithuania.42 days = 74 random = 48 } #Lithuanian Group for the Study of French Culture
-country_event = { id = lithuania.4 days = 180 }
-country_event = { id = lithuania.39 days = 222 random = 48 } #The National Lithuanian Olympiad
-country_event = { id = lithuania.38 days = 232 random = 48 } #The History of Lithuania
-country_event = { id = lithuania.36 days = 486 random = 48 } #EuroBasket 1937
-country_event = { id = lithuania.35 days = 1096 random = 4320 } #Red Flood
-country_event = { id = lithuania.40 days = 1474 random = 4320 } #Cult of Vytautas the Great
-country_event = { id = lithuania.37 days = 1512 random = 48 } #Death of Dovas Zaunius
-country_event = { id = lithuania.41 days = 1607 random = 168 } #Matas Salcius's Last Expedition
 
-
-set_war_support = 0.1
+add_ideas = {
+	#medium_economy
+	#ZO_idea
+	#extensive_conscription
+}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
-	last_election = "1888.6.15"
+	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 3
-	social_democrat = 15
-	social_liberal = 7
-	market_liberal = 8
-	social_conservative = 12
-	authoritarian_democrat = 40
-	paternal_autocrat = 3
-	national_populist = 12
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
 }
 
 add_ideas = {
-	extensive_conscription
-	LIT_Antanas_Merkys_hog_pau
-	LIT_Oskaras_Milasius_for_sco
-	LIT_Valdemaras_Vytautas_Carneckis_eco_pau
-	LIT_Mecislovas_Reinys_sec_ade
+	#medium_economy
+
+	#LIT_Antanas_Merkys_hog_pau
+	#LIT_Oskaras_Milasius_for_sco
+	#LIT_Valdemaras_Vytautas_Carneckis_eco_pau
+	#LIT_Mecislovas_Reinys_sec_ade
+
 }
 
 create_country_leader = {
-	name = "Mindaugas III"
+	name = "Mindaugas III of Urach"
 	desc = "POLITICS_MINDAUGAS_III_DESC"
-	picture = "Portrait_Lithuania_Mindaugas_III.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Mindaugas_III.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
 	name = "Kazys Škirpa"
 	desc = "POLITICS_SKIRPA_DESC"
-	picture = "Portrait_Lithuania_Kazys_Skirpa.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Kazys_Skirpa.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = fundamentalist_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
@@ -126,6 +98,9 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
@@ -133,44 +108,59 @@ create_country_leader = {
 	desc = "POLITICS_LOZORAITIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservative_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
-	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Vincas_Kapsukas.tga"
 	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = voynist_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
-	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Vincas_Kapsukas.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = marxist_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
 	name = "Vincas Mickevicius-Kapsukas"
 	desc = "POLITICS_KAPSUKAS_DESC"
-	picture = "Portrait_Lithuania_Vincas_Kapsukas.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Vincas_Kapsukas.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = libertarian_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
-	name = "Kazimieras II"
+	name = "Kazimieras II Tiskevicius"
 	desc = "POLITICS_KAZIMIERAS_II_DESC"
-	picture = "Portrait_Lithuania_Kazimieras_II_Tiskevicius.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Europe_Kazimieras_II_Tiskevicius.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {
+
+	}
 }
 
 create_field_marshal = {
 	name = "Stasys Raštikis"
-	picture = "Portrait_Lithuania_Stasys_Rastikis.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Stasys_Rastikis.tga"
 	traits = {
 		brilliant_strategist
 		defensive_doctrine
@@ -178,42 +168,43 @@ create_field_marshal = {
 	skill = 3
 	attack_skill = 2
 	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+
 }
 
 create_corps_commander = {
 	name = "Jonas Černius"
-	picture = "Portrait_Lithuania_Jonas_Cernius.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Jonas_Cernius.tga"
 	traits = {
 		old_guard
 		politically_connected
 		skilled_staffer
 	}
 	skill = 3
-	attack_skill = 2
-	defense_skill = 2
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Kazys Škirpa"
-	picture = "Portrait_Lithuania_Kazys_Skirpa.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Kazys_Skirpa.tga"
 	traits = {
 		trait_reckless
 		swamp_fox
 	}
 	skill = 2
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
+	defense_skill = 2
+	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Mikas Rėklaitis"
-	picture = "Portrait_Lithuania_Mikas_Reklaitis.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Mikas_Reklaitis.tga"
 	traits = {
 		winter_specialist
 		winter_expert
@@ -222,12 +213,12 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Vincas Vitkauskas"
-	picture = "Portrait_Lithuania_Vincas_Vitkauskas.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Vincas_Vitkauskas.tga"
 	traits = {
 		infantry_officer
 	}
@@ -240,35 +231,25 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Kazys Ladiga"
-	picture = "Portrait_Lithuania_Kazys_Ladiga.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Kazys_Ladiga.tga"
 	traits = { }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_navy_leader = {
 	name = "Antanas Kaškelis"
-	picture = "Portrait_Lithuania_Antanas_Kaskelis.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Antanas_Kaskelis.tga"
 	traits = { old_guard_navy }
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Povilas Julius Labanauskas"
-	picture = "Portrait_Lithuania_Povilas_Julius_Labanauskas.tga"
+	picture = "gfx/leaders/EASTERN_EUROPE/LIT/Portrait_Lithuania_Povilas_Julius_Labanauskas.tga"
 	traits = { spotter }
 	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
 }
-
-LIT_start_naval_variant = yes

@@ -1,0 +1,21 @@
+state={
+    id=1473
+	name="STATE_1473"
+	
+	history={
+	    owner = SOM
+		add_core_of = SOM
+		add_core_of = ETH
+		buildings = {
+		    infrastructure = 3
+		}
+		victory_points = { 4995 5 }
+	}
+	
+	provinces={
+	    4995 15371 15372 15373 15380 15381
+	}
+	manpower=420
+	buildings_max_level_factor=1
+	state_category=rural
+}

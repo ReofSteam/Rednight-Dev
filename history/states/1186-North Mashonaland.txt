@@ -1,0 +1,20 @@
+
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		2216 14888 14889 14891 14893 14894 14895 14896 14897 14898 14899 14900 14901 
+	}
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=153752
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

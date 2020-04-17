@@ -3,9 +3,11 @@
 set_research_slots = 3
 
 oob = "SER"
+set_cosmetic_tag = YUG
 
 set_technology = {
 	### General ###
+	shipbuild_basics = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
@@ -16,89 +18,118 @@ set_technology = {
 	early_bomber = 1
 }
 
-set_war_support = 0.5
+set_war_support = 0.6
 
-# Trigger introduction event
-country_event = { id = serbia.1 days = 1 }
 
-add_opinion_modifier = { target = BUL modifier = embargo }
-add_opinion_modifier = { target = BUL modifier = Balkans_hates_bulgaria }
-add_opinion_modifier = { target = OTT modifier = embargo }
-
-set_politics = {
-	ruling_party = authoritarian_democrat
+set_politics = {	
+	ruling_party = autocratic
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    totalist = 0
-    radical_socialist = 0
-    syndicalist = 0
-    social_democrat = 0
-    social_liberal = 5
-    market_liberal = 9
-    social_conservative = 14
-    authoritarian_democrat = 51
-    paternal_autocrat = 18
-    national_populist = 3
+    social_nationalist = 5
+    marxist = 3
+    libertarian = 1
+    moderate_socialist = 2
+    social_democrat = 2
+    social_liberal = 4
+    conservative = 12
+    authoritarian_democrat = 7
+    autocratic = 18
+    fundamentalist = 20
+    voynist = 26
 }
 
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_social_nationalist_banned = 1}
+set_variable = { kn_marxist_banned = 1}
+set_variable = { kn_libertarian_banned = 1}
+set_variable = { kn_moderate_socialist_banned = 1}
+set_variable = { kn_social_democrat_banned = 1}
+
+set_variable = { kn_authoritarian_democrat_coalition = 1}
+
+set_variable = { kn_social_nationalist_banned_name = "SER_social_nationalist_party" }
+set_variable = { kn_marxist_name = "SER_marxist_party" }
+set_variable = { kn_libertarian_name = "SER_libertarian_party" }
+set_variable = { kn_moderate_socialist_name = "SER_moderate_socialist_party" }
+set_variable = { kn_social_democrat_name = "SER_social_democrat_party" }
+set_variable = { kn_social_liberal_name = "SER_social_liberal_party" }
+set_variable = { kn_conservative_name = "SER_conservative_party" }
+set_variable = { kn_authoritarian_democrat_name = "SER_authoritarian_democrat_party" }
+set_variable = { kn_autocratic_name = "SER_autocratic_party" }
+set_variable = { kn_voynist_name = "SER_voynist_party" }
+set_variable = { kn_fundamentalist_name = "SER_fundamentalist_party" }
+
+### Starting cabinet
 add_ideas = {
-	limited_conscription
-	SER_jingoism
-	SER_Dragisa_Cvetkovic_hog_ade
-	SER_Aleksandar_Cincar_Markovic_for_ade
-	SER_Milan_Stojadinovic_eco_ade
-	SER_Dragisa_Cvetkovic_sec_ade
+    SER_alexanders_dictatorship
+	SER_german_problem
+	SER_glorious_yugoslav_people
+	SER_intense_underdevelopment
+	#SER_Dragisa_Cvetkovic_hog_ade
+	#SER_Aleksandar_Cincar_Markovic_for_ade
+	#SER_Milan_Stojadinovic_eco_ade
+	#SER_Dragisa_Cvetkovic_sec_ade
 }
 
-### Starting party leaders
-create_country_leader = {
-	name = "Ljubomir Davidović"
-	desc = "POLITICS_LJUBOMIR_DAVIDOVIC_DESC"
-	picture = "Ljubomir_Davidovic.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
+###############################
+########### LEADERS ###########
+# gfx/leaders/CAIRO_PACT/EGY/ #
+###############################
 
 create_country_leader = {
-	name = "Slobodan Jovanović"
-	desc = "POLITICS_SLOBODAN_JOVANOVIC_DESC"
-	picture = "Slobodan_Jovanovic.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_subtype
-}
-
-create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "Milan_Stojadinovic.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-create_country_leader = {
-	name = "Petar Bojović"
-	desc = "POLITICS_PETAR_BOJOVIC_DESC"
-	picture = "Portrait_Serbia_Petar_Bojovic.tga"
+	name = "King Aleksandar I"
+	desc = "POLITICS_ALEKSANDAR_I_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+	traits = {
+	great_liberator
+	}
 }
 
 create_country_leader = {
-	name = "Alexander II"
-	desc = "POLITICS_ALEXANDER_II_DESC"
-	picture = "Alexander_II.tga"
+	name = "King Aleksandar I"
+	desc = "POLITICS_ALEKSANDAR_I_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {
+	great_liberator
+	}
+}
+
+create_country_leader = {
+	name = "Dimitrije Ljotić"
+	desc = "POLITICS_DIMITRIJE_LJOTIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Dimitrije_Ljotic.tga"
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Draža Mihailović"
+	desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = { }
 }
 
 ### Army Leaders
 create_field_marshal = {
 	name = "Milan Nedić"
-	portrait_path = "gfx/leaders/SER/Milan_Nedic.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Portrait_Serbia_Milutin_Nedic.tga"
 	traits = {
 		old_guard
 		career_officer
@@ -112,7 +143,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Draža Mihailović"
-	portrait_path = "gfx/leaders/SER/Draza_Mihailovic.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
 	traits = {
 		career_officer
 		media_personality
@@ -122,17 +153,33 @@ create_corps_commander = {
 	}
 	skill = 3
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
+	defense_skill = 3
+	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "Ljubomir Marić"
-	portrait_path = "gfx/leaders/SER/Lubomir_Maric.tga"
+	name = "Lubomir Maric"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Lubomir_Maric.tga"
 	traits = {
 		career_officer
 		trickster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Borivoje Mirkovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Borivoje_Mirkovic.tga"
+	traits = {
+		career_officer
+		#artillery_officer
+		commando
+		paratrooper
 	}
 	skill = 2
 	attack_skill = 1
@@ -142,8 +189,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Milorad Petrović"
-	portrait_path = "gfx/leaders/SER/Mirolad_Petrovic.tga"
+	name = "Mirolad Petrovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Mirolad_Petrovic.tga"
 	traits = {
 		infantry_officer
 	}
@@ -155,21 +202,21 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Dušan Trifunović"
-	portrait_path = "gfx/leaders/SER/Dusan_Trifunovic.tga"
+	name = "Dusan Trifunovic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Dusan_Trifunovic.tga"
 	traits = {
 		trait_mountaineer
 	}
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Bogoljub Ilić"
-	portrait_path = "gfx/leaders/SER/Bogoljub_Ilic.tga"
+	name = "Bogoljub Ilic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Bogoljub_Ilic.tga"
 	traits = {
 		cavalry_officer
 		politically_connected
@@ -177,43 +224,28 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Petar Vukčević"
-	portrait_path = "gfx/leaders/SER/Petar_Vukcevic.tga"
+	name = "Petar Vukcevic"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Petar_Vukcevic.tga"
 	traits = {
 		old_guard
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
 }
 
-create_corps_commander = {
-	name = "Milutin Nedić"
-	portrait_path = "gfx/leaders/SER/Portrait_Serbia_Milutin_Nedic.tga"
-	traits = {
-		career_officer
-		politically_connected
-		old_guard
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
 
-
-### Admirals ###
+### Navy Leader
 # create_navy_leader = {
 #	name = "Polic"
-#	portrait_path = "gfx/leaders/SER/Portrait_SER_Polic.tga"
+#	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/Portrait_SER_Polic.tga"
 #	traits = {
 #	}
 #	skill = 2 #WHY AM I STILL HERE, END ME PLS

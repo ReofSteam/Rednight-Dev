@@ -1,33 +1,30 @@
-state = {
-	id = 835
-	name = "STATE_835"
-	manpower = 439721
 
-	state_category = three
-
-	resources = {
-		steel = 12
+state={
+	id=835
+	name="STATE_835"
+	resources={
+		steel=8.000
 	}
 
-	history = {
-		owner = AUS
+	history={
+		owner = CIS
+		add_core_of = CIS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
-			11612 = {
-				bunker = 2
-			}
-			6673 = {
-				bunker = 1
-			}
+			industrial_complex = 1
+
 		}
-		add_core_of = AUS
 		victory_points = {
-			6673 5
+			6673 3 
 		}
+
 	}
 
-	provinces = {
-		668 3673 6673 11612 13210
+	provinces={
+		668 671 3673 6673 11612 13210 15182 
 	}
+	manpower=405100
+	buildings_max_level_factor=1.000
+	state_category=city
 }

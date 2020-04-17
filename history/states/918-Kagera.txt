@@ -1,19 +1,22 @@
-state = {
-	id = 918
-	name = "STATE_918"
 
-	history = {
-		owner = MAF
-		add_core_of = MAF
-		add_core_of = TZN
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = TNG
+		add_core_of = TNG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+
 		}
+
 	}
 
-	provinces = {
-		4171
+	provinces={
+		4171 13837 13841 
 	}
-	manpower = 308100
-	state_category = wasteland
+	manpower=308100
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

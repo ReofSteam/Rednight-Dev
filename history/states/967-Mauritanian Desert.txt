@@ -1,19 +1,22 @@
-state = {
-	id = 967
-	name = "STATE_967"
+state={
+	id=967
+	name="STATE_967"
 
-	history = {
-		owner = FRA
-		add_core_of = MRT
+	history={
+		owner = SAH
+		add_core_of = SAH
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
-	provinces = {
-		7943
+	provinces={
+		1897
 	}
-	manpower = 40000
-	state_category = wasteland
+	manpower=40000
+	buildings_max_level_factor=1.000
 	impassable = yes
+	state_category=wasteland
 }

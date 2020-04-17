@@ -1,0 +1,14 @@
+state={
+	id=1459
+	name="STATE_1459"
+	provinces={
+		1703 4682 4770 7702 12526 
+	}
+	history = {
+		owner = ETR
+		add_core_of = ETR
+		add_core_of = SIK
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

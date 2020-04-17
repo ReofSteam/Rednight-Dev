@@ -1,0 +1,328 @@
+﻿capital = 613
+
+oob = "CHI"
+set_stability = 0.2
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	#mass_assault = 1
+	#fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+add_ideas = {
+	CHI_Wangs_Legacy
+	CHI_Road_to_Unification
+	CHI_Prefecture_System
+	CHI_Agricultural_Society
+	CHI_Military_Affairs_Commission
+
+##Cabinet##
+
+	CHI_Chen_Gongbo_hog
+	CHI_Chen_Yun_no_portfolio
+	#CHI_Song_Qingling_no_portfolio
+	CHI_Shi_Chuntong_interior
+	CHI_Wang_Wenying_economy
+	CHI_Fu_Bingchang_foreign
+	CHI_Zhu_Jiaohua_education
+	CHI_Fang_Junbi_culture
+	CHI_Zhang_Jiaao_transport
+	CHI_Li_Kenong_intel
+	CHI_Li_Jishen_staff
+	CHI_Jiang_Xianyun_army
+	CHI_Zhou_Zhirou_air_force
+	CHI_Lin_Zun_navy
+
+}
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    social_nationalist = 13
+    marxist = 21
+    libertarian = 8
+    moderate_socialist = 29
+    social_democrat = 20
+    social_liberal = 5
+    conservative = 4
+    authoritarian_democrat = 0
+    autocratic = 0
+    fundamentalist = 0
+    voynist = 0
+}
+
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_social_nationalist_coalition = 1}
+set_variable = { kn_marxist_coalition = 1}
+set_variable = { kn_libertarian_coalition = 1}
+set_variable = { kn_social_democrat_coalition = 1}
+set_variable = { kn_social_liberal_coalition = 1}
+set_variable = { kn_conservative_coalition = 1}
+
+set_variable = { kn_authoritarian_democrat_banned = 1}
+set_variable = { kn_autocratic_banned = 1}
+set_variable = { kn_voynist_banned = 1}
+set_variable = { kn_fundamentalist_banned = 1}
+
+
+set_convoys = 40
+
+create_faction = "Republic of China"
+add_to_faction = XSM
+add_to_faction = YNN
+add_to_faction = HNN
+add_to_faction = SCH
+add_to_faction = GND
+add_to_faction = GXI
+
+create_country_leader = {
+	name = "Deng Yanda"
+	desc = "POLITICS_DENG_YANDA_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhou Enlai"
+	desc = "POLITICS_ZHOU_ENLAI_DESC"
+	picture = "gfx/leaders/ASIA/CHI/CHI_Zhou_Enlai.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Qu Qiubai"
+	desc = "POLITICS_QU_QIUBAI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = libertarian_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zeng Zhongming"
+	desc = "POLITICS_ZENG_ZHONGMING_DESC"
+	picture = "gfx/leaders/ASIA/CHI/CHI_Zeng_Zhongming.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		leader_political_apathy
+	}
+}
+
+create_country_leader = {
+	name = "Soong Ching-ling"
+	desc = "POLITICS_SOONG_CHING_LING_DESC"
+	picture = "gfx/leaders/ASIA/CHI/CHI_Soong_Chingling.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chiang Ching-kuo"
+	desc = "POLITICS_CHIANG_CHING_KUO_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sun Fo"
+	desc = "POLITICS_SUN_FO_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Chen Bijun"
+	desc = "POLITICS_CHEN_BIJUN_DESC"
+	picture = "gfx/leaders/ASIA/CHI/CHI_Zeng_Zhongming.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		leader_political_apathy
+	}
+}
+
+create_country_leader = {
+	name = "Chen Gongbo"
+	desc = "POLITICS_CHEN_GONGBO_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Lin Tongji"
+	desc = "POLITICS_LIN_TONGJI_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Yingyu"
+	desc = "POLITICS_ZHANG_YINGYU_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+create_field_marshal = {
+	name = "Tu Yu-ming"
+	gfx = "GFX_portrait_chi_du_yuming"
+	traits = { defensive_doctrine trait_cautious armor_officer harsh_leader }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Hsueh Yueh"
+	gfx = "GFX_portrait_chi_xue_yue"
+	traits = { offensive_doctrine trait_reckless brilliant_strategist war_hero }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Tai An-lan"
+	gfx = "GFX_portrait_chi_tai_an_lan"
+	traits = {  offensive_doctrine trait_reckless career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Wang Yao-wu"
+	gfx = "GFX_portrait_chi_wang_yaowu"
+	traits = { defensive_doctrine trait_cautious infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sun Li Jen"
+	gfx = "GFX_portrait_chi_sun_li_jen"
+	traits = { brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Hu Zongnan"
+	gfx = "GFX_portrait_chi_hu_zongnan"
+	traits = { politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Gu Zhutong"
+	gfx = "GFX_portrait_chi_gu_zhutong"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Wei Lihuang"
+	gfx = "GFX_portrait_chi_wei_lihuang"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Fu Zuoyi"
+	gfx = "GFX_portrait_chi_fu_zuoyi"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Zhang Xueliang"
+	gfx = "GFX_portrait_chi_zhang_xueliang"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

@@ -4,12 +4,10 @@ state={
 	name="STATE_344"
 
 	history={
-		owner = OTT
+		owner = TUR
+		add_core_of = TUR
 		victory_points = {
-			11746 8
-		}
-		victory_points = {
-			10056 3
+			11746 10 
 		}
 		buildings = {
 			infrastructure = 4
@@ -17,28 +15,17 @@ state={
 			air_base = 1
 			11746 = {
 				naval_base = 2
-				bunker = 1
-				coastal_bunker = 1
-
-			}
-			806 = {
-				bunker = 1
-
-			}
-			12029 = {
-				naval_base = 3
 
 			}
 
 		}
-		add_core_of = OTT
 
 	}
 
 	provinces={
-		806 3889 6956 9893 9912 11746 12029 13740
+		 886 3889 6956 11746 11810
 	}
-	manpower=732695
+	manpower=397198
 	buildings_max_level_factor=1.000
-	state_category=four
+	state_category=small_town
 }

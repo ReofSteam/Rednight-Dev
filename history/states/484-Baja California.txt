@@ -1,9 +1,11 @@
-state = {
-	id = 484
-	name = "STATE_484"
 
-	history = {
+state={
+	id=484
+	name="STATE_484"
+
+	history={
 		owner = MEX
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -14,18 +16,12 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MEX
-		victory_points = {
-			13469 1
-		}
-		victory_points = {
-			13493 2
-		}
 	}
 
-	provinces = {
-		1892 1904 7964 8119 12461 12736 12859 13469 13487 13491 13493
+	provinces={
+		1892 12461 13491 13493 
 	}
-	manpower = 108841
-	state_category = two
+	manpower=108841
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

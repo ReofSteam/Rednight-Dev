@@ -1,0 +1,32 @@
+
+state={
+	id=460
+	name="STATE_460"
+
+	history={
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			14534 10 
+		}
+		victory_points = {
+			10059 2 
+		}
+		victory_points = {
+			1160 3 
+		}
+
+	}
+
+	provinces={
+		1058 1141 1160 4046 7065 7081 10059 10078 11953 12034 12051 14482 14507 14509 14511 14515 14519 14520 14522 14525 14528 14529 14534 14535 14538 14539 14540 14542 
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
+}

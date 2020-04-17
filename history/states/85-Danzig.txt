@@ -1,0 +1,29 @@
+state={
+	id=85
+	name="STATE_85"
+	manpower = 415200
+	
+	state_category = town
+	history={
+		owner = WPL
+		add_core_of = WPL
+		victory_points = {
+			362 20
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			
+			362 = {
+				naval_base = 5
+			}
+		}
+		
+	}
+
+	provinces={
+		362
+	}
+}

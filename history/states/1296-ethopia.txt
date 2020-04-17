@@ -1,0 +1,32 @@
+
+state={
+	id=1296
+	name="STATE_1296"
+	provinces={
+		15324 15325 15326 
+	}
+	history={
+		victory_points = {
+			3790 3 
+		}
+		victory_points = {
+			6880 1 
+		}
+		owner = ETH
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			3790 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ETH
+		#add_core_of = SOM
+
+	}
+	manpower=300800
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

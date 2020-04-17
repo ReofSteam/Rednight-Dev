@@ -1,25 +1,25 @@
-state = {
-	id = 970
-	name = "STATE_970"
 
-	history = {
-		owner = MAF
-		add_claim_by = MAF
-		add_core_of = KEN
-		buildings = {
-			infrastructure = 3
-			5210 = {
-				naval_base = 2
+state={
+	id=970
+	name="STATE_970"
+
+	history={
+		owner = TNG
+		add_core_of = TNG
+		buildings={
+			infrastructure=3
+			15336={
+				naval_base=2
 			}
 		}
-		victory_points = {
-			5210 5
+		victory_points={
+			15336 5
 		}
 	}
 
-	provinces = {
-		5210
+	provinces={
+		15336
 	}
-	manpower = 308400
-	state_category = two
+	manpower=308400
+	state_category=rural
 }

@@ -1,0 +1,116 @@
+﻿capital = 541
+OOB = "empty"
+add_ideas = {
+	TNG_patchwork_government
+	TNG_might_of_the_askari
+	TNG_ccm_insurrection
+}
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+
+give_guarantee = SAF
+give_guarantee = SWA
+
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    social_nationalist = 4
+    marxist = 3
+    libertarian = 5
+    moderate_socialist = 9
+    social_democrat = 12
+    social_liberal = 8
+    conservative = 13
+    authoritarian_democrat = 8
+    autocratic = 22
+    fundamentalist = 1
+    voynist = 15
+}
+
+create_country_leader = {
+	name = "Deutscher Askari Militiarat"
+	desc = "POLITICS_ASKARI_MILITIARAT_DESC"
+	picture = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_Ostafrika_German_Askari_Military_Council.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		
+	}
+}
+
+
+
+### Field Marshal
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Heinrich Kirchheim"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_Heinrich_Kircheim.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Knobel"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_Knobel.tga"
+	traits = {
+		fortress_buster
+	}
+	skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Owen"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_Owen.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Wanstone"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_Wanstone.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "van Deffels"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_van_Deffels.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "de Beers"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_de_Beers.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 1
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Freyverts"
+	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/TNG/Portrait_NAM_Freyverts.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1
+}

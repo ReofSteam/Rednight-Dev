@@ -1,0 +1,20 @@
+
+state={
+	id=972
+	name="STATE_972"
+
+	history={
+		owner = TKE
+		add_core_of = TKE
+		buildings={
+			infrastructure=2
+		}
+	}
+
+	provinces={
+		13605 13619
+	}
+	manpower=22500
+	buildings_max_level_factor=1
+	state_category=wasteland
+}

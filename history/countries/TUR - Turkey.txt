@@ -1,382 +1,253 @@
-﻿capital = 49
-oob = "TUR"
+﻿capital = 340
+oob = "TUR_1950"
+
+#set_cosmetic_tag = TUR_otto
 
 set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
 	### Tanks ###
 	gwtank = 1
-	### Infantry ###
+	basic_medium_tank = 1
+	### INF ###
 	infantry_weapons = 1
 	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
+	motorised_infantry = 1
 	gw_artillery = 1
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 	early_bomber = 1
 }
 
-### Navy - MtG ###
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-		weltkrieg_heavy_ship_hull = 1
-		heavy_ship_hull_1936 = 1
-
-		## Modules##
-		early_torpedo = 1
-		weltkrieg_naval_gunnery = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		light_battery_two = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-		weltkrieg_naval_gunnery = 1
-		weltkrieg_naval_gunnery = 1
-	}
-}
-
-### Navy - Non MtG ###
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-		weltkrieg_fast_battleship_nonmtg = 1
-		interwar_fast_battleship_nonmtg = 1
-		weltkrieg_dreadnought_nonmtg = 1
-		super_heavy_dreadnought_nonmtg = 1
-	}
-}
-
-set_research_slots = 3
-
+set_research_slots = 4
 
 set_politics = {
-	ruling_party = authoritarian_democrat
-	last_election = "1888.6.15"
+	ruling_party = social_liberal
+	last_election = "1949.10.26"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
+
 set_popularities = {
-	totalist = 2
-	syndicalist = 10
-	radical_socialist = 4
-	social_democrat = 3
-	social_liberal = 18
-	market_liberal = 1
-	social_conservative = 16
-	authoritarian_democrat = 26
-	paternal_autocrat = 8
-	national_populist = 12
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 2
+	social_democrat = 20
+	social_liberal = 30
+	conservative = 14
+	authoritarian_democrat = 28
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 6
+}
+
+add_ideas = {
+	TUR_turkish_nationalism
+	TUR_agrarian_society
+	TUR_illiteracy
+	TUR_recovering_from_war
 }
 
 create_country_leader = {
-	name = "İsmet İnönü"
-	desc = "POLITICS_ISMET_INONU_DESC"
-	picture = "Portrait_TUR_Ismet_Inonu.tga"
+	name = "Sultan Ahmed IV"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Sultan_Ahmed_IV.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = autocratic_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Nihâl Atsız"
 	desc = "POLITICS_NIHAL_ATSIZ_DESC"
-	picture = "gfx/leaders/OTT/Portrait_Nihal_Atsiz.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Nihal_Atsiz.tga"
 	expire = "1965.1.1"
-	ideology = national_populist_subtype
+	ideology = fundamentalist_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Şefik Hüsnü Deymer"
 	desc = "POLITICS_SEFIK_HUSNU_DESC"
-	picture = "gfx/leaders/OTT/Picture_Ottoman_Sefik_Husnu.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Sefik_Husnu.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = marxist_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Reşat Fuat Baraner"
-	desc = "POLITICS_RESAT_FUAT_DESC"
-	picture = "gfx/leaders/OTT/Picture_Ottoman_Resad_Fuad.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Resad_Fuad.tga"
 	expire = "1965.1.1"
-	ideology = totalist_subtype
+	ideology = voynist_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Hikmet Kıvılcımlı"
-	desc = "POLITICS_HIKMET_KIVILCIMLI_DESC"
-	picture = "Portrait_TUR_Hikmet_Kivilcimli.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Hikmet_Kivilcimli.tga"
 	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
+	ideology = libertarian_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Hasan Âli Yücel"
-	desc = "POLITICS_HASAN_ALI_YUCEL_DESC"
-	picture = "gfx/leaders/OTT/Picture_Ottoman_Hasan_Ali.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Hasan_Ali.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
 	name = "Fethi Okyar"
-	desc = "POLITICS_FETHI_OKYAR_DESC"
-	picture = "Portrait_TUR_Fethi_Okyar.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Fethi_Okyar.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
+	traits = {
+	}
 }
 
 create_country_leader = {
-	name = "Adnan Menderes"
-	desc = "POLITICS_ADNAN_MENDERES_DESC"
-	picture = "gfx/leaders/OTT/Portrait_Ottoman_Ali_Adnan_Bey.tga"
+	name = "Celal Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Celal_Bayar.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = social_liberal_subtype
+	traits = {
+	}
 }
-
 
 create_country_leader = {
 	name = "Yusuf Hikmet Bayur"
-	desc = "POLITICS_YUSUF_HIKMET_DESC"
-	picture = "Portrait_TUR_Yusuf_Hikmet_Bayur.tga"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Yusuf_Hikmet_Bayur.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-}
-
-### Field Marshals ###
-# Tenure in the army was over by this point
-# create_field_marshal = {
-	# name = "Kâzım Karabekir"
-	# portrait_path = "gfx/leaders/OTT/Portrait_OTT_Musa_Kazim.tga"
-	# traits = {
-		# career_officer
-		# winter_specialist
-		# commando
-	# }
-	# skill = 3
-	# attack_skill = 5
-	# defense_skill = 2
-	# planning_skill = 4
-	# logistics_skill = 3
-# }
-
-create_field_marshal = {
-	name = "Fevzi Çakmak"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Fevzi.tga"
+	ideology = conservative_subtype
 	traits = {
-		career_officer
-		skilled_staffer
 	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
 }
 
-# Retired from the army after serving 44 years in 1935 followed by his death in 1938
-# create_field_marshal = {
-	# name = "Cevat Çobanlı"
-	# portrait_path = "gfx/leaders/OTT/Portrait_OTT_Ismail_Cevat.tga"
-	# traits = {
-		# old_guard
-		# war_hero
-		# career_officer
-		# artillery_officer
-	# }
-	# skill = 3
-	# attack_skill = 2
-	# defense_skill = 4
-	# planning_skill = 3
-	# logistics_skill = 3
-# }
-
-### Corps Commanders ###
-create_corps_commander = {
-	name = "Ömer Fahrettin Türkkan"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Omer_Fahrettin.tga"
+create_country_leader = {
+	name = "İsmet İnönü"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Ismet_Inonu.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
 	traits = {
-		old_guard
-		war_hero
-		desert_fox
-		commando
+		moderate_westernizer
 	}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 5
 }
 
-create_corps_commander = {
-	name = "İsmail Hakkı Berkok"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Ismail_Hakki.tga"
+create_country_leader = {
+	name = "Mustafa Kemal Pasha"
+	desc = "POLITICS_ATATURK_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Mustafa_K_Pasha.tga"
+	expire = "1965.01.01"
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		career_officer
-		commando
+		secular_westernizer
 	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
 }
 
-# Withdrew from the Army in 1928 after serving his time
-# create_corps_commander = {
-	# name = "Cafer Tayyar Eğilmez"
-	# portrait_path = "gfx/leaders/OTT/Portrait_OTT_Cafer_Tayyar.tga"
-	# traits = {
-		# career_officer
-	# }
-	# skill = 2
-	# attack_skill = 2
-	# defense_skill = 2
-	# planning_skill = 2
-	# logistics_skill = 2
-# }
+### Corps Commander - rest of the generals are in the event file
 
-create_corps_commander = {
-	name = "Fahrettin Altay"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Fahrettin.tga"
-	traits = {
-		career_officer
-		trickster
-		skilled_staffer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-#Armenian mass murderer, likely tried after the war for his crimes?
 create_corps_commander = {
 	name = "Ali İhsan Sabis"
 	id = 678
-	portrait_path = "gfx/leaders/OTT/Generic/OTTLeader03.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_Ali_Ihsan.tga"
 	traits = {
 		trait_reckless
 		trait_engineer
 		fortress_buster
 	}
 	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Selahattin Adil"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Selahattin.tga"
-	traits = {
-		old_guard
-		career_officer
-		skilled_staffer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Naci Eldeniz"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Abdullatif_Naci.tga"
-	traits = {
-		career_officer
-		skilled_staffer
-		organizer
-		trait_engineer
-	}
-	skill = 2
-	attack_skill = 1
+	attack_skill = 4
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 3
 }
 
-### Admirals ###
-create_navy_leader = {
-	name = "Hüseyin Rauf Orbay"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Huseyin_Rauf.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 3
-	coordination_skill = 3
-	maneuvering_skill = 2
-	defense_skill = 3
-	attack_skill = 2
-}
-
+### Navy Leader
 create_navy_leader = {
 	name = "Necip Fazıl Kısakürek"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Necip_Fazil.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Necip_Fazil.tga"
+	traits = {
+	}
 	skill = 2
-	coordination_skill = 1
-	maneuvering_skill = 2
-	defense_skill = 2
-	attack_skill = 2
 }
 
 create_navy_leader = {
 	name = "Nâzım Hikmet Ran"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Nazim_Hikmet.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Nazim_Hikmet.tga"
+	traits = {
+	}
 	skill = 2
-	coordination_skill = 2
-	maneuvering_skill = 2
-	defense_skill = 1
-	attack_skill = 2
 }
 
 create_navy_leader = {
 	name = "Şükrü Okan"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Sukru.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Sukru.tga"
+	traits = {
+	}
 	skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
+}
+
+create_navy_leader = {
+	name = "Hüseyin Rauf Orbay"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Huseyin_Rauf.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 3
 }
 
 create_navy_leader = {
 	name = "Mahmud Muhtar Katırcıoğlu"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Mahmud_Muhtar.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Mahmud_Muhtar.tga"
 	traits = {
 		seawolf
 	}
 	skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
 }
+
+set_variable = { 49.kn_fundie = 69 } 
+set_variable = { 49.kn_secular = 31 }
+set_variable = { 49.kn_islamist = 49 }
+set_variable = { 49.kn_turanist = 51 }
+set_variable = { 49.kn_kemalist = 74 }
+set_variable = { 49.kn_socialist = 26 }
+set_variable = { 346.kn_fundie = 91 } 
+set_variable = { 346.kn_secular = 9 }
+set_variable = { 346.kn_islamist = 97 }
+set_variable = { 346.kn_turanist = 3 }
+set_variable = { 346.kn_kemalist = 65 }
+set_variable = { 346.kn_socialist = 35 }
+set_variable = { 339.kn_fundie = 2 } 
+set_variable = { 339.kn_secular = 98 }
+set_variable = { 339.kn_islamist = 4 }
+set_variable = { 339.kn_turanist = 96 }
+set_variable = { 339.kn_kemalist = 55 }
+set_variable = { 339.kn_socialist = 45 }
+set_variable = { 340.kn_fundie = 50 } 
+set_variable = { 340.kn_secular = 50 }
+set_variable = { 340.kn_islamist = 50 }
+set_variable = { 340.kn_turanist = 50 }
+set_variable = { 340.kn_kemalist = 78 }
+set_variable = { 340.kn_socialist = 22 }

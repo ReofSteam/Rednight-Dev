@@ -1,5 +1,5 @@
 #Adjacency rules are special rules for adjacency
-#If somebody who is at war fights over canal/strait it is considered closed
+#If smbd who is at war fights over canal/strait it is considered closed
 #Enemy status is considered if any of sides controlling the channel is at war with country
 #Friend status is considered non of sides controlling the channel is at war with country and one of controllers is ally of giving military access
 #Every one else is considered as neutral according to canal/strait
@@ -9,13 +9,13 @@
 #Name is how you refer to the rule in adjecencies.csv
 
 #Extra notes from the KR team:
-#We've put them into 4 groups, going from most open to least open
-#Group 1 are large straits, they allow subs through if contested or enemy, everything through as friend or neutral
-#Group 2 are small straits, they allow nothing through if enemy, subs through if contested, everything through as friend or neutral
-#Group 3 are canals with special treaties in place, they allow nothing through if contested or enemy, everything through as friend or neutral
-#Group 4 are regular canals, they allow nothing through if contested or enemy, only trade through if neutral, everything through as friend
+#We have put them into 4 groups
+#Group 1 are canal's, which allow nothing through if contested or enemy, everything through as friend, only trade through if neutral.
+#Group 2 are canal's with special treaties in place, which allow nothing through if contested or enemy, everything through as friend or neutral.
+#Group 3 are small straits, which allow nothing through if enemy, just subs through if contested, everything through as friend or neutral.
+#Group 4 are large straits, which allow only subs through if contested or enemy, everything through as friend or neutral.
 
-#Suez Canal - Group 3
+#Suez Canal - Group 2
 adjacency_rule
 {
 	name = "SUEZ_CANAL"
@@ -51,12 +51,11 @@ adjacency_rule
 
 	required_provinces = { 4073 9947 }
 
-	is_disabled = {
-		has_global_flag = SUEZ_CANAL_BLOCKED
-		#OR = {
-		#	has_global_flag = SUEZ_CANAL_BLOCKED
-		#	has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
-		#}
+	is_disabled {
+		OR {
+			has_global_flag = SUEZ_CANAL_BLOCKED
+			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
+		}
 		tooltip = disable_canal_tt
 	}
 
@@ -64,7 +63,7 @@ adjacency_rule
 	offset = { -7 0 4 }
 }
 
-#Gibraltar Strait - Group 1
+#Gibraltar Strait - Group 4
 adjacency_rule
 {
 	name = "GIBRALTAR_STRAIT"
@@ -104,7 +103,7 @@ adjacency_rule
 	offset = { -15 0 2 }
 }
 
-#Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen) - Group 2
+#Øresund - (Østersøen <-> Kattegat/Skagerak/Nordsøen) - Group 3
 adjacency_rule
 {
 	name = "DANISH_BELTS_STRAIT"
@@ -144,7 +143,7 @@ adjacency_rule
 	offset = { -26 0 -13 }
 }
 
-#Panama Canal - Group 3
+#Panama Canal - Group 1
 adjacency_rule
 {
 	name = "PANAMA_CANAL"
@@ -174,18 +173,17 @@ adjacency_rule
 	{
 		army = yes
 		navy = yes
-		submarine = yes
+		submarine = no
 		trade = yes
 	}
 
 	required_provinces = { 7617 }
 
-	is_disabled = {
-		has_global_flag = PANAMA_CANAL_BLOCKED
-		#OR = {
-		#	has_global_flag = PANAMA_CANAL_BLOCKED
-		#	has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
-		#}
+	is_disabled {
+		OR {
+			has_global_flag = PANAMA_CANAL_BLOCKED
+			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
+		}
 		tooltip = disable_canal_tt
 	}
 
@@ -193,7 +191,7 @@ adjacency_rule
 	offset = { -3 0 -2 }
 }
 
-#Turkish Straits - Group 4
+#Turkish Straits - Group 1
 adjacency_rule
 {
 	name = "BOSPHORUS_STRAIT"
@@ -233,7 +231,7 @@ adjacency_rule
 	offset = { 7 0 0 }
 }
 
-#Kaiser-Wilhelm-Kanal - Group 4
+#Kaiser-Wilhelm-Kanal - Group 1
 adjacency_rule
 {
 	name = "KAISER-WILHELM-KANAL"
@@ -273,7 +271,7 @@ adjacency_rule
 	offset = { -5 0 6 }
 }
 
-#Dardanelles - Group 4
+#Dardanelles - Group 1
 adjacency_rule
 {
 	name = "DARDANELLES"
@@ -313,7 +311,7 @@ adjacency_rule
 	offset = { -2 0 -8 }
 }
 
-#Shimonoseki-kaikyō - Group 4
+#Shimonoseki-kaikyō - Group 1
 adjacency_rule
 {
 	name = "SHIMONOSEKI"
@@ -353,7 +351,7 @@ adjacency_rule
 	offset = { 1 -2 6 }
 }
 
-#Straße von Malakka - Group 1
+#Straße von Malakka - Group 4
 adjacency_rule
 {
 	name = "MALACCA_STRAIT"
@@ -393,7 +391,7 @@ adjacency_rule
 	offset = { -5 0 -7 }
 }
 
-#Stretto di Messina - Group 1
+#Stretto di Messina - Group 4
 adjacency_rule
 {
 	name = "MESSINA_STRAIT"

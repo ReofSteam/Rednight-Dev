@@ -1,0 +1,44 @@
+﻿capital = 448
+OOB = "empty"
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+set_research_slots = 2
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 0
+	autocratic = 100
+	fundamentalist = 0
+	voynist = 0
+}
+
+create_country_leader = {
+	name = "King Idris I"
+	picture = "gfx/leaders/CAIRO_PACT/TRI/TRI_Idris_I.dds"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+### Field Marshal
+
+### Corps Commander
+
+### Navy Leader

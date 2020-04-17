@@ -1,0 +1,70 @@
+﻿capital = 594
+OOB = "empty"
+set_research_slots = 2
+set_technology = {
+}
+
+CHI = {
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+		set_autonomy = {
+			target = GXI
+			autonomy_state = kn_autonomous
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 100
+	authoritarian_democrat = 0
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+###################################
+###### COALITION AND BANNNED ######
+######    set_country_flag   ######
+######  kn_[IDEOLOGY]_banned  #####
+##### kn_[IDEOLOGY]_coalition #####
+###################################
+
+set_variable = { kn_authoritarian_democrat_coalition = 1}
+set_variable = { kn_autocratic_coalition = 1}
+
+set_variable = { kn_voynist_banned = 1}
+set_variable = { kn_fundamentalist_banned = 1}
+
+create_country_leader = {
+	name = "Li Zongren"
+	desc = "POLITICS_LI_ZONGREN_DESC"
+	picture = "gfx/leaders/ASIA/CHI/CHI_Li_Zongren.tga"
+	expire = "1965.1.1"
+	ideology = conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Peng Tairong"
+	desc = "POLITICS_PENG_TAIRONG_DESC"
+	picture = ""
+	expire = "1965.1.1"
+	ideology = fundamentalist_subtype
+	traits = {
+	}
+}

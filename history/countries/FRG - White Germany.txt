@@ -1,0 +1,177 @@
+﻿capital = 66
+
+oob = "FRG"
+
+set_cosmetic_tag = FRG_russia
+
+add_ideas = {
+	
+}
+
+# Starting tech
+set_technology = {
+	shipbuild_basics = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	#mobile_warfare = 1
+	#trade_interdiction = 1
+	#formation_flying = 1
+	transport = 1
+}
+
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.65
+set_war_support = 0.35
+
+RUS = { 
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+
+		set_autonomy = {
+			target = FRG
+			autonomy_state = kn_satellite
+		}
+		else = {
+			puppet = FRG 
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = voynist
+	last_election = "1932.3.8"
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_nationalist = 3
+	marxist = 14
+	libertarian = 0
+	moderate_socialist = 8
+	social_democrat = 11
+	social_liberal = 7
+	conservative = 9
+	authoritarian_democrat = 7
+	autocratic = 15
+	fundamentalist = 2
+	voynist = 24
+}
+
+set_variable = { kn_social_nationalist_banned = 1 }
+set_variable = { kn_marxist_banned = 1 }
+set_variable = { kn_libertarian_banned = 1 }
+set_variable = { kn_moderate_socialist_banned = 1 }
+set_variable = { kn_social_democrat_banned = 1 }
+set_variable = { kn_social_liberal_banned = 1 }
+set_variable = { kn_conservative_banned = 1 }
+set_variable = { kn_authoritarian_democrat_banned = 1 }
+
+create_country_leader = {
+	name = "Fritz Dorls"
+	desc = "POLITICS_FRITZ_DORLS_DESC"
+	picture = "gfx/leaders/EASTERN_EUROPE/FRG/FRG_Fritz_Dorls.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = { }
+}
+
+create_corps_commander = {
+	name = "some dude"
+	picture = "Portrait_Germany_Friedrich_Paulus.dds"
+	traits = { trait_cautious armor_officer }
+	id = 0101
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+
+### Ship Variants ###
+# Light Cruisers #
+create_equipment_variant = {
+	name = "Volksstadt Class"
+	type = light_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_gun_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+	obsolete = yes
+}
+# Heavy Cruisers #
+create_equipment_variant = {
+	name = "Ludwig Renn Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 1
+		ship_engine_upgrade = 1
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 2
+	}
+}
+#create_equipment_variant = {
+#	name = "Braunschweig Class"
+#	type = battleship_pre
+#	parent_version = 0
+#	obsolete = yes
+#}
+
+create_equipment_variant = {
+	name = "Ju 86"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 5
+		plane_engine_upgrade = 5
+		plane_reliability_upgrade = 10
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Do 17"
+	type = tac_bomber_equipment_0
+	upgrades = {
+		plane_tac_bomb_upgrade = 5
+		plane_range_upgrade = 1
+		plane_engine_upgrade = 1
+		plane_reliability_upgrade = 5
+	}
+	obsolete = yes
+}

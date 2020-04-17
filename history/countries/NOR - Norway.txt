@@ -1,168 +1,217 @@
 ﻿capital = 110
 
 OOB = "NOR"
-set_naval_oob= "NOR_naval"
+
+add_opinion_modifier = { 
+                    target = SWE
+					modifier = NOR_swedish_exiles_opinion
+}
 
 add_ideas = {
-	NOR_divided_airforce_idea
-	NOR_weak_economy_1
-
-	NOR_Johan_Henrik_Andresen_hog_mli
-	NOR_Arne_Scheel_for_mli
-	NOR_Sven_Nielsen_eco_mli
-	NOR_Harald_Gram_sec_mli
-	limited_conscription
+	NOR_strong_welfare_state
+	NOR_swedish_exiles
+	NOR_king_haakon
+	NOR_radical_parties
+	
+	NOR_CJ_Hambro_hog
+	NOR_Trygve_Haugeland_interior
+	NOR_Gunnar_Fredrik_Hellesen_economy
+	NOR_Erling_Wikborg_foreign
+	NOR_Erling_Johan_Vindenes_education
+	NOR_Hartvig_Caspar_Christie_culture
+	NOR_Mons_Arntsen_Lovset_transport
+	NOR_Oscar_Christian_Gundersen_intel
+	NOR_Ole_Berg_staff
+	NOR_Ole_Berg_army
+	NOR_Bjarne_Oen_air
+	NOR_Skule_Storheil_navy
 }
 
 set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
 	### Tanks ###
 	gwtank = 1
-	### Infantry ###
+	### INF ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
 	tech_engineers = 1
 	gw_artillery = 1
-	### Air ###
+	### AIR ###
 	early_fighter = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 }
 
-### Navy - MtG ###
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		weltkrieg_light_ship_hull = 1
-		contact_mine = 1
-		light_ship_hull_1936 = 1
-		weltkrieg_cruiser_hull = 1
-		cruiser_hull_1936 = 1
-		weltkrieg_submarine_hull = 1
-		submarine_hull_1936 = 1
-		cruiser_submarine = 1
-		ship_hull_revived_ac = 1
-
-		## Modules##
-		early_torpedo = 1
-		naval_ammo_one = 1
-		light_battery_one = 1
-		light_battery_two = 1
-		improved_ship_torpedo_launcher = 1
-		basic_cruiser_armor_scheme = 1
-		weltkrieg_naval_gunnery = 1
-	}
-}
-
-### Navy - Non MtG ###
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_technology = {
-		weltkrieg_destroyer_nonmtg = 1
-		interwar_destroyer_nonmtg = 1
-		weltkrieg_cruiser_nonmtg = 1
-		interwar_cruiser_nonmtg = 1
-		weltkrieg_submarine_nonmtg = 1
-		interwar_submarine_nonmtg = 1
-		weltkrieg_armored_cruiser_nonmtg = 1
-		interwar_armored_cruiser_nonmtg = 1
-	}
-}
-
-country_event = { id = norway.1 days = 1 }
-country_event = { id = norway.6 days = 21 }
+#country_event = { id = norway.1 days = 1 }
 
 set_research_slots = 3
 set_convoys = 500 # Biggest Merchant Marines in the World - copied from Vanilla
 
-set_war_support = 0.10
-
-set_politics = {
-	ruling_party = market_liberal
+set_politics = {	
+	ruling_party = social_democrat
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
+
 }
 
 set_popularities = {
-	totalist = 9.6
-	syndicalist = 5
-	radical_socialist = 27.4
-	social_democrat = 8
-	social_liberal = 9
-	market_liberal = 13
-	social_conservative = 11
-	authoritarian_democrat = 10
-	paternal_autocrat = 5.1
-	national_populist = 1.9
+    social_nationalist = 0
+    marxist = 13
+    libertarian = 1
+    moderate_socialist = 5
+    social_democrat = 40
+    social_liberal = 15
+    conservative = 17
+    authoritarian_democrat = 7
+    autocratic = 1
+    fundamentalist = 1
+    voynist = 0
 }
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+###############################
+########### LEADERS ###########
+# gfx/leaders/SCANDINAVIA/NOR/ #
+###############################
 
 create_country_leader = {
 	name = "Martin Tranmæl"
 	desc = "POLITICS_Martin_Tranmel_DESC"
-	picture = "Portrait_Norway_Martin_Tranmel.tga"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Martin_Tranmel.tga"
 	expire = "1965.1.1"
-	ideology = syndicalist_subtype
+	ideology = marxist_subtype
+	traits = {}
 }
 
 create_country_leader = {
 	name = "Haakon VII"
 	desc = "POLITICS_Haakon_VII_DESC"
-	picture = "Portrait_Norway_Haakon_VII.tga"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
 	expire = "1965.1.1"
-	ideology = market_liberal_subtype
+	ideology = conservative_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Frans Severin"
+	desc = "POLITICS_Frans_Severin_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/SWE/Portrait_Sweden_Frans_Severin.tga"
+	expire = "1965.1.1"
+	ideology = marxist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = voynist_subtype
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_Haakon_VII_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/NOR_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+
+	}
 }
 
 create_country_leader = {
 	name = "Vidkun Quisling"
 	desc = "POLITICS_Vidkun_Quisling_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling_KR.tga"
+	picture = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Vidkun_Quisling_KR.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = autocratic_subtype
+	traits = {}
 }
 
-create_country_leader = {
-	name = "Vidkun Quisling"
-	desc = "POLITICS_Vidkun_Quisling_DESC"
-	picture = "Portrait_Norway_Vidkun_Quisling_KR.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-}
-
-### Field Marshals ###
+### Field Marshal
 create_field_marshal = {
 	name = "Kristian Laake"
 	id = 2000
-	picture = "Portrait_Norway_Kristian_Laake.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Kristian_Laake.tga"
 	traits = {
 		old_guard
 		trait_cautious
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
-### Corps Commanders ###
+### Corps Commander
 create_corps_commander = {
 	name = "Carl Gustav Fleischer"
 	id = 2001
-	picture = "Portrait_Norway_Carl_Gustav_Fleischer.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Carl_Gustav_Fleischer.tga"
 	traits = {
 		trickster
 		winter_specialist
 	}
 	skill = 4
 	attack_skill = 4
-	defense_skill = 3
+	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 3
 }
@@ -170,21 +219,21 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Otto Ruge"
 	id = 2002
-	picture = "Portrait_Norway_Otto_Ruge.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Otto_Ruge.tga"
 	traits = {
 		winter_specialist
 	}
 	skill = 3
 	attack_skill = 2
-	defense_skill = 2
+	defense_skill = 3
 	planning_skill = 4
-	logistics_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "William Steffens"
 	id = 2003
-	picture = "Portrait_Norway_William_Steffens.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_William_Steffens.tga"
 	traits = {
 		infantry_officer
 	}
@@ -198,14 +247,14 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Wilhelm von Tangen Hansteen"
 	id = 2004
-	picture = "Portrait_Norway_Wilhelm_Tangen_Hansteen.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Wilhelm_Tangen_Hansteen.tga"
 	traits = {
 		career_officer
 		commando
 	}
 	skill = 2
 	attack_skill = 3
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -213,65 +262,65 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Hans Reidar Holtermann"
 	id = 2005
-	picture = "Portrait_Norway_Hans_Reidar_Holtermann.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Hans_Reidar_Holtermann.tga"
 	traits = {
 		hill_fighter
 	}
 	skill = 2
 	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
+	defense_skill = 3
+	planning_skill = 2
 	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Carl Johan Erichsen"
 	id = 2006
-	picture = "Portrait_Norway_Carl_Johan_Erichsen.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Carl_Johan_Erichsen.tga"
 	traits = {
 		old_guard
 		infantry_leader
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Birger Ljungberg"
 	id = 2007
-	picture = "Portrait_Norway_Birger_Ljungberg.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Birger_Ljungberg.tga"
 	traits = {
 		old_guard
 		infantry_officer
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Jacob Ager Laurantzon"
 	id = 2008
-	picture = "Portrait_Norway_Jacob_Ager_Laurantzon.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Jacob_Ager_Laurantzon.tga"
 	traits = {
 		old_guard
 	}
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
+	planning_skill = 2
 	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Jacob Hvinden Haug"
 	id = 2009
-	picture = "Portrait_Norway_Jacob_Hvinden_Haug.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Jacob_Hvinden_Haug.tga"
 	traits = {
 		organizer
 		trait_mountaineer
@@ -280,13 +329,13 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 #create_corps_commander = {
 #	name = "Ole Berg"
 #	id = 2010
-#	picture = "Portrait_Norway_Ole_Berg.tga"
+#	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Ole_Berg.tga"
 #	traits = {
 #	}
 #	skill = 1 #WHY AM I STILL HERE, END ME PLS
@@ -299,7 +348,7 @@ create_corps_commander = {
 #create_corps_commander = {
 #	name = "Wilhelm Faye"
 #	id = 2011
-#	picture = "Portrait_Norway_Wilhelm_Faye.tga"
+#	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Wilhelm_Faye.tga"
 #	traits = {
 #	}
 #	skill = 1 #WHY AM I STILL HERE, END ME PLS
@@ -312,65 +361,53 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Trygve Frivold Graff-Wang"
 	id = 2012
-	picture = "Portrait_Norway_Trygve_Frivold_Graff_Wang.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Trygve_Frivold_Graff_Wang.tga"
 	traits = {
 		old_guard
 	}
 	skill = 1
-	attack_skill = 1
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Oswald Nordlie"
 	id = 2013
-	picture = "Portrait_Norway_Oswald_Nordlie.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Oswald_Nordlie.tga"
 	traits = {
 		winter_specialist
 	}
 	skill = 1
 	attack_skill = 1
-	defense_skill = 1
+	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 1
 }
 
-### Admirals ###
+### Navy Leader
 create_navy_leader = {
 	name = "Carsten Tank-Nielsen"
-	picture = "Portrait_Norway_Carsten_Tank_Nielsen.tga"
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Carsten_Tank_Nielsen.tga"
 	traits = {
 		spotter
 	}
 	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	maneuvering_skill = 2
-	coordination_skill = 2
 }
 
 create_navy_leader = {
 	name = "Henry Diesen"
-	picture = "Portrait_Norway_Henry_Diesen.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Henry_Diesen.tga"
+	traits = {
+	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 2
-	coordination_skill = 1
 }
 
 create_navy_leader = {
 	name = "Edgar Otto"
-	picture = "Portrait_Norway_Edgar_Otto.tga"
-	traits = { }
+	portrait_path = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Edgar_Otto.tga"
+	traits = {
+	}
 	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 1
 }
-
-NOR_start_naval_variant = yes

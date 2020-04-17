@@ -1,0 +1,24 @@
+
+state={
+	id=515
+	name="STATE_515" #Chad
+
+	history={
+		owner = TAS
+		add_core_of = TAS
+
+		buildings = {
+		
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		3123 13212 13213 15508
+	}
+	manpower=482000
+	buildings_max_level_factor=1
+	state_category= pastoral
+}
