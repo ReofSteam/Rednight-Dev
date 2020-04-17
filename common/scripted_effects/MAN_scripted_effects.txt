@@ -1,6 +1,0 @@
-MAN_low_legitimacy_clear_all = {
-}
-
-#Important to put LOWEST first
-MAN_low_legitimacy_level_down = {
-}

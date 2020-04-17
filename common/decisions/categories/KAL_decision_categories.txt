@@ -1,5 +1,0 @@
-KAL_council_of_sultans = {
-	picture = GFX_decision_KAL_sultan_council
-	allowed = {	original_tag = KAL }
-	visible = {	always = yes }
-}
