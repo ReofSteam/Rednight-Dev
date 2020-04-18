@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		BUL_the_last_central_power = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_the_last_central_power"}
+			picture = the_last_central_power
+			modifier = {
+				war_support_factor = +0.20
+				conscription_factor = +0.02
+				political_power_gain = +0.20
+				army_core_defence_factor = +0.10
+			}
+		}
+		BUL_early_stages_of_industrialisation = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_early_stages_of_industrialisation"}
+			picture = early_stages_of_industrialisation
+			modifier = {
+				political_power_gain = -0.30
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = +0.10
+			}
+		}
+		BUL_substantial_turkish_minority = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_substantial_turkish_minority"}
+			picture = turkish_minority
+			modifier = {
+				stability_factor = -0.10 
+			}	
+		}	
+		BUL_irredentist_approach = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BUL_irredentist_approach"}
+			picture = irredentist_approach
+			modifier = {
+				war_support_factor = +0.15
+				army_core_attack_factor = +0.1
+			}	
+		}
+	}
+}

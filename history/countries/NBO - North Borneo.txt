@@ -65,9 +65,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Sultan Tajmuddin Ahmad"
-	desc = ""
-	picture = "gfx/leaders/ASIA/NBO/NBR_Ahmad_Tajmuddin.tga"
+	name = "Sunglass Borneoman"
+	desc = "POLITICS_BORNEOMAN_DESC"
+	picture = "gfx/leaders/ASIA/Sunglass_Borneoman.tga"
 	expire = "1965.10.1"
 	ideology = authoritarian_democrat_subtype
 	traits = { }

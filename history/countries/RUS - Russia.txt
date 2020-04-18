@@ -54,18 +54,18 @@ set_technology = {
 ### PARTIES UI ###
 	### Russia is a one party nation ###
 	set_country_flag = one_party_nation 
-	set_variable = { kn_autocratic_coalition = 1 }
-	set_variable = { kn_fundamentalist_coalition = 1 }
+	set_country_flag = coalition_autocratic
+	set_country_flag = coalition_fundamentalist
 
 	### BANNED ###
-	set_variable = { kn_social_nationalist_banned = 1 }
-	set_variable = { kn_marxist_banned = 1 }
-	set_variable = { kn_libertarian_banned = 1 }
-	set_variable = { kn_moderate_socialist_banned = 1 }
-	set_variable = { kn_social_democrat_banned = 1 }
-	set_variable = { kn_social_liberal_banned = 1 }
-	set_variable = { kn_conservative_banned = 1 }
-	set_variable = { kn_authoritarian_democrat_banned = 1 }
+	set_country_flag = banned_social_nationalist
+	set_country_flag = banned_marxist
+	set_country_flag = banned_libertarian
+	set_country_flag = banned_moderate_socialist
+	set_country_flag = banned_social_democrat
+	set_country_flag = banned_social_liberal
+	set_country_flag = banned_conservative
+	set_country_flag = banned_authoritarian_democrat
 
 set_convoys = 60
 set_stability = 0.2
@@ -239,16 +239,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Anastasy Vonsiatsky"
-	desc = "POLITICS_ANASTASY_VONSIATSKY_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Anastasy_Vonsiatsky.tga"
-	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
-	traits = {
-	}
-}
-
 
 #create_country_leader = {
 #	name = "The True Vozhd"
@@ -266,7 +256,7 @@ create_country_leader = {
 ####
 
 create_field_marshal = {
-	name = "Aleksander Pavlovich Kutepov"
+	name = "Aleksander Kutepov"
 	id = 401
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Aleksander_Kutepov.tga"
 	traits = {
@@ -286,7 +276,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Mikhail Gordeevich Drozdovsky"
+	name = "Mikhail Drozdovsky"
 	id = 4100
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Mikhail_Drozdovsky.tga"
 	traits = {
@@ -304,7 +294,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Andrey Andreyevich Vlasov"
+	name = "Andrey Vlasov"
 	id = 404
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Andrey_Vlasov.tga"
 	traits = {
@@ -340,7 +330,7 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
-	name = "Anton Vasilievich Turkul"
+	name = "Anton Turkul"
 	id = 4111
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Anton_Turkul.tga"
 	traits = {
@@ -358,39 +348,8 @@ create_field_marshal = {
 
 }
 
-create_field_marshal = {
-	name = "Viktor Leonidovich Pokrovsky"
-	id = 411
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Viktor_Pokrovsky.tga"
-	traits = {
-		career_officer
-		trait_reckless
-		trickster
-		ranger
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Ivan Alexeyevich Polyakov"
-	id = 410
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Ivan_Polyakov.tga"
-	traits = {
-		old_guard
-		cavalry_leader
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_field_marshal = {
+## CORPS COMMAND
+create_corps_commander = {
 	name = "Anatoly Pepelayev"
 	id = 4112
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Anatoly_Pepelyayev.tga"
@@ -406,8 +365,23 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+create_corps_commander = {
+	name = "Ivan Konev"
+	id = 4113
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Konev.tga"
+	traits = {
+		brilliant_strategist
+		ranger
+		aggressive_assaulter
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Vladimir Kappel"
 	id = 406
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vladimir_Kappel.tga"
@@ -424,85 +398,8 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
-
-## CORPS COMMAND
-
 create_corps_commander = {
-	name = "Matyev Kuzmich Shaposhnikov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Matyev_Shaposhnikov.tga"
-	traits = {
-		armor_officer
-	}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Ivan Khristoforovich Baghramyan"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Baghramyan.tga"
-	traits = {
-		infantry_officer
-		artillery_officer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Ilya Vasilievich Baldynov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Baghramyan.tga"
-	traits = {
-		cavalry_officer
-		artillery_officer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Ilya Vasilievich Baldynov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Baghramyan.tga"
-	traits = {
-		armor_officer
-		commando
-		paratrooper
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Amazasp Khachaturovich Babajanyan"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Amazasp_Babajanyan.tga"
-	traits = {
-		armor_officer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Anatoly Ivanovich Rogozhin"
+	name = "Anatoly Rogozhin"
 	id = 408
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Anatoly_Rogozhin.tga"
 	traits = {
@@ -519,24 +416,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Aleksey Grishin-Almazov"
-	id = 418
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Aleksey_Grishin-Almazov.tga"
-	traits = {
-		war_hero
-		winter_specialist
-		winter_expert
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-
-}
-
-create_corps_commander = {
-	name = "Vasili Mikhailovich Tchernetzov"
+	name = "Vasili Tchernetzov"
 	id = 409
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Vasili_Tchernetzov.tga"
 	traits = {
@@ -549,38 +429,43 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
+
 }
 
 create_corps_commander = {
-	name = "Xenophon Mikhailovich Malakov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Xenophon_Malakov.tga"
+	name = "Ivan Polyakov"
+	id = 410
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Ivan_Polyakov.tga"
 	traits = {
-		armor_officer
+		old_guard
+		cavalry_leader
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 
+}
 create_corps_commander = {
-	name = "Igor Konstantinovich Sakharov"
-	id = 412
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Igor_Sakharov.tga"
+	name = "Viktor Pokrovsky"
+	id = 411
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Viktor_Pokrovsky.tga"
 	traits = {
-		infantry_officer
+		career_officer
+		trait_reckless
+		trickster
+		ranger
 	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
 
 }
-
 create_corps_commander = {
-	name = "Bronislav Vladislavovich Kaminski"
+	name = "Bronislav Kaminski"
 	id = 412
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Bronislav_Kaminski.tga"
 	traits = {
@@ -613,49 +498,22 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Fyodor Ivanovich Trukhin"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Fyodor_Trukhin.tga"
+	name = "Mikhail Gvishiani"
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Mikhail_Gvishiani.tga"
 	traits = {
-		infantry_officer
+		politically_connected
+		commando
+		trait_cautious
 	}
 	skill = 3
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
+	defense_skill = 2
+	planning_skill = 3
 	logistics_skill = 2
+
 }
-
 create_corps_commander = {
-	name = "Vasily Vasilievich Orekhov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vasilievich_Orekhov.tga"
-	traits = {
-		infantry_officer
-		media_personality
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-
-create_corps_commander = {
-	name = "Konstantin Lvovich Kapnin"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Konstantin_Kapnin.tga"
-	traits = {
-		infantry_officer
-		career_officer
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Vasily Filippovich Margelov"
+	name = "Vasily Margelov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vasily_Margelov.tga"
 	traits = {
 		commando
@@ -670,62 +528,20 @@ create_corps_commander = {
 
 }
 
+
 create_corps_commander = {
-	name = "Mikhail Maksimovich Gvishiani"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Mikhail_Gvishiani.tga"
+	name = "Alexander Antonov"
+	id = 415
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Alexander_Antonov.tga"
 	traits = {
 		politically_connected
-		commando
-		trait_cautious
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Nver Georgievich Safaryan"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nver_Safaryan.tga"
-	traits = {
-		infantry_officer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Nikolai Vladimirovich Skoblin"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nikolai_Skoblin.tga"
-	traits = {
-		cavalry_officer
+		inflexible_strategist
 	}
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-
-create_corps_commander = {
-	name = "Sergey Nikitich Ivanov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Sergey_Ivanov.tga"
-	traits = {
-		infantry_officer
-		offensive_doctrine
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
 
 }
 
@@ -747,21 +563,23 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Vladimir Filippovich Chizh"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vladimir_Chizh.tga"
+	name = "Sergey Ivanov"
+	id = 4114
+	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Sergey_Ivanov.tga"
 	traits = {
-		armor_officer
+		infantry_officer
+		offensive_doctrine
 	}
 	skill = 2
-	attack_skill = 2
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 3
 
 }
 
 create_corps_commander = {
-	name = "Pyotr Petrovich Vershigora"
+	name = "Pyotr Vershigora"
 	id = 417
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Pyotr_Vershigora.tga"
 	traits = {
@@ -774,99 +592,6 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 3
 
-}
-
-create_corps_commander = {
-	name = "Claudius Alexandrovich Foss"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Claudius_Foss.tga"
-	traits = {
-		infantry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Vladimir Konstantinovich Vitkovsky"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vladimir_Vitkovsky.tga"
-	traits = {
-		infantry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Vilfrid Karlovich Shtrik-Shtrikfeld"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vilfrid_Shtrik-Shtrikfeld.tga"
-	traits = {
-		infantry_officer
-		old_guard
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Evgeny Eduardovich Messner"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Evgeny_Messner.tga"
-	traits = {
-		infantry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Boris Seergevich Likhachev"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Boris_Likhachev.tga"
-	traits = {
-		armor_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Fedor Ivanovich Eliseev"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Fedor_Eliseev.tga"
-	traits = {
-		cavalry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-
-}
-
-create_corps_commander = {
-	name = "Sergei Sergeevich Aksakov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Sergei_Aksakov.tga"
-	traits = {
-		infantry_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -886,7 +611,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Konstantin Ivanovich Rakutin"
+	name = "Konstantin Rakutin"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Konstantin_Rakutin.tga"
 	traits = {
 		politically_connected
@@ -901,7 +626,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Sergei Gnatovich Rudenko"
+	name = "Sergei Rudenko"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Sergei_Rudenko.tga"
 	traits = {
 		commando
@@ -916,7 +641,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ivan Mikhailovich Yarotsky"
+	name = "Ivan Yarotsky"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Yarotsky.tga"
 	traits = {
 		naval_invader
@@ -937,7 +662,7 @@ create_corps_commander = {
 ####
 
 create_navy_leader = {
-	name = "Nikolai Gerasimov Kuznetsov"
+	name = "Nikolai Kuznetsov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nikolai_Kuznetsov.tga"
 	traits = { superior_tactician ironside fly_swatter }
 	skill = 4 
@@ -948,7 +673,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Ivan Stepanovich Yumashev"
+	name = "Ivan Yumashev"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Ivan_Yumashev.tga"
 	traits = { spotter superior_tactician }
 	skill = 3 #naval guy, don't patch
@@ -959,7 +684,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Vladimir Nikolaevich Alexeyev"
+	name = "Vladimir Alexeyev"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vladimir_Alexeyev.tga"
 	traits = { fly_swatter spotter fleet_protector }
 	skill = 2 #naval guy, don't patch
@@ -970,7 +695,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nestor Alexandrovich Monastyryev"
+	name = "Nestor Monastyryev"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nestor_Monastyryev.tga"
 	traits = { seawolf }
 	skill = 3 #naval guy, don't patch
@@ -980,9 +705,8 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 
-
 create_navy_leader = {
-	name = "Neon Vasilievich Antonov"
+	name = "Neon Antonov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Neon_Antonov.tga"
 	traits = { fly_swatter fleet_protector }
 	skill = 2 #naval guy, don't patch
@@ -993,7 +717,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Sergei Georgyevich Gorshkov"
+	name = "Sergei Gorshkov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Sergei_Gorshkov.tga"
 	traits = { ironside fleet_protector }
 	skill = 3 #naval guy, don't patch
@@ -1004,7 +728,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Vladimir Afanasyevich Kasatonov"
+	name = "Vladimir Kasatonov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Vladimir_Kasatonov.tga"
 	traits = { fly_swatter ironside }
 	skill = 2 #naval guy, don't patch
@@ -1015,7 +739,7 @@ create_navy_leader = {
 }
 
 create_navy_leader = {
-	name = "Nikolay Ivanovich Smirnov"
+	name = "Nikolay Smirnov"
 	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nikolay_Smirnov.tga"
 	traits = { seawolf }
 	skill = 2 #naval guy, don't patch
@@ -1023,14 +747,4 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 2
 	coordination_skill = 2
-}
-create_navy_leader = {
-	name = "Nikolai Mikhailovich Kulakov"
-	portrait_path = "gfx/leaders/EASTERN_EUROPE/RUS/RUS_Nikolai_Mikhailovich_Kulakov.tga"
-	traits = { caustic_personality cuts_corners }
-	skill = 2 #naval guy, don't patch
-	attack_skill = 2
-	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
 }

@@ -19,12 +19,12 @@ set_technology = {
 }
 ### PARTIES UI ###
 	### BANNED ###
-	set_variable = { kn_social_nationalist_banned = 1 }
-	set_variable = { kn_marxist_banned = 1 }
-	set_variable = { kn_libertarian_banned = 1 }
-	set_variable = { kn_moderate_socialist_banned = 1 }
-	set_variable = { kn_fundamentalist_banned = 1 }
-	set_variable = { kn_voynist_banned = 1 }
+	set_country_flag = banned_social_nationalist
+	set_country_flag = banned_marxist
+	set_country_flag = banned_libertarian
+	set_country_flag = banned_moderate_socialist
+	set_country_flag = banned_fundamentalist
+	set_country_flag = banned_voynist
 
 set_politics = {	
 	ruling_party = authoritarian_democrat

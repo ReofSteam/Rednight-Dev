@@ -1,0 +1,275 @@
+focus_tree = { 
+id = jap_krasnacht
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = JAP
+} 
+} 
+#Focus for Negotiating With Terrorists
+focus = { 
+id = JAP_negotiatingwithterrorists
+icon = GFX_goal_tripartite_pact
+x = 11
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_warinthecountryside } 
+mutually_exclusive = { focus = JAP_expandthekenpeitai } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arrest the Leaders
+focus = { 
+id = JAP_arresttheleaders
+icon = GFX_goal_continuous_restrict_freedom
+x = 8
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_infiltratetheblackarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Appeal to the Yakuza
+focus = { 
+id = JAP_appealtotheyakuza
+icon = GFX_goal_generic_secret_weapon
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_armtheblackguard } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Arm the Black Guard
+focus = { 
+id = JAP_armtheblackguard
+icon = GFX_armtheblackguard
+x = 3
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_traincounterguerillas } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Infiltrate the Black Army
+focus = { 
+id = JAP_infiltratetheblackarmy
+icon = GFX_goal_generic_more_territorial_claims
+x = 7
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_expandthekenpeitai } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Expand the Kenpeitai
+focus = { 
+id = JAP_expandthekenpeitai
+icon = GFX_goal_generic_occupy_states_ongoing_war
+x = 7
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_warinthecountryside } 
+mutually_exclusive = { focus = JAP_traincounterguerillas } 
+mutually_exclusive = { focus = JAP_expandthekenpeitai } 
+mutually_exclusive = { focus = JAP_expandthekenpeitai } 
+mutually_exclusive = { focus = JAP_expandthekenpeitai } 
+mutually_exclusive = { focus = JAP_expandthekenpeitai } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Train Counter-Guerillas
+focus = { 
+id = JAP_traincounterguerillas
+icon = GFX_goal_support_fascism
+x = 3
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_warinthecountryside } 
+mutually_exclusive = { focus = JAP_traincounterguerillas } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for War In The Countryside
+focus = { 
+id = JAP_warinthecountryside
+icon = GFX_focus_YUG_pan_slavic_congress
+x = 7
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Operation Asama
+focus = { 
+id = JAP_operationasama
+icon = GFX_goal_generic_major_war
+x = 7
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_helpfromtheokhranka } 
+prerequisite = { focus = JAP_arresttheleaders } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Appeal to the People
+focus = { 
+id = JAP_appealtothepeople
+icon = GFX_goal_generic_propaganda
+x = 11
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_thereformistalternative } 
+prerequisite = { focus = JAP_promotestateunions } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Invite Leftists Into the Diet
+focus = { 
+id = JAP_inviteleftistsintothediet
+icon = GFX_focus_generic_soviet_politics
+x = 11
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_negotiatingwithterrorists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Reformist Alternative
+focus = { 
+id = JAP_thereformistalternative
+icon = GFX_thereformistalternative
+x = 10
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_inviteleftistsintothediet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Promote State Unions
+focus = { 
+id = JAP_promotestateunions
+icon = GFX_goal_generic_national_unity
+x = 12
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_inviteleftistsintothediet } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Help From the Okhranka
+focus = { 
+id = JAP_helpfromtheokhranka
+icon = GFX_goal_tripartite_pact
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_infiltratetheblackarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Appeal to the Farmers
+focus = { 
+id = JAP_appealtothefarmers
+icon = GFX_focus_prc_agrarian_socialism
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_armtheblackguard } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Battles in the Mountains
+focus = { 
+id = JAP_battlesinthemountains
+icon = GFX_focus_generic_provoke_border_clashes
+x = 3
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_appealtotheyakuza } 
+prerequisite = { focus = JAP_appealtothefarmers } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Crisis Resolved
+focus = { 
+id = JAP_thecrisisresolved
+icon = GFX_focus_generic_support_the_left_right
+x = 7
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_operationasama focus = JAP_appealtothepeople focus = JAP_battlesinthemountains } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

@@ -1,0 +1,308 @@
+focus_tree = {
+	id = KN_INS_leimena
+	country = {
+		factor = 0
+	}
+	
+	shared_focus = INS_economy_1950
+	shared_focus = INS_army_debate
+	shared_focus = INS_the_AURI
+	shared_focus = INS_ALRI
+	
+	focus = {
+		id = INS_dekrit_presiden
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		x = 2
+		y = 0
+	
+		bypass = {
+			always = yes
+		}
+		
+	}
+	focus = {
+		id = INS_premier_leimena
+		icon = GFX_INS_premier_leimena
+		cost = 10.00
+		prerequisite = {
+			focus = INS_dekrit_presiden
+		}
+		x = 2
+		y = 1
+				
+		bypass = {
+			always = yes
+		}
+		
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = INS_civilwar.1 days = 2 }
+			}
+		}
+		
+	}
+	focus = {
+		id = INS_focus_masyumi
+		icon = GFX_INS_challenge_masyumi
+		cost = 10.00
+		prerequisite = {
+			focus = INS_premier_leimena
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = INS_imprison_masyumi
+		icon = GFX_goal_KN_prison_generic
+		cost = 10.00
+		prerequisite = {
+			focus = INS_focus_masyumi
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = INS_split_masyumi_nu
+		icon = GFX_INS_split_masyumi
+		cost = 10.00
+		prerequisite = {
+			focus = INS_imprison_masyumi
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = INS_disband_masyumi
+		icon = GFX_INS_disband_masyumi
+		cost = 10.00
+		prerequisite = {
+			focus = INS_split_masyumi_nu
+		}
+		x = 0
+		y = 5
+
+	}
+	focus = {
+		id = INS_focus_pni
+		icon = GFX_INS_purge_PNI
+		cost = 10.00
+		prerequisite = {
+			focus = INS_premier_leimena
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = INS_ali_reassign
+		icon = GFX_INS_send_ali
+		cost = 10.00
+		prerequisite = {
+			focus = INS_focus_pni
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = INS_reaffirm_PNI_loyalty
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_ali_reassign
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = INS_secure_pni
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = INS_reaffirm_PNI_loyalty
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = INS_focus_murba
+		icon = GFX_INS_crack_murba
+		cost = 10.00
+		prerequisite = {
+			focus = INS_premier_leimena
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = INS_split_murba
+		icon = GFX_INS_kill_tan_malaka
+		cost = 10.00
+		prerequisite = {
+			focus = INS_focus_murba
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = INS_drawin_murbaists
+		icon = GFX_INS_draw_in_doubting
+		cost = 10.00
+		prerequisite = {
+			focus = INS_split_murba
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = INS_disband_murba
+		icon = GFX_goal_anti_comintern_pact
+		cost = 10.00
+		prerequisite = {
+			focus = INS_drawin_murbaists
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = INS_nasakom
+		icon = GFX_INS_Nasakom
+		cost = 6.00
+		prerequisite = {
+			focus = INS_secure_pni
+		}
+		prerequisite = {
+			focus = INS_disband_murba
+		}
+		prerequisite = {
+			focus = INS_disband_masyumi
+		}
+		x = 2
+		y = 6
+		
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = INS_civilwar.4 days = 2 }
+			}
+		}
+
+	}
+	focus = {
+		id = INS_civilwar
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = INS_nasakom
+		}
+		
+		available = { 
+			hidden_trigger = {
+				country_exists = PRI
+			}
+		}
+		
+		x = 2
+		y = 7
+		
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = INS_civilwar.8 days = 21 }
+			}
+		}
+		
+	}
+	focus = {
+		id = INS_gom_ii
+		icon = GFX_INS_GOM_II
+		cost = 10.00
+		prerequisite = {
+			focus = INS_civilwar
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = INS_gom_iii
+		icon = GFX_INS_GOM_III
+		cost = 10.00
+		prerequisite = {
+			focus = INS_civilwar
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = INS_cutoff_foreign
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = INS_gom_iii
+			focus = INS_gom_ii
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = INS_meet_kawilarang
+		icon = GFX_INS_meet_kawilarang
+		cost = 10.00
+		prerequisite = {
+			focus = INS_gom_iii
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = INS_meet_djambek
+		icon = GFX_INS_meet_djambek
+		cost = 10.00
+		prerequisite = {
+			focus = INS_gom_ii
+		}
+		x = 0
+		y = 9
+
+	}
+	focus = {
+		id = INS_focus_prri
+		icon = GFX_INS_crush_PRRI
+		cost = 10.00
+		prerequisite = {
+			focus = INS_meet_djambek
+		}
+		mutually_exclusive = {
+			focus = INS_focus_permesta
+		}
+		x = 0
+		y = 10
+
+	}
+	focus = {
+		id = INS_focus_permesta
+		icon = GFX_INS_crush_Permesta
+		cost = 10.00
+		prerequisite = {
+			focus = INS_meet_kawilarang
+		}
+		mutually_exclusive = {
+			focus = INS_focus_prri
+		}
+		x = 4
+		y = 10
+
+	}
+}

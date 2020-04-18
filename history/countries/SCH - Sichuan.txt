@@ -1,8 +1,19 @@
 ﻿capital = 605
+
 oob = "empty"
-set_research_slots = 2
+
 set_technology = {
+	shipbuild_basics = 1
+	gwtank = 1
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
 }
+
+
+set_research_slots = 3
 
 CHI = {
 	if = {
@@ -17,7 +28,7 @@ CHI = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,48 +38,20 @@ set_popularities = {
 	marxist = 0
 	libertarian = 0
 	moderate_socialist = 0
-	social_democrat = 100
+	social_democrat = 0
 	social_liberal = 0
 	conservative = 0
-	authoritarian_democrat = 0
+	authoritarian_democrat = 100
 	autocratic = 0
 	fundamentalist = 0
 	voynist = 0
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_social_nationalist_coalition = 1}
-set_variable = { kn_marxist_coalition = 1}
-set_variable = { kn_moderate_socialist_coalition = 1}
-set_variable = { kn_social_liberal_coalition = 1}
-
-set_variable = { kn_authoritarian_democrat_banned = 1}
-set_variable = { kn_autocratic_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
-
 create_country_leader = {
-	name = "Liu Bocheng"
-	desc = "POLITICS_LIU_BOCHENG_DESC"
-	picture = "gfx/leaders/ASIA/CHI/CHI_Liu_Bocheng.tga"
+	name = "Zhang Lan"
+	desc = ""
+	#picture = "gfx/leaders/ASIA/SCH/Portrait_SZC_Yang_Sen.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Peng Tairong"
-	desc = "POLITICS_PENG_TAIRONG_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
-	traits = {
-	}
+	traits = {}
 }

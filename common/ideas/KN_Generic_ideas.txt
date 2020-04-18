@@ -1,0 +1,246 @@
+ideas = {
+	hidden_ideas = {
+		
+		currency_fiat_currency = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea currency_fiat_currency"}
+			picture = currency_fiat_currency
+			modifier = {
+			}
+			allowed = { has_country_flag = kn_currency_fiat }
+			cancel = {
+			}
+		}
+		currency_gold_standard = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea economy_gold_standard"}
+			picture = economy_gold_standard
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -2.0
+			}
+			allowed = { has_country_flag = kn_currency_gold }
+			cancel = {
+			}
+		}
+	}
+
+	hidden_ideas = {
+
+		party_pop_0_00 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_00" }
+			modifier = { political_power_gain = -1.5 }
+		}
+
+		party_pop_0_10 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_10" }
+			modifier = { political_power_gain = -1.0 }
+		}
+
+		party_pop_0_20 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_20" }
+			modifier = { political_power_gain = -0.5 }
+		}
+
+		party_pop_0_30 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_30" }
+			modifier = { political_power_gain = 0 }
+		}
+
+		party_pop_0_40 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_40" }
+			modifier = { political_power_gain = 0.5 }
+		}
+
+		party_pop_0_50 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_50" }
+			modifier = { political_power_gain = 1.0 }
+		}
+
+		party_pop_0_60 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_60" }
+			modifier = { political_power_gain = 1.5 }
+		}
+
+		party_pop_0_70 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_70" }
+			modifier = { political_power_gain = 2.0 }
+		}
+
+		party_pop_0_80 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_80" }
+			modifier = { political_power_gain = 2.5 }
+		}
+
+		party_pop_0_90 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_90" }
+			modifier = { political_power_gain = 3.0 }
+		}
+
+		party_pop_0_100 = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea party_pop_0_100" }
+			modifier = { political_power_gain = 3.5 }
+		}
+	}
+
+	head_of_government = {
+		generic_blank_head_of_government = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Head of Government'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	}
+	minister_no_portfolio = {
+		generic_blank_minister_no_portfolio = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Minister with No Portfolio'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+		
+	}
+	interior_minister = {
+		generic_blank_interior_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Interior minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	economy_minister = {
+		generic_blank_economy_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Economy Minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	foreign_minister = {
+		generic_blank_foreign_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Foreign Minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	education_minister = {
+		generic_blank_education_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Education Minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	culture_minister = {
+		generic_blank_culture_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Culture Minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	transport_minister = {
+		generic_blank_transport_minister = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Transport Minister'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	head_of_intel = {
+		generic_blank_head_of_intel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Head of Intel'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	chief_of_staff = {
+		generic_blank_chief_of_staff = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Chief of Staff'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+
+	}
+	chief_of_army = {
+		generic_blank_chief_of_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Chief of Army'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	chief_of_air_force = {
+		generic_blank_chief_of_air_force = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Chief of Air Force'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+	chief_of_navy = {
+		generic_blank_chief_of_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Removed 'Chief of Navy'"}
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	
+	}
+}

@@ -21,8 +21,8 @@ set_technology = {
 
 set_convoys = 25
 
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_marxist_banned = 1 }
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
 
 
 

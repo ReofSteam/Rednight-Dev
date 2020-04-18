@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		KAL_council_neutral = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KAL_council_neutral"}
+			picture = KAL_neutral_council
+			modifier = {
+			}
+		}
+		KAL_central_low = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ACH_islamic_welfare"}
+			picture = KAL_central_control_low
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.1
+			}
+		}
+		KAL_control_high = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea KAL_control_high"}
+			picture = KAL_Pontianak_Dominant
+			modifier = {
+				stability_weekly = 0.05
+				stability_factor = 0.1
+				political_power_factor = 0.1
+			}
+		}
+	}
+}

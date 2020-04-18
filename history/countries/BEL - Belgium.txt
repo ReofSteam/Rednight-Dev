@@ -19,19 +19,20 @@ set_technology = {
 	#trench_warfare = 1
 
 }
+set_country_flag = banned_voynist
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_autocratic
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_conservative
+set_country_flag = banned_social_liberal
+set_country_flag = banned_social_democrat
 
-set_variable = { kn_social_nationalist_coalition = 1}
-set_variable = { kn_libertarian_coalition = 1}
-set_variable = { kn_moderate_socialist_coalition = 1}
-
-set_variable = { kn_voynist_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_social_democrat_banned = 1 }
-
+FRA = {
+	set_autonomy = {
+		target = BEL
+		autonomy_state  = kn_autonomous
+	}
+}
 
 set_politics = {
 	ruling_party = marxist
@@ -60,18 +61,15 @@ add_ideas = {
 	BEL_state_of_limbo
 	BEL_fractured_culture
 	BEL_white_terror
-	BEL_phalanstere_reconstruction_initiative
+	BEL_phlanastere_reconstruction_initiative
 	BEL_Julien_Lahaut_hog
 	BEL_Arthur_Wauters_interior
 	BEL_Jacques_Grippa_economy
 	BEL_Achille_Van_Acker_foreign
 	BEL_Camille_Huysmans_education
-	BEL_War_Van_Overstraeten_culture
+	BEL_Eduard_Van_Overstraeten_culture
 	BEL_Ernest_Burnelle_transport
-	BEL_Xavier_Relecom_intel
-	BEL_Jules_Delhalle_cos
-	BEL_Raoul_Baligand_coa
-	BEL_Raymond_Cheval_Lallemand_air
+	
 }
 
 

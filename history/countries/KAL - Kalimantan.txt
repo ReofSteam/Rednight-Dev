@@ -70,15 +70,6 @@ create_country_leader = {
 	desc = "POLITICS_SYARIF_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
 	expire = "1965.10.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Sultan Hamid II"
-	desc = "POLITICS_SYARIF_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
-	expire = "1965.10.1"
 	ideology = autocratic_subtype
 	traits = { }
 }
@@ -89,6 +80,15 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
 	expire = "1965.10.1"
 	ideology = voynist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Dewan Kesultanan-Kerajaan Kalimantan"
+	desc = "POLITICS_DEWANK_DESC"
+	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Dewan_Kalimantan.tga"
+	expire = "1965.10.1"
+	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 

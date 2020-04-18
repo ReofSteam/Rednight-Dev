@@ -1,11 +1,9 @@
-﻿capital = 286 #Phnom Penh NOT on the map as VP!
+﻿capital = 750
 
 oob = "CAM_1936"
 
 set_research_slots = 3
 
-# Starting tech
-# clone of France
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -31,7 +29,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = marxist 
+	ruling_party = conservative 
 	election_frequency = 36
 	elections_allowed = no
 }
@@ -50,33 +48,12 @@ set_popularities = {
     voynist = 2
 }
 
-create_country_leader = {
-	name = "Pol Pot" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-	expire = "1953.3.1"
-	ideology = marxist_subtype 
-	traits = {
-		
-	}
-}
 
-#non standard english alphabet character
-create_country_leader = {
-	name = "Sisowath Youtévong"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
-	ideology = social_liberal_subtype
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
-	name = "Norodom Sihanouk" 
+	name = "Son Ngoc Thanh" 
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "gfx/leaders/ASIA/INC/INC_Son_Ngoc_Thanh.tga"
 	expire = "1953.3.1"
 	ideology = conservative_subtype
 	traits = {
@@ -84,5 +61,15 @@ create_country_leader = {
 	}
 }
 
-#couldnt find anything historical on fascism
+create_country_leader = {
+	name = "Tou Samouth" 
+	desc = ""
+	picture = "gfx/leaders/ASIA/INC/INC_Tou_Samouth.tga"
+	expire = "1953.3.1"
+	ideology = social_nationalist_subtype
+	traits = {
+		
+	}
+}
+
 

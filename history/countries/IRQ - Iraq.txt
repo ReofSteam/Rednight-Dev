@@ -15,37 +15,29 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
-create_country_leader = {
-	name = "Nuri al-Said"
-	desc = "POLITICS_NURI_AL_SAID_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/IRQ/IRQ_Nuri_al_Said.tga"
-	expire = "1965.1.1"
-	ideology = conservative_subtype
-	traits = {}
-}
 set_popularities = {
-	social_nationalist = 15
+	social_nationalist = 50
 	marxist = 0
 	libertarian = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 50
-	authoritarian_democrat = 25
+	conservative = 0
+	authoritarian_democrat = 50
 	autocratic = 0
 	fundamentalist = 0
-	voynist = 10
+	voynist = 0
 }
 
 create_country_leader = {
 	name = "Rashid Ali al-Gaylani"
 	desc = ""
-	picture = "gfx/leaders/CAIRO_PACT/IRQ/IRQ_Rashid_Ali_Gaylani.tga"
+	picture = "gfx/leaders/CAIRO_PACT/IRQ/Portrait_Iraq_Rashid_Ali_Gaylani.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}

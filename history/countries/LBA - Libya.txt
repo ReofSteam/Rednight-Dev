@@ -1,0 +1,104 @@
+﻿capital = 448
+OOB = "empty"
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+set_research_slots = 2
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	social_nationalist = 0
+	marxist = 0
+	libertarian = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	fundamentalist = 0
+	voynist = 0
+}
+
+### Field Marshal
+create_field_marshal = { #Auto-Generated
+	name = "Idris I"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_Idris_I.tga"
+	traits = {
+		logistics_wizard
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = { #Auto-Generated
+	name = "Shennib"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_Shennib.tga"
+	traits = {
+		defensive_doctrine
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "al-Bouri"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_al_Bouri.tga"
+	traits = {
+		trait_engineer
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Gariani"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_Gariani.tga"
+	traits = {
+		career_officer
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Khimlani"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_Khimlani.tga"
+	traits = {
+		spotter
+	}
+	skill = 1
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "al-Muntasir"
+	portrait_path = "gfx/leaders/CAIRO_PACT/LBA/Portrait_LBA_al_Muntasir.tga"
+	traits = {
+		seawolf
+	}
+	skill = 2
+}

@@ -38,11 +38,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
-set_variable = { kn_conservative_coalition = 1 }
-set_variable = { kn_social_liberal_coalition = 1 }
-set_variable = { kn_social_democrat_coalition = 1 }
-
 set_popularities = {
 	social_nationalist = 0
 	marxist = 0

@@ -1,0 +1,994 @@
+focus_tree = { 
+	id = ERI_Krasnacht
+	country = { 
+		factor = 0 
+		modifier = { 
+			add = 10 
+			tag = ERI
+		}
+	}
+#Focus for The Woli Mondelli Academy
+	focus = { 
+		id = ERI_woli_mondelli_academy
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_march_of_progress } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Long Live Woli Mondelli!
+	focus = { 
+		id = ERI_long_live_woli_mondelli
+		icon = GFX_goal_unknown
+		x = 14
+		y = 9
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_erase_ethnic_lines } 
+		prerequisite = { focus = ERI_stabilize_economy } 
+		prerequisite = { focus = ERI_uphold_civic_virtue } 
+		prerequisite = { focus = ERI_the_fighting_spirit }
+		prerequisite = { focus = ERI_outlaw_islamism } 
+		prerequisite = { focus = ERI_erase_ethnic_lines } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Re-Education Camps
+	focus = { 
+		id = ERI_reeducation_camps
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_strengthen_our_culture } 
+		prerequisite = { focus = ERI_homeland_security } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Ertra! Ertra! Ertra!
+	focus = { 
+		id = ERI_ertra_ertra_ertra
+		icon = GFX_goal_unknown
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_construct_national_myth } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Three Goals of Our State
+	focus = { 
+		id = ERI_three_goals
+		icon = GFX_goal_unknown
+		x = 14
+		y = 0
+		cost = 10
+		available_if_capitulated = yes 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Schooling in Economics
+	focus = { 
+		id = ERI_schooling_in_economics
+		icon = GFX_goal_unknown
+		x = 21
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_economic_advisory } 
+		prerequisite = { focus = ERI_public_works } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Stabilize the Economy
+	focus = { 
+		id = ERI_stabilize_economy
+		icon = GFX_goal_unknown
+		x = 23
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_schooling_in_economics } 
+		prerequisite = { focus = ERI_modern_capital } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Military Engineering
+	focus = { 
+		id = ERI_military_engineering
+		icon = GFX_goal_unknown
+		x = 7
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_improve_tactics } 
+		prerequisite = { focus = ERI_siege_mentality } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for The Fighting Spirit
+	focus = { 
+		id = ERI_the_fighting_spirit
+		icon = GFX_goal_unknown
+		x = 5
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_military_engineering } 
+		prerequisite = { focus = ERI_special_operations } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for A Modern Capital
+	focus = { 
+		id = ERI_modern_capital
+		icon = GFX_goal_unknown
+		x = 25
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_urban_planning } 
+		prerequisite = { focus = ERI_asmara_manufactories } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Urban Planning
+	focus = { 
+		id = ERI_urban_planning
+		icon = GFX_goal_unknown
+		x = 24
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_welfare_programs } 
+		prerequisite = { focus = ERI_push_industrialize } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Welfare Programs
+	focus = { 
+		id = ERI_welfare_programs
+		icon = GFX_goal_unknown
+		x = 23
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_implement_price_caps } 
+		prerequisite = { focus = ERI_mining_industry } 
+		ai_will_do = { 
+			factor = 1
+		} 
+	 
+	} 
+
+#Focus for Foreign Investment
+	focus = { 
+		id = ERI_foreign_investment
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_bolster_bank } 
+		prerequisite = { focus = ERI_implement_price_caps } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Economic Advisory
+	focus = { 
+		id = ERI_economic_advisory
+		icon = GFX_goal_unknown
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_foreign_investment } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Public Works Initiative
+	focus = { 
+		id = ERI_public_works
+		icon = GFX_goal_unknown
+		x = 22
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_welfare_programs } 
+		prerequisite = { focus = ERI_foreign_investment } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Asmara Manufactories
+	focus = { 
+		id = ERI_asmara_manufactories
+		icon = GFX_goal_unknown
+		x = 26
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_push_industrialize } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Take to the Skies
+	focus = { 
+		id = ERI_take_to_skies
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_prepare_for_war } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	}	 
+
+#Focus for Build an Air Base
+	focus = { 
+		id = ERI_build_air_base
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_take_to_skies } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Improve the Air Fleet
+	focus = { 
+		id = ERI_improve_air_fleet
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_build_air_base } 
+		ai_will_do = { 
+		 factor = 1
+		} 
+
+	} 
+
+#Focus for The Aviation Cult
+	focus = { 
+		id = ERI_the_aviation_cult
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_improve_air_fleet } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+	
+#Focus for Nationalistic Propaganda
+	focus = { 
+		id = ERI_nationalistic_propaganda
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_nationalize_media } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Push to Industrialize
+	focus = { 
+		id = ERI_push_industrialize
+		icon = GFX_goal_unknown
+		x = 26
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_mining_industry } 
+		prerequisite = { focus = ERI_green_revolution } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Uphold Civic VIrtue
+	focus = { 
+		id = ERI_uphold_civic_virtue
+		icon = GFX_goal_unknown
+		x = 14
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_nationalistic_propaganda } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Bolster the Bank
+	focus = { 
+		id = ERI_bolster_bank
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_control_market } 
+		ai_will_do = { 
+		 factor = 1
+		} 
+
+	} 
+
+#Focus for Control the Market
+	focus = { 
+		id = ERI_control_market
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_address_economy } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	}
+
+#Focus for Resource Extraction
+	focus = { 
+		id = ERI_resource_extraction
+		icon = GFX_goal_unknown
+		x = 25
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_address_economy } 
+		ai_will_do = { 
+		factor = 1
+		} 
+
+	} 
+
+#Focus for The Mining Industry
+	focus = { 
+		id = ERI_mining_industry
+		icon = GFX_goal_unknown
+		x = 24
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_resource_extraction } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for The Green Revolution
+	focus = { 
+		id = ERI_green_revolution
+		icon = GFX_goal_unknown
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_resource_extraction } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Implement Price Caps
+	focus = { 
+		id = ERI_implement_price_caps
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_control_market } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Erase the Ethnic Lines
+	focus = { 
+		id = ERI_erase_ethnic_lines
+		icon = GFX_goal_unknown
+		x = 16
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_national_language } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Outlaw Islamism
+	focus = { 
+		id = ERI_outlaw_islamism
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_war_religion } 
+		ai_will_do = { 
+		 factor = 1
+		} 
+
+	} 
+
+#Focus for A Siege Mentality
+	focus = { 
+		id = ERI_siege_mentality
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_stay_behind_operations } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Silence the Dissidents
+	focus = { 
+		id = ERI_silence_dissidents
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_guided_democracy } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Monuments to Eritrea
+	focus = { 
+		id = ERI_monuments_eritrea
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_cult_of_the_nation } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	}
+
+#Focus for Nationalize the Media
+	focus = { 
+		id = ERI_nationalize_media
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_cult_of_the_nation focus = ERI_guided_democracy } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Address the Economy
+	focus = { 
+		id = ERI_address_economy
+		icon = GFX_goal_unknown
+		x = 23
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_enrich_nation } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for War on Religion
+	focus = { 
+		id = ERI_war_religion
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_nationalize_media } 
+		prerequisite = { focus = ERI_silence_dissidents } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for A National Language
+	focus = { 
+		id = ERI_national_language
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_nationalize_media } 
+		prerequisite = { focus = ERI_monuments_eritrea } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Control the Intellectuals
+	focus = { 
+		id = ERI_control_the_intellectuals
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_advanced_surveillance } 
+		prerequisite = { focus = ERI_woli_mondelli_academy } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Improve Our Tactics
+	focus = { 
+		id = ERI_improve_tactics
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_stockpile_weapons } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Seeds of a Fleet
+	focus = { 
+		id = ERI_seeds_of_a_fleet
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_expand_dockyards } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Construct the National Myth
+	focus = { 
+		id = ERI_construct_national_myth
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_patronize_arts } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Stockpile Weapons
+	focus = { 
+		id = ERI_stockpile_weapons
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_foster_military_indsutry } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Expand the Dockyards
+	focus = { 
+		id = ERI_expand_dockyards
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_modernize_ports } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Stay-Behind Operations
+	focus = { 
+		id = ERI_stay_behind_operations
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_mandatory_military_service } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Target the Opposition
+	focus = { 
+		id = ERI_targettheopposition
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_national_protection_bureau } 
+		prerequisite = { focus = ERI_reeducation_camps } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Advanced Surveillance
+	focus = { 
+		id = ERI_advanced_surveillance
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_march_of_progress } 
+		prerequisite = { focus = ERI_strengthen_our_culture } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for The March of Progress
+	focus = { 
+		id = ERI_march_of_progress
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_enrich_nation } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Guided Democracy
+	focus = { 
+		id = ERI_guided_democracy
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_ertra_ertra_ertra } 
+		prerequisite = { focus = ERI_targettheopposition } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for The National Protection Bureau
+	focus = { 
+		id = ERI_national_protection_bureau
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_homeland_security } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Homeland Security
+	focus = { 
+		id = ERI_homeland_security
+		icon = GFX_goal_unknown
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_protect_the_people } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for To Enrich the Nation
+	focus = { 
+		id = ERI_enrich_nation
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_three_goals } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for To Strengthen our Culture
+	focus = { 
+		id = ERI_strengthen_our_culture
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_three_goals } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Patronize the Arts
+	focus = { 
+		id = ERI_patronize_arts
+		icon = GFX_goal_unknown
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_strengthen_our_culture } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Eritrean National Youth
+	focus = { 
+		id = ERI_eritrean_national_youth
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_prepare_for_war } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Modernize the Ports
+	focus = { 
+		id = ERI_modernize_ports
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_guard_the_coast } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Prepare for War
+	focus = { 
+		id = ERI_prepare_for_war
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_protect_the_people } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Guard the Coast
+	focus = { 
+		id = ERI_guard_the_coast
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_prepare_for_war } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for To Protect the People
+	focus = { 
+		id = ERI_protect_the_people
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_three_goals } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Foster Military Industry
+	focus = { 
+		id = ERI_foster_military_indsutry
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_drive_for_munitions } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Drive for Munitions
+	focus = { 
+		id = ERI_drive_for_munitions
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_prepare_for_war } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Mandatory Military Service
+	focus = { 
+		id = ERI_mandatory_military_service
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_eritrean_national_youth } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Cult of the Nation
+	focus = { 
+		id = ERI_cult_of_the_nation
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_ertra_ertra_ertra } 
+		prerequisite = { focus = ERI_control_the_intellectuals } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#Focus for Special Operations
+	focus = { 
+		id = ERI_special_operations
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = ERI_the_aviation_cult } 
+		prerequisite = { focus = ERI_seeds_of_a_fleet } 
+		ai_will_do = { 
+			factor = 1
+		} 
+
+	} 
+
+#End of focuses 
+ }

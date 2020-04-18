@@ -1,13 +1,13 @@
-﻿capital = 1288
+﻿capital = 466
 oob = "empty"
 
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_moderate_socialist_banned = 1 }
-set_variable = { kn_social_democrat_banned = 1 }
-set_variable = { kn_voynist_banned = 1 }
-set_variable = { kn_social_democrat_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_libertarian_banned = 1 }
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_voynist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_libertarian
 
 add_ideas = {
 	QUE_anti_anglophone

@@ -63,16 +63,18 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Andi Azis"
-	desc = "POLITICS_ANDIAZIS_DESC"
+	desc = ""
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Andi_Azis.tga"
 	expire = "1953.3.1"
 	ideology = autocratic_subtype
-	traits = { leader_leaping_mousedeer }
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
-	name = "Wolter Mongisidi"
-	desc = "POLITICS_MONGISIDI_DESC"
+	name = "Wolter Monginsidi"
+	desc = ""
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Wolter_Mongonsidi.tga"
 	expire = "1953.3.1"
 	ideology = voynist_subtype

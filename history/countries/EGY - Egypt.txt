@@ -11,6 +11,10 @@ set_technology = {
 }
 
 add_ideas = {
+	EGY_resentful_lower_class
+	EGY_the_aswan_dam
+	EGY_gilded_age
+	EGY_peshmerga_raids
 }
 
 set_convoys = 50
@@ -35,13 +39,27 @@ set_popularities = {
 	voynist = 0
 }
 
-create_faction = "Cairo Pact"
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+set_country_flag = banned_libertarian
+set_country_flag = banned_marxist
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_voynist
+set_country_flag = banned_fundamentalist
+
+
+create_faction = "Cairo Agreement"
 add_to_faction = EGY
 add_to_faction = ARA
-add_to_faction = IRQ
-add_to_faction = TRI
-add_to_faction = MUC
+add_to_faction = LBA
+add_to_faction = OMA
 add_to_faction = YEM
+add_to_faction = KUR
 
 ###############################
 ########### LEADERS ###########
@@ -90,8 +108,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/EGY/EGY_Farouk.tga"
+	desc = ""
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
 	ideology = social_democrat_subtype
 	traits = {
 		#
@@ -100,8 +118,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/EGY/EGY_Farouk.tga"
+	desc = ""
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
 	ideology = social_liberal_subtype
 	traits = {
 		#
@@ -110,8 +128,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/EGY/EGY_Farouk.tga"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
 	ideology = conservative_subtype
 	traits = {
 		#
@@ -120,8 +138,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/EGY/EGY_Farouk.tga"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
 	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
@@ -130,8 +148,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "King Farouk I"
-	desc = "POLITICS_FAROUK_I_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/EGY/EGY_Farouk.tga"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
 	ideology = autocratic_subtype
 	traits = {
 		#

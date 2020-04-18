@@ -1,0 +1,1716 @@
+focus_tree = {
+	id = KN_hejaz
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HEJ
+		}
+	}
+	default = no
+
+	focus = {
+		id = HEJ_the_jeddah_decrees
+		icon = GFX_goal_KN_generic_institution
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_egyptian_economic_aid
+		icon = GFX_goal_KN_cairo_pact_egyptian_investment
+		prerequisite = { focus = HEJ_the_jeddah_decrees }
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_funds_from_the_clergy
+		icon = GFX_goal_KN_cairo_pact_funds_from_the_clergy
+		prerequisite = { focus = HEJ_the_jeddah_decrees }
+		#mutually_exclusive = { focus =  }
+		x = 5
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_foreign_investment
+		icon = GFX_goal_KN_generic_investments
+		prerequisite = { focus = HEJ_the_jeddah_decrees }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_tax_the_peasantry
+		icon = GFX_goal_KN_generic_agriculture
+		prerequisite = { focus = HEJ_the_jeddah_decrees }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_fill_the_treasury
+		icon = GFX_goal_KN_generic_moneys
+		prerequisite = {
+			focus = HEJ_egyptian_economic_aid
+			focus = HEJ_foreign_investment
+			focus = HEJ_funds_from_the_clergy
+			focus = HEJ_tax_the_peasantry
+		}
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_promises_of_industry
+		icon = GFX_goal_generic_production
+		prerequisite = {
+			focus = HEJ_fill_the_treasury
+		}
+		#mutually_exclusive = { focus =  }
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_open_the_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = {
+			focus = HEJ_promises_of_industry
+		}
+		#mutually_exclusive = { focus =  }
+		x = -1
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_transarabian_line
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {
+			focus = HEJ_promises_of_industry
+		}
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_buy_the_tribes_loyalty
+		icon = GFX_goal_KN_HEJ_buy_the_tribes_loyalty
+		prerequisite = {
+			focus = HEJ_fill_the_treasury
+		}
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_bribe_the_clergy
+		icon = GFX_goal_KN_cairo_pact_bribe_the_clergy
+		prerequisite = {
+			focus = HEJ_buy_the_tribes_loyalty
+		}
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_pay_off_the_nobles
+		icon = GFX_goal_KN_generic_nobles_are_happy
+		prerequisite = {
+			focus = HEJ_buy_the_tribes_loyalty
+		}
+		#mutually_exclusive = { focus =  }
+		x = 5
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_expand_the_army
+		icon = GFX_goal_generic_small_arms
+		prerequisite = {
+			focus = HEJ_fill_the_treasury
+		}
+		#mutually_exclusive = { focus =  }
+		x = 8
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_buy_armaments
+		icon = GFX_goal_KN_generic_buy_armaments
+		prerequisite = {
+			focus = HEJ_expand_the_army
+		}
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_buy_a_battleship
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = {
+			focus = HEJ_expand_the_army
+		}
+		#mutually_exclusive = { focus =  }
+		x = 9
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_sultan_is_dead
+		icon = GFX_goal_KN_HEJ_flag
+		prerequisite = {
+		}
+		#mutually_exclusive = { focus =  }
+		x = 17
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_uncle
+		icon = GFX_goal_KN_HEJ_the_uncle
+		prerequisite = {
+		focus = HEJ_the_sultan_is_dead
+		}
+		#mutually_exclusive = { focus =  }
+		x = 12
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_open_new_schools
+		icon = GFX_goal_tfv_generic_tech_sharing
+		prerequisite = {
+		focus = HEJ_the_uncle
+		}
+		#mutually_exclusive = { focus =  }
+		x = 11
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_appease_the_opposition
+		icon = GFX_goal_tripartite_pact
+		prerequisite = {
+		focus = HEJ_the_uncle
+		}
+		#mutually_exclusive = { focus =  }
+		x = 13
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_fight_corruption
+		icon = GFX_goal_KN_generic_crush_flag
+		prerequisite = {
+		focus = HEJ_open_new_schools
+		}
+		#mutually_exclusive = { focus =  }
+		x = 10
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_establish_a_parliament
+		icon = GFX_goal_KN_generic_democratic_institution
+		prerequisite = {
+		focus = HEJ_open_new_schools
+		focus = HEJ_appease_the_opposition
+		}
+		#mutually_exclusive = { focus =  }
+		x = 12
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_combat_radicalism
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = {
+		focus = HEJ_appease_the_opposition
+		}
+		#mutually_exclusive = { focus =  }
+		x = 14
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_our_first_elections
+		icon = GFX_goal_KN_generic_democratic
+		prerequisite = {
+		focus = HEJ_fight_corruption
+		}
+		prerequisite = {
+		focus = HEJ_establish_a_parliament
+		}
+		prerequisite = {
+		focus = HEJ_combat_radicalism
+		}
+		#mutually_exclusive = { focus =  }
+		x = 12
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_investigation
+		icon = GFX_goal_KN_generic_investigation
+		prerequisite = {
+		focus = HEJ_the_uncle
+		focus = HEJ_the_cousin
+		}
+		#mutually_exclusive = { focus =  }
+		x = 17
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_gather_evidence
+		icon = GFX_goal_KN_generic_gather_evidence
+		prerequisite = {
+		focus = HEJ_the_investigation
+		}
+		#mutually_exclusive = { focus =  }
+		x = 16
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_conduct_interviews
+		icon = GFX_goal_KN_generic_conduct_interviews
+		prerequisite = {
+		focus = HEJ_the_investigation
+		}
+		#mutually_exclusive = { focus =  }
+		x = 18
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_arrest_the_assasin
+		icon = GFX_goal_KN_generic_arrest_time
+		prerequisite = {
+		focus = HEJ_conduct_interviews
+		focus = HEJ_gather_evidence
+		}
+		#mutually_exclusive = { focus =  }
+		x = 17
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_cousin
+		icon = GFX_goal_KN_HEJ_the_cousin
+		prerequisite = {
+		focus = HEJ_the_sultan_is_dead
+		}
+		mutually_exclusive = { focus = HEJ_the_uncle }
+		x = 22
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_an_interior_ministry
+		icon = GFX_goal_KN_generic_epic_spy
+		prerequisite = {
+		focus = HEJ_the_cousin
+		}
+		#mutually_exclusive = { focus =  }
+		x = 21
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_purge_rival_princes
+		icon = GFX_focus_rom_abdicate
+		prerequisite = {
+		focus = HEJ_the_cousin
+		}
+		#mutually_exclusive = { focus =  }
+		x = 23
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_crack_down_on_unions
+		icon = GFX_goal_KN_generic_fegg_unions
+		prerequisite = {
+		focus = HEJ_an_interior_ministry
+		}
+		#mutually_exclusive = { focus =  }
+		x = 20
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_cult_of_personality
+		icon = GFX_focus_rom_royal_dictatorship
+		prerequisite = {
+		focus = HEJ_purge_rival_princes
+		focus = HEJ_an_interior_ministry
+		}
+		#mutually_exclusive = { focus =  }
+		x = 22
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_militarist_sentiment
+		icon = GFX_goal_generic_major_war
+		prerequisite = {
+		focus = HEJ_purge_rival_princes
+		}
+		#mutually_exclusive = { focus =  }
+		x = 24
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_the_royal_dictatorship
+		icon = GFX_goal_KN_generic_cool_sword
+		prerequisite = {
+		focus = HEJ_militarist_sentiment
+		}
+		prerequisite = {
+		focus = HEJ_crack_down_on_unions
+		}
+		prerequisite = {
+		focus = HEJ_cult_of_personality
+		}
+		#mutually_exclusive = { focus =  }
+		x = 22
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_shining_democracy
+		icon = GFX_goal_KN_generic_social_liberal
+		prerequisite = {
+		focus = HEJ_our_first_elections
+		}
+		#mutually_exclusive = { focus =  }
+		x = 10
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_beacon_of_faith
+		icon = GFX_goal_KN_generic_social_conservative
+		prerequisite = {
+		focus = HEJ_our_first_elections
+		}
+		mutually_exclusive = { focus = HEJ_a_shining_democracy }
+		x = 14
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_secular_constitution
+		icon = GFX_goal_KN_generic_a_book
+		prerequisite = {
+		focus = HEJ_a_shining_democracy
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 10
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_new_judiciary
+		icon = GFX_goal_KN_generic_institution
+		prerequisite = {
+		focus = HEJ_a_shining_democracy
+		focus = HEJ_a_beacon_of_faith
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 12
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_an_islamist_constitution
+		icon = GFX_goal_KN_cairo_pact_a_book_with_a_crescent
+		prerequisite = {
+		focus = HEJ_a_beacon_of_faith
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 14
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_fight_the_old_ways
+		icon = GFX_goal_KN_generic_fegg_crowns
+		prerequisite = {
+		focus = HEJ_a_secular_constitution
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 9
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_freedom_of_speech
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {
+		focus = HEJ_a_secular_constitution
+		}
+		prerequisite = {
+		focus = HEJ_a_new_judiciary
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 11
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_spread_allahs_word
+		icon = GFX_goal_KN_cairo_pact_some_crescent
+		prerequisite = {
+		focus = HEJ_an_islamist_constitution
+		}
+		prerequisite = {
+		focus = HEJ_a_new_judiciary
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 13
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_placate_the_radicals
+		icon = GFX_goal_KN_cairo_pact_crescent_with_a_skull
+		prerequisite = {
+		focus = HEJ_an_islamist_constitution
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 15
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_modern_government
+		icon = GFX_goal_KN_generic_institution_for_the_people
+		prerequisite = {
+		focus = HEJ_fight_the_old_ways
+		}
+		prerequisite = {
+		focus = HEJ_freedom_of_speech
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 10
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_our_next_elections
+		icon = GFX_goal_KN_generic_democratic
+		prerequisite = {
+		focus = HEJ_spread_allahs_word
+		focus = HEJ_freedom_of_speech
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 12
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_a_holy_government
+		icon = GFX_goal_KN_cairo_pact_crescent_with_an_institution
+		prerequisite = {
+		focus = HEJ_spread_allahs_word
+		}
+		prerequisite = {
+		focus = HEJ_placate_the_radicals
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 14
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_continue_tribalism
+		icon = GFX_goal_KN_generic_authoritarian_democrat
+		prerequisite = {
+		focus = HEJ_our_first_elections
+		focus = HEJ_the_royal_dictatorship
+		}
+		mutually_exclusive = { focus = HEJ_a_beacon_of_faith }
+		x = 17
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_protect_tradition
+		icon = GFX_goal_KN_generic_crown_with_an_institution
+		prerequisite = {
+		focus = HEJ_continue_tribalism
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 17
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_alliance_with_the_nobility
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = {
+		focus = HEJ_protect_tradition
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 17
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_endorse_the_status_quo
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus = HEJ_alliance_with_the_nobility
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 17
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_god_save_the_sultan
+		icon = GFX_goal_KN_generic_autocratic
+		prerequisite = {
+		focus = HEJ_the_royal_dictatorship
+		}
+		mutually_exclusive = { focus = HEJ_continue_tribalism }
+		x = 20
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_empower_the_nationalists
+		icon = GFX_goal_KN_generic_voynist
+		prerequisite = {
+		focus = HEJ_the_royal_dictatorship
+		}
+		mutually_exclusive = { focus = HEJ_god_save_the_sultan }
+		mutually_exclusive = { focus = HEJ_continue_tribalism }
+		x = 24
+		y = 5
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_control_the_faith
+		icon = GFX_goal_KN_cairo_pact_crescent_with_fire
+		prerequisite = {
+		focus = HEJ_god_save_the_sultan
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 20
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_support_the_mufti
+		icon = GFX_goal_KN_cairo_pact_crescent_with_man
+		prerequisite = {
+		focus = HEJ_control_the_faith
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 19
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_harsh_measures
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = {
+		focus = HEJ_god_save_the_sultan
+		focus = HEJ_empower_the_nationalists
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 22
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_expand_the_police
+		icon = GFX_goal_KN_generic_id_please
+		prerequisite = {
+		focus = HEJ_harsh_measures
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 21
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_build_spy_networks
+		icon = GFX_goal_generic_radar
+		prerequisite = {
+		focus = HEJ_harsh_measures
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 23
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_mobilize_the_paramilitaries
+		icon = GFX_goal_KN_generic_military_men
+		prerequisite = {
+		focus = HEJ_empower_the_nationalists
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 24
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_reach_out_to_the_bear
+		icon = GFX_goal_KN_generic_flag_russia_no_symbol
+		prerequisite = {
+		focus = HEJ_mobilize_the_paramilitaries
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 25
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_intense_propaganda
+		icon = GFX_goal_KN_generic_fascism_ig
+		prerequisite = {
+		focus = HEJ_expand_the_police
+		focus = HEJ_support_the_mufti
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 20
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_purge_the_military
+		icon = GFX_goal_KN_generic_basically_murder
+		prerequisite = {
+		focus = HEJ_expand_the_police
+		}
+		prerequisite = {
+		focus = HEJ_build_spy_networks
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 22
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_deal_with_the_islamists
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_build_spy_networks
+		focus = HEJ_reach_out_to_the_bear
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 24
+		y = 8
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_war_approaches
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 31
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_isolate_ourselves
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_war_approaches
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 28
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_declare_our_neutrality
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_isolate_ourselves
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 27
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_deals_with_all_sides
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_isolate_ourselves
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 29
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_fortify_the_mountains
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_isolate_ourselves
+		focus = HEJ_honor_the_cairo_pact
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 31
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_scorched_earth_tactics
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_honor_the_cairo_pact
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 33
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_mobilize_the_tribes
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+		focus = HEJ_honor_the_cairo_pact
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 35
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = HEJ_honor_the_cairo_pact
+		icon = GFX_goal_KN_cairo_pact_hit_clergyman
+		prerequisite = {
+			focus = HEJ_war_approaches
+		}
+		mutually_exclusive = {
+			#focus =
+		}
+		x = 34
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+}

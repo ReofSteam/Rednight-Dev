@@ -6,30 +6,24 @@ set_research_slots = 3
 
 add_ideas = {
 	ITA_victors_of_the_second_weltkrieg
-	ITA_devastation_of_trapani
 	ITA_trade_union_bureaucracy
-	ITA_revolutionary_arditi
 	ITA_workers_militias
 	ITA_countryside_resistance
-	ITA_agrarian_reforms
-	ITA_reactionary_terrorism
-	ITA_phalanstere_reconstruction_initiative
-	
-	#Cabinet
-	ITA_Luigi_Longo_hog #Head of Government
-	ITA_Giuseppe_Romita_interior #Minister of Interior
-	ITA_Manlio_Rossi_Doria_economy #Minister of Economy
-	ITA_Pietro_Nenni_foreign #Minister of Foreign Affairs
-	ITA_Luce_Fabbri_education #Minister of Education
-	ITA_Pietro_Secchia_culture #Minister of Culture
-	ITA_Italo_Viglianesi_transport #Minister of Transportation
-	ITA_Giuseppe_Di_Vittorio_portfolio #Minister without Portfolio
-	ITA_Michele_Moretti_intel #Head of Intelligence
-	ITA_Randolfo_Pacciardi_cos #Chief of Staff
-	ITA_Cino_Moscatelli_coa #Chief of the Army
-	ITA_Nicola_Ugo_Stame_air #Chief of the Air Force
-	ITA_Giovanni_Galati_navy #Chief of the Navy
+	ITA_Luigi_Longo_hog
+	ITA_Giuseppe_Di_Vittorio_interior
+	ITA_Luciano_Lama_eco
+	ITA_Cino_Moscatelli_for
+	ITA_Pierre_Carniti
+	ITA_Emilio_Canevari_cul
+	ITA_Giacomo_Ferrari_tra
+	ITA_Michele_Moretti_intel
+	ITA_Adolfo_Zamboni_cos
+	ITA_Randolfo_Pacciardi_coa
+	ITA_Teresio_Vittorio_Martinoli_air
+	ITA_Teseo_Tesei_navy
 }
+
+give_guarantee = MLT
 
 # Starting tech
 set_technology = {
@@ -65,53 +59,51 @@ set_war_support = 0.30
 
 set_politics = {	
 	ruling_party = moderate_socialist
-	last_election = "1946.11.9"
+	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 1
+    social_nationalist = 0
     marxist = 19
     libertarian = 6
     moderate_socialist = 18
     social_democrat = 1
-    social_liberal = 10
+    social_liberal = 11
     conservative = 37
     authoritarian_democrat = 3
     autocratic = 2
+    fundamentalist = 1
     voynist = 2
-	fundamentalist = 1
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
+set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_libertarian
+set_country_flag = coalition_moderate_socialist
 
-set_variable = { kn_social_liberal_banned = 1}
-set_variable = { kn_conservative_banned = 1}
-set_variable = { kn_authoritarian_democrat_banned = 1}
-set_variable = { kn_autocratic_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_voynist
+
 
 
 create_country_leader = {
-	name = "Onorato Damen"
-	picture = ""
+	name = "Palmiro Togliatti"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Palmiro_Togliatti.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = moderate_socialist_subtype
 	traits = {}
 }
 
 create_country_leader = {
-	name = "Amadeo Bordiga"
-	picture = ""
+	name = "Palmiro Togliatti"
+	picture = "ITA_Palmiro_Togliatti.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = social_nationalist_subtype
 	traits = {}
 }
 
@@ -124,13 +116,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = "POLITICS_PALMIRO_TOGLIATTI_DESC"
-	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Palmiro_Togliatti.dds"
+	name = "Antonio Gramsci"
+	picture = "ITA_Antonio_Gramsci.dds"
 	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
+	ideology = marxist_subtype
 	traits = {}
 }
+
 
 ### Field Marshal
 

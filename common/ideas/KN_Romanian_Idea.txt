@@ -1,0 +1,876 @@
+ideas = {
+    head_of_government = {
+		ROM_Corneliu_Zelea_Codreanu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Corneliu Zelea Codreanu' the 'head of government'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+	}
+	interior_minister = {
+		ROM_Horia_Sima = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Horia Sima' the 'Interior Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Vasile_Marin = {
+		    on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Vasile Marin' the 'Interior Minister'"}
+		    #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       fundamentalist_trait
+		    }
+		}
+		ROM_Constantin_Petrovicescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Petrovicescu' the 'Interior Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+	}
+	economy_minister = {
+		ROM_Gheorghe_Clime = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Gheorghe Clime' the 'Economy Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Constantin_Papanace = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Papanace' the 'Economy Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Dumitru_Groza = { 
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Dumitru Groza' the 'Economy Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			    voynist_trait
+			}
+	    }
+	    ROM_Mihail_Manoilescu = {
+	    on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Mihail Manoilescu' the 'Economy Minister'"}
+	    #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			    voynist_trait
+			}
+	    }
+	    ROM_Gheorghe_Ionescu = {
+	    on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Gheorghe Ionescu' the 'Economy Minister'"}
+	    #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Barbu_Solacolu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Barbu Solacolu' the 'Economy Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+    foreign_minister = {
+		 ROM_Ion_Mota= {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ion Mota' the 'Foreign Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Constantin_Ticu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Ticu' the 'Foreign Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Mihail_Antonescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Mihail Antonescu' the 'Foreign Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			    voynist_trait
+			}
+	    }
+	    ROM_Mircea_Eliade = {
+	    on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Mircea Eliade' the 'Foreign Minister'"}
+	    	#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			    voynist_trait
+			}
+	    }
+	    ROM_Alexandru_Cantacuzino = { 
+	    on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Alexandru Cantacuzino' the 'Foreign Minister'"}
+	    #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Michel_Sturdza = { 
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Michel Sturdza' the 'Foreign Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Grigore_Niculescu = { 
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Grigore Niculescu' the 'Foreign Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+		ROM_Cornel_Bianu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Cornel Bianu' the 'Foreign Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+	}
+}
+    education_minister = {
+		ROM_George_Murnu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'George Murnu' the 'Education Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Constantin_Gane = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Gane' the 'Education Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Petre_P._Panaitescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Petre P. Panaitescu' the 'Education Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Ion_Petrovici = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ion Petrovici' the 'Education Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Romulus_Candea = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Romulus Candea' the 'Education Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+	}
+    culture_minister = {
+		ROM_Alexandru_Bassarab = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Alexandru Bassarab' the 'Culture Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Niculae_Ion_Carstea = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Niculae Ion Carstea' the 'Culture Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Mihail_Sadoveanu = { 
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Mihail Sadoveanu' the 'Culture Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Ion_Buzdugan = { 
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ion Buzdugan' the 'Culture Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Nichifor_Crainic = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nichifor Crainic' the 'Culture Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+    transport_minister = {
+		ROM_Victor_Valcovici = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Victor Valcovici' the 'Transport Minister'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Mihai_Popovici = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Mihai Popovici' the 'Transport Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Nicolae_Giosan = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nicolae Giosan' the 'Transport Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+			modifier = {
+				
+			}
+		}
+		ROM_Nicolae_Caranfil = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nicolae Caranfil' the 'Transport Minister'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+	}
+    head_of_intel = {
+		ROM_Nicolae_Doicaru = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nicolae Doicaru' the 'Head of Intelligence'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Radu_Lecca = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Radu Lecca' the 'Head of Intelligence'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Toma_Arnautoiu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Toma Arnautoiu' the 'Head of Intelligence'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+    chief_of_staff = {
+        ROM_Dumitru_Carlaont = {
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Dumitru Carlaont' the 'Chief of Staff'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+        }
+        ROM_Costin_Ionascu = {
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Costin Ionascu' the 'Chief of Staff'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Ion_Antonescu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ion Antonescu' the 'Chief of Staff'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Nicolae_Radescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nicolae Radescu' the 'Chief of Staff'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Ioan_Dumitrache = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ioan Dumitrache' the 'Chief of Staff'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+	chief_of_army = {
+		ROM_Constantin_Constantinescu-Claps = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Constantinescu-Claps' the 'Head of Army'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+		ROM_Dumitru_Coroama = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Dumitru Coroama' the 'Head of Army'"}
+		 #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+        }
+        ROM_Nicolae_Macici= { 
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nicolae Macici' the 'Head of Army'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+        }
+        ROM_Ioan_Glogojeanu = { 
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ioan Glogojeanu' the 'Head of Army'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Constantin_Pantazi = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Pantazi' the 'Head of Army'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+		}
+		ROM_Constantin_Tobescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Tobescu' the 'Head of Army'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Constantin_Anton = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Anton' the 'Head of Army'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Constantin_Robert_Bossy = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Robert Bossy' the 'Head of Army'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+    chief_of_air_force = {
+		ROM_Ermil_Gheorghiu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ermil Gheorghiu' the 'Head of Air Force'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = GBR
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Achile_Diculescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Achile Diculescu' the 'Head of Air Force'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = GBR
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Alexandru_Serbanescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Alexandru Serbanescu' the 'Head of Air Force'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+        }
+        ROM_Traian_Burduloiu = {
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Traian Burduloiu' the 'Head of Air Force'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+        }
+        ROM_Emanoil_Ionescu = { 
+        on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Emanoil Ionescu' the 'Head of Air Force'"}
+        #picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			       autocratic_trait 
+			}
+		}
+		ROM_Constantin_Celareanu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Celareanu' the 'Head of Air Force'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+			authoritarian_democrat_trait
+			}
+		}
+	}
+	chief_of_navy = {
+		ROM_Horia_Macellariu = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Horia Macellariu' the 'Head of Navy'"}
+			#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				autocratic_trait 
+			}
+		}
+		ROM_Ioan_Georgescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Ioan Georgescu' the 'Head of Navy'"}
+				#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM
+				}
+			}
+			traits = {
+				fundamentalist_trait
+            }
+		}
+		ROM_Constantin_Costachescu = {
+		on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Constantin Costachescu' the 'Head of Navy'"}
+		#picture =
+			allowed = {
+				OR = {
+					tag = ROM
+					original_tag = ROM 
+				}
+			}
+			traits = {
+				voynist_trait
+            }
+        }
+	}
+    country = { 
+        ROM_divided_economy = {
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_divided_economy"}
+            picture = Rom_Divided_Economy.dds
+            modifier = {
+                consumer_goods_factor = 0.1 
+                production_factory_max_efficiency_factor = -0.1
+                production_speed_buildings_factor = -0.1 
+            }
+        } 
+        ROM_ethnic_violence_in_translyvania = {
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_ethnic_violence_in_translyvania"}
+            #picture =
+            modifier = {
+                political_power_factor = -0.1
+                MONTHLY_POPULATION = -0.001
+            }
+        }
+        ROM_greater_romania_fulfilled = {
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_greater_romania_fulfilled"}
+            picture = Greater_Romania.dds
+            modifier = {
+                political_power_factor = 0.05
+                stability_weekly = 0.01 
+            }
+        }
+        ROM_unused_farmland = {
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_unused_farmland"}
+            picture = Unused_StateLand.dds  
+            modifier = {
+                political_power_factor = -0.1 
+                consumer_goods_factor = 0.2 
+            }
+        }
+        ROM_fascsimile_of_unity = { 
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_fascsimile_of_unity"}
+            picture = fascismilaunity.dds
+            modifier = {
+                stability_factor = -0.10  
+                political_power_factor = -0.1 
+                army_org_factor	= -0.15
+                social_nationalist_drift = 0.01 
+                authoritarian_democrat_drift = 0.05 
+                autocratic_drift = 0.05 
+                voynist_drift = 0.1 
+            }
+        }
+        ROM_ministerul_dezvoltarii_teritoriului = { 
+	        on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_ministerul_dezvoltarii_teritoriului"}
+	        #picture = 
+	        modifier = { 
+	            local_resources_factor = 0.05 
+	            consumer_goods_factor = -0.05
+	            political_power_factor = 0.05 
+            }
+        }
+        ROM_used_farmland = {
+            on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_unused_farmland" }
+            picture = Unused_StateLand.dds 
+            modifier = {
+                political_power_factor = -0.05 
+                consumer_goods_factor = 0.1
+            }
+        }
+      ROM_hungarian_revolt = {
+        on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_hungarian_revolt" }
+        #picture =
+        modifier = { 
+            political_power_factor = -0.10
+            voynist_drift = 0.1
+            stability_factor = -0.10
+            war_support_weekly = -0.05 
+            resistance_tick_auto = 0.2 
+				}
+			}
+        ROM_rebuilding_from_civil_war = { 
+        on_add = {log = "[GetDateText]: [Root.GetName]: add idea ROM_hungarian_revolt" }
+        #picture =
+        modifier = { 
+        }
+    }
+}
+}

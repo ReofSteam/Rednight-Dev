@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_sudwest
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SWA
+		}
+	}
+	default = no
+
+	focus = {
+		id = SWA_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

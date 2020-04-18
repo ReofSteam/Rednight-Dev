@@ -1,7 +1,18 @@
 ﻿capital = 325
-OOB = "empty"
+OOB = "YUN"
 set_research_slots = 2
 set_technology = {
+	### MOD ###
+	### Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
 }
 
 CHI = {
@@ -17,7 +28,7 @@ CHI = {
 }
 
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -27,49 +38,186 @@ set_popularities = {
 	marxist = 0
 	libertarian = 0
 	moderate_socialist = 0
-	social_democrat = 100
+	social_democrat = 0
 	social_liberal = 0
 	conservative = 0
-	authoritarian_democrat = 0
+	authoritarian_democrat = 100
 	autocratic = 0
 	fundamentalist = 0
 	voynist = 0
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
+set_stability = 0.50
+set_war_support = 0.40
 
-set_variable = { kn_social_nationalist_coalition = 1}
-set_variable = { kn_marxist_coalition = 1}
-set_variable = { kn_moderate_socialist_coalition = 1}
-set_variable = { kn_social_liberal_coalition = 1}
-set_variable = { kn_conservative_coalition = 1}
 
-set_variable = { kn_authoritarian_democrat_banned = 1}
-set_variable = { kn_autocratic_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
+add_ideas = {
+	#medium_economy
+	### Head of Government
+	#YUN_Long_Yun_hog_pau
+	### Foreign Minister
+	#YUN_Zhou_Zhirou_for_pau
+	### Eco minister
+	#YUN_Liu_Wenhui_eco_pau
+	### Security Minister
+	#YUN_Ding_Zhipan_sec_pau
+}
 
-create_country_leader = {
-	name = "Zhang Bojun"
-	desc = "POLITICS_ZHANG_BOJUN_DESC"
-	picture = "gfx/leaders/ASIA/CHI/CHI_Zhang_Bojun.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-	}
+country_event = {
+	id = fengtian.new.0
+	days = 1
 }
 
 create_country_leader = {
-	name = "Peng Tairong"
-	desc = "POLITICS_PENG_TAIRONG_DESC"
-	picture = ""
+	name = "Long Yun"
+	desc = "ANTE_LONG_YUN_DESC"
+	picture = "gfx/leaders/ASIA/YNN/Portrait_Yunnan_Long_Yun.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+### Field Marshal
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Belovsky"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Belovsky.tga"
 	traits = {
 	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
+
+create_corps_commander = { #Auto-Generated
+	name = "Golpurchin"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Golpurchin.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Krustin"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Krustin.tga"
+	traits = {
+		panzer_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Kurukikov"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Kurukikov.tga"
+	traits = {
+		winter_specialist
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Liu Wen-hui"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Liu_Wen_hui.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Lu Han"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Lu_Han.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Long Yun"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Long_Yun.tga"
+	traits = {
+		trickster
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Putelkin"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Putelkin.tga"
+	traits = {
+		commando
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Shaposchirtin"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Shaposchirtin.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Eberhard"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Eberhard.tga"
+	traits = {
+		old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Long Yun"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Long_Yun.tga"
+	traits = {
+	}
+	skill = 1 #naval guy, don't patch
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "Putelkin"
+	portrait_path = "gfx/leaders/ASIA/YNN/Portrait_YUN_Putelkin.tga"
+	traits = {
+	}
+	skill = 1 #naval guy, don't patch
+}
+

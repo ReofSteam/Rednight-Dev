@@ -1,0 +1,274 @@
+ideas = {
+	### CABINET ###
+	head_of_government = {
+		CHI_Li_Fuchun_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Li Funchen' the 'Head of Government'"}
+			picture = CHI_Li_Fuchun
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = { }
+			traits = {
+				moderate_socialist_trait
+				head_of_government
+			}
+		}
+	}
+	minister_no_portfolio = {
+		CHI_Zhou_Fohai_no_portfolio = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Zhou Fohai' the 'Minister Without Portfolio'"}
+			picture = CHI_Zhou_Fohai
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				minister_no_portfolio
+			}
+
+		}
+	}
+	interior_minister = {
+		CHI_Li_Kenong_interior = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Li Kenong' the 'Interior Minister'"}
+			picture = CHI_Li_Kenong
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				interior_minister
+			}
+
+		}
+	}
+	economy_minister = {
+		CHI_Deng_Xiaoping_economy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Deng Xiaoping' the 'Economy Minister'"}
+			picture = CHI_Deng_Xiaoping
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				economy_minister
+			}
+
+		}
+	}
+	foreign_minister = {
+		CHI_Zhou_Enlai_foreign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Zhou Enlai' the 'Foreign Minister'"}
+			picture = CHI_Zhou_Enlai
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				foreign_minister
+			}
+
+		}
+	}
+	education_minister = {
+		CHI_Chen_Lifu_education = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Chen Lifu' the 'Education Minister'"}
+			picture = CHI_Chen_Lifu
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				social_nationalist_trait
+				education_minister
+			}
+		}
+	}
+	culture_minister = {
+		CHI_Shen_Yanbing_culture = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Shen Yanbing' the 'Culture Minister'"}
+			picture = CHI_Shen_Yanbing
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				culture_minister
+			}	
+		}
+	}
+	transport_minister = {
+		CHI_Sun_Fo_transport = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Sun Fo' the 'Transport Minister'"}
+			picture = CHI_Sun_Fo
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				social_liberal_trait
+				transport_minister
+			}	
+		}
+	}
+	head_of_intel = {
+		CHI_Dai_Chunfeng_intel = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Dai Chunfeng' the 'Head of Intel'"}
+			picture = CHI_Dai_Chunfeng
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				autocratic_trait
+				head_of_intel
+			}	
+		}
+	}
+	chief_of_staff = {
+		CHI_Li_Jishen_staff = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Li Jishen' the 'Chief of Staff'"}
+			picture = CHI_Li_Jishen
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				chief_of_staff
+			}	
+		}
+	}
+	chief_of_army = {
+		CHI_Wei_Lihuang_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Wei Lihuang' the 'Chief of Army'"}
+			picture = CHI_Wei_Lihuang
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				chief_of_army
+			}	
+		}
+	}
+	chief_of_air_force = {
+		CHI_Fang_Ziyi_air_force = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Fang Ziyi' the 'Chief of Air Force'"}
+			picture = CHI_Fang_Ziyi
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				chief_of_air_force
+			}	
+		}
+	}
+	chief_of_navy = {
+		CHI_Lin_Zun_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Lin Jun' the 'Chief of Navy'"}
+			picture = CHI_Lin_Jun
+			allowed = {
+				OR = {
+					tag = CHI
+					original_tag = CHI
+				}
+			}
+			available = {}
+			traits = {
+				moderate_socialist_trait
+				chief_of_navy
+			}	
+		}
+	}
+
+	country = {
+		
+		CHI_Party_State = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Party_State"}
+			picture = CHI_party_state
+			modifier = {
+				political_power_gain = 0.2
+				command_power_gain = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		CHI_Wang_Jingwei_Thought = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Wang_Jingwei_Thought"}
+			picture = CHI_Wang_Jingwei_Thought
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		CHI_National_Revolutionary_Army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_National_Revolutionary_Army"}
+			picture = CHI_National_Revolutionary_Army
+			modifier = {
+				army_core_defence_factor = 0.1
+				supply_consumption_factor = -0.10
+			}
+			research_bonus = {
+				armor = -10
+				naval_equipment = -10
+				air_equipment = -10
+			}
+		}
+		CHI_Unindustrialized_Society = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Unindustrialized_Society"}
+			picture = Large_Industrial_Crisis
+			modifier = {
+			}
+		}
+		CHI_Rural_Illiteracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CHI_Rural_Illiteracy"}
+			picture = Backwards_Technology
+			modifier = {
+			}
+		}
+	}
+}

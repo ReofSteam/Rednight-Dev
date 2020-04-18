@@ -16,7 +16,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = moderate_socialist
+	ruling_party = social_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -35,21 +35,12 @@ set_popularities = {
 	voynist = 0
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_social_democrat_coalition = 1}
-
-set_variable = { kn_authoritarian_democrat_banned = 1}
-set_variable = { kn_autocratic_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
-
 add_ideas = {
+	#medium_economy
+	#TIB_Reting_Rimpoche_hog_ade
+	#TIB_Ngagchen_Rinpoche_for_ade
+	#TIB_Mondo_eco_ade
+	#TIB_Lhalu_Se_sec_ade
 }
 
 create_country_leader = {
@@ -57,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_TIBET_TENZIN_GYATSO_DESC"
 	picture = "gfx/leaders/ASIA/TIB/TIB_Tenzin_Gyatso.tga"
 	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
+	ideology = social_democrat_subtype
 	traits = {}
 }
 

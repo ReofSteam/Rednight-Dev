@@ -1,0 +1,224 @@
+focus_tree = {
+	id = KN_INS_natsir
+	country = {
+		factor = 0
+	}
+	
+	shared_focus = INS_economy_1950
+	shared_focus = INS_army_debate
+	shared_focus = INS_the_AURI
+	shared_focus = INS_ALRI
+	
+	focus = {
+		id = INS_premier_natsir
+		icon = GFX_INS_premier_natsir
+		cost = 10.00
+		x = 2
+		y = 0
+
+		bypass = {
+			always = yes
+		}
+
+	}
+	focus = {
+		id = INS_integration_plans
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = INS_premier_natsir
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = INS_local_support
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = INS_integration_plans
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = INS_compromise_provinces
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = INS_local_support
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = INS_natsir_lobbying
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = INS_integration_plans
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = INS_meet_governors
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = INS_local_support
+			focus = INS_natsir_lobbying
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = INS_meet_soekarno
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = INS_natsir_lobbying
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = INS_integral_motion
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_meet_soekarno
+		}
+		prerequisite = {
+			focus = INS_meet_governors
+		}
+		prerequisite = {
+			focus = INS_compromise_provinces
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = INS_second_term_natsir
+		icon = GFX_INS_premier_natsir
+		cost = 10.00
+		prerequisite = {
+			focus = INS_integral_motion
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = INS_centralisation
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_natsir
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = INS_revise_chapter_IV
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_centralisation
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = INS_new_bureaucracy
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_natsir
+		}
+		x = 0
+		y = 6
+
+	}
+	focus = {
+		id = INS_POKAN
+		icon = GFX_INS_bureaucracy_generic
+		cost = 10.00
+		prerequisite = {
+			focus = INS_new_bureaucracy
+		}
+		x = 0
+		y = 7
+
+	}
+	focus = {
+		id = INS_education
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = INS_second_term_natsir
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = INS_taman_siswa
+		icon = GFX_INS_taman_siswa
+		cost = 10.00
+		prerequisite = {
+			focus = INS_education
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = INS_mandatory_education
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = INS_taman_siswa
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = INS_new_administration
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = INS_POKAN
+		}
+		prerequisite = {
+			focus = INS_revise_chapter_IV
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = INS_new_system
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = INS_mandatory_education
+		}
+		prerequisite = {
+			focus = INS_new_administration
+		}
+		x = 3
+		y = 9
+
+	}
+}

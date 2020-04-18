@@ -42,6 +42,8 @@ add_ideas = {
  HOL_ongoing_depillarisation
  HOL_resentful_countrymen
  HOL_war_in_the_council
+ HOL_phalanstere_reconstruction_initiative
+ HOL_weltkrieg_losers
  #cabinet
  NTH_Lou_Visser_hog
  NTH_Abraham_Menist_interior

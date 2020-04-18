@@ -1,11 +1,9 @@
-﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
+﻿capital = 1446
 
 oob = "LAO_1936"
 
 set_research_slots = 3
 
-# Starting tech
-# clone of France
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -41,7 +39,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = marxist 
+	ruling_party = moderate_socialist 
 	election_frequency = 36
 	elections_allowed = no
 }
@@ -62,31 +60,20 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Souphanouvong"
+	name = "Phetsarath Ratanavongsa"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	picture = "gfx/leaders/INC/INC_Phetsarath_Ratanavongsa.tga"
 	expire = "1953.3.1"
-	ideology = marxist_subtype
+	ideology = moderate_socialist_subtype
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Sisavang Vong"
+	name = "Phetsarath Ratanavongsa"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = autocratic_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kou Voragong" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+	picture = "gfx/leaders/Asia/INC/INC_Phetsarath_Ratanavongsa.tga"
 	expire = "1953.3.1"
 	ideology = conservative_subtype
 	traits = {
@@ -94,4 +81,13 @@ create_country_leader = {
 	}
 }
 
-#couldnt find historical fascists
+create_country_leader = {
+	name = "Phetsarath Ratanavongsa"
+	desc = ""
+	picture = "gfx/leaders/INC/INC_Phetsarath_Ratanavongsa.tga"
+	expire = "1953.3.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}

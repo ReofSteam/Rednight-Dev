@@ -1,4 +1,4 @@
-﻿capital = 340
+﻿capital = 1429
 oob = "TUR_1950"
 
 #set_cosmetic_tag = TUR_otto
@@ -36,8 +36,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-
-
 set_popularities = {
 	social_nationalist = 0
 	marxist = 0
@@ -53,10 +51,12 @@ set_popularities = {
 }
 
 add_ideas = {
+	#TUR_poverty
 	TUR_turkish_nationalism
 	TUR_agrarian_society
 	TUR_illiteracy
 	TUR_recovering_from_war
+	TUR_sided_neutrality
 }
 
 create_country_leader = {
@@ -226,28 +226,3 @@ create_navy_leader = {
 	}
 	skill = 1
 }
-
-set_variable = { 49.kn_fundie = 69 } 
-set_variable = { 49.kn_secular = 31 }
-set_variable = { 49.kn_islamist = 49 }
-set_variable = { 49.kn_turanist = 51 }
-set_variable = { 49.kn_kemalist = 74 }
-set_variable = { 49.kn_socialist = 26 }
-set_variable = { 346.kn_fundie = 91 } 
-set_variable = { 346.kn_secular = 9 }
-set_variable = { 346.kn_islamist = 97 }
-set_variable = { 346.kn_turanist = 3 }
-set_variable = { 346.kn_kemalist = 65 }
-set_variable = { 346.kn_socialist = 35 }
-set_variable = { 339.kn_fundie = 2 } 
-set_variable = { 339.kn_secular = 98 }
-set_variable = { 339.kn_islamist = 4 }
-set_variable = { 339.kn_turanist = 96 }
-set_variable = { 339.kn_kemalist = 55 }
-set_variable = { 339.kn_socialist = 45 }
-set_variable = { 340.kn_fundie = 50 } 
-set_variable = { 340.kn_secular = 50 }
-set_variable = { 340.kn_islamist = 50 }
-set_variable = { 340.kn_turanist = 50 }
-set_variable = { 340.kn_kemalist = 78 }
-set_variable = { 340.kn_socialist = 22 }

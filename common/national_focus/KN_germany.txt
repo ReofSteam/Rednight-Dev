@@ -1,0 +1,1971 @@
+focus_tree = {
+id = kn_germany
+country = {
+factor=0
+modifier = {
+add = 10
+tag = GER
+}
+}
+default = no
+#Focus for The Ruins of Germany 
+		focus = { 
+		id = GER_theruinsofgermany 
+		icon = GER_germany_in_ruins 
+		ai_will_do = { factor = 0 } 
+ x =8 
+ y =0 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ cost = 5
+		completion_reward = {
+		    country_event = { id = ger.1 }
+			add_political_power = 50
+		} 
+  
+ }#Focus for Clean The Rubble 
+		focus = { 
+		id = GER_cleantherubble 
+		icon = GFX_goal_generic_construct_civilian 
+		ai_will_do = { factor = 0 } 
+ x =5 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_theruinsofgermany} 
+ cost = 5  
+  completion_reward = {
+			#swap_ideas = {
+            #add_idea = GER_second_reconstruction_phase
+            #remove_idea = GER_nation_in_ruin
+            #}
+		}
+  
+ }#Focus for Continue De-Monarchy-Fication ? 
+		focus = { 
+		id = GER_continue_dekaiserfication 
+		icon = GFX_GER_dekaiserfication 
+		ai_will_do = { factor = 0 } 
+ x =9 
+ y =1 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_theruinsofgermany} 
+ cost = 5  
+  
+ }#Focus for Deal With The Food Shortage 
+		focus = { 
+		id = GER_dealwiththefoodshortage 
+		icon = GFX_GER_address_food_shortage 
+		ai_will_do = { factor = 0 } 
+ x =7 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_continue_dekaiserfication} 
+ completion_reward = {
+			add_political_power = -25
+			#swap_ideas = {
+            #add_idea = GER_dealing_with_food_problem
+            #remove_idea = GER_famine_on_the_horizon
+            #}
+		}
+ cost = 5  
+
+  
+ }#Focus for Strip Nobility Titles And Privileges 
+		focus = { 
+		id = GER_stripnobilitytitlesandprivileges 
+		icon = GFX_focus_rom_abdicate 
+		ai_will_do = { factor = 0 } 
+ x =9 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_continue_dekaiserfication} 
+ cost = 5  
+    completion_reward = {
+    add_political_power = 25
+    add_stability = -0.05    
+     
+		}
+  
+ }#Focus for Socialist Education  
+		focus = { 
+		id = GER_anti_monarchy_efforts 
+		icon = GFX_goal_generic_propaganda 
+		ai_will_do = { factor = 0 } 
+ x =11 
+ y =2 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_continue_dekaiserfication} 
+ cost = 5  
+   completion_reward = {
+   add_popularity = {
+        ideology = authoritarian_democrat
+        popularity = -0.13
+}
+		}
+ 
+  
+ }#Focus for New Housing Bloc  
+		focus = { 
+		id = newhousingbloc 
+		icon = GFX_generic_housing_development 
+		ai_will_do = { factor = 0 } 
+ x =5 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_cleantherubble} 
+ cost = 5  
+  completion_reward = {
+			add_political_power = 25
+			add_stability = 0.01
+		}
+ 
+  
+ }#Focus for Request International Aid 
+		focus = { 
+		id = GER_requestinternationalaid 
+		icon = GFX_generic_internationale_aid 
+		ai_will_do = { factor = 0 } 
+ x =7 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_continue_dekaiserfication} 
+ completion_reward = {
+			add_political_power = -25
+			#swap_ideas = {
+            #add_idea = GER_unsecured_food_supply
+            #remove_idea = GER_dealing_with_food_problem
+            #}
+		}
+ cost = 5  
+  
+ }#Focus for Junkerland in Bauernhand! 
+		focus = { 
+		id = GER_countinue_eviction_policy 
+		icon = GFX_focus_generic_self_management 
+		ai_will_do = { factor = 0 } 
+ x =9 
+ y =3 
+ mutually_exclusive = {} 
+ prerequisite = { focus = GER_stripnobilitytitlesandprivileges} 
+ cost = 5  
+     completion_reward = {
+      country_event = ger.4
+		}
+  
+ }#Focus for Berlin Revolutionary Radio 
+		focus = { 
+		id = GER_berlinrevolutionaryradio 
+		icon = GFX_GER_found_brr
+		ai_will_do = { factor = 0 } 
+ x =11 
+ y =3 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_anti_monarchy_efforts} 
+ completion_reward = {
+		news_event = gerfla.2
+		}
+ cost = 5  
+  
+ }#Focus for German Refugees Return 
+		focus = { 
+		id = GER_germanrefugeesreturn 
+		icon = GFX_goal_generic_national_unity 
+		ai_will_do = { factor = 0 } 
+ x =5 
+ y =4 
+ mutually_exclusive = { } 
+ #prerequisite = { focus = GER_newhousingbloc} 
+ completion_reward = {
+    country_event = { 
+    id = ger.2
+	}
+	}
+ 
+ cost = 5  
+  
+ }#Focus for Restore Agricultural Production 
+		focus = { 
+		id = GER_restoreagriculturalproduction 
+		icon = GFX_focus_AUS_agriculture 
+		ai_will_do = { factor = 0 } 
+ x =8 
+ y =4 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_countinue_eviction_policy} 
+ prerequisite = { focus = GER_requestinternationalaid}
+ completion_reward = {
+   #remove_idea = GER_dealing_with_food_problem
+   country_event = {
+   id = ger.3 }
+}
+ cost = 5  
+  
+  ######Reunification#####
+  
+ }#Focus for First Election of The All-Socialist Congress 
+		focus = { 
+		id = GER_firstelectionoftheallsocialistcongress 
+		icon = GFX_GER_all_socialist_congress 
+		ai_will_do = { factor = 0 } 
+ x =11 
+ y =7 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_theoccupationisover} 
+ cost = 10  
+  
+ }#Focus for The Occupation is Over 
+		focus = { 
+		id = GER_theoccupationisover 
+		icon = GFX_GER_germany_reborn 
+		ai_will_do = { factor = 0 } 
+ x =11 
+ y =5 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_restoreagriculturalproduction} 
+ #prerequisite = { focus =berlinrevolutionaryradio} 
+ #prerequisite = { focus =germanrefugeesreturn} 
+ cost = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus theoccupationisover"
+			country_event = { id = canada.8 }
+		}
+	} 
+  
+ #####Politics#### 
+ #Focus for FAUD-Anarchist Majority 
+		focus = { 
+		id = GER_faudanarchistmajority 
+		icon = GFX_GER_faud_majority
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =8 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_firstelectionoftheallsocialistcongress}
+ available = { always = no }  
+ cost = 5  
+  
+ }#Focus for CSU-Christen Majority 
+		focus = { 
+		id = GER_csuchristenmajority 
+		icon = GFX_GER_csu_majority
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =8 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_firstelectionoftheallsocialistcongress}
+ available = { always = no }  
+ cost = 5  
+  
+ }#Focus for KPDS Syndicalist Majority 
+		focus = { 
+		id = GER_kpdssyndicalistmajority 
+		icon = GFX_GER_kpd_s_majority
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =8 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_firstelectionoftheallsocialistcongress} 
+ available = { always = no } 
+ cost = 5  
+  
+ }#Focus for KPD(C) Centralists Majority 
+		focus = { 
+		id = GER_kpdccentralistsmajority 
+		icon = GFX_GER_kpd_z_majority
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =8 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_firstelectionoftheallsocialistcongress}
+ available = { always = no } 
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_a_centralist_republic  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =9 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_kpdccentralistsmajority}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_expand_president_power 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =10 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_a_centralist_republic}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_dissmiss_state_servant 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_expand_president_power}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_stasi 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =21 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_dissmiss_state_servant}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_state_atheism 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =23 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_dissmiss_state_servant}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_merge_unions 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =23 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_state_atheism}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_top_down_rule 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =23 
+ y =14 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_merge_unions}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_labour_camp 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =21 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_stasi}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_snitches_get_stitches 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =21 
+ y =14 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_labour_camp}
+ cost = 5  
+  
+ }
+   focus = { 
+		id = GER_weaken_the_volkskammer
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =15 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_snitches_get_stitches}
+ prerequisite = { focus = GER_top_down_rule}
+ cost = 5  
+  
+ }
+    focus = { 
+		id = GER_democratic_centralism
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =22 
+ y =16 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_weaken_the_volkskammer}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_wtf_does_this_do
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =21 
+ y =17 
+ mutually_exclusive = { focus = GER_look_to_tito} 
+ prerequisite = { focus = GER_democratic_centralism}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_look_to_tito
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =23 
+ y =17 
+ mutually_exclusive = { focus = GER_wtf_does_this_do} 
+ prerequisite = { focus = GER_democratic_centralism}
+ cost = 5  
+  
+ }
+ 
+  focus = { 
+		id = GER_a_syndicalist_republic  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =9
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_kpdssyndicalistmajority}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_marxian_syndicalism  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =10 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_a_syndicalist_republic}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_compulsory_union_membership  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_marxian_syndicalism}
+ cost = 5  
+  
+ }
+  focus = { 
+		id = GER_there_is_a_power  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_compulsory_union_membership}
+ cost = 5  
+  
+ } 
+   focus = { 
+		id = GER_every_factory_a_union  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_there_is_a_power}
+ cost = 5  
+  
+ }
+   focus = { 
+		id = GER_separation_of_power  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =14 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_every_factory_a_union}
+ cost = 5  
+  
+ }
+   focus = { 
+		id = GER_decentralized_democracy  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =18 
+ y =15 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_separation_of_power}
+ cost = 5  
+  
+ }
+   focus = { 
+		id = GER_federation_of_unions  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =17 
+ y =16 
+ mutually_exclusive = { focus = GER_townhall_democracy} 
+ prerequisite = { focus = GER_decentralized_democracy}
+ cost = 5  
+  
+ }
+   focus = { 
+		id = GER_townhall_democracy  
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =19 
+ y =16 
+ mutually_exclusive = { focus = GER_federation_of_unions } 
+ prerequisite = { focus = GER_decentralized_democracy}
+ cost = 5  
+  
+ } 
+ 		focus = { 
+		id = GER_a_christian_republic 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =9 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_csuchristenmajority}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_christian_unite
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =10 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_a_christian_republic}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_destroy_zentrum 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_christian_unite}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_comrade_thomas_muntzer 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_destroy_zentrum}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_liberation_theology 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =13 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_comrade_thomas_muntzer}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_worker_priest 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =15 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_comrade_thomas_muntzer}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_faith_in_the_republic 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =14 
+ y =14 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_worker_priest}
+ prerequisite = { focus = GER_liberation_theology}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_decentralization 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =12 
+ y =9 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_csuchristenmajority focus = GER_faudanarchistmajority}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_socialize_mean_of_production 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =12 
+ y =10 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_decentralization}
+ cost = 5  
+  
+ }
+   		focus = { 
+		id = GER_even_leftcom_are_anarchist_now 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =12 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_socialize_mean_of_production}
+ cost = 5  
+  
+ }
+    		focus = { 
+		id = GER_root_out_monarchist 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =12 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_even_leftcom_are_anarchist_now}
+ cost = 5  
+  
+ }
+    	focus = { 
+		id = GER_mutual_aid 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =9 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_faudanarchistmajority}
+ cost = 5  
+  
+ }
+    		focus = { 
+		id = GER_tackle_social_hierarchies 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =10 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_mutual_aid}
+ cost = 5  
+  
+ }
+    	focus =  {
+		id =  GER_all_equal
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =8 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_tackle_social_hierarchies}
+ cost = 5  
+  
+ }
+     	focus =  {
+		id =  GER_queer_liberation
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =11 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_tackle_social_hierarchies}
+ cost = 5  
+  
+ }
+     	focus = { 
+		id = GER_promote_culture 
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =12 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_queer_liberation}
+ prerequisite = { focus = GER_all_equal}
+ cost = 5  
+  
+ }
+     	focus =  {
+		id = GER_smash_reactionarism
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =13 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_promote_culture}
+ cost = 5  
+  
+ }
+     	focus = {
+		id = GER_rehabilitation
+		icon = GFX_focus_generic_strike_at_democracy1 
+		ai_will_do = { factor = 0 } 
+ x =10 
+ y =14 
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_smash_reactionarism}
+ cost = 5  
+  
+ }
+ 
+
+ 
+ #############Foreign########
+ 
+ 		focus = { 
+		id = GER_germany_international
+		icon = GFX_GER_the_internationale
+		ai_will_do = { factor = 0 } 
+ x =37
+ y =8 
+ mutually_exclusive = { } 
+ prerequisite = { }
+ available = { has_global_flag = occupation_over} 
+ cost = 5  
+  
+ }
+ 		focus = { 
+		id = GER_strong_allies 
+		icon = GFX_GER_strong_allies
+		ai_will_do = { factor = 0 } 
+ x =37 
+ y =9
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_germany_international}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_further_cooperation 
+		icon = GFX_GER_further_coop
+		ai_will_do = { factor = 0 } 
+ x =31 
+ y =9
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_germany_international}
+ cost = 5  
+  
+ }
+ 
+  		focus = { 
+		id = GER_our_own_path 
+		icon = GFX_GER_strong_alone
+		ai_will_do = { factor = 0 } 
+ x =43 
+ y =9
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_germany_international}
+ cost = 5  
+  
+ }
+ 
+   		focus = { 
+		id = GER_promote_german_industry 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =40 
+ y =10
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_our_own_path focus = GER_strong_allies}
+ cost = 5  
+  
+ }
+    		focus = { 
+		id = GER_new_german_unions 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =40 
+ y =11
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_promote_german_industry}
+ cost = 5  
+  
+ }
+    		focus = { 
+		id = GER_expand_the_federation 
+		icon = GFX_GER_expand_federation
+		ai_will_do = { factor = 0 } 
+ x =39 
+ y =12
+ prerequisite = { focus = GER_new_german_unions}
+ mutually_exclusive = { focus = GER_german_national_unions} 
+ cost = 5  
+  
+ }
+     		focus = { 
+		id = GER_german_national_unions 
+		icon = GFX_GER_national_unions 
+		ai_will_do = { factor = 0 } 
+ x =41 
+ y =12
+ prerequisite = { focus = GER_new_german_unions}
+ mutually_exclusive = { focus = GER_expand_the_federation} 
+ cost = 5  
+  
+ }
+
+  		focus = { 
+		id = GER_international_military_training 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =37 
+ y =10
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_strong_allies}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_military_officers_exchange 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =37 
+ y =11
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_international_military_training}
+ cost = 5  
+  
+ }
+ 
+  		focus = { 
+		id = GER_french_german_joint_command 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =37 
+ y =12
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_military_officers_exchange}
+ cost = 5  
+  
+ }
+ 
+  		focus = { 
+		id = GER_industrial_cooperation 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =34 
+ y =10
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_strong_allies focus = GER_further_cooperation}
+ cost = 5  
+  
+ }
+  		focus = { 
+		id = GER_international_unions 
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =34 
+ y =11
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_industrial_cooperation}
+ cost = 5  
+  
+ }
+ 
+    focus = { 
+		id = GER_european_intergration
+		icon = GFX_GER_economic_integration 
+		ai_will_do = { factor = 0 } 
+ x =33 
+ y =12
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_international_unions}
+ mutually_exclusive = { focus = GER_european_assistance}
+ cost = 5  
+  
+ }
+     		focus = { 
+		id = GER_european_assistance
+		icon = GFX_GER_economic_assistance 
+		ai_will_do = { factor = 0 } 
+ x =35 
+ y =12
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_international_unions}
+ mutually_exclusive = { focus = GER_european_intergration}
+ cost = 5  
+  
+ }
+ 
+    		focus = { 
+		id = GER_common_infrastructure
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =31 
+ y =10
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_further_cooperation}
+ cost = 5  
+  
+ }
+     		focus = { 
+		id = GER_foreign_exchange
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =31 
+ y =11
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_common_infrastructure}
+ cost = 5  
+  
+ }
+ 
+     		focus = { 
+		id = GER_esparanto_education
+		icon = GFX_GER_esperanto_push 
+		ai_will_do = { factor = 0 } 
+ x =31 
+ y =12
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_foreign_exchange}
+ cost = 5  
+  
+ }
+ 
+      		focus = { 
+		id = GER_democratic_cooperation
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =28 
+ y =10
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_further_cooperation}
+ cost = 5  
+  
+ }
+ 
+      		focus = { 
+		id = GER_strengthen_european_bonds
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =28 
+ y =11
+ mutually_exclusive = { } 
+ prerequisite = { focus = GER_further_cooperation}
+ cost = 5  
+  
+ }
+      		focus = { 
+		id = GER_european_union
+		icon = GFX_GER_dreams_of_union
+		ai_will_do = { factor = 0 } 
+ x =27 
+ y =12
+ mutually_exclusive = { focus = GER_european_family} 
+ prerequisite = { focus = GER_strengthen_european_bonds}
+ cost = 5  
+  
+ }
+       		focus = { 
+		id = GER_european_family
+		icon = GFX_GER_europe_family
+		ai_will_do = { factor = 0 } 
+ x =29 
+ y =12
+ mutually_exclusive = { focus = GER_european_union} 
+ prerequisite = { focus = GER_strengthen_european_bonds}
+ cost = 5  
+  
+ }
+focus = { 
+		id = GER_push_for_autarky
+		icon = GFX_GER_autarky
+		ai_will_do = { factor = 0 } 
+ x =43 
+ y =10
+ prerequisite = { focus = GER_our_own_path}
+ cost = 5  
+  
+ }
+ 
+ focus = { 
+		id = GER_new_european_breadbasket
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =43 
+ y =11
+ prerequisite = { focus = GER_push_for_autarky}
+ cost = 5  
+  
+ }
+ focus = { 
+		id = GER_open_new_factories
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =43 
+ y =12
+ prerequisite = { focus = GER_new_european_breadbasket}
+ cost = 5  
+  
+ }
+ 
+ focus = { 
+		id = GER_distance_ourselves_from_the_french
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =46 
+ y =10
+ prerequisite = { focus = GER_our_own_path}
+ cost = 5  
+  
+ }
+ 
+ focus = { 
+		id = GER_loosen_the_alliance
+		icon = GFX_goal_generic_support_communism 
+		ai_will_do = { factor = 0 } 
+ x =46 
+ y =11
+ prerequisite = { focus = GER_distance_ourselves_from_the_french}
+ cost = 5  
+  
+ }
+ 
+ focus = { 
+		id = GER_join_the_non_aligned
+		icon = GFX_GER_join_non_aligned 
+		ai_will_do = { factor = 0 } 
+ x =45 
+ y =12
+ prerequisite = { focus = GER_loosen_the_alliance}
+ mutually_exclusive = { focus = GER_steer_the_international}
+ cost = 5  
+  
+ }  
+ 
+  focus = { 
+		id = GER_steer_the_international
+		icon = GFX_GER_steer_the_internationale
+		ai_will_do = { factor = 0 } 
+ x =47 
+ y =12
+ prerequisite = { focus = GER_loosen_the_alliance}
+ mutually_exclusive = { focus = GER_join_the_non_aligned}
+ cost = 5  
+  
+ }  
+ #######Army Tree#########
+ 
+  	focus = {
+		id = GER_defense_of_germany
+		icon = GFX_goal_generic_trade
+		cost = 6
+		available = { has_global_flag = occupation_over}
+		prerequisite = { }
+		x = 20
+		y = 0
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+ 	focus = {
+		id = GER_the_german_army
+		icon = GFX_GER_volkarmee
+		cost = 6
+		prerequisite = { focus = GER_defense_of_germany}
+		x = 18
+		y = 1
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	 	focus = {
+		id = GER_the_rote_armee
+		icon = GFX_GER_rote_armee
+		cost = 5
+		prerequisite = { focus = GER_the_german_army }
+		mutually_exclusive = {
+			focus = GER_the_rote_garde
+		}	
+		x = 16
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_the_rote_garde
+		icon = GFX_GER_rote_garde
+		cost = 5
+		prerequisite = { focus = GER_the_german_army }
+		mutually_exclusive = {
+			focus = GER_the_rote_armee
+		}
+		x = 20
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+	 	focus = {
+		id = GER_establish_hierachy
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_the_rote_armee}
+		x = 16
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_milita_confederations
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_the_rote_garde}
+		x = 20
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	 	focus = {
+		id = GER_centralize_command
+		icon = GFX_GER_centralized_command
+		cost = 6
+		prerequisite = { focus = GER_establish_hierachy}
+		mutually_exclusive = { focus = GER_compromise_solution}
+		x = 16
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+		focus = {
+		id = GER_compromise_solution
+		icon = GFX_GER_army_compromise
+		cost = 6
+		prerequisite = { focus = GER_establish_hierachy}
+		prerequisite = { focus = GER_milita_confederations}
+		mutually_exclusive = { focus = GER_centralize_command}
+		mutually_exclusive = { focus = GER_elected_officer}
+		x = 18
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_elected_officer
+		icon = GFX_GER_electable_officers
+		cost = 6
+		prerequisite = { focus = GER_milita_confederations}
+		mutually_exclusive = { focus = GER_compromise_solution}
+		x = 20
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		 focus = {
+		id = GER_dissolve_local_milita
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_centralize_command}
+		x = 16
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_intergrate_local_milita
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_compromise_solution}
+		x = 18
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_expand_the_milita
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_elected_officer}
+		x = 20
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_a_true_german_army
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_dissolve_local_milita}
+		x = 16
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_a_decentralized_army
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_intergrate_local_milita}
+		x = 18
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_the_people_armed
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_expand_the_milita}
+		x = 20
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	########air#####
+		focus = {
+		id = GER_flight_of_the_luffwaffle
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_defense_of_germany }
+		x = 25
+		y = 1
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_return_to_the_sky
+		icon = GFX_goal_generic_air_doctrine
+		cost = 6
+		prerequisite = { focus = GER_flight_of_the_luffwaffle }
+		x = 23
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+		focus = {
+		id = GER_repair_damaged_airbases
+		icon = GFX_goal_generic_build_airforce
+		cost = 6
+		prerequisite = { focus = GER_flight_of_the_luffwaffle }
+		x = 27
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_first_volunteer_airsquad
+		icon = GFX_GER_first_volunteer_airsquad
+		cost = 6
+		prerequisite = { focus = GER_flight_of_the_luffwaffle }
+		x = 25
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+    	focus = {
+		id = GER_raze_the_ground
+		icon = GFX_GER_rules_the_ground
+		cost = 6
+		prerequisite = { focus = GER_first_volunteer_airsquad}
+		prerequisite = { focus = GER_repair_damaged_airbases}
+		prerequisite = { focus = GER_return_to_the_sky}
+		mutually_exclusive = { focus = GER_rule_the_sky}
+		x = 26
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_rule_the_sky
+		icon = GFX_GER_rules_the_skies
+		cost = 6
+		prerequisite = { focus = GER_first_volunteer_airsquad}
+		prerequisite = { focus = GER_repair_damaged_airbases}
+		prerequisite = { focus = GER_return_to_the_sky}
+		mutually_exclusive = { focus = GER_raze_the_ground}
+		x = 24
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_bomber_escorts
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 6
+		prerequisite = { focus = GER_raze_the_ground }
+		x = 26
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+			focus = {
+		id = GER_fighter_tactics
+		icon = GFX_goal_generic_air_fighter2
+		cost = 6
+		prerequisite = { focus = GER_rule_the_sky }
+		x = 24
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		    focus = {
+		id = GER_joint_air_exercise
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_fighter_tactics focus = GER_bomber_escorts}
+		x = 25
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+				focus = {
+		id = GER_german_radar_defense
+		icon = GFX_goal_generic_radar
+		cost = 6
+		prerequisite = { focus = GER_joint_air_exercise }
+		x = 25
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+
+			focus = {
+		id = GER_expand_airbases
+		icon = GFX_goal_generic_build_airforce
+		cost = 6
+		prerequisite = { focus = GER_joint_air_exercise }
+		x = 27
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_project_irondome
+		icon = GFX_GER_iron_dome
+		cost = 6
+		prerequisite = { focus = GER_joint_air_exercise }
+		x = 23
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+
+	    focus = {
+		id = GER_people_air_corps
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_project_irondome}
+		prerequisite = { focus = GER_expand_airbases}
+		prerequisite = { focus = GER_german_radar_defense}
+		x = 25
+		y = 7
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+	#######navy######
+		focus = {
+		id = GER_fleets_of_germany
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_defense_of_germany }
+		x = 32
+		y = 1
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_restablish_naval_high_command
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_fleets_of_germany }
+		x = 39
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+    }
+		focus = {
+		id = GER_german_high_seas_fleet
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 6
+		prerequisite = { focus = GER_restablish_naval_high_command }
+		mutually_exclusive = { focus = GER_the_great_naval_blockade}
+		x = 37
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		
+		focus = { 
+		id = GER_the_great_naval_blockade
+		icon = GFX_goal_generic_navy_submarine
+		cost = 6
+		prerequisite = { focus = GER_restablish_naval_high_command }
+		mutually_exclusive = { focus = GER_german_high_seas_fleet}
+		x = 41
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		focus = { 
+		id = GER_maneuver_in_the_baltic
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_the_great_naval_blockade focus = GER_german_high_seas_fleet}
+		x = 39
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		focus = { 
+		id = GER_naval_academy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 5
+		prerequisite = { focus = GER_maneuver_in_the_baltic }
+		x = 41
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		focus = { 
+		id = GER_german_marine
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_maneuver_in_the_baltic }
+		x = 37
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		focus = { 
+		id = GER_coastal_defense
+		icon = GFX_focus_generic_coastal_fort
+		cost = 6
+		prerequisite = { focus = GER_maneuver_in_the_baltic }
+		x = 39
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		
+	}
+	}
+		focus = {
+		id = GER_appeal_the_third_international
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_salvage_the_reichmarine }
+		x = 30
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_salvage_the_reichmarine
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_fleets_of_germany }
+		x = 30
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_demand_danish_return_of_ships
+		icon = GFX_GER_demand_danish_ships
+		cost = 6
+		prerequisite = { focus = GER_appeal_the_third_international }
+		x = 30
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_baltic_project
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_fleets_of_germany }
+		mutually_exclusive = { focus = GER_north_sea_project}
+		x = 32
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_north_sea_project
+		icon = GFX_goal_generic_trade
+		cost = 6
+		prerequisite = { focus = GER_fleets_of_germany }
+		mutually_exclusive = { focus = GER_baltic_project}
+		x = 34
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+		}	
+		focus = {
+		id = GER_rebuild_engelshaven
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_north_sea_project }
+		x = 34
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_hamburg_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_rebuild_engelshaven }
+		x = 34
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+	
+		focus = {
+		id = GER_danzig_port
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_baltic_project }
+		x = 32
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_rostock_dockyards
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_danzig_port }
+		x = 32
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+#######The Economy, FOOLS !######
+
+		focus = {
+		id = GER_address_the_economy
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { }
+		available = { has_global_flag = occupation_over}
+		x = 53
+		y = 1
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_planned_economy
+		icon = GFX_GER_planned_economy
+		cost = 6
+		prerequisite = { focus = GER_address_the_economy}
+		mutually_exclusive = { focus = GER_cooperative_economy}
+		mutually_exclusive = { focus = GER_freiwirtschaft}		
+		x = 53
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_forced_nationalization
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_planned_economy}
+		x = 53
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+	
+		focus = {
+		id = GER_grobkombinate
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_forced_nationalization}
+		x = 53
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}	
+		focus = {
+		id = GER_staatliche_plankomission
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_grobkombinate}
+		x = 53
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_first_five_years_plan
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_staatliche_plankomission}
+		x = 53
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_cooperative_economy
+		icon = GFX_GER_coop_economy
+		cost = 6
+		prerequisite = { focus = GER_address_the_economy}
+		mutually_exclusive = { focus = GER_planned_economy}
+		mutually_exclusive = { focus = GER_freiwirtschaft}
+		x = 51
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_freiwirtschaft
+		icon = GFX_GER_freiwirtschaft
+		cost = 6
+		prerequisite = { focus = GER_address_the_economy}
+		mutually_exclusive = { focus = GER_planned_economy}
+		mutually_exclusive = { focus = GER_cooperative_economy}
+		x = 49
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+			focus = {
+		id = GER_genossenschaftsbewegung
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_cooperative_economy}
+		x = 51
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_worker_cooperatives
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_genossenschaftsbewegung}
+		x = 51
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		focus = {
+		id = GER_labour_vouchers
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_worker_cooperatives}
+		x = 51
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = GER_german_syndicalism
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_labour_vouchers}
+		x = 51
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_freigeld
+		icon = GFX_GER_freigeld
+		cost = 6
+		prerequisite = { focus = GER_freiwirtschaft}
+		x = 49
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = GER_freiland
+		icon = GFX_GER_freiland
+		cost = 6
+		prerequisite = { focus = GER_freigeld}
+		x = 49
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_freihandel
+		icon = GFX_GER_freihandel
+		cost = 6
+		prerequisite = { focus = GER_freiland}
+		x = 49
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = GER_this_name_is_stupid
+		icon = GFX_GER_genossenschaftsbewegung
+		cost = 6
+		prerequisite = { focus = GER_freihandel}
+		x = 49
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = GER_rebuild_german_industries
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_address_the_economy}
+		x = 57
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_restore_the_ruhr
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_rebuild_german_industries}
+		x = 56
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_restore_dresden
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_rebuild_german_industries}
+		x = 58
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_restore_south_germany
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_restore_dresden}
+		x = 58
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_restore_north_germany
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_restore_the_ruhr}
+		x = 56
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_restore_german_infrastructure
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_restore_north_germany}
+		prerequisite = { focus = GER_restore_south_germany}
+		x = 57
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_new_farmlands
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_restore_german_infrastructure}
+		x = 57
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_risen_from_the_ruins
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_new_farmlands}
+		x = 57
+		y = 7
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	focus = {
+		id = GER_wirtschaftswunder
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_this_name_is_stupid focus = GER_first_five_years_plan focus = GER_german_syndicalism}
+		prerequisite = { focus = GER_risen_from_the_ruins}
+		x = 54
+		y = 8
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_economic_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_address_the_economy}
+		x = 60
+		y = 2
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_ruhr_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_economic_expansion}
+		x = 60
+		y = 3
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_hamburg_expansion
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_ruhr_expansion}
+		x = 60
+		y = 4
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_a_car_for_the_people
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_hamburg_expansion}
+		x = 60
+		y = 5
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+		    focus = {
+		id = GER_emslandplan
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_a_car_for_the_people}
+		x = 60
+		y = 6
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_weapon_and_ammunition_bureau
+		icon = GFX_GER_erprobungsstelle_fur_waffen_und_munition
+		cost = 6
+		prerequisite = { focus = GER_emslandplan}
+		x = 60
+		y = 7
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	    focus = {
+		id = GER_sicherheits_und_vrteidigungsindustrie
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 6
+		prerequisite = { focus = GER_weapon_and_ammunition_bureau}
+		prerequisite = { focus = GER_wirtschaftswunder}
+		x = 58
+		y = 9
+		completion_reward = {
+			add_political_power = -10
+		}
+	}
+	
+	
+}

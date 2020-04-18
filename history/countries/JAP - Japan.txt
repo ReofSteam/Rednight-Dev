@@ -1,5 +1,5 @@
 ﻿capital = 282
-#OOB = "INC"
+OOB = "INC"
 set_stability = 0.6
 set_research_slots = 4
 
@@ -57,43 +57,26 @@ set_technology = {
 
 set_convoys = 300
 
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_marxist_banned = 1 }
-set_variable = { kn_libertarian_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_voynist_banned = 1 }
+
 
 add_ideas = {
-	##Starting
-	JAP_amended_meiji_constitution_idea
-	JAP_beacon_liberty_idea
-	JAP_big_four_idea
-	JAP_overstretched_empire_idea
-	JAP_seiyukai_dominance_idea
+	#medium_economy
+	#JAP_Inukai_Tsuyoshi_hog_sco
+	#JAP_Yoshizawa_Kenkichi_for_sco
+	#JAP_Mitsuchi_Chuzo_eco_sco
+	#JAP_Suzuki_Kisaburo_sec_sco
+	#JAP_bad_start
+	#JAP_no_army_focus
+	#JAP_narrow_rail
+	#civilian_economy
+	#free_trade
+	limited_conscription
+	#PROFF_LEG_CITIES
 }
-
-add_ideas = {
-	##Cabinet
-	JAP_Mamoru_Shigemitsu_HoG
-	JAP_Hayato_Ikeda_MITI
-	JAP_Hitoshi_Ashida
-	JAP_Eisaku_Sato_Finance
-	JAP_Mamoru_Shigemitsu_Foreign
-	JAP_Kiyohide_Okano
-	JAP_Ryuen_Kusaba
-	JAP_Sotaro_Takase
-	JAP_Nobusuke_Kishi_Home
-	JAP_Naruhiko_Higashikuni_CoS
-	JAP_Shunroku_Hata
-	JAP_Mikasa_nomiya
-	JAP_Sokichi_Takagi
-}
-
 
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -102,58 +85,24 @@ set_popularities = {
 	social_nationalist = 0
 	marxist = 0
 	libertarian = 0
-	moderate_socialist = 3
-	social_democrat = 27
-	social_liberal = 28
-	conservative = 31
-	authoritarian_democrat = 9 
-	autocratic = 2
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
 	fundamentalist = 0
 	voynist = 0
 }
 
-create_faction = "Co-Prosperity Sphere"
-add_to_faction = JAP
-add_to_faction = PHI
-add_to_faction = NBO
-add_to_faction = MLU
-add_to_faction = FNG
-
 ### Head of States ###
 create_country_leader = {
-	name = "Hirohito"
+	name = "Emperor Hirohito"
 	desc = "POLITICS_HIROHITO_DESC"
-	picture = "gfx/leaders/ASIA/JAP/JAP_Hirohito.tga"
-	expire = "1965.1.1"
-	ideology = conservative_subtype
-	traits = { showa_emperor_trait }
-}
-
-create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "gfx/leaders/ASIA/JAP/JAP_Hirohito.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = { showa_emperor_trait }
-}
-
-create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "gfx/leaders/ASIA/JAP/JAP_Hirohito.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = { showa_emperor_trait }
-}
-
-create_country_leader = {
-	name = "Hirohito"
-	desc = "POLITICS_HIROHITO_DESC"
-	picture = "gfx/leaders/ASIA/JAP/JAP_Hirohito.tga"
+	picture = "gfx/leaders/ASIA/JAP/JAP_Hirohito.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = { showa_emperor_trait }
+	traits = {}
 }
 
 ### Leaders ###

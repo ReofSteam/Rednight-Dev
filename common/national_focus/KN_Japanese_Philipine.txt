@@ -1,0 +1,176 @@
+focus_tree = { 
+id = philippines_colony
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = PHI
+} 
+} 
+#Focus for The Bangsamoro
+focus = { 
+id = PHI_thebangsamoro
+icon = GFX_thebangsamoro
+x = 2
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_therebelproblem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Hukbalahap
+focus = { 
+id = PHI_thehukbalahap
+icon = GFX_thehukbalahap
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_therebelproblem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for It's Time to Leave
+focus = { 
+id = PHI_itstimetoleave
+icon = GFX_itstimetoleave
+x = 15
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_ashacklednation } 
+mutually_exclusive = { focus = PHI_wejustgothere } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for We Just Got Here
+focus = { 
+id = PHI_wejustgothere
+icon = GFX_focus_CZE_german_puppet
+x = 21
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_ashacklednation } 
+mutually_exclusive = { focus = PHI_itstimetoleave } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for A Shackled Nation
+focus = { 
+id = PHI_ashacklednation
+icon = GFX_ashacklednation
+x = 18
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Empower the KALIBAPI
+focus = { 
+id = PHI_empowerthekalibapi
+icon = GFX_empowerthekalibapi
+x = 14
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_itstimetoleave } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Rebel Problem
+focus = { 
+id = PHI_therebelproblem
+icon = GFX_therebelproblem
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Divide the Nation
+focus = { 
+id = PHI_dividethenation
+icon = GFX_dividethenation
+x = 22
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_wejustgothere } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Moro Organic Law
+focus = { 
+id = PHI_themoroorganiclaw
+icon = GFX_themoroorganiclaw
+x = 18
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_dividethenation } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Nacionalistas
+focus = { 
+id = PHI_thenacionalistas
+icon = GFX_thenacionalistas
+x = 10
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_therebelproblem } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nativize the Military
+focus = { 
+id = PHI_nativizethemilitary
+icon = GFX_nativizethemilitary
+x = 14
+y = 3
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = PHI_empowerthekalibapi } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

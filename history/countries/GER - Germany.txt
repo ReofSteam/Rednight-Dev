@@ -7,22 +7,18 @@ add_ideas = {
 	GER_unlikely_friendship
 	GER_bavarian_separatism
 	GER_reactionary_threat
-	GER_phalanstere_reconstruction_initiative
-	GER_weltkrieg_losers
-	
-	GER_Franz_Dahlem_hog
 	GER_Otto_Braun_interior
-	GER_Kostja_Zetkin_economy
+	GER_Konstantin_Zetkin_economy
 	GER_Lothar_Bolz_foreign
 	GER_Fritz_Lange_education
 	GER_Johannes_Becher_culture
 	GER_Willi_Kreikemeyer_transport
-	GER_Willi_Stoph_portfolio
-	GER_Wilhelm_Zaisser_intel
+	GER_Willi_Stolph_portfolio
+	GER_Franz_Dahlem_hog
 	GER_Heinz_Hoffmann_cos
 	GER_Heinz_Kessler_coa
-	GER_Georg_Hornung_air
-	GER_Waldemar_Verner_navy
+	GER_Georg_Hornung_coaf
+	GER_Waldemar_Verner_con
 }
 
 # Starting tech
@@ -90,16 +86,16 @@ set_popularities = {
 	voynist = 7
 }
 
-set_variable = { kn_social_nationalist_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
-set_variable = { kn_social_democrat_coalition = 1 }
+set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_moderate_socialist
+set_country_flag = coalition_social_democrat
 
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_voynist_banned = 1 }
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_voynist
 
 create_country_leader = {
 	name = "Otto Grotewohl"

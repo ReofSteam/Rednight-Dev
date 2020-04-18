@@ -23,7 +23,7 @@ set_technology = {
 set_stability = -0.2
 
 set_politics = {
-	ruling_party = social_nationalist
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_CHURATA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Gamaliel_Churata.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = voynist_subtype
 	traits = {}
 }
 

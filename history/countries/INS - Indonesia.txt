@@ -21,27 +21,23 @@ set_technology = {
 
 set_convoys = 25
 
-create_faction = "Insulindia"
+create_faction = "United States of Insulindia"
 
 add_to_faction = INS
 add_to_faction = SUL
 add_to_faction = KAL
 add_to_faction = ACH
 
-set_variable = { kn_marxist_banned = 1 }
+set_country_flag = banned_marxist
 
 load_focus_tree = KN_INS_natsir
 
 add_ideas = {
-#starting 
-	INS_parliamentary_democracy
-	INS_harmful_federalism
-	INS_infantile_economy
-	INS_fledgling_army
+#starting
+	INS_tripartite_struggle
+	INS_decentralisation
 	INS_orla
 }
-
-set_variable = { kn_marxist_banned = 1 }
 
 #cabinet
 add_ideas = {
@@ -67,35 +63,13 @@ set_politics = {
 	elections_allowed = no
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = ACH
-		autonomy_state = kn_satellite
-	}
-}
+set_variable = { var = INS_masyumi_support value = 32 }
+set_variable = { var = INS_murba_support value = 23 }
+set_variable = { var = INS_pni_support value = 31 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = KAL
-		autonomy_state = kn_satellite
-	}
-}
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SUL
-		autonomy_state = kn_satellite
-	}
-}
+set_country_flag = INS_soekarno_approval_med
+set_country_flag = INS_people_approval_med
+set_country_flag = INS_external_influence_low
 
 set_popularities = {
 	social_nationalist = 4
@@ -117,7 +91,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = social_nationalist_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -126,7 +100,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -135,7 +109,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -144,7 +118,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = moderate_socialist_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -153,7 +127,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -162,7 +136,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -171,7 +145,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -180,7 +154,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype 
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -189,7 +163,7 @@ create_country_leader = {
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype 
-	traits = { leader_grand_revolutionary }
+	traits = {}
 }
 
 create_country_leader = {
@@ -338,99 +312,4 @@ create_corps_commander = {
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 1
-}
-
-##Scripted GUI Setups
-
-#Local Branches Setup
-set_country_flag = INS_parliament_allowed
-
-###Parliament GUI Setup
-set_country_flag = INS_natsir_pm
-
-set_variable = { 
-	var = INS_masyumi_seats 
-	value = 76 
-}
-
-set_variable = { 
-	var = INS_murba_seats 
-	value = 54 
-}
-
-set_variable = { 
-	var = INS_pni_seats 
-	value = 73 
-}
-
-set_variable = { 
-	var = INS_other_seats 
-	value = 47 
-}
-
-set_variable = { 
-	var = INS_parliament_party_seats 
-	value = 236 
-}
-
-set_variable = { 
-	var = INS_parliament_total_seats 
-	value = 250 
-}
-
-clamp_variable = {
-	var = INS_pni_seats
-	min = 1
-	max = INS_parliament_party_seats
-}
-
-clamp_variable = {
-	var = INS_masyumi_seats
-	min = 1
-	max = INS_parliament_party_seats
-}
-
-clamp_variable = {
-	var = INS_murba_seats
-	min = 1
-	max = INS_parliament_party_seats
-}
-
-clamp_variable = {
-	var = INS_other_seats
-	min = 1
-	max = INS_parliament_party_seats
-}
-
-set_variable = { var = INS_military_influence value = 0 }
-clamp_variable = {
-	var = INS_military_influence
-	min = 0
-	max = 20
-}
-
-set_variable = { var = INS_soekarno_influence value = 6 }
-clamp_variable = {
-	var = INS_soekarno_influence
-	min = 0
-	max = 20
-}
-
-set_variable = { var = INS_people_approval value = 14 }
-clamp_variable = {
-	var = INS_people_approval
-	min = 0
-	max = 20
-}
-
-set_country_flag = INS_masyumi_caucus1_support
-set_country_flag = INS_masyumi_caucus2_support
-set_country_flag = INS_murba_caucus2_support
-set_country_flag = INS_others_caucus1_support
-
-
-##event setup
-country_event = {
-	id = INS.1
-	hours = 2
 }

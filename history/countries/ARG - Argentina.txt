@@ -24,7 +24,7 @@ add_ideas = {
 set_convoys = 120
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,26 +42,6 @@ set_popularities = {
 	fundamentalist = 5
 	voynist = 10
 }
-
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_authoritarian_democrat_coalition = 1}
-
-set_variable = { kn_social_nationalist_banned = 1}
-set_variable = { kn_marxist_banned = 1}
-set_variable = { kn_libertarian_banned = 1}
-set_variable = { kn_moderate_socialist_banned = 1}
-set_variable = { kn_social_democrat_banned = 1}
-set_variable = { kn_social_liberal_banned = 1}
-set_variable = { kn_conservative_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
-
 
 create_country_leader = {
 	name = "Agustín Pedro Justo"
@@ -119,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_PEDRO_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/ARG/ARG_Pedro_Pablo_Ramirez.tga"
 	expire = "1965.1.1"
-	ideology = autocratic_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

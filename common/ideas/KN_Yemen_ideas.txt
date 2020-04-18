@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		ahmad_devil = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ahmad_devil"}
+			picture = ahmad_devil
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = +0.5
+			}
+		}
+		closed_society = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea closed_society"}
+			picture = closed_society
+			modifier = {
+				research_speed_factor = -0.7
+				encryption_factor = +0.5
+				trade_opinion_factor = -0.3
+			}
+		}
+		republican_unrest = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea republican_unrest"}
+			picture = republican_unrest
+			modifier = {
+				stability_weekly_factor = -0.01
+				political_power_gain = -1
+			}
+		}
+	}
+}

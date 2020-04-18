@@ -49,32 +49,16 @@ add_ideas = {
 	VEN_Oil_Worker_Strikes
 }
 
-### CABINET
-add_ideas = {
-	VEN_Luis_Llovera_Paez_hog #Prime Minister 
-	VEN_Edmundo_Luongo_Cabello_mnp #Minister of Labour
-	VEN_Luis_Eduardo_Chataing_interior #Minister of Interior
-	VEN_Aurelio_Arreaza_Arreaza_finance #Minister of Finance
-	VEN_Aureliano_Otanez_foreign #Minister of Foreign Affairs
-	VEN_Humberto_Fernandez_Moran_education #Minister of Education
-	VEN_Silvio_Gutierrez_transport #Minister of Transportation
-	VEN_Luis_Felipe_Urbaneja_intel #Head of Intelligence
-	VEN_Raul_Soules_Baldo_cos #Chief of Staff
-	VEN_Oscar_Mazzei_Carta_coa #Chief of Army
-	VEN_Felix_Roman_Moreno_coaf #Chief of Air Force
-	VEN_Wolfgang_Larrazabal_con #Chief of Navy
-}
-
 ### PARTIES UI ###
-	set_variable = { kn_autocratic_coalition = 1 }
-	set_variable = { kn_conservative_coalition = 1 }
+	set_country_flag = coalition_autocratic
+	set_country_flag = coalition_conservative
 
 	### BANNED ###
-	set_variable = { kn_social_nationalist_banned = 1 }
-	set_variable = { kn_marxist_banned = 1 }
-	set_variable = { kn_libertarian_banned = 1 }
-	set_variable = { kn_moderate_socialist_banned = 1 }
-	set_variable = { kn_social_democrat_banned = 1 }
+	set_country_flag = banned_social_nationalist
+	set_country_flag = banned_marxist
+	set_country_flag = banned_libertarian
+	set_country_flag = banned_moderate_socialist
+	set_country_flag = banned_social_democrat
 ###
 
 create_country_leader = {

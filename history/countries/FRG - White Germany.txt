@@ -88,14 +88,14 @@ set_popularities = {
 	voynist = 24
 }
 
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_marxist_banned = 1 }
-set_variable = { kn_libertarian_banned = 1 }
-set_variable = { kn_moderate_socialist_banned = 1 }
-set_variable = { kn_social_democrat_banned = 1 }
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
 
 create_country_leader = {
 	name = "Fritz Dorls"

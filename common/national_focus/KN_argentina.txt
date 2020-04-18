@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_argentina
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ARG
+		}
+	}
+	default = no
+
+	focus = {
+		id = ARG_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

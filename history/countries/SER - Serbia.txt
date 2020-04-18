@@ -5,6 +5,13 @@ set_research_slots = 3
 oob = "SER"
 set_cosmetic_tag = YUG
 
+add_ideas = {
+	#medium_economy
+	#limited_conscription
+	#SER_volunteer_army
+	#SER_red_purges
+}
+
 set_technology = {
 	### General ###
 	shipbuild_basics = 1
@@ -22,7 +29,7 @@ set_war_support = 0.6
 
 
 set_politics = {	
-	ruling_party = autocratic
+	ruling_party = authoritarian_democrat
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,70 +49,31 @@ set_popularities = {
     voynist = 26
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_social_nationalist_banned = 1}
-set_variable = { kn_marxist_banned = 1}
-set_variable = { kn_libertarian_banned = 1}
-set_variable = { kn_moderate_socialist_banned = 1}
-set_variable = { kn_social_democrat_banned = 1}
-
-set_variable = { kn_authoritarian_democrat_coalition = 1}
-
-set_variable = { kn_social_nationalist_banned_name = "SER_social_nationalist_party" }
-set_variable = { kn_marxist_name = "SER_marxist_party" }
-set_variable = { kn_libertarian_name = "SER_libertarian_party" }
-set_variable = { kn_moderate_socialist_name = "SER_moderate_socialist_party" }
-set_variable = { kn_social_democrat_name = "SER_social_democrat_party" }
-set_variable = { kn_social_liberal_name = "SER_social_liberal_party" }
-set_variable = { kn_conservative_name = "SER_conservative_party" }
-set_variable = { kn_authoritarian_democrat_name = "SER_authoritarian_democrat_party" }
-set_variable = { kn_autocratic_name = "SER_autocratic_party" }
-set_variable = { kn_voynist_name = "SER_voynist_party" }
-set_variable = { kn_fundamentalist_name = "SER_fundamentalist_party" }
-
 ### Starting cabinet
 add_ideas = {
-    SER_alexanders_dictatorship
-	SER_german_problem
-	SER_glorious_yugoslav_people
-	SER_intense_underdevelopment
 	#SER_Dragisa_Cvetkovic_hog_ade
 	#SER_Aleksandar_Cincar_Markovic_for_ade
 	#SER_Milan_Stojadinovic_eco_ade
 	#SER_Dragisa_Cvetkovic_sec_ade
 }
 
-###############################
-########### LEADERS ###########
-# gfx/leaders/CAIRO_PACT/EGY/ #
-###############################
-
+### Starting party leaders
 create_country_leader = {
-	name = "King Aleksandar I"
-	desc = "POLITICS_ALEKSANDAR_I_DESC"
+	name = "King Alexander I"
+	desc = "POLITICS_KING_ALEXANDER_SERBIA_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
-	traits = {
-	great_liberator
-	}
+	traits = { }
 }
 
 create_country_leader = {
-	name = "King Aleksandar I"
-	desc = "POLITICS_ALEKSANDAR_I_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
+	name = "Milan Stojadinović"
+	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Milan_Stojadinovic.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
-	traits = {
-	great_liberator
-	}
+	traits = { }
 }
 
 create_country_leader = {

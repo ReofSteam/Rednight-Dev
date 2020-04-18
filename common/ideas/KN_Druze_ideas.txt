@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		druze_diaspora = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea druze_diaspora"}
+			picture = druze_diaspora
+			modifier = {
+				monthly_population = +0.02
+				political_power_gain = +0.5
+				stability_factor = +0.05
+			}
+		}
+		a_warrior_people = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea a_warrior_people"}
+			picture = a_warrior_people
+			modifier = {
+				army_core_defence_factor  = +0.1
+				army_org_factor  = +0.1
+			}
+		}
+	}
+}

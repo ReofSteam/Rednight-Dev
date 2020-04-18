@@ -1,0 +1,20 @@
+ideas = {
+	country = {
+		fighting_for_freedom = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea fighting_for_freedom"}
+			picture = fighting_for_freedom
+			modifier = {
+				war_support_factor = +0.50
+				army_org_factor = +0.1
+			}
+		}
+		shining_democracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea shining_democracy"}
+			picture = shining_democracy
+			modifier = {
+				stability_factor = +0.20
+				political_power_gain = -0.5
+			}
+		}
+	}
+}

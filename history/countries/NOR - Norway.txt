@@ -2,27 +2,21 @@
 
 OOB = "NOR"
 
-add_opinion_modifier = { 
-                    target = SWE
-					modifier = NOR_swedish_exiles_opinion
-}
-
 add_ideas = {
-	NOR_strong_welfare_state
+	NOR_careful_shot_socialism
 	NOR_swedish_exiles
 	NOR_king_haakon
-	NOR_radical_parties
 	
-	NOR_CJ_Hambro_hog
-	NOR_Trygve_Haugeland_interior
-	NOR_Gunnar_Fredrik_Hellesen_economy
-	NOR_Erling_Wikborg_foreign
-	NOR_Erling_Johan_Vindenes_education
-	NOR_Hartvig_Caspar_Christie_culture
-	NOR_Mons_Arntsen_Lovset_transport
-	NOR_Oscar_Christian_Gundersen_intel
-	NOR_Ole_Berg_staff
-	NOR_Ole_Berg_army
+	NOR_einar_henry_gerhardssen_hog
+	NOR_kirsten_hansteen_interior
+	NOR_emil_lovlien_economy
+	NOR_Trygve_Lie_foreign
+	NOR_kaare_fostervoll_education
+	NOR_kaare_fostervoll_culture
+	NOR_nils_langhelle_transport
+	NOR_oscar_christian_gundersen_intel
+	NOR_ole_berg_staff
+	NOR_ole_berg_army
 	NOR_Bjarne_Oen_air
 	NOR_Skule_Storheil_navy
 }

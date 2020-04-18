@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		uneasy_peace = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea uneasy_peace"}
+			picture = uneasy_peace
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = +0.20
+			}
+		}
+		leftist_activity = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea leftist_activity"}
+			picture = leftist_activity
+			modifier = {
+				stability_weekly_factor = -0.01
+				political_power_gain = -0.5
+				production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		egyptian_lapdog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea egyptian_lapdog"}
+			picture = egyptian_lapdog
+			modifier = {
+				stability_factor = +0.20
+			}
+		}
+		endemic_corruption = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea endemic_corruption"}
+			picture = endemic_corruption
+			modifier = {
+				political_power_gain = +0.5
+				consumer_goods_factor = +0.05
+			}	
+		}
+	}
+}

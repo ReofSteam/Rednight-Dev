@@ -1,0 +1,41 @@
+ideas = {
+	country = {
+		ETH_the_arbegnoch = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ETH_the_arbegnoch"}
+			picture = the_arbegnoch
+			modifier = {
+				political_power_gain = -0.05
+				stability_weekly = -0.01
+				war_support_factor = -0.10 
+			}
+		}
+
+		ETH_bloated_aristocracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ETH_bloated_aristocracy"}
+			picture = bloated_aristocracy
+			modifier = {
+				political_power_gain = -0.1
+				consumer_goods_factor = +0.10
+				war_support_factor = -0.25
+				stability_factor = -0.25
+			}
+		}
+
+		ETH_the_hermit_kingdom = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ETH_the_hermit_kingdom"}
+			picture = hermit_kingdom
+			modifier = {
+			 	research_speed_factor = -0.05 
+				stability_weekly = +0.01 
+			}	
+		}	
+		ETH_famine = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ETH_famine"}
+			picture = famine
+			modifier = {
+			 	MONTHLY_POPULATION = -0.1
+				stability_weekly = -0.01 
+			}	
+		}
+	}
+}

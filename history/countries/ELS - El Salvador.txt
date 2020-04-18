@@ -12,36 +12,26 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_nationalist
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 100
+	social_nationalist = 0
 	marxist = 0
 	libertarian = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
 	conservative = 0
-	authoritarian_democrat = 0
+	authoritarian_democrat = 100
 	autocratic = 0
 	fundamentalist = 0
 	voynist = 0
 }
 ###gfx/leaders/NORTH_AMERICA/ELS/
 
-create_country_leader = {
-	name = "Agustín Farabundo Martí"
-	desc = ""
-	picture = "gfx/leaders/NORTH_AMERICA/ELS/ELS_Agustin_Farabundo_Marti.tga"
-	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
-	traits = {
-		#
-	}
-}
 create_country_leader = {
 	name = "Maximiliano Hernández Martínez"
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"

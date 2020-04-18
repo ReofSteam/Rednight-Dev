@@ -13,19 +13,14 @@ set_convoys = 20
 
 set_politics = {
 	ruling_party = authoritarian_democrat
-	last_election = "1936.11.6"
+	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_variable = { kn_authoritarian_democrat_coalition = 1 }
-set_variable = { kn_autocratic_coalition = 1 }
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_autocratic
 
-set_variable = { kn_moderate_socialist_banned = 1}
-set_variable = { kn_social_nationalist_banned = 1}
-set_variable = { kn_libertarian_banned = 1}
-set_variable = { kn_marxist_banned = 1}
-set_variable = { kn_voynist_banned = 1}
 
 add_ideas = {
 	USN_act_of_return
@@ -37,7 +32,7 @@ add_ideas = {
 	USN_John_Dewitt_interior
 	USN_Ernest_King_economy
 	USN_Robert_Lovett_foreign
-	USN_Joe_Robinson_education
+	USN_Richard_Russell_education
 	USN_Henry_Byrd_culture
 	USN_William_Standley_transport
 	USN_Sidney_Souers_intel
@@ -45,7 +40,6 @@ add_ideas = {
 	USN_Dwight_Eisenhower_coa
 	USN_Carl_Spaatz_coaf
 	USN_Arleigh_Burke_con
-	USN_Pedro_de_Valle_portfolio
 	}
 	
 set_popularities = {
@@ -73,7 +67,16 @@ create_country_leader = {
 	}
 }
 
-set_variable = { var = nationalist_unrest value = 75 }
+create_country_leader = {
+	name = "Dwight D. Eisenhower"
+	desc = "POLITICS_DWIGHT_D_EISENHOWER_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/USN/USN_Dwight_Eisenhower.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
 
 create_country_leader = {
 	name = "William D. Leahy"
@@ -86,10 +89,12 @@ create_country_leader = {
 	}
 }
 
+
+
 create_country_leader = {
-	name = "William D. Leahy"
-	desc = "POLITICS_WILLIAM_D_LEAHY_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/USN/USN_William_D_Leahy.tga"
+	name = "Arleigh Burke"
+	desc = "POLITICS_ARLEIGH_BURKE_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/USN/USN_Arleigh_Burke.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {

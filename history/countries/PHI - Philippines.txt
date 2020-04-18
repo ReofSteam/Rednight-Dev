@@ -24,14 +24,14 @@ set_war_support = 0.20
 
 set_country_flag = one_party_nation
 
-set_variable = { kn_authoritarian_democrat_coalition = 1 }
-set_variable = { kn_voynist_coalition = 1 }
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_voynist
 
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_marxist_banned = 1 }
-set_variable = { kn_libertarian_banned = 1 }
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
 
 
 set_technology = {
@@ -93,29 +93,22 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Elpidio Quirino"
+	name = "Ramon Magsaysay"
 	desc = "POLITICS_ELPIDO_QUIRINO_DESC"
-	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Elpidio_Quirino.tga"
-	expire = "1944.8.1"
+	picture = "gfx/leaders/ASIA/PHI/Ramon_Magsaysay.tga"
+	expire = "1960.8.1"
 	ideology = conservative_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Manuel Roxas"
-	desc = "POLITICS_MANUEL_ROXAS_DESC"
-	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Manuel_Roxas.tga"
-	expire = "1948.4.15"
+	name = "Ruperto Kangleon"
+	desc = "POLITICS_RUPERTO_KANGLEON_DESC"
+	picture = "gfx/leaders/ASIA/PHI/Ruperto Kangleon.tga"
+	expire = "1960.4.15"
 	ideology = social_liberal_subtype
 	traits = { }
 }
-create_country_leader = {
-	name = "Sergio Osmeña"
-	desc = "POLITICS_SERGIO_OSMENA_DESC"
-	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Sergio_Osmena.tga"
-	expire = "1961.10.19"
-	ideology = social_liberal_subtype
-	traits = { }
-}
+
 create_country_leader = {
 	name = "Masaharu Homma"
 	desc = "POLITICS_MASAHARU_HOMMA_DESC"
@@ -124,14 +117,7 @@ create_country_leader = {
 	ideology = autocratic_subtype
 	traits = { }
 }
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/ASIA/PHI/Portrait_Philippines_Manuel_Luis_Quezon_KR.tga"
-	expire = "1944.8.1"
-	ideology = social_liberal_subtype
-	traits = { }
-}
+
 
 ### Field Marshal
 

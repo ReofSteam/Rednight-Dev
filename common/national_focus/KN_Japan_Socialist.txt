@@ -1,0 +1,99 @@
+focus_tree = { 
+id = JAP_socialist_krasnacht
+country = { 
+factor = 0 
+} 
+#Focus for Stick With Nosaka
+focus = { 
+id = JAP_socialist_stickwithnosaka
+icon = GFX_stickwithnosaka
+x = 8
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_socialist_thepeoplesconstitution } 
+mutually_exclusive = { focus = JAP_socialist_legacyofkotoku } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Kakumei Bukkyoto
+focus = { 
+id = JAP_socialist_thekakumeibukkyoto
+icon = GFX_focus_smiling_buddha
+x = 4
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_socialist_thepeoplesconstitution } 
+mutually_exclusive = { focus = JAP_socialist_victoryforthezenrokyo } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Red Sun Rises
+focus = { 
+id = JAP_socialist_theredsunrises
+icon = GFX_theredsunrises
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The People's Constitution
+focus = { 
+id = JAP_socialist_thepeoplesconstitution
+icon = GFX_thepeoplesconstitution
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_socialist_theredsunrises } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Legacy of Kotoku
+focus = { 
+id = JAP_socialist_legacyofkotoku
+icon = GFX_legacyofkotoku
+x = 0
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_socialist_thepeoplesconstitution } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Victory For the Zenrokyo
+focus = { 
+id = JAP_socialist_victoryforthezenrokyo
+icon = GFX_victoryforthezenrokyo
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = JAP_socialist_thepeoplesconstitution } 
+mutually_exclusive = { focus = JAP_socialist_stickwithnosaka } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

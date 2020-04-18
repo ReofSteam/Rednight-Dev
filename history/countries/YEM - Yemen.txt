@@ -3,6 +3,11 @@
 OOB = "YEM"
 
 add_ideas = {
+	ahmad_devil
+	closed_society
+	republican_unrest
+	egyptian_lifeline
+
 	#medium_economy
 	#YEM_Hassan_ibn_Yahya_hog_pau
 	#YEM_Carl_Rathjens_for_pau
@@ -24,7 +29,7 @@ set_technology = {
 # 	id = yemen.36 days = 287
 # }
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = fundamentalist
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -47,17 +52,17 @@ set_convoys = 35
 
 
 create_country_leader = {
-	name = "Ahmad bin Yahya"
+	name = "Yahya al Hamid"
 	desc = "POLITICS_YAHYA_HAMID_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/YEM/YEM_Ahmad_ibn_Yahya.tga"
+	picture = "gfx/leaders/CAIRO_PACT/YEM/portrait_YEM_imam_yaha_kr.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = { }
 }
 create_country_leader = {
-	name = "Ahmad bin Yahya"
+	name = "Yahya al Hamid"
 	desc = "POLITICS_YAHYA_HAMID_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/YEM/YEM_Ahmad_ibn_Yahya.tga"
+	picture = "gfx/leaders/CAIRO_PACT/YEM/portrait_YEM_imam_yaha_kr.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
@@ -82,7 +87,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ahmad bin Yahya"
 	desc = "POLITICS_SHABAB_AL-AMR_DESC"
-	picture = "gfx/leaders/CAIRO_PACT/YEM/YEM_Ahmad_ibn_Yahya-Amr.tga"
+	picture = "gfx/leaders/CAIRO_PACT/YEM/Portrait_YEM_Shabab_al-Amr.tga"
 	expire = "1965.1.1"
 	ideology = fundamentalist_subtype
 	traits = {}

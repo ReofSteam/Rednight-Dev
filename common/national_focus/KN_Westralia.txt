@@ -1,0 +1,20 @@
+focus_tree = {
+	id = KN_Westralia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WST
+		}
+	}
+	default = no
+
+	focus = {
+		id = WST_temp
+		cost = 5
+		x = 12
+		y = 0
+		completion_reward = {
+		}
+	}
+}

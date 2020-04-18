@@ -34,15 +34,15 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_variable = { kn_marxist_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
-set_variable = { kn_social_democrat_banned = 1 }
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_voynist_banned = 1 }
+set_country_flag = coalition_marxist
+set_country_flag = coalition_moderate_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_voynist
 
 set_popularities = {
     social_nationalist = 17

@@ -104,9 +104,9 @@ set_popularities = {
 	voynist = 0
 }
 
-set_variable = { kn_autocratic_coalition = 1 }
-set_variable = { kn_conservative_coalition = 1 }
-set_variable = { kn_social_liberal_coalition = 1 }
+set_country_flag = coalition_autocratic
+set_country_flag = coalition_conservative
+set_country_flag = coalition_social_liberal
 
 add_opinion_modifier = { target = GBR modifier = embargo }
 add_opinion_modifier = { target = CSA modifier = embargo }

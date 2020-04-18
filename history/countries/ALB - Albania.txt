@@ -49,9 +49,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mehmet Shehu"
-	desc = "POLITICS_Mehmet_Shehu_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Mehmet_Shehu.tga"
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Enver_Hoxha.dds"
 	expire = "1965.1.1"
 	ideology = social_nationalist_subtype
 	traits = {}
@@ -66,9 +66,9 @@ create_country_leader = {
 	traits = {}
 }
 create_country_leader = {
-	name = "Mehmet Shehu"
-	desc = "POLITICS_Mehmet_Shehu_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Mehmet_Shehu.tga"
+	name = "Enver Hoxha"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Enver_Hoxha.dds"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
 	traits = {}

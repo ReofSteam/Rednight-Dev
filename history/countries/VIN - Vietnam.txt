@@ -61,7 +61,6 @@ set_popularities = {
 }
 
 
-#NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
 create_country_leader = {
 	name = "Phan Bôi Châu" 

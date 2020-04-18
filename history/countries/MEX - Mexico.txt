@@ -46,10 +46,17 @@ set_popularities = {
 }
 
 add_ideas = {
-	MEX_garza_dwindling_health
-	MEX_legacy_of_1948
-	MEX_unstable_coalition
-	MEX_pan_american_shock
+	#medium_economy
+
+	#MEX_Emiliano_Zapata_hog_syn
+	#MEX_Francisco_Castillo_Najera_for_rso
+	#MEX_Luis_Cabrera_eco_syn
+	#MEX_Pancho_Villa_sec_rso
+	#MEX_Plutarco_Elias_Calles_int_tot
+
+
+	#laws
+	#limited_exports
 }
 create_country_leader = {
 	name = "Emiliano Zapata"

@@ -1,0 +1,571 @@
+
+focus_tree = {
+	id = bulgarian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BUL
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1350 }
+
+	focus = {
+		id = BUL_legacy_of_stambolyiski
+		icon = GFX_legacy_of_stambolyiski
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = no
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BUL_establish_new_museums
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_legacy_of_stambolyiski }
+		#mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		custom_effect_tooltip = 1_BUL_tt
+		}
+		completion_reward = {
+		custom_effect_tooltip = 1_BUL_tt
+		}
+	}
+	
+	focus = {
+		id = BUL_education_reforms
+		icon = GFX_education_reform
+		prerequisite = { focus = BUL_legacy_of_stambolyiski }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		country_event = {
+            id = bul.4
+            days = 10
+            random = 50
+            }
+		}
+	}
+	focus = {
+		id = BUL_creation_of_the_prolet_paper
+		icon = GFX_creation_of_the_prolet_paper
+		prerequisite = { focus = BUL_legacy_of_stambolyiski }
+		#mutually_exclusive = { focus =  }
+		x = 6
+		y = 1
+		cost = 6
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		custom_effect_tooltip = 2_BUL_tt
+		}
+		completion_reward = {
+		country_event = {
+            id = bul.3
+            days = 10
+            random = 50
+            }
+		set_country_flag = the_prolet_paper_has_been_created
+		custom_effect_tooltip = 2_BUL_tt
+		}
+	}
+	focus = {
+		id = BUL_jail_lukov
+		icon = GFX_jail_lukov
+		prerequisite = { focus = BUL_education_reforms }
+		prerequisite = { focus = BUL_creation_of_the_prolet_paper }
+		prerequisite = { focus = BUL_establish_new_museums }
+		mutually_exclusive = { focus = BUL_respect_the_tsars_authority }
+		x = 3
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_respect_the_tsars_authority
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_education_reforms }
+		prerequisite = { focus = BUL_creation_of_the_prolet_paper }
+		prerequisite = { focus = BUL_establish_new_museums }
+		mutually_exclusive = { focus = BUL_jail_lukov }
+		x = 5
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_referendum_on_the_judicial_sector
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_jail_lukov }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_appoint_new_judges
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_referendum_on_the_judicial_sector }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_revoke_the_censorship_law
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_appoint_new_judges }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_simply_a_symbolic_figure
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_revoke_the_censorship_law }
+		#mutually_exclusive = { focus =  }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = BUL_develop_industry_in_plovdiv
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = BUL_jail_lukov focus = BUL_respect_the_tsars_authority }
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+			212 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						
+					}
+				}
+			}
+		}
+	}
+		focus = {
+		id = BUL_develop_industry_in_ruse
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = BUL_jail_lukov focus = BUL_respect_the_tsars_authority }
+		#mutually_exclusive = { focus =  }
+		x = 5
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+			771 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						
+					}
+				}
+			}
+		}
+	}
+		focus = {
+		id = BUL_industrial_expansion_in_the_sofia_region
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = BUL_develop_industry_in_plovdiv }
+		prerequisite = { focus = BUL_develop_industry_in_ruse }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+			48 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						
+					}
+				}
+			}
+		}
+	}
+		focus = {
+		id = BUL_compensate_the_remaining_farmers
+		icon = GFX_goal_KN_generic_agriculture
+		prerequisite = { focus = BUL_industrial_expansion_in_the_sofia_region }
+		#mutually_exclusive = { focus =  }
+		x = 5
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_employ_the_former_farmers
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_industrial_expansion_in_the_sofia_region }
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_finish_industrialisation
+		icon = GFX_focus_generic_industry_3
+		prerequisite = { focus = BUL_employ_the_former_farmers }
+		prerequisite = { focus = BUL_compensate_the_remaining_farmers }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 6
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+			211 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+							#province = 9902
+							#Industrial Complex is not a province based building type
+					}
+				}
+			}
+		}
+	}
+		focus = {
+		id = BUL_befriend_the_tsar
+		icon = GFX_befriend_the_tsar
+		prerequisite = { focus = BUL_respect_the_tsars_authority }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_joint_statements
+		icon = GFX_joint_statements
+		prerequisite = { focus = BUL_befriend_the_tsar }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_the_tsar_must_be_able_to_propose
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = BUL_joint_statements }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_the_tsar_must_be_able_to_veto
+		icon = GFX_the_power_to_veto
+		prerequisite = { focus = BUL_the_tsar_must_be_able_to_propose }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = BUL_preparation_for_the_1953_elections
+		icon = GFX_preparation_for_the_1953_elections
+		prerequisite = { focus = BUL_the_tsar_must_be_able_to_veto }
+		prerequisite = { focus = BUL_simply_a_symbolic_figure }
+		prerequisite = { focus = BUL_finish_industrialisation }
+		#mutually_exclusive = { focus =  }
+		x = 4
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+		}	
+		bypass = {
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		completion_reward = {
+		}
+	}

@@ -15,180 +15,59 @@ set_technology = {
 }
 
 add_ideas = {
-	FNG_foreign_influence_1_idea
-	FNG_fervour_2_idea
-	FNG_discipline_3_idea
-	FNG_zhangyang_war
-	FNG_economy_1_idea
+	FNG_Legacy_of_the_Xinhai_Revolution
+	FNG_Japanese_Sponsorship
+	FNG_The_Northern_Army
+	FNG_Large_Outdated_Industry
+	FNG_Insitutionalized_Corruption
 }
 
-add_ideas = {
-	FNG_Ji_Yiqiao_hog
-	FNG_Yan_Baohang_no_portfolio
-	FNG_Gao_Chongmin_interior
-	FNG_Peng_Xian_economy
-	FNG_Mo_Dehui_foreign
-	FNG_Ning_Encheng_education
-	FNG_Zhao_Yidi_culture
-	FNG_Wang_Fengrui_transport
-	FNG_Wu_Taixun_intel
-	FNG_Yang_Yuting_staff
-	FNG_Bao_Wenyue_army
-	FNG_Feng_Yong_air_force
-	FNG_Shen_Honglie_navy
+JAP = { 
+	if = {
+		limit = {
+			has_dlc = "Together for Victory"
+		}
+
+		set_autonomy = {
+			target = FNG
+			autonomy_state = kn_satellite
+		}
+		else = {
+			puppet = FNG 
+		}
+	}
 }
 
 set_politics = {	
-	ruling_party = autocratic
+	ruling_party = authoritarian_democrat
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 6
-    marxist = 3
-    libertarian = 4
-    moderate_socialist = 5
-    social_democrat = 7
-    social_liberal = 9
-    conservative = 8
-    authoritarian_democrat = 10
-    autocratic = 47
-    fundamentalist = 1
+    social_nationalist = 0
+    marxist = 0
+    libertarian = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    conservative = 0
+    authoritarian_democrat = 100
+    autocratic = 0
+    fundamentalist = 0
     voynist = 0
 }
-
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_social_nationalist_banned = 1}
-set_variable = { kn_marxist_banned = 1}
-set_variable = { kn_libertarian_banned = 1}
-set_variable = { kn_moderate_socialist_banned = 1}
-set_variable = { kn_social_democrat_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
-
 set_convoys = 40
 
-set_variable = { 
-	var = var_zhangclique_influence 
-	value = 35 
-}
-
-set_variable = { 
-	var = var_yangclique_influence 
-	value = 33 
-}
-
-set_variable = { 
-	var = var_qizhangclique_influence 
-	value = 32 
-}
-
-create_country_leader = {
-	name = "Zhang Xuesi"
-	desc = "POLITICS_ZHANG_XUESI_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Ma Su"
-	desc = "POLITICS_MA_SU_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = marxist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Guan Xiangying"
-	desc = "POLITICS_GUAN_XIANGYING_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = libertarian_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Zhang Shizhao"
-	desc = "POLITICS_ZHANG_SHIZHAO_DESC"
-	picture = "gfx/leaders/ASIA/CHI/CHI_Zeng_Zhongming.tga"
-	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
-	traits = {
-		leader_political_apathy
-	}
-}
-
-create_country_leader = {
-	name = "Carsun Chang"
-	desc = "POLITICS_CARSUN_CHANG_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Peng Xian"
-	desc = "POLITICS_PENG_XIAN_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Cai Rulin"
-	desc = "POLITICS_CAI_RULIN_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = conservative_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Ruan Zhenduo"
-	desc = "POLITICS_RUAN_ZHENDUO_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-	}
-}
 
 create_country_leader = {
 	name = "Zhang Xueliang"
 	desc = "POLITICS_FNG_ZHANG_XUELIANG_DESC"
 	picture = "gfx/leaders/ASIA/FNG/FNG_Zhang_Xueliang.tga"
 	expire = "1965.1.1"
-	ideology = autocratic_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		leader_drug_addict
-	}
-}
-
-create_country_leader = {
-	name = "Mitropolit Meretij"
-	desc = "POLITICS_ORTHODOX_CUCK_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
-	traits = {
+		young_marshal
 	}
 }

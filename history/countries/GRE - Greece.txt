@@ -1,14 +1,14 @@
-capital = 47
+﻿capital = 47
 
-oob = "GRE_1950"
+oob = "GRE_1936"
 
 set_research_slots = 3
 
 add_ideas = {
+	GRE_regency_council
 	GRE_military_regime
 	GRE_state_orthodoxy
 	GRE_glorious_military
-	GRE_economy_failing
 
 	#Cabinet
 	GRE_Alexandros_Papagos_hog #Head of Government
@@ -85,20 +85,20 @@ set_popularities = {
 	voynist = 8
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
 
-set_variable = { kn_social_nationalist_banned = 1}
-set_variable = { kn_marxist_banned = 1}
-set_variable = { kn_libertarian_banned = 1}
-set_variable = { kn_moderate_socialist_banned = 1}
-set_variable = { kn_social_democrat_banned = 1}
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_social_democrat
 
-set_variable = { kn_conservative_coalition = 1} #The conservatives is in a coalition with the army
+set_country_flag = coalition_conservative #The conservatives is in a coalition with the army
 
 set_variable = { greek_opinion_military = 2 }
 set_variable = { greek_opinion_rus = 1 }
@@ -248,7 +248,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Alexandros Papagos"
-	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexander_Papagos.tga"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Alexandros_Papagos.tga"
 	traits = {
 		cavalry_officer
 		organizer

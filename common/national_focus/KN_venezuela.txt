@@ -1,0 +1,813 @@
+focus_tree = {
+	id = venezuelan_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VEN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1350 }
+
+	focus = {
+		id = VEN_status_of_the_country
+		icon = GFX_focus_secret_rearmament
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+		focus = {
+		id = VEN_status_of_the_oil_industry
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = VEN_status_of_the_country }
+		#mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+			focus = {
+		id = VEN_status_of_the_economy
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = VEN_status_of_the_country }
+		#mutually_exclusive = { focus =  }
+		x = 7
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_status_of_the_countryside
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		prerequisite = { focus = VEN_status_of_the_country }
+		#mutually_exclusive = { focus =  }
+		x = 11
+		y = 1
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_deal_with_the_strikers
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = VEN_status_of_the_oil_industry }
+		mutually_exclusive = { focus = VEN_a_new_and_cheap_labour_force focus = VEN_surpress_the_strikers }
+		x = 1
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_a_new_and_cheap_labour_force
+		icon = GFX_focus_generic_concessions
+		prerequisite = { focus = VEN_status_of_the_oil_industry }
+		mutually_exclusive = { focus = VEN_deal_with_the_strikers focus = VEN_surpress_the_strikers }
+		x = 3
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_surpress_the_strikers
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = VEN_status_of_the_oil_industry }
+		mutually_exclusive = { focus = VEN_a_new_and_cheap_labour_force focus = VEN_deal_with_the_strikers }
+		x = 5
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_accept_all_of_their_demands
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = VEN_deal_with_the_strikers }
+		mutually_exclusive = { focus = VEN_accept_some_of_their_demands }
+		x = -1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_accept_some_of_their_demands
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = VEN_deal_with_the_strikers }
+		mutually_exclusive = { focus = VEN_accept_all_of_their_demands }
+		x = 1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_provide_the_new_work_force
+		icon = GFX_focus_generic_the_giant_wakes
+		prerequisite = { focus = VEN_a_new_and_cheap_labour_force}
+		##mutually_exclusive = { focus = }
+		x = 3
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_profit_at_last
+		icon = GFX_focus_ven_profit_at_last
+		prerequisite = { focus = VEN_accept_all_of_their_demands focus = VEN_get_back_to_work focus = VEN_accept_some_of_their_demands focus = VEN_provide_the_new_work_force }
+		##mutually_exclusive = { focus = }
+		x = 3
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = VEN_get_back_to_work
+		icon = GFX_focus_CZE_german_puppet
+		prerequisite = { focus = VEN_surpress_the_strikers }
+		##mutually_exclusive = { focus = }
+		x = 5
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+				focus = {
+		id = VEN_adopt_zarragazas_diversification_plan
+		icon = GFX_focus_ven_adopt_zarragas_diversification_plan
+		prerequisite = { focus = VEN_status_of_the_economy }
+		##mutually_exclusive = { focus = }
+		x = 7
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+		
+				focus = {
+		id = VEN_draft_a_bill
+		icon = GFX_focus_generic_treaty
+		prerequisite = { focus = VEN_adopt_zarragazas_diversification_plan }
+		##mutually_exclusive = { focus = }
+		x = 7
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+		
+				focus = {
+		id = VEN_pass_the_bill
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = VEN_draft_a_bill }
+		#mutually_exclusive = { focus = }
+		x = 7
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+			
+				focus = {
+		id = VEN_secure_maracaibo
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = VEN_status_of_the_countryside }
+		#mutually_exclusive = { focus = }
+		x = 11
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+				
+				focus = {
+		id = VEN_purchase_brazillian_equipment
+		icon = GFX_focus_ven_purchase_brazillian_equipment
+		prerequisite = { focus = VEN_status_of_the_countryside }
+		#mutually_exclusive = { focus = }
+		x = 9
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+				
+				focus = {
+		id = VEN_commision_anti_partisan_propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = VEN_status_of_the_countryside }
+		#mutually_exclusive = { focus = }
+		x = 13
+		y = 2
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+					
+				focus = {
+		id = VEN_purchase_russian_equipment
+		icon = GFX_focus_ven_purchase_russian_equipment
+		prerequisite = { focus = VEN_purchase_brazillian_equipment }
+		#mutually_exclusive = { focus = }
+		x = 9
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+						
+				focus = {
+		id = VEN_push_the_partisans_south
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = VEN_secure_maracaibo }
+		#mutually_exclusive = { focus = }
+		x = 11
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+							
+				focus = {
+		id = VEN_better_dead_than_red
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = VEN_commision_anti_partisan_propaganda }
+		#mutually_exclusive = { focus = }
+		x = 13
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+								
+				focus = {
+		id = VEN_breathing_space_at_last
+		icon = GFX_focus_ven_surpress_the_strikers
+		prerequisite = { focus = VEN_push_the_partisans_south }
+		#mutually_exclusive = { focus = }
+		x = 11
+		y = 4
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+								
+				focus = {
+		id = VEN_stability_how_ive_missed_you_so
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = VEN_breathing_space_at_last }
+		prerequisite = { focus = VEN_profit_at_last }
+		prerequisite = { focus = VEN_pass_the_bill }
+		#mutually_exclusive = { focus = }
+		x = 7
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}

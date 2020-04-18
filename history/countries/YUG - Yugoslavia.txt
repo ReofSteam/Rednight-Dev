@@ -43,14 +43,6 @@ set_popularities = {
     voynist = 2
 }
 
-add_ideas = {
-    YUG_agrarian_countryside
-	YUG_national_question
-	YUG_uncertain_government
-	YUG_ustasnik_terror
-	YUG_phalanstere_reconstruction_initiative
-}
-
 ###############################
 #### COALITION AND BANNNED ####
 ###### set_country_flag #######
@@ -58,15 +50,15 @@ add_ideas = {
 ##### coalition_[IDEOLOGY] ####
 ###############################
 
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_conservative_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_voynist_banned = 1 }
+set_country_flag = banned_social_liberal
+set_country_flag = banned_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_voynist
 
-set_variable = { kn_libertarian_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
+set_country_flag = coalition_libertarian
+set_country_flag = coalition_moderate_socialist
 
 set_stability = 0.75
 
@@ -99,9 +91,7 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Vladimir_Copic.tga"
 	expire = "1965.1.1"
 	ideology = marxist_subtype
-	traits = { 
-	peoples_marshal
-	}
+	traits = { }
 }
 
 create_country_leader = {

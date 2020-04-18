@@ -20,10 +20,10 @@ set_politics = {
 
 }
 
-set_variable = { kn_social_nationalist_coalition = 1 }
-set_variable = { kn_authoritarian_democrat_coalition = 1 }
-set_variable = { kn_social_democrat_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
+set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_moderate_socialist
 
 add_opinion_modifier = { 
                     target = GBR
@@ -67,7 +67,7 @@ add_ideas = {
 	IRE_post_office
 	IRE_irish_church
 	
-	IRE_Sean_Mac_Eoin_hog
+	IRE_Sean_OKelly_hog
 	IRE_Cathal_Bruga_interior
 	IRE_John_Costello_economy
 	IRE_Sean_Mcbride_foreign

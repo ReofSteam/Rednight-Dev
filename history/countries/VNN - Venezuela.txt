@@ -50,15 +50,15 @@ add_ideas = {
 }
 
 ### PARTIES UI ###
-	set_variable = { kn_autocratic_coalition = 1 }
-	set_variable = { kn_conservative_coalition = 1 }
+	set_country_flag = coalition_autocratic
+	set_country_flag = coalition_conservative
 
 	### BANNED ###
-	set_variable = { kn_social_nationalist_banned = 1 }
-	set_variable = { kn_marxist_banned = 1 }
-	set_variable = { kn_libertarian_banned = 1 }
-	set_variable = { kn_moderate_socialist_banned = 1 }
-	set_variable = { kn_social_democrat_banned = 1 }
+	set_country_flag = banned_social_nationalist
+	set_country_flag = banned_marxist
+	set_country_flag = banned_libertarian
+	set_country_flag = banned_moderate_socialist
+	set_country_flag = banned_social_democrat
 ###
 
 create_country_leader = {

@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		SER_volunteer_army = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SER_volunteer_army"}
+			modifier = {
+				conscription = 0.015
+				army_morale_factor = 0.05
+			}
+			picture = American_House
+		}
+
+		SER_red_purges = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SER_red_purges"}
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = 0.10
+				enemy_partisan_effect = -0.2
+			}
+		}
+	}
+}

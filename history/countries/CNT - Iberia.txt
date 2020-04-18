@@ -32,21 +32,22 @@ add_ideas = {
 	CNT_syndicalism_bulwark
 	CNT_reactionary_terrorism
 	CNT_international_aid
-
-	#Cabinet
-	CNT_Andreu_Nin_hog #Head of Government
-	CNT_Pedro_Lopez_Calle_interior #Minister of Interior
-	CNT_Amador_Fernandez_Montes_economy #Minister of Economy
-	CNT_Luis_Araquistain_foreign #Minister of Foreign Affairs
-	CNT_Alvaro_Cunhal_education #Minister of Education
-	CNT_Lucia_Sanchez_Saornil_culture #Minister of Culture 
-	CNT_Manuel_Davila_Erias_transport #Minister of Transportation
-	CNT_Federica_Montseny_portfolio #Minister without Portfolio, Healthcare
-	CNT_Carlos_de_Baraibar_Ezpondaburu_intel #Head of Intelligence
-	CNT_Buenaventura_Durruti_cos #Chief of Staff 
-	CNT_Jose_Riquelme_Lopez_Bago_coa #Chief of Army
-	CNT_Ramon_Franco_Bahamonde_air #Chief of Air
-	CNT_Joaquin_Enguia_Unzueta_navy #Chief of Navy
+}
+#CABINET
+add_ideas = {
+	CNT_Andreu_Nin #Head of Government
+	CNT_Federica_Montseny #No Portfolio, Healthcare
+	CNT_Pedro_Lopez_Calle #Interior
+	CNT_Amador_Fernandez_Montes #Economic
+	CNT_Luis_Araquistain #Foreign
+	CNT_Alvaro_Cunhal #Education
+	CNT_Lucia_Sanchez_Saornil #Culture 
+	CNT_Manuel_Davila_Erias #Transport
+	CNT_Carlos_de_Baraibar_Ezpondaburu #Intel
+	CNT_Buenaventura_Durruti #Chief of Staff 
+	CNT_Jose_Riquelme_Lopez_Bago #Chief of Army
+	CNT_Ramon_Franco_Bahamonde #Chief of Air
+	CNT_Joaquin_Enguia_Unzueta #Chief of Navy
 }
 
 set_convoys = 150
@@ -54,6 +55,7 @@ set_stability = 0.5
 
 
 ### LAWS ###
+set_country_flag = kn_economy_planned
 
 set_politics = {
 	ruling_party = libertarian
@@ -76,21 +78,12 @@ set_popularities = {
     voynist = 1
 }
 
-###################################
-###### COALITION AND BANNNED ######
-######    set_country_flag   ######
-######  kn_[IDEOLOGY]_banned  #####
-##### kn_[IDEOLOGY]_coalition #####
-###################################
-
-set_variable = { kn_marxist_coalition = 1}
-
-set_variable = { kn_social_liberal_banned = 1}
-set_variable = { kn_conservative_banned = 1}
-set_variable = { kn_authoritarian_democrat_banned = 1}
-set_variable = { kn_autocratic_banned = 1}
-set_variable = { kn_voynist_banned = 1}
-set_variable = { kn_fundamentalist_banned = 1}
+set_country_flag = coalition_marxist
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_findamentalist
+set_country_flag = banned_voynist
 
 create_country_leader = {
 	name = "Alberto Monsaraz"

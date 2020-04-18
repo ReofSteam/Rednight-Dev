@@ -50,19 +50,17 @@ add_ideas = {
 	GBR_overstretched_navy
 	GBR_bloated_trade_union_bureaucracy
 	GBR_the_fate_of_the_protector
-	GBR_phalanstere_reconstruction_initiative
 }
 
 #CABINET
 add_ideas = {
 	GBR_Clem_Attlee #Head of Government
-	GBR_Nye_Bevan_interior #Interior
+	GBR_Arthur_Horner #Interior
 	GBR_Stafford_Cripps #Economic
-	GBR_Arthur_Horner_foreign #Foreign
+	GBR_Nye_Bevan_foreign #Foreign
 	GBR_Annie_Kenney #Education
 	GBR_GDH_Cole #Culture 
 	GBR_Willie_Gallacher #Transport
-	GBR_Richard_Crossman_portfolio #No portfolio (Labour Leader)
 	GBR_Guy_Liddell #Intel
 	GBR_Thomas_Wintringham #Chief of Staff 
 	GBR_Bill_Alexander #Chief of Army
@@ -71,17 +69,17 @@ add_ideas = {
 }
 
 ### PARTIES UI ###
-	set_variable = { kn_marxist_coalition = 1 }
-	set_variable = { kn_libertarian_coalition = 1 }
-	set_variable = { kn_moderate_socialist_coalition = 1 }
-	set_variable = { kn_social_democrat_coalition = 1 }
+	set_country_flag = coalition_marxist
+	set_country_flag = coalition_libertarian
+	set_country_flag = coalition_moderate_socialist
+	set_country_flag = coalition_social_democrat
 
 	### BANNED ###
-	set_variable = { kn_conservative_banned = 1 }
-	set_variable = { kn_authoritarian_democrat_banned = 1 }
-	set_variable = { kn_autocratic_banned = 1 }
-	set_variable = { kn_fundamentalist_banned = 1 }
-	set_variable = { kn_voynist_banned = 1 }
+	set_country_flag = banned_conservative
+	set_country_flag = banned_authoritarian_democrat
+	set_country_flag = banned_autocratic
+	set_country_flag = banned_fundamentalist
+	set_country_flag = banned_voynist
 
 
 set_convoys = 800

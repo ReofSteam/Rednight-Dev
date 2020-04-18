@@ -41,25 +41,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 5
+    social_nationalist = 33
     marxist = 0
-    libertarian = 0
-    moderate_socialist = 0
-    social_democrat = 0
-    social_liberal = 0
-    conservative = 0
-    authoritarian_democrat = 5
-    autocratic = 35
-    fundamentalist = 45
+    libertarian = 11
+    moderate_socialist = 7
+    social_democrat = 3
+    social_liberal = 8
+    conservative = 7
+    authoritarian_democrat = 4
+    autocratic = 16
+    fundamentalist = 14
     voynist = 0
-}
-
-set_variable = { var = crusader_meter value = 0 }
-
-clamp_variable = {
-    var = crusader_meter
-    min = 0
-    max = 100
 }
 
 add_namespace = {

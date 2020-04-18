@@ -1,0 +1,29 @@
+ideas = {
+	head_of_government = {
+		NZL_lafayette_black_guvnor = {
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	}
+	
+	minister_no_portfolio = {
+		NZL_teijiro_toyoda_japanese_ambassador = {
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	}
+	
+	transport_minister  = {
+		NZL_henry_ford_tra = {
+			allowed = {
+			}
+			traits = {
+			}
+		}
+	}
+
+}

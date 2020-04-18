@@ -1,22 +1,25 @@
 ﻿capital = 286 #Saigon
 
 oob = "INC"
-set_variable = { kn_social_nationalist_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
-set_variable = { kn_social_democrat_coalition = 1 }
-set_variable = { kn_social_liberal_coalition = 1 }
-set_variable = { kn_authoritarian_democrat_coalition = 1 }
-set_variable = { kn_conservative_coalition = 1 }
+set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_moderate_socialist
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_social_liberal
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_conservative
+set_country_flag = coalition_marxist
 
-set_variable = { kn_voynist_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
+set_country_flag = banned_voynist
+set_country_flag = banned_fundamentalist
+set_country_flag = banned_autocratic
 
 set_research_slots = 3
 
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.2
+
+country_event = inc.1
 
 add_ideas = {
 	INC_young_republic
@@ -96,16 +99,6 @@ set_popularities = {
 
 ##gfx/leaders/RMK/INC/
 
-create_country_leader = {
-	name = "Phan Bôi Châu" 
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
-	expire = "1953.3.1"
-	ideology = fundamentalist_subtype 
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Ho Tung Mau" 
@@ -117,29 +110,26 @@ create_country_leader = {
 		
 	}
 }
-
 create_country_leader = {
-	name = "Ngo Dinh Diêm"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
+	name = "Tran Van Huong" 
+	desc = "POLITICS_TRAN_VAN_HUONG_1_DESC"
+	picture = "gfx/leaders/Asia/INC/Tran_Van_Huong_INC.tga"
+	expire = "1963.3.1"
 	ideology = conservative_subtype
 	traits = {
 		
 	}
 }
-
 create_country_leader = {
-	name = "Ta Thu Thau"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
-	ideology = libertarian_subtype
+	name = "Tran Van Huong" 
+	desc = "POLITICS_TRAN_VAN_HUONG_2_DESC"
+	picture = "gfx/leaders/Asia/INC/Tran_Van_Huong_INC.tga"
+	expire = "1963.3.1"
+	ideology = social_liberal_subtype
 	traits = {
 		
 	}
 }
-
 create_field_marshal = {
 	name = "Nguyen Binh"
 	portrait_path = "gfx/leaders/ASIA/INC/Nguyen_Binh_INC.tga"

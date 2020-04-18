@@ -46,13 +46,13 @@ set_technology = {
 }
 ### PARTIES UI ###
 	### BANNED ###
-	set_variable = { kn_authoritarian_democrat_banned = 1 }
-	set_variable = { kn_autocratic_banned = 1 }
-	set_variable = { kn_fundamentalist_banned = 1 }
-	set_variable = { kn_voynist_banned = 1 }
+	set_country_flag = banned_authoritarian_democrat
+	set_country_flag = banned_autocratic
+	set_country_flag = banned_fundamentalist
+	set_country_flag = banned_voynist
 
 	### COALITION ###
-	set_variable = { kn_marxist_coalition = 1 }
+	set_country_flag = coalition_marxist
 
 set_politics = {	
 	ruling_party = libertarian
@@ -108,8 +108,6 @@ create_country_leader = {
 	}
 }
 
-
-
 create_field_marshal = {
 	name = "Alexander Vandegrift"
 	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Alexander_Vandegrift.dds"
@@ -125,21 +123,6 @@ create_field_marshal = {
     defense_skill = 2
     planning_skill = 4
     logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Oliver Law"
-	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Oliver_Law.dds"
-	traits = { 
-		war_hero
-		commando
-		urban_assault_specialist
-	}
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 2
 }
 
 create_corps_commander = {

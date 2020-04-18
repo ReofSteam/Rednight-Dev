@@ -1,0 +1,254 @@
+ideas = {
+	head_of_government = {
+		GBR_Clem_Attlee = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Clem Attlee' the 'head of government'"}
+			picture = GFX_idea_GBR_Clem_Attlee
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				moderate_socialist_trait 
+				GBR_chairman_of_federal_congress
+			}
+		}
+		GBR_Nye_Bevan_hog = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nye Bevan' the 'Head of Government'"}
+			picture = GBR_Nye_Bevan
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				moderate_socialist_trait
+				GBR_commissioner_foreign_affairs
+			}
+		}
+	}
+	minister_no_portfolio = {
+		
+	}
+	interior_minister = {
+		GBR_Arthur_Horner = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Arthur Horner' the 'Interior Minister'"}
+			picture = idea_GBR_Arthur_Horner
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				marxist_trait
+				GBR_commissioner_of_home_affairs
+			}
+		}
+	}
+	economy_minister = {
+		GBR_Stafford_Cripps = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Stafford Cripps' the 'Economy Minister'"}
+			picture = idea_GBR_Stafford_Cripps
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				moderate_socialist_trait 
+				GBR_chancellor_exchequer
+			}
+		}
+	}
+	foreign_minister = {
+		GBR_Nye_Bevan_foreign = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Nye Bevan' the 'Foreign Minister'"}
+			picture = GBR_Nye_Bevan
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				moderate_socialist_trait
+				GBR_commissioner_foreign_affairs
+			}
+		}
+	}
+	education_minister = {
+		GBR_Annie_Kenney = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Annie Kenney' the 'Education Minister'"}
+			picture = idea_GBR_Annie_Kenney
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				libertarian_trait
+				commissioner_education
+			}
+		}
+	}
+	culture_minister = {
+		GBR_GDH_Cole = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'G.D.H Cole' the 'Culture Minister'"}
+			picture = idea_GBR_GDH_Cole
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				libertarian_trait
+				GBR_commissioner_public_information
+			}
+		}
+	}
+	transport_minister = {
+		GBR_Willie_Gallacher = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Willie Gallacher' the 'Transport Minister'"}
+			picture = idea_GBR_Willie_Gallacher
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				marxist_trait
+				GBR_commissioner_public_transport
+			}
+		}
+	}
+	head_of_intel = {
+		GBR_Guy_Liddell = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Guy Liddell' the 'Head of Intelligence'"}
+			picture = GBR_Guy_Lidell
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				GBR_director_RED
+			}
+		}
+	}
+	chief_of_staff = {
+		GBR_Thomas_Wintringham = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Thomas Wintringham' the 'Head of Army'"}
+			picture = idea_GBR_Thomas_Wintringham
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				GBR_cdf_baf
+			}
+		}
+	}
+	chief_of_army = {
+		GBR_Bill_Alexander = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Bill Alexander' the 'Chief of Staff'"}
+			picture = idea_GBR_Bill_Alexander
+
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				GBR_cgs_ba
+			}
+		}
+	}
+	chief_of_air_force = {
+		GBR_Jack_Baldwin = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Jack Baldwin' the 'Head of Air Force'"}
+			picture = idea_GBR_Jack_Baldwin
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				GBR_caf_raf
+			}
+		}
+	}
+	chief_of_navy = {
+		GBR_Geoffrey_Barnard = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: Made 'Geofferey Barnard' the 'Head of Navy'"}
+			picture = idea_GBR_Geoffrey_Barnard
+			allowed = {
+				OR = {
+					tag = GBR
+					original_tag = GBR
+				}
+			}
+			traits = {
+				GBR_cns_rn
+			}
+		}
+	}
+	country = {
+		GBR_victors_of_the_second_weltkrieg = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GBR_victors_of_the_second_weltkrieg"}
+			picture = weltkrieg_victors
+			modifier = {
+				stability_factor = 0.20
+				war_support_factor = -0.50
+				conscription_factor = -0.1
+			}
+		}
+
+		GBR_the_fate_of_the_protector = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GBR_the_fate_of_the_protector"}
+			picture = mosley_bars
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.5
+			}
+		}
+
+		GBR_a_very_british_problem = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GBR_a_very_british_problem"}
+			picture = very_british_problem
+			modifier = {
+				political_power_gain = -0.25
+			}
+
+		}
+
+		GBR_bloated_trade_union_bureaucracy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GBR_bloated_trade_union_bureaucracy"}
+			picture = bloated_bureaucracy
+			modifier = {
+				production_speed_buildings_factor = -0.15
+				global_building_slots_factor = -0.15
+			}	
+		}
+		
+		GBR_overstretched_navy = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GBR_overstretched_navy"}
+			picture = generic_coastal_defense_ships2
+			modifier = {
+				navy_max_range_factor = -0.05
+				naval_coordination = -0.2
+			}
+		}
+	}
+}

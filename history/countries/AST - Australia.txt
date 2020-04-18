@@ -26,7 +26,7 @@ set_technology = {
 }
 
 add_ideas = {
-	AST_Arthur_Calwell_a
+	AST_Arthur_Calwell
 	AST_the_new_republic
 	AST_divided
 	AST_investigations_branch
@@ -56,15 +56,15 @@ set_popularities = {
 }
 
 ### PARTIES UI ###
-set_variable = { kn_social_nationalist_banned = 1 }
-set_variable = { kn_marxist_banned = 1 }
-set_variable = { kn_libertarian_banned = 1 }
-set_variable = { kn_moderate_socialist_banned = 1 }
-set_variable = { kn_fundamentalist_banned = 1 }
+set_country_flag = banned_social_nationalist
+set_country_flag = banned_marxist
+set_country_flag = banned_libertarian
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_fundamentalist
 
-set_variable = { kn_authoritarian_democrat_coalition = 1 } # alnp moderate wing
-set_variable = { kn_autocratic_coalition = 1 } # alnp super moderate/old labor wing
-set_variable = { kn_voynist_coalition = 1 } # alnp nationalist wing
+set_country_flag = coalition_authoritarian_democrat # ALNP moderate wing
+set_country_flag = coalition_autocratic # ALNP super moderate/old labor wing
+set_country_flag = coalition_voynist # ALNP nationalist wing
 
 set_convoys = 100
 
