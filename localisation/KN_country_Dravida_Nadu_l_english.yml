@@ -1,0 +1,84 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+DRA_social_nationalist_party:0 "INC" #Illegal
+DRA_social_nationalist_party_long:0 "Indian National Congress (Boseist)"
+DRA_marxist_party:0 "INC" #Illegal
+DRA_marxist_party_long:0 "Indian National Congress (Marxist)"
+DRA_libertarian_party:0 "INC" #Illegal
+DRA_libertarian_party_long:0 "Indian National Congress (Socialist)"
+DRA_moderate_socialist_party:0 "Dravidar Kazhagam"
+DRA_moderate_socialist_party_long:0 "Dravidar Kazhagam"
+DRA_social_democrat_party:0 "Dravidar Kazhagam (Munnetra)"
+DRA_social_democrat_party_long:0 "Dravidar Kazhagam (Munnetra)"
+DRA_social_liberal_party:0 "Swaraj" #Illegal
+DRA_social_liberal_party_long:0 "Swaraj"
+DRA_conservative_party:0 "Swatantra " #Illegal
+DRA_conservative_party_long:0 "Swatantra "
+DRA_authoritarian_democrat_party:0 "Junta" #Illegal
+DRA_authoritarian_democrat_party_long:0 "Junta"
+DRA_autocratic_party:0 "BJS" #Illegal
+DRA_autocratic_party_long:0 "Bharatiya Jana Sangh"
+DRA_fundamentalist_party:0 "BJS" #Illegal
+DRA_fundamentalist_party_long:0 "Bharatiya Jana Sangh"
+DRA_voynist_party:0 "BJS" #Illegal
+DRA_voynist_party_long:0 "Bharatiya Jana Sangh"
+
+### Country Name ###
+
+DRA_social_nationalist:0 "Dravida Nadu"
+DRA_social_nationalist_ADJ:0 "Dravidian"
+DRA_social_nationalist_DEF:0 "Dravida Nadu"
+DRA_marxist:0 "Dravida Nadu"
+DRA_marxist_ADJ:0 "Dravidian"
+DRA_marxist_DEF:0 "Dravida Nadu"
+DRA_libertarian:0 "Dravida Nadu"
+DRA_libertarian_ADJ:0 "Dravidian"
+DRA_libertarian_DEF:0 "Dravida Nadu"
+DRA_moderate_socialist:0 "Dravida Nadu"
+DRA_moderate_socialist_ADJ:0 "Dravidian"
+DRA_moderate_socialist_DEF:0 "Dravida Nadu"
+DRA_social_democrat:0 "Dravida Nadu"
+DRA_social_democrat_ADJ:0 "Dravidian"
+DRA_social_democrat_DEF:0 "Dravida Nadu"
+DRA_social_liberal:0 "Dravida Nadu"
+DRA_social_liberal_ADJ:0 "Dravidian"
+DRA_social_liberal_DEF:0 "Dravida Nadu"
+DRA_conservative:0 "Dravida Nadu"
+DRA_conservative_ADJ:0 "Dravidian"
+DRA_conservative_DEF:0 "Dravida Nadu"
+DRA_authoritarian_democrat:0 "Dravida Nadu"
+DRA_authoritarian_democrat_ADJ:0 "Dravidian"
+DRA_authoritarian_democrat_DEF:0 "Dravida Nadu"
+DRA_autocratic:0 "Dravida Nadu"
+DRA_autocratic_ADJ:0 "Dravidian"
+DRA_autocratic_DEF:0 "Dravida Nadu"
+DRA_fundamentalist:0 "Dravida Nadu"
+DRA_fundamentalist_ADJ:0 "Dravidian"
+DRA_fundamentalist_DEF:0 "Dravida Nadu"
+DRA_voynist:0 "Dravida Nadu"
+DRA_voynist_ADJ:0 "Dravidian"
+DRA_voynist_DEF:0 "Dravida Nadu"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

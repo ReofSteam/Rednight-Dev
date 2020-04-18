@@ -1,0 +1,150 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+dutch_uprising.1.t:0 "Eindhoven Uprising"
+dutch_uprising.1.d:0 "Shocking news arrive from the province of North Brabant, telling us that the entire province has been entirely captured by the resistance, who are now basing themselves in the city of Eindhoven. It would appear that the resistance is now led by Prince Bernhard of Lippe-Biesterfeld, the Prince-Consort. Not long after, news arrive that the province of Limburg has also been overran by resistance groups. \n\nAs resistance groups rise up around the country, declaring themselves loyal to the Dutch crown and the "Raad van Nationaal Eenheid" or Council of National Unity, the IRNW has asked General Gerben Wagenaar to take over state affairs and act accordingly to ensure the safety of the citizens and the security of the country. \n\nAs the entire nation collapses into war, what will happen to the Netherlands?"
+dutch_uprising.1.a:0 "Crush the Rebels!"
+
+### Decision ####
+
+### Country Name ###
+
+NTH_social_nationalist:0 "Dutch Socialist Republic"
+NTH_social_nationalist_ADJ:0 "Dutch"
+NTH_social_nationalist_DEF:0 "the Dutch Socialist Republic"
+NTH_marxist:0 "Dutch Socialist Republic"
+NTH_marxist_ADJ:0 "Dutch"
+NTH_marxist_DEF:0 "the Dutch Socialist Republic"
+NTH_libertarian:0 "Dutch Socialist Republic"
+NTH_libertarian_ADJ:0 "Dutch"
+NTH_libertarian_DEF:0 "the Dutch Socialist Republic"
+NTH_moderate_socialist:0 "Dutch Socialist Republic"
+NTH_moderate_socialist_ADJ:0 "Dutch"
+NTH_moderate_socialist_DEF:0 "the Dutch Socialist Republic"
+NTH_social_democrat:0 "Republic of the Netherlands"
+NTH_social_democrat_ADJ:0 "Dutch"
+NTH_social_democrat_DEF:0 "the Republic of the Netherlands"
+NTH_social_liberal:0 "Republic of the Netherlands"
+NTH_social_liberal_ADJ:0 "Dutch"
+NTH_social_liberal_DEF:0 "the Republic of the Netherlands"
+NTH_conservative:0 "Republic of the Netherlands"
+NTH_conservative_ADJ:0 "Dutch"
+NTH_conservative_DEF:0 "the Republic of the Netherlands"
+NTH_authoritarian_democrat:0 "Republic of the Netherlands"
+NTH_authoritarian_democrat_ADJ:0 "Dutch"
+NTH_authoritarian_democrat_DEF:0 "the Republic of the Netherlands"
+NTH_autocratic:0 "the Dutch State"
+NTH_autocratic_ADJ:0 "Dutch"
+NTH_autocratic_DEF:0 "Dietschland"
+NTH_fundamentalist:0 "Dutch State"
+NTH_fundamentalist_ADJ:0 "Dutch"
+NTH_fundamentalist_DEF:0 "the Dutch State"
+NTH_voynist:0 "Dutch State"
+NTH_voynist_ADJ:0 "Dutch"
+NTH_voynist_DEF:0 "the Dutch State"
+
+### Party Names ###
+
+NTH_social_nationalist_party:0 "NSP"
+NTH_social_nationalist_party_long:0 "Nieuwe Socialistische Patriotten / New Socialist Patriots"
+NTH_marxist_party:0 "RSAP"
+NTH_marxist_party_long:0 "Revolutionair-Socialistische Arbeiderspartij / Revolutionary Socialist Workers' Party"
+NTH_libertarian_party:0 "RSAP"
+NTH_libertarian_party_long:0 "Revolutionair-Socialistische Arbeiderspartij / Revolutionary Socialist Workers' Party"
+NTH_moderate_socialist_party:0 "SDAP"
+NTH_moderate_socialist_party_long:0 "Sociaal-Democratische Arbeiderspartij / Social-Democratic Workers' Party"
+NTH_social_democrat_party:0 "DAP"
+NTH_social_democrat_party_long:0 "Democratische Arbeiderspartij / Democratic Workers' Party"
+NTH_social_liberal_party:0 "RvNE"
+NTH_social_liberal_party_long:0 "Raad van Nationaal Eenheid (Bond) / Council of National Unity (League)"
+NTH_conservative_party:0 "RvNE"
+NTH_conservative_party_long:0 "Raad van Nationaal Eenheid (Democraat) / Council of National Unity (Democrats)"
+NTH_authoritarian_democrat_party:0 "RvNE"
+NTH_authoritarian_democrat_party_long:0 "Raad van Nationaal Eenheid / Council of National Unity"
+NTH_autocratic_party:0 "RvNE"
+NTH_autocratic_party_long:0 "Raad van Nationaal Eenheid (Huis van Oranje-Nassau) / Council of National Unity (House of Oranje-Nassau)"
+NTH_voynist_party:0 "RvNE"
+NTH_voynist_party_long:0 "Raad van Nationaal Eenheid (Herstelbond) / Council of National Unity (Recovery League)"
+NTH_fundamentalist_party:0 "RvNE"
+NTH_fundamentalist_party_long:0 "Raad van Nationaal Eenheid (Herstelbond) / Council of National Unity (Recovery League)"
+
+NTH_OCCUPATION_social_nationalist:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_social_nationalist_ADJ:0 "Dutch"
+NTH_OCCUPATION_social_nationalist_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_marxist:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_marxist_ADJ:0 "Dutch"
+NTH_OCCUPATION_marxist_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_libertarian:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_libertarian_ADJ:0 "Dutch"
+NTH_OCCUPATION_libertarian_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_moderate_socialist:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_moderate_socialist_ADJ:0 "Dutch"
+NTH_OCCUPATION_moderate_socialist_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_social_democrat:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_social_democrat_ADJ:0 "Dutch"
+NTH_OCCUPATION_social_democrat_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_social_liberal:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_social_liberal_ADJ:0 "Dutch"
+NTH_OCCUPATION_social_liberal_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_conservative:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_conservative_ADJ:0 "Dutch"
+NTH_OCCUPATION_conservative_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_authoritarian_democrat:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_authoritarian_democrat_ADJ:0 "Dutch"
+NTH_OCCUPATION_authoritarian_democrat_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_autocratic:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_autocratic_ADJ:0 "Dutch"
+NTH_OCCUPATION_autocratic_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_fundamentalist:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_fundamentalist_ADJ:0 "Dutch"
+NTH_OCCUPATION_fundamentalist_DEF:0 "The Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_voynist:0 "Reconstrution Mandate for the Netherlands"
+NTH_OCCUPATION_voynist_ADJ:0 "Dutch"
+NTH_OCCUPATION_voynist_DEF:0 "The Reconstrution Mandate for the Netherlands"
+
+### Focuses ###
+
+### Ideas ###
+
+HOL_ondergrondseoorlog:0 "The Ondergrondseoorlog"
+HOL_ondergrondseoorlog_desc:0 "The Ondergrondseoorlog, or the Underground War is a term that refers to the ongoing efforts of the Council to stamp down the ongoing resistance by "reactionary elements" of the ARP, the RKSP and the remnants of the old Dutch Army. \n\nSo far, the war has been going back and forth, and the Council's stance on the resistance have alternated between de Groot's violent crackdown and Drees's rapprochement policy. The council will need to solve this issue in order to create a secure and stable country."
+HOL_ongoing_depillarisation:0 "Ongoing Depillarization"
+HOL_ongoing_depillarisation_desc:0 "The "doorbraak" or "breakthrough" is a new policy announced by the IRWN to break down the Pillars or Zuilen established by the conservative Kuyper administration, and entrenched by the reactionary Colijn administration. \n\nThe Verzuilen or the Pillarisation system divides the Dutch society vertically, and if this division is broken, a new and more perfect Dutch society beckons..."
+HOL_resentful_countrymen:0 "Resentful Countrymen"
+HOL_resentful_countrymen_desc:0 "The RSAP and the CPN, before the invasion, before heavy crackdown and before the Weltkrieg even started, was never popular or relevant in the government, or even in politics at all. \n\nBut it all changed when the INFOR invasion put them on the forefront of national politics and put them in charge of the Reconstruction Council. However, if they were never popular before, they are now also resented, as most people consider them as a symbol of the Franco-British control over the Netherlands."
+HOL_war_in_the_council:0 "War in the Council"
+HOL_war_in_the_council_desc:0 "The Internationale Raad voor Wederopbouw van Nederland, or the IRNW, is a council mandated by the Internationale as the provisional government in the Netherlands since the end of the war. It is filled with members of the RSAP and the CPN, and the SDAP, all working together to rebuild the war-devastated country. At least that's the idea. \n\nIn truth, both the far-left CPN and RSAP often butted heads with the Social-Democratic SDAP, and both the CPN and RSAP themselves hated each other, and a new, divisive movement is rising within the CPN. \n\nIn a council filled with infighting and bickering, how well will national reconstruction go?"
+HOL_phalanstere_reconstruction_initiative:0 "Phalanstère Reconstruction Initiative"
+HOL_phalanstere_reconstruction_initiative_desc:0 "The Phalanstère Reconstruction Initiative, or \"PRI\" for short, is an international organization generally responsible for the industrial development of socialist nations around the world, but is currently particularly responsible in this time for the rebuilding and recovery of post-war Europe, due to the conditions of absolute economic devastation around Europe created by the Great Revolutionary War that are still felt to this day, four years after the guns went silent in the continent; meaning that no nation that experienced war on its territory has found itself not needing aid in terms of industrial reconstruction.\n\n"
+HOL_weltkrieg_losers:0 "Losers of the Great Revolutionary War"
+HOL_weltkrieg_losers_desc:0 "The empires of old have fallen, or retreated into the far reaches of the planet. The western socialist powers fought for years to remove the yolk of imperialism from the continent, and as such our workers have been liberated. We are tired, beaten and ruined, but at least we are free."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+NTH_Lou_Visser_hog:0 "Lou de Visser"
+NTH_Abraham_Menist_interior:0 "Abraham Menist"
+NTH_Paul_Groot_economy:0 "Paul de Groot"
+NTH_Henk_Hoekstra_foreign:0 "Henk Hoekstra"
+NTH_Piet_Schmidt_education:0 "Piet J. Schmidt"
+NTH_Willem_Dolleman_culture:0 "Willem Dolleman"
+NTH_Daan_Monje_transport:0 "Daan Monjé"
+NTH_Willem_Schouten_intel:0 "Willem Schouten"
+NTH_Gerben_Wagenaar_cos:0 "Gerben Wagenaar"
+NTH_Gerben_Wagenaar_coa:0 "Gerben Wagenaar"
+NTH_Heije_Schraper_coaf:0 "Heije Schraper"
+NTH_Jim_Boij_con:0 "Jim de Boij"
+
+### Leaders ###
+POLITICS_COUNCIL_FOR_NETHERLANDS_DESC:0 "§YCouncil for the Reconstruction Mandate of the Netherlands§!\n\nMade up of dignitaries, technicians, military officials and representatives of all legal political parties, the Reconstruction Council oversees the matters of state in the immediate aftermath of the twin occupations. It stands as the first semblance of order in a chaotic aftermath, and is working to prepare the nation for a return to self rule."
+### Tech? ###

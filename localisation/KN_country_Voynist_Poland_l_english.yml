@@ -1,0 +1,126 @@
+﻿l_english:
+
+##Ministers##
+WPL_Adam_Doboszynski_hog:0 "Adam Doboszyński"
+WPL_Jedrzej_Giertych_interior:0 "Jędrzej Giertych"
+WPL_Adam_Doboszynski_economy:0 "Adam Doboszyński"
+WPL_Witold_Staniszkis_foreign:0 "Witold Staniszkis"
+WPL_Jan_Dobraczynski_education:0 "Jan Dobraczyński"
+WPL_Jan_Mosdorf_culture:0 "Jan Mosdorf"
+WPL_Stanislaw_Rymar_transport:0 "Stanislaw Rymar"
+WPL_Stanislaw_Stronski_intel:0 "Stanislaw Stronski"
+WPL_Wladslaw_Anders_staff:0 "Władysław Anders"
+WPL_Fransciszek_Kleeberg_army:0 "Franciszek Kleeberg"
+WPL_Jan_Zumbach_air_force:0 "Jan Zumbach"
+WPL_Jozef_Unrug_navy:0 "Jozef Unrug"
+
+##Country Names##
+WPL_social_nationalist:0 "Polish Socialist Republic"
+WPL_social_nationalist_DEF:0 "the Polish Socialist Republic"
+WPL_social_nationalist_ADJ:0 "Polish"
+WPL_syndicalism:0 "Polish Socialist Republic"
+WPL_syndicalism_DEF:0 "the Polish Socialist Republic"
+WPL_syndicalism_ADJ:0 "Polish"
+WPL_radical_socialist:0 "Polish Socialist Republic"
+WPL_radical_socialist_DEF:0 "the Polish Socialist Republic"
+WPL_radical_socialist_ADJ:0 "Polish"
+WPL_moderate_socialist:0 "Polish Socialist Republic"
+WPL_moderate_socialist_DEF:0 "the Polish Socialist Republic"
+WPL_moderate_socialist_ADJ:0 "Polish"
+WPL_social_democrat:0 "Polish Republic"
+WPL_social_democrat_DEF:0 "the Polish Republic"
+WPL_social_democrat_ADJ:0 "Polish"
+WPL_social_liberal:0 "Polish Republic"
+WPL_social_liberal_DEF:0 "the Polish Republic"
+WPL_social_liberal_ADJ:0 "Polish"
+WPL_conservative:0 "Polish Republic"
+WPL_conservative_DEF:0 "the Polish Republic"
+WPL_conservative_ADJ:0 "Polish"
+WPL_authoritarian_democrat:0 "Polish Republic"
+WPL_authoritarian_democrat_DEF:0 "the Polish Republic"
+WPL_authoritarian_democrat_ADJ:0 "Polish"
+WPL_autocratic:0 "Polish Republic"
+WPL_autocratic_DEF:0 "the Polish Republic"
+WPL_autocratic_ADJ:0 "Polish"
+WPL_fundamentalist:0 "Polish Republic"
+WPL_fundamentalist_DEF:0 "the Polish Republic"
+WPL_fundamentalist_ADJ:0 "Polish"
+WPL_voynist:0 "Polish Republic"
+WPL_voynist_DEF:0 "the Polish Republic"
+WPL_voynist_ADJ:0 "Polish"
+
+##Cos. Tag Names##
+
+##Starting Parties##
+WPL_social_nationalist_party:0 "KPP - Communist Party of Poland"
+WPL_social_nationalist_party_long:0 "Komunistyczna Partia Polski"
+WPL_marxist_party:0 "KPP - Communist Party of Poland"
+WPL_marxist_party_long:0 "Komunistyczna Partia Polski"
+WPL_radical_socialist_party:0 "KPP - Communist Party of Poland"
+WPL_radical_socialist_party_long:0 "Komunistyczna Partia Polski"
+WPL_moderate_socialist_party:0 "KPP - Communist Party of Poland-N"
+WPL_moderate_socialist_party_long:0 "Komunistyczna Partia Polski"
+WPL_social_democrat_party:0 "PPS - Polish Socialist Party"
+WPL_social_democrat_party_long:0 "Polska Partia Socjalistyczna"
+WPL_social_liberal_party:0 "SL - People's Party"
+WPL_social_liberal_party_long:0 "Stronnictwo Ludowe"
+WPL_conservative_party:0 "SL - People's Party""
+WPL_conservative_party_long:0 "Stronnictwo Ludowe"
+WPL_authoritarian_democrat_party:0 "SN - National Party"
+WPL_authoritarian_democrat_party_long:0 "Stronnictwo Narodowe"
+WPL_autocratic_party:0 "SN - National Party"
+WPL_autocratic_party_long:0 "Stronnictwo Narodowe"
+WPL_fundamentalist_party:0 "ONR - National Radical Camp"
+WPL_fundamentalist_party_long:0 "Obóz Narodowo-Radykalny"
+WPL_voynist_party:0 "ONR - National Radical Camp"
+WPL_voynist_party_long:0 "Obóz Narodowo-Radykalny"
+
+##Focus  
+
+WPL_the_recovery_is_near_completion:0 "The Recovery is Near Completion"
+WPL_the_recovery_is_near_completion_desc:0 "13.10.44. This date will always stand ominous in man's eyes. The first detonation of a nuclear weapon marked the start of a new era. 106,903 casualties were taken with more than four times injured. 6 years later however, the city is almost clear of radiation and ready to be born anew."
+WPL_the_radiation_test:0 "The Radiation Tests"
+WPL_the_radiation_test_desc:0 "The government will send our top scientists and researchers to probe the city center of Warsaw and determine whether it is absolutely safe and habitable."
+WPL_results_of_the_tests:0 "Results are in!"
+WPL_results_of_the_tests_desc:0 "The scientists have returned in Lodz, soon the conclusions of the probations will be made public."
+WPL_declare_the_recovery_of_warsaw:0 "Recovery from Radiation"
+WPL_declare_the_recovery_of_warsaw_desc:0 "God has been merciful, our beatiful former capital is clear of any radiation!"
+WPL_repopulation_of_warsaw:0 "Repopulation of Warsaw"
+WPL_repopulation_of_warsaw_desc:0 "Now that Warsaw has been declared safe for living, we are going to need people to actually live there."
+WPL_forcefully_reinstate_the_former_citizens:0 "Forcefully Reinstate the Former Citizens"
+WPL_forcefully_reinstate_the_former_citizens_desc:0 "While many of Warsaw's former citizens have agreed to return to their city of birth, some of them have refused to do so and have decided they want to stay in Lodz and forge a new life."
+WPL_invite_in_the_rural_population:0 "Invite in the Rural Population"
+WPL_invite_in_the_rural_population_desc:0 "Instead of forcing people to resettle in the city, we could actually just offer people from the rural areas free homes instead."
+WPL_prepare_for_the_arrival_of_our_new_citizens:0 "Prepare for the Arrival of our New Citizens"
+WPL_prepare_for_the_arrival_of_our_new_citizens_desc:0 "Let there be celebrations and festivities, for this marvelous city will soon be full of life once again!"
+WPL_rebuild_the_city_center:0 "Rebuild the City Center"
+WPL_rebuild_the_city_center_desc:0 "We need to rebuild Warsaw's historic city center. Question stands though, should the old buildings be rebuilt as they were or should the center adopt a more modernist and futuristic style."
+WPL_renovation:0 "Rennovation"
+WPL_renovation_desc:0 "The city's history must be preserved."
+WPL_modernisation:0 "Modernisation"
+WPL_modernisation_desc:0 "Let the new outshine the old."
+WPL_construction_of_residential_areas:0 "Construction of Residential Areas"
+WPL_construction_of_residential_areas_desc:0 "Construct new residential areas for the new citizens."
+WPL_the_question_of_our_capital:0 "The Question of our Capital"
+WPL_the_question_of_our_capital_desc:0 "Now that Warsaw has been rebuilt and repopulated, the question of the capital has arisen. Should the government seat be officialised to the up until now provisional capital Lwow, or should we return to Warsaw?"
+
+##Event
+
+##Ideas##
+
+WPL_unfaithful_alliances:0 "Unfaithful Alliances"
+WPL_unfaithful_alliances_desc:0 "While binded to it because of the red menace, Poland has always distrusted the countries of the SARPAC. From the disputes with Slovakia and Czechia in Zaolzie to the irredentism towards the manufactured East German State to Russia’s many betrayals of the polish nation, our “allies” can’t be trusted."
+WPL_political_divisions:0 "Political Divisions"
+WPL_political_divisions_desc:0 "The ruling coalition of the National Party and the Polish Radical Camp has always been unstable, but things have been especially uncertain recently, with disputes on social and economic policies and Bielecki and Ribarski openly criticising each other and their respective parties, it seems the coalition is only kept because of Russia’s desire for unity in its allies."
+WPL_memories_of_the_devastation_of_warsaw:0 "Memories of the Devastation of Warsaw"
+WPL_memories_of_the_devastation_of_warsaw_desc:0 "On the ominous date of the 13th of October, 1944, our beautiful capital of Warsaw was assaulted by the most monstrous of weapons, used by the most ominous of nations. The city was left in ruins with thousands of casualties, but we have since started restoring it. Warsaw must be rebuilt!"
+
+##Decisions##
+
+##Leader Descriptions##
+
+POLITICS_TADEUSZ_BIELECKI_DESC:0 "Tadeusz Bielecki studied and graduated in Polish Literature and Philology in Krakow. After the establishment of the Kingdom of Poland he participated in a series of right wing parties and organisations, eventually joining the Polish Radical Front. Between 1936 and 1944, he headed the front in its underground resistance against the Kingdom of Poland, a satellite of Germany in all but name. During this time, Bielecki developed his anti-german right wing nationalist views and was influenced by his anti-semitic colleagues. He also started favouring a corporatist state over Roman Ribarski's mainstream liberal visions. In 1944, when the National Party declared the Republic of Poland in order to fight the puppet king, the National Radical Camp joined their lines and after Wladyslaw Sikorski's death in the nuking of Warsaw, Bielecki was declared president, due to his popularity all over the country. The united nationalist forces eventually beat back the Germans, with help from the Russian Army, and annexed their rightful territories in Masuria, Gdansk and Poznan. Thadeusz Bielecki was the first eastern leader to denounce the leftist powers of Western Europe as illegitimate and unmoral, citing their illegal occupation of Czechia and the lands of the South Slavs. Since then the president has quarreled with Roman Ribarski and the National Party, over economic and social policies and it seems the uneasy coalition between the two nationalist political organisations is at an end, only being kept through the mediation of Savinkov."
+
+##Tooltips##
+
+##Events##

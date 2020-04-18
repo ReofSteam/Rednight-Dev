@@ -1,0 +1,75 @@
+﻿l_english:
+
+### Tooltips ###
+
+### Ideas ###
+
+### Traits ###
+
+### Country Name ###
+
+PEX_social_nationalist:0 "Commune of Angola"
+PEX_social_nationalist_ADJ:0 "Angolan"
+PEX_social_nationalist_DEF:0 "the Commune of Angola"
+PEX_marxist:0 "Commune of Angola"
+PEX_marxist_ADJ:0 "Angolan"
+PEX_marxist_DEF:0 "the Commune of Angola"
+PEX_libertarian:0 "Commune of Angola"
+PEX_libertarian_ADJ:0 "Angolan"
+PEX_libertarian_DEF:0 "the Commune of Angola"
+PEX_moderate_socialist:0 "Commune of Angola"
+PEX_moderate_socialist_ADJ:0 "Angolan"
+PEX_moderate_socialist_DEF:0 "the Commune of Angola"
+PEX_social_democrat:0 "Kingdom of Portugal"
+PEX_social_democrat_ADJ:0 "Portuguese"
+PEX_social_democrat_DEF:0 "the Kingdom of Portugal"
+PEX_social_liberal:0 "Kingdom of Portugal"
+PEX_social_liberal_ADJ:0 "Portuguese"
+PEX_social_liberal_DEF:0 "the Kingdom of Portugal"
+PEX_conservative:0 "Kingdom of Portugal"
+PEX_conservative_ADJ:0 "Portuguese"
+PEX_conservative_DEF:0 "the Kingdom of Portugal"
+PEX_authoritarian_democrat:0 "Kingdom of Portugal"
+PEX_authoritarian_democrat_ADJ:0 "Portuguese"
+PEX_authoritarian_democrat_DEF:0 "the Kingdom of Portugal"
+PEX_autocratic:0 "Kingdom of Portugal"
+PEX_autocratic_ADJ:0 "Portuguese"
+PEX_autocratic_DEF:0 "the Kingdom of Portugal"
+PEX_fundamentalist:0 "Kingdom of Portugal"
+PEX_fundamentalist_ADJ:0 "Portuguese"
+PEX_fundamentalist_DEF:0 "the Kingdom of Portugal"
+PEX_voynist:0 "Kingdom of Portugal"
+PEX_voynist_ADJ:0 "Portuguese"
+PEX_voynist_DEF:0 "the Kingdom of Portugal"
+
+### Opinion Modifiers ###
+
+### Focus ###
+
+### Parties ###
+PEX_social_nationalist_party:0 "-"
+PEX_social_nationalist_party_long:0 "-"
+PEX_marxist_party:0 "-"
+PEX_marxist_party_long:0 "-"
+PEX_libertarian_party:0 "-"
+PEX_libertarian_party_long:0 "-"
+PEX_moderate_socialist_party:0 "-"
+PEX_moderate_socialist_party_long:0 "-"
+PEX_social_democrat_party:0 "-"
+PEX_social_democrat_party_long:0 "-"
+PEX_social_liberal_party:0 "PD"
+PEX_social_liberal_party_long:0 "Partido Democrático"
+PEX_conservative_party:0 "PNR"
+PEX_conservative_party_long:0 "Partido Nacional Republicano"
+PEX_authoritarian_democrat_party:0 "CNA"
+PEX_authoritarian_democrat_party_long:0 "Cruzada Nun'Álvares"
+PEX_autocratic_party:0 "Regency"
+PEX_autocratic_party_long:0 "Regência da Salvação Real"
+PEX_fundamentalist_party:0 "IL"
+PEX_fundamentalist_party_long:0 "Integralismo Lusitano"
+PEX_voynist_party_long:0 "-"
+
+
+
+### Events ###
+

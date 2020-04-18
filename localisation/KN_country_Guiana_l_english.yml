@@ -1,0 +1,81 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+GUI_social_nationalist_party:0 "-"
+GUI_social_nationalist_party_long:0 "-"
+GUI_marxist_party:0 "-"
+GUI_marxist_party_long:0 "-"
+GUI_libertarian_party:0 "-"
+GUI_libertarian_party_long:0 "-"
+GUI_moderate_socialist_party:0 "-"
+GUI_moderate_socialist_party_long:0 "-"
+GUI_social_democrat_party:0 "-"
+GUI_social_democrat_party_long:0 "-"
+GUI_social_liberal_party:0 "-"
+GUI_social_liberal_party_long:0 "-"
+GUI_conservative_party:0 "-"
+GUI_conservative_party_long:0 "-"
+GUI_authoritarian_democrat_party:0 "-"
+GUI_authoritarian_democrat_party_long:0 "-"
+GUI_autocratic_party:0 "-"
+GUI_autocratic_party_long:0 "-"
+GUI_fundamentalist_party:0 "-"
+GUI_fundamentalist_party_long:0 "-"
+GUI_voynist_party:0 "-"
+GUI_voynist_party_long:0 "-"
+
+### Country Name ###
+
+GUI_social_nationalist:0 "Union of Guyana"
+GUI_social_nationalist_ADJ:0 "Guyanese"
+GUI_social_nationalist_DEF:0 "the Union of Guyana"
+GUI_marxist:0 "Socialist Republic of Guyana"
+GUI_marxist_ADJ:0 "Guyanese"
+GUI_marxist_DEF:0 "the Socialist Republic of Guyana"
+GUI_moderate_socialist:0 "Socialist Republic of Guyana"
+GUI_moderate_socialist_ADJ:0 "Guyana"
+GUI_moderate_socialist_DEF:0 "the Socialist Republic of Guyana"
+GUI_social_democrat:0 "Federation of Guyana"
+GUI_social_democrat_ADJ:0 "Guyanese"
+GUI_social_democrat_DEF:0 "the Federation of Guyana"
+GUI_social_liberal:0 "Federation of Guyana"
+GUI_social_liberal_ADJ:0 "Guyanese"
+GUI_social_liberal_DEF:0 "the Federation of Guyana"
+GUI_market_liberal:0 "Federation of Guyana"
+GUI_market_liberal_ADJ:0 "Guyanese"
+GUI_market_liberal_DEF:0 "the Federation of Guyana"
+GUI_conservative:0 "Federation of Guyana"
+GUI_conservative_ADJ:0 "Guyanese"
+GUI_conservative_DEF:0 "the Federation of Guyana"
+GUI_authoritarian_democrat:0 "Republic of Guyana"
+GUI_authoritarian_democrat_ADJ:0 "Guyanese"
+GUI_authoritarian_democrat_DEF:0 "the Republic of Guyana"
+GUI_autocratic:0 "Republic of Guyana"
+GUI_autocratic_ADJ:0 "Guyanese"
+GUI_autocratic_DEF:0 "the Republic of Guyana"
+GUI_voynist:0 "State of Guyana"
+GUI_voynist_ADJ:0 "Guyanese"
+GUI_voynist_DEF:0 "the State of Guyana"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

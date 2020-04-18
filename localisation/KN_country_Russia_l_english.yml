@@ -1,0 +1,140 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+kn_russia.0.t:0 "[This.GetNewspaperHeader]Salvation Day"
+kn_russia.0.d:0 "\"Arise orphans of the Motherland! Arise for the final deadly battle!\" These were the words sung by the hundreds of thousands marching into the occupied eastern lands. Their hums and tunes made a great choir that crossed borders and filled the ears of patriots, peasants and heroes alike. The great Slavic people had finally awoken, and like a Phoenix they were reborn in fire and blood. Kyiv, Minsk, Riga, Warsaw; all liberated from the fat German robber and his lapdog princes and brought home into the Russian National Republic. Salvation day is celebrated every September 12th, marking the anniversary of the liberation of Warsaw from the German puppets; as a Slavic city so far west, it symbolises the toppling of a decadent and brutal oppressor. The people cheer and march throughout towns and cities as feasts are held and songs are sung. Many recall Savinkov's address to the nation on that very day in 1946; \"Oppression and humiliation ends today!\" Annually, the people laugh and cheer from moment they are awoken by the birds chirping at morn through to the sun's set and beyond. Some say even the Vozhd sits in his office and enjoys a drink and meal with his family and friends to celebrate too."
+kn_russia.0.o1:0 "Slaves no more!"
+
+kn_russia_pol.0.t:0 "The Death of Petr Vladimirovich von Glasenapp"
+kn_russia_pol.0.d:0 "Petr Vladimirovich von Glasenapp, Governor of Moscow, has been reported dead by his family after a few days silence from official duties. He lived a life essential to Russian geolopolitics; he was a key organiser for the Northwestern Campaign under General Yudenich during the Civil War and took part in the reclamation of the Alash in the late 30s. A close friend of the Vozhd, he was eventually appointed Governor of Moscow in 1939. It appears that he had passed as a result of a lung disease, but this has come as no surprise to the millions who knew him as ‘the Smoking Baron of Moscow’. A state funeral shall be held in a few weeks time and the office of Governor of Moscow sits open. While the Vozhd can appoint anyone, Savinkov is known to heed advice of the NRPR bureaucracy within the State Duma, often approving suggested candidacy for other positions. However, with the rising support of Vonsiatsky and his fellow radicals, Savinkov has taken matters into his own hands. Mikhail Levitov has been appointed Governor of Moscow in attempt to curb Vonsiatsky’s influence over politics; just another title for this ‘favourite’ of the Vozhd. While the situation seems relatively stable now, Savinkov cannot help but worry over what Russia is to become after his death."
+kn_russia_pol.0.a:0 "Out with the old, in with the new"
+
+### Parties ###
+
+RUS_social_nationalist_party:0 "BRF - Bolshevik Revolutionary Front"
+RUS_social_nationalist_party_long:0 "Большевистский революционный фронт / Bol'shevistskiy Revolyutsionnyy Front"
+RUS_marxist_party:0 "BRF - Bolshevik Revolutionary Front"
+RUS_marxist_party_long:0 "Большевистский революционный фронт / Bol'shevistskiy Revolyutsionnyy Front"
+RUS_libertarian_party:0 "Black Army"
+RUS_libertarian_party_long:0 "Черная армия / Chernaya Armiya"
+RUS_moderate_socialist_party:0 "BRF - Bolshevik Revolutionary Front"
+RUS_moderate_socialist_party_long:0 "Большевистский революционный фронт / Bol'shevistskiy Revolyutsionnyy Front"
+RUS_social_democrat_party:0 "Democrats"
+RUS_social_democrat_party_long:0 "демократы / Demokraty"
+RUS_social_liberal_party:0 "Democrats"
+RUS_social_liberal_party_long:0 "демократы / Demokraty"
+RUS_conservative_party:0 "Democrats"
+RUS_conservative_party_long:0 "демократы / Demokraty"
+RUS_authoritarian_democrat_party:0 "Democrats"
+RUS_authoritarian_democrat_party_long:0 "демократы / Demokraty"
+RUS_autocratic_party:0 "NRPR - People's Republican Party of Russia"
+RUS_autocratic_party_long:0 "Народная Pеспубликанская Партия России / Narodnaya Respublikanskaya Partiya Rossii"
+RUS_fundamentalist_party:0 "NRPR - People's Republican Party of Russia"
+RUS_fundamentalist_party_long:0 "Народная Pеспубликанская Партия России / Narodnaya Respublikanskaya Partiya Rossii"
+RUS_voynist_party:0 "NRPR - People's Republican Party of Russia"
+RUS_voynist_party_long:0 "Народная Pеспубликанская Партия России / Narodnaya Respublikanskaya Partiya Rossii"
+
+### Country Name ###
+
+RUS_social_nationalist:0 "Soviet Union"
+RUS_social_nationalist_ADJ:0 "Soviet"
+RUS_social_nationalist_DEF:0 "the Soviet Union"
+RUS_marxist:0 "Soviet Union"
+RUS_marxist_ADJ:0 "Soviet"
+RUS_marxist_DEF:0 "the Soviet"
+RUS_libertarian:0 "Soviet Union"
+RUS_libertarian_ADJ:0 "Soviet"
+RUS_libertarian_DEF:0 "the Soviet"
+RUS_social_democrat:0 "Russian Republic"
+RUS_social_democrat_ADJ:0 "Russian"
+RUS_social_democrat_DEF:0 "the Russian Republic"
+RUS_social_liberal:0 "Russian Republic"
+RUS_social_liberal_ADJ:0 "Russian"
+RUS_social_liberal_DEF:0 "the Russian Republic"
+RUS_conservative:0 "Russian National Republic"
+RUS_conservative_ADJ:0 "Russian"
+RUS_conservative_DEF:0 "the Russian National Republic"
+RUS_authoritarian_democrat:0 "Russian National Republic"
+RUS_authoritarian_democrat_ADJ:0 "Russian"
+RUS_authoritarian_democrat_DEF:0 "the Russian National Republic"
+RUS_autocratic:0 "Russian National Republic"
+RUS_autocratic_ADJ:0 "Russian"
+RUS_autocratic_DEF:0 "the Russian National Republic"
+RUS_fundamentalist:0 "Russian National Republic"
+RUS_fundamentalist_ADJ:0 "Russian"
+RUS_fundamentalist_DEF:0 "the Russian National Republic"
+RUS_voynist:0 "Russian National Republic"
+RUS_voynist_ADJ:0 "Russian"
+RUS_voynist_DEF:0 "the Russian National Republic"
+
+### Focuses ###
+ 
+### Ideas ###
+
+RUS_risk_of_famine:0 "Risk of Famine"
+RUS_risk_of_famine_desc:0 "With food supplies and recent harvests teetering on the brink of famine conditions, the instability brought on by the war has seriously threatened the situation in Ukraine and Southern Russia. We must take action soon to prevent an untold loss of life, or many more will die unnecessarily."
+
+RUS_aftermath_of_the_sacred_war:0 "Aftermath of The Great Patriotic War"
+RUS_aftermath_of_the_sacred_war_desc:0 "The Great Patriotic War has sanctified our right to rule the glorious state of Russia, as liberators of the oppressed Slav and unifier of all eastern peoples. From Kyiv to Riga, we wave our banners to honour the living and revere the dead. Long live the Vozhd! Long live Russia!"
+
+RUS_party_bureaucracy:0 "Party Bureaucracy"
+RUS_party_bureaucracy_desc:0 "The forging of a new bureaucracy under NRPR rule, the Russian political system had orbited around the Vozhd as supreme ruler. However, as more issues arose and as the Vozhd grew older, various agencies and government inefficiencies had clogged up the once exact legal abilities of the Vozhd. With party members whispering reform, the future of the Russian political system remains unknown."
+
+RUS_shrinking_economy:0 "Shrinking Economy"
+RUS_shrinking_economy_desc:0 "As demand for munitions and materiel has fallen, the economy has begun to stagnate and even shrink slightly. If Russia is to survive, this must be reversed, lest we fall to the Reds."
+
+RUS_glory_to_the_vozhd:0 "Glory to the Vozhd!"
+RUS_glory_to_the_vozhd_desc:0 "The Vozhd of the Peasants arose from the beaten and humiliated republic as a hero and champion of the people. Gone away are the time of shame, slavery and misery; we thank the Vozhd for bringing us freedom!"
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+RUS_Boris_Savinkov_hog:0 "Boris Savinkov"
+RUS_chairman_supreme_privy_council:0 "Chairman of the Supreme Privy Council"
+
+RUS_Mikhail_Levitov_mnp:0 "Mikhail Levitov"
+RUS_deputy_chairman_supreme_privy_council:0 "Deputy Chairman of the Supreme Privy Council"
+
+RUS_Pitirm_Sorokin_interior:0 "Pitirm Sorokin"
+RUS_minister_of_state_affairs:0 "Minister of State Affairs"
+
+RUS_Sergei_Efron_economy:0 "Sergei Efron"
+
+RUS_Alexander_Derental_foreign:0 "Alexander Derental"
+
+RUS_Ivan_Ilyin_education:0 "Ivan Ilyin"
+
+RUS_Konstantin_Rodzaevsky_culture:0 "Konstantin Rodzaevsky"
+RUS_minister_of_information:0 "Minister of Information"
+
+RUS_Felix_Yusupov_transport:0 "Felix Yusupov"
+RUS_president_yusupov_corporation:0 "President of the Yusupov Corporation"
+
+RUS_Anastasy_Vonsiatsky_intel:0 "Anastasy Vonsiatsky"
+RUS_director_black_guard:0 "Director of the Black Guard"
+
+RUS_Vladimir_Manstein_staff:0 "Vladimir Manstein"
+RUS_cogs_raf:0 "Chief of General Staff of the Russian Armed Forces"
+
+RUS_Alexander_Kutepov_army:0 "Alexander Kutepov"
+RUS_cos_gwa:0 "Chief of Staff of the Great White Army"
+
+RUS_Alexander_Golovanov_air_force:0 "Alexander Golovanov"
+RUS_cic_raf:0 "Commander-in-Chief of the Russian Air Force"
+
+RUS_Nikolai_Kuznetsov_navy:0 "Nikolai Kuznetsov"
+RUS_cic_rn:0 "Commander-in-Chief of the Russian Navy"
+
+### Leaders ###
+vozhd_peasants:0 "Vozhd of the Peasants"
+POLITICS_BORIS_SAVINKOV_DESC:0 "§YVozhd of the Russian National Republic§!\n\nSavindab"
+
+### Tech? ###

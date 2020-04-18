@@ -1,0 +1,97 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+PHI_social_nationalist_party:0 "United National Democratic Front of the Phillipines - UNDF"
+PHI_social_nationalist_party_long:0 "Nagkakaisang Pambansang Demokratikong Prente ng Pilipinas"
+PHI_marxist_party:0 "United National Democratic Front of the Phillipines - UNDF"
+PHI_marxist_party_long:0 "Nagkakaisang Pambansang Demokratikong Prente ng Pilipinas"
+PHI_libertarian_party:0 "United National Democratic Front of the Phillipines - UNDF"
+PHI_libertarian_party_long:0 "Nagkakaisang Pambansang Demokratikong Prente ng Pilipinas"
+PHI_moderate_socialist_party:0 "United Democratic Front of the Phillipines - UNDF"
+PHI_moderate_socialist_party_long:0 "Nagkakaisang Pambansang Demokratikong Prente ng Pilipinas"
+PHI_social_democrat_party:0 "National Government"
+PHI_social_democrat_party_long:0 "National Government of the Phillipines"
+PHI_social_liberal_party:0 "National Government"
+PHI_social_liberal_party_long:0 "National Government of the Commonwealth of the Phillipines"
+PHI_conservative_party:0 "National Government"
+PHI_conservative_party_long:0 "National Government of the Commonwealth of the Phillipines"
+PHI_authoritarian_democrat_party:0 "KALIBAPI - Association for Service to the New Phillipines"
+PHI_authoritarian_democrat_party_long:0 "Kapisanan ng Paglilingkod sa Bagong Pilipinas"
+PHI_autocratic_party:0 "Phillipines Executive Commission - PEC"
+PHI_autocratic_party_long:0 "Komisyong Tagapagpaganap ng Filipinas"
+PHI_fundamentalist_party:0 "Republic of the Philippines"
+PHI_fundamentalist_party_long:0 "Republic of the Philippines"
+PHI_voynist_party:0 "KALIBAPI - Association for Service to the New Phillipines"
+PHI_voynist_party_long:0 "Kapisanan ng Paglilingkod sa Bagong Pilipinas"
+PHI_natsoc:0 "National Socialist Party"
+### Country Name ###
+GOVERNORATE:0 "Provisional Governorate of the Phillipines" 
+GOVERNORATE_autocratic:0 "Provisional Governorate of the Phillipines" 
+TAGALOG_NATION:0 "Sovereign Tagalog Republic"
+MAHARLIKA: "Republic of Maharlika"
+RIZALIA: "Rizaline Republic"
+PHI_social_nationalist:0 "Republic of the Philippines"
+PHI_social_nationalist_ADJ:0 "Filipino"
+PHI_social_nationalist_DEF:0 "the Republic of the Philippines"
+PHI_marxist:0 "Republic of the Philippines"
+PHI_marxist_ADJ:0 "Filipino"
+PHI_marxist_DEF:0 "the Republic of the Philippines"
+PHI_moderate_socialist:0 "Republic of the Philippines"
+PHI_moderate_socialist_ADJ:0 "Filipino"
+PHI_moderate_socialist_DEF:0 "the Republic of the Philippines"
+PHI_social_democrat:0 "Republic of the Philippines"
+PHI_social_democrat_ADJ:0 "Filipino"
+PHI_social_democrat_DEF:0 "the Republic of the Philippines"
+PHI_social_liberal:0 "Republic of the Philippines"
+PHI_social_liberal_ADJ:0 "Filipino"
+PHI_social_liberal_DEF:0 "the Republic of the Philippines"
+PHI_conservative:0 "Republic of the Philippines"
+PHI_conservative_ADJ:0 "Filipino"
+PHI_conservative_DEF:0 "the Republic of the Philippines"
+PHI_authoritarian_democrat:0 "Republic of the Philippines"
+PHI_authoritarian_democrat_ADJ:0 "Filipino"
+PHI_authoritarian_democrat_DEF:0 "the Republic of the Philippines"
+PHI_autocratic:0 "the Philippines"
+PHI_autocratic_ADJ:0 "Republic of the Philippines"
+PHI_autocratic_DEF:0 "the Republic of the Philippines"
+PHI_fundamentalist:0 "Republic of the Philippines"
+PHI_fundamentalist_ADJ:0 "Filipino"
+PHI_fundamentalist_DEF:0 "the Republic of the Philippines"
+PHI_voynist:0 "Republic of the Philippines"
+PHI_voynist_ADJ:0 "Filipino"
+PHI_voynist_DEF:0 "the Republic of the Philippines"
+
+### Focuses ###
+ 
+### Ideas ###
+PHI_japanese_military_occupation:0 "Japanese Military Occupation"
+PHI_japanese_military_occupation_desc:0 "The last decade has been nothing short of harrowing for the philippines. Chaos started following the outbreak of the American civil war, continued with the declaration of independence by President Emilio Aquinaldo, and exploded during the bloody Japanese takeover of 1943.Today the Philippines can finally rest under the administration of the Phillipine Executive Commission. Free from imperialists and traitors, the IJA will demand order and productivity for the new imperial possession, or else."
+PHI_promised_independent:0 "Promised Independence"
+PHI_promised_independent_desc:0 "Despite its brutal suppression of the independence in 1943, Tokyo has made grand promises. Since the occupation began, co-prosperity sphere officials have consistently claimed a day will come when guns and bayonets will no longer be necessary. “Independence” may yet return to the Philippines, though what exactly this entails is anyone's guess. "
+PHI_guerllia_resistance:0 "Guerilla Resistance"
+PHI_guerllia_resistance_desc:0 "Ever since the fall of the National Government, patriotic Fillipinos have waged a guerilla war from the jungle. Their struggle would see its peak in the failed National Revolution of 1947. Nowadays, the failure of this revolt has temporarily tamed rebel efforts.Still, the hills may be quieter, but they are not silent. Both the Leftist UNDF and the National Government partisans remain technically active, each gathering strength. The IJA must be vigilant, for there is still the chance of a pointed gun behind every shed."
+PHI_native_attitude_apathetic:0 "Native Attitude: Apathetic" 
+PHI_native_attitude_apathetic_desc:0 "While real enthusiasm for the co-prosperity sphere’s mission is exceedingly rare, there is enough ambivalence to keep the people in check. At least for the moment."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_MASAHARU_HOMMA_DESC:0 "§YMiliary Governor of the Phillipines§!\n\nGovernor-General Masaharu Homma has fought many battles over his long career. Each conquest brought great tribute to both his homeland, and his honor. Homma however, never let these victories inflate his ego.\n\nA true believer in the stated mission of the Co-prosperity sphere, Homma now finds himself in charge of one of his previous victims: the Philippines. It is within this station the aging general will fight his final battle, a battle for the hearts of the people. These islands will be pacified with a gentle but firm hand, and their trust in the empire will be secured."
+POLITICS_EMILIO_AGUINALDO_DESC:0 "§YPresident of the Republic of the Philippines§!\n\nCriticism of President Aguinaldo, is whispered secretly if it is ever uttered. Aguinaldo is many things; A general, national hero, and the first president of the Philippines. His early years were spent in tireless dedication to free the islands from the spanish-colonial yoke. Later, he fought again to free the nation from weaker men that would cower to the new american invader.\n\nNow, fate has dictated the aging hero return to lead the 2nd republic. A safe choice for a new Philippines, he has accepted Japanese friendship in exchange for this new independence. While his commitments and achievements are undeniable, Aguinaldo is reaching a marvelously advanced age, having been born in 1899.\n\nThough they would never admit it, Aguilnado’s detractors worry that his old age and the hegemon to the north have tamed the grand old hero. However, Aguinaldo has not forgotten who fired at his men on the outskirts of Manilla in 1943. Perhaps the fire of Biak-na-Bato is still burning... "
+POLITICS_JOSE_LAUREL_DESC:0 "§YPresident of the Republic of the Philippines§!\n\Jose P. Laurel may be a collaborator, however unlike Begino Aquino he comes off quite genuine. A product of the post-revolutionary generation. And yet, the word “puppet” seems unsuited to a man of such independent convictions.As a younger man, Jose would use his Yale education to argue for his own acquittal. After escaping an attempted murder charge following an attack on a rival suitor of a girl he courted, he would display great talents for law and politics. Eventually, he would even find himself serving on the supreme court.Now, after a long career in politics Jose finds himself the 2nd republic’s president. Always an admirer of the Japanese political system and a staunch nationalist, Laurel sees no need to spout propaganda for a cause he already finds self-evident. He will be straightforward with his people and make his political vision a reality."
+POLITICS_BENIGNO_AQUINO_DESC:0 "§YPresident of the Republic of the Philippines§!\n\nThe son of a revolutionary war general, one would be forgiven for assuming Aquino possesed fiery convictions. Instead, one could more accurately describe  Benigno as "Ambitious", for he is highly willing to take opportunities as they arrive.\n\nUnwilling to flee with President Aguinaldo when the Japanese arrived in 1943, Aquino attempted to maintain a semblance of the rump government during the Japanese mandate and the subsequent reign of the PEC. These efforts would grant him the capability and credibility to maintain power.\n\nHowever, regardless of how many speeches he makes, or how many political alliances he maintains Aquino is unpopular among his people. His lack of charisma and his outright propagandistic support of the Co-Prosperity Sphere has created an image of a pragmatic, if unpatriotic man."
+POLITICS_ROXAS_DESC:0 "§YPresident of the Republic of the Philippines§!\n\Manuel entered politics from an early age, swiftly climbing the ranks to become a senator. It was in that capacity he would flee on that fateful day in 1943 alongside Aguilnaldo. Roxas escaped to Mindanao to unite with Quezon and held his ground for a some time. However, as years dragged on Manuel felt the call of his home. Of what use could he be stubbornly hiding in a rural province? Roxas would finally return alongside General Aguinaldo, accepting an amnesty he had before vowed not to. Many call him an opportunist but never one of lesser intellect. Roxas holds his cards close to his chest, ready to return to the great political game he had missed so dearly. He will make the Philippines strong and healthy, regardless of its new role in the world."
+### Tech? ###

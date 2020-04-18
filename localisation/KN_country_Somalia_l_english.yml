@@ -1,0 +1,90 @@
+﻿l_english: 
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Decision ####
+
+### Parties ###
+SOM_social_nationalist_party:0 "GSKS"
+SOM_social_nationalist_party_long:0 "Gollaha Sare ee Kacaanka Somaaliyuud (Somali Supreme Revolutionary Council)"
+SOM_marxist_party:0 "XSS"
+SOM_marxist_party_long:0 "Xisbiga Shaqaalaha Soomaaliya (Worker's Party of Somalia"
+SOM_libertarian_party:0 "JXQS"
+SOM_libertarian_party_long:0 "Jabhadda Wadaniga Ummadda Xoreynta Somalia (Somalian National Liberation Front)"
+SOM_moderate_socialist_party:0 "XUXS"
+SOM_moderate_socialist_party_long:0 "Xisbiga Ummadda Xoreynta Somaaliyuud (Somalian National Freedom Party)"
+SOM_social_democrat_party:0 "HDS"
+SOM_social_democrat_party_long:0 "Horyaalka Dhalinyarada Soomaaliyeed (Somali Youth League)"
+SOM_social_liberal_party:0 "HDS"
+SOM_social_liberal_party_long:0 "Horyaalka Dhalinyarada Soomaaliyeed (Somali Youth League)"
+SOM_conservative_party:0 "Isaaq"
+SOM_conservative_party_long:0 "Reer Sheikh Isaaq (the Isaaq Clan)"
+SOM_authoritarian_democrat_party:0 "Warsangeli"
+SOM_authoritarian_democrat_party_long:0 "Reer Sheikh Warsangeli (the Warsangeli Clan)"
+SOM_autocratic_party:0 "Ciise"
+SOM_autocratic_party_long:0 "Reer Sheikh Ciise (the Issa Clan)"
+SOM_fundamentalist_party:0 "Majerteen"
+SOM_fundamentalist_party_long:0 "Reer Sheikh Majerteen (the Majerteen Clan)"
+SOM_voynist_party:0 "HQS"
+SOM_voynist_party_long:0 "Horyaalka Qaranka Soomaaliyeed (Somili National League)"
+
+### Country Name ###
+
+SOM_social_nationalist:0 "Somali Revolutionary People's Federation"
+SOM_social_nationalist_ADJ:0 "Somali"
+SOM_social_nationalist_DEF:0 "the Somali Revolutionary People's Federation"
+SOM_marxist:0 "Somali Syndicalist Congress"
+SOM_marxist_ADJ:0 "Somali"
+SOM_marxist_DEF:0 "the Somali Syndicalist Congress"
+SOM_moderate_socialist:0 "Republic of Somalia"
+SOM_moderate_socialist_ADJ:0 "Somali"
+SOM_moderate_socialist_DEF:0 "Republic of Somalia"
+SOM_social_democrat:0 "Boqorate of Somalia"
+SOM_social_democrat_ADJ:0 "Somali"
+SOM_social_democrat_DEF:0 "the Boqorate of Somalia"
+SOM_social_liberal:0 "Boqorate of Somalia"
+SOM_social_liberal_ADJ:0 "Somali"
+SOM_social_liberal_DEF:0 "the Boqorate of Somalia"
+SOM_market_liberal:0 "Boqorate of Somalia"
+SOM_market_liberal_ADJ:0 "Somali"
+SOM_market_liberal_DEF:0 "the Boqorate of Somalia"
+SOM_conservative:0 "Boqorate of Somalia"
+SOM_conservative_ADJ:0 "Somali"
+SOM_conservative_DEF:0 "the Boqorate of Somalia"
+SOM_authoritarian_democrat:0 "Boqorate of Somalia"
+SOM_authoritarian_democrat_ADJ:0 "Somali"
+SOM_authoritarian_democrat_DEF:0 "the Boqorate of Somalia"
+SOM_autocratic:0 "Boqorate of Somalia"
+SOM_autocratic_ADJ:0 "Somali"
+SOM_autocratic_DEF:0 "the Boqorate of Somalia"
+SOM_voynist:0 "Boqorate of Somalia"
+SOM_voynist_ADJ:0 "Somali"
+SOM_voynist_DEF:0 "the Boqorate of Somalia"
+
+### Focuses ###
+
+### Ideas ###
+
+SOM_soomaaliweyn:0 "Soomaaliweyn"
+SOM_soomaaliweyn_desc:0 "Soomaaliweyn, or Greater Somalia, is the idea of uniting all of Somalia under one government. Developed by the Somali National League and various romantic nationalists, the idea of a united Somali Realm has strengthened our country and united our people against various foreign threats."
+SOM_peace_between_the_clans:0 "Peace Between the Clans"
+SOM_peace_between_the_clans_desc:0 "The powerful clans of Somalia have come together under the banner of the Warsangeli and have made peace with each other. This peace is the foundation on which the nation stands."
+SOM_the_old_boqor:0 "The Old Boqor"
+SOM_the_old_boqor_desc:0 "Maxamuud Cali Shiire, the Old Boqor, is a very well respected figure within Somalia and can effectively make any decision in government he wants. His mere presence at the head of the government unifies the Somali people and military."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_CALI_SHIRE_DESC:0 "The beloved Boqor of Somalia, the Warsangeli Sultan has led Somalia for over three decades, leading a fragile alliance between tribes into a powerful regional player capable of winning victory after victory against Mittelafrikan, Ethiopian, and Mau Mau armies. He has led Somalia into a new golden age under the Iron Fist of the Warsangeli. Starting off as a Somali clan leader and fierce anti-colonial activist, Maxamuud Cali Shiire brokered an alliance between the various clans on the Horn of Africa to rebel against the Italians and British in 1919 and was elected Boqor or Sultan of Sultans by the clans of the Somali people. Shiire’s rule has seen growth, expansion, infrastructural development, and the emergence of the Shifta, state sponsored bandits which raid and plunder to the benefit of the Somali people."
+
+### Tech? ###

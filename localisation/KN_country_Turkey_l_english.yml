@@ -1,0 +1,144 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+ tur.2.t:0 "Elections of 1950"
+ tur.2.d:0 "The second elections of the Republic of Turkey were held earlier today. Celal Pasha was previously elected as President due to his policies of liberalization and slight Islamism, however public opinion has started to turn against him as respected former Ottoman Chief of Army and former Turkish Chief of Staff Mustafa Kemal has convinced more and more people that secularization, westernisation, and modernization is the way forward.  Meanwhile Nihal Bey has increased his Nationalist-Republican influence in the country thanks to the economic and political support of Russia. The people have voted for..."
+ tur.2.a:0 "the Republican Modernizers"
+ tur.2.b:0 "Islamist Liberals"
+ tur.2.c:0 "Moderate Modernizers"
+ tur.2.e:0 "Nationalist Republicans"
+ 
+###Traits###
+ secular_westernizer:0 "Secular Modernizer"
+ moderate_westernizer:0 "Moderate Modernizer"
+
+ ### Parties ###
+
+ TUR_social_nationalist_party:0 "TKP-Turkish Communist Party"
+ TUR_social_nationalist_party_long:0 "Türkiye Komünist Partisi"
+ TUR_marxist_party:0 "TKP-Turkish Communist Party"
+ TUR_marxist_party_long:0 "Türkiye Komünist Partisi"
+ TUR_libertarian_party:0 "TKP-Turkish Communist Party"
+ TUR_libertarian_party_long:0 "Türkiye Komünist Partisi"
+ TUR_moderate_socialist_party:0 "TKP-Turkish Communist Party"
+ TUR_moderate_socialist_party_long:0 "Türkiye Komünist Partisi"
+ TUR_social_democrat_party:0 "CHP-Republican People's Party"
+ TUR_social_democrat_party_long:0 "Cumhuriyet Halk Partisi"
+ TUR_social_liberal_party:0 "DP-Democratic Party"
+ TUR_social_liberal_party_long:0 "Demokrat Parti"
+ TUR_conservative_party:0 "DP-Democratic Party"
+ TUR_conservative_party_long:0 "Demokrat Parti"
+ TUR_authoritarian_democrat_party:0 "CHP-Republican People's Party"
+ TUR_authoritarian_democrat_party_long:0 "Cumhuriyet Halk Partisi"
+ TUR_autocratic_party:0 "House of Osman"
+ TUR_autocratic_party_long:0 "Osmanogullari"
+ TUR_fundamentalist_party:0 "-"
+ TUR_fundamentalist_party_long:0 "-"
+ TUR_voynist_party:0 "ITP-Party of Union and Progress"
+ TUR_voynist_party_long:0 "Ittihat ve Terraki Partisi"
+
+### Country Name ###
+
+ TUR_social_nationalist:0 "Turkish Commune"
+ TUR_social_nationalist_ADJ:0 "Turkish"
+ TUR_social_nationalist_DEF:0 "the Turkish Commune"
+ TUR_marxist:0 "Turkish Commune"
+ TUR_marxist_ADJ:0 "Turkish"
+ TUR_marxist_DEF:0 "the Turkish Commune"
+ TUR_moderate_socialist:0 "Turkish Commune"
+ TUR_moderate_socialist_ADJ:0 "Turkish"
+ TUR_moderate_socialist_DEF:0 "the Turkish Commune"
+ TUR_social_democrat:0 "Republic of Turkey"
+ TUR_social_democrat_ADJ:0 "Turkish"
+ TUR_social_democrat_DEF:0 "the Republic of Turkey"
+ TUR_social_liberal:0 "Republic of Turkey"
+ TUR_social_liberal_ADJ:0 "Turkish"
+ TUR_social_liberal_DEF:0 "the Republic of Turkey"
+ TUR_market_liberal:0 "Republic of Turkey"
+ TUR_market_liberal_ADJ:0 "Turkish"
+ TUR_market_liberal_DEF:0 "the Republic of Turkey"
+ TUR_conservative:0 "Republic of Turkey"
+ TUR_conservative_ADJ:0 "Turkish"
+ TUR_conservative_DEF:0 "the Republic of Turkey"
+ TUR_authoritarian_democrat:0 "Republic of Turkey"
+ TUR_authoritarian_democrat_ADJ:0 "Turkish"
+ TUR_authoritarian_democrat_DEF:0 "the Republic of Turkey"
+ TUR_autocratic:0 "Republic of Turkey"
+ TUR_autocratic_ADJ:0 "Turkish"
+ TUR_autocratic_DEF:0 "the Republic of Turkey"
+ TUR_fundamentalist:0 "Republic of Turkey"
+ TUR_fundamentalist_ADJ:0 "Turkish"
+ TUR_fundamentalist_DEF:0 "the Republic of Turkey"
+ TUR_voynist:0 "Republic of Turkey"
+ TUR_voynist_ADJ:0 "Turkish"
+ TUR_voynist_DEF:0 "the Republic of Turkey"
+
+ TUR_otto_social_nationalist:0 "Turkish Commune"
+ TUR_otto_social_nationalist_ADJ:0 "Turkish"
+ TUR_otto_social_nationalist_DEF:0 "the Turkish Commune"
+ TUR_otto_marxist:0 "Turkish Commune"
+ TUR_otto_marxist_ADJ:0 "Turkish"
+ TUR_otto_marxist_DEF:0 "the Turkish Commune"
+ TUR_otto_moderate_socialist:0 "Turkish Commune"
+ TUR_otto_moderate_socialist_ADJ:0 "Turkish"
+ TUR_otto_moderate_socialist_DEF:0 "the Turkish Commune"
+ TUR_otto_social_democrat:0 "Exalted Ottoman State"
+ TUR_otto_social_democrat_ADJ:0 "Ottoman"
+ TUR_otto_social_democrat_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_social_liberal:0 "Exalted Ottoman State"
+ TUR_otto_social_liberal_ADJ:0 "Ottoman"
+ TUR_otto_social_liberal_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_market_liberal:0 "Exalted Ottoman State"
+ TUR_otto_market_liberal_ADJ:0 "Ottoman"
+ TUR_otto_market_liberal_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_conservative:0 "Exalted Ottoman State"
+ TUR_otto_conservative_ADJ:0 "Ottoman"
+ TUR_otto_conservative_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_authoritarian_democrat:0 "Exalted Ottoman State"
+ TUR_otto_authoritarian_democrat_ADJ:0 "Ottoman"
+ TUR_otto_authoritarian_democrat_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_autocratic:0 "Exalted Ottoman State"
+ TUR_otto_autocratic_ADJ:0 "Ottoman"
+ TUR_otto_autocratic_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_fundamentalist:0 "Exalted Ottoman State"
+ TUR_otto_fundamentalist_ADJ:0 "Ottoman"
+ TUR_otto_fundamentalist_DEF:0 "the Exalted Ottoman State"
+ TUR_otto_voynist:0 "Exalted Ottoman State"
+ TUR_otto_voynist_ADJ:0 "Ottoman"
+ TUR_otto_voynist_DEF:0 "the Exalted Ottoman State"
+
+### Focuses ###
+ 
+### Ideas ###
+ TUR_recovering_from_war:0 "Recovering from the War of Independence"
+ TUR_agrarian_society:0 "Agrarian Society"
+ TUR_illiteracy:0 "High Illiteracy rate"
+ TUR_sided_neutrality:0 "A Forced Alliance"
+ TUR_turkish_nationalism:0 "Turkish Nationalism"
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+ TUR_Adnan_Menderes_hog:0 "Adnan Bey"
+ TUR_Ethem_Menderes_interior:0 "Ethem Bey"
+ TUR_Emin_Kalafat_eco:0 "Emin Bey"
+ TUR_Fuat_Koprulu_for:0 "Fuat Efendi"
+ TUR_Huseyin_Celal_Yardimci:0 "Huseyin Celal Efendi"
+ TUR_Mustafa_Kemal_cul:0 "Mustafa Kemal Pasa"
+ TUR_Ahmet_Salih_Korur_intel:0 "Ahmet Salih Bey"
+ TUR_Nuri_Yamut_cos:0 "Nuri Pasa"
+ TUR_Cemal_Gursel_coa:0 "Cemal Pasa"
+ TUR_Muzaffer_Goksenin_air:0 "Muzaffer Pasa"
+ TUR_Sadik_Altincan_navy:0 "Sadik Pasa"
+### Leaders ###
+ POLITICS_ATATURK_DESC:0 "When the world was falling apart at the seams, and lesser men were desperately clinging to their crumbling empires, there was one who stood opposite the stampeding masses.\n\n As a young officer Mustafa Kemal participated in the Young Turk Rebellion, championing constitutional rule and helping depose the autocratic Abdul Hamid. From this prestigious victory, a strong willed Lieutenant Colonel would grow. He would go on to valiantly defend his nation from the Balkan wars and into the Weltkrieg. Witnessing the horrors of Gallipoli and the Russian incursions firsthand.\n\nAfter the war, Mustafa became deeply concerned about his nations future, joining and promoting various reformist aligned organizations in an attempt to slow the seemingly inevitable decay of the Ottoman State. Despite his respected military career, his cries fell on deaf ears. Seeing the writing on the wall, Mustafa began making plans with like minded individuals.\n\nBy 1941, the Levantine War had resulted in the loss of swathes of Ottoman Territory, and the central government was on the verge of collapse. Mustafa finally sprung his plan into action, marshalling the scattered remaining divisions and focusing all efforts on maintaining the core of Anatolia. Many claim to this day that he single handedly prevented the complete partition of the country.\nThe formation of the provisional government, and the ratification of the new constitution left Kemal feeling restless. He had achieved his Turkish state, and yet it was not what he had dreamed of as a young man. To Kemal, the new government made too many compromises with the old order, and was nowhere near as secular, modern or liberal as he had hoped. This dissatisfaction led him to form an opposition party, quickly amassing millions of followers with his heroic status.\n\nNow he stands ready to fully enact his vision. Mustafa will create a united Turkey. Proud, modern, and secular. He sees a new future for the Turkish people just over the horizon. If only they are brave enough to reach out and grasp it..."
+ POLITICS_CELAL_BAYAR_DESC:0 "Celâl Pasha can respect a fellow patriot when he sees one, and for a long time those are what he saw. He saw men who promised to preserve the sovereignty of the Turkish people, men who valiantly defended their homeland against the encroaching storm and fought it back. In the postwar, he saw a Turkey that had successfully abandoned the backwards and Byzantine traditions of old while retaining its religion and culture. He could stand proud of his nation, secure in the idea that he had helped provide his people with a sense of identity.\n\nAs the years went by, the dream slowly died. Radical friends like Mustafa Kemal and Ishmet Pasha slowly morphed into rivals and annoyances. Celâl grew tired of the squabbling of partisan politics.\n\nYes, the Ottoman system needed reform, but must Turkey now be completely secular? A nation without a sense of God and home is no nation at all, as the socialists in the ruins of Europe prove every day."
+### Tech? ###
+

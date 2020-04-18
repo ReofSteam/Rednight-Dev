@@ -1,0 +1,97 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+KLD_social_nationalist_party:0 "KKMM (Usoshalisti)"
+KLD_social_nationalist_party_long:0 "Kamata ya Kati Mau Mau (Usoshalisti)\n(Mau Mau Central Committee (Usoshalisti))"
+KLD_marxist_party:0 "KKMM (Usoshalisti)"
+KLD_marxist_party_long:0 "Kamata ya Kati Mau Mau (Usoshalisti)\n(Mau Mau Central Committee (Usoshalisti))"
+KLD_libertarian_party:0 "SWK (Kushoto)"
+KLD_libertarian_party_long:0 "Shirika la Wafanyakazi wa Kirenya (Kushoto)\n(Trade Union Confederation (Kushoto))"
+KLD_moderate_socialist_party:0 "BM (Kijamii)"
+KLD_moderate_socialist_party_long:0 "Bung Maruufu (Kijamii)\n(Popular Council (Kijamii))"
+KLD_social_democrat_party:0 "SWK (Kulia)"
+KLD_social_democrat_party_long:0 "Shirika la Wafanyakazi wa Kirenya (Kulia)\n(Trade Union Confederation (Kulia))"
+KLD_social_liberal_party:0 "BM (Kisasa)"
+KLD_social_liberal_party_long:0 "Bung Maruufu (Kisasa)\n(Popular Council (Kisasa))"
+KLD_conservative_party:0 "BM (Kihafidhina)"
+KLD_conservative_party_long:0 "Bung Maruufu (Kihafidhina)\n(Popular Council (Kihafidhina))"
+KLD_authoritarian_democrat_party:0 "Baraza la Wakuu (Majimbo)"
+KLD_authoritarian_democrat_party_long:0 "Baraza la Wakuu (Majimbo)\n(Council of Chiefs(Majimbo))"
+KLD_autocratic_party:0 "Baraza la Wakuu (Agikuyu)"
+KLD_autocratic_party_long:0 "Baraza la Wakuu (Agikuyu)\n(Council of Chiefs (Agikuy))"
+KLD_fundamentalist_party:0 "KKMM (Dini ya Kaggia)"
+KLD_fundamentalist_party_long:0 "Kamata ya Kati Mau Mau (Dini ya Kaggia)\n(Mau Mau Central Committee (Dini ya Kaggia))"
+KLD_voynist_party:0 "KKMM (Mwafrika)" 
+KLD_voynist_party_long:0 "Kamata ya Kati Mau Mau (Mwafrika)\n(Mau Mau Central Committee (Mwafrika))"
+
+### Country Name ###
+
+KLD_social_nationalist:0 "Kirenya"
+KLD_social_nationalist_ADJ:0 "Kirenyan"
+KLD_social_nationalist_DEF:0 "Kirenya"
+KLD_marxist:0 "Kirenya"
+KLD_marxist_ADJ:0 "Kirenyan"
+KLD_marxist_DEF:0 "Kirenya"
+KLD_libertarian:0 "Kirenya"
+KLD_libertarian_ADJ:0 "Kirenyan"
+KLD_libertarian_DEF:0 "Kirenya"
+KLD_moderate_socialist:0 "Kirenya"
+KLD_moderate_socialist_ADJ:0 "Kirenyan"
+KLD_moderate_socialist_DEF:0 "Kirenya"
+KLD_social_democrat:0 "Kirenya"
+KLD_social_democrat_ADJ:0 "Kirenyan"
+KLD_social_democrat_DEF:0 "Kirenya"
+KLD_social_liberal:0 "Kirenya"
+KLD_social_liberal_ADJ:0 "Kirenyan"
+KLD_social_liberal_DEF:0 "Kirenya"
+KLD_conservative:0 "Kirenya"
+KLD_conservative_ADJ:0 "Kirenyan"
+KLD_conservative_DEF:0 "Kirenya"
+KLD_authoritarian_democrat:0 "Kirenya"
+KLD_authoritarian_democrat_ADJ:0 "Kirenyan"
+KLD_authoritarian_democrat_DEF:0 "Kirenya"
+KLD_autocratic:0 "Kirenya"
+KLD_autocratic_ADJ:0 "Kirenyan"
+KLD_autocratic_DEF:0 "Kirenya"
+KLD_fundamentalist:0 "Kirenya"
+KLD_fundamentalist_ADJ:0 "Kirenyan"
+KLD_fundamentalist_DEF:0 "Kirenya"
+KLD_voynist:0 "Kirenya"
+KLD_voynist_ADJ:0 "Kirenyan"
+KLD_voynist_DEF:0 "Kirenya"
+
+### Focuses ###
+ 
+### Ideas ###
+
+KLD_struggle_for_uhuru:0 "Struggle for Uhuru"
+KLD_struggle_for_uhuru_desc:0 "Kirenya fights on, struggles against the forces of imperialism and colonialism to achieve independence (or Uhuru in Swahili, the adopted panafrikan language of the Mau Mau). The cry for Uhuru has been called since the first days of the Mau Mau uprising, and every Kirenyan continues this struggle so long as the people are threatened."
+
+KLD_a_young_nation:0 "A Young Nation"
+KLD_a_young_nation_desc:0 "Although the Mau Mau insurgency has been going on and off since the late 20s, the nation of Kirenya has only recently formed and nearly all the nations institutions are in the midst of being constructed. Many in Kirenya still possess more allegiance to their tribe than their newborn fatherland and Kirenya still lacks a fully developed national identity"
+
+KLD_the_blood_oath:0 "The Blood Oath"
+KLD_the_blood_oath_desc:0 "Every Mau Mau fighter must take a blood oath, a strange and clandestine ritual which usually involves slaughtering a goat or pig and pricking the soldier's hand so that a drop of blood comes out. Mau Mau must then sware an oath to Kirenya and the people of Afrika to never give up the fight against the oppressor. These oaths are extremely effective on the superstitious people of Kirenya as it incorporates native religion and magic and as consequence there are almost no defectors, rats, or mutinies."
+
+KLD_panafrican_ambitions:0 "Pan-African Ambitions"
+KLD_panafrican_ambitions_desc:0 "Just as the tribes of Kirenya came together in unity to combat the foreign menace, so too does Kirenya desire to unite the peoples of Afrika into one nation."
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_DEDAN_KIMATHI_DESC:0 "In his early youth Dedan Kimathi was accepted to the university in Dar Es Salaam where he joined the debate club and starting writing journalism. As he reported more on the Mau Mau uprising, he slowly became radicalized as the Anglo-German colonial government continually repressed his activities and paid thugs to destroy his papers. He began writing poetry and became highly resistant to any attempt at discipline. His trouble with the authority figures in the school would lead to him all but abandoning education to finally enlist in the Askari in 1940. His time in the army would also be fraught with conflict; he would consistently fight with both his superior officers and fellow recruits. He was eventually discharged. Kimathi became destitute after that, holding several jobs for short periods of time. In 1947, Kimathi would attend a meeting of the young Jomo Kenyatta’s Kirenya African Union. Within the KAU, he would join the Kirenya Land and Freedom Army with several others from various ethnic groups across Kirenya. Upon taking the oath of the Mau Mau, Kimathi would become a valiant and brave soldier and eventually commander of the “Kirenya Defense Council”, a group set up by the Mau Mau to help coordinate the guerilla fighters and rebels. Kimathi would prove to be a successful tactician, winning several battles against the Askari and Home Guard. After the death of Stanley Mathenge, Kimathi was appointed as the next Mongozi Mkuu (or Great Leader). Since gaining power, Kimathi has centralized Kirenya, launched a war against regionalism and ethnic separatism, and professionalized and expanded the Mau Mau Army while keeping the parts that made them successful. "
+
+### Tech? ###

@@ -1,1 +1,178 @@
-﻿
+﻿l_english:
+  #PARTIES
+  party_socnat:0 "§S[SOCNAT_PARTY]§!\n§P[?socnat_pop]%§!"
+  party_marxist:0 "§M[MARXIST_PARTY]§!\n§P[?marxist_pop]%§!"
+  party_lib:0 "§L[LIB_PARTY]§!\n§P[?lib_pop]%§!"
+  party_modsoc:0 "§m[MODSOC_PARTY]§!\n§P[?modsoc_pop]%§!"
+  party_socdem:0 "§s[SOCDEM_PARTY]§!\n§P[?socdem_pop]%§!"
+  party_soclib:0 "§l[SOCLIB_PARTY]§!\n§P[?soclib_pop]%§!"
+  party_con:0 "§C[CON_PARTY]§!\n§P[?con_pop]%§!"
+  party_authdem:0 "§A[AUTHDEM_PARTY]§!\n§P[?authdem_pop]%§!"
+  party_autocratic:0 "§a[AUTOCRATIC_PARTY]§!\n§P[?autocratic_pop]%§!"
+  party_fundie:0 "§F[FUNDIE_PARTY]§!\n§P[?fundie_pop]%§!"
+  party_voynist:0 "§V[VOYNIST_PARTY]§!\n§P[?voyie_pop]%§!"
+  
+  #HOVER
+  hover_socnat:0 "[SOCNAT_HOVER] - [?socnat_pop]%\n[TEXT_ACTUAL_SOCNAT_COALITION]\n[TEXT_ACTUAL_SOCNAT_STATUS_HOVER]§W\n--------------------\n§L[SOCNAT_PARTY_DESC]§W"
+  hover_marxist:0 "[MARXIST_HOVER] - [?marxist_pop]%\n[TEXT_ACTUAL_MARXIST_COALITION]\n[TEXT_ACTUAL_MARXIST_STATUS_HOVER]§W\n--------------------\n§L[MARXIST_PARTY_DESC]§W"
+  hover_lib:0 "[LIB_HOVER] - [?lib_pop]%\n[TEXT_ACTUAL_LIB_COALITION]\n[TEXT_ACTUAL_LIB_STATUS_HOVER]§W\n--------------------\n§L[LIB_PARTY_DESC]§W"
+  hover_modsoc:0 "[MODSOC_HOVER] - [?modsoc_pop]%\n[TEXT_ACTUAL_MODSOC_COALITION]\n[TEXT_ACTUAL_MODSOC_STATUS_HOVER]§W\n--------------------\n§L[MODSOC_PARTY_DESC]§W"
+  hover_socdem:0 "[SOCDEM_HOVER] - [?socdem_pop]%\n[TEXT_ACTUAL_SOCDEM_COALITION]\n[TEXT_ACTUAL_SOCDEM_STATUS_HOVER]§W\n--------------------\n§L[SOCDEM_PARTY_DESC]§W"
+  hover_soclib:0 "[SOCLIB_HOVER] - [?soclib_pop]%\n[TEXT_ACTUAL_SOCLIB_COALITION]\n[TEXT_ACTUAL_SOCLIB_STATUS_HOVER]§W\n--------------------\n§L[SOCLIB_PARTY_DESC]§W"
+  hover_con:0 "[CON_HOVER] - [?con_pop]%\n[TEXT_ACTUAL_CON_COALITION]\n[TEXT_ACTUAL_CON_STATUS_HOVER]§W\n--------------------\n§L[CON_PARTY_DESC]§W"
+  hover_authdem:0 "[AUTHDEM_HOVER] - [?authdem_pop]%\n[TEXT_ACTUAL_AUTHDEM_COALITION]\n[TEXT_ACTUAL_AUTHDEM_STATUS_HOVER]§W\n--------------------\n§L[AUTHDEM_PARTY_DESC]§W"
+  hover_autocratic:0 "[AUTOCRATIC_HOVER] - [?autocratic_pop]%\n[TEXT_ACTUAL_AUTOCRATIC_COALITION]\n[TEXT_ACTUAL_AUTOCRATIC_STATUS_HOVER]§W\n--------------------\n§L[AUTOCRATIC_PARTY_DESC]§W"
+  hover_fundie:0 "[FUNDIE_HOVER] - [?fundie_pop]%\n[TEXT_ACTUAL_FUNDIE_COALITION]\n[TEXT_ACTUAL_FUNDIE_STATUS_HOVER]§W\n--------------------\n§L[FUNDIE_PARTY_DESC]§W"
+  hover_voynist:0 "[VOYNIST_HOVER] - [?voyie_pop]%\n[TEXT_ACTUAL_VOYNIST_COALITION]\n[TEXT_ACTUAL_VOYNIST_STATUS_HOVER]§W\n--------------------\n§L[VOYIE_PARTY_DESC]§W"
+
+  #HOVER STATUS
+  hover_socnat_status:0 "§Y[SOCNAT_HOVER]§! is currently [SOCNAT_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_marxist_status:0 "§Y[MARXIST_HOVER]§! is currently [MARXIST_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_lib_status:0 "§Y[LIB_HOVER]§! is currently [LIB_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_modsoc_status:0 "§Y[MODSOC_HOVER]§! is currently [MODSOC_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_socdem_status:0 "§Y[SOCDEM_HOVER]§! is currently [SOCDEM_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_soclib_status:0 "§Y[SOCLIB_HOVER]§! is currently [SOCLIB_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_con_status:0 "§Y[CON_HOVER]§! is currently [CON_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_authdem_status:0 "§Y[AUTHDEM_HOVER]§! is currently [AUTHDEM_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_autocratic_status:0 "§Y[AUTOCRATIC_HOVER]§! is currently [AUTOCRATIC_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_fundie_status:0 "§Y[FUNDIE_HOVER]§! is currently [FUNDIE_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+  hover_voynist_status:0 "§Y[VOYNIST_HOVER]§! is currently [VOYNIST_STATUS_HOVER] in §Y[ROOT.GetName]§!"
+
+  #HOVER COALITION
+  hover_socnat_coalition:0 "[TEXT_SOCNAT_COALITION]"
+  hover_marxist_coalition:0 "[TEXT_MARXIST_COALITION]"
+  hover_lib_coalition:0 "[TEXT_LIB_COALITION]"
+  hover_modsoc_coalition:0 "[TEXT_MODSOC_COALITION]"
+  hover_socdem_coalition:0 "[TEXT_SOCDEM_COALITION]"
+  hover_soclib_coalition:0 "[TEXT_SOCLIB_COALITION]"
+  hover_con_coalition:0 "[TEXT_CON_COALITION]"
+  hover_authdem_coalition:0 "[TEXT_AUTHDEM_COALITION]"
+  hover_autocratic_coalition:0 "[TEXT_AUTOCRATIC_COALITION]"
+  hover_fundie_coalition:0 "[TEXT_FUNDIE_COALITION]"
+  hover_voynist_coalition:0 "[TEXT_VOYNIST_COALITION]"
+
+  #COALITION TIME HOURS
+  socnat_coalition:0 "§Y[SOCNAT_HOVER]§! is in the §Ggovernment§!"
+  marxist_coalition:0 "§Y[MARXIST_HOVER]§! is in the §Ggovernment§!"
+  lib_coalition:0 "§Y[LIB_HOVER]§! is in the §Ggovernment§!"
+  modsoc_coalition:0 "§Y[MODSOC_HOVER]§! is in the §Ggovernment§!"
+  socdem_coalition:0 "§Y[SOCDEM_HOVER]§! is in the §Ggovernment§!"
+  soclib_coalition:0 "§Y[SOCLIB_HOVER]§! is in the §Ggovernment§!"
+  con_coalition:0 "§Y[CON_HOVER]§! is in the §Ggovernment§!"
+  authdem_coalition:0 "§Y[AUTHDEM_HOVER]§! is in the §Ggovernment§!"
+  autocratic_coalition:0 "§Y[AUTOCRATIC_HOVER]§! is in the §Ggovernment§!"
+  fundie_coalition:0 "§Y[FUNDIE_HOVER]§! is in the §Ggovernment§!"
+  voynist_coalition:0 "§Y[VOYNIST_HOVER]§! is in the §Ggovernment§!"
+
+  #I AM THE [GOVERNMENT]
+  socnat_alone:0 "§Y[SOCNAT_HOVER]§! is in §Ggovernment§!"
+  marxist_alone:0 "§Y[MARXIST_HOVER]§! is in §Ggovernment§!"
+  lib_alone:0 "§Y[LIB_HOVER]§! is in §Ggovernment§!"
+  modsoc_alone:0 "§Y[MODSOC_HOVER]§! is in §Ggovernment§!"
+  socdem_alone:0 "§Y[SOCDEM_HOVER]§! is in §Ggovernment§!"
+  soclib_alone:0 "§Y[SOCLIB_HOVER]§! is in §Ggovernment§!"
+  con_alone:0 "§Y[CON_HOVER]§! is in §Ggovernment§!"
+  authdem_alone:0 "§Y[AUTHDEM_HOVER]§! is in §Ggovernment§!"
+  autocratic_alone:0 "§Y[AUTOCRATIC_HOVER]§! is in §Ggovernment§!"
+  fundie_alone:0 "§Y[FUNDIE_HOVER]§! is in §Ggovernment§!"
+  voynist_alone:0 "§Y[VOYNIST_HOVER]§! is in §Ggovernment§!"
+
+  #What government?
+  kn_ruling_party:0 "§YRuling Party§!"
+  kn_coalition:0 "§GIn government§!"
+  kn_no_coalition:0 "§RNot in government§!"
+
+  #Sorting for parties non-hover
+  pos_social_nationalist:0 "[PARTIES_SOCNAT]"
+  pos_marxist:0 "[PARTIES_MARXIST]"
+  pos_libertarian:0 "[PARTIES_LIB]"
+  pos_moderate_socialist:0 "[PARTIES_MODSOC]"
+  pos_social_democrat:0 "[PARTIES_SOCDEM]"
+  pos_social_liberal:0 "[PARTIES_SOCLIB]"
+  pos_conservative:0 "[PARTIES_CON]"
+  pos_authoritarian_democrat:0 "[PARTIES_AUTHDEM]"
+  pos_autocratic:0 "[PARTIES_AUTOCRATIC]"
+  pos_fundamentalist:0 "[PARTIES_FUNDIE]"
+  pos_voynist:0 "[PARTIES_VOYNIST]"
+
+  #Sorting for parties hover
+  hover_pos1:0 "[POS_HOVER1]"
+  hover_pos2:0 "[POS_HOVER2]"
+  hover_pos3:0 "[POS_HOVER3]"
+  hover_pos4:0 "[POS_HOVER4]"
+  hover_pos5:0 "[POS_HOVER5]"
+  hover_pos6:0 "[POS_HOVER6]"
+  hover_pos7:0 "[POS_HOVER7]"
+  hover_pos8:0 "[POS_HOVER8]"
+  hover_pos9:0 "[POS_HOVER9]"
+  hover_pos10:0 "[POS_HOVER10]"
+  hover_pos11:0 "[POS_HOVER11]"
+
+  #Sorting for parties hover
+  hover_pos1_status:0 "[POS_HOVER_STATUS1]"
+  hover_pos2_status:0 "[POS_HOVER_STATUS2]"
+  hover_pos3_status:0 "[POS_HOVER_STATUS3]"
+  hover_pos4_status:0 "[POS_HOVER_STATUS4]"
+  hover_pos5_status:0 "[POS_HOVER_STATUS5]"
+  hover_pos6_status:0 "[POS_HOVER_STATUS6]"
+  hover_pos7_status:0 "[POS_HOVER_STATUS7]"
+  hover_pos8_status:0 "[POS_HOVER_STATUS8]"
+  hover_pos9_status:0 "[POS_HOVER_STATUS9]"
+  hover_pos10_status:0 "[POS_HOVER_STATUS10]"
+  hover_pos11_status:0 "[POS_HOVER_STATUS11]"
+
+  #Illegal/Legal
+  illegal:0 "§Rillegal§!"
+  legal:0 "§Glegal§!"
+  illegal_hover:0 "§RIllegal§! in §Y[ROOT.GetName]§!"
+  legal_hover:0 "§GLegal§! in §Y[ROOT.GetName]§!"
+
+  #Coalition
+  coalition_label:0 "Parties"
+  coalition_hover:0 "This button displays the currently political movements within your nation, ranging from socialists to more right wing autocrats"
+
+  #Description
+  description_label:0 "§Y[ROOT.GetLeader]§!"
+  description_hover:0 "Yes[This.GetHeadOfGovernment]"
+  description_leadership:0 "[LEADERSHIP_DESCRIPTION]"
+
+  head_of_state:2 "Head of Government"
+  minister:2 "Cabinet"
+  minister2:2 "Cabinet"
+
+  laws_button_tooltip:0 "§YClick here to [LAWS_BUTTON_STATE] laws§!"
+
+  kn_open:0 "§Gopen§!"
+  kn_close:0 "§Rclose§!"
+
+  debug_event_scopes:0 "Incase you weren't aware, you are using debug mode and viewing an event"
+
+
+  # Diplomacy
+  KN_RECOGNISE_COUNTRY_TITLE:0 "Recognize Country"
+  KN_RECOGNISE_COUNTRY_DESC:0 "This is the recognize country sending screen"
+  KN_RECOGNISE_COUNTRY_ACTION_TITLE:0 "Recognize Country"
+  KN_RECOGNISE_COUNTRY_ACTION_DESC:0 ""
+
+  KN_PURCHASE_EQUIPMENT_TITLE:0 "Purchase Equipment"
+  KN_PURCHASE_EQUIPMENT_DESC:0 ""
+  KN_PURCHASE_EQUIPMENT_ACTION_TITLE:0 "Purchase Equipment"
+  KN_PURCHASE_EQUIPMENT_ACTION_DESC:0 ""
+
+  KN_MAKE_INVESTMENT_TITLE:0 "Make Investment"
+  KN_MAKE_INVESTMENT_DESC:0 ""
+  KN_MAKE_INVESTMENT_RECEIVE_DESC:0 ""
+  KN_MAKE_INVESTMENT_ACCEPT:0 "Investment Accepted"
+  KN_MAKE_INVESTMENT_ACCEPT_DESC:0 "[FROM.GetLeader] has accepted our investment into [FROM.GetNameDef]"
+  KN_MAKE_INVESTMENT_REJECT:0 "Investment Rejects"
+  KN_MAKE_INVESTMENT_REJECT_DESC:0 "[FROM.GetLeader] has rejected our investment into [FROM.GetNameDef]"
+  KN_MAKE_INVESTMENT_ACTION_TITLE:0 "Make Investment"
+  KN_MAKE_INVESTMENT_ACTION_DESC:0 ""
+
+  ### TOPBAR ###
+  KN_topbar_parties_pop:0 "[?coalition_popularity]%"
+  GFX_KN_topbar_parties:0 "[RULING_GFX]"
+  KN_topbar_parties_desc:0 "§Y[COALITION_OR_GOVERNMENT] ([?coalition_popularity]%) gives us the following:§!\n- Political Power Gain: [COALITION_POLITICAL_POWER_GAIN]\n"
+  political_power_gain_positive:0 "§G+[?ppp_gain]§!"
+  political_power_gain_neutral:0 "§W[?ppp_gain]§!"
+  political_power_gain_negative:0 "§R[?ppp_gain]§!"

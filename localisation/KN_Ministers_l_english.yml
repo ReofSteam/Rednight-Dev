@@ -1,0 +1,64 @@
+﻿l_english:
+################################################
+### GENERIC STUFF
+################################################
+head_of_state:0 "Head of State"
+head_of_government:0 "Head of Government"
+minister_no_portfolio:0 "Office without Portfolio"
+interior_minister:0 "Minister of the Interior"
+economy_minister:0 "Minister of Finance"
+foreign_minister:0 "Minister of Foreign Affairs"
+education_minister:0 "Minister of Education"
+culture_minister:0 "Minister of Culture"
+transport_minister:0 "Minister of Transportation"
+head_of_intel:0 "Head of Intelligence"
+chief_of_staff:0 "Chief of Staff"
+chief_of_army:0 "Head of Army"
+chief_of_air_force:0 "Head of Air Force"
+chief_of_navy:0 "Head of Navy"
+social_nationalist_trait:0 "Social Nationalist"
+marxist_trait:0 "Marxist"
+libertarian_trait:0 "Libertarian"
+moderate_socialist_trait:0 "Moderate Socialist"
+social_democrat_trait:0 "Social Democrat"
+social_liberal_trait:0 "Social Liberal"
+conservative_trait:0 "Conservative"
+authoritarian_democrat_trait:0 "Authoritarian Democrat"
+autocratic_trait:0 "Autocratic"
+fundamentalist_trait:0 "Fundamentalist"
+voynist_trait:0 "Voynist"
+	
+### Socialist Traits
+commissioner_education:0 "Commissioner for Education"
+labor_exchange_president:0 "President of General Labor Exchange"
+
+### Religious Traits
+archbishop:0 "Archbishop"
+archbishop_athens:0 "Archbishop of Athens"
+
+### Non-ideological Traits
+president:0 "President"
+minister_of_railways:0 "Minister of Railways"
+health_minister:0 "Minister of Health"
+
+################################################
+### CISLEITHANIAN STUFF
+################################################
+head_of_federal_security_office:0 "Head of Federal Security Office"
+CIS_cos_people_army:0 "Chief of Staff of the Cisleithanian People's Army"
+CIS_cogs_people_army:0 "Chief of the General Staff of the Cisleithanian People's Army"
+CIS_cogs_luftstreikrafte:0 "Chief of the General Staff of the Luftstreikrafte"
+    
+###USN STUFF
+joint_cos_trait:0 "US Joint Chiefs of Staff"
+commerce_secretary:0 "Director, J4 Munitions Directorate"
+interior_secretary:0 "Secretary of the Interior"
+state_secretary:0 "Emergency Cabinet Secretary of State"
+education_secretary:0 "Emergency Cabinet Director of the Office of Education"
+culture_secretary:0 "Emergency Cabinet Special Director of the Office of Media"
+transport_secretary:0 "Director, J4a Office of Transport"
+intel_director:0 "Director, J2 National Military Joint Intelligence Center"
+chairman_cos:0 "Chairman of the Joint Chiefs of Staff"
+cos_army:0 "Chief of Staff of the United States Army"
+chief_of_us_air:0 "Director, J3 Strategic Air Command"
+chief_of_usn:0 "Chief of Naval Operations"
