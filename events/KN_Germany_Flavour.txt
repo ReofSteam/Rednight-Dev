@@ -1,0 +1,44 @@
+﻿###########################
+# German Flavour Events
+###########################
+
+add_namespace = gerfla
+
+
+country_event = {
+	id = gerfla.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfla.1"}
+	title = gerfla.1.t
+	desc = gerfla.1.d
+
+	is_triggered_only = yes
+	fire_only_once = yes
+    trigger = {
+		tag = GER
+		has_global_flag = occupation_over
+	}
+	#mean_time_to_happen = { 
+	#	days = 10
+	#}
+
+	option = {
+		name = gerfla.1.a
+		add_stability = 0.025
+	}
+	option = {
+		name = gerfla.1.b
+		add_stability = 0.025
+	}	
+	option = {
+		name = gerfla.1.c
+		add_stability = 0.025
+	}	
+	option = {
+		name = gerfla.1.e
+		add_stability = 0.015
+        add_popularity = {
+        	ideology = voynist
+        	popularity = 0.025
+		}
+	}				
+}

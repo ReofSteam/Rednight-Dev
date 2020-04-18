@@ -1,0 +1,241 @@
+﻿###########################
+# World News Events
+###########################
+#####You made this ?
+#####Screw You, i made this
+
+add_namespace = worldnews
+
+# Liberation Day
+news_event = {
+	id = worldnews.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.11"}
+	title = worldnews.1.t
+	desc = worldnews.1.d
+	
+	picture = GFX_Liberation_Day
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+
+	show_major = {
+		regional_europe_news = yes
+	}
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { id = worldnews.11 days = 365 }
+		}
+	}
+
+	option = {
+		name = worldnews.1.a
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.1.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}	
+}
+
+
+#First Indochina War #####you fool, the bracket for the event above is below this
+news_event = {
+	id = worldnews.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.11"}
+	title = worldnews.11.t
+	desc = worldnews.11.d
+	
+	picture = GFX_indochina_war_1
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.11.a
+		trigger = { 
+		NOT = { tag = INC }
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.11.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.11.c
+		trigger = {
+		tag = INC
+		original_tag = INC
+		}
+	}	
+}
+news_event = {
+	id = worldnews.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.12"}
+	title = worldnews.12.t
+	desc = worldnews.12.d
+	
+	picture = GFX_indochina_war_2
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.12.a
+		trigger = {
+		NOT = { tag = INC }
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.12.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.12.c
+		trigger = {
+		tag = INC
+		original_tag = INC
+		}
+	}	
+}
+news_event = {
+	id = worldnews.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.13"}
+	title = worldnews.13.t
+	desc = worldnews.13.d
+	
+	picture = GFX_indochina_war_3
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.13.a
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.13.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+}
+news_event = {
+	id = worldnews.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.14"}
+	title = worldnews.14.t
+	desc = worldnews.14.d
+	
+	picture = GFX_indochina_war_4
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.14.a
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.14.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+}
+news_event = {
+	id = worldnews.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.15"}
+	title = worldnews.15.t
+	desc = worldnews.15.d
+	
+	picture = GFX_indochina_war_5
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.15.a
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.15.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+}
+news_event = {
+	id = worldnews.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event worldnews.16"}
+	title = worldnews.16.t
+	desc = worldnews.16.d
+	
+	picture = GFX_indochina_war_5
+
+	major = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		wants_world_news = yes
+	}
+	
+	option = {
+		name = worldnews.16.a
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	option = {
+		name = worldnews.16.b
+		trigger = {
+			not_has_socialist_government = yes
+		}
+	}
+}

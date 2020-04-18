@@ -1,0 +1,20 @@
+﻿##########################
+# Naval Clique Events
+###########################
+
+add_namespace = usn
+
+
+country_event = {
+	id = usn.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event usn.1"}
+	title = usn.1.t
+	desc = usn.1.d
+	#picture = GFX_usn_flag
+	fire_only_once = yes
+    
+		
+	option = {
+		name = usn.1.a
+	}				
+}
