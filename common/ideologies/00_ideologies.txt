@@ -1,10 +1,10 @@
 ideologies = {
 
-	social_nationalist = {
+	nationalist_socialism = {
 		types = {
-			social_nationalist_subtype = {}
+			nationalist_socialism_subtype = {}
 		}
-		color = { 163 17 34 } #a31122
+		color = { 74 19 19 } #a31122
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -26,11 +26,11 @@ ideologies = {
 		}
 	}
 
-	marxist = {
+	revolutionary_socialism = {
 		types = {
-			marxist_subtype = {} #generic
+			revolutionary_socialism_subtype = {} #generic
 		}
-		color = { 242 24 60 } #ee183b
+		color = { 191 0 0 } #ee183b
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -52,14 +52,14 @@ ideologies = {
 		}
 	}
 
-	libertarian = {
+	syndicalism = {
 		types = {
-			libertarian_subtype = {} #generic
+			syndicalism_subtype = {} #generic
 
 			anarchist = {}
 			autonomist = {}
 		}
-		color = { 228 61 138 } #e43d8a
+		color = { 223 29 29 } #e43d8a
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -92,7 +92,7 @@ ideologies = {
 			indocommunist = {}
 			ethical_socialist = {}	
 		}
-		color = { 239 113 149 } #ef7195
+		color = { 146 50 84 } #ef7195
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -120,7 +120,7 @@ ideologies = {
 			
 			gradualist = {}
 		}
-		color = { 226 93 65 } #
+		color = { 191 52 0 } #
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -146,7 +146,7 @@ ideologies = {
 		types = {
 			social_liberal_subtype = {}
 		}
-		color = { 255 170 0 }
+		color = { 255 200  15 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -168,11 +168,11 @@ ideologies = {
 		}
 	}
 
-	conservative = {
+	social_conservative = {
 		types = {
 			conservative_subtype = {}
 		}
-		color = { 0 94 196 }
+		color = { 35 60 124 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -198,7 +198,7 @@ ideologies = {
 		types = {
 			authoritarian_democrat_subtype = {}
 		}
-		color = { 120 132 157 } #78849d
+		color = { 160 160 160 } #78849d
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -224,7 +224,7 @@ ideologies = {
 		types = {
 			autocratic_subtype = {}
 		}
-		color = { 80 82 89 }
+		color = { 89 89 89 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -245,38 +245,12 @@ ideologies = {
 			"FACTION_NAME_AUTOCRATIC_5"
 		}
 	}
-
-	voynist = {
+	
+	ultraconservative = {
 		types = {
-			voynist_subtype = {}
+			ultraconservative_subtype = {}
 		}
-		color = { 20 40 75 }
-		rules = {
-			can_force_government = no
-			can_puppet = no
-			can_join_factions = no
-			can_send_volunteers = yes
-		}		
-		modifiers = {
-			join_faction_tension = 0.80
-			generate_wargoal_tension = 1.00
-		}
-		ai_neutral = yes	
-		can_be_boosted = no
-		dynamic_faction_names = {
-			"FACTION_NAME_VOYNIST_1"
-			"FACTION_NAME_VOYNIST_2"
-			"FACTION_NAME_VOYNIST_3"
-			"FACTION_NAME_VOYNIST_4"
-			"FACTION_NAME_VOYNIST_5"
-		}
-	}
-
-	fundamentalist = {
-		types = {
-			fundamentalist_subtype = {}
-		}
-		color = { 40 40 40 }  #282828
+		color = { 134 2 118 }  #282828
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -295,6 +269,32 @@ ideologies = {
 			"FACTION_NAME_FUNDAMENTALIST_3"
 			"FACTION_NAME_FUNDAMENTALIST_4"
 			"FACTION_NAME_FUNDAMENTALIST_5"
+		}
+	}
+
+	national_corporatist = {
+		types = {
+			national_corporatist_subtype = {}
+		}
+		color = { 62 62 13 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 1.00
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+		dynamic_faction_names = {
+			"FACTION_NAME_VOYNIST_1"
+			"FACTION_NAME_VOYNIST_2"
+			"FACTION_NAME_VOYNIST_3"
+			"FACTION_NAME_VOYNIST_4"
+			"FACTION_NAME_VOYNIST_5"
 		}
 	}
 }
