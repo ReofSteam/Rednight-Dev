@@ -12,19 +12,7 @@ add_ideas = {
 	FRA_phalanstere
 	
 	#Cabinet
-	FRA_Louis_Sellier_hog #Head of Government
-    FRA_Auguste_Lecoeur_interior #Minister of Interior
-	FRA_Ambroise_Croizat_economy #Minister of Economy
-	FRA_Jacques_Duclos_foreign #Minister of Foreign Affairs
-	FRA_Christiane_Faure_education #Minister of Education
-	FRA_Jean_Renoir_culture #Minister of Culture
-	FRA_Pierre_Semard_transport #Minister of Transportation
-	FRA_Edouard_Herriot_portfolio #Minister without Portfolio
-	FRA_Andre_Philip_intel #Head of Intelligence
-	FRA_Paul_Le_Gentilhomme_cos #Chief of Staff
-	FRA_Henri_Rol_Tanguy_coa #Chief of the Army
-	FRA_Martial_Henri_Valin_air #Chief of the Air Force
-	FRA_Philippe_Auboyneau_navy #Chief of the Navy
+
 }
 
 # Starting tech
@@ -123,11 +111,11 @@ add_to_faction = SEN
 add_to_faction = ALB
 
 create_country_leader = {# Our BOYO OWO
-	name = "Marcel Cachin"
-	desc = "POLITICS_MARCEL_CACHIN_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/FRA/FRA_Marcel_Cachin.dds"
+	name = "Benoit Frachon"
+	desc = "POLITICS_BENOIT_FRACHON_DESC"
+	picture = "gfx/leaders/FRA/FRA_Benoit_Frachon.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = libertarian_subtype
 	traits = {
         grandfather_of_the_party
 	}

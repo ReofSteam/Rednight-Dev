@@ -107,9 +107,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "King Michael I"
+	name = "Ion Mota"
 	desc = "Micheal_1_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
+	picture = "gfx/leaders/ROM/ROM_Ion_Mota.tga"
 	expire = "1965.1.1"
 	ideology = fundamentalist_subtype
 	traits = { }

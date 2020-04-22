@@ -33,7 +33,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Félix Boigny"
-	picture = "gfx/leaders/WEST_AFRICA/IVY/IVY_Felix_Boigny.tga"
+	picture = "gfx/leaders/IVY/IVY_Felix_Boigny.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype

@@ -16,15 +16,25 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
+	social_nationalist = 100
 	marxist = 0
 	libertarian = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
 	conservative = 0
-	authoritarian_democrat = 100
+	authoritarian_democrat = 0
 	autocratic = 0
 	fundamentalist = 0
 	voynist = 0
+}
+
+create_country_leader = {
+	name = "Kwame Nkrumah"
+	picture = "gfx/leaders/ASH/ASH_Kwame_Nkrumah.tga"
+	desc = "POLITICS_KWAME_NKRUMAH_DESC"
+	expire = "1965.1.1"
+	ideology = social_nationalist_subtype
+	traits = {
+	}
 }

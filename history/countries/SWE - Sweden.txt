@@ -98,9 +98,9 @@ set_country_flag = coalition_conservative
 # gfx/leaders/SCANDINAVIA/SWE/ #
 ################################
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = conservative_subtype
 	traits = {
@@ -109,9 +109,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -120,9 +120,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
@@ -140,9 +140,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {
@@ -151,9 +151,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = voynist_subtype
 	traits = {
@@ -173,9 +173,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustaf V"
+	name = "Gustaf VI"
 	desc = "POLITICS_Gustaf_V_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/SWE/SWE_Gustaf_V.tga"
+	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
