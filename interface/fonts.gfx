@@ -237,8 +237,8 @@ bitmapfonts = {
 	}
 	
 	bitmapfont = {
-		name = "GillSans_16"
-		path = "gfx/fonts/GillSans16"
+		name = "renner_antiqua_16"
+		path = "gfx/fonts/renner_antiqua_16"
 		color = 0xffffffff
 		textcolors = {
 			C = { 35 206 255 }
