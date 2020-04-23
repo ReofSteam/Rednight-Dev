@@ -12,9 +12,9 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USN_axis_of_liberty"}
 			picture = axis_of_liberty
 			modifier = {
-			social_nationalist_acceptance = -100
-			marxist_acceptance = -100
-			libertarian_acceptance = -100
+			nationalist_socialism_acceptance = -100
+			revolutionary_socialism_acceptance = -100
+			syndicalism_acceptance = -100
 			moderate_socialist_acceptance = -100
 			}
 		}
@@ -79,7 +79,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				commerce_secretary
 			}
 		}
@@ -111,7 +111,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				education_secretary
 			}
 		}
@@ -127,7 +127,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				culture_secretary
 			}
 		}

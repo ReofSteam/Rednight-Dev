@@ -18,24 +18,24 @@ set_technology = {
 set_research_slots = 2
 
 set_politics = {	
-	ruling_party = voynist
+	ruling_party = national_corporatist
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 7
-    marxist = 1
-    libertarian = 9
+    nationalist_socialism = 7
+    revolutionary_socialism = 1
+    syndicalism = 9
     moderate_socialist = 9
     social_democrat = 6
     social_liberal = 8
-    conservative = 6
+    social_conservative = 6
     authoritarian_democrat = 8
     autocratic = 0
-    fundamentalist = 14
-    voynist = 32
+    ultrasocial_conservative = 14
+    national_corporatist = 32
 }
 
 ###LEADERS
@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_DEDAN_KIMATHI_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/KLD/KLD_Dedan_Kimathi.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		
 	}

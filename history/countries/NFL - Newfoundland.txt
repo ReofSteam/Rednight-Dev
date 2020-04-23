@@ -51,17 +51,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 2
-    libertarian = 0
+    nationalist_socialism = 0
+    revolutionary_socialism = 2
+    syndicalism = 0
     moderate_socialist = 23
     social_democrat = 30
     social_liberal = 10
-    conservative = 25
+    social_conservative = 25
     authoritarian_democrat = 10
     autocratic = 0
-    fundamentalist = 0
-    voynist = 0
+    ultrasocial_conservative = 0
+    national_corporatist = 0
 }
 
 set_convoys = 250
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_SPECTOR_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/NFL/Portrait_Canada_Maurice_Spector.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 
 	}
@@ -105,7 +105,7 @@ create_country_leader = {
 	desc = "POLITICS_TOM_MCEWEN_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/NFL/Portrait_Canada_Tom_McEwen.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 
 	}

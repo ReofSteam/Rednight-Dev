@@ -232,7 +232,7 @@ ideas = {
 			}
 		}
 
-		social_conservative_influence = {
+		social_social_conservative_influence = {
 
 			allowed = {
 				always = no
@@ -247,8 +247,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 
 			modifier = {
-				social_conservative_drift = 0.1
-				social_conservative_acceptance = 85
+				social_social_conservative_drift = 0.1
+				social_social_conservative_acceptance = 85
 			}
 		}
 

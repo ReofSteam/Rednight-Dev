@@ -37,7 +37,7 @@ country_event = {
 		name = gerfla.1.e
 		add_stability = 0.015
         add_popularity = {
-        	ideology = voynist
+        	ideology = national_corporatist
         	popularity = 0.025
 		}
 	}				

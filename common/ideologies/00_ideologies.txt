@@ -18,11 +18,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_NATIONALIST_1"
-			"FACTION_NAME_SOCIAL_NATIONALIST_2"
-			"FACTION_NAME_SOCIAL_NATIONALIST_3"
-			"FACTION_NAME_SOCIAL_NATIONALIST_4"
-			"FACTION_NAME_SOCIAL_NATIONALIST_5"
+			"FACTION_NAME_nationalist_socialism_1"
+			"FACTION_NAME_nationalist_socialism_2"
+			"FACTION_NAME_nationalist_socialism_3"
+			"FACTION_NAME_nationalist_socialism_4"
+			"FACTION_NAME_nationalist_socialism_5"
 		}
 	}
 
@@ -44,11 +44,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_MARXIST_1"
-			"FACTION_NAME_MARXIST_2"
-			"FACTION_NAME_MARXIST_3"
-			"FACTION_NAME_MARXIST_4"
-			"FACTION_NAME_MARXIST_5"
+			"FACTION_NAME_revolutionary_socialism_1"
+			"FACTION_NAME_revolutionary_socialism_2"
+			"FACTION_NAME_revolutionary_socialism_3"
+			"FACTION_NAME_revolutionary_socialism_4"
+			"FACTION_NAME_revolutionary_socialism_5"
 		}
 	}
 
@@ -73,11 +73,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_1"
-			"FACTION_NAME_LIBERTARIAN_2"
-			"FACTION_NAME_LIBERTARIAN_3"
-			"FACTION_NAME_LIBERTARIAN_4"
-			"FACTION_NAME_LIBERTARIAN_5"
+			"FACTION_NAME_syndicalism_1"
+			"FACTION_NAME_syndicalism_2"
+			"FACTION_NAME_syndicalism_3"
+			"FACTION_NAME_syndicalism_4"
+			"FACTION_NAME_syndicalism_5"
 		}
 	}
 
@@ -170,7 +170,7 @@ ideologies = {
 
 	social_conservative = {
 		types = {
-			conservative_subtype = {}
+			social_conservative_subtype = {}
 		}
 		color = { 57 96 196 }
 		rules = {
@@ -186,11 +186,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
+			"FACTION_NAME_SOCIAL_social_conservative_1"
+			"FACTION_NAME_SOCIAL_social_conservative_2"
+			"FACTION_NAME_SOCIAL_social_conservative_3"
+			"FACTION_NAME_SOCIAL_social_conservative_4"
+			"FACTION_NAME_SOCIAL_social_conservative_5"
 		}
 	}
 
@@ -246,9 +246,9 @@ ideologies = {
 		}
 	}
 	
-	ultraconservative = {
+	ultrasocial_conservative = {
 		types = {
-			ultraconservative_subtype = {}
+			ultrasocial_conservative_subtype = {}
 		}
 		color = { 31 82 118 }  #282828
 		rules = {
@@ -264,11 +264,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_FUNDAMENTALIST_1"
-			"FACTION_NAME_FUNDAMENTALIST_2"
-			"FACTION_NAME_FUNDAMENTALIST_3"
-			"FACTION_NAME_FUNDAMENTALIST_4"
-			"FACTION_NAME_FUNDAMENTALIST_5"
+			"FACTION_NAME_ultrasocial_conservative_1"
+			"FACTION_NAME_ultrasocial_conservative_2"
+			"FACTION_NAME_ultrasocial_conservative_3"
+			"FACTION_NAME_ultrasocial_conservative_4"
+			"FACTION_NAME_ultrasocial_conservative_5"
 		}
 	}
 
@@ -290,11 +290,11 @@ ideologies = {
 		ai_neutral = yes	
 		can_be_boosted = no
 		dynamic_faction_names = {
-			"FACTION_NAME_VOYNIST_1"
-			"FACTION_NAME_VOYNIST_2"
-			"FACTION_NAME_VOYNIST_3"
-			"FACTION_NAME_VOYNIST_4"
-			"FACTION_NAME_VOYNIST_5"
+			"FACTION_NAME_national_corporatist_1"
+			"FACTION_NAME_national_corporatist_2"
+			"FACTION_NAME_national_corporatist_3"
+			"FACTION_NAME_national_corporatist_4"
+			"FACTION_NAME_national_corporatist_5"
 		}
 	}
 }

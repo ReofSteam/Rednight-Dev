@@ -793,7 +793,7 @@ CAN_create_monarchy = {
 			desc = "POLITICS_GEORGE_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_George.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 		create_country_leader = {
 			name = "George V"
@@ -843,7 +843,7 @@ CAN_create_monarchy = {
 			name = "Edward VIII"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 			traits = {
 				CAN_autocratic_tendencies
 			}
@@ -900,7 +900,7 @@ CAN_create_monarchy = {
 			name = "Albert I"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 			traits = {
 				CAN_popular_figurehead CAN_humble
 			}
@@ -957,7 +957,7 @@ CAN_create_monarchy = {
 			name = "Henry IX"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Henry.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 			traits = {
 				CAN_biddable CAN_army_experience
 			}
@@ -1014,7 +1014,7 @@ CAN_create_monarchy = {
 			name = "George VI"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_GeorgeVI.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 			traits = {
 				CAN_smooth_talking_charmer CAN_hedonist
 			}
@@ -1087,7 +1087,7 @@ CAN_create_republic = {
 			name = "John Bracken"
 			picture = "gfx/leaders/CAN/Portrait_Canada_John_Bracken.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -1096,7 +1096,7 @@ CAN_create_republic = {
 			name = "Robert Manion"
 			picture = "gfx/leaders/CAN/Portrait_Canada_Robert_Manion.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else = {
@@ -1104,7 +1104,7 @@ CAN_create_republic = {
 			name = "R.B. Bennett"
 			picture = "gfx/leaders/CAN/Portrait_Canada_RB_Bennett.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	if = {

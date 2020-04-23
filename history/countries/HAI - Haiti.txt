@@ -17,17 +17,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultrasocial_conservative = 0
+	national_corporatist = 0
 }
 
 
@@ -38,7 +38,7 @@ create_country_leader = {
 	desc = "POLITICS_STENIO_VINCENT_DESC"
 	picture = "GFX_portrait_haiti_stenio_vincent"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -49,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}

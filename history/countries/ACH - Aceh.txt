@@ -39,17 +39,17 @@ set_politics = {
 }
 
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 30
+	social_conservative = 30
 	authoritarian_democrat = 40
 	autocratic = 16
-	fundamentalist = 14
-	voynist = 0
+	ultrasocial_conservative = 14
+	national_corporatist = 0
 }
 
 create_country_leader = {
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_HASAN_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Hasan_ditiro.tga"
 	expire = "1953.3.1"
-	ideology = conservative_subtype 
+	ideology = social_conservative_subtype 
 	traits = {
 		
 	}
@@ -86,6 +86,6 @@ create_country_leader = {
 	desc = "POLITICS_TUD_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Daud_Bereueh.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {}
 }

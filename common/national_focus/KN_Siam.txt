@@ -36,7 +36,7 @@ ai_will_do = {
  } 
 completion_reward = { 
 set_political_party= { 
-ideology = social_nationalist
+ideology = nationalist_socialism
 popularity = 0.3 
 }
 set_political_party= { 
@@ -210,7 +210,7 @@ mutually_exclusive = { focus = SIA_politicalreform focus = SIA_abumpintime }ai_w
  } 
 completion_reward = { 
 add_popularity= { 
-ideology = marxist
+ideology = revolutionary_socialism
 popularity = -0.1 
 }
  } 

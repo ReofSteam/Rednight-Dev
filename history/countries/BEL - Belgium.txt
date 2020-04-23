@@ -19,11 +19,11 @@ set_technology = {
 	#trench_warfare = 1
 
 }
-set_country_flag = banned_voynist
-set_country_flag = banned_fundamentalist
+set_country_flag = banned_national_corporatist
+set_country_flag = banned_ultrasocial_conservative
 set_country_flag = banned_autocratic
 set_country_flag = banned_authoritarian_democrat
-set_country_flag = banned_conservative
+set_country_flag = banned_social_conservative
 set_country_flag = banned_social_liberal
 set_country_flag = banned_social_democrat
 
@@ -35,23 +35,23 @@ FRA = {
 }
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1930.1.6"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 1
-	marxist = 19
-	libertarian = 1
+	nationalist_socialism = 1
+	revolutionary_socialism = 19
+	syndicalism = 1
 	moderate_socialist = 23
 	social_democrat = 5
 	social_liberal = 2
-	conservative = 34
+	social_conservative = 34
 	authoritarian_democrat = 13
 	autocratic = 1
-	fundamentalist = 0
-	voynist = 1
+	ultrasocial_conservative = 0
+	national_corporatist = 1
 }
 
 set_convoys = 80
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_COUNCIL_FOR_BELGIUM_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/BEL_Belgian_council.tga"
 	expire = "1953.3.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}

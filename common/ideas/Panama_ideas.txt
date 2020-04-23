@@ -117,8 +117,8 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
-		PAN_new_conservative_government = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_new_conservative_government"}
+		PAN_new_social_conservative_government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PAN_new_social_conservative_government"}
 			picture = generic_volunteer_expedition_bonus
 			modifier = {
 				stability_factor = 0.05

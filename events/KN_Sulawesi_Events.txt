@@ -603,7 +603,7 @@ country_event = { ##Mongisidi coup
 		name = SUL.31.a
 		hidden_effect = {
 			set_politics = {
-				ruling_party = voynist
+				ruling_party = national_corporatist
 			}
 			complete_national_focus = SUL_purge_minahasa
 			if = { 
@@ -611,7 +611,7 @@ country_event = { ##Mongisidi coup
 					has_completed_focus = SUL_ally_mongonsidi
 				}
 				add_popularity = {
-					ideology = voynist
+					ideology = national_corporatist
 					popularity = 0.15
 				}
 			}			
@@ -620,7 +620,7 @@ country_event = { ##Mongisidi coup
 					has_completed_focus = SUL_against_mongonsidi
 				}
 				add_popularity = {
-					ideology = voynist
+					ideology = national_corporatist
 					popularity = 0.1
 				}
 			}
@@ -643,7 +643,7 @@ country_event = { ##Muzakkar coup
 		kill_country_leader = yes
 		hidden_effect = {
 			set_politics = {
-				ruling_party = fundamentalist
+				ruling_party = ultrasocial_conservative
 			}
 			complete_national_focus = SUL_kill_muzakkar
 			if = {
@@ -651,7 +651,7 @@ country_event = { ##Muzakkar coup
 					has_completed_focus = SUL_ally_muzakkar
 				}
 				add_popularity = {
-					ideology = fundamentalist
+					ideology = ultrasocial_conservative
 					popularity = 0.15
 				}
 			}			
@@ -660,7 +660,7 @@ country_event = { ##Muzakkar coup
 					has_completed_focus = SUL_conscript_prisoners
 				}
 				add_popularity = {
-					ideology = fundamentalist
+					ideology = ultrasocial_conservative
 					popularity = 0.1
 				}
 			}

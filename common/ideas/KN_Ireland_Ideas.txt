@@ -67,7 +67,7 @@ ideas = {
 				}
 			}
 			traits = {
-				social_nationalist_trait
+				nationalist_socialism_trait
 				interior_minister
 			}
 		}

@@ -37,10 +37,10 @@ country_event = {
 	option = {
 		name = nzl.1.c
 		set_politics = {
-			ruling_party = conservative
+			ruling_party = social_conservative
 		}
 		add_popularity = {
-			ideology = conservative
+			ideology = social_conservative
 			popularity = 0.1
 		}
 	}

@@ -45,17 +45,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 15
-    marxist = 25
-    libertarian = 2
+    nationalist_socialism = 15
+    revolutionary_socialism = 25
+    syndicalism = 2
     moderate_socialist = 15
     social_democrat = 9
     social_liberal = 3
-    conservative = 2
+    social_conservative = 2
     authoritarian_democrat = 20
     autocratic = 3
-    fundamentalist = 2
-    voynist = 2
+    ultrasocial_conservative = 2
+    national_corporatist = 2
 }
 
 
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/INC/INC_Phetsarath_Ratanavongsa.tga"
 	expire = "1953.3.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}

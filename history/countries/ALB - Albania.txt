@@ -29,7 +29,7 @@ set_technology = {
 #}
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1932.6.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,15 +37,15 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 21
-    libertarian = 10
-    marxist = 14
+    nationalist_socialism = 21
+    syndicalism = 10
+    revolutionary_socialism = 14
     social_democrat = 15
     social_liberal = 7
-    conservative = 17
+    social_conservative = 17
     authoritarian_democrat = 3
     autocratic = 3
-    voynist = 10
+    national_corporatist = 10
 }
 
 create_country_leader = {
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_ENVER_HOXHA_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Enver_Hoxha.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_ALI_KELMENDI_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/Portrait_Albania_Ali_Kelmendi.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_ENVER_HOXHA_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/ALB_Enver_Hoxha.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -97,7 +97,7 @@ create_country_leader = {
 	desc = "POLITICS_SHEFQET_VËRLACI_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/Portrait_Albania_Shefqet_Verlaci.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_MID'HAT_FRASHERI_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/ALB/Portrait_ALB_Midhat_Frasheri.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 

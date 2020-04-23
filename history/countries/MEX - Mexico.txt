@@ -32,17 +32,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 2
-    marxist = 1
-    libertarian = 10
+    nationalist_socialism = 2
+    revolutionary_socialism = 1
+    syndicalism = 10
     moderate_socialist = 7
     social_democrat = 1
     social_liberal = 7
-    conservative = 8
+    social_conservative = 8
     authoritarian_democrat = 31
     autocratic = 19
-    fundamentalist = 13
-    voynist = 1
+    ultrasocial_conservative = 13
+    national_corporatist = 1
 }
 
 add_ideas = {
@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Emiliano_Zapata.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -71,7 +71,7 @@ create_country_leader = {
 	desc = "POLITICS_PANCHO_VILLA_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Pancho_Villa.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_PLUTARCO_CALLES_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Plutarco_Calles.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_URQUIZA_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Urquiza.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {}
 }
 

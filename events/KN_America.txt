@@ -108,7 +108,7 @@ country_event = {
 	}
 }
 
-#Dunne is selected as the Libertarian Candidate
+#Dunne is selected as the syndicalism Candidate
 country_event = {
 	id = coa.6
 	#For debug purposes

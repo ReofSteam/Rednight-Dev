@@ -26,24 +26,24 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 2.2
-    marxist = 2.8
-    libertarian = 0
+    nationalist_socialism = 2.2
+    revolutionary_socialism = 2.8
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 32.5
-    conservative = 20.3
+    social_conservative = 20.3
     authoritarian_democrat = 27.1
     autocratic = 0
-    fundamentalist = 5.9
-    voynist = 10.2
+    ultrasocial_conservative = 5.9
+    national_corporatist = 10.2
 }
 
 create_country_leader = {
 	name = "Vinayak Damodar Savarkar"
 	picture = "gfx/leaders/RMK/MHA/Vinayak_Damodar_Savarkar.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -52,7 +52,7 @@ create_country_leader = {
 	name = "K.B. Hedgewar"
 	picture = "gfx/leaders/RMK/MHA/KB_Hedgewar.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {
 
 	}

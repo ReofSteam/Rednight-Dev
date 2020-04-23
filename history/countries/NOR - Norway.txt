@@ -60,17 +60,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 13
-    libertarian = 1
+    nationalist_socialism = 0
+    revolutionary_socialism = 13
+    syndicalism = 1
     moderate_socialist = 5
     social_democrat = 40
     social_liberal = 15
-    conservative = 17
+    social_conservative = 17
     authoritarian_democrat = 7
     autocratic = 1
-    fundamentalist = 1
-    voynist = 0
+    ultrasocial_conservative = 1
+    national_corporatist = 0
 }
 
 ###############################
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_Martin_Tranmel_DESC"
 	picture = "gfx/leaders/SCANDINAVIA/NOR/Portrait_Norway_Martin_Tranmel.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_Haakon_VII_DESC"
 	picture = "gfx/leaders/NOR/NOR_King_Haakon.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}
@@ -132,7 +132,7 @@ create_country_leader = {
 	desc = "POLITICS_Frans_Severin_DESC"
 	picture = "gfx/leaders/SCANDINAVIA/SWE/Portrait_Sweden_Frans_Severin.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = "POLITICS_Haakon_VII_DESC"
 	picture = "gfx/leaders/NOR/NOR_King_Haakon.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}

@@ -53,17 +53,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 17
 	social_democrat = 3
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 60
 	autocratic = 0
-	fundamentalist = 5
-	voynist = 15
+	ultrasocial_conservative = 5
+	national_corporatist = 15
 }
 
 #activate_mission = SWI_peace_mission_ongoing
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -103,7 +103,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -112,7 +112,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {}
 }
 

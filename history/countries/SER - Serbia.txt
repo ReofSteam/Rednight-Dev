@@ -36,17 +36,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 5
-    marxist = 3
-    libertarian = 1
+    nationalist_socialism = 5
+    revolutionary_socialism = 3
+    syndicalism = 1
     moderate_socialist = 2
     social_democrat = 2
     social_liberal = 4
-    conservative = 12
+    social_conservative = 12
     authoritarian_democrat = 7
     autocratic = 18
-    fundamentalist = 20
-    voynist = 26
+    ultrasocial_conservative = 20
+    national_corporatist = 26
 }
 
 ### Starting cabinet
@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_DIMITRIJE_LJOTIC_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Dimitrije_Ljotic.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = { }
 }
 
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 

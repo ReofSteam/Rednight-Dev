@@ -32,12 +32,12 @@ country_event = { ##Creation of PKI
 	option = {
 		name = INS.2.a
 		set_party_name = {
-			ideology = marxist
-			long_name = INS_marxist_party_long_pki_insul
-			name = INS_marxist_party_PKI_insul
+			ideology = revolutionary_socialism
+			long_name = INS_revolutionary_socialism_party_long_pki_insul
+			name = INS_revolutionary_socialism_party_PKI_insul
 		}
 		hidden_effect = {
-			clr_country_flag = banned_marxist
+			clr_country_flag = banned_revolutionary_socialism
 		}
 	}
 }
@@ -54,7 +54,7 @@ country_event = { ##Fall of Natsir
 	option = {
 		name = INS_cabinet.1.a
 		set_politics = {
-			ruling_party = libertarian
+			ruling_party = syndicalism
 		}
 		custom_effect_tooltip = INS_cabinet_formation
 		hidden_effect = {
@@ -216,7 +216,7 @@ country_event = { ##Wikana's Appointment
 	option = {
 		name = INS_cabinet.9.a
 		set_politics = {
-			ruling_party = marxist
+			ruling_party = revolutionary_socialism
 		}
 		custom_effect_tooltip = INS_cabinet_formation
 		hidden_effect = {
@@ -242,7 +242,7 @@ country_event = { ##Leimena's Appointment
 	option = {
 		name = INS_cabinet.10.a
 		set_politics = {
-			ruling_party = social_nationalist
+			ruling_party = nationalist_socialism
 		}
 		custom_effect_tooltip = INS_cabinet_formation
 		hidden_effect = {
@@ -496,7 +496,7 @@ country_event = { ##PKI Revolt
 	option = {
 		name = INS_civilwar.10.a
 		add_popularity = {
-			ideology = marxist
+			ideology = revolutionary_socialism
 			popularity = -0.6
 		}
 		hidden_effect = {

@@ -3413,8 +3413,8 @@ USA_liberal_democratic_policies = {# Liberal Democratic Policies
 	}
 }
 
-USA_conservative_democratic_policies = {# Conservative Democratic Policies
-	USA_conservative_social_hygine = {
+USA_social_conservative_democratic_policies = {# social_conservative Democratic Policies
+	USA_social_conservative_social_hygine = {
 		icon = GFX_decision_generic_independence
 		allowed = { original_tag = USA }
 		available = { has_government = social_conservative }
@@ -3425,12 +3425,12 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		ai_will_do = { factor = 40 }
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision USA_conservative_social_hygine"
+			log = "[GetDateText]: [Root.GetName]: Decision USA_social_conservative_social_hygine"
 			add_stability = 0.03
 		}
 	}
 
-	USA_conservative_southern_investment = {
+	USA_social_conservative_southern_investment = {
 		icon = GFX_decision_generic_independence
 		allowed = { original_tag = USA }
 		available = { has_government = social_conservative }
@@ -3441,7 +3441,7 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		ai_will_do = { factor = 40 }
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision USA_conservative_southern_investment"
+			log = "[GetDateText]: [Root.GetName]: Decision USA_social_conservative_southern_investment"
 			363 = {	if = { limit = {is_owned_and_controlled_by = USA }	add_extra_state_shared_building_slots = 1 } }
 			364 = {	if = { limit = {is_owned_and_controlled_by = USA }	add_extra_state_shared_building_slots = 1 } }
 			365 = {	if = { limit = {is_owned_and_controlled_by = USA }	add_extra_state_shared_building_slots = 1 } }
@@ -3456,7 +3456,7 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		}
 	}
 
-	USA_conservative_moral_education = {
+	USA_social_conservative_moral_education = {
 		icon = GFX_decision_generic_independence
 		allowed = { original_tag = USA }
 		available = { has_government = social_conservative }
@@ -3467,12 +3467,12 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		ai_will_do = { factor = 40 }
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision USA_conservative_moral_education"
+			log = "[GetDateText]: [Root.GetName]: Decision USA_social_conservative_moral_education"
 			add_stability = 0.03
 		}
 	}
 
-	USA_conservative_tarrifs = {
+	USA_social_conservative_tarrifs = {
 		icon = GFX_decision_generic_independence
 		allowed = { original_tag = USA }
 		available = { has_government = social_conservative }
@@ -3483,12 +3483,12 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		ai_will_do = { factor = 40 }
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision USA_conservative_tarrifs"
+			log = "[GetDateText]: [Root.GetName]: Decision USA_social_conservative_tarrifs"
 			add_ideas = limited_exports
 		}
 	}
 
-	USA_conservative_gospel_of_wealth = {
+	USA_social_conservative_gospel_of_wealth = {
 		icon = GFX_decision_generic_independence
 		allowed = { original_tag = USA }
 		available = { has_government = social_conservative }
@@ -3499,7 +3499,7 @@ USA_conservative_democratic_policies = {# Conservative Democratic Policies
 		ai_will_do = { factor = 40 }
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision USA_conservative_gospel_of_wealth"
+			log = "[GetDateText]: [Root.GetName]: Decision USA_social_conservative_gospel_of_wealth"
 			add_stability = 0.03
 		}
 	}

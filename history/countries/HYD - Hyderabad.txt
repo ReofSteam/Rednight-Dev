@@ -26,17 +26,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 12.6
-    marxist = 27.9
-    libertarian = 0
+    nationalist_socialism = 12.6
+    revolutionary_socialism = 27.9
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 42.4
-    conservative = 7.2
+    social_conservative = 7.2
     authoritarian_democrat = 6.3
     autocratic = 6.5
-    fundamentalist = 0
-    voynist = 7.1
+    ultrasocial_conservative = 0
+    national_corporatist = 7.1
 }
 
 create_country_leader = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	name = "K.B. Hedgewar"
 	picture = "gfx/leaders/RMK/HYD/KB_Hedgewar.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -70,7 +70,7 @@ create_country_leader = {
 	name = "Qasim Razvi"
 	picture = "gfx/leaders/RMK/HYD/Qasim_Razvi.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {
 
 	}
@@ -97,7 +97,7 @@ create_country_leader = {
 	name = "Qasim Razvi"
 	picture = "gfx/leaders/RMK/HYD/Qasim_Razvi.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}

@@ -52,17 +52,17 @@ set_variable = { var = KAL_dewan_power value = 55 }
 set_country_flag = KAL_PON_controller
 
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 10
 	social_liberal = 14
-	conservative = 8
+	social_conservative = 8
 	authoritarian_democrat = 8
 	autocratic = 37
-	fundamentalist = 3
-	voynist = 20
+	ultrasocial_conservative = 3
+	national_corporatist = 20
 }
 
 create_country_leader = {
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_SYARIF_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sultan_Hamid.tga"
 	expire = "1965.10.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 
@@ -97,6 +97,6 @@ create_country_leader = {
 	desc = "POLITICS_Hadjar_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Hadjar.tga"
 	expire = "1965.10.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = { }
 }

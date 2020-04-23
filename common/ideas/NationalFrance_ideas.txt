@@ -74,8 +74,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 		}
 
-		NFA_conservative_republic = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NFA_conservative_republic"}
+		NFA_social_conservative_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NFA_social_conservative_republic"}
 
 			modifier = {
 				conscription = 0.01 production_factory_max_efficiency_factor = 0.1
@@ -96,8 +96,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 		}
 
-		NFA_conservative_monarchy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NFA_conservative_monarchy"}
+		NFA_social_conservative_monarchy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NFA_social_conservative_monarchy"}
 
 			modifier = {
 				conscription = 0.01 political_power_cost = -0.15

@@ -22,7 +22,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -32,15 +32,15 @@ set_politics = {
 set_cosmetic_tag = YUG_SFR
 
 set_popularities = {
-    social_nationalist = 6
-    libertarian = 18
-    marxist = 28
+    nationalist_socialism = 6
+    syndicalism = 18
+    revolutionary_socialism = 28
     social_democrat = 15
     social_liberal = 10
-    conservative = 4
+    social_conservative = 4
     authoritarian_democrat = 3
     autocratic = 14
-    voynist = 2
+    national_corporatist = 2
 }
 
 ###############################
@@ -51,13 +51,13 @@ set_popularities = {
 ###############################
 
 set_country_flag = banned_social_liberal
-set_country_flag = banned_conservative
+set_country_flag = banned_social_conservative
 set_country_flag = banned_authoritarian_democrat
 set_country_flag = banned_autocratic
-set_country_flag = banned_fundamentalist
-set_country_flag = banned_voynist
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
 
-set_country_flag = coalition_libertarian
+set_country_flag = coalition_syndicalism
 set_country_flag = coalition_moderate_socialist
 
 set_stability = 0.75
@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Alexander_Ranković.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = { }
 }
 
@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Josip_Broz_Tito.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_VLADIMIR_COPIC_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Vladimir_Copic.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_YUG_FEDERAL_CHAMBER_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Federal_Chamber.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = { }
 }
 

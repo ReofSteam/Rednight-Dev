@@ -65,29 +65,29 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 19
-    libertarian = 6
+    nationalist_socialism = 0
+    revolutionary_socialism = 19
+    syndicalism = 6
     moderate_socialist = 18
     social_democrat = 1
     social_liberal = 11
-    conservative = 37
+    social_conservative = 37
     authoritarian_democrat = 3
     autocratic = 2
-    fundamentalist = 1
-    voynist = 2
+    ultrasocial_conservative = 1
+    national_corporatist = 2
 }
 
-set_country_flag = coalition_social_nationalist
-set_country_flag = coalition_libertarian
+set_country_flag = coalition_nationalist_socialism
+set_country_flag = coalition_syndicalism
 set_country_flag = coalition_moderate_socialist
 
 set_country_flag = banned_social_liberal
-set_country_flag = banned_conservative
+set_country_flag = banned_social_conservative
 set_country_flag = banned_authoritarian_democrat
 set_country_flag = banned_autocratic
-set_country_flag = banned_fundamentalist
-set_country_flag = banned_voynist
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
 
 
 
@@ -103,7 +103,7 @@ create_country_leader = {
 	name = "Palmiro Togliatti"
 	picture = "ITA_Palmiro_Togliatti.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 
@@ -111,7 +111,7 @@ create_country_leader = {
 	name = "Alberto Meschi"
 	picture = "ITA_Alberto_Meschi.dds"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -119,7 +119,7 @@ create_country_leader = {
 	name = "Antonio Gramsci"
 	picture = "ITA_Antonio_Gramsci.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 

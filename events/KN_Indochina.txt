@@ -320,8 +320,8 @@ country_event = { #Neutralist Laos
 		hidden_effect = {
 				retire_country_leader = yes 
 		set_country_flag = banned_moderate_socialist
-set_country_flag = banned_marxist
-set_country_flag = banned_social_nationalist
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_nationalist_socialism
 }
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -337,7 +337,7 @@ set_politics = {
     name = INC_Neutralist_Front 
 }
 	set_party_name = { 
-    ideology = conservative 
+    ideology = social_conservative 
     long_name = INC_Neutralist_Front_long
     name = INC_Neutralist_Front 
 }
@@ -368,20 +368,20 @@ country_event = { #Kampuchea Leftist Coup: Uno Reverse
     option = {
         name = inc.29.a
 		retire_country_leader = yes 
-		set_country_flag = banned_voynist
-set_country_flag = banned_fundamentalist
+		set_country_flag = banned_national_corporatist
+set_country_flag = banned_ultrasocial_conservative
 set_country_flag = banned_autocratic
 set_country_flag = banned_authoritarian_democrat
 		set_politics = {
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 }
 	set_party_name = { 
-    ideology = social_nationalist 
+    ideology = nationalist_socialism 
     long_name = INC_Cambodian_Leftfront_long
     name = INC_Cambodian_Leftfront 
 }
 add_popularity = {
-    ideology = social_nationalist
+    ideology = nationalist_socialism
     popularity = 0.2
 }
 country_event = inc.30

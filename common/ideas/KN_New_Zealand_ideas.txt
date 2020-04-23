@@ -381,7 +381,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 				head_of_government 
 			}
 		}
@@ -397,7 +397,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 			}
 		}
 	}
@@ -413,7 +413,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 				interior_minister 
 			}
 		}
@@ -430,7 +430,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 				economy_minister 
 			}
 		}
@@ -447,7 +447,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 				foreign_minister 
 			}
 		}
@@ -465,7 +465,7 @@ ideas = {
 			}
 			traits = {
 				education_minister 
-				conservative_trait 
+				social_conservative_trait 
 			}
 		}
 	}
@@ -484,7 +484,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait 
+				social_conservative_trait 
 				transport_minister 
 			}
 		}
@@ -502,7 +502,7 @@ ideas = {
 			}
 			traits = {
 				head_of_intel 
-				conservative_trait 
+				social_conservative_trait 
 			}
 		}
 	}

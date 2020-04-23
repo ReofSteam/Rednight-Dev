@@ -82,7 +82,7 @@ focus_tree = {
 		y = 1
 		
 		available = {
-			has_country_flag = GRE_conservatives_angered
+			has_country_flag = GRE_social_conservatives_angered
 		}
 
 		completion_reward = {
@@ -282,7 +282,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = GRE_conservative_victory
+		id = GRE_social_conservative_victory
 		icon = GFX_goal_KN_GRE_ioannis_theotokis
 		cost = 10
 		dynamic = yes
@@ -293,7 +293,7 @@ focus_tree = {
 		y = 4
 
 		available = {
-			has_country_flag = GRE_election_conservative
+			has_country_flag = GRE_election_social_conservative
 		}
 
 	}
@@ -302,7 +302,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = GRE_conservative_victory
+			focus = GRE_social_conservative_victory
 		}
 		x = 8
 		y = 5
@@ -357,7 +357,7 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = GRE_the_chief_of_army
-			focus = GRE_purge_the_conservatives
+			focus = GRE_purge_the_social_conservatives
 		}
 		x = 9
 		y = 3
@@ -372,14 +372,14 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = GRE_the_chief_of_staff
-			focus = GRE_purge_the_conservatives
+			focus = GRE_purge_the_social_conservatives
 		}
 		x = 11
 		y = 3
 
 	}
 	focus = {
-		id = GRE_purge_the_conservatives
+		id = GRE_purge_the_social_conservatives
 		icon = GFX_goal_generic_KN_purge_dissenters
 		cost = 10
 		prerequisite = {
@@ -398,7 +398,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = GRE_purge_the_conservatives
+			focus = GRE_purge_the_social_conservatives
 			focus = GRE_the_chief_of_staff
 		}
 		mutually_exclusive = {
@@ -413,7 +413,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = GRE_purge_the_conservatives
+			focus = GRE_purge_the_social_conservatives
 			focus = GRE_the_chief_of_army
 		}
 		mutually_exclusive = {

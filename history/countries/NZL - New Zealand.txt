@@ -39,17 +39,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 30
 	social_liberal = 17
-	conservative = 34
+	social_conservative = 34
 	authoritarian_democrat = 10
 	autocratic = 0
-	fundamentalist = 9
-	voynist = 0
+	ultrasocial_conservative = 9
+	national_corporatist = 0
 }
 
 add_ideas = {
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_ELIZABETH_I_DESC"
 	picture = "gfx/leaders/OCEANIA/NZL/NZL_Elizabeth_I.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		queen_of_the_people
 	}
@@ -124,7 +124,7 @@ create_country_leader = {
 	name = "Fintan P. Walsh"
 	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Fintan_Walsh.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 	}
 }
@@ -132,7 +132,7 @@ create_country_leader = {
 	name = "John A. Lee"
 	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_John_Lee.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 	}
 }
@@ -140,7 +140,7 @@ create_country_leader = {
 	name = "Alexander Galbraith"
 	picture = "gfx/leaders/OCEANIA/NZL/Portrait_NZL_Alexander_Galbraith.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 	}
 }

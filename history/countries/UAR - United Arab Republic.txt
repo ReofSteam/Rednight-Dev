@@ -9,30 +9,30 @@ set_technology = {
 	infantry_weapons = 1
 }
 set_politics = {
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = 1940.1.1
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 22
-	marxist = 16
-	libertarian = 25
+	nationalist_socialism = 22
+	revolutionary_socialism = 16
+	syndicalism = 25
 	moderate_socialist = 20
 	social_democrat = 2
 	social_liberal = 2
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 0
 	autocratic = 0
-	fundamentalist = 1
-	voynist = 12
+	ultrasocial_conservative = 1
+	national_corporatist = 12
 }
 
 ### COALITION & BANNED ###
-set_country_flag = banned_libertarian
-set_country_flag = banned_marxist
+set_country_flag = banned_syndicalism
+set_country_flag = banned_revolutionary_socialism
 set_country_flag = banned_moderate_socialist
-set_country_flag = banned_fundamentalist
+set_country_flag = banned_ultrasocial_conservative
 
 #### LEADERS ####
 create_country_leader = {
@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_GAMAL_ABDEL_NASSER_DESC"
 	picture = "gfx/leaders/CAIRO_PACT/UAR/Portrait_UAR_Gamal_Abdel_Nasser.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -56,6 +56,6 @@ create_country_leader = {
 	desc = "POLITICS_KHALID_BAKDISH_DESC"
 	picture = "gfx/leaders/CAIRO_PACT/UAR/Portrait_UAR_Khalid_Bakdish.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }

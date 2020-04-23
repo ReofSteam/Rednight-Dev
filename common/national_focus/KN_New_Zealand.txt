@@ -532,9 +532,9 @@ continuous_focus_position = { x = 50 y = 2000 }
 		}
 	}
 	
-##Focus for Conservative Victory
+##Focus for social_conservative Victory
 	focus = {
-		id = NZL_conservative_victory
+		id = NZL_social_conservative_victory
 		relative_position_id = NZL_elections
 		prerequisite = { focus = NZL_elections }
 		icon = GFX_soccon
@@ -584,8 +584,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 	focus = {
 		id = NZL_our_queen_is_fair
 		icon = GFX_focus_rom_royal_dictatorship
-		relative_position_id = NZL_conservative_victory
-		prerequisite = { focus = NZL_conservative_victory }
+		relative_position_id = NZL_social_conservative_victory
+		prerequisite = { focus = NZL_social_conservative_victory }
 		x = 1
 		y = 1
 		cost = 10
@@ -787,7 +787,7 @@ continuous_focus_position = { x = 50 y = 2000 }
 	focus = {
 		id = NZL_hawaiian_trade
 		relative_position_id = NZL_liberal_victory
-		prerequisite = { focus = NZL_liberal_victory focus = NZL_conservative_victory }
+		prerequisite = { focus = NZL_liberal_victory focus = NZL_social_conservative_victory }
 		icon = n
 		x = 1
 		y = 2
@@ -847,8 +847,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 #### corporatism tree
 	focus = {
 		id = NZL_corporatism
-		relative_position_id = NZL_conservative_victory
-		prerequisite = { focus = NZL_conservative_victory focus = NZL_authdem_victory }
+		relative_position_id = NZL_social_conservative_victory
+		prerequisite = { focus = NZL_social_conservative_victory focus = NZL_authdem_victory }
 		icon = n
 		x = 1
 		y = 2
@@ -956,8 +956,8 @@ continuous_focus_position = { x = 50 y = 2000 }
 
 	focus = {
 		id = NZL_business_investment
-		relative_position_id = NZL_conservative_victory
-		prerequisite = { focus = NZL_conservative_victory }
+		relative_position_id = NZL_social_conservative_victory
+		prerequisite = { focus = NZL_social_conservative_victory }
 		icon = n
 		x = 3
 		y = 2

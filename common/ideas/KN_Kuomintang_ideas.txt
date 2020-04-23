@@ -101,7 +101,7 @@ ideas = {
 			}
 			available = {}
 			traits = {
-				social_nationalist_trait
+				nationalist_socialism_trait
 				education_minister
 			}
 		}

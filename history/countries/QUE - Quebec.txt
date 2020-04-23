@@ -1,13 +1,13 @@
 ﻿capital = 466
 oob = "empty"
 
-set_country_flag = banned_social_nationalist
+set_country_flag = banned_nationalist_socialism
 set_country_flag = banned_moderate_socialist
 set_country_flag = banned_social_democrat
-set_country_flag = banned_voynist
+set_country_flag = banned_national_corporatist
 set_country_flag = banned_social_democrat
 set_country_flag = banned_autocratic
-set_country_flag = banned_libertarian
+set_country_flag = banned_syndicalism
 
 add_ideas = {
 	QUE_anti_anglophone
@@ -67,17 +67,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultrasocial_conservative = 0
+	national_corporatist = 0
 }
 
 set_convoys = 100
@@ -91,7 +91,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	desc = "POLITICS_FRED_ROSE_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_FRED_ROSE_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 
 	}
@@ -169,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_FRED_ROSE_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}

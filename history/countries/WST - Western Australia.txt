@@ -33,26 +33,26 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 2
-    marxist = 3
-    libertarian = 1
+    nationalist_socialism = 2
+    revolutionary_socialism = 3
+    syndicalism = 1
     moderate_socialist = 3
     social_democrat = 2
     social_liberal = 18
-    conservative = 21
+    social_conservative = 21
     authoritarian_democrat = 34
     autocratic = 8
-    fundamentalist = 5
-    voynist = 3
+    ultrasocial_conservative = 5
+    national_corporatist = 3
 }
 
 ### PARTIES UI ###
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_marxist
-set_country_flag = banned_libertarian
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
 
-set_country_flag = coalition_conservative # National Governmnent nationalists
+set_country_flag = coalition_social_conservative # National Governmnent nationalists
 set_country_flag = coalition_social_liberal # national government countryists
 set_country_flag = coalition_social_democrat # national government laborites
 

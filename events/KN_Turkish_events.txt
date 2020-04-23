@@ -73,10 +73,10 @@ country_event = {
 	option = {
 		name = tur.2.e
 		set_politics = {
-			ruling_party = voynist
+			ruling_party = national_corporatist
 		}
 		add_popularity = {
-			ideology = voynist
+			ideology = national_corporatist
 			popularity = 0.2
 		}
 	}

@@ -18,7 +18,7 @@ country_event = {
 			desc = "POLITICS_WAGENAAR_DESC"
 			picture = "gfx/leaders/WESTERN_EUROPE/NTH/Portrait_HOL_Gerben_Wagenaar.tga"
 			expire = "1965.1.1"
-			ideology = marxist_subtype
+			ideology = revolutionary_socialism_subtype
 			traits = {
 		
 			}
@@ -44,7 +44,7 @@ country_event = {
 				desc = "POLITICS_WAGENAAR_DESC"
 				picture = "gfx/leaders/WESTERN_EUROPE/NTH/Portrait_HOL_Gerben_Wagenaar.tga"
 				expire = "1965.1.1"
-				ideology = marxist_subtype
+				ideology = revolutionary_socialism_subtype
 				traits = {
 		
 				}

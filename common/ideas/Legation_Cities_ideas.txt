@@ -90,14 +90,14 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea LEC_british_up"}
 			picture = LEC_British_Rising
 			modifier = {
-				social_conservative_drift = 0.08
+				social_social_conservative_drift = 0.08
 			}
 		}
 		LEC_british_down = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea LEC_british_down"}
 			picture = LEC_British_Falling
 			modifier = {
-				social_conservative_drift = -0.04
+				social_social_conservative_drift = -0.04
 			}
 		}
 		LEC_german_up = {

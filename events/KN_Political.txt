@@ -354,11 +354,11 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = marxist
+			has_government = revolutionary_socialism
 			has_government = moderate_socialist
 		}
 		OR = {
-			AND = { has_idea_with_trait = marxist marxist < 0.7 }
+			AND = { has_idea_with_trait = revolutionary_socialism revolutionary_socialism < 0.7 }
 			AND = { has_idea_with_trait = moderate_socialist moderate_socialist < 0.7 }
 		}
 	}
@@ -367,15 +367,15 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 2
-			has_idea_with_trait = marxist
-			marxist > 0.299
-			marxist < 0.4
+			has_idea_with_trait = revolutionary_socialism
+			revolutionary_socialism > 0.299
+			revolutionary_socialism < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = marxist
-			marxist > 0.399
-			marxist < 0.5
+			has_idea_with_trait = revolutionary_socialism
+			revolutionary_socialism > 0.399
+			revolutionary_socialism < 0.5
 		}
 
 		modifier = {
@@ -402,12 +402,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.35 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.35 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = fundamentalist fundamentalist < 0.35 fundamentalist > 0.199 }
-					AND = { has_government = voynist voynist < 0.35 voynist > 0.199 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -415,12 +415,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = fundamentalist fundamentalist < 0.2 }
-					AND = { has_government = voynist voynist < 0.2 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
@@ -428,12 +428,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
 					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
-					AND = { has_government = libertarian libertarian > 0.599 libertarian < 0.75 }
-					AND = { has_government = conservative conservative > 0.599 conservative < 0.75 }
+					AND = { has_government = syndicalism syndicalism > 0.599 syndicalism < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
-					AND = { has_government = fundamentalist fundamentalist > 0.599 fundamentalist < 0.75 }
-					AND = { has_government = voynist voynist > 0.599 voynist < 0.75 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.599 ultrasocial_conservative < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
 			modifier = {
@@ -441,19 +441,19 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.749 }
 					AND = { has_government = social_liberal social_liberal > 0.749 }
-					AND = { has_government = libertarian libertarian > 0.749 }
-					AND = { has_government = conservative conservative > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = fundamentalist fundamentalist > 0.749 }
-					AND = { has_government = voynist voynist > 0.749 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}
 
 		if = {
-			limit = { has_idea_with_trait = marxist }
-			add_popularity = { ideology = marxist popularity = 0.03 }
+			limit = { has_idea_with_trait = revolutionary_socialism }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
 		}
 		if = {
 			limit = { has_idea_with_trait = moderate_socialist }
@@ -470,12 +470,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.35 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.35 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = fundamentalist fundamentalist < 0.35 fundamentalist > 0.199 }
-					AND = { has_government = voynist voynist < 0.35 voynist > 0.199 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -483,12 +483,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = fundamentalist fundamentalist < 0.2 }
-					AND = { has_government = voynist voynist < 0.2 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
@@ -496,12 +496,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
 					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
-					AND = { has_government = libertarian libertarian > 0.599 libertarian < 0.75 }
-					AND = { has_government = conservative conservative > 0.599 conservative < 0.75 }
+					AND = { has_government = syndicalism syndicalism > 0.599 syndicalism < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
-					AND = { has_government = fundamentalist fundamentalist > 0.599 fundamentalist < 0.75 }
-					AND = { has_government = voynist voynist > 0.599 voynist < 0.75 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.599 ultrasocial_conservative < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
 			modifier = {
@@ -509,12 +509,12 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.749 }
 					AND = { has_government = social_liberal social_liberal > 0.749 }
-					AND = { has_government = libertarian libertarian > 0.749 }
-					AND = { has_government = conservative conservative > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = fundamentalist fundamentalist > 0.749 }
-					AND = { has_government = voynist voynist > 0.749 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}
@@ -533,14 +533,14 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				has_government = marxist
-				has_idea_with_trait = marxist
-				marxist < 0.97
+				has_government = revolutionary_socialism
+				has_idea_with_trait = revolutionary_socialism
+				revolutionary_socialism < 0.97
 			}
 			AND = {
 				has_government = moderate_socialist
 				has_idea_with_trait = moderate_socialist
-				marxist < 0.97
+				revolutionary_socialism < 0.97
 			}
 		}
 	}
@@ -549,15 +549,15 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 2
-			has_government = marxist
-			marxist > 0.599
-			marxist < 0.8
+			has_government = revolutionary_socialism
+			revolutionary_socialism > 0.599
+			revolutionary_socialism < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = marxist
-			marxist > 0.799
-			marxist < 1
+			has_government = revolutionary_socialism
+			revolutionary_socialism > 0.799
+			revolutionary_socialism < 1
 		}
 		
 		modifier = {
@@ -580,28 +580,28 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.85 marxist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.85 revolutionary_socialism > 0.599 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.85 moderate_socialist > 0.599 }
 				}
 			}
 			modifier = {
 				factor = 0.1
 				OR = {
-					AND = { has_government = marxist marxist > 0.849 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.849 }
 					AND = { has_government = moderate_socialist moderate_socialist > 0.849 }
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.5 marxist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.5 revolutionary_socialism > 0.199 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.5 moderate_socialist > 0.199 }
 				}
 			}
 			modifier = {
 				factor = 1.9
 				OR = {
-					AND = { has_government = marxist marxist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
 				}
 			}
@@ -609,8 +609,8 @@ country_event = {
 
 		add_political_power = -25
 		if = {
-			limit = { has_government = marxist }
-			add_popularity = { ideology = marxist popularity = 0.03 }
+			limit = { has_government = revolutionary_socialism }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
 		}
 		if = {
 			limit = { has_government = moderate_socialist }
@@ -626,28 +626,28 @@ country_event = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.85 marxist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.85 revolutionary_socialism > 0.599 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.85 moderate_socialist > 0.599 }
 				}
 			}
 			modifier = {
 				factor = 1.9
 				OR = {
-					AND = { has_government = marxist marxist > 0.849 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.849 }
 					AND = { has_government = moderate_socialist moderate_socialist > 0.849 }
 				}
 			}
 			modifier = {
 				factor = 0.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.5 marxist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.5 revolutionary_socialism > 0.199 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.5 moderate_socialist > 0.199 }
 				}
 			}
 			modifier = {
 				factor = 0.1
 				OR = {
-					AND = { has_government = marxist marxist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
 				}
 			}
@@ -675,14 +675,14 @@ country_event = {
 				autocratic < 0.97
 			}
 			AND = {
-				has_government = fundamentalist
-				has_idea_with_trait = fundamentalist
-				fundamentalist < 0.97
+				has_government = ultrasocial_conservative
+				has_idea_with_trait = ultrasocial_conservative
+				ultrasocial_conservative < 0.97
 			}
 			AND = {
-				has_government = voynist
-				has_idea_with_trait = voynist
-				voynist < 0.97
+				has_government = national_corporatist
+				has_idea_with_trait = national_corporatist
+				national_corporatist < 0.97
 			}
 		}
 	}
@@ -717,28 +717,28 @@ country_event = {
 		
 		modifier = {
 			factor = 2
-			has_government = fundamentalist
-			fundamentalist > 0.599
-			fundamentalist < 0.8
+			has_government = ultrasocial_conservative
+			ultrasocial_conservative > 0.599
+			ultrasocial_conservative < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = fundamentalist
-			fundamentalist > 0.799
-			fundamentalist < 1
+			has_government = ultrasocial_conservative
+			ultrasocial_conservative > 0.799
+			ultrasocial_conservative < 1
 		}
 		
 		modifier = {
 			factor = 2
-			has_government = voynist
-			voynist > 0.599
-			voynist < 0.8
+			has_government = national_corporatist
+			national_corporatist > 0.599
+			national_corporatist < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = voynist
-			voynist > 0.799
-			voynist < 1
+			has_government = national_corporatist
+			national_corporatist > 0.799
+			national_corporatist < 1
 		}
 	}
 	option = {
@@ -751,8 +751,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
-					AND = { has_government = fundamentalist fundamentalist < 0.85 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.85 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -760,8 +760,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = autocratic autocratic > 0.849 }
-					AND = { has_government = fundamentalist fundamentalist > 0.849 }
-					AND = { has_government = voynist voynist > 0.849 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.849 }
+					AND = { has_government = national_corporatist national_corporatist > 0.849 }
 				}
 			}
 			modifier = {
@@ -769,8 +769,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
-					AND = { has_government = fundamentalist fundamentalist < 0.5 fundamentalist > 0.199 }
-					AND = { has_government = voynist voynist < 0.5 voynist > 0.199 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.5 ultrasocial_conservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.5 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
@@ -778,8 +778,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = fundamentalist fundamentalist < 0.2 }
-					AND = { has_government = voynist voynist < 0.2 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 		}
@@ -794,12 +794,12 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = fundamentalist }
-			add_popularity = { ideology = fundamentalist popularity = 0.03 }
+			limit = { has_government = ultrasocial_conservative }
+			add_popularity = { ideology = ultrasocial_conservative popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = voynist }
-			add_popularity = { ideology = voynist popularity = 0.03 }
+			limit = { has_government = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
 		}
 	}
 	option = {
@@ -812,8 +812,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
-					AND = { has_government = fundamentalist fundamentalist < 0.85 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.85 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -821,8 +821,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = autocratic autocratic > 0.849 }
-					AND = { has_government = fundamentalist fundamentalist < 0.85 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.85 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -830,8 +830,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
-					AND = { has_government = fundamentalist fundamentalist < 0.85 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.85 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
@@ -839,8 +839,8 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = fundamentalist fundamentalist < 0.85 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.85 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
 		}
@@ -867,14 +867,14 @@ country_event = {
 				social_liberal < 0.97
 			}
 			AND = {
-				has_government = libertarian
-				has_idea_with_trait = libertarian
-				libertarian < 0.97
+				has_government = syndicalism
+				has_idea_with_trait = syndicalism
+				syndicalism < 0.97
 			}
 			AND = {
-				has_government = conservative
-				has_idea_with_trait = conservative
-				conservative < 0.97
+				has_government = social_conservative
+				has_idea_with_trait = social_conservative
+				social_conservative < 0.97
 			}
 		}
 	}
@@ -909,27 +909,27 @@ country_event = {
 
 		modifier = {
 			factor = 2
-			has_government = libertarian
-			libertarian > 0.599
-			libertarian < 0.8
+			has_government = syndicalism
+			syndicalism > 0.599
+			syndicalism < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = libertarian
-			libertarian > 0.799
-			libertarian < 1
+			has_government = syndicalism
+			syndicalism > 0.799
+			syndicalism < 1
 		}
 		modifier = {
 			factor = 2
-			has_government = conservative
-			conservative > 0.599
-			conservative < 0.8
+			has_government = social_conservative
+			social_conservative > 0.599
+			social_conservative < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = conservative
-			conservative > 0.799
-			conservative < 1
+			has_government = social_conservative
+			social_conservative > 0.799
+			social_conservative < 1
 		}
 	}
 	option = {
@@ -941,8 +941,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
 					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
-					AND = { has_government = libertarian libertarian < 0.85 libertarian > 0.599 }
-					AND = { has_government = conservative conservative < 0.85 conservative > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.85 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
 				}
 			}
 			modifier = {
@@ -950,8 +950,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.849 }
 					AND = { has_government = social_liberal social_liberal > 0.849 }
-					AND = { has_government = libertarian libertarian > 0.849 }
-					AND = { has_government = conservative conservative > 0.849 }
+					AND = { has_government = syndicalism syndicalism > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
 				}
 			}
 			modifier = {
@@ -959,8 +959,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.5 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.5 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.5 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
 				}
 			}
 			modifier = {
@@ -968,8 +968,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 				}
 			}
 		}
@@ -984,12 +984,12 @@ country_event = {
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = libertarian }
-			add_popularity = { ideology = libertarian popularity = 0.03 }
+			limit = { has_government = syndicalism }
+			add_popularity = { ideology = syndicalism popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = conservative }
-			add_popularity = { ideology = conservative popularity = 0.03 }
+			limit = { has_government = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 	}
 	option = {
@@ -1001,8 +1001,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
 					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
-					AND = { has_government = libertarian libertarian < 0.85 libertarian > 0.599 }
-					AND = { has_government = conservative conservative < 0.85 conservative > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.85 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
 				}
 			}
 			modifier = {
@@ -1010,8 +1010,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat > 0.849 }
 					AND = { has_government = social_liberal social_liberal > 0.849 }
-					AND = { has_government = libertarian libertarian > 0.849 }
-					AND = { has_government = conservative conservative > 0.849 }
+					AND = { has_government = syndicalism syndicalism > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
 				}
 			}
 			modifier = {
@@ -1019,8 +1019,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.5 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.5 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.5 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
 				}
 			}
 			modifier = {
@@ -1028,8 +1028,8 @@ country_event = {
 				OR = {
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 				}
 			}
 		}
@@ -1047,14 +1047,14 @@ country_event = {
 		NOT = {
 			has_government = autocratic
 			has_government = authoritarian_democrat
-			has_government = fundamentalist
-			has_government = voynist
+			has_government = ultrasocial_conservative
+			has_government = national_corporatist
 		}
 		OR = {
 			AND = { has_idea_with_trait = autocratic autocratic < 0.7 }
 			AND = { has_idea_with_trait = authoritarian_democrat authoritarian_democrat < 0.7 }
-			AND = { has_idea_with_trait = fundamentalist fundamentalist < 0.7 }
-			AND = { has_idea_with_trait = voynist voynist < 0.7 }
+			AND = { has_idea_with_trait = ultrasocial_conservative ultrasocial_conservative < 0.7 }
+			AND = { has_idea_with_trait = national_corporatist national_corporatist < 0.7 }
 		}
 	}
 
@@ -1088,28 +1088,28 @@ country_event = {
 		
 		modifier = {
 			factor = 2
-			has_idea_with_trait = fundamentalist
-			fundamentalist > 0.299
-			fundamentalist < 0.4
+			has_idea_with_trait = ultrasocial_conservative
+			ultrasocial_conservative > 0.299
+			ultrasocial_conservative < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = fundamentalist
-			fundamentalist > 0.399
-			fundamentalist < 0.5
+			has_idea_with_trait = ultrasocial_conservative
+			ultrasocial_conservative > 0.399
+			ultrasocial_conservative < 0.5
 		}
 
 		modifier = {
 			factor = 2
-			has_idea_with_trait = voynist
-			voynist > 0.299
-			voynist < 0.4
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.299
+			national_corporatist < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = voynist
-			voynist > 0.399
-			voynist < 0.5
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.399
+			national_corporatist < 0.5
 		}
 
 	}
@@ -1121,45 +1121,45 @@ country_event = {
 			modifier = {
 				factor = 0.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.35 marxist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
 					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.35 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.35 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 				}
 			}
 			modifier = {
 				factor = 0.1
 				OR = {
-					AND = { has_government = marxist marxist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 				}
 			}
 			modifier = {
 				factor = 1.5
 				OR = {
-					AND = { has_government = marxist marxist < 0.75 marxist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
 					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
 					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
 					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
-					AND = { has_government = libertarian libertarian < 0.75 libertarian > 0.599 }
-					AND = { has_government = conservative conservative < 0.75 conservative > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.75 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
 				}
 			}
 			modifier = {
 				factor = 1.7
 				OR = {
-					AND = { has_government = marxist marxist > 0.749 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
 					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
 					AND = { has_government = social_democrat social_democrat > 0.749 }
 					AND = { has_government = social_liberal social_liberal > 0.749 }
-					AND = { has_government = libertarian libertarian > 0.749 }
-					AND = { has_government = conservative conservative > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
 				}
 			}
 		}
@@ -1173,12 +1173,12 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 		}
 		if = {
-			limit = { has_idea_with_trait = fundamentalist }
-			add_popularity = { ideology = fundamentalist popularity = 0.03 }
+			limit = { has_idea_with_trait = ultrasocial_conservative }
+			add_popularity = { ideology = ultrasocial_conservative popularity = 0.03 }
 		}
 		if = {
-			limit = { has_idea_with_trait = voynist }
-			add_popularity = { ideology = voynist popularity = 0.03 }
+			limit = { has_idea_with_trait = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
 		}
 	}
 
@@ -1191,44 +1191,44 @@ country_event = {
 				factor = 1.5
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
-					AND = { has_government = marxist marxist < 0.35 marxist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
 					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
 					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
-					AND = { has_government = libertarian libertarian < 0.35 libertarian > 0.199 }
-					AND = { has_government = conservative conservative < 0.35 conservative > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 				}
 			}
 			modifier = {
 				factor = 1.9
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
-					AND = { has_government = marxist marxist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = social_democrat social_democrat < 0.2 }
 					AND = { has_government = social_liberal social_liberal < 0.2 }
-					AND = { has_government = libertarian libertarian < 0.2 }
-					AND = { has_government = conservative conservative < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
 				}
 			}
 			modifier = {
 				factor = 0.5
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
-					AND = { has_government = marxist marxist < 0.75 marxist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
 					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
 					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
-					AND = { has_government = libertarian libertarian < 0.75 libertarian > 0.599 }
-					AND = { has_government = conservative conservative < 0.75 conservative > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.75 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
 				}
 			}
 			modifier = {
 				factor = 0.3
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
-					AND = { has_government = marxist marxist > 0.749 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
 					AND = { has_government = social_democrat social_democrat > 0.749 }
 					AND = { has_government = social_liberal social_liberal > 0.749 }
-					AND = { has_government = libertarian libertarian > 0.749 }
-					AND = { has_government = conservative conservative > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
 				}
 			}
 		}
@@ -1246,14 +1246,14 @@ country_event = {
 
 	trigger = {
 		NOT = {
-			has_government = conservative
-			has_government = libertarian
+			has_government = social_conservative
+			has_government = syndicalism
 			has_government = social_liberal
 			has_government = social_democrat
 		}
 		OR = {
-			AND = { has_idea_with_trait = conservative conservative < 0.7 }
-			AND = { has_idea_with_trait = libertarian libertarian < 0.7 }
+			AND = { has_idea_with_trait = social_conservative social_conservative < 0.7 }
+			AND = { has_idea_with_trait = syndicalism syndicalism < 0.7 }
 			AND = { has_idea_with_trait = social_liberal social_liberal < 0.7 }
 			AND = { has_idea_with_trait = social_democrat social_democrat < 0.7 }
 		}
@@ -1263,27 +1263,27 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 2
-			has_idea_with_trait = conservative
-			conservative > 0.299
-			conservative < 0.4
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.299
+			social_conservative < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = conservative
-			conservative > 0.399
-			conservative < 0.5
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.399
+			social_conservative < 0.5
 		}
 		modifier = {
 			factor = 2
-			has_idea_with_trait = libertarian
-			libertarian > 0.299
-			libertarian < 0.4
+			has_idea_with_trait = syndicalism
+			syndicalism > 0.299
+			syndicalism < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = libertarian
-			libertarian > 0.399
-			libertarian < 0.5
+			has_idea_with_trait = syndicalism
+			syndicalism > 0.399
+			syndicalism < 0.5
 		}
 		modifier = {
 			factor = 2
@@ -1314,12 +1314,12 @@ country_event = {
 	option = {
 		name = kn.political.23.a
 		if = {
-			limit = { has_idea_with_trait = conservative }
-			add_popularity = { ideology = conservative popularity = 0.03 }
+			limit = { has_idea_with_trait = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 		if = {
-			limit = { has_idea_with_trait = libertarian }
-			add_popularity = { ideology = libertarian popularity = 0.03 }
+			limit = { has_idea_with_trait = syndicalism }
+			add_popularity = { ideology = syndicalism popularity = 0.03 }
 		}
 		if = {
 			limit = { has_idea_with_trait = social_liberal }
@@ -1340,44 +1340,44 @@ country_event = {
 				factor = 1.5
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
-					AND = { has_government = marxist marxist < 0.35 marxist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = fundamentalist fundamentalist < 0.35 fundamentalist > 0.199 }
-					AND = { has_government = voynist voynist < 0.35 voynist > 0.199 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
 			modifier = {
 				factor = 1.9
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
-					AND = { has_government = marxist marxist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = fundamentalist fundamentalist < 0.2 }
-					AND = { has_government = voynist voynist < 0.2 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
 			modifier = {
 				factor = 0.5
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
-					AND = { has_government = marxist marxist < 0.75 marxist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.75 autocratic > 0.599 }
-					AND = { has_government = fundamentalist fundamentalist < 0.75 fundamentalist > 0.599 }
-					AND = { has_government = voynist voynist < 0.75 voynist > 0.599 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.75 ultrasocial_conservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.75 national_corporatist > 0.599 }
 				}
 			}
 			modifier = {
 				factor = 0.3
 				OR = {
 					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
-					AND = { has_government = marxist marxist > 0.749 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = fundamentalist fundamentalist > 0.749 }
-					AND = { has_government = voynist voynist > 0.749 }
+					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
 		}

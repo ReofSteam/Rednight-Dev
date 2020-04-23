@@ -56,13 +56,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = voynist
+					has_government = national_corporatist
 					NOT = { has_country_flag = RUS_Boris_Savinkov_Dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				RUS_chairman_supreme_privy_council
 			}
 			cancel_if_invalid = no
@@ -76,13 +76,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = voynist
+					has_government = national_corporatist
 					NOT = { has_country_flag = RUS_Mikhail_Levitov_Dead }
 					has_country_flag = can_replace_mnp
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				RUS_deputy_chairman_supreme_privy_council
 			}
 			cancel_if_invalid = no
@@ -96,13 +96,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = voynist
+					has_government = national_corporatist
 					NOT = { has_country_flag = RUS_Mikhail_Levitov_Dead }
 					has_country_flag = can_replace_interior
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				RUS_minister_of_state_affairs
 			}
 			cancel_if_invalid = no
@@ -118,9 +118,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -130,7 +130,7 @@ ideas = {
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				economy_minister
 			}
 			cancel_if_invalid = no
@@ -151,7 +151,7 @@ ideas = {
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				foreign_minister
 			}
 			cancel_if_invalid = no
@@ -172,7 +172,7 @@ ideas = {
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				education_minister
 			}
 			cancel_if_invalid = no
@@ -188,9 +188,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -200,7 +200,7 @@ ideas = {
 				}
 			}
 			traits = {
-				fundamentalist_trait
+				ultrasocial_conservative_trait
 				RUS_minister_of_information
 			}	
 			cancel_if_invalid = no
@@ -216,9 +216,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 						}
 					}

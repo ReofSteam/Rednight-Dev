@@ -36,7 +36,7 @@ shipbuild_basics = 1
 
 
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1936.11.7"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,15 +45,15 @@ set_politics = {
 
 #gfx/leaders/WESTERN_EUROPE/FLN/
 set_popularities = {
-    social_nationalist = 20
-    marxist = 10
-    libertarian = 5
+    nationalist_socialism = 20
+    revolutionary_socialism = 10
+    syndicalism = 5
     moderate_socialist = 20
     social_democrat = 5
     social_liberal = 15
-    conservative = 15
+    social_conservative = 15
     authoritarian_democrat = 10
     autocratic = 0
-    fundamentalist = 0
-    voynist = 0
+    ultrasocial_conservative = 0
+    national_corporatist = 0
 }

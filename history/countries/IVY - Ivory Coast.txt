@@ -18,17 +18,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 1
-	marxist = 2
-	libertarian = 1
+	nationalist_socialism = 1
+	revolutionary_socialism = 2
+	syndicalism = 1
 	moderate_socialist = 3
 	social_democrat = 7
 	social_liberal = 17
-	conservative = 13
+	social_conservative = 13
 	authoritarian_democrat = 45
 	autocratic = 6
-	fundamentalist = 3
-	voynist = 2
+	ultrasocial_conservative = 3
+	national_corporatist = 2
 }
 
 create_country_leader = {

@@ -781,7 +781,7 @@ focus_tree = {
 		}
 		
 		mutually_exclusive = {
-			focus = YUG_anti_voynist_education
+			focus = YUG_anti_national_corporatist_education
 		}
 
 		ai_will_do = { factor = 100 }
@@ -851,7 +851,7 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = YUG_workers_education
-			focus = YUG_anti_voynist_education
+			focus = YUG_anti_national_corporatist_education
 		}
 
 		ai_will_do = { factor = 100 }
@@ -1136,7 +1136,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = YUG_anti_voynist_education
+		id = YUG_anti_national_corporatist_education
 		icon = GFX_YUG_antivo_education
 		x = 16
 		y = 7
@@ -1902,7 +1902,7 @@ focus_tree = {
 
 		available = {
 			NOT = {
-			    has_government = social_nationalist
+			    has_government = nationalist_socialism
 			}
 		}
 
@@ -2352,8 +2352,8 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 100
 		    add_popularity = { ideology = social_democrat popularity = 0.02 }
-			add_popularity = { ideology = social_nationalist popularity = 0.03 }
-			add_popularity = { ideology = marxist popularity = 0.03 }
+			add_popularity = { ideology = nationalist_socialism popularity = 0.03 }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
 			add_popularity = { ideology = moderate_socialist popularity = 0.02 }
 			add_tech_bonus = {
 				name = doctrine_bonus
@@ -2624,8 +2624,8 @@ focus_tree = {
 
 		completion_reward = {
 		    custom_effect_tooltip = YUG_final_partisan_focus
-			add_popularity = { ideology = social_nationalist popularity = 0.03 }
-			add_popularity = { ideology = marxist popularity = 0.03 }
+			add_popularity = { ideology = nationalist_socialism popularity = 0.03 }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
 			add_political_power = 40
 			army_experience = -20
 			#if = {

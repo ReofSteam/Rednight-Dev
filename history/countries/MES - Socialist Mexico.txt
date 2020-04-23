@@ -19,17 +19,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 6
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 6
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 45
     social_democrat = 3
     social_liberal = 2
-    conservative = 8
+    social_conservative = 8
     authoritarian_democrat = 0
     autocratic = 32
-    fundamentalist = 4
-    voynist = 0
+    ultrasocial_conservative = 4
+    national_corporatist = 0
 }
 add_ideas = {
 }

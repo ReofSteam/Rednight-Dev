@@ -1707,14 +1707,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = fundamentalist }
+					NOT = { has_government = ultrasocial_conservative }
 				}
 			}
 		}
@@ -1748,14 +1748,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					has_government = marxist
+					has_government = revolutionary_socialism
 				}
 			}			
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = marxist }
+					NOT = { has_government = revolutionary_socialism }
 				}
 			}
 		}
@@ -1775,9 +1775,9 @@ focus_tree = {
 		mutually_exclusive = { focus = collectivist_ethos }
 		available = {
 			OR = {
-				has_government = conservative
+				has_government = social_conservative
 				has_government = social_liberal
-				has_government = libertarian
+				has_government = syndicalism
 				has_government = social_democrat
 				has_government = moderate_socialist
 			}
@@ -1797,20 +1797,20 @@ focus_tree = {
 				any_neighbor_country = {
 					is_major = yes
 					OR = {
-						has_government = marxist
+						has_government = revolutionary_socialism
 						has_government = authoritarian_democrat
-						has_government = voynist
+						has_government = national_corporatist
 						has_government = autocratic
-						has_government = fundamentalist
+						has_government = ultrasocial_conservative
 					}
 				}
 				NOT = {
 					any_neighbor_country = {
 						is_major = yes
 						OR = {
-							has_government = conservative
+							has_government = social_conservative
 							has_government = social_liberal
-							has_government = libertarian
+							has_government = syndicalism
 							has_government = social_democrat
 							has_government = moderate_socialist
 						}
@@ -1943,19 +1943,19 @@ focus_tree = {
 			#add_ideas = military_youth_focus
 			if = {
 				limit = {
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 				add_popularity = {
-					ideology = fundamentalist
+					ideology = ultrasocial_conservative
 					popularity = 0.2
 				}
 			}
 			if = {
 				limit = {
-					has_government = voynist
+					has_government = national_corporatist
 				}
 				add_popularity = {
-					ideology = voynist
+					ideology = national_corporatist
 					popularity = 0.2
 				}
 			}
@@ -1978,9 +1978,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = marxist }
+				limit = { has_government = revolutionary_socialism }
 				add_popularity = {
-					ideology = marxist
+					ideology = revolutionary_socialism
 					popularity = 0.2
 				}
 			}
@@ -2117,19 +2117,19 @@ focus_tree = {
 			#add_ideas = political_commissars_focus
 			if = {
 				limit = {
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 				add_popularity = {
-					ideology = fundamentalist
+					ideology = ultrasocial_conservative
 					popularity = 0.2
 				}
 			}
 			if = {
 				limit = {
-					has_government = voynist
+					has_government = national_corporatist
 				}
 				add_popularity = {
-					ideology = voynist
+					ideology = national_corporatist
 					popularity = 0.2
 				}
 			}
@@ -2152,9 +2152,9 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_government = marxist }
+				limit = { has_government = revolutionary_socialism }
 				add_popularity = {
-					ideology = marxist
+					ideology = revolutionary_socialism
 					popularity = 0.2
 				}
 			}

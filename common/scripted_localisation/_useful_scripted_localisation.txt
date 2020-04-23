@@ -167,7 +167,7 @@ defined_text = {
 		trigger = {
 			has_government = social_conservative
 		}
-		localization_key = "social_conservative_subtype"
+		localization_key = "social_social_conservative_subtype"
 	}
 	text = {
 		trigger = {

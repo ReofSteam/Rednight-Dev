@@ -96,7 +96,7 @@
                     popularity = 0.04 
                     }
                     add_popularity = {
-                    ideology = voynist 
+                    ideology = national_corporatist 
                     popularity = 0.07   
                     }
                     swap_ideas = {
@@ -125,7 +125,7 @@
                     popularity = 0.03 
                     }
                     add_popularity = {
-                    ideology = voynist 
+                    ideology = national_corporatist 
                     popularity = 0.1  
                     }
             }
@@ -146,7 +146,7 @@
             option = { 
                     name = rom.4.a 
                     add_popularity = {
-                    ideology = voynist
+                    ideology = national_corporatist
                     popularity = 0.05 
                     }
                     hidden_effect = {
@@ -171,7 +171,7 @@
             option = {
                     name =rom.4.c
                     add_popularity = {
-                    ideology = voynist 
+                    ideology = national_corporatist 
                     popularity = 0.03 
                     }
                     add_popularity = {
@@ -211,7 +211,7 @@
                     popularity = 0.03 
                     }
                     add_popularity = {
-                    ideology = voynist
+                    ideology = national_corporatist
                     popularity = 0.05 
                     }
             }
@@ -220,7 +220,7 @@
                     add_political_power = -25
                     add_stability = -0.1
                     add_popularity = {
-                    ideology = voynist
+                    ideology = national_corporatist
                     popularity = 0.1
                     }
             }
@@ -352,7 +352,7 @@
                             popularity = 0.01 
                         }
                         add_popularity = {
-                            ideology = voynist
+                            ideology = national_corporatist
                             popularity = 0.05 
                         } 
                         add_political_power	= 25 
@@ -375,7 +375,7 @@
             option = {
                         name = rom.12.a
                         add_popularity = {
-                            ideology = voynist
+                            ideology = national_corporatist
                             popularity = 0.05 
                         }
                         add_political_power	= -25 
@@ -398,7 +398,7 @@
             option = {
                         name = rom.13.a 
                         add_popularity = { 
-                            ideology = voynist
+                            ideology = national_corporatist
                             popularity = 0.05 
                         }
                         add_popularity = {
@@ -410,7 +410,7 @@
                             popularity = 0.01 
                         }
                         add_popularity = {
-                            ideology = fundamentalist 
+                            ideology = ultrasocial_conservative 
                             popularity = 0.05
                         }
                         add_political_power	= 25
@@ -491,7 +491,7 @@
             option = {
                     name = rom.HC2.b
                     add_popularity = {
-                    ideology = voynist 
+                    ideology = national_corporatist 
                     popularity = 0.07 
                     }
                     hidden_effect = {
@@ -530,11 +530,11 @@
             name = rom.HC2.b
             remove_ideas = ROM_Ion_Antonescu
             add_popularity = {
-                    ideology = voynist
+                    ideology = national_corporatist
                     popularity = 0.03
                     }
             add_popularity = {
-                    ideology = fundamentalist
+                    ideology = ultrasocial_conservative
                     popularity = 0.02 
                     }
             hidden_effect = {

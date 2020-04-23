@@ -228,7 +228,7 @@ ideas = {
 			modifier = {
 				social_liberal_drift = 0.01
 				market_liberal_drift = 0.01
-				social_conservative_drift = 0.02
+				social_social_conservative_drift = 0.02
 			}
 		}
 

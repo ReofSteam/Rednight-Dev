@@ -1,11 +1,11 @@
 defined_text = {
 	name = libdem_name
 	text = {
-		trigger = { has_country_flag = USA_social_conservatives_democrats }
+		trigger = { has_country_flag = USA_social_social_conservatives_democrats }
 		localization_key = libdem_name_libdem
 	}
 	text = {
-		trigger = { NOT = { has_country_flag = USA_social_conservatives_democrats } }
+		trigger = { NOT = { has_country_flag = USA_social_social_conservatives_democrats } }
 		localization_key = libdem_name_dem
 	}
 }

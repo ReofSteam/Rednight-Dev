@@ -29,23 +29,23 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = conservative 
+	ruling_party = social_conservative 
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 15
-    marxist = 25
-    libertarian = 2
+    nationalist_socialism = 15
+    revolutionary_socialism = 25
+    syndicalism = 2
     moderate_socialist = 15
     social_democrat = 9
     social_liberal = 3
-    conservative = 2
+    social_conservative = 2
     authoritarian_democrat = 20
     autocratic = 3
-    fundamentalist = 2
-    voynist = 2
+    ultrasocial_conservative = 2
+    national_corporatist = 2
 }
 
 
@@ -55,7 +55,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ASIA/INC/INC_Son_Ngoc_Thanh.tga"
 	expire = "1953.3.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ASIA/INC/INC_Tou_Samouth.tga"
 	expire = "1953.3.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		
 	}

@@ -10,7 +10,7 @@ ideas = {
 				}
 			}
 			traits = {
-			marxist_trait	
+			revolutionary_socialism_trait	
 			}
 		}
 	}
@@ -25,7 +25,7 @@ ideas = {
 				}
 			}
 			traits = {
-			conservative_trait	
+			social_conservative_trait	
 			}
 		}
 	}
@@ -40,7 +40,7 @@ ideas = {
 				}
 			}
 			traits = {
-			marxist_trait	
+			revolutionary_socialism_trait	
 			}
 		}
 	}
@@ -145,7 +145,7 @@ ideas = {
 				}
 			}
 			traits = {
-			social_nationalist_trait	
+			nationalist_socialism_trait	
 			}
 		}
 	}

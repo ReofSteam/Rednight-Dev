@@ -4,24 +4,24 @@ OOB = "empty"
 set_technology = {}
 set_research_slots = 1
 set_politics = {	
-	ruling_party = voynist
+	ruling_party = national_corporatist
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 0
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 0
-    conservative = 0
+    social_conservative = 0
     authoritarian_democrat = 50
     autocratic = 0
-    fundamentalist = 0
-    voynist = 50
+    ultrasocial_conservative = 0
+    national_corporatist = 50
 }
 
 ###gfx/leaders/WEST_AFRICA/SAH/

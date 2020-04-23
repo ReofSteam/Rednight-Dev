@@ -45,13 +45,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = conservative
+					has_government = social_conservative
 					NOT = { has_country_flag = GRE_Ioannis_Theotokis_Dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				head_of_government
 			}
 			cancel_if_invalid = no
@@ -63,13 +63,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					has_government = voynist
+					has_government = national_corporatist
 					NOT = { has_country_flag = GRE_Napoleon_Zervas_Dead }
 					has_country_flag = can_replace_hog
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				head_of_government
 			}
 			cancel_if_invalid = no
@@ -109,9 +109,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -138,9 +138,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -150,7 +150,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				economy_minister
 			}
 			cancel_if_invalid = no
@@ -208,9 +208,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -220,7 +220,7 @@ ideas = {
 				}
 			}
 			traits = {
-				fundamentalist_trait
+				ultrasocial_conservative_trait
 				archbishop_athens
 			}	
 			cancel_if_invalid = no
@@ -236,9 +236,9 @@ ideas = {
 					tooltip = minister_available
 					NOT = {
 						OR = {
-							has_government = social_nationalist
-							has_government = marxist
-							has_government = libertarian
+							has_government = nationalist_socialism
+							has_government = revolutionary_socialism
+							has_government = syndicalism
 							has_government = moderate_socialist
 							has_government = social_democrat
 						}
@@ -248,7 +248,7 @@ ideas = {
 				}
 			}
 			traits = {
-				conservative_trait
+				social_conservative_trait
 				transport_minister
 			}	
 			cancel_if_invalid = no
@@ -287,7 +287,7 @@ ideas = {
 				}
 			}
 			traits = {
-				voynist_trait
+				national_corporatist_trait
 				chief_of_staff
 			}	
 			cancel_if_invalid = no
@@ -374,9 +374,9 @@ ideas = {
 			allowed = { original_tag = GRE }
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
 				}
 			}
@@ -389,11 +389,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -429,11 +429,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -445,11 +445,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -461,11 +461,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -477,11 +477,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -493,11 +493,11 @@ ideas = {
 			}
 			cancel = {
 				OR = {
-					has_government = social_nationalist
-					has_government = marxist
-					has_government = libertarian
+					has_government = nationalist_socialism
+					has_government = revolutionary_socialism
+					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = fundamentalist
+					has_government = ultrasocial_conservative
 				}
 			}
 			allowed = { original_tag = GRE }

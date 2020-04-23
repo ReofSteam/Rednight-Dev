@@ -43,7 +43,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				GBR_commissioner_of_home_affairs
 			}
 		}
@@ -91,7 +91,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				commissioner_education
 			}
 		}
@@ -107,7 +107,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				GBR_commissioner_public_information
 			}
 		}
@@ -123,7 +123,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				GBR_commissioner_public_transport
 			}
 		}

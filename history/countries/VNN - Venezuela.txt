@@ -30,17 +30,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultrasocial_conservative = 0
+	national_corporatist = 0
 }
 
 add_ideas = {
@@ -51,12 +51,12 @@ add_ideas = {
 
 ### PARTIES UI ###
 	set_country_flag = coalition_autocratic
-	set_country_flag = coalition_conservative
+	set_country_flag = coalition_social_conservative
 
 	### BANNED ###
-	set_country_flag = banned_social_nationalist
-	set_country_flag = banned_marxist
-	set_country_flag = banned_libertarian
+	set_country_flag = banned_nationalist_socialism
+	set_country_flag = banned_revolutionary_socialism
+	set_country_flag = banned_syndicalism
 	set_country_flag = banned_moderate_socialist
 	set_country_flag = banned_social_democrat
 ###
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_JUAN_B_FUENMAYOR_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Juan_B_Fuenmayor.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -75,7 +75,7 @@ create_country_leader = {
 	desc = "POLITICS_JESUS_FARIA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Jesus_Faria.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_WORKERS_COUNCIL_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Workers_Council.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -120,7 +120,7 @@ create_country_leader = {
 	desc = "POLITICS_RAFAEL_CALDERA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Rafael_Caldera.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -147,7 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_MONSIGNOR_LUCAS_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Monsignor_Lucas.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {}
 }
 
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANCIS_P_YOCKEY_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/VEN/VEN_Francis_P_Yockey.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 ### Field Marshal

@@ -72,7 +72,7 @@ USA_liberal_democratic_policies = {
 		}
 	}
 }
-USA_conservative_democratic_policies = {
+USA_social_conservative_democratic_policies = {
 	icon = usa_congress
 	allowed = {	original_tag = USA }
 	visible = {

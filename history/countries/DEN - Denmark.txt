@@ -20,12 +20,12 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = banned_voynist
-set_country_flag = banned_marxist
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_libertarian
+set_country_flag = banned_national_corporatist
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
-set_country_flag = banned_fundamentalist
+set_country_flag = banned_ultrasocial_conservative
 set_country_flag = banned_autocratic
 
 set_politics = {
@@ -35,17 +35,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_nationalist = 1
-	marxist = 5
-	libertarian = 2
+	nationalist_socialism = 1
+	revolutionary_socialism = 5
+	syndicalism = 2
 	moderate_socialist = 4
 	social_democrat = 38
 	social_liberal = 22
-	conservative = 10
+	social_conservative = 10
 	authoritarian_democrat = 7
 	autocratic = 5
-	fundamentalist = 2
-	voynist = 4
+	ultrasocial_conservative = 2
+	national_corporatist = 4
 }
 
 set_convoys = 40
@@ -119,7 +119,7 @@ create_country_leader = {
 	desc = "POLITICS_FREDERICK_IX_DESC"
 	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

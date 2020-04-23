@@ -34,7 +34,7 @@ country_event = { ##Aflaq suggests coalition with Bakdash
 		name = EGY.2.a
 		add_stability = -0.01
 		add_popularity = {
-			ideology = marxist
+			ideology = revolutionary_socialism
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -45,7 +45,7 @@ country_event = { ##Aflaq suggests coalition with Bakdash
 		name = EGY.2.b
 		add_stability = 0.05
 		add_popularity = {
-			ideology = marxist
+			ideology = revolutionary_socialism
 			popularity = -0.01
 		}
 		hidden_effect = {
@@ -68,11 +68,11 @@ country_event = { ##Aflaq suggests coalition with Bakdash
 		name = EGY.3.a
 		add_stability = 0.01
 		add_popularity = {
-			ideology = social_nationalist
+			ideology = nationalist_socialism
 			popularity = -0.05
 		}
 		add_popularity = {
-			ideology = libertarian
+			ideology = syndicalism
 			popularity = 0.02
 		}
 	}
@@ -80,7 +80,7 @@ country_event = { ##Aflaq suggests coalition with Bakdash
 		name = EGY.3.b
 		add_stability = -0.01
 		add_popularity = {
-			ideology = libertarian
+			ideology = syndicalism
 			popularity = 0.02
 		}
 	}
@@ -194,15 +194,15 @@ country_event = { ##Treason, then
 		}
 		hidden_effect = {
 			add_popularity = {
-				ideology = social_nationalist
+				ideology = nationalist_socialism
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = marxist
+				ideology = revolutionary_socialism
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = libertarian
+				ideology = syndicalism
 				popularity = -0.05
 			}
 			country_event = { id = EGY_civilwar.4 days = 2 }
@@ -215,15 +215,15 @@ country_event = { ##Treason, then
 		}
 		hidden_effect = {
 			add_popularity = {
-				ideology = social_nationalist
+				ideology = nationalist_socialism
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = marxist
+				ideology = revolutionary_socialism
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = libertarian
+				ideology = syndicalism
 				popularity = -0.05
 			}
 			UAR = {

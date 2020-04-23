@@ -10,7 +10,7 @@ ideas = {
 				tag = CIS
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				president
 			}
 		}
@@ -26,7 +26,7 @@ ideas = {
 				tag = CIS
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				interior_minister
 			}
 		}
@@ -54,7 +54,7 @@ ideas = {
 				tag = CIS
 			}
 			traits = {
-				social_nationalist_trait
+				nationalist_socialism_trait
 				foreign_minister
 			}
 		}
@@ -68,7 +68,7 @@ ideas = {
 				tag = CIS
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				education_minister
 			}
 		}

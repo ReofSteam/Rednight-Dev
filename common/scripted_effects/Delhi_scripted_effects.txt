@@ -264,7 +264,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_SIKANDER_KHAN_DESC"
 			picture = "Portrait_DEH_Sir_Sikander_Hayat_Khan.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -278,7 +278,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_CHHOTU_RAM_DESC"
 			picture = "Portrait_DEH_Sir_Chhotu_Ram.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -291,7 +291,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_MALIK_KHIZAR_TIWANA_DESC"
 			picture = "Portrait_DEH_Malik_Khizar_Hayat_Tiwana.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -309,7 +309,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_GANGA_SINGH_DESC"
 			picture = "Portrait_DEH_Maharaja_Ganga_Singh.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -321,7 +321,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_RATANJI_DADABHOY_TATA_DESC"
 			picture = "Portrait_DEH_Jehangir_Ratanji_Dadabhoy_Tata.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -333,7 +333,7 @@ DEH_election_unionist = {
 			desc = "POLITICS_ATUL_CHANDRA_CHATTERJEE_DESC"
 			picture = "Portrait_DEH_Sir_Atul_Chandra_Chatterjee.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 

@@ -66,43 +66,43 @@ set_stability = 0.65
 set_war_support = 0.35
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1932.3.8"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_nationalist = 6
-	marxist = 22
-	libertarian = 3
+	nationalist_socialism = 6
+	revolutionary_socialism = 22
+	syndicalism = 3
 	moderate_socialist = 14
 	social_democrat = 8
 	social_liberal = 11
-	conservative = 18
+	social_conservative = 18
 	authoritarian_democrat = 6
 	autocratic = 4
-	fundamentalist = 1
-	voynist = 7
+	ultrasocial_conservative = 1
+	national_corporatist = 7
 }
 
-set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_nationalist_socialism
 set_country_flag = coalition_moderate_socialist
 set_country_flag = coalition_social_democrat
 
 set_country_flag = banned_social_liberal
-set_country_flag = banned_conservative
+set_country_flag = banned_social_conservative
 set_country_flag = banned_authoritarian_democrat
 set_country_flag = banned_autocratic
-set_country_flag = banned_fundamentalist
-set_country_flag = banned_voynist
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
 
 create_country_leader = {
 	name = "Otto Grotewohl"
 	desc = "POLITICS_OTTO_GROTEWOHL_DESC"
 	picture = "gfx/leaders/GER/GER_Otto_Grotewohl.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 	}
 }
@@ -112,7 +112,7 @@ create_country_leader = {
 	desc = "POLITICS_OTTO_GROTEWOHL_DESC"
 	picture = "gfx/leaders/GER/GER_Otto_Grotewohl.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 	}
 }

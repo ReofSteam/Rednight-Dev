@@ -32,17 +32,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultrasocial_conservative = 0
+	national_corporatist = 0
 }
 
 
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {
 		#
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_RADOLA_GAJDA_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Radola_Gajda.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		#
 	}
@@ -139,7 +139,7 @@ create_country_leader = {
 	desc = "POLITICS_ALOIS_MUNA_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Alois_Muna.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_BOHUMIL_JILEK_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Bohumil_Jilek.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -359,7 +359,7 @@ set_variable = { CZE_Gajda_coup_timeout_days = 45 }
 
 # Parliament: 160 seats total
 #set_variable = { leninist_seats = 0 }
-#set_variable = { marxist_seats = 26 }
+#set_variable = { revolutionary_socialism_seats = 26 }
 #set_variable = { revsoc_seats = 0 }
 #set_variable = { demsoc_seats = 0 }
 #set_variable = { socdem_seats = 31 }

@@ -780,7 +780,7 @@ ideas = {
 			}
 		}
 
-###Social Conservative
+###Social social_conservative
 		BEL_Farmers_aid = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BEL_Farmers_aid"}
 			allowed = {

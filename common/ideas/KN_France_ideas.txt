@@ -7,7 +7,7 @@ ideas = {
 			picture = FRA_Louis_Sellier
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				head_of_government
 			}
 		}
@@ -29,7 +29,7 @@ ideas = {
 			picture = FRA_Auguste_Lecoeur
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				interior_minister
 			}
 		}
@@ -40,7 +40,7 @@ ideas = {
 			picture = FRA_Ambroise_Croizat
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait 
+				revolutionary_socialism_trait 
 				economy_minister
 			}
 		}
@@ -51,7 +51,7 @@ ideas = {
 			picture = FRA_Jacques_Duclos
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				foreign_minister
 			}
 		}
@@ -62,7 +62,7 @@ ideas = {
 			picture = FRA_Christiane_Faure
 			allowed = { original_tag = FRA }
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				education_minister
 			}
 		}
@@ -73,7 +73,7 @@ ideas = {
 			picture = FRA_Jean_Renoir
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				culture_minister
 			}
 		}
@@ -84,7 +84,7 @@ ideas = {
 			picture = FRA_Pierre_Semard
 			allowed = { original_tag = FRA }
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				transport_minister
 			}
 		}

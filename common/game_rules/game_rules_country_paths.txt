@@ -259,9 +259,9 @@ PLC_prime_minister = {
 		allow_achievements = yes
 	}
 	option = {
-		name = PLC_PRIME_MINISTER_MENDOG_CONSERVATIVE
-		text = "RULE_OPTION_PLC_PRIME_MINISTER_MENDOG_CONSERVATIVE"
-		desc = "RULE_OPTION_PLC_PRIME_MINISTER_MENDOG_CONSERVATIVE_DESC"
+		name = PLC_PRIME_MINISTER_MENDOG_social_conservative
+		text = "RULE_OPTION_PLC_PRIME_MINISTER_MENDOG_social_conservative"
+		desc = "RULE_OPTION_PLC_PRIME_MINISTER_MENDOG_social_conservative_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -440,9 +440,9 @@ AUS_start_election = {
 		allow_achievements = yes
 	}
 	option = {
-		name = AUS_START_SOCIAL_CONSERVATIVE
-		text = "RULE_OPTION_AUS_START_ELECTION_SOCIAL_CONSERVATIVE_CS"
-		desc = "RULE_OPTION_AUS_START_ELECTION_SOCIAL_CONSERVATIVE_CS_DESC"
+		name = AUS_START_SOCIAL_social_conservative
+		text = "RULE_OPTION_AUS_START_ELECTION_SOCIAL_social_conservative_CS"
+		desc = "RULE_OPTION_AUS_START_ELECTION_SOCIAL_social_conservative_CS_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -869,9 +869,9 @@ WHR_situation = {
 		allow_achievements = yes
 	}
 	option = {
-		name = WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_CONSERVATIVE_BNP
-		text = "RULE_OPTION_WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_CONSERVATIVE_BNP"
-		desc = "RULE_OPTION_WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_CONSERVATIVE_BNP_DESC"
+		name = WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_social_conservative_BNP
+		text = "RULE_OPTION_WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_social_conservative_BNP"
+		desc = "RULE_OPTION_WHR_SITUATION_ULADZIMIR_DEMOCRACY_SOCIAL_social_conservative_BNP_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -1157,9 +1157,9 @@ SWE_riksdag_election = {
 		allow_achievements = yes
 	}
 	option = {
-		name = SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_CONSERVATIVE
-		text = "RULE_OPTION_SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_CONSERVATIVE"
-		desc = "RULE_OPTION_SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_CONSERVATIVE_DESC"
+		name = SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_social_conservative
+		text = "RULE_OPTION_SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_social_conservative"
+		desc = "RULE_OPTION_SWE_RIKSDAG_ELECTION_CENTER_RIGHT_SOCIAL_social_conservative_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -1346,9 +1346,9 @@ CAN_political_path = {
 		allow_achievements = yes
 	}
 	option = {
-		name = CAN_POLITICAL_PATH_CONSERVATIVE
-		text = "RULE_OPTION_CAN_POLITICAL_PATH_CONSERVATIVE"
-		desc = "RULE_OPTION_CAN_POLITICAL_PATH_CONSERVATIVE_DESC"
+		name = CAN_POLITICAL_PATH_social_conservative
+		text = "RULE_OPTION_CAN_POLITICAL_PATH_social_conservative"
+		desc = "RULE_OPTION_CAN_POLITICAL_PATH_social_conservative_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -1849,15 +1849,15 @@ BRA_start_election = {
 		allow_achievements = yes
 	}
 	option = {
-		name = BRA_START_ELECTION_SOCIAL_CONSERVATIVE_DEMOCRACY
-		text = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_CONSERVATIVE_DEMOCRACY"
-		desc = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_CONSERVATIVE_DEMOCRACY_DESC"
+		name = BRA_START_ELECTION_SOCIAL_social_conservative_DEMOCRACY
+		text = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_social_conservative_DEMOCRACY"
+		desc = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_social_conservative_DEMOCRACY_DESC"
 		allow_achievements = yes
 	}
 	option = {
-		name = BRA_START_ELECTION_SOCIAL_CONSERVATIVE_PATERNAL_AUTOCRAT_VARGAS
-		text = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_CONSERVATIVE_PATERNAL_AUTOCRAT_VARGAS"
-		desc = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_CONSERVATIVE_PATERNAL_AUTOCRAT_VARGAS_DESC"
+		name = BRA_START_ELECTION_SOCIAL_social_conservative_PATERNAL_AUTOCRAT_VARGAS
+		text = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_social_conservative_PATERNAL_AUTOCRAT_VARGAS"
+		desc = "RULE_OPTION_BRA_START_ELECTION_SOCIAL_social_conservative_PATERNAL_AUTOCRAT_VARGAS_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -1967,9 +1967,9 @@ PRU_post_attempt = {
 		allow_achievements = yes
 	}
 	option = {
-		name = PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_CONSERVATIVE
-		text = "RULE_OPTION_PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_CONSERVATIVE"
-		desc = "RULE_OPTION_PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_CONSERVATIVE_DESC"
+		name = PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_social_conservative
+		text = "RULE_OPTION_PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_social_conservative"
+		desc = "RULE_OPTION_PRU_POST_ATTEMPT_ELECTION_DEMOCRACY_SOCIAL_social_conservative_DESC"
 		allow_achievements = yes
 	}
 	option = {
@@ -2101,9 +2101,9 @@ COL_great_inheritance = {
 		allow_achievements = yes
 	}
 	option = {
-		name = COL_GREAT_INHERITANCE_CONSERVATIVE
-		text = "RULE_OPTION_COL_GREAT_INHERITANCE_CONSERVATIVE"
-		desc = "RULE_OPTION_COL_GREAT_INHERITANCE_CONSERVATIVE_DESC"
+		name = COL_GREAT_INHERITANCE_social_conservative
+		text = "RULE_OPTION_COL_GREAT_INHERITANCE_social_conservative"
+		desc = "RULE_OPTION_COL_GREAT_INHERITANCE_social_conservative_DESC"
 		allow_achievements = yes
 	}
 	option = {

@@ -31,7 +31,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1935.01.01"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,17 +39,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 20
-    marxist = 10
-    libertarian = 5
+    nationalist_socialism = 20
+    revolutionary_socialism = 10
+    syndicalism = 5
     moderate_socialist = 20
     social_democrat = 5
     social_liberal = 15
-    conservative = 15
+    social_conservative = 15
     authoritarian_democrat = 10
     autocratic = 0
-    fundamentalist = 0
-    voynist = 0
+    ultrasocial_conservative = 0
+    national_corporatist = 0
 }
 
 add_ideas = {
@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/Portrait_Belgium_Julien_Lahaut.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_LUCIE_DEJARDIN_DESC"
 	picture = "leaders/WESTERN_EUROPE/WLL/portrait_Lucie_Dujardin.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = "POLITICS_WALTER_DAUGE_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/Portrait_Belgium_Walter_Dauge.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Léon Degrelle"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {
 
 	}
@@ -136,7 +136,7 @@ create_country_leader = {
 	name = "Auguste Buisseret"
 	picture = "leaders/WESTERN_EUROPE/WLL/Portrait_August_Buisseret.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -146,7 +146,7 @@ create_country_leader = {
 	name = "Hubert Pierlot"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/Portrait_Belgium_Hubert_Pierlot.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}

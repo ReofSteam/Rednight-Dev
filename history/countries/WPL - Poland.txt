@@ -38,17 +38,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 3
-	marxist = 1
-	libertarian = 0
+	nationalist_socialism = 3
+	revolutionary_socialism = 1
+	syndicalism = 0
 	moderate_socialist = 2
 	social_democrat = 2
 	social_liberal = 3
-	conservative = 9
+	social_conservative = 9
 	authoritarian_democrat = 21
 	autocratic = 25
-	fundamentalist = 5
-	voynist = 29
+	ultrasocial_conservative = 5
+	national_corporatist = 29
 }
 
 set_convoys = 10
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_TADEUSZ_BIELECKI_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/WPL/WPL_Tadeusz_Bielecki.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_TADEUSZ_BIELECKI_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/WPL/WPL_Tadeusz_Bielecki.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultrasocial_conservative_subtype
 	traits = {
 		#
 	}
