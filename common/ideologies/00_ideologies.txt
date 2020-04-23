@@ -172,7 +172,7 @@ ideologies = {
 		types = {
 			conservative_subtype = {}
 		}
-		color = { 35 60 124 }
+		color = { 57 96 196 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -250,7 +250,7 @@ ideologies = {
 		types = {
 			ultraconservative_subtype = {}
 		}
-		color = { 134 2 118 }  #282828
+		color = { 31 82 118 }  #282828
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -276,7 +276,7 @@ ideologies = {
 		types = {
 			national_corporatist_subtype = {}
 		}
-		color = { 62 62 13 }
+		color = { 117 26 23 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
