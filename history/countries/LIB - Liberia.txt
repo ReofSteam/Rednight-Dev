@@ -22,17 +22,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 create_country_leader = {
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "gfx/leaders/WEST_AFRICA/LIB/Portrait_LIB_Edwin_Barclay.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Frank E. Tolbert"
 	picture = "gfx/leaders/WEST_AFRICA/LIB/Portrait_LIB_Frank_Tolbert.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {}
 }
 
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "George Padmore"
 	picture = "gfx/leaders/WEST_AFRICA/LIB/Portrait_LIB_George_Padmore.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "James Jenkins Dossen"
 	picture = "gfx/leaders/WEST_AFRICA/LIB/Portrait_LIB_James_Dossen.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "William Tubman"
 	picture = "gfx/leaders/WEST_AFRICA/LIB/Portrait_LIB_William_Tubman.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 

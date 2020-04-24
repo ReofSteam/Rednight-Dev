@@ -33,17 +33,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 1
-	libertarian = 1
+	nationalist_socialism = 0
+	revolutionary_socialism = 1
+	syndicalism = 1
 	moderate_socialist = 3
 	social_democrat = 1
 	social_liberal = 25
-	conservative = 20
+	social_conservative = 20
 	authoritarian_democrat = 40
 	autocratic = 2
-	fundamentalist = 4
-	voynist = 3
+	ultraconservative = 4
+	national_corporatist = 3
 }
 
 create_country_leader = {
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_ABDULDAKIR_KEBIRE_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Abduldakir_Kebire.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_IBRAHIM_ALI_SULTAN_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Ibrahim_Ali_Sultan.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		
 	}
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_IBRAHIM_ALI_SULTAN_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ERI/Portrait_ERI_Ibrahim_Ali_Sultan.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}

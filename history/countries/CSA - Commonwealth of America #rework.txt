@@ -48,31 +48,31 @@ set_technology = {
 	### BANNED ###
 	set_country_flag = banned_authoritarian_democrat
 	set_country_flag = banned_autocratic
-	set_country_flag = banned_fundamentalist
-	set_country_flag = banned_voynist
+	set_country_flag = banned_ultrasocial_conservative
+	set_country_flag = banned_national_corporatist
 
 	### COALITION ###
-	set_country_flag = coalition_marxist
+	set_country_flag = coalition_revolutionary_socialism
 
 set_politics = {	
-	ruling_party = libertarian
+	ruling_party = syndicalism
 	last_election = "1950.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 4.5
-    marxist = 24.4
-    libertarian = 25.7
+    nationalist_socialism = 4.5
+    revolutionary_socialism = 24.4
+    syndicalism = 25.7
     moderate_socialist = 13
     social_democrat = 12.5
     social_liberal = 8.2
-    conservative = 1
+    social_conservative = 1
     authoritarian_democrat = 3
     autocratic = 3
-    fundamentalist = 3.7
-    voynist = 1
+    ultraconservative = 3.7
+    national_corporatist = 1
 }
 
 create_country_leader = {
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_JAMES_P_CANNON_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_James_P_Cannon.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -91,7 +91,7 @@ create_country_leader = {
 	desc = "POLITICS_ELIZABETH_GURLEY_FLYNN_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Elizabeth_Gurley_Flynn.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		rebel_girl
 	}
@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_JAY_LOVESTONE_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Jay_Lovestone.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		#
 	}

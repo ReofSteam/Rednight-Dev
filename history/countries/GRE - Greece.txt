@@ -72,17 +72,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 6
-	libertarian = 4
+	nationalist_socialism = 0
+	revolutionary_socialism = 6
+	syndicalism = 4
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 12
-	conservative = 13
+	social_conservative = 13
 	authoritarian_democrat = 12
 	autocratic = 34
-	fundamentalist = 11
-	voynist = 8
+	ultraconservative = 11
+	national_corporatist = 8
 }
 
 ###############################
@@ -92,13 +92,13 @@ set_popularities = {
 ##### coalition_[IDEOLOGY] ####
 ###############################
 
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_marxist
-set_country_flag = banned_libertarian
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
 set_country_flag = banned_social_democrat
 
-set_country_flag = coalition_conservative #The conservatives is in a coalition with the army
+set_country_flag = coalition_social_conservative #The social_conservatives is in a coalition with the army
 
 set_variable = { greek_opinion_military = 2 }
 set_variable = { greek_opinion_rus = 1 }
@@ -127,7 +127,7 @@ create_country_leader = {
 	desc = "POLITICS_DIMITRIOS_PARTSALIDIS_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Dimitrios_Partsalidis.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		#
 	}
@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_NIKOS_ZACHARIADIS_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Nikos_Zachariadis.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -148,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_GRE_WORKERS_COUNCIL_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_GSEE.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -193,7 +193,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_THEOTOKIS_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Ioannis_Theotokis.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -227,7 +227,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTINOS_KARAMANLIS_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Konstantinos_Karamanlis.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -238,7 +238,7 @@ create_country_leader = {
 	desc = "POLITICS_NAPOLEON_ZERVAS_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/GRE/GRE_Napoleon_Zervas.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

@@ -69,17 +69,17 @@ add_ideas = {
 }
 
 ### PARTIES UI ###
-	set_country_flag = coalition_marxist
-	set_country_flag = coalition_libertarian
+	set_country_flag = coalition_revolutionary_socialism
+	set_country_flag = coalition_syndicalism
 	set_country_flag = coalition_moderate_socialist
 	set_country_flag = coalition_social_democrat
 
 	### BANNED ###
-	set_country_flag = banned_conservative
+	set_country_flag = banned_social_conservative
 	set_country_flag = banned_authoritarian_democrat
 	set_country_flag = banned_autocratic
-	set_country_flag = banned_fundamentalist
-	set_country_flag = banned_voynist
+	set_country_flag = banned_ultrasocial_conservative
+	set_country_flag = banned_national_corporatist
 
 
 set_convoys = 800
@@ -94,17 +94,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 7
-	marxist = 18
-	libertarian = 13
+	nationalist_socialism = 7
+	revolutionary_socialism = 18
+	syndicalism = 13
 	moderate_socialist = 36
 	social_democrat = 3
 	social_liberal = 2
-	conservative = 4
+	social_conservative = 4
 	authoritarian_democrat = 1
 	autocratic = 2
-	fundamentalist = 2
-	voynist = 12
+	ultraconservative = 2
+	national_corporatist = 12
 }
 
 ### Starting Political Leaders ###
@@ -113,7 +113,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHN_WARBURTON_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_John_Warburton.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = { }
 }
 
@@ -122,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Harry_Pollitt.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_SYLVIA_PANKHURST_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Sylvia_Pankhurst.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = { }
 }
 
@@ -169,7 +169,7 @@ create_country_leader = {
 	desc = "POLITICS_PETER_THORNYCROFT_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Peter_Thornycroft.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = { }
 }
 
@@ -196,7 +196,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_JOYCE_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_Joyce.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 
@@ -205,7 +205,7 @@ create_country_leader = {
 	desc = "POLITICS_JEFFREY_HAMM_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Jeffrey_Hamm.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 

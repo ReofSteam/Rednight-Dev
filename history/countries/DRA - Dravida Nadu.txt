@@ -26,17 +26,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 4.8
-    marxist = 5.2
-    libertarian = 0
+    nationalist_socialism = 4.8
+    revolutionary_socialism = 5.2
+    syndicalism = 0
     moderate_socialist = 48.1
     social_democrat = 31.9
     social_liberal = 5.7
-    conservative = 0
+    social_conservative = 0
     authoritarian_democrat = 0
     autocratic = 0
-    fundamentalist = 4.3
-    voynist = 0
+    ultraconservative = 4.3
+    national_corporatist = 0
 }
 
 create_country_leader = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	name = "K.B. Hedgewar"
 	picture = "gfx/leaders/RMK/DRA/KB_Hedgewar.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -70,7 +70,7 @@ create_country_leader = {
 	name = "K.B. Hedgewar"
 	picture = "gfx/leaders/RMK/DRA/KB_Hedgewar.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 
 	}

@@ -18,24 +18,24 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1948.1.1"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-    social_nationalist = 3
-    marxist = 26
-    libertarian = 6
+    nationalist_socialism = 3
+    revolutionary_socialism = 26
+    syndicalism = 6
     moderate_socialist = 19
     social_democrat = 7
     social_liberal = 2
-    conservative = 10
+    social_conservative = 10
     authoritarian_democrat = 5
     autocratic = 4
-    fundamentalist = 9
-    voynist = 9
+    ultraconservative = 9
+    national_corporatist = 9
 }
 
 add_ideas = {
@@ -59,7 +59,7 @@ create_country_leader = {
 	name = "Karl Kriebich"
 	picture = "gfx/leaders/WESTERN_EUROPE/CIS/CIS_Karl_Kriebich.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 	}
 }

@@ -16,17 +16,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 ###gfx/leaders/WEST_AFRICA/BOR/
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}

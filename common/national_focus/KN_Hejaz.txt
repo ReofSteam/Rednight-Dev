@@ -826,7 +826,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HEJ_a_beacon_of_faith
-		icon = GFX_goal_KN_generic_social_conservative
+		icon = GFX_goal_KN_generic_social_social_conservative
 		prerequisite = {
 		focus = HEJ_our_first_elections
 		}
@@ -1235,7 +1235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HEJ_empower_the_nationalists
-		icon = GFX_goal_KN_generic_voynist
+		icon = GFX_goal_KN_generic_national_corporatist
 		prerequisite = {
 		focus = HEJ_the_royal_dictatorship
 		}

@@ -42,7 +42,7 @@ DEH_create_monarchy = {
 			desc = "POLITICS_GEORGE_DESC"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_George.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -69,7 +69,7 @@ DEH_create_monarchy = {
 			name = "Edward VIII"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Edward_VIII.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -96,7 +96,7 @@ DEH_create_monarchy = {
 			name = "Albert I"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Albert.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -123,7 +123,7 @@ DEH_create_monarchy = {
 			name = "Henry IX"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_Henry.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 	else_if = {
@@ -150,7 +150,7 @@ DEH_create_monarchy = {
 			name = "George VI"
 			picture = "gfx/leaders/CAN/Portrait_Canada_King_GeorgeVI.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 	}
 }

@@ -63,11 +63,11 @@ country_event = {
 			desc = "POLITICS_BENIGNO_AQUINO_DESC"
 			picture = "gfx/leaders/Asia/PHI/PHI_Aquino.tga"
 			expire = "1965.1.1"
-			ideology = conservative_subtype
+			ideology = social_conservative_subtype
 			traits = {	}
 		}	
 		set_politics = {
-			ruling_party = conservative
+			ruling_party = social_conservative
 		}
 	}
 	
@@ -78,11 +78,11 @@ country_event = {
 			desc = "POLITICS_ROXAS_DESC"
 			picture = "gfx/leaders/Asia/PHI/PHI_roxas.tga"
 			expire = "1965.1.1"
-			ideology = conservative_subtype
+			ideology = social_conservative_subtype
 			traits = {	}
 		}
 		set_politics = {
-			ruling_party = conservative
+			ruling_party = social_conservative
 		}
 		set_party_name = { 
 			ideology = authoritarian_democrat 

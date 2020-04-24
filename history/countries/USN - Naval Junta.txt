@@ -43,17 +43,17 @@ add_ideas = {
 	}
 	
 set_popularities = {
-	social_nationalist = 2
-	marxist = 19
-	libertarian = 3
+	nationalist_socialism = 2
+	revolutionary_socialism = 19
+	syndicalism = 3
 	moderate_socialist = 2
 	social_democrat = 5
 	social_liberal = 7
-	conservative = 8
+	social_conservative = 8
 	authoritarian_democrat = 35
 	autocratic = 18
-	fundamentalist = 1
-	voynist = 0
+	ultraconservative = 1
+	national_corporatist = 0
 }
 
 create_country_leader = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
 	picture = "GFX_portrait_cuba_jose_barnet" 
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}

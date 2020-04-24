@@ -19,17 +19,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 11
-    marxist = 2
-    libertarian = 20
+    nationalist_socialism = 11
+    revolutionary_socialism = 2
+    syndicalism = 20
     moderate_socialist = 8
     social_democrat = 1
     social_liberal = 28
-    conservative = 22
+    social_conservative = 22
     authoritarian_democrat = 5
     autocratic = 3
-    fundamentalist = 0
-    voynist = 0
+    ultraconservative = 0
+    national_corporatist = 0
 }
 add_ideas = {
 	shining_democracy

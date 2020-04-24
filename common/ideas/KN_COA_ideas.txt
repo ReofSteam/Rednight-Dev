@@ -10,8 +10,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = libertarian
-						has_government = marxist
+						has_government = syndicalism
+						has_government = revolutionary_socialism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Elizabeth_Flynn_Dead }
@@ -19,7 +19,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				CSA_first_secretary
 			}
 			cancel_if_invalid = no
@@ -34,8 +34,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Earl_Browder_Dead }
@@ -43,7 +43,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				CSA_speaker
 			}
 			cancel_if_invalid = no
@@ -59,8 +59,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Vincent_R_Dunnes_Dead }
@@ -68,7 +68,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				CSA_secretary_commonwealth_affairs
 			}
 			cancel_if_invalid = no
@@ -84,8 +84,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Harry_Bridges_Dead }
@@ -93,7 +93,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				CSA_secretary_finance
 			}
 			cancel_if_invalid = no
@@ -109,8 +109,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_WEB_Du_Bois_Dead }
@@ -118,7 +118,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				CSA_international_relations
 			}
 			cancel_if_invalid = no
@@ -134,8 +134,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Oakley_C_Johnson_Dead }
@@ -143,7 +143,7 @@ ideas = {
 				}
 			}
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				CSA_education
 			}
 			cancel_if_invalid = no
@@ -158,8 +158,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Roger_N_Baldwin_Dead }
@@ -182,8 +182,8 @@ ideas = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
 					OR = {
-						has_government = marxist
-						has_government = libertarian
+						has_government = revolutionary_socialism
+						has_government = syndicalism
 						has_government = moderate_socialist
 					}
 					NOT = { has_country_flag = CSA_Wyndham_Mortimer_Dead }
@@ -191,7 +191,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				CSA_transport
 			}	
 			cancel_if_invalid = no

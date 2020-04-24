@@ -7,8 +7,8 @@ ideas = {
 				stability_factor = -0.20
 				political_power_gain = -0.1
 				authoritarian_democrat_drift = 0.05
-				conservative_drift = 0.05
-				libertarian_drift = 0.05
+				social_conservative_drift = 0.05
+				syndicalism_drift = 0.05
 			}
 		}
 
@@ -64,8 +64,8 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.01
 				political_power_gain = -0.05
-				social_nationalist_drift = -0.02
-				marxist_drift = -0.05
+				nationalist_socialism_drift = -0.02
+				revolutionary_socialism_drift = -0.05
 			}	
 		}
 	}

@@ -677,8 +677,8 @@ ideas = {
 			picture = generic_production_bonus
 		}
 
-		NOR_conservative_agreement_idea = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOR_conservative_agreement_idea"}
+		NOR_social_conservative_agreement_idea = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NOR_social_conservative_agreement_idea"}
 			allowed = { always = no }
 			modifier = {
 				political_power_factor = 0.05

@@ -11,10 +11,10 @@ ideas = {
 # Starting ideas
 ##############
 
-		SWE_conservative_army_idea_1 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_conservative_army_idea_1"}
+		SWE_social_conservative_army_idea_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWE_social_conservative_army_idea_1"}
 			allowed = { always = no }
-			picture = SWE_conservative_army_idea
+			picture = SWE_social_conservative_army_idea
 			modifier = {
 				experience_gain_factor = -0.1
 			}

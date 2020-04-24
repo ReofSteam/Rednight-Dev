@@ -20,23 +20,23 @@ add_ideas = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = social_conservative
 	last_election = "1931.10.16"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	social_nationalist = 2
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 2
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 8
 	social_liberal = 16	
-	conservative = 62
+	social_conservative = 62
 	authoritarian_democrat = 7
 	autocratic = 5
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 ###############################
@@ -46,11 +46,11 @@ set_popularities = {
 ##### coalition_[IDEOLOGY] ####
 ###############################
 
-set_country_flag = banned_libertarian
-set_country_flag = banned_marxist
+set_country_flag = banned_syndicalism
+set_country_flag = banned_revolutionary_socialism
 set_country_flag = banned_moderate_socialist
-set_country_flag = banned_voynist
-set_country_flag = banned_fundamentalist
+set_country_flag = banned_national_corporatist
+set_country_flag = banned_ultrasocial_conservative
 
 
 create_faction = "Cairo Agreement"
@@ -70,7 +70,7 @@ create_country_leader = {
 	name = "Gamal Abdel Nasser"
 	desc = ""
 	picture = "gfx/leaders/CAIRO_PACT/UAR/UAR_Gamal_Abdel_Nasser.dds"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		#
 	}
@@ -80,7 +80,7 @@ create_country_leader = {
 	name = "Youssef Darwish"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -90,7 +90,7 @@ create_country_leader = {
 	name = "Shuhdi Atiyya ash-Shafi"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -130,7 +130,7 @@ create_country_leader = {
 	name = "King Farouk I"
 	desc = "POLITICS_EGY_FAROUK_DESC"
 	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -160,7 +160,7 @@ create_country_leader = {
 	name = "Hassan al-Banna"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -170,7 +170,7 @@ create_country_leader = {
 	name = "Said Ramadan"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -179,7 +179,7 @@ create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}

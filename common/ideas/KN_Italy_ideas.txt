@@ -27,7 +27,7 @@ ideas = {
 		}
 		ITA_workers_militias = {
 			modifier = {
-				marxist_drift = 0.005
+				revolutionary_socialism_drift = 0.005
 				stability_factor = 0.05
 			}
 			picture = GFX_idea_Red_Militia_Idea
@@ -44,7 +44,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				head_of_government
 			}
 		}
@@ -58,7 +58,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				social_nationalist_trait
+				nationalist_socialism_trait
 				head_of_government 
 			}
 		}
@@ -76,7 +76,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				interior_minister
 			}
 		}
@@ -109,7 +109,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				foreign_minister 
 			}
 		}
@@ -125,7 +125,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				education_minister 
 			}
 		}
@@ -141,7 +141,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				culture_minister 
 			}
 		}
@@ -157,7 +157,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				transport_minister 
 			}
 		}
@@ -173,7 +173,7 @@ ideas = {
 			}
 			picture = n
 			traits = {
-				libertarian_trait
+				syndicalism_trait
 				head_of_intel 
 				
 			}

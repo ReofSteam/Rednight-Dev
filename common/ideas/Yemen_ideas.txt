@@ -10,7 +10,7 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.10
 				industrial_capacity_factory = -0.10
 				production_speed_buildings_factor = -0.05
-				social_conservative_drift = 0.02
+				social_social_conservative_drift = 0.02
 				social_liberal_drift = 0.01
 			}
 		}

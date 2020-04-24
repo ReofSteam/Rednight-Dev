@@ -41,24 +41,24 @@ set_autonomy = {
 }
 
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 16
-    marxist = 3
-    libertarian = 13
+    nationalist_socialism = 16
+    revolutionary_socialism = 3
+    syndicalism = 13
     moderate_socialist = 31
     social_democrat = 4
     social_liberal = 2
-    conservative = 5
+    social_conservative = 5
     authoritarian_democrat = 13
     autocratic = 11
-    fundamentalist = 1
-    voynist = 1
+    ultraconservative = 1
+    national_corporatist = 1
 }
 
 create_country_leader = {
@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_CHANDRA_BOSE_DESC"
 	picture = "gfx/leaders/RMK/BHC/BHC_Subhas_Chandra_Bose.dds"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 
@@ -97,7 +97,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_Morarji Desai.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_LB_Shastri.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		
 	}
@@ -119,7 +119,7 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/RMK/BHC/GFX_Portrait_MN_Roy.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}

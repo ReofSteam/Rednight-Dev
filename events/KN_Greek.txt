@@ -69,8 +69,8 @@ country_event = {
 				days = 1
 			}
 		}
-		custom_effect_tooltip = gre_happi_conservative
-		set_country_flag = gre_8th_monarchism #Conservative happy
+		custom_effect_tooltip = gre_happi_social_conservative
+		set_country_flag = gre_8th_monarchism #social_conservative happy
 	}
 
 	option = {
@@ -81,8 +81,8 @@ country_event = {
 				days = 1
 			}
 		}
-		custom_effect_tooltip = gre_anger_conservative
-		set_country_flag = gre_8th_republicanism #Conservative angry
+		custom_effect_tooltip = gre_anger_social_conservative
+		set_country_flag = gre_8th_republicanism #social_conservative angry
 	}
 }
 
@@ -104,7 +104,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_military_budget
-		custom_effect_tooltip = gre_anger_conservative
+		custom_effect_tooltip = gre_anger_social_conservative
 	}
 
 	option = {
@@ -116,7 +116,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_civil_budget
-		custom_effect_tooltip = gre_happi_conservative
+		custom_effect_tooltip = gre_happi_social_conservative
 	}
 }
 
@@ -137,8 +137,8 @@ country_event = {
 				days = 1
 			}
 		}
-		set_country_flag = gre_8th_coalition_conservative
-		custom_effect_tooltip = gre_happi_conservative
+		set_country_flag = gre_8th_coalition_social_conservative
+		custom_effect_tooltip = gre_happi_social_conservative
 	}
 
 	option = {
@@ -150,7 +150,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_coalition_liberal
-		custom_effect_tooltip = gre_happi_conservative
+		custom_effect_tooltip = gre_happi_social_conservative
 	}
 
 	option = {
@@ -162,7 +162,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_coalition_abandon
-		custom_effect_tooltip = gre_anger_conservative
+		custom_effect_tooltip = gre_anger_social_conservative
 	}
 }
 
@@ -184,7 +184,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_build_up
-		custom_effect_tooltip = gre_anger_conservative
+		custom_effect_tooltip = gre_anger_social_conservative
 	}
 
 	option = {
@@ -196,7 +196,7 @@ country_event = {
 			}
 		}
 		set_country_flag = gre_8th_equiping
-		custom_effect_tooltip = gre_happi_conservative
+		custom_effect_tooltip = gre_happi_social_conservative
 	}
 }
 
@@ -236,7 +236,7 @@ country_event = {
 
 country_event = {
 	id = kn_greece.107
-	title = kn_greece.107.t #Conservatives angered by Congress
+	title = kn_greece.107.t #social_conservatives angered by Congress
 	desc = kn_greece.107.d
 	#picture = GFX_GRE_papagos
 
@@ -249,7 +249,7 @@ country_event = {
 
 	option = {
 		name = kn_greece.107.o1 #What more could possibly go wrong
-		set_country_flag = GRE_conservatives_angered
+		set_country_flag = GRE_social_conservatives_angered
 	}
 }
 

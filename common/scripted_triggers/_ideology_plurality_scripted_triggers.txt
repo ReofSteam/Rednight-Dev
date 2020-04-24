@@ -333,7 +333,7 @@ market_liberal_plurality = {
 	}
 }
 
-social_conservative_plurality = {
+social_social_conservative_plurality = {
 
 	OR = {
 		social_conservative > 0.5

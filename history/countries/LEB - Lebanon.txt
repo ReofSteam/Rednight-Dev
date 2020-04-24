@@ -10,7 +10,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = fundamentalist
+	ruling_party = ultraconservative
 	last_election = "1940.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -18,17 +18,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 10
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 10
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 9
     social_democrat = 18
     social_liberal = 6
-    conservative = 8
+    social_conservative = 8
     authoritarian_democrat = 0
     autocratic = 3
-    fundamentalist = 26
-    voynist = 20
+    ultraconservative = 26
+    national_corporatist = 20
 }
 add_ideas = {
 	druze_minority
@@ -50,7 +50,7 @@ create_country_leader = {
     name = "Pierre al-Jumayyil"
     desc = ""
     picture = "gfx/leaders/CAIRO_PACT/LEB/LEB_Pierre_al-Jumayyil.tga"
-    ideology = fundamentalist_subtype
+    ideology = ultraconservative_subtype
     traits = {
         #
     }

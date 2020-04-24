@@ -22,30 +22,30 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 4
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 4
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 1
     social_democrat = 9
     social_liberal = 13
-    conservative = 16
+    social_conservative = 16
     authoritarian_democrat = 20
     autocratic = 25
-    fundamentalist = 12
-    voynist = 0
+    ultraconservative = 12
+    national_corporatist = 0
 }
 
 ### COALITION & BANNED ###
 set_country_flag = coalition_autocratic
-set_country_flag = coalition_conservative
+set_country_flag = coalition_social_conservative
 set_country_flag = coalition_social_liberal
 set_country_flag = coalition_social_democrat
 
-set_country_flag = banned_marxist
-set_country_flag = banned_libertarian
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
-set_country_flag = banned_fundamentalist
-set_country_flag = banned_voynist
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
 
 
 add_ideas = {

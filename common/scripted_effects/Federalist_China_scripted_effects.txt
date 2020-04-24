@@ -98,15 +98,15 @@ FED_CHI_setup_federalist_parties = {
 		}
 		set_party_name = {
 			ideology = social_conservative
-			name = FED_CHI_social_conservative_party
-			long_name = FED_CHI_social_conservative_party_long
+			name = FED_CHI_social_social_conservative_party
+			long_name = FED_CHI_social_social_conservative_party_long
 		}
 		create_country_leader = {
 			name = "Yan Huiqing"
 			desc = "POLITICS_FED_CHI_YAN_HUIQING_DESC"
 			picture = "gfx/leaders/QIE/Portrait_QIE_Yan_Huiqing.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 		set_party_name = {
 			ideology = authoritarian_democrat

@@ -66,17 +66,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 3
-	libertarian = 1
+	nationalist_socialism = 0
+	revolutionary_socialism = 3
+	syndicalism = 1
 	moderate_socialist = 2
 	social_democrat = 35
 	social_liberal = 19
-	conservative = 10
+	social_conservative = 10
 	authoritarian_democrat = 25
 	autocratic = 5
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 ###############################
@@ -86,12 +86,12 @@ set_popularities = {
 ##### coalition_[IDEOLOGY] ####
 ###############################
 
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_marxist
-set_country_flag = banned_libertarian
-set_country_flag = banned_voynist
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_syndicalism
+set_country_flag = banned_national_corporatist
 
-set_country_flag = coalition_conservative
+set_country_flag = coalition_social_conservative
 
 ################################
 ########### LEADERS ############
@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}
@@ -135,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_Frans_Severin_DESC"
 	picture = "gfx/leaders/SCANDINAVIA/SWE/Portrait_Sweden_Frans_Severin.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -155,7 +155,7 @@ create_country_leader = {
 	desc = "POLITICS_Gustaf_V_DESC"
 	picture = "gfx/leaders/SWE/SWE_Gustav_VI.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -166,7 +166,7 @@ create_country_leader = {
 	desc = "POLITICS_REVOLUTIONARY_COMMITTEE_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -188,7 +188,7 @@ create_country_leader = {
 	desc = "POLITICS_REVOLUTIONARY_COMMITTEE_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 
 	}

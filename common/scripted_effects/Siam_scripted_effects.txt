@@ -249,7 +249,7 @@ SIA_set_up_Boworadet_government = {
 		desc = "POLITICS_RAMA_VII_DESC"
 		picture = "Portrait_Siam_Rama_VII.tga"
 		expire = "1941.5.30"
-		ideology = social_conservative_subtype
+		ideology = social_social_conservative_subtype
 	}
 	create_country_leader = { # Start Leader
 		name = "Prajadhipok"

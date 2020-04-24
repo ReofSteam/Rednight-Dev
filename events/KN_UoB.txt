@@ -49,7 +49,7 @@ country_event = {
 		name = uobconst.2.a
 		add_stability = 0.03
 		add_popularity = {
-			ideology = libertarian
+			ideology = syndicalism
 			popularity = 0.01
 		}
 		hidden_effect = {
@@ -70,7 +70,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = {
-				ideology = libertarian
+				ideology = syndicalism
 				popularity = -0.005
 			}
 			add_popularity = {
@@ -101,7 +101,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = {
-				ideology = libertarian
+				ideology = syndicalism
 				popularity = 0.01
 			}
 			country_event = { id = uobconst.4 days = 15 }
@@ -135,7 +135,7 @@ country_event = {
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = libertarian
+			ideology = syndicalism
 			popularity = 0.005
 		}
 		hidden_effect = {
@@ -160,7 +160,7 @@ country_event = {
 				popularity = -0.005
 			}
 			add_popularity = {
-				ideology = libertarian
+				ideology = syndicalism
 				popularity = -0.005
 			}
 			country_event = { id = uobconst.6 days = 20 }

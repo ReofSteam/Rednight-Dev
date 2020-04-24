@@ -328,7 +328,7 @@ ideas = {
 			modifier = {
 				social_liberal_drift = 0.02
 				market_liberal_drift = 0.02
-				social_conservative_drift = 0.02
+				social_social_conservative_drift = 0.02
 				authoritarian_democrat_drift = 0.03
 				paternal_autocrat_drift = 0.02
 			}
@@ -520,7 +520,7 @@ ideas = {
 				social_democrat_drift = 0.02
 				social_liberal_drift = 0.02
 				market_liberal_drift = 0.02
-				social_conservative_drift = 0.02
+				social_social_conservative_drift = 0.02
 				authoritarian_democrat_drift = 0.02
 			}
 		}

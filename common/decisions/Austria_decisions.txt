@@ -135,7 +135,7 @@ AUS_elections_decisions = {
 		}
 
 		modifier = {
-			social_conservative_drift = 0.05
+			social_social_conservative_drift = 0.05
 			political_power_cost = 0.1
 		}
 

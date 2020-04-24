@@ -91,21 +91,21 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 50
 	autocratic = 50
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 set_country_flag = coalition_autocratic
-set_country_flag = coalition_conservative
+set_country_flag = coalition_social_conservative
 set_country_flag = coalition_social_liberal
 
 add_opinion_modifier = { target = GBR modifier = embargo }
@@ -134,17 +134,17 @@ PEX = {
 	}
 
     set_popularities = {
-        social_nationalist = 33
-        marxist = 0
-        libertarian = 11
+        nationalist_socialism = 33
+        revolutionary_socialism = 0
+        syndicalism = 11
         moderate_socialist = 7
         social_democrat = 3
         social_liberal = 8
-        conservative = 7
+        social_conservative = 7
         authoritarian_democrat = 4
         autocratic = 16
-        fundamentalist = 14
-        voynist = 0
+        ultraconservative = 14
+        national_corporatist = 0
     }
 }
 
@@ -157,17 +157,17 @@ KTG = {
 	}
 
     set_popularities = {
-        social_nationalist = 0
-        marxist = 0
-        libertarian = 0
+        nationalist_socialism = 0
+        revolutionary_socialism = 0
+        syndicalism = 0
         moderate_socialist = 0
         social_democrat = 0
         social_liberal = 0
-        conservative = 0
+        social_conservative = 0
         authoritarian_democrat = 0
         autocratic = 100
-        fundamentalist = 0
-        voynist = 0
+        ultraconservative = 0
+        national_corporatist = 0
     }
 }
 
@@ -176,7 +176,7 @@ create_country_leader = {
 	name = "Moses M. Kotane"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Moses_Kotane_I.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 
 	}
@@ -186,7 +186,7 @@ create_country_leader = {
 	name = "William Henry Andrews"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/William_H._Andrews_I.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 
 	}
@@ -196,7 +196,7 @@ create_country_leader = {
 	name = "Yusuf Mohamed Dadoo"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Yusuf_Dadoo_I.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 
 	}
@@ -237,7 +237,7 @@ create_country_leader = {
 	desc = "POLITICS_JAN_SMUTS_DESC"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Portrait_SAF_Jan_Smuts.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 
 	}
@@ -269,7 +269,7 @@ create_country_leader = {
 	desc = "POLITICS_DANIEL_MALAN_DESC"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Daniel_Francois_Malan_I.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 
 	}

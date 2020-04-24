@@ -47,24 +47,24 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_nationalist = 60
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 60
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 15
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 25
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 
@@ -73,6 +73,6 @@ create_country_leader = {
 	desc = "POLITICS_FURSTNER_DESC"
 	picture = "gfx/leaders/INSULINDIA/TMR/TMR_Araujo.tga"
 	expire = "1965.10.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = { }
 }

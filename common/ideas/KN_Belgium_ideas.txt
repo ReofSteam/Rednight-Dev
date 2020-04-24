@@ -52,7 +52,7 @@ ideas = {
 			}
 			traits = {
 				head_of_government
-				marxist_trait
+				revolutionary_socialism_trait
 			}
 		}
 	}
@@ -83,7 +83,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				economy_minister
 			}
 		}
@@ -131,7 +131,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				culture_minister
 			}
 		}
@@ -147,7 +147,7 @@ ideas = {
 				}
 			}
 			traits = {
-				marxist_trait
+				revolutionary_socialism_trait
 				transport_minister
 			}
 		}

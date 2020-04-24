@@ -63,11 +63,11 @@ set_technology = {
 set_country_flag = one_party_nation
 set_country_flag = coalition_autocratic
 set_country_flag = coalition_authoritarian_democrat 
-set_country_flag = coalition_voynist 
-set_country_flag = coalition_fundamentalist
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_marxist
-set_country_flag = banned_libertarian
+set_country_flag = coalition_national_corporatist 
+set_country_flag = coalition_ultrasocial_conservative
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
 set_country_flag = banned_social_democrat
 set_country_flag = banned_social_liberal
@@ -76,23 +76,23 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = fundamentalist 
+	ruling_party = ultraconservative 
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 3
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 3
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 1
 	social_democrat = 1
 	social_liberal = 2
-	conservative = 3
+	social_conservative = 3
 	authoritarian_democrat = 3
 	autocratic = 7
-	fundamentalist = 55
-	voynist = 25
+	ultraconservative = 55
+	national_corporatist = 25
 }
 
 
@@ -111,7 +111,7 @@ create_country_leader = {
 	desc = "Micheal_1_DESC"
 	picture = "gfx/leaders/ROM/ROM_Ion_Mota.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 
@@ -138,7 +138,7 @@ create_country_leader = {
 	desc = "Petru_Groza_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Sever_Bocu.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = { }
 }
 
@@ -156,7 +156,7 @@ create_country_leader = {
 	desc = "Micheal_1_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/ROM/ROM_Michael_I.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = { }
 }
 
@@ -174,7 +174,7 @@ create_country_leader = {
 	desc = "Ion_Antonescu_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Gheorghe_Gheorghiu_Dej.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 
@@ -183,7 +183,7 @@ create_country_leader = {
 	desc = "Chivu_Stocia_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Lucretiu_Patrascanu.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 
@@ -192,7 +192,7 @@ create_country_leader = {
     desc = "Constantin_Agiu_DESC"
     picture = "gfx/leaders/EASTERN_EUROPE/ROM/Portrait_Romania_Lucretiu_Patrascanu.tga"
     expire = "1965.1.1"
-    ideology = social_nationalist_subtype
+    ideology = nationalist_socialism_subtype
     traits = { }
 }
 create_country_leader = {

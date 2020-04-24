@@ -25,17 +25,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 4
-    marxist = 3
-    libertarian = 5
+    nationalist_socialism = 4
+    revolutionary_socialism = 3
+    syndicalism = 5
     moderate_socialist = 9
     social_democrat = 12
     social_liberal = 8
-    conservative = 13
+    social_conservative = 13
     authoritarian_democrat = 8
     autocratic = 22
-    fundamentalist = 1
-    voynist = 15
+    ultraconservative = 1
+    national_corporatist = 15
 }
 
 create_country_leader = {

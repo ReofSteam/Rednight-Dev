@@ -27,17 +27,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 1
-	marxist = 0
-	libertarian = 3
+	nationalist_socialism = 1
+	revolutionary_socialism = 0
+	syndicalism = 3
 	moderate_socialist = 4
 	social_democrat = 24
 	social_liberal = 10
-	conservative = 36
+	social_conservative = 36
 	authoritarian_democrat = 30
 	autocratic = 5
-	fundamentalist = 2
-	voynist = 4
+	ultraconservative = 2
+	national_corporatist = 4
 }
 
 set_convoys = 40

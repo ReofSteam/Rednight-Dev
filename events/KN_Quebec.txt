@@ -47,7 +47,7 @@ country_event = {
 	    desc = "POLITICS_PAUL_SAUVE_DESC"
 	    picture = "GFX/leaders/North America/Quebec"
 	    expire = "1965.1.1"
-	    ideology = conservative
+	    ideology = social_conservative
 	    traits = {
 		
 	}

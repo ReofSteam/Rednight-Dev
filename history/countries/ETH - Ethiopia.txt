@@ -24,17 +24,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 5
-	marxist = 5
-	libertarian = 5
+	nationalist_socialism = 5
+	revolutionary_socialism = 5
+	syndicalism = 5
 	moderate_socialist = 5
 	social_democrat = 10
 	social_liberal = 5
-	conservative = 10
+	social_conservative = 10
 	authoritarian_democrat = 30
 	autocratic = 15
-	fundamentalist = 5
-	voynist = 5
+	ultraconservative = 5
+	national_corporatist = 5
 }
 
 create_country_leader = {
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_MANGISTU_NEWAY_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Mangistu_Neway.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 	desc = "POLITICS_ATNAFU_ABE_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Atnafu_Abe.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_TAFARI_BENTI_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Tafari_Benti.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -130,7 +130,7 @@ create_country_leader = {
 	desc = "POLITICS_WORKU_FEREDE_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Worku_Ferede.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -141,7 +141,7 @@ create_country_leader = {
 	desc = "POLITICS_WORKU_FEREDE_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Worku_Ferede.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -152,7 +152,7 @@ create_country_leader = {
 	desc = "POLITICS_BERHANE_MESKEL_REDA_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/ETH/Portrait_ETH_Berhane_Meskel_Reda.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		#
 	}

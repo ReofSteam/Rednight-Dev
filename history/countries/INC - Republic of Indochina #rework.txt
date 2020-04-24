@@ -1,16 +1,16 @@
 ﻿capital = 286 #Saigon
 
 oob = "INC"
-set_country_flag = coalition_social_nationalist
+set_country_flag = coalition_nationalist_socialism
 set_country_flag = coalition_moderate_socialist
 set_country_flag = coalition_social_democrat
 set_country_flag = coalition_social_liberal
 set_country_flag = coalition_authoritarian_democrat
-set_country_flag = coalition_conservative
-set_country_flag = coalition_marxist
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_revolutionary_socialism
 
-set_country_flag = banned_voynist
-set_country_flag = banned_fundamentalist
+set_country_flag = banned_national_corporatist
+set_country_flag = banned_ultrasocial_conservative
 set_country_flag = banned_autocratic
 
 set_research_slots = 3
@@ -84,17 +84,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 15
-    marxist = 25
-    libertarian = 2
+    nationalist_socialism = 15
+    revolutionary_socialism = 25
+    syndicalism = 2
     moderate_socialist = 15
     social_democrat = 9
     social_liberal = 3
-    conservative = 19
+    social_conservative = 19
     authoritarian_democrat = 5
     autocratic = 3
-    fundamentalist = 2
-    voynist = 2
+    ultraconservative = 2
+    national_corporatist = 2
 }
 
 ##gfx/leaders/RMK/INC/
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_TRAN_VAN_HUONG_1_DESC"
 	picture = "gfx/leaders/INC/Tran_Van_Huong_INC.tga"
 	expire = "1963.3.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		
 	}

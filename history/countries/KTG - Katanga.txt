@@ -18,17 +18,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 0
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 0
-    conservative = 0
+    social_conservative = 0
     authoritarian_democrat = 0
     autocratic = 100
-    fundamentalist = 0
-    voynist = 0
+    ultraconservative = 0
+    national_corporatist = 0
 }
 
 add_ideas = {
@@ -64,7 +64,7 @@ create_country_leader = {
 	desc = "POLITICS_KATANGA_KING_I_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/KTG/Portrait_KTG_Mabumba_Kitanika.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 

@@ -28,7 +28,7 @@ add_to_faction = SUL
 add_to_faction = KAL
 add_to_faction = ACH
 
-set_country_flag = banned_marxist
+set_country_flag = banned_revolutionary_socialism
 
 load_focus_tree = KN_INS_natsir
 
@@ -57,7 +57,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = social_conservative
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -72,17 +72,17 @@ set_country_flag = INS_people_approval_med
 set_country_flag = INS_external_influence_low
 
 set_popularities = {
-	social_nationalist = 4
-	marxist = 4
-	libertarian = 23
+	nationalist_socialism = 4
+	revolutionary_socialism = 4
+	syndicalism = 23
 	moderate_socialist = 0
 	social_democrat = 10
 	social_liberal = 2
-	conservative = 32
+	social_conservative = 32
 	authoritarian_democrat = 25
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 create_country_leader = {
@@ -90,7 +90,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -108,7 +108,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -144,7 +144,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -171,7 +171,7 @@ create_country_leader = {
 	desc = "POLITICS_KARTOSOEWIRJO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Kartosoewiryo.tga"
 	expire = "1965.10.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 
@@ -180,7 +180,7 @@ create_country_leader = {
 	desc = "POLITICS_SIMBOLON_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simbolon.tga"
 	expire = "1965.10.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 

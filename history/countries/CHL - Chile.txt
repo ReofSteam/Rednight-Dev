@@ -20,24 +20,24 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1888.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-    social_nationalist = 100
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 100
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 0
-    conservative = 0
+    social_conservative = 0
     authoritarian_democrat = 0
     autocratic = 0
-    fundamentalist = 0
-    voynist = 0
+    ultraconservative = 0
+    national_corporatist = 0
 }
 
 set_stability = 0.5
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -73,7 +73,7 @@ create_country_leader = {
 	desc = "POLITICS_HECTOR_RODRIGUEZ_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds" #WIP
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_IBANEZ_DEL_CAMPO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds" #WIP
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -117,7 +117,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_CENTRAL_CONGRESS_OF_THE_CGT_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -172,7 +172,7 @@ create_country_leader = {
 	desc = "POLITICS_FLORA_SANHUEZA_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Federal_council.dds" #WIP
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
 		#
 	}
@@ -183,7 +183,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_HIDALGO_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
@@ -195,7 +195,7 @@ create_country_leader = {
 	desc = "POLITICS_SALVADOR_ALLENDE_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/CHL/CHL_Salvador_Allende.dds" #WIP
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}

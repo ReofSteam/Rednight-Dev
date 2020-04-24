@@ -19,24 +19,24 @@ set_technology = {
 	transport = 1
 }
 set_politics = {
-	ruling_party = fundamentalist
+	ruling_party = ultraconservative
 	last_election = "1932.11.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    social_nationalist = 3
-    marxist = 3
-    libertarian = 12
+    nationalist_socialism = 3
+    revolutionary_socialism = 3
+    syndicalism = 12
     moderate_socialist = 5
     social_democrat = 8
     social_liberal = 13
-    conservative = 13
+    social_conservative = 13
     authoritarian_democrat = 7
     autocratic = 3
-    fundamentalist = 23
-    voynist = 0
+    ultraconservative = 23
+    national_corporatist = 0
 }
 
 create_country_leader = {
@@ -44,7 +44,7 @@ create_country_leader = {
 	desc = "POLITICS_PEDRO_III_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/BRA/BRA_Pedro_III.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}

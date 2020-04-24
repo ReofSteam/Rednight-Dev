@@ -30,17 +30,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 10
-	marxist = 10
-	libertarian = 5
+	nationalist_socialism = 10
+	revolutionary_socialism = 10
+	syndicalism = 5
 	moderate_socialist = 10
 	social_democrat = 15
 	social_liberal = 10
-	conservative = 10
+	social_conservative = 10
 	authoritarian_democrat = 5
 	autocratic = 10
-	fundamentalist = 5
-	voynist = 10
+	ultraconservative = 5
+	national_corporatist = 10
 }
 
 create_country_leader = {
@@ -58,7 +58,7 @@ create_country_leader = {
 	desc = "POLITICS_EZEQUIEL_RAMOS_MEXIA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/ARG/Portrait_Argentina_Ramos_Mexia.dds"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_ELPIDIO_GONZALEZ_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/ARG/Portrait_Argentina_Alberto_Pueyrredon.dds"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

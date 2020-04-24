@@ -1,5 +1,5 @@
 focus_tree = {
-	id = KN_Voynist_Germany
+	id = KN_national_corporatist_Germany
 	country = {
 		factor = 0
 		modifier = {

@@ -185,7 +185,7 @@ RUS_setup_tsar_kirill = {
 			desc = "POLITICS_KYRIL_ROMANOV_CON_DESC"
 			picture = "gfx/leaders/RUS/Portrait_RUS_Kyril_Romanov.tga"
 			expire = "1965.1.1"
-			ideology = social_conservative_subtype
+			ideology = social_social_conservative_subtype
 		}
 		create_country_leader = {
 			name = "Kirill I"
@@ -234,7 +234,7 @@ RUS_setup_tsar_vladimir = {
 		desc = "POLITICS_VLADIMIR_ROMANOV_CON_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Vladimir_Romanov.tga"
 		expire = "1965.1.1"
-		ideology = social_conservative_subtype
+		ideology = social_social_conservative_subtype
 	}
 	create_country_leader = {
 		name = "Vladimir III"
@@ -279,7 +279,7 @@ RUS_setup_tsar_dmitriy = {
 		desc = "POLITICS_DMITRI_ROMANOV_TSAR_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Dmitri_Romanov_Tsar.tga"
 		expire = "1965.1.1"
-		ideology = social_conservative_subtype
+		ideology = social_social_conservative_subtype
 	}
 	create_country_leader = {
 		name = "Dmitriy III"
@@ -324,7 +324,7 @@ RUS_setup_tsar_pavel = {
 		desc = "POLITICS_PAVEL_II_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pavel_Romanov.tga"
 		expire = "1965.1.1"
-		ideology = social_conservative_subtype
+		ideology = social_social_conservative_subtype
 	}
 	create_country_leader = {
 		name = "Pavel II"
@@ -369,7 +369,7 @@ RUS_setup_tsar_wrangel = {
 		desc = "POLITICS_PYOTR_WRANGEL_TSAR_DESC"
 		picture = "gfx/leaders/RUS/Portrait_RUS_Pyotr_Wrangel_Tsar.tga"
 		expire = "1965.1.1"
-		ideology = social_conservative_subtype
+		ideology = social_social_conservative_subtype
 	}
 	create_country_leader = {
 		name = "Pyetr IV"

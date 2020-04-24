@@ -102,7 +102,7 @@ get_current_government_type = {
 	clr_country_flag = was_social_democrat
 	clr_country_flag = was_social_liberal
 	clr_country_flag = was_market_liberal
-	clr_country_flag = was_social_conservative
+	clr_country_flag = was_social_social_conservative
 	clr_country_flag = was_authoritarian_democrat
 	clr_country_flag = was_paternal_autocrat
 	clr_country_flag = was_national_populist
@@ -144,7 +144,7 @@ get_current_government_type = {
 	}
 	if = {
 		limit = { has_government = social_conservative }
-		set_country_flag = was_social_conservative
+		set_country_flag = was_social_social_conservative
 	}
 	if = {
 		limit = { has_government = authoritarian_democrat }
@@ -187,7 +187,7 @@ restore_previous_government_type = {
 			set_politics = { ruling_party = market_liberal }
 		}
 		if = {
-			limit = { has_country_flag = was_social_conservative }
+			limit = { has_country_flag = was_social_social_conservative }
 			set_politics = { ruling_party = social_conservative }
 		}
 		if = {

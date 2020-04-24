@@ -23,7 +23,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1932.6.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,24 +31,24 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 23
-    marxist = 31
-    libertarian = 11
+    nationalist_socialism = 23
+    revolutionary_socialism = 31
+    syndicalism = 11
     moderate_socialist = 14
     social_democrat = 5
     social_liberal = 3
-    conservative = 1
+    social_conservative = 1
     authoritarian_democrat = 5
     autocratic = 2
-    fundamentalist = 1
-    voynist = 4
+    ultraconservative = 1
+    national_corporatist = 4
 }
 
 create_country_leader = {
 	name = "Valko Chervenkov"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/VAR_Valko_Chervenkov.tga"
 	expire = "1965.1.1"
-	ideology = social_nationalist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {}
 }
 
@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Traicho Kostov"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/VAR_Traicho_Kostov.dds"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -83,7 +83,7 @@ create_country_leader = {
 	desc = "POLITICS_SHEFQET_VËRLACI_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_Albania_Shefqet_Verlaci.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_MID'HAT_FRASHERI_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_ALB_Midhat_Frasheri.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 

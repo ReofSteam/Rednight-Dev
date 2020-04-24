@@ -19,12 +19,12 @@ set_technology = {
 }
 ### PARTIES UI ###
 	### BANNED ###
-	set_country_flag = banned_social_nationalist
-	set_country_flag = banned_marxist
-	set_country_flag = banned_libertarian
+	set_country_flag = banned_nationalist_socialism
+	set_country_flag = banned_revolutionary_socialism
+	set_country_flag = banned_syndicalism
 	set_country_flag = banned_moderate_socialist
-	set_country_flag = banned_fundamentalist
-	set_country_flag = banned_voynist
+	set_country_flag = banned_ultrasocial_conservative
+	set_country_flag = banned_national_corporatist
 
 set_politics = {	
 	ruling_party = authoritarian_democrat
@@ -34,17 +34,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 1
-    marxist = 2
-    libertarian = 1
+    nationalist_socialism = 1
+    revolutionary_socialism = 2
+    syndicalism = 1
     moderate_socialist = 8
     social_democrat = 18
     social_liberal = 9
-    conservative = 23
+    social_conservative = 23
     authoritarian_democrat = 23
     autocratic = 7
-    fundamentalist = 3
-    voynist = 5
+    ultraconservative = 3
+    national_corporatist = 5
 }
 
 #Leaders
@@ -81,7 +81,7 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }
@@ -100,7 +100,7 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Hristo_Lukov.dds"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 	}
 }
@@ -110,7 +110,7 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Mladen_Kiurtchiulev.dds"
 	desc = "POLITICS_MLADEN_KIURTCHIULEV_DESC"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 	}
 }

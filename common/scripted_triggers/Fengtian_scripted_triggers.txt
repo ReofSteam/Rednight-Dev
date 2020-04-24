@@ -40,22 +40,22 @@ pataut_pop_very_high = { #Paternal Autocrat/Zhang Clique - Pop Very High
 	paternal_autocrat < 1.00
 }
 
-soccon_pop_low = { #Social Conservative/Communications Clique - Pop Low
+soccon_pop_low = { #Social social_conservative/Communications Clique - Pop Low
 	social_conservative > 0.00
 	social_conservative < 0.10
 }
 
-soccon_pop_medium = { #Social Conservative/Communications Clique - Pop Medium
+soccon_pop_medium = { #Social social_conservative/Communications Clique - Pop Medium
 	social_conservative > 0.10
 	social_conservative < 0.28
 }
 
-soccon_pop_high = { #Social Conservative/Communications Clique - Pop High
+soccon_pop_high = { #Social social_conservative/Communications Clique - Pop High
 	social_conservative > 0.28
 	social_conservative < 0.45
 }
 
-soccon_pop_very_high = { #Social Conservative/Communications Clique - Pop Very High
+soccon_pop_very_high = { #Social social_conservative/Communications Clique - Pop Very High
 	social_conservative > 0.45
 	social_conservative < 1.00
 }

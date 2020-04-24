@@ -29,7 +29,7 @@ add_ideas = {
 	#MLY_Tuanku_Muhammed_of_Negeri_Sembilan_sec_sco
 }
 set_politics = {	
-	ruling_party = social_nationalist
+	ruling_party = nationalist_socialism
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,24 +37,24 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 0
-    marxist = 0
-    libertarian = 0
+    nationalist_socialism = 0
+    revolutionary_socialism = 0
+    syndicalism = 0
     moderate_socialist = 0
     social_democrat = 0
     social_liberal = 0
-    conservative = 0
+    social_conservative = 0
     authoritarian_democrat = 100
     autocratic = 0
-    fundamentalist = 0
-    voynist = 0
+    ultraconservative = 0
+    national_corporatist = 0
 }
 create_country_leader = { # Abdul Rahman of Negeri Sembilan
 	name = "Abdul Rahman of Negeri Sembilan"
 	desc = "POLITICS_ABDUL_RAHMAN_NEGERI_SEMBILAN_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Abdul_Rahman_Negeri_Sembilan.tga"
 	expire = "1960.4.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 create_country_leader = { # Abdul Rahman of Negeri Sembilan
@@ -78,7 +78,7 @@ create_country_leader = { # Iskander 1 of Perak
 	desc = "POLITICS_ISKANDER_I_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Iskander_I_Perak.tga"
 	expire = "1938.8.14"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 create_country_leader = { # Iskander 1 of Perak
@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = "POLITICS_TUNKU_ABDUL_RAHMAN_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Tunku_Abdul_Rahman.tga"
 	expire = "1990.12.6"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = { }
 }
 create_country_leader = {
@@ -110,7 +110,7 @@ create_country_leader = {
 	desc = "POLITICS_TUNKU_ABDUL_RAHMAN_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Tunku_Abdul_Rahman.tga"
 	expire = "1990.12.6"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = { }
 }
 create_country_leader = {
@@ -134,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_YUSOF_BIN_ISHAK_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Yusof_bin_Ishak.tga"
 	expire = "1970.11.23"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = { }
 }
 create_country_leader = {
@@ -142,7 +142,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIN_PENG_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Chin_Peng.tga"
 	expire = "2013.11.16"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = { }
 }
 create_country_leader = {
@@ -150,7 +150,7 @@ create_country_leader = {
 	desc = "POLITICS_CHIN_PENG_DESC"
 	picture = "gfx/leaders/INSULINDIA/MLY/Portrait_Malaya_Chin_Peng.tga"
 	expire = "2013.11.16"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 ### Field Marshal

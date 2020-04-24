@@ -53,16 +53,16 @@ set_technology = {
 }
 
 ### PARTIES UI ###
-	set_country_flag = coalition_marxist
-	set_country_flag = coalition_libertarian
+	set_country_flag = coalition_revolutionary_socialism
+	set_country_flag = coalition_syndicalism
 
 	### BANNED ###
-	set_country_flag = banned_social_nationalist
-	set_country_flag = banned_conservative
+	set_country_flag = banned_nationalist_socialism
+	set_country_flag = banned_social_conservative
 	set_country_flag = banned_authoritarian_democrat
 	set_country_flag = banned_autocratic
-	set_country_flag = banned_fundamentalist
-	set_country_flag = banned_voynist
+	set_country_flag = banned_ultrasocial_conservative
+	set_country_flag = banned_national_corporatist
 
 set_convoys = 300
 
@@ -72,24 +72,24 @@ set_country_flag = kn_economy_planned
 
 
 set_politics = {
-	ruling_party = marxist
+	ruling_party = revolutionary_socialism
 	last_election = "1946.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-    social_nationalist = 1
-    marxist = 39
-    libertarian = 24
+    nationalist_socialism = 1
+    revolutionary_socialism = 39
+    syndicalism = 24
     moderate_socialist = 13
     social_democrat = 3
     social_liberal = 4
-    conservative = 7
+    social_conservative = 7
     authoritarian_democrat = 4
     autocratic = 0.7
-    fundamentalist = 0.3
-    voynist = 4
+    ultraconservative = 0.3
+    national_corporatist = 4
 }
 
 create_faction = INFOR
@@ -115,7 +115,7 @@ create_country_leader = {# Our BOYO OWO
 	desc = "POLITICS_BENOIT_FRACHON_DESC"
 	picture = "gfx/leaders/FRA/FRA_Benoit_Frachon.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {
         grandfather_of_the_party
 	}

@@ -21,7 +21,7 @@ scripted_gui = {
 			market_liberal_icon_visible = {
 				has_government = market_liberal
 			}
-			social_conservative_icon_visible = {
+			social_social_conservative_icon_visible = {
 				has_government = social_conservative
 			}
 			authoritarian_democrat_icon_visible = {

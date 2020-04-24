@@ -21,8 +21,8 @@ set_technology = {
 
 set_convoys = 25
 
-set_country_flag = banned_social_nationalist
-set_country_flag = banned_marxist
+set_country_flag = banned_nationalist_socialism
+set_country_flag = banned_revolutionary_socialism
 
 
 
@@ -36,24 +36,24 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = social_conservative
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 25
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 25
 	moderate_socialist = 0
 	social_democrat = 3
 	social_liberal = 7
-	conservative = 40
+	social_conservative = 40
 	authoritarian_democrat = 10
 	autocratic = 10
-	fundamentalist = 0
-	voynist = 5
+	ultraconservative = 0
+	national_corporatist = 5
 }
 
 create_country_leader = {
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Tan_Malaka.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_SOEKARNO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_PRI_Sjafruddin.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_KARTOSOEWIRJO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Kartosoewiryo.tga"
 	expire = "1965.10.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_SIMBOLON_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simbolon.tga"
 	expire = "1965.10.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 

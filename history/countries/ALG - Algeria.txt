@@ -15,17 +15,17 @@ set_politics = {
 }
 
 set_popularities = {
-    social_nationalist = 4
-    marxist = 19
-    libertarian = 0
+    nationalist_socialism = 4
+    revolutionary_socialism = 19
+    syndicalism = 0
     moderate_socialist = 32
     social_democrat = 13
     social_liberal = 9
-    conservative = 8
+    social_conservative = 8
     authoritarian_democrat = 4
     autocratic = 3
-    fundamentalist = 7
-    voynist = 1
+    ultraconservative = 7
+    national_corporatist = 1
 }
 
 ### Field Marshal

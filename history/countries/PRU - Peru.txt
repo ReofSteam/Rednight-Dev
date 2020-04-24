@@ -29,17 +29,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	social_nationalist = 0
-	marxist = 0
-	libertarian = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	conservative = 0
+	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	fundamentalist = 0
-	voynist = 0
+	ultraconservative = 0
+	national_corporatist = 0
 }
 
 
@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = "POLITICS_VILLARAN_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Manuel_Villaran.tga"
 	expire = "1965.1.1"
-	ideology = conservative_subtype
+	ideology = social_conservative_subtype
 	traits = {}
 }
 
@@ -79,7 +79,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_DE_LA_RIVA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Jose_Aguero.tga"
 	expire = "1965.1.1"
-	ideology = fundamentalist_subtype
+	ideology = ultraconservative_subtype
 	traits = {}
 }
 
@@ -106,7 +106,7 @@ create_country_leader = {
 	desc = "POLITICS_HAYA_TORRE_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Victor_Raul_Haya.tga"
 	expire = "1965.1.1"
-	ideology = marxist_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {}
 }
 
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_CHURATA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Gamaliel_Churata.tga"
 	expire = "1965.1.1"
-	ideology = voynist_subtype
+	ideology = national_corporatist_subtype
 	traits = {}
 }
 
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_GONZALEA_PRADA_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Eudocio_Ravines.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
@@ -133,7 +133,7 @@ create_country_leader = {
 	desc = "POLITICS_UGARTECHE_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Jorge_Ugarteche.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 
