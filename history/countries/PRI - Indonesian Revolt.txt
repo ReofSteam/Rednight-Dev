@@ -52,7 +52,7 @@ set_popularities = {
 	social_conservative = 40
 	authoritarian_democrat = 10
 	autocratic = 10
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 5
 }
 
@@ -115,7 +115,7 @@ create_country_leader = {
 	desc = "POLITICS_KARTOSOEWIRJO_DESC"
 	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Kartosoewiryo.tga"
 	expire = "1965.10.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 

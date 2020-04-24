@@ -41,7 +41,7 @@ set_popularities = {
 	social_conservative = 18
 	authoritarian_democrat = 33
 	autocratic = 10
-	ultrasocial_conservative = 18
+	ultraconservative = 18
 	national_corporatist = 10
 }
 set_convoys = 30
@@ -147,7 +147,7 @@ create_country_leader = {
 	desc = "POLITICS_HAAJI_MAHAMMAD_DESC"
 	picture = "gfx/leaders/HORN_OF_AFRICA/SOM/Portrait_SOM_Haaji.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}

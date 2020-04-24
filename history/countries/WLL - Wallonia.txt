@@ -48,7 +48,7 @@ set_popularities = {
     social_conservative = 15
     authoritarian_democrat = 10
     autocratic = 0
-    ultrasocial_conservative = 0
+    ultraconservative = 0
     national_corporatist = 0
 }
 
@@ -116,7 +116,7 @@ create_country_leader = {
 	name = "Léon Degrelle"
 	picture = "gfx/leaders/WESTERN_EUROPE/BEL/Portrait_Belgium_LEON_DEGRELLE.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 
 	}

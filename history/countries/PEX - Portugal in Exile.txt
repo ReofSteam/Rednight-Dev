@@ -50,7 +50,7 @@ set_popularities = {
     social_conservative = 7
     authoritarian_democrat = 4
     autocratic = 16
-    ultrasocial_conservative = 14
+    ultraconservative = 14
     national_corporatist = 0
 }
 

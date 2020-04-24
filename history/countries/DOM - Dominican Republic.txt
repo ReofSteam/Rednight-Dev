@@ -27,7 +27,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 ###gfx/leaders/NORTH_AMERICA/DOM/
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
 	picture = "GFX_portrait_dominca_rafael_trujillo"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}

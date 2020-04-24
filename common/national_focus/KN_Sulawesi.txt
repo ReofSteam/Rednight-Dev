@@ -1377,7 +1377,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_popularity = {
-				ideology = ultrasocial_conservative
+				ideology = ultraconservative
 				popularity = 0.1
 			}
 			hidden_effect = {

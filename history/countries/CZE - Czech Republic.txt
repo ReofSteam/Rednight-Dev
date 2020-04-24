@@ -41,7 +41,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_TOMAS_MASARYK_DESC"
 	picture = "gfx/leaders/WESTERN_EUROPE/CZE/Portrait_Czechia_Tomas_Masaryk.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}

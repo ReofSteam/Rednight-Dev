@@ -1707,14 +1707,14 @@ focus_tree = {
 				factor = 2
 				any_neighbor_country = {
 					is_major = yes
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			modifier = {
 				factor = 0
 				AND = {
 					is_historical_focus_on = yes
-					NOT = { has_government = ultrasocial_conservative }
+					NOT = { has_government = ultraconservative }
 				}
 			}
 		}
@@ -1801,7 +1801,7 @@ focus_tree = {
 						has_government = authoritarian_democrat
 						has_government = national_corporatist
 						has_government = autocratic
-						has_government = ultrasocial_conservative
+						has_government = ultraconservative
 					}
 				}
 				NOT = {
@@ -1943,10 +1943,10 @@ focus_tree = {
 			#add_ideas = military_youth_focus
 			if = {
 				limit = {
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 				add_popularity = {
-					ideology = ultrasocial_conservative
+					ideology = ultraconservative
 					popularity = 0.2
 				}
 			}
@@ -2117,10 +2117,10 @@ focus_tree = {
 			#add_ideas = political_commissars_focus
 			if = {
 				limit = {
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 				add_popularity = {
-					ideology = ultrasocial_conservative
+					ideology = ultraconservative
 					popularity = 0.2
 				}
 			}

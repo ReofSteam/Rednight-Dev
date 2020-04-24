@@ -25,7 +25,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 create_country_leader = {# Abd al-Rahman al-Mahdi
@@ -56,7 +56,7 @@ create_country_leader = {# Abd al-Rahman al-Mahdi
 	name = "Abd al-Rahman al-Mahdi"
 	picture = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Abd_Mahdi.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 	}
 }

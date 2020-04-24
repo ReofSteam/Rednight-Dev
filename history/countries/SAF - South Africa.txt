@@ -100,7 +100,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 50
 	autocratic = 50
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 
@@ -143,7 +143,7 @@ PEX = {
         social_conservative = 7
         authoritarian_democrat = 4
         autocratic = 16
-        ultrasocial_conservative = 14
+        ultraconservative = 14
         national_corporatist = 0
     }
 }
@@ -166,7 +166,7 @@ KTG = {
         social_conservative = 0
         authoritarian_democrat = 0
         autocratic = 100
-        ultrasocial_conservative = 0
+        ultraconservative = 0
         national_corporatist = 0
     }
 }
@@ -269,7 +269,7 @@ create_country_leader = {
 	desc = "POLITICS_DANIEL_MALAN_DESC"
 	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Daniel_Francois_Malan_I.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 
 	}

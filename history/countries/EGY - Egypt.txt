@@ -35,7 +35,7 @@ set_popularities = {
 	social_conservative = 62
 	authoritarian_democrat = 7
 	autocratic = 5
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 
@@ -160,7 +160,7 @@ create_country_leader = {
 	name = "Hassan al-Banna"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}
@@ -170,7 +170,7 @@ create_country_leader = {
 	name = "Said Ramadan"
 	desc = ""
 	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		#
 	}

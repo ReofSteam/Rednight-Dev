@@ -643,7 +643,7 @@ country_event = { ##Muzakkar coup
 		kill_country_leader = yes
 		hidden_effect = {
 			set_politics = {
-				ruling_party = ultrasocial_conservative
+				ruling_party = ultraconservative
 			}
 			complete_national_focus = SUL_kill_muzakkar
 			if = {
@@ -651,7 +651,7 @@ country_event = { ##Muzakkar coup
 					has_completed_focus = SUL_ally_muzakkar
 				}
 				add_popularity = {
-					ideology = ultrasocial_conservative
+					ideology = ultraconservative
 					popularity = 0.15
 				}
 			}			
@@ -660,7 +660,7 @@ country_event = { ##Muzakkar coup
 					has_completed_focus = SUL_conscript_prisoners
 				}
 				add_popularity = {
-					ideology = ultrasocial_conservative
+					ideology = ultraconservative
 					popularity = 0.1
 				}
 			}

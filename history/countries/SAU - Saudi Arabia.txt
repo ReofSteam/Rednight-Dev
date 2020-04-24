@@ -9,7 +9,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 set_politics = {
-	ruling_party = ultrasocial_conservative
+	ruling_party = ultraconservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -24,7 +24,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 0
 	autocratic = 0
-	ultrasocial_conservative = 100
+	ultraconservative = 100
 	national_corporatist = 0
 }
 

@@ -38,7 +38,7 @@ set_popularities = {
 	social_conservative = 0
 	authoritarian_democrat = 100
 	autocratic = 0
-	ultrasocial_conservative = 0
+	ultraconservative = 0
 	national_corporatist = 0
 }
 
@@ -47,7 +47,7 @@ create_country_leader = {
 	desc = "POLITICS_HUGENIO_MARTINEZ_DESC"
 	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Hugenio_Morinigi.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {}
 }
 

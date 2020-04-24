@@ -246,9 +246,9 @@ ideologies = {
 		}
 	}
 	
-	ultrasocial_conservative = {
+	ultraconservative = {
 		types = {
-			ultrasocial_conservative_subtype = {}
+			ultraconservative_subtype = {}
 		}
 		color = { 31 82 118 }  #282828
 		rules = {

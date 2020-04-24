@@ -410,7 +410,7 @@
                             popularity = 0.01 
                         }
                         add_popularity = {
-                            ideology = ultrasocial_conservative 
+                            ideology = ultraconservative 
                             popularity = 0.05
                         }
                         add_political_power	= 25
@@ -534,7 +534,7 @@
                     popularity = 0.03
                     }
             add_popularity = {
-                    ideology = ultrasocial_conservative
+                    ideology = ultraconservative
                     popularity = 0.02 
                     }
             hidden_effect = {

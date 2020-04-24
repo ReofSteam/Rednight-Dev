@@ -43,7 +43,7 @@ set_popularities = {
     social_conservative = 23
     authoritarian_democrat = 23
     autocratic = 7
-    ultrasocial_conservative = 3
+    ultraconservative = 3
     national_corporatist = 5
 }
 
@@ -100,7 +100,7 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Hristo_Lukov.dds"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 	}
 }

@@ -18,7 +18,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = ultrasocial_conservative
+	ruling_party = ultraconservative
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,7 +33,7 @@ set_popularities = {
 	social_conservative = 10
 	authoritarian_democrat = 10
 	autocratic = 0
-	ultrasocial_conservative = 80
+	ultraconservative = 80
 	national_corporatist = 0
 }
 

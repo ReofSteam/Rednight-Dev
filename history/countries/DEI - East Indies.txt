@@ -67,7 +67,7 @@ set_popularities = {
 	social_conservative = 1
 	authoritarian_democrat = 26
 	autocratic = 54
-	ultrasocial_conservative = 9
+	ultraconservative = 9
 	national_corporatist = 6
 }
 
@@ -99,7 +99,7 @@ create_country_leader = {
 	desc = "POLITICS_WESTERLING_DESC"
 	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Westerling.tga"
 	expire = "1965.10.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = { }
 }
 

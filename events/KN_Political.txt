@@ -406,7 +406,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
 					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
@@ -419,7 +419,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
 					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
@@ -432,7 +432,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.599 ultrasocial_conservative < 0.75 }
+					AND = { has_government = ultraconservative ultraconservative > 0.599 ultraconservative < 0.75 }
 					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
@@ -445,7 +445,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
 					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
@@ -474,7 +474,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
 					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
@@ -487,7 +487,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
 					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
@@ -500,7 +500,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
 					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.599 ultrasocial_conservative < 0.75 }
+					AND = { has_government = ultraconservative ultraconservative > 0.599 ultraconservative < 0.75 }
 					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
 				}
 			}
@@ -513,7 +513,7 @@ country_event = {
 					AND = { has_government = social_conservative social_conservative > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
 					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}
@@ -675,9 +675,9 @@ country_event = {
 				autocratic < 0.97
 			}
 			AND = {
-				has_government = ultrasocial_conservative
-				has_idea_with_trait = ultrasocial_conservative
-				ultrasocial_conservative < 0.97
+				has_government = ultraconservative
+				has_idea_with_trait = ultraconservative
+				ultraconservative < 0.97
 			}
 			AND = {
 				has_government = national_corporatist
@@ -717,15 +717,15 @@ country_event = {
 		
 		modifier = {
 			factor = 2
-			has_government = ultrasocial_conservative
-			ultrasocial_conservative > 0.599
-			ultrasocial_conservative < 0.8
+			has_government = ultraconservative
+			ultraconservative > 0.599
+			ultraconservative < 0.8
 		}
 		modifier = {
 			factor = 4
-			has_government = ultrasocial_conservative
-			ultrasocial_conservative > 0.799
-			ultrasocial_conservative < 1
+			has_government = ultraconservative
+			ultraconservative > 0.799
+			ultraconservative < 1
 		}
 		
 		modifier = {
@@ -751,7 +751,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
@@ -760,7 +760,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = autocratic autocratic > 0.849 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.849 }
+					AND = { has_government = ultraconservative ultraconservative > 0.849 }
 					AND = { has_government = national_corporatist national_corporatist > 0.849 }
 				}
 			}
@@ -769,7 +769,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.5 ultrasocial_conservative > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.5 ultraconservative > 0.199 }
 					AND = { has_government = national_corporatist national_corporatist < 0.5 national_corporatist > 0.199 }
 				}
 			}
@@ -778,7 +778,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
 					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
@@ -794,8 +794,8 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 		}
 		if = {
-			limit = { has_government = ultrasocial_conservative }
-			add_popularity = { ideology = ultrasocial_conservative popularity = 0.03 }
+			limit = { has_government = ultraconservative }
+			add_popularity = { ideology = ultraconservative popularity = 0.03 }
 		}
 		if = {
 			limit = { has_government = national_corporatist }
@@ -812,7 +812,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
@@ -821,7 +821,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
 					AND = { has_government = autocratic autocratic > 0.849 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
@@ -830,7 +830,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
@@ -839,7 +839,7 @@ country_event = {
 				OR = {
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.85 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
 				}
 			}
@@ -1047,13 +1047,13 @@ country_event = {
 		NOT = {
 			has_government = autocratic
 			has_government = authoritarian_democrat
-			has_government = ultrasocial_conservative
+			has_government = ultraconservative
 			has_government = national_corporatist
 		}
 		OR = {
 			AND = { has_idea_with_trait = autocratic autocratic < 0.7 }
 			AND = { has_idea_with_trait = authoritarian_democrat authoritarian_democrat < 0.7 }
-			AND = { has_idea_with_trait = ultrasocial_conservative ultrasocial_conservative < 0.7 }
+			AND = { has_idea_with_trait = ultraconservative ultraconservative < 0.7 }
 			AND = { has_idea_with_trait = national_corporatist national_corporatist < 0.7 }
 		}
 	}
@@ -1088,15 +1088,15 @@ country_event = {
 		
 		modifier = {
 			factor = 2
-			has_idea_with_trait = ultrasocial_conservative
-			ultrasocial_conservative > 0.299
-			ultrasocial_conservative < 0.4
+			has_idea_with_trait = ultraconservative
+			ultraconservative > 0.299
+			ultraconservative < 0.4
 		}
 		modifier = {
 			factor = 4
-			has_idea_with_trait = ultrasocial_conservative
-			ultrasocial_conservative > 0.399
-			ultrasocial_conservative < 0.5
+			has_idea_with_trait = ultraconservative
+			ultraconservative > 0.399
+			ultraconservative < 0.5
 		}
 
 		modifier = {
@@ -1173,8 +1173,8 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
 		}
 		if = {
-			limit = { has_idea_with_trait = ultrasocial_conservative }
-			add_popularity = { ideology = ultrasocial_conservative popularity = 0.03 }
+			limit = { has_idea_with_trait = ultraconservative }
+			add_popularity = { ideology = ultraconservative popularity = 0.03 }
 		}
 		if = {
 			limit = { has_idea_with_trait = national_corporatist }
@@ -1343,7 +1343,7 @@ country_event = {
 					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
 					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.35 ultrasocial_conservative > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
 					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
 				}
 			}
@@ -1354,7 +1354,7 @@ country_event = {
 					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
 					AND = { has_government = autocratic autocratic < 0.2 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
 					AND = { has_government = national_corporatist national_corporatist < 0.2 }
 				}
 			}
@@ -1365,7 +1365,7 @@ country_event = {
 					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
 					AND = { has_government = autocratic autocratic < 0.75 autocratic > 0.599 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative < 0.75 ultrasocial_conservative > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.75 ultraconservative > 0.599 }
 					AND = { has_government = national_corporatist national_corporatist < 0.75 national_corporatist > 0.599 }
 				}
 			}
@@ -1376,7 +1376,7 @@ country_event = {
 					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
 					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
 					AND = { has_government = autocratic autocratic > 0.749 }
-					AND = { has_government = ultrasocial_conservative ultrasocial_conservative > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
 					AND = { has_government = national_corporatist national_corporatist > 0.749 }
 				}
 			}

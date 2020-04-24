@@ -41,7 +41,7 @@ set_popularities = {
     social_conservative = 8
     authoritarian_democrat = 31
     autocratic = 19
-    ultrasocial_conservative = 13
+    ultraconservative = 13
     national_corporatist = 1
 }
 
@@ -95,7 +95,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_URQUIZA_DESC"
 	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Urquiza.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {}
 }
 

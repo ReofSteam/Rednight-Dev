@@ -393,7 +393,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -433,7 +433,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -449,7 +449,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -465,7 +465,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -481,7 +481,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }
@@ -497,7 +497,7 @@ ideas = {
 					has_government = revolutionary_socialism
 					has_government = syndicalism
 					has_government = moderate_socialist
-					has_government = ultrasocial_conservative
+					has_government = ultraconservative
 				}
 			}
 			allowed = { original_tag = GRE }

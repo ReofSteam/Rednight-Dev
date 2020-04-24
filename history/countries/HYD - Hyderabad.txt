@@ -35,7 +35,7 @@ set_popularities = {
     social_conservative = 7.2
     authoritarian_democrat = 6.3
     autocratic = 6.5
-    ultrasocial_conservative = 0
+    ultraconservative = 0
     national_corporatist = 7.1
 }
 
@@ -70,7 +70,7 @@ create_country_leader = {
 	name = "Qasim Razvi"
 	picture = "gfx/leaders/RMK/HYD/Qasim_Razvi.tga"
 	expire = "1965.1.1"
-	ideology = ultrasocial_conservative_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 
 	}
