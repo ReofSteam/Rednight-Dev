@@ -1,0 +1,253 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Country Name ###
+GER_nationalist_socialism:0 "German Republic"
+GER_nationalist_socialism_ADJ:0 "German Republic"
+GER_nationalist_socialism_DEF:0 "German Republic"
+
+GER_revolutionary_socialism:0 "German Republic"
+GER_revolutionary_socialism_ADJ:0 "German Republic"
+GER_revolutionary_socialism_DEF:0 "German Republic"
+
+GER_syndicalism:0 "German Republic"
+GER_syndicalism_ADJ:0 "German Republic"
+GER_syndicalism_DEF:0 "German Republic"
+
+GER_moderate_socialist:0 "German Republic"
+GER_moderate_socialist_ADJ:0 "German Republic"
+GER_moderate_socialist_DEF:0 "German Republic"
+
+GER_social_democrat:0 "German Republic"
+GER_social_democrat_ADJ:0 "German Republic"
+GER_social_democrat_DEF:0 "German Republic"
+
+GER_social_liberal:0 "German Republic"
+GER_social_liberal_ADJ:0 "German Republic"
+GER_social_liberal_DEF:0 "German Republic"
+
+GER_social_conservative:0 "German Republic"
+GER_social_conservative_ADJ:0 "German Republic"
+GER_social_conservative_DEF:0 "German Republic"
+
+GER_authoritarian_democrat:0 "German Republic"
+GER_authoritarian_democrat_ADJ:0 "German Republic"
+GER_authoritarian_democrat_DEF:0 "German Republic"
+
+GER_autocratic:0 "German Republic"
+GER_autocratic_ADJ:0 "German Republic"
+GER_autocratic_DEF:0 "German Republic"
+
+GER_ultraconservative:0 "German Republic"
+GER_ultraconservative_ADJ:0 "German Republic"
+GER_ultraconservative_DEF:0 "German Republic"
+
+GER_national_corporatist:0 "German Republic"
+GER_national_corporatist_ADJ:0 "German Republic"
+GER_national_corporatist_DEF:0 "German Republic"
+
+##FOZ
+FOZ_nationalist_socialism:0 "French Occupation Zone"
+FOZ_nationalist_socialism_ADJ:0 "French Occupation Zone"
+FOZ_nationalist_socialism_DEF:0 "French Occupation Zone"
+
+FOZ_revolutionary_socialism:0 "French Occupation Zone"
+FOZ_revolutionary_socialism_ADJ:0 "French Occupation Zone"
+FOZ_revolutionary_socialism_DEF:0 "French Occupation Zone"
+
+FOZ_syndicalism:0 "French Occupation Zone"
+FOZ_syndicalism_ADJ:0 "French Occupation Zone"
+FOZ_syndicalism_DEF:0 "French Occupation Zone"
+
+FOZ_moderate_socialist:0 "French Occupation Zone"
+FOZ_moderate_socialist_ADJ:0 "French Occupation Zone"
+FOZ_moderate_socialist_DEF:0 "French Occupation Zone"
+
+FOZ_social_democrat:0 "French Occupation Zone"
+FOZ_social_democrat_ADJ:0 "French Occupation Zone"
+FOZ_social_democrat_DEF:0 "French Occupation Zone"
+
+##BOZ
+BOZ_nationalist_socialism:0 "British Occupation Zone"
+BOZ_nationalist_socialism_ADJ:0 "British Occupation Zone"
+BOZ_nationalist_socialism_DEF:0 "British Occupation Zone"
+
+BOZ_revolutionary_socialism:0 "British Occupation Zone"
+BOZ_revolutionary_socialism_ADJ:0 "British Occupation Zone"
+BOZ_revolutionary_socialism_DEF:0 "British Occupation Zone"
+
+BOZ_syndicalism:0 "British Occupation Zone"
+BOZ_syndicalism_ADJ:0 "British Occupation Zone"
+BOZ_syndicalism_DEF:0 "British Occupation Zone"
+
+BOZ_moderate_socialist:0 "British Occupation Zone"
+BOZ_moderate_socialist_ADJ:0 "British Occupation Zone"
+BOZ_moderate_socialist_DEF:0 "British Occupation Zone"
+
+BOZ_social_democrat:0 "British Occupation Zone"
+BOZ_social_democrat_ADJ:0 "British Occupation Zone"
+BOZ_social_democrat_DEF:0 "British Occupation Zone"
+
+##JOZ
+JOZ_nationalist_socialism:0 "Joint Occupation Zone"
+JOZ_nationalist_socialism_ADJ:0 "Joint Occupation Zone"
+JOZ_nationalist_socialism_DEF:0 "Joint Occupation Zone"
+
+JOZ_revolutionary_socialism:0 "Joint Occupation Zone"
+JOZ_revolutionary_socialism_ADJ:0 "Joint Occupation Zone"
+JOZ_revolutionary_socialism_DEF:0 "Joint Occupation Zone"
+
+JOZ_syndicalism:0 "Joint Occupation Zone"
+JOZ_syndicalism_ADJ:0 "Joint Occupation Zone"
+JOZ_syndicalism_DEF:0 "Joint Occupation Zone"
+
+JOZ_moderate_socialist:0 "Joint Occupation Zone"
+JOZ_moderate_socialist_ADJ:0 "Joint Occupation Zone"
+JOZ_moderate_socialist_DEF:0 "Joint Occupation Zone"
+
+JOZ_social_democrat:0 "Joint Occupation Zone"
+JOZ_social_democrat_ADJ:0 "Joint Occupation Zone"
+JOZ_social_democrat_DEF:0 "Joint Occupation Zone"
+
+### Parties ###
+GER_nationalist_socialism_party:0 "BW"
+GER_nationalist_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+GER_revolutionary_socialism_party:0 "BW"
+GER_revolutionary_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+GER_syndicalism_party:0 "BW"
+GER_syndicalism_party_long:0 "Behörde zur Wiederaufbau"
+
+GER_moderate_socialist_party:0 "BW"
+GER_moderate_socialist_party_long:0 "Behörde zur Wiederaufbau"
+
+GER_social_democrat_party:0 "BW"
+GER_social_democrat_party_long:0 "Behörde zur Wiederaufbau"
+
+GER_social_liberal_party:0 "-"
+GER_social_liberal_party_long:0 "-"
+
+GER_social_conservative_party:0 "-"
+GER_social_conservative_party_long:0 "-"
+
+GER_authoritarian_democrat_party:0 "-"
+GER_authoritarian_democrat_party_long:0 "-"
+
+GER_autocratic_party:0 "-"
+GER_autocratic_party_long:0 "-"
+
+GER_ultraconservative_party:0 "-"
+GER_ultraconservative_party_long:0 "-"
+
+GER_national_corporatist_party:0 "-"
+GER_national_corporatist_party_long:0 "-"
+
+##FOZ
+FOZ_nationalist_socialism_party:0 "Reconstruction Authority"
+FOZ_nationalist_socialism_party_long:0 "Autorité pour la reconstruction"
+
+FOZ_revolutionary_socialism_party:0 "Reconstruction Authority"
+FOZ_revolutionary_socialism_party_long:0 "Autorité pour la reconstruction"
+
+FOZ_syndicalism_party:0 "Reconstruction Authority"
+FOZ_syndicalism_party_long:0 "Autorité pour la reconstruction"
+
+FOZ_moderate_socialist_party:0 "Reconstruction Authority"
+FOZ_moderate_socialist_party_long:0 "Autorité pour la reconstruction"
+
+FOZ_social_democrat_party:0 "Reconstruction Authority"
+FOZ_social_democrat_party_long:0 "Autorité pour la reconstruction"
+
+##BOZ
+BOZ_nationalist_socialism_party:0 "Reconstruction Authority"
+BOZ_nationalist_socialism_party_long:0 "Authority for the Reconstruction"
+
+BOZ_revolutionary_socialism_party:0 "Reconstruction Authority"
+BOZ_revolutionary_socialism_party_long:0 "Authority for the Reconstruction"
+
+BOZ_syndicalism_party:0 "Reconstruction Authority"
+BOZ_syndicalism_party_long:0 "Authority for the Reconstruction"
+
+BOZ_moderate_socialist_party:0 "Reconstruction Authority"
+BOZ_moderate_socialist_party_long:0 "Authority for the Reconstruction"
+
+BOZ_social_democrat_party:0 "Reconstruction Authority"
+BOZ_social_democrat_party_long:0 "Authority for the Reconstruction"
+
+##JOZ
+JOZ_nationalist_socialism_party:0 "Reconstruction Authority"
+JOZ_nationalist_socialism_party_long:0 "Authority for the Reconstruction/Autorité pour la reconstruction"
+
+JOZ_revolutionary_socialism_party:0 "Reconstruction Authority"
+JOZ_revolutionary_socialism_party_long:0 "Authority for the Reconstruction/Autorité pour la reconstruction"
+
+JOZ_syndicalism_party:0 "Reconstruction Authority"
+JOZ_syndicalism_party_long:0 "Authority for the Reconstruction/Autorité pour la reconstruction"
+
+JOZ_moderate_socialist_party:0 "Reconstruction Authority"
+JOZ_moderate_socialist_party_long:0 "Authority for the Reconstruction/Autorité pour la reconstruction"
+
+JOZ_social_democrat_party:0 "Reconstruction Authority"
+JOZ_social_democrat_party_long:0 "Authority for the Reconstruction/Autorité pour la reconstruction"
+
+### Cosmetic Tags ###
+GER_occupied_nationalist_socialism:0 "Provisional Administration in Germany"
+GER_occupied_nationalist_socialism_ADJ:0 "Provisional Administration in Germany"
+GER_occupied_nationalist_socialism_DEF:0 "Provisional Administration in Germany"
+
+GER_occupied_revolutionary_socialism:0 "Provisional Administration in Germany"
+GER_occupied_revolutionary_socialism_ADJ:0 "Provisional Administration in Germany"
+GER_occupied_revolutionary_socialism_DEF:0 "Provisional Administration in Germany"
+
+GER_occupied_syndicalism:0 "Provisional Administration in Germany"
+GER_occupied_syndicalism_ADJ:0 "Provisional Administration in Germany"
+GER_occupied_syndicalism_DEF:0 "Provisional Administration in Germany"
+
+GER_occupied_moderate_socialist:0 "Provisional Administration in Germany"
+GER_occupied_moderate_socialist_ADJ:0 "Provisional Administration in Germany"
+GER_occupied_moderate_socialist_DEF:0 "Provisional Administration in Germany"
+
+GER_occupied_social_democrat:0 "Provisional Administration in Germany"
+GER_occupied_social_democrat_ADJ:0 "Provisional Administration in Germany"
+GER_occupied_social_democrat_DEF:0 "Provisional Administration in Germany"
+#You get the idea
+
+### Opinions ###
+
+### Ideas ###
+GER_IDEA_NAME:0 "-"
+GER_IDEA_NAME_desc:0 "-"
+
+### Focuses ###
+GER_FOCUS_NAME:0 "-"
+GER_FOCUS_NAME_desc:0 "-"
+
+### Decisions ###
+GER_decision_group_name:0 "-"
+GER_decision_group_name_desc:0 "-"
+
+### Flags ###
+GER_flag_name:0 "-"
+
+### Tooltips ###
+GER_thing_being_tooltiped_name_tooltip:0 "-"
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+LEADER_NAME_DESC:0 "-"
+
+### Tech ###
+
+### Events ###
+event_namespace.X.identifying_letter:0 "-"
+#Ex:
+epic_example_events.1.t:0 "this is a title"
+epic_example_events.1.d:0 "this is a description"
+epic_example_events.1.a:0 "it's important to note the identifying letter is entirely abritrary,"
+epic_example_events.1.b:0 "but, it's still preferred you do it in the before format."
+epic_example_events.1.c:0 "That is, t for title d for description and then a-c, e-f for options."

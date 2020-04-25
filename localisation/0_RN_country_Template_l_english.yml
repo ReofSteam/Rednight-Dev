@@ -1,13 +1,13 @@
 ﻿#NOTES:
 #All country loc files have the following format for their name:
-#	KN_country_<NAME>_l_<language>.yml
-#DO NOT DEVIATE FROM THIS I WILL FUCKING HUNT YOU DOWN
+#	RN_country_<NAME>_l_<language>.yml
+#DO NOT DEVIATE FROM THIS I WILL SUMMON CALPH TO HUNT YOU DOWN
 #
 #Spaces are the only safe whitespace for identation, i.e. tabs and newlines to indent data *will* break the file
 #	This:
-#		XXX_social_nationalist:0	"-"
+#		XXX_nationalist_socialism:0	"-"
 #	And this:
-#		XXX_social_nationalist:0
+#		XXX_nationalist_socialism:0
 #		"-"
 #Don't work.
 #
@@ -27,23 +27,26 @@
 #Lmao imagine being wrong and having an artist fix your errors 
 #This meme was made by Hannah gang <o/
 
+#KN, Unflaw here, now we have transitioned to Red Night - victory and solidarity salute to Hannah and Calph
+#Anything starting from here and above should be deleted or i'll lay a hex on you and your mum.
+
 l_english:
 
 ### Bookmark ###
-XXX_KN_1950_DESC:0 "-"
+XXX_RN_1950_DESC:0 "-"
 
 ### Country Name ###
-XXX_social_nationalist:0 "-"
-XXX_social_nationalist_ADJ:0 "-"
-XXX_social_nationalist_DEF:0 "-"
+XXX_nationalist_socialism:0 "-"
+XXX_nationalist_socialism_ADJ:0 "-"
+XXX_nationalist_socialism_DEF:0 "-"
 
-XXX_marxist:0 "-"
-XXX_marxist_ADJ:0 "-"
-XXX_marxist_DEF:0 "-"
+XXX_revolutionary_socialism:0 "-"
+XXX_revolutionary_socialism_ADJ:0 "-"
+XXX_revolutionary_socialism_DEF:0 "-"
 
-XXX_libertarian:0 "-"
-XXX_libertarian_ADJ:0 "-"
-XXX_libertarian_DEF:0 "-"
+XXX_syndicalism:0 "-"
+XXX_syndicalism_ADJ:0 "-"
+XXX_syndicalism_DEF:0 "-"
 
 XXX_moderate_socialist:0 "-"
 XXX_moderate_socialist_ADJ:0 "-"
@@ -57,9 +60,9 @@ XXX_social_liberal:0 "-"
 XXX_social_liberal_ADJ:0 "-"
 XXX_social_liberal_DEF:0 "-"
 
-XXX_conservative:0 "-"
-XXX_conservative_ADJ:0 "-"
-XXX_conservative_DEF:0 "-"
+XXX_social_conservative:0 "-"
+XXX_social_conservative_ADJ:0 "-"
+XXX_social_conservative_DEF:0 "-"
 
 XXX_authoritarian_democrat:0 "-"
 XXX_authoritarian_democrat_ADJ:0 "-"
@@ -69,23 +72,23 @@ XXX_autocratic:0 "-"
 XXX_autocratic_ADJ:0 "-"
 XXX_autocratic_DEF:0 "-"
 
-XXX_fundamentalist:0 "-"
-XXX_fundamentalist_ADJ:0 "-"
-XXX_fundamentalist_DEF:0 "-"
+XXX_ultraconservative:0 "-"
+XXX_ultraconservative_ADJ:0 "-"
+XXX_ultraconservative_DEF:0 "-"
 
-XXX_voynist:0 "-"
-XXX_voynist_ADJ:0 "-"
-XXX_voynist_DEF:0 "-"
+XXX_national_corporatist:0 "-"
+XXX_national_corporatist_ADJ:0 "-"
+XXX_national_corporatist_DEF:0 "-"
 
 ### Parties ###
-XXX_social_nationalist_party:0 "-"
-XXX_social_nationalist_party_long:0 "-"
+XXX_nationalist_socialism_party:0 "-"
+XXX_nationalist_socialism_party_long:0 "-"
 
-XXX_marxist_party:0 "-"
-XXX_marxist_party_long:0 "-"
+XXX_revolutionary_socialism_party:0 "-"
+XXX_revolutionary_socialism_party_long:0 "-"
 
-XXX_libertarian_party:0 "-"
-XXX_libertarian_party_long:0 "-"
+XXX_syndicalism_party:0 "-"
+XXX_syndicalism_party_long:0 "-"
 
 XXX_moderate_socialist_party:0 "-"
 XXX_moderate_socialist_party_long:0 "-"
@@ -96,8 +99,8 @@ XXX_social_democrat_party_long:0 "-"
 XXX_social_liberal_party:0 "-"
 XXX_social_liberal_party_long:0 "-"
 
-XXX_conservative_party:0 "-"
-XXX_conservative_party_long:0 "-"
+XXX_social_conservative_party:0 "-"
+XXX_social_conservative_party_long:0 "-"
 
 XXX_authoritarian_democrat_party:0 "-"
 XXX_authoritarian_democrat_party_long:0 "-"
@@ -105,16 +108,16 @@ XXX_authoritarian_democrat_party_long:0 "-"
 XXX_autocratic_party:0 "-"
 XXX_autocratic_party_long:0 "-"
 
-XXX_fundamentalist_party:0 "-"
-XXX_fundamentalist_party_long:0 "-"
+XXX_ultraconservative_party:0 "-"
+XXX_ultraconservative_party_long:0 "-"
 
-XXX_voynist_party:0 "-"
-XXX_voynist_party_long:0 "-"
+XXX_national_corporatist_party:0 "-"
+XXX_national_corporatist_party_long:0 "-"
 
 ### Cosmetic Tags ###
-XXX_cosmetic_namespace_social_nationalist:0 "-"
-XXX_cosmetic_namespace_social_nationalist_ADJ:0 "-"
-XXX_cosmetic_namespace_social_nationalist_DEF:0 "-"
+XXX_cosmetic_namespace_nationalist_socialism:0 "-"
+XXX_cosmetic_namespace_nationalist_socialism_ADJ:0 "-"
+XXX_cosmetic_namespace_nationalist_socialism_DEF:0 "-"
 #You get the idea
 
 ### Opinions ###
