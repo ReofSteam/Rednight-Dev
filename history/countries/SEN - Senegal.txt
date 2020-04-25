@@ -1,0 +1,44 @@
+﻿capital = 272
+OOB = "SEN_1950"
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+set_research_slots = 2
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 10
+    revolutionary_socialism = 0
+    syndicalism = 0
+    moderate_socialist = 30
+    social_democrat = 20
+    social_liberal = 10
+    social_conservative = 10
+    authoritarian_democrat = 10
+    autocratic = 10
+    ultraconservative = 0
+    national_corporatist = 0
+}
+
+
+create_country_leader = {
+	name = "Henri Louis Honoré"
+	desc = "POLITICS_HENRI_HONORE_DESC"
+	picture = "gfx/leaders/FRENCH_EXILES/Henri_Honore.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+

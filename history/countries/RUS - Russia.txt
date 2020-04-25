@@ -108,7 +108,7 @@ country_event = {
 	days = 511
 }
 
-create_faction = SARPAC
+create_faction = EATO
 add_to_faction = PER
 add_to_faction = ROM
 add_to_faction = MON
@@ -129,104 +129,6 @@ add_ideas = {
 	#RUS_Andrei_I_Shingarev_sec_mli
 }
 
-create_country_leader = {
-	name = "Aleksandr Kerensky"
-	desc = "POLITICS_ALEXANDER_KERENSKY_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Alexander_Kerensky.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Vyacheslav Molotov"
-	desc = "POLITICS_VYACHESLAV_MOLOTOV_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Alexander_Kerensky.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Alexei Rykov"
-	desc = "POLITICS_ALEXEI RYKOV_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Alexei_Rykov.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Nikolaï Bukharin"
-	desc = "POLITICS_NIKOLAI_BUKHARIN_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Nikolai_Iwanowitsch_Bucharin.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Iraklij Tsereteliy"
-	desc = "POLITICS_IRAKLIJ_TSERETELIY_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Iraklij_Tsereteliy.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Pavel Milyukov"
-	desc = "POLITICS_PAVEL_MILYUKOV_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Pavel_Milyukov.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Nikolaï Trubetskoy"
-	desc = "POLITICS_NIKOLAI_TRUBETSKOY_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Nikolai_Trubetskoy.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Lavr Kornilov"
-	desc = "POLITICS_LAVR_KORNILOV_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Lavr_Kornilov.tga"
-	expire = "1965.1.1"
-	ideology = autocratic_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Pyotr Wrangel"
-	desc = "POLITICS_PYOTR_WRANGEL_DESC"
-	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_Pjotr_Nikolajewitsch_Wrangel_3.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
-}
 
 create_country_leader = {
 	name = "Boris Savinkov"
@@ -240,19 +142,8 @@ create_country_leader = {
 }
 
 
-#create_country_leader = {
-#	name = "The True Vozhd"
-#	desc = "POLITICS_BORIS_SAVINKOV_DESC"
-#	picture = "gfx/leaders/EASTERN_EUROPE/RUS/Portrait_Russia_the_True_Vozhd.tga"
-#	expire = "1965.1.1"
-#	ideology = national_corporatist_subtype
-#	traits = {
-#		Ebic
-#	}
-#}
-
 ####
-# Land leaders
+# military leaders
 ####
 
 create_field_marshal = {
