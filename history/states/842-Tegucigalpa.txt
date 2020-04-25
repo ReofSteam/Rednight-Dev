@@ -1,33 +1,30 @@
-state={
-	id=842
-	name="STATE_842"
-	state_category = city
-	manpower=552900
+state = {
+	id = 842
+	name = "STATE_842"
+	state_category = three
+	manpower = 729761
 
-	resources={
-		chromium=1
+	resources = {
+		chromium = 1
 	}
 
-	history={
+	history = {
 		owner = HON
-		add_core_of = HON
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
-			arms_complex = 1
+			industrial_complex = 2
 			air_base = 1
-			13207 = {
+			13690 = {
 				naval_base = 2
 			}
 		}
 		victory_points = {
-			13207 3
+			13207 4
 		}
+		add_core_of = HON
 	}
 
-	provinces={
-		12865 13207 13208
+	provinces = {
+		12865 13207 13208 13690 13691 13694 13695
 	}
-
-	buildings_max_level_factor=1.000
 }

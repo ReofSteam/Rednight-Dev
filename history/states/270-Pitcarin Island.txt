@@ -1,12 +1,13 @@
-state=
-{
-	id=270
-	name="STATE_270"
+state = {
+	id = 270
+	name = "STATE_270"
 	manpower = 40
-	state_category = enclave
-	
-	history={
-		owner = CHL
+	state_category = zero
+
+	history = {
+		owner = GEA
+		add_core_of = GEA
+
 		buildings = {
 			infrastructure = 1
 			1280 = {
@@ -14,7 +15,7 @@ state=
 			}
 		}
 	}
-	provinces={
+	provinces = {
 		1280
 	}
 }

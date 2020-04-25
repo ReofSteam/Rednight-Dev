@@ -1,25 +1,24 @@
-state={
-	id=891
-	name="STATE_891"
+state = {
+	id = 891
+	name = "STATE_891"
+	manpower = 7155300
 
-	history={
-		owner = PNJ
-		add_core_of = PNJ
-		add_core_of = BHC
-		victory_points = {
-			8106 3 
-		}
+	state_category = four
+
+	history = {
+		owner = DEH
+		add_core_of = DEH
+		add_claim_by = BHC
+		add_claim_by = PRF
+		victory_points = { 8106 3 } #Lahore
 		buildings = {
 			infrastructure = 5
-
+			industrial_complex = 1
+			arms_factory = 1
 		}
-
 	}
 
-	provinces={
-		1107 1910 1978 2002 4979 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 15096 15357 15358
+	provinces = {
+		4979 8022 8106 10139 10173
 	}
-	manpower=14780000
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

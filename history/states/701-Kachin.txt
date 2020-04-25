@@ -1,27 +1,24 @@
-
-state={
-	id=701
-	name="STATE_701"
-	resources={
-		steel=5.000
+state = {
+	id = 701
+	name = "STATE_701"
+	resources = {
+		steel = 5
 	}
-
-	history={
-		owner = KAC
-		add_core_of = KAC
+	history = {
+		owner = BUR
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
-			4425 2 
+			8063 2 #Myitkina
 		}
-	}
 
-	provinces={
-		1197 1934 4318 4425 4996
+		add_claim_by = BUR
+		add_core_of = KAC
 	}
-	manpower=687000
-	buildings_max_level_factor=1.000
-	state_category=rural
+	provinces = {
+		1082 1197 1934 4087 4318 4425 4588 4996 8063 10486 10920 12335 12464 12492
+	}
+	manpower = 1244600
+	state_category = two
 }

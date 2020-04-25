@@ -1,29 +1,22 @@
+state = {
+	id = 876
+	name = "STATE_876"
 
-state={
-	id=876
-	name="STATE_876"
-
-	history={
-		owner = DAH
+	history = {
+		owner = MAF
+		add_core_of = MAF
 		add_core_of = DAH
 		buildings = {
 			infrastructure = 3
-			14086 = {
-				naval_base = 2
-
-			}
-
 		}
 		victory_points = {
-			14086 1 
+			10919 1
 		}
-
 	}
 
-	provinces={
-		10919 14086 14091 14092 14112 
+	provinces = {
+		10919 12762 12874
 	}
-	manpower=655700
-	buildings_max_level_factor=1.000
-	state_category=town
+	manpower = 2114000
+	state_category = one
 }

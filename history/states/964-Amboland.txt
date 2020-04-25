@@ -1,25 +1,23 @@
+state = {
+	id = 964
+	name = "STATE_964"
 
-state={
-	id=964
-	name="STATE_964"
-
-	history={
-		owner = SWA
-		add_core_of = SWA
+	history = {
+		owner = MAF
+		add_core_of = MAF
+		add_core_of = NAM
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
-			14835 1 
+			8136 1
 		}
-
 	}
 
-	provinces={
-		8136 14825 14835 
+	provinces = {
+		8136 9977 10978 12519 12921 13549
 	}
-	manpower=117750
-	buildings_max_level_factor=1.000
-	state_category=pastoral
+
+	manpower = 252000
+	state_category = one
 }

@@ -1,32 +1,24 @@
+state = {
+	id = 152
+	name = "STATE_152"
+	manpower = 1018721
 
-state={
-	id=152
-	name="STATE_152"
-	manpower = 903000
-	
-	state_category = city
-	
-	resources={
-		steel= 8
-	}
+	state_category = six
 
-	history={
-		owner = CIS
-		add_core_of = CIS
-		add_core_of = AUS
-
+	history = {
+		owner = AUS
+		victory_points = {
+			9665 10
+		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			industrial_complex = 2
 			arms_factory = 1
 		}
-		
-		victory_points = {
-			9665 5
-		}
+		add_core_of = AUS
 	}
 
-	provinces={
+	provinces = {
 		732 3684 3703 6708 9665
 	}
 }

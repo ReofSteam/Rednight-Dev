@@ -1,25 +1,23 @@
+state = {
+	id = 665
+	name = "STATE_665"
 
-state={
-	id=665
-	name="STATE_665"
-
-	history={
+	history = {
 		owner = TUN
 		add_core_of = TUN
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 4
+			industrial_complex = 1
 		}
-		victory_points = {
-			4129 2 
+		victory_points = { #Gabès
+			7005 2
 		}
-
 	}
 
-	provinces={
-		4129 14196 14198 14202 14206 
+	state_category = one
+
+	provinces = {
+		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179
 	}
-	manpower=170200
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 427824
 }

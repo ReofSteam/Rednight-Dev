@@ -1,27 +1,25 @@
-state= {
-	id=803
-	name="STATE_803"
-	manpower = 237000
-	state_category = town
+state = { # Wenzhou
+	id = 803
+	name = "STATE_803"
+	manpower = 500000
+	state_category = two
 
-	history= {
+	history = {
 		owner = CHI
 		add_core_of = CHI
-		
+
 		victory_points = {
-			4013 1
-		}
-		
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			4013 = {
-				naval_base = 1
-			}
+			4013 3
 		}
 
+		buildings = {
+			infrastructure = 5
+			4013 = {
+				naval_base = 2
+			}
+		}
 	}
-	provinces={
+	provinces = {
 		4013
 	}
 }

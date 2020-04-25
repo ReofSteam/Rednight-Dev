@@ -1,27 +1,19 @@
+state = {
+	id = 887
+	name = "STATE_887"
+	manpower = 2087575
 
-state={
-	id=887
-	name="STATE_887"
+	state_category = two
 
-	history={
-		owner = BHC
-		add_core_of = BHC
+	history = {
+		owner = NEP
+		add_core_of = NEP
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 2
-
+			infrastructure = 3
 		}
-		victory_points = {
-			4987 3 
-		}
-
 	}
 
-	provinces={
-		4987 5310 12892 
+	provinces = {
+		10361 10878 1656 7475
 	}
-	manpower=3420000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

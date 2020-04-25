@@ -1,23 +1,33 @@
+state = {
+	id = 719
+	name = "STATE_719" # Natal
+	manpower = 1946500
 
-state={
-	id=719
-	name="STATE_719"
-	resources={
-		chromium=76.000
+	resources = {
+		chromium = 76
 	}
 
-	history={
+	state_category = four
+
+
+	history = {
 		owner = SAF
-		add_core_of = SAF
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			1468 = {
+				naval_base = 2
+			}
 		}
+		victory_points = {
+			1468 3 #Durban
+		}
+		add_core_of = SAF
 	}
 
-	provinces={
-		14608 14630 14636 14642 
+	provinces = {
+		1468 1494 8178
 	}
-	manpower=2697200
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

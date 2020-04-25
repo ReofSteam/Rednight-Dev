@@ -1,40 +1,38 @@
+state = {
+	id = 131
+	name = "STATE_131"
+	manpower = 2128860
 
-state={
-	id=131
-	name="STATE_131"
-	resources={
-		steel=60.000
-		aluminium=8.000
+	state_category = six
+	resources = {
+		steel = 60
+		aluminium = 8
 	}
 
-	history={
-		owner = GBR
+	history = {
+		owner = ENG
 		victory_points = {
-			351 10 
-		}
-		victory_points = {
-			11270 5 
+			351 10
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 			industrial_complex = 1
+			dockyard = 3
 			arms_factory = 1
-			dockyard = 4
 			air_base = 6
+			synthetic_refinery = 1
 			351 = {
 				naval_base = 6
-
 			}
-
+			3311 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = GBR
-
+		add_core_of = ENG
+		add_claim_by = CAN
 	}
 
-	provinces={
-		219 351 9285 11270 11299 
+	provinces = {
+		219 351 3311 6399 9285 11270 11299 11332
 	}
-	manpower=2243000
-	buildings_max_level_factor=1.000
-	state_category=city
 }

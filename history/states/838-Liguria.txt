@@ -1,37 +1,31 @@
+state = {
+	id = 838
+	name = "STATE_838"
+	manpower = 1466800
 
-state={
-	id=838
-	name="STATE_838"
-	manpower=1473000
-	
-	state_category = city
-	
-	resources={
-		
-	}
-	
-	history={
+	state_category = six
+
+	history = {
 		owner = ITA
 		add_core_of = ITA
-		
 		victory_points = {
-			6788 20
+			6788 15
 		}
-		
+
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			arms_factory = 1
 			dockyard = 2
+			industrial_complex = 1
 			air_base = 8
 			6788 = {
 				naval_base = 8
-
+				coastal_bunker = 1
 			}
 		}
 	}
-	
-	provinces={
+
+	provinces = {
 		3772 6788 11891
 	}
-	buildings_max_level_factor=1.000
 }

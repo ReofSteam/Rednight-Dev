@@ -1,13 +1,11 @@
-state=
-{
-	id=518
-	name="STATE_518"
+state = {
+	id = 518
+	name = "STATE_518"
 	manpower = 224000
-	
-	state_category = small_island
 
-	history=
-	{
+	state_category = one_island
+
+	history = {
 		owner = AST
 		victory_points = {
 			2189 1
@@ -20,7 +18,7 @@ state=
 		}
 		add_core_of = AST
 	}
-	provinces={
+	provinces = {
 		2183 2189 5181 5187 10665 12645
 	}
 }

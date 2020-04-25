@@ -1,22 +1,25 @@
-
 state={
 	id=915
 	name="STATE_915"
 
 	history={
-		owner = ARA
-		add_core_of = ARA
+		owner = JBS
+		add_core_of = JBS
+		add_claim_by = SAU
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
 
+		}
+		victory_points = {
+			2057 3
 		}
 
 	}
 
 	provinces={
-		2057 4603 4968 5027 10901 12749 13708 
+		2057 4968 4974 5027 5058 12758 12879 13666
 	}
-	manpower=345600
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower=246153
+	state_category=one
 }

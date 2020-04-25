@@ -1,36 +1,36 @@
+state = {
+	id = 105
+	name = "STATE_105" # Montenegro
+	manpower = 895500
 
-state={
-	id=105
-	name="STATE_105"
-	resources={
-		chromium=36.000
-		aluminium=112.000
+	state_category = two
+
+	resources = {
+		chromium = 36
+		aluminium = 112
 	}
 
-	history={
-		owner = SER
-		add_core_of = SER
+	history = {
+		owner = CRO
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 1
 			air_base = 3
+
 			9809 = {
 				naval_base = 1
-
 			}
-
 		}
+
+		add_core_of = CRO
+		add_core_of = MTN
+
 		victory_points = {
-			9809 3 
+			9809 2
 		}
-
 	}
 
-	provinces={
-		9809 9821 11858 13654 14549 14552 14555 14556
+	provinces = {
+		6913 9809 9821 11858 13654
 	}
-	manpower=367044
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

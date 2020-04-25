@@ -1,34 +1,28 @@
+state = {
+	id = 686
+	name = "STATE_686"
+	manpower = 1754600
 
-state={
-	id=686
-	name="STATE_686"
+	state_category = two
 
-	history={
-		owner = USN
+	history = {
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 4
-			15670 = {
+			1440 = {
 				naval_base = 3
-
 			}
-
 		}
-		add_core_of = USN
+		add_core_of = USA
+		add_core_of = PRI
 		victory_points = {
-			15670 5 
+			1440 5
 		}
-		victory_points = {
-			15199 1 
-		}
-
 	}
 
-	provinces={
-		1440 15199 15670
+	provinces = {
+		1440 4155
 	}
-	manpower=1638000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

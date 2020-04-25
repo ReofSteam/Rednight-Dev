@@ -1,34 +1,29 @@
+state = {
+	id = 540
+	name = "STATE_540"
+	manpower = 2711500
 
-state={
-	id=540
-	name="STATE_540"
+	state_category = three
 
-	history={
-		owner = PWA
-		add_core_of = PWA
+	history = {
+		owner = ANG
 		add_core_of = ANG
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			8248 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
-			8248 1 
+			8248 15
 		}
 		victory_points = {
-			10966 1 
+			10966 1
 		}
-
 	}
 
-	provinces={
-		2126 4051 5158 5189 8138 8202 8248 10957 10966 12391 12958 12981 12985 13652 14611 14640 14680 14706 14718 14750 14761 14767 14770 14774 14775 14781 14798 14799 14803 14807 14808 14811 14821 14822 14823 14824 14826 14836 
+	provinces = {
+		2126 5158 8138 8202 8248 10966 12391 12958 12981 12985 13652
 	}
-	manpower=2711500
-	buildings_max_level_factor=1.000
-	state_category=town
 }

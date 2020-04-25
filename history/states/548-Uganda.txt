@@ -1,29 +1,24 @@
-
-state={
-	id=548
-	name="STATE_548"
-	resources={
-		rubber=6.000
+state = {
+	id = 548
+	name = "STATE_548"
+	resources = {
+		rubber = 6
 	}
 
-	history={
-		owner = BGA
-		add_core_of = BGA
-		victory_points = {
-			12989 3 
-		}
+	state_category = two
+
+	history = {
+		owner = MAF
+		add_claim_by = MAF
+		add_core_of = UGA
+		victory_points = { 12989 3 } #Kampala
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-
 		}
-
 	}
 
-	provinces={
-		12989
+	provinces = {
+		3854 7088 7133 8223 12929 12989 13177
 	}
-	manpower=3515625
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 3515625
 }

@@ -1,13 +1,16 @@
+state = {
+	id = 700
+	name = "STATE_700"
+	manpower = 1768500
 
-state={
-	id=700
-	name="STATE_700"
+	state_category = one
 
-	history={
-		owner = SIE
+	history = {
+		owner = NFA
+		add_core_of = NFA
 		add_core_of = SIE
 		victory_points = {
-			2038 1 
+			2038 1 #Freistadt/Freetown
 		}
 		buildings = {
 			infrastructure = 3
@@ -15,17 +18,11 @@ state={
 			air_base = 4
 			2038 = {
 				naval_base = 3
-
 			}
-
 		}
-
 	}
 
-	provinces={
-		2038 2094 14066 14073 14075 14078 14080 14115 14126 14136 14146 
+	provinces = {
+		2038 2094
 	}
-	manpower=1768500
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

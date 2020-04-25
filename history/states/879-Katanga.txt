@@ -1,23 +1,25 @@
+state = {
+	id = 879
+	name = "STATE_879"
 
-state={
-	id=879
-	name="STATE_879"
-
-	history={
-		owner = KTG
-		add_core_of = KTG
+	history = {
+		owner = MAF
+		add_core_of = MAF
+		add_core_of = COG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+		}
+		victory_points = {
+			191 1
 		}
 		victory_points = {
 			1929 3
-		}		
+		}
 	}
 
-	provinces={
-		1516 1929 1968 4515 12795 
+	provinces = {
+		191 1516 1817 1929 1968 4515 4902 12795 12907 13173 13495
 	}
-	manpower=320033
-	buildings_max_level_factor=1
-	state_category=pastoral
+	manpower = 2120490
+	state_category = one
 }

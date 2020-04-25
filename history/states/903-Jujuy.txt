@@ -1,25 +1,27 @@
+state = {
+	id = 903
+	name = "STATE_903"
 
-state={
-	id=903
-	name="STATE_903"
-	resources={
-	steel = 8.000}
-
-	history={
+	history = {
 		owner = ARG
 		add_core_of = ARG
-		add_claim_by = ATS
+		add_claim_by = BOL
+		add_claim_by = FOP
+		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
-
 		}
-
+		victory_points = {
+			10965 2
+		}
+		victory_points = {
+			13548 10
+		}
 	}
 
-	provinces={
-		8195 10965 13548 
+	provinces = {
+		2224 8195 10944 10965 11001 13548
 	}
-	manpower=286400
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 391400
+	state_category = two
 }

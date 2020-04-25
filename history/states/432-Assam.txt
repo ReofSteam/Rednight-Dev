@@ -3,18 +3,17 @@ state={
 	id=432
 	name="STATE_432"
 	resources={
-		oil=6.000
+		oil=4.000
 		tungsten=34.000
 	}
 
 	history={
 		owner = BHC
 		add_core_of = BHC
+		add_claim_by = PRF
+		add_claim_by = DEH
 		victory_points = {
-			12366 1 
-		}
-		victory_points = {
-			1581 1 
+			12366 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -25,9 +24,9 @@ state={
 	}
 
 	provinces={
-		1525 1553 1581 10514 12322 12366 12395 
+		1116 1497 1525 7455 10349 12322 12366 12395
 	}
-	manpower=6670000
+	manpower=6717100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=two
 }

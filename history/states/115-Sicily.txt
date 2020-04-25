@@ -1,24 +1,25 @@
+state = {
+	id = 115
+	name = "STATE_115"
+	manpower = 4000100
 
-state={
-	id=115
-	name="STATE_115"
-	manpower = 3896900
-	
-	state_category = city
-	history={
+	state_category = six
+	history = {
 		owner = ITA
 		add_core_of = ITA
-		victory_points = { 10074 20 } #Palermo
-		victory_points = { 4159 5 } #Messina
-		victory_points = { 4014 5 } #Catania
+		victory_points = { 10074 15 } #Palermo
+		victory_points = { 4159 4 } #Messina
+		victory_points = { 4014 1 } #Catania
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 1
 			arms_factory = 1
-			industrial_complex = 2
 			air_base = 10
-			dockyard = 2
 			10074 = {
 				naval_base = 2
+			}
+			7059 = {
+				naval_base = 5
 			}
 			4159 = {
 				naval_base = 8
@@ -27,10 +28,9 @@ state={
 				naval_base = 3
 			}
 		}
-		
 	}
 
-	provinces={
-		1009 1156 3857 4014 4159 7147 10074 12047
+	provinces = {
+		1009 1156 3857 4014 4159 7059 7147 10074 12047
 	}
 }

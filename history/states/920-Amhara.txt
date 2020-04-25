@@ -1,13 +1,12 @@
+state = {
+	id = 920
+	name = "STATE_920"
 
-state={
-	id=920
-	name="STATE_920"
-
-	history={
+	history = {
 		owner = ETH
-		add_core_of=ETH
-		buildings={
-			infrastructure=3
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 		}
@@ -16,10 +15,9 @@ state={
 		}
 	}
 
-	provinces={
+	provinces = {
 		1984 2040 4954 7944 13137
 	}
-	manpower=4304200
-	buildings_max_level_factor=1
-	state_category="rural"
+	manpower = 4304200
+	state_category = two
 }

@@ -1,22 +1,19 @@
-state={
-	id=882
-	name="STATE_882"
+state = {
+	id = 882
+	name = "STATE_882"
 
-	history={
-		owner = INC
-		add_core_of = INC
-		add_core_of = LAO
+	history = {
+		owner = SIA
 		add_core_of = SIA
+		add_core_of = LAO
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
-
 	}
 
-	provinces={
-		10330 10356 10456 
+	provinces = {
+		10330 10356 10456
 	}
-	manpower=65400
-	buildings_max_level_factor=1
-	state_category=wasteland
+	manpower = 34000
+	state_category = one
 }

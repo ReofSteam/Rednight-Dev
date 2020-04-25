@@ -1,15 +1,13 @@
+state = {
+	id = 474
+	name = "STATE_474"
 
-state={
-	id=474
-	name="STATE_474"
-
-	history={
-		owner = YUC
-		add_core_of = YUC
-		add_claim_by = MEX
+	history = {
+		owner = MEX
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+			industrial_complex = 1
 			air_base = 1
 			4904 = {
 				naval_base = 2
@@ -18,12 +16,18 @@ state={
 				naval_base = 3
 			}
 		}
+		add_core_of = MEX
+		victory_points = {
+			13462 5
+		}
+		victory_points = {
+			13457 2
+		}
 	}
 
-	provinces={
-		13462 13464  15639
+	provinces = {
+		4904 4965 12715 13455 13457 13460 13462 13464 13465
 	}
-	manpower=440289
-	buildings_max_level_factor=1.000
-	state_category=rural
+	manpower = 483346
+	state_category = two
 }

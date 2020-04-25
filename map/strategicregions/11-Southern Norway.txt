@@ -1,8 +1,9 @@
+
 strategic_region={
 	id=11
 	name="STRATEGICREGION_11"
 	provinces={
-		10 14 27 53 65 100 102 111 122 133 137 144 179 188 199 3007 3021 3049 3059 3090 3093 3094 3096 3105 3114 3129 3136 3171 3180 3188 3192 6042 6072 6080 6114 6115 6136 6145 6151 6160 6176 6184 6204 6216 9032 9036 9047 9096 9103 9127 9135 9157 9170 9174 9196 9204 9216 9227 9296 11028 11029 11037 11078 11100 11101 11113 11135 11151 11176 11184 11198 11206 11367 13629 
+		10 14 27 53 65 100 102 111 122 133 137 144 179 188 199 3007 3021 3049 3059 3090 3093 3094 3096 3105 3114 3129 3136 3171 3180 3188 3192 6042 6072 6080 6114 6115 6136 6145 6151 6160 6176 6184 6204 6216 9032 9036 9047 9096 9103 9127 9135 9157 9170 9174 9196 9204 9216 9227 9296 11028 11029 11037 11078 11100 11101 11113 11135 11151 11176 11184 11198 11206 11367 13629
 	}
 	weather={
 		period={
@@ -17,7 +18,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -32,7 +32,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -45,21 +44,8 @@ strategic_region={
 			snow=0.200
 			blizzard=0.000
 			arctic_water=0.000
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -72,21 +58,8 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -99,21 +72,8 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -126,21 +86,8 @@ strategic_region={
 			snow=0.000
 			blizzard=0.000
 			arctic_water=0.000
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -155,7 +102,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -170,7 +116,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -185,7 +130,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -200,7 +144,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -215,7 +158,6 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 		period={
@@ -230,11 +172,7 @@ strategic_region={
 			arctic_water=0.000
 			mud=0.200
 			sandstorm=0.000
-			arctic_water=0.000
 			min_snow_level=0.000
 		}
 	}
 }
-
-
-

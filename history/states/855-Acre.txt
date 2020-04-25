@@ -1,26 +1,25 @@
-
-state={
-	id=855
-	name="STATE_855"
-	resources={
-		rubber=10.000
+state = {
+	id = 855
+	name = "STATE_855"
+	resources = {
+		rubber = 70
 	}
 
-	history={
+	history = {
 		owner = BRA
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = BRA
-		add_claim_by = ATS
-
+		add_claim_by = BOL
+		victory_points = {
+			10960 1
+		}
 	}
 
-	provinces={
-		5216 10960 13524 13526 13530 
+	provinces = {
+		10960 13524
 	}
-	manpower=80000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower = 80000
+	state_category = wasteland
 }

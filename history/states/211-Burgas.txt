@@ -1,33 +1,29 @@
-
-state={
-	id=211
-	name="STATE_211"
-	manpower = 1075499
-
-	resources={
-		steel=5
-	}
+state = {
+	id = 211
+	name = "STATE_211"
+	manpower = 1175499
 
 
-	state_category = town
+	state_category = four
 
-	history={
+	history = {
 		owner = BUL
-		add_core_of = BUL
 		victory_points = {
 			9902 3
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
-			dockyard = 1
+
 			9902 = {
 				naval_base = 1
+				bunker = 1
 			}
 		}
+		add_core_of = BUL
 	}
 
-	provinces={
-		9902 9919
+	provinces = {
+		6814 6967 9888 9902 9919
 	}
 }

@@ -1,12 +1,10 @@
-state=
-{
-	id=182
-	name="STATE_182"
+state = {
+	id = 182
+	name = "STATE_182"
 	manpower = 387900
-	
-	state_category = rural
-	history=
-	{
+
+	state_category = two
+	history = {
 		owner = GRE
 		add_core_of = GRE
 		victory_points = {
@@ -22,9 +20,12 @@ state=
 			9940 = {
 				naval_base = 3
 			}
+			1164 = {
+				bunker = 1
+			}
 		}
 	}
-	provinces=
-	{
-1164 4170 9940 12058 	}
+	provinces = {
+		1164 4170 9940 12058
+	}
 }

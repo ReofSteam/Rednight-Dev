@@ -1,0 +1,17 @@
+state = {
+	id = 1046
+	name = "STATE_1046"
+	manpower = 2247120
+	state_category = two
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 1006 1 }
+	}
+	provinces = {
+		1006 4053 7099 12084 10010 10054 10093
+	}
+}

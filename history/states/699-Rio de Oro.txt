@@ -1,32 +1,29 @@
-state={
-	id=699
-	name="STATE_699"
+state = {
+	id = 699
+	name = "STATE_699"
+	manpower = 32000
 
-	history={
+	state_category = wasteland
+
+	history = {
 		owner = MOR
 		add_core_of = MOR
 		victory_points = {
-			8111 1 
+			8111 1 #El Aaiún
 		}
 		buildings = {
 			infrastructure = 1
 			8038 = {
 				naval_base = 1
-
 			}
 			12857 = {
 				naval_base = 1
-
 			}
-
 		}
+		add_core_of = MOR
 	}
 
-	provinces={
-		4920 5012 7979 8038 8111 10875 12857 15562 15561 10779 15613 15564
+	provinces = {
+		4920 5012 7979 8038 8111 10875 12857
 	}
-	manpower=32000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }
-

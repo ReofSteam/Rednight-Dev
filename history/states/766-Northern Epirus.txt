@@ -1,21 +1,20 @@
-state={
-	id=766
-	name="STATE_766"
+state = {
+	id = 766
+	name = "STATE_766"
 	manpower = 298965
 
-	
-	state_category = town
-	
-	history={
-		owner = GRE
-		add_core_of = GRE
-		add_claim_by = ALB
+
+	state_category = two
+
+	history = {
+		owner = ALB
+		add_core_of = ALB
 		buildings = {
 			infrastructure = 3
 		}
 	}
 
-	provinces={
+	provinces = {
 		914 3448 6900
 	}
 }

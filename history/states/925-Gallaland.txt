@@ -1,21 +1,19 @@
+state = {
+	id = 925
+	name = "STATE_925"
 
-state={
-	id=925
-	name="STATE_925"
-
-	history={
-		owner = KLD
-		add_core_of = KLD
+	history = {
+		owner = MAF
+		add_claim_by = MAF
+		add_core_of = KEN
 		buildings = {
 			infrastructure = 3
-
 		}
 	}
 
-	provinces={
-		2066 5079 10962 15327 15328 15329 
+	provinces = {
+		2066 5079 13639
 	}
-	manpower=231435
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower = 71435
+	state_category = wasteland
 }

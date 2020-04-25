@@ -1,26 +1,30 @@
+state = {
+	id = 541
+	name = "STATE_541"
+	manpower = 224000
 
-state={
-	id=541
-	name="STATE_541"
+	state_category = one
 
-	history={
-		owner = SWA
-		add_core_of = SWA
+	history = {
+		owner = MAF
+		add_core_of = MAF
+		add_core_of = NAM
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-
+			2207 = {
+				naval_base = 3
+			}
 		}
 		victory_points = {
-			14779 3 
+			4879 3
 		}
-
+		victory_points = {
+			2207 1
+		}
 	}
 
-	provinces={
-		4879 14746 14754 14758 14765 14779 
+	provinces = {
+		2207 2229 4051 4879 5154 5189 7605 7770 10957 10963
 	}
-	manpower=111254
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

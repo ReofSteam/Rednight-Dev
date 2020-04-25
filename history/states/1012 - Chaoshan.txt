@@ -1,0 +1,23 @@
+state = {
+	id = 1012
+	name = "STATE_1012"
+	manpower = 9313200
+	state_category = four
+	resources = {
+		tungsten = 10
+		steel = 2
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+
+	provinces = {
+		1078 1162 4050 4165 4207 7067 7141 7182 9978
+	}
+}

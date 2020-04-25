@@ -4,21 +4,24 @@ state={
 	name="STATE_676"
 
 	history={
-		owner = IRQ
+		owner = OTT
 		add_core_of = IRQ
-		add_core_of = KUR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
+		victory_points = {
+			10106 5
+		}
+		add_core_of = OTT
 
 	}
 
 	provinces={
-		1938 3916 14998 15470 15474 12413 12372
+		1600 1938 3795 10106 12046 12372 12413 12839 13746
 	}
-	manpower=582741
+	manpower=413987
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=two
 }

@@ -1,28 +1,25 @@
-state= {
-	id=802
-	name="STATE_802"
+state = { # Xiamen
+	id = 802
+	name = "STATE_802"
 	manpower = 177000
-	state_category = town
+	state_category = two
 
-	history= {
+	history = {
 		owner = CHI
 		add_core_of = CHI
-
 		victory_points = {
 			7071 1
 		}
-		
+
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-						dockyard = 1
+			dockyard = 1 #actually it doesn't exist - the Fujian naval yard is supposed in Fuzhou
 			7071 = {
 				naval_base = 1
 			}
 		}
-
 	}
-	provinces={
-		7071 10010
+	provinces = {
+		7071
 	}
 }

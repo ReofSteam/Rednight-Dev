@@ -1,22 +1,21 @@
-state={
-	id=678
-	name="STATE_678"
+state = {
+	id = 678
+	name = "STATE_678"
 
-	history={
-		owner = ARA
-		add_core_of = ARA
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		add_claim_by = JBS
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
 		}
-
 	}
 
-	provinces={
-		12768 
-	}
-	manpower=46200
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 	impassable = yes
+
+	provinces = {
+		5081
+	}
+	manpower = 9376
+	state_category = wasteland
 }
