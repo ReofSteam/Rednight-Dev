@@ -1,30 +1,36 @@
-state = {
-	id = 39
-	name = "STATE_39"
-	resources = {
-		tungsten = 8
+
+state={
+	id=39
+	name="STATE_39"
+	resources={
+		tungsten=8.000
 	}
 
-	history = {
+	history={
 		owner = AUS
 		buildings = {
 			infrastructure = 6
 			6675 = {
 				bunker = 1
+
 			}
 			656 = {
 				bunker = 1
+
 			}
+
 		}
 		add_core_of = AUS
 		victory_points = {
-			6675 15
+			6675 15 
 		}
+
 	}
 
-	provinces = {
-		656 6675 9630 11615
+	provinces={
+		656 671 6675 9630 11615 
 	}
-	manpower = 462243
-	state_category = three
+	manpower=462243
+	buildings_max_level_factor=1.000
+	state_category=three
 }

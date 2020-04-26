@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GER
+		owner = MAG
 		add_core_of = MAG
 		victory_points = { 5128 15 } #Antananarivo
 		buildings = {
