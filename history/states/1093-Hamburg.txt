@@ -1,0 +1,28 @@
+state={
+	id=1093
+	name="STATE_1093"
+	state_category=ten
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			9347 40 
+		}
+		buildings = {
+			infrastructure = 8
+			dockyard = 3
+			9347 = {
+				naval_base = 2
+				bunker = 1
+
+			}
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		6325 9347 
+	}
+	manpower=1290983
+	buildings_max_level_factor=1.000
+}
