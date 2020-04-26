@@ -1,0 +1,75 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+SEN_moderate_socialist_party:0 "-"
+SEN_moderate_socialist_party_long:0 "-"
+SEN_social_democrat_party:0 "-"
+SEN_social_democrat_party_long:0 "-"
+SEN_social_liberal_party:0 "-"
+SEN_social_liberal_party_long:0 "-"
+SEN_conservative_party:0 "Les Continentaux"
+SEN_conservative_party_long:0 "Continentals Clique"
+SEN_authoritarian_democrat_party:0 "Jeune France Libre"
+SEN_authoritarian_democrat_party_long:0 "Free France Clique"
+SEN_autocratic_party:0 "Imperial Clique"
+SEN_autocratic_party_long:0 "Imperial Clique"
+SEN_ultraconservative_party:0 "-"
+SEN_ultraconservative_party_long:0 "-"
+SEN_ultranationalist_party:0 "France sacrée"
+SEN_ultranationalist_party_long:0 "Sacred France Clique"
+
+### Country Name ###
+
+SEN_marxist:0 "Socialist Republic of Albania"
+SEN_marxist_ADJ:0 "Albanian"
+SEN_marxist_DEF:0 "the Socialist Republic of Sénégal-Gambie"
+SEN_moderate_socialist:0 "Socialist Republic of Sénégal-Gambie"
+SEN_moderate_socialist_ADJ:0 "Sénégal-Gambien"
+SEN_moderate_socialist_DEF:0 "the Socialist Republic of Sénégal-Gambie"
+SEN_social_democrat:0 "Republic of Sénégal-Gambie"
+SEN_social_democrat_ADJ:0 "Sénégambien"
+SEN_social_democrat_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_social_liberal:0 "Republic of Sénégal-Gambie"
+SEN_social_liberal_ADJ:0 "Sénégambien"
+SEN_social_liberal_DEF:0 "the Republic of Senegal-Gambia"
+SEN_conservative:0 "Republic of Senegal-Gambia"
+SEN_conservative_ADJ:0 "Sénégambien"
+SEN_conservative_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_authoritarian_democrat:0 "Republic of Sénégal-Gambie"
+SEN_authoritarian_democrat_ADJ:0 "Sénégambien"
+SEN_authoritarian_democrat_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_autocratic:0 "Republic of Sénégal-Gambie"
+SEN_autocratic_ADJ:0 "Sénégambien"
+SEN_autocratic_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_ultraconservative:0 "Republic of Sénégal-Gambie"
+SEN_ultraconservative_ADJ:0 "Sénégambien"
+SEN_ultraconservative_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_ultranationalist:0 "Republic of Sénégal-Gambie"
+SEN_ultranationalist_ADJ:0 "Sénégambien"
+SEN_ultranationalist_DEF:0 "the Republic of Sénégal-Gambie"
+
+#####
+Senegal_Gambia:0 "Republic of Senegal-Gambia"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###
