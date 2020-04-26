@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = INC
+		add_core_of = INC
 		add_core_of = VIE
 		victory_points = {
 			4401 15 # Saigon (+Tay Ninh)

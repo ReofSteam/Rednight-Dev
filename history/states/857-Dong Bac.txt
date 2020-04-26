@@ -3,8 +3,8 @@ state = {
 	name = "STATE_857"
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = INC
+		add_core_of = INC
 		add_core_of = VIE
 		victory_points = {
 			9948 1 # Lang Son
