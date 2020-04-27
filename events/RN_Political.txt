@@ -1,0 +1,1484 @@
+﻿##########################################################################################
+# Political Events																		 #
+##########################################################################################
+#            Adapted from Spartakus, adapted from Kaiserreich							 #
+##########################################################################################
+
+add_namespace = kn.political
+
+###########################
+# Introduction Events
+###########################
+
+country_event = {
+	id = kn.political.1
+	title = kn.political.1.t
+	desc = kn.political.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kn.political.1.a #Start
+	}
+
+	option = {
+		name = kn.political.1.b #FAQ
+		country_event = { id = kn.political.2 }
+	}
+
+}
+
+country_event = {
+	id = kn.political.2 #FAQ
+	title = kn.political.2.t
+	desc = kn.political.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = kn.political.2.a
+	}
+}
+
+###########################
+# Setup Events
+###########################
+
+### cores begone :dab: >add all autocores you want to remove here< ###
+
+country_event = {
+	id = kn.political.10
+	immediate = {log = "[GetDateText]: [Root.GetName: event kn.political.10"}
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		SAF = {
+			remove_state_core = 542
+			remove_state_core = 1000
+			remove_state_core = 1001
+			remove_state_core = 1098
+			remove_state_core = 1099
+			remove_state_core = 1100
+		}
+	}
+}
+
+### State Manpower Effects
+
+country_event = {
+	id = kn.political.11
+	immediate = {log = "[GetDateText]: [Root.GetName: event kn.political.11"}
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+	
+		### SAF
+		every_state = {
+			limit = {
+				AND = {
+					is_owned_by = SAF
+					is_core_of = SAF
+				}	
+			}
+			if = {
+				limit = {
+					OR = {
+						state = 275
+						state = 681
+						state = 945
+						state = 946
+						state = 947
+						state = 1271
+						state = 1273
+					}	
+				}
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.25
+					}
+				}
+			}
+			else_if = {
+				limit = { state = 545 }	
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.7
+					}
+				}	
+			}
+			else_if = {
+				limit = {
+					OR = {
+						state = 1186
+						state = 1188
+						state = 1191
+					}
+				}
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.8
+					}
+				}		
+			}
+			else_if = {
+				limit = {
+					OR = {
+						state = 1087
+						state = 1187
+						state = 1189
+						state = 1190
+					}
+				}
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.9
+					}
+				}		
+			}			
+			else = {	
+				add_state_modifier = {
+					modifier = {
+						local_manpower = -0.5
+					}
+				}	
+			}
+		}	
+	}
+}
+
+### Province Occupations (need to be reset here on game load)
+
+country_event = {
+	id = kn.political.12
+	immediate = {log = "[GetDateText]: [Root.GetName: event kn.political.12"}
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		MLU = {
+			set_province_controller = 1348
+			set_province_controller = 4355
+		}	
+		MLY = {
+			set_province_controller = 4384
+		}		
+	}
+}
+
+
+
+
+###########################
+# Popularity Events
+###########################
+
+
+
+country_event = {
+	id = kn.political.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event kn.political.21"}
+
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_country_flag = unpopular_government }
+		OR = {
+			#NOT = {
+			#	has_idea = party_pop_0_90
+			#	has_idea = party_pop_0_80
+			#	has_idea = party_pop_0_70
+			#	has_idea = party_pop_0_60
+			#	has_idea = party_pop_0_50
+			#	has_idea = party_pop_0_40
+			#	has_idea = party_pop_0_30
+			#	has_idea = party_pop_0_20
+			#	has_idea = party_pop_0_10
+			#	has_idea = party_pop_0_00
+			#}
+			AND = {
+				#has_idea = party_pop_0_90
+				check_variable = { var = NS_ruling_party_pop value = 90 compare = less_than }
+			}
+			AND = {
+				#has_idea = party_pop_0_80
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 90 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 80 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_70
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 80 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 70 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_60
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 70 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 60 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_50
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 60 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 50 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_40
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 50 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 40 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_30
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 40 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 30 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_20
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 30 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 20 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_10
+				OR = {
+					check_variable = { var = NS_ruling_party_pop value = 20 compare = greater_than_or_equals }
+					check_variable = { var = NS_ruling_party_pop value = 10 compare = less_than }
+				}
+			}
+			AND = {
+				#has_idea = party_pop_0_00
+				check_variable = { var = NS_ruling_party_pop value = 10 compare = greater_than_or_equals }
+			}
+		}
+	}
+
+	option = {
+		#remove_ideas = party_pop_0_90
+		#remove_ideas = party_pop_0_80
+		#remove_ideas = party_pop_0_70
+		#remove_ideas = party_pop_0_60
+		#remove_ideas = party_pop_0_50
+		#remove_ideas = party_pop_0_40
+		#remove_ideas = party_pop_0_30
+		#remove_ideas = party_pop_0_20
+		#remove_ideas = party_pop_0_10
+		#remove_ideas = party_pop_0_00
+
+		if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 90 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_90
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 80 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_80
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 70 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_70
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = RNS_ruling_party_pop value = 60 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_60
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 50 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_50
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 40 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_40
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 30 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_30
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 20 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_20
+		}
+		else_if = {
+			limit = {
+				check_variable = { var = NS_ruling_party_pop value = 10 compare = greater_than_or_equals }
+			}
+			#add_ideas = party_pop_0_10
+		}
+		else = {
+			#add_ideas = party_pop_0_00
+		}
+	}
+}
+
+###########################
+# Minister Influence Events
+###########################
+
+#### Damage Ruling Party socialist ####
+country_event = {
+	id = kn.political.16
+	title = kn.political.16.t
+	desc = kn.political.16.d
+	picture = GFX_report_event_generic_rally
+
+	trigger = {
+		NOT = {
+			has_government = revolutionary_socialism
+			has_government = moderate_socialist
+		}
+		OR = {
+			AND = { has_idea_with_trait = revolutionary_socialism revolutionary_socialism < 0.7 }
+			AND = { has_idea_with_trait = moderate_socialist moderate_socialist < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = revolutionary_socialism
+			revolutionary_socialism > 0.299
+			revolutionary_socialism < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = revolutionary_socialism
+			revolutionary_socialism > 0.399
+			revolutionary_socialism < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = moderate_socialist
+			moderate_socialist > 0.299
+			moderate_socialist < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = moderate_socialist
+			moderate_socialist > 0.399
+			moderate_socialist < 0.5
+		}
+	}
+
+	option = {
+		name = kn.political.16.a
+		ai_chance = {
+			factor = 50
+
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = autocratic autocratic < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
+					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
+					AND = { has_government = syndicalism syndicalism > 0.599 syndicalism < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
+					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
+					AND = { has_government = ultraconservative ultraconservative > 0.599 ultraconservative < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
+				}
+			}
+			modifier = {
+				factor = 1.7
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = autocratic autocratic > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
+				}
+			}
+		}
+
+		if = {
+			limit = { has_idea_with_trait = revolutionary_socialism }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = moderate_socialist }
+			add_popularity = { ideology = moderate_socialist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = kn.political.16.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = autocratic autocratic < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.599 social_democrat < 0.75 }
+					AND = { has_government = social_liberal social_liberal > 0.599 social_liberal < 0.75 }
+					AND = { has_government = syndicalism syndicalism > 0.599 syndicalism < 0.75 }
+					AND = { has_government = social_conservative social_conservative > 0.599 social_conservative < 0.75 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.599 authoritarian_democrat < 0.75 }
+					AND = { has_government = autocratic autocratic > 0.599 autocratic < 0.75 }
+					AND = { has_government = ultraconservative ultraconservative > 0.599 ultraconservative < 0.75 }
+					AND = { has_government = national_corporatist national_corporatist > 0.599 national_corporatist < 0.75 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = autocratic autocratic > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+#### Ruling Party Support socialist ####
+country_event = {
+	id = kn.political.17
+	title = kn.political.17.t
+	desc = kn.political.17.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		OR = {
+			AND = {
+				has_government = revolutionary_socialism
+				has_idea_with_trait = revolutionary_socialism
+				revolutionary_socialism < 0.97
+			}
+			AND = {
+				has_government = moderate_socialist
+				has_idea_with_trait = moderate_socialist
+				revolutionary_socialism < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = revolutionary_socialism
+			revolutionary_socialism > 0.599
+			revolutionary_socialism < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = revolutionary_socialism
+			revolutionary_socialism > 0.799
+			revolutionary_socialism < 1
+		}
+		
+		modifier = {
+			factor = 2
+			has_government = moderate_socialist
+			moderate_socialist > 0.599
+			moderate_socialist < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = moderate_socialist
+			moderate_socialist > 0.799
+			moderate_socialist < 1
+		}
+	}
+	option = {
+		name = kn.political.17.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.85 revolutionary_socialism > 0.599 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.85 moderate_socialist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.849 }
+					AND = { has_government = moderate_socialist moderate_socialist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.5 revolutionary_socialism > 0.199 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.5 moderate_socialist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = revolutionary_socialism }
+			add_popularity = { ideology = revolutionary_socialism popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = moderate_socialist }
+			add_popularity = { ideology = moderate_socialist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = kn.political.17.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.85 revolutionary_socialism > 0.599 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.85 moderate_socialist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.849 }
+					AND = { has_government = moderate_socialist moderate_socialist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.5 revolutionary_socialism > 0.199 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.5 moderate_socialist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+#### Ruling Party Support Reactionary ####
+country_event = {
+	id = kn.political.18
+	title = kn.political.18.t
+	desc = kn.political.18.d
+	picture = GFX_report_event_generic_rally_3
+
+	trigger = {
+		OR = {
+			AND = {
+				has_government = authoritarian_democrat
+				has_idea_with_trait = authoritarian_democrat
+				authoritarian_democrat < 0.97
+			}
+			AND = {
+				has_government = autocratic
+				has_idea_with_trait = autocratic
+				autocratic < 0.97
+			}
+			AND = {
+				has_government = ultraconservative
+				has_idea_with_trait = ultraconservative
+				ultraconservative < 0.97
+			}
+			AND = {
+				has_government = national_corporatist
+				has_idea_with_trait = national_corporatist
+				national_corporatist < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = authoritarian_democrat
+			authoritarian_democrat > 0.599
+			authoritarian_democrat < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = authoritarian_democrat
+			authoritarian_democrat > 0.799
+			authoritarian_democrat < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = autocratic
+			autocratic > 0.599
+			autocratic < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = autocratic
+			autocratic > 0.799
+			autocratic < 1
+		}
+		
+		modifier = {
+			factor = 2
+			has_government = ultraconservative
+			ultraconservative > 0.599
+			ultraconservative < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = ultraconservative
+			ultraconservative > 0.799
+			ultraconservative < 1
+		}
+		
+		modifier = {
+			factor = 2
+			has_government = national_corporatist
+			national_corporatist > 0.599
+			national_corporatist < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = national_corporatist
+			national_corporatist > 0.799
+			national_corporatist < 1
+		}
+	}
+	option = {
+		name = kn.political.18.a
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
+					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
+					AND = { has_government = autocratic autocratic > 0.849 }
+					AND = { has_government = ultraconservative ultraconservative > 0.849 }
+					AND = { has_government = national_corporatist national_corporatist > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
+					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.5 ultraconservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.5 national_corporatist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = autocratic autocratic < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = autocratic }
+			add_popularity = { ideology = autocratic popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = authoritarian_democrat }
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = ultraconservative }
+			add_popularity = { ideology = ultraconservative popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
+		}
+	}
+	option = {
+		name = kn.political.18.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.85 authoritarian_democrat > 0.599 }
+					AND = { has_government = autocratic autocratic < 0.85 autocratic > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.849 }
+					AND = { has_government = autocratic autocratic > 0.849 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.5 authoritarian_democrat > 0.199 }
+					AND = { has_government = autocratic autocratic < 0.5 autocratic > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = autocratic autocratic < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.85 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.85 national_corporatist > 0.599 }
+				}
+			}
+		}
+	}
+}
+
+#### Ruling Party Support democrats ####
+country_event = {
+	id = kn.political.20
+	title = kn.political.20.t
+	desc = kn.political.20.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		OR = {
+			AND = {
+				has_government = social_democrat
+				has_idea_with_trait = social_democrat
+				social_democrat < 0.97
+			}
+			AND = {
+				has_government = social_liberal
+				has_idea_with_trait = social_liberal
+				social_liberal < 0.97
+			}
+			AND = {
+				has_government = syndicalism
+				has_idea_with_trait = syndicalism
+				syndicalism < 0.97
+			}
+			AND = {
+				has_government = social_conservative
+				has_idea_with_trait = social_conservative
+				social_conservative < 0.97
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_government = social_democrat
+			social_democrat > 0.599
+			social_democrat < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_democrat
+			social_democrat > 0.799
+			social_democrat < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = social_liberal
+			social_liberal > 0.599
+			social_liberal < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_liberal
+			social_liberal > 0.799
+			social_liberal < 1
+		}
+
+		modifier = {
+			factor = 2
+			has_government = syndicalism
+			syndicalism > 0.599
+			syndicalism < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = syndicalism
+			syndicalism > 0.799
+			syndicalism < 1
+		}
+		modifier = {
+			factor = 2
+			has_government = social_conservative
+			social_conservative > 0.599
+			social_conservative < 0.8
+		}
+		modifier = {
+			factor = 4
+			has_government = social_conservative
+			social_conservative > 0.799
+			social_conservative < 1
+		}
+	}
+	option = {
+		name = kn.political.20.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.85 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.849 }
+					AND = { has_government = social_liberal social_liberal > 0.849 }
+					AND = { has_government = syndicalism syndicalism > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.5 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+		}
+
+		add_political_power = -25
+		if = {
+			limit = { has_government = social_democrat }
+			add_popularity = { ideology = social_democrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = social_liberal }
+			add_popularity = { ideology = social_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = syndicalism }
+			add_popularity = { ideology = syndicalism popularity = 0.03 }
+		}
+		if = {
+			limit = { has_government = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
+		}
+	}
+	option = {
+		name = kn.political.20.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.85 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.85 social_liberal > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.85 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.85 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = social_democrat social_democrat > 0.849 }
+					AND = { has_government = social_liberal social_liberal > 0.849 }
+					AND = { has_government = syndicalism syndicalism > 0.849 }
+					AND = { has_government = social_conservative social_conservative > 0.849 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.5 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.5 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.5 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.5 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+		}
+	}
+}
+
+### Decrease of support by rectionaries ###
+country_event = {
+	id = kn.political.21
+	title = kn.political.21.t
+	desc = kn.political.21.d
+	picture = GFX_report_event_generic_rally_3
+
+	trigger = {
+		NOT = {
+			has_government = autocratic
+			has_government = authoritarian_democrat
+			has_government = ultraconservative
+			has_government = national_corporatist
+		}
+		OR = {
+			AND = { has_idea_with_trait = autocratic autocratic < 0.7 }
+			AND = { has_idea_with_trait = authoritarian_democrat authoritarian_democrat < 0.7 }
+			AND = { has_idea_with_trait = ultraconservative ultraconservative < 0.7 }
+			AND = { has_idea_with_trait = national_corporatist national_corporatist < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = autocratic
+			autocratic > 0.299
+			autocratic < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = autocratic
+			autocratic > 0.399
+			autocratic < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = authoritarian_democrat
+			authoritarian_democrat > 0.299
+			authoritarian_democrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = authoritarian_democrat
+			authoritarian_democrat > 0.399
+			authoritarian_democrat < 0.5
+		}
+		
+		modifier = {
+			factor = 2
+			has_idea_with_trait = ultraconservative
+			ultraconservative > 0.299
+			ultraconservative < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = ultraconservative
+			ultraconservative > 0.399
+			ultraconservative < 0.5
+		}
+
+		modifier = {
+			factor = 2
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.299
+			national_corporatist < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = national_corporatist
+			national_corporatist > 0.399
+			national_corporatist < 0.5
+		}
+
+	}
+
+	option = {
+		name = kn.political.21.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 0.1
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
+					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.75 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 1.7
+				OR = {
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
+					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+				}
+			}
+		}
+
+		if = {
+			limit = { has_idea_with_trait = autocratic }
+			add_popularity = { ideology = autocratic popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = authoritarian_democrat }
+			add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = ultraconservative }
+			add_popularity = { ideology = ultraconservative popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = national_corporatist }
+			add_popularity = { ideology = national_corporatist popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = kn.political.21.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
+					AND = { has_government = social_democrat social_democrat < 0.35 social_democrat > 0.199 }
+					AND = { has_government = social_liberal social_liberal < 0.35 social_liberal > 0.199 }
+					AND = { has_government = syndicalism syndicalism < 0.35 syndicalism > 0.199 }
+					AND = { has_government = social_conservative social_conservative < 0.35 social_conservative > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
+					AND = { has_government = social_democrat social_democrat < 0.2 }
+					AND = { has_government = social_liberal social_liberal < 0.2 }
+					AND = { has_government = syndicalism syndicalism < 0.2 }
+					AND = { has_government = social_conservative social_conservative < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
+					AND = { has_government = social_democrat social_democrat < 0.75 social_democrat > 0.599 }
+					AND = { has_government = social_liberal social_liberal < 0.75 social_liberal > 0.599 }
+					AND = { has_government = syndicalism syndicalism < 0.75 syndicalism > 0.599 }
+					AND = { has_government = social_conservative social_conservative < 0.75 social_conservative > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
+					AND = { has_government = social_democrat social_democrat > 0.749 }
+					AND = { has_government = social_liberal social_liberal > 0.749 }
+					AND = { has_government = syndicalism syndicalism > 0.749 }
+					AND = { has_government = social_conservative social_conservative > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+### Decrease of support by democrats ###
+country_event = {
+	id = kn.political.23
+	title = kn.political.23.t
+	desc = kn.political.23.d
+	picture = GFX_report_event_generic_rally2
+
+	trigger = {
+		NOT = {
+			has_government = social_conservative
+			has_government = syndicalism
+			has_government = social_liberal
+			has_government = social_democrat
+		}
+		OR = {
+			AND = { has_idea_with_trait = social_conservative social_conservative < 0.7 }
+			AND = { has_idea_with_trait = syndicalism syndicalism < 0.7 }
+			AND = { has_idea_with_trait = social_liberal social_liberal < 0.7 }
+			AND = { has_idea_with_trait = social_democrat social_democrat < 0.7 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 18
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.299
+			social_conservative < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_conservative
+			social_conservative > 0.399
+			social_conservative < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = syndicalism
+			syndicalism > 0.299
+			syndicalism < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = syndicalism
+			syndicalism > 0.399
+			syndicalism < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_liberal
+			social_liberal > 0.299
+			social_liberal < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_liberal
+			social_liberal > 0.399
+			social_liberal < 0.5
+		}
+		modifier = {
+			factor = 2
+			has_idea_with_trait = social_democrat
+			social_democrat > 0.299
+			social_democrat < 0.4
+		}
+		modifier = {
+			factor = 4
+			has_idea_with_trait = social_democrat
+			social_democrat > 0.399
+			social_democrat < 0.5
+		}
+	}
+
+	option = {
+		name = kn.political.23.a
+		if = {
+			limit = { has_idea_with_trait = social_conservative }
+			add_popularity = { ideology = social_conservative popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = syndicalism }
+			add_popularity = { ideology = syndicalism popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = social_liberal }
+			add_popularity = { ideology = social_liberal popularity = 0.03 }
+		}
+		if = {
+			limit = { has_idea_with_trait = social_democrat }
+			add_popularity = { ideology = social_democrat popularity = 0.03 }
+		}
+	}
+
+	option = {
+		name = kn.political.23.b
+
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1.5
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.35 moderate_socialist > 0.199 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.35 revolutionary_socialism > 0.199 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.35 authoritarian_democrat > 0.199 }
+					AND = { has_government = autocratic autocratic < 0.35 autocratic > 0.199 }
+					AND = { has_government = ultraconservative ultraconservative < 0.35 ultraconservative > 0.199 }
+					AND = { has_government = national_corporatist national_corporatist < 0.35 national_corporatist > 0.199 }
+				}
+			}
+			modifier = {
+				factor = 1.9
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.2 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.2 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.2 }
+					AND = { has_government = autocratic autocratic < 0.2 }
+					AND = { has_government = ultraconservative ultraconservative < 0.2 }
+					AND = { has_government = national_corporatist national_corporatist < 0.2 }
+				}
+			}
+			modifier = {
+				factor = 0.5
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist < 0.75 moderate_socialist > 0.599 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism < 0.75 revolutionary_socialism > 0.599 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat < 0.75 authoritarian_democrat > 0.599 }
+					AND = { has_government = autocratic autocratic < 0.75 autocratic > 0.599 }
+					AND = { has_government = ultraconservative ultraconservative < 0.75 ultraconservative > 0.599 }
+					AND = { has_government = national_corporatist national_corporatist < 0.75 national_corporatist > 0.599 }
+				}
+			}
+			modifier = {
+				factor = 0.3
+				OR = {
+					AND = { has_government = moderate_socialist moderate_socialist > 0.749 }
+					AND = { has_government = revolutionary_socialism revolutionary_socialism > 0.749 }
+					AND = { has_government = authoritarian_democrat authoritarian_democrat > 0.749 }
+					AND = { has_government = autocratic autocratic > 0.749 }
+					AND = { has_government = ultraconservative ultraconservative > 0.749 }
+					AND = { has_government = national_corporatist national_corporatist > 0.749 }
+				}
+			}
+		}
+
+		add_political_power = -25
+	}
+}
+
+###########################
+# Introduction Events
+###########################
+
+country_event = {
+	id = kn.political.24
+	title = kn.political.24.t
+	desc = kn.political.24.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kn.political.24.a #Start
+	}
+
+	option = {
+		name = kn.political.24.c #FAQ
+		country_event = { id = kn.political.26 }
+	}
+
+}
+
+country_event = {
+	id = kn.political.26 #FAQ
+	title = kn.political.26.t
+	desc = kn.political.26.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = kn.political.26.a
+	}
+}
+
+### Remove independent war
+country_event = {
+	id = kn.political.30
+	title = kn.political.30.t
+	desc = kn.political.30.d
+	
+	is_triggered_only = yes
+
+	trigger = {
+		#has_idea = independent_war
+		has_war = no
+	}
+
+	option = {
+		name = kn.political.30.a
+		#remove_ideas = independent_war
+	}
+
+}
+
+
+### Setting up Opinion Modifiers at Gamestart ###
+country_event = {
+	id = kn.political.40
+	title = kn.political.40.t
+	desc = kn.political.40.d
+	
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		#SP_ideology_opinion_gamestart_setup = yes
+	}
+	
+	option = {
+		name = kn.political.40.a
+	}
+
+}
+
+### Setting up Opinion Modifiers on Government Change ###
+country_event = {
+	id = kn.political.41
+	title = kn.political.40.t
+	desc = kn.political.40.d
+	
+	hidden = yes
+	
+	is_triggered_only = yes
+
+	immediate = {
+		#SP_remove_ideology_opinion = yes
+		#SP_ideology_opinion_govtchange_setup = yes
+	}
+	
+	
+	option = {
+		name = kn.political.40.a
+	}
+
+}

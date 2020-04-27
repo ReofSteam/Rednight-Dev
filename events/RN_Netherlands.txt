@@ -1,0 +1,66 @@
+###Dutch Events
+
+add_namespace = dutch_uprising
+
+country_event = {
+	id = dutch_uprising.1
+	title = dutch_uprising.1.t
+	desc = dutch_uprising.1.d
+	picture = GFX_report_event_generic_battle
+
+	is_triggered_only = yes
+
+	option = {
+		name = dutch_uprising.1.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Gerben Wagenaar"
+			desc = "POLITICS_WAGENAAR_DESC"
+			picture = "gfx/leaders/WESTERN_EUROPE/NTH/Portrait_HOL_Gerben_Wagenaar.tga"
+			expire = "1965.1.1"
+			ideology = revolutionary_socialism_subtype
+			traits = {
+		
+			}
+		}
+		hidden_effect  = {
+			KND = {
+				declare_war_on = {
+					target = NTH
+					type = annex_everything
+				}
+				load_oob = "KNR_revolt"
+				transfer_state = 1163
+				transfer_state = 1165
+			}
+		}
+	}
+	option = {
+		name = dutch_uprising.1.b
+		hidden_effect  = {
+		retire_country_leader = yes
+			create_country_leader = {
+				name = "Gerben Wagenaar"
+				desc = "POLITICS_WAGENAAR_DESC"
+				picture = "gfx/leaders/WESTERN_EUROPE/NTH/Portrait_HOL_Gerben_Wagenaar.tga"
+				expire = "1965.1.1"
+				ideology = revolutionary_socialism_subtype
+				traits = {
+		
+				}
+			}
+			KND = {
+				declare_war_on = {
+					target = NTH
+					type = annex_everything
+				}
+				load_oob = "KNR_revolt"
+				transfer_state = 1163
+				transfer_state = 1165
+			}
+		}
+		KND = {
+			change_tag_from = ROOT
+		}
+	}
+}

@@ -1,0 +1,53 @@
+﻿add_namespace = kn_russia
+add_namespace = kn_russia_pol
+
+news_event = {
+	id = kn_russia.0
+	title = kn_russia.0.t
+	desc = kn_russia.0.d
+	picture = GFX_RUS_Salvation_Day
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = RUS
+		date > 1950.9.15
+		NOT = {
+			has_country_flag = RUS_Salvation_Day
+		}
+		country_exists = RUS
+	}
+
+	immediate = {
+		set_country_flag = RUS_Salvation_Day
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	option = {
+		name = kn_russia.0.o1
+		if = {
+			limit = {
+				NOT = {
+					has_idea = RUS_glory_to_the_vozhd
+				}
+			}
+			add_ideas = RUS_glory_to_the_vozhd
+		}
+	}
+}
+
+country_event = { #glasenapp ded
+	id = kn_russia_pol.0
+	title = kn_russia_pol.0.t
+	desc = kn_russia_pol.0.d
+	picture = GFX_RUS_glasenapp
+
+	is_triggered_only = yes
+
+	option = {
+		name = kn_russia_pol.0.a
+	}
+}
