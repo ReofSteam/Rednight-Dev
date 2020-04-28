@@ -1,7 +1,7 @@
 ﻿l_english:
 
 ### Loading Messages ###
-LOADING_GUI:0 "Crashing the Stock Market"
+LOADING_GUI:0 "Escaping to Switzerland"
 #"Loading GUI"
 LOADING_HISTORY:0 "Rioting in the Colonies"
 #"Loading History"
@@ -45,7 +45,7 @@ PROC_FLAGS:0 "Adding a Coat of Arms"
 #"Processing Flags"
 INIT_MAP_LOGIC:0 "Crushing African Revolts"
 #"Initialising map logic"
-INIT_GAMESTATE:0 "Inaugurating President Flynn"
+INIT_GAMESTATE:0 "Waiting for the Bomb"
 #"Initialising game"
 EXECUTE_HISTORY:0 "Starting Revolutions in the Americas"
 #"Executing history"
