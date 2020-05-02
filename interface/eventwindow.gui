@@ -35,7 +35,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 130 }
+				position = { x = 0 y = 70 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -46,7 +46,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=50 y=75}
+				position = {x=15 y=10}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -54,7 +54,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=193 }	
+			position = { x=0 y=163 }	
 			size = { width = 563 height = 111 }
 			moveable = yes
 			Orientation = UPPER_LEFT
@@ -66,7 +66,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Description"
-				position = { x = 62 y = 0 }
+				position = { x = 50 y = 0 }
 				font = "hoi4_typewriter16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	

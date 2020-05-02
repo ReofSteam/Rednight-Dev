@@ -1,281 +1,75 @@
 ﻿###########################
 # German Events
 ###########################
-
 add_namespace = ger
+add_namespace = ger_flavor
+add_namespace = foz
+add_namespace = boz
+add_namespace = joz
 
-
-country_event = {
-	id = ger.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.2"}
-	title = ger.1.t
-	desc = ger.1.d
+####INTROS
+country_event = { ##Germany Intro
+	id = ger.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.0"}
+	title = ger.0.t
+	desc = ger.0.d
 
 	is_triggered_only = yes
 	fire_only_once = yes
-    trigger = {
-		tag = GER
-	}
 
 	option = {
-		name = ger.1.a
+		name = ger.0.a
 		add_political_power = 15
 
 	}			
 }
 
-country_event = {
-	id = ger.2
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.2"}
-	title = ger.2.t
-	desc = ger.2.d
+country_event = { ##FOZ Intro
+	id = foz.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event foz.0"}
+	title = foz.0.t
+	desc = foz.0.d
 
 	is_triggered_only = yes
 	fire_only_once = yes
-    	trigger = {
-		tag = GER
-		}
-
+	
 	option = {
-		name = ger.2.a
-		add_political_power = -75
-        #remove_ideas = GER_refugee_crisis
+		name = foz.0.a
+		add_political_power = 15
+
 	}			
 }
-country_event = {
-	id = ger.3
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.3"}
-	title = ger.3.t
-	desc = ger.3.d
+
+country_event = { ##BOZ Intro
+	id = boz.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event boz.0"}
+	title = boz.0.t
+	desc = boz.0.d
 
 	is_triggered_only = yes
 	fire_only_once = yes
-    	trigger = {
-		tag = GER
-		}
 
 	option = {
-		name = ger.3.a
+		name = boz.0.a
 		add_political_power = 15
-		}			
-	}
-country_event = {
-	id = ger.4
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.4"}
-	title = ger.4.t
-	desc = ger.4.d
 
-	is_triggered_only = yes
-	fire_only_once = yes
-    	trigger = {
-		tag = GER
-		}
-
-	option = {
-		name = ger.4.a
-		add_political_power = 50
-		add_stability = -0.1
-		}			
-    	option = {
-		name = ger.4.b
-		add_political_power = -50
-		add_stability = 0.1
-		}			
-	}	
-
-#########5th World Congress######
-country_event = {
-	id = ger.5
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.5"}
-	title = ger.5.t
-	desc = ger.5.d
-
-	fire_only_once = yes
-	trigger = {
-		tag = GER
-		NOT = { has_completed_focus = GER_theoccupationisover }
-		focus_progress = {
-			focus = GER_theoccupationisover
-			progress > 0.05
-		}
-	}
-		mean_time_to_happen = {
-		days = 1
-	}
-	option = {
-		name = ger.5.a
-		add_political_power = 25
-		add_stability = 0.01
-        set_global_flag = fifth_world_congress
-		news_event = { days = 1 id = worldnew.1}
-		FRA = { country_event = { days = 8 id = ger.6 }}
-		}			
-	}
-country_event = { #fate of saarland
-	id = ger.6
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.6"}
-	title = ger.6.t
-	desc = ger.6.d
-
-	fire_only_once = yes
-    	trigger = {
-		tag = FRA
-		has_global_flag = fifth_world_congress
-		}
-
-	option = {
-		name = ger.6.a
-		set_global_flag = independent_saarland
-		news_event = { days = 3 id = ger.7 }	
-		}
-    option = {
-		name = ger.6.b
-		set_global_flag = saarland_is_german
-		news_event = { days = 3 id = ger.7}
-		}					
-	}
-news_event = { #Result of Fate of Saarland
-	id = ger.7
-	title = ger.7.t
-	desc = ger.7.d
-
-	is_triggered_only = yes
-	fire_only_once = yes
-    	trigger = {
-		is_in_faction_with = FRA
-		has_global_flag = fifth_world_congress
-		}	
-	major = yes
-	
-	option = {
-		name = ger.7.a
-		trigger = { 
-		has_global_flag = independent_saarland
-		}				
-	}
-		option = {
-		name = ger.7.b
-		trigger = { 
-		has_global_flag = saarland_is_german
-		}				
-	}
-	}
-country_event = { #voting on eastern border
-	id = ger.8
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.8"}
-	title = ger.8.t
-	desc = ger.8.d
-
-	is_triggered_only = yes
-	fire_only_once = yes
-    	trigger = {
-		has_global_flag = fifth_world_congress
-		}
-
-    	option = {
-		name = ger.8.a		
-		hidden_effect = { GER = { country_event = { days = 2 id = ger.9}}}
-		}					
-	}
-country_event = { #eastern border trigger (hidden)#
-	id = ger.9
-	title = ger.9.t
-	desc = ger.9.d
-	hidden = yes
-
-	is_triggered_only = yes
-	fire_only_once = yes
-    	trigger = {
-		has_global_flag = fifth_world_congress
-		}
-        immediate = {
-		random_list = {
-		    20 = { set_global_flag = imperial_border }
-			70 = { set_global_flag = noder_esser_line }
-			10 = { set_global_flag = what}
-		}
-		news_event = { days = 3 id = ger.10}
-	}	
-    	option = {
-		name = ger.9.a		
-		}					
-	}
-news_event = { #Result of Eastern Border
-	id = ger.10
-	title = ger.10.t
-	desc = ger.10.d
-
-	is_triggered_only = yes
-	fire_only_once = yes
-    	trigger = {
-		has_global_flag = fifth_world_congress
-		}	
-		
-	major = yes
-	
-	option = {
-		name = ger.10.a
-		trigger = { 
-		has_global_flag = imperial_border
-		}				
-	}
-		option = {
-		name = ger.10.b
-		trigger = { 
-		has_global_flag = saarland_is_german
-		}				
-	}
-	}
-country_event = { #reunify germany #1
-	id = ger.13
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.6"}
-	title = ger.13.t
-	desc = ger.13.d
-
-	fire_only_once = yes
-    	trigger = {
-		tag = GER
-		has_global_flag = fifth_world_congress
-		}
-
-	option = {
-		name = ger.13.a
-		annex_country = {
-        target = JOZ		
-	 	}
-		annex_country = {
-        target = FOZ		
-	 	}
-		annex_country = {
-        target = BOZ		
-	 	}		
-	}
+	}			
 }
-####Decision####	
-#Reeeeeactionary general
-country_event = { 
-	id = ger.15
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.15"}
-	title = ger.15.t
-	desc = ger.15.d
+
+country_event = { ##JOZ Intro
+	id = joz.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.0"}
+	title = ger.0.t
+	desc = ger.0.d
 
 	is_triggered_only = yes
 	fire_only_once = yes
-    	trigger = {
-		tag = GER
- 		}
 
-    	option = {
-		name = ger.15.a	
-        #add_ideas = GER_imperial_generalstaff		
-		}					
-    	option = {
-		name = ger.15.b
-        #add_ideas = GER_purged_generalstaff				
-		}		
-        option = {
-		name = ger.15.c
-        #add_ideas = GER_loyal_generalstaff				
-		}		
-	} 	 	
+	option = {
+		name = joz.0.a
+		add_political_power = 15
 
+	}			
+}
+
+###GERMANY

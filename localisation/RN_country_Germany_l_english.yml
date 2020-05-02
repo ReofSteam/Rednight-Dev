@@ -217,8 +217,9 @@ GER_occupied_social_democrat_DEF:0 "Provisional Administration in Germany"
 ### Opinions ###
 
 ### Ideas ###
-GER_IDEA_NAME:0 "-"
-GER_IDEA_NAME_desc:0 "-"
+###Shared
+GER_reconstruction_germany:0 "The Occupation of Germany"
+GER_reconstruction_germany_desc:0 "The Great Drama has ended. Once the masters of Europe, our people have fallen to the Red tide. To many it felt like the apocalypse, and yet today the sun still rises.\n\nWe face an uncertain future, and there is much to be done. From the Rhine to the Baltic Sea, industry and infrastructure remain in tatters, our people lie disillusioned, and our supplies scarce.\n\nOld notions of truth and fatherland are fading. We must rediscover ourselves, and our role upon the world stage. The road ahead is long and fraught, but if we steer ourselves, we will surely come through in one piece."
 
 ### Focuses ###
 GER_FOCUS_NAME:0 "-"
@@ -232,7 +233,7 @@ GER_decision_group_name_desc:0 "-"
 GER_flag_name:0 "-"
 
 ### Tooltips ###
-GER_thing_being_tooltiped_name_tooltip:0 "-"
+GER_cannot_train_units_tt:0 "§RDue to the terms of peace, Germany is unable to train miitary units!§!"
 
 ### Companies ###
 
@@ -246,3 +247,22 @@ POLITICS_OTTO_GROTEWOHL_DESC:0 "Had any been asked to predict the future of the 
 ### Tech ###
 
 ### Events ###
+###GER
+ger.0.t:0 "Crossroads"
+ger.0.d:0 ""An island" Dietrich stated, matter-of-factly. "Perhaps tropical, perhaps not. But an Island nevertheless!"\n\nSchmidt snorted with amusement at the foolish old man. "An entire island, only for yourself? Though I suppose that's typical, considering your difficulties attracting female attention."\n\nThe room erupted upon this remark, excluding Dietrich of course. Boisterous laughter  filled the starry sky outside the checkpoint, quieted by the renewed clinking of glasses.\n\n"What about you, Schmidt? Have you a grander plan then mine?"\n\nSchmidt pondered for a moment, furrowing his brow. Truthfully, he had never given it much thought. A socialist since youth, the prospect of a German revolution had served as his guiding star. Now that it had come, albeit by bayonet point, he hadn't the faintest idea of who he would be when the occupation ended.\n\nDietrich, pounced upon the opportunity. "Hah, is my island still so foolish now? At least I have an ide…."\n\n"Politics" schmidt stated bluntly. "I think I'd run for representative."\n\n"Representative of what?" Slurred Paul "As if any of us have the faintest idea when civilian governance will return, or what form it will take."\n\n"Whatever it is" Schmidt thought aloud "I intend to be a part of it.""
+ger.0.a:0 "An uncertain destiny..."
+
+###BOZ
+boz.0.t:0 ""
+boz.0.d:0 ""
+boz.0.a:0 ""
+
+###FOZ
+foz.0.t:0 "Reminiscence"
+foz.0.d:0 "So it was that Erwin Rommel; Infamous last marshal of the German Empire, surrendered once again. His opponent, a thin 300 page novel called "White Sun Over China" , had bested him five times. Doomed to a renewed life of boredom he shuffled inside, grabbed a beer, and returned to his balcony.\n\nThe cool air whipped through his hair, comforting in its familiarity. This he could understand better then any foreign utopian drivel. He gazed out across the city, taking in its aura. When had the world gone so mad that men might abandon a Fatherland such as this?\n\nFor a time, things were peaceful. He sipped his drink as he watched a French flag ceremony in the distance. It was an affair in which a particular private seemed to be struggling. He smirked at the lack of discipline displayed by the communards, for there was something self assuring within it.\n\nSoon however, the agonizing boredom of house arrest returned, and the newspaper was cracked open in his balcony chair. The headline caused his stomach to jump into his throat, and boredom became a burning rage.\n\n"Keitel to be executed after lengthy trial"\n\nErwin remembered General Keitel. He had been a suckup, a bumbling buffoon who jumped at any chance to kiss the feet of his Kaiser. At the time, Rommel had despised the man, suffering his annoying behavior only in the interest of his decent combat record. Now, he felt sick.\n\n"A goddamned execution?" He muttered "Are they truly barbarians?""
+foz.0.a:0 "In light of his crimes, it was a mercy..."
+
+###JOZ
+joz.0.t:0 "The Joint Occupation"
+joz.0.d:0 "Clark pressed his nose against the train window in childish wonder, doing his best to ignore the defeatist to his right. He had heard Berlin described as a "beautiful disaster" by his superior, but only now did the meaning of such a phrase crystalize.\n\nBeyond the pane, convoys bearing a thousand unique insignia travelled frenzied across tight European streets. Beside them were the uniforms, worn in a multitude of colors, from tan to grey by men who crossed upon any opening. Additionally striking were the flags. Red banners of every shade, slung over hastily reconstructed buildings.\n\n"Like an Ant-hill" Clark thought "Ordered chaos"\n\nIt would be half an hour before they finally arrived In Berlin Central Station, coming to a sudden stop below its half-repaired dome. Adler, the cynic, let out a guttural groan."\n\nOh get over it ya fuddy duddy!" called Franklin from two rows down "You'll make the rest of us look like stiffs."\n\nAdler scowled, and turned his face to Clark.\n"He's right you know, today is supposed to be a celebration, not a vigil."\n\n"I did my time already" he muttered back "Only reason I'm here is outta respect for the militia"\n\nThe men filed out of their seats, grabbed their packs, and assembled on the station floor. Soon they found themselves before the Brandenburg Gate, flanked on either side by y the tremendous thunder of clapping hands.\n\nClark fought back tears as the twin jets streaked overhead. He understood his friend's cynicism, for the war had spared none. It came to him often, and  with each closed his eyes and heard their voices…\n\nToday, none of it mattered.  Here he was in the city of the future. The night had been long and dark, and at the end of it all, he deserved a fucking parade. They all did. The first Americans in Europe! It was a day to remember, and a sign of things to come.Together, they would forge an earthly paradise greater than any heaven."
+joz.0.a:0 "Welcome to the Front!"

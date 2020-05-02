@@ -1,0 +1,16 @@
+### German Ideas
+ideas = {
+	##############
+	# Country ideas
+	##############
+		# Start
+		GER_reconstruction_germany = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_imperial_pride"}
+			picture = GER_occupation_spirit
+			modifier = {
+				custom_modifier_tooltip = GER_cannot_train_units_tt
+				production_factory_max_efficiency_factor = -0.5
+				consumer_goods_factor = 1
+			}
+		}
+}

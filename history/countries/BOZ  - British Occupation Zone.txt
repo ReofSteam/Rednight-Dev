@@ -1,9 +1,9 @@
-﻿capital = 1264
+﻿capital = 59
 
 oob = "GER"
 
 add_ideas = {
-	
+	GER_reconstruction_germany
 }
 
 # Starting tech
@@ -56,6 +56,8 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = no
 }
+
+country_lock_all_division_template = yes
 
 set_popularities = {
 	nationalist_socialism = 6
