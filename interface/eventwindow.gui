@@ -35,7 +35,7 @@ guiTypes = {
 		
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 0 y = 70 }
+				position = { x = 0 y = 100 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -92,7 +92,7 @@ guiTypes = {
 			{
 				name ="event_picture"
 				spriteType = "GFX_report_event_001"
-				position = { x = 5 y = 0 }
+				position = { x = 355 y = 0 }
 				Orientation = "UPPER_LEFT"
 				allwaystransparent = yes				
 			}
@@ -101,13 +101,13 @@ guiTypes = {
 			{
 				name ="event_pic_clip"
 				spriteType = "GFX_event_pic_clip"
-				position = { x = -3 y = 35 }
+				position = { x = 505 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}			
 
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 215 y = -1 }
+				position = { x = 0 y = 0 }
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1

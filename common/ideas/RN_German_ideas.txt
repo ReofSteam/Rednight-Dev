@@ -3,9 +3,10 @@ ideas = {
 	##############
 	# Country ideas
 	##############
+	country = {
 		# Start
 		GER_reconstruction_germany = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_imperial_pride"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_reconstruction_germany"}
 			picture = GER_occupation_spirit
 			modifier = {
 				custom_modifier_tooltip = GER_cannot_train_units_tt
@@ -13,4 +14,5 @@ ideas = {
 				consumer_goods_factor = 1
 			}
 		}
+	}
 }

@@ -16,6 +16,7 @@ country_event = { ##Germany Intro
 
 	is_triggered_only = yes
 	fire_only_once = yes
+	picture = GFX_GER_occupation_ger
 
 	option = {
 		name = ger.0.a
@@ -32,6 +33,7 @@ country_event = { ##FOZ Intro
 
 	is_triggered_only = yes
 	fire_only_once = yes
+	picture = GFX_GER_occupation_france
 	
 	option = {
 		name = foz.0.a
@@ -45,6 +47,7 @@ country_event = { ##BOZ Intro
 	immediate = {log = "[GetDateText]: [Root.GetName]: event boz.0"}
 	title = boz.0.t
 	desc = boz.0.d
+	picture = GFX_GER_occupation_britain
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -58,9 +61,10 @@ country_event = { ##BOZ Intro
 
 country_event = { ##JOZ Intro
 	id = joz.0
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.0"}
+	immediate = {log = "[GetDateText]: [Root.GetName]: event joz.0"}
 	title = ger.0.t
 	desc = ger.0.d
+	picture = GFX_GER_occupation_joint
 
 	is_triggered_only = yes
 	fire_only_once = yes
