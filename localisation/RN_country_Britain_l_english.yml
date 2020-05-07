@@ -1,119 +1,47 @@
 ﻿l_english:
 
 ### Country Name ###
-GBR_social_nationalist:0 "Union of Britain"
-GBR_social_nationalist_ADJ:0 "British"
-GBR_social_nationalist_DEF:0 "the Union of Britain"
-GBR_marxist:0 "Union of Britain"
-GBR_marxist_ADJ:0 "British"
-GBR_marxist_DEF:0 "the Union of Britain"
-GBR_libertarian:0 "Union of Britain"
-GBR_libertarian_ADJ:0 "British"
-GBR_libertarian_DEF:0 "the Union of Britain"
-GBR_moderate_socialist:0 "Union of Britain"
-GBR_moderate_socialist_ADJ:0 "British"
-GBR_moderate_socialist_DEF:0 "the Union of Britain"
-GBR_social_democrat:0 "United Kingdom"
-GBR_social_democrat_ADJ:0 "British"
-GBR_social_democrat_DEF:0 "the United Kingdom"
-GBR_social_liberal:0 "United Kingdom"
-GBR_social_liberal_ADJ:0 "British"
-GBR_social_liberal_DEF:0 "the United Kingdom"
-GBR_conservative:0 "United Kingdom"
-GBR_conservative_ADJ:0 "British"
-GBR_conservative_DEF:0 "the United Kingdom"
-GBR_authoritarian_democrat:0 "United Kingdom"
-GBR_authoritarian_democrat_ADJ:0 "British"
-GBR_authoritarian_democrat_DEF:0 "the United Kingdom"
-GBR_autocratic:0 "United Kingdom"
-GBR_autocratic_ADJ:0 "British"
-GBR_autocratic_DEF:0 "the United Kingdom"
-GBR_voynist:0 "United Kingdom"
-GBR_voynist_ADJ:0 "British"
-GBR_voynist_DEF:0 "the United Kingdom"
+ENG_nationalist_socialist:0 "Union of Britain"
+ENG_moderate_socialist:0 "Union of Britain"
+ENG_moderate_socialist_ADJ:0 "British"
+ENG_moderate_socialist_DEF:0 "the Union of Britain"
+ENG_social_democrat:0 "Union of Britain"
+ENG_social_democrat_ADJ:0 "British"
+ENG_social_democrat_DEF:0 "the Union of Britain"
+ENG_social_liberal:0 "Union of Britain"
+ENG_social_liberal_ADJ:0 "British"
+ENG_social_liberal_DEF:0 "the Union of Britain"
+ENG_conservative:0 "Union of Britain"
+ENG_conservative_ADJ:0 "British"
+ENG_conservative_DEF:0 "the Union of Britain"
+ENG_authoritarian_democrat:0 "Union of Britain"
+ENG_authoritarian_democrat_ADJ:0 "British"
+ENG_authoritarian_democrat_DEF:0 "the Union of Britain"
 
 ### Parties ###
-GBR_social_nationalist_party:0 "BSP - British Social Party"
-GBR_social_nationalist_party_long:0 "British Social Party"
-GBR_marxist_party:0 "CPGB - Communist Party of Great Britain"
-GBR_marxist_party_long:0 "Communist Party of Great Britain"
-GBR_libertarian_party:0 "SC - Socialist Congregation"
-GBR_libertarian_party_long:0 "Socialist Congregation"
-GBR_moderate_socialist_party:0 "Labour - The Labour Party"
-GBR_moderate_socialist_party_long:0 "The Labour Party"
-GBR_social_democrat_party:0 "Labour - The Labour Party"
-GBR_social_democrat_party_long:0 "The Labour Party"
-GBR_social_liberal_party:0 "Gladstonians - The Gladstone Club"
-GBR_social_liberal_party_long:0 "The Gladstone Club"
-GBR_conservative_party:0 "Tories - Conservative and Unionist Party"
-GBR_conservative_party_long:0 "Conservative and Unionist Party"
-GBR_authoritarian_democrat_party:0 "Tories - Conservative and Unionist Party"
-GBR_authoritarian_democrat_party_long:0 "Conservative and Unionist Party"
-GBR_autocratic_party:0 "Tories - Conservative and Unionist Party"
-GBR_autocratic_party_long:0 "Conservative and Unionist Party"
-GBR_fundamentalist_party:0 "NML - National Maximist Lodge"
-GBR_fundamentalist_party_long:0 "National Maximist Lodge"
-GBR_voynist_party:0 "NML - National Maximist Lodge"
-GBR_voynist_party_long:0 "National Maximist Lodge"
+ENG_nationalist_socialist_party:0 "Maximist"
+ENG_nationalist_socialist_party_long:0 "The Maximist Faction"
+ENG_moderate_socialist_party:0 "English Socialist"
+ENG_moderate_socialist_party_long:0 "The English Socialist Faction"
+ENG_social_democrat_party:0 "Old Labour"
+ENG_social_democrat_party_long:0 "The Old Labourire Faction"
+ENG_social_liberal_party:0 "Gladstonians"
+ENG_social_liberal_party_long:0 "The Gladstone Club"
+ENG_conservative_party:0 "Tories"
+ENG_conservative_party_long:0 "Conservative and Unionist Party"
+ENG_authoritarian_democrat_party:0 "Tories"
+ENG_authoritarian_democrat_party_long:0 "Conservative and Unionist Party"
+ENG_autocratic_party:0 "Tories - Conservative and Unionist Party"
+ENG_autocratic_party_long:0 "Conservative and Unionist Party"
+
 
 ### Cosmetic Tag ###
 
 ### Ideas ###
-GBR_victors_of_the_second_weltkrieg:0 "Victors of the Second Weltkrieg"
-GBR_the_fate_of_the_protector:0 "The Fate of the Protector"
-GBR_a_very_british_problem:0 "A Very British Problem"
-GBR_bloated_trade_union_bureaucracy:0 "Bloated Trade Union Bureaucracy"
-GBR_overstretched_navy:0 "Overstretched Navy"
 
 ### Focuses ###
 
 #Trial of the Protector
-GBR_trial_of_the_protector:0 "Trial of the Protector"
-GBR_trial_of_the_protector_desc:0 "!!!DESCRIPTION NEEDED!!!"
-
-#Navy
-GBR_remodel_carriers:0 "Remodel the Carrier Fleet"
-GBR_remake_carriers:0 "Remake the Carrier Fleet"
-GBR_lessons_of_wk2:0 "Apply the Lessons of the Second Weltkrieg"
-GBR_reconstitute_corps_naval_constructors:0 "Reconstitute the Corps of Naval Constructors"
-GBR_integrate_wrns:0 "Integrate the WRNS"
-GBR_modernize_dockyards:0 "Modernize the Dockyards"
-GBR_train_carrier_squadrons:0 "Train the Carrier Squadrons"
-GBR_expand_naval_air_arm:0 "Expand the Naval Air Arm"
-GBR_joint_infor_exercises:0 "Joint Exercises with INFOR"
-GBR_submarines_with_fleet:0 "Submarines with the Fleet"
-GBR_helicopter_1:0 "Helicopters Aboard Ship"
-GBR_helicopter_2:0 "Helicopter Carriers"
-GBR_trade_protection:0 "Trade Protection Role"
-GBR_convoy_exercises:0 "Convoy Exercises"
-GBR_submarine_asw:0 "Submarine ASW"
-GBR_hunter_killer_lines:0 "Hunter-Killer Lines"
-GBR_shield_at_sea:0 "The Shield of the Seas"
-
-### Events ###
-uob.0.t:0 "Britain in 1950"
-uob.0.d:0 "While the Sun has set on the old Empire, a new dawn rises over the Union of Britain. \"The Grand Protector\" is gone, interned in the Tower of London and awaiting his trial. His undoing the actions of a brave few, who were unwilling to see their continental allies betrayed and the revolution subverted.\n\nIn his place is a coalition of determined revolutionaries, led by soft-spoken Clement Atlee and his Labour Party. Clem is a man who is determined to see a new future for his people, one dominated neither by petty union boss tyrants or nationalist demagogues. \n\nLabour, the Communists, and the Socialist Congregation are setting a path for a new constitution. Old wounds will be mended, old scores will be settled, and new struggles will be met and overcome.\n\nAs John Maclean once said; \"Now's the Day and Now's the Hour! For the British worker, there is much to be done..."
-uob.0.a:0 "We'll keep the red flag flying here"
-
-uobconst.1.t:0 "The Constituent Assembly"
-uobconst.1.desc:0 "With the election of the TUC and of the Constituent Assembly concluded, it is time for the new government to open the first session of the Constituent Assembly, which will draft the Union of Britain's new constitution. Beyond a general agreement on a parliamentary system, the social_nationalist Revolutionary Socialist League, the left-communist Socialist Congregation, and the moderate British Labour Federation all have their own ideas of what form the new political system should take."
-uobconst.1.a:0 "Let us begin!"
-uobconst.2.t:0 "The Role of the Trade Unions"
-uobconst.2.desc:0 "The Revolutionary Socialist League has proposed that the TUC be given a set number of seats in Parliament, independent of political parties and geographical constituencies. They argue that this would not only give the organised labour force of each industry both a voice and a vote in Parliament, but also allow the trade unions to propose legislation, ensuring that the needs of workers remain at the forefront of Parliament's concerns. /n/nThe Socialist Congregation has opted to support this proposal. The British Labour Federation, on the other hand, argues that the trade unions have no place in a legislative body, and that the TUC should be a consultative body only."
-uobconst.2.a:0 "The trade unions need an independent voice in Parliament"
-uobconst.2.b:0 "The trade unions don't belong in Parliament"
-uobconst.3.t:0 "The Role of the Trade Unions"
-uobconst.3.desc:0 "The Independent Labour Federation has proposed that, as an alternative to the TUC having independent representation in Parliament, a party be formed as the \"political expression of the trade unions\" — much like the Labour Party of old, which was advised on policy by its affiliated trade unions. /n/nThe Revolutionary Communist League and the Socialist Congregation have denounced this proposal as a power-grab by the BLF, which, they claim, wishes to become this party and gain a monopoly over the political influence of the TUC. In return, they propose that the TUC become a consultative body for the government, and not for a specific party. "
-uobconst.3.a:0 "The TUC will become an affiliate of a political party"
-uobconst.3.b:0 "The TUC will advise the government, not any specific party"
-uobconst.4.t:0 "The National Question"
-uobconst.4.desc:0 "Sylvia Pankhurst and other members of the Socialist Congregation have proposed the establishment of an elected \"National Council\" for each country of the Union of Britain — England, Scotland, and Wales — as a form of legislative devolution. Proposed powers of the National Councils include management of transportation, public services, and economic development. \n\nThe convention of these assemblies would constitute a new chamber of Parliament: the \"House of Nations\", which would have to approve legislation passed in the House of Commons and would equally be able to propose legislation itself. To counterbalance the higher population of England relative to the other countries, the House of Nations would receive an equal number of elected representatives, and other national minorities (such as the Northern Isles and the Isle of Mann) would receive a reduced number of delegates. This, they advance, will ensure that the interests of national minorities will be represented. /n/nThe Revolutionary Socialist League supports this initiative, but the British Labour Federation claims that this would do nothing more than sow division in the British nation."
-uobconst.4.a:0 "Create the National Councils and the House of Nations"
-uobconst.4.b:0 "And encourage national division? Preposterous!"
-
-###leader descriptions###
-
-POLITICS_CLEM_ATTLEE_DESC:0 "§YChairman of the Federal Congress§!\n\nClement \“Clem\” Attlee was born on the 3rd of January 1883 in what is now London’s Putney District. While pursuing a career as a barrister as a young man, he volunteered at the charity club Haileybury House. The crippling poverty he witnessed there would never leave him. After a brief stint in the Independent Labour Party, Clem found himself serving in Gallipoli as a captain. The war took its toll, and after surviving the meatgrinder of Anatolia he fell gravely ill.\n\nA changed man, Clem held a couple of jobs before returning to politics. Like most Labour politicians, he did not publicly condemn or oppose the 1925 strike. However after the ensuing revolutionary chaos and the dissolution of Parliament he began to follow prevailing currents. Clem served as a Congressmen for Greater London in the Federal Congress until its suspension, and was then elected by the newly reformed Labour Party under Oswald Mosley's National Front in 1936.\n\n It was here that soft-spoken Attlee gained both controversy and renown for voting against many of Mosley's power grabs. Following the leaking of the Mosley-Derental Pact, Clem became de facto leader of the now underground Labour Party. Secretly, he worked in conjunction with T.E Lawrence's December putsch to spark protests across the Union.In the aftermath, Clem’s united front government has paved the way for the new constitution to be written, a constitution which will serve as a foundation upon which the new British worker can achieve prosperity."
 
 ### Flags ###
 
@@ -124,35 +52,10 @@ POLITICS_CLEM_ATTLEE_DESC:0 "§YChairman of the Federal Congress§!\n\nClement \
 ### Flags ###
 
 ### Tooltips ###
-uobconst1_tt:0 "You will periodically get events about proposals for the constitution. Once a proposal has been agreed upon, new elections will be called under the new system to elect a parliament."
 
 ### MINISTERS ###
-GBR_Clem_Attlee:0 "Clement Attlee"
-GBR_Nye_Bevan_hog:0 "Nye Bevan"
-GBR_Arthur_Horner:0 "Arthur Horner"
-GBR_Stafford_Cripps:0 "Stafford Cripps"
-GBR_Nye_Bevan_foreign:0 "Nye Bevan"
-GBR_Annie_Kenney:0 "Annie Kenney"
-GBR_GDH_Cole:0 "G.D.H. Cole"
-GBR_Willie_Gallacher:0 "Willie Gallacher"
-GBR_Guy_Liddell:0 "Guy Liddell"
-GBR_Thomas_Wintringham:0 "Thomas Wintringham"
-GBR_Bill_Alexander:0 "Bill Alexander"
-GBR_Jack_Baldwin:0 "Jack Baldwin"
-GBR_Geoffrey_Barnard:0 "Geoffrey Barnard"
+
 
 ### Minister Traits ###
-GBR_chairman_of_federal_congress:0 "Chairman of the Federal Congress"
-GBR_commissioner_of_home_affairs:0 "Commissioner of the Home Department"
-GBR_chancellor_exchequer:0 "Chancellor of the Exchequer"
-GBR_commissioner_foreign_affairs:0 "Commissioner of the Foreign Office"
-GBR_commissioner_public_information:0 "Commissioner of Public Information"
-GBR_commissioner_public_transport:0 "Commissioner of Transport"
-GBR_director_RED:0 "Director of the Revolutionary Exportation Directorate"
-GBR_cdf_baf:0 "Chief of Staff of the British Armed Forces"
-GBR_cgs_ba:0 "Chief of the General Staff of the British Army"
-GBR_caf_raf:0 "Chief of the Air Staff of the Republican Air Force"
-GBR_cns_rn:0 "Chief of the Naval Staff of the Republican Navy"
 
 ###leader traits###
-modest_statesman:0 "Modest Statesman"
