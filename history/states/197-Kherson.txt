@@ -6,8 +6,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = UKR
-		add_core_of = UKR
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 4
 			dockyard = 2

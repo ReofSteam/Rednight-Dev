@@ -5,7 +5,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = BAT
+		owner = RUS
 		victory_points = {
 			9221 1
 		}
@@ -13,7 +13,7 @@ state = {
 			infrastructure = 5
 			arms_factory = 1
 		}
-		add_core_of = BAT
+		add_core_of = RUS
 	}
 
 	provinces = {

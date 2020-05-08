@@ -1,6 +1,6 @@
-﻿capital = 37
+﻿capital = 115
 
-oob = "DEN"
+oob = "SIC"
 
 set_research_slots = 3
 set_stability = 0.9
@@ -21,20 +21,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = moderate_socialist
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	nationalist_socialism = 1
-	revolutionary_socialism = 0
+	revolutionary_socialism = 36
 	syndicalism = 3
-	moderate_socialist = 4
+	moderate_socialist = 30
 	social_democrat = 24
 	social_liberal = 10
-	social_conservative = 36
-	authoritarian_democrat = 30
+	social_conservative = 0
+	authoritarian_democrat = 4
 	autocratic = 5
 	ultraconservative = 2
 	national_corporatist = 4
@@ -55,14 +55,4 @@ create_country_leader = {
 	}
 }
 
-create_corps_commander = {
-	name = "Wilhelm Wain Prior"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { trickster }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
 

@@ -5,12 +5,12 @@
 ### Opinions ###
 
 ### Country Name ###
-FRA_revolutionary_socialist:0 "French Communal Republic"
-FRA_revolutionary_socialist_ADJ:0 "French"
-FRA_revolutionary_socialist_DEF:0 "the French Communal Republic"
-FRA_moderate_socialist:0 "French Communal Republic"
+FRA_revolutionary_socialism:0 "French Social Republic"
+FRA_revolutionary_socialism_ADJ:0 "French"
+FRA_revolutionary_socialism_DEF:0 "the French Social Republic"
+FRA_moderate_socialist:0 "French Social Republic"
 FRA_moderate_socialist_ADJ:0 "French"
-FRA_moderate_socialist_DEF:0 "the French Communal Republic"
+FRA_moderate_socialist_DEF:0 "the French Social Republic"
 FRA_social_democrat:0 "French Republic"
 FRA_social_democrat_ADJ:0 "French"
 FRA_social_democrat_DEF:0 "the French Republic"
@@ -28,12 +28,14 @@ FRA_autocratic_ADJ:0 "French"
 FRA_autocratic_DEF:0 "the French Empire"
 
 ### Decision ####
+FRA_revolutionary_socialism_party:0 "PRT"
+FRA_revolutionary_socialism_party_long:0 "Parti révolutionnaire des travailleurs\Revolutionary Workers Party"
 FRA_moderate_socialist_party:0 "PSFT - Parti socialiste français des travailleurs"
 FRA_moderate_socialist_party_long:0 "French Socialist Workers' Party"
 FRA_social_democrat_party:0 "PSFT - Parti socialiste français des travailleurs"
 FRA_social_democrat_party_long:0 "French Socialist Workers' Party"
-FRA_social_liberal_party:0 "PRRRS - Radical-Socialist and Radical Republican Party"
-FRA_social_liberal_party_long:0 "Parti républicain, radical et radical-socialiste"
+FRA_social_liberal_party:0 "Radical Party"
+FRA_social_liberal_party_long:0 "Parti Radical/Radical Party"
 
 ### Events ###
 

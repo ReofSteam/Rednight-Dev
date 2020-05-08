@@ -1,7 +1,7 @@
 ﻿l_english:
 
 ### Country Name ###
-ENG_nationalist_socialist:0 "Union of Britain"
+ENG_nationalist_socialism:0 "Union of Britain"
 ENG_moderate_socialist:0 "Union of Britain"
 ENG_moderate_socialist_ADJ:0 "British"
 ENG_moderate_socialist_DEF:0 "the Union of Britain"
@@ -21,7 +21,7 @@ ENG_authoritarian_democrat_DEF:0 "the Union of Britain"
 ### Parties ###
 ENG_nationalist_socialist_party:0 "Maximist"
 ENG_nationalist_socialist_party_long:0 "The Maximist Faction"
-ENG_moderate_socialist_party:0 "English Socialist"
+ENG_moderate_socialist_party:0 "English Socialists"
 ENG_moderate_socialist_party_long:0 "The English Socialist Faction"
 ENG_social_democrat_party:0 "Old Labour"
 ENG_social_democrat_party_long:0 "The Old Labourire Faction"

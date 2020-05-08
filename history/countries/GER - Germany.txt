@@ -4,7 +4,8 @@ oob = "GER"
 set_cosmetic_tag = GER_occupied
 
 add_ideas = {
-	GER_reconstruction_germany
+	GER_reconstruction_germany2
+	GER_freegerman_army
 }
 
 # Starting tech
@@ -58,7 +59,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-country_lock_all_division_template = yes
 
 set_popularities = {
 	nationalist_socialism = 6

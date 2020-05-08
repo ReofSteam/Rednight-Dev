@@ -28,7 +28,7 @@ FRA = {
 	color = rgb { 20 50 160 }
 	color_ui = rgb { 20 50 160 }
 }
-GBR = {
+ENG = {
 	color = rgb { 201  56  93 }
 	color_ui = rgb { 201  56  93 }
 }

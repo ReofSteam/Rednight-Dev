@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = BAT
-		add_core_of = BAT
+		owner = RUS
+		add_core_of = RUS
 		victory_points = {
 			3152 15
 		}

@@ -5,11 +5,11 @@ state = {
 	state_category = two
 
 	history = {
-		owner = UKR
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = UKR
+		add_core_of = RUS
 	}
 
 	provinces = {

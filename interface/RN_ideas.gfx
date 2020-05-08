@@ -358,5 +358,9 @@ spriteTypes = {
 		name = "GFX_idea_GER_occupation_spirit"
 		texturefile = "gfx/interface/ideas/GER/GER_occupation_spirit.tga"
 	}
+		spriteType = {
+		name = "GFX_idea_GER_free_germany"
+		texturefile = "gfx/interface/ideas/GER/GER_FreeGermanyArmy.dds"
+	}
 
 }

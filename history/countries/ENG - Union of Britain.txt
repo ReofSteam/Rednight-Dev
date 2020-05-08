@@ -46,40 +46,14 @@ set_technology = {
 }
 
 add_ideas = {
-	GBR_victors_of_the_second_weltkrieg
-	GBR_overstretched_navy
-	GBR_bloated_trade_union_bureaucracy
-	GBR_the_fate_of_the_protector
+
 }
 
 #CABINET
 add_ideas = {
-	GBR_Clem_Attlee #Head of Government
-	GBR_Arthur_Horner #Interior
-	GBR_Stafford_Cripps #Economic
-	GBR_Nye_Bevan_foreign #Foreign
-	GBR_Annie_Kenney #Education
-	GBR_GDH_Cole #Culture 
-	GBR_Willie_Gallacher #Transport
-	GBR_Guy_Liddell #Intel
-	GBR_Thomas_Wintringham #Chief of Staff 
-	GBR_Bill_Alexander #Chief of Army
-	GBR_Jack_Baldwin #Chief of Air
-	GBR_Geoffrey_Barnard #Chief of Navy
+
 }
 
-### PARTIES UI ###
-	set_country_flag = coalition_revolutionary_socialism
-	set_country_flag = coalition_syndicalism
-	set_country_flag = coalition_moderate_socialist
-	set_country_flag = coalition_social_democrat
-
-	### BANNED ###
-	set_country_flag = banned_social_conservative
-	set_country_flag = banned_authoritarian_democrat
-	set_country_flag = banned_autocratic
-	set_country_flag = banned_ultrasocial_conservative
-	set_country_flag = banned_national_corporatist
 
 
 set_convoys = 800
@@ -88,7 +62,7 @@ set_convoys = 800
 
 
 set_politics = {
-	ruling_party = moderate_socialist
+	ruling_party = nationalist_socialism
 	last_election = "1936.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -109,103 +83,11 @@ set_popularities = {
 
 ### Starting Political Leaders ###
 create_country_leader = {
-	name = "John Warburton"
+	name = "Oswald Mosley"
 	desc = "POLITICS_JOHN_WARBURTON_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_John_Warburton.tga"
+	picture = "gfx/leaders/"
 	expire = "1965.1.1"
 	ideology = nationalist_socialism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Harry Pollitt"
-	desc = "POLITICS_HARRY_POLLITT_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Harry_Pollitt.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Sylvia Pankhurst"
-	desc = "POLITICS_SYLVIA_PANKHURST_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Sylvia_Pankhurst.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Clement Attlee"
-	desc = "POLITICS_CLEM_ATTLEE_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Clem_Attlee.tga"
-	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
-	traits = {
-		modest_statesman
-	}
-}
-
-create_country_leader = {
-	name = "Clement Attlee"
-	desc = "POLITICS_CLEM_ATTLEE_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Clem_Attlee.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "William McKeag"
-	desc = "POLITICS_WILLIAM_MCKEAG_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_McKeag.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Peter Thornycroft"
-	desc = "POLITICS_PETER_THORNYCROFT_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Peter_Thornycroft.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Alan Lennox-Boyd"
-	desc = "POLITICS_ALAN_LENNOX_BOYD_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Alan_Lennox_Boyd.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Alan Lennox-Boyd"
-	desc = "POLITICS_ALAN_LENNOX_BOYD_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Alan_Lennox_Boyd.tga"
-	expire = "1965.1.1"
-	ideology = autocratic_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "William Joyce"
-	desc = "POLITICS_WILLIAM_JOYCE_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_Joyce.tga"
-	expire = "1965.1.1"
-	ideology = ultraconservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Jeffrey Hamm"
-	desc = "POLITICS_JEFFREY_HAMM_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Jeffrey_Hamm.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
 	traits = { }
 }
 
@@ -213,94 +95,3 @@ create_country_leader = {
 ##### GENERALS OF THE BRITISH ARMY #####
 
 ## Field Marshals 
-
-create_field_marshal = {
-	name = "Thomas Wintringham"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Thomas_Wintringham.tga"
-	traits = { war_hero politically_connected career_officer infantry_officer organisational_leader infantry_leader }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "Bill Alexander"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Bill_Alexander.tga"
-	traits = { politically_connected war_hero infantry_officer commando urban_assault_specialist inspirational_leader offensive_doctrine }
-	skill = 4
-
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-## Commanders
-
-create_corps_commander = {
-	name = "William Gott"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_William_Gott.tga"
-	traits = { war_hero trait_reckless adaptable }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "David Stirling"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_David_Stirling.tga"
-	traits = { war_hero career_officer commando trait_mountaineer paratrooper }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Geoffrey C. Evans"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Geoffrey_C_Evans.tga"
-	traits = { war_hero career_officer brilliant_strategist offensive_doctrine infantry_leader }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 3
-    logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Johnny Longstaff"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Johnny_Longstaff.tga"
-	traits = { war_hero media_personality armor_officer }
-	skill = 1
-    attack_skill = 1
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Malcolm Dunbar"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_Malcolm_Dunbar.tga"
-	traits = { urban_assault_specialist trickster expert_improviser }
-	skill = 2
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "George M. Nathan"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/GBR/GBR_George_M_Nathan.tga"
-	traits = { war_hero media_personality career_officer guerilla_fighter }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
-}
