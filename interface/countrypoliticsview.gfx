@@ -416,6 +416,21 @@ spriteTypes = {
 		name = "GFX_ideology_syndicalism_group"
 		texturefile = "gfx/interface/ideologies/syndicalism_group.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_ideology_national_corporatist_group"
+		texturefile = "gfx/interface/ideologies/national_corporatist_group.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_nationalist_socialism_group"
+		texturefile = "gfx/interface/ideologies/nationalist_socialism_group.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_revolutionary_socialism_group"
+		texturefile = "gfx/interface/ideologies/revolutionary_socialism_group.tga"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_unknown"

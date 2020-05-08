@@ -356,7 +356,7 @@ spriteTypes = {
 	#Germany
 	spriteType = {
 		name = "GFX_idea_GER_occupation_spirit"
-		texturefile = "gfx/interface/ideas/GER/GER_occupation_spirit.dds"
+		texturefile = "gfx/interface/ideas/GER/GER_occupation_spirit.tga"
 	}
 
 }

@@ -25,5 +25,9 @@ spriteTypes = {
 		name = "GFX_GER_occupation_joint"
 		texturefile = "gfx/event_pictures/GER_occupation_joint.tga"
 	}
+	spriteType = { 
+		name = "GFX_GER_occupation_joint_ver2"
+		texturefile = "gfx/event_pictures/GER_occupation_joint_ver2.tga"
+	}
 	
 }
