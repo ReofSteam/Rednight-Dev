@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = RUS
 		add_core_of = POL
 		victory_points = {
 			3473 1 

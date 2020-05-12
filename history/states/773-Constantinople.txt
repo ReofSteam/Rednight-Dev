@@ -5,7 +5,7 @@ state = {
 	state_category = eleven
 
 	history = {
-		owner = OTT
+		owner = RUS
 		add_core_of = OTT
 		victory_points = {
 			9833 30

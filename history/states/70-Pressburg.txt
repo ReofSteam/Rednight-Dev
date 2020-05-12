@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = HUN
+		owner = SVK
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -24,7 +24,6 @@ state = {
 				bunker = 1
 			}
 		}
-		add_core_of = HUN
 		add_core_of = SVK
 		victory_points = {
 			541 1

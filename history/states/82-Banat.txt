@@ -9,7 +9,7 @@ state = {
 	state_category = three
 
 	history = {
-		owner = HUN
+		owner = BNT
 
 		victory_points = { 9606 5 }
 
@@ -20,8 +20,7 @@ state = {
 			}
 		}
 
-		add_core_of = HUN
-		# add_claim_by = ROM # will be added by focus
+		add_core_of = BNT
 	}
 
 	provinces = {

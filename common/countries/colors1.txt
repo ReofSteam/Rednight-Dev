@@ -120,6 +120,10 @@ BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
+BNT = {
+	color = rgb { 255 234 177 }
+	color_ui = rgb { 255 234 177 }
+}
 BOS = {
 	color = rgb { 67 158 34 }
 	color_ui = rgb { 67 158 34 }
