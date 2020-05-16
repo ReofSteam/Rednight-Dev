@@ -3,6 +3,15 @@ spriteTypes = {
 	###############
 	### GENERIC ###
 	###############
+	spriteType = { 
+		name = "GFX_cafe"
+		texturefile = "gfx/event_pictures/cafe.dds"
+	}	
+	spriteType = { 
+		name = "GFX_homecoming"
+		texturefile = "gfx/event_pictures/Homecoming.dds"
+	}	
+		
 	
 	###############
 	###   NEWS  ###
@@ -29,5 +38,13 @@ spriteTypes = {
 		name = "GFX_GER_occupation_joint_ver2"
 		texturefile = "gfx/event_pictures/GER_occupation_joint_ver2.tga"
 	}
+	spriteType = { 
+		name = "GFX_german_army"
+		texturefile = "gfx/event_pictures/Germansoldiermarching.dds"
+	}	
+	spriteType = { 
+		name = "GFX_german_army_evil"
+		texturefile = "gfx/event_pictures/evil_german_army.dds"
+	}				
 	
 }
