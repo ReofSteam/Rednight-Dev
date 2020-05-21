@@ -31,8 +31,8 @@ ENG_conservative_party:0 "Tories"
 ENG_conservative_party_long:0 "Conservative and Unionist Party"
 ENG_authoritarian_democrat_party:0 "Tories"
 ENG_authoritarian_democrat_party_long:0 "Conservative and Unionist Party"
-ENG_autocratic_party:0 "Tories - Conservative and Unionist Party"
-ENG_autocratic_party_long:0 "Conservative and Unionist Party"
+ENG_autocratic_party:0 "Tories"
+ENG_autocratic_party_long:0 "Conservative and Royalist Party"
 
 
 ### Cosmetic Tag ###
@@ -175,9 +175,26 @@ ENG_plan_osborne_desc:0 ""
 
 ### Tooltips ###
 
-### MINISTERS ###
+### Events ###
 
+ENG.2.t:0 "Cambridge University Riot"
+ENG.2.d:0 "What began as a simple act of vandalism in a Cambridge pub has grown into a national incident within the Union of Britain, one that is rapidly spiraling out of control! This morning, following the arrest of two students belonging to the local "Youth for Workplace Democracy" organization for their involvement in defacing property, massive protests gripped Cambridge university.\n\n Demanding the immediate release of both students,  greater freedom of expression and more democracy in both education and the workplace, the student body has almost overwhelmingly turned out in support of their ideas.\n\nRiot police, supplemented by Revolutionary Guard units arrived around 10am in an attempt to disperse the crowds. However, these efforts have only made the situation more dire, as protests turn to riots, local roads are blocked off, and stories of bloody noses and jeering shouts spill into the city itself. Authorities are preparing an escalated responses and the nation watches with weary eyes. Might this be a moment to remember? "
+ENG.2.a:0 "Youngsters these days!"
+ENG.3.t:0 "The Engilish Socialists support the protestors"
+ENG.3.d:0 "Political disaster has overtaken the British Government! Following the failed negotiation, major representatives of the English-Socialist faction have declared a universal withdrawal from the Trade Union Congress.\n\nChief among grievances voiced by faction representatives was the continuing violent crackdown upon protesting students and workers in cities across northern England. Now, both common card carriers as well as representatives themselves can be seen manning the very same barricades in cities like Cambridge.\n\n Faith in the government and the Chairman have been irreparably damaged, and the TUC has been left scrambling to fill the void left by the loss of a pillar of British politics. Many wonder if the situation might escalate further, should the government take action against those unions that have withdrawn."
+ENG.3.a:0 "Arrest all their leaders"
+ENG.3.b:0 "We cant risk it"
+ENG.4.t:0 "Workers Revolutionary Council of Britain"
+ENG.4.d:0 "The situation in the Union of Britain has descended into barbarism of continued strikes, crackdowns, riots, followed the failed round of negotiation! In light of the government's failure to resolve the situation, students and union representatives have stopped short of an outright violent revolution and declared a new government in Birmingham;The Workers Revolutionary Council.\n\n While only officially intended to coordinate actions between protestors, few hold illusions that this body is anything but a dual power government to contest London's authority. Violent struggle with Revolutionary Guard and Police units has already erupted, and the city of Birmingham has effectively seceded from the Union. Accusations of Russian sabotage, tyranny by the Chairman, and partisan reprisals fly wild. The British Isles await with bated breath, surrounded in fortresses of overturned cars and streetside bariccades"
+ENG.4.a:0 "We must resume the negotiation before this get worse"
+ENG.4.b:0 "Crush them now!"
+ENG.5.t:0 "The Great National Strike"
+ENG.5.d:0 "Today, the British people create history. For months now the world has watched the "British Situation" build and build. Today, it has reached a crescendo. Climactic street battles and failed negotiations have culminated in a massive "All Britain General Strike" in which the entire economy has ground to a screeching halt. Workers, Bureaucrats and Students alike chant together from London to Glasgow, and the red flag flies from all corners. In addition, Foreign and a few domestic presses are printing in support of the movement.\n\n Many are drawing nervous comparisons to the 1925 revolution itself, and it seems that the Mosley government is effectively dead. A new era is sure to begin soon…"
+ENG.5.a:0 "England, you are too cruel"
+ENG.6.t:0 "The English Revolution"
+ENG.6.d:0 "The chaos so long strangling the Union of Britain has come to an end. Across the country, millions shed tears, and millions more rejoice.  Oswald Mosley; the grand protector of the Union of Britain, saviour of the revolution, terror in the night, and the black sheep of the socialist bloc, is no more. Faced with a paralyzed economy and a population on the brink of civil war, the Chairman finally yielded. Mosley has resigned from his post, taking his entire cabinet with him.\n\nWith the conclusion of what is now being dubbed internationally as the "Second Glorious Revolution"a struggle for power immediately erupted between more radical leftists based in Birmingham, and the English Socialist militias.\n\nAlliances were made and broken, frenzied sporadic shootouts ended in bloodshed, and rapid arrests were carried out. As the dust settles,  the victor has become clear; The English Socialists have assumed control of the Union of Britain.\n\nDespite the efforts of vain radicals to coerce the English people into erasure of their own identity, the English Socialists have triumphed. The soul of England remains safe, and the unique character of the British revolution has been preserved. Promising sanity, stability, and an end to the Mosleyite Kleptocracy,  Minister Blair would surely be heartened by this outcome, where he was around to see it himself."
+ENG.6.a:0 "The long, long night is over"
+ENG.7.t:0 "The WRC Seized Government"
+ENG.7.d:0 "The chaos so long strangling the Union of Britain has come to an end. Across the country, millions shed tears, and millions more rejoice. Oswald Mosley; the grand protector of the Union of Britain, saviour of the revolution, terror in the night,  and the black sheep of the socialist bloc, is no more. Faced with a paralyzed economy and a population on the brink of civil war, the chairman finally yielded. Mosley has resigned from his post, taking his entire cabinet with him.\n\nWith the conclusion of  what is now being dubbed internationally as the "Second Revolution", representatives of the English Socialist faction made swift moves to secure power and stability. However, this action quickly proved ineffective, as it became apparent that the rabble was unwilling to accept any remnant of the old order.\n\nThus, the rival government formed in Birmingham known as the "Workers Revolutionary Council" has stepped in to fill the vacuum with its militia. Promising to "complete what was started in 1925" It seems a true proletarian revolution is here to stay, casting down all remnants of the bourgeois society. Finally, the English worker will control his own destiny! The future is bright…"
+ENG.7.a:0 "Workers of the World, Unite!"
 
-### Minister Traits ###
-
-###leader traits###

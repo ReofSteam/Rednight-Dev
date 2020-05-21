@@ -1,0 +1,134 @@
+﻿#############
+#Britain Events#
+#############
+
+add_namespace = ENG
+
+#######################
+country_event = { #Intro to Britain
+	id = ENG.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.1" }
+
+	title = ENG.1.t
+	desc = ENG.1.d
+	picture = GFX_ENG_generic_1
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.1.a
+	}
+}
+
+country_event = { #Cambridge University Riot
+	id = ENG.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.2" }
+
+	title = ENG.2.t
+	desc = ENG.2.d
+	picture = GFX_ENG_Cambridge_riot
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.2.a
+	}
+}
+
+country_event = { #Ingsoc joined protestors
+	id = ENG.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.3" }
+
+	title = ENG.3.t
+	desc = ENG.3.d
+	picture = GFX_ENG_parliament
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.3.a
+	}
+		option = {
+		name = ENG.3.b
+	}
+}
+
+country_event = { #Workers Revolutionary Council
+	id = ENG.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.4" }
+
+	title = ENG.4.t
+	desc = ENG.4.d
+	picture = GFX_ENG_workers_council
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.4.a
+	}
+		option = {
+		name = ENG.4.b
+	}
+}
+
+country_event = { #Great British General Strike
+	id = ENG.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.5" }
+
+	title = ENG.5.t
+	desc = ENG.5.d
+	picture = GFX_ENG_national_strike
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.5.a #Ingsoc
+	}
+		option = {
+		name = ENG.5.b #WRC
+	}
+}
+
+country_event = { #Workers Revolutionary Council seized power
+	id = ENG.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.6" }
+
+	title = ENG.6.t
+	desc = ENG.6.d
+	picture = GFX_ENG_fall_of_mosley
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.6.a
+	}
+		option = {
+		name = ENG.6.b
+	}
+}
+country_event = { #Ingsoc seized power
+	id = ENG.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.7" }
+
+	title = ENG.7.t
+	desc = ENG.7.d
+	picture = GFX_ENG_fall_of_mosley
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.7.a
+	}
+		option = {
+		name = ENG.7.b
+	}
+}
+
+
