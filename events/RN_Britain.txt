@@ -50,10 +50,19 @@ country_event = { #Ingsoc joined protestors
 
 	option = {
 		name = ENG.3.a
+	set_political_party = {
+    ideology = moderate_socialist
+    popularity = 20
+}	
 	}
 		option = {
 		name = ENG.3.b
+	set_political_party = {
+    ideology = moderate_socialist
+    popularity = 20
+}			
 	}
+	
 }
 
 country_event = { #Workers Revolutionary Council
@@ -69,9 +78,47 @@ country_event = { #Workers Revolutionary Council
 
 	option = {
 		name = ENG.4.a
+	set_political_party = {
+    ideology = revolutionary_socialism
+    popularity = 20
+}	
+	set_party_name = { 
+    ideology = revolutionary_socialism 
+    long_name = ENG_Workers_Council_long 
+    name = ENG_Workers_Council
+}
+create_country_leader = {
+	name = "Workers Revolutionary Council"
+	desc = "POLITICS_WRC_DESC"
+	picture = "GFX/ENG/ENG_Worker_Council.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism
+	traits = {
+		
+	}
+}	
 	}
 		option = {
 		name = ENG.4.b
+		set_political_party = {
+    ideology = revolutionary_socialism
+    popularity = 20
+}	
+	set_party_name = { 
+    ideology = revolutionary_socialism 
+    long_name = ENG_Workers_Council_long 
+    name = ENG_Workers_Council
+}
+create_country_leader = {
+	name = "Workers Revolutionary Council"
+	desc = "POLITICS_WRC_DESC"
+	picture = "GFX/ENG/ENG_Worker_Council.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism
+	traits = {
+		
+	}
+}		
 	}
 }
 
@@ -88,9 +135,11 @@ country_event = { #Great British General Strike
 
 	option = {
 		name = ENG.5.a #Ingsoc
+	retire_country_leader = yes		
 	}
 		option = {
-		name = ENG.5.b #WRC
+		name = ENG.5.a #WRC
+	retire_country_leader = yes		
 	}
 }
 
@@ -107,11 +156,11 @@ country_event = { #Workers Revolutionary Council seized power
 
 	option = {
 		name = ENG.6.a
+    set_politics = {
+	ruling_party = revolutionary_socialism
+}	
 	}
-		option = {
-		name = ENG.6.b
-	}
-}
+}	
 country_event = { #Ingsoc seized power
 	id = ENG.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.7" }
@@ -125,9 +174,51 @@ country_event = { #Ingsoc seized power
 
 	option = {
 		name = ENG.7.a
+create_country_leader = {
+	name = "Clement Attlee"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/ENG/ENG_Atlee.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist
+	traits = {
+		
 	}
-		option = {
-		name = ENG.7.b
+}
+    set_politics = {
+	ruling_party = moderate_socialist
+}	
+
+	}
+}
+
+country_event = { #United Workers Party of Britain
+	id = ENG.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENG.1" }
+
+	title = ENG.8.t
+	desc = ENG.8.d
+	picture = GFX_ENG_generic_1
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENG.8.a
+	set_party_name = { 
+    ideology = revolutionary_socialism 
+    long_name = ENG_United_Workers_long 
+    name = ENG_United_Workers
+}
+create_country_leader = {
+	name = "Reg Birch "
+	desc = "POLITICS_REG_BIRCH_DESC"
+	picture = "GFX/ENG/ENG_Joe.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism
+	traits = {
+		
+	}
+}		
 	}
 }
 

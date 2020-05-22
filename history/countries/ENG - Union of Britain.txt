@@ -46,7 +46,9 @@ set_technology = {
 }
 
 add_ideas = {
-
+ENG_mosley_democracy
+ENG_army_of_germany
+ENG_postwar_recession
 }
 
 #CABINET
@@ -92,6 +94,111 @@ create_country_leader = {
 }
 
 
-##### GENERALS OF THE BRITISH ARMY #####
+
+#####BRITISH ARMY #####
 
 ## Field Marshals 
+create_field_marshal = {
+	name = "Kenneth Anderson"
+	portrait_path = "gfx/leaders/ENG/ENG_Anderson.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Fred Copeman"
+	portrait_path = "gfx/leaders/ENG/ENG_Copeman.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Douglas Gracey"
+	portrait_path = "gfx/leaders/ENG/ENG_Gracey.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Percy Hobart"
+	portrait_path = "gfx/leaders/ENG/ENG_Hobart.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Arthur Reid Nichol"
+	portrait_path = "gfx/leaders/ENG/ENG_Nichol.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Tom Wintringham"
+	portrait_path = "gfx/leaders/ENG/ENG_TOM.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "George Sutherland Aitken"
+	portrait_path = "gfx/leaders/ENG/ENG_George_Sutherland.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+#Navy
+create_navy_leader = {
+	name = "Philip Louis Vian"
+	picture = "gfx/leaders/ENG/ENG_Vian.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Angus Graham"
+	picture = "gfx/leaders/ENG/ENG_Graham.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Harold Kinahan"
+	picture = "gfx/leaders/ENG/ENG_Kinahan.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
