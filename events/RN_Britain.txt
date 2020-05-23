@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_WRC_DESC"
 	picture = "GFX/ENG/ENG_Worker_Council.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialism
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}
@@ -101,20 +101,20 @@ create_country_leader = {
 		option = {
 		name = ENG.4.b
 		set_political_party = {
-    ideology = revolutionary_socialism
+    ideology = revolutionary_socialism_subtype
     popularity = 20
 }	
 	set_party_name = { 
-    ideology = revolutionary_socialism 
+    ideology = revolutionary_socialism
     long_name = ENG_Workers_Council_long 
     name = ENG_Workers_Council
 }
 create_country_leader = {
 	name = "Workers Revolutionary Council"
 	desc = "POLITICS_WRC_DESC"
-	picture = "GFX/ENG/ENG_Worker_Council.tga"
+	picture = "GFX/Leaders/ENG/ENG_Worker_Council.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialism
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}
@@ -135,11 +135,9 @@ country_event = { #Great British General Strike
 
 	option = {
 		name = ENG.5.a #Ingsoc
-	retire_country_leader = yes		
 	}
 		option = {
 		name = ENG.5.a #WRC
-	retire_country_leader = yes		
 	}
 }
 
@@ -177,9 +175,9 @@ country_event = { #Ingsoc seized power
 create_country_leader = {
 	name = "Clement Attlee"
 	desc = "POLITICS_ATTLEE_DESC"
-	picture = "GFX/ENG/ENG_Atlee.tga"
+	picture = "GFX/Leaders/ENG/ENG_Atlee.tga"
 	expire = "1965.1.1"
-	ideology = moderate_socialist
+	ideology = moderate_socialist_subtype
 	traits = {
 		
 	}
@@ -212,13 +210,29 @@ country_event = { #United Workers Party of Britain
 create_country_leader = {
 	name = "Reg Birch "
 	desc = "POLITICS_REG_BIRCH_DESC"
-	picture = "GFX/ENG/ENG_Joe.tga"
+	picture = "GFX/Leaders/ENG/ENG_Joe.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialism
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}
 }		
+	}
+}
+
+news_event = { #
+	id = ENGnews.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENGnews.1.t
+	desc = ENGnews.1.d
+	picture = GFX_news_event_generic_funeral
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ENGnews.1.a
 	}
 }
 
