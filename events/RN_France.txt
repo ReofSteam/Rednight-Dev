@@ -16,7 +16,7 @@ news_event = {
 country_event = {
 	id = fra.1
 	title = fra.1.t
-	desc = fra.1.desc
+	desc = fra.1.d
 	picture = GFX_FRA_may_pustch
 
 	is_triggered_only = yes
@@ -29,7 +29,7 @@ country_event = {
 country_event = {
 	id = fra.2
 	title = fra.2.t
-	desc = fra.2.desc
+	desc = fra.2.d
 	picture = GFX_FRA_may_pustch2
 
 	is_triggered_only = yes
@@ -45,7 +45,7 @@ country_event = {
 country_event = {
 	id = fra.3
 	title = fra.3.t
-	desc = fra.3.desc
+	desc = fra.3.d
 	picture = GFX_anti_military_protest
 
 	is_triggered_only = yes
@@ -58,7 +58,7 @@ country_event = {
 news_event = {
 	id = franews.2
 	title = franews.2.t
-	desc = franews.2.desc
+	desc = franews.2.d
 	picture = GFX_FRA_may_pustch_news
 
 	is_triggered_only = yes
