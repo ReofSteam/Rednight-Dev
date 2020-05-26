@@ -12,3 +12,58 @@ news_event = {
 		name = fra.0.a
 	}
 }
+
+country_event = {
+	id = fra.1
+	title = fra.1.t
+	desc = fra.1.desc
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.1.a
+	}
+}
+
+country_event = {
+	id = fra.2
+	title = fra.2.t
+	desc = fra.2.desc
+	picture = GFX_FRA_may_pustch2
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.2.a
+	}
+	option = {
+		name = fra.2.b
+	}	
+}
+
+country_event = {
+	id = fra.3
+	title = fra.3.t
+	desc = fra.3.desc
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.3.a
+	}
+}
+
+news_event = {
+	id = franews.2
+	title = franews.2.t
+	desc = franews.2.desc
+	picture = GFX_FRA_may_pustch_news
+
+	is_triggered_only = yes
+
+	option = {
+		name = franews.2.a
+	}
+}

@@ -11,6 +11,10 @@ spriteTypes = {
 		name = "GFX_homecoming"
 		texturefile = "gfx/event_pictures/Homecoming.dds"
 	}	
+	spriteType = { 
+		name = "GFX_anti_military_protest"
+		texturefile = "gfx/event_pictures/anti_military_protest.dds"
+	}		
 		
 	
 	###############
@@ -68,4 +72,18 @@ spriteTypes = {
 		name = "GFX_ENG_fall_of_mosley"
 		texturefile = "gfx/event_pictures/ENG_fall_of_mosley.dds"
 	}
+	#####France
+		spriteType = { 
+		name = "GFX_FRA_may_pustch_news"
+		texturefile = "gfx/event_pictures/FRA_may_pustch_news.dds"
+	}
+		spriteType = { 
+		name = "GFX_FRA_may_pustch"
+		texturefile = "gfx/event_pictures/FRA_may_pustch.dds"
+	}
+		spriteType = { 
+		name = "GFX_FRA_may_pustch2"
+		texturefile = "gfx/event_pictures/FRA_may_pustch2.dds"
+	}
+	
 }
