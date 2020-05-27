@@ -184,12 +184,16 @@ AST_cmw_voynist_DEF:0 "the Commonwealth of Australia"
 ### Focuses ###
  
 ### Ideas ###
-AST_the_new_republic:0 "The New Republic?"
-AST_the_new_republic_desc:0 "Little more than a year ago, a Nation was reborn. A proud people awakened from their slumber and cried \"No more!\"; throwing off the Imperial shackles that had bound them to a corpse for so long, and bringing a new Australia out into the world....\n\n ...at least, that's what some say. Although backed by the people, this new-born nation is still finding its feet in a hostile world, and administration is still far from smooth, especially since the compromise Calwell government has refused to answer the important, but highly controversial within the ANLP, questions of State - albeit in the name of actually running the country, rather than descending back into the squabbling that almost doomed the Secession from the start. Despite merely being proclaimed as a free Australia, the new nation is already being labelled an Australian Republic - and as Calwell's promised Constitutional Convention marches ever nearer, a decision must soon be made...."
-AST_divided:0 "A Divided Continent"
-AST_investigations_branch:0 "The Investigations Branch"
-AST_bad_econ:0 "The Economic Issue" 
-AST_white_australia:0 "White Australia"
+AST_king_albert_i:0 "King Albert I"
+AST_king_albert_i_desc:0 "After the death of Edward VIII and fall of Canada, with the Empire in shambles yet again, Prince Albert succeeded his brother and was crowned as King Albert I in 1943. In a huge shift of rhetoric from his father and brother, he de facto ended the war for the British Empire with his speech, which declared; 'In this grave hour, perhaps the most fateful in our history, for the second time in the lives of most of us we are at war. Over and over again we have tried to find a way back to our Home Isles, but it has been in vain. The Empire, despite it's huge losses will have to move on for the time being, protect and rebuild what we have, mourn, and cope with our losses, and be ready in the hopes of reclaiming of the British Isles, however dire the circumstances may seem. The task will be hard. There may be dark days ahead and war is no longer confined to the battlefield.' Unlike his brother, Albert has managed to become quite popular among his subjects, and although the future of the Empire will likely see a lot of dark days, he is a source of hope for many of them."
+AST_last_bastion:0 "Last Bastion of the Empire"
+AST_last_bastion_desc:0 "After the reign of George V saw the loss of the British Isles, the Raj, and British Africa, and the reign of Edward VIII saw Canada lost, Australia is the final stronghold of the empire, and while our losses are massive, our forces are ever more consolidated, and our people ever more united under the crown. We might not be the ones that will retake the empire, but we will be the ones who ensure that the Empire survives, and that no socialist bastard will take it from us."
+AST_parliament_suspended:0 "Parliament Suspended"
+AST_parliament_suspended_desc:0 "After the Battle of Melbourne-East, King Albert suspended federal and local parliaments in an attempt to restabilize and fix the country. While our situation has improved significantly since then, there are still active opposition groups and ways to go before democracy can be restored to our nation."
+AST_slow_economic_recovery:0 "Slow Economic Recovery"
+AST_slow_economic_recovery_desc:0 "While the Australian economy was in severe depression for a long time, the King and his ministers' economic reforms have slowly but surely recovering the Australian economy, with industrialization underway and recovery to pre-WW1 levels imminent."
+AST_white_australia:0 "Australian Nativism"
+AST_white_australia_desc:0 "Australia has nativist policies limiting immigration, and while these policies are popular with the people, some of the Exiles see it as not only blocking loyal Imperial subjects from immigrating to the Empire's last bastion, but also as a potential economic deficit unlike most nativist thinkers."
  
 ### Flags ###
 
@@ -198,9 +202,9 @@ AST_white_australia:0 "White Australia"
 ### Companies ###
 
 ### Ministers ###
-AST_Arthur_Calwell:0 "Arthur Calwell"
+
 
 ### Leaders ###
-POLITICS_ARTHUR_CALWELL_DESC:0 "A Labor Party memeber since the age of 18, Arthur Calwell was an up-and-coming politician in the Labor-Nationalist camp of the Australasian National Government."
+POLITICS_THOMAS_BLAMEY_DESC:0 "A high-ranking officer in the Australian army and a huge royalist, Thomas Blamey was appointed head of government in these dire times after the suspension of parliament and has been able to stabilize the nation through leadership of the Australian Guard. Despite his old age, his iron will and faith in King and Country remain intact, and has become a symbol of Imperial perseverence and unity in these trying times."
 
 ### Tech? ###

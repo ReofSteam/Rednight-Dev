@@ -362,5 +362,26 @@ spriteTypes = {
 		name = "GFX_idea_GER_free_germany"
 		texturefile = "gfx/interface/ideas/GER/GER_FreeGermanyArmy.dds"
 	}
-
+    
+    #Australia
+    spriteType = {
+		name = "GFX_idea_AST_king_albert_i"
+		texturefile = "gfx/interface/ideas/idea_george_vi.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_AST_last_bastion"
+		texturefile = "gfx/interface/ideas/AST/AST_last_bastion.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_AST_slow_economic_recovery"
+		texturefile = "gfx/interface/ideas/AST/AST_slow_economic_recovery.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_AST_white_australia"
+		texturefile = "gfx/interface/ideas/AST/AST_whiteaussie.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_AST_parliament_suspended"
+		texturefile = "gfx/interface/ideas/generic/disunited_government.tga"
+	}
 }

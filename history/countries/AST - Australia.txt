@@ -26,11 +26,10 @@ set_technology = {
 }
 
 add_ideas = {
-	AST_Arthur_Calwell
-	AST_the_new_republic
-	AST_divided
-	AST_investigations_branch
-	AST_bad_econ
+	AST_king_albert_i
+	AST_last_bastion
+	AST_parliament_suspended
+	AST_slow_economic_recovery
 	AST_white_australia
 }
 
@@ -60,18 +59,19 @@ set_country_flag = banned_nationalist_socialism
 set_country_flag = banned_revolutionary_socialism
 set_country_flag = banned_syndicalism
 set_country_flag = banned_moderate_socialist
-set_country_flag = banned_ultrasocial_conservative
 
-set_country_flag = coalition_authoritarian_democrat # ALNP moderate wing
-set_country_flag = coalition_autocratic # ALNP super moderate/old labor wing
-set_country_flag = coalition_national_corporatist # ALNP nationalist wing
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_autocratic
 
-set_convoys = 100
+
+set_convoys = 650
 
 create_country_leader = {
-	name = "Arthur Calwell"
-	desc = "POLITICS_ARTHUR_CALWELL_DESC"
-	picture = "gfx/leaders/OCEANIA/AST/AST_Arthur_Calwell.tga"
+	name = "Thomas Blamey"
+	desc = "POLITICS_THOMAS_BLAMEY_DESC"
+	picture = "gfx/leaders/AST/AST_Blamey.tga"
 	expire = "1953.1.1"
 	ideology = autocratic_subtype
 	traits = {
