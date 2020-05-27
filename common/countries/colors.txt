@@ -889,10 +889,10 @@ USN = {
 	color = rgb { 67 123 237 }
 	color_ui = rgb { 67 123 237 }
 }
-#PUE = {
-#	color = rgb
-#	color_ui = rgb
-#}
+PUE = {
+	color = rgb
+	color_ui = rgb
+}
 #WIN = {
 #	color = rgb
 #	color_ui = rgb

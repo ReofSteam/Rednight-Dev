@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = USA
+		owner = PUE
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -15,8 +15,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
-		add_core_of = PRI
+		add_core_of = PUE
 		victory_points = {
 			1440 5
 		}
