@@ -286,7 +286,7 @@ HAI = "countries/Haiti.txt"
 JAM = "countries/Jamaica.txt"
 USN = "countries/Naval Clique.txt"
 WIF = "countries/West Indies Federation.txt"
-#PUE = "countries/Puerto Rico.txt"		Unimplemented
+PUE = "countries/CentralAmerica.txt"		
 #WIN = "countries/Windward Islands.txt"	Unimplemented
 
 ##South America

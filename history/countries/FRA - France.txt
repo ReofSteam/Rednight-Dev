@@ -82,7 +82,7 @@ add_to_faction = GER
 
 
 
-create_country_leader = {# Our BOYO OWO
+create_country_leader = {# 
 	name = "Benoit Frachon"
 	desc = "POLITICS_BENOIT_FRACHON_DESC"
 	picture = "gfx/leaders/FRA/FRA_Benoit_Frachon.tga"
