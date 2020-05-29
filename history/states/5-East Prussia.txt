@@ -5,8 +5,8 @@ state = {
 	state_category = six
 
 	history = {
-		owner = RUS
-		add_core_of = RUS
+		owner = PRS
+		add_core_of = PRS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
