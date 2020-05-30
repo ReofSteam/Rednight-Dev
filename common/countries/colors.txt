@@ -66,7 +66,8 @@ SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 224 5 5 }
 }
-FRG = {
+
+PRS = {
 	color = rgb { 66  82  72 }
 	color_ui = rgb { 66  82  72 }
 }

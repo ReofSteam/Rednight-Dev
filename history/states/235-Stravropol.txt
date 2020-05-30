@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = DKB
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -18,7 +18,7 @@ state = {
 		victory_points = {
 			748 2
 		}
-		add_core_of = DKB
+		add_core_of = RUS
 	}
 
 	provinces = {

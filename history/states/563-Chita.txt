@@ -17,7 +17,7 @@ state = {
 			arms_factory = 1
 		}
 		add_core_of = RUS
-		add_claim_by = TRM
+		add_claim_by = RUS
 		add_claim_by = RUS
 		victory_points = {
 			12641 2

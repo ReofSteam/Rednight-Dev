@@ -3,11 +3,11 @@ state = {
 	name = "STATE_404"
 
 	history = {
-		owner = ALO
+		owner = RUS
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = ALO
+		add_core_of = RUS
 		victory_points = {
 			4250 1
 		}

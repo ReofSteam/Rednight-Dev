@@ -7,13 +7,13 @@ state = {
 	}
 
 	history = {
-		owner = ALO
+		owner = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
 			arms_factory = 1
 		}
-		add_core_of = ALO
+		add_core_of = RUS
 		victory_points = {
 			12583 1
 		}
