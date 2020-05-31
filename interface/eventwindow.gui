@@ -78,7 +78,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "bottom_Window"
-			position = { x=1 y=1054 }	
+			position = { x=0 y=1054 }	
 			size = { width = 563 height = 244 }
 			moveable = yes
 			Orientation = UPPER_LEFT
