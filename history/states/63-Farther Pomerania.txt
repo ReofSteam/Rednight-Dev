@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = POL
-		add_core_of = POL
+		owner = PRS
+		add_core_of = PRS
 		victory_points = {
 			9361 1 
 		}
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		388 6309 6334 6390 9252 9277 9306 9334 9361 11288 11316 11343 11372 
+		6309 6334 6390 9277 9306 9334 9361 11316 11343 11372 
 	}
 	manpower=1274417
 	buildings_max_level_factor=1.000

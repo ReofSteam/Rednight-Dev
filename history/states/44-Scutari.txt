@@ -10,7 +10,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = ALB
+		owner = SER
 		victory_points = {
 			9914 15
 		}
@@ -25,14 +25,11 @@ state = {
 			9914 = {
 				naval_base = 4
 			}
-			11767 = {
-				bunker = 1
-			}
 		}
 		add_core_of = ALB
 	}
 
 	provinces = {
-		3884 3896 9780 9875 9914 10245 11762 11767
+		3896 9780 9875 9914 10245 11762
 	}
 }

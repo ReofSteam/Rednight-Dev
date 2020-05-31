@@ -5,7 +5,7 @@ tags={
 	"National Focuses"
 	"Events"
 }
-version="1.8.*"
+version="1.9.*"
 replace_path="events"
 replace_path="history/units"
 replace_path="common/units/names_divisions"

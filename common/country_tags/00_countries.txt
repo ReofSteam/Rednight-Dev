@@ -5,6 +5,7 @@ AUS = "countries/WestEur.txt"
 BAS = "countries/WestEur.txt" #Basque County
 BAV = "countries/WestEur.txt"
 BEL = "countries/WestEur.txt"
+BNT = "countries/WestEur.txt"
 BOS = "countries/WestEur.txt"
 BRA = "countries/WestEur.txt"
 BRI = "countries/WestEur.txt"

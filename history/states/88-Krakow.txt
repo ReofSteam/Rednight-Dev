@@ -10,7 +10,7 @@ state = {
 	state_category = eight
 
 	history = {
-		owner = GAL
+		owner = POL
 		victory_points = {
 			9427 8
 		}
@@ -20,7 +20,7 @@ state = {
 			industrial_complex = 2
 			air_base = 4
 		}
-		add_core_of = GAL
+		add_core_of = POL
 	}
 
 	provinces = {

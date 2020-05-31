@@ -7,7 +7,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = ALB
+		owner = GRE
 		add_core_of = ALB
 		buildings = {
 			infrastructure = 3
@@ -15,6 +15,6 @@ state = {
 	}
 
 	provinces = {
-		914 3448 6900
+		914 3448 3884 6900 11767
 	}
 }

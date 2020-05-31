@@ -1,6 +1,7 @@
 ﻿capital = 126
 
 oob = "ENG"
+set_naval_oob = "ENG_Naval"
 
 set_research_slots = 4
 
@@ -46,7 +47,9 @@ set_technology = {
 }
 
 add_ideas = {
-
+ENG_mosley_democracy
+ENG_army_of_germany
+ENG_postwar_recession
 }
 
 #CABINET
@@ -70,9 +73,9 @@ set_politics = {
 set_popularities = {
 	nationalist_socialism = 7
 	revolutionary_socialism = 18
-	syndicalism = 13
+	syndicalism = 3
 	moderate_socialist = 36
-	social_democrat = 3
+	social_democrat = 13
 	social_liberal = 2
 	social_conservative = 4
 	authoritarian_democrat = 1
@@ -84,14 +87,246 @@ set_popularities = {
 ### Starting Political Leaders ###
 create_country_leader = {
 	name = "Oswald Mosley"
-	desc = "POLITICS_JOHN_WARBURTON_DESC"
-	picture = "gfx/leaders/"
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "gfx/leaders/ENG/ENG_Mosley.tga"
 	expire = "1965.1.1"
 	ideology = nationalist_socialism_subtype
 	traits = { }
 }
 
+create_country_leader = {
+	name = "Hugh Dalton"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/ENG/ENG_Dalton.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Micheal MacDonald"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/ENG/ENG_MacDonald.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
 
-##### GENERALS OF THE BRITISH ARMY #####
+#####BRITISH ARMY #####
 
 ## Field Marshals 
+create_field_marshal = {
+	name = "Kenneth Anderson"
+	portrait_path = "gfx/leaders/ENG/ENG_Anderson.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Fred Copeman"
+	portrait_path = "gfx/leaders/ENG/ENG_Copeman.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Douglas Gracey"
+	portrait_path = "gfx/leaders/ENG/ENG_Gracey.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Percy Hobart"
+	portrait_path = "gfx/leaders/ENG/ENG_Hobart.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Arthur Reid Nichol"
+	portrait_path = "gfx/leaders/ENG/ENG_Nichol.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Tom Wintringham"
+	portrait_path = "gfx/leaders/ENG/ENG_TOM.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "George Sutherland Aitken"
+	portrait_path = "gfx/leaders/ENG/ENG_George_Sutherland.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+#Navy
+create_navy_leader = {
+	name = "Philip Louis Vian"
+	picture = "ENG_Vian.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Angus Graham"
+	picture = "ENG_Graham.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Harold Kinahan"
+	picture = "ENG_Kinahan.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+
+####Variant
+create_equipment_variant = {
+		name = "O/P/R Class"
+		type = submarine_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 3
+			sub_engine_upgrade = 2
+			sub_stealth_upgrade = 2
+			sub_torpedo_upgrade = 3
+		}
+	}
+	create_equipment_variant = {
+		name = "S Class"
+		type = submarine_1
+		parent_version = 1
+		upgrades = {
+			ship_reliability_upgrade = 2
+			sub_engine_upgrade = 0
+			sub_stealth_upgrade = 2
+			sub_torpedo_upgrade = 3
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "A/B/C/D Class"
+		type = destroyer_1
+		parent_version = 0
+		upgrades = {
+			ship_torpedo_upgrade = 1
+			destroyer_engine_upgrade = 3
+			ship_ASW_upgrade = 2
+			ship_anti_air_upgrade = 1
+		}
+		obsolete = yes
+	}
+	# Light Cruisers #
+	create_equipment_variant = {
+		name = "Emerald Class"
+		type = light_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 3
+			ship_engine_upgrade = 3
+			ship_gun_upgrade = 2
+			ship_anti_air_upgrade = 3
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Amphion Class"
+		type = light_cruiser_1
+		parent_version = 1
+		upgrades = {
+			ship_reliability_upgrade = 3
+			ship_engine_upgrade = 3
+			ship_gun_upgrade = 3
+			ship_anti_air_upgrade = 3
+		}
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "County Class"
+		type = heavy_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 2
+			ship_engine_upgrade = 3
+			ship_armor_upgrade = 3
+			ship_gun_upgrade = 3
+		}
+	}
+	# Battlecruisers #
+	create_equipment_variant = {
+		name = "Admiral Class"
+		type = battle_cruiser_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 3
+			ship_engine_upgrade = 2
+			ship_armor_upgrade = 3
+			ship_gun_upgrade = 2
+		}
+	}
+	# Battleships #
+	create_equipment_variant = {
+		name = "Nelson Class"
+		type = battleship_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 3
+			ship_engine_upgrade = 2
+			ship_armor_upgrade = 3
+			ship_gun_upgrade = 3
+		}
+	}
+	create_equipment_variant = {
+		name = "Queen Elizabeth Class"
+		type = battleship_1
+		parent_version = 0
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 2
+			ship_armor_upgrade = 1
+		}
+	}

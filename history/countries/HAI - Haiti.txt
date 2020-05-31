@@ -31,7 +31,7 @@ set_popularities = {
 }
 
 
-###gfx/leaders/NORTH_AMERICA/HAI/
+
 
 create_country_leader = {
 	name = "Franck Lavaud"

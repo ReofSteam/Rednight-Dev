@@ -66,7 +66,8 @@ SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 224 5 5 }
 }
-FRG = {
+
+PRS = {
 	color = rgb { 66  82  72 }
 	color_ui = rgb { 66  82  72 }
 }
@@ -93,6 +94,10 @@ MLT = {
 ALB = {
 	color = rgb { 149 45 102 }
 	color_ui = rgb { 149 45 102 }
+}
+BNT = {
+	color = rgb { 255 234 177 }
+	color_ui = rgb { 255 234 177 }
 }
 BOS = {
 	color = rgb { 67 158 34 }
@@ -885,10 +890,10 @@ USN = {
 	color = rgb { 67 123 237 }
 	color_ui = rgb { 67 123 237 }
 }
-#PUE = {
-#	color = rgb
-#	color_ui = rgb
-#}
+PUE = {
+	color = rgb
+	color_ui = rgb
+}
 #WIN = {
 #	color = rgb
 #	color_ui = rgb

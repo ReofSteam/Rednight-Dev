@@ -50,6 +50,7 @@ SER = "countries/Serbia.txt"
 SLN = "countries/Slovenia.txt"
 YUG = "countries/Yugoslavia.txt"
 VAR = "countries/Vardar.txt"
+BNT = "countries/Banat Free State.txt"
 
 ##North
 DEN = "countries/Denmark.txt"
@@ -66,7 +67,7 @@ HUN = "countries/Hungary.txt"
 LAT = "countries/Latvia.txt"
 LIT = "countries/Lithuania.txt"
 ROM = "countries/Romania.txt"
-RPL = "countries/West Poland.txt"
+PRS = "countries/WestEur.txt"
 RUS = "countries/Russia.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
@@ -222,7 +223,7 @@ LIB = "countries/Liberia.txt"
 MLI = "countries/Mali.txt"
 MRT = "countries/Mauritania.txt"
 NGR = "countries/Nigeria.txt"
-SEN = "countries/International West Africa.txt"
+SEN = "countries/Senegal.txt"
 TOG = "countries/Togo.txt"
 TUA = "countries/Tuareg.txt"		#90% certain this an AZA are identical
 BFA = "countries/Burkina Faso.txt"
@@ -285,7 +286,7 @@ HAI = "countries/Haiti.txt"
 JAM = "countries/Jamaica.txt"
 USN = "countries/Naval Clique.txt"
 WIF = "countries/West Indies Federation.txt"
-#PUE = "countries/Puerto Rico.txt"		Unimplemented
+PUE = "countries/CentralAmerica.txt"		
 #WIN = "countries/Windward Islands.txt"	Unimplemented
 
 ##South America
