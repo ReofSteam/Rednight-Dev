@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 
 ### Country Name ###
 ENG_nationalist_socialism:0 "Union of Britain"
@@ -101,9 +101,7 @@ ENG_british_workers_government_desc:0 "We can now save communism in the way Karl
 ENG_national_labour_victory:0 "National Labour Victory"
 ENG_national_labour_victory_desc:0 ""
 ENG_mosleys_democratic_election:0 "Mosley's Democratic Election"
-ENG_mosleys_democratic_election_desc:0 "Mosley's Democracy: 
-
-Elections have come, and with them great change. Radicals may jeer and shout, but true power in England belongs to the TUC, and the new government Chairman Mosley has toiled to forge. With the end of the act of wartime government, and the rise of a new English socialism, we avoid the faults of old labour, while staying true to democracy."
+ENG_mosleys_democratic_election_desc:0 "Mosley's Democracy:Elections have come, and with them great change. Radicals may jeer and shout, but true power in England belongs to the TUC, and the new government Chairman Mosley has toiled to forge. With the end of the act of wartime government, and the rise of a new English socialism, we avoid the faults of old labour, while staying true to democracy."
 ENG_english_socialist_victory:0 "English Socialist Victory"
 ENG_english_socialist_victory_desc:0 ""
 ENG_maximist_victory:0 "Maximist Victory"
@@ -113,7 +111,7 @@ ENG_industrial_spearhead_desc:0 ""
 ENG_new_britain_plan:0 "New Britain Plan"
 ENG_new_britain_plan_desc:0 ""
 ENG_winter_of_discontent:0 "Winter of Discontent"
-ENG_winter_of_discontent_desc:0 ""
+ENG_winter_of_discontent_desc:0 "Since the July 14th conspiracy, in which the revolution felt a brush with oblivion our internal security forces have operated under a simple motto; Never Again. We must continue our efforts, lest we all tumble back into an age of barbarism and decadence."
 ENG_project_trident:0 "Project Trident"
 ENG_project_trident_desc:0 ""
 ENG_british_civil_construction_corps:0 "British Civil Construction Corps"
