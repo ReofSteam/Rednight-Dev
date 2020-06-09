@@ -7,9 +7,9 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 
-		"RUS" = {
-			history = "RUS_KR_GATHERING_STORM_DESC"
-			ideology = moderate_socialist
+		"FRA" = {
+			history = "FRA_KR_GATHERING_STORM_DESC"
+			ideology = revolutionary_socialism
 			ideas = {
 			}
 
