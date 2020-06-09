@@ -1,15 +1,15 @@
 bookmarks = {
 	bookmark = {
-		name = "KR_SCENARIO_NAME"
+		name = "RN_SCENARIO_NAME_1950"
 		desc = "KR_SCENARIO_DESC"
-		date = 1953.1.1.1
-		picture = "GFX_select_date_1936"
+		date = 1950.1.1.1
+		picture = "RN_1950"
 		default_country = "GER"
 		default = yes
 
-		"CSA" = {
+		"RUS" = {
 			history = "GER_KR_GATHERING_STORM_DESC"
-			ideology = authoritarian_democrat
+			ideology = moderate_socialist
 			ideas = {
 			}
 
@@ -17,9 +17,9 @@ bookmarks = {
 			}
 		}
 
-		"BHC" = {
+		"AST" = {
 			history = "FRA_KR_GATHERING_STORM_DESC"
-			ideology = syndicalist
+			ideology = revolutionary_socialism
 			ideas = {
 			}
 
@@ -29,7 +29,7 @@ bookmarks = {
 
 		"CHI" = {
 			history = "ENG_KR_GATHERING_STORM_DESC"
-			ideology = syndicalist
+			ideology = nationalist_socialism
 			ideas = {
 			}
 			focuses = {

@@ -1,0 +1,17 @@
+spriteTypes = {
+	
+	###############
+	### Scenarios ###
+	###############
+	
+	spriteType = { 
+		name = "RN_1950"
+		texturefile = "gfx/rn_1950.dds"
+	}	
+	spriteType = { 
+		name = "RN_1981"
+		texturefile = "gfx/1981.dds"
+	}		
+		
+	
+}

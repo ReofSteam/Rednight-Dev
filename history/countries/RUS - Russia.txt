@@ -282,7 +282,7 @@ create_navy_leader = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Leningrad & Minsk Class"
+		name = "Lavr Kornilov Class"
 		type = destroyer_1
 		upgrades = {
 			ship_torpedo_upgrade = 3
