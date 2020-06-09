@@ -9,7 +9,7 @@ state = {
 	state_category = eleven
 
 	history = {
-		owner = NTH
+		owner = BEL
 		victory_points = { 516 30 }
 		victory_points = { 6598 20 }
 		victory_points = { 6560 10 }

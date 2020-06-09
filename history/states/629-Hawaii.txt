@@ -4,7 +4,7 @@ state = {
 	manpower = 393000
 	state_category = four
 	history = {
-		owner = USA
+		owner = HAW
 		buildings = {
 			infrastructure = 3
 			air_base = 5
@@ -13,7 +13,7 @@ state = {
 				naval_base = 10
 			}
 		}
-		add_core_of = USA
+		add_core_of = HAW
 		victory_points = {
 			4180 15
 		}

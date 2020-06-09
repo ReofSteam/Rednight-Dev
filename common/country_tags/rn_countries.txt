@@ -1,9 +1,4 @@
-#####################################
-# REMEMBER TO MENTION @HANNAH#2780  #
-# SO SHE CAN FIX YOUR TAG           #
-# FOR THE POLITICS SCREEN           #
-# /LOVE HANNAH <3					# 
-#####################################
+
 
 ###Europe
 ##West
@@ -71,8 +66,7 @@ PRS = "countries/WestEur.txt"
 RUS = "countries/Russia.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
-WPL = "countries/East Poland.txt"
-POL = "countries/Poland.txt" #Please delete if not needed, but makes sure to fix KN_Polish_Creation_Event_Chain (and also remove POL-Poland.txt) :) /Love, Hannah <3
+POL = "countries/Poland.txt"
 CNK = "countries/Russian Channel.txt"
 
 ###Asia
@@ -176,8 +170,7 @@ EVN = "countries/Empire of Vietnam.txt"
 KNR = "countries/Khmer Nationalist Revolt.txt"
 
 ##Pacific
-AST = "countries/Australia.txt"
-WST = "countries/Westralia.txt"
+AST = "countries/WestEur.txt"
 HAW = "countries/Hawaii.txt"
 NZL = "countries/New Zealand.txt"
 GEA = "countries/German East Asia.txt"

@@ -1,0 +1,86 @@
+﻿capital = 613
+
+oob = "CHI"
+set_stability = 0.2
+set_war_support = 0.5
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	#mass_assault = 1
+	#fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+add_ideas = {
+	CHI_Party_State
+	CHI_Wang_Jingwei_Thought
+	CHI_National_Revolutionary_Army
+	CHI_Unindustrialized_Society
+	CHI_Rural_Illiteracy
+
+##Cabinet##
+
+	CHI_Li_Fuchun_hog
+	CHI_Zhou_Fohai_no_portfolio
+	#CHI_Song_Qingling_no_portfolio
+	CHI_Li_Kenong_interior
+	CHI_Deng_Xiaoping_economy
+	CHI_Zhou_Enlai_foreign
+	CHI_Chen_Lifu_education
+	CHI_Shen_Yanbing_culture
+	CHI_Sun_Fo_transport
+	CHI_Dai_Chunfeng_intel
+	CHI_Li_Jishen_staff
+	CHI_Wei_Lihuang_army
+	CHI_Fang_Ziyi_air_force
+	CHI_Lin_Zun_navy
+
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1940.15.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 0
+    revolutionary_socialism = 0
+    syndicalism = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 100
+    autocratic = 0
+    ultraconservative = 0
+    national_corporatist = 0
+}
+
+
+
+set_convoys = 40
+
+
+
+
+create_country_leader = {
+	name = "Cao Rulin"
+	desc = "POLITICS_CHEN_MINGSHU_DESC"
+	#picture = "gfx/leaders/ASIA/CHI/CHI_Cao.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+
+
+
+
+

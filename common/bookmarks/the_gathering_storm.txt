@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "RN_SCENARIO_NAME_1950"
-		desc = "KR_SCENARIO_DESC"
+		name = "RN_1950_NAME"
+		desc = "RN_1950_DESC"
 		date = 1950.1.1.1
 		picture = "RN_1950"
 		default_country = "GER"
