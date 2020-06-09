@@ -1,6 +1,6 @@
 ﻿capital = 59
 
-oob = "GER"
+oob = "BOZ"
 
 add_ideas = {
 	GER_reconstruction_germany

@@ -10,7 +10,7 @@ spriteTypes = {
 	}	
 	spriteType = { 
 		name = "RN_1981"
-		texturefile = "gfx/1981.dds"
+		texturefile = "gfx/rn_1981.dds"
 	}		
 		
 	

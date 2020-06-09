@@ -6,8 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = SIA
-		add_claim_by = SIA
+		owner = 750
 		add_core_of = CAM
 		victory_points = {
 			7376 4 # Phnom Penh
