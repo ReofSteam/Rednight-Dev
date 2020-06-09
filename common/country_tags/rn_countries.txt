@@ -1,3 +1,9 @@
+#####################################
+# REMEMBER TO MENTION @HANNAH#2780  #
+# SO SHE CAN FIX YOUR TAG           #
+# FOR THE POLITICS SCREEN           #
+# /LOVE HANNAH <3					# 
+#####################################
 
 ###Europe
 ##West
@@ -5,7 +11,7 @@ BEL = "countries/Belgium.txt"
 BRI = "countries/Britanny.txt"
 FLN = "countries/Flanders.txt"
 FRA = "countries/France.txt"
-ENG = "countries/Britain.txt"
+GBR = "countries/Britain.txt"
 IRE = "countries/Ireland.txt"
 WLL = "countries/Wallonia.txt"
 LUX = "countries/Luxembourg.txt"	#Unplanned
@@ -31,6 +37,7 @@ CNT = "countries/Iberia.txt"
 POR = "countries/Exile Portugal.txt"
 ITA = "countries/Italy.txt"
 MLT = "countries/Malta.txt"
+
 ##Southeast
 ALB = "countries/Albania.txt"
 BOS = "countries/Bosnia.txt"
@@ -65,7 +72,7 @@ RUS = "countries/Russia.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
 WPL = "countries/East Poland.txt"
-POL = "countries/Poland.txt" 
+POL = "countries/Poland.txt" #Please delete if not needed, but makes sure to fix KN_Polish_Creation_Event_Chain (and also remove POL-Poland.txt) :) /Love, Hannah <3
 CNK = "countries/Russian Channel.txt"
 
 ###Asia
