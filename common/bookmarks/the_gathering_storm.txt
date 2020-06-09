@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 
 		"RUS" = {
-			history = "GER_KR_GATHERING_STORM_DESC"
+			history = "RUS_KR_GATHERING_STORM_DESC"
 			ideology = moderate_socialist
 			ideas = {
 			}
@@ -48,7 +48,7 @@ bookmarks = {
 		}
 
 		"GER" = {
-			history = "USA_KR_GATHERING_STORM_DESC"
+			history = "GER_KR_GATHERING_STORM_DESC"
 			ideology = market_liberal
 			ideas = {
 			}
@@ -57,7 +57,7 @@ bookmarks = {
 		}
 
 		"ENG" = {
-			history = "RUS_KR_GATHERING_STORM_DESC"
+			history = "ENG_KR_GATHERING_STORM_DESC"
 			ideology = social_liberal
 			ideas = {
 			}
@@ -116,7 +116,7 @@ bookmarks = {
 		}
 		"FRA" = {
 			minor = yes
-			history = "PAP_KR_GATHERING_STORM_DESC"
+			history = "FRA_KR_GATHERING_STORM_DESC"
 			ideology = paternal_autocrat
 			ideas = {
 				PAP_holy_see
