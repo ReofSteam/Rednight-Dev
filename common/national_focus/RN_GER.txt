@@ -7,50 +7,40 @@ focus_tree = {
 			tag = GER
 		}
 	}
-	#Focus for Prepare for Reunification
+	#Focus for Information Control Division
 	focus = {
-		id = GER_prepare_for_reunification
-		icon = GFX_focus_eng_global_defense
-		x = 12.5
-		y = 8
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = GER_their_virtues_defined 
-		}
-		prerequisite = { 
-			focus = GER_the_road_ahead 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Their Virtues, defined
-	focus = {
-		id = GER_their_virtues_defined
-		icon = GFX_focus_generic_join_comintern
-		x = 15
-		y = 6
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = GER_emphasize_old_heroes 
-			focus = GER_invent_new_heroes 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Invent New Heroes
-	focus = {
-		id = GER_invent_new_heroes
-		icon = GFX_focus_generic_military_mission
-		x = 17
-		y = 5
+		id = GER_information_control_division
+		icon = GFX_goal_unknown
+		x = 18
+		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_commission_film }
-		mutually_exclusive = { focus = GER_emphasize_old_heroes }
+		prerequisite = { focus = GER_an_evening_adress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Finish the German Revolution
+	focus = {
+		id = GER_finish_the_german_revolution
+		icon = GFX_goal_unknown
+		x = 15
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Wolves on the Prowl
+	focus = {
+		id = GER_wolves_on_the_prowl
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_an_evening_adress }
 		ai_will_do = {
 			factor = 1
 		}
@@ -58,8 +48,8 @@ focus_tree = {
 	#Focus for Emphasize old Heroes
 	focus = {
 		id = GER_emphasize_old_heroes
-		icon = GFX_focus_spr_unify_the_london_bureau
-		x = 13
+		icon = GFX_goal_unknown
+		x = 16
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -69,36 +59,80 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	#Focus for Commission Film
+	#Focus for Their Virtues,defined
 	focus = {
-		id = GER_commission_film
-		icon = GFX_focus_generic_join_comintern
-		x = 15
-		y = 4
-		cost = 5
+		id = GER_their_virtuesdefined
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = GER_newspaper 
-		}
-		prerequisite = { 
-			focus = GER_television 
-		}
-		prerequisite = { 
-			focus = GER_in_the_schools 
+			focus = GER_emphasize_old_heroes 
+			focus = GER_invent_new_heroes 
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	#Focus for Newspaper!
+	#Focus for Prepare for Reunification
 	focus = {
-		id = GER_newspaper
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 13
-		y = 3
+		id = GER_prepare_for_reunification
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7.2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_information_control_division }
+		prerequisite = { 
+			focus = GER_their_virtuesdefined 
+		}
+		prerequisite = { 
+			focus = GER_the_road_ahead 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Execution
+	focus = {
+		id = GER_execution
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_raid_the_countryside }
+		mutually_exclusive = { focus = GER_imprisonment }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Imprisonment
+	focus = {
+		id = GER_imprisonment
+		icon = GFX_goal_unknown
+		x = 14
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = GER_raid_the_countryside }
+		mutually_exclusive = { focus = GER_execution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Road Ahead
+	focus = {
+		id = GER_the_road_ahead
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_execution 
+			focus = GER_imprisonment 
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -106,8 +140,8 @@ focus_tree = {
 	#Focus for Television!
 	focus = {
 		id = GER_television
-		icon = GFX_focus_focus_fra_revolution_utmost
-		x = 17
+		icon = GFX_goal_unknown
+		x = 20
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -119,8 +153,8 @@ focus_tree = {
 	#Focus for In the Schools
 	focus = {
 		id = GER_in_the_schools
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 15
+		icon = GFX_goal_unknown
+		x = 18
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -129,66 +163,35 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	#Focus for The Road Ahead
+	#Focus for Newspaper!
 	focus = {
-		id = GER_the_road_ahead
-		icon = GFX_focus_por_workers_of_iberia
-		x = 8
-		y = 6
-		cost = 5
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = GER_execution 
-			focus = GER_imprisonment 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Imprisonment
-	focus = {
-		id = GER_imprisonment
-		icon = GFX_focus_CZE_german_puppet
-		x = 10
-		y = 5
+		id = GER_newspaper
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_raid_the_countryside }
-		mutually_exclusive = { focus = GER_execution }
+		prerequisite = { focus = GER_information_control_division }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	#Focus for Execution
+	#Focus for Commission Film
 	focus = {
-		id = GER_execution
-		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
-		x = 6
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_raid_the_countryside }
-		mutually_exclusive = { focus = GER_imprisonment }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Raid the Countryside
-	focus = {
-		id = GER_raid_the_countryside
-		icon = GFX_focus_prc_infiltration
-		x = 8
+		id = GER_commission_film
+		icon = GFX_goal_unknown
+		x = 18
 		y = 4
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = GER_mass_arrests 
+			focus = GER_newspaper 
 		}
 		prerequisite = { 
-			focus = GER_moths_to_a_flame 
+			focus = GER_in_the_schools 
 		}
 		prerequisite = { 
-			focus = GER_in_sheeps_clothing 
+			focus = GER_television 
 		}
 		ai_will_do = {
 			factor = 1
@@ -197,20 +200,7 @@ focus_tree = {
 	#Focus for Mass arrests
 	focus = {
 		id = GER_mass_arrests
-		icon = GFX_goal_continuous_boost_freedom
-		x = 6
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_wolves_on_the_prowl }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Moths to a Flame
-	focus = {
-		id = GER_moths_to_a_flame
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = GFX_goal_unknown
 		x = 10
 		y = 3
 		cost = 10
@@ -223,8 +213,20 @@ focus_tree = {
 	#Focus for In Sheep's Clothing
 	focus = {
 		id = GER_in_sheeps_clothing
-		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
-		x = 8
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Moths to a Flame
+	focus = {
+		id = GER_moths_to_a_flame
+		icon = GFX_goal_unknown
+		x = 14
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -233,53 +235,50 @@ focus_tree = {
 			factor = 1
 		}
 	}
-	#Focus for Wolves on the Prowl
-	focus = {
-		id = GER_wolves_on_the_prowl
-		icon = GFX_goal_generic_wolf_pack
-		x = 8
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = GER_an_evening_adress }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	#Focus for An Evening Adress
 	focus = {
 		id = GER_an_evening_adress
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 11.5
+		icon = GFX_goal_unknown
+		x = 15
 		y = 1
-		cost = 5
+		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = GER_finish_the_german_revolution }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	#Focus for Finish the German Revolution
+	#Focus for Raid the Countryside
 	focus = {
-		id = GER_finish_the_german_revolution
-		icon = GFX_focus_spr_crush_the_revolution
-		x = 11.5
-		y = 0
-		cost = 5
+		id = GER_raid_the_countryside
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
 		available_if_capitulated = yes
+		prerequisite = { 
+			focus = GER_mass_arrests 
+		}
+		prerequisite = { 
+			focus = GER_in_sheeps_clothing 
+		}
+		prerequisite = { 
+			focus = GER_moths_to_a_flame 
+		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	#Focus for Information Control Division
+	#Focus for Invent New Heroes
 	focus = {
-		id = GER_information_control_division
-		icon = GFX_focus_eng_move_to_secure_the_dominions
-		x = 15
-		y = 2
-		cost = 5
+		id = GER_invent_new_heroes
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = GER_an_evening_adress }
+		prerequisite = { focus = GER_commission_film }
+		mutually_exclusive = { focus = GER_emphasize_old_heroes }
 		ai_will_do = {
 			factor = 1
 		}
