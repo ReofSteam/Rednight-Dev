@@ -15,7 +15,14 @@ spriteTypes = {
 		name = "GFX_anti_military_protest"
 		texturefile = "gfx/event_pictures/anti_military_protest.dds"
 	}		
-		
+	spriteType = { 
+		name = "GFX_rebel_1" #loosely organised
+		texturefile = "gfx/event_pictures/rebel_1.dds"
+	}		
+	spriteType = { 
+		name = "GFX_rebel_2" #pro
+		texturefile = "gfx/event_pictures/rebel_2.dds"
+	}				
 	
 	###############
 	###   NEWS  ###
@@ -85,5 +92,22 @@ spriteTypes = {
 		name = "GFX_FRA_may_pustch2"
 		texturefile = "gfx/event_pictures/FRA_may_pustch2.dds"
 	}
+	#####Russia
+			spriteType = { 
+		name = "GFX_RUS_kremlin"
+		texturefile = "gfx/event_pictures/RUS_kremlin.dds"
+	}
+			spriteType = { 
+		name = "GFX_RUS_duma"
+		texturefile = "gfx/event_pictures/RUS_duma.dds"
+	}
+			spriteType = { 
+		name = "GFX_RUS_skoblin_annd_levitov"
+		texturefile = "gfx/event_pictures/RUS_skoblin_annd_levitov.dds"
+	}
 	
+		spriteType = { 
+		name = "GFX_RUS_wrangel"
+		texturefile = "gfx/event_pictures/RUS_wrangel.dds"
+	}
 }
