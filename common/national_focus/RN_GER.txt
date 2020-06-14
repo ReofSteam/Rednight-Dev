@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for Information Control Division
 	focus = {
 		id = GER_information_control_division
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service
 		x = 18
 		y = 2
 		cost = 10
@@ -23,7 +23,7 @@ focus_tree = {
 	#Focus for Finish the German Revolution
 	focus = {
 		id = GER_finish_the_german_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_GER_german_revolution
 		x = 15
 		y = 0
 		cost = 10
@@ -35,7 +35,7 @@ focus_tree = {
 	#Focus for Wolves on the Prowl
 	focus = {
 		id = GER_wolves_on_the_prowl
-		icon = GFX_goal_unknown
+		icon = GFX_GER_wolves_prowling
 		x = 12
 		y = 2
 		cost = 10
@@ -48,7 +48,7 @@ focus_tree = {
 	#Focus for Emphasize old Heroes
 	focus = {
 		id = GER_emphasize_old_heroes
-		icon = GFX_goal_unknown
+		icon = GFX_GER_old_heroes
 		x = 16
 		y = 5
 		cost = 10
@@ -62,7 +62,7 @@ focus_tree = {
 	#Focus for Their Virtues,defined
 	focus = {
 		id = GER_their_virtuesdefined
-		icon = GFX_goal_unknown
+		icon = GFX_GER_new_culture
 		x = 18
 		y = 6
 		cost = 10
@@ -78,7 +78,7 @@ focus_tree = {
 	#Focus for Prepare for Reunification
 	focus = {
 		id = GER_prepare_for_reunification
-		icon = GFX_goal_unknown
+		icon = GFX_GER_reunification_start
 		x = 15
 		y = 7.2
 		cost = 10
@@ -96,7 +96,7 @@ focus_tree = {
 	#Focus for Execution
 	focus = {
 		id = GER_execution
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_guillotine
 		x = 10
 		y = 5
 		cost = 10
@@ -110,7 +110,7 @@ focus_tree = {
 	#Focus for Imprisonment
 	focus = {
 		id = GER_imprisonment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_imprisonment
 		x = 14
 		y = 5
 		cost = 10
@@ -124,7 +124,7 @@ focus_tree = {
 	#Focus for The Road Ahead
 	focus = {
 		id = GER_the_road_ahead
-		icon = GFX_goal_unknown
+		icon = GFX_GER_road_socialism
 		x = 12
 		y = 6
 		cost = 10
@@ -140,7 +140,7 @@ focus_tree = {
 	#Focus for Television!
 	focus = {
 		id = GER_television
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_television
 		x = 20
 		y = 3
 		cost = 10
@@ -153,7 +153,7 @@ focus_tree = {
 	#Focus for In the Schools
 	focus = {
 		id = GER_in_the_schools
-		icon = GFX_goal_unknown
+		icon = GFX_GER_socialist_education
 		x = 18
 		y = 3
 		cost = 10
@@ -166,7 +166,7 @@ focus_tree = {
 	#Focus for Newspaper!
 	focus = {
 		id = GER_newspaper
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_newspaper
 		x = 16
 		y = 3
 		cost = 10
@@ -179,7 +179,7 @@ focus_tree = {
 	#Focus for Commission Film
 	focus = {
 		id = GER_commission_film
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_film
 		x = 18
 		y = 4
 		cost = 10
@@ -200,7 +200,7 @@ focus_tree = {
 	#Focus for Mass arrests
 	focus = {
 		id = GER_mass_arrests
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_the_police
 		x = 10
 		y = 3
 		cost = 10
@@ -213,7 +213,7 @@ focus_tree = {
 	#Focus for In Sheep's Clothing
 	focus = {
 		id = GER_in_sheeps_clothing
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_conspiracy
 		x = 12
 		y = 3
 		cost = 10
@@ -226,7 +226,7 @@ focus_tree = {
 	#Focus for Moths to a Flame
 	focus = {
 		id = GER_moths_to_a_flame
-		icon = GFX_goal_unknown
+		icon = GFX_GER_moths_flame
 		x = 14
 		y = 3
 		cost = 10
@@ -239,7 +239,7 @@ focus_tree = {
 	#Focus for An Evening Adress
 	focus = {
 		id = GER_an_evening_adress
-		icon = GFX_goal_unknown
+		icon = GFX_GER_grotewohl_address
 		x = 15
 		y = 1
 		cost = 10
@@ -252,7 +252,7 @@ focus_tree = {
 	#Focus for Raid the Countryside
 	focus = {
 		id = GER_raid_the_countryside
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_operation
 		x = 12
 		y = 4
 		cost = 10
@@ -273,7 +273,7 @@ focus_tree = {
 	#Focus for Invent New Heroes
 	focus = {
 		id = GER_invent_new_heroes
-		icon = GFX_goal_unknown
+		icon = GFX_GER_new_heroes
 		x = 20
 		y = 5
 		cost = 10
@@ -284,5 +284,4 @@ focus_tree = {
 			factor = 1
 		}
 	}
-#End of focuses 
  }
