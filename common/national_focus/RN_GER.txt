@@ -218,6 +218,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		prerequisite = { focus = GER_wolves_on_the_prowl }
 		ai_will_do = {
 			factor = 1
 		}
