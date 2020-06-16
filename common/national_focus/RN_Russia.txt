@@ -133,7 +133,7 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Reform the Krasno-Cherniye
+	#Focus for Reform the Krasnont w
 	focus = {
 		id = RUS_reform_the_krasnocherniye
 		icon = GFX_RUS_reform_the_krasnocherniye
@@ -1503,7 +1503,7 @@ focus_tree = {
 	#Focus for Flying Superfortresses
 	focus = {
 		id = RUS_flying_superfortresses
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_bomber
 		x = 16
 		y = 10
 		cost = 10

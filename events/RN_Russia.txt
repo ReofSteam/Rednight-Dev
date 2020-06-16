@@ -1,15 +1,15 @@
 ﻿
 
 country_event = { #Ukrainia Revolt
-	id = rn_russia.12
-	title = rn_russia.12.t
-	desc = kn_russia.12.d
+	id = rus.12
+	title = rus.12.t
+	desc = kn_rus.12.d
 	picture = GFX_rebel_1
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.12.a
+		name = rus.12.a
 		UKR = { transfer_state = 345 }
 		declare_war_on = {
     target = UKR
@@ -19,15 +19,15 @@ country_event = { #Ukrainia Revolt
 }
 
 country_event = { #Finnish Revolt
-	id = rn_russia.13
-	title = rn_russia.13.t
-	desc = kn_russia.13.d
+	id = rus.13
+	title = rus.13.t
+	desc = kn_rus.13.d
 	picture = GFX_rebel_2
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.13.a
+		name = rus.13.a
 		FIN = { transfer_state = 34 }
 declare_war_on = {
     target = FIN
@@ -40,83 +40,83 @@ declare_war_on = {
 #######Political struggle chain
 
 country_event = { #Levitov breaks the ice
-	id = rn_russia.14
-	title = rn_russia.14.t
-	desc = kn_russia.14.d
+	id = rus.14
+	title = rus.14.t
+	desc = kn_rus.14.d
 	picture = GFX_RUS_kremlin
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.14.a
+		name = rus.14.a
 	}
 }
 
 country_event = { #Levitov denounces Skoblin 
-	id = rn_russia.15
-	title = rn_russia.15.t
-	desc = kn_russia.15.d
+	id = rus.15
+	title = rus.15.t
+	desc = kn_rus.15.d
 	picture = GFX_RUS_duma
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.15.a
+		name = rus.15.a
 	}
 }
 
 country_event = { #Levitov denounces Skoblin 
-	id = rn_russia.15
-	title = rn_russia.15.t
-	desc = kn_russia.15.d
+	id = rus.15
+	title = rus.15.t
+	desc = kn_rus.15.d
 	picture = GFX_revolt_1
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.15.a
+		name = rus.15.a
 	}
 		option = {
-		name = rn_russia.15.b
+		name = rus.15.b
 	}
 }
 
 country_event = { #Arrest of Levitov
-	id = rn_russia.16
-	title = rn_russia.16.t
-	desc = kn_russia.16.d
+	id = rus.16
+	title = rus.16.t
+	desc = kn_rus.16.d
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.16.a
+		name = rus.16.a
 	}
 }
 
 country_event = { #Arrest of Levitov
-	id = rn_russia.17
-	title = rn_russia.17.t
-	desc = kn_russia.17.d
+	id = rus.17
+	title = rus.17.t
+	desc = kn_rus.17.d
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.17.a
+		name = rus.17.a
 	}
 }
 
 country_event = { #Return of the Whites
-	id = rn_russia.18
-	title = rn_russia.18.t
-	desc = kn_russia.18.d
+	id = rus.18
+	title = rus.18.t
+	desc = kn_rus.18.d
 	picture = GFX_RUS_wrangel
 
 	is_triggered_only = yes
 
 	option = {
-		name = rn_russia.18.a
+		name = rus.18.a
 	}
 }
 
