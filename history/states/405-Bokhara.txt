@@ -3,7 +3,7 @@ state = {
 	name = "STATE_405"
 
 	history = {
-		owner = TRK
+		owner = RUS
 		victory_points = {
 			10671 3
 		}
@@ -16,7 +16,7 @@ state = {
 			arms_factory = 3
 			air_base = 1
 		}
-		add_core_of = TRK
+		add_core_of = RUS
 	}
 
 	provinces = {
