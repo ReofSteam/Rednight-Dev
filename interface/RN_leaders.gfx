@@ -1,0 +1,14 @@
+spriteTypes = {
+	
+	frameAnimatedSpriteType = {
+    	name = "GFX_swiss_federal_council"
+    	texturefile = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+    	noOfFrames = 13
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 10
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+}

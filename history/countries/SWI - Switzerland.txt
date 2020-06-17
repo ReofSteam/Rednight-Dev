@@ -66,24 +66,12 @@ set_popularities = {
 	national_corporatist = 15
 }
 
-#activate_mission = SWI_peace_mission_ongoing
-# country_event = {
-# 	days = 2 id = swiss.41
-# }
-# country_event = {
-# 	days = 70 id = swiss.143
-# }
-# country_event = {
-# 	months = 7 id = swiss.145
-# }
-# country_event = {
-# 	months = 10 id = swiss.146
-# }
+
 
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = GFX_swiss_federal_council
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {}
@@ -92,7 +80,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = GFX_swiss_federal_council
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {}
@@ -135,9 +123,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Henri Guisan"
+	name = "Federal Council"
 	desc = ""
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/SWI_Henri_Guisan.dds"
+	picture = GFX_swiss_federal_council
 	expire = "1960.6.7"
 	ideology = authoritarian_democrat_subtype
 	traits = {}
@@ -146,7 +134,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = GFX_swiss_federal_council
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {}
@@ -155,7 +143,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = GFX_swiss_federal_council
 	expire = "1965.1.1"
 	ideology = ultraconservative_subtype
 	traits = {}

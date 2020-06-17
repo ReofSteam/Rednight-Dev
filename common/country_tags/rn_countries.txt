@@ -11,6 +11,7 @@ IRE = "countries/Ireland.txt"
 WLL = "countries/Wallonia.txt"
 LUX = "countries/Luxembourg.txt"	#Unplanned
 #SAA = "countries/Saarland.txt"		#Unimplemented
+RUS = "countries/WestEur.txt"
 
 ##Central
 CIS = "countries/Cisleithania.txt"
@@ -55,7 +56,6 @@ NOR = "countries/Norway.txt"
 SHL = "countries/Schleswig-Holstein.txt"
 SWE = "countries/Sweden.txt"
 
-##East
 BLR = "countries/Belarus.txt"
 EST = "countries/Estonia.txt"
 HUN = "countries/Hungary.txt"
@@ -63,7 +63,6 @@ LAT = "countries/Latvia.txt"
 LIT = "countries/Lithuania.txt"
 ROM = "countries/Romania.txt"
 PRS = "countries/WestEur.txt"
-RUS = "countries/Russia.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
 POL = "countries/Poland.txt"

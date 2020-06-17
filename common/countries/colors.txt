@@ -1,5 +1,5 @@
 ###Europe
-##West
+
 BEL = {
 	color = rgb { 112 94 117 }
 	color_ui = rgb { 112 94 117 }
@@ -12,10 +12,6 @@ KNR = {
 	color = rgb { 106 53 0 }
 	color_ui = rgb { 106 53 0 }
 }
-#BEL = {
-#	color = rgb { 193 171 8 }
-#	color_ui = rgb { 193 171 8 }
-#}
 BRI = {
 	color = rgb { 118 99 151 }
 	color_ui = rgb { 118 99 151 }
@@ -61,6 +57,10 @@ MRV = {
 GER = {
 	color = rgb { 150 20 20 }
 	color_ui = rgb { 150 20 20 }
+}
+RUS = {
+	color = rgb { 0 100 25 }
+	color_ui = rgb { 0 100 25 }
 }
 SWI = {
 	color = rgb { 224 5 5 }
@@ -196,10 +196,6 @@ ROM = {
 RPL = {
 	color = rgb { 197  92  106 }
 	color_ui = rgb { 197  92  106 }
-}
-RUS = {
-	color = rgb { 0 100 25 }
-	color_ui = rgb { 0 100 25 }
 }
 CNK = {
 	color = rgb { 153 32 32 }
