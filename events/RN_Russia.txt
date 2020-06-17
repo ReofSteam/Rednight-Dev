@@ -1,10 +1,10 @@
 ﻿###########################
-# Union of the Republics of Indochina Events
+# Russia Events
 ###########################
 
 add_namespace = rus
 
-country_event = { #Ukrainia Revolt
+country_event = { #Ukrainian Revolt
 	id = rus.12
 	title = rus.12.t
 	desc = kn_rus.12.d
