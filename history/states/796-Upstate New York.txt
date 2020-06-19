@@ -8,14 +8,14 @@ state = {
 	state_category = twelve
 
 	history = {
-		owner = USA
+		owner = CSA
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 6
 			arms_factory = 2
 			air_base = 10
 		}
-		add_core_of = USA
+		add_core_of = CSA
 		victory_points = {
 			11654 5
 		}

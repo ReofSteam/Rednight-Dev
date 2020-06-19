@@ -6,7 +6,7 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = USA
+		owner = CSA
 		victory_points = {
 			7617 5
 		}

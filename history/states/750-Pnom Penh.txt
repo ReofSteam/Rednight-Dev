@@ -6,8 +6,8 @@ state = {
 	}
 
 	history = {
-		owner = 750
-		add_core_of = CAM
+		owner = INC
+		add_core_of = INC
 		victory_points = {
 			7376 4 # Phnom Penh
 		}

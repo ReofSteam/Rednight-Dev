@@ -72,6 +72,23 @@ PRS = {
 	color_ui = rgb { 66  82  72 }
 }
 
+CAN = {
+	color = rgb { 119 48 39 }
+	color_ui = rgb { 119 48 39 }
+}
+CSA = {
+	color = rgb { 178 34 52 }
+	color_ui = rgb { 178 34 52 }
+}
+NFL = {
+	color = rgb { 200 56 80 }
+	color_ui = rgb { 200 56 80 }
+}
+QUE = {
+	color = rgb { 19 83 180 }
+	color_ui = rgb { 19 83 180 }
+}
+
 #Southwest
 CNT = {
 	color = rgb { 172 91 183 }
@@ -780,30 +797,9 @@ CHK = {
 }
 
 ###Americas
-#North
-CAN = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 119 48 39 }
-}
-CSA = {
-	color = rgb { 178 34 52 }
-	color_ui = rgb { 178 34 52 }
-}
-NFL = {
-	color = rgb { 200 56 80 }
-	color_ui = rgb { 200 56 80 }
-}
-QUE = {
-	color = rgb { 19 83 180 }
-	color_ui = rgb { 19 83 180 }
-}
-#RGR = {
-#	color = rgb
-#	color_ui = rgb
-#}
 TEX = {
-	color = rgb { 19 83 255 }
-	color_ui = rgb { 19 83 255 }
+	color = rgb { 4 36 124 }
+	color_ui = rgb { 4 36 124 }
 }
 
 ##Central
@@ -882,7 +878,7 @@ JAM = {
 	color = rgb { 34 142 60 }
 	color_ui = rgb { 34 142 60 }
 }
-USN = {
+CAL = {
 	color = rgb { 67 123 237 }
 	color_ui = rgb { 67 123 237 }
 }

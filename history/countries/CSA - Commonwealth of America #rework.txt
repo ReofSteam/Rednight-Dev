@@ -44,15 +44,6 @@ set_technology = {
 	#trench_warfare = 1
 	#fleet_in_being = 1
 }
-### PARTIES UI ###
-	### BANNED ###
-	set_country_flag = banned_authoritarian_democrat
-	set_country_flag = banned_autocratic
-	set_country_flag = banned_ultrasocial_conservative
-	set_country_flag = banned_national_corporatist
-
-	### COALITION ###
-	set_country_flag = coalition_revolutionary_socialism
 
 set_politics = {	
 	ruling_party = syndicalism
@@ -87,13 +78,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Elizabeth Gurley Flynn"
+	name = "William Z. Foster"
 	desc = "POLITICS_ELIZABETH_GURLEY_FLYNN_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Elizabeth_Gurley_Flynn.tga"
+	picture = "gfx/leaders/CSA/CSA_Foster.tga"
 	expire = "1965.1.1"
 	ideology = syndicalism_subtype
 	traits = {
-		rebel_girl
+	
 	}
 }
 

@@ -5,7 +5,7 @@ state = {
 	state_category = twelve
 
 	history = {
-		owner = USA
+		owner = CSA
 		buildings = {
 			infrastructure = 8
 			air_base = 10
@@ -16,7 +16,7 @@ state = {
 				naval_base = 4
 			}
 		}
-		add_core_of = USA
+		add_core_of = CSA
 
 		victory_points = {
 			9671 20
