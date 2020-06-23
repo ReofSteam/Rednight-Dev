@@ -5,49 +5,49 @@
 ####################
 ### Country Name ###
 ####################
-CSA_social_nationalist:0 "Commonwealth of America"
-CSA_social_nationalist_DEF:0 "American"
-CSA_social_nationalist_ADJ:0 "the Commonwealth of America"
-CSA_marxist:0 "Commonwealth of America"
-CSA_marxist_DEF:0 "American"
-CSA_marxist_ADJ:0 "the Commonwealth of America"
-CSA_libertarian:0 "Commonwealth of America"
-CSA_libertarian_DEF:0 "American"
-CSA_libertarian_ADJ:0 "the Commonwealth of America"
-CSA_moderate_socialist:0 "Commonwealth of America"
+CSA_nationalist_socialism:0 "Socialist Republic of America"
+CSA_nationalist_socialism_DEF:0 "American"
+CSA_nationalist_socialism_ADJ:0 "the Socialist Republic of America"
+CSA_revolutionary_socialism:0 "Socialist Republic of America"
+CSA_revolutionary_socialism_DEF:0 "American"
+CSA_revolutionary_socialism_ADJ:0 "the Socialist Republic of America"
+CSA_syndicalism:0 "Socialist Republic of America"
+CSA_syndicalism_DEF:0 "American"
+CSA_syndicalism_ADJ:0 "the Socialist Republic of America"
+CSA_moderate_socialist:0 "Socialist Republic of America"
 CSA_moderate_socialist_DEF:0 "American"
-CSA_moderate_socialist_ADJ:0 "the Commonwealth of America"
-CSA_social_democrat:0 "Commonwealth of America"
+CSA_moderate_socialist_ADJ:0 "the Socialist Republic of America"
+CSA_social_democrat:0 "Socialist Republic of America"
 CSA_social_democrat_DEF:0 "American"
-CSA_social_democrat_ADJ:0 "the Commonwealth of America"
-CSA_social_liberal:0 "Commonwealth of America"
+CSA_social_democrat_ADJ:0 "the Socialist Republic of America"
+CSA_social_liberal:0 "Socialist Republic of America"
 CSA_social_liberal_DEF:0 "American"
-CSA_social_liberal_ADJ:0 "the Commonwealth of America"
-CSA_conservative:0 "Commonwealth of America"
+CSA_social_liberal_ADJ:0 "the Socialist Republic of America"
+CSA_conservative:0 "Socialist Republic of America"
 CSA_conservative_DEF:0 "American"
-CSA_conservative_ADJ:0 "the Commonwealth of America"
-CSA_authoritarian_democrat:0 "Commonwealth of America"
+CSA_conservative_ADJ:0 "the Socialist Republic of America"
+CSA_authoritarian_democrat:0 "Socialist Republic of America"
 CSA_authoritarian_democrat_DEF:0 "American"
-CSA_authoritarian_democrat_ADJ:0 "the Commonwealth of America"
-CSA_autocratic:0 "Commonwealth of America"
+CSA_authoritarian_democrat_ADJ:0 "the Socialist Republic of America"
+CSA_autocratic:0 "Socialist Republic of America"
 CSA_autocratic_DEF:0 "American"
-CSA_autocratic_ADJ:0 "the Commonwealth of America"
-CSA_fundamentalist:0 "Commonwealth of America"
+CSA_autocratic_ADJ:0 "the Socialist Republic of America"
+CSA_fundamentalist:0 "Socialist Republic of America"
 CSA_fundamentalist_DEF:0 "American"
-CSA_fundamentalist_ADJ:0 "the Commonwealth of America"
-CSA_voynist:0 "Commonwealth of America"
+CSA_fundamentalist_ADJ:0 "the Socialist Republic of America"
+CSA_voynist:0 "Socialist Republic of America"
 CSA_voynist_DEF:0 "American"
-CSA_voynist_ADJ:0 "the Commonwealth of America"
+CSA_voynist_ADJ:0 "the Socialist Republic of America"
 
 ###############
 ### Parties ###
 ###############
-CSA_social_nationalist_party:0 "SPA - Socialist Party of America"
-CSA_social_nationalist_party_lon:0 "Socialist Party of America"
-CSA_marxist_party:0 "SPA - Socialist Party of America - Communist Bloc"
-CSA_marxist_party_lon:0 "Socialist Party of America - Communist Bloc"
-CSA_libertarian_party:0 "SPA - Socialist Party of America - Unionist Caucus"
-CSA_libertarian_party_lon:0 "Socialist Party of America - Unionist Caucus"
+CSA_nationalist_socialism_party:0 "SPA - Socialist Party of America"
+CSA_nationalist_socialism_party_lon:0 "Socialist Party of America"
+CSA_revolutionary_socialism_party:0 "SPA - Socialist Party of America - Communist Bloc"
+CSA_revolutionary_socialism_party_lon:0 "Socialist Party of America - Communist Bloc"
+CSA_syndicalism_party:0 "SPA - Socialist Party of America - Unionist Caucus"
+CSA_syndicalism_party_lon:0 "Socialist Party of America - Unionist Caucus"
 CSA_moderate_socialist_party:0 "SPA - Socialist Party of America"
 CSA_moderate_socialist_party_lon:0 "Socialist Party of America"
 CSA_social_democrat_party:0 "SPA - Socialist Party of America - Farmer-Labor Caucus"
@@ -68,76 +68,10 @@ CSA_voynist_party_long:0 "Silver Legion of America"
 #################
 ### Ministers ###
 #################
-CSA_Elizabeth_Flynn_hog:0 "Elizabeth Gurley Flynn"
-CSA_first_secretary:0 "First Secretary"
 
-CSA_Earl_Browder_mnp:0 "Earl Browder"
-CSA_speaker:0 "Speaker  of the People's Assembly"
-
-CSA_Vincent_R_Dunnes_interior:0 "Vincent R. Dunnes"
-CSA_secretary_commonwealth_affairs:0 "Secretary of Commonwealth Affairs"
-
-CSA_Harry_Bridges_economy:0 "Harry Bridges"
-CSA_secretary_finance:0 "Secretary of Finance"
-
-CSA_WEB_Du_Bois_foreign:0 "W.E.B Du Bois"
-CSA_international_relations:0 "Secretary of International Relations"
-
-CSA_Oakley_C_Johnson_education:0 "Oakley C. Johnson"
-CSA_education:0 "Secretary of Education"
-
-CSA_Roger_N_Baldwin_culture:0 "Roger N. Baldwin"
-CSA_information:0 "Secretary of Information"
-
-CSA_Wyndham_Mortimer_transport:0 "Wyndham Mortimer"
-CSA_transport:0 "Secretary of Transport"
-
-CSA_Abraham_G_Silverman_intel:0 "Abraham G. Silverman"
-CSA_intel:0 "Head of the Directorate of Intelligence"
-
-CSA_Evans_Carlson_staff:0 "Evans Carlson"
-CSA_staff:0 "Chief of the Joint Staff of the People's Liberation Army"
-
-CSA_Alexander_Vandegrift_army:0 "Alexander Vandegrift"
-CSA_army:0 "Chief of the General Staff of the People's Liberation Armyy"
-
-CSA_Marion_E_Carl_air_force:0 "Marion E. Carl"
-CSA_air_force:0 "Chief of Staff of the People's Liberation Army Air Force"
-
-CSA_Arthur_S_Carpender_navy:0 "Arthur S. Carpender"
-CSA_navy:0 "Chief of Staff of the People's Liberation Army Navy"
 ##############
 ### Events ###
 ##############
-
-coa.1.t:0 ""
-coa.1.desc:0 ""
-coa.1.a:0 ""
-
-coa.2.t:0 ""
-coa.2.desc:0 ""
-coa.2.a:0 ""
-
-coa.3.t:0 ""
-coa.3.desc:0 ""
-coa.3.a:0 ""
-
-coa.4.t:0 "[This.GetNewspaperHeader]Splits within the Socialist Party"
-coa.4.desc:0 "The Communist and Unionist caucuses have been in an electoral alliance since the very foundation of the People's Assembly and the beginning of electoral assembly politics in the Commonwealth of America. Before the founding of the caucuses, however, ties run much further back well into the early 1920s when Eugene Debs reinvited John Reed and Big Bill Haywood into the SPA.\n\nToday, Speaker of the People's Assembly Earl Browder has met with First Secretary Flynn to confirm that her successor would not be able to count on the support of the Communists in the upcoming election for the office of the First Secretary. The new Chair of the Communist Caucus, Max Bedacht, reassured party members that they would seek the nomination without any electoral pacts.\n\nMany believe this is to mask cracks within the caucus that have surfaced since the retirement of Alfred Wagenknecht and the expulsion of Jay Lovestone. With the bloc's ongoing factional squabbles and the coalition within the Secretariat now broken, who knows what will happen next?"
-coa.4.a:0 "Factionalism is again bubbling to the surface..."
-
-coa.5.t:0 ""
-coa.5.desc:0 ""
-coa.5.a:0 ""
-
-coa.6.t:0 ""
-coa.6.desc:0 ""
-coa.6.a:0 ""
-
-coa.51.t:0 "The Speaker Returns"
-coa.51.d:0 "In the red eyes hours of this morning, Speaker of the People's Assembly Earl Browder returned from his diplomatic journey to yugoslavia. When questioned by reporters he stated; “In Zagreb I observed a powerful spirit hanging in the air. Seeing our boys of the 27th  Armor Regiment train the working men of Yugoslavia deeply affected me. This trip was a potent reminder of our responsibilities to the international proletariat.”\nDespite his claims, many are not convinced this trip had any purpose other than PR for Mr.Browders first secretary campaign. His opponent, James Cannon event went so far as to call it an abuse of his position as first secretary, citing browders tirades  against “Foreign entanglements” as evidence of the man’s hypocritical position.\nOnly time will tell if the speaker has changed his tune or simply seeks to save face."
-coa.51.a:0 "Welcome home Mr.Speaker"
-coa.51.b:0 "What a Stunt...."
 
 
 ### Focuses ###
@@ -149,6 +83,4 @@ coa.51.b:0 "What a Stunt...."
 ### Tooltips ###
 
 ### Leaders ###
-rebel_girl:0 "Rebel Girl"
-POLITICS_ELIZABETH_GURLEY_FLYNN_DESC:0 "§YFirst Secretary of the Socialist Party of America§!\n\nEpic Granny"
 ### Tech? ###

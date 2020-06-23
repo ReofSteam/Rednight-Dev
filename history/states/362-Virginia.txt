@@ -6,8 +6,8 @@ state = {
 	state_category = nine
 
 	history = {
-		owner = USA
-		add_core_of = USA
+		owner = CSA
+		add_core_of = CSA
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 4

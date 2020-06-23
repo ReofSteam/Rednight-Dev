@@ -7,7 +7,7 @@ state = {
 	state_category = zero
 
 	history = {
-		owner = USA
+		owner = CSA
 		buildings = {
 
 			infrastructure = 4

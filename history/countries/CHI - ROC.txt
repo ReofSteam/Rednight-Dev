@@ -63,17 +63,12 @@ set_popularities = {
     national_corporatist = 0
 }
 
-
-
 set_convoys = 40
-
-
-
 
 create_country_leader = {
 	name = "Cao Rulin"
 	desc = "POLITICS_CHEN_MINGSHU_DESC"
-	#picture = "gfx/leaders/CHI/CHI_Cao.tga"
+	#picture = "gfx/leaders/ROC/CHI_Cao.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {

@@ -1,7 +1,6 @@
 
 
 ###Europe
-##West
 BEL = "countries/Belgium.txt"
 BRI = "countries/Britanny.txt"
 FLN = "countries/Flanders.txt"
@@ -249,13 +248,13 @@ CHK = "countries/Chokwe.txt"
 #North
 CAN = "countries/Canada.txt"
 CHP = "countries/Chiapas.txt"
-CSA = "countries/Commonwealth of America.txt"
+CSA = "countries/WestEur.txt"
 NFL = "countries/Newfoundland.txt"
-QUE = "countries/Quebec.txt"
+QUE = "countries/WestEur.txt"
 #RGR = "countries/Rio Grande.txt"		Unimplemented
 TEX = "countries/Texas.txt"
 YUC = "countries/Yucatan.txt"
-
+CAL = "countries/WestEur.txt"
 ##Central
 CAC = "countries/Central America.txt"
 COS = "countries/Costa Rica.txt"
