@@ -31,6 +31,17 @@ set_popularities = {
     national_corporatist = 0
 }
 
+
+create_country_leader = {# 
+	name = "Habib Bourguiba"
+	desc = "POLITICS_BENOIT_FRACHON_DESC"
+	picture = "gfx/leaders/TUN/TUN_Bourguiba.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+	}
+}
+
 ### Field Marshal
 
 create_field_marshal = { #Auto-Generated

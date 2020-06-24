@@ -55,34 +55,7 @@ give_military_access = NYA
 give_military_access = TNG
 give_military_access = PWA
 
-create_faction = Commonwealth
 
-add_to_faction = WST
-
-add_to_faction = PWA
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = PEX
-		autonomy_state = kn_occupied_state
-	}
-	set_autonomy = {
-		target = SWA
-		autonomy_state = kn_satellite
-	}
-	set_autonomy = {
-		target = KTG
-		autonomy_state = kn_protectorate
-	}
-	else = {
-		puppet = PEX
-		puppet = SWA
-		puppet = KTG
-	}
-}
 
 set_politics = {
 	ruling_party = authoritarian_democrat
@@ -104,72 +77,6 @@ set_popularities = {
 	national_corporatist = 0
 }
 
-set_country_flag = coalition_autocratic
-set_country_flag = coalition_social_conservative
-set_country_flag = coalition_social_liberal
-
-add_opinion_modifier = { target = GBR modifier = embargo }
-add_opinion_modifier = { target = CSA modifier = embargo }
-add_opinion_modifier = { target = FRA modifier = embargo }
-add_opinion_modifier = { target = CNT modifier = embargo }
-add_opinion_modifier = { target = ITA modifier = embargo }
-add_opinion_modifier = { target = NTH modifier = embargo }
-add_opinion_modifier = { target = IRE modifier = embargo }
-add_opinion_modifier = { target = BOZ modifier = embargo }
-add_opinion_modifier = { target = FOZ modifier = embargo }
-add_opinion_modifier = { target = JOZ modifier = embargo }
-add_opinion_modifier = { target = GER modifier = embargo }
-add_opinion_modifier = { target = AUS modifier = embargo }
-
-country_event = { id = saf.1 days = 2 } # Introduction event
-
-## Epic Portugal Fix (PEX comes earlier in load order, so this stops it reseting to SocNat) 
-
-PEX = {
-	set_politics = {
-		ruling_party = autocratic
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-    set_popularities = {
-        nationalist_socialism = 33
-        revolutionary_socialism = 0
-        syndicalism = 11
-        moderate_socialist = 7
-        social_democrat = 3
-        social_liberal = 8
-        social_conservative = 7
-        authoritarian_democrat = 4
-        autocratic = 16
-        ultraconservative = 14
-        national_corporatist = 0
-    }
-}
-
-KTG = {
-	set_politics = {		
-		ruling_party = autocratic
-		last_election = "1888.15.6"
-		election_frequency = 48
-		elections_allowed = no
-	}
-
-    set_popularities = {
-        nationalist_socialism = 0
-        revolutionary_socialism = 0
-        syndicalism = 0
-        moderate_socialist = 0
-        social_democrat = 0
-        social_liberal = 0
-        social_conservative = 0
-        authoritarian_democrat = 0
-        autocratic = 100
-        ultraconservative = 0
-        national_corporatist = 0
-    }
-}
 
 	
 create_country_leader = {
@@ -243,9 +150,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Sir Jan Christiaan Smuts"
+	name = "Daniel François Malan"
 	desc = "POLITICS_JAN_SMUTS_DESC"
-	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Portrait_SAF_Jan_Smuts.tga"
+	picture = "gfx/leaders/SAF/SAF_D_F_Malan.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -256,7 +163,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Daniel François Malan"
 	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Daniel_Francois_Malan_I.tga"
+	picture = "gfx/leaders/SAF/SAF_D_F_Malan.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {
@@ -267,7 +174,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Daniel François Malan"
 	desc = "POLITICS_DANIEL_MALAN_DESC"
-	picture = "gfx/leaders/SOUTHERN_AFRICA/SAF/Daniel_Francois_Malan_I.tga"
+	picture = "gfx/leaders/SAF/SAF_D_F_Malan.tga"
 	expire = "1965.1.1"
 	ideology = ultraconservative_subtype
 	traits = {
@@ -276,11 +183,7 @@ create_country_leader = {
 }
 
 add_ideas = {
-	#medium_economy
-	#SAF_D_F_Malan_hog_pau
-	#SAF_Eric_H_Louw_for_ade
-	#SAF_Charles_T_te_Water_eco_sco
-	#SAF_N_J_van_der_Merwe_sec_ade
+
 }
 
 ### Field Marshal

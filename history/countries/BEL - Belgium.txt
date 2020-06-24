@@ -6,7 +6,6 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.3
 
-set_cosmetic_tag = BEL_OCCUPATION
 
 set_technology = {
 	infantry_weapons = 1
@@ -19,20 +18,7 @@ set_technology = {
 	#trench_warfare = 1
 
 }
-set_country_flag = banned_national_corporatist
-set_country_flag = banned_ultrasocial_conservative
-set_country_flag = banned_autocratic
-set_country_flag = banned_authoritarian_democrat
-set_country_flag = banned_social_conservative
-set_country_flag = banned_social_liberal
-set_country_flag = banned_social_democrat
 
-FRA = {
-	set_autonomy = {
-		target = BEL
-		autonomy_state  = kn_autonomous
-	}
-}
 
 set_politics = {
 	ruling_party = revolutionary_socialism
@@ -43,11 +29,11 @@ set_politics = {
 set_popularities = {
 	nationalist_socialism = 1
 	revolutionary_socialism = 19
-	syndicalism = 1
+	syndicalism = 34
 	moderate_socialist = 23
 	social_democrat = 5
 	social_liberal = 2
-	social_conservative = 34
+	social_conservative = 1
 	authoritarian_democrat = 13
 	autocratic = 1
 	ultraconservative = 0
@@ -57,27 +43,16 @@ set_popularities = {
 set_convoys = 80
 
 add_ideas = {
-	BEL_losers_2nd_weltkrieg
-	BEL_state_of_limbo
-	BEL_fractured_culture
-	BEL_white_terror
-	BEL_phlanastere_reconstruction_initiative
-	BEL_Julien_Lahaut_hog
-	BEL_Arthur_Wauters_interior
-	BEL_Jacques_Grippa_economy
-	BEL_Achille_Van_Acker_foreign
-	BEL_Camille_Huysmans_education
-	BEL_Eduard_Van_Overstraeten_culture
-	BEL_Ernest_Burnelle_transport
+
 	
 }
 
 
-###gfx/leaders/WESTERN_EUROPE/BEL/
+###gfx/leaders/BEL/
 create_country_leader = {
-	name = "Council for Belgium" 
-	desc = "POLITICS_COUNCIL_FOR_BELGIUM_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/BEL/BEL_Belgian_council.tga"
+	name = "Fernand Demany" 
+	desc = "POLITICS_DEMANY_DESC"
+	picture = "gfx/leaders/BEL/BEL_Demany.tga"
 	expire = "1953.3.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {

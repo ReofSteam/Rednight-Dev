@@ -8,7 +8,22 @@
 
 
 ### Parties ###
-
+BEL_revolutionary_socialism_party:0 "POAB-BRWP"
+BEL_revolutionary_socialism_party_long:0 "Belgian Revolutionary Workers Party"
+BEL_nationalist_socialism_party:0 "POB-BWP"
+BEL_nationalist_socialism_party_long:0 "Workers Party - Patriotic and Ethnical"
+BEL_moderate_socialist_party:0 "POB-BWP"
+BEL_moderate_socialist_party_long:0 "Workers Party - Moderate"
+BEL_social_democrat_party:0 "Old Labour"
+BEL_social_democrat_party_long:0 "The Old Labourire Faction"
+BEL_social_liberal_party:0 "Gladstonians"
+BEL_social_liberal_party_long:0 "The Gladstone Club"
+BEL_conservative_party:0 "Tories"
+BEL_conservative_party_long:0 "Conservative and Unionist Party"
+BEL_authoritarian_democrat_party:0 "Tories"
+BEL_authoritarian_democrat_party_long:0 "Conservative and Unionist Party"
+BEL_autocratic_party:0 "Tories"
+BEL_autocratic_party_long:0 "Conservative and Royalist Party"
 ### Country Name ###
 
 BEL_nationalist_socialism:0 "Belgian Democratic Republic"
@@ -67,12 +82,5 @@ BEL_national_corporatist_DEF:0 "Belgian"
 ### Companies ###
 
 ### Ministers ###
-BEL_Julien_Lahaut_hog:0 "Julien Lahaut"
-BEL_Arthur_Wauters_interior:0 "Arthur Wauters"
-BEL_Jacques_Grippa_economy:0 "Jacques Grippa"
-BEL_Achille_Van_Acker_foreign:0 "Achille Van Acker"
-BEL_Camille_Huysmans_education:0 "Camille Huysmans"
-BEL_Eduard_Van_Overstraeten_culture:0 "Eduard Van Overstraeten"
-BEL_Ernest_Burnelle_transport:0 "Ernest Burnelle"
 ### Leaders ###
 ### Tech? ###
