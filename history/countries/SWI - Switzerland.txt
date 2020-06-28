@@ -25,9 +25,10 @@ set_research_slots = 3
 add_ideas = {
 	#extensive_conscription
 	#isolation
-	SWI_national_emergency
-	SWI_economy_collapsed
-	SWI_paralyzed_government
+	SWI_demobilisation
+	SWI_new_order
+	SWI_regime_of_the_colonels
+	SWI_economic_crisis
 }
 
 #CABINET

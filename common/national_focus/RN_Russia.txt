@@ -260,7 +260,7 @@ focus_tree = {
 	#Focus for The Eyes
 	focus = {
 		id = RUS_the_eyes
-		icon = GFX_goal_generic_CAS
+		icon = GFX_RUS_the_eyes
 		x = 28
 		y = 10
 		cost = 10
@@ -430,7 +430,7 @@ focus_tree = {
 	#Focus for 5 Years Plan
 	focus = {
 		id = RUS_5_years_plan
-		icon = GFX_goal_generic_production
+		icon = GFX_RUS_five_years
 		x = 6
 		y = 4
 		cost = 10
