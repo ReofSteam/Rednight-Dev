@@ -10,12 +10,19 @@ set_technology = {
 	early_fighter = 1
 }
 
+add_ideas = {
+	MAG_merina_dominance
+	MAG_ongoing_westernization
+	MAG_legacy_teacher
+}
+
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
 	nationalist_socialism = 12
 	revolutionary_socialism = 3
@@ -77,52 +84,3 @@ create_country_leader = {
 
 ### Field Marshal
 ### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Amiel"
-	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/MAG/Portrait_MAG_Amiel.tga"
-	traits = {
-		panzer_leader
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Cayla"
-	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/MAG/Portrait_MAG_Cayla.tga"
-	traits = {
-		old_guard
-		infantry_officer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Fanjava"
-	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/MAG/Portrait_MAG_Fanjava.tga"
-	traits = {
-		trait_reckless
-		panzer_leader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "de Barbezière"
-	portrait_path = "gfx/leaders/SOUTHERN_AFRICA/MAG/Portrait_MAG_de_Barbeziere.tga"
-	traits = {
-	}
-	skill = 1
-}

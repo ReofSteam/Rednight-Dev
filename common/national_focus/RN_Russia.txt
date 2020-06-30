@@ -227,6 +227,32 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			408 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			409 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			657 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Racial Reconciliation
@@ -507,6 +533,13 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
+		available = {			
+				OR = {
+					has_country_flag = rus_totalitarian_state
+					has_country_flag = rus_loyal_minorities
+				}	
+			}	
+
 		prerequisite = { focus = RUS_skoblins_council }
 		mutually_exclusive = { focus = RUS_the_ilyinists }
 		ai_will_do = {
@@ -522,6 +555,10 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+				has_country_flag = rus_popular_autocracy
+				has_country_flag = rus_national_unity
+		}
 		prerequisite = { focus = RUS_skoblins_council }
 		mutually_exclusive = { focus = RUS_the_savinkovist }
 		ai_will_do = {
@@ -556,6 +593,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = {id = rus.19 days = 1}
 		}
 	}
 
@@ -952,6 +992,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = synth_resources	
+			}
+		}
 	}
 
 	#Focus for South Russia Industrialisation
@@ -980,6 +1027,32 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			246 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			247 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			248 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#Focus for Malorossiya Industrialisation
@@ -993,6 +1066,32 @@ focus_tree = {
 		prerequisite = { focus = RUS_northwest_industrialisation }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			202 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			137 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			206 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 

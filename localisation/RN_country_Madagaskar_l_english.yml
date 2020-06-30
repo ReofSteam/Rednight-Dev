@@ -92,11 +92,19 @@ MAG_national_corporatist_DEF:0 "Malagasy Republic"
 
  
 ### Ideas ###
- 
+ MAG_merina_dominance:0 "Merina Dominance"
+ MAG_merina_dominance_desc:0 "The current leadership of the nation are observed to be mostly ethnically Merina bureaucrats, teachers, even the current ruling party, the VSS are known to be a Merina-dominated organization. This has gave rise to many organization, including the Coastal-formed PADESM to oppose the so-called "Merina Overlordship" that according to them, is a byproduct of Feudal and French legacy over Madagascar. In order to see true peace, Madagascar's government must shake off this image of Merina dominance over the other ethnic groups of Madagascar."
+ MAG_ongoing_westernization:0 "Ongoing Westernization"
+ MAG_ongoing_westernization_desc:0 "It has been the dream of the VSS since it's foundation to modernize Madagascar into a shining beacon of democracy and progress, much like the great western nations. Ever since the Germans left the island and the VSS's rule cemented, the government has pushed for industrialization and westernization to essentially modernize Madagascar. While modernized nations such as Meiji Japan provide a goal and a distant dream Madagascar must achieve, this process would be a long and costly project that would require the shared efforts of the Malagasy people."
+ MAG_legacy_teacher:0 "Legacy of the Teacher"
+ MAG_legacy_teacher_desc:0 "While the Coastals and Sakalavans may shun the "Merina Overlordship" that the VSS represented, it is no question that all Malagasy people are united in their respect of the Great Teacher, Jean Ralaimongo. A martyr after dying in German captivity, Ralaimongo's efforts to liberate and educate the Malagasy People since the French Colonial Era are held with high regards everywhere in Madagascar."
 
 ### Flags ###
 
 ### Tooltips ###
+
+##Ideas Tooltip
+MAG_merina_dominance_tt:0 "§RThe Highlander Merina's seeming dominance over national administration will cause unrest...§!"
 
 ### Companies ###
 
