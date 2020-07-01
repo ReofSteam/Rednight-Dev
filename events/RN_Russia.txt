@@ -135,7 +135,6 @@ country_event = { #Assemble a New Council
 
 	option = {
 		name = rus.19.a
-		country_event = { id = rus.20 days = 1}
 	}
 }
 
@@ -150,13 +149,11 @@ country_event = { #Government Structure Policy
 
 	option = {
 		name = rus.20.a
-		set_country_flag = rus_totalitarian_state
-		country_event = { id = rus.21 days = 1}
+		set_country_flag = RUS_totalitarian_state
 	}
 	option = {
 		name = rus.20.b
-		set_country_flag = rus_popular_autocracy
-		country_event = { id = rus.21 days = 1}
+		set_country_flag = RUS_popular_autocracy
 	}
 }
 
@@ -171,10 +168,89 @@ country_event = { #Racial Policy
 
 	option = {
 		name = rus.21.a
-		set_country_flag = rus_national_unity
+		set_country_flag = RUS_national_unity
 	}
 	option = {
 		name = rus.21.b
-		set_country_flag = rus_loyal_minorities
+		set_country_flag = RUS_loyal_minorities
+	}
+}
+
+
+country_event = { #A Council is Assembled
+	id = rus.22
+	title = rus.22.t
+	desc = rus.22.d
+	picture = GFX_RUS_wrangel
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.22.a
+		trigger = {
+			has_country_flag = RUS_totalitarian_state
+			has_country_flag = RUS_loyal_minorities
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 10
+		}
+		set_party_name = {
+			ideology = national_corporatist
+			long_name = RUS_national_corporatist_savinkovist_party_long
+			name = RUS_national_corporatist_savinkovist_party
+		}
+		complete_national_focus = RUS_the_savinkovist
+	}
+	option = {
+		name = rus.22.b
+		trigger = {
+			has_country_flag = RUS_totalitarian_state
+			has_country_flag = RUS_national_unity
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 10
+		}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = RUS_authoritarian_democrat_savinkovist_party_long
+			name = RUS_authoritarian_democrat_savinkovist_party
+		}
+		complete_national_focus = RUS_the_savinkovist
+	}
+	option = {
+		name = rus.22.c
+		trigger = {
+			has_country_flag = RUS_popular_autocracy
+			has_country_flag = RUS_national_unity
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 10
+		}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = RUS_authoritarian_democrat_Ilynist_party_long
+			name = RUS_authoritarian_democrat_Ilynist_party
+		}
+		complete_national_focus = RUS_the_ilyinists
+	}
+	option = {
+		name = rus.22.d
+		trigger = {
+			has_country_flag = RUS_popular_autocracy
+			has_country_flag = RUS_loyal_minorities
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 10
+		}
+		set_party_name = {
+			ideology = national_corporatist
+			long_name = RUS_national_corporatist_savinkovist_party_long
+			name = RUS_national_corporatist_savinkovist_party
+		}
+		complete_national_focus = RUS_the_savinkovist
 	}
 }

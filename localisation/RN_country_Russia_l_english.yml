@@ -38,6 +38,12 @@ rus.21.t:0 "Racial Policy"
 rus.21.d:0 ""
 rus.21.a:0 "National Unity"
 rus.21.b:0 "Loyal Minorities"
+rus.22.t:0 "The Assembling of the Council"
+rus.22.d:0 ""
+rus.22.a:0 "The Savinkovists have the majority."
+rus.22.b:0 "The Savinkovists have the majority."
+rus.22.c:0 "The Ilynists have the majority."
+rus.22.d:0 "The Savinkovists have the majority."
 
 ### Parties ###
 
@@ -57,7 +63,12 @@ RUS_ultraconservative_party:0 "Union of Russian People"
 RUS_ultraconservative_party_long:0 "Union of Russian People"
 RUS_national_corporatist_party:0 "Kornilovisks and other parties"
 RUS_national_corporatist_party_long:0 "The Kornilovite Clique, NPPR and RNU"
-
+RUS_national_corporatist_savinkovist_party:0 "RNRP"
+RUS_national_corporatist_savinkovist_party_long:0 "Russian National Republican Party"
+RUS_authoritarian_democrat_savinkovist_party:0 "RNRP"
+RUS_authoritarian_democrat_savinkovist_party_long:0 "Russian National Republican Party"
+RUS_authoritarian_democrat_Ilynist_party:0 "Ilynist"
+RUS_authoritarian_democrat_Ilynist_party_long:0 "Ilynists"
 ### Country Name ###
 
 
@@ -315,9 +326,12 @@ RUS_perestroika_desc:0 ""
 
  
 ### Flags ###
-
+RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
+RUS_popular_autocracy:0 "The structure of a popular autocracy has been chosen."
+RUS_national_unity:0 "The racial policy of National Unity has been chosen."
+RUS_loyal_minorities:0 "The Racial Policy of rewarding loyal minorities has been chosen"
 ### Tooltips ###
-
+RUS_A_Council_is_Selected_tt:0 "§GA Council has been Assembled.§"
 ### Companies ###
 
 ### Ministers ###

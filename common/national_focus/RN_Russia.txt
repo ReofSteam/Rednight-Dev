@@ -533,11 +533,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		available = {			
-				OR = {
-					has_country_flag = rus_totalitarian_state
-					has_country_flag = rus_loyal_minorities
-				}	
+		available = {				
 			}	
 
 		prerequisite = { focus = RUS_skoblins_council }
@@ -556,8 +552,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		available = {
-				has_country_flag = rus_popular_autocracy
-				has_country_flag = rus_national_unity
 		}
 		prerequisite = { focus = RUS_skoblins_council }
 		mutually_exclusive = { focus = RUS_the_savinkovist }
@@ -589,13 +583,33 @@ focus_tree = {
 		icon = GFX_RUS_skoblins_council
 		x = 6
 		y = 0
-		cost = 10
+		cost = 5
+		select_effect = {
+			country_event = {
+				id = rus.19
+				days = 7
+			}
+			country_event = {
+				id = rus.20
+				days = 14
+			}
+			country_event = {
+				id = rus.21
+				days = 21
+			}
+		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = {id = rus.19 days = 1}
+			custom_effect_tooltip = RUS_A_Council_is_Selected_tt
+			add_political_power = 50 
+			add_stability = 0.05
+			country_event = {
+				id = rus.22
+				days = 0
+			}
 		}
 	}
 
