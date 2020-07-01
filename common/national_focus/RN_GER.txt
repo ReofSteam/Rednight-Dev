@@ -41,7 +41,7 @@
 	}
 	#Focus for Their Virtues,defined
 	focus = {
-		id = GER_their_virtuesdefined
+		id = GER_their_virtues_defined
 		icon = GFX_GER_new_culture
 		x = 15
 		y = 6
