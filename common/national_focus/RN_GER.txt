@@ -16,7 +16,7 @@
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = GER_their_virtuesdefined 
+			focus = GER_their_virtues_defined 
 		}
 		prerequisite = { 
 			focus = GER_the_road_ahead 
