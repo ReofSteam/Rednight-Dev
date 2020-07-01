@@ -42,7 +42,7 @@
 	#Focus for Their Virtues,defined
 	focus = {
 		id = GER_their_virtuesdefined
-		icon = GFX_goal_unknown
+		icon = GFX_GER_new_culture
 		x = 15
 		y = 6
 		cost = 10
@@ -119,7 +119,7 @@
 	#Focus for Emphasize old Heroes
 	focus = {
 		id = GER_emphasize_old_heroes
-		icon = GFX_goal_unknown
+		icon = GFX_GER_old_heroes
 		x = 13
 		y = 5
 		cost = 10
@@ -230,8 +230,8 @@
 	}
 	#Focus for In Sheep's Clothing
 	focus = {
-		id = GER_focus_generic_conspiracy
-		icon = GFX_goal_unknown
+		id = GER_in_sheeps_clothing
+		icon = GFX_focus_generic_conspiracy
 		x = 9
 		y = 3
 		cost = 10
@@ -244,7 +244,7 @@
 	#Focus for Wolves on the Prowl
 	focus = {
 		id = GER_wolves_on_the_prowl
-		icon = GFX_goal_unknown
+		icon = GFX_GER_wolves_prowling
 		x = 9
 		y = 2
 		cost = 10
