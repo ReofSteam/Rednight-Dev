@@ -11,7 +11,7 @@
 	focus = {
 		id = GER_information_control_division
 		icon = GFX_focus_generic_secret_service
-		x = 10
+		x = 15
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -36,7 +36,7 @@
 	focus = {
 		id = GER_wolves_on_the_prowl
 		icon = GFX_GER_wolves_prowling
-		x = 12
+		x = 9
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -49,7 +49,7 @@
 	focus = {
 		id = GER_emphasize_old_heroes
 		icon = GFX_GER_old_heroes
-		x = 16
+		x = 13
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -63,7 +63,7 @@
 	focus = {
 		id = GER_their_virtues_defined
 		icon = GFX_GER_new_culture
-		x = 18
+		x = 15
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -79,12 +79,12 @@
 	focus = {
 		id = GER_prepare_for_reunification
 		icon = GFX_GER_reunification_start
-		x = 15
-		y = 7.2
+		x = 12
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = GER_their_virtuesdefined 
+			focus = GER_their_virtues_defined 
 		}
 		prerequisite = { 
 			focus = GER_the_road_ahead 
@@ -97,7 +97,7 @@
 	focus = {
 		id = GER_execution
 		icon = GFX_focus_generic_guillotine
-		x = 10
+		x = 7
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -111,7 +111,7 @@
 	focus = {
 		id = GER_imprisonment
 		icon = GFX_focus_generic_imprisonment
-		x = 14
+		x = 11
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -125,7 +125,7 @@
 	focus = {
 		id = GER_the_road_ahead
 		icon = GFX_GER_road_socialism
-		x = 12
+		x = 9
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
@@ -141,7 +141,7 @@
 	focus = {
 		id = GER_television
 		icon = GFX_focus_generic_television
-		x = 20
+		x = 17
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -154,7 +154,7 @@
 	focus = {
 		id = GER_in_the_schools
 		icon = GFX_GER_socialist_education
-		x = 18
+		x = 13
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -167,7 +167,7 @@
 	focus = {
 		id = GER_newspaper
 		icon = GFX_focus_generic_newspaper
-		x = 16
+		x = 11
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -180,7 +180,7 @@
 	focus = {
 		id = GER_commission_film
 		icon = GFX_focus_generic_film
-		x = 18
+		x = 15
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -201,7 +201,7 @@
 	focus = {
 		id = GER_mass_arrests
 		icon = GFX_focus_generic_the_police
-		x = 10
+		x = 7
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -214,7 +214,7 @@
 	focus = {
 		id = GER_in_sheeps_clothing
 		icon = GFX_focus_generic_conspiracy
-		x = 12
+		x = 9
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -227,7 +227,7 @@
 	focus = {
 		id = GER_moths_to_a_flame
 		icon = GFX_GER_moths_flame
-		x = 14
+		x = 11
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -240,7 +240,7 @@
 	focus = {
 		id = GER_an_evening_adress
 		icon = GFX_GER_grotewohl_address
-		x = 15
+		x = 12
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -253,7 +253,7 @@
 	focus = {
 		id = GER_raid_the_countryside
 		icon = GFX_focus_generic_secret_operation
-		x = 12
+		x = 9
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -274,7 +274,7 @@
 	focus = {
 		id = GER_invent_new_heroes
 		icon = GFX_GER_new_heroes
-		x = 20
+		x = 17
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
