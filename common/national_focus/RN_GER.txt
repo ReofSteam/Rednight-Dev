@@ -24,7 +24,7 @@
 	focus = {
 		id = GER_finish_the_german_revolution
 		icon = GFX_GER_german_revolution
-		x = 6
+		x = 12
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
