@@ -87,7 +87,7 @@ focus_tree = {
 	#Focus for Prepare for Reunification
 	focus = {
 		id = FOZ_prepare_for_reunification
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_GER_reunification_start
 		x = 12
 		y = 6
 		cost = 10
@@ -210,7 +210,7 @@ focus_tree = {
 	#Focus for Local Conscription
 	focus = {
 		id = FOZ_local_conscription
-		icon = GFX_focus_generic_manpower
+		icon = GFX_ENG_revolutionary_guards_expansion
 		x = 7
 		y = 3
 		cost = 10
