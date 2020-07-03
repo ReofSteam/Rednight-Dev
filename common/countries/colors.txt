@@ -24,6 +24,10 @@ FRA = {
 	color = rgb { 20 50 160 }
 	color_ui = rgb { 20 50 160 }
 }
+EGY = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
 ENG = {
 	color = rgb { 201  56  93 }
 	color_ui = rgb { 201  56  93 }
@@ -238,6 +242,11 @@ POL = {
 
 ###Asia
 ##Middle-East
+EGY = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+
 ADE = {
 	color = rgb { 135 206 250 }
 	color_ui = rgb { 135 206 250 }
