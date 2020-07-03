@@ -36,7 +36,7 @@ focus_tree = {
 	#Focus for Bolster Military Police
 	focus = {
 		id = FOZ_bolster_military_police
-		icon = GFX_goal_continuous_restrict_freedom
+		icon = GFX_focus_generic_the_police
 		x = 8
 		y = 1
 		cost = 10
@@ -49,7 +49,7 @@ focus_tree = {
 	#Focus for New Identification
 	focus = {
 		id = FOZ_new_identification
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_generic_newspaper
 		x = 6
 		y = 1
 		cost = 10
@@ -150,7 +150,7 @@ focus_tree = {
 	#Focus for Local Informants
 	focus = {
 		id = FOZ_local_informants
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_focus_generic_conspiracy
 		x = 9
 		y = 3
 		cost = 10
