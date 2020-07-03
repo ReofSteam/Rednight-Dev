@@ -127,3 +127,36 @@ country_event = { ##BOZ Ending
 
 	}			
 }
+
+country_event = { ##New German Cinema 
+	id = germancinema.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event germancinema.1"}
+	title = germancinema.1.t
+	desc = germancinema.1.d
+	picture = GFX_homecoming
+
+	is_triggered_only = yes
+	
+	trigger = {
+	tag = GER
+	}
+
+
+	fire_only_once = yes
+
+	option = {
+		name = germancinema.1.a
+	ai_chance = { factor = 50 }
+
+		
+
+	}
+
+	option = {
+		name = germancinema.1.b
+	ai_chance = {factor = 50}
+		
+
+	}
+			
+}
