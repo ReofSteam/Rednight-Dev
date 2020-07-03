@@ -6,6 +6,8 @@ add_namespace = ger_flavor
 add_namespace = foz
 add_namespace = boz
 add_namespace = joz
+add_namespace = germancinema
+
 
 ####INTROS
 country_event = { ##Germany Intro
