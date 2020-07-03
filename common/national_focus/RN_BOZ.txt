@@ -1,0 +1,224 @@
+focus_tree = {
+	id = BOZ
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOZ
+		}
+	}
+	#Focus for Invite Red Aid
+	focus = {
+		id = BOZ_invite_red_aid
+		icon = GFX_goal_generic_soviet_construction
+		x = 16
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_coordinate_wiith_hamburg }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Civilian Work Teams
+	focus = {
+		id = BOZ_civilian_work_teams
+		icon = GFX_goal_generic_production
+		x = 15
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_red_boots_german_dirt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Bolster Military Police
+	focus = {
+		id = BOZ_bolster_military_police
+		icon = GFX_goal_continuous_restrict_freedom
+		x = 8
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_red_boots_german_dirt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for New Identification
+	focus = {
+		id = BOZ_new_identification
+		icon = GFX_goal_continuous_boost_freedom
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_red_boots_german_dirt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Expand Checkpoints
+	focus = {
+		id = BOZ_expand_checkpoints
+		icon = GFX_goal_generic_fortify_city
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_red_boots_german_dirt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Red Boots, German Dirt
+	focus = {
+		id = BOZ_red_boots_german_dirt
+		icon = GFX_focus_YUG_pan_slavic_congress
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Prepare for Reunification
+	focus = {
+		id = BOZ_prepare_for_reunification
+		icon = GFX_focus_generic_soviet_politics
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = BOZ_reconciliatory_propganda 
+		}
+		prerequisite = { 
+			focus = BOZ_coordination_between_zones 
+		}
+		prerequisite = { 
+			focus = BOZ_socialise_reconstructed_areas 
+		}
+		prerequisite = { 
+			focus = BOZ_invite_red_aid 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Reconciliatory Propganda
+	focus = {
+		id = BOZ_reconciliatory_propganda
+		icon = GFX_focus_por_workers_of_iberia
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_invite_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Coordination Between Zones
+	focus = {
+		id = BOZ_coordination_between_zones
+		icon = GFX_goal_generic_major_alliance
+		x = 7
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_invite_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Socialise Reconstructed Areas
+	focus = {
+		id = BOZ_socialise_reconstructed_areas
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_continue_reconstruction }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Local Informants
+	focus = {
+		id = BOZ_local_informants
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_invite_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Coordinate wiith Hamburg
+	focus = {
+		id = BOZ_coordinate_wiith_hamburg
+		icon = GFX_focus_spr_unify_the_london_bureau
+		x = 16
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_civilian_work_teams }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Invite the Bureau
+	focus = {
+		id = BOZ_invite_the_bureau
+		icon = GFX_goal_generic_wolf_pack
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = BOZ_bolster_military_police 
+		}
+		prerequisite = { 
+			focus = BOZ_expand_checkpoints 
+		}
+		prerequisite = { 
+			focus = BOZ_new_identification 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Continue Reconstruction
+	focus = {
+		id = BOZ_continue_reconstruction
+		icon = GFX_goal_generic_construction2
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_civilian_work_teams }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Local Conscription
+	focus = {
+		id = BOZ_local_conscription
+		icon = GFX_focus_generic_manpower
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BOZ_invite_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#End of focuses 
+ }
