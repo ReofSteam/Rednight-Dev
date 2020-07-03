@@ -81,6 +81,8 @@ add_to_faction = AUS
 add_to_faction = HUN
 add_to_faction = PRS
 add_to_faction = BNT
+add_to_faction = CZE
+
 
 add_ideas = {
 	#medium_economy
