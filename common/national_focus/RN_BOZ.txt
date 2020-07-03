@@ -36,7 +36,7 @@ focus_tree = {
 	#Focus for Bolster Military Police
 	focus = {
 		id = BOZ_bolster_military_police
-		icon = GFX_goal_continuous_restrict_freedom
+		icon = GFX_focus_generic_the_police
 		x = 8
 		y = 1
 		cost = 10
@@ -49,7 +49,7 @@ focus_tree = {
 	#Focus for New Identification
 	focus = {
 		id = BOZ_new_identification
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_generic_newspaper
 		x = 6
 		y = 1
 		cost = 10
@@ -87,7 +87,7 @@ focus_tree = {
 	#Focus for Prepare for Reunification
 	focus = {
 		id = BOZ_prepare_for_reunification
-		icon = GFX_focus_generic_soviet_politics
+		icon = GFX_GER_reunification_start
 		x = 12
 		y = 6
 		cost = 10
@@ -150,7 +150,7 @@ focus_tree = {
 	#Focus for Local Informants
 	focus = {
 		id = BOZ_local_informants
-		icon = GFX_goal_generic_axis_build_infantry
+		icon = GFX_focus_generic_conspiracy
 		x = 9
 		y = 3
 		cost = 10
@@ -210,7 +210,7 @@ focus_tree = {
 	#Focus for Local Conscription
 	focus = {
 		id = BOZ_local_conscription
-		icon = GFX_focus_generic_manpower
+		icon = GFX_ENG_revolutionary_guards_expansion
 		x = 7
 		y = 3
 		cost = 10
