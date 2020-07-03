@@ -24,9 +24,57 @@ FRA = {
 	color = rgb { 20 50 160 }
 	color_ui = rgb { 20 50 160 }
 }
+CHI = {
+	color = rgb { 189 113 33 }
+	color_ui = rgb { 54 118 202 }
+}
+XSM = {
+	color = rgb { 190 113 33 }
+	color_ui = rgb { 105 69 85 }
+}
+JAP = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+TIB = {
+	color = rgb { 255 250 250 }
+	color_ui = rgb { 177 207 205 }
+}
 EGY = {
 	color = rgb { 255 255 0 }
 	color_ui = rgb { 255 255 0 }
+}
+PER = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 71 113 97 }
+}
+AFG = {
+	color = rgb { 64 160 167 }
+	color_ui = rgb { 83 208 217 }
+}
+SAU = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
+ALG = {
+	color = rgb { 178 6 48 }
+	color_ui = rgb { 230 225 110 }
+}
+TUN = {
+	color = rgb { 255 140 0 }
+	color_ui = rgb { 146 134 57 }
+}
+MAG = {
+	color = rgb { 186 112 134 }
+	color_ui = rgb { 189 113 112 }
+}
+MOR = {
+	color = rgb { 194 140 86 }
+	color_ui = rgb { 191 110 62 }
+}
+YEM = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
 }
 ENG = {
 	color = rgb { 201  56  93 }
@@ -39,6 +87,10 @@ IRE = {
 WLL = {
 	color = rgb { 144 0 32 }
 	color_ui = rgb { 144 0 32 }
+}
+AST = {
+	color = rgb { 57 143 97}
+	color_ui = rgb { 57 143 97 }
 }
 
 ##Central
@@ -335,7 +387,7 @@ TRK = {
 
 ##East
 CHI = {
-	color = rgb { 54 118 202 }
+	color = rgb { 54 118 100 }
 	color_ui = rgb { 54 118 202 }
 }
 NRC = {
