@@ -6,7 +6,7 @@ add_namespace = ger_flavor
 add_namespace = foz
 add_namespace = boz
 add_namespace = joz
-add_namespace = germancinema
+
 
 
 ####INTROS
@@ -131,10 +131,10 @@ country_event = { ##BOZ Ending
 }
 
 country_event = { ##New German Cinema 
-	id = germancinema.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event germancinema.1"}
-	title = germancinema.1.t
-	desc = germancinema.1.d
+	id = ger.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.1"}
+	title = ger.1.t
+	desc = ger.1.d
 	picture = GFX_homecoming
 
 	is_triggered_only = yes
@@ -147,7 +147,7 @@ country_event = { ##New German Cinema
 	fire_only_once = yes
 
 	option = {
-		name = germancinema.1.a
+		name = ger.1.a
 	ai_chance = { factor = 50 }
 
 		
@@ -155,7 +155,7 @@ country_event = { ##New German Cinema
 	}
 
 	option = {
-		name = germancinema.1.b
+		name = ger.1.b
 	ai_chance = {factor = 50}
 		
 
