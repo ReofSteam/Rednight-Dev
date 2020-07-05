@@ -135,7 +135,6 @@ country_event = { ##New German Cinema
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.1"}
 	title = ger.1.t
 	desc = ger.1.d
-	picture = GFX_homecoming
 
 	is_triggered_only = yes
 	
