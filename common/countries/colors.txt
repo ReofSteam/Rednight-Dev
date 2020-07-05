@@ -1,5 +1,10 @@
 ###Europe
 
+GEA = {
+	color = rgb { 0 104 71}
+	color_ui = rgb { 57 143 97 }
+}
+
 BEL = {
 	color = rgb { 112 94 117 }
 	color_ui = rgb { 112 94 117 }
@@ -72,6 +77,14 @@ MAG = {
 	color = rgb { 186 112 134 }
 	color_ui = rgb { 189 113 112 }
 }
+SAF = {
+	color = rgb { 195 107 160 }
+	color_ui = rgb { 198 169 248 }
+}
+LIB = {
+	color = rgb { 230 230 250 }
+	color_ui = rgb { 198 169 248 }
+}
 MOR = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 191 110 62 }
@@ -96,6 +109,11 @@ AST = {
 	color = rgb { 57 143 97}
 	color_ui = rgb { 57 143 97 }
 }
+GEA = {
+	color = rgb { 0 0 128}
+	color_ui = rgb { 57 143 97 }
+}
+
 
 ##Central
 CIS = {
