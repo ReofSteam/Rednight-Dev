@@ -131,6 +131,10 @@ AST = {
 	color = rgb { 57 143 97}
 	color_ui = rgb { 57 143 97 }
 }
+DIE = {
+	color = rgb { 153 76 0}
+	color_ui = rgb { 57 143 97 }
+}
 GEA = {
 	color = rgb { 0 0 128}
 	color_ui = rgb { 57 143 97 }
