@@ -459,7 +459,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = AUS_strengthen_dolfuss\
+		id = AUS_strengthen_dolfuss
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -474,7 +474,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = AUS_strengthen_dolfuss\
+			focus = AUS_strengthen_dolfuss
 		}
 		x = 22
 		y = 3
@@ -535,7 +535,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = AUS_strengthen_dolfuss\
+			focus = AUS_strengthen_dolfuss
 		}
 		x = 24
 		y = 3
