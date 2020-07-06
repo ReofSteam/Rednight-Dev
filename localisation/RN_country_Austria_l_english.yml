@@ -1,86 +1,156 @@
-﻿l_english:
+﻿#NOTES:
+#All country loc files have the following format for their name:
+#	RN_country_<NAME>_l_<language>.yml
+#DO NOT DEVIATE FROM THIS I WILL SUMMON CALPH TO HUNT YOU DOWN
+#
+#Spaces are the only safe whitespace for identation, i.e. tabs and newlines to indent data *will* break the file
+#	This:
+#		AUS_nationalist_socialism:0	"-"
+#	And this:
+#		AUS_nationalist_socialism:0
+#		"-"
+#Don't work.
+#
+#HOI4 seems to read things line by line and kinda just gives up if it encounters an error.
+#
+#*EVERYTHING* in country loc files should be more or less in the following format: 
+#	<tag>_<thing>_<other_thing_if_applicable>:0 "<whatever>"
+#
+#Country Loc files have no particular order, though I think the one presented here is best, It really doesn't matter
+#
+#Love, Calph <3
+#P.S. The below elipses are a hard stop in the .yml (YAML) format, HOI4 shouldn't read beyond them; May be useful for testing purposes.
+#...
+#This also should work
+#e p	i	c
+
+#Lmao imagine being wrong and having an artist fix your errors 
+#This meme was made by Hannah gang <o/
+
+#KN, Unflaw here, now we have transitioned to Red Night - victory and solidarity salute to Hannah and Calph
+#Anything starting from here and above should be deleted or i'll lay a hex on you and your mum.
+
+l_english:
 
 ### Bookmark ###
 
-### Opinions ###
+### Country Name ###
+AUS_nationalist_socialism:0 "Austrian Commune"
+AUS_nationalist_socialism_ADJ:0 "Austrian Commune"
+AUS_nationalist_socialism_DEF:0 "Austrian Commune"
 
-### Events ###
+AUS_revolutionary_socialism:0 "Austrian Commune"
+AUS_revolutionary_socialism_ADJ:0 "Austrian Commune"
+AUS_revolutionary_socialism_DEF:0 "Austrian Commune"
+
+AUS_syndicalism:0 "Austrian Commune"
+AUS_syndicalism_ADJ:0 "Austrian Commune"
+AUS_syndicalism_DEF:0 "Austrian Commune"
+
+AUS_moderate_socialist:0 "Austrian Commune"
+AUS_moderate_socialist_ADJ:0 "Austrian Commune"
+AUS_moderate_socialist_DEF:0 "Austrian Commune"
+
+AUS_social_democrat:0 "Austrian Republic"
+AUS_social_democrat_ADJ:0 "Austrian Republic"
+AUS_social_democrat_DEF:0 "Austrian Republic"
+
+AUS_social_liberal:0 "Austrian Republic"
+AUS_social_liberal_ADJ:0 "Austrian Republic"
+AUS_social_liberal_DEF:0 "Austrian Republic"
+
+AUS_social_conservative:0 "Austrian State"
+AUS_social_conservative_ADJ:0 "Austrian State"
+AUS_social_conservative_DEF:0 "Austrian State"
+
+AUS_authoritarian_democrat:0 "Austrian Federal State"
+AUS_authoritarian_democrat_ADJ:0 "Austrian Federal State"
+AUS_authoritarian_democrat_DEF:0 "Austrian Federal State"
+
+AUS_autocratic:0 "Austrian Federal State"
+AUS_autocratic_ADJ:0 "Austrian Federal State"
+AUS_autocratic_DEF:0 "Austrian Federal State"
+
+AUS_ultraconservative:0 "Austrian Federal State"
+AUS_ultraconservative_ADJ:0 "Austrian Federal State"
+AUS_ultraconservative_DEF:0 "Austrian Federal State"
+
+AUS_national_corporatist:0 "Austrian Federal State"
+AUS_national_corporatist_ADJ:0 "Austrian Federal State"
+AUS_national_corporatist_DEF:0 "Austrian Federal State"
 
 ### Parties ###
+AUS_nationalist_socialism_party:0 "SAI"
+AUS_nationalist_socialism_party_long:0 "Sozialistische Arbeiter-Internationale (Socialist Labour Internationale)"
 
-AUS_social_nationalist_party:0 "NSPÖ"
-AUS_social_nationalist_party_long:0 "National Social Party of Austria (Nationale Sozialpartei Österreichs)"
-AUS_marxist_party:0 "BKÖ"
-AUS_marxist_party_long:0 "League of Communists of Austria (Bund der Kommunisten Österreichs)"
-AUS_libertarian_party:0 "BKÖ"
-AUS_libertarian_party_long:0 "Libertarian Section of the League of Communists of Österreichs (Libertarischer Abteilung der Bund der Kommunisten Österreichs)"
-AUS_moderate_socialist_party:0 "BKÖ"
-AUS_moderate_socialist_party_long:0 "League of Communists of Austria (Bund der Kommunisten Österreichs)"
-AUS_social_democrat_party:0 "SPÖ"
-AUS_social_democrat_party_long:0 "Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)"
-AUS_social_liberal_party:0 "ÖVP"
-AUS_social_liberal_party_long:0 "Austrian People’s Party (Österreichische Volkspartei)"
-AUS_conservative_party:0 "CSP"
-AUS_conservative_party_long:0 "Christian Social Party (Christlichsoziale Partei)"
-AUS_authoritarian_democrat_party:0 "Heimwehr"
-AUS_authoritarian_democrat_party_long:0 "Heimwehr (Home Guard)"
-AUS_autocratic_party:0 "Heimwehr"
-AUS_autocratic_party_long:0 "Heimwehr (Home Guard)"
-AUS_fundamentalist_party:0 "VF"
-AUS_fundamentalist_party_long:0 "Fatherland Front (Vaterlandische Front)"
-AUS_voynist_party:0 "DRP"
-AUS_voynist_party_long:0 "German Reich Party (Deutsches Reichspartei)"
+AUS_revolutionary_socialism_party:0 "SAI"
+AUS_revolutionary_socialism_party_long:0 "Sozialistische Arbeiter-Internationale (Socialist Labour Internationale)"
 
-### Country Name ###
+AUS_syndicalism_party:0 "SAI"
+AUS_syndicalism_party_long:0 "Sozialistische Arbeiter-Internationale (Socialist Labour Internationale)"
 
-AUS_social_nationalist:0 "Socialist Republic of Austria"
-AUS_social_nationalist_ADJ:0 "Austrian"
-AUS_social_nationalist_DEF:0 "the Republic of Austria"
-AUS_marxist:0 "Socialist Republic of Austria"
-AUS_marxist_ADJ:0 "Austrian"
-AUS_marxist_DEF:0 "the Socialist Republic of Austria"
-AUS_libertarian:0 "Socialist Republic of Austria"
-AUS_libertarian_ADJ:0 "Austrian"
-AUS_libertarian_DEF:0 "the Socialist Republic of Austria"
-AUS_moderate_socialist:0 "Socialist Republic of Austria"
-AUS_moderate_socialist_ADJ:0 "Austrian"
-AUS_moderate_socialist_DEF:0 "the Socialist Republic of Austria"
-AUS_social_democrat:0 "Austrian Republic"
-AUS_social_democrat_ADJ:0 "Austrian"
-AUS_social_democrat_DEF:0 "the Austrian Republic"
-AUS_social_liberal:0 "Austrian Republic"
-AUS_social_liberal_ADJ:0 "Austrian"
-AUS_social_liberal_DEF:0 "the Austrian Republic" 
-AUS_conservative:0 "Austrian Republic"
-AUS_conservative_ADJ:0 "Austrian"
-AUS_conservative_DEF:0 "the Austrian Republic" 
-AUS_authoritarian_democrat:0 "Austrian Republic"
-AUS_authoriarian_democrat_ADJ:0 "Austrian"
-AUS_authoritarian_democrat_DEF:0 "the Austrian Republic" 
-AUS_autocratic:0 "Austrian Republic"
-AUS_autocratic_ADJ:0 "Austrian"
-AUS_autocratic_DEF:0 "the Austrian Republic" 
-AUS_fundamentalist:0 "Christian Republic of Austria"
-AUS_fundamentalist_ADJ:0 "Austrian"
-AUS_fundamentalist_DEF:0 "the Christian Republic of Austria" 
-AUS_voynist:0 "National Republic of Austria"
-AUS_voynist_ADJ:0 "Austrian"
-AUS_voynist_DEF:0 "National Republic of Austria" 
+AUS_moderate_socialist_party:0 "SAI"
+AUS_moderate_socialist_party_long:0 "Sozialistische Arbeiter-Internationale (Socialist Labour Internationale)"
+
+AUS_social_democrat_party:0 "SDAPÖ"
+AUS_social_democrat_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs (Austrian Social Democratic Workers Party)"
+
+AUS_social_liberal_party:0 "VFÖ"
+AUS_social_liberal_party_long:0 "Vaterländische Front Österreichs (Austrian Fatherland Front)"
+
+AUS_social_conservative_party:0 "VFÖ - CS"
+AUS_social_conservative_party_long:0 "Vaterländische Front Österreichs - Christlichsoziale (Austrian Fatherland Front - Christian Social)"
+
+AUS_authoritarian_democrat_party:0 "VFÖ - L"
+AUS_authoritarian_democrat_party_long:0 "Vaterländische Front Österreichs - Landbund (Austrian Fatherland Front - Rural Federation)"
+
+AUS_autocratic_party:0 "VFÖ - L"
+AUS_autocratic_party_long:0 "Vaterländische Front Österreichs - Landbund (Austrian Fatherland Front)"
+
+AUS_ultraconservative_party:0 "VFÖ - Dolfuss"
+AUS_ultraconservative_party_long:0 "Vaterländische Front Österreichs - Dolfuss (Austrian Fatherland Front - Dolfuss)"
+
+AUS_national_corporatist_party:0 "VFÖ - Heimatblock"
+AUS_national_corporatist_party_long:0 "Vaterländische Front Österreichs - Heimatblock (Austrian Fatherland Front - Heimatblock)"
+
+### Cosmetic Tags ###
+
+#You get the idea
+
+### Opinions ###
+
+### Ideas ###
+AUS_IDEA_NAME:0 "-"
+AUS_IDEA_NAME_desc:0 "-"
 
 ### Focuses ###
+AUS_FOCUS_NAME:0 "-"
+AUS_FOCUS_NAME_desc:0 "-"
 
- 
-### Ideas ###
- 
+### Decisions ###
+AUS_decision_group_name:0 "-"
+AUS_decision_group_name_desc:0 "-"
 
 ### Flags ###
+AUS_flag_name:0 "-"
 
 ### Tooltips ###
+AUS_thing_being_tooltiped_name_tooltip:0 "-"
 
 ### Companies ###
 
 ### Ministers ###
 
 ### Leaders ###
+LEADER_NAME_DESC:0 "-"
 
-### Tech? ###
+### Tech ###
+
+### Events ###
+event_namespace.X.identifying_letter:0 "-"
+#Ex:
+epic_example_events.1.t:0 "this is a title"
+epic_example_events.1.d:0 "this is a description"
+epic_example_events.1.a:0 "it's important to note the identifying letter is entirely abritrary,"
+epic_example_events.1.b:0 "but, it's still preferred you do it in the before format."
+epic_example_events.1.c:0 "That is, t for title d for description and then a-c, e-f for options."
