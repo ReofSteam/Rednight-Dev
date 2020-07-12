@@ -38,7 +38,8 @@ set_popularities = {
     national_corporatist = 25
 }
 
-
+complete_national_focus = AUS_the_dolfuss_regime
+complete_national_focus = AUS_cs_strengthening
 
 set_stability = 0.45
 set_war_support = 0.35
