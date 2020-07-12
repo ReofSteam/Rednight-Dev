@@ -1,0 +1,31 @@
+### Madagascar
+
+ideas = {
+	country = {
+		AUS_age_uncertainty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_age_uncertainty"}
+			picture = 
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+				political_advisor_cost_factor = -0.2
+			}
+		}
+		AUS_double_regime = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_double_regime"}
+			picture = 
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.1
+				political_advisor_cost_factor = -0.2
+			}
+		}
+		AUS_pangerman_sentiments = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_pangerman_sentiments"}
+			picture = 
+			modifier = {
+				stability_weekly = -0.025
+			}
+		}
+	}
+}
