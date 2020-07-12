@@ -34,21 +34,11 @@ add_ideas = {
 #CABINET
 
 add_ideas = {
-	SWI_Henri_Guisan #Head of Government
-	SWI_Charles_Daniel #Interior
-	SWI_Emilio_Luccini #Economic
-	SWI_Robert_Frick #Foreign
-	SWI_Pierre_Musy #Education
-	SWI_Jakob_Annasohn #Culture 
-	SWI_Charles_Dubois #Transport
-	SWI_Roger_Masson #Intel
-	SWI_Louis_Montmollin #Chief of Staff 
-	SWI_Jakob_Huber #Chief of Army
-	SWI_Rihner_Fritz #Chief of Air
+
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative_subtype
 	last_election = "1935.10.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -90,7 +80,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = "gfx/leaders/SWI/SWI_Council.tga"
 	expire = "1965.1.1"
 	ideology = syndicalism_subtype
 	traits = {}
@@ -99,7 +89,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = "gfx/leaders/SWI/SWI_Council.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
@@ -108,7 +98,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = "gfx/leaders/SWI/SWI_Council.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {}
@@ -117,7 +107,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Swiss Federal Council"
 	desc = "POLITICS_SWITZERLAND_COUNCIL_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Council.tga"
+	picture = "gfx/leaders/SWI/SWI_Council.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {}
@@ -154,138 +144,52 @@ create_country_leader = {
 
 ### Corps Commander
 create_corps_commander = {
-	name = "Henri Guisan"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Henri_Guisan.tga"
-	id = 26700
+	name = "Herbert Constam"
+	portrait_path = "gfx/leaders/SWI/SWI_Constam.tga"
 	traits = {
-		career_officer
-		media_personality
 		trait_mountaineer
 	}
-	skill = 4
+	skill = 2
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 4
 	logistics_skill = 5
 }
 
-create_corps_commander = {
-	name = "Eugen Bircher"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Eugen_Bircher.tga"
-	id = 26701
-	traits = {
-		politically_connected
-		trait_cautious
-		hill_fighter
-		skilled_staffer
-	}
-	skill = 3
-	attack_skill = 1
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Gustave Combe"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Gustave_Combe.tga"
-	id = 26702
-	traits = {
-		hill_fighter
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Hermann Fluckiger"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Hermann_Fluckiger.tga"
-	traits = {
-		inflexible_strategist
-		skilled_staffer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 1
-}
 
 create_corps_commander = {
 	name = "Jakob Labhardt"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Jakob_Labhardt.tga"
+	portrait_path = "gfx/leaders/SWI/SWI_Labhardt.tga"
 	traits = {
 		career_officer
 		ranger
 	}
-	skill = 2
+	skill = 3
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Jakob Huber"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Jakob_Huber.tga"
-	traits = {
-		hill_fighter
-		trait_mountaineer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
 
 create_corps_commander = {
 	name = "Louis de Montmollin"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Louis_de_Montmollin.tga"
-	id = 26703
+	portrait_path = "gfx/leaders/SWI/SWI_Montmollin.tga"
 	traits = {
-		#artillery_officer
 		trait_engineer
 	}
-	skill = 1
+	skill = 2
 	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Hans Bandi"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Hans_Bandi.tga"
-	traits = {
-		harsh_leader
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Jean de Muralt"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_Switzerland_Jean_de_Muralt.tga"
-	traits = {
-	}
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
 
 ### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Prisi"
-	portrait_path = "gfx/leaders/WESTERN_EUROPE/SWI/Portrait_SWI_Prisi.tga"
+create_navy_leader = { 
+	name = "Boat-kun"
+	portrait_path = "gfx/leaders/SWI/SWI_Admiral.tga"
 	traits = {
 		old_guard_navy
 	}

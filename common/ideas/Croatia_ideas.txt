@@ -5,68 +5,44 @@ ideas = {
 	##############
 	country = {
 
-		ILL_nationalist_crisis = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ILL_nationalist_crisis"}
+		CRO_italian_question = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_italian_question"}
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 			modifier = {
 				political_power_gain = -0.25
-				autonomy_gain = 0.6
+				stability_factor = -0.20	
+				add_opinion_modifier = { target = ITA modifier = CRO_italy_question }
 			}
+			picture = idea_CRO_italy_question			
 		}
-
-		ILL_nationalist_crisis_over = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ILL_nationalist_crisis_over"}
+		CRO_military_government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_military_government"}
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 			modifier = {
-				autonomy_gain = -0.4
+				war_support_factor = 0.05	
+				mobilization_speed = 0.10	
 			}
+			picture = idea_red_junta			
 		}
-
-		ILL_ausgleich_backan_claims = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ILL_ausgleich_backan_claims"}
-			picture = generic_volunteer_expedition_bonus
+		CRO_rural_society = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_rural_society"}
 			allowed = {
 				always = no
 			}
 			removal_cost = -1
 			modifier = {
-				political_power_gain = 0.25
+			production_speed_buildings_factor = -0.2
+			production_factory_max_efficiency_factor = -0.25
 			}
-		}
-		ILL_croatian_command = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ILL_croatian_command"}
-			picture = country_focus_army
-			modifier = {
-				planning_speed = 0.1
-				army_org_factor = 0.05
-				training_time_army_factor = -0.05
-			}
-		}
+			picture = idea_rural_society			
+		}		
 
-		ILL_federated_army = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ILL_federated_army"}
-			picture = raj_indian_gentlemen_officers
-			modifier = {
-				stability_factor = 0.05
-				political_power_cost = -0.05
-				army_morale_factor = 0.1
-			}
-		}
-
-		CRO_SLOintegration = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_SLOintegration"}
-			picture = FRA_matignon_agreements
-			modifier = {
-				political_power_cost = 0.1
-			}
-		}
-	}
 
 	##############
 	# Companies

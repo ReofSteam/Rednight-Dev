@@ -81,6 +81,11 @@ spriteTypes = {
 		name = "GFX_idea_AST_parliament_suspended"
 		texturefile = "gfx/interface/ideas/generic/disunited_government.tga"
 	}
+	###Croatia
+	    spriteType = {
+		name = "GFX_idea_CRO_italy_question"
+		texturefile = "gfx/interface/ideas/CRO/Italy_Question.dds"
+	}
 ####Generic	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
@@ -98,4 +103,16 @@ spriteTypes = {
 		name = "GFX_idea_demobilization"
 		texturefile = "gfx/interface/ideas/generic/demobilization.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_rural_society"
+		texturefile = "gfx/interface/ideas/generic/generic_unindustrialized_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_demobilization"
+		texturefile = "gfx/interface/ideas/generic/demobilization.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_red_junta"
+		texturefile = "gfx/interface/ideas/generic/generic_red_military_junta.dds"
+	}		
 }

@@ -22,7 +22,7 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 			removal_cost = -1
-			picture = GFX_idea_new_order
+			picture = idea_new_order
 		}
 		
 		SWI_regime_of_the_colonels = {
@@ -32,7 +32,7 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 			removal_cost = -1
-			picture = GFX_idea_military_junta
+			picture = idea_military_junta
 		}
 
 		SWI_neutrality_idea = {
@@ -56,7 +56,7 @@ ideas = {
 				production_speed_buildings_factor = -0.5
 			}
 			removal_cost = -1
-			picture = GFX_idea_economy_bad
+			picture = idea_economy_bad
 		}
 
 }
