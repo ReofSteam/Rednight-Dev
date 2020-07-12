@@ -4,7 +4,7 @@ ideas = {
 	country = {
 		AUS_age_uncertainty = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_age_uncertainty"}
-			picture = 
+			picture = AUS_age_uncertainty
 			modifier = {
 				stability_factor = -0.1
 				political_power_gain = -0.1
@@ -13,7 +13,7 @@ ideas = {
 		}
 		AUS_double_regime = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_double_regime"}
-			picture = 
+			picture = AUS_double_regime
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = -0.1
@@ -22,7 +22,7 @@ ideas = {
 		}
 		AUS_pangerman_sentiments = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea AUS_pangerman_sentiments"}
-			picture = 
+			picture = AUS_german_sentiments
 			modifier = {
 				stability_weekly = -0.025
 			}

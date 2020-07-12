@@ -81,8 +81,23 @@ spriteTypes = {
 		name = "GFX_idea_AST_parliament_suspended"
 		texturefile = "gfx/interface/ideas/generic/disunited_government.tga"
 	}
+
+###Austria
+	spriteType = {
+		name = "GFX_idea_AUS_age_uncertainty"
+		texturefile = "gfx/interface/ideas/AUS/AUS_age_uncertainty.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_double_regime"
+		texturefile = "gfx/interface/ideas/AUS/AUS_double_regime.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_german_sentiments"
+		texturefile = "gfx/interface/ideas/AUS/AUS_german_sentiments.tga"
+	}
+
 	###Croatia
-	    spriteType = {
+	spriteType = {
 		name = "GFX_idea_CRO_italy_question"
 		texturefile = "gfx/interface/ideas/CRO/Italy_Question.dds"
 	}

@@ -6,7 +6,7 @@ focus_tree = {
 	default = yes
 	focus = {
 		id = AUS_the_dolfuss_regime
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_dollfuss_regime
 		cost = 10
 		x = 5
 		y = 0
@@ -38,7 +38,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_cs_strengthening
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strengthen_cabinet
 		cost = 10
 		prerequisite = {
 			focus = AUS_the_dolfuss_regime
@@ -52,7 +52,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_decrease_pangerman
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_rally
 		cost = 10
 		prerequisite = {
 			focus = AUS_cs_strengthening
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_heimwehr_strengthening
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_heimatschutz_strengthen
 		cost = 10
 		prerequisite = {
 			focus = AUS_the_dolfuss_regime
@@ -88,7 +88,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_bind_vfo
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_vfo_unity
 		cost = 10
 		prerequisite = {
 			focus = AUS_cs_strengthening
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_russian_loans
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_funds
 		cost = 10
 		prerequisite = {
 			focus = AUS_decrease_pangerman
@@ -114,7 +114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_purge_partisans
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_operation
 		cost = 10
 		prerequisite = {
 			focus = AUS_heimwehr_strengthening
@@ -125,7 +125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_trial_renner
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_guillotine
 		cost = 10
 		prerequisite = {
 			focus = AUS_purge_partisans
@@ -139,7 +139,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_regime_established
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_dollfuss_years
 		cost = 10
 		prerequisite = {
 			focus = AUS_russian_loans
@@ -173,7 +173,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_vertical_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_vertical_revolution
 		cost = 10
 		prerequisite = {
 			focus = AUS_csvfo_victory
@@ -368,7 +368,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_maintain_steady_course
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_maintain_steady_course
 		cost = 10
 		prerequisite = {
 			focus = AUS_csvfo_victory
@@ -695,7 +695,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_one_party_state
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_one_party
 		cost = 10
 		prerequisite = {
 			focus = AUS_establishing_heimatblock
