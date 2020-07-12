@@ -3,17 +3,13 @@
 set_research_slots = 2
 
 oob = "CRO"
-set_cosmetic_tag = CRO_SFR
+set_cosmetic_tag = CRO_FDR
 
 add_ideas = {
-#very_low_popularity
-#CRO_Vladko_Macek_hog_sco
-#CRO_Vladko_Macek_for_sco
-#CRO_Ivan_Andres_eco_sco
-#CRO_Vilko_Begic_sec_rwp
-#CRO_Vilko_Begic_int_rwp
+CRO_italian_question
+CRO_military_government
+CRO_rural_society
 }
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -47,31 +43,22 @@ set_popularities = {
 	national_corporatist = 0
 }
 
-### Field Marshal
-
-create_field_marshal = {
-	name = "Slavko Kvaternik"
-	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/CRO/PORTRAIT_SLAVKO_KVATERNIK.tga"
-	traits = { 
-	    defensive_doctrine
-		thorough_planner
-	    war_hero
-		politically_connected
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
+create_country_leader = {
+	name = "Pavle Gregorić "
+	desc = "POLITICS_Pavle_Gregoric_DESC"
+	picture = "gfx/leaders/CRO/CRO_Pavle_Gregoric.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {}
 }
+
 
 ### Corps Commander
 
 create_corps_commander = { 
-	name = "Leon Rupnik"
-	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/CRO/Portrait_Illyria_Leon_Rupnik.tga"
+	name = "Josip Broz Gligorijević"
+	portrait_path = "gfx/leaders/CRO/CRO_Tito.tga"
 	traits = {
-		career_officer
 		organizer
 	}
 	skill = 3
@@ -82,8 +69,8 @@ create_corps_commander = {
 }
 
 create_corps_commander = { 
-	name = "Matija Čanić"
-	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/CRO/Portrait_Illyria_Matija_Canic.tga"
+	name = "Janko Bobetko"
+	portrait_path = "gfx/leaders/CRO/CRO_Bobetko.tga"
 	traits = {
 		cavalry_officer
 	}
@@ -94,3 +81,22 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
+create_corps_commander = { 
+	name = "Petar Dapčević "
+	portrait_path = "gfx/leaders/CRO/CRO_Peko.tga"
+	traits = {
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = { 
+	name = "Ljubo Truta"
+	portrait_path = "gfx/leaders/CRO/CRO_Truta.tga"
+	traits = {
+	}
+	skill = 1
+}
