@@ -38,7 +38,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = social_conservative_subtype
+	ruling_party = social_conservative
 	last_election = "1935.10.18"
 	election_frequency = 48
 	elections_allowed = yes
@@ -159,7 +159,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Jakob Labhardt"
-	portrait_path = "gfx/leaders/SWI/SWI_Labhardt.tga"
+	portrait_path = "gfx/leaders/SWI/SWI_Labhart.tga"
 	traits = {
 		career_officer
 		ranger
