@@ -8,11 +8,10 @@ ideas = {
 		SWI_demobilisation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWI_demobilisation"}
 			modifier = {
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.2
+				army_core_defence_factor = -0.1
 			}
 			removal_cost = -1
-			picture = GFX_idea_demobilization
+			picture = demobilization
 		}
 		
 		SWI_new_order = {
@@ -22,17 +21,16 @@ ideas = {
 				army_core_defence_factor = 0.2
 			}
 			removal_cost = -1
-			picture = idea_new_order
+			picture = new_order
 		}
 		
 		SWI_regime_of_the_colonels = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWI_regime_of_the_colonels"}
 			modifier = {
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.2
+
 			}
 			removal_cost = -1
-			picture = idea_military_junta
+			picture = military_junta
 		}
 
 		SWI_neutrality_idea = {
@@ -41,7 +39,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				justify_war_goal_time = 0.60
+				justify_war_goal_time = 0.90
 			}
 			removal_cost = -1
 			picture = SWI_neutrality
@@ -54,9 +52,10 @@ ideas = {
 			}
 			modifier = {
 				production_speed_buildings_factor = -0.5
+				production_factory_max_efficiency_factor = -0.25
 			}
 			removal_cost = -1
-			picture = idea_economy_bad
+			picture = economy_bad
 		}
 
 }
