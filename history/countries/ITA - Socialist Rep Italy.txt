@@ -66,7 +66,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Armando Borghi"
-	picture = "gfx/leaders/ITA/ITA_Borghi"
+	picture = "gfx/leaders/ITA/ITA_Borghi.tga"
 	expire = "1965.1.1"
 	ideology = syndicalism_subtype
 	traits = {}
