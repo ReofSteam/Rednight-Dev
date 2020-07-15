@@ -11,7 +11,7 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = BRA
-		add_claim_by = BOL
+		add_claim_by = PRU
 		victory_points = {
 			10960 1
 		}

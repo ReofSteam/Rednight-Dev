@@ -6,7 +6,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = CAN
+		owner = WCN
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -16,7 +16,7 @@ state = {
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = CAN
+		add_core_of = WCN
 		victory_points = {
 			7259 5
 		}

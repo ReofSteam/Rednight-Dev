@@ -6,9 +6,8 @@ state = {
 	state_category = three
 
 	history = {
-		owner = NFA
+		owner = FRA
 		add_core_of = FRA
-		add_core_of = NFA
 		victory_points = { 3838 1 }
 		buildings = {
 			infrastructure = 4

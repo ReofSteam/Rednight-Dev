@@ -5,12 +5,12 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BOL
+		owner = PRU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = BOL
+		add_core_of = PRU
 		victory_points = {
 			13511 1
 		}
