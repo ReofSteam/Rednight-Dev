@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-oob = "SWI"
+oob = "ITA"
 
 set_research_slots = 3
 
@@ -80,6 +80,18 @@ create_country_leader = {
 
 
 ### Corps Commander
+
+## Field Marshals 
+create_field_marshal = {
+	name = "Raffaele Cadorna"
+	portrait_path = "gfx/leaders/ITA/ITA_Cadorna.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
 
 create_corps_commander = {
 	name = "Pompeo Colajanni"

@@ -22,7 +22,7 @@ ideas = {
 		}
 		ITA_reconstruction = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ITA_reconstruction"}
-			picture = reconstruction
+			picture = ITA_reconstruction
 			modifier = {
 				war_support_factor = -0.10	
 				production_factory_max_efficiency_factor = -0.10

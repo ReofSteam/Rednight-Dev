@@ -101,6 +101,19 @@ spriteTypes = {
 		name = "GFX_idea_CRO_italy_question"
 		texturefile = "gfx/interface/ideas/CRO/Italy_Question.dds"
 	}
+	####Italy
+	spriteType = {
+		name = "GFX_idea_ITA_papal_question"
+		texturefile = "gfx/interface/ideas/ITA/ITA_papal_question.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_reconstruction"
+		texturefile = "gfx/interface/ideas/ITA/ITA_reconstruction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_southern_question"
+		texturefile = "gfx/interface/ideas/ITA/ITA_southern_question.dds"
+	}	
 ####Generic	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
