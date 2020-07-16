@@ -4,6 +4,12 @@ oob = "AUS"
 
 set_research_slots = 3
 
+add_ideas = {
+AUS_age_uncertainty
+AUS_double_regime
+AUS_pangerman_sentiments
+
+}
 
 set_technology = {
 	infantry_weapons = 1

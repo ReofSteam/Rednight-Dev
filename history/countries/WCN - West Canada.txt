@@ -49,30 +49,14 @@ set_popularities = {
     national_corporatist = 4
 }
 
-create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Tim_Buck.tga"
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = { }
-}
+
 
 create_country_leader = {
-	name = "Maurice Spector"
-	desc = "POLITICS_MAURICE_SPECTOR_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Maurice_Spector.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Tommy Douglas"
+	name = "James Ralston"
 	desc = "POLITICS_TOMMY_DOUGLAS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Tommy_Douglas.tga"
+	picture = "gfx/leaders/WCN/WCN_Ralston.tga"
 	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 

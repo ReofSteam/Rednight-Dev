@@ -1,6 +1,6 @@
 ﻿capital = 327
 OOB = "PHI"
-set_cosmetic_tag = GOVERNORATE
+set_cosmetic_tag = PEC
 JAP = { 
 	if = {
 		limit = {

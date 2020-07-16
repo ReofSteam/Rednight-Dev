@@ -5,7 +5,10 @@ oob = "SWI"
 set_research_slots = 3
 
 add_ideas = {
-
+ITA_southern_question
+ITA_papal_question
+ITA_reconstruction
+ITA_war_syndicalism
 }
 
 give_guarantee = MLT

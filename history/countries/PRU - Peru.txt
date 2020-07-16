@@ -23,20 +23,20 @@ set_technology = {
 set_stability = -0.2
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = revolutionary_socialism
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	nationalist_socialism = 0
-	revolutionary_socialism = 0
+	revolutionary_socialism = 100
 	syndicalism = 0
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 100
+	authoritarian_democrat = 0
 	autocratic = 0
 	ultraconservative = 0
 	national_corporatist = 0
@@ -102,9 +102,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Victor R. Haya de la Torre"
+	name = "Jose Carlos Martegui"
 	desc = "POLITICS_HAYA_TORRE_DESC"
-	picture = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Victor_Raul_Haya.tga"
+	picture = "gfx/leaders/PRU/PRU_Martegui.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {}
@@ -144,69 +144,5 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {}
-}
-
-### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "Oscar Benavides Larrea"
-	portrait_path = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Oscar_Benavides_Larrea.tga"
-	traits = {
-		war_hero
-		inflexible_strategist
-		defensive_doctrine
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Manuel A. Odría"
-	portrait_path = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Manuel_Odria.tga"
-	traits = {
-		infantry_officer
-		media_personality
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Eloy G. Ureta"
-	portrait_path = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_Peru_Eloy_Ureta.tga"
-	traits = {
-		#artillery_officer
-		career_officer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Grimaldo Bravo Arenas"
-	portrait_path = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Grimaldo_Arenas.tga"
-	traits = {
-	}
-	skill = 2 #naval guy, don't patch
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Carlos Rotalde"
-	portrait_path = "gfx/leaders/SOUTH_AMERICA/PRU/Portrait_PRU_Carlos_Rotaide.tga"
-	traits = {
-	}
-	skill = 1 #naval guy, don't patch
 }
 
