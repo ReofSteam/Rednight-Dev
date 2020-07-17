@@ -6,17 +6,25 @@ BRA = {
 }
 
 CAL = {
-	color = rgb { 255 255 153}
+	color = rgb { 20 133 237 }
 	color_ui = rgb { 57 143 97 }
 }
-
+CAN = {
+	color = rgb { 119 48 39 }
+	color_ui = rgb { 155 62 51 }
+}
 MEX = {
-	color = rgb { 104 152 83 }
+	color = rgb { 135 198 108 }
+	color_ui = rgb { 135 198 108 }
+}
+
+QUE = {
+	color = rgb { 0 61 165 }
 	color_ui = rgb { 135 198 108 }
 }
 
 WCN = {
-	color = rgb { 240  190  190}
+	color = rgb { 255 255 153 }
 	color_ui = rgb { 135 198 108 }
 }
 BEL = {
@@ -26,6 +34,10 @@ BEL = {
 DEN = {
 	color = rgb { 153 116 93 }
 	color_ui = rgb { 199 151 121 }
+}
+NOR = {
+	color = rgb { 135 178 192 }
+	color_ui = rgb { 161 213 230 }
 }
 NTH = {
 	color = rgb { 200  127  45 }
@@ -52,7 +64,7 @@ ITA = {
 	color_ui = rgb { 20 50 160 }
 }
 CNT = {
-	color = rgb {  242 205 94  }
+	color = rgb {  242 205 94 }
 	color_ui = rgb { 20 50 160 }
 }
 POR = {
@@ -196,7 +208,7 @@ CHL = {
 	color_ui = rgb { 189 204 255 }
 }
 PRU = {
-	color = rgb { 204 0 0 }
+	color = rgb { 143 20 20  }
 	color_ui = rgb { 189 204 255 }
 }
 ECU = {
@@ -224,7 +236,7 @@ PUE = {
 	color_ui = rgb { 189 204 255 }
 }
 CUB = {
-	color = rgb { 153 51 255 }
+	color = rgb { 140 65 166 }
 	color_ui = rgb { 189 204 255 }
 }
 PAN = {
@@ -251,15 +263,19 @@ GUA = {
 	color = rgb { 153 255 255 }
 	color_ui = rgb { 189 25 53 }
 }
-HAI = {
-	color = rgb { 204 204 255 }
-	color_ui = rgb { 174 113 113 }
-}
+
 DOM = {
 	color = rgb { 107 142 35 }
 	color_ui = rgb { 174 113 113 }
 }
-
+HAI = {
+	color = rgb { 174 113 113 }
+	color_ui = rgb { 174 113 113 }
+}
+ICE = {
+	color = rgb { 100 125 175 }
+	color_ui = rgb { 100 125 175 }
+}
 
 
 
@@ -302,10 +318,7 @@ PRS = {
 	color_ui = rgb { 66  82  72 }
 }
 
-CAN = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 119 48 39 }
-}
+
 CSA = {
 	color = rgb { 178 34 52 }
 	color_ui = rgb { 178 34 52 }
@@ -313,6 +326,10 @@ CSA = {
 NFL = {
 	color = rgb { 200 56 80 }
 	color_ui = rgb { 200 56 80 }
+}
+CAN = {
+	color = rgb { 119 48 39 }
+	color_ui = rgb { 155 62 51 }
 }
 QUE = {
 	color = rgb { 19 83 180 }
@@ -325,7 +342,7 @@ CNT = {
 	color_ui = rgb { 179 138 184 }
 }
 POR = {
-	color = rgb { 39 116 70 }
+	color = rgb { 0 147 175 }
 	color_ui = rgb { 39 116 70 }
 }
 ITA = {
@@ -1114,7 +1131,7 @@ JAM = {
 	color_ui = rgb { 34 142 60 }
 }
 CAL = {
-	color = rgb { 67 123 237 }
+	color = rgb { 20 133 237 }
 	color_ui = rgb { 67 123 237 }
 }
 PUE = {
@@ -1164,7 +1181,7 @@ PAR = {
 	color_ui = rgb { 74 147 255 }
 }
 PRU = {
-	color = rgb { 229 64 64 }
+	color = rgb { 143 20 20 }
 	color_ui = rgb { 229 64 64 }
 }
 URG = {
