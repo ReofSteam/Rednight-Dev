@@ -1,0 +1,83 @@
+guiTypes = {
+	containerWindowType = {
+		name = "button_open_secondary_leader"
+		position = { x = 10 y = 375 }
+		buttonType = {
+			name = "open_button"
+			quadTextureSprite = "GFX_legislature"
+			clicksound = click_default
+			#pdx_tooltip = "hog_gui_pop_tt"
+			#pdx_tooltip_delayed = "hog_gui_pop_long_tt"
+		}
+		
+	}
+	containerWindowType = {
+		name = "secondary_leader_bg"
+		position = { x = 0 y = 0 }
+		show_position = { x = 0 y = 0 }
+		hide_position = { x = -110 y = -0 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 300
+
+		size = { width = 210 height = 310 }
+		moveable = no
+		background = {
+			name = "hog_gui_background"		
+			spriteType ="GFX_tiled_bg"
+			
+		}
+		
+		#instantTextBoxType = {
+		#	name = "hog_gui_party_text_pop"
+		#	position = { x = 23 y = 330 }
+		#	maxWidth = 250
+		#	maxHeight = 160
+		#	font = "hoi_24header"
+		#	text = "[GetHoG_Party_Loc]"
+		#	format = center
+		#	#pdx_tooltip = "hog_party_title_pop_tt"
+		#	#pdx_tooltip_delayed = "hog_gui_title_pop_long_tt"
+		#}
+		iconType = {
+			name = "secondary_portrait"
+			position = { x = -74 y = -105 }
+			Orientation = "CENTER"
+			spriteType = "[Get_Secondary_Portrait]"
+			frame = 1
+			pdx_tooltip = "secondary_name_tt"
+			pdx_tooltip_delayed = "secondary_full_name_tt"
+		}
+		iconType = {
+			name = "hog_gui_portrait_frame"
+			position = { x = -84 y = -115 }
+			Orientation = "CENTER"
+			spriteType = "GFX_pol_leader_frame"
+			frame = 1
+			pdx_tooltip = "secondary_name_tt"
+			pdx_tooltip_delayed = "secondary_full_name_tt"
+		}
+		instantTextBoxType = {
+			name = "hog_gui_title_text_pop"
+			position = { x = 8 y = 12 }
+			maxWidth = 200
+			maxHeight = 160
+			font = "hoi_24header"
+			text = "[Get_Secondary_Title]"
+			format = center
+			pdx_tooltip = "secondary_name_tt"
+			pdx_tooltip_delayed = "secondary_full_name_tt"
+		}
+		instantTextBoxType = {
+			name = "hog_gui_name_text_pop"
+			position = { x = 5 y = 267 }
+			maxWidth = 200
+			maxHeight = 160
+			font = "hoi_18mbs"
+			text = "[Get_Secondary_Leader]"
+			format = center
+			pdx_tooltip = "secondary_name_tt"
+			pdx_tooltip_delayed = "secondary_full_name_tt"
+		}
+	}
+}

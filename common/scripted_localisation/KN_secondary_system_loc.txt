@@ -1,0 +1,63 @@
+defined_text = {
+	name = Get_Secondary_Portrait
+	text = {
+		trigger = {
+			AND = {
+			tag = RUS
+			has_country_flag = patrick_secondary
+			}
+		}
+		localization_key = "GFX_secondary_patrick"
+	}
+	text = {
+		trigger = {
+			tag = RUS
+		}
+		localization_key = "GFX_secondary_savinkov"
+	}
+	text = {
+		localization_key = "GFX_secondary_patrick"
+	}
+}
+defined_text = {
+	name = Get_Secondary_Title
+	text = {
+		trigger = {
+			AND = {
+			tag = RUS
+			has_country_flag = patrick_secondary
+			}
+		}
+		localization_key = "Chum Cuckit"
+	}
+	text = {
+		trigger = {
+			tag = RUS
+		}
+		localization_key = "Vozhd's Right Hand"
+	}
+	text = {
+		localization_key = "Secondary Leader"
+	}
+}
+defined_text = {
+	name = Get_Secondary_Leader
+	text = {
+		trigger = {
+			AND = {
+			tag = RUS
+			has_country_flag = patrick_secondary
+			}
+		}
+		localization_key = "Vozhd Patrick"
+	}
+	text = {
+		trigger = {
+			tag = RUS
+		}
+		localization_key = "Boris Savinkov 2"
+	}
+	text = {
+		localization_key = "Secondary Leader"
+	}
+}
