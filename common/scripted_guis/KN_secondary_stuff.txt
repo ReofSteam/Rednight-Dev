@@ -1,0 +1,35 @@
+scripted_gui = {
+    open_secondary_button = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "button_open_secondary_leader"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_secondary_leader } }
+					set_country_flag =  show_secondary_leader
+				}
+				else_if = {
+					limit = { has_country_flag = show_secondary_leader }
+					clr_country_flag = show_secondary_leader
+				}
+			}
+		}
+		triggers = {
+        }
+    }
+    RB_head_of_government_window = {
+        context_type = player_context
+        parent_window_token = politics_tab
+        window_name = "secondary_leader_bg"
+        visible = {
+            has_country_flag = show_secondary_leader
+        }
+   		properties = {
+        	secondary_portrait = {
+            	image = "[Get_Secondary_Portrait]"
+        	}
+    	}
+	}
+}
