@@ -1,5 +1,20 @@
 ###Europe
 
+ANA = {
+	color = rgb { 214 0 0 }
+	color_ui = rgb { 214 0 0 }
+}
+
+OTT = {
+	color = rgb { 66 135 245 }
+	color_ui = rgb { 66 135 245 }
+}
+
+TUR = {
+	color = rgb { 138 227 164 }
+	color_ui = rgb { 138 227 164 }
+}
+
 BRA = {
 	color = rgb { 100 180 0 }
 	color_ui = rgb { 100 180 0 }

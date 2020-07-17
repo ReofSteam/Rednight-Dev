@@ -3,13 +3,13 @@ state={
 	name="STATE_819"
 
 	history={
-		owner = OTT
+		owner = ANA
 		add_core_of = KUR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = OTT
+		add_core_of = ANA
 		victory_points = {
 			8123 2
 		}

@@ -6,7 +6,7 @@ state = {
 	state_category = five
 
 	history = {
-		owner = CSA
+		owner = CAL
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -15,7 +15,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = CSA
+		add_core_of = CAL
 		victory_points = {
 			1690 1
 		}
