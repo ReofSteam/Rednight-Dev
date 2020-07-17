@@ -1,8 +1,8 @@
 ###Europe
 
 BRA = {
-	color = rgb { 0 160 59}
-	color_ui = rgb { 57 143 97 }
+	color = rgb { 100 180 0 }
+	color_ui = rgb { 100 180 0 }
 }
 
 CAL = {
@@ -200,17 +200,14 @@ GEA = {
 	color_ui = rgb { 57 143 97 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
+	color = rgb { 153 217 234 }
 	color_ui = rgb { 189 204 255 }
 }
 CHL = {
-	color = rgb { 0 102 104 }
+	color = rgb { 0 89 132 }
 	color_ui = rgb { 189 204 255 }
 }
-PRU = {
-	color = rgb { 143 20 20  }
-	color_ui = rgb { 189 204 255 }
-}
+
 ECU = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 189 204 255 }
@@ -220,12 +217,16 @@ BOL = {
 	color_ui = rgb { 189 204 255 }
 }
 COL = {
-	color = rgb { 204 204 0 }
+	color = rgb { 255 222 0 }
 	color_ui = rgb { 189 204 255 }
 }
 VEN = {
-	color = rgb { 238 232 170 }
+	color = rgb { 249 146 98 }
 	color_ui = rgb { 189 204 255 }
+}
+PRU = {
+	color = rgb { 150 20 20 }
+	color_ui = rgb { 177 207 205 }
 }
 PAR = {
 	color = rgb { 0 128 255 }
@@ -265,7 +266,7 @@ GUA = {
 }
 
 DOM = {
-	color = rgb { 107 142 35 }
+	color = rgb { 171 190 152 }
 	color_ui = rgb { 174 113 113 }
 }
 HAI = {
