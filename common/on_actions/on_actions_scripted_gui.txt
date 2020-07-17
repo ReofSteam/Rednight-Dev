@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#Secondary Leader test
+			RUS = {
+			set_country_flag = patrick_secondary
+			}
+		}
+	}
