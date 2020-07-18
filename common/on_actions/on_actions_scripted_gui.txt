@@ -3,7 +3,10 @@ on_actions = {
 		effect = {
 			#Secondary Leader test
 			RUS = {
-			set_country_flag = patrick_secondary
+			set_country_flag = skoblin_secondary
+			}
+			ENG = {
+			set_country_flag = mosley_secondary
 			}
 		}
 	}

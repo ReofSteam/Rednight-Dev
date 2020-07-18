@@ -7,16 +7,31 @@ defined_text = {
 			has_country_flag = skoblin_secondary
 			}
 		}
-		localization_key = "GFX_secondary_patrick"
+		localization_key = "GFX_Nikolai_Skoblin"
 	}
 	text = {
 		trigger = {
 			tag = RUS
 		}
-		localization_key = "GFX_secondary_savinkov"
+		localization_key = "GFX_Boris_Savinkov"
 	}
 	text = {
-		localization_key = "GFX_secondary_patrick"
+		trigger = {
+			AND = {
+			tag = ENG
+			has_country_flag = mosley_secondary
+			}
+		}
+		localization_key = "GFX_Oswald_Mosley"
+	}
+	text = {
+		trigger = {
+			tag = ENG
+		}
+		localization_key = "GFX_Worker_Council"
+	}
+	text = {
+		localization_key = "GFX_Leader_Unknown"
 	}
 }
 defined_text = {
@@ -28,13 +43,28 @@ defined_text = {
 			has_country_flag = skoblin_secondary
 			}
 		}
-		localization_key = "Chum Cuckit"
+		localization_key = "Vice Vozhd"
 	}
 	text = {
 		trigger = {
 			tag = RUS
 		}
-		localization_key = "Vozhd's Right Hand"
+		localization_key = "First Minister"
+	}
+	text = {
+		trigger = {
+			AND = {
+			tag = ENG
+			has_country_flag = mosley_secondary
+			}
+		}
+		localization_key = "Lord-Protector"
+	}
+	text = {
+		trigger = {
+			tag = ENG
+		}
+		localization_key = "Prime Minister"
 	}
 	text = {
 		localization_key = "Secondary Leader"
@@ -49,13 +79,28 @@ defined_text = {
 			has_country_flag = skoblin_secondary
 			}
 		}
-		localization_key = "Vozhd Patrick"
+		localization_key = "Nikolai Skoblin"
 	}
 	text = {
 		trigger = {
 			tag = RUS
 		}
-		localization_key = "Boris Savinkov 2"
+		localization_key = "Mikhail Levitov"
+	}
+	text = {
+		trigger = {
+			AND = {
+			tag = ENG
+			has_country_flag = mosley_secondary
+			}
+		}
+		localization_key = "Oswald Mosley"
+	}
+	text = {
+		trigger = {
+			tag = ENG
+		}
+		localization_key = "Oswald Mosley 2"
 	}
 	text = {
 		localization_key = "Secondary Leader"
