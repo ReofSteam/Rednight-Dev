@@ -68,9 +68,20 @@ create_country_leader = {
 	traits = {}
 }
 
+create_field_marshal = {
+	name = "Emil Fey"
+	portrait_path = "gfx/leaders/AUS/AUS_Fey.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
 create_corps_commander = {
-	name = "Karl Eglseer"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Lothar Rendulic"
+	portrait_path = "gfx/leaders/AUS/AUS_Rendulic.tga"
 	traits = { trait_mountaineer trickster }
 	skill = 3
 	attack_skill = 2
@@ -78,4 +89,39 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Edmund Glaise-Horstenau"
+	portrait_path = "gfx/leaders/AUS/AUS_Glaise-Horstenau.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franz Böhme"
+	portrait_path = "gfx/leaders/AUS/AUS_Bohme.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Alfred Jansa"
+	portrait_path = "gfx/leaders/AUS/AUS_Jansa.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+
 

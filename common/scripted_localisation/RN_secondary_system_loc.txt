@@ -43,7 +43,7 @@ defined_text = {
 			has_country_flag = skoblin_secondary
 			}
 		}
-		localization_key = "Vice Vozhd"
+		localization_key = "Vozhd"
 	}
 	text = {
 		trigger = {
@@ -58,7 +58,7 @@ defined_text = {
 			has_country_flag = mosley_secondary
 			}
 		}
-		localization_key = "Lord-Protector"
+		localization_key = "First-Minister"
 	}
 	text = {
 		trigger = {
