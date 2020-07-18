@@ -114,6 +114,7 @@ spriteTypes = {
 		name = "GFX_idea_ITA_southern_question"
 		texturefile = "gfx/interface/ideas/ITA/ITA_southern_question.dds"
 	}	
+
 ####Generic	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
@@ -142,5 +143,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_red_junta"
 		texturefile = "gfx/interface/ideas/generic/generic_red_military_junta.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_idea_war_syndicalism"
+		texturefile = "gfx/interface/ideas/generic/war_syndicalism.dds"
+	}			
 }

@@ -3,7 +3,7 @@ capital = 219
 add_ideas = {
 
 }
-
+set_country_flag = skoblin_secondary
 ## Cabinet ##
 add_ideas = {
 

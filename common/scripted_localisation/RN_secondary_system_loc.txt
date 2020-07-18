@@ -4,7 +4,7 @@ defined_text = {
 		trigger = {
 			AND = {
 			tag = RUS
-			has_country_flag = patrick_secondary
+			has_country_flag = skoblin_secondary
 			}
 		}
 		localization_key = "GFX_secondary_patrick"
@@ -25,7 +25,7 @@ defined_text = {
 		trigger = {
 			AND = {
 			tag = RUS
-			has_country_flag = patrick_secondary
+			has_country_flag = skoblin_secondary
 			}
 		}
 		localization_key = "Chum Cuckit"
@@ -46,7 +46,7 @@ defined_text = {
 		trigger = {
 			AND = {
 			tag = RUS
-			has_country_flag = patrick_secondary
+			has_country_flag = skoblin_secondary
 			}
 		}
 		localization_key = "Vozhd Patrick"

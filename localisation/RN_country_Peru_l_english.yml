@@ -8,28 +8,38 @@
 
 ### Parties ###
 
-PRU_social_nationalist_party:0 "-"
-PRU_social_nationalist_party_long:0 "-"
-PRU_marxist_party:0 "-"
-PRU_marxist_party_long:0 "-"
-PRU_libertarian_party:0 "-"
-PRU_libertarian_party_long:0 "-"
-PRU_moderate_socialist_party:0 "-"
-PRU_moderate_socialist_party_long:0 "-"
-PRU_social_democrat_party:0 "-"
-PRU_social_democrat_party_long:0 "-"
-PRU_social_liberal_party:0 "-"
-PRU_social_liberal_party_long:0 "-"
-PRU_conservative_party:0 "-"
-PRU_conservative_party_long:0 "-"
-PRU_authoritarian_democrat_party:0 "-"
-PRU_authoritarian_democrat_party_long:0 "-"
-PRU_autocratic_party:0 "-"
-PRU_autocratic_party_long:0 "-"
-PRU_fundamentalist_party:0 "-"
-PRU_fundamentalist_party_long:0 "-"
-PRU_voynist_party:0 "-"
-PRU_voynist_party_long:0 "-"
+PRU_nationalist_socialism_party:0 "Partido Socialista Andino"
+PRU_nationalist_socialism_party_long:0 "Andean Socialist Party"
+
+PRU_revolutionary_socialism_party:0 "Partido Socialista Andino"
+PRU_revolutionary_socialism_party_long:0 "Partido Socialista Andino "
+
+PRU_syndicalism_party:0 "Partido Socialista Andino"
+PRU_syndicalism_party_long:0 "Andean Socialist Party"
+
+PRU_moderate_socialist_party:0 "Partido Socialista Andino"
+PRU_moderate_socialist_party_long:0 "Andean Socialist Party"
+
+PRU_social_democrat_party:0 "SDAPÖ"
+PRU_social_democrat_party_long:0 "Sozialdemokratische Arbeiterpartei Österreichs (Austrian Social Democratic Workers Party)"
+
+PRU_social_liberal_party:0 "VFÖ"
+PRU_social_liberal_party_long:0 "Vaterländische Front Österreichs (Austrian Fatherland Front)"
+
+PRU_social_conservative_party:0 "VFÖ - CS"
+PRU_social_conservative_party_long:0 "Vaterländische Front Österreichs - Christlichsoziale (Austrian Fatherland Front - Christian Social)"
+
+PRU_authoritarian_democrat_party:0 "VFÖ - L"
+PRU_authoritarian_democrat_party_long:0 "Vaterländische Front Österreichs - Landbund (Austrian Fatherland Front - Rural Federation)"
+
+PRU_autocratic_party:0 "VFÖ - L"
+PRU_autocratic_party_long:0 "Vaterländische Front Österreichs - Landbund (Austrian Fatherland Front)"
+
+PRU_ultraconservative_party:0 "VFÖ - Dolfuss"
+PRU_ultraconservative_party_long:0 "Vaterländische Front Österreichs - Dolfuss (Austrian Fatherland Front - Dolfuss)"
+
+PRU_national_corporatist_party:0 "VFÖ - Heimatblock"
+PRU_national_corporatist_party_long:0 "Vaterländische Front Österreichs - Heimatblock (Austrian Fatherland Front - Heimatblock)"
 
 ### Country Name ###
 
