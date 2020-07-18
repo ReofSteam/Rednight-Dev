@@ -7,10 +7,10 @@ state={
 		owner = CRO
 		add_core_of = AUS
 		victory_points = {
-			11735 5
+			11735 5 
 		}
 		victory_points = {
-			6626 15
+			6626 15 
 		}
 		buildings = {
 			infrastructure = 6
@@ -19,11 +19,13 @@ state={
 				naval_base = 8
 				bunker = 1
 				coastal_bunker = 3
+
 			}
 			6626 = {
 				naval_base = 8
 				bunker = 1
 				coastal_bunker = 3
+
 			}
 
 		}
@@ -31,7 +33,7 @@ state={
 	}
 
 	provinces={
-		599 6626 11595 11735
+		599 11595 
 	}
 	manpower=909100
 	buildings_max_level_factor=1.000
