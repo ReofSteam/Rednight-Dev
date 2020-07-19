@@ -33,20 +33,20 @@ CNT_voynist_party_long:0 "Schweizerische Vaterländischer Verband"
 
 ### Country Name ###
  
-CNT_nationalist_socialism:0 "Spanish Republic"
-CNT_nationalist_socialism_ADJ:0 "the Spanish Republic"
+CNT_nationalist_socialism:0 "Spanish Peoples Republic"
+CNT_nationalist_socialism_ADJ:0 "the Spanish Peoples Republic"
 CNT_nationalist_socialism_DEF:0 "Spanish"
 
-CNT_revolutionary_socialism:0 "Spanish Republic"
-CNT_revolutionary_socialism_ADJ:0 "the Spanish Republic"
+CNT_revolutionary_socialism:0 "Spanish Peoples Republic"
+CNT_revolutionary_socialism_ADJ:0 "the Spanish Peoples Republic"
 CNT_revolutionary_socialism_DEF:0 "Spanish"
 
 CNT_syndicalism:0 "Iberian Federation"
 CNT_syndicalism_ADJ:0 "the Iberian Federation"
 CNT_syndicalism_DEF:0 "Iberian"
 
-CNT_moderate_socialist:0 "Spanish Republic"
-CNT_moderate_socialist_ADJ:0 "the Spanish Republic"
+CNT_moderate_socialist:0 "Spanish Peoples Republic"
+CNT_moderate_socialist_ADJ:0 "the Spanish Peoples Republic"
 CNT_moderate_socialist_DEF:0 "Spanish"
 
 CNT_social_democrat:0 "Spanish Republic"
