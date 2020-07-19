@@ -15,33 +15,33 @@ CHL_moderate_socialist:0 "Socialist Republic of Chile"
 CHL_moderate_socialist_ADJ:0 "Chilean"
 CHL_moderate_socialist_DEF:0 "Socialist Republic of Chile"
 
-CHL_social_democrat:0 "Socialist Republic of Chile"
+CHL_social_democrat:0 "Republic of Chile"
 CHL_social_democrat_ADJ:0 "Chilean"
-CHL_social_democrat_DEF:0 "Socialist Republic of Chile"
+CHL_social_democrat_DEF:0 "Republic of Chile"
 
-CHL_social_liberal:0 "Socialist Republic of Chile"
+CHL_social_liberal:0 "Republic of Chile"
 CHL_social_liberal_ADJ:0 "Chilean"
-CHL_social_liberal_DEF:0 "Socialist Republic of Chile"
+CHL_social_liberal_DEF:0 "Republic of Chile"
 
-CHL_conservative:0 "Socialist Republic of Chile"
+CHL_conservative:0 "Republic of Chile"
 CHL_conservative_ADJ:0 "Chilean"
-CHL_conservative_DEF:0 "Socialist Republic of Chile"
+CHL_conservative_DEF:0 "Republic of Chile"
 
-CHL_authoritarian_democrat:0 "Socialist Republic of Chile"
+CHL_authoritarian_democrat:0 "Republic of Chile"
 CHL_authoritarian_democrat_ADJ:0 "Chilean"
-CHL_authoritarian_democrat_DEF:0 "Socialist Republic of Chile"
+CHL_authoritarian_democrat_DEF:0 "Republic of Chile"
 
-CHL_autocratic:0 "Socialist Republic of Chile"
+CHL_autocratic:0 "Republic of Chile"
 CHL_autocratic_ADJ:0 "Chilean"
-CHL_autocratic_DEF:0 "Socialist Republic of Chile"
+CHL_autocratic_DEF:0 "Republic of Chile"
 
-CHL_fundamentalist:0 "Socialist Republic of Chile"
+CHL_fundamentalist:0 "Republic of Chile"
 CHL_fundamentalist_ADJ:0 "Chilean"
-CHL_fundamentalist_DEF:0 "Socialist Republic of Chile"
+CHL_fundamentalist_DEF:0 "Republic of Chile"
 
-CHL_voynist:0 "Socialist Republic of Chile"
+CHL_voynist:0 "Republic of Chile"
 CHL_voynist_ADJ:0 "Chilean"
-CHL_voynist_DEF:0 "Socialist Republic of Chile"
+CHL_voynist_DEF:0 "Republic of Chile"
 
 ### Parties ###
 CHL_social_nationalist_party:0 "-"
