@@ -2,7 +2,7 @@
 
 oob = "CUB"
 
-# Starting tech
+Starting tech
 set_technology = {
 	infantry_weapons = 1
 	early_fighter = 1
@@ -12,26 +12,26 @@ set_war_support = 0.1
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = nationalist_socialism
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	nationalist_socialism = 0
-	revolutionary_socialism = 0
+	nationalist_socialism = 30
+	revolutionary_socialism = 10
 	syndicalism = 0
-	moderate_socialist = 0
-	social_democrat = 0
-	social_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 100
-	autocratic = 0
-	ultraconservative = 0
+	moderate_socialist = 30
+	social_democrat = 5
+	social_liberal = 3
+	social_conservative = 3
+	authoritarian_democrat = 4
+	autocratic = 5
+	ultraconservative = 8
 	national_corporatist = 0
 }
 
-###gfx/leaders/NORTH_AMERICA/JAM/
+gfx/leaders/NORTH_AMERICA/JAM/
 
 create_country_leader = {
 	name = "José Agripino Barnet"

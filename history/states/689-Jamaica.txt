@@ -6,7 +6,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = CAF
+		owner = JAM
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -19,7 +19,6 @@ state = {
 		victory_points = {
 			12304 8
 		}
-		add_core_of = CAF
 		add_core_of = JAM
 	}
 

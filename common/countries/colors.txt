@@ -263,23 +263,10 @@ COS = {
 	color = rgb { 204 255 255 }
 	color_ui = rgb { 189 204 255 }
 }
-NIC = {
+CAC = {
 	color = rgb { 153 255 255 }
 	color_ui = rgb { 189 25 53 }
 }
-HON = {
-	color = rgb { 153 255 255 }
-	color_ui = rgb { 189 25 53 }
-}
-ELS = {
-	color = rgb { 153 255 255 }
-	color_ui = rgb { 189 25 53 }
-}
-GUA = {
-	color = rgb { 153 255 255 }
-	color_ui = rgb { 189 25 53 }
-}
-
 DOM = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 174 113 113 }
