@@ -1,6 +1,6 @@
 ﻿capital = 473
 
-oob = "CAN"
+oob = "WCN"
 
 set_research_slots = 3
 set_stability = 0.4

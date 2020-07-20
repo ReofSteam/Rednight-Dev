@@ -80,13 +80,14 @@ ITA_national_corporatist_DEF:0 "Italian"
 ### Focuses ###
  
 ### Ideas ###
-ITA_victors_of_the_second_weltkrieg:0 "Victors of the Second Weltkrieg"
-ITA_trade_union_bureaucracy:0 "Trade Unionist Bureaucracy"
-ITA_trade_union_bureaucracy_desc:0 "The Socialist Republic of Italy is governed by a bloated bureaucracy of trade unionists and Socialist politicians, with Palmiro Togliatti at the head. Similar bureaucracies were long ago toppled in France and Britain, but ours has remained stable, and led the Italian proletariat to victory against our reactionary southern and north-eastern countrymen. Nevertheless, the split of the Communist Party from the Socialist Party in 1936 has put our legitimacy into question. It is the Communists who command the allegiance of the revolutionary workers' militias in Rome and Naples, and even that of many unskilled labourers in our northern heartland, who have become disillusioned with our leadership."
-ITA_countryside_resistance:0 "Nationalists in the Countryside"
-ITA_countryside_resistance_desc:0 "The cities of Italy are firmly under the control of the revolutionary workers, but there remain nationalists in the southern countryside who resist the forward march of history. They are on the run, but will remain a nuisance until we effectively deal with them."
-ITA_workers_militias:0 "Workers' Militias"
-ITA_workers_militias_desc:0 "The Communists command the allegiance of well-disciplined workers' militias in cities throughout our newly-liberated lands, but especially in Rome and Naples. They rose up at the outset of the war, and have been effective at quashing counterrevolution since. However, they represent a threat to our government, of which they have been openly critical."
+ITA_southern_question:0 "Questione Meridionale"
+ITA_southern_question_desc:0 "As a result of scars from hundreds of years of history, as well as the recent the Burboun Monarchy, southern Italy remains hard to integrate. It is a wild frontier of subversives and a mostly reactionary rural populace. This state of affairs has granted the Mafia great power, and in some places it even holds more sway then our goverment, declaring open hostility towards our authority. If we wish to remove this thorn from our side, a consistent program is required"
+ITA_papal_question:0 "Questione Papale"
+ITA_papal_question_desc:0 "The world needs only one Pope, and yet there are two that reside on this blue marble. As the Risorgimento reached its climax, Julius IV opted to flee the "Red Hordes" assaulting the Vatican. In his asbscence, he has continued a campaign of sabatoge, decrying the entire socialist project and leading millions astray down a path of hatred. Already terrorist acts have been commited in the name of his dangerous creed. John XXIII, the legitmate leader of the catholic world, must be bolstered in his legitimacy. We cannot capitulate such influence to a dangerous demagouge."
+ITA_reconstruction:0 "Reconstruction and Integration"
+ITA_reconstruction_desc:0 "Italy may appear whole on the map, but the scars of war still haunt our nation. Much of the countryside remains heavily damaged, and the population of the northeast especially resistant to our mandate. There is much to be done."
+ITA_war_syndicalism:0 "War Syndicalism"
+ITA_war_syndicalism_desc:0 "The necessities of our revolutionary war have forced many sacrifices, and continued terrorist campaigns have ensured they remain to this day. We must move past so called "War Syndicalism" and towards our socialist future."
  
 ### Flags ###
 
@@ -95,19 +96,7 @@ ITA_workers_militias_desc:0 "The Communists command the allegiance of well-disci
 ### Companies ###
 
 ### Ministers ###
-ITA_Luigi_Longo_hog:0 "Luigi Longo"
-ITA_Edmondo_Rossoni_hog:0 "Edmondo Rossoni"
-ITA_Giuseppe_di_Vittorio_interior:0 "Giuseppe di Vittorio"
-ITA_Luciano_Lama_eco:0 "Luciano Lama"
-ITA_Cino_Moscatelli_for:0 "Cino Moscatelli"
-ITA_Pierre_Carniti:0 "Pierre Carniti"
-ITA_Emilio_Canevari_cul:0 "Emilio Canevari"
-ITA_Giacomo_Ferrari_tra:0 "Giacomo Ferrari"
-ITA_Michele_Moretti_intel:0 "Michele Moretti"
-ITA_Adolfo_Zamboni_cos:0 "Adolfo Zamboni"
-ITA_Randolfo_Pacciardi_coa:0 "Randolfo Pacciardi"
-ITA_Teresio_Vittorio_Martinoli_air:0 "Teresio Vittorio Martinoli"
-ITA_Teseo_Tesei_navy:0 "Teseo Tesei"
+
 ### Leaders ###
 
 ### Tech? ###
