@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = GUA
+		owner = CAC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -20,6 +20,7 @@ state = {
 			}
 		}
 		add_core_of = GUA
+		add_core_of = CAC
 		victory_points = {
 			10886 6
 		}

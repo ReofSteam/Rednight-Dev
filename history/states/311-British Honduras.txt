@@ -3,13 +3,14 @@ state = {
 	name = "STATE_311"
 
 	history = {
-		owner = GUA
+		owner = CAC
 		buildings = {
 			infrastructure = 2
 			2077 = {
 				naval_base = 1
 			}
 		}
+		add_core_of = CAC
 		add_core_of = CAF
 		add_claim_by = GUA
 		victory_points = {

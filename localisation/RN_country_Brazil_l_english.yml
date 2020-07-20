@@ -36,36 +36,52 @@ BRT_voynist_party_long:0 "-"
 BRA_social_nationalist:0 "Union of Brazil"
 BRA_social_nationalist_ADJ:0 "Brazilian"
 BRA_social_nationalist_DEF:0 "the Union of Brazil"
+
 BRA_marxist:0 "United Communes of Brazil"
 BRA_marxist_ADJ:0 "Brazilian"
 BRA_marxist_DEF:0 "the United Communes of Brazil"
+
 BRA_libertarian:0 "United Communes of Brazil"
 BRA_libertarian_ADJ:0 "Brazilian"
 BRA_libertarian_DEF:0 "the United Communes of Brazil"
+
 BRA_moderate_socialist:0 "United Communes of Brazil"
 BRA_moderate_socialist_ADJ:0 "Brazilian"
 BRA_moderate_socialist_DEF:0 "the United Communes of Brazil"
+
 BRA_social_democrat:0 "United States of Brazil"
 BRA_social_democrat_ADJ:0 "Brazilian"
 BRA_social_democrat_DEF:0 "the United States of Brazil"
+
 BRA_social_liberal:0 "United States of Brazil"
 BRA_social_liberal_ADJ:0 "Brazilian"
 BRA_social_liberal_DEF:0 "the United States of Brazil"
+
 BRA_conservative:0 "United States of Brazil"
 BRA_conservative_ADJ:0 "Brazilian"
 BRA_conservative_DEF:0 "the United States of Brazil"
+
 BRA_authoritarian_democrat:0 "Empire of Brazil"
 BRA_authoritarian_democrat_ADJ:0 "Brazilian"
 BRA_authoritarian_democrat_DEF:0 "the Empire of Brazil"
+
 BRA_autocratic:0 "Empire of Brazil"
 BRA_autocratic_ADJ:0 "Brazilian"
 BRA_autocratic_DEF:0 "the Empire of Brazil"
+
 BRA_fundamentalist:0 "Empire of Brazil"
 BRA_fundamentalist_ADJ:0 "Brazilian"
 BRA_fundamentalist_DEF:0 "the Empire of Brazil"
-BRA_voynist:0 "Empire of Brazil"
-BRA_voynist_ADJ:0 "Brazilian"
-BRA_voynist_DEF:0 "the Empire of Brazil"
+
+BRA_ultraconservative:0 "Empire of Brazil"
+BRA_ultraconservative_ADJ:0 "Brazilian"
+BRA_ultraconservative_DEF:0 "the Empire of Brazil"
+BRA_ultraconservative:0 "Union of Brazil"
+
+BRA_national_corporatist:0 "State of Brazil"
+BRA_national_corporatist_ADJ:0 "Brazilian"
+BRA_national_corporatist_DEF:0 "the State of Brazil"
+
 
 
 ### Focuses ###
