@@ -34,22 +34,13 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_country_flag = coalition_revolutionary_socialism
-set_country_flag = coalition_moderate_socialist
-set_country_flag = banned_social_democrat
-set_country_flag = banned_social_liberal
-set_country_flag = banned_social_conservative
-set_country_flag = banned_authoritarian_democrat
-set_country_flag = banned_autocratic
-set_country_flag = banned_ultrasocial_conservative
-set_country_flag = banned_national_corporatist
 
 set_popularities = {
-    nationalist_socialism = 17
+    nationalist_socialism = 4
     revolutionary_socialism = 19
     syndicalism = 0
     moderate_socialist = 22
-    social_democrat = 4
+    social_democrat = 17
     social_liberal = 8
     social_conservative = 9
     authoritarian_democrat = 8
@@ -58,28 +49,11 @@ set_popularities = {
     national_corporatist = 4
 }
 
-create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Tim_Buck.tga"
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = { }
-}
 
 create_country_leader = {
-	name = "Maurice Spector"
-	desc = "POLITICS_MAURICE_SPECTOR_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Maurice_Spector.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Tommy Douglas"
+	name = "A.A.MacLeod"
 	desc = "POLITICS_TOMMY_DOUGLAS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CAN/CAN_Tommy_Douglas.tga"
+	picture = "gfx/leaders/CAN/CAN_MacLeod.tga"
 	expire = "1965.1.1"
 	ideology = moderate_socialist_subtype
 	traits = { }

@@ -1,18 +1,9 @@
 ﻿capital = 466
-oob = "empty"
+oob = "QUE"
 
-set_country_flag = banned_nationalist_socialism
-set_country_flag = banned_moderate_socialist
-set_country_flag = banned_social_democrat
-set_country_flag = banned_national_corporatist
-set_country_flag = banned_social_democrat
-set_country_flag = banned_autocratic
-set_country_flag = banned_syndicalism
 
 add_ideas = {
-	QUE_anti_anglophone
-	QUE_great_darkness
-	QUE_catholic_country
+
 }
 
 set_technology = {
@@ -61,7 +52,7 @@ set_stability = 0.55
 set_war_support = 0.40
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = ultraconservative
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -70,14 +61,14 @@ set_popularities = {
 	nationalist_socialism = 0
 	revolutionary_socialism = 0
 	syndicalism = 0
-	moderate_socialist = 0
-	social_democrat = 0
+	moderate_socialist = 9
+	social_democrat = 11
 	social_liberal = 0
 	social_conservative = 0
-	authoritarian_democrat = 100
+	authoritarian_democrat = 0
 	autocratic = 0
-	ultraconservative = 0
-	national_corporatist = 0
+	ultraconservative = 55
+	national_corporatist = 25
 }
 
 set_convoys = 100
@@ -89,88 +80,11 @@ add_ideas = {
 create_country_leader = {
 	name = "Maurice Duplessis"
 	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
+	picture = "gfx/leaders/QUE/QUE_Duplessis.tga"
 	expire = "1965.1.1"
-	ideology = syndicalism_subtype
+	ideology = autocratic_subtype
 	traits = {
 
 	}
 }
 
-create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/QUE_Maurice_Duplessis.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Maurice Duplessis"
-	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Maurice_Duplessis.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = {
-
-	}
-}
-
-create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {
-
-	}
-}
-
-
-create_country_leader = {
-	name = "Fred Rose"
-	desc = "POLITICS_FRED_ROSE_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/QUE/Portrait_Quebec_Fred_Rose.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-
-	}
-}

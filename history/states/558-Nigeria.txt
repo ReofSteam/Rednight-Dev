@@ -3,8 +3,7 @@ state = {
 	name = "STATE_558"
 
 	history = {
-		owner = MAF
-		add_claim_by = MAF
+		owner = NGR
 		add_core_of = NGR
 		buildings = {
 			infrastructure = 3

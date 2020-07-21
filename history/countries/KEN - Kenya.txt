@@ -1,4 +1,4 @@
-﻿capital = 870
+﻿capital = 547
 OOB = "empty"
 
 add_ideas = {
