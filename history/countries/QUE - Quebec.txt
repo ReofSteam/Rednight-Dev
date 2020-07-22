@@ -52,7 +52,7 @@ set_stability = 0.55
 set_war_support = 0.40
 
 set_politics = {
-	ruling_party = ultraconservative
+	ruling_party = autocratic
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no

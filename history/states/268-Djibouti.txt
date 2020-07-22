@@ -7,8 +7,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = GER
-		add_core_of = SOM
+		owner = ETH
+		add_core_of = ETH
 		buildings = {
 			infrastructure = 3
 			air_base = 2

@@ -7,11 +7,11 @@ state = {
 	impassable = yes
 
 	history = {
-		owner = WCN
+		owner = CAN
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = WCN
+		add_core_of = CAN
 	}
 
 	provinces = {
