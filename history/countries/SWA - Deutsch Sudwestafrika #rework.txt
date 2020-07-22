@@ -24,18 +24,18 @@ set_popularities = {
     social_democrat = 0
     social_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 0
-    autocratic = 100
+    authoritarian_democrat = 100
+    autocratic = 0
     ultraconservative = 0
     national_corporatist = 0
 }
 
 create_country_leader = {
-	name = "Paul von Lettow-Vorbeck"
+	name = "Rudolf Asmis"
 	desc = "POLITICS_LETTOW_VORBECK_DESC"
-	picture = "gfx/leaders/SOUTHERN_AFRICA/SWA/SWA_Von_Lettow_Vorbeck.tga"
+	picture = "gfx/leaders/OVERSEA_GERMANS/Rudolf_Asmis.tga"
 	expire = "1965.1.1"
-	ideology = autocratic_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		
 	}
