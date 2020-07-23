@@ -1,0 +1,15 @@
+
+state={
+	id=1097
+	name="STATE_1097"
+	state_category=five
+	history={
+		owner = CAL
+		add_core_of = CAL
+	}
+	provinces={
+		868 1658 6887 7684 7999 9792 10535 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+}
