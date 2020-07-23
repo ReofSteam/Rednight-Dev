@@ -75,6 +75,10 @@ set_convoys = 100
 
 add_ideas = {
 	#medium_economy
+	QUE_crown_of_yore
+	QUE_land_of_my_father
+	QUE_anglo_french_divide
+	QUE_socialist_infiltration
 }
 
 create_country_leader = {

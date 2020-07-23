@@ -1,0 +1,49 @@
+### SRI Ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+	country = {
+		QUE_crown_of_yore = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea QUE_crown_of_yore"}
+			allowed = { always = no }
+			modifier = {
+				war_support_factor = 0.20
+				surrender_limit = 0.15
+			}
+			picture = QUE_crown_of_yore
+		}
+		QUE_land_of_my_father = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea QUE_land_of_my_father"}
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.10
+			}
+			picture = rural_society
+		}
+
+		QUE_anglo_french_divide = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea QUE_anglo_french_divide"}
+			allowed = { always = no }
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+			picture = QUE_anglo_french_divide
+		}
+
+		QUE_socialist_infiltration = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea QUE_socialist_infiltration"}
+			allowed = { always = no }
+			modifier = {
+				local_resources_factor = 0.1
+				global_building_slots_factor = 0.2
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+			picture = QUE_red_infiltration
+		}
+
+	}
+}

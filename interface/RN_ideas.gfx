@@ -114,6 +114,19 @@ spriteTypes = {
 		name = "GFX_idea_ITA_southern_question"
 		texturefile = "gfx/interface/ideas/ITA/ITA_southern_question.dds"
 	}	
+###Quebec#####
+	spriteType = {
+		name = "GFX_idea_QUE_anglo_french_divide"
+		texturefile = "gfx/interface/ideas/QUE/QUE_anglo-french.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_QUE_crown_of_yore"
+		texturefile = "gfx/interface/ideas/QUE/QUE_crown_of_yore.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_QUE_red_infiltration"
+		texturefile = "gfx/interface/ideas/QUE/QUE_red_infiltration.dds"
+	}		
 
 ####Generic	
 	spriteType = {
