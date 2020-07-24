@@ -1,0 +1,15 @@
+
+state={
+	id=1102
+	name="STATE_1102"
+	state_category=five
+	history={
+		owner = CSA
+		add_core_of = CSA
+	}
+	provinces={
+		805 1500 2055 2082 3875 3960 3972 4577 5001 5085 6968 7628 9829 9908 9920 10337 10504 10778 10861 12486 12848 12893 
+	}
+	manpower=5
+	buildings_max_level_factor=1.000
+}
