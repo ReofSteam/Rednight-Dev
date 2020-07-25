@@ -3,8 +3,7 @@ state = {
 	name = "STATE_808"
 
 	history = {
-		owner = NFA
-		add_core_of = NFA
+		owner = BFA
 		add_core_of = BFA
 		victory_points = {
 			10836 1 #Ouagadougou

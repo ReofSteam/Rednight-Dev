@@ -3,9 +3,8 @@ state = {
 	name = "STATE_809"
 
 	history = {
-		owner = NFA
-		add_core_of = NFA
-		add_core_of = NER
+		owner = SAH
+		add_core_of = SAH
 		victory_points = {
 			2056 1 #Niamey
 		}
