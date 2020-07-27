@@ -16,7 +16,6 @@ state={
 			12727 5
 		}
 		add_core_of = SAU
-		add_claim_by = JBS
 
 	}
 
