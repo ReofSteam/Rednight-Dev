@@ -7,11 +7,11 @@ state = {
 	manpower = 22103
 
 	history = {
-		owner = OMA
+		owner = SAU
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = OMA
+		add_core_of = SAU
 	}
 
 	state_category = zero
