@@ -10,28 +10,38 @@ que.1.d: "The Duplessis Bridge, so proudly named after the President of Quebec, 
 que.1.a: "Damn Communist!"
 ### Parties ###
 
-QUE_social_nationalist_party:0 "PCQ - Communist Party of Quebec"
-QUE_social_nationalist_party_long:0 "Parti communiste québécois"
-QUE_marxist_party:0 "PCQ - Communist Party of Quebec"
-QUE_marxist_party_long:0 "Parti communiste québécois"
-QUE_libertarian_party:0 "UGS - One Big Union"
-QUE_libertarian_party_long:0 "Un grand syndicat du Québec"
-QUE_moderate_socialist_party:0 "CCF - Co-operative Commonwealth Federation"
-QUE_moderate_socialist_party_long:0 "Fédération du Commonwealth Coopératif"
-QUE_social_democrat_party:0 "ASD - Social-Democratic Alliance"
-QUE_social_democrat_party_long:0 "Alliance Social-démocrate"
-QUE_social_liberal_party:0 "PLQ - Liberal Party of Quebec"
-QUE_social_liberal_party_long:0 "Parti libéral du Québec"
-QUE_conservative_party:0 "ALN/RCQ - National Liberal Action / Social Credit Rally"
-QUE_conservative_party_long:0 "Action libérale nationale /  Ralliement créditiste du Québec"
-QUE_authoritarian_democrat_party:0 "UN - National Union"
-QUE_authoritarian_democrat_party_long:0 "Union Nationale"
-QUE_autocratic_party:0 "LEL - League of Empire Loyalists"
-QUE_autocratic_party_long:0 "Ligue des loyalistes de l'Empire"
-QUE_fundamentalist_party:0 "MCN - National Catholic Movement"
-QUE_fundamentalist_party_long:0 "Mouvement catholique national"
-QUE_voynist_party:0 "PUC - Canadian Unity Party"
-QUE_voynist_party_long:0 "Parti de l'unité canadienne"
+QUE_nationalist_socialism_party:0 "BW"
+QUE_nationalist_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_revolutionary_socialism_party:0 "BW"
+QUE_revolutionary_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_syndicalism_party:0 "BW"
+QUE_syndicalism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_moderate_socialist_party:0 "BW"
+QUE_moderate_socialist_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_social_democrat_party:0 "BW"
+QUE_social_democrat_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_social_liberal_party:0 "-"
+QUE_social_liberal_party_long:0 "-"
+
+QUE_social_conservative_party:0 "Union Nationale - L'Avenir"
+QUE_social_conservative_party_long:0 "National Union"
+
+QUE_authoritarian_democrat_party:0 "Union Nationale"
+QUE_authoritarian_democrat_party_long:0 "National Union"
+
+QUE_autocratic_party:0 "Union Nationale"
+QUE_autocratic_party_long:0 "National Union"
+
+QUE_ultraconservative_party:0 "Action française popularie"
+QUE_ultraconservative_party_long:0 "-"
+
+QUE_national_corporatist_party:0 "Action française popularie"
+QUE_national_corporatist_party_long:0 "-"
 
 ### Country Name ###
 
@@ -50,16 +60,21 @@ QUE_conservative_DEF:0 "the State of Quebec"
 QUE_authoritarian_democrat:0 "State of Quebec"
 QUE_authoritarian_democrat_ADJ:0 "Québécois"
 QUE_authoritarian_democrat_DEF:0 "the State of Quebec"
-QUE_autocratic:0 "National Republic of Quebec"
+QUE_autocratic:0 "State of Quebec"
 QUE_autocratic_ADJ:0 "Québécois"
-QUE_autocratic_DEF:0 "the National Republic of Quebec"
+QUE_autocratic_DEF:0 "the State of Quebec"
 ### Focuses ###
  
 ### Ideas ###
 
-QUE_catholic_country:0 "Catholic Country"
-QUE_anti_anglophone:0 "Anglophobia"
-QUE_great_darkness:0 "La Grande Noirceur"
+QUE_crown_of_yore:0 "Crown of Yore"
+QUE_crown_of_yore_desc:0 ""
+QUE_land_of_my_father:0 "Land of My Father"
+QUE_land_of_my_father_desc:0 ""
+QUE_anglo_french_divide:0 "Anglo-French Divide" 
+QUE_anglo_french_divide_desc: ""
+QUE_socialist_infiltration:0 "Socialist Infiltration"
+QUE_socialist_infiltration_desc:0 ""
 ### Flags ###
 
 ### Tooltips ###

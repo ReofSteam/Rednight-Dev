@@ -3,7 +3,7 @@ state = {
 	name = "STATE_860" #Desert Malien
 
 	history = {
-		owner = MLI
+		owner = SAH
 		add_core_of = MLI
 		buildings = {
 			infrastructure = 1

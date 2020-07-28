@@ -6,8 +6,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-		owner = MOR
-		add_core_of = MOR
+		owner = SAH
+		add_core_of = SAH
 		victory_points = {
 			8111 1 #El Aaiún
 		}

@@ -92,3 +92,34 @@ create_country_leader = {
 	}
 }
 
+create_corps_commander = {
+	name = "Paul-Émile Bernatchez"
+	portrait_path = "gfx/leaders/QUE/QUE_Bernatchez.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Jacques Dextraze"
+	portrait_path = "gfx/leaders/QUE/QUE_Dextraze.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Paul Triquet"
+	portrait_path = "gfx/leaders/QUE/QUE_Triquet.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+

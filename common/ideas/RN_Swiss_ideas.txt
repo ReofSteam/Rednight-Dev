@@ -12,7 +12,7 @@ ideas = {
 				mobilization_speed = -0.35	
 				conscription_factor = -0.05			
 			}
-			custom_effect_tooltip = SWI_2_tt	
+			custom_modifier_tooltip = SWI_2_tt	
 			removal_cost = -1
 			picture = demobilization
 		}
@@ -33,7 +33,7 @@ ideas = {
 			political_power_gain = 0.10
 
 			}
-			custom_effect_tooltip = SWI_1_tt
+			custom_modifier_tooltip = SWI_1_tt
 			removal_cost = -1
 			picture = military_junta
 		}
