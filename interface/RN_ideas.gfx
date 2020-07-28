@@ -127,7 +127,27 @@ spriteTypes = {
 		name = "GFX_idea_QUE_red_infiltration"
 		texturefile = "gfx/interface/ideas/QUE/QUE_red_infiltration.dds"
 	}		
+#Red Canada
 
+		spriteType = {
+		name = "GFX_idea_CAN_west_east_divide"
+		texturefile = "gfx/interface/ideas/CAN/CAN_east_west.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_CAN_great_northern_militia"
+		texturefile = "gfx/interface/ideas/CAN/CAN_northern_militia.dds"
+	}
+	
+#White Canada	
+ 		spriteType = {
+		name = "GFX_idea_WCN_royal_dictatorship"
+		texturefile = "gfx/interface/ideas/WCN/WCN_royal_dictatorship.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_WCN_pacific_revolt"
+		texturefile = "gfx/interface/ideas/WCN/WCN_pacific_revolt.dds"
+	}
+	
 ####Generic	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
@@ -160,5 +180,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_war_syndicalism"
 		texturefile = "gfx/interface/ideas/generic/war_syndicalism.dds"
-	}			
+	}		
+	spriteType = {
+		name = "GFX_idea_good_economy"
+		texturefile = "gfx/interface/ideas/generic/good_economy.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_blooming_economy"
+		texturefile = "gfx/interface/ideas/generic/blooming_economy.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_economic_miracle"
+		texturefile = "gfx/interface/ideas/generic/economic_miracle.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_broken_railway"
+		texturefile = "gfx/interface/ideas/generic/generic_broken_railway.dds"
+	}	
 }
