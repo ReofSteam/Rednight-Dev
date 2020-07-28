@@ -208,6 +208,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		set_country_flag = yusopov_decrees
+		add_timed_idea = {
+    idea = RUS_yusopov_investments
+    days = 120
+}
+}
 	}
 
 	#Focus for Far East Industry

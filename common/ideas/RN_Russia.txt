@@ -1,0 +1,14 @@
+### Russia
+
+ideas = {
+	country = {
+		RUS_yusopov_investments = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_yusopov_investments"}
+			picture = AUS_age_uncertainty
+			modifier = {
+production_speed_buildings_factor = 0.05
+			}
+		}
+
+	}
+}

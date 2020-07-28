@@ -27,6 +27,13 @@ set_technology = {
 	#fleet_in_being = 1
 }
 
+add_ideas = {
+	#medium_economy
+	CAN_west_east_divide
+	CAN_great_northern_militia
+	CAN_spared_from_the_war
+}
+
 set_politics = {
 	ruling_party = moderate_socialist
 	last_election = "1935.15.6"
