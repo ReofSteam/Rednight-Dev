@@ -4,10 +4,38 @@
 
 add_namespace = rus
 
+country_event = { #Siberian Plan
+	id = rus.5
+	title = rus.5.t
+	desc = rus.5.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rus.5.a
+		clr_country_flag = construct_siberian_infra
+		}
+	}
+
+country_event = { #Yusopov Decrees
+	id = rus.6
+	title = rus.6.t
+	desc = rus.6.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rus.6.a
+		clr_country_flag = yusopov_decrees
+	
+	}
+}
 country_event = { #Ukrainian Revolt
 	id = rus.12
 	title = rus.12.t
-	desc = kn_rus.12.d
+	desc = rus.12.d
 	picture = GFX_rebel_1
 
 	is_triggered_only = yes
@@ -25,7 +53,7 @@ country_event = { #Ukrainian Revolt
 country_event = { #Finnish Revolt
 	id = rus.13
 	title = rus.13.t
-	desc = kn_rus.13.d
+	desc = rus.13.d
 	picture = GFX_rebel_2
 
 	is_triggered_only = yes
@@ -46,7 +74,7 @@ country_event = { #Finnish Revolt
 country_event = { #Levitov breaks the ice
 	id = rus.14
 	title = rus.14.t
-	desc = kn_rus.14.d
+	desc = rus.14.d
 	picture = GFX_RUS_kremlin
 
 	is_triggered_only = yes
@@ -72,7 +100,7 @@ country_event = { #Levitov denounces Skoblin
 country_event = { #Levitov denounces Skoblin 
 	id = rus.15
 	title = rus.15.t
-	desc = kn_rus.15.d
+	desc = rus.15.d
 	picture = GFX_revolt_1
 
 	is_triggered_only = yes
@@ -88,7 +116,7 @@ country_event = { #Levitov denounces Skoblin
 country_event = { #Arrest of Levitov
 	id = rus.16
 	title = rus.16.t
-	desc = kn_rus.16.d
+	desc = rus.16.d
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
@@ -101,7 +129,7 @@ country_event = { #Arrest of Levitov
 country_event = { #Arrest of Levitov
 	id = rus.17
 	title = rus.17.t
-	desc = kn_rus.17.d
+	desc = rus.17.d
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
@@ -114,7 +142,7 @@ country_event = { #Arrest of Levitov
 country_event = { #Return of the Whites
 	id = rus.18
 	title = rus.18.t
-	desc = kn_rus.18.d
+	desc = rus.18.d
 	picture = GFX_RUS_wrangel
 
 	is_triggered_only = yes

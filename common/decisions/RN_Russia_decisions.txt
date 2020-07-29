@@ -38,7 +38,7 @@ RUS_siberian_industrialisation = {
 				}
 			}
 		}
-
+		fixed_random_seed = no
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_civ_factory"
 hidden_effect = {
@@ -266,7 +266,7 @@ RUS_construct_siberian_mil_factory = {
 				}
 			}
 		}
-
+		fixed_random_seed = no
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_mil_factory"
 hidden_effect = {
@@ -451,6 +451,235 @@ hidden_effect = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }	
+}
+}
+		}
+		
+	}	
+
+RUS_construct_siberian_infra = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = construct_siberian_infra
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			is_subject = no
+		}
+
+		cost = 80
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RUS = {
+					has_war = yes
+				}
+			}
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_infra"
+hidden_effect = {
+		random_list = {
+    579 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    580 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    653 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    572 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    583 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    590 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    403 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    571 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    577 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    570 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    40 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    576 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    575 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    562 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    560 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    409 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    408 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    567 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }
+    516 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
 					level = 1
 					instant_build = yes
 				}

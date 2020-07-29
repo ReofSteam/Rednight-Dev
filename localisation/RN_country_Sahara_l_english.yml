@@ -8,66 +8,55 @@
 
 ### Parties ###
 
-SAH_social_nationalist_party:0 "-"
-SAH_social_nationalist_party_long:0 "-"
-SAH_marxist_party:0 "-"
-SAH_marxist_party_long:0 "-"
-SAH_libertarian_party:0 "-"
-SAH_libertarian_party_long:0 "-"
-SAH_moderate_socialist_party:0 "-"
-SAH_moderate_socialist_party_long:0 "-"
-SAH_social_democrat_party:0 "-"
-SAH_social_democrat_party_long:0 "-"
-SAH_social_liberal_party:0 "-"
-SAH_social_liberal_party_long:0 "-"
-SAH_conservative_party:0 "-"
-SAH_conservative_party_long:0 "-"
-SAH_authoritarian_democrat_party:0 "-"
-SAH_authoritarian_democrat_party_long:0 "-"
-SAH_autocratic_party:0 "-"
-SAH_autocratic_party_long:0 "-"
-SAH_fundamentalist_party:0 "-"
-SAH_fundamentalist_party_long:0 "-"
-SAH_voynist_party:0 "-"
-SAH_voynist_party_long:0 "-"
-
 ### Country Name ###
+SAH_nationalist_socialism:0 "Military Operation Zone"
+SAH_nationalist_socialism_ADJ:0 "Emigré"
+SAH_nationalist_socialism_DEF:0 "Military Operation Zone"
 
-SAH_social_nationalist:0 "Sahara"
-SAH_social_nationalist_ADJ:0 "Saharan"
-SAH_social_nationalist_DEF:0 "the Sahara"
-SAH_marxist:0 "Sahara"
-SAH_marxist_ADJ:0 "Saharan"
-SAH_marxist_DEF:0 "the Sahara"
-SAH_moderate_socialist:0 "Sahara"
-SAH_moderate_socialist_ADJ:0 "Saharan"
-SAH_moderate_socialist_DEF:0 "the Sahara"
-SAH_social_democrat:0 "Sahara"
-SAH_social_democrat_ADJ:0 "Saharan"
-SAH_social_democrat_DEF:0 "the Sahara"
-SAH_social_liberal:0 "Sahara"
-SAH_social_liberal_ADJ:0 "Saharan"
-SAH_social_liberal_DEF:0 "the Sahara"
-SAH_market_liberal:0 "Sahara"
-SAH_market_liberal_ADJ:0 "Saharan"
-SAH_market_liberal_DEF:0 "the Sahara"
-SAH_conservative:0 "Sahara"
-SAH_conservative_ADJ:0 "Saharan"
-SAH_conservative_DEF:0 "the Sahara"
-SAH_authoritarian_democrat:0 "Sahara"
-SAH_authoritarian_democrat_ADJ:0 "Saharan"
-SAH_authoritarian_democrat_DEF:0 "the Sahara"
-SAH_autocratic:0 "Sahara"
-SAH_autocratic_ADJ:0 "Saharan"
-SAH_autocratic_DEF:0 "the Sahara"
-SAH_voynist:0 "Sahara"
-SAH_voynist_ADJ:0 "Saharan"
-SAH_voynist_DEF:0 "the Sahara"
+SAH_revolutionary_socialism:0 "Military Operation Zone"
+SAH_revolutionary_socialism_ADJ:0 "Emigré"
+SAH_revolutionary_socialism_DEF:0 "Military Operation Zone"
+
+SAH_syndicalism:0 "Military Operation Zone"
+SAH_syndicalism_ADJ:0 "Emigré"
+SAH_syndicalism_DEF:0 "Military Operation Zone"
+
+SAH_moderate_socialist:0 "Military Operation Zone"
+SAH_moderate_socialist_ADJ:0 "Emigré"
+SAH_moderate_socialist_DEF:0 "Military Operation Zone"
+
+SAH_social_democrat:0 "Military Operation Zone"
+SAH_social_democrat_ADJ:0 "Emigré"
+SAH_social_democrat_DEF:0 "Military Operation Zone"
+
+SAH_social_liberal:0 "Military Operation Zone"
+SAH_social_liberal_ADJ:0 ""
+SAH_social_liberal_DEF:0 "Military Operation Zone"
+
+SAH_social_conservative:0 "Military Operation Zone"
+SAH_social_conservative_ADJ:0 ""
+SAH_social_conservative_DEF:0 "Military Operation Zone"
+
+SAH_authoritarian_democrat:0 "Military Operation Zone"
+SAH_authoritarian_democrat_ADJ:0 "Emigré"
+SAH_authoritarian_democrat_DEF:0 "Military Operation Zone"
+
+SAH_autocratic:0 "Military Operation Zone"
+SAH_autocratic_ADJ:0 "Emigré"
+SAH_autocratic_DEF:0 "Military Operation Zone"
+
+SAH_ultraconservative:0 "Military Operation Zone"
+SAH_ultraconservative_ADJ:0 "Emigré"
+SAH_ultraconservative_DEF:0 "Military Operation Zone"
+
+SAH_national_corporatist:0 "Military Operation Zone"
+SAH_national_corporatist_ADJ:0 "Emigré"
+SAH_national_corporatist_DEF:0 "Military Operation Zone"
 
 ### Focuses ###
  
 ### Ideas ###
- 
+
 ### Flags ###
 
 ### Tooltips ###

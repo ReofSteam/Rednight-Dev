@@ -209,6 +209,13 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
+		hidden_effect = {
+				country_event = {
+    id = RUS.6
+    days = 730
+    }
+	}
+		custom_effect_tooltip = RUS_yusopov_decrees_tt
 		set_country_flag = yusopov_decrees
 		add_timed_idea = {
     idea = RUS_yusopov_investments
@@ -341,7 +348,10 @@ focus_tree = {
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_paneurasia_guidance_system }
+		prerequisite = { 
+		focus = RUS_paneurasia_guidance_system 
+		has_country_flag = not_eurasianist
+		}
 		mutually_exclusive = { focus = RUS_encourage_private_enterprises }
 		ai_will_do = {
 			factor = 1
@@ -489,6 +499,20 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = { 
+		hidden_effect = {
+		country_event = {
+    id = RUS.5
+    days = 730
+    }
+		}
+		custom_effect_tooltip = RUS_siberian_plan_tt
+		set_country_flag = construct_siberian_infra
+		add_timed_idea = {
+    idea = RUS_siberian_plan
+    days = 120
+}
+		}
 	}
 
 	#Focus for Corporatist Agarian Reform
@@ -613,6 +637,7 @@ focus_tree = {
 			custom_effect_tooltip = RUS_A_Council_is_Selected_tt
 			add_political_power = 50 
 			add_stability = 0.05
+			set_country_flag = not_eurasianist
 			country_event = {
 				id = rus.22
 				days = 0
@@ -642,7 +667,8 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_russian_national }
+		prerequisite = { focus = RUS_russian_national 
+		}
 		mutually_exclusive = { focus = RUS_allrussian_people }
 		ai_will_do = {
 			factor = 1

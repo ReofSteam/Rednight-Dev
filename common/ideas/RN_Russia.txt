@@ -11,4 +11,14 @@ production_speed_buildings_factor = 0.05
 		}
 
 	}
+	country = {
+		RUS_siberian_plan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_siberian_plan"}
+			picture = AUS_age_uncertainty
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}	
 }
