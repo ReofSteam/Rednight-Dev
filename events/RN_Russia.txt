@@ -78,7 +78,7 @@ country_event = { #Levitov breaks the ice
 	picture = GFX_RUS_kremlin
 
 	is_triggered_only = yes
-
+fire_only_once = yes
 	option = {
 		name = rus.14.a
 	}
@@ -91,7 +91,7 @@ country_event = { #Levitov denounces Skoblin
 	picture = GFX_RUS_duma
 
 	is_triggered_only = yes
-
+fire_only_once = yes
 	option = {
 		name = rus.15.a
 	}
@@ -104,6 +104,7 @@ country_event = { #Levitov denounces Skoblin
 	picture = GFX_revolt_1
 
 	is_triggered_only = yes
+fire_only_once = yes
 
 	option = {
 		name = rus.15.a
@@ -120,6 +121,7 @@ country_event = { #Arrest of Levitov
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
+fire_only_once = yes
 
 	option = {
 		name = rus.16.a
@@ -133,6 +135,7 @@ country_event = { #Arrest of Levitov
 	picture = GFX_RUS_skoblin_annd_levitov
 
 	is_triggered_only = yes
+fire_only_once = yes
 
 	option = {
 		name = rus.17.a
@@ -146,6 +149,7 @@ country_event = { #Return of the Whites
 	picture = GFX_RUS_wrangel
 
 	is_triggered_only = yes
+fire_only_once = yes
 
 	option = {
 		name = rus.18.a
@@ -160,6 +164,7 @@ country_event = { #Assemble a New Council
 	picture = GFX_RUS_wrangel
 
 	is_triggered_only = yes
+fire_only_once = yes
 
 	option = {
 		name = rus.19.a
@@ -172,6 +177,7 @@ country_event = { #Government Structure Policy
 	title = rus.20.t
 	desc = rus.20.d
 	picture = GFX_RUS_wrangel
+fire_only_once = yes
 
 	is_triggered_only = yes
 
@@ -191,6 +197,7 @@ country_event = { #Racial Policy
 	title = rus.21.t
 	desc = rus.21.d
 	picture = GFX_RUS_wrangel
+fire_only_once = yes
 
 	is_triggered_only = yes
 
@@ -210,6 +217,7 @@ country_event = { #A Council is Assembled
 	title = rus.22.t
 	desc = rus.22.d
 	picture = GFX_RUS_wrangel
+fire_only_once = yes
 
 	is_triggered_only = yes
 
