@@ -39,8 +39,8 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="Super_Event_Image_Anglo_Indian_War"
-			spriteType = "GFX_SPEVNT_Anglo_Indian_War"
+			name ="Super_Event_Image_Anti_Russia_Revolt"
+			spriteType = "GFX_SPEVNT_Anti_Russia_Revolt"
 			position = { x = 35 y = 0 }
 		}
 

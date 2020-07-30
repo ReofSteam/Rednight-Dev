@@ -47,6 +47,7 @@ country_event = { #Ukrainian Revolt
 			target = UKR
 			type = annex_everything
 		}
+        set_country_flag = RUS_great_rebellion_UKR				
 	hidden_effect = { 
 	country_event = { 
 	id = rus.13
@@ -65,13 +66,35 @@ country_event = { #Finnish Revolt
 
 	option = {
 		name = rus.13.a
-		FIN = { transfer_state = 34 }
+		FIN = { transfer_state = 148
+transfer_state = 149}
 		declare_war_on = {
 			target = FIN
 			type = annex_everything
 		}
-        set_country_flag = Super_Event_Visible
-        set_country_flag = RAJ_Anglo_Indian_War		
+        set_country_flag = RUS_great_rebellion_FIN		
+		hidden_effect = { 
+	country_event = { 
+	id = rus.23
+	days = 2
+	}
+FIN = { country_event = fin.1 }	
+	}		
+	}
+}
+
+country_event = { #Yusopov Decrees
+	id = rus.23
+	title = rus.23.t
+	desc = rus.23.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	set_country_flag = Super_Event_Visible
+    set_country_flag = RUS_anti_russia_revolt		
+	
 	}
 }
 

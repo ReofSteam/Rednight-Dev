@@ -1,0 +1,60 @@
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			is_in_faction_with = RUS
+			OR = {
+				tag = PRS
+				tag = POL
+
+			}
+		}
+		custom_trigger_tooltip = {
+			tooltip = GER_cannot_join_ally_war
+		}
+	}
+	if = {
+		limit = {
+			is_ai = yes
+			is_in_faction = yes
+			is_faction_leader = no
+			surrender_progress < 0.25
+			FROM = {
+				is_in_faction_with = ROOT
+				NOT = { is_subject_of = ROOT }
+				is_faction_leader = no
+			}
+		}
+		always = no
+	}
+}
+
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+	if = {
+		limit = {
+			FROM = {
+				OR = {
+					tag = PRS
+					tag = POL
+				}
+			}
+			is_in_faction_with = RUS
+		}
+		custom_trigger_tooltip = {
+			tooltip = Cold_War_cannot_join_ally_war
+		}
+	}
+	if = {
+		limit = {
+			is_ai = yes
+			is_in_faction = yes
+			is_faction_leader = no
+			FROM = {
+				is_in_faction_with = ROOT
+				NOT = { is_subject_of = ROOT }
+				is_faction_leader = no
+				surrender_progress < 0.25
+			}
+		}
+		always = no
+	}
+}

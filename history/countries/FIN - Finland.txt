@@ -43,26 +43,16 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Pehr Evind Svinhufvud"
+	name = "Aksel Airo"
 	desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
-	picture = "gfx/leaders/SCANDINAVIA/FIN/Portrait_Pehr_Evind_Svinhufvud.dds"
+	picture = "gfx/leaders/FIN/FIN_Aksel_Airo.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}
 }
 
-create_corps_commander = {
-	name = "Erik Heinrichs"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { winter_specialist ranger }
-	skill = 4
-    attack_skill = 4
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 2
-}
 
 create_corps_commander = {
 	name = "Vilho Petter Nenonen"

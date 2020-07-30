@@ -31,7 +31,6 @@ state = {
 			}
 		}
 		add_core_of = ENG
-		add_claim_by = CAN
 	}
 	provinces = {
 		3205 6318 6335 6384

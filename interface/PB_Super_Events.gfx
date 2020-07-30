@@ -36,8 +36,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SPEVNT_Anglo_Indian_War"
-		texturefile = "gfx/super_events/SPEVNT_Anglo_Indian_War.dds"
+		name = "GFX_SPEVNT_Anti_Russia_Revolt"
+		texturefile = "gfx/super_events/SPEVNT_Anti_Russia_Revolt.dds"
 		legacy_lazy_load = no
 	}
 

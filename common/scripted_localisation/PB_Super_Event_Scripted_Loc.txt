@@ -24,9 +24,9 @@ defined_text = { #SUPER EVENT TITLES
 
     text = { 
         trigger = {
-            has_country_flag = RAJ_Anglo_Indian_War
+            has_country_flag = RUS_anti_russia_revolt
         }
-        localization_key = "SPEVNT_Anglo_Indian_War"
+        localization_key = "SPEVNT_anti_russia_revolt"
     }
 
     text = { 
