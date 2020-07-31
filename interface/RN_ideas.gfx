@@ -96,12 +96,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/AUS/AUS_german_sentiments.tga"
 	}
 
-	###Croatia
+###Croatia
 	spriteType = {
 		name = "GFX_idea_CRO_italy_question"
 		texturefile = "gfx/interface/ideas/CRO/Italy_Question.dds"
 	}
-	####Italy
+####Italy
 	spriteType = {
 		name = "GFX_idea_ITA_papal_question"
 		texturefile = "gfx/interface/ideas/ITA/ITA_papal_question.dds"
@@ -113,7 +113,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ITA_southern_question"
 		texturefile = "gfx/interface/ideas/ITA/ITA_southern_question.dds"
-	}	
+	}
+###Finland
+		spriteType = {
+		name = "GFX_idea_FIN_national_revolution"
+		texturefile = "gfx/interface/ideas/FIN/FIN_national_revolution.dds"
+	}
 ###Quebec#####
 	spriteType = {
 		name = "GFX_idea_QUE_anglo_french_divide"

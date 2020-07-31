@@ -68,7 +68,8 @@ transfer_state = 259
 			target = UKR
 			type = annex_everything
 		}
-        set_country_flag = RUS_great_rebellion_UKR				
+        set_country_flag = RUS_great_rebellion_UKR	
+        set_global_flag = RUS_great_rebellion_FIN				
 	hidden_effect = { 
 	country_event = { 
 	id = rus.13
@@ -93,7 +94,8 @@ transfer_state = 149}
 			target = FIN
 			type = annex_everything
 		}
-        set_country_flag = RUS_great_rebellion_FIN		
+        set_country_flag = RUS_great_rebellion_FIN
+        set_global_flag = RUS_great_rebellion_FIN				
 		hidden_effect = { 
 	country_event = { 
 	id = rus.23
@@ -104,7 +106,7 @@ FIN = { country_event = fin.1 }
 	}
 }
 
-country_event = { #Yusopov Decrees
+country_event = { #Anti-Russia Revolt
 	id = rus.23
 	title = rus.23.t
 	desc = rus.23.d
@@ -116,6 +118,33 @@ hidden = yes
 	set_country_flag = Super_Event_Visible
     set_country_flag = RUS_anti_russia_revolt		
 	
+	}
+}
+
+country_event = { #Finnish rebels victory
+	id = rus.25
+	title = rus.25.t
+	desc = rus.25.d
+	picture = GFX_rebel_1
+	is_triggered_only = no
+	trigger = { 
+	AND = {
+    has_global_flag = {
+    flag = RUS_great_rebellion_FIN	
+    days > 130
+}
+controls_state = 840
+controls_state = 149
+controls_state = 864
+controls_state = 863
+}
+}
+	option = {
+	name = rus.25.a
+white_peace = FIN	
+
+
+}
 	}
 }
 

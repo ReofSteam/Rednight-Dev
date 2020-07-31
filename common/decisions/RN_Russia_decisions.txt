@@ -23,7 +23,7 @@ RUS_siberian_industrialisation = {
 			RUS = {
 				exists = yes
 			}
-			is_subject = no
+				has_country_flag = yusopov_decrees
 		}
 
 		cost = 80
@@ -249,7 +249,7 @@ RUS_construct_siberian_mil_factory = {
 			RUS = {
 				exists = yes
 			}
-			is_subject = no
+			has_country_flag = yusopov_decrees
 		}
 
 		cost = 80
@@ -476,7 +476,7 @@ RUS_construct_siberian_infra = {
 			RUS = {
 				exists = yes
 			}
-			is_subject = no
+			has_country_flag = construct_siberian_infra
 		}
 
 		cost = 80
