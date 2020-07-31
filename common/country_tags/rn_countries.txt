@@ -49,7 +49,7 @@ BNT = "countries/Banat Free State.txt"
 
 ##North
 DEN = "countries/Denmark.txt"
-FIN = "countries/Finland.txt"
+FIN = "countries/WestEur.txt"
 ICE = "countries/Iceland.txt"
 NOR = "countries/Norway.txt"
 #SHL = "countries/Schleswig-Holstein.txt"

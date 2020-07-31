@@ -30,7 +30,10 @@ country_event = { #Begins the Rebellion
     amount = 200
     producer = NOR
 }
-
+	add_timed_idea = {
+    idea = FIN_national_revolution
+    days = 90
+}
 	}
 }
 	

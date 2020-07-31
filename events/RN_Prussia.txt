@@ -1,6 +1,6 @@
 ﻿add_namespace = prs
 
-country_event_event = {
+country_event = {
 	id = prs.1
 	title = prs.1.t
 	desc = prs.1.desc

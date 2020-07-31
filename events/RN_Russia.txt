@@ -4,6 +4,23 @@
 
 add_namespace = rus
 
+country_event = { #Good Morning Rusia
+	id = rus.1
+	title = rus.1.t
+	desc = rus.1.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rus.1.a
+		hidden_effect = {
+		id = rus.12
+	days = 750 
+		}
+		}
+}
+
 country_event = { #Siberian Plan
 	id = rus.5
 	title = rus.5.t
@@ -16,7 +33,7 @@ hidden = yes
 		name = rus.5.a
 		clr_country_flag = construct_siberian_infra
 		}
-	}
+}
 
 country_event = { #Yusopov Decrees
 	id = rus.6
@@ -42,7 +59,11 @@ country_event = { #Ukrainian Revolt
 
 	option = {
 		name = rus.12.a
-		UKR = { transfer_state = 345 }
+		UKR = { transfer_state = 201
+transfer_state = 792
+transfer_state = 199
+transfer_state = 259
+ }
 		declare_war_on = {
 			target = UKR
 			type = annex_everything
@@ -259,7 +280,7 @@ fire_only_once = yes
 		}
 		add_popularity = {
 			ideology = national_corporatist
-			popularity = 10
+			popularity = 0.3
 		}
 		create_country_leader = {
 	name = "Alexandr Derental"
@@ -286,7 +307,7 @@ fire_only_once = yes
 		}
 		add_popularity = {
 			ideology = authoritarian_democrat
-			popularity = 10
+			popularity = 0.3
 		}
 			create_country_leader = {
 	name = "Alexandr Derental"
@@ -313,8 +334,11 @@ fire_only_once = yes
 		}
 		add_popularity = {
 			ideology = authoritarian_democrat
-			popularity = 10
+			popularity = 0.3
 		}
+		set_politics = {
+	ruling_party = authoritarian_democrat
+}
 				create_country_leader = {
 	name = "Ivan Ilyn"
 	desc = "POLITICS_ATTLEE_DESC"
@@ -338,9 +362,12 @@ fire_only_once = yes
 			has_country_flag = RUS_popular_autocracy
 			has_country_flag = RUS_loyal_minorities
 		}
+	set_politics = {
+	ruling_party = national_corporatist
+}
 		add_popularity = {
 			ideology = national_corporatist
-			popularity = 10
+			popularity = 0.3
 		}
 			create_country_leader = {
 	name = "Alexandr Derental"
