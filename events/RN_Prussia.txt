@@ -3,7 +3,7 @@
 country_event = {
 	id = prs.1
 	title = prs.1.t
-	desc = prs.1.desc
+	desc = prs.1.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes
@@ -22,7 +22,7 @@ country_event = {
 country_event = {
 	id = prs.2
 	title = prs.2.t
-	desc = prs.2.desc
+	desc = prs.2.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes

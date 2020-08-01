@@ -11,6 +11,8 @@ WLL = "countries/Wallonia.txt"
 LUX = "countries/Luxembourg.txt"	#Unplanned
 #SAA = "countries/Saarland.txt"		#Unimplemented
 RUS = "countries/WestEur.txt"
+RUR = "countries/WestEur.txt" #Little Russia 
+RFN = "countries/WestEur.txt" #Russian Finland
 
 ##Central
 CIS = "countries/Cisleithania.txt"

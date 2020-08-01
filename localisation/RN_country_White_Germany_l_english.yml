@@ -41,7 +41,7 @@ prs.1.t:0 "The Kingdom of Prussia"
 prs.1.d:0 "bla bla bla intro"
 prs.2.t:0 "Our Place in the Sun"
 prs.2.d:0 "And just like that, the old fool had dozed off again.\n\nDoenitz quietly chuckled to himself upon this realization, as it only underscored the palpable absurdity of his weekly "meetings" with the geriatric monarch. Quietly rising from the bedside, he poured himself a glass of something both sweet and burning, and stood before the window. Below, Russian soldiers continued to march in formation, withdrawing east. The striking nature of the scene was not lost upon the admiral turned Prussian Regent, and soon he found words compelled from his lips. The meeting would continue, even if Wilhelm himself was not truly present.\n\n"Ah, it's all a big show you know." he muttered while subtly shifting the ice cubes around his glass "My title, your title, the titles of those schemers in Paris." \n\n"The names change, the flags too, but the show never stops. Life's a great game, mein Kaiser, and the people hate losers. Soon this story will reach its climax yet again, and when it does, I will be there." He smirked silently before continuing "After all, better a man with an Marshall's baton then one who can't even keep his eyes open."\n\nHe finished his drink and quietly excused himself from the room, contemplating as he traveled down the steps. Outside this room, Germany awaits..."
-prs.2:0 "Heil, Kaiser, dir."
+prs.2.a:0 "Heil, Kaiser, dir."
 # Flavor #
 
 # FocusEvents #

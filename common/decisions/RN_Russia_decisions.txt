@@ -684,3 +684,84 @@ RUS_construct_siberian_infra = {
 		
 	}	
 }
+
+RUS_rebels_suppression = {
+
+RUS_Finland_reinforcement = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_great_rebellion_FIN
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_great_rebellion_FIN
+		}
+
+		cost = 50
+		days_re_enable = 30
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_reinforcement"
+		}	
+}
+
+RUS_Finland_supply = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_great_rebellion_FIN
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_great_rebellion_FIN
+		}
+
+		cost = 50
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
+		}	
+}
+}

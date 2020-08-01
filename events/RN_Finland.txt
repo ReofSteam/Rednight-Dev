@@ -30,14 +30,55 @@ country_event = { #Begins the Rebellion
     amount = 200
     producer = NOR
 }
+add_political_power = 300
+
 	add_timed_idea = {
     idea = FIN_national_revolution
-    days = 90
+    days = 130
 }
 	}
 }
 	
+country_event = { #Liberation of Helsinski
+	id = fin.2
+	title = fin.2.t
+	desc = fin.2.d
+	picture = GFX_RUS_kremlin
 
+	is_triggered_only = yes
+fire_only_once = yes
+    trigger = {
+	FIN = {
+	controls_state = 840
+	}
+	option = {
+		name = fin.2.a
+	}
+}
+
+country_event = { #Begins the Rebellion - Russian side
+	id = fin.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event fin.3"}
+	title = fin.3.t
+	desc = fin.3.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = fin.3.a
+		load_oob = "RUS_finland"
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 35000
+    producer = RUS
+}	
+add_manpower = 95000
+	add_timed_idea = {
+    idea = RFN_finnish_rebellion
+    days = 130
+}
+	}
+}
 
 
 

@@ -56,6 +56,7 @@ country_event = { #Ukrainian Revolt
 	picture = GFX_rebel_1
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
 		name = rus.12.a
@@ -74,7 +75,8 @@ transfer_state = 259
 	country_event = { 
 	id = rus.13
 	days = 12 
-	}	
+	}
+UKR = { country_event = ukr.1 }		
 	}
 }
 }
@@ -85,22 +87,33 @@ country_event = { #Finnish Revolt
 	picture = GFX_rebel_2
 
 	is_triggered_only = yes
-
+	fire_only_once = yes
 	option = {
 		name = rus.13.a
+		add_manpower = -95000
 		FIN = { transfer_state = 148
 transfer_state = 149}
-		declare_war_on = {
+        set_country_flag = RUS_great_rebellion_FIN
+        set_global_flag = RUS_great_rebellion_FIN	
+		hidden_effect = {
+RFN = { transfer_state = 863
+transfer_state = 111
+transfer_state = 865
+transfer_state = 844
+transfer_state = 147
+transfer_state = 150
+transfer_state = 146
+transfer_state = 864
+transfer_state = 840
+declare_war_on = {
 			target = FIN
 			type = annex_everything
-		}
-        set_country_flag = RUS_great_rebellion_FIN
-        set_global_flag = RUS_great_rebellion_FIN				
-		hidden_effect = { 
+		}}		
 	country_event = { 
 	id = rus.23
 	days = 2
 	}
+RFN = { country_event = fin.3 }	
 FIN = { country_event = fin.1 }	
 	}		
 	}
@@ -128,6 +141,8 @@ country_event = { #Finnish rebels victory
 	picture = GFX_rebel_1
 	is_triggered_only = no
 	trigger = { 
+	original_tag = RUS
+	FIN = {
 	AND = {
     has_global_flag = {
     flag = RUS_great_rebellion_FIN	
@@ -137,6 +152,7 @@ controls_state = 840
 controls_state = 149
 controls_state = 864
 controls_state = 863
+}
 }
 }
 	option = {

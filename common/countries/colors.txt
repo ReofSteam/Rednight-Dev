@@ -311,6 +311,17 @@ RUS = {
 	color = rgb { 0 100 25 }
 	color_ui = rgb { 0 100 25 }
 }
+
+RFN = {
+	color = rgb { 0 100 25 }
+	color_ui = rgb { 0 100 25 }
+}
+
+RUR = {
+	color = rgb { 0 100 25 }
+	color_ui = rgb { 0 100 25 }
+}
+
 SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 224 5 5 }
