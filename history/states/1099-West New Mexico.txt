@@ -1,0 +1,17 @@
+state={
+	id=1099
+	name="STATE_1099"
+	provinces={
+		1972 5044 10645 10740 10914 12552 12791 
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=300000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		868 1658 3869 6887 7684 7999 9792 10535 
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=300000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}
