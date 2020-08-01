@@ -5,8 +5,8 @@ state={
 		3834 4796 6897 7747 7821 7920 10573 
 	}
 	history = {
-		owner = CSA
-		add_core_of = CSA
+		owner = CAL
+		add_core_of = CAL
 		buildings = {
 			infrastructure = 4
 		}

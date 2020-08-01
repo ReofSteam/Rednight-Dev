@@ -1,21 +1,17 @@
-
 state={
-	id=1096
-	name="STATE_1096"
-
-	history={
+	id=1102
+	name="STATE_1102"
+	provinces={
+		1815 7688 7814 7888 10711 12561 12633 12651 
+	}
+	history = {
 		owner = CAL
 		add_core_of = CAL
 		buildings = {
 			infrastructure = 4
-
 		}
-
-	}
-
-	provinces={
-		1756 4668 4742 7764 7818 
 	}
 	manpower=300000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }
