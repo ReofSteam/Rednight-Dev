@@ -1,0 +1,17 @@
+state={
+	id=1097
+	name="STATE_1097"
+	provinces={
+		869 940 961 4008 4124 4127 4962 6807 6894 7026 7143 9755 9763 9830 10056 11810 
+	}
+	history = {
+		owner = OTT
+		add_core_of = OTT
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=300000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -20,13 +20,13 @@ state={
 		}
 		add_core_of = ANA
 		victory_points = {
-			6935 2
+			6935 2 
 		}
 
 	}
 
 	provinces={
-		864 1463 4583 6935 7470 10497 11880 12318 12476 13121
+		864 1463 4583 6935 7470 7530 10497 11739 11880 12318 12476 13121 13745 
 	}
 	manpower=270542
 	buildings_max_level_factor=1.000

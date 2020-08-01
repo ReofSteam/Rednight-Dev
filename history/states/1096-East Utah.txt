@@ -1,0 +1,17 @@
+state={
+	id=1096
+	name="STATE_1096"
+	provinces={
+		1756 4668 4742 7764 7818 
+	}
+	history = {
+		owner = CSA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=300000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

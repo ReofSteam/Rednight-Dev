@@ -1,21 +1,19 @@
-state = {
-	id = 231
-	name = "STATE_231"
-	manpower = 2675000
 
-	state_category = six
+state={
+	id=231
+	name="STATE_231"
 
-	history = {
+	history={
 		owner = RUS
 		add_core_of = RUS
 		victory_points = {
-			1599 8
+			1599 8 
 		}
 		victory_points = {
-			3653 2
+			3653 2 
 		}
 		victory_points = {
-			3658 1
+			3658 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -24,26 +22,37 @@ state = {
 			air_base = 1
 			3653 = {
 				naval_base = 2
+
 			}
 			6669 = {
 				bunker = 1
+
 			}
 			3656 = {
 				bunker = 2
+
 			}
 			1530 = {
 				bunker = 1
+
 			}
 			1599 = {
 				bunker = 1
+
 			}
 			3658 = {
 				bunker = 1
+
 			}
+
 		}
+
 	}
 
-	provinces = {
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 12309
+	provinces={
+		654 672 772 1530 1599 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 12309 
 	}
+	manpower=2675000
+	buildings_max_level_factor=1.000
+	state_category=six
 }
