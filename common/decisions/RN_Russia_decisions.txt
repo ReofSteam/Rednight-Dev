@@ -723,7 +723,9 @@ RUS_Finland_reinforcement = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_reinforcement"
-		}	
+			RFN = { add_manpower = 10000
+		} 
+}		
 }
 
 RUS_Finland_supply = {
@@ -762,6 +764,12 @@ RUS_Finland_supply = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
+			RFN = { add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 5000
+    producer = RUS
+}
+}	
 		}	
 }
 }

@@ -1,5 +1,5 @@
-﻿#From Russia, with Vozhd
-capital = 219
+﻿
+capital = 202
 add_ideas = {
 
 }
@@ -9,8 +9,7 @@ add_ideas = {
 
 }
 
-oob = "RUS"
-set_naval_oob = "RUS_Naval"
+oob = "RUR"
 
 set_research_slots = 3
 
@@ -63,41 +62,16 @@ set_popularities = {
     national_corporatist = 43
 }
 
-country_event = {
-	id = kn_russia_pol.0
-	days = 511
-}
-
-create_faction = EATO
-add_to_faction = SLK
-add_to_faction = ROM
-add_to_faction = MON
-add_to_faction = SER
-add_to_faction = POL
-add_to_faction = PRS
-add_to_faction = BUL
-add_to_faction = AUS
-add_to_faction = HUN
-add_to_faction = BNT
-add_to_faction = CZE
-
 
 add_ideas = {
 	#medium_economy
-	#soviet_worker_soldier
-	#rus_divided_staff
-	#rus_divided_marine
-	#RUS_Pavel_N_Milyukov_hog_mli
-	#RUS_Pyotr_B_Struve_for_sli
-	#RUS_Nikolai_A_Maklakov_eco_pau
-	#RUS_Andrei_I_Shingarev_sec_mli
 }
 
 
 create_country_leader = {
-	name = "Nikolai Skoblin"
+	name = "Mikhail Tereshchenko"
 	desc = "POLITICS_NIKOLAI_SKOBLIN_DESC"
-	picture = "gfx/leaders/RUS/RUS_Skoblin.tga"
+	picture = "gfx/leaders/RUS/RUS_Tereshchenko.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {

@@ -331,11 +331,11 @@ RUS_popular_autocracy:0 "The structure of a popular autocracy has been chosen."
 RUS_national_unity:0 "The racial policy of National Unity has been chosen."
 RUS_loyal_minorities:0 "The Racial Policy of rewarding loyal minorities has been chosen"
 ### Tooltips ###
-RUS_A_Council_is_Selected_tt:0 "§GA Council has been Assembled.§"
-RUS_yusopov_decrees_tt:0 "Yusopov Congolomere will now start investing in Siberia"
-RUS_siberian_plan_tt:0 "You can now start improving Siberian infrastructure"
-WAR_NAME_RFN_FIN:0 "Resistance to Russian Occupation"
-WAR_NAME_RUR_UKR:0 "Resistance to Russian Occupation"
+RUS_A_Council_is_Selected_tt:0 "§RA Council will be assembled.§"
+RUS_yusopov_decrees_tt:0 "§RYusopov Congolomere will now start investing in Siberia§"
+RUS_siberian_plan_tt:0 ""§RYou can now start improving Siberian infrastructure§"
+WAR_NAME_RFN_FIN:0 "Finnish Second War of Independence"
+WAR_NAME_RUR_UKR:0 "Ukranian National Liberation War"
 ### Companies ###
 
 ### Ministers ###
@@ -348,3 +348,6 @@ RUS_siberian_industrialisation:0 "Siberian Industrialisation"
 RUS_construct_siberian_civ_factory:0 "Construct a Civilian Factory"
 RUS_construct_siberian_mil_factory:0 "Construct a Military Factory"
 RUS_construct_siberian_infra:0 "Construct Siberian Infrastructure"
+RUS_rebels_suppression:0 "Rebels Suppression"
+RUS_Finland_reinforcement:0 "Send Reinforcements to Finland"
+RUS_Finland_supply:0 "Send Supllies to Finland"

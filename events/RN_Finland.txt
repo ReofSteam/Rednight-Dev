@@ -49,11 +49,12 @@ country_event = { #Liberation of Helsinski
 fire_only_once = yes
     trigger = {
 	FIN = {
-	controls_state = 840
+	at_War = yes
 	}
 	option = {
 		name = fin.2.a
 	}
+}
 }
 
 country_event = { #Begins the Rebellion - Russian side

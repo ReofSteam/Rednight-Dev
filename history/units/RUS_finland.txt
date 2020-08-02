@@ -53,37 +53,37 @@ units = {
 
 	division = {
 		name = "3rd Infantry Division"
-		location = 11141
+		location = 11105
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.3
 	}	
 	division = {
 		name = "35th Infantry Division"
-		location = 11141
+		location = 9094
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "2nd Petrograd NVS Brigade"
-		location = 11141
+		location = 11162
 		division_template = "NVS Combat Brigade"
 		start_experience_factor = 0.1
 	}	
 	division = {
 		name = "1st Finland Rifle Brigade"
-		location = 11141
+		location = 103
 		division_template = "Rifle Brigade"
 		start_experience_factor = 0.2
 	}	
 	division = {
 		name = "2nd Finland Rifle Brigade"
-		location = 11141
+		location = 6142
 		division_template = "Rifle Brigade"
 		start_experience_factor = 0.2
 	}	
 	division = {
 		name = "3rd Finland Rifle Brigade"
-		location = 11141
+		location = 193
 		division_template = "Rifle Brigade"
 		start_experience_factor = 0.2
 	}			
