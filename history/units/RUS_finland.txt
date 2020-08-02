@@ -64,7 +64,7 @@ units = {
 		start_experience_factor = 0.2
 	}
 	division = {
-		name = "2nd Petrograd Brigade"
+		name = "2nd Petrograd NVS Brigade"
 		location = 11141
 		division_template = "NVS Combat Brigade"
 		start_experience_factor = 0.1

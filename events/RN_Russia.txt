@@ -139,19 +139,32 @@ country_event = { #Finnish rebels victory
 	title = rus.25.t
 	desc = rus.25.d
 	picture = GFX_rebel_1
+	fire_only_once = yes
 	is_triggered_only = no
+mean_time_to_happen = { 
+days = 50
+		modifier = {
+			factor = 1
+	has_global_flag = {
+    flag = RUS_great_rebellion_FIN	
+    days > 130
+}
+		}
+}	
 	trigger = { 
 	original_tag = RUS
 	FIN = {
+controls_state = 840
+controls_state = 149
+controls_state = 864
+controls_state = 863
+}
+	RUS = {
 	AND = {
     has_global_flag = {
     flag = RUS_great_rebellion_FIN	
     days > 130
 }
-controls_state = 840
-controls_state = 149
-controls_state = 864
-controls_state = 863
 }
 }
 }
@@ -159,8 +172,6 @@ controls_state = 863
 	name = rus.25.a
 white_peace = FIN	
 
-
-}
 	}
 }
 

@@ -25,9 +25,7 @@ ideas = {
 
 		modifier = {
 		army_morale_factor = -0.2
-			hidden_modifer = {
-surrender_limit = 0.95
-			}	
+        surrender_limit = 1
 			}
 		}
 }

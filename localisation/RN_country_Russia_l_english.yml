@@ -323,6 +323,7 @@ RUS_perestroika_desc:0 ""
 
 RUS_yusopov_investments:0 "Yusopov Investments"
 RUS_siberian_plan:0 "Siberian Plan"
+RFN_finnish_rebellion:0 "Finland Rebellion"
  
 ### Flags ###
 RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
@@ -333,8 +334,8 @@ RUS_loyal_minorities:0 "The Racial Policy of rewarding loyal minorities has been
 RUS_A_Council_is_Selected_tt:0 "§GA Council has been Assembled.§"
 RUS_yusopov_decrees_tt:0 "Yusopov Congolomere will now start investing in Siberia"
 RUS_siberian_plan_tt:0 "You can now start improving Siberian infrastructure"
-WAR_NAME_RUS_FIN:0 "Resistance to Russian Occupation"
-WAR_NAME_RUS_UKR:0 "Resistance to Russian Occupation"
+WAR_NAME_RFN_FIN:0 "Resistance to Russian Occupation"
+WAR_NAME_RUR_UKR:0 "Resistance to Russian Occupation"
 ### Companies ###
 
 ### Ministers ###
