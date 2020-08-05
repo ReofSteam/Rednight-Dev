@@ -37,6 +37,13 @@ FRA_social_democrat_party_long:0 "French Socialist Workers' Party"
 FRA_social_liberal_party:0 "Radical Party"
 FRA_social_liberal_party_long:0 "Parti Radical/Radical Party"
 
+FRA_support_pekkas:0 "The Liberty Corridor"
+FRA_support_pekkas_desc:0 "We can help the recent uprising in Finland against the Russians through the so-called "Liberty Corridor" — a naval path to the territories of the Finnish Secret Army. Though it ofters us good possibilities, it can also be closed at any moment if the Russians see our ships, rendering our help useless." 
+FRA_Finland_supply:0 "Supply The Secret Army"
+FRA_Finland_weaponry:0 "Arm The Army"
+FRA_supply_tip:0 "§YIn 20 days, supplies will arrive to Finland... Unless the Russians interrupt our ships.§!"
+
+
 ### Events ###
 fra.1.t:0 "Action of May"
 fra.1.d:0 "Anton was two blocks out when he began to hear the screams.\n\nShouts of \"Vive la révolution!\" and \"L'Internationale Sera le genre humain!\" cried out, vibrating  through the air like a shimmering energy. Though he was often stoic, such an attitude would be impossible today. Anton's  heart swelled, and a grin bridged his ears. It was an expression of unrepentant joy and love for his country.As Anton approached the Parisian crowd that had gathered to watch the parading tanks, he spotted Mallory's wild hair and ragged overalls from behind. She stood next to Darcy, a tall Algerian friend and rival suitor. A flash of jealousy crossed Anton's face, before it was swiftly suppressed. Soon he found himself behind the pair, and an arm slung over each shoulder.\n\n"Comrades! What a day for a parade eh?" he spoke in his most charmingly silly accent. Mallory laughed, and Darcy enveloped his comrade in a seemingly genuine hug. The trio spent the day observing the theatrics, laughing as jets flew overhead and officers waved to the crowd. Finally, as noon approached, Mallory pointed to something with concern.\n\n"What the fuck's their problem?" she exclaimed, highlighting a string of Tanks that had begun to peel off the main road towards the crowd. Anton looked on with disbelief as the tanks pushed through the masses like a paddle through water. It took a moment for the realization to dawn, and Darcy shouted what they all were thinking \"The BGT's that way!\"Despite a few bottles and rocks thrown, the crowd remained mostly bewildered.\n\nAnton and his friends made their way to his Uncle's residence, where they might secure a radio. However they only heard noise. Soon, soldiers count being seen lingering about the streets. Anton's concern turned to anger. Whatever was going on, it had to be stopped."

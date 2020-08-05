@@ -12,6 +12,9 @@ spriteTypes = {
 		name = "RN_1981"
 		texturefile = "gfx/rn_1981.dds"
 	}		
-		
+	spriteType = {
+	name = "GFX_liberty_corridor"
+	texturefile = "gfx/interface/RN_liberty_corridor.dds"
+	}	
 	
 }

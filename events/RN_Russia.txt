@@ -115,8 +115,10 @@ country_event = { #Finnish Revolt
 		add_manpower = -95000
 		FIN = { transfer_state = 148
 transfer_state = 149}
+custom_effect_tooltip = the_corridor_unlocks
         set_country_flag = RUS_great_rebellion_FIN
         set_global_flag = RUS_great_rebellion_FIN	
+        set_global_flag = liberty_corridor_exists
 		hidden_effect = {
 RFN = { transfer_state = 863
 transfer_state = 111
@@ -135,6 +137,7 @@ declare_war_on = {
 	id = rus.23
 	days = 2
 	}
+
 RFN = { country_event = fin.3 }	
 FIN = { country_event = fin.1 }	
 	}		

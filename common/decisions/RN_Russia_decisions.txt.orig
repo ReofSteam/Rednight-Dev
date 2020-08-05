@@ -723,6 +723,7 @@ RUS_Finland_reinforcement = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_reinforcement"
+<<<<<<< Updated upstream
 			add_manpower = -10000
 			RFN = { country_event = { 
 	id = rus.26
@@ -730,7 +731,12 @@ RUS_Finland_reinforcement = {
 	}
 		} 
 }		
+=======
+			RFN = { add_manpower = 10000 }
+		} 
+}		
 
+>>>>>>> Stashed changes
 
 RUS_Finland_supply = {
 		icon = generic_prepare_civil_war

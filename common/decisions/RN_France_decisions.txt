@@ -1,0 +1,76 @@
+###########################
+#French Decisions# WIP
+###########################
+
+
+FRA_support_pekkas = {
+FRA_Finland_supply = {
+		#gui = 
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			tag = FRA
+		}
+
+		available = {
+		not = { has_global_flag = france_arms_pekkas }
+			has_global_flag = liberty_corridor_exists
+			has_equipment = {
+   				 infantry_equipment > 500
+				}
+				has_equipment = {
+    			support_equipment > 250
+				}
+				has_manpower > 7500
+				#set_country_flag = can_send_help_to_pekkas
+		}
+
+		visible = {
+			has_global_flag = liberty_corridor_exists
+		}
+
+		cost = 20
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 75
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
+			add_manpower = -7500
+			add_equipment_to_stockpile = {
+			 type = infantry_equipment
+    			 amount = -500
+   				 producer = FRA
+			}
+			add_equipment_to_stockpile = {
+			 type = support_equipment
+    			 amount = -250
+   				 producer = FRA
+			} 
+			set_global_flag = france_arms_pekkas 
+			custom_effect_tooltip = FRA_supply_tip
+			№FIN = { add_equipment_to_stockpile = {
+  			№	  type = infantry_equipment
+    		№	 amount = 500
+   			№	 producer = FRA
+   			№	 }
+   			№	 add_equipment_to_stockpile = {
+  			№	  type = support_equipment
+    		№	 amount = 250
+   			№	 producer = FRA
+   			№	 add_manpower = 7500
+			№}
+			
+			№}	
+						}	
+					}
+
+}
