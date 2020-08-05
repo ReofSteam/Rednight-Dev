@@ -51,6 +51,7 @@ fire_only_once = yes
 	FIN = {
 	at_War = yes
 	}
+	}
 	option = {
 		name = fin.2.a
 		country_event = fin.4
@@ -100,11 +101,51 @@ fire_only_once = yes
 	FIN = {
 	at_War = yes
 	}
+	}
 	option = {
-		name = fin.4.a
+		name = fin.4.a #Cabinet of National Unity
 		drop_cosmetic_tag = yes
+		create_country_leader = {
+	name = "Johan Wilhelm Rangell"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/Leaders/FIN/FIN_Rangell.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
 	}
 }
+		set_party_name = {
+			ideology = social_liberal
+			long_name = FIN_government_of_national_unity_long
+			name = FIN_government_of_national_unity
+		}
+		set_politics = {
+	ruling_party = social_liberal
+}
+	}
+	option = {
+		name = fin.4.b #Left be gone
+		drop_cosmetic_tag = yes
+		create_country_leader = {
+	name = "Johan Wilhelm Rangell"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/Leaders/FIN/FIN_Rangell.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = FIN_government_of_national_salvation_long
+			name = FIN_government_of_national_salvation
+		}
+		set_politics = {
+	ruling_party = authoritarian_democrat
+}	
+	}	
 }
 
 country_event = { #Liberation of Helsinki - 3 # raising volunteers

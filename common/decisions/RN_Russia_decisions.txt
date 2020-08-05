@@ -723,10 +723,13 @@ RUS_Finland_reinforcement = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_reinforcement"
-			RFN = { add_manpower = 10000
+			add_manpower = -10000
+			RFN = { country_event = { 
+	id = rus.26
+	}
+	}
 		} 
 }		
-}
 
 RUS_Finland_supply = {
 		icon = generic_prepare_civil_war
@@ -764,12 +767,14 @@ RUS_Finland_supply = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
-			RFN = { add_equipment_to_stockpile = {
+			add_equipment_to_stockpile = {
     type = infantry_equipment
-    amount = 5000
-    producer = RUS
-}
+    amount = -5000
 }	
+		RFN = { country_event = { 
+	id = rus.27
+	}
+	}
 		}	
 }
 }

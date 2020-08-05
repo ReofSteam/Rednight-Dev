@@ -9,8 +9,10 @@ fin.2.t:0 "Liberation of Helsinki"
 fin.2.d:0 "He shifted feverishly, unable to find comfort behind his sand-bag perch. Each breath into the frigid midnight air was unbelievably heavy, riddled with genuine terror. Across his head sat a bloody gash, the cherry on top of a whiplashed and weary conscript, sent to defend Helsinki with no warning, boots untied./n/n"Fuck!" A voice rang out into the night, some asshole from farther down the line, tanking the already shattered morale that their Commissar had been working to rebuild since the surprise attack this morning.The distant shots had become deafening, and within minutes, the rebels were upon them./n/n"Please, please Please" Adrik muttered to himself, still in disbelief. Just days ago he had been laughing with his comrades, the care free tyrants of the Helsinki garrison. Together they had ruled the city, dispensing their own justice wherever they went, drinking the local liquor and "Joking" with the local rabble. Now, with only a day's warning, he found himself fighting for dear life. He regretted it all, and more than anything, he just wanted to find his way home to Irkutsk. If an opportunity arose, he thought he might end up scrambling away in the chaos and dark./n/nAcross the City, another soul wandered. Though his boots too were untied, his breath held nothing but Joy. Long had he languished in the forest, haunted by the impossibility of his task, yet trapped in it by the memories of those he had lost. Today, for the first time in a long time. He had stood up. WIth the moonlight on his face, he advanced steadily inwards. The future finally seemed possible. As he converged on the city center with his comrades, he spotted a heading peeking out from the sandbags atop a hill. Slowly, his weapon turned to meet the sight, and gunfire erupted from both directions."
 fin.2.a:0 "Long live our homeland!"
 ### Parties ###
-
-
+FIN_government_of_national_unity:0 "National Unity Government"
+FIN_government_of_national_unity_long:0 "Kansallisen yhtenäisyyden jallitus"
+FIN_government_of_national_salvation:0 "National Salvation Government"
+FIN_government_of_national_salvation_long:0 "Kansallisen pelastuksen hallitus"
 ### Country Name ###
 FIN_social_democrat:0 "Republic of Finland"
 FIN_social_democrat_ADJ:0 "Finnish"
@@ -34,7 +36,8 @@ FIN_national_corporatist:0 "Republic of Finland"
 FIN_national_corporatist_ADJ:0 "Finnish"
 FIN_national_corporatist_DEF:0 "the Republic of Finland"
 
-SECRET_ARMY:0 "SECRET_ARMY"
+SECRET_ARMY:0 "Secret Army"
+SECRET_ARMY_DEF:0 "the Finnish Secret Army"
 
 ### Focuses ###
  

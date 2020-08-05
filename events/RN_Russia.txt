@@ -197,6 +197,35 @@ white_peace = FIN
 	}
 }
 
+country_event = { #Troops Reinforcement - Great Revolt
+	id = rus.26
+	title = rus.26.t
+	desc = rus.26.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.26.a
+	add_manpower = 10000		
+	
+	}
+}
+country_event = { #Supply Reinforcement - Great Revolt
+	id = rus.27
+	title = rus.27.t
+	desc = rus.27.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.27.a		
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 5000
+}
+	}
+}
+
 
 #######Political struggle chain
 
