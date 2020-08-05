@@ -878,7 +878,7 @@ the_corridor_closes = {                           # This is our mission id
           	#                   # Available here means as much as goal because:
               ships_in_state_ports = {
     				type = submarine
-    				size > 14
+    				size > 9
     				state = 13
 				}
 				                      # we can only finish this mission if we control state 64 (Berlin)
@@ -899,7 +899,7 @@ the_corridor_closes = {                           # This is our mission id
                add_political_power = 100               # Gain 50 PP
                set_global_flag = the_corridor_is_closed
           }
-     }
+     }	
 
 
 
