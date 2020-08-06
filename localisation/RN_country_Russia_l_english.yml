@@ -44,7 +44,12 @@ rus.22.a:0 "The Savinkovists have the majority."
 rus.22.b:0 "The Savinkovists have the majority."
 rus.22.c:0 "The Ilynists have the majority."
 rus.22.d:0 "The Savinkovists have the majority."
-
+rus.26.t:0 "Reinforcements from Moscow"
+rus.26.d:0 "Russia expects you to do your duty"
+rus.26.a:0 "Long live the Vozhd!"
+rus.27.t:0 "Supplies from Moscow"
+rus.27.d:0 "Russia expects you to do your duty"
+rus.27.a:0 "Long live the Vozhd"
 ### Parties ###
 
 RUS_social_democrat_party:0 "Ferburary Union"
