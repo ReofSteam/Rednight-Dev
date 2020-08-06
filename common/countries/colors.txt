@@ -202,6 +202,10 @@ IRE = {
 	color = rgb { 88 166 31 }
 	color_ui = rgb { 108 204 39 }
 }
+FIN = {
+	color = rgb { 205 212 228 }
+	color_ui = rgb { 255 255 255 }
+}
 WLL = {
 	color = rgb { 144 0 32 }
 	color_ui = rgb { 144 0 32 }

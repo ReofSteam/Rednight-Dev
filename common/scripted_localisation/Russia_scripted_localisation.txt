@@ -121,3 +121,18 @@ defined_text = {
 		localization_key = RUS_refuse_ally_other
 	}
 }
+defined_text = {
+	name = RUS_liberty_corridor
+	text = {
+	 trigger = {
+	 has_global_flag = the_corridor_is_closed 
+	 }
+		localization_key = RUS_liberty_corridor_closed
+	}
+	text = {
+		trigger = {
+			has_global_flag = liberty_corridor_exists
+		}
+		localization_key = RUS_liberty_corridor_open
+	}
+}
