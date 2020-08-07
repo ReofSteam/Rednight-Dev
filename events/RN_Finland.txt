@@ -63,7 +63,6 @@ fire_only_once = yes
 }
 	}
 }
-}
 
 country_event = { #Begins the Rebellion - Russian side
 	id = fin.3
@@ -74,8 +73,8 @@ country_event = { #Begins the Rebellion - Russian side
 	fire_only_once = yes
 	
 	option = {
-		name = fin.3.a
-		load_oob = "RUS_finland"
+	name = fin.3.a
+	load_oob = "RUS_finland"
 	add_equipment_to_stockpile = {
     type = infantry_equipment
     amount = 35000
@@ -105,6 +104,7 @@ fire_only_once = yes
 	option = {
 		name = fin.4.a #Cabinet of National Unity
 		drop_cosmetic_tag = yes
+		country_event = fin.5
 		create_country_leader = {
 	name = "Johan Wilhelm Rangell"
 	desc = "POLITICS_ATTLEE_DESC"
@@ -127,6 +127,7 @@ fire_only_once = yes
 	option = {
 		name = fin.4.b #Left be gone
 		drop_cosmetic_tag = yes
+		country_event = fin.5		
 		create_country_leader = {
 	name = "Johan Wilhelm Rangell"
 	desc = "POLITICS_ATTLEE_DESC"
@@ -160,6 +161,7 @@ fire_only_once = yes
 	FIN = {
 	at_War = yes
 	}
+	}
 	option = { #For the nation, baby
 		name = fin.5.a
 		load_oob = FIN_helsinki_volunteers
@@ -169,5 +171,21 @@ fire_only_once = yes
 		load_oob = FIN_helsinki_volunteers_no_leftist
 	}	
 }
+
+country_event = { #Warsaw Conference begins
+	id = fin.6
+	title = fin.6.t
+	desc = fin.6.d
+	picture = GFX_RUS_kremlin
+
+	is_triggered_only = yes
+fire_only_once = yes
+
+	option = {
+		name = fin.6.a 
+		RUS = { country_event = rus.28
+		days = 2
+	}}
 }
+
 

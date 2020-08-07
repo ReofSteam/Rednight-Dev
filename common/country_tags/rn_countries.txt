@@ -103,6 +103,7 @@ UAR = "countries/United Arab Republic.txt"
 ##Central
 AFG = "countries/Afghanistan.txt"
 KAZ = "countries/Kazakhstan.txt" 
+DCO = "countries/Kazakhstan.txt" #Don Cossack  
 #TRM = "countries/Turkmenistan.txt"		Unimplemented
 TRK = "countries/Turkestan.txt"
 

@@ -137,6 +137,10 @@ declare_war_on = {
 	id = rus.23
 	days = 2
 	}
+	country_event = { 
+	id = rus.29
+	days = 4
+	}	
 
 RFN = { country_event = fin.3 }	
 FIN = { country_event = fin.1 }	
@@ -178,12 +182,6 @@ days = 50
 }	
 	trigger = { 
 	original_tag = RUS
-	FIN = {
-controls_state = 840
-controls_state = 149
-controls_state = 864
-controls_state = 863
-}
 	RUS = {
 	AND = {
     has_global_flag = {
@@ -195,11 +193,35 @@ controls_state = 863
 }
 	option = {
 	name = rus.25.a
+	trigger = {
+	FIN = {
+controls_state = 840
+controls_state = 149
+controls_state = 864
+controls_state = 863
+}}
+	clr_global_flag = RUS_great_rebellion_FIN
+	clr_country_flag = RUS_great_rebellion_FIN
 white_peace = FIN	
-
+set_country_flag = RFN_defeated
+	FIN = {country_event = { 
+	id = fin.6
+	days = 2
+	}}
 	}
+	option = {
+	name = rus.25.b
+	clr_global_flag = RUS_great_rebellion_FIN
+	clr_country_flag = RUS_great_rebellion_FIN
+white_peace = FIN	
+set_country_flag = RFN_undefeated
+	FIN = {country_event = { 
+	id = fin.6
+	days = 2
+	}}
+	}	
 }
-
+}
 country_event = { #Troops Reinforcement - Great Revolt
 	id = rus.26
 	title = rus.26.t
@@ -213,6 +235,7 @@ country_event = { #Troops Reinforcement - Great Revolt
 	
 	}
 }
+
 country_event = { #Supply Reinforcement - Great Revolt
 	id = rus.27
 	title = rus.27.t
@@ -228,6 +251,70 @@ country_event = { #Supply Reinforcement - Great Revolt
 }
 	}
 }
+
+country_event = { #Warsaw Conference
+	id = rus.28
+	title = rus.28.t
+	desc = rus.28.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = { 
+	trigger = { has_country_flag = RFN_defeated }
+	name = rus.28.a	
+transfer_state = 146	
+	}
+	option = {
+	trigger = { has_country_flag = RFN_undefeated }
+	name = rus.28.b	
+    puppet = FIN
+	FIN = { country_event = fin.7}
+	
+}	
+}
+
+country_event = { #Estonia Revolt
+	id = rus.29
+	title = rus.29.t
+	desc = rus.29.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.29.a		
+	EST = { transfer_state = 13 }
+declare_war_on = {
+			target = EST
+			type = annex_everything
+		}		
+	hidden_effect = {
+	country_event = rus.30
+
+}	
+	}
+}
+
+country_event = { #Don Host Revolt
+	id = rus.30
+	title = rus.30.t
+	desc = rus.30.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.30.a		
+	DCO = { transfer_state = 571 }
+declare_war_on = {
+			target = DCO
+			type = annex_everything
+		}		
+	hidden_effect = {
+	country_event = rus.30
+
+}	
+	}
+}
+
 
 
 #######Political struggle chain
