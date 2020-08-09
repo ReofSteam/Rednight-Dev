@@ -99,6 +99,7 @@ transfer_state = 200
 	days = 12 
 	}
 UKR = { country_event = ukr.1 }		
+RUR = { country_event = ukr.2 }		
 	}
 }
 }
@@ -289,6 +290,7 @@ declare_war_on = {
 		}		
 	hidden_effect = {
 	country_event = rus.30
+	days = 1
 
 }	
 	}
@@ -303,17 +305,63 @@ country_event = { #Don Host Revolt
 
 	option = {
 	name = rus.30.a		
-	DCO = { transfer_state = 571 }
+	DCO = { transfer_state = 218 #571 }
 declare_war_on = {
 			target = DCO
 			type = annex_everything
 		}		
 	hidden_effect = {
-	country_event = rus.30
+	country_event = rus.31
+	days = 7
 
 }	
 	}
 }
+
+country_event = { #Siberian Cossack Revolt
+	id = rus.31
+	title = rus.31.t
+	desc = rus.31.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.31.a		
+	SIB = { transfer_state = 571
+	transfer_state = 570
+	transfer_state = 588
+	}
+declare_war_on = {
+			target = SIB
+			type = annex_everything
+		}		
+	hidden_effect = {
+	country_event = rus.32
+	days = 7
+
+}	
+	}
+}
+
+country_event = { #Turkic Revolt
+	id = rus.32
+	title = rus.32.t
+	desc = rus.32.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	name = rus.32.a		
+	TRK = { transfer_state = 404
+	}
+declare_war_on = {
+			target = TRK
+			type = annex_everything
+		}		
+
+}	
+	}
+
 
 
 

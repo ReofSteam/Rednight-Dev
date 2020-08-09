@@ -13,6 +13,7 @@ LUX = "countries/Luxembourg.txt"	#Unplanned
 RUS = "countries/WestEur.txt"
 RUR = "countries/WestEur.txt" #Little Russia 
 RFN = "countries/WestEur.txt" #Russian Finland
+SIB = "countries/WestEur.txt"
 
 ##Central
 CIS = "countries/Cisleithania.txt"

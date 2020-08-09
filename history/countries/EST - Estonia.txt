@@ -2,7 +2,7 @@
 
 oob = "EST"
 
-set_cosmetic_flag = EST_Insurgent 
+set_cosmetic_tag = EST_Insurgent
 
 set_research_slots = 2
 

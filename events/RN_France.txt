@@ -23,6 +23,11 @@ country_event = {
 
 	option = {
 		name = fra.1.a
+		add_political_power = -80
+		country_event = fra.2
+		set_capital = 26
+		16 = {set_demilitarized_zone = yes
+	}	
 	}
 }
 
@@ -36,9 +41,11 @@ country_event = {
 
 	option = {
 		name = fra.2.a
+		set_country_flag = may_pustch
 	}
 	option = {
 		name = fra.2.b
+		set_country_flag = may_pustch
 	}	
 }
 
@@ -52,6 +59,27 @@ country_event = {
 
 	option = {
 		name = fra.3.a
+		add_timed_idea = {
+    idea = FRA_national_strike
+    days = 100
+}	
+	}
+}
+
+country_event = {
+	id = fra.4 #National Emergency, loyal troops
+	title = fra.4.t
+	desc = fra.4.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.4.a
+		add_timed_idea = {
+    idea = FRA_national_emergency
+    days = 100
+}	
 	}
 }
 

@@ -1,0 +1,28 @@
+##############
+# Commune of France
+##############
+ideas = {
+
+	country = {
+		FRA_national_strike = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_strike"}
+			allowed = { always = no }
+			picture = FRA_national_strike
+			modifier = {
+				political_power_gain = 1
+				consumer_goods_factor = 0.40
+			}
+		}
+		FRA_national_emergency = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_emergency"}
+			allowed = { always = no }
+			picture = FRA_national_emergency
+			modifier = {
+				stability_weekly = 0.50
+				army_org_factor = -0.15
+
+			}
+		}		
+		
+}
+}

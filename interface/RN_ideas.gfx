@@ -119,6 +119,11 @@ spriteTypes = {
 		name = "GFX_idea_FIN_national_revolution"
 		texturefile = "gfx/interface/ideas/FIN/FIN_national_revolution.dds"
 	}
+###Ukraine
+		spriteType = {
+		name = "GFX_idea_UKR_national_revolution"
+		texturefile = "gfx/interface/ideas/UKR/UKR_national_revolution.dds"
+	}	
 ###Quebec#####
 	spriteType = {
 		name = "GFX_idea_QUE_anglo_french_divide"

@@ -1,0 +1,35 @@
+﻿add_namespace = ukr
+
+country_event = {
+	id = ukr.1
+	title = ukr.1.t
+	desc = ukr.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = ukr.1.a
+		load_oob = UKR_rebels
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 1000
+    producer = POL
+}	
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 1200
+}	
+	add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 800
+    producer = ROM
+}
+add_political_power = 50
+
+	add_timed_idea = {
+    idea = UKR_national_revolution
+    days = 150
+}		
+	}
+}
