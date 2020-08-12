@@ -6,10 +6,10 @@ state = {
 	state_category = four
 
 	history = {
-		owner = DEH
-		add_core_of = DEH
-		add_claim_by = BHC
-		add_claim_by = PRF
+		owner = BHC
+		add_core_of = BHC
+		
+		
 		victory_points = { 10772 1 } #Ludhiana
 		buildings = {
 			infrastructure = 5

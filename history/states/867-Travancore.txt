@@ -10,10 +10,10 @@ state = {
 	}
 
 	history = {
-		owner = PRF
-		add_core_of = PRF
-		add_claim_by = BHC
-		add_claim_by = DEH
+		owner = BHC
+		add_core_of = BHC
+		
+		
 		victory_points = { 7402 3 } #Trivandrum
 		victory_points = { 10130 1 } #Cochin
 		buildings = {

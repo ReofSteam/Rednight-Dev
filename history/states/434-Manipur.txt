@@ -11,8 +11,8 @@ state = {
 	history = {
 		owner = BHC
 		add_core_of = BHC
-		add_claim_by = PRF
-		add_claim_by = DEH
+		
+		
 		victory_points = { 1581 1 } #Imphal
 		buildings = {
 			infrastructure = 1

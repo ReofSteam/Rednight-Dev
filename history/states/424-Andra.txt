@@ -6,10 +6,10 @@ state = {
 
 
 	history = {
-		owner = PRF
-		add_core_of = PRF
-		add_claim_by = BHC
-		add_claim_by = DEH
+		owner = BHC
+		add_core_of = BHC
+		
+		
 		victory_points = { 7340 1 } #Yannam
 		buildings = {
 			infrastructure = 4

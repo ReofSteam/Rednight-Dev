@@ -6,10 +6,10 @@ state = {
 	state_category = three
 
 	history = {
-		owner = DEH
-		add_core_of = DEH
-		add_claim_by = BHC
-		add_claim_by = PRF
+		owner = BHC
+		add_core_of = BHC
+		
+		
 		victory_points = { 3456 1 } #Karachi
 		buildings = {
 			infrastructure = 5

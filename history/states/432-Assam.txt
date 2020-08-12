@@ -10,8 +10,8 @@ state={
 	history={
 		owner = BHC
 		add_core_of = BHC
-		add_claim_by = PRF
-		add_claim_by = DEH
+		
+		
 		victory_points = {
 			12366 1
 		}
