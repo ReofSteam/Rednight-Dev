@@ -20,7 +20,7 @@ ideas = {
 	country = {
 		RFN_finnish_rebellion = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RFN_finnish_rebellion"}
-			picture = RFN_finnish_rebellion
+			picture = RUS_Finland
 
 		modifier = {
 		army_morale_factor = -0.2

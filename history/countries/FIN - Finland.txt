@@ -21,7 +21,6 @@ set_convoys = 5
 
 add_ideas = {
 	#limited_conscription
-	#sisu
 }
 
 set_politics = {
@@ -61,19 +60,41 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/FIN/FIN_Aksel_Airo.tga"
 	traits = { winter_specialist commando }
 	skill = 4
-    attack_skill = 3
-    defense_skill = 1
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hugo Österman"
+	portrait_path = "gfx/leaders/FIN/FIN_Osterman.tga"
+	traits = { winter_specialist }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
     planning_skill = 4
     logistics_skill = 2
 }
 
 create_corps_commander = {
-	name = "Mannerheim's Ghost"
-	portrait_path = "gfx/leaders/FIN/FIN.tga"
+	name = "Matti Aarnio"
+	portrait_path = "gfx/leaders/FIN/FIN_Aarnio.tga"
 	traits = { winter_specialist }
-	skill = 4
-    attack_skill = 3
+	skill = 1
+    attack_skill = 4
     defense_skill = 1
-    planning_skill = 4
-    logistics_skill = 2
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hjalmar Siilasvuo"
+	portrait_path = "gfx/leaders/FIN/FIN_Siilasvuo.tga"
+	traits = { winter_specialist }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
 }

@@ -67,6 +67,7 @@ ROM = "countries/Romania.txt"
 PRS = "countries/WestEur.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
+UPR = "countries/Ukraine.txt" #Ukrainian Peasants Rebels
 POL = "countries/Poland.txt"
 #CNK = "countries/Russian Channel.txt"
 

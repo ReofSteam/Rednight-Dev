@@ -15,10 +15,12 @@ hidden = yes
 	option = {
 		name = rus.1.a
 		hidden_effect = {
+		country_event = {
 		id = rus.12
 	days = 750 
 		}
 		}
+}
 }
 
 country_event = { #Siberian Plan
@@ -99,7 +101,7 @@ transfer_state = 200
 	days = 12 
 	}
 UKR = { country_event = ukr.1 }		
-RUR = { country_event = ukr.2 }		
+RUR = { country_event = ukr.3 }		
 	}
 }
 }
@@ -142,6 +144,7 @@ declare_war_on = {
 	id = rus.29
 	days = 4
 	}	
+country_event = rus.33	
 
 RFN = { country_event = fin.3 }	
 FIN = { country_event = fin.1 }	
@@ -222,7 +225,6 @@ set_country_flag = RFN_undefeated
 	}}
 	}	
 }
-}
 country_event = { #Troops Reinforcement - Great Revolt
 	id = rus.26
 	title = rus.26.t
@@ -289,12 +291,14 @@ declare_war_on = {
 			type = annex_everything
 		}		
 	hidden_effect = {
-	country_event = rus.30
+	country_event = { 
+	id = rus.30
 	days = 1
-
+}
 }	
 	}
 }
+
 
 country_event = { #Don Host Revolt
 	id = rus.30
@@ -311,9 +315,10 @@ declare_war_on = {
 			type = annex_everything
 		}		
 	hidden_effect = {
-	country_event = rus.31
+	country_event = {
+	id = rus.31
 	days = 7
-
+}
 }	
 	}
 }
@@ -336,9 +341,10 @@ declare_war_on = {
 			type = annex_everything
 		}		
 	hidden_effect = {
-	country_event = rus.32
+	country_event = {
+	id = rus.32
 	days = 7
-
+}
 }	
 	}
 }
@@ -362,7 +368,39 @@ declare_war_on = {
 }	
 	}
 
+country_event = { #who are you ?
+	id = rus.33
+	title = rus.33.t
+	desc = rus.33.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
 
+	option = {
+		name = rus.33.a
+		FIN = { change_tag_from = ROOT }
+	
+	}
+	option = {
+		name = rus.33.b
+		RFN = { change_tag_from = ROOT }
+	
+	}
+	option = {
+		name = rus.33.c
+		UKR = { change_tag_from = ROOT }
+	
+	}
+	option = {
+		name = rus.33.e
+		RUR = { change_tag_from = ROOT }
+	
+	}	
+	option = {
+		name = rus.33.f
+	
+	}	
+}
 
 
 #######Political struggle chain
