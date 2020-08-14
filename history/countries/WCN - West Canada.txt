@@ -49,6 +49,12 @@ set_popularities = {
     national_corporatist = 4
 }
 
+add_ideas = {
+WCN_memories_of_royalty
+WCN_divided_nation
+WCN_western_revolt
+}
+
 
 
 create_country_leader = {

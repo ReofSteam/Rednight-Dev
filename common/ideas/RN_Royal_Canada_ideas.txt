@@ -1,0 +1,37 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+
+		WCN_memories_of_royalty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_memories_of_royalty"}
+			modifier = {
+			stability_factor = 0.20
+            political_power_factor = -0.20				
+			}
+			removal_cost = -1
+			picture = WCN_royal_dictatorship
+		}
+		WCN_divided_nation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_divided_nation"}
+			modifier = {
+			stability_factor = 0.20
+            political_power_factor = -0.20				
+			}
+			removal_cost = -1
+			picture = WCN_divided_nation
+		}
+		WCN_western_revolt = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_western_revolt"}
+			modifier = {
+			stability_factor = 0.20
+            political_power_factor = -0.20				
+			}
+			removal_cost = -1
+			picture = WCN_pacific_revolt
+		}		
+
+}
+}
