@@ -8,8 +8,8 @@ ideas = {
 		WCN_memories_of_royalty = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_memories_of_royalty"}
 			modifier = {
-			stability_factor = 0.20
-            political_power_factor = -0.20				
+            political_power_factor = -0.10	
+			war_support_factor = -0.15	
 			}
 			removal_cost = -1
 			picture = WCN_royal_dictatorship
@@ -17,8 +17,10 @@ ideas = {
 		WCN_divided_nation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_divided_nation"}
 			modifier = {
-			stability_factor = 0.20
-            political_power_factor = -0.20				
+			production_speed_buildings_factor = -0.2
+			local_resources_factor = -0.10
+			army_speed_factor = -0.05
+			
 			}
 			removal_cost = -1
 			picture = WCN_divided_nation
@@ -26,8 +28,8 @@ ideas = {
 		WCN_western_revolt = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_western_revolt"}
 			modifier = {
-			stability_factor = 0.20
-            political_power_factor = -0.20				
+			stability_factor = -0.20			
+			conscription_factor = -0.1
 			}
 			removal_cost = -1
 			picture = WCN_pacific_revolt

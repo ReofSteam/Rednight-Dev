@@ -93,8 +93,10 @@ RUS_national_corporatist_savinkovist_party:0 "NPPR"
 RUS_national_corporatist_savinkovist_party_long:0 "Russian National Republican Party"
 RUS_authoritarian_democrat_savinkovist_party:0 "NPPR"
 RUS_authoritarian_democrat_savinkovist_party_long:0 "Russian National Republican Party"
-RUS_authoritarian_democrat_Ilynist_party:0 "Ilynist"
+RUS_authoritarian_democrat_Ilynist_party:0 "Ilynists"
 RUS_authoritarian_democrat_Ilynist_party_long:0 "Ilynist Clique"
+RUS_ultraconservative_Ilynist_party_party:0 "Ilynists"
+RUS_ultraconservative_Ilynist_party_party_long:0 "Ilynist Clique"
 ### Country Name ###
 
 
@@ -119,6 +121,43 @@ RUS_ultraconservative_DEF:0 "the Russian National State"
 RUS_national_corporatist:0 "Russian National State"
 RUS_national_corporatist_ADJ:0 "Russian"
 RUS_national_corporatist_DEF:0 "the Russian National State"
+
+####Siberian Cossack
+SIB_authoritarian_democrat:0 "Omsk Cossack Committee"
+SIB_authoritarian_democrat_ADJ:0 "Cossack"
+SIB_authoritarian_democrat_DEF:0 "the Omsk Cossack Committee"
+
+SIB_autocratic:0 "Omsk Cossack Committee"
+SIB_autocratic_ADJ:0 "Cossack"
+SIB_autocratic_DEF:0 "the Omsk Cossack Committee"
+
+SIB_ultraconservative:0 "Omsk Cossack Committee"
+SIB_ultraconservative_ADJ:0 "Cossack"
+SIB_ultraconservative_DEF:0 "the Omsk Cossack Committee"
+
+SIB_national_corporatist:0 "Omsk Cossack Committee"
+SIB_national_corporatist_ADJ:0 "Cossack"
+SIB_national_corporatist_DEF:0 "the Omsk Cossack Committee"
+
+####Turkic Revolt
+TRK_authoritarian_democrat:0 "Kazakh Insurgency"
+TRK_authoritarian_democrat_ADJ:0 "Kazakh"
+TRK_authoritarian_democrat_DEF:0 "the Kazakh Insurgency"
+
+TRK_autocratic:0 "Kazakh Insurgency"
+TRK_autocratic_ADJ:0 "Kazakh"
+TRK_autocratic_DEF:0 "the Kazakh Insurgency"
+
+TRK_ultraconservative:0 "Kazakh Insurgency"
+TRK_ultraconservative_ADJ:0 "Kazakh"
+TRK_ultraconservative_DEF:0 "the Kazakh Insurgency"
+
+TRK_national_corporatist:0 "Kazakh Insurgency"
+TRK_national_corporatist_ADJ:0 "Kazakh"
+TRK_national_corporatist_DEF:0 "the Kazakh Insurgency"
+
+####
+DCO_rebel:0 "Shkuroist Cossacks"
 
 ### Focuses ###
 RUS_purge_the_monarchists:0 "Purge the Monarchists"

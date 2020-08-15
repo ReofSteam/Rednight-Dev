@@ -2,6 +2,8 @@
 
 oob = "DCO"
 
+set_cosmetic_tag = DCO_rebel
+
 set_technology = {
 	### MOD ###
 	### General ###
