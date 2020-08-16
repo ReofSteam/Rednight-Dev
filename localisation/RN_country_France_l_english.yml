@@ -71,3 +71,52 @@ franews.2.d:0 "In the annals of history, there are some events so unforeseeable 
 
 
 ### Tech? ###
+committee_tt:0 "§YDeal with the Committee§!"
+milaction_tt:0 "§WUse military action to pacify the putschists. You'll need at least §Y100 Support Equipment§! and §Y5% Stability§! to pull it off.\n\nObviously, you can do it only once, and you don't have to subdue them again.§Y"
+polaction_tt:0 "§WUse political action to pacify the putschists. You'll need at least §Y30 Political Power§! to pull it off.\n\Yet again, you can do it only once, and you don't have to listen to them them again.§!"
+dismantling_ready_tt:0 "§WDismantle the Committee. You'll have to §Ypacify all five actors§! in order to proceed.\n\nOtherwise, you will have to §Rcomply with their demands.§!§!"
+
+putsch.1.t:0 "Subduing The Admiral"
+putsch.1.d:0 "Though a series of military operations launched on Cherbourg, we have subdued the rebellous Admiral.\n\nHis fate will be announced later.\n\nVive la France."
+putsch.1.a:0 "Good work."
+putsch.6.t:0 "Talking The Admiral Out"
+putsch.6.d:0 "Though it was not thought to not be possible, we've managed to talk the Admiral out of the situation.\n\nFor now, his activity is stopped.\n\nVive la France."
+putsch.6.a:0 "Good."
+
+putsch.2.t:0 "Crushing The Paratroopers"
+putsch.2.d:0 "Our brave soldiers have put down their traitorous rebellion to an end.\n\nAll participants will be put on trial.\n\nVive la France."
+putsch.2.a:0 "Make them fear."
+putsch.7.t:0 "Paratroopers Surrender!"
+putsch.7.d:0 "The 2nd Paratrooper Division has agreed to surrender after we have announced our intentions.\n\nThey might help in our future operations.\n\nVive la France."
+putsch.7.a:0 "Nice."
+
+putsch.3.t:0 "No More CAAB"
+putsch.3.d:0 "Our valiant heroes have broken into their cabinets and put an end to this treason.\n\nCitizen Association Against Bureaucracy is now dismantled and their activities are declared illegal.\n\nVive la France."
+putsch.3.a:0 "Without bureaus, there would be no France."
+putsch.8.t:0 "CAAB Complies"
+putsch.8.d:0 "After some under-the-desk deals we've managed to make the Citizen Association Against Bureaucracy surrender themselves.\n\nThough the organization is dismantled for now, no participants were put on trial.\n\nVive la France."
+putsch.8.a:0 "It's so easy."
+
+putsch.4.t:0 "Marines Stopped"
+putsch.4.d:0 "The 3rd Marine Infantry Parachute Division is dismantled after fierce battles after which we have emerged victorious.\n\nTheir leader has escaped being shot on the spot, though his ill fate is sealed.\n\nVive la France."
+putsch.4.a:0 "France is not a bucket of crayons."
+putsch.9.t:0 "Marines Pacified"
+putsch.9.d:0 "Some good promises to the Division were made, and we've managed to disarm them.\n\nIn reward, their sentences will be shortened.\n\nVive la France."
+putsch.9.a:0 "The war board has gained some more crayons."
+
+putsch.5.t:0 "Alsace-Lorraine Brigade Destroyed!"
+putsch.5.d:0 "Heavy fighting has finally struck some common sense in their minds.\n\nAlsace-Lorraine Brigade has been completely restocked with other, more loyal soldiers.\n\nVive la France."
+putsch.5.a:0 "We won't give the spoils of war so easily."
+putsch.10.t:0 "Alsace-Lorraine Secured Again"
+putsch.10.d:0 "Amazingly, a good word about national pride and unity has changed their hearts.\n\nTheir loyalty was not only regained, but bolstered too.\n\nVive la France."
+putsch.10.a:0 "Much better."
+
+putsch.11.t:0 "The Committee Dismantled"
+putsch.11.d:0 "Through our collective efforts, the traitors were put down.\n\nThe Committee is no more.\n\nViva la France."
+putsch.11.a:0 "Finally."
+
+putsch.13.t:0 "Compromise"
+putsch.13.d:0 "The traitors weren't dismantled fast enough, and now we have to comply with their demands.\n\nLet's hope that their audacity has limits.\n\nViva la France."
+putsch.13.a:0 "Let's face our defeats without fear."
+
+fradeal_tt:0 "§W§YA new menu§! concerning the matters of the Committee will open on the §Ypolitical screen.§!§!"

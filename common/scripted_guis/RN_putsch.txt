@@ -1,0 +1,239 @@
+scripted_gui = {
+
+	open_comittee = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "fra_committee_button"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_putch_menu } }
+					set_country_flag =  show_putch_menu
+				}
+				else_if = {
+					limit = { has_country_flag = show_putch_menu }
+					clr_country_flag = show_putch_menu
+				}
+			}
+		}
+		triggers = {
+        }
+        visible = {
+            has_country_flag = may_pustch
+        }
+    }
+    RB_committee_window = {
+        context_type = player_context
+       # parent_window_token = politics_tab
+        window_name = "FRA_committee_bg"
+        visible = {
+            has_country_flag = show_putch_menu
+        }
+   		properties = {
+        	#secondary_portrait = {
+           # 	image = "[Get_Secondary_Portrait]"
+        	#}
+        	cherb_port = {
+        	image = [cherGetPutschPortrait]
+        	}
+        	paratroop_port = {
+        	image = [paratroopsGetPutschPortrait]
+        	}
+        	caab_port = {
+        	image = [caabGetPutschPortrait]
+        	}
+        	marine_port = {
+        	image = [marineGetPutschPortrait]
+        	}
+        	bal_port = {
+        	image = [balGetPutschPortrait]
+        	}
+    	}
+    	effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_putch_menu } }
+					set_country_flag =  show_putch_menu
+				}
+				else_if = {
+					limit = { has_country_flag = show_putch_menu }
+					clr_country_flag = show_putch_menu
+				}
+			}
+			cherb_mil_action_click = {
+			add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 100
+    		producer = FRA
+			}
+			add_stability = -0.05
+			country_event = { 
+			id = putsch.1 
+			days = 3 
+			}
+			}
+			par_mil_action_click = {
+			add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 100
+    		producer = FRA
+			}
+			add_stability = -0.05
+			country_event = { 
+			id = putsch.2 
+			days = 3 
+			}
+			}
+			caab_mil_action_click = {
+			add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 100
+    		producer = FRA
+			}
+			add_stability = -0.05
+			country_event = { 
+			id = putsch.3 
+			days = 3 
+			}
+			}
+			marine_mil_action_click = {
+			add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 100
+    		producer = FRA
+			}
+			add_stability = -0.05
+			country_event = { 
+			id = putsch.4
+			days = 3 
+			}
+			}
+			bal_mil_action_click = {
+			add_equipment_to_stockpile = {
+    		type = support_equipment
+    		amount = 100
+    		producer = FRA
+			}
+			add_stability = -0.05
+			country_event = { 
+			id = putsch.5
+			days = 3 
+			}
+			}
+
+			cherb_pol_action_click = {
+			add_political_power = -30
+			country_event = { 
+			id = putsch.6
+			days = 3 
+			}
+			}
+			par_pol_action_click = {
+			add_political_power = -30
+			country_event = { 
+			id = putsch.7
+			days = 3 
+			}
+			}
+			caab_pol_action_click = {
+			add_political_power = -30
+			country_event = { 
+			id = putsch.8
+			days = 3 
+			}
+			}
+			marine_pol_action_click = {
+			add_political_power = -30
+			country_event = { 
+			id = putsch.9
+			days = 3 
+			}
+			}
+			bal_pol_action_click = {
+			add_political_power = -30
+			country_event = { 
+			id = putsch.10
+			days = 3 
+			}
+			}
+			dismantle_button_click = {
+			country_event = {
+			id = putsch.11 
+			days = 3
+			}
+			}
+
+		}
+		triggers = {
+		cherb_mil_action_click_enabled = {
+        	has_stability > 0.05
+        	has_equipment = {
+    		support_equipment > 100
+			}
+			NOT = { has_country_flag = cherb_putscihsts_pacified }
+        }
+        par_mil_action_click_enabled = {
+        	has_stability > 0.05
+        	has_equipment = {
+    		support_equipment > 100
+			}
+			NOT = { has_country_flag = par_putscihsts_pacified }
+        }
+        caab_mil_action_click_enabled = {
+        	has_stability > 0.05
+        	has_equipment = {
+    		support_equipment > 100
+			}
+			NOT = { has_country_flag = caab_utscihsts_pacified }
+        }
+        marine_mil_action_click_enabled = {
+        	has_stability > 0.05
+        	has_equipment = {
+    		support_equipment > 100
+			}
+			NOT = { has_country_flag = marine_putscihsts_pacified }
+        }
+        bal_mil_action_click_enabled = {
+        	has_stability > 0.05
+        	has_equipment = {
+    		support_equipment > 100
+			}
+			NOT = { has_country_flag = bal_putscihsts_pacified }
+        }
+
+
+        cherb_pol_action_click_enabled = {
+        	has_political_power > 30 
+			NOT = { has_country_flag = cherb_putscihsts_pacified }
+        }
+        par_pol_action_click_enabled = {
+        	has_political_power > 30 
+			NOT = { has_country_flag = par_putscihsts_pacified }
+        }
+        caab_pol_action_click_enabled = {
+        	has_political_power > 30 
+			NOT = { has_country_flag = caab_utscihsts_pacified }
+        }
+        marine_pol_action_click_enabled = {
+        	has_political_power > 30 
+			NOT = { has_country_flag = marine_putscihsts_pacified }
+        }
+        bal_pol_action_click_enabled = {
+        	has_political_power > 30 
+			NOT = { has_country_flag = bal_putscihsts_pacified }
+        }
+        dismantle_button_click_enabled ={
+        custom_trigger_tooltip = dismantling_ready_tt
+        AND = {
+        has_country_flag = cherb_putscihsts_pacified
+        has_country_flag = par_putscihsts_pacified
+        has_country_flag = caab_utscihsts_pacified
+        has_country_flag = marine_putscihsts_pacified
+        has_country_flag = bal_putscihsts_pacified
+        }
+        }
+		}
+	}
+}
+

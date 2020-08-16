@@ -16,5 +16,56 @@ spriteTypes = {
 	name = "GFX_liberty_corridor"
 	texturefile = "gfx/interface/RN_liberty_corridor.dds"
 	}	
-	
+	spriteType = {
+	name = "GFX_FRA_committee"
+	texturefile = "gfx/interface/committee.dds"
+	}	
+	spriteType = {
+	name = "GFX_close"
+	texturefile = "gfx/interface/parties/illegal.dds"
+	}	
+	spriteType = {
+	name = "GFX_close"
+	texturefile = "gfx/interface/parties/illegal.dds"
+	}
+	spriteType = {
+	name = "GFX_polaction"
+	texturefile = "gfx/interface/polaction.dds"
+	}
+	spriteType = {
+	name = "GFX_milaction"
+	texturefile = "gfx/interface/milaction.dds"
+	}
+	spriteType = {
+	name = "GFX_dismantle"
+	texturefile = "gfx/interface/dismantle.dds"
+	}
+	spriteType = {
+	name = "GFX_FROGGED"
+	texturefile = "gfx/leaders/FRA/FRA_ELIMINATED.tga"
+	}	
+	spriteType = {
+	name = "GFX_cherb"
+	texturefile = "gfx/leaders/FRA/FRA_De_la_Vigerie.tga"
+	}	
+	spriteType = {
+	name = "GFX_marine"
+	texturefile = "gfx/leaders/FRA/FRA_Andre_Malaux.tga"
+	}	
+	spriteType = {
+	name = "GFX_caab"
+	texturefile = "gfx/leaders/FRA/FRA_Jean_Moulin.tga"
+	}	
+	spriteType = {
+	name = "GFX_bal"
+	texturefile = "gfx/leaders/FRA/FRA_Henri_Frenay.tga"
+	}	
+	spriteType = {
+	name = "GFX_paratroops"
+	texturefile = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	}	
+	spriteType = {
+	name = "GFX_comite"
+	texturefile = "gfx/interface/comite.dds"
+	}	
 }

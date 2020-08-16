@@ -19,3 +19,60 @@ defined_text = { # Country
 		localization_key = KR_phalanstere_desc
 	}
 }
+
+defined_text = { # Country
+	name = cherGetPutschPortrait
+	text = {
+		trigger = { has_country_flag = cherb_putscihsts_pacified }
+		localization_key = "GFX_FROGGED"
+	}
+	text = {
+		trigger = { NOT = { has_country_flag = cherb_putscihsts_pacified } }
+		localization_key = "GFX_cherb"
+	}
+}
+
+defined_text = { # Country
+	name = marineGetPutschPortrait
+	text = {
+		trigger = { has_country_flag = par_putscihsts_pacified }
+		localization_key = "GFX_FROGGED"
+	}
+	text = {
+		localization_key = "GFX_marine"
+	}
+}
+
+defined_text = { # Country
+	name = caabGetPutschPortrait
+	text = {
+		trigger = { has_country_flag = caab_utscihsts_pacified }
+		localization_key = "GFX_FROGGED"
+	}
+	text = {
+		localization_key = "GFX_caab"
+	}
+}
+
+defined_text = { # Country
+	name = balGetPutschPortrait
+	text = {
+		trigger = { has_country_flag = marine_putscihsts_pacified }
+		localization_key = "GFX_FROGGED"
+	}
+	text = {
+		localization_key = "GFX_bal"
+	}
+}
+
+defined_text = { # Country
+	name = paratroopsGetPutschPortrait
+	text = {
+		trigger = { has_country_flag = bal_putscihsts_pacified }
+		localization_key = "GFX_FROGGED"
+	}
+	text = {
+		localization_key = "GFX_paratroops"
+	}
+}
+

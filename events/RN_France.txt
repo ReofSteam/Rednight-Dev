@@ -1,5 +1,5 @@
 ﻿add_namespace = fra
-
+add_namespace = putsch
 news_event = {
 	id = fra.0
 	title = fra.0.t
@@ -38,14 +38,42 @@ country_event = {
 	picture = GFX_FRA_may_pustch2
 
 	is_triggered_only = yes
-
+	immediate = {
+	hidden_effect = {
+	if = { 
+	limit = {
+	is_ai = yes
+	}
+	random_list = {
+	70 = {
+	country_event = {
+	id = putsch.11
+	days = 100
+	}
+	30 = {
+	country_event = putsch.13 
+	days = 100
+	}
+	}
+	}
+	}
+	else = {
+	country_event = {
+	id = putsch.12
+	days = 100
+	}
+	}
+	}
+	}
 	option = {
 		name = fra.2.a
 		set_country_flag = may_pustch
+		custom_effect_tooltip = fradeal_tt
 	}
 	option = {
 		name = fra.2.b
 		set_country_flag = may_pustch
+		custom_effect_tooltip = fradeal_tt
 	}	
 }
 
@@ -95,3 +123,213 @@ news_event = {
 		name = franews.2.a
 	}
 }
+
+
+country_event = {
+	id = putsch.1
+	title = putsch.1.t
+	desc = putsch.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.1.a
+		set_country_flag = cherb_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.2
+	title = putsch.2.t
+	desc = putsch.2.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.2.a
+		set_country_flag = par_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.3
+	title = putsch.3.t
+	desc = putsch.3.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.3.a
+		set_country_flag = caab_utscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.4
+	title = putsch.4.t
+	desc = putsch.4.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.4.a
+		set_country_flag = marine_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.5
+	title = putsch.5.t
+	desc = putsch.5.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.5.a
+		set_country_flag = bal_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.6
+	title = putsch.6.t
+	desc = putsch.6.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.6.a
+		set_country_flag = cherb_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.7
+	title = putsch.7.t
+	desc = putsch.7.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.7.a
+		set_country_flag = par_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.8
+	title = putsch.8.t
+	desc = putsch.8.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.8.a
+		set_country_flag = caab_utscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.9
+	title = putsch.9.t
+	desc = putsch.9.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.9.a
+		set_country_flag = marine_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.10
+	title = putsch.10.t
+	desc = putsch.10.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.10.a
+		set_country_flag = bal_putscihsts_pacified
+		}	
+	}
+
+country_event = {
+	id = putsch.11
+	title = putsch.11.t
+	desc = putsch.11.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.11.a
+		clr_country_flag = show_putch_menu
+		clr_country_flag = may_pustch
+		if = {
+    	limit = {
+        has_stability < 0.3 
+    	}   
+   		set_country_flag = Pustch_military_influence
+		}
+		else = {
+		set_country_flag = Putsch_fully_defeated
+		}
+		}	
+	}
+
+country_event = {
+	id = putsch.12
+	title = putsch.12.t
+	desc = putsch.12.d
+	picture = GFX_FRA_may_pustch
+	is_hidden = yes 
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.12.a
+		if = {
+		limit = {
+		NOT = {
+		AND = {
+		has_country_flag = cherb_putscihsts_pacified
+        has_country_flag = par_putscihsts_pacified
+        has_country_flag = caab_utscihsts_pacified
+        has_country_flag = marine_putscihsts_pacified
+        has_country_flag = bal_putscihsts_pacified
+		}
+		}
+		}
+		country_event = {
+		id = putsch.13
+		}
+		}
+		}	
+	}
+
+country_event = {
+	id = putsch.13
+	title = putsch.13.t
+	desc = putsch.13.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = putsch.13.a
+		clr_country_flag = show_putch_menu
+		clr_country_flag = may_pustch
+		set_country_flag = FRA_compromise
+		}	
+	}
