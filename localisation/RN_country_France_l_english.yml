@@ -57,24 +57,6 @@ fra.3.d:0 "\"The unthinkable has occurred. A cabal of thugs have seized the peop
 fra.3.a:0 "Quand Paris se met en colère"
 franews.2.t:0 "Action of May"
 franews.2.d:0 "In the annals of history, there are some events so unforeseeable that they appear divine. So it is that Paris, birthplace of the revolution and heart of the Socialist bloc, has been brought to its knees during today's may day celebrations!\n\nWhile information coming out of the city has been contradicting and scarce, what we do know paints a startling picture. Pierre Brosolette, recently returned governor-general of the German occupation zone, is reportedly responsible. The full list of his compatriots remains unknown, but other reports have claimed involvement of Henri Frenay in cutting communications outside the city, and De la Vierge in besieging naval command.Garrisons across the city have been captured or held at bay, and those few government officials that were outside have begun organising to retake it. \n\nThe Russian State embassy has wasted no time commenting on the matter, warning all Russian nationals within its premises highlighting the event as evidence of the "Frailty of the socialist system.\nNo doubt the motivations of the conspirators will soon reveal themselves, but for now, the world stands  shocked at such unprecedented events occurring within a major nuclear superpower."
-### Flags ###
-
-### Tooltips ###
-
-### Companies ###
-
-### Ministers ###
-
-
-### Leaders ###
-
-
-
-### Tech? ###
-committee_tt:0 "§YDeal with the Committee§!"
-milaction_tt:0 "§WUse military action to pacify the putschists. You'll need at least §Y100 Support Equipment§! and §Y5% Stability§! to pull it off.\n\nObviously, you can do it only once, and you don't have to subdue them again.§Y"
-polaction_tt:0 "§WUse political action to pacify the putschists. You'll need at least §Y30 Political Power§! to pull it off.\n\Yet again, you can do it only once, and you don't have to listen to them them again.§!"
-dismantling_ready_tt:0 "§WDismantle the Committee. You'll have to §Ypacify all five actors§! in order to proceed.\n\nOtherwise, you will have to §Rcomply with their demands.§!§!"
 
 putsch.1.t:0 "Subduing The Admiral"
 putsch.1.d:0 "Though a series of military operations launched on Cherbourg, we have subdued the rebellous Admiral.\n\nHis fate will be announced later.\n\nVive la France."
@@ -118,5 +100,29 @@ putsch.11.a:0 "Finally."
 putsch.13.t:0 "Compromise"
 putsch.13.d:0 "The traitors weren't dismantled fast enough, and now we have to comply with their demands.\n\nLet's hope that their audacity has limits.\n\nViva la France."
 putsch.13.a:0 "Let's face our defeats without fear."
+
+fra.5.t:0 "A Farewell to Arms"
+fra.5.d:0 "He would not be citizen Louis Capet.\n\nSo it was that when  the mob of dusty workers, steel eyed veterans, shoe toting grandmothers, and passionate students began to assault the doors of the BGT building, Pierre approached the balcony with a megaphone. He looked out at the sheer size of the massive crowd, wishing they could only see in their government what he did.\n\n"Comrades" he began, before adjusting the volume of the megaphone "My Comrades!"\n\nThose closest to the building stopped their assault momentarily, and glanced up at the general.\n\n"I have undertaken this task in the name of the masses. However, It has now become clear to me that I do not possess their blessing."Pierre stared at the floor before continuing\n\n"French, French you honourable people.  My life I have dedicated to you. But, if it is the will of the citizens of Paris that my mandate be rejected, I have no choice but to obey.  I ask only that you march forward fearlessly toward destiny, united and proud as you have demonstrated today. Lets us sing the Marseilese - the most beautiful song, as for myself, i have no voice left"\n\nEven the distant crowd had quieted now, a phenomenon few other men could create. All eyes were upon Pierre. He smiled slightly, and began his ascent downstairs and into custody."
+fra.5.a:0 "Goodbye, Pierre"
+fra.5.d.b:0 "It was finally over.\n\nEdouard let the shotgun fall against his knee, staring at the towering presence before him. Though only moments before adrenaline had surged through his muscles like a knife, now he simply stood motionless. Unsure of how to proceed.\n\nThe general too was unmoving, as was everyone in the room. It mattered not how much carnage littered the floors below, for there was nothing but respect in the air now. Edouard himself was supposed to do the handcuffing, yet once  he had reached his target, the process seemed unfathomable. How could you arrest a living legend?\n\n"Comrades." Pierre stated simply, finally breaking the long silence "No need to make things messier"\n\nThus with a curt salute, and the adjustment of his hat, Pierre followed the men in tow, peacefully submitting to defeat. As the unit passed other soldiers throughout the building, they were greeted with only quiet nods, an absence of hatred towards their so-called "enemy". As they made their way to the door, Pierre finally stopped, staring at a series of crumpled bodies on the ground. It was here Edouard gazed upon the image he would never forget; the sad eyes of France's most controversial figure.\n\nFinally, the detour over, he stepped out into the light. As the armoured van grew closer, the general's stoic expression turned to a slight grin, and a voice bellowed from his lips.\The man who had just tried to overthrow the government was now proudly singing the La Marseillaise.\n\nThe Republic had survived, despite the calamity that had gripped the city. Yet, though he could not put his finger on it, something felt different. A sweeter air, a bluer sky. Pierre had lost, yes, but Edouard had a feeling his legacy would endure, somewhere far outside the walls of a prison cell..."
+fra.5.b:0 "Aux armes... citoyens"
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+
+### Leaders ###
+
+
+
+### Tech? ###
+committee_tt:0 "§YDeal with the Committee§!"
+milaction_tt:0 "§WUse military action to pacify the putschists. You'll need at least §Y100 Support Equipment§! and §Y5% Stability§! to pull it off.\n\nObviously, you can do it only once, and you don't have to subdue them again.§Y"
+polaction_tt:0 "§WUse political action to pacify the putschists. You'll need at least §Y30 Political Power§! to pull it off.\n\Yet again, you can do it only once, and you don't have to listen to them them again.§!"
+dismantling_ready_tt:0 "§WDismantle the Committee. You'll have to §Ypacify all five actors§! in order to proceed.\n\nOtherwise, you will have to §Rcomply with their demands.§!§!"
 
 fradeal_tt:0 "§W§YA new menu§! concerning the matters of the Committee will open on the §Ypolitical screen.§!§!"

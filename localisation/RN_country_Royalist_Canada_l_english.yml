@@ -92,9 +92,11 @@ WCN_national_corporatist_party_long:0 "Government of National Unity"
 ### Ideas ###
 
 WCN_memories_of_royalty:0 "Memories of the Royal Dictatorship"
+WCN_memories_of_royalty_desc:0 "Our minds and hearts shall not forget the deeds of traitors who ruined our nation. Neither shall we cease to remember those who failed to protect us from the reds. The crown is stained with guilt."
 WCN_divided_nation:0 "Divided Nation"
+WCN_divided_nation_desc:0 "The rebellion’s flames has destroyed all our national rail network. Consequently, we have lost some of our forces, and the Royalists cling to British Columbia, Quebec, and Newfoundland. Until we rebuild our nation’s infrastructure, Canada stands divided."
 WCN_western_revolt:0 "Western Revolt"
-
+WCN_western_revolt_desc:0 "Whispers of traitors still flow among the ruins of BC. Though what remains there stand now as a painful memory of the revolution’s most bloody moments, we must remain vigilant. Canada must remain free."
 ### Flags ###
 
 ### Tooltips ###

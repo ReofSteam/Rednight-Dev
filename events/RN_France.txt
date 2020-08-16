@@ -68,10 +68,21 @@ country_event = {
 	option = {
 		name = fra.2.a
 		set_country_flag = may_pustch
+		country_event = {
+	id = fra.3
+	days = 2
+}
 		custom_effect_tooltip = fradeal_tt
 	}
 	option = {
 		name = fra.2.b
+		custom_effect_tooltip = fra_putsch_talk
+		hidden_effect = {
+		country_event = {
+	id = fra.4
+	days = 2
+}
+}	
 		set_country_flag = may_pustch
 		custom_effect_tooltip = fradeal_tt
 	}	
@@ -286,7 +297,10 @@ country_event = {
 		else = {
 		set_country_flag = Putsch_fully_defeated
 		}
-		}	
+		}
+	country_event = {
+	id = fra.5
+	}		
 	}
 
 country_event = {
@@ -333,3 +347,32 @@ country_event = {
 		set_country_flag = FRA_compromise
 		}	
 	}
+
+country_event = {
+	id = fra.5
+	title = fra.5.t
+	desc = {
+	text = fra.5.d
+	trigger = { 
+	has_country_flag = Pustch_military_influence
+	}
+	}
+	desc = {
+	text = fra.5.d.b
+	trigger = { 
+	has_country_flag = Putsch_fully_defeated
+	}	
+	}
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+
+	option = {
+	name = fra.5.a
+	
+}	
+	option = {
+	name = fra.5.b
+	
+}
+}

@@ -25,8 +25,8 @@ QUE_moderate_socialist_party_long:0 "Behörde zur Wiederaufbau"
 QUE_social_democrat_party:0 "BW"
 QUE_social_democrat_party_long:0 "Behörde zur Wiederaufbau"
 
-QUE_social_liberal_party:0 "-"
-QUE_social_liberal_party_long:0 "-"
+QUE_social_liberal_party:0 "Union Nationale - L'Avenir"
+QUE_social_liberal_party_long:0 "National Union"
 
 QUE_social_conservative_party:0 "Union Nationale - L'Avenir"
 QUE_social_conservative_party_long:0 "National Union"
@@ -68,13 +68,13 @@ QUE_autocratic_DEF:0 "the State of Quebec"
 ### Ideas ###
 
 QUE_crown_of_yore:0 "Crown of Yore"
-QUE_crown_of_yore_desc:0 ""
+QUE_crown_of_yore_desc:0 "The hateful English continues to hold dominion over our land and our people. This is nothing we wish for, but until God gives us his hand, we remain under their crown and scepter."
 QUE_land_of_my_father:0 "Land of My Father"
-QUE_land_of_my_father_desc:0 ""
+QUE_land_of_my_father_desc:0 "For decades, this once was the home of devoted Catholics who toiled to grow crops. And for decades, this was where the first colonists came to reside in. Quebec remains unchanged, just as the earth remains forever."
 QUE_anglo_french_divide:0 "Anglo-French Divide" 
-QUE_anglo_french_divide_desc: ""
+QUE_anglo_french_divide_desc: "Canada has shattered, and without the lands that once stood united under the English Crown, we dared to embrace our French identity. But some among us still cling to their English blood. Some are suspect, for even the most loyal among them may not approve our ambitions."
 QUE_socialist_infiltration:0 "Socialist Infiltration"
-QUE_socialist_infiltration_desc:0 ""
+QUE_socialist_infiltration_desc:0 "We are surrounded by enemies. Traitors on one side, and American reds on the other. Though peace exists between us and the godless socialists, and though their combined influence remains dull, we still fear the day they’ll come, thirsty for blood."
 ### Flags ###
 
 ### Tooltips ###
