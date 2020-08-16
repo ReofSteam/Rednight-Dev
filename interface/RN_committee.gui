@@ -27,7 +27,16 @@ guiTypes = {
 			spriteType ="GFX_tiled_bg"
 			
 		}
-		
+		iconType = {
+			name = "putschpic"
+			position = { x = 12 y = 17 }
+			#Orientation = "CENTER"
+			spriteType = "GFX_putschpic"
+			frame = 1
+			#pdx_tooltip = "secondary_name_tt"
+			#pdx_tooltip_delayed = "secondary_full_name_tt"
+			scale = 0.991
+		}
 		buttonType = {
 			name = "open_button"
 			quadTextureSprite = "GFX_close"
@@ -44,15 +53,16 @@ guiTypes = {
 			#pdx_tooltip_delayed = "committee_tt"
 			position = { x = 425 y = 385 }
 		}
+		
 		iconType = {
 			name = "comite"
-			position = { x = 260 y = 30 }
+			position = { x = 320 y = 20 }
 			#Orientation = "CENTER"
 			spriteType = "GFX_comite"
 			frame = 1
 			#pdx_tooltip = "secondary_name_tt"
 			#pdx_tooltip_delayed = "secondary_full_name_tt"
-			scale = 0.75
+			scale = 0.8
 		}
 		instantTextBoxType = {
 			name = "cherb_name"

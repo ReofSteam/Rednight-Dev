@@ -68,4 +68,8 @@ spriteTypes = {
 	name = "GFX_comite"
 	texturefile = "gfx/interface/comite.dds"
 	}	
+	spriteType = {
+	name = "GFX_putschpic"
+	texturefile = "gfx/interface/putschpic.dds"
+	}	
 }
