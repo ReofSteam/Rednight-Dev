@@ -21,7 +21,7 @@ guiTypes = {
 		animation_time = 600
 
 		size = { width = 1024 height = 800 }
-		moveable = no
+		moveable = yes
 		background = {
 			name = "hog_gui_background"		
 			spriteType ="GFX_tiled_bg"
