@@ -35,7 +35,7 @@ defined_text = { # Country
 defined_text = { # Country
 	name = marineGetPutschPortrait
 	text = {
-		trigger = { has_country_flag = par_putscihsts_pacified }
+		trigger = { has_country_flag = marine_putscihsts_pacified }
 		localization_key = "GFX_FROGGED"
 	}
 	text = {
@@ -57,7 +57,7 @@ defined_text = { # Country
 defined_text = { # Country
 	name = balGetPutschPortrait
 	text = {
-		trigger = { has_country_flag = marine_putscihsts_pacified }
+		trigger = { has_country_flag = bal_putscihsts_pacified }
 		localization_key = "GFX_FROGGED"
 	}
 	text = {
@@ -68,7 +68,7 @@ defined_text = { # Country
 defined_text = { # Country
 	name = paratroopsGetPutschPortrait
 	text = {
-		trigger = { has_country_flag = bal_putscihsts_pacified }
+		trigger = { has_country_flag = par_putscihsts_pacified }
 		localization_key = "GFX_FROGGED"
 	}
 	text = {
