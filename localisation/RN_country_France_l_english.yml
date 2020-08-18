@@ -123,6 +123,6 @@ fra.5.b:0 "Aux armes... citoyens"
 committee_tt:0 "§YDeal with the Committee§!"
 milaction_tt:0 "§WUse military action to pacify the putschists. You'll need at least §Y100 Support Equipment§! and §Y5% Stability§! to pull it off.\n\nObviously, you can do it only once, and you don't have to subdue them again.§Y"
 polaction_tt:0 "§WUse political action to pacify the putschists. You'll need at least §Y30 Political Power§! to pull it off.\n\Yet again, you can do it only once, and you don't have to listen to them them again.§!"
-dismantling_ready_tt:0 "§WDismantle the Committee. You'll have to §Ypacify all five actors§! in order to proceed.\n\nOtherwise, you will have to §Rcomply with their demands.§!§!"
+dismantling_ready_tt:0 "§WTo retake Paris you would need to §Ypacify all five collaborators§! in order to proceed.\n\nOtherwise, you will have to §Rcomply with their demands.§!§!"
 
 fradeal_tt:0 "§W§YA new menu§! concerning the matters of the Committee will open on the §Ypolitical screen.§!§!"

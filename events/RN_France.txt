@@ -368,10 +368,16 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	trigger = { 
+	has_country_flag = Putsch_fully_defeated
+	}	
 	name = fra.5.a
 	
 }	
 	option = {
+	trigger = { 
+	has_country_flag = Pustch_military_influence
+	}	
 	name = fra.5.b
 	
 }

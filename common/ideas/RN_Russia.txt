@@ -4,7 +4,7 @@ ideas = {
 	country = {
 		RUS_yusopov_investments = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_yusopov_investments"}
-			picture = AUS_age_uncertainty
+			picture = RUS_Yusopov_money
 			modifier = {
 production_speed_buildings_factor = 0.05
 			}
@@ -17,6 +17,20 @@ production_speed_buildings_factor = 0.05
 			picture = AUS_age_uncertainty
 			modifier = {
 production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}	
+	country = {
+		RUS_five_years_plan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_five_years_plan"}
+			picture = RUS_five_years_plan
+			modifier = {
+production_speed_buildings_factor = 0.15
+production_factory_max_efficiency_factor = 0.10
+consumer_goods_factor = -0.05
+local_resources_factor = 0.05
+political_power_gain = -0.25
 			}
 		}
 

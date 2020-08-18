@@ -133,6 +133,15 @@ spriteTypes = {
 		name = "GFX_idea_RUS_Ukraine"
 		texturefile = "gfx/interface/ideas/RUS/RUS_Ukraine.dds"
 	}	
+		spriteType = {
+		name = "GFX_idea_RUS_Yusopov_money"
+		texturefile = "gfx/interface/ideas/RUS/RUS_Yusopov_money.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_RUS_five_years_plan"
+		texturefile = "gfx/interface/ideas/RUS/RUS_five_years_plan.dds"
+	}	
+	
 ###Quebec#####
 	spriteType = {
 		name = "GFX_idea_QUE_anglo_french_divide"

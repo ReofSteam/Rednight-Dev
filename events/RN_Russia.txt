@@ -141,6 +141,10 @@ declare_war_on = {
 	days = 2
 	}
 	country_event = { 
+	id = rus.25
+	days = 130
+	}	
+	country_event = { 
 	id = rus.29
 	days = 4
 	}	
@@ -161,6 +165,10 @@ hidden = yes
 	is_triggered_only = yes
 
 	option = {
+	country_event = { 
+	id = rus.14
+	days = 160
+	}		
 	set_country_flag = Super_Event_Visible
     set_country_flag = RUS_anti_russia_revolt		
 	
@@ -174,24 +182,13 @@ country_event = { #Finnish rebels victory
 	picture = GFX_rebel_1
 	fire_only_once = yes
 	is_triggered_only = no
-mean_time_to_happen = { 
-days = 50
-		modifier = {
-			factor = 1
-	has_global_flag = {
-    flag = RUS_great_rebellion_FIN	
-    days > 130
-}
-		}
-}	
 	trigger = { 
 	original_tag = RUS
-	RUS = {
-	AND = {
     has_global_flag = {
-    flag = RUS_great_rebellion_FIN	
-    days > 130
-}
+    flag = RUS_great_rebellion_FIN
+AND = {	
+	FIN = exist
+	RFN = exist
 }
 }
 }
@@ -264,6 +261,7 @@ country_event = { #Warsaw Conference
 
 	option = { 
 	trigger = { has_country_flag = RFN_defeated }
+	set_country_flag = RUS_lost_territory
 	name = rus.28.a	
 transfer_state = 146	
 	}
@@ -421,12 +419,15 @@ fire_only_once = yes
 country_event = { #Levitov denounces Skoblin 
 	id = rus.15
 	title = rus.15.t
-	desc = kn_rus.15.d
+	desc = rus.15.d
 	picture = GFX_RUS_duma
 
 	is_triggered_only = yes
 fire_only_once = yes
 	option = {
+	trigger = {
+	has_country_flag = RUS_lost_territory
+	}
 		name = rus.15.a
 	}
 }
