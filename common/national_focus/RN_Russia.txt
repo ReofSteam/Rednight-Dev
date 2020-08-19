@@ -486,6 +486,7 @@ focus_tree = {
 			factor = 1
 		}
 	completion_reward = {	
+	add_political_power = 50	
 	add_timed_idea = {
     idea = RUS_five_years_plan
     days = 120
@@ -509,12 +510,13 @@ focus_tree = {
 		completion_reward = { 
 		hidden_effect = {
 		country_event = {
-    id = RUS.5
+    id = rus.5
     days = 730
     }
 		}
 		custom_effect_tooltip = RUS_siberian_plan_tt
 		set_country_flag = construct_siberian_infra
+		add_political_power = 50	
 		add_timed_idea = {
     idea = RUS_siberian_plan
     days = 120
@@ -534,6 +536,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	set_country_flag = RUS_corporatist_land_reforms
+	add_political_power = 50
+
+}	
 	}
 
 	#Focus for Rural Electrification Program

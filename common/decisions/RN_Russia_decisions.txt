@@ -905,3 +905,227 @@ the_corridor_closes = {                           # This is our mission id
 
 
 }
+
+RUS_five_years_plan = { 
+RUS_national_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_manpower = 10
+	}
+		} 
+RUS_national_farms = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			AND = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_corporatist_land_reforms
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_manpower = 10
+	}
+		}
+RUS_Petrogard_Moscow_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+          add_manpower = 1000
+          }
+		}		
+RUS_North_Causcacus_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_manpower = 10
+	}
+		}	
+RUS_Volga_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		days_re_enable = 30
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+          add_manpower = 1000
+          }
+		}		
+RUS_Nizhny_Novgorod_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		days_re_enable = 30
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+          add_manpower = 1000
+          }
+		}	                           
+RUS_completion_of_NEP = {                         
+          allowed = { tag = RUS }              
+          available = {                         
+               has_country_flag = RUS_five_years_plan                   
+          }
+          activation = {                        
+               has_country_flag = RUS_five_years_plan                   
+          }
+          is_good = yes                         
+          selectable_mission = no               
+          days_mission_timeout = 365             
+          timeout_effect = {                     
+               add_political_power = -100     
+			   add_timed_idea = {
+    idea = RUS_failed_NEP
+    days = 60
+}
+			   
+          }
+          complete_effect = {                    
+               add_political_power = 100     
+add_timed_idea = {
+    idea = RUS_successful_NEP
+    days = 60
+}			   
+          }
+     }
+}		

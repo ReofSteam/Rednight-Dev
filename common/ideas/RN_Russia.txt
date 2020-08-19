@@ -34,5 +34,25 @@ political_power_gain = -0.25
 			}
 		}
 
+	}
+	country = {
+		RUS_failed_NEP = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_failed_NEP"}
+			picture = RUS_failed_NEP
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}
+	country = {
+		RUS_successful_NEP = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_successful_NEP"}
+			picture = RUS_successful_NEP
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
 	}	
 }

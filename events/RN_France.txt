@@ -140,7 +140,7 @@ country_event = {
 	id = putsch.1
 	title = putsch.1.t
 	desc = putsch.1.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -154,7 +154,7 @@ country_event = {
 	id = putsch.2
 	title = putsch.2.t
 	desc = putsch.2.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -168,7 +168,7 @@ country_event = {
 	id = putsch.3
 	title = putsch.3.t
 	desc = putsch.3.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -182,7 +182,7 @@ country_event = {
 	id = putsch.4
 	title = putsch.4.t
 	desc = putsch.4.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -196,7 +196,7 @@ country_event = {
 	id = putsch.5
 	title = putsch.5.t
 	desc = putsch.5.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -210,7 +210,7 @@ country_event = {
 	id = putsch.6
 	title = putsch.6.t
 	desc = putsch.6.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -224,7 +224,7 @@ country_event = {
 	id = putsch.7
 	title = putsch.7.t
 	desc = putsch.7.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -238,7 +238,7 @@ country_event = {
 	id = putsch.8
 	title = putsch.8.t
 	desc = putsch.8.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -252,7 +252,7 @@ country_event = {
 	id = putsch.9
 	title = putsch.9.t
 	desc = putsch.9.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -266,7 +266,7 @@ country_event = {
 	id = putsch.10
 	title = putsch.10.t
 	desc = putsch.10.d
-	picture = GFX_FRA_may_pustch
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
@@ -288,6 +288,7 @@ country_event = {
 		name = putsch.11.a
 		clr_country_flag = show_putch_menu
 		clr_country_flag = may_pustch
+		country_event = fra.5
 		if = {
     	limit = {
         has_stability < 0.3 
@@ -298,9 +299,7 @@ country_event = {
 		set_country_flag = Putsch_fully_defeated
 		}
 		}
-	country_event = {
-	id = fra.5
-	}		
+		
 	}
 
 country_event = {
@@ -351,6 +350,7 @@ country_event = {
 country_event = {
 	id = fra.5
 	title = fra.5.t
+	picture = GFX_FRA_pierre	
 	desc = {
 	text = fra.5.d
 	trigger = { 

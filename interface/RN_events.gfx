@@ -89,9 +89,17 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/FRA_may_pustch.dds"
 	}
 		spriteType = { 
-		name = "GFX_FRA_may_pustch2"
-		texturefile = "gfx/event_pictures/FRA_may_pustch2.dds"
+		name = "GFX_FRA_protest"
+		texturefile = "gfx/event_pictures/FRA_protest.dds"
 	}
+		spriteType = { 
+		name = "GFX_FRA_pierre"
+		texturefile = "gfx/event_pictures/FRA_pierre.dds"
+	}
+		spriteType = { 
+		name = "GFX_FFRA_soldier"
+		texturefile = "gfx/event_pictures/FRA_soldier.dds"
+	}	
 	#####Russia
 			spriteType = { 
 		name = "GFX_RUS_kremlin"
