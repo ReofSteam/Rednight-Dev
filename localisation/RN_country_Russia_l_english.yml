@@ -5,6 +5,9 @@
 ### Opinions ###
 
 ### Events ###
+rus.1.a:0 "Russia, We Greet You"
+rus.1.d:0 "Few nations in the world can boast of having overcome obstacles greater than Russia to rise to greatness. Within less than 50 years, Russia went from the disasterous civil war, political incompetences and being the undeveloped backwater of Europe to one of the few superpowers of the world, a transformation that can be attributed to the first Vozhd of All-Russia, Lavr Kornilov.\n\nSince then, the man who restored Russia to its dignity has passed, and Nikolai Skoblin has seized the reins of state in the infighting, promising to continue Kornilov’s vision for the nation and oppose vigilantly the Westerm scrougre of socialism. Skoblin portrays himself as a devout Kornilovist who would protect the legacy and a continuation of the golden Kornilov years. However, his ruthless position to maintain the status quo despite the many problems and contradictions yet to be solved in Kornilov's time will come to earn him enemies from the Five-Headed Regime itself. After the war, the former Eastern Coalition, now known as the Eurasian Treaty Organisation is still the same as it was, not bound by trust, but are solely united through fear of the Reds. Under the double-headed eagle's shadow, the Russian economy was rapidly developed during the Kornilov years, but even so it is still behind its counterparts in Western Europe. At the same times the reconquered and reintegrated territories of Russia posses a threat of their own, with the forces that oppose the unification as they fight to regain the independence and autonomy they have enjoyed for decades.\n\n A new day rises, and Russia will march on."
+rus.1.a:0 "To serve russia, its our destiny"
 rus.12.t:0 "Ukraine Revolt"
 rus.12.d:0 "Reports of traitorous towns on the periphery of Russian controlled Ukraine and sporadic shootings at farmsteads have been building steadily as of late,  despite our extensive state censorship efforts. However, it appears now the dam has officially broken, and the scale of the situation is truly staggering.\n\nIt appears a full scale revolt is currently underway across Eastern Ukraine, threatening the city of Kiev itself! Frenzied troop deployments and panicked Gopnik detachtments have been deployed to the Ukraine.\n\nA certain previously obscure group known as the/ "Ukranian Revolutionary Army/" led by the so-called \"Gentleman General\" Andriy Melnyk with its root in the old regime military seems to be the chief conspirators behind this treasonous affair."
 rus.12.a:0 "No mercy for the traitors"
@@ -59,7 +62,7 @@ rus.29.d:0 "One by one, the dominoes are falling, and as panicked soldiers scram
 rus.29.a:0 "Ain't thats too many revolts"
 rus.30.t:0 "Cossack Coup in Rostov-on-Don"
 rus.30.d:0 "We have lost control in Rostov-on-Don! Reports filtering out of the city suggest it has been seized by a rogue faction of cossacks, under the leadership of the self proclaimed Ataman Andrei Shkuro.\n\nUnder the command of this terrorist lies an entire division sized force, which is wholly dedicated to opposing our so called "anti-cossack policies" as well as our land program.\n\nDemands have been made for a full return of Don-Kuban autonomy, a demand we can never abide! Death to Traitors!"
-rus.30.a:0 "Okay"
+rus.30.a:0 "Come on!"
 rus.31.t:0 "Siberian Conspiracy"
 rus.31.d:0 "Siberia is Revolting! Inspired by his Don counterparts, Ivan Kalmykov, yet another self proclaimed "Ataman" has proceeded with his very own daring gambit. Rising alongside remaining siberian cossack forces, he and his  opportunistic bandits have seized a vast portion of the Trans-Siberian Railway, holding it hostage until their ludicrous demands are also met. We will not let criminals and Kolchackvite elements in Siberia destroy our nation!"
 rus.31.a:0 "Ok, who isn't revolting?"
@@ -391,6 +394,10 @@ RUS_perestroika_desc:0 ""
 RUS_yusopov_investments:0 "Yusopov Investments"
 RUS_siberian_plan:0 "Siberian Plan"
 RFN_finnish_rebellion:0 "Finland Rebellion"
+RUS_NOELRUD:0 "NOELRUD"
+RUS_NOELRUD_desc:0 "National Commission on the Electrification of Rural Territories"
+RUS_failed_NEP:0 "Economic Stagnation"
+RUS_successful_NEP:0 "Sucesses of the NEP"
  
 ### Flags ###
 RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
@@ -403,6 +410,8 @@ RUS_yusopov_decrees_tt:0 "§RYusopov Congolomere will now start investing in Sib
 RUS_siberian_plan_tt:0 ""§RYou can now start improving Siberian infrastructure§"
 WAR_NAME_RFN_FIN:0 "Finnish Second War of Independence"
 WAR_NAME_RUR_UKR:0 "Ukranian National Liberation War"
+WAR_NAME_RUS_DCO:0 "Cossack Crisis"
+WAR_NAME_RUS_EST:0 "Estonian Insurgency"
 ### Companies ###
 
 ### Ministers ###

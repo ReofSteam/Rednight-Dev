@@ -26,7 +26,7 @@ RUS_siberian_industrialisation = {
 				has_country_flag = yusopov_decrees
 		}
 
-		cost = 80
+		cost = 20
 		days_re_enable = 20
 
 		ai_will_do = {
@@ -252,7 +252,7 @@ RUS_construct_siberian_mil_factory = {
 			has_country_flag = yusopov_decrees
 		}
 
-		cost = 80
+		cost = 20
 		days_re_enable = 20
 
 		ai_will_do = {
@@ -479,7 +479,7 @@ RUS_construct_siberian_infra = {
 			has_country_flag = construct_siberian_infra
 		}
 
-		cost = 80
+		cost = 20
 		days_re_enable = 20
 
 		ai_will_do = {
@@ -933,9 +933,17 @@ RUS_national_electrification = {
 			factor = 10
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
-			add_manpower = 10
-	}
+          add_manpower = -5000
+          }  
+          days_remove = 120
+          remove_effect = {
+		  add_ideas	= { RUS_NOELRUD }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 5000
+          }
 		} 
 RUS_national_farms = {
 		icon = generic_prepare_civil_war
@@ -967,7 +975,10 @@ RUS_national_farms = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
-			add_manpower = 10
+			add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
 	}
 		}
 RUS_Petrogard_Moscow_rail_electrification = {
@@ -1000,6 +1011,40 @@ RUS_Petrogard_Moscow_rail_electrification = {
           }  
           days_remove = 70
           remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+244 = { = add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+264 = { = add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+247 = { = add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+219 = { = add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+195 = { = add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
           add_manpower = 1000
           }
 		}		
@@ -1029,10 +1074,17 @@ RUS_North_Causcacus_rail_electrification = {
 			factor = 10
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
-			add_manpower = 10
-	}
-		}	
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 1000
+          }
+		}
 RUS_Volga_rail_electrification = {
 		icon = generic_prepare_civil_war
 
@@ -1064,6 +1116,52 @@ RUS_Volga_rail_electrification = {
           }  
           days_remove = 70
           remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+406 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+407 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+652 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+251 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+250 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+255 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+401 = { = add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
           add_manpower = 1000
           }
 		}		
@@ -1098,13 +1196,25 @@ RUS_Nizhny_Novgorod_rail_electrification = {
           }  
           days_remove = 70
           remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
           add_manpower = 1000
           }
 		}	                           
 RUS_completion_of_NEP = {                         
           allowed = { tag = RUS }              
           available = {                         
-               has_country_flag = RUS_five_years_plan                   
+               AND = {
+			   has_country_flag = RUS_rural_electrification
+			   check_variable = {
+    var = RUS_nep
+    value = 3
+    compare = greater_than_or_equals
+}
+			   }
+			   
           }
           activation = {                        
                has_country_flag = RUS_five_years_plan                   
@@ -1121,7 +1231,7 @@ RUS_completion_of_NEP = {
 			   
           }
           complete_effect = {                    
-               add_political_power = 100     
+          add_political_power = 100     
 add_timed_idea = {
     idea = RUS_successful_NEP
     days = 60

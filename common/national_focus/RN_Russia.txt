@@ -486,6 +486,10 @@ focus_tree = {
 			factor = 1
 		}
 	completion_reward = {	
+	set_variable = {
+    var = RUS_nep
+    value = 0
+}
 	add_political_power = 50	
 	add_timed_idea = {
     idea = RUS_five_years_plan

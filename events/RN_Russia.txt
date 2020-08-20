@@ -9,7 +9,6 @@ country_event = { #Good Morning Rusia
 	title = rus.1.t
 	desc = rus.1.d
 	picture = GFX_rebel_1
-hidden = yes
 	is_triggered_only = yes
 
 	option = {
@@ -398,6 +397,24 @@ hidden = yes
 		name = rus.33.f
 	
 	}	
+}
+
+country_event = { #Victory against Finnish Rebels
+	id = rus.34
+	title = rus.34.t
+	desc = rus.34.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+
+	option = {
+	clr_country_flag = RUS_great_rebellion_FIN
+	clr_global_flag = RUS_great_rebellion_FIN
+	set_country_flag = RFN_undefeated
+	annex_country = {
+	target = RFN
+	transfer_troops = yes
+	}
+	}
 }
 
 
