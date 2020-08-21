@@ -398,6 +398,10 @@ RUS_NOELRUD:0 "NOELRUD"
 RUS_NOELRUD_desc:0 "National Commission on the Electrification of Rural Territories"
 RUS_failed_NEP:0 "Economic Stagnation"
 RUS_successful_NEP:0 "Sucesses of the NEP"
+RUS_minorities_crisis:0 "Narodnost Crisis"
+RUS_minorities_crisis_2:0 "Nationality Intergration"
+RUS_minorities_crisis_3:0 "Minorities System"
+RUS_minorities_crisis_4:0 "National Russification"
  
 ### Flags ###
 RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
@@ -415,7 +419,10 @@ WAR_NAME_RUS_EST:0 "Estonian Insurgency"
 ### Companies ###
 
 ### Ministers ###
-
+RUS_ivan_ilyin:0 "Ivan Ilyn" 
+RUS_Ivan_Mikhailov:0 "Ivan Mikhailov"
+RUS_Alexander_Kazembek:0 "Alexander Kazembek"
+RUS_Vsevolod_Merkulov:0 "Vsevolod Merkulov"
 
 ### Leaders ###
 

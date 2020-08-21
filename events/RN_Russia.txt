@@ -513,7 +513,7 @@ country_event = { #Assemble a New Council
 	id = rus.19
 	title = rus.19.t
 	desc = rus.19.d
-	picture = GFX_RUS_wrangel
+	picture = GFX_RUS_kremlin
 
 	is_triggered_only = yes
 fire_only_once = yes
@@ -528,7 +528,7 @@ country_event = { #Government Structure Policy
 	id = rus.20
 	title = rus.20.t
 	desc = rus.20.d
-	picture = GFX_RUS_wrangel
+	picture = GFX_RUS_kremlin
 fire_only_once = yes
 
 	is_triggered_only = yes
@@ -548,7 +548,7 @@ country_event = { #Racial Policy
 	id = rus.21
 	title = rus.21.t
 	desc = rus.21.d
-	picture = GFX_RUS_wrangel
+	picture = GFX_RUS_kremlin
 fire_only_once = yes
 
 	is_triggered_only = yes
@@ -568,7 +568,7 @@ country_event = { #A Council is Assembled
 	id = rus.22
 	title = rus.22.t
 	desc = rus.22.d
-	picture = GFX_RUS_wrangel
+	picture = GFX_RUS_kremlin
 fire_only_once = yes
 
 	is_triggered_only = yes
@@ -688,5 +688,81 @@ fire_only_once = yes
 			name = RUS_ultraconservative_Ilynist_party_party
 		}
 		complete_national_focus = RUS_the_ilyinists
+	}
+}
+
+country_event = { #Teutonphobia
+	id = rus.40
+	title = rus.40.t
+	desc = rus.40.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.40.a
+		set_country_flag = RUS_teutonphobia
+		add_political_power	= 25
+	PRS = { country_event = PRS.4 }	
+	}
+}
+
+country_event = { #Teutonphobia 2 - Land Policy
+	id = rus.41
+	title = rus.41.t
+	desc = rus.41.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.41.a
+		add_stability = -0.1
+		add_popularity = 0.1
+		add_political_power	= 25
+		13 = {
+		add_state_modifier = {
+        modifier = {
+        local_resources = 2.0
+    }
+}
+	}
+}
+}
+country_event = { #Teutonphobia 3 - Army reforms
+	id = rus.42
+	title = rus.42.t
+	desc = rus.42.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.42.a
+		add_stability = -0.1
+		add_popularity = 0.1
+		add_political_power	= 25
+	}
+}
+
+country_event = { #Teutonphobia - Russification of the Baltics
+	id = rus.44
+	title = rus.44.t
+	desc = rus.44.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.44.a
+		add_state_core = 13
+		add_state_core = 191
+		add_state_core = 12
+		add_state_core = 190
+		
 	}
 }

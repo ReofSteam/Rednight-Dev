@@ -65,5 +65,53 @@ production_factory_max_efficiency_factor = 0.10
 			}
 		}
 
+	}
+	country = {
+		RUS_minorities_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis"}
+			picture = RUS_minorities_crisis
+			modifier = {
+			stability_factor = -0.30
+			conscription = -0.02
+			war_support_factor = -0.20	
+			}
+		}
+
 	}	
+	country = {
+		RUS_minorities_crisis_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_2"}
+			picture = RUS_minorities_crisis
+			modifier = {
+			stability_factor = -0.25
+			conscription = -0.01
+			war_support_factor = -0.10	
+			}
+		}
+
+	}
+	country = {
+		RUS_minorities_crisis_3 = { #Loyal Minorities
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_3"}
+			picture = RUS_minorities_crisis_better
+			modifier = {
+			stability_factor = -0.05
+			conscription = -0.01
+			war_support_factor = 0.10	
+			}
+		}
+
+	}	
+	country = {
+		RUS_minorities_crisis_4 = { #All-Russa
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_4"}
+			picture = RUS_minorities_crisis_better_2
+			modifier = {
+			stability_factor = -0.15
+			conscription = 0.02
+			war_support_factor = -0.10	
+			}
+		}
+
+	}		
 }

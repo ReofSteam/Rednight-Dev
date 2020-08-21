@@ -918,6 +918,7 @@ RUS_national_electrification = {
 		available = {
 			RUS = {
 				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_rural_electrification
 			}
 		}
 

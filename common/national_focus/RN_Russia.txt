@@ -113,6 +113,9 @@ focus_tree = {
 		x = 6
 		y = 8
 		cost = 10
+		allow_branch = {
+		has_country_flag = RUS_Levitov_took_over
+		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -393,11 +396,34 @@ focus_tree = {
 		x = 3
 		y = 2
 		cost = 10
+			select_effect = {
+			country_event = {
+				id = rus.40
+				days = 2
+			}
+			country_event = {
+				id = rus.41
+				days = 7
+			}
+			country_event = {
+				id = rus.42
+				days = 21
+			}
+		country_event = {
+				id = rus.43
+				days = 40
+			}	
+		}	
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_the_savinkovist }
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	country_event = {
+				id = rus.44
+			}
+}	
 	}
 
 	#Focus for Reunification of Church and State
@@ -476,7 +502,7 @@ focus_tree = {
 		icon = GFX_RUS_five_years
 		x = 6
 		y = 4
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = RUS_loyal_minorities_system 
@@ -505,7 +531,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 5
 		y = 6
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_new_industrial_zones }
 		ai_will_do = {
@@ -520,7 +546,7 @@ focus_tree = {
 		}
 		custom_effect_tooltip = RUS_siberian_plan_tt
 		set_country_flag = construct_siberian_infra
-		add_political_power = 50	
+		add_political_power = 25	
 		add_timed_idea = {
     idea = RUS_siberian_plan
     days = 120
@@ -534,7 +560,7 @@ focus_tree = {
 		icon = GFX_RUS_corporatist_agarian_reform
 		x = 7
 		y = 5
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_5_years_plan }
 		ai_will_do = {
@@ -542,8 +568,7 @@ focus_tree = {
 		}
 	completion_reward = {
 	set_country_flag = RUS_corporatist_land_reforms
-	add_political_power = 50
-
+	add_political_power = 25	
 }	
 	}
 
@@ -553,12 +578,16 @@ focus_tree = {
 		icon = GFX_ENG_all_your_valleys_call_you
 		x = 7
 		y = 6
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_corporatist_agarian_reform }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_political_power = 25		
+		set_country_flag = RUS_rural_electrification				
+	}	
 	}
 
 	#Focus for Levitov's Council
@@ -568,6 +597,9 @@ focus_tree = {
 		x = 23
 		y = 0
 		cost = 10
+		available = {
+		has_country_flag = RUS_Levitov_took_over
+		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -615,7 +647,7 @@ focus_tree = {
 		icon = GFX_RUS_russian_national
 		x = 6
 		y = 2
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = RUS_the_savinkovist 
@@ -624,6 +656,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+	    swap_ideas = {
+     remove_idea = RUS_minorities_crisis
+     add_idea = RUS_minorities_crisis_2
+}	
+	}	
 	}
 
 	#Focus for Skoblin's Council
@@ -697,6 +735,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		swap_ideas = {
+     remove_idea = RUS_minorities_crisis_2
+     add_idea = RUS_minorities_crisis_3
+}	
+	}	
 	}
 
 	#Focus for All-Russian People
@@ -712,6 +756,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		swap_ideas = {
+     remove_idea = RUS_minorities_crisis_2
+     add_idea = RUS_minorities_crisis_4
+}	
+	}	
 	}
 
 	#Focus for Nothing But The State
