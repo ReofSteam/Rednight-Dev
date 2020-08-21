@@ -350,10 +350,12 @@ focus_tree = {
 		x = 16
 		y = 12
 		cost = 10
+		available = {
+		has_country_flag = not_eurasianist
+		}
 		available_if_capitulated = yes
 		prerequisite = { 
 		focus = RUS_paneurasia_guidance_system 
-		has_country_flag = not_eurasianist
 		}
 		mutually_exclusive = { focus = RUS_encourage_private_enterprises }
 		ai_will_do = {
@@ -520,8 +522,8 @@ focus_tree = {
 	add_timed_idea = {
     idea = RUS_five_years_plan
     days = 120
+	}
 	set_country_flag = RUS_five_years_plan
-}
 	}
 	}
 

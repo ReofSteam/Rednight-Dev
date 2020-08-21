@@ -5,6 +5,7 @@ ideas = {
 	head_of_government = { ### Head of Government ###
 		RUS_ivan_ilyin = {
 			allowed = { original_tag = RUS }
+			picture = RUS_ivan_ilyin_minister
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = head_of_gov_available
@@ -24,6 +25,7 @@ ideas = {
 		## Foreign Minister ##
 		RUS_Alexander_Kazembek = {
 			allowed = { original_tag = RUS }
+			picture = RUS_Alexander_Kazembek_minister			
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
@@ -40,6 +42,7 @@ ideas = {
 		## Economy Minister ##
 		RUS_Ivan_Mikhailov = {
 			allowed = { original_tag = RUS }
+			picture = RUS_Ivan_Mikhailov_minister						
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
@@ -57,6 +60,7 @@ ideas = {
 		## Security Minister ##
 		RUS_Vsevolod_Merkulov = {
 			allowed = { original_tag = RUS }
+			picture = RUS_Vsevolod_Merkulov_minister						
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
@@ -315,14 +319,5 @@ ideas = {
 
 	}
 
-
-	chief_of_army = { ### Chief of Army ###
-	}
-
-	chief_of_navy = { ### Chief of Navy ###
-	}
-
-	chief_of_air_force = { ### Chief of Air Force ###
-	}
 
 }

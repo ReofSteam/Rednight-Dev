@@ -8,7 +8,7 @@ country_event = { #Good Morning Rusia
 	id = rus.1
 	title = rus.1.t
 	desc = rus.1.d
-	picture = GFX_rebel_1
+	picture = GFX_kremlin
 	is_triggered_only = yes
 
 	option = {
@@ -185,10 +185,8 @@ country_event = { #Finnish rebels victory
 	original_tag = RUS
     has_global_flag = {
     flag = RUS_great_rebellion_FIN
-AND = {	
 	FIN = exist
 	RFN = exist
-}
 }
 }
 	option = {
@@ -267,8 +265,8 @@ transfer_state = 146
 	option = {
 	trigger = { has_country_flag = RFN_undefeated }
 	name = rus.28.b	
-    puppet = FIN
-	FIN = { country_event = fin.7}
+    puppet = RFN
+	RFN = { country_event = fin.7}
 	
 }	
 }
@@ -370,7 +368,6 @@ country_event = { #who are you ?
 	title = rus.33.t
 	desc = rus.33.d
 	picture = GFX_rebel_1
-hidden = yes
 	is_triggered_only = yes
 
 	option = {
@@ -690,8 +687,8 @@ fire_only_once = yes
 		complete_national_focus = RUS_the_ilyinists
 	}
 }
-
-country_event = { #Teutonphobia
+#Teutonphobia
+country_event = { 
 	id = rus.40
 	title = rus.40.t
 	desc = rus.40.d
@@ -705,10 +702,12 @@ fire_only_once = yes
 		set_country_flag = RUS_teutonphobia
 		add_political_power	= 25
 	PRS = { country_event = PRS.4 }	
+	add_opinion_modifier = { target = PRS modifier = RUS_teutonphobia }
+
 	}
 }
-
-country_event = { #Teutonphobia 2 - Land Policy
+#Teutonphobia 2 - Land Policy
+country_event = { 
 	id = rus.41
 	title = rus.41.t
 	desc = rus.41.d
@@ -719,19 +718,20 @@ fire_only_once = yes
 
 	option = {
 		name = rus.41.a
-		add_stability = -0.1
-		add_popularity = 0.1
-		add_political_power	= 25
-		13 = {
-		add_state_modifier = {
-        modifier = {
-        local_resources = 2.0
+		PRS = { country_event = prs.5 }	
+		add_manpower = - 50000
+		add_stability = -0.05
     }
+	option = {
+		name = rus.41.b #Compensation
+		set_country_flag = RUS_baltic_compensation
+		PRS = { country_event = prs.5 }	
+		add_manpower = - 2000
+		add_political_power = - 50
+    }	
 }
-	}
-}
-}
-country_event = { #Teutonphobia 3 - Army reforms
+ #Teutonphobia 3 - Army reforms
+country_event = {
 	id = rus.42
 	title = rus.42.t
 	desc = rus.42.d
@@ -740,15 +740,67 @@ fire_only_once = yes
 
 	is_triggered_only = yes
 
-	option = {
-		name = rus.42.a
-		add_stability = -0.1
+	option = { #Remove them from power
+		name = rus.42.a 
 		add_popularity = 0.1
 		add_political_power	= 25
 	}
+	option = { #Purge all the Officer Corps
+		name = rus.42.b 
+		add_stability = -0.1
+		add_popularity = -0.1
+		add_political_power	= 50
+	add_timed_idea = {
+    idea = RUS_army_gap
+    days = 50
+}	
+	}	
+option = { #Reassign Baltic German officers
+		name = rus.42.c 
+		add_stability = -0.1
+		add_political_power	= 25
+	}	
+}
+###Teutonphobia 3 - Civil Service Reforms
+country_event = {
+	id = rus.43
+	title = rus.43.t
+	desc = rus.43.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.43.a #Remove all Germans from office
+		add_stability = -0.15
+		add_popularity = -0.10
+		add_political_power	= -25
+	add_timed_idea = {
+    idea = RUS_bad_civil_service
+    days = 80
+}			
+	}
+	option = {
+		name = rus.43.b #Retain German civil servants
+		add_stability = 0.05
+		add_popularity = -0.05
+		add_political_power	= -80
+	}
+	option = {
+		name = rus.43.a #Replace them with native civil servants
+		add_stability = 0.10
+		add_popularity = 0.05
+		add_political_power	= 25
+	add_timed_idea = {
+    idea = RUS_bad_civil_service
+    days = 80
+}			
+	}
 }
 
-country_event = { #Teutonphobia - Russification of the Baltics
+#Teutonphobia - Russification of the Baltics
+country_event = { 
 	id = rus.44
 	title = rus.44.t
 	desc = rus.44.d

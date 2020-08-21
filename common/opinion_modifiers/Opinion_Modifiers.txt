@@ -24,5 +24,8 @@ opinion_modifiers = {
 	CRO_italy_question = {
 		value = -50
 	}
+	RUS_teutonphobia = {
+		value = -50
+	}	
 
 }

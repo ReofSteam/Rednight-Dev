@@ -1,0 +1,21 @@
+spriteTypes = {
+
+
+###Russia
+	spriteType = {
+		name = "GFX_idea_RUS_ivan_ilyin_minister"
+		texturefile = "gfx/ministers/RUS/RUS_ivan_ilyin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Alexander_Kazembek_minister"
+		texturefile = "gfx/ministers/RUS/RUS_Alexander_Kazembek.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Ivan_Mikhailov_minister"
+		texturefile = "gfx/ministers/RUS/RUS_Ivan_Mikhailov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_Vsevolod_Merkulov_minister"
+		texturefile = "gfx/ministers/RUS/RUS_Vsevolod_Merkulov.dds"
+	}
+}

@@ -1,5 +1,4 @@
-﻿#From Russia, with Vozhd
-capital = 219
+﻿capital = 219
 add_ideas = {
 RUS_minorities_crisis
 }
@@ -67,8 +66,8 @@ set_popularities = {
 }
 
 country_event = {
-	id = kn_russia_pol.0
-	days = 511
+	id = rus.1
+	days = 1
 }
 
 create_faction = EATO
@@ -84,17 +83,6 @@ add_to_faction = HUN
 add_to_faction = BNT
 add_to_faction = CZE
 
-
-add_ideas = {
-	#medium_economy
-	#soviet_worker_soldier
-	#rus_divided_staff
-	#rus_divided_marine
-	#RUS_Pavel_N_Milyukov_hog_mli
-	#RUS_Pyotr_B_Struve_for_sli
-	#RUS_Nikolai_A_Maklakov_eco_pau
-	#RUS_Andrei_I_Shingarev_sec_mli
-}
 
 
 create_country_leader = {

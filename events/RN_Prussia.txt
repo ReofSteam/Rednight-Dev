@@ -40,4 +40,37 @@ create_country_leader = {
 }
 	}
 }
+#Russian Teutonphobia
+country_event = {
+	id = prs.4
+	title = prs.4.t
+	desc = prs.4.d
+	picture = GFX_FRA_commune
 
+	is_triggered_only = yes
+
+	option = {
+		name = prs.4.a
+		add_political_power = -50
+		add_opinion_modifier = { target = RUS modifier = RUS_teutonphobia }
+}
+}
+
+country_event = {
+	id = prs.5
+	title = prs.5.t
+	desc = prs.5.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.5.a
+		add_political_power = -50
+		add_manpower = 50000
+		add_timed_idea = {
+    idea = PRS_capital_flight
+    days = 80
+}
+}
+}

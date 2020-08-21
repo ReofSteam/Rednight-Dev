@@ -1016,31 +1016,31 @@ RUS_Petrogard_Moscow_rail_electrification = {
     var = RUS_nep
     value = 1
 }
-244 = { = add_building_construction = {
+244 = { add_building_construction = {
     type = infrastructure
     level = 2
     instant_build = yes
 }
 }
-264 = { = add_building_construction = {
+264 = { add_building_construction = {
     type = infrastructure
     level = 2
     instant_build = yes
 }
 }
-247 = { = add_building_construction = {
+247 = { add_building_construction = {
     type = infrastructure
     level = 2
     instant_build = yes
 }
 }
-219 = { = add_building_construction = {
+219 = { add_building_construction = {
     type = infrastructure
     level = 2
     instant_build = yes
 }
 }
-195 = { = add_building_construction = {
+195 = { add_building_construction = {
     type = infrastructure
     level = 2
     instant_build = yes
@@ -1121,43 +1121,43 @@ RUS_Volga_rail_electrification = {
     var = RUS_nep
     value = 1
 }
-406 = { = add_building_construction = {
+406 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-407 = { = add_building_construction = {
+407 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-652 = { = add_building_construction = {
+652 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-251 = { = add_building_construction = {
+251 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-250 = { = add_building_construction = {
+250 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-255 = { = add_building_construction = {
+255 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes
 }
 }
-401 = { = add_building_construction = {
+401 = { add_building_construction = {
     type = infrastructure
     level = 1
     instant_build = yes

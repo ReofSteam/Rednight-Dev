@@ -72,7 +72,7 @@ production_factory_max_efficiency_factor = 0.10
 			picture = RUS_minorities_crisis
 			modifier = {
 			stability_factor = -0.30
-			conscription = -0.02
+			conscription = -0.01
 			war_support_factor = -0.20	
 			}
 		}
@@ -84,7 +84,7 @@ production_factory_max_efficiency_factor = 0.10
 			picture = RUS_minorities_crisis
 			modifier = {
 			stability_factor = -0.25
-			conscription = -0.01
+			conscription = -0.005
 			war_support_factor = -0.10	
 			}
 		}
@@ -96,7 +96,7 @@ production_factory_max_efficiency_factor = 0.10
 			picture = RUS_minorities_crisis_better
 			modifier = {
 			stability_factor = -0.05
-			conscription = -0.01
+			conscription = -0.005
 			war_support_factor = 0.10	
 			}
 		}
@@ -114,4 +114,26 @@ production_factory_max_efficiency_factor = 0.10
 		}
 
 	}		
+	country = {
+		RUS_bad_civil_service = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_bad_civil_service"}
+			picture = RUS_bad_civil_service
+			modifier = {
+			local_resources_factor = -0.10
+			consumer_goods_factor = 0.05
+			}
+		}
+
+	}		
+	country = {
+		RUS_army_gap = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_army_gap"}
+			picture = RUS_army_gap
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}
 }
