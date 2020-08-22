@@ -215,6 +215,7 @@ RUS_far_east_industry:0 "Far East Industry"
 RUS_far_east_industry_desc:0 ""
 RUS_racial_reconciliation:0 "Racial Reconciliation"
 RUS_racial_reconciliation_desc:0 ""
+RUS_purge_the_radicals:0 "Purge the Radical Right"
 RUS_jewish_settlement_program:0 "Jewish Settlement Program"
 RUS_jewish_settlement_program_desc:0 ""
 RUS_the_eyes:0 "The Eyes"
@@ -431,12 +432,14 @@ RUS_loyal_minorities:0 "The Racial Policy of rewarding loyal minorities has been
 ### Tooltips ###
 RUS_A_Council_is_Selected_tt:0 "§RA Council will be assembled.§"
 RUS_yusopov_decrees_tt:0 "§RYusopov Congolomere will now start investing in Siberia§"
-RUS_siberian_plan_tt:0 ""§RYou can now start improving Siberian infrastructure§"
+RUS_siberian_plan_tt:0 "§RYou can now start improving Siberian infrastructure§"
 WAR_NAME_RFN_FIN:0 "Finnish Second War of Independence"
 WAR_NAME_RUR_UKR:0 "Ukranian National Liberation War"
 WAR_NAME_RUS_DCO:0 "Cossack Crisis"
 WAR_NAME_RUS_EST:0 "Estonian Insurgency"
 ### Companies ###
+RUS_national_construction_corporation:0 "National Construction Corporation"
+RUS_prodamet_corporation:0 "Prodamet Corporation"
 
 ### Ministers ###
 RUS_ivan_ilyin:0 "Ivan Ilyn" 
@@ -482,4 +485,6 @@ RUS_Petrogard_Moscow_rail_electrification:0 "Petrogard-Moscow Railway Electrific
 RUS_North_Causcacus_rail_electrification:0 "North Causcacus Railway Electrification"
 RUS_Volga_rail_electrification:0 "Volga Railway Electrification"
 RUS_Nizhny_Novgorod_rail_electrification:0 "Nizhny Novgorod Railway Electrification"
-RUS_completion_of_NEP:0 "Completion of the NEP"
+RUS_completion_of_NEP:0 "Failure of the NEP"
+RUS_heavy_industry_1:0 "Construction of Heavy Industry"
+RUS_heavy_industry_2:0 "Construction of Heavy Industry"

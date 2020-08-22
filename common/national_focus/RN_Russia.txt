@@ -205,7 +205,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		x = 15
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_the_eurasian_living_space }
 		ai_will_do = {
@@ -274,8 +274,8 @@ focus_tree = {
 
 	#Focus for Racial Reconciliation
 	focus = {
-		id = RUS_racial_reconciliation
-		icon = GFX_RUS_racial_reconciliation
+		id = RUS_purge_the_radicals
+		icon = GFX_RUS_purge_the_black_hundreds
 		x = 9
 		y = 5
 		cost = 10
@@ -383,12 +383,17 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		x = 5
 		y = 5
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_5_years_plan }
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	add_political_power = 25
+	country_event = rus.45
+
+}	
 	}
 
 	#Focus for State Teutophobia
@@ -430,7 +435,7 @@ focus_tree = {
 
 	#Focus for Reunification of Church and State
 	focus = {
-		id = RUS_reunification_of_church_and_state
+		id = RUS_racial_reconciliation
 		icon = GFX_focus_focus_fra_national_resistance_council
 		x = 9
 		y = 2
@@ -450,7 +455,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_reunification_of_church_and_state }
+		prerequisite = { focus = RUS_racial_reconciliation }
 		ai_will_do = {
 			factor = 1
 		}
@@ -717,7 +722,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_reunification_of_church_and_state }
+		prerequisite = { focus = RUS_racial_reconciliation }
 		ai_will_do = {
 			factor = 1
 		}

@@ -946,6 +946,84 @@ RUS_national_electrification = {
           add_manpower = 5000
           }
 		} 
+RUS_heavy_industry_1 = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_private_heavy_industry
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 60
+          remove_effect = {
+		  add_ideas	= { RUS_prodamet_corporation }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 1000
+          }
+		}		
+RUS_heavy_industry_2 = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_state_heavy_industry
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -5000
+          }  
+          days_remove = 80
+          remove_effect = {
+		  add_ideas	= { RUS_national_construction_corporation }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 5000
+          }
+}		  
 RUS_national_farms = {
 		icon = generic_prepare_civil_war
 
@@ -1079,6 +1157,48 @@ RUS_North_Causcacus_rail_electrification = {
           }  
           days_remove = 70
           remove_effect = {
+223 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+258 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+260 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+245 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+218 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}		  
+238 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+234 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
 		  add_to_variable = {
     var = RUS_nep
     value = 1
@@ -1197,6 +1317,42 @@ RUS_Nizhny_Novgorod_rail_electrification = {
           }  
           days_remove = 70
           remove_effect = {
+253 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+256 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+249 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+252 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+652 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+402 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}		  
 		  add_to_variable = {
     var = RUS_nep
     value = 1

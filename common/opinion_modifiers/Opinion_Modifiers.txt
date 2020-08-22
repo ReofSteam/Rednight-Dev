@@ -27,5 +27,8 @@ opinion_modifiers = {
 	RUS_teutonphobia = {
 		value = -50
 	}	
+	RUS_baltic_land_reforms = {
+		value = -50
+	}
 
 }
