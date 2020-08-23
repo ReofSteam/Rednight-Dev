@@ -730,6 +730,9 @@ focus_tree = {
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+		has_country_flag = RUS_loyal_minorities
+		}
 		prerequisite = { focus = RUS_russian_national 
 		}
 		mutually_exclusive = { focus = RUS_allrussian_people }
@@ -751,6 +754,9 @@ focus_tree = {
 		x = 7
 		y = 3
 		cost = 10
+		available = {
+		has_country_flag = RUS_national_unity
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_russian_national }
 		mutually_exclusive = { focus = RUS_loyal_minorities_system }
