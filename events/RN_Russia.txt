@@ -140,10 +140,6 @@ declare_war_on = {
 	days = 2
 	}
 	country_event = { 
-	id = rus.25
-	days = 130
-	}	
-	country_event = { 
 	id = rus.29
 	days = 4
 	}	
@@ -185,8 +181,8 @@ country_event = { #Finnish rebels victory
 	AND = {
 	original_tag = RUS
     has_global_flag = RUS_great_rebellion_FIN
-	FIN = exist
-	RFN = exist
+	FIN = { exists = yes }
+    RFN = { exist = yes }
 }
 }
 	option = {
@@ -208,6 +204,15 @@ set_country_flag = RFN_defeated
 	}}
 	}
 	option = {
+	trigger = { 
+	NOT = {
+	FIN = {
+controls_state = 840
+controls_state = 149
+controls_state = 864
+controls_state = 863
+}
+	}
 	name = rus.25.b
 	clr_global_flag = RUS_great_rebellion_FIN
 	clr_country_flag = RUS_great_rebellion_FIN
@@ -737,13 +742,11 @@ fire_only_once = yes
 
 	option = { 
 		name = rus.42.a 
-		add_popularity = 0.1
 		add_political_power	= 25
 	}
 	option = { 
 		name = rus.42.b 
 		add_stability = -0.1
-		add_popularity = -0.1
 		add_political_power	= 50
 	add_timed_idea = {
     idea = RUS_army_gap

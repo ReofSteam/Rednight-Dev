@@ -152,6 +152,8 @@ production_factory_max_efficiency_factor = 0.10
 				industry = 0.1
 			}
 		}
+	}	
+	industrial_concern = {
 		RUS_prodamet_corporation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_prodamet_corporation"}
 			allowed = { original_tag = RUS }

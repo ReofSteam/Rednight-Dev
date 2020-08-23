@@ -2,7 +2,8 @@ ideas = {
 
 ####RUS
 #######
-	head_of_government = { ### Head of Government ###
+	head_of_government = {
+	### Head of Government ###
 		RUS_ivan_ilyin = {
 			allowed = { original_tag = RUS }
 			picture = RUS_ivan_ilyin_minister
