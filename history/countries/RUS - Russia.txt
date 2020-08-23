@@ -61,13 +61,12 @@ set_popularities = {
     social_conservative = 7
     authoritarian_democrat = 20
     autocratic = 10
-    ultraconservative = 12
-    national_corporatist = 43
+    ultraconservative = 22
+    national_corporatist = 31
 }
 
 country_event = {
 	id = rus.1
-	days = 1
 }
 
 create_faction = EATO
@@ -91,6 +90,33 @@ create_country_leader = {
 	picture = "gfx/leaders/RUS/RUS_Skoblin.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Nikolai Skoblin"
+	desc = "POLITICS_NIKOLAI_SKOBLIN_DESC"
+	picture = "gfx/leaders/RUS/RUS_Skoblin.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Nikolai Skoblin"
+	desc = "POLITICS_NIKOLAI_SKOBLIN_DESC"
+	picture = "gfx/leaders/RUS/RUS_Skoblin.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Nikolai Skoblin"
+	desc = "POLITICS_NIKOLAI_SKOBLIN_DESC"
+	picture = "gfx/leaders/RUS/RUS_Skoblin.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }

@@ -946,7 +946,7 @@ RUS_national_electrification = {
           add_manpower = 5000
           }
 		} 
-RUS_heavy_industry_1 = {
+RUS_heavy_industry_2 = {
 		icon = generic_prepare_civil_war
 
 		allowed = {
@@ -977,6 +977,7 @@ RUS_heavy_industry_1 = {
           }  
           days_remove = 60
           remove_effect = {
+		  set_country_flag = RUS_heavy_industry_2
 		  add_ideas	= { RUS_prodamet_corporation }
 		  add_to_variable = {
     var = RUS_nep
@@ -985,7 +986,7 @@ RUS_heavy_industry_1 = {
           add_manpower = 1000
           }
 		}		
-RUS_heavy_industry_2 = {
+RUS_heavy_industry_1 = {
 		icon = generic_prepare_civil_war
 
 		allowed = {

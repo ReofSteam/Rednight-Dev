@@ -18,6 +18,14 @@ country_event = { #Good Morning Rusia
 		id = rus.12
 	days = 750 
 		}
+		country_event = {
+		id = terror.6
+	days = 18 
+		}
+	country_event = {
+		id = terror.3
+	days = 42 
+		}	
 		}
 }
 }
@@ -164,6 +172,10 @@ hidden = yes
 	id = rus.14
 	days = 160
 	}		
+add_named_threat = { 
+    threat = 5 
+    name = RUS_anti_russia
+}	
 	set_country_flag = Super_Event_Visible
     set_country_flag = RUS_anti_russia_revolt		
 	
@@ -182,7 +194,7 @@ country_event = { #Finnish rebels victory
 	original_tag = RUS
     has_global_flag = RUS_great_rebellion_FIN
 	FIN = { exists = yes }
-    RFN = { exist = yes }
+    RFN = { exists = yes }
 }
 }
 	option = {
@@ -213,6 +225,7 @@ controls_state = 864
 controls_state = 863
 }
 	}
+}	
 	name = rus.25.b
 	clr_global_flag = RUS_great_rebellion_FIN
 	clr_country_flag = RUS_great_rebellion_FIN
@@ -807,6 +820,7 @@ fire_only_once = yes
 
 	option = {
 		name = rus.44.a
+		set_country_flag = integrated_baltic
 		add_state_core = 13
 		add_state_core = 191
 		add_state_core = 12

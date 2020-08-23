@@ -136,14 +136,16 @@ production_factory_max_efficiency_factor = 0.10
 		}
 
 	}
-########Companies
+########Companies ########
 	industrial_concern = {
 
 		RUS_national_construction_corporation = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea kaiping_mines"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_national_construction_corporation"}
 			allowed = { original_tag = RUS }
 			traits = { industrial_manufacturer }
-			available = no 
+			available = {
+has_country_flag = RUS_heavy_industry_1
+}			
 			modifier = {
 				production_speed_arms_factory_factor = 0.1
 				production_speed_industrial_complex_factor = 0.2
@@ -158,7 +160,9 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_prodamet_corporation"}
 			allowed = { original_tag = RUS }
 			traits = { industrial_manufacturer }
-			available = no 
+			available = {
+has_country_flag = RUS_heavy_industry_2
+}			
 			modifier = {
 				production_speed_arms_factory_factor = 0.05
 				production_speed_industrial_complex_factor = 0.15
