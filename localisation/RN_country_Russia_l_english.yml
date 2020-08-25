@@ -408,8 +408,24 @@ RUS_surface_fleet:0 "Surface Fleet"
 RUS_surface_fleet_desc:0 ""
 RUS_perestroika:0 "Perestroika"
 RUS_perestroika_desc:0 ""
-
- 
+RUS_miracle_of_russian_statehood:0 "Miracle of Russian Statehood"
+RUS_miracle_of_russian_statehood_desc:0 ""
+RUS_ministry_of_reunited_territories:0 "Ministry of Reunited Territories"
+RUS_ministry_of_reunited_territories_desc:0 ""
+RUS_to_honour_all:0 "To Honour All"
+RUS_to_honour_all_desc:0 ""
+RUS_to_reconcile_all:0 "To Reconcile All"
+RUS_to_reconcile_all_desc:0 ""
+RUS_resotration_of_cossack_autonomies:0 "Restoration of Cossack Autonomies"
+RUS_resotration_of_cossack_autonomies_desc:0 ""
+RUS_national_ethnicities_commission:0 "National Ethnicities Commission"
+RUS_national_ethnicities_commission_desc:0 ""
+RUS_freedom_of_the_russians:0 "Freedom of the Russians"
+RUS_freedom_of_the_russians_desc:0 ""
+RUS_we_can_not_forgive:0 "We can not forgive"
+RUS_we_can_not_forgive_desc:0 ""
+RUS_soldiers_honour:0 "Honour of Soldiers"
+RUS_second_april_decrees:0 "Second April Decrees 
 ### Ideas ###
 
 RUS_yusopov_investments:0 "Yusopov Investments"
@@ -423,6 +439,8 @@ RUS_minorities_crisis:0 "Narodnost Crisis"
 RUS_minorities_crisis_2:0 "Nationality Intergration"
 RUS_minorities_crisis_3:0 "Minorities System"
 RUS_minorities_crisis_4:0 "National Russification"
+RUS_bad_civil_service:0 "Adjusting Civil Service"
+RUS_army_gap:0 "Gaps in the Armed Forces
  
 ### Flags ###
 RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
