@@ -141,7 +141,19 @@ spriteTypes = {
 		name = "GFX_idea_RUS_five_years_plan"
 		texturefile = "gfx/interface/ideas/RUS/RUS_five_years_plan.dds"
 	}	
-	
+		spriteType = {
+		name = "GFX_idea_RUS_narodost_1"
+		texturefile = "gfx/interface/ideas/RUS/RUS_narodost_1.dds"
+	}			
+		spriteType = {
+		name = "GFX_idea_RUS_narodost_2"
+		texturefile = "gfx/interface/ideas/RUS/RUS_narodost_2.dds"
+	}			
+		spriteType = {
+		name = "GFX_idea_RUS_narodost_3"
+		texturefile = "gfx/interface/ideas/RUS/RUS_narodost_3.dds"
+	}			
+			
 ###Quebec#####
 	spriteType = {
 		name = "GFX_idea_QUE_anglo_french_divide"
@@ -225,4 +237,8 @@ spriteTypes = {
 		name = "GFX_idea_broken_railway"
 		texturefile = "gfx/interface/ideas/generic/generic_broken_railway.dds"
 	}	
+		spriteType = {
+		name = "GFX_idea_bad_military"
+		texturefile = "gfx/interface/ideas/generic/bad_military.dds"
+	}		
 }
