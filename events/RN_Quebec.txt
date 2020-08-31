@@ -15,6 +15,7 @@ news_event = {
 	fire_only_once = yes
     trigger = {
 		date > 1950.02.31
+		original_tag = QUE
 	}
 	mean_time_to_happen = {
 		days = 2
@@ -35,6 +36,7 @@ country_event = {
 	fire_only_once = yes
     trigger = {
 		date > 1951.01.31
+		original_tag = QUE		
 	}
 	mean_time_to_happen = {
 		days = 2

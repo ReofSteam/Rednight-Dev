@@ -23,7 +23,7 @@ ideas = {
 			
 			}
 			removal_cost = -1
-			picture = WCN_divided_nation
+			picture = broken_railway
 		}
 		WCN_western_revolt = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_western_revolt"}

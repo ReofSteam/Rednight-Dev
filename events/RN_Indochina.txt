@@ -77,8 +77,7 @@ news_event = { #Departure of President Ho
     desc = inc.2.d
     picture = GFX_indochina_military
     fire_only_once = yes
-    is_triggered_only = no
-date > 1950.11.3
+    is_triggered_only = yes
     mean_time_to_happen = {
         days = 1
     }
@@ -119,8 +118,7 @@ news_event = { #Death of the President
     desc = inc.9.d
     picture = GFX_indochina_military
     fire_only_once = yes
-    is_triggered_only = no
-date > 1950.3.11
+    is_triggered_only = yes
     mean_time_to_happen = {
         days = 1
     }

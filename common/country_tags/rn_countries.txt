@@ -14,6 +14,7 @@ RUS = "countries/WestEur.txt"
 RUR = "countries/WestEur.txt" #Little Russia 
 RFN = "countries/WestEur.txt" #Russian Finland
 SIB = "countries/WestEur.txt"
+TRM = "countries/WestEur.txt"	#Transamur
 
 ##Central
 CIS = "countries/Cisleithania.txt"
@@ -106,7 +107,6 @@ UAR = "countries/United Arab Republic.txt"
 AFG = "countries/Afghanistan.txt"
 KAZ = "countries/Kazakhstan.txt" 
 DCO = "countries/Kazakhstan.txt" #Don Cossack  
-#TRM = "countries/Turkmenistan.txt"		Unimplemented
 TRK = "countries/Turkestan.txt"
 
 ##East

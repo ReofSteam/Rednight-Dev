@@ -56,6 +56,10 @@ country_event = { #Peasants Revolt
     idea = UKR_peasant_rebellion
     days = 130
 }
+		declare_war_on = {
+			target = RUR
+			type = annex_everything
+		}    
 }
 	}
 }
