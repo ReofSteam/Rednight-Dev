@@ -51,46 +51,16 @@ set_popularities = {
 
 ### Starting cabinet
 add_ideas = {
-	#SER_Dragisa_Cvetkovic_hog_ade
-	#SER_Aleksandar_Cincar_Markovic_for_ade
-	#SER_Milan_Stojadinovic_eco_ade
-	#SER_Dragisa_Cvetkovic_sec_ade
 }
 
 ### Starting party leaders
-create_country_leader = {
-	name = "King Alexander I"
-	desc = "POLITICS_KING_ALEXANDER_SERBIA_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_King_Alexander.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = { }
-}
 
 create_country_leader = {
 	name = "Milan Stojadinović"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Milan_Stojadinovic.tga"
 	expire = "1965.1.1"
-	ideology = autocratic_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Dimitrije Ljotić"
-	desc = "POLITICS_DIMITRIJE_LJOTIC_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Dimitrije_Ljotic.tga"
-	expire = "1965.1.1"
-	ideology = ultraconservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Draža Mihailović"
-	desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Draza_Mihailovic.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 
