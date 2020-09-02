@@ -96,6 +96,13 @@ rus.43.c:0 "Replace them with native civil servants"
 rus.44.t:0 "Integration and Reconciliation of the Baltic Governorates"
 rus.44.d:0 "Now that all Germans are gone from power, we shall exercise utmoss control over Russian territories"
 rus.44.a:0 "Glory to Russia!"
+rus.52.t:0 "Agricultural Production Reorganisation Act"
+rus.52.d:0 "Russian dwalfholders are unproductive"
+rus.52.a:0 "Creation of the National Farms"
+rus.52.b:0 "Redistribute the lands from larger estates"
+rus.53.t:0 "Commission of National Land Development"
+rus.53.d:0 "Tractor time"
+rus.53.a:0 "Lets get to tractor"
 ### Parties ###
 
 RUS_social_democrat_party:0 "Ferburary Union"
@@ -464,7 +471,9 @@ RUS_minorities_crisis_3:0 "Minorities System"
 RUS_minorities_crisis_4:0 "National Russification"
 RUS_bad_civil_service:0 "Adjusting Civil Service"
 RUS_army_gap:0 "Gaps in the Armed Forces
- 
+RUS_outdated_agrarian_production:0 "Outdated Agrarian Production"
+RUS_agriculture_stability:0 "Agricultural Stability"
+RUS_mechanisation_of_farming:0 "Mechanisation of Farming"
 ### Flags ###
 RUS_totalitarian_state:0 "The structure of a totalitarian state has been chosen."
 RUS_popular_autocracy:0 "The structure of a popular autocracy has been chosen."
@@ -495,8 +504,6 @@ RUS_siberian_industrialisation:0 "Siberian Industrialisation"
 RUS_construct_siberian_civ_factory:0 "Construct a Civilian Factory"
 RUS_construct_siberian_mil_factory:0 "Construct a Military Factory"
 RUS_construct_siberian_infra:0 "Construct Siberian Infrastructure"
-
-#Rebels
 RUS_rebels_suppression:0 "Rebels Suppression"
 RUS_rebels_suppression_desc:0 "The Finnish terrorists have risen up again. Shouldn't be a big deal for us, as we're stronger and have more honor than those parasites."
 RUS_Finland_reinforcement:0 "Send Reinforcements to Finland"
@@ -529,3 +536,4 @@ RUS_Nizhny_Novgorod_rail_electrification:0 "Nizhny Novgorod Railway Electrificat
 RUS_completion_of_NEP:0 "Failure of the NEP"
 RUS_heavy_industry_1:0 "Construction of Heavy Industry"
 RUS_heavy_industry_2:0 "Construction of Heavy Industry"
+RUS_land_redistribution:0 "Land Redistribution"

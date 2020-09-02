@@ -1061,6 +1061,90 @@ RUS_national_farms = {
 }
 	}
 		}
+RUS_land_redistribution = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			AND = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_corporatist_land_reforms_2
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+	}
+		}		
+		
+RUS_mechanisation_of_farming = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			OR = {
+				has_country_flag = RUS_corporatist_land_reforms
+				has_country_flag = RUS_corporatist_land_reforms_2
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 25
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_ideas = {
+		  RUS_mechanisation_of_farming
+		  }
+          }  
+          days_remove = 120
+          remove_effect = {
+		  swap_ideas = {
+    remove_idea = RUS_mechanisation_of_farming
+    add_idea = RUS_agriculture_stability
+}
+remove_ideas = RUS_outdated_agrarian_production
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+	country_event = rus.53
+          }
+		}				
 RUS_Petrogard_Moscow_rail_electrification = {
 		icon = generic_prepare_civil_war
 
@@ -1368,7 +1452,7 @@ RUS_completion_of_NEP = {
 			   has_country_flag = RUS_rural_electrification
 			   check_variable = {
     var = RUS_nep
-    value = 3
+    value = 4
     compare = greater_than_or_equals
 }
 			   }

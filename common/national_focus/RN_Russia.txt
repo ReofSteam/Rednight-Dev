@@ -659,7 +659,7 @@ focus_tree = {
 			factor = 1
 		}
 	completion_reward = {
-	set_country_flag = RUS_corporatist_land_reforms
+	country_event = rus.52
 	add_political_power = 25	
 }	
 	}

@@ -136,6 +136,50 @@ production_factory_max_efficiency_factor = 0.10
 		}
 
 	}
+	country = {
+		RUS_mechanisation_of_farming = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_mechanisation_of_farming"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}
+	country = {
+		RUS_agriculture_stability = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}	
+	country = {
+		RUS_agriculture_stability = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}
+	country = {
+		RUS_outdated_agrarian_production = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_outdated_agrarian_production"}
+			picture = bad_military
+			modifier = {
+			production_speed_buildings_factor = -0.15
+			consumer_goods_factor = 0.05
+			}
+		}
+
+	}	
 ########Companies ########
 	industrial_concern = {
 

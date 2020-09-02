@@ -898,3 +898,36 @@ fire_only_once = yes
 		name = rus.48.a
 	}
 }
+
+country_event = { 
+	id = rus.52
+	title = rus.52.t
+	desc = rus.52.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.52.a
+		set_country_flag = RUS_corporatist_land_reforms	
+	}
+	option = {
+		name = rus.52.a
+		set_country_flag = RUS_corporatist_land_reforms_2	
+	}	
+}
+
+country_event = { 
+	id = rus.53
+	title = rus.53.t
+	desc = rus.53.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.53.a
+	}
+}
