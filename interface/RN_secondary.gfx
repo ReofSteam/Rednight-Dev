@@ -16,6 +16,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ENG/ENG_Worker_Council.tga"
 	}
 	spriteType = {
+		name = "GFX_HUN_Vladislav_III"
+		texturefile = "gfx/leaders/HUN/HUN_Vladislav_III.tga"
+	}
+	spriteType = {
 		name = "GFX_Leader_Unknown"
 		texturefile = "gfx/leaders/leader_unknown.dds"
 	}
