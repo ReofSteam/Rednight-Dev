@@ -31,6 +31,12 @@ defined_text = {
 		localization_key = "GFX_Worker_Council"
 	}
 	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = "GFX_HUN_Vladislav_III"
+	}
+	text = {
 		localization_key = "GFX_Leader_Unknown"
 	}
 }
@@ -67,6 +73,12 @@ defined_text = {
 		localization_key = "Prime Minister"
 	}
 	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = "King"
+	}
+	text = {
 		localization_key = "Secondary Leader"
 	}
 }
@@ -101,6 +113,12 @@ defined_text = {
 			tag = ENG
 		}
 		localization_key = "Oswald Mosley 2"
+	}
+	text = {
+		trigger = {
+			tag = HUN
+		}
+		localization_key = "Vladislav III"
 	}
 	text = {
 		localization_key = "Secondary Leader"
