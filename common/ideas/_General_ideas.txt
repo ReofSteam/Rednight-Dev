@@ -105,6 +105,12 @@ ideas = {
 					has_war_support > 0.5
 					has_war = yes
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 0.25
+				}
 			}
 
 			ai_will_do = {
@@ -140,6 +146,12 @@ ideas = {
 				}
 				NOT = {
 					has_country_flag = economic_isolation
+				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 0.25
 				}
 			}
 
@@ -191,6 +203,12 @@ ideas = {
 					has_war = yes
 					has_war_support > 0.15
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 0.25
+				}
 			}
 
 			modifier = {
@@ -216,6 +234,12 @@ ideas = {
 				OR = {
 					has_war = yes
 					has_war_support > 0.25
+				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 0.75
 				}
 			}
 
@@ -248,6 +272,12 @@ ideas = {
 						ratio > 0.4
 					}
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
+				}
 			}
 
 			modifier = {
@@ -277,6 +307,12 @@ ideas = {
 						tag = ROOT
 						ratio > 0.7
 					}
+				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
 				}
 			}
 
@@ -562,6 +598,12 @@ ideas = {
 					has_idea = isolation
 					has_country_flag = cannot_have_conscription
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 49
+				}
 			}
 
 			modifier = {
@@ -641,6 +683,12 @@ ideas = {
 					has_country_flag = cannot_have_conscription
 					has_idea = CSA_militia_disbanded
 					has_country_flag = cannot_have_extensive_conscription
+				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
 				}
 			}
 
@@ -722,6 +770,12 @@ ideas = {
 					has_country_flag = cannot_have_conscription
 					has_country_flag = cannot_have_extensive_conscription
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
+				}
 			}
 
 			modifier = {
@@ -801,6 +855,12 @@ ideas = {
 					has_country_flag = cannot_have_conscription
 					has_country_flag = cannot_have_extensive_conscription
 				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
+				}
 			}
 
 			modifier = {
@@ -864,6 +924,12 @@ ideas = {
 					has_idea = isolation
 					has_country_flag = cannot_have_conscription
 					has_country_flag = cannot_have_extensive_conscription
+				}
+				if = {
+					limit = {
+						is_major = yes
+					}
+					threat > 99
 				}
 			}
 
