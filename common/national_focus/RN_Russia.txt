@@ -1075,6 +1075,7 @@ focus_tree = {
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1188,6 +1189,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_the_bear_roars }
+		available = {
+		has_completed_focus = RUS_5_years_plan
+		}
 		ai_will_do = {
 			factor = 1
 		}

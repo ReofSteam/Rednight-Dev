@@ -48,7 +48,7 @@ division_template = {
 division_template = {
 	name = "Motostrelkovaya Diviziya"		# Motor Rifle Division
 	division_names_group = RUS_MOT_01
-											# Note: only represents Moscow Proletariat Division in 1936; after 1938-40, Motor Rifle Divisions had +1 mot regiment (3 bns) 
+										
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -63,20 +63,9 @@ division_template = {
 	}
 }
 
-division_template = {
-	name = "Kavaleriyskaya Diviziya" 	# Cavalry Division
-	division_names_group = RUS_CAV_01
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-	}
-}
 
 division_template = {
-	name = "NKVD Pogranichnaya Diviziya"			# NKVD Border Guard Division - Garrison units (older experience, older equipment)
+	name = "NVS Combat Brigade"			
 	division_names_group = RUS_GAR_01
 
 	regiments = {
@@ -119,10 +108,6 @@ division_template = {
 	}
 }
 
-### Note: OOB abstracts away the following:
-#	Marine Brigade (3x marine bn), 2 Brigades: Leningrad, Sevastopol
-#	Airborne Brigade (3x paratrooper bn), 1 Brigade: Moscow
-
 
 ##### OOB #####
 units = {
@@ -150,13 +135,13 @@ units = {
 		start_equipment_factor = 0.85
 
 	}			
-	division= {	# "16ya Kavaleriyskaya Diviziya"		
+	division= {	# "16ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 16
 		}
 		location = 11181
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -223,25 +208,25 @@ units = {
 
 	### Leningraskaya Gruppa Armiya (Leningrad Army Group) -- Leningrad ###
 	#  NKVD Leningradksii Korpus -- NKVD Border Guard and RR units	
-	division= {	# "1ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "1ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
 		}
 		location = 6174
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "4ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "4ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
 		location = 6174
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -356,7 +341,7 @@ units = {
 			name_order = 6
 		}
 		location = 6293
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -367,7 +352,7 @@ units = {
 			name_order = 36
 		}
 		location = 6293
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -409,61 +394,61 @@ units = {
 	}			
 
 	# 3ya Kavaleriyskiy Korpus
-	division= {	# "7ya Kavaleriyskaya Diviziya"		
+	division= {	# "7ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 7
 		}
 		location = 3267
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
 	}
-	division= {	# "11ya Kavaleriyskaya Diviziya"		
+	division= {	# "11ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 11
 		}
 		location = 11216
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
 	}
 
 	# NKVD Belorusskiy Korpus -- NKVD Border Guard and RR units	
-	division= {	# "2ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "2ya NVS Combat Brigade "		
 			division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
 	location = 11370
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "3ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "3ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
 		location = 11202
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "8ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "8ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 8
 		}
 		location = 306
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -551,25 +536,25 @@ units = {
 
 	### Moskva Gruppa Armiya (Moscow Army Group) -- Moscow ###		
 	# NKVD Moskva Gruppa -- NKVD Border Guard and RR units	
-	division= {	# "14ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "14ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 14
 		}
 		location = 6380
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "17ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "17ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 17
 		}
 		location = 6380
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -751,13 +736,13 @@ units = {
 	}
 
 	# Subordinate to VO		
-	division= {	# "12ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "12ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 12
 		}
 		location = 9288
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -855,7 +840,7 @@ units = {
 			name_order = 1
 		}
 		location = 3430
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -866,7 +851,7 @@ units = {
 			name_order = 3
 		}
 		location = 6455
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -879,55 +864,55 @@ units = {
 			name_order = 9
 		}
 		location = 525
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
 	}
-	division= {	# "31ya Kavaleriyskaya Diviziya"		
+	division= {	# "31ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 31
 		}
 		location = 525
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
 	}
 
 	# NKVD Kyiv Korpus -- NKVD Border Guard and RR units	
-	division= {	# "10ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "10ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 10
 		}
 		location = 525
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "13ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "13ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 13
 		}
 		location = 11561
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "15ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "15ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 15
 		}
 		location = 11437
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1029,7 +1014,7 @@ units = {
 			name_order = 5
 		}
 		location = 11437
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1040,7 +1025,7 @@ units = {
 			name_order = 14
 		}
 		location = 11437
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1138,13 +1123,13 @@ units = {
 	}
 
 	# Subordinate to VO
-	division= {	# "5ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "5ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 5
 		}
 		location = 418
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1162,19 +1147,19 @@ units = {
 			name_order = 17
 		}
 		location = 3653
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
 	}
-	division= {	# "24ya Kavaleriyskaya Diviziya"		
+	division= {	# "24ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 24
 		}
 		location = 3653
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
@@ -1256,13 +1241,13 @@ units = {
 	}			
 
 	# Subordinate to VO
-	division= {	# "9ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "9ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 9
 		}
 		location = 1599
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1329,13 +1314,13 @@ units = {
 	}			
 
 	# 7ya Kavaleriyskiy Korpus		
-	division= {	# "10ya Kavaleriyskaya Diviziya"		
+	division= {	# "10ya Mekhanizirovaniy Korpus"		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 10
 		}
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
@@ -1347,7 +1332,7 @@ units = {
 			name_order = 12
 		}
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
@@ -1359,7 +1344,7 @@ units = {
 			name_order = 13
 		}
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
@@ -1371,7 +1356,7 @@ units = {
 			name_order = 15
 		}
 		location = 6474
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
@@ -1390,13 +1375,13 @@ units = {
 		start_equipment_factor = 0.85
 
 	}			
-	division= {	# "11ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "11ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 11
 		}
 		location = 9417
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1411,7 +1396,7 @@ units = {
 			name_order = 18
 		}
 		location = 12370
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1423,7 +1408,7 @@ units = {
 			name_order = 20
 		}
 		location = 5062
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1435,7 +1420,7 @@ units = {
 			name_order = 21
 		}
 		location = 4768
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1449,7 +1434,7 @@ units = {
 			name_order = 26
 		}
 		location = 1459
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1481,13 +1466,13 @@ units = {
 	}			
 
 	# Subordinate to VO
-	division= {	# "16ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "16ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 16
 		}
 		location = 1459
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1636,7 +1621,7 @@ units = {
 			name_order = 8
 		}
 		location = 6686
-		division_template = "Kavaleriyskaya Diviziya"
+		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1652,13 +1637,13 @@ units = {
 	}
 
 	# Subordinate to VO
-	division= {	# "6ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "6ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
 		location = 957
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1706,13 +1691,13 @@ units = {
 	}			
 
 	# Subordinate to VO
-	division= {	# "18ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "18ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 18
 		}
 		location = 12641
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
@@ -1769,13 +1754,13 @@ units = {
 		start_equipment_factor = 0.5
 
 	}			
-	division= {	# "7ya NKVD Pogranichnaya Diviziya"		
+	division= {	# "7ya NVS Combat Brigade "		
 		division_name = {
 			is_name_ordered = yes
 			name_order = 7
 		}
 		location = 1287
-		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
+		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5

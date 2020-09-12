@@ -1,6 +1,8 @@
 ﻿capital = 219
 add_ideas = {
 RUS_minorities_crisis
+RUS_weak_economy
+RUS_outdated_agrarian_production
 }
 set_country_flag = skoblin_secondary
 ## Cabinet ##

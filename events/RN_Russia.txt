@@ -862,6 +862,18 @@ fire_only_once = yes
 
 	option = {
 		name = rus.46.a
+		3494 = {
+		create_unit = { 
+		division = "name = \"1st Jewish NVS Brigade\" 
+		division_template = \"NVS Combat Brigade\" 
+		start_experience_factor = 0.2"  
+		owner = RUS }
+		create_unit = { 
+		division = "name = \"2nd Jewish NVS Brigade\" 
+		division_template = \"NVS Combat Brigade\" 
+		start_experience_factor = 0.2"  
+		owner = RUS }
+		}
 	}
 }
 
@@ -898,6 +910,8 @@ fire_only_once = yes
 		name = rus.48.a
 	}
 }
+
+####National Land Survey
 
 country_event = { 
 	id = rus.52
