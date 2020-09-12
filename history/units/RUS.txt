@@ -863,7 +863,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		}
-		location = 525
+		location = 1219225
 		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -874,7 +874,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 31
 		}
-		location = 525
+		location = 1219225
 		division_template = "Mekhanizirovaniy Korpus"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -887,7 +887,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 10
 		}
-		location = 525
+		location = 1219225
 		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
@@ -922,7 +922,7 @@ units = {
 	# Subordinate to VO
 	division= {			
 		name = "2ya KiVO Mekhanizirovanaya Gruppa"		
-		location = 525
+		location = 1219225
 		division_template = "Mekhanizirovaniy Korpus"		# 1x Tank Bge, 2x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -946,7 +946,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 44
 		}
-		location = 9576
+		location = 122636
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1407,7 +1407,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 20
 		}
-		location = 5062
+		location = 12192062
 		division_template = "Mekhanizirovaniy Korpus"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
@@ -1584,7 +1584,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 12189
+		location = 4805
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
@@ -1629,7 +1629,7 @@ units = {
 	}
 	division= {			
 		name = "DVVO Mekhanizirovaniy Korpus"		
-		location = 12189
+		location = 4805
 		division_template = "Mekhanizirovaniy Korpus"		# 3x Mekh Bge
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
@@ -1642,7 +1642,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 957
+		location = 12263
 		division_template = "NVS Combat Brigade "		# NKVD -- older equipment, training
 		force_equipment_variants = { infantry_equipment_0 = { owner = "RUS" } }
 		start_experience_factor = 0.1
@@ -1834,20 +1834,6 @@ air_wings = {
 		}
 	}
 
-	# Dal'nevostochniy Aviatsya Komandovaniya -- Vladivostock	
-	408 = {
-		# 12ya Istrebitel'nye Aviabrigada
-		# 20ya Istrebitel'nye Aviabrigada
-		fighter_equipment_0 = {
-			owner = "RUS" 
-			amount = 188
-		}
-		# 5ya Dal'nyaya Bombardirovochnye Aviabrigada
-		strat_bomber_equipment_1 =  {
-			owner = "RUS" 
-			amount = 24
-		}
-	}
 
 	# VVS - KBF Aviatsya Komandovaniya -- Leningrad
 	195 = {

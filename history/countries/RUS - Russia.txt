@@ -67,9 +67,9 @@ set_popularities = {
     national_corporatist = 31
 }
 
-country_event = {
-	id = rus.1
-}
+country_event = rus.1
+
+
 
 create_faction = EATO
 add_to_faction = SLK

@@ -495,190 +495,190 @@ RUS_construct_siberian_infra = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_infra"
 		random_list = {
-    579 = {
+    5 = { 579 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    580 = {
+    }}
+    5 = { 580 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    653 = {
+    }}
+    5 = { 653 = {
 				add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    572 = {
+    }}
+    5 = { 572 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    583 = {
+    }}
+    5 = { 583 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    590 = {
+    }}
+    5 = { 590 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    403 = {
+    }}
+    5 = { 403 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    571 = {
+    }}
+    5 = { 571 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    577 = {
+    }}
+    5 = { 577 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    570 = {
+    }}
+    5 = { 570 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    40 = {
+    }}
+    5 = { 40 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    588 = {
+    }}
+    5 = { 588 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    576 = {
+    }}
+    5 = { 576 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    575 = {
+    }}
+    5 = { 575 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    574 = {
+    }}
+    5 = { 574 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    562 = {
+    }}
+    5 = { 562 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    560 = {
+    }}
+    5 = { 560 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    409 = {
+    }}
+    5 = { 409 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    408 = {
+    }}
+    5 = { 408 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    588 = {
+    }}
+    4 = { 588 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    574 = {
+    }}
+    5 = { 574 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    567 = {
+    }}
+    4 = { 567 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }
-    516 = {
+    }}
+    5 = { 516 = {
 					add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
 					type = infrastructure
 					level = 1
 					instant_build = yes
 				}
-    }	
+    }}	
 }
 		}
 		
