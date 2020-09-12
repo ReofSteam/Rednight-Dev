@@ -47,74 +47,76 @@ news_event = {
 
 ###Terrorism  
 country_event = {
-id = terror.3 #Bolshevik Terrorism
-immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.3"}
+	id = terror.3 #Bolshevik Terrorism
+	immediate = {log = "[GetDateText]: [Root.GetName]: event terror.3"}
 	title = terror.3.t
 	desc = terror.3.d
 	picture = GFX_bolshevik_terrorism
     trigger = {
-	NOT = { has_country_flag = end_of_terrorism }
+		NOT = { has_country_flag = end_of_terrorism }
 	}
 	is_triggered_only = yes
 	
 	option = {
 		name = terror.3.a
-	random_list = {
-    25 = {
-    any_owned_state = { damage_building = {
-    type = infrastructure
-    damage = 1
-}
-    }
-}	
-    25 = {
-        add_manpower = -32
-    }
-    25 = {
-        add_political_power = -25
-    }
-    25 = {
-        add_political_power = -35
-	any_owned_state = { damage_building = {
-    type = industrial_complex
-    damage = 1
-}
-}	
-    }
-}	
+		random_list = {
+			25 = {
+				any_owned_state = { 
+					damage_building = {
+						type = infrastructure
+						damage = 1
+					}
+				}
+			}	
+			25 = {
+				add_manpower = -32
+			}
+			25 = {
+				add_political_power = -25
+			}
+			25 = {
+				add_political_power = -35
+				any_owned_state = { 
+					damage_building = {
+					type = industrial_complex
+					damage = 1
+					}
+				}	
+			}
+		}	
 		hidden_effect = {
-    random_list = {
-    25 = {
-        country_event = {
-    id = terror.3
-    days = 35
-}
-    }
-    25 = {
-    country_event = {
-    id = terror.3
-    days = 70
-}
-    }
-    25 = {
-    country_event = {
-    id = terror.3
-    days = 80
-}
-    }
-    25 = {
-    country_event = {
-    id = terror.3
-    days = 92
-}
-    }
-}
-}
+			random_list = {
+				25 = {
+					country_event = {
+						id = terror.3
+						days = 35
+					}
+				}
+				25 = {
+					country_event = {
+						id = terror.3
+						days = 70
+					}
+				}
+				25 = {
+					country_event = {
+						id = terror.3
+						days = 80
+					}
+				}
+				25 = {
+					country_event = {
+						id = terror.3
+						days = 92
+					}
+				}
+			}
+		}
 	}
 }
 country_event = {
 id = terror.4 #UNA Terrorism#1
-immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.4"}
+immediate = {log = "[GetDateText]: [Root.GetName]: event terror.4"}
 	title = terror.4.t
 	desc = terror.4.d
 	picture = GFX_embassy_siege
@@ -128,7 +130,7 @@ immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.4"}
 }
 country_event = {
 id = terror.5 #French Terrorism
-immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.5"}
+immediate = {log = "[GetDateText]: [Root.GetName]: event terror.5"}
 	title = terror.5.t
 	desc = terror.5.d
 	picture = GFX_french_terrorism
@@ -142,7 +144,7 @@ immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.5"}
 }
 country_event = {
 id = terror.6 #Estonian Terrorism
-immediate = immediate = {log = "[GetDateText]: [Root.GetName]: event terror.6"}
+immediate = {log = "[GetDateText]: [Root.GetName]: event terror.6"}
 	title = terror.6.t
 	desc = terror.6.d
 	picture = GFX_forrest_brothers_attack
