@@ -27,6 +27,10 @@ country_event = { #Good Morning Rusia
 		id = terror.3
 	days = 42 
 		}	
+	country_event = {
+		id = rus.7
+	days = 30 
+		}	
 		}
 }
 }
@@ -56,6 +60,20 @@ hidden = yes
 	option = {
 		name = rus.6.a
 		clr_country_flag = yusopov_decrees
+	
+	}
+}
+country_event = { #Death of Viktor Cheknov 
+	id = rus.7
+	title = rus.7.t
+	desc = rus.7.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rus.7.a
+		add_political_power = 5
 	
 	}
 }

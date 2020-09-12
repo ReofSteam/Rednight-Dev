@@ -1482,7 +1482,7 @@ add_timed_idea = {
      }
 }	
 RUS_matters_of_state = { 
- RUS_transamur_crisis = { 	
+RUS_transamur_crisis = { 	
 		icon = generic_prepare_civil_war
 
 		allowed = {
@@ -1516,4 +1516,99 @@ RUS_matters_of_state = {
 			
 	}
 		} 
+RUS_crackdown_on_SRs = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_SRs_legalised
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_SRs_legalised
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 	
+		
+RUS_crackdown_on_bolsheviks = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			original_tag = RUS
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_bolshevik_destroyed
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 
+RUS_organise_german_volunteers = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			original_tag = RUS
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+			has_country_flag = RUS_teutonphobia
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 		
 }		
