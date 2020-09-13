@@ -586,6 +586,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = rus.53
+		add_idea = RUS_political_officers_corps
+	}	
 	}
 
 	#Focus for 5 Years Plan
