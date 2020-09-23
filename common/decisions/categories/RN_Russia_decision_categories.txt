@@ -59,3 +59,16 @@ RUS_matters_of_state = {
 tag = RUS
 	}
 }
+
+RUS_kremlin_crisis = { 
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+tag = RUS
+has_country_flag = RUS_kremlin_crisis
+	}
+}

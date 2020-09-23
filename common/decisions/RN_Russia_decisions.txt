@@ -1506,14 +1506,14 @@ RUS_transamur_crisis = {
 			}
 		}
 
-		cost = 5
-		days_re_enable = 20		
+		cost = 25
+		days_re_enable = 170
 		ai_will_do = {
 			factor = 10
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_transamur_crisis"
-			
+		country_event = rus.60	
 	}
 		} 
 RUS_crackdown_on_SRs = { 	
@@ -1612,3 +1612,35 @@ RUS_organise_german_volunteers = {
 	}
 		} 		
 }		
+
+RUS_kremlin_crisis = { 
+RUS_ROVS_motion_of_no_confidence = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_levitov_arrested
+			}
+		}
+
+		days_remove = 170
+		activation = {                        
+               has_country_flag = RUS_kremlin_crisis                   
+         }
+        is_good = no                         
+        selectable_mission = no               
+        days_mission_timeout = 20  
+		timeout_effect = {                     
+        add_political_power = -50     
+		country_event = rus.70
+		set_country_flag = RUS_levitov_vozdh
+			   
+          }
+	} 
+}
+		
