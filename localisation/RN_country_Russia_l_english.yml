@@ -511,6 +511,8 @@ RUS_Vsevolod_Merkulov:0 "Vsevolod Merkulov"
 ### Leaders ###
 
 ### Decisions ###
+RUS_arrest_levitov:0 "Arrest Mikhail Levitov"
+RUS_ROVS_motion_of_no_confidence:0 "ROVS Motion of No Confidence"
 RUS_kremlin_crisis:0 "Kremlin Crisis"
 RUS_matters_of_state:0 "Matters of State"
 RUS_transamur_crisis:0 "Transamur Crisis"

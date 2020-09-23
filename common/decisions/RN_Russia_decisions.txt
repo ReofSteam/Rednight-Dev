@@ -1614,6 +1614,37 @@ RUS_organise_german_volunteers = {
 }		
 
 RUS_kremlin_crisis = { 
+RUS_arrest_levitov = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			original_tag = RUS
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+			has_country_flag = RUS_teutonphobia
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 		
+}		
 RUS_ROVS_motion_of_no_confidence = { 	
 		icon = generic_prepare_civil_war
 
