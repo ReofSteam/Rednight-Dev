@@ -114,7 +114,7 @@ focus_tree = {
 		y = 8
 		cost = 10
 		allow_branch = {
-		has_country_flag = RUS_Levitov_took_over
+		has_country_flag = RUS_wrangel_vozhd
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
@@ -767,6 +767,14 @@ focus_tree = {
 		x = 8
 		y = 0
 		cost = 5
+		allow_branch = {
+		NOT = { 
+		OR = {
+		has_country_flag = RUS_wrangel_vozhd
+		has_country_flag = RUS_levitov_vozhd
+		}
+		}	
+}		
 		select_effect = {
 			country_event = {
 				id = rus.19

@@ -6,6 +6,9 @@ RUS_outdated_agrarian_production
 RUS_the_enemy_among_us
 }
 set_country_flag = skoblin_secondary
+set_country_flag = RUS_disapproved_cossacks
+set_country_flag = RUS_disapproved_liberals
+
 ## Cabinet ##
 add_ideas = {
 RUS_ivan_ilyin 

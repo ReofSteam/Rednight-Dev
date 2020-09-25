@@ -113,6 +113,15 @@ rus.52.b:0 "Redistribute the lands from larger estates"
 rus.53.t:0 "Commission of National Land Development"
 rus.53.d:0 "Tractor time"
 rus.53.a:0 "Lets get to tractor"
+rus.72.t:0 "A Chamber in Saratov"
+rus.72.d:0 "The Marshal knelt in front of the altar, holding the cross as he muttered under his breath. He paraphrased a poem written by Turgenev, he twisted its hostility and apathy to Holy Russia into an evocation, scathing and sorrowful in meaning.\n\n"In these times of doubt, in these days of painful brooding over the fate of my country, thou alone art my rod and sceptre, O great, mighty, true and free Russia - one and indivisible, holy and radiant. Thou art my comfort and my goal, my dream and my wish. Thou alone art my master... thou alone."\n\nThe Marshal's mind wandered to the Great War, fighting against the Germans, leading the legions of Holy Russia, pushing westwards and stamping his feet triumphantly in Berlin. He remembered the days where he - Petr Nikolaevich - and Kornilov - that magnificent bastard - stood side by side, parading the gallant youths that had sacrificed so much for a hard-earned victory. But now, Russia has grown corrupt. As Kornilov departed to another, more peaceful realm, the nation nudged further and further towards a more selfish and egoistical form. The Young Kornilovites! How dare they call themselves that! Russia weakens, and rifts in society can be seen left and right. How long would it take for the Vozhd to see?! As the service continued, Vrangel found himself muttering the same words over and over again..."
+rus.72.a:0 "Russia, I will be there"
+rus.71.t:0 "Motion of No Confidence"
+rus.71.d:0 "The ROVS Central Commitee has officially removed Nikolai Skoblin from its position of Chairman and de-facto, the Vohzhship of Russia"
+rus.71.a:0 "The Devil takes you!"
+rus.73.t:0 "Wrangel and Drozdovsky arrives in Moscow"
+rus.73.d:0 "Skoblin cried out for the guards to secure his way out of the Kremlin, yet to no avail. Meanwhile, Levitov just sat in his chair, accepting his fate without even a semblance of struggle. Minutes ago they were shouting at each other, funnily enough. They heard a loud bang as the door was thrown open by black-clad soldiers, holding rifles in their hand. After them came another man, this time tall and wearing a black cossack outfit - a sight that everyone would recognize as the very elderly and very annoyed Black Baron. Somewhat notably enough, he was flanked by a bespectacled man, Mikhail Drozdovsky.\n\n'Nikolai Vladimirovich, Mikhail Nikolaevich, I've heard that there's some sort of a dispute between you two." Said Wrangel with a tiny sliver of an attempt of cruel sarcasm. "I think it's up to us to arbitrate between you two young'uns." Said Wrangel as he walked into the middle of the room with his forces. Skoblin immediately leaned to the wall as a sudden feeling of weakness struck him.\n\n"If you two want power so much...so be it. Perhaps neither of you deserve it." Wrangel threw a small object into the table, prompting a flinch from Levitov and a shudder from Skoblin - half the room away. It was a pen. "We've.. agreed," Wrangel nodded towards Drozdovsky before continuing, "That the Army has a basis for removing you two from your seats, and that it's the best course of action to save Holy Russia. Now, go on - sign here and here." Skoblin and Levitov both begrudgingly signed the documents - it was two separate letters of resignation. Then, after a short vote, Wrangel was elected as Vozhd and Drozdovsky as his deputy Vozhd. Behind closed doors, Russia's two strongest figures were removed from politics with little to no violence, or perharps not yet."
+rus.73.a:0 "Hail to the Vohzd!"
 ### Parties ###
 
 RUS_social_democrat_party:0 "Ferburary Union"
@@ -498,6 +507,7 @@ WAR_NAME_RFN_FIN:0 "Finnish Second War of Independence"
 WAR_NAME_RUR_UKR:0 "Ukranian National Liberation War"
 WAR_NAME_RUS_DCO:0 "Cossack Crisis"
 WAR_NAME_RUS_EST:0 "Estonian Insurgency"
+RUS_wrangel_coming:0 "Wrangel is coming"
 ### Companies ###
 RUS_national_construction_corporation:0 "National Construction Corporation"
 RUS_prodamet_corporation:0 "Prodamet Corporation"
@@ -511,6 +521,8 @@ RUS_Vsevolod_Merkulov:0 "Vsevolod Merkulov"
 ### Leaders ###
 
 ### Decisions ###
+RUS_summon_the_siberian_army:0 "Summon the Siberian HQ"
+RUS_assemble_loyal_forces:0 "Assembly Loyal Kornilovist Forces"
 RUS_arrest_levitov:0 "Arrest Mikhail Levitov"
 RUS_ROVS_motion_of_no_confidence:0 "ROVS Motion of No Confidence"
 RUS_kremlin_crisis:0 "Kremlin Crisis"

@@ -463,7 +463,7 @@ country_event = { #Levitov breaks the ice
 	is_triggered_only = yes
 fire_only_once = yes
 	option = {
-		name = rus.14.a
+	name = rus.14.a
 	hidden_effect = {
 	country_event = {
 	id = rus.15
@@ -1066,4 +1066,103 @@ fire_only_once = yes
 		name = rus.62.b
 		add_manpower = -2500
 	}	
+}
+
+country_event = { 
+	id = rus.70
+	title = rus.70.t
+	desc = rus.70.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.70.a
+		add_political_power = -15
+		set_country_flag = RUS_extreme_crisis
+		country_event = rus.72
+	}
+}
+
+####ROVS voting
+
+country_event = { 
+	id = rus.71
+	title = rus.71.t
+	desc = rus.71.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.71.a
+		add_political_power = -5
+	}
+}
+
+country_event = { 
+	id = rus.72
+	title = rus.72.t
+	desc = rus.72.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.72.a
+		custom_effect_tooltip = RUS_wrangel_coming
+	}
+}
+
+country_event = { 
+	id = rus.73
+	title = rus.73.t
+	desc = rus.73.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.73.a
+		add_political_power = -5
+	}
+}
+
+country_event = { 
+	id = rus.74
+	title = rus.74.t
+	desc = rus.74.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.74.a
+		set_country_flag = RUS_wrangel_vozhd		
+		add_political_power = -5
+		create_country_leader = {
+	name = "Ptyor Wrangel"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/Leaders/RUS/RUS_Wrangel.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = RUS_unity_government_party_long
+			name = RUS_unity_government_party
+		}
+	set_politics = {
+	ruling_party = authoritarian_democrat
+}	
+ 	
+	}
 }

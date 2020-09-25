@@ -1650,7 +1650,8 @@ RUS_arrest_levitov = {
 		}
 		random_list = {
 		50 = { country_event = rus.16 }
-		50 = { country_event = rus.17 } 
+		25 = { country_event = rus.17 } 
+		25 = { country_event = rus.70 } 		
 		} 
 }
 		else_if = { 
@@ -1662,13 +1663,15 @@ RUS_arrest_levitov = {
 }
 		random_list = {
 		25 = { country_event = rus.16 }
-		75 = { country_event = rus.17 } 
+		45 = { country_event = rus.17 }
+		30 = { country_event = rus.70 } 		
 		} 		
 }		
 		else = { 
 		random_list = {
-		75 = { country_event = rus.16 }
-		25 = { country_event = rus.17 } 
+		60 = { country_event = rus.16 }
+		25 = { country_event = rus.17 }
+		15 = { country_event = rus.70 } 				
 		} 		 		
 }		
 }
@@ -1692,7 +1695,6 @@ RUS_ROVS_motion_of_no_confidence = {
 			}
 		}
 
-		days_remove = 170
 		activation = {    
 		AND = {
             has_country_flag = RUS_kremlin_crisis   
@@ -1706,7 +1708,7 @@ RUS_ROVS_motion_of_no_confidence = {
         days_mission_timeout = 20  
 		timeout_effect = {                     
         add_political_power = -50     
-		country_event = rus.70
+		country_event = rus.71
 		set_country_flag = RUS_levitov_vozhd
 			   
           }
@@ -1716,7 +1718,15 @@ RUS_wrangel_march = {
 		icon = generic_prepare_civil_war
 
 		allowed = {
-			original_tag = RUS			
+			AND = {
+			original_tag = RUS
+			NOT = {
+			OR = {
+			has_country_flag = RUS_wrangel_stopped_kornilov
+			has_country_flag = RUS_wrangel_stopped_siberian
+		}
+		}	
+		}
 		}
 
 		available = {
@@ -1725,7 +1735,6 @@ RUS_wrangel_march = {
 			}
 		}
 
-		days_remove = 170
 		activation = {                        
 		has_country_flag = RUS_extreme_crisis		   
          }
@@ -1734,12 +1743,102 @@ RUS_wrangel_march = {
         days_mission_timeout = 20  
 		timeout_effect = {                     
         add_political_power = -50     
-		country_event = rus.70
-		set_country_flag = RUS_wrangel_vozhd
-			   
+		country_event = rus.18			   
           }
 	}
 
+RUS_assemble_loyal_forces = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+		NOT = { has_country_flag = RUS_siberian_army 
+		}
+		}
+
+		visible = {
+			has_country_flag = RUS_extreme_crisis
+		}
+
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+		set_country_flag = RUS_kornilovist_forces
+          add_political_power = -80
+          }  
+          days_remove = 20
+          remove_effect = {
+		  if = { 
+		  limit = {
+		  AND = {
+		  has_country_flag = RUS_disapproved_conservative
+		  has_country_flag = RUS_disapproved_liberals
+		  has_country_flag = RUS_disapproved_cossacks
+		  has_country_flag = RUS_disapproved_republican
+		  }
+		  }
+		  country_event = rus.73
+		  }
+		  else = {
+		  limit = {
+		  AND = {
+		  has_country_flag = RUS_disapproved_liberals
+		  has_country_flag = RUS_disapproved_cossacks
+		  }}
+		  random_list = {
+		  35 = { country_event = rus.73 }
+		  65 = { country_event = rus.74 } }
+		  }
+		 
+}
+}	
+RUS_summon_the_siberian_army = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+		NOT = { has_country_flag = RUS_kornilovist_forces 
+		}
+		}
+
+		visible = {
+			has_country_flag = RUS_extreme_crisis
+		}
+
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+		set_country_flag = RUS_siberian_army
+          add_political_power = -20
+          }  
+          days_remove = 20
+          remove_effect = {
+		  if = { 
+		  limit = {
+		  has_completed_focus = RUS_siberian_plan
+		  }
+		  country_event = rus.75
+		  }
+		  else = {
+		  random_list = {
+		  35 = { country_event = rus.73 }
+		  65 = { country_event = rus.75 } }
+		  }
+		 
+}
+}		  
 
 }
 		
