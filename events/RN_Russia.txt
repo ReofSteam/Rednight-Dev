@@ -785,7 +785,7 @@ fire_only_once = yes
 		add_political_power	= 50
 	add_timed_idea = {
     idea = RUS_army_gap
-    days = 50
+    days = 200
 }	
 	}	
 option = {
@@ -902,7 +902,7 @@ fire_only_once = yes
 	priority = 0
 }
 }
-		3494 = {
+		253 = {
 		create_unit = { 
 		division = "name = \"1st Jewish NVS Brigade\" 
 		division_template = \"NVS Combat Brigade\" 
@@ -1061,6 +1061,7 @@ fire_only_once = yes
 	75 = {
 	country_event = rus.65
 	}
+}
 }	
 	option = {
 		name = rus.62.b
@@ -1129,6 +1130,7 @@ fire_only_once = yes
 	option = {
 		name = rus.73.a
 		add_political_power = -5
+		clr_country_flag = RUS_extreme_crisis
 	}
 }
 
@@ -1143,6 +1145,24 @@ fire_only_once = yes
 
 	option = {
 		name = rus.74.a
+		add_political_power = -5
+		country_event = rus.78
+		clr_country_flag = RUS_extreme_crisis
+		clr_country_flag = Skoblin_secondary
+	}
+}
+
+country_event = { 
+	id = rus.78
+	title = rus.78.t
+	desc = rus.78.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.78.a
 		set_country_flag = RUS_wrangel_vozhd		
 		add_political_power = -5
 		create_country_leader = {

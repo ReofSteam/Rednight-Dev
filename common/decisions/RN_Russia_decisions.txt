@@ -930,6 +930,7 @@ RUS_national_electrification = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -969,6 +970,7 @@ RUS_heavy_industry_2 = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1009,6 +1011,7 @@ RUS_heavy_industry_1 = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1050,6 +1053,7 @@ RUS_national_farms = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1086,6 +1090,7 @@ RUS_land_redistribution = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1123,6 +1128,7 @@ RUS_mechanisation_of_farming = {
 		}
 
 		cost = 25
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1167,6 +1173,7 @@ RUS_Petrogard_Moscow_rail_electrification = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1234,6 +1241,7 @@ RUS_North_Causcacus_rail_electrification = {
 		}
 
 		cost = 50
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1313,7 +1321,7 @@ RUS_Volga_rail_electrification = {
 		}
 
 		cost = 50
-		days_re_enable = 30
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1393,7 +1401,7 @@ RUS_Nizhny_Novgorod_rail_electrification = {
 		}
 
 		cost = 50
-		days_re_enable = 30
+		fire_only_once = yes
 		ai_will_do = {
 			factor = 10
 		}
@@ -1452,7 +1460,7 @@ RUS_completion_of_NEP = {
 			   has_country_flag = RUS_rural_electrification
 			   check_variable = {
     var = RUS_nep
-    value = 4
+    value = 6
     compare = greater_than_or_equals
 }
 			   }
@@ -1634,7 +1642,7 @@ RUS_arrest_levitov = {
 		}
 
 		cost = 20
-		days_re_enable = 20		
+		fire_only_once = yes	
 		ai_will_do = {
 			factor = 10
 		}
@@ -1703,6 +1711,7 @@ RUS_ROVS_motion_of_no_confidence = {
 			}			   
          }
 		 }
+		fire_only_once = yes 
         is_good = no                         
         selectable_mission = no               
         days_mission_timeout = 20  
@@ -1734,6 +1743,7 @@ RUS_wrangel_march = {
 				has_country_flag = RUS_extreme_crisis
 			}
 		}
+		fire_only_once = yes
 
 		activation = {                        
 		has_country_flag = RUS_extreme_crisis		   
@@ -1773,6 +1783,7 @@ RUS_assemble_loyal_forces = {
           add_political_power = -80
           }  
           days_remove = 20
+		  fire_only_once = yes
           remove_effect = {
 		  if = { 
 		  limit = {
@@ -1824,6 +1835,7 @@ RUS_summon_the_siberian_army = {
           add_political_power = -20
           }  
           days_remove = 20
+		  fire_only_once = yes
           remove_effect = {
 		  if = { 
 		  limit = {

@@ -587,7 +587,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		country_event = rus.53
+		country_event = rus.80
 		add_idea = RUS_political_officers_corps
 	}	
 	}
@@ -615,7 +615,7 @@ focus_tree = {
 	add_political_power = 50	
 	add_timed_idea = {
     idea = RUS_five_years_plan
-    days = 120
+    days = 200
 	}
 	set_country_flag = RUS_five_years_plan
 	}
@@ -627,7 +627,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 7
 		y = 6
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_new_industrial_zones }
 		ai_will_do = {
@@ -656,7 +656,7 @@ focus_tree = {
 		icon = GFX_RUS_corporatist_agarian_reform
 		x = 9
 		y = 5
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_5_years_plan }
 		ai_will_do = {
@@ -674,7 +674,7 @@ focus_tree = {
 		icon = GFX_ENG_all_your_valleys_call_you
 		x = 9
 		y = 6
-		cost = 2
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_corporatist_agarian_reform }
 		ai_will_do = {

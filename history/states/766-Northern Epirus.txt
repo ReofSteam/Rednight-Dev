@@ -7,7 +7,7 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GRE
+		owner = ALB
 		add_core_of = ALB
 		buildings = {
 			infrastructure = 3

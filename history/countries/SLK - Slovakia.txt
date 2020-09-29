@@ -48,7 +48,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Alexander Mach"
-	picture = "gfx/leaders/SLK/SLK_Mach.dds"
+	picture = "gfx/leaders/SLK/SLK_Mach.tga"
 	expire = "1965.1.1"
 	ideology = ultraconservative_subtype
 	traits = {}
