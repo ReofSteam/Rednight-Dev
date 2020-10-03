@@ -131,10 +131,10 @@ country_event = { ##BOZ Ending
 }
 
 country_event = { ##New German Cinema 
-	id = ger.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.1"}
-	title = ger.1.t
-	desc = ger.1.d
+	id = gerflav.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerflav.1"}
+	title = gerflav.1.t
+	desc = gerflav.1.d
 
 	is_triggered_only = yes
 	
@@ -142,7 +142,7 @@ country_event = { ##New German Cinema
 	fire_only_once = yes
 
 	option = {
-		name = ger.1.a
+		name = gerflav.1.a
 	ai_chance = { factor = 50 }
 
 		
@@ -156,4 +156,56 @@ country_event = { ##New German Cinema
 
 	}
 			
+}
+
+country_event = { ##The Sun rises again
+	id = ger.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.1"}
+	title = ger.1.t
+	desc = ger.1.d
+	picture = GFX_homecoming
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ger.1.a
+		drop_cosmetic_tag = GER_occupied
+		annex_country = {
+    target = BOZ
+    transfer_troops = no
+}
+annex_country = {
+    target = FOZ
+    transfer_troops = no
+}
+annex_country = {
+    target = JOZ
+    transfer_troops = no
+}
+		hidden_effect = {
+		country_event = {
+		id = ger.2
+		days = 3
+		}
+		}
+
+	}			
+}
+
+country_event = { ##Rising of the Moon
+	id = ger.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.2"}
+	title = ger.2.t
+	desc = ger.2.d
+	picture = GFX_homecoming
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = ger.2.a
+		add_political_power = 15
+
+	}			
 }
