@@ -311,6 +311,12 @@ GER = {
 	color = rgb { 150 20 20 }
 	color_ui = rgb { 150 20 20 }
 }
+
+GNR = {
+	color = rgb { 150 20 20 }
+	color_ui = rgb { 150 20 20 }
+}
+
 RUS = {
 	color = rgb { 0 100 25 }
 	color_ui = rgb { 0 100 25 }
