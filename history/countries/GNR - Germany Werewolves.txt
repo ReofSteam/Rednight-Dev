@@ -75,9 +75,54 @@ set_popularities = {
 create_country_leader = {
 	name = "Reinhard Gehlen"
 	desc = "POLITICS_OTTO_GROTEWOHL_DESC"
-	picture = "gfx/leaders/GERMAN_EXILES/Reinhard_Gehlen.tga"
+	picture = "gfx/leaders/OVERSEA_GERMANS/Reinhard_Gehlen.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
 	traits = {
 	}
 }
+
+create_corps_commander = {
+	name = "Hermain Fegelein"
+	portrait_path = "gfx/leaders/OVERSEA_GERMANS/Reinhard_Gehlen.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Joachim Peiper"
+	portrait_path = "gfx/leaders/OVERSEA_GERMANS/Joachim_Peiper.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Claus von Stauffenberg"
+	portrait_path = "gfx/leaders/OVERSEA_GERMANS/Claus_Stauffenberg.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Hermann Giskes"
+	portrait_path = "gfx/leaders/OVERSEA_GERMANS/Hermann_Giskes.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
