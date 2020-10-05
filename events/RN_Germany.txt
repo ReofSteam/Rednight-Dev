@@ -2,7 +2,7 @@
 # German Events
 ###########################
 add_namespace = ger
-add_namespace = ger_flavor
+add_namespace = gerflav
 add_namespace = foz
 add_namespace = boz
 add_namespace = joz
@@ -79,7 +79,7 @@ country_event = { ##JOZ Intro
 }
 
 ###GERMANY
-country_event = { ##Germany Ending
+country_event = { ##JOZ Ending
 	id = joz.1
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ger.1"}
 	title = joz.1.t
@@ -91,7 +91,6 @@ country_event = { ##Germany Ending
 
 	option = {
 		name = joz.1.a
-		add_political_power = 15
 
 	}			
 }
@@ -108,7 +107,12 @@ country_event = { ##FOZ Ending
 	
 	option = {
 		name = foz.1.a
-		add_political_power = 15
+	GER = {
+	annex_country = {
+    target = FOZ
+    transfer_troops = no
+}	
+		}
 
 	}			
 }
@@ -125,7 +129,12 @@ country_event = { ##BOZ Ending
 
 	option = {
 		name = boz.1.a
-		add_political_power = 15
+	GER = {
+	annex_country = {
+    target = BOZ
+    transfer_troops = no
+}	
+		}
 
 	}			
 }
@@ -171,18 +180,6 @@ country_event = { ##The Sun rises again
 	option = {
 		name = ger.1.a
 		drop_cosmetic_tag = GER_occupied
-		annex_country = {
-    target = BOZ
-    transfer_troops = no
-}
-annex_country = {
-    target = FOZ
-    transfer_troops = no
-}
-annex_country = {
-    target = JOZ
-    transfer_troops = no
-}
 		hidden_effect = {
 		country_event = {
 		id = ger.2
@@ -212,7 +209,8 @@ country_event = { ##Rising of the Moon
 			declare_war_on = {
 			target = GNR
 			type = annex_everything
-		}	
+		}
+country_event = ger.3		
 		hidden_effect = {
 		GNR = { 
 		add_manpower = 50000

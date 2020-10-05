@@ -71,7 +71,10 @@ set_popularities = {
     national_corporatist = 31
 }
 
-country_event = rus.1
+country_event = { 
+id = rus.1
+days = 1
+}
 
 
 

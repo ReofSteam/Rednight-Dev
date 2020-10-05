@@ -6,6 +6,15 @@ add_ideas = {
 	GER_reconstruction_germany
 }
 
+country_event = {
+id = boz.0
+days = 1
+}
+country_event = {
+id = boz.1
+days = 362
+}
+
 # Starting tech
 set_technology = {
 	shipbuild_basics = 1
