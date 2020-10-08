@@ -91,6 +91,12 @@ country_event = { ##JOZ Ending
 
 	option = {
 		name = joz.1.a
+		GER = {
+	annex_country = {
+    target = JOZ
+    transfer_troops = no
+}	
+		}	
 
 	}			
 }

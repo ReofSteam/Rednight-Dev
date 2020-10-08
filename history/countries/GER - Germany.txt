@@ -6,6 +6,7 @@ set_cosmetic_tag = GER_occupied
 add_ideas = {
 	GER_reconstruction_germany2
 	GER_freegerman_army
+	GER_freegerman_army_real
 }
 
 country_event = {

@@ -791,7 +791,7 @@ focus_tree = {
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 60
 		}
 		completion_reward = {
 			custom_effect_tooltip = RUS_A_Council_is_Selected_tt

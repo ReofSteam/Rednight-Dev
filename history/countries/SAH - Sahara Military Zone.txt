@@ -29,9 +29,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Alphonse Juin"
+	name = "Roger Faulques"
 	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
-	picture = "gfx/leaders/French_Exiles/Alphonse_Juin.tga"
+	picture = "gfx/leaders/French_Exiles/Roger_Faulques.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {

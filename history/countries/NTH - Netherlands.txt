@@ -24,39 +24,10 @@ set_technology = {
 	transport = 1
 }
 
-set_variable = { kn_social_liberal_banned = 1 }
-set_variable = { kn_social_conservative_banned = 1 }
-set_variable = { kn_authoritarian_democrat_banned = 1 }
-set_variable = { kn_autocratic_banned = 1 }
-set_variable = { kn_ultrasocial_conservative_banned = 1 }
-set_variable = { kn_national_corporatist_banned = 1 }
-
-set_variable = { kn_nationalist_socialism_coalition = 1 }
-set_variable = { kn_revolutionary_socialism_coalition = 1 }
-set_variable = { kn_syndicalism_coalition = 1 }
-set_variable = { kn_moderate_socialist_coalition = 1 }
 
 add_ideas = {
 #starting
- HOL_ondergrondseoorlog
- HOL_ongoing_depillarisation
- HOL_resentful_countrymen
- HOL_war_in_the_council
- HOL_phalanstere_reconstruction_initiative
- HOL_weltkrieg_losers
- #cabinet
- NTH_Lou_Visser_hog
- NTH_Abraham_Menist_interior
- NTH_Paul_Groot_economy
- NTH_Henk_Hoekstra_foreign
- NTH_Piet_Schmidt_education
- NTH_Willem_Dolleman_culture
- NTH_Daan_Monje_transport
- NTH_Willem_Schouten_intel
- NTH_Gerben_Wagenaar_cos
- NTH_Gerben_Wagenaar_coa
- NTH_Heije_Schraper_coaf
- NTH_Jim_Boij_con
+
 }
 
 set_politics = {	
@@ -84,9 +55,9 @@ set_popularities = {
 set_convoys = 500
 
 create_country_leader = {
-	name = "Council for the Netherlands"
+	name = "René Guisco"
 	desc = "POLITICS_COUNCIL_FOR_NETHERLANDS_DESC"
-	picture = "gfx/leaders/WESTERN_EUROPE/NTH/NTH_dutch_council.tga"
+	picture = "gfx/leaders/FRA/FRA_guisco"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
