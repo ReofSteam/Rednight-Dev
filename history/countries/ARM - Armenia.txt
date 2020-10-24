@@ -33,11 +33,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mikayel Papadjanian"
+	name = "Garegin Nzhdeh"
 	desc = "POLITICS_MIKAYEL_PAPADJANIAN_DESC"
-	picture = "Portrait_ARM_Mikayel_Papadjanian.tga"
+	picture = "gfx/leaders/ARM/ARM_Nzhdeh.tga"
 	expire = "1965.1.1"
-	ideology = social_liberal_subtype
+	ideology = autocratic_subtype
 	traits = {
 	}
 }
