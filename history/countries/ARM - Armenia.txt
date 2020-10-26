@@ -13,7 +13,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = autocratic
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
