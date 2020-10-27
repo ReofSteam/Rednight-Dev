@@ -3,6 +3,9 @@
 oob = "POL"
 
 set_research_slots = 3
+set_rule = {
+    can_be_called_to_war = no
+}
 
 # Starting tech
 set_technology = {

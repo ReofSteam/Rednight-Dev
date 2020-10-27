@@ -74,3 +74,39 @@ FRA_Finland_supply = {
 					}
 
 }
+
+FRA_mission_free_africa = { 
+     FRA_troops_in_Africa = { 
+	 days_re_enable = 1
+	 fire_only_once = no
+          allowed = { 
+		  AND = { 
+		  tag = FRA
+		  NOT = {
+		  has_country_flag = FRA_boots_in_afrca
+		  }
+}}		  
+          available = {                          
+          ALG = {
+		  has_volunteers_amount_from = {
+          tag = FRA
+          count > 4
+}
+}
+          }
+          activation = {                          
+               has_global_flag = FRA_mission_free_africa                     
+          }
+          is_good = no                           
+          selectable_mission = no                
+          days_mission_timeout = 20              
+          timeout_effect = {                      
+               add_political_power = -15               
+          }
+          complete_effect = {                    
+               add_political_power = 10
+			   set_country_flag = FRA_boots_in_afrca
+			   
+          }
+     }
+}

@@ -6,8 +6,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = CVG
-		add_core_of = CVG
+		owner = POR
+		add_core_of = POR
 		victory_points = {
 			12747 1 # Bolama
 		}

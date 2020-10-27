@@ -2,6 +2,9 @@
 
 oob = "ENG"
 set_naval_oob = "ENG_Naval"
+set_rule = {
+    can_be_called_to_war = no
+}
 
 set_research_slots = 4
 

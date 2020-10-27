@@ -11,3 +11,14 @@ FRA_support_pekkas = {
 		NOT = { has_global_flag = the_corridor_is_closed }
 	}
 }
+
+FRA_mission_free_africa = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+		has_global_flag = FRA_mission_free_africa
+	}
+}

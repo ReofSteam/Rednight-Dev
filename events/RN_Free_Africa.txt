@@ -1,0 +1,68 @@
+﻿add_namespace = africa
+country_event = {
+	id = africa.0
+	title = africa.0.t
+	desc = africa.0.desc
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = africa.0.a
+		country_event = africa.1
+	}
+}
+
+country_event = {
+	id = africa.1
+	title = africa.1.t
+	desc = africa.1.desc
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = africa.1.a
+		country_event = africa.2
+		SEN = { 
+		country_event = sen.5
+		}
+		ENG = { 
+		country_event = africa.3
+		}		
+	}
+	option = {
+		name = africa.1.a
+		SEN = {
+		country_event = sen.6		
+		}
+	}	
+}
+
+country_event = {
+	id = africa.1
+	title = africa.2.t
+	desc = africa.2.desc
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+	name = africa.2.a
+	set_global_flag = FRA_mission_free_africa
+	ALG = { 
+	declare_war_on = {
+    target = SAH
+    type = annex_everything
+}
+}
+    MOR = { add_to_war = { 
+    targeted_alliance = ALG 
+    enemy = SAH 
+} }
+    TUN = { add_to_war = { 
+    targeted_alliance = ALG 
+    enemy = SAH 
+} }
+}
+}
