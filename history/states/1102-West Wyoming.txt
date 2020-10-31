@@ -10,6 +10,10 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}			
 	}
 	manpower=300000
 	state_category = rural

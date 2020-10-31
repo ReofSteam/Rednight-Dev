@@ -48,6 +48,24 @@ set_convoys = 300
 set_stability = 0.8
 set_war_support = 0.6
 
+1981.1.1 = {
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1972.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Gennadiy Seleznyov"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/Apocalypse_War/AW_Russian_Vozhd.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+}
 
 
 set_politics = {	
