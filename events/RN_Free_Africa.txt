@@ -12,7 +12,10 @@ country_event = {
 		trigger = { 
 		tag = FRA
 		}
-		country_event = africa.1
+		country_event = {
+		id = africa.1
+		days = 10
+	}	
 	}
 	option = {
 		name = africa.0.b
@@ -39,6 +42,15 @@ country_event = {
 		SEN = { 
 		country_event = sen.5
 		}
+		ALG = {
+		country_event = africa.3
+		}
+		MOR = { 
+		country_event = africa.3
+		}
+		TUN = {
+		country_event = africa.3
+		}
 		ENG = { 
 		country_event = africa.3
 		}		
@@ -55,7 +67,7 @@ country_event = {
 	id = africa.2
 	title = africa.2.t
 	desc = africa.2.d
-	picture = GFX_FRA_commune
+	picture = GFX_helicopter_desert
 
 	is_triggered_only = yes
 
@@ -77,6 +89,23 @@ country_event = {
     enemy = SAH 
 } }
 }
+}
+
+country_event = { 
+	id = africa.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event africa.3"}
+	title = africa.3.t
+	desc = africa.3.d
+	picture = GFX_homecoming
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+	name = africa.3.a
+	add_political_power = 15
+
+	}			
 }
 
 ####Establishment of Mission Free Africa

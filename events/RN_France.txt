@@ -10,6 +10,12 @@ news_event = {
 
 	option = {
 		name = fra.0.a
+	hidden_effect = { 
+	country_event = { 
+	id = africa.0
+	days = 10
+	}
+	}
 	}
 }
 

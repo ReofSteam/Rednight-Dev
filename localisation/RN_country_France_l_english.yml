@@ -27,7 +27,7 @@ FRA_autocratic:0 "French National State"
 FRA_autocratic_ADJ:0 "French"
 FRA_autocratic_DEF:0 "the French Empire"
 
-### Decision ####
+#####Parties
 FRA_revolutionary_socialism_party:0 "PRT"
 FRA_revolutionary_socialism_party_long:0 "Parti révolutionnaire des travailleurs\Revolutionary Workers Party"
 FRA_moderate_socialist_party:0 "PS - Parti socialiste"
@@ -37,6 +37,10 @@ FRA_social_democrat_party_long:0 "French Socialist Workers' Party"
 FRA_social_liberal_party:0 "Radical Party"
 FRA_social_liberal_party_long:0 "Parti Radical/Radical Party"
 
+### Decision ####
+
+FRA_mission_free_africa:0 "Mission Afrique libre"
+FRA_troops_in_Africa:0 "Troops in Africa"
 FRA_support_pekkas:0 "The Liberty Corridor"
 FRA_support_pekkas_desc:0 "We can help the recent uprising in Finland against the Russians through the so-called "Liberty Corridor" — a naval path to the territories of the Finnish Secret Army. Though it ofters us good possibilities, it can also be closed at any moment if the Russians see our ships, rendering our help useless." 
 FRA_Finland_supply:0 "Supply The Secret Army"
@@ -117,14 +121,16 @@ africa.1.t:0 "Whispers from the Sand"
 africa.1.d:0 "​​The streets of Oran hadn’t changed at all, had they?\n\nYoucef glared at the arguing Frenchmen, unsure which he hated more. They bickered, sneaking passive aggressive double meanings between comments and childish tones of voice.\n\n“Why was it” he thought “that the fate of this city still lies in the hand of foreigners and colons?”\n\n“Youcef?” his daydreaming was interrupted by the Communard general. “\n\n“Yes....excuse me comrade.” He composed himself before turning towards the exile general “The Algerian nation demands an immediate disarmament of all desert holdouts, as well as an unconditional withdrawal from the desert. We will no longer tolerate such flagrant abuse of the 1947 treaty...”\n\nThe meeting would go on for a while. The bastard colon did all he could to divert and delay. He spoke of “compromise” and “unnecessary bloodshed” but Youcef knew the truth. It was a ploy, buying time for reinforcements to mobilize. He raged internally.\n\nIt seemed then like  war for the fatherland would inevitably begin anew."
 africa.1.a:0 "This must end now"
 africa.1.b:0 "We will spare them some times"
-africa.2.t:0 "On the Wings of Hope"
-africa.2.d:0 "​​The streets of Oran hadn’t changed at all, had they?\n\nYoucef glared at the arguing Frenchmen, unsure which he hated more. They bickered, sneaking passive aggressive double meanings between comments and childish tones of voice.\n\n“Why was it” he thought “that the fate of this city still lies in the hand of foreigners and colons?”\n\n“Youcef?” his daydreaming was interrupted by the Communard general. “\n\n“Yes....excuse me comrade.” He composed himself before turning towards the exile general “The Algerian nation demands an immediate disarmament of all desert holdouts, as well as an unconditional withdrawal from the desert. We will no longer tolerate such flagrant abuse of the 1947 treaty...”\n\nThe meeting would go on for a while. The bastard colon did all he could to divert and delay. He spoke of “compromise” and “unnecessary bloodshed” but Youcef knew the truth. It was a ploy, buying time for reinforcements to mobilize. He raged internally.\n\nIt seemed then like  war for the fatherland would inevitably begin anew."
+africa.2.t:0 "On the Wings of Brotherhood"
+africa.2.d:0 "It was perhaps the longest drag of a cigarette he had yet performed, and it induced an uncharacteristic coughing fit. He slapped himself in the chest through the coughs, as though to force the smoke from his lungs.\n\nHis eyes stayed glued down the aisle towards the object of his distraction, young boys in sharper uniforms than his. It was an unpleasant sight, one that dredged up too many memories.\n\n"Fuck" he murmured to himself as one of the bastards took the empty seat next to him. The boy shoved his rucksack beneath his legs, buckled the seatbelt eagerly and was quiet for a moment. He hoped things would stay that way.\n\n"You fought in the last war, comrade?"\n\nHe made a noise somewhere between a grunt and an affirmative.\n\n"Lucky devil. I wish I had"\n\n"No, you don't...none of you assholes know what real life is like. Eager to die for some ignorant Berber."\n\nThe young man brushed off the insult and only looked quizzically upon him. Something about that was worse, as if he was being studied.\n\n"You stand in the splendour of a united humanity, flying off to do battle against tyrants... and yet you speak like a reactionary yourself?"\n\nHe groaned at the melodramatic speech, though a twinge of guilt did appear in the back of his mind.\n\n"Once you get there... you'll see how hollow it all is. "Free Africa?". Nothing is ever free. You pay. One way or another"\n\nHe looked the boy in the eyes, more sympathetic now.\n\n"War is never something to be celebrated, you hear me? Doesnt matter what fucking dogma you fight it for."\n\nThe boy only shook his head. "You sure you're on the right side?""
 africa.2.a:0 "Who shall watch our liberators?"
 
 ### Flags ###
 
 ### Tooltips ###
 WAR_NAME_ALG_SAH:0 "Operation June"
+WAR_NAME_TUN_SAH:0 "Operation June"
+
 ### Companies ###
 
 ### Ministers ###

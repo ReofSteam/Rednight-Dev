@@ -1,5 +1,10 @@
 ﻿capital = 272
-OOB = "SEN_1950"
+OOB = "SEN"
+
+country_event = { 
+	id = africa.0
+	days = 10
+	}
 
 set_technology = {
 	### MOD ###
