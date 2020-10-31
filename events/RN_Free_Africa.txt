@@ -44,7 +44,7 @@ country_event = {
 		}		
 	}
 	option = {
-		name = africa.1.a
+		name = africa.1.b
 		SEN = {
 		country_event = sen.6		
 		}
