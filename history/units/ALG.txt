@@ -61,24 +61,24 @@ units = {
 		name = "2nd Infantry Division"
 		location = 1145
 		division_template = "Infantry Division"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 	}
 	division = {
 		name = "3rd Armoured Division"
 		location = 7132
 		division_template = "Armoured Division"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 	}	
 	division = {
 		name = "4th Infantry Division"
 		location = 12051
 		division_template = "Infantry Division"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 	}
 	division = {
 		name = "5th Light Mechanized Division"
 		location = 12018
 		division_template = "Motorised Division"
-		start_experience_factor = 0.1
+		start_experience_factor = 0
 	}		
 }
