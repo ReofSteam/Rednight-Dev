@@ -23,6 +23,10 @@ spriteTypes = {
 		name = "GFX_rebel_2" #pro
 		texturefile = "gfx/event_pictures/rebel_2.dds"
 	}				
+		spriteType = { 
+		name = "GFX_helicopter_desert"
+		texturefile = "gfx/event_pictures/helicopter_desert.dds"
+	}		
 	
 	###############
 	###   NEWS  ###
@@ -97,9 +101,13 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/FRA_pierre.dds"
 	}
 		spriteType = { 
-		name = "GFX_FFRA_soldier"
+		name = "GFX_FRA_soldier"
 		texturefile = "gfx/event_pictures/FRA_soldier.dds"
 	}	
+		spriteType = { 
+		name = "GFX_FRA_desert"
+		texturefile = "gfx/event_pictures/FRA_desert.dds"
+	}		
 	#####Russia
 			spriteType = { 
 		name = "GFX_RUS_kremlin"

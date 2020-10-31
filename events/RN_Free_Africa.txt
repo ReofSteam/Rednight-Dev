@@ -2,22 +2,34 @@
 country_event = {
 	id = africa.0
 	title = africa.0.t
-	desc = africa.0.desc
-	picture = GFX_FRA_commune
+	desc = africa.0.d
+	picture = GFX_FRA_desert
 
 	is_triggered_only = yes
 
 	option = {
 		name = africa.0.a
+		trigger = { 
+		tag = FRA
+		}
 		country_event = africa.1
 	}
+	option = {
+		name = africa.0.b
+		trigger = { 
+		NOT = {
+		tag = FRA
+		}
+		}
+		complete_national_focus = SEN_time_is_not_on_our_side
+	}	
 }
 
 country_event = {
 	id = africa.1
 	title = africa.1.t
-	desc = africa.1.desc
-	picture = GFX_FRA_commune
+	desc = africa.1.d
+	picture = GFX_helicopter_desert
 
 	is_triggered_only = yes
 
@@ -40,9 +52,9 @@ country_event = {
 }
 
 country_event = {
-	id = africa.1
+	id = africa.2
 	title = africa.2.t
-	desc = africa.2.desc
+	desc = africa.2.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes
@@ -65,4 +77,26 @@ country_event = {
     enemy = SAH 
 } }
 }
+}
+
+####Establishment of Mission Free Africa
+
+country_event = {
+	id = africa.5
+	title = africa.5.t
+	desc = africa.5.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = africa.5.a
+		SAH = { 
+		transfer_state = 910
+		transfer_state = 809
+		transfer_state = 967
+		transfer_state = 557
+		}
+
+	}	
 }
