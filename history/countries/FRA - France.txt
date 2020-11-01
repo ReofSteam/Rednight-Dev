@@ -91,7 +91,7 @@ add_to_faction = BEL
 add_to_faction = TUN
 add_to_faction = CRO
 add_to_faction = AUS
-
+add_to_faction = MOR
 
 
 

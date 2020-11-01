@@ -74,6 +74,7 @@ country_event = {
 	option = {
 	name = africa.2.a
 	set_global_flag = FRA_mission_free_africa
+	has_global_flag = FRA_sand_war
 	ALG = { 
 	declare_war_on = {
     target = SAH
@@ -120,6 +121,7 @@ country_event = {
 
 	option = {
 		name = africa.5.a
+		remove_global_flag = FRA_sand_war
 		SAH = { 
 		transfer_state = 910
 		transfer_state = 809
