@@ -51,6 +51,9 @@ set_popularities = {
 }
 
 add_ideas = {
+	ANA_marxist_leninist_thought
+	ANA_liberty_and_equality
+	ANA_white_terror
 }
 
 create_country_leader = {
