@@ -80,18 +80,11 @@ create_faction = MARPAC
 
 add_to_faction = ITA
 add_to_faction = ENG
-add_to_faction = NTH
-add_to_faction = CNT
 add_to_faction = GER
 add_to_faction = FOZ
 add_to_faction = BOZ
 add_to_faction = JOZ
-add_to_faction = ALG
-add_to_faction = BEL
-add_to_faction = TUN
-add_to_faction = CRO
-add_to_faction = AUS
-add_to_faction = MOR
+
 
 
 
