@@ -5,6 +5,7 @@ country_event = {
 	id = africa.0
 	days = 10
 	}
+puppet = SAH
 
 set_technology = {
 	### MOD ###
