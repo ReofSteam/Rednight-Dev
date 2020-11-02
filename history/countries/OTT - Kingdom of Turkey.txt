@@ -31,21 +31,21 @@ set_technology = {
 set_research_slots = 4
 
 set_politics = {
-	ruling_party = revolutionary_socialism
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	nationalist_socialism = 28
-	revolutionary_socialism = 52
-	syndicalism = 6
-	moderate_socialist = 14
-	social_democrat = 0
-	social_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 0
-	autocratic = 0
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 10
+	social_liberal = 14
+	social_conservative = 28
+	authoritarian_democrat = 42
+	autocratic = 6
 	ultraconservative = 0
 	national_corporatist = 0
 }
@@ -59,6 +59,16 @@ create_country_leader = {
 	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Sultan_Ahmed_IV.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Sultan Ahmed IV"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Sultan_Ahmed_IV.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
 	traits = {
 	}
 }
@@ -135,28 +145,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "İsmet İnönü"
-	desc = "POLITICS_ISMET_INÖNÜ_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Ismet_Inonu.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		moderate_westernizer
-	}
-}
-
-create_country_leader = {
-	name = "Mustafa Kemal Pasha"
-	desc = "POLITICS_ATATURK_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Mustafa_K_Pasha.tga"
-	expire = "1965.01.01"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		secular_westernizer
 	}
 }
 

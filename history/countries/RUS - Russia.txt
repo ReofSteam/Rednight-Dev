@@ -103,7 +103,6 @@ add_to_faction = MON
 add_to_faction = SER
 add_to_faction = POL
 add_to_faction = PRS
-add_to_faction = BUL
 add_to_faction = AUS
 add_to_faction = HUN
 add_to_faction = BNT
