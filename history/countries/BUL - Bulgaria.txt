@@ -47,6 +47,12 @@ set_popularities = {
     national_corporatist = 5
 }
 
+diplomatic_relation = {
+    country = TUR
+    relation = non_aggression_pact
+    active = no
+}
+
 #Leaders
 
 create_country_leader = {

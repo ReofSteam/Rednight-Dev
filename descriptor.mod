@@ -5,7 +5,7 @@ tags={
 	"National Focuses"
 	"Events"
 }
-version="1.9.*"
+version="1.10.*"
 replace_path="common/abilities"
 replace_path="common/ai_areas"
 replace_path="common/ai_equipment"

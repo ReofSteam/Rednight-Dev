@@ -8,14 +8,14 @@ state={
 	}
 
 	history={
-		owner = OTT
+		owner = ANA
 		add_core_of = IRQ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = OTT
+		add_core_of = ANA
 		victory_points = {
 			6965 3
 		}
