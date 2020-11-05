@@ -6,6 +6,12 @@ set_technology = {
 }
 set_research_slots = 2
 
+SEN = {
+    set_autonomy = {
+        target = SAH
+        autonomy_state = autonomy_puppet
+    }
+}
 set_politics = {
 	ruling_party = autocratic
 	last_election = "1888.15.6"
