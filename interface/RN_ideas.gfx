@@ -240,5 +240,17 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_idea_bad_military"
 		texturefile = "gfx/interface/ideas/generic/bad_military.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_idea_fighting_for_freedom"
+		texturefile = "gfx/interface/ideas/ideas/fighting_for_freedom.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Comintern_logo"
+		texturefile = "gfx/interface/ideas/ideas/Comintern_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Small_Industrial_Crisis"
+		texturefile = "gfx/interface/ideas/ideas/Small_Industrial_Crisis.tga"
+	}
 }
