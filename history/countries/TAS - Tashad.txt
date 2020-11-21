@@ -39,9 +39,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Santa"
+	name = "Oskar-Hubert Dennhardt"
 	desc = ""
-	picture = ""
+	picture = "gfx/leaders/OVERSEA_GERMANS/Oskar_Hubert_Dennhardt.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {
