@@ -18,7 +18,7 @@ add_ideas = {
 set_convoys = 10
 
 set_politics = {	
-	ruling_party = national_corporatist
+	ruling_party = autocratic
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -38,13 +38,12 @@ set_popularities = {
     national_corporatist = 50
 }
 
-### gfx/leaders/WEST_AFRICA/TAS/
 create_country_leader = {
 	name = "Santa"
 	desc = ""
 	picture = ""
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = autocratic_subtype
 	traits = {
 		
 	}

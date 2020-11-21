@@ -4,8 +4,7 @@ state={
 	name="STATE_662"
 
 	history={
-		owner = MAF
-		add_core_of = MAF
+		owner = KAM
 		add_core_of = KAM
 		buildings = {
 			infrastructure = 2
