@@ -15,6 +15,12 @@ add_ideas = {
 
 }
 
+KAM = {
+    set_autonomy = {
+        target = TAS
+        autonomy_state = autonomy_puppet
+    }
+}
 set_convoys = 10
 
 set_politics = {	

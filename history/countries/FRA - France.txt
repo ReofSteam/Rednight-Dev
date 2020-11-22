@@ -76,7 +76,7 @@ set_popularities = {
     national_corporatist = 4
 }
 
-create_faction = MARPAC
+create_faction = Continental MARPAC
 
 add_to_faction = ITA
 add_to_faction = ENG
@@ -87,7 +87,10 @@ add_to_faction = JOZ
 
 
 
-
+	country_event = {
+		id = africa.0
+		days = 7
+	}
 
 
 create_country_leader = {# 

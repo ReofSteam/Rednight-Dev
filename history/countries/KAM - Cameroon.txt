@@ -32,9 +32,9 @@ set_popularities = {
 ###gfx/leaders/WEST_AFRICA/KAM/
 
 create_country_leader = {
-	name = "Alexander Duala Bell"
+	name = "Gebhard Müller"
 	desc = "POLITICS_DUALABELL_DESC"
-	picture = "gfx/leaders/Generic/Portrait_German_Africa_Generic_land_7.tga"
+	picture = "gfx/leaders/OVERSEA_GERMANS/Gebhard_Muller.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
