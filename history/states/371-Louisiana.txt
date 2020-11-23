@@ -1,15 +1,12 @@
-state = {
-	id = 371
-	name = "STATE_371"
-	manpower = 2246000
 
-	state_category = six
-
-	resources = {
-		oil = 81
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=81.000
 	}
 
-	history = {
+	history={
 		owner = CSA
 		buildings = {
 			infrastructure = 5
@@ -18,18 +15,24 @@ state = {
 			air_base = 5
 			7552 = {
 				naval_base = 5
+
 			}
+
 		}
 		add_core_of = CSA
 		victory_points = {
-			7552 25
+			7552 25 
 		}
 		victory_points = {
-			1453 2
+			1453 2 
 		}
+
 	}
 
-	provinces = {
-		1453 1528 1559 1643 4507 4522 4535 7524 7552 7555 7599 12313 12398 12401
+	provinces={
+		1528 1559 1643 4507 4522 4535 7555 7599 12313 12398 12401 
 	}
+	manpower=2246000
+	buildings_max_level_factor=1.000
+	state_category=six
 }
