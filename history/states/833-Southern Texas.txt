@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = CSA
+		owner = CAL
 		buildings = {
 			industrial_complex = 4
 			infrastructure = 6
@@ -17,7 +17,7 @@ state={
 			}
 
 		}
-		add_core_of = CSA
+		add_core_of = CAL
 		victory_points = {
 			12782 10 
 		}

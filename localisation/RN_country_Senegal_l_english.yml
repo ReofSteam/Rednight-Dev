@@ -27,9 +27,6 @@ SEN_ultranationalist_party_long:0 "Sacred France Clique"
 
 ### Country Name ###
 
-SEN_marxist:0 "Socialist Republic of Albania"
-SEN_marxist_ADJ:0 "Albanian"
-SEN_marxist_DEF:0 "the Socialist Republic of Sénégal-Gambie"
 SEN_moderate_socialist:0 "Socialist Republic of Sénégal-Gambie"
 SEN_moderate_socialist_ADJ:0 "Sénégal-Gambien"
 SEN_moderate_socialist_DEF:0 "the Socialist Republic of Sénégal-Gambie"
@@ -132,5 +129,6 @@ SEN_destroy_the_exiles_desc:0 ""
 ### Ministers ###
 
 ### Leaders ###
-
+POLITICS_HENRI_HONORE_DESC:0 "The situation is dire, and there is no greater test of a man's character than his response to such a situation.\n\nWill he flail his arms about, heaving obscenities upon the clouds and denying the reality before him?\n\nWill he abandon his ideals? Twist himself into a pathetic imitation of his oppressor in a futile attempt at acceptance?\n\nOr will he keep his wits about him, stay true to his identity, and do what can be done?\n\nHenri Honoré d'Estienne d'Orves is not interested in the ravings of the geriatric warmongers or communist contortionists. He holds no futile illusions of a continental reconquest. However, just because the homeland is lost does not mean France is. As long as she sticks true to the ideals that she was founded upon, a future can be made in the sands. Senegal-Gambia shall be a safe haven, a colony for all who refuse to submit to socialist tyranny. It will be developed to the greatest extent possible, so that it may stand upon its own two legs.\n\nOnce this task is completed, all that remains is the long wait. One day, perhaps decades from now, our great dream may become reality..."
+POLITICS_DE_LATTRE_DESC:0 "There were none more reluctant to flee south than General de Lattre, a man who was forcibly transformed from Weltkrieg hero and holder of the military cross to bitter african exile. It is not unusual among his countrymen to hold hatred for the communists, far from it in fact. Yet even among Jean's comrades, his zeal is unrivaled.\n\nIn General de Lattre's view a line must be drawn in the sand. As the new world chases all remnants of the past to distant corners of the globe Jean clings to Africa like a raft in the storm. Every inch of every man ought to be armed, every resource exploited, and every scrap of territory held for dear life. The modern age, a tragedy unrivaled but by the fall of Rome itself is a titanic struggle. The forces of order and christian civilization; pitted against tyrannical barbarism! Jean will not rest until the red plague is swept from the planet's surface, and he will preserve tradition, fatherland and culture to his last breath."
 ### Tech? ###

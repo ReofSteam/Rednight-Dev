@@ -13,7 +13,7 @@ state = {
 
 
 	history = {
-		owner = CSA
+		owner = TEX
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 8
@@ -22,7 +22,7 @@ state = {
 				naval_base = 3
 			}
 		}
-		add_core_of = CSA
+		add_core_of = TEX
 		victory_points = {
 			10337 10
 		}

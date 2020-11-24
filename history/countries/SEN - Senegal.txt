@@ -46,4 +46,12 @@ create_country_leader = {
 	traits = {}
 }
 
+create_country_leader = {
+	name = "Jean de Lattre de Tassigny"
+	desc = "POLITICS_DE_LATTRE_DESC"
+	picture = "gfx/leaders/FRENCH_EXILES/De_Lattre.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
 
