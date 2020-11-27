@@ -1074,8 +1074,8 @@ CHK = {
 
 ###Americas
 TEX = {
-	color = rgb { 4 36 124 }
-	color_ui = rgb { 4 36 124 }
+	color = rgb { 225 163 75 }
+	color_ui = rgb { 225 163 75 }
 }
 
 ##Central

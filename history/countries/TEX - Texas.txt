@@ -34,9 +34,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Captain Henri James"
+	name = "William D. Leahy"
 	desc = "POLITICS_George_V_DESC"
-	picture = "gfx/leaders/CAL/.tga"
+	picture = "gfx/leaders/CAL/CAL_Leahy.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
