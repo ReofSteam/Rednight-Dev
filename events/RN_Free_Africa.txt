@@ -131,12 +131,46 @@ country_event = {
 	option = {
 		name = africa.5.a
 		remove_global_flag = FRA_sand_war
+		FRA = {
+        set_autonomy = {
+        target = SAH
+        autonomy_state = autonomy_puppet
+    }
+}
 		SAH = { 
 		transfer_state = 910
 		transfer_state = 809
 		transfer_state = 967
 		transfer_state = 557
+		country_event = africa.6
 		}
 
 	}	
+}
+
+country_event = {
+	id = africa.6
+	title = africa.6.t
+	desc = africa.6.d
+	picture = GFX_helicopter_desert
+
+	is_triggered_only = yes
+
+	option = {
+	SAH = (
+	set_politics = {
+	ruling_party = revolutionary_socialism
+}
+
+create_country_leader = {
+	name = "Réne Guisco"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/FRA/FRA_guisco.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		
+	}
+}
+	}
 }

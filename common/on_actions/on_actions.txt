@@ -424,17 +424,6 @@ on_actions = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] has capitulated to [From.GetName]"
 			news_event = country_capitulated.0
-			if = {
-				limit = {
-					AND = {
-						ROOT = { tag = SAH }
-						FROM = { tag = ALG }
-					}
-				}
-				FRA = {
-				country_event = africa.5
-			}
-			}
 			# double-checking exile system
 			if = {
 				limit = {

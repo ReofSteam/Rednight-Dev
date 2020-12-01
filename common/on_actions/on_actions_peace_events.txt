@@ -20,6 +20,17 @@ on_actions = {
 
 }
 			}
+			if = {
+				limit = {
+					AND = {
+						ROOT = { tag = SAH }
+						FROM = { tag = ALG }
+					}
+				}
+				FRA = {
+				country_event = africa.5
+			}
+			}			
 	}
 }
 }

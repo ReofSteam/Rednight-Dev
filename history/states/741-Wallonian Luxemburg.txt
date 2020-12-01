@@ -8,7 +8,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = FRA
+		owner = BEL
 		add_core_of = BEL
 
 		buildings = {
