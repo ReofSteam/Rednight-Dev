@@ -187,6 +187,10 @@ country_event = { ##The Sun rises again
 		name = ger.1.a
 		drop_cosmetic_tag = GER_occupied
 		hidden_effect = {
+		news_event = {
+		id = worldnews.2
+		hours = 1
+		}
 		country_event = {
 		id = ger.2
 		days = 3
