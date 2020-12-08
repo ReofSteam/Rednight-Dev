@@ -1,0 +1,43 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+
+		America_new_year_peace = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea America_new_year_peace"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = America_new_year_peace
+		}	
+		###############Army Democrats Staring##############
+		TEX_gun_and_rose = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_gun_and_rose"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = gun_and_rose
+		}
+		TEX_anti_long = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_anti_long"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = TEX_anti_long
+		}
+		TEX_soldiers_nation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_soldiers_nation"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = TEX_soldiers_nation
+		}		
+
+}
+}

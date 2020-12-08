@@ -19,6 +19,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+America_new_year_peace
+TEX_gun_and_rose
+TEX_anti_long
+TEX_soldiers_nation
+}
+
 set_popularities = {
     nationalist_socialism = 0
     revolutionary_socialism = 0

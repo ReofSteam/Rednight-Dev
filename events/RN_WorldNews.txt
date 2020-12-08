@@ -1,0 +1,59 @@
+﻿#############
+#Britain Events#
+#############
+
+add_namespace = wolrdnews
+
+#######################
+news_event = { #British Election
+	id = wolrdnews.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wolrdnews.1" }
+
+	title = wolrdnews.1.t
+	desc = wolrdnews.1.d
+	picture = GFX_wolrdnews_generic_1
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_european_country = yes
+	}
+	option = {
+		name = wolrdnews.1.a
+	}
+}
+
+news_event = { #Germanny_occupation_ends
+	id = wolrdnews.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wolrdnews.2" }
+
+	title = wolrdnews.2.t
+	desc = wolrdnews.2.d
+	picture = GFX_german_republic
+	major = yes
+	show_major = {
+	is_european_country = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = wolrdnews.2.a
+	}
+}
+
+news_event = { #New Year Peace
+	id = wolrdnews.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event wolrdnews.3" }
+
+	title = wolrdnews.3.t
+	desc = wolrdnews.3.d
+	picture = GFX_american_peace
+	major = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = wolrdnews.3.a
+	}
+}

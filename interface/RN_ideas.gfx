@@ -187,6 +187,16 @@ spriteTypes = {
 		name = "GFX_idea_WCN_pacific_revolt"
 		texturefile = "gfx/interface/ideas/WCN/WCN_pacific_revolt.dds"
 	}
+
+####West America	
+	spriteType = {
+		name = "GFX_idea_TEX_anti_long"
+		texturefile = "gfx/interface/ideas/CAL/TEX_anti_long.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEX_soldiers_nation"
+		texturefile = "gfx/interface/ideas/CAL/TEX_soldiers_nation.dds"
+	}	
 	
 ####Generic	
 	spriteType = {
@@ -252,5 +262,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Small_Industrial_Crisis"
 		texturefile = "gfx/interface/ideas/ideas/Small_Industrial_Crisis.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_America_new_year_peace"
+		texturefile = "gfx/interface/ideas/generic/new_year_peace.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_gun_and_rose"
+		texturefile = "gfx/interface/ideas/generic/gun_and_rose.dds"
 	}
 }
