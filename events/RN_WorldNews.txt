@@ -11,7 +11,7 @@ news_event = { #British Election
 
 	title = worldnews.1.t
 	desc = worldnews.1.d
-	picture = GFX_worldnews_generic_1
+	picture = GFX_news_mosley_victory
 
 	is_triggered_only = yes
 	major = yes
@@ -29,7 +29,7 @@ news_event = { #Germanny_occupation_ends
 
 	title = worldnews.2.t
 	desc = worldnews.2.d
-	picture = GFX_german_republic
+	picture = GFX_germany_occupation_ends
 	major = yes
 	show_major = {
 	is_in_europe = yes
@@ -48,7 +48,7 @@ news_event = { #New Year Peace
 
 	title = worldnews.3.t
 	desc = worldnews.3.d
-	picture = GFX_american_peace
+	picture = GFX_news_american_peace
 	major = yes
 	is_triggered_only = yes
 

@@ -28,10 +28,7 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/helicopter_desert.dds"
 	}		
 	
-	###############
-	###   NEWS  ###
-	###############
-	
+
 	###Germany
 	spriteType = { 
 		name = "GFX_GER_occupation_britain"
@@ -126,4 +123,20 @@ spriteTypes = {
 		name = "GFX_RUS_wrangel"
 		texturefile = "gfx/event_pictures/RUS_wrangel.dds"
 	}
+	###############
+	###   NEWS  ###
+	###############
+		spriteType = { 
+		name = "GFX_news_american_peace"
+		texturefile = "gfx/event_pictures/news_peace.dds"
+	}	
+		spriteType = { 
+		name = "GFX_germany_occupation_ends"
+		texturefile = "gfx/event_pictures/germany_occupation_ends.dds"
+	}	
+		spriteType = { 
+		name = "GFX_news_mosley_victory"
+		texturefile = "gfx/event_pictures/news_mosley_victory.dds"
+	}		
+		
 }
