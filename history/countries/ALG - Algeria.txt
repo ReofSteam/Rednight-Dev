@@ -39,6 +39,6 @@ create_country_leader = {
 	}
 }
 
-create_faction = North African MARPAC
+create_faction = North_African_MARPAC
 add_to_faction = MOR
 add_to_faction = TUN

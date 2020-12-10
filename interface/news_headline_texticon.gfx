@@ -1,0 +1,42 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_nhl_generic"
+		texturefile = "gfx/interface/news_headline/nhl_generic.dds"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_nhl_FRA"
+		texturefile = "gfx/interface/news_headline/nhl_FRA.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_ENG"
+		texturefile = "gfx/interface/news_headline/nhl_ENG.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_GER"
+		texturefile = "gfx/interface/news_headline/nhl_GER.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_RUS"
+		texturefile = "gfx/interface/news_headline/nhl_RUS.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_CAL"
+		texturefile = "gfx/interface/news_headline/nhl_CAL.dds"
+		legacy_lazy_load = no
+	}
+		
+	spriteType = {
+		name = "GFX_nhl_JAP"
+		texturefile = "gfx/interface/news_headline/nhl_JAP.dds"
+		legacy_lazy_load = no
+	}
+	
+}

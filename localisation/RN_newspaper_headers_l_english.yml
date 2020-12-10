@@ -1,7 +1,7 @@
 ﻿# Made by Yard1 for Equestria at War, original concept by Agatha (TWR dev team)
 l_english:
  newspaper_header_1:0 "\n£eaw_newspaper_header_1\n\n\n\n\n\n\n\n\n\n\n"
- newspaper_header_2:0 "\n£eaw_newspaper_header_2\n\n\n\n\n\n\n\n\n\n\n"
+ newspaper_header_2:0 "£eaw_newspaper_header_2"
  GFX_usa_news:0 "\n£usa_news\n\n\n\n\n\n\n\n\n\n\n"
  GFX_fra_news:0 "\n£fra_news\n\n\n\n\n\n\n\n\n\n\n"
 

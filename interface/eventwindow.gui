@@ -165,6 +165,14 @@ guiTypes = {
 				format = centre
 			}
 			
+			iconType = {
+				name = "Stamp"
+				position = { x = 270 y = -27 }
+			Orientation = "CENTER"
+			spriteType = "[GetNewsHeadline]"
+			frame = 1
+		}
+			
 			buttonType = {
 				name = "btn_minimize"
 				position = {x=5 y=40}
