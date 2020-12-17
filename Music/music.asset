@@ -6,10 +6,19 @@ music = {
 	volume = 0.65
 }
 
+####Super Event Noises
+######Foggy Dew
+
+music = {
+	name = "foggydew"
+	file = "RNfoggydew.ogg"
+	volume = 0.65
+}
+
 # General Peace:
 music = {
 	name = "general_peace_1"
-	file = "general_peace_heartsofmen.ogg"
+	file = "RNfoggydew.ogg"
 	volume = 0.65
 }
 music = {
@@ -19,7 +28,7 @@ music = {
 }
 music = {
 	name = "general_peace_3"
-	file = "asongforthechildrenofww2.ogg"
+	file = "RNfoggydew.ogg"
 	volume = 0.65
 }
 

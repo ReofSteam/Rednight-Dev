@@ -57,3 +57,24 @@ news_event = { #New Year Peace
 		name = worldnews.3.a
 	}
 }
+
+
+news_event = { #Death of Collins
+	id = worldnews.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.4" }
+
+	title = worldnews.3.t
+	desc = worldnews.4.d
+	picture = GFX_news_IRE_Collins_death
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.4.a
+	}
+}
+

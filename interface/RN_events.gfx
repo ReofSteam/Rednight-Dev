@@ -123,6 +123,14 @@ spriteTypes = {
 		name = "GFX_RUS_wrangel"
 		texturefile = "gfx/event_pictures/RUS_wrangel.dds"
 	}
+
+    ###########Ireland
+	
+		spriteType = { 
+		name = "GFX_IRE_funeral"
+		texturefile = "gfx/event_pictures/IRE_funeral.dds"
+	}	
+	
 	###############
 	###   NEWS  ###
 	###############
@@ -138,5 +146,9 @@ spriteTypes = {
 		name = "GFX_news_mosley_victory"
 		texturefile = "gfx/event_pictures/news_mosley_victory.dds"
 	}		
+		spriteType = { 
+		name = "GFX_news_IRE_Collins_death"
+		texturefile = "gfx/event_pictures/news_IRE_Collins_death.dds"
+	}			
 		
 }

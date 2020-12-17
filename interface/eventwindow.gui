@@ -145,18 +145,10 @@ guiTypes = {
 				allwaystransparent = yes
 			}
 			
-			iconType =
-			{
-				name ="event_picture_overlay"
-				spriteType = "GFX_event_news_pic_overlay"
-				position = { x = 27 y = 139 }
-				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
-			}			
 			
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = -40 y = 20 }
+				position = { x = 378 y = 55 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"	
@@ -164,14 +156,6 @@ guiTypes = {
 				maxHeight = 32
 				format = centre
 			}
-			
-			iconType = {
-				name = "Stamp"
-				position = { x = 270 y = -27 }
-			Orientation = "CENTER"
-			spriteType = "[GetNewsHeadline]"
-			frame = 1
-		}
 			
 			buttonType = {
 				name = "btn_minimize"
@@ -218,7 +202,7 @@ guiTypes = {
 				size = { width = 300 height = 30 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
-				format = "UPPER_LEFT"
+				format = "LOWER_LEFT"
 			}		
 		}
 	}
@@ -330,7 +314,7 @@ guiTypes = {
 			maxWidth = 340
 			maxHeight = 40
 			format = center
-			vertical_alignment = center
+			vertical_alignment = LOWER_LEFT
 			alwaystransparent = yes
 		}
 	}

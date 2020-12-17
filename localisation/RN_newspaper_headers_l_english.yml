@@ -2,6 +2,10 @@
 l_english:
  newspaper_header_1:0 "\n£eaw_newspaper_header_1\n\n\n\n\n\n\n\n\n\n\n"
  newspaper_header_2:0 "£eaw_newspaper_header_2"
+ newspaper_header_3:0 "£eaw_newspaper_header_3"
+ newspaper_header_4:0 "£eaw_newspaper_header_4"
+ newspaper_header_5:0 "£eaw_newspaper_header_5"
+ newspaper_header_6:0 "£eaw_newspaper_header_6" 
  GFX_usa_news:0 "\n£usa_news\n\n\n\n\n\n\n\n\n\n\n"
  GFX_fra_news:0 "\n£fra_news\n\n\n\n\n\n\n\n\n\n\n"
 

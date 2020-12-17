@@ -3,9 +3,9 @@ defined_text = { #SUPER EVENT TITLES
     
     text = { 
         trigger = {
-            has_country_flag = ENG_George_V_Dead
+            has_country_flag = IRE_Irish_Twilight
         }
-        localization_key = "GFX_SPEVNT_George_V_Death"
+        localization_key = "GFX_SPEVNT_Irish_Twilight"
     }
 
     text = { 
@@ -24,9 +24,9 @@ defined_text = { #SUPER EVENT TITLES
 
     text = { 
         trigger = {
-            has_country_flag = RUS_anti_russia_revolt
+            has_country_flag = RAJ_Anglo_Indian_War
         }
-        localization_key = "SPEVNT_anti_russia_revolt"
+        localization_key = "SPEVNT_Anglo_Indian_War"
     }
 
     text = { 
@@ -49,9 +49,9 @@ defined_text = { #SUPER EVENT QUOTES
     
     text = { 
         trigger = {
-            has_country_flag = ENG_George_V_Dead
+            has_country_flag = IRE_Irish_Twilight
         }
-        localization_key = "GFX_SPEVNT_George_V_Death_TEXT"
+        localization_key = "GFX_SPEVNT_Irish_Twilight_TEXT"
     }
 
     text = { 

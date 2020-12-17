@@ -20,6 +20,15 @@ set_politics = {
 
 }
 
+country_event = {
+id = IRE.1
+days = 1
+}
+
+country_event = {
+id = IRE.2
+days = 40
+}
 
 set_popularities = {
     nationalist_socialism = 5

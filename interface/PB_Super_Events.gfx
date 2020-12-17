@@ -7,7 +7,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_Super_Event_Quote_Background"
-		texturefile = "gfx/Super_Event_Quote_Background.dds"
+		texturefile = "gfx/none.dds"
 		legacy_lazy_load = no
 	}
 
@@ -18,8 +18,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SPEVNT_George_V_Death"
-		texturefile = "gfx/super_events/SPEVNT_George_V_Death.dds"
+		name = "GFX_SPEVNT_Irish_Twilight"
+		texturefile = "gfx/super_events/SPEVNT_Irish_Twilight.dds"
 		legacy_lazy_load = no
 	}
 
@@ -30,8 +30,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_SPEVNT_Polish_Uprising"
-		texturefile = "gfx/super_events/SPEVNT_Polish_Uprising.dds"
+		name = "GFX_SPEVNT_Irish_Twilight"
+		texturefile = "gfx/super_events/SPEVNT_Irish_Twilight.dds"
 		legacy_lazy_load = no
 	}
 

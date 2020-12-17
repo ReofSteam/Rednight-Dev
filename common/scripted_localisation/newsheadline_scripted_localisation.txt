@@ -59,6 +59,20 @@ defined_text = {
 		}
 		localization_key = news_headline_6
 	}
+    #####CSA	
+	text = {
+		trigger = {
+				original_tag = CSA
+		}
+		localization_key = news_headline_7
+	}
+	#####IRE
+	text = {
+		trigger = {
+				original_tag = IRE
+		}
+		localization_key = news_headline_8
+	}	
 
 	#### VANILA
 	text = {

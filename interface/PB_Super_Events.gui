@@ -9,10 +9,6 @@ guiTypes = {
 		clipping = no	
 		moveable = yes
 
-		background = {
-			name = "Background"	
-			spriteType ="GFX_idea_temp_1"
-		}
 
 		iconType = {
 			name ="Super_Event_Image_Default"
@@ -21,8 +17,8 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="Super_Event_Image_Georve_V_Death"
-			spriteType = "GFX_SPEVNT_George_V_Death"
+			name ="Super_Event_Image_Irish_Twilight"
+			spriteType = "GFX_SPEVNT_Irish_Twilight"
 			position = { x = 35 y = 0 }
 		}
 
@@ -39,8 +35,8 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="Super_Event_Image_Anti_Russia_Revolt"
-			spriteType = "GFX_SPEVNT_Anti_Russia_Revolt"
+			name ="Super_Event_Image_Anglo_Indian_War"
+			spriteType = "GFX_SPEVNT_Anglo_Indian_War"
 			position = { x = 35 y = 0 }
 		}
 
@@ -82,7 +78,7 @@ guiTypes = {
 
 		buttonType = {
             name = "Super_Event_Close"
-            position = { x = 540 y = 390 }
+            position = { x = 460 y = 360 }
             quadTextureSprite ="GFX_closebutton"
             clicksound = click_scroll
         }
