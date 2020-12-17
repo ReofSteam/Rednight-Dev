@@ -158,17 +158,7 @@ country_event = { #De Valera Victory
 		name = IRE.6.a
 	set_politics = {
 	ruling_party = social_liberal
-}			
-		create_country_leader = {
-	name = "Éamon de Valera"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "gfx/leaders/IRE/"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		
-	}
-}				
+}							
 	}
 }
 
@@ -187,17 +177,7 @@ country_event = { #Left-Sinn Fein Victory
 		name = IRE.7.a
 	set_politics = {
 	ruling_party = social_democrat
-}				
-		create_country_leader = {
-	name = "Seán MacBride"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "gfx/leaders/IRE/IRE_MacBride.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		
-	}
-}				
+}							
 	}
 }
 
@@ -218,7 +198,7 @@ country_event = { #Right-Sinn Fein Victory
 	ruling_party = social_conservative
 }	
 		create_country_leader = {
-	name = "Alexander McCabe"
+	name = "Ernest Blythe"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "gfx/leaders/IRE/IRE_McCabe.tga"
 	expire = "1965.1.1"
@@ -228,6 +208,25 @@ country_event = { #Right-Sinn Fein Victory
 	}
 }				
 	}
+}
+
+country_event = { #Battle of the A1
+	id = IRE.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event IRE.2" }
+
+	title = IRE.10.t
+	desc = IRE.10.d
+	picture = GFX_IRE_funeral
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = IRE.10.a
+	}
+	option = {
+		name = IRE.10.b
+	}	
 }
 
 country_event = { #The first bomb, Irish Twilight
@@ -249,7 +248,6 @@ country_event = { #The first bomb, Irish Twilight
 		hidden_effect = {
         set_country_flag = Super_Event_Visible		
 		set_country_flag = IRE_Irish_Twilight
-		play_song = 
 		}
 	}
 }

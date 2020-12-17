@@ -15,56 +15,92 @@ IRE.3.a:0 "De Valera will lead us."
 IRE.3.b:0 "We can't let lunatics seize the day"
 IRE.3.c:0 "We need to stay the course of Collins"
 
+IRE.10.t:0 "Battle of the A1"
+IRE.10.d:0 "Protests over the expansion of Ireland's first motorway project turned violent today as police and Union protestors clashed in the Dublin suburb of Swords. The controversial highway project already rife with accusations of corruption and cronyism reached a new scandal over allegedly illegal eminent domain to several homes and fields along its route, with the owners not being rewarded due compensation by the government. A crowd of several hundred protestors, many of them from the ITUC and Labour party and students from DUC and Trinity, occupied the work site overnight, they were met with dozens of police in riot gear bearing teargas and batons as well as counter protestors from the right wing National Volunteers truck in from elsewhere. Provoked by either party, a violent clash occured and arrests were made. Leading some to accuse the police of co-operating illegally with thugs. The head of the Dublin National Volunteers, Captain Macmanus declared that they were simply there to intercept what they saw as a demonstration by socialist. The initial controversy over the highway expansion was soon forgottent.\n\nMore protests and pickets are planned with the ITUC declaring that unless the arrested union members and students are released within 3 days they will issue a general strike in Dublin. This initially minor issue has exploded and it remains to be seen if the National government has the capacity to handle it, and what drastic measures they might take"
+IRE.10.a:0 "Compromise with them"
+IRE.10.b:0 "The Government will not be bullied"
+
 
 ### Parties ###
 
-IRE_moderate_socialist_party:0 "ILP - Irish Labour Party"
-IRE_moderate_socialist_party_long:0 "Irish Labour Party"
+IRE_nationalist_socialism_party:0 "Red Patriots"
+IRE_nationalist_socialism_party_long:0 "Bráithreachas Oibrithe Náisiúnta - National Workers Brotherhood"
+
+IRE_revolutionary_socialism_party:0 "Socialist Party"
+IRE_revolutionary_socialism_party_long:0 "Socialist Party of Ireland"
+
+IRE_syndicalism_party:0 "Labour Party"
+IRE_syndicalism_party_long:0 "Labour Party of Ireland"
+
+IRE_moderate_socialist_party:0 "Sinn Fein"
+IRE_moderate_socialist_party_long:0 "Sinn Fein"
+
 IRE_social_democrat_party:0 "Sinn Fein"
 IRE_social_democrat_party_long:0 "Sinn Fein"
+
 IRE_social_liberal_party:0 "Sinn Fein"
 IRE_social_liberal_party_long:0 "Sinn Fein"
-IRE_conservative_party:0 "Sinn Fein"
-IRE_conservative_party_long:0 "Sinn Fein"
+
+IRE_social_conservative_party:0 "Sinn Fein"
+IRE_social_conservative_party_long:0 "Sinn Fein"
+
 IRE_authoritarian_democrat_party:0 "Sinn Fein"
 IRE_authoritarian_democrat_party_long:0 "Sinn Fein"
-IRE_autocratic_party:0 "UNP - Ulster National Party"
-IRE_autocratic_party_long:0 "Ulster National Party"
+
+IRE_autocratic_party:0 "Irish Royalists"
+IRE_autocratic_party_long:0 "Irish Royalist and Ulster Parties"
+
+IRE_ultraconservative_party:0 "Sinn Fein"
+IRE_ultraconservative_party_long:0 "-"
+
+IRE_national_corporatist_party:0 "Sinn Fein"
+IRE_national_corporatist_party_long:0 "-"
+
 
 ### Country Name ###
-IRE_social_nationalist:0 "Irish Socialist Republic"
-IRE_social_nationalist_ADJ:0 "Irish"
-IRE_social_nationalist_DEF:0 "Irish Socialist Republic"
-IRE_marxist:0 "Irish Socialist Republic"
-IRE_marxist_ADJ:0 "Irish"
-IRE_marxist_DEF:0 "Irish Socialist Republic"
-IRE_moderate_socialist:0 "Irish Socialist Republic"
-IRE_moderate_socialist_ADJ:0 "Irish"
-IRE_moderate_socialist_DEF:0 "Irish Socialist Republic"
-IRE_social_democrat:0 "Ireland"
-IRE_social_democrat_ADJ:0 "Irish"
-IRE_social_democrat_DEF:0 "Ireland"
-IRE_social_liberal:0 "Ireland"
-IRE_social_liberal_ADJ:0 "Irish"
-IRE_social_liberal_DEF:0 "Ireland"
-IRE_market_liberal:0 "Ireland"
-IRE_market_liberal_ADJ:0 "Irish"
-IRE_market_liberal_DEF:0 "Ireland"
-IRE_conservative:0 "Ireland"
-IRE_conservative_ADJ:0 "Irish"
-IRE_conservative_DEF:0 "Ireland"
-IRE_authoritarian_democrat:0 "Ireland"
-IRE_authoritarian_democrat_ADJ:0 "Irish"
-IRE_authoritarian_democrat_DEF:0 "Ireland"
-IRE_autocratic:0 "Ireland"
-IRE_autocratic_ADJ:0 "Irish"
-IRE_autocratic_DEF:0 "Ireland"
-IRE_fundamentalist:0 "Ireland"
-IRE_fundamentalist_ADJ:0 "Irish"
-IRE_fundamentalist_DEF:0 "Ireland"
-IRE_voynist:0 "Ireland"
-IRE_voynist_ADJ:0 "Irish"
-IRE_voynist_DEF:0 "Ireland"
+IRE_nationalist_socialism:0 "Irish Republic"
+IRE_nationalist_socialism_ADJ:0 "Irish Republic"
+IRE_nationalist_socialism_DEF:0 "Irish Republic"
+
+IRE_revolutionary_socialism:0 "Irish Republic"
+IRE_revolutionary_socialism_ADJ:0 "Irish Republic"
+IRE_revolutionary_socialism_DEF:0 "Irish Republic"
+
+IRE_syndicalism:0 "Irish Republic"
+IRE_syndicalism_ADJ:0 "Irish Republic"
+IRE_syndicalism_DEF:0 "Irish Republic"
+
+IRE_moderate_socialist:0 "Irish Republic"
+IRE_moderate_socialist_ADJ:0 "Irish Republic"
+IRE_moderate_socialist_DEF:0 "Irish Republic"
+
+IRE_social_democrat:0 "Irish Republic"
+IRE_social_democrat_ADJ:0 "Irish Republic"
+IRE_social_democrat_DEF:0 "Irish Republic"
+
+IRE_social_liberal:0 "Irish Republic"
+IRE_social_liberal_ADJ:0 "Irish Republic"
+IRE_social_liberal_DEF:0 "Irish Republic"
+
+IRE_social_conservative:0 "Irish Republic"
+IRE_social_conservative_ADJ:0 "Irish Republic"
+IRE_social_conservative_DEF:0 "Irish Republic"
+
+IRE_authoritarian_democrat:0 "Irish Republic"
+IRE_authoritarian_democrat_ADJ:0 "Irish Republic"
+IRE_authoritarian_democrat_DEF:0 "Irish Republic"
+
+IRE_autocratic:0 "Irish Republic"
+IRE_autocratic_ADJ:0 "Irish Republic"
+IRE_autocratic_DEF:0 "Irish Republic"
+
+IRE_ultraconservative:0 "Irish Republic"
+IRE_ultraconservative_ADJ:0 "Irish Republic"
+IRE_ultraconservative_DEF:0 "Irish Republic"
+
+IRE_national_corporatist:0 "Irish Republic"
+IRE_national_corporatist_ADJ:0 "Irish Republic"
+IRE_national_corporatist_DEF:0 "Irish Republic"
 
 ### Ideas ###
 ### Flags ###
