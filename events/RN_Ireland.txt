@@ -223,25 +223,44 @@ country_event = { #Battle of the A1
 
 	option = {
 		name = IRE.10.a
+	add_political_power = 25
+	add_timed_idea = {
+    idea = IRE_general_strike
+    days = 7
+}
+	hidden_effect = {
+	country_event = {
+	id = IRE.11
+	days = 16
 	}
+	}
+}	
 	option = {
 		name = IRE.10.b
+		add_political_power = -50
+		add_stability = 0.05
+	hidden_effect = {
+	country_event = {
+	id = IRE.11
+	days = 55
+	}
+	}		
 	}	
 }
 
 country_event = { #The first bomb, Irish Twilight
-	id = IRE.14
+	id = IRE.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event IRE.2" }
 
-	title = IRE.14.t
-	desc = IRE.14.d
+	title = IRE.11.t
+	desc = IRE.11.d
 	picture = GFX_IRE_funeral
 
 	is_triggered_only = yes
 
 
 	option = {
-		name = IRE.2.a
+		name = IRE.11.a
 		play_song = general_peace_3
 		add_political_power = -100
 		country_event = IRE.15

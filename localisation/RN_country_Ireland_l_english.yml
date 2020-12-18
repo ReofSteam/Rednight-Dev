@@ -17,8 +17,8 @@ IRE.3.c:0 "We need to stay the course of Collins"
 
 IRE.10.t:0 "Battle of the A1"
 IRE.10.d:0 "Protests over the expansion of Ireland's first motorway project turned violent today as police and Union protestors clashed in the Dublin suburb of Swords. The controversial highway project already rife with accusations of corruption and cronyism reached a new scandal over allegedly illegal eminent domain to several homes and fields along its route, with the owners not being rewarded due compensation by the government. A crowd of several hundred protestors, many of them from the ITUC and Labour party and students from DUC and Trinity, occupied the work site overnight, they were met with dozens of police in riot gear bearing teargas and batons as well as counter protestors from the right wing National Volunteers truck in from elsewhere. Provoked by either party, a violent clash occured and arrests were made. Leading some to accuse the police of co-operating illegally with thugs. The head of the Dublin National Volunteers, Captain Macmanus declared that they were simply there to intercept what they saw as a demonstration by socialist. The initial controversy over the highway expansion was soon forgottent.\n\nMore protests and pickets are planned with the ITUC declaring that unless the arrested union members and students are released within 3 days they will issue a general strike in Dublin. This initially minor issue has exploded and it remains to be seen if the National government has the capacity to handle it, and what drastic measures they might take"
-IRE.10.a:0 "Compromise with them"
-IRE.10.b:0 "The Government will not be bullied"
+IRE.10.b:0 "Compromise with them"
+IRE.10.a:0 "The Government will not be bullied"
 
 
 ### Parties ###
@@ -103,6 +103,7 @@ IRE_national_corporatist_ADJ:0 "Irish Republic"
 IRE_national_corporatist_DEF:0 "Irish Republic"
 
 ### Ideas ###
+IRE_general_strike:0 "General Strike!"
 ### Flags ###
 
 ### Tooltips ###

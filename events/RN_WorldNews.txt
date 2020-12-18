@@ -9,7 +9,7 @@ news_event = { #British Election
 	id = worldnews.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
 
-	title = worldnews.1.t
+	title = worldnews.t
 	desc = worldnews.1.d
 	picture = GFX_news_mosley_victory
 
@@ -27,7 +27,7 @@ news_event = { #Germanny_occupation_ends
 	id = worldnews.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2" }
 
-	title = worldnews.2.t
+	title = worldnews.t
 	desc = worldnews.2.d
 	picture = GFX_germany_occupation_ends
 	major = yes
@@ -46,7 +46,7 @@ news_event = { #New Year Peace
 	id = worldnews.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.3" }
 
-	title = worldnews.3.t
+	title = worldnews.t
 	desc = worldnews.3.d
 	picture = GFX_news_american_peace
 	major = yes
@@ -63,7 +63,7 @@ news_event = { #Death of Collins
 	id = worldnews.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.4" }
 
-	title = worldnews.3.t
+	title = worldnews.t
 	desc = worldnews.4.d
 	picture = GFX_news_IRE_Collins_death
 	major = yes
@@ -74,7 +74,69 @@ news_event = { #Death of Collins
 
 
 	option = {
+	trigger = {
+	original_tag = IRE
+}
 		name = worldnews.4.a
 	}
+	
+	option = {
+	trigger = {
+	NOT = {
+	original_tag = IRE
 }
+}
+		name = worldnews.4.b
+	}	
+}
+
+news_event = { #Werewolves Rising
+	id = worldnews.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.5" }
+
+	title = worldnews.t
+	desc = worldnews.5.d
+	picture = GFX_news_GER_werewolves_rising
+	major = yes
+	is_triggered_only = yes
+
+
+	option = {
+	trigger = {
+	original_tag = GER
+	}
+		name = worldnews.5.a
+	}
+	option = {
+	trigger = {
+	OR = {
+	original_tag = FRA
+	original_tag = ITA
+	original_tag = ENG
+	original_tag = BEL
+	}
+	}
+		name = worldnews.5.b
+	}
+	option = {
+	trigger = {
+	original_tag = PRS
+	}
+		name = worldnews.5.c
+	}	
+	option = {
+	trigger = {
+	NOT = {
+	original_tag = PRS
+	original_tag = FRA
+	original_tag = ITA
+	original_tag = ENG
+	original_tag = BEL
+	original_tag = GER	
+	}
+	}
+		name = worldnews.5.e
+	}	
+}
+
 
