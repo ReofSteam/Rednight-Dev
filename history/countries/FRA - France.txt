@@ -76,7 +76,7 @@ set_popularities = {
     national_corporatist = 4
 }
 
-create_faction = Continental MARPAC
+create_faction = Continental_MARPAC
 
 add_to_faction = ITA
 add_to_faction = ENG

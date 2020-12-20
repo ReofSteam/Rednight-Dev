@@ -37,3 +37,25 @@ set_popularities = {
 	ultraconservative = 0
 	national_corporatist = 0
 }
+
+create_country_leader = {
+	name = "Petru Groza"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/ROM/ROM_Groza.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sabin Manuilă"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/ROM/ROM_Groza.t"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+		
+	}
+}

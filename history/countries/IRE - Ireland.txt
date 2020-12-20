@@ -59,21 +59,11 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Seán MacBride"
-	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "gfx/leaders/IRE/IRE_MacBride.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		
-	}
-}
 	
 create_country_leader = {
 	name = "Éamon de Valera"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "gfx/leaders/IRE/"
+	picture = "gfx/leaders/IRE/IRE_dev.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
