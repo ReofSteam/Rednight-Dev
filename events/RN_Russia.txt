@@ -1131,6 +1131,21 @@ fire_only_once = yes
 		name = rus.73.a
 		add_political_power = -5
 		clr_country_flag = RUS_extreme_crisis
+		if = {
+		limit = {
+		has_country_flag = RUS_siberian_army
+		}
+		country_event = {
+		id = rus.77
+		days = 1
+		}
+		else = {
+		country_event = {
+		id = rus.76
+		days = 2
+		}
+		}
+		}
 	}
 }
 
@@ -1152,7 +1167,42 @@ fire_only_once = yes
 	}
 }
 
-country_event = { 
+country_event = { #########Victory of the Loyalist
+	id = rus.76
+	title = rus.76.t
+	desc = rus.76.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.76.a
+		add_political_power = 50
+	}
+}
+
+country_event = { #########Laurels of Siberia
+	id = rus.77
+	title = rus.77.t
+	desc = rus.77.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.76.a
+		add_political_power = -100
+		country_event = {
+		id = rus.79
+		days = 7
+		}
+	}
+}
+
+
+country_event = {  ##########Wrangel Victory
 	id = rus.78
 	title = rus.78.t
 	desc = rus.78.d
@@ -1185,4 +1235,35 @@ fire_only_once = yes
 }	
  	
 	}
+}
+
+country_event = { #########Sleepless Moscow
+	id = rus.79
+	title = rus.79.t
+	desc = rus.79.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.79.a
+		clr_country_flag = Skoblin_secondary
+		country_event = rus.80
+		create_country_leader = {
+	name = "Arkady Krakovetsky"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/Leaders/RUS/RUS_Krakovetsky.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+		set_party_name = {
+			ideology = authoritarian_democrat
+			long_name = RUS_national_reorganization_party_long
+			name = RUS_national_reorganization_party_party
+		}		
+	}	
 }
