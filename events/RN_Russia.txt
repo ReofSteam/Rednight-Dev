@@ -1265,5 +1265,8 @@ fire_only_once = yes
 			long_name = RUS_national_reorganization_party_long
 			name = RUS_national_reorganization_party_party
 		}		
+	set_politics = {
+	ruling_party = authoritarian_democrat
+}			
 	}	
 }

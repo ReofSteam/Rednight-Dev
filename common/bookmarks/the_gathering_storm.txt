@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "RN_1950_DESC"
 		date = 1950.1.1.1
 		picture = "RN_1950"
-		default_country = "GER"
+		default_country = "RUS"
 		default = yes
 
 		"FRA" = {
@@ -17,19 +17,22 @@ bookmarks = {
 			}
 		}
 
-		"AST" = {
-			history = "FRA_KR_GATHERING_STORM_DESC"
+		"ENG" = {
+			history = "ENG_KR_GATHERING_STORM_DESC"
 			ideology = revolutionary_socialism
 			ideas = {
 			}
 
 			focuses = {
+			ENG_destruction_of_the_regime
+			ENG_english_socialist_victory
+			ENG_winter_of_discontent
 			}
 		}
 
-		"CHI" = {
-			history = "ENG_KR_GATHERING_STORM_DESC"
-			ideology = nationalist_socialism
+		"GER" = {
+			history = "GER_KR_GATHERING_STORM_DESC"
+			ideology = moderate_socialism
 			ideas = {
 			}
 			focuses = {
@@ -38,26 +41,32 @@ bookmarks = {
 		}
 
 		"RUS" = {
-			history = "CAN_KR_GATHERING_STORM_DESC"
-			ideology = market_liberal
+			history = "RUS_KR_GATHERING_STORM_DESC"
+			ideology = national_corporatism
 			ideas = {
+			RUS_minorities_crisis
+			RUS_NOELRUD
+			RUS_the_enemy_among_us
 			}
 
+			focuses = {
+			RUS_state_teutophobia
+			RUS_tagop
+			RUS_the_unity_government
+			}
+		}
+
+		"PRS" = {
+			history = "PRS_KR_GATHERING_STORM_DESC"
+			ideology = authoritarian_democrat
+			ideas = {
+			}
 			focuses = {
 			}
 		}
 
-		"GER" = {
-			history = "GER_KR_GATHERING_STORM_DESC"
-			ideology = market_liberal
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-
-		"ENG" = {
-			history = "ENG_KR_GATHERING_STORM_DESC"
+		"CHI" = {
+			history = "CHI_KR_GATHERING_STORM_DESC"
 			ideology = social_liberal
 			ideas = {
 			}

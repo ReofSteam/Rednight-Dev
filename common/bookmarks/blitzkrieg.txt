@@ -4,20 +4,15 @@ bookmarks = {
 		desc = "RN_1981_DESC"
 		date = 1981.1.1.1
 		picture = "RN_1981"
-		default_country = "GER"
+		default_country = "FRA"
 	
 		FRA = {
 			history = FRA_RN_1981_DESC
 			ideology = democratic
 			ideas={
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_strengthen_government_support
-				FRA_arms_purchases_in_the_us
-				FRA_french_union
+			
 			}
 		}
 		USA = {
