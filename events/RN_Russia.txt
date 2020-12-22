@@ -63,7 +63,7 @@ hidden = yes
 	
 	}
 }
-country_event = { #Death of Viktor Cheknov 
+news_event = { #Death of Viktor Cheknov 
 	id = rus.7
 	title = rus.7.t
 	desc = rus.7.d
@@ -265,8 +265,9 @@ country_event = { #Troops Reinforcement - Great Revolt
 
 	option = {
 	name = rus.26.a
+	RFN = { 
 	add_manpower = 10000		
-	
+	}
 	}
 }
 
@@ -279,9 +280,11 @@ country_event = { #Supply Reinforcement - Great Revolt
 
 	option = {
 	name = rus.27.a		
+	RFN = {
 	add_equipment_to_stockpile = {
     type = infantry_equipment_2
     amount = 5000
+}
 }
 	}
 }
@@ -822,7 +825,7 @@ fire_only_once = yes
 	option = {
 		name = rus.43.a #Replace them with native civil servants
 		add_stability = 0.10
-		add_political_power	= 25
+		add_political_power	= 50
 	add_timed_idea = {
     idea = RUS_bad_civil_service
     days = 80
