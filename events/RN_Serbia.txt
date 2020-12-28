@@ -1,0 +1,22 @@
+﻿###########################
+# Serbia Events
+###########################
+
+add_namespace = ser
+
+
+news_event = {
+	id = ser.1 #intro
+    title = ser.1.t
+    desc = ser.1.d
+	picture = 
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = ser.1.a 
+		add_political_power = 50
+	}
+
+}
+

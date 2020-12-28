@@ -52,6 +52,7 @@ set_politics = {
 	elections_allowed = no
 }
 
+
 puppet = JAP
 
 create_country_leader = {
@@ -72,6 +73,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_country_flag = internal_war
+set_country_flag = CSA_no_operation
 set_popularities = {
     nationalist_socialism = 4.5
     revolutionary_socialism = 24.4

@@ -30,8 +30,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "date"
-			position = { x = 22 y = 147 }
-			font = "hoi_20b"
+			position = { x = 22 y = 150 }
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "FE_BOOKMARK_DATE"
 			maxWidth = 185
@@ -529,7 +529,7 @@ guiTypes = {
 			name = "title"
 			position = { x = 120 y = 15 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "FE_SELECT_SCENARIO"
 			maxWidth = 340
@@ -561,7 +561,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "history_title"
 			position = { x = 110 y = 275 }
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
 			maxWidth = 340
@@ -594,7 +594,7 @@ guiTypes = {
 			position = { x = 30 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"	
 			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "rn_viasans"
 			Orientation = "LOWER_LEFT"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -606,7 +606,7 @@ guiTypes = {
 			position = { x = -252 y = -57 }
 			quadTextureSprite ="GFX_button_221x34"
 			buttonText = "FE_SELECT_SCENARIO"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "rn_viasans"
 			Orientation = "LOWER_RIGHT"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -644,7 +644,7 @@ guiTypes = {
 			position = { x = -158 y = -52 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "rn_viasans"
 			Orientation = "CENTER_DOWN"
 			clicksound = click_close
 			oversound = ui_menu_over
@@ -656,7 +656,7 @@ guiTypes = {
 			position = { x = 10 y = -52 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
-			buttonFont = "hoi_18mbs"
+			buttonFont = "rn_viasans"
 			Orientation = "CENTER_DOWN"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -846,7 +846,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "nation_title"
 			position = { x = 48 y = 265 }
-			font = "hoi_24header"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
 			maxHeight = 30	
@@ -864,21 +864,6 @@ guiTypes = {
 				frame = 1
 			}
 			
-			containerWindowType = {
-				name ="ideas"
-				position = { x = 450 y = 90 }
-				size = { width = 100%% height = 70 }
-				
-				gridboxType = {
-					name ="ideas_grid"
-					position = { x = 0 y = 0 }
-					size = { width = 100% height = 70 }
-					slotsize = { width = 60 height = 66 }
-					max_slots = { x = 3 y = 1 }
-					add_horizontal = yes
-					format = "UPPER_LEFT"
-				}
-			}
 			
 			containerWindowType = {
 				name ="focus"
@@ -900,7 +885,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "history_title"
 			position = { x = 830 y = 265 }
-			font = "hoi4_typewriter22"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "FE_COUNTRY_HISTORY_TITLE"
 			maxWidth = 340
@@ -911,7 +896,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "history"
 			position = { x = 820 y = 320 }
-			font = "hoi4_typewriter16"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 380
 			maxHeight = 30	
@@ -1258,7 +1243,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_LEFT"
 				buttonText = "CUSTOM_GAME_SETTINGS_BACK"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "rn_viasans"
 				clicksound = click_default
 			}
 
@@ -1268,7 +1253,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_REVERT"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "rn_viasans"
 				clicksound = click_default
 			}
 
@@ -1278,7 +1263,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_LOAD"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "rn_viasans"
 				clicksound = click_default
 			}
 
@@ -1288,7 +1273,7 @@ guiTypes = {
 				quadTextureSprite ="GFX_button_123x34"
 				orientation = "LOWER_RIGHT"
 				buttonText = "CUSTOM_GAME_SETTINGS_SAVE"
-				buttonFont = "hoi_18mbs"
+				buttonFont = "rn_viasans"
 				clicksound = click_default
 			}
 		}
@@ -1358,7 +1343,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "custom_difficulty_name"
 			position = { x = 37 y = 10 }
-			font = "hoi_18mbs"
+			font = "rn_viasans"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
@@ -1480,7 +1465,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "game_rule_name"
 			position = { x = 37 y = 10 }
-			font = "hoi_18mbs"
+			font = "rn_viasans"
 			maxWidth = 270
 			maxHeight = 18
 			format = left
@@ -1505,7 +1490,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "name_textbox"
 					position = { x = 15 y = 6 }
-					font = "hoi_18mbs"
+					font = "rn_viasans"
 					fixedsize = yes
 					format = left
 					alwaystransparent = yes
@@ -1624,7 +1609,7 @@ guiTypes = {
 			position = { x=9 y=47}
 			quadTextureSprite ="GFX_difficulty_button_civilian"	
 			buttonText = "FE_DIFFICULTY_EASY"
-			buttonFont = "hoi_20b"
+			buttonFont = "rn_viasans"
 			clicksound = click_checkbox
 		}
 
@@ -1633,7 +1618,7 @@ guiTypes = {
 			position = { x=125 y=47}
 			quadTextureSprite ="GFX_difficulty_button_recruit"	
 			buttonText = "FE_DIFFICULTY_EASY"
-			buttonFont = "hoi_20b"
+			buttonFont = "rn_viasans"
 			clicksound = click_checkbox
 		}
 		
@@ -1643,7 +1628,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_difficulty_button_regular"	
 			clicksound = click_checkbox
 			buttonText = "FE_DIFFICULTY_NORMAL"
-			buttonFont = "hoi_20b"
+			buttonFont = "rn_viasans"
 		}
 		
 		checkboxType = {
@@ -1651,7 +1636,7 @@ guiTypes = {
 			position = { x=357 y=47}
 			quadTextureSprite ="GFX_difficulty_button_veteran"
 			buttonText = "FE_DIFFICULTY_HARD"
-			buttonFont = "hoi_20b"
+			buttonFont = "rn_viasans"
 			clicksound = click_checkbox
 		}
 		
@@ -1660,14 +1645,14 @@ guiTypes = {
 			position = { x=473 y=47}
 			quadTextureSprite ="GFX_difficulty_button_elite"
 			buttonText = "FE_DIFFICULTY_VERY_HARD"
-			buttonFont = "hoi_20b"
+			buttonFont = "rn_viasans"
 			clicksound = click_checkbox
 		}
 
 		instantTextBoxType={
 			position = {x=18 y=53 }
 			name = "civilian_text"
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 115
 			maxHeight = 16
@@ -1679,7 +1664,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=133 y=53 }
 			name = "beginner_text"
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 115
 			maxHeight = 16
@@ -1691,7 +1676,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=250 y=53 }
 			name = "normal_text"
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 115
 			maxHeight = 16
@@ -1703,7 +1688,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=368 y=53 }
 			name = "hard_text"
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 115
 			maxHeight = 16
@@ -1715,7 +1700,7 @@ guiTypes = {
 		instantTextBoxType={
 			position = {x=480 y=53 }
 			name = "very_hard_text"
-			font = "hoi_20b"
+			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 115
 			maxHeight = 16
@@ -1860,7 +1845,7 @@ guiTypes = {
 					position = { x = -136 y = 115 }
 					quadTextureSprite ="GFX_button_261x34"	
 					buttonText = "FE_CHANGE_SCENARIO"
-					buttonFont = "hoi_20b"
+					buttonFont = "rn_viasans"
 					clicksound = click_ok
 					shortcut = "c"
 				}
@@ -1912,7 +1897,7 @@ guiTypes = {
 				position = { x = 40 y = 58 }
 				quadTextureSprite ="GFX_button_261x34"
 				buttonText = "FE_INTERESTING_COUNTRIES"
-				buttonFont = "hoi_20b"
+				buttonFont = "rn_viasans"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over
@@ -1963,7 +1948,7 @@ guiTypes = {
 				name = "selected_nation_label"
 				position = { x = -365 y = 55 }
 				textureFile = ""
-				font = "hoi_20bs"
+				font = "rn_viasans"
 				borderSize = {x = 0 y = 0}
 				text = "FE_NO_COUNTRY_SELECTED"
 				maxWidth = 240
@@ -2002,7 +1987,7 @@ guiTypes = {
 				position = { x = 20 y = 40 }
 				quadTextureSprite ="GFX_button_148x34"	
 				buttonText = "MAIN_MENU_BACK"
-				buttonFont = "hoi_20b"
+				buttonFont = "rn_viasans"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
@@ -2014,7 +1999,7 @@ guiTypes = {
 				position = { x = 180 y = 40 }
 				quadTextureSprite ="GFX_button_148x34"	
 				buttonText = "MENU_BAR_LOAD"
-				buttonFont = "hoi_20b"
+				buttonFont = "rn_viasans"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over
@@ -2026,7 +2011,7 @@ guiTypes = {
 				position = { x = 340 y = 40 }
 				quadTextureSprite ="GFX_button_148x34"	
 				buttonText = "OPTIONS"
-				buttonFont = "hoi_20b"
+				buttonFont = "rn_viasans"
 				Orientation = "UPPER_LEFT"
 				clicksound = click_default
 				oversound = ui_menu_over

@@ -13,6 +13,30 @@ ideas = {
 			removal_cost = -1
 			picture = America_new_year_peace
 		}	
+		CAL_prosperity = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_prosperity"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = CAL_prosperity
+		}	
+		CAL_the_caravan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_caravan"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = moving_industry
+		}		
+		CAL_covenant = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_covenant"}
+			modifier = {
+            conscription_factor = -0.15
+			}
+			removal_cost = -1
+			picture = CAL_coalition
+		}			
 		###############Army Democrats Staring##############
 		TEX_gun_and_rose = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_gun_and_rose"}

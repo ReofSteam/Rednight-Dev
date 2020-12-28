@@ -1,0 +1,60 @@
+scripted_gui = {
+
+	open_internal_war = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "internal_war_button"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_internal_war } }
+					set_country_flag =  show_internal_war
+				}
+				else_if = {
+					limit = { has_country_flag = show_internal_war }
+					clr_country_flag = show_internal_war
+				}
+			}
+		}
+		triggers = {
+        }
+        visible = {
+		original_tag = CSA
+		has_country_flag = internal_war
+        }
+    }
+    RN_internal_war_menu = {
+        context_type = player_context
+        window_name = "CSA_internal_war"
+        visible = {
+            has_country_flag = show_internal_war
+        }
+   		properties = {
+        	internal_war_ne = {
+        	image = [GetCSANewEnglandStatus]
+        	}
+        	internal_war_south = {
+        	image = [GetCSASouthStatus]
+        	}			
+    	}
+	effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_internal_war } }
+					set_country_flag =  show_internal_war
+				}
+				else_if = {
+					limit = { has_country_flag = show_internal_war }
+					clr_country_flag = show_internal_war
+				}
+			}
+			CSA_new_england_click = {
+			clr_country_flag = CSA_region_ma_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_ne_selected
+			}
+}			
+}		
+}
+

@@ -76,4 +76,95 @@ spriteTypes = {
 	name = "GFX_putschpic"
 	texturefile = "gfx/interface/putschpic.dds"
 	}	
+	spriteType = {
+	name = "GFX_serbs_council"
+	texturefile = "gfx/interface/RN_serbs_council.dds"
+	}	
+	spriteType = {
+	name = "GFX_romanian_assembly"
+	texturefile = "gfx/interface/RN_romanian_assembly.dds"
+	}	
+	spriteType = {
+	name = "GFX_hungarian_committee"
+	texturefile = "gfx/interface/RN_hungarian_committee.dds"
+	}	
+	spriteType = {
+	name = "GFX_CSA_internal_war_bg"
+	texturefile = "gfx/interface/CSA_internal_war_bg.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_outline"
+	texturefile = "gfx/interface/CSA_regions_outline.dds"
+	}	
+#################CSA Regions###################
+	spriteType = {
+	name = "GFX_CSA_regions_1"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_1.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_2"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_2.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_3"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_3.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_4"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_4.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_5"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_5.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_6"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_6.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_regions_7"
+	texturefile = "gfx/interface/CSA_gui/CSA_regions_7.tga"
+	}
+################CSA regions names#############	
+	spriteType = {
+	name = "CSA_central"
+	texturefile = "gfx/interface/CSA_gui/CSA_central.tga"
+	}	
+	spriteType = {
+	name = "CSA_great_lakes"
+	texturefile = "gfx/interface/CSA_gui/CSA_great_lakes.tga"
+	}	
+	spriteType = {
+	name = "CSA_illinois"
+	texturefile = "gfx/interface/CSA_gui/CSA_illinois.tga"
+	}	
+	spriteType = {
+	name = "CSA_m_atlantic"
+	texturefile = "gfx/interface/CSA_gui/CSA_m_atlantic.tga"
+	}	
+	spriteType = {
+	name = "CSA_midwest"
+	texturefile = "gfx/interface/CSA_gui/CSA_midwest.tga"
+	}	
+	spriteType = {
+	name = "CSA_mississippi"
+	texturefile = "gfx/interface/CSA_gui/CSA_mississippi.tga"
+	}	
+	spriteType = {
+	name = "CSA_new_england"
+	texturefile = "gfx/interface/CSA_gui/CSA_new_england.tga"
+	}
+	spriteType = {
+	name = "CSA_south_atlantic"
+	texturefile = "gfx/interface/CSA_gui/CSA_south_atlantic.tga"
+	}	
+	spriteType = {
+	name = "CSA_south_east"
+	texturefile = "gfx/interface/CSA_gui/CSA_south_east.tga"
+	}
+###################CSA Status##################33
+	spriteType = {
+	name = "GFX_CSA_national_guard"
+	texturefile = "gfx/interface/CSA_gui/CSA_national_guard.tga"
+	} 	
 }

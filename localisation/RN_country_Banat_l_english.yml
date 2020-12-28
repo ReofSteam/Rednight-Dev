@@ -74,10 +74,23 @@ BNT_national_corporatist_DEF:0 "Banatian"
  
 ### Ideas ###
 
+#####Decisions#####
+BNT_romanianisation:0 "Eradicate Enemies of Romania"
+BNT_romanianisation_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+BNT_recruit_rom_volunteers:0 "Recruit Romanian Volunteers"
 
 ### Flags ###
 
 ### Tooltips ###
+BNT_directorate_stable:0 "Status of the Directorate: §GStable§!"
+BNT_directorate_collapsed:0 "Status of the Directorate: §RCollapsed§!"
+BNT_serbs_status:0 "§YThe Serbs Council§! is [GetBNTSerbs]"
+BNT_serbs_status_1:0 "§Gweak§!"
+BNT_serbs_status_2:0 "influential"
+BNT_serbs_status_3:0 "extremely powerful"
+BNT_romanian_status:0 ""
+BNT_hungarian_status:0 "§YThe Committee of Hungarian Communes§! is [GetBNTHungarian]"
+BNT_hungarian_status_1:0 " §Gweak§!"
 
 ### Companies ###
 

@@ -17,6 +17,9 @@ set_technology = {
 	#### AIR ####
 	early_fighter = 1
 }
+set_country_flag = BNT_hungarian_status_1
+set_country_flag = BNT_serbs_status_1
+set_country_flag = BNT_directorate_stable
 set_research_slots = 2
 set_politics = {
 	ruling_party = authoritarian_democrat

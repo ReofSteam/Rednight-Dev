@@ -42,28 +42,24 @@ CSA_voynist_ADJ:0 "the Socialist Republic of America"
 ###############
 ### Parties ###
 ###############
-CSA_nationalist_socialism_party:0 "SPA - Socialist Party of America"
+CSA_nationalist_socialism_party:0 "SPA"
 CSA_nationalist_socialism_party_lon:0 "Socialist Party of America"
-CSA_revolutionary_socialism_party:0 "SPA - Socialist Party of America - Communist Bloc"
-CSA_revolutionary_socialism_party_lon:0 "Socialist Party of America - Communist Bloc"
-CSA_syndicalism_party:0 "SPA - Socialist Party of America - Unionist Caucus"
-CSA_syndicalism_party_lon:0 "Socialist Party of America - Unionist Caucus"
+CSA_revolutionary_socialism_party:0 "SPA"
+CSA_revolutionary_socialism_party_long:0 "Socialist Party of America - Communist Bloc"
+CSA_syndicalism_party:0 "SPA"
+CSA_syndicalism_party_lon:0 "Socialist Party of America - Constitutionalist"
 CSA_moderate_socialist_party:0 "SPA - Socialist Party of America"
 CSA_moderate_socialist_party_lon:0 "Socialist Party of America"
 CSA_social_democrat_party:0 "SPA - Socialist Party of America - Farmer-Labor Caucus"
 CSA_social_democrat_party_lon:0 "Socialist Party of America - Farmer-Labor Caucus"
 CSA_social_liberal_party:0 "Progressive Party"
 CSA_social_liberal_party_long:0 "Progressive Party"
-CSA_conservative_party:0 "People's Party"
-CSA_conservative_party_long:0 "People's Party"
-CSA_authoritarian_democrat_party:0 "Continuation Minutemen"
-CSA_authoritarian_democrat_party_long:0 "Continuation Minutemen"
-CSA_autocratic_party:0 "Continuation Minutemen"
-CSA_autocratic_party_long:0 "Continuation Minutemen"
-CSA_fundamentalist_party:0 "KKK - Ku Klux Klan"
-CSA_fundamentalist_party_long:0 "Ku Klux Klan"
-CSA_voynist_party:0 "SLA - Silver Legion of America"
-CSA_voynist_party_long:0 "Silver Legion of America"
+CSA_conservative_party:0 "National Guards Organisation"
+CSA_conservative_party_long:0 "National Guards Organisation"
+CSA_authoritarian_democrat_party:0 "National Guards Organisation"
+CSA_authoritarian_democrat_party_long:0 "National Guards Organisation"
+CSA_autocratic_party:0 "The Patriot Network"
+CSA_autocratic_party_long:0 "OSS - Patriots Underground"
 
 #################
 ### Ministers ###
@@ -78,9 +74,15 @@ CSA_voynist_party_long:0 "Silver Legion of America"
  
 ### Ideas ###
 America_new_year_peace:0 "New Year Peace"
+
 ### Flags ###
 
 ### Tooltips ###
-
+internal_war_tt:0 "§YThe Internal War§!\n----------------------------------\nAmerica is at war with itself, again"
+CSA_operation_0:0 "§RNone§!"
+CSA_operation_1:0 "§GJEROME§!"
+CSA_operation_2:0 "§GA.B.C§!"
+CSA_operation_3:0 "§GBLACK MAGNOLIA§!"
+CSA_region_ne_name:0 "CIA District: §GNew England§!"
 ### Leaders ###
 ### Tech? ###

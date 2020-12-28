@@ -52,6 +52,10 @@ set_popularities = {
 }
 add_ideas = {
 	#extensive_conscription
+	America_new_year_peace
+	CAL_prosperity
+	CAL_the_caravan
+	CAL_covenant
 }
 
 create_country_leader = {
@@ -63,7 +67,6 @@ create_country_leader = {
 	traits = {
 		#captain_of_industry
 	}
-}
 }
 
 ### Corps Commanders ###

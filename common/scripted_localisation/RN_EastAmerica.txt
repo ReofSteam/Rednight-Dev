@@ -1,0 +1,92 @@
+defined_text = {
+	name = GetCSAOperationName
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_no_operation
+		}
+		localization_key = "CSA_operation_0"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_1
+		}
+		localization_key = "CSA_operation_1"
+	}	
+	text = {
+		trigger = {
+			AND = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_2
+			}
+		}
+		localization_key = "CSA_operation_2"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_3
+		}
+		localization_key = "CSA_operation_3"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_4
+		}
+		localization_key = "CSA_operation_4"
+	}	
+}
+
+defined_text = {
+	name = GetCSARegionName
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+		}
+		localization_key = "CSA_region_ne_name"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_1
+		}
+		localization_key = "CSA_operation_1"
+	}	
+	text = {
+		trigger = {
+			AND = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_2
+			}
+		}
+		localization_key = "CSA_operation_2"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_3
+		}
+		localization_key = "CSA_operation_3"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_4
+		}
+		localization_key = "CSA_operation_4"
+	}	
+}
+defined_text = {
+	name = GetCSANewEnglandStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+			has_country_flag = CSA_region_ne_national_guard
+		}
+		localization_key = "GFX_CSA_national_guard"
+	}
+}	

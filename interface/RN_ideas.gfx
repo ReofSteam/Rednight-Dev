@@ -196,9 +196,27 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_TEX_soldiers_nation"
 		texturefile = "gfx/interface/ideas/CAL/TEX_soldiers_nation.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_idea_CAL_prosperity"
+		texturefile = "gfx/interface/ideas/CAL/CAL_prosperity.dds"
+	}		
+	spriteType = {
+		name = "GFX_idea_CAL_coalition"
+		texturefile = "gfx/interface/ideas/CAL/CAL_coalition.dds"
+	}		
+
+########East America
+	spriteType = {
+		name = "GFX_idea_CSA_CIA"
+		texturefile = "gfx/interface/ideas/CSA/CSA_CIA.dds"
+	}			
 	
 ####Generic	
+	spriteType = {
+		name = "GFX_idea_moving_industry"
+		texturefile = "gfx/interface/ideas/generic/moving_industry.dds"
+	}	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
 		texturefile = "gfx/interface/ideas/generic/economy_bad.dds"

@@ -1,0 +1,165 @@
+guiTypes = {
+	containerWindowType = {
+		name = "internal_war_button"
+		position = { x = 180 y = 180 }
+		buttonType = {
+			name = "open_button"
+			quadTextureSprite = "GFX_idea_CSA_CIA"
+			clicksound = click_default
+			pdx_tooltip = "internal_war_tt"
+		}
+		
+	}
+	containerWindowType = {
+		name = "CSA_internal_war"
+		position = { x = 0 y = 0 }
+		show_position = { x = 460 y = 80 }
+		hide_position = { x = 460 y = -1000 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 600
+
+		size = { width = 1024 height = 800 }
+		moveable = yes
+		background = {
+			name = "hog_gui_background"		
+			spriteType ="GFX_tiled_bg"
+			
+		}
+		iconType = {
+			name = "internal_war_overlay"
+			position = { x = 12 y = 17 }
+			#Orientation = "CENTER"
+			spriteType = "GFX_CSA_internal_war_bg"
+			frame = 1
+			#pdx_tooltip = "secondary_name_tt"
+			#pdx_tooltip_delayed = "secondary_full_name_tt"
+			scale = 0.991
+		}
+		iconType = {
+			name = "internal_war_outline"
+			position = { x = 12 y = 17 }
+			#Orientation = "CENTER"
+			spriteType = "GFX_CSA_regions_outline"
+			frame = 1
+			scale = 0.991
+		}		
+		buttonType = {
+			name = "open_button"
+			quadTextureSprite = "GFX_close"
+			clicksound = click_default
+			#pdx_tooltip = "committee_tt"
+			#pdx_tooltip_delayed = "committee_tt"
+			position = { x = 980 y = 10 }
+		}
+		instantTextBoxType = {
+			name = "CSA_operation_name_title"
+			position = { x = 110 y = 20 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Current Operation:"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}		
+		instantTextBoxType = {
+			name = "CSA_operation_name"
+			position = { x = 250 y = 20 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "[GetCSAOperationName]"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+##################Details
+	containerWindowType = {
+		name = "CSA_internal_war_details"
+		position = { x = 0 y = 0 }
+		
+		instantTextBoxType = {
+			name = "CSA_details_title"
+			position = { x = 25 y = 580 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "[GetCSARegionName]"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}
+		instantTextBoxType = {
+			name = "CSA_details_nsf"
+			position = { x = 80 y = 600 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Strongest Non-State Force:"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+		iconType = {
+			name = "internal_war_ne"
+			position = { x = 80 y = 630 }
+			spriteType = "GFX_CSA_national_guard"
+		}			
+}	
+		buttonType = {
+			name = "CSA_central"
+			quadTextureSprite = "CSA_central"
+			position = { x = 380 y = 400 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_great_lakes"
+			quadTextureSprite = "CSA_great_lakes"
+			position = { x = 625 y = 200 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_illinois"
+			quadTextureSprite = "CSA_illinois"
+			position = { x = 495 y = 370 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_m_atlantic"
+			quadTextureSprite = "CSA_m_atlantic"
+			position = { x = 700 y = 356 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_midwest"
+			quadTextureSprite = "CSA_midwest"
+			position = { x = 200 y = 270 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_mississippi"
+			quadTextureSprite = "CSA_mississippi"
+			position = { x = 350 y = 600 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_new_england"
+			quadTextureSprite = "CSA_new_england"
+			position = { x = 785 y = 300 }
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_south_atlantic"
+			quadTextureSprite = "CSA_south_atlantic"
+			position = { x = 560 y = 550 }
+			clicksound = click_default
+		}	
+		buttonType = {
+			name = "CSA_south_east"
+			quadTextureSprite = "CSA_south_east"
+			position = { x = 600 y = 465 }
+			clicksound = click_default
+		}			
+}		
+}
