@@ -51,33 +51,17 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = CSA
-			has_country_flag = CSA_operation_1
+			has_country_flag = CSA_region_ma_selected
 		}
-		localization_key = "CSA_operation_1"
+		localization_key = "CSA_region_ma_name"
 	}	
 	text = {
 		trigger = {
-			AND = {
 			original_tag = CSA
-			has_country_flag = CSA_operation_2
-			}
+			has_country_flag = CSA_region_mississippi_selected
 		}
-		localization_key = "CSA_operation_2"
-	}
-	text = {
-		trigger = {
-			original_tag = CSA
-			has_country_flag = CSA_operation_3
-		}
-		localization_key = "CSA_operation_3"
-	}
-	text = {
-		trigger = {
-			original_tag = CSA
-			has_country_flag = CSA_operation_4
-		}
-		localization_key = "CSA_operation_4"
-	}	
+		localization_key = "CSA_region_mississippi_name"
+	}		
 }
 defined_text = {
 	name = GetCSANewEnglandStatus

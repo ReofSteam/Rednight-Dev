@@ -104,7 +104,6 @@ guiTypes = {
 		iconType = {
 			name = "internal_war_ne"
 			position = { x = 80 y = 630 }
-			spriteType = "GFX_CSA_national_guard"
 		}			
 }	
 		buttonType = {

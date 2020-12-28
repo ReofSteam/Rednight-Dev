@@ -50,11 +50,28 @@ scripted_gui = {
 				}
 			}
 			CSA_new_england_click = {
+			clr_country_flag = CSA_region_mississippi_selected
 			clr_country_flag = CSA_region_ma_selected
 			clr_country_flag = CSA_region_midwest_selected
 			set_country_flag = CSA_region_ne_selected
 			}
+			CSA_m_atlantic_click = {
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_ma_selected
+			}		
+			CSA_mississippi_click = {
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_mississippi_selected
+			}			
 }			
+triggers = {
+internal_war_ne_visible = {
+has_country_flag = CSA_region_ne_selected
+}
 }		
 }
-
+}
