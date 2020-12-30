@@ -1090,6 +1090,21 @@ fire_only_once = yes
 }
 
 country_event = { 
+	id = rus.64
+	title = rus.64.t
+	desc = rus.64.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.64.a
+		add_political_power = -10
+	}
+}
+
+country_event = { 
 	id = rus.65
 	title = rus.65.t
 	desc = rus.65.d
