@@ -96,39 +96,14 @@ spriteTypes = {
 	name = "GFX_CSA_regions_outline"
 	texturefile = "gfx/interface/CSA_regions_outline.dds"
 	}	
-#################CSA Regions###################
 	spriteType = {
-	name = "GFX_CSA_regions_1"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_1.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_2"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_2.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_3"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_3.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_4"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_4.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_5"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_5.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_6"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_6.tga"
-	}	
-	spriteType = {
-	name = "GFX_CSA_regions_7"
-	texturefile = "gfx/interface/CSA_gui/CSA_regions_7.tga"
-	}
+	name = "GFX_CSA_sanction_operation_button"
+	texturefile = "gfx/interface/CSA_gui/CSA_sanction_operation_button.tga"
+	}		
 ################CSA regions names#############	
 	spriteType = {
-	name = "CSA_central"
-	texturefile = "gfx/interface/CSA_gui/CSA_central.tga"
+	name = "CSA_mountains"
+	texturefile = "gfx/interface/CSA_gui/CSA_mountains.tga"
 	}	
 	spriteType = {
 	name = "CSA_great_lakes"
@@ -162,9 +137,25 @@ spriteTypes = {
 	name = "CSA_south_east"
 	texturefile = "gfx/interface/CSA_gui/CSA_south_east.tga"
 	}
-###################CSA Status##################33
+###################CSA Status####################
 	spriteType = {
 	name = "GFX_CSA_national_guard"
 	texturefile = "gfx/interface/CSA_gui/CSA_national_guard.tga"
 	} 	
+	spriteType = {
+	name = "GFX_CSA_oss"
+	texturefile = "gfx/interface/CSA_gui/CSA_oss.tga"
+	} 
+	spriteType = {
+	name = "GFX_CSA_cia"
+	texturefile = "gfx/interface/CSA_gui/CSA_cia.tga"
+	}
+	spriteType = {
+	name = "GFX_CSA_gdc_guard"
+	texturefile = "gfx/interface/CSA_gui/CSA_gdc_guard.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_gdc"
+	texturefile = "gfx/interface/CSA_gui/CSA_gdc.tga"
+	}	
 }

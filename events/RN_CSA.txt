@@ -1,0 +1,89 @@
+﻿###########################
+# Banat Events
+###########################
+
+add_namespace = csa
+
+
+country_event = {
+	id = csa.1 #intro
+    title = csa.1.t
+    desc = csa.1.d
+	picture = 
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = csa.1.a 
+		add_political_power = 50
+	}
+
+}
+
+country_event = {
+	id = csa.2 #intro
+    title = csa.2.t
+    desc = csa.2.d
+	picture = 
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = csa.2.a 
+		set_country_flag = CSA_region_mountains_oss
+		set_country_flag = CSA_region_ne_national_guard
+	}
+
+}
+
+country_event = { #########Operation Black Magnolia##########
+	id = csa.10
+    title = csa.10.t
+    desc = csa.10.d
+	picture = 
+	is_triggered_only = no
+	
+	option = {
+		name = csa.10.a 
+	}
+
+}
+
+country_event = { ##############Operation Black Magnolia Completed##########
+	id = csa.11
+    title = csa.11.t
+    desc = csa.11.d
+	picture = GFX_star_medal
+	is_triggered_only = no
+	
+	option = {
+		name = csa.11.a 
+	}
+
+}
+
+country_event = { ##############Operation A.B.C##########
+	id = csa.12
+    title = csa.12.t
+    desc = csa.12.d
+	picture = 
+	is_triggered_only = no
+	
+	option = {
+		name = csa.10.a 
+	}
+
+}
+
+country_event = { ##############Operation A.B.C##########
+	id = csa.13
+    title = csa.13.t
+    desc = csa.13.d
+	picture = GFX_star_medal
+	is_triggered_only = no
+	
+	option = {
+		name = csa.11.a 
+	}
+
+}
