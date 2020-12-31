@@ -1071,7 +1071,17 @@ fire_only_once = yes
 	option = {
 		name = rus.62.b
 		add_manpower = -2500
+	random_list = {
+	25 = {
+	JAP = {
+	country_event = rus.67
+	}
+	country_event = rus.68
+	}
+	75 = {
+	country_event = rus.69		
 	}	
+}
 }
 
 country_event = { 
