@@ -69,7 +69,19 @@ CSA_autocratic_party_long:0 "OSS - Patriots Underground"
 ### Events ###
 ##############
 
-
+csa.10.t:0 "Situation in New England"
+csa.10.d:0 "The Office of the CIA in Boston reported of an active situation."
+csa.10.a:0 "Damn them!"
+csa.11.t:0 "Intelligence Medal of Merit"
+csa.11.d:0 "For exceptional service in the defense of the Socialist Republic and the Worker's Power, Captain Henry Lafaye as commanding officer."
+csa.11.a:0 "For the triumph of labor!"
+csa.12.t:0 "Situation in the Rockies"
+csa.12.d:0 "The Office of the CIA in Denver reported 20 border crossing attempts recorded at various points of the ceasefire line the week before the effect of the New Years Peace. A report dated a few days ago reports stashes of weapons parachuted in for a certain “stay-behind” force we have yet to identify, Long-range patrols also noted a certain mass concentration of people in the lower plateau of the Rockies, possibly refugees, deserters, conspirators or possibly all of the above. We are to investigate these matters at once if our frontline is not to be destabilised."
+csa.13.t:0 "Intelligence Special Operations Medal"
+csa.13.d:0 "For exceptional services in paramilitary and military actions for the security of the Socialist Republic and the Workers Power, Captain Henry Lafaye of CIA Auxillary Field Division"
+csa.15.t:0 "Operation Black Magnolia"
+csa.15.d:0 "Commander, do not let us down"
+csa.15.a:0 "Who is this "Conductor"?"
 ### Focuses ###
  
 ### Ideas ###
@@ -79,6 +91,7 @@ America_new_year_peace:0 "New Year Peace"
 
 ### Tooltips ###
 internal_war_tt:0 "§YThe Internal War§!\n----------------------------------\nAmerica is at war with itself, again"
+internal_war_button_tip:0 "§RRight-Click§! for more info on the developing situation in this region." 
 CSA_operation_0:0 "§RNone§!"
 CSA_operation_1:0 "§GJEROME§!"
 CSA_operation_2:0 "§GA.B.C§!"
@@ -86,5 +99,23 @@ CSA_operation_3:0 "§GBLACK MAGNOLIA§!"
 CSA_region_ne_name:0 "CIA District: §GNew England§!"
 CSA_region_ma_name:0 "CIA District: §GMiddle Atlantic§!"
 CSA_region_mississippi_name:0 "CIA District: §GMississippi§!"
+CSA_region_satlantic_name:0 "CIA District: §GSouth Atlantic§!"
+CSA_region_illinois_name:0 "CIA District: §GIllinois§!"
+CSA_region_great_lakes_name:0 "CIA District: §GGreat Lakes§!"
+CSA_region_midwest_name:0 "CIA District: §GMidwest§!"
+CSA_region_south_east_name:0 "CIA District: §GSoutheast§!"
+CSA_region_mountains_name:0 "CIA District: §GMountain§!"
+internal_war_ne_status:0 "[GetCSANewEnglandDetails]"
+ne_CSA_national_guard_details:0 "The §YNational Guards Organisation§! is active in New England under §RColonel Henry Mucci§! alias §RBenjamin§!" 
+ne_CSA_completed_details:0 "You have defeated §RColonel Mucci§! and thwarted the Guards conspiracy to assassinate the entire administration of Governor Darlington Hoopes"
+internal_war_mountain_status:0 "[GetCSAMountainDetails]"
+mountain_CSA_oss_details:0 "The §YOSS Patriot Network§! is active in the Rockies Mountains under §Ran unknown agent!"
+internal_war_illinois_status:0 "[GetCSAIllinoisDetails]"
+illinois_CSA_safe_details:0 "There are no active NSFs in the Illinois region"
+internal_war_great_lakes_status:0 "[GetCSAGreatLakesDetails]"
+great_lakes_CSA_safe_details:0 "There are no active NSFs in the Great Lakes region"
+internal_war_ma_status:0 "[GetCSAMAtlanticDetails]"
+ma_CSA_gdc_guard_details:0 "A cell of the National Guard is active in this region, an unathorized milita called the Reeds Boys is also active"
+internal_war_sanction_button:0 "The operation will begin after you sanction it, while an active mission is in process, you can not select another until the mission is completed" 
 ### Leaders ###
 ### Tech? ###

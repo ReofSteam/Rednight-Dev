@@ -73,8 +73,11 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_country_flag = internal_war
-set_country_flag = CSA_no_operation
+country_event = {
+id = csa.2
+days = 1
+}
+
 set_popularities = {
     nationalist_socialism = 4.5
     revolutionary_socialism = 24.4

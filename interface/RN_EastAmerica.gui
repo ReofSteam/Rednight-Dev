@@ -54,7 +54,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "CSA_operation_name_title"
-			position = { x = 110 y = 20 }
+			position = { x = 110 y = 38 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "Current Operation:"
@@ -65,7 +65,7 @@ guiTypes = {
 		}		
 		instantTextBoxType = {
 			name = "CSA_operation_name"
-			position = { x = 250 y = 20 }
+			position = { x = 250 y = 38 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "[GetCSAOperationName]"
@@ -104,60 +104,97 @@ guiTypes = {
 		iconType = {
 			name = "internal_war_ne"
 			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_ne_status"
+		}		
+		iconType = {
+			name = "internal_war_mountain"
+			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_mountain_status"
+		}		
+		iconType = {
+			name = "internal_war_great_lakes"
+			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_great_lakes_status"
+		}
+		iconType = {
+			name = "internal_war_illinois"
+			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_illinois_status"
+		}		
+		iconType = {
+			name = "internal_war_ma"
+			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_ma_status"
 		}			
 }	
 		buttonType = {
-			name = "CSA_central"
-			quadTextureSprite = "CSA_central"
-			position = { x = 380 y = 400 }
+			name = "CSA_sanction_operation_button"
+			quadTextureSprite = "GFX_CSA_sanction_operation_button"
+			position = { x = 750 y = 1 }
+			pdx_tooltip = "internal_war_sanction_button"
+			clicksound = click_default
+		}
+		buttonType = {
+			name = "CSA_mountains"
+			quadTextureSprite = "CSA_mountains"
+			position = { x = 200 y = 270 }
+			pdx_tooltip = "internal_war_button_tip"
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_great_lakes"
 			quadTextureSprite = "CSA_great_lakes"
 			position = { x = 625 y = 200 }
+			pdx_tooltip = "internal_war_button_tip"			
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_illinois"
 			quadTextureSprite = "CSA_illinois"
 			position = { x = 495 y = 370 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_m_atlantic"
 			quadTextureSprite = "CSA_m_atlantic"
 			position = { x = 700 y = 356 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_midwest"
 			quadTextureSprite = "CSA_midwest"
-			position = { x = 200 y = 270 }
+			position = { x = 380 y = 400}
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_mississippi"
 			quadTextureSprite = "CSA_mississippi"
 			position = { x = 350 y = 600 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_new_england"
 			quadTextureSprite = "CSA_new_england"
 			position = { x = 785 y = 300 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}
 		buttonType = {
 			name = "CSA_south_atlantic"
 			quadTextureSprite = "CSA_south_atlantic"
 			position = { x = 560 y = 550 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}	
 		buttonType = {
 			name = "CSA_south_east"
 			quadTextureSprite = "CSA_south_east"
 			position = { x = 600 y = 465 }
+			pdx_tooltip = "internal_war_button_tip"	
 			clicksound = click_default
 		}			
 }		
