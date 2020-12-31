@@ -30,8 +30,11 @@ country_event = {
 	
 	option = {
 		name = csa.2.a 
+        set_country_flag = internal_war
+        set_country_flag = CSA_no_operation
 		set_country_flag = CSA_region_mountains_oss
 		set_country_flag = CSA_region_ne_national_guard
+		set_country_flag = CSA_region_ma_gdc_guard
 	}
 
 }
@@ -79,6 +82,35 @@ country_event = { ##############Operation A.B.C##########
 	id = csa.13
     title = csa.13.t
     desc = csa.13.d
+	picture = GFX_star_medal
+	is_triggered_only = no
+	
+	option = {
+		name = csa.11.a 
+	}
+
+}
+
+country_event = { 
+	id = csa.15
+    title = csa.15.t
+    desc = csa.15.d
+	picture = GFX_star_medal
+	is_triggered_only = no
+	
+	option = {
+		name = csa.11.a 
+		set_country_flag = CSA_cia_active_operation
+		set_country_flag = CSA_operation_3
+		clr_country_flag = CSA_no_operation
+	}
+
+}
+
+country_event = { 
+	id = csa.16
+    title = csa.16.t
+    desc = csa.16.d
 	picture = GFX_star_medal
 	is_triggered_only = no
 	

@@ -61,15 +61,34 @@ scripted_gui = {
 			CSA_sanction_operation_button_click = {
 			if = { 
 			limit = { 
-			has_country_flag = CSA_region_new_england_selected 
+			has_country_flag = CSA_region_ne_selected }
 			country_event = csa.15
-			}}
+			}
 			else_if = {
 			limit = {
-			has_country_flag = CSA_region_mountains_selected
+			has_country_flag = CSA_region_mountains_selected }
 			country_event = csa.16
 			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_ma_selected }
+			country_event = csa.17
 			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_midwest_selected }
+			country_event = csa.18
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_mississippi_selected }
+			country_event = csa.18
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_south_east_selected }
+			country_event = csa.19
+			}			
+			else_if = {
+			limit = { has_country_flag = CSA_region_satlantic_selected }
+			country_event = csa.20
+			}						
 			}
 			CSA_new_england_click = {
 			clr_country_flag = CSA_region_mountains_selected
