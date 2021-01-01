@@ -105,6 +105,43 @@ defined_text = {
 		localization_key = "CSA_region_mountains_name"
 	}		
 }
+
+defined_text = {
+	name = GetCSAProgressBar
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation
+			has_country_flag = CSA_cia_no_progress
+		}
+		localization_key = "GFX_CSA_operation_progress_0"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_1
+		}
+		localization_key = "GFX_CSA_operation_progress_1"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_2
+		}
+		localization_key = "GFX_CSA_operation_progress_2"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_3
+		}
+		localization_key = "GFX_CSA_operation_progress_3"
+	}		
+}	
+
 defined_text = {
 	name = GetCSANewEnglandStatus
 	text = {
@@ -234,5 +271,29 @@ defined_text = {
 			has_country_flag = CSA_region_illinois_selected
 		}
 		localization_key = "illinois_CSA_safe_details"
+	}
+}
+
+defined_text = {
+	name = GetCSASAtlanticStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_satlantic_selected
+			has_country_flag = CSA_region_satlantic_klan
+		}
+		localization_key = "GFX_CSA_klan"
+	}
+}
+
+defined_text = {
+	name = GetCSASAtlanticDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_satlantic_selected
+			has_country_flag = CSA_region_satlantic_klan
+		}
+		localization_key = "satlantic_CSA_klan_details"
 	}
 }

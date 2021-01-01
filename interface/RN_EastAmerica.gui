@@ -74,6 +74,10 @@ guiTypes = {
 			fixedsize = yes	
 			format = left
 		}
+		iconType = {
+			name = "internal_war_progress_bar"
+			position = { x = 110 y = 70 }
+		}			
 ##################Details
 	containerWindowType = {
 		name = "CSA_internal_war_details"
@@ -125,7 +129,12 @@ guiTypes = {
 			name = "internal_war_ma"
 			position = { x = 80 y = 630 }
 			pdx_tooltip = "internal_war_ma_status"
-		}			
+		}		
+		iconType = {
+			name = "internal_war_south_atlantic"
+			position = { x = 80 y = 630 }
+			pdx_tooltip = "internal_war_south_atlantic_status"
+		}		
 }	
 		buttonType = {
 			name = "CSA_sanction_operation_button"

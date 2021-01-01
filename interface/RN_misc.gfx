@@ -100,6 +100,22 @@ spriteTypes = {
 	name = "GFX_CSA_sanction_operation_button"
 	texturefile = "gfx/interface/CSA_gui/CSA_sanction_operation_button.tga"
 	}		
+	spriteType = {
+	name = "GFX_CSA_operation_progress_0"
+	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_0.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_operation_progress_1"
+	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_1.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_operation_progress_2"
+	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_2.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_operation_progress_3"
+	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_3.tga"
+	}	
 ################CSA regions names#############	
 	spriteType = {
 	name = "CSA_mountains"
@@ -157,5 +173,9 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_CSA_gdc"
 	texturefile = "gfx/interface/CSA_gui/CSA_gdc.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_klan"
+	texturefile = "gfx/interface/CSA_gui/CSA_klan.tga"
 	}	
 }

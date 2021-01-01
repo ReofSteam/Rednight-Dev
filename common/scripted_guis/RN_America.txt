@@ -31,6 +31,9 @@ scripted_gui = {
             has_country_flag = show_internal_war
         }
    		properties = {
+        	internal_war_progress_bar = {
+        	image = [GetCSAProgressBar]
+        	}		
         	internal_war_ne = {
         	image = [GetCSANewEnglandStatus]
         	}
@@ -45,7 +48,10 @@ scripted_gui = {
         	}		
         	internal_war_ma = {
         	image = [GetCSAMAtlanticStatus]
-        	}					
+        	}	
+        	internal_war_south_atlantic = {
+        	image = [GetCSASAtlanticStatus]
+        	}			
     	}
 	effects = {
 			open_button_click = {
@@ -209,6 +215,12 @@ scripted_gui = {
 			}			
 }			
 triggers = {
+internal_war_progress_bar_visible = {
+has_country_flag = CSA_cia_active_operation
+}
+internal_war_south_atlantic_visible = {
+has_country_flag = CSA_region_satlantic_selected
+}
 internal_war_ma_visible = {
 has_country_flag = CSA_region_ma_selected
 }

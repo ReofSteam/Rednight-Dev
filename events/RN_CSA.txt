@@ -35,6 +35,7 @@ country_event = {
 		set_country_flag = CSA_region_mountains_oss
 		set_country_flag = CSA_region_ne_national_guard
 		set_country_flag = CSA_region_ma_gdc_guard
+		set_country_flag = CSA_region_satlantic_klan
 	}
 
 }
@@ -44,10 +45,11 @@ country_event = { #########Operation Black Magnolia##########
     title = csa.10.t
     desc = csa.10.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.10.a 
+		set_country_flag = CSA_cia_no_progress
 	}
 
 }
@@ -57,7 +59,7 @@ country_event = { ##############Operation Black Magnolia Completed##########
     title = csa.11.t
     desc = csa.11.d
 	picture = GFX_star_medal
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.11.a 
@@ -70,7 +72,7 @@ country_event = { ##############Operation A.B.C##########
     title = csa.12.t
     desc = csa.12.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.10.a 
@@ -83,7 +85,7 @@ country_event = { ##############Operation A.B.C##########
     title = csa.13.t
     desc = csa.13.d
 	picture = GFX_star_medal
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.11.a 
@@ -96,7 +98,7 @@ country_event = {
     title = csa.15.t
     desc = csa.15.d
 	picture = GFX_star_medal
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.11.a 
@@ -112,7 +114,7 @@ country_event = {
     title = csa.16.t
     desc = csa.16.d
 	picture = GFX_star_medal
-	is_triggered_only = no
+	is_triggered_only = yes
 	
 	option = {
 		name = csa.11.a 
