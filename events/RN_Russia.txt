@@ -1131,6 +1131,52 @@ fire_only_once = yes
 }
 
 country_event = { 
+	id = rus.67
+	title = rus.67.t
+	desc = rus.67.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.67.a
+		add_political_power = -10
+	}
+}
+
+country_event = { 
+	id = rus.68
+	title = rus.68.t
+	desc = rus.68.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.68.a
+		add_political_power = -10
+	}
+}
+
+country_event = { 
+	id = rus.69
+	title = rus.69.t
+	desc = rus.69.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.69.a
+		add_political_power = -10
+	}
+}
+
+
+country_event = { 
 	id = rus.70
 	title = rus.70.t
 	desc = rus.70.d
