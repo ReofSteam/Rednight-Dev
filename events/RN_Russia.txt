@@ -1127,6 +1127,10 @@ fire_only_once = yes
 	option = {
 		name = rus.65.a
 		add_political_power = -10
+		country_event = rus.82
+		JAP = {
+		country_event = rus.81
+		}
 	}
 }
 
@@ -1192,6 +1196,42 @@ fire_only_once = yes
 		country_event = rus.72
 	}
 }
+
+country_event = { 
+	id = rus.82
+	title = rus.82.t
+	desc = rus.82.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.82.a
+		add_political_power = -10
+		country_event = rus.84
+		JAP = {
+		country_event = rus.83
+		}
+	}
+}
+
+
+country_event = { 
+	id = rus.81
+	title = rus.81.t
+	desc = rus.81.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.81.a
+		add_political_power = -15
+	}
+}
+
 
 ####ROVS voting
 
