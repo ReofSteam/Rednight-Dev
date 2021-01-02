@@ -146,7 +146,7 @@ guiTypes = {
 #			instantTextboxType = {
 #				name = "party"
 #				position = { x = 9 y = 2 }
-#				font = "hoi_18mbs"
+#				font = "rn_viasans"
 #				text = "party"
 #				maxWidth = 300
 #				maxHeight = 20
@@ -155,7 +155,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "ideology"
 				position = { x = 9 y = 3 }
-				font = "hoi_18mbs"
+				font = "rn_viasans_15"
 				text = "ideology"
 				maxWidth = 155
 				maxHeight = 20
@@ -164,7 +164,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "elections"
 				position = { x = 9 y = 42 }
-				font = "hoi_16mbs"
+				font = "rn_viasans_15"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 20
@@ -174,7 +174,7 @@ guiTypes = {
 				name = "faction_name"
 				#position = { x = 103 y = -45 }
 				position = { x = -13 y = 86 }
-				font = "hoi_18mbs"
+				font = "rn_viasans"
 				text = "faction"
 				maxWidth = 194
 				maxHeight = 20
@@ -393,7 +393,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = 110 y = -2 }
-				font = "hoi_18mbs"
+				font = "rn_viasans"
 				text = "POLITICS_NATIONAL_SPIRIT"
 				maxWidth = 200
 				maxHeight = 20
@@ -436,17 +436,24 @@ guiTypes = {
 		}
 
 		iconType = {
+			name = "leader_filter"
+			quadTextureSprite = "GFX_leader_filter"
+			position = { x = 8 y = 44 }		
+			alwaystransparent = yes
+		}			
+
+		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }		
+			position = { x = 9 y = 44 }		
 			alwaystransparent = yes
-		}
+		}	
 
 		
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 18 y = 271 }
-			font = "hoi_18mbs"
+			font = "rn_viasans"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 20
@@ -518,14 +525,14 @@ guiTypes = {
 			name = "manage_occupied_button"
 			position = { x = 10 y = 492 }
 			quadTextureSprite = "GFX_government_button"
-			buttonFont = "hoi_16mbs"
+			buttonFont = "rn_viasans_15"
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
 			position = { x = 48 y = 499 }
-			font = "hoi_16mbs"
+			font = "rn_viasans_15"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
 			alwaystransparent = yes
@@ -653,7 +660,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 10 y = 4 }
-			font = "hoi_20b"
+			font = "rn_viasans"
 			text = "Economic Laws"
 			maxWidth = 450
 			maxHeight = 20
@@ -742,7 +749,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = { x = 135 y = -10 }
-			font = "hoi_18mbs"
+			font = "rn_viasans"
 			text = "sub category"
 			maxWidth = 220
 			maxHeight = 20
@@ -1002,7 +1009,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 82 y = 4 }
-			font = "hoi_16mbs"
+			font = "rn_viasans_15"
 			text = "party name"
 			fixedsize = yes
 			maxWidth = 170

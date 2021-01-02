@@ -133,7 +133,11 @@ spriteTypes = {
 		name = "GFX_IRE_funeral"
 		texturefile = "gfx/event_pictures/IRE_funeral.dds"
 	}	
-	
+	##############Red America
+	spriteType = { 
+		name = "GFX_CSA_cia_summary"
+		texturefile = "gfx/event_pictures/CSA_cia_summary.dds"
+	}	
 	###############
 	###   NEWS  ###
 	###############
