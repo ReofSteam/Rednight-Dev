@@ -1044,7 +1044,7 @@ fire_only_once = yes
 	}
 }
 
-country_event = { 
+country_event = { #The Next Step
 	id = rus.62
 	title = rus.62.t
 	desc = rus.62.d
@@ -1059,12 +1059,21 @@ fire_only_once = yes
 	random_list = {
 	25 = { 
 	JAP = {
-	country_event = rus.63
+	country_event = {
+	id = rus.63
+	days = 7
 	}
-	country_event = rus.64
+	}
+	country_event = {
+	id = rus.64
+	days = 7
+	}
 	}
 	75 = {
-	country_event = rus.65
+	country_event = {
+	id = rus.65
+	days = 10
+	}
 	}
 }
 }	
@@ -1074,18 +1083,26 @@ fire_only_once = yes
 	random_list = {
 	25 = {
 	JAP = {
-	country_event = rus.67
+	country_event = {
+	id = rus.67
+	days = 7
 	}
-	country_event = rus.68
+	}
+	country_event = {
+	id = rus.68
+	days = 7
+	}
 	}
 	75 = {
-	country_event = rus.69		
+	country_event = { 
+	id = rus.69
+	days = 7		
 	}	
 }
 }
 }
-
-country_event = { 
+}
+country_event = { #(Japan) Sabatouers Aprehended
 	id = rus.63
 	title = rus.63.t
 	desc = rus.63.d
@@ -1100,7 +1117,7 @@ fire_only_once = yes
 	}
 }
 
-country_event = { 
+country_event = { #Mortal Failure
 	id = rus.64
 	title = rus.64.t
 	desc = rus.64.d
@@ -1115,7 +1132,7 @@ fire_only_once = yes
 	}
 }
 
-country_event = { 
+country_event = { #TaGop Succeeds
 	id = rus.65
 	title = rus.65.t
 	desc = rus.65.d
@@ -1127,9 +1144,15 @@ fire_only_once = yes
 	option = {
 		name = rus.65.a
 		add_political_power = -10
-		country_event = rus.82
+		country_event = {
+		id = rus.82
+		days = 7
+		}
 		JAP = {
-		country_event = rus.81
+		country_event = { 
+		id = rus.81
+		days = 7
+		}
 		}
 	}
 }
@@ -1211,7 +1234,10 @@ fire_only_once = yes
 		add_political_power = -10
 		country_event = rus.84
 		JAP = {
-		country_event = rus.83
+		country_event = { 
+		id = rus.83
+		days = 7
+		}
 		}
 	}
 }
