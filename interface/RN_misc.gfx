@@ -1,4 +1,17 @@
 spriteTypes = {
+
+	frameAnimatedSpriteType = {
+    	name = "GFX_leader_filter"
+    	texturefile = "gfx/interface/film_reel_overlay.dds"
+    	noOfFrames = 5
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 5
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
 	
 	###############
 	### Scenarios ###

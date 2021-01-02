@@ -44,12 +44,11 @@ country_event = { #########Operation Black Magnolia##########
 	id = csa.10
     title = csa.10.t
     desc = csa.10.d
-	picture = 
+	picture = GFX_CSA_cia_summary
 	is_triggered_only = yes
 	
 	option = {
 		name = csa.10.a 
-		set_country_flag = CSA_cia_no_progress
 	}
 
 }
@@ -71,7 +70,7 @@ country_event = { ##############Operation A.B.C##########
 	id = csa.12
     title = csa.12.t
     desc = csa.12.d
-	picture = 
+	picture = GFX_CSA_cia_summary
 	is_triggered_only = yes
 	
 	option = {
@@ -102,6 +101,7 @@ country_event = {
 	
 	option = {
 		name = csa.11.a 
+		set_country_flag = CSA_cia_no_progress		
 		set_country_flag = CSA_cia_active_operation
 		set_country_flag = CSA_operation_3
 		clr_country_flag = CSA_no_operation
