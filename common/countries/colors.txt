@@ -10,6 +10,11 @@ OTT = {
 	color_ui = rgb { 66 135 245 }
 }
 
+BOL = {
+	color = rgb { 208 68 255 }
+	color_ui = rgb {208 68 255}
+}
+
 TUR = {
 	color = rgb { 138 227 164 }
 	color_ui = rgb { 138 227 164 }
@@ -1175,10 +1180,6 @@ WIF = {
 ARG = {
 	color = rgb { 145 157 236 }
 	color_ui = rgb { 189 204 255 }
-}
-BOL = {
-	color = rgb { 145 128 149 }
-	color_ui = rgb { 145 128 149 }
 }
 BRA = {
 	color = rgb { 76 145 63 }
