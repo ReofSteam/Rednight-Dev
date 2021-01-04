@@ -23,7 +23,7 @@ set_technology = {
 	transport = 1
 }
 set_politics = {
-	ruling_party = social_democrat
+	ruling_party = social_liberal
 	last_election = ""
 	election_frequency = ""
 	elections_allowed = no
@@ -33,11 +33,11 @@ set_popularities = {
     nationalist_socialism = 0
     revolutionary_socialism = 0
     syndicalism = 0
-    moderate_socialist = 30
-    social_democrat = 30
-    social_liberal = 5
+    moderate_socialist = 5
+    social_democrat = 25
+    social_liberal = 30
     social_conservative = 15
-    authoritarian_democrat = 0
+    authoritarian_democrat = 5
     autocratic = 0
     ultraconservative = 0
     national_corporatist = 20
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_Osvaldo_Aranha_DESC"
 	picture = "gfx/leaders/BRA/aranha.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = social_liberal_subtype
 	traits = {
 		#
 	}
