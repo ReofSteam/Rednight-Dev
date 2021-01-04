@@ -6,7 +6,7 @@ state = {
 	}
 
 	history = {
-		owner = CAF
+		owner = GUI
 		buildings = {
 			infrastructure = 3
 			12885 = {
@@ -16,7 +16,7 @@ state = {
 		victory_points = {
 			12885 1
 		}
-		add_core_of = CAF
+		add_core_of = GUI
 	}
 
 	provinces = {

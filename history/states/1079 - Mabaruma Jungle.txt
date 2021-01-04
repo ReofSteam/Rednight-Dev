@@ -3,9 +3,9 @@ state = {
 	name = "STATE_1079"
 
 	history = {
-		owner = CAF
+		owner = GUI
 		add_core_of = CAF
-		add_core_of = GUY
+		add_core_of = GUI
 		add_claim_by = VEN
 		buildings = {
 			infrastructure = 1
