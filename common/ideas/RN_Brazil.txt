@@ -3,6 +3,7 @@
 ideas = {
 	country = {
 		BRA_aib_remnants = {
+			picture = BRA_integralist
 			modifier = {
 political_power_gain = -0.1
 stability_factor = -0.3
