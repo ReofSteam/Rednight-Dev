@@ -210,7 +210,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CSA_CIA"
 		texturefile = "gfx/interface/ideas/CSA/CSA_CIA.dds"
-	}			
+	}	
+
+########Brazil
+	spriteType = {
+		name = "GFX_idea_BRA_integralist"
+		texturefile = "gfx/interface/ideas/BRA/BRA_integralist.dds"
+	}		
 	
 ####Generic	
 	spriteType = {
