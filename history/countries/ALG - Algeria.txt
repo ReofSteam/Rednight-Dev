@@ -8,7 +8,7 @@ set_research_slots = 2
 
 set_politics = {
 	ruling_party = moderate_socialist
-	last_election = "1888.15.6"
+	last_election = "1888.12.6"
 	election_frequency = 48
 	elections_allowed = no
 
@@ -42,3 +42,4 @@ create_country_leader = {
 create_faction = North_African_MARPAC
 add_to_faction = MOR
 add_to_faction = TUN
+add_to_faction = SWE

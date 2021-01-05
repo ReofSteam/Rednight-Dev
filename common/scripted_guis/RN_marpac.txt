@@ -1,0 +1,101 @@
+scripted_gui = {
+
+	marpac_executive_button = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "marpac_executive_button"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_marpac_menu } }
+					set_country_flag =  show_marpac_menu
+				}
+				else_if = {
+					limit = { has_country_flag = show_marpac_menu }
+					clr_country_flag = show_marpac_menu
+				}
+			}
+		}
+		triggers = {
+        }
+        visible = {
+		has_global_flag = MARPAC_voting_in_process
+            OR = {
+			is_in_faction_with = FRA
+			is_in_faction_with = ALG
+			original_tag = CNT
+			original_tag = BEL
+			original_tag = NTH
+			}
+        }
+    }
+    marpac_executive_window = {
+        context_type = player_context
+       # parent_window_token = politics_tab
+        window_name = "marpac_executive_bg"
+        visible = {
+            has_country_flag = show_marpac_menu
+        }
+   		properties = {
+		memberstate_flag = {
+		image = [This.GetFlag]
+		}
+
+    	}
+		dynamic_lists = {
+		marpac_countries_for_grid = {
+		array = global.marpac_countries_for
+		entry_container = marpac_countries_for_list_entry
+		change_scope = yes
+		}
+		marpac_countries_against_grid = {
+		array = global.marpac_countries_against
+		entry_container = marpac_countries_against_list_entry
+		change_scope = yes
+		}		
+		}
+    	effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_marpac_menu } }
+					set_country_flag =  show_marpac_menu
+				}
+				else_if = {
+					limit = { has_country_flag = show_marpac_menu }
+					clr_country_flag = show_marpac_menu
+				}
+			}
+			marpac_for_button_click = {
+			add_to_variable = {
+	        var = marpac_for_vote
+	        value = 1
+        }
+			set_country_flag = MARPAC_voted
+		    add_to_array = {
+	        array = global.marpac_countries_for
+            value = THIS.id
+		}			
+		}	
+			marpac_against_button_click = {
+			add_to_variable = {
+	        var = marpac_against_vote
+	        value = 1
+            }			
+			set_country_flag = MARPAC_voted
+		    add_to_array = {
+	        array = global.marpac_countries_against
+            value = THIS.id
+		}			
+		}		
+}
+triggers = {
+marpac_for_button_click_enabled = {
+NOT = { has_country_flag = MARPAC_voted }
+}
+marpac_against_button_click_enabled = {
+NOT = { has_country_flag = MARPAC_voted }
+}
+}
+}
+}

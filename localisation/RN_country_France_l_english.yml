@@ -28,15 +28,28 @@ FRA_autocratic_ADJ:0 "French"
 FRA_autocratic_DEF:0 "the French Empire"
 
 #####Parties
-FRA_revolutionary_socialism_party:0 "PRT"
-FRA_revolutionary_socialism_party_long:0 "Parti révolutionnaire des travailleurs\Revolutionary Workers Party"
-FRA_moderate_socialist_party:0 "PS - Parti socialiste"
-FRA_moderate_socialist_party_long:0 "Socialist Party"
-FRA_social_democrat_party:0 "PSFT"
-FRA_social_democrat_party_long:0 "French Socialist Workers' Party"
-FRA_social_liberal_party:0 "Radical Party"
-FRA_social_liberal_party_long:0 "Parti Radical/Radical Party"
-
+FRA_nationalist_socialism_party:0 "PRFT - Les Quatre-vingts Neuvième"
+FRA_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
+FRA_revolutionary_socialism_party:0 "PRFT - Vieille Garde"
+FRA_revolutionary_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
+FRA_syndicalism_party:0 "Travailleurs radicaux"
+FRA_syndicalism_party_long:0 "Parti des socialistes et syndicalistes  - Socialist and Syndicalist Party"
+FRA_moderate_socialist_party:0 "Républicains radicaux et démocrates"
+FRA_moderate_socialist_party_long:0 "Radical Republicans and Democrats"
+FRA_social_democrat_party:0 "Républicains radicaux et démocrates"
+FRA_social_democrat_party_long:0 "Radical Republicans and Democrats"
+FRA_social_liberal_party:0 "Radical Républicain de Gauche"
+FRA_social_liberal_party_long:0 "Radical Republicain Left"
+FRA_social_conservative_party:0 "RNR"
+FRA_social_conservative_party_long:0 "Rassemblement national des républicains - National Rally of Republicains"
+FRA_authoritarian_democrat_party:0 "Organisation secrète"
+FRA_authoritarian_democrat_party_long:0 "Organisation secrète d'action révolutionnaire"
+FRA_autocratic_party:0 "Organisation secrète"
+FRA_autocratic_party_long:0 "Organisation secrète d'action révolutionnaire - Secret Revolutionary Action Organisation"
+FRA_ultraconservative_party:0 "Action Française"
+FRA_ultraconservative_party_long:0 "French Action"
+FRA_national_corporatist_party:0 "Parti Communautaire National"
+FRA_national_corporatist_party_long:0 "National Community Party"
 ### Decision ####
 
 FRA_mission_free_africa:0 "Mission Afrique libre"
@@ -137,6 +150,11 @@ africa.5.a:0 "Its just the sands..."
 WAR_NAME_ALG_SAH:0 "Operation June"
 WAR_NAME_TUN_SAH:0 "Operation June"
 FRA_a_decision_in_Oran:0 "A Decision in Oran has been made"
+Continental_MARPAC:0 "Continental MARPAC"
+North_African_MARPAC:0 "North African MARPAC"
+marpac_name:0 "§Y[THIS.GetName]§!"
+marpac_against_button:0 "§RVote against this motion§!"
+marpac_against_button:0 "§GSupport this motion§!"
 ### Companies ###
 
 ### Ministers ###
@@ -147,6 +165,7 @@ FRA_a_decision_in_Oran:0 "A Decision in Oran has been made"
 
 
 ### Tech? ###
+marpac_executive_tt:0 "§YMARPAC Central Executive§!"
 committee_tt:0 "§YDeal with the Committee§!"
 milaction_tt:0 "§WUse military action to pacify the putschists. You'll need at least §Y100 Support Equipment§! and §Y5% Stability§! to pull it off.\n\nObviously, you can do it only once, and you don't have to subdue them again.§Y"
 polaction_tt:0 "§WUse political action to pacify the putschists. You'll need at least §Y30 Political Power§! to pull it off.\n\Yet again, you can do it only once, and you don't have to listen to them them again.§!"

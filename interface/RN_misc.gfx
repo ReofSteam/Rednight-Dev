@@ -89,6 +89,24 @@ spriteTypes = {
 	name = "GFX_putschpic"
 	texturefile = "gfx/interface/putschpic.dds"
 	}	
+##########MARPAC Menu##########	
+	spriteType = {
+	name = "GFX_marpac_button"
+	texturefile = "gfx/interface/MARPAC_button.dds"
+	}		
+	spriteType = {
+	name = "GFX_marpac_menu"
+	texturefile = "gfx/interface/MARPAC_menu.tga"
+	}		
+	spriteType = {
+	name = "GFX_marpac_for_button"
+	texturefile = "gfx/interface/MARPAC_for_button.tga"
+	}		
+	spriteType = {
+	name = "GFX_marpac_against_button"
+	texturefile = "gfx/interface/MARPAC_against_button.tga"
+	}				
+##########MARPAC Menu###########	
 	spriteType = {
 	name = "GFX_serbs_council"
 	texturefile = "gfx/interface/RN_serbs_council.dds"

@@ -388,3 +388,98 @@ country_event = {
 	
 }
 }
+
+country_event = {
+	id = fra.15
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+		if = {
+		limit = {
+		check_variable = {
+	    var = marpac_for_vote
+	    value = marpac_against_vote
+	    compare = greater_than_or_equals
+}
+	}
+	country_event = fra.20
+}	
+    else = {
+	country_event = fra.21
+	}
+}
+}
+country_event = {
+	id = fra.16
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+		clear_array = global.marpac_countries_against
+	}
+}
+
+country_event = {
+	id = fra.17
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+		clear_array = global.marpac_countries_for	
+	}
+}
+
+country_event = {
+	id = fra.20 ##Test event
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+	}
+}
+
+country_event = {
+	id = fra.21 ##Test event
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+		add_political_power = 5
+	}
+}
+
+country_event = {
+	id = fra.22 ##Test event
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_FRA_may_pustch
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.15.a
+		set_variable = { marpac_for_vote = 0 }
+		set_variable = { marpac_against_vote = 0 }
+	}
+}

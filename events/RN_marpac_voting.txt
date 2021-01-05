@@ -1,0 +1,82 @@
+﻿add_namespace = marpac
+
+country_event = {        #######Resolution 51: Operation Juin
+	id = marpac.1
+	title = marpac.1.t
+	desc = marpac.1.d
+	picture = GFX_FRA_may_pustch
+	is_triggered_only = yes
+
+	option = {
+		name = marpac.1.b
+		set_variable = { marpac_for_vote = 0 }
+		set_variable = { marpac_against_vote = 0 }		
+		set_global_flag = MARPAC_voting_in_process
+		hidden_effect = {
+		country_event = {
+		id = marpac.2
+		days = 10
+		}
+		}
+	}	
+}
+
+country_event = {        #######Resolution 51: hidden check 
+	id = marpac.2
+	title = marpac.1.t
+	desc = marpac.1
+	picture = GFX_FRA_may_pustch
+    hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = marpac.1.b
+		if = {
+		limit = {
+		check_variable = {
+	    var = marpac_for_vote
+	    value = marpac_against_vote
+	    compare = greater_than_or_equals
+}
+	}
+	country_event = marpac.3
+}	
+    else = {
+	country_event = marpac.4
+	}		
+	clr_global_flag = MARPAC_voting_in_process
+	clear_array = global.marpac_countries_against
+	clear_array = global.marpac_countries_for	
+
+	}	
+}
+
+news_event = {        #######Resolution 51 passed
+	id = marpac.3
+	title = marpac.3.t
+	desc = marpac.3.d
+	picture = GFX_germany_occupation_ends
+    major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = marpac.3.b	
+	    clr_country_flag = show_marpac_menu
+		clr_country_flag = MARPAC_voted
+	}	
+}
+
+news_event = {        #######Resolution 51 not passed
+	id = marpac.4
+	title = marpac.4.t
+	desc = marpac.4.d
+	picture = GFX_germany_occupation_ends
+    major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = marpac.4.b	
+		add_political_power = 5
+		clr_country_flag = MARPAC_voted		
+	}	
+}
