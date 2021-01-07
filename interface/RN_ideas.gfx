@@ -216,7 +216,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_BRA_integralist"
 		texturefile = "gfx/interface/ideas/BRA/BRA_integralist.dds"
+	}
+
+		spriteType = {
+		name = "GFX_idea_BRA_neutrality"
+		texturefile = "gfx/interface/ideas/BRA/BRA_neutrality.dds"
 	}		
+			
 	
 ####Generic	
 	spriteType = {
