@@ -1198,7 +1198,26 @@ fire_only_once = yes
 
 	option = {
 		name = rus.69.a
-		add_political_power = -10
+
+start_border_war = {
+    change_state_after_war = yes
+    attacker = {
+        state = 657
+        num_provinces = 4
+        on_win = rus.62
+        on_lose = rus.62
+        on_cancel = rus.62
+    }
+				
+    defender = {
+        state = 409
+        num_provinces = 4
+        on_win = rus.62
+        on_lose = rus.62
+        on_cancel = rus.62
+    }
+}
+		      
 	}
 }
 

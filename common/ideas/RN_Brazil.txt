@@ -30,6 +30,7 @@ nationalist_socialism = -100
 }	
 country = {
 		BRA_neutral_nation = {
+			picture =  BRA_neutrality
 			modifier = {
 min_export = 0.5
 production_speed_industrial_complex_factor = 0.25
@@ -39,8 +40,15 @@ production_factory_efficiency_gain_factor = 0.25
 }
 
 }
+
 country = {
 		BRA_vigilant_population = {
+			 modifier = {
+conscription = 0.05
+industrial_capacity_factory = 0.05
+
+	}
+
 			
 }
 
