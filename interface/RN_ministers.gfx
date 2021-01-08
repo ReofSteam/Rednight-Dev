@@ -18,4 +18,18 @@ spriteTypes = {
 		name = "GFX_idea_RUS_Vsevolod_Merkulov_minister"
 		texturefile = "gfx/ministers/RUS/RUS_Vsevolod_Merkulov.dds"
 	}
+#########Army Democrats
+	spriteType = {
+		name = "GFX_idea_TEX_william_d_leahy_minister"
+		texturefile = "gfx/ministers/ADC/TEX_william_d_leahy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEX_Josef_R_Sheetz_minister"
+		texturefile = "gfx/ministers/ADC/TEX_Josef_R_Sheetz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_TEX_Carl_F_Eifler_minister"
+		texturefile = "gfx/ministers/ADC/TEX_Carl_F_Eifler.dds"
+	}	
+	
 }

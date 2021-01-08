@@ -2,13 +2,18 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "Super_Event_Window"
-		size = { width = 581 height = 427 }
+		size = { width = 780 height = 612 }
 		position = { x=0 y=0 }
 		Orientation = center
 		Origo = center
 		clipping = no	
 		moveable = yes
-
+		
+		background = {
+			name = "hog_gui_background"		
+			spriteType ="GFX_tiled_bg"
+			
+		}
 
 		iconType = {
 			name ="Super_Event_Image_Default"
@@ -19,7 +24,7 @@ guiTypes = {
 		iconType = {
 			name ="Super_Event_Image_Irish_Twilight"
 			spriteType = "GFX_SPEVNT_Irish_Twilight"
-			position = { x = 35 y = 0 }
+			position = { x = 200 y = 130 }
 		}
 
 		iconType = {
@@ -51,14 +56,19 @@ guiTypes = {
 			spriteType = "GFX_SPEVNT_Wuchang_Revolution"
 			position = { x = 35 y = 0 }
 		}
-
+		iconType = {
+			name ="Super_Event_theater"
+			spriteType = "GFX_theater_of_events"
+			position = { x = 7 y = -14 }
+		}
+		
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Title_textbox"
-			position = { x = 150 y = 290 }
-			font = "newsfeed_body"
-			borderSize = {x = 0 y = 0}
+			position = { x = 160 y = 10 }
+			font = "rn_viasans"
+			borderSize = {x = 50 y = 50}
 			text = "[get_super_event_title]"
-			maxWidth = 290
+			maxWidth = 400
 			maxHeight = 20
 			fixedsize = yes	
 			format = center
@@ -68,7 +78,7 @@ guiTypes = {
 			name = "Pax_Super_Event_Quote_textbox"
 			position = { x = 110 y = 330 }
 			font = "newsfeed_body"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 100 y = 0}
 			text = "[get_superevent_quote]"
 			maxWidth = 370
 			maxHeight = 79

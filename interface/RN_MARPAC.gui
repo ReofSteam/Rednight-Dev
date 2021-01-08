@@ -39,7 +39,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "marpac_menu_title"
-			position = { x = 150 y = 290 }
+			position = { x = 152 y = 290 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "MARPAC Executive Assembly"
@@ -66,13 +66,23 @@ guiTypes = {
 		}		
 		instantTextBoxType = {
 			name = "marpac_menu_current_motion"
-			position = { x = 160 y = 650 }
+			position = { x = 150 y = 650 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "Current Motion"
 			fixedsize = yes	
 			format = centre
 		}		
+		instantTextBoxType = {
+			name = "marpac_menu_current_motion_detail"
+			position = { x = 40 y = 680 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 450
+			text = "marpac_current_motion"
+			fixedsize = yes	
+			format = centre
+		}			
 		buttonType = {
 			name = "open_button"
 			quadTextureSprite = "GFX_close"

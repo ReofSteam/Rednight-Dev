@@ -12,6 +12,17 @@ spriteTypes = {
     	pause_on_loop = 0.0
 	}
 	
+	frameAnimatedSpriteType = {
+    	name = "GFX_SPEVNT_Irish_Twilight"
+    	texturefile = "gfx/super_events/irish_twilight.tga"
+    	noOfFrames = 42
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 5
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
 	
 	###############
 	### Scenarios ###
@@ -89,6 +100,10 @@ spriteTypes = {
 	name = "GFX_putschpic"
 	texturefile = "gfx/interface/putschpic.dds"
 	}	
+	spriteType = {
+	name = "GFX_theater_of_events"
+	texturefile = "gfx/super_events/theater_of_events.tga"
+	}		
 ##########MARPAC Menu##########	
 	spriteType = {
 	name = "GFX_marpac_button"

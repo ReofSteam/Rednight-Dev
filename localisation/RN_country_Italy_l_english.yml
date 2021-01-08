@@ -7,29 +7,39 @@
 ### Events ###
 
 ### Parties ###
+ITA_nationalist_socialism_party:0 "Sindacati Nazionali"
+ITA_nationalist_socialism_party_long:0 "Sindacati Nazionali dei Lavoratori - National Worker's Unions"
 
-ITA_social_nationalist_party:0 "PSI"
-ITA_social_nationalist_party_long:0 "Italian Socialist Party"
-ITA_marxist_party:0 "PCd'I"
-ITA_marxist_party_long:0 "Communist Party of Italy"
-ITA_libertarian_party:0 "USI"
-ITA_libertarian_party_long:0 "Italian Syndicalist Union"
-ITA_moderate_socialist_party:0 "PSI"
-ITA_moderate_socialist_party_long:0 "Italian Socialist Party"
-ITA_social_democrat_party:0 "PSU"
-ITA_social_democrat_party_long:0 "Unitary Socialist Party"
-ITA_social_liberal_party:0 "UDN"
-ITA_social_liberal_party_long:0 "National Democratic Union"
-ITA_conservative_party:0 "PPI"
-ITA_conservative_party_long:0 "Italian People's Party"
-ITA_authoritarian_democrat_party:0 "PNM"
-ITA_authoritarian_democrat_party_long:0 "Monarchist National Party"
-ITA_autocratic_party:0 "PNM"
-ITA_autocratic_party_long:0 "Monarchist National Party"
-ITA_fundamentalist_party:0 "ANI"
-ITA_fundamentalist_party_long:0 "Italian Nationalist Association"
-ITA_voynist_party:0 "ANI"
-ITA_voynist_party_long:0 "Italian Nationalist Association"
+ITA_revolutionary_socialism_party:0 "CGL"
+ITA_revolutionary_socialism_party_long:0 "Confederazione Generale del Lavoro - General Confederation of Labour "
+
+ITA_syndicalism_party:0 "Unione Sindacale"
+ITA_syndicalism_party_long:0 "Unione Sindacale Italiana - Italian Syndicalist Union"
+
+ITA_moderate_socialist_party:0 "Comitato Anarchico"
+ITA_moderate_socialist_party_long:0 "Comitato Anarchico Proletario - Anarchist Proletarian Committee"
+
+ITA_social_democrat_party:0 "UIL"
+ITA_social_democrat_party_long:0 "Unione Italiana del Lavoro - Italian Labour Union"
+
+ITA_social_liberal_party:0 "CISL"
+ITA_social_liberal_party_long:0 "Confederazione Italiana Sindacati Lavoratori - Italian Confederation of Trade Unions"
+
+ITA_social_conservative_party:0 ""
+ITA_social_conservative_party_long:0 ""
+
+ITA_authoritarian_democrat_party:0 ""
+ITA_authoritarian_democrat_party_long:0 ""
+
+ITA_autocratic_party:0 ""
+ITA_autocratic_party_long:0 ""
+
+ITA_ultraconservative_party:0 ""
+ITA_ultraconservative_party_long:0 "-"
+
+ITA_national_corporatist_party:0 "Sindacati Nazionali"
+ITA_national_corporatist_party_long:0 "Sindacati Nazionali dei Lavoratori - National Worker's Unions"
+
 
 ### Country Name ###
 

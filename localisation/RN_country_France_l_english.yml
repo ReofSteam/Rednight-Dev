@@ -152,9 +152,7 @@ WAR_NAME_TUN_SAH:0 "Operation June"
 FRA_a_decision_in_Oran:0 "A Decision in Oran has been made"
 Continental_MARPAC:0 "Continental MARPAC"
 North_African_MARPAC:0 "North African MARPAC"
-marpac_name:0 "§Y[THIS.GetName]§!"
-marpac_against_button:0 "§RVote against this motion§!"
-marpac_against_button:0 "§GSupport this motion§!"
+
 ### Companies ###
 
 ### Ministers ###

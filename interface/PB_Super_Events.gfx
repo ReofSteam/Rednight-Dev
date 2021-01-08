@@ -17,11 +17,7 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	spriteType = {
-		name = "GFX_SPEVNT_Irish_Twilight"
-		texturefile = "gfx/super_events/SPEVNT_Irish_Twilight.dds"
-		legacy_lazy_load = no
-	}
+	
 
 	spriteType = {
 		name = "GFX_SPEVNT_Turkish_Civil_War"
@@ -29,11 +25,6 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
-	spriteType = {
-		name = "GFX_SPEVNT_Irish_Twilight"
-		texturefile = "gfx/super_events/SPEVNT_Irish_Twilight.dds"
-		legacy_lazy_load = no
-	}
 
 	spriteType = {
 		name = "GFX_SPEVNT_Anti_Russia_Revolt"

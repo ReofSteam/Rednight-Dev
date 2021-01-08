@@ -78,3 +78,65 @@ ideas = {
 
 
 }
+####TEX
+#######
+	head_of_government = {
+	### Head of Government ###
+		TEX_william_d_leahy = {
+			allowed = { original_tag = TEX }
+			picture = TEX_william_d_leahy_minister
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TEX_william_d_leahy"
+			}
+			traits = {
+				head_of_government
+			}
+		}
+	}
+
+	person_of_influence = { ### Person of Influence ###
+		## Economy Minister ##
+		TEX_Josef_R_Sheetz = {
+			allowed = { original_tag = TEX }
+			picture = TEX_Josef_R_Sheetz_minister						
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TEX_Josef_R_Sheetz"
+			}
+			traits = {
+				economy_minister
+			}
+		}
+
+		## Security Minister ##
+		TEX_Carl_F_Eifler = {
+			allowed = { original_tag = TEX }
+			picture = TEX_Carl_F_Eifler_minister						
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea TEX_Carl_F_Eifler"
+			}
+			traits = {
+				security_minister
+			}
+		}
+
+
+}
+}
