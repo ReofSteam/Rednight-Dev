@@ -1,0 +1,53 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+
+	country = {
+
+CSA_internal_war = {
+    modifier = {
+   stability_factor = -0.3
+   conscription_factor = -0.4
+   industry_repair_factor = -0.15
+	}
+}
+
+CSA_ruins = {
+	modifier = {
+   production_speed_buildings_factor = -0.7
+   research_speed_factor = -0.5
+   production_speed_industrial_complex_factor = -0.2
+			 } 
+			 removal_cost = -1
+}
+
+CSA_famine = {
+	modifier = {
+   monthly_population = -0.1
+			 } 
+			 removal_cost = -1
+}
+
+
+CSA_divided_goverment = {
+	modifier = {
+   political_power_gain = -0.1
+   stability_factor = -0.3
+   }
+   removal_cost = -1
+}
+
+America_new_year_peace = {
+	on_add = { log = "[GetDateText]: [Root.GetName]: add idea America_new_year_peace"}
+	modifier = {
+   conscription_factor = -0.15
+			}
+			removal_cost = -1
+		}
+}
+
+}
+
+	
