@@ -21,8 +21,8 @@ scripted_gui = {
 		}
 
 		triggers = {
-			Super_Event_Image_Turkish_Civil_War_visible = {
-				has_country_flag  = TUR_Turkish_Civil_War
+			Super_Event_Image_Anti_Russia_Revolt_visible = {
+				has_country_flag  = RUS_anti_russia_revolt
 			}
 		}
 
@@ -69,9 +69,9 @@ scripted_gui = {
 
 				if = {
 					limit = {	
-						has_country_flag = TUR_Turkish_Civil_War
+						has_country_flag = RUS_anti_russia_revolt
 					}
-					clr_country_flag  = TUR_Turkish_Civil_War
+					clr_country_flag  = RUS_anti_russia_revolt
 				}
 
 				if = {

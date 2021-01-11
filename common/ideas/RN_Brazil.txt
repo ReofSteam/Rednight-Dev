@@ -14,7 +14,8 @@ stability_factor = -0.3
 	
 country = {
 		BRA_democracy_bastion = {
-			modifier = {
+		picture =  BRA_liberty		
+		modifier = {
 drift_defence_factor = 0.5
 national_corporatist_acceptance = -100
 autocratic_acceptance = -100
@@ -28,28 +29,29 @@ nationalist_socialism = -100
 }
 
 }	
+
+country = {
+		BRA_vigilant_population = {
+		picture =  BRA_army
+		modifier = {
+        conscription = 0.05
+        industrial_capacity_factory = 0.05
+
+	}
+
+			
+}
+
+}
 country = {
 		BRA_neutral_nation = {
-			picture =  BRA_neutrality
+			picture =  neutrality
 			modifier = {
 min_export = 0.5
 production_speed_industrial_complex_factor = 0.25
 production_factory_efficiency_gain_factor = 0.25
 
 	   }
-}
-
-}
-
-country = {
-		BRA_vigilant_population = {
-			 modifier = {
-conscription = 0.05
-industrial_capacity_factory = 0.05
-
-	}
-
-			
 }
 
 }

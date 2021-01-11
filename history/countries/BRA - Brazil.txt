@@ -2,8 +2,8 @@
 add_ideas = {
 BRA_aib_remnants
 BRA_democracy_bastion
-BRA_neutral_nation
 BRA_vigilant_population
+BRA_neutral_nation
 }
 oob = "BRA"
 

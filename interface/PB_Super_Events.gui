@@ -28,9 +28,9 @@ guiTypes = {
 		}
 
 		iconType = {
-			name ="Super_Event_Image_Turkish_Civil_War"
-			spriteType = "GFX_SPEVNT_Turkish_Civil_War"
-			position = { x = 35 y = 0 }
+			name ="Super_Event_Image_Anti_Russia_Revolt"
+			spriteType = "GFX_SPEVNT_Anti_Russia_Revolt"
+			position = { x = 200 y = 130 }
 		}
 
 		iconType = {
@@ -61,6 +61,13 @@ guiTypes = {
 			spriteType = "GFX_theater_of_events"
 			position = { x = 7 y = -14 }
 		}
+		iconType = {
+			name ="Super_Event_newsreel_paper"
+			spriteType = "GFX_newsreel_paper"
+			position = { x = -125 y = 75 }
+			scale = 0.97
+			rotation=0.02
+		}		
 		
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Title_textbox"
@@ -76,19 +83,20 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "Pax_Super_Event_Quote_textbox"
-			position = { x = 110 y = 330 }
-			font = "newsfeed_body"
+			position = { x = -240 y = 210 }
+			font = "rn_viasans_15"
 			borderSize = {x = 100 y = 0}
 			text = "[get_superevent_quote]"
-			maxWidth = 370
-			maxHeight = 79
+			maxWidth = 400
+			maxHeight = 400
 			fixedsize = yes	
 			format = center
+			rotation=0.10
 		}
 
 		buttonType = {
             name = "Super_Event_Close"
-            position = { x = 460 y = 360 }
+            position = { x = 15 y = 15 }
             quadTextureSprite ="GFX_closebutton"
             clicksound = click_scroll
         }

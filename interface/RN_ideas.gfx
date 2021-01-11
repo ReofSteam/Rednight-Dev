@@ -219,12 +219,19 @@ spriteTypes = {
 	}
 
 		spriteType = {
-		name = "GFX_idea_BRA_neutrality"
-		texturefile = "gfx/interface/ideas/BRA/BRA_neutrality.dds"
-	}		
-			
+		name = "GFX_idea_BRA_liberty"
+		texturefile = "gfx/interface/ideas/BRA/BRA_liberty.tga"
+	}	
+		spriteType = {
+		name = "GFX_idea_BRA_army"
+		texturefile = "gfx/interface/ideas/BRA/BRA_army.tga"
+	}				
 	
 ####Generic	
+spriteType = {
+		name = "GFX_idea_neutrality"
+		texturefile = "gfx/interface/ideas/generic/neutrality.dds"
+	}		
 	spriteType = {
 		name = "GFX_idea_moving_industry"
 		texturefile = "gfx/interface/ideas/generic/moving_industry.dds"

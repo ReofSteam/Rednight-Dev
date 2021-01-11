@@ -48,7 +48,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "William D. Leahy"
-	desc = "POLITICS_George_V_DESC"
+	desc = "POLITICS_WILLIAM_LEAHY_DESC"
 	picture = "gfx/leaders/CAL/CAL_Leahy.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype

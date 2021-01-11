@@ -29,7 +29,7 @@ bitmapfonts = {
 	#s = Turquoise
 	#y = Lemon Yellow
 	#N = Coffee Brown
-	#n = Jet Grey
+	#n = Jet Grey/Black
 
 	textcolors = {
 		M = { 35 206 255 }
@@ -204,7 +204,7 @@ bitmapfonts = {
 		s = { 0 122 122 }
 		y = { 255 255 0 }
 		N = { 111 78 55 }
-		n = { 122 122 122 }
+		n = { 0 0 0 }
 	}
 	}	
 	
