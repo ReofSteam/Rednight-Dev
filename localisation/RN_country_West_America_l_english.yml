@@ -7,6 +7,38 @@
 ### Events ###
 
 ### Parties ###
+CAL_nationalist_socialism_party:0 "NSA"
+CAL_nationalist_socialism_party_long:0 "National Socialist Party of America"
+
+CAL_revolutionary_socialism_party:0 "RO West"
+CAL_revolutionary_socialism_party_long:0 "Revolutionary Organisation West"
+
+CAL_syndicalism_party:0 "RO West"
+CAL_syndicalism_party_long:0 "Revolutionary Organisation West"
+
+CAL_moderate_socialist_party:0 "RO West"
+CAL_moderate_socialist_party_long:0 "Revolutionary Organisation West"
+
+CAL_social_democrat_party:0 "LAP"
+CAL_social_democrat_party_long:0 "League of American Nationalists- Social Democratic Wing"
+
+CAL_social_liberal_party:0 "National Unity Party"
+CAL_social_liberal_party_long:0 "Democratic-Republican National Unity Party- Social Liberal Wing"
+
+CAL_social_conservative_party:0 "National Unity Party"
+CAL_social_conservative_party_long:0 "Democratic-Republican National Unity Party- Social Conservative Wing"
+
+CAL_authoritarian_democrat_party:0 "Moderate Longists & Macarthurites"
+CAL_authoritarian_democrat_party_long:0 "America First Party & Macarthurite Disciples"
+
+CAL_autocratic_party:0 "Dallas Macarthurites"
+CAL_autocratic_party_long:0 "General Patton's Dallas Macarthurites"
+
+CAL_ultraconservative_party:0 "Radical Longists"
+CAL_ultraconservative_party_long:0 "America First Party- Pelley Faction"
+
+CAL_national_corporatist_party:0 "Dallas Macarthurites"
+CAL_national_corporatist_party_long:0 "General Patton's Dallas Macarthurites"
 
 
 ### Country Name ###
@@ -35,6 +67,12 @@ CAL_national_corporatist_DEF:0 "the United States of America"
 ### Focuses ###
  
 ### Ideas ###
+CAL_covenant:0 "The Sacramento Covenant"
+CAL_covenant_desc: "§RAmerica died in 1940.§!\n\n§YAmerica was reborn in 1946.§!\n\nThe Sacramento covenant is the foundation of our western republic. It’s spark came from the late General Stilwell, a man who saw the glow of liberty’s torch from within the belly of the red behemoth. In the spirit of his dream the statesmen of old America; Long, Macarthur, and Merriam came together to reconstitute the nation.\n\nWe may have our differences, and have descended from disparate factions. Yet we all share in our covenant, and like the thirteen colonies of old we shall overcome. Let none of us be held at fault for the crimes of the past. After all, we all have a common enemy."
+CAL_prosperity:0 "The Western Prosperity"
+CAL_prosperity_desc: "Within the continent sized carnage that is North America, the Pacific Coast stands as a beacon. Capital flight from the east, comparatively undamaged industry, an abundance of natural splendour, and a population boom characterise our sunny beaches and foggy forests. The Californian century truly is here, and it's inciting action shall be the reuniting of our nation!"
+CAL_the_caravan:0 "The Caravan"
+CAL_the_caravan_desc: ""
 
 ### Flags ###
 

@@ -5,19 +5,11 @@ oob = "CSA"
 
 ### Cabinet 
 add_ideas = {
-	CSA_Elizabeth_Flynn_hog
-	CSA_Earl_Browder_mnp
-	CSA_Vincent_R_Dunnes_interior
-	CSA_Harry_Bridges_economy
-	CSA_WEB_Du_Bois_foreign
-	CSA_Oakley_C_Johnson_education
-	CSA_Roger_N_Baldwin_culture
-	CSA_Wyndham_Mortimer_transport
-	CSA_Abraham_G_Silverman_intel
-	CSA_Evans_Carlson_staff
-	CSA_Alexander_Vandegrift_army
-	CSA_Marion_E_Carl_air_force
-	CSA_Arthur_S_Carpender_navy
+	America_new_year_peace
+	CSA_ruins
+	CSA_famine
+	CSA_divided_goverment
+	CSA_internal_war
 }
 
 set_research_slots = 3
