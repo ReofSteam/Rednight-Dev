@@ -39,16 +39,17 @@ set_politics = {
 }
 
 set_popularities = {
-	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 17
-	social_liberal = 29
-	market_liberal = 24
-	social_conservative = 30
-	authoritarian_democrat = 0
-	paternal_autocrat = 0
-	national_populist = 0
+    nationalist_socialism = 0
+    revolutionary_socialism = 1
+    syndicalism = 1
+    moderate_socialist = 0
+    social_democrat = 13
+    social_liberal = 33
+    social_conservative = 21
+    authoritarian_democrat = 11
+    autocratic = 2
+    ultraconservative = 8
+    national_corporatist = 10
 }
 add_ideas = {
 	#extensive_conscription
