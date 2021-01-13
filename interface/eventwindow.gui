@@ -314,7 +314,7 @@ guiTypes = {
 			maxWidth = 340
 			maxHeight = 40
 			format = center
-			vertical_alignment = LOWER_LEFT
+			vertical_alignment = center
 			alwaystransparent = yes
 		}
 	}

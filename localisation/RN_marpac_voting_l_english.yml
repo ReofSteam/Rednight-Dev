@@ -1,10 +1,12 @@
 ﻿l_english:
+marpacnews.t:0 "[GetNewsHeadline]"
 marpac.1.t:0 "Called the Assembly to Vote" 
 marpac.2.t:0 "vote check"
 marpac.3.d:0 "Vote passed"
+marpacnews.a:0 "Long live the Socialist International!"
 marpac.4.d:0 "Vote not passed"
 marpac_current_motion:0 "[GetMARPACMotionName]"
-MARPAC_resolution_51:0 "§GResolution 51§!: Resume Military Measures against Counter-Revolutionary Military Remnants in North America"
+MARPAC_resolution_51:0 "§GResolution 51§!: Authorisation of Joint-Military Measures against Counter-Revolutionary Forces in North America"
 marpac_name:0 "§Y[THIS.GetName]§!"
 marpac_against_button:0 "§RVote against this motion§!"
 marpac_for_button:0 "§GSupport this motion§!"
