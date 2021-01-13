@@ -36,27 +36,12 @@ country_event = {
 
 	option = {
 		name = africa.1.a
-		country_event = africa.2
-		SEN = { 
-		country_event = sen.5
-		}
-		ALG = {
-		country_event = africa.3
-		}
-		MOR = { 
-		country_event = africa.3
-		}
-		TUN = {
-		country_event = africa.3
-		}
-		ENG = { 
-		country_event = africa.3
-		}		
+		country_event = marpac.1
 	}
 	option = {
 		name = africa.1.b
 		SEN = {
-		country_event = sen.6		
+		country_event = sen.5		
 		}
 	}	
 }
@@ -70,6 +55,9 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
+	ENG = {
+	country_event = africa.3
+	}
 	name = africa.2.a
 	set_global_flag = FRA_mission_free_africa
 	has_global_flag = FRA_sand_war
@@ -79,15 +67,7 @@ country_event = {
     type = annex_everything
 }
 }
-    MOR = { add_to_war = { 
-    targeted_alliance = ALG 
-    enemy = SAH 
-} }
-    TUN = { add_to_war = { 
-    targeted_alliance = ALG 
-    enemy = SAH 
-} }
-}
+} 
 }
 
 country_event = { 
