@@ -61,7 +61,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Thomas E. Dewey"
-	desc = "POLITICS_HIRAM_JOHNSON_DESC"
+	desc = "POLITICS_THOMAS_DEWEY_DESC"
 	picture = "gfx/leaders/CAL/CAL_Thomas_Dewey.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
