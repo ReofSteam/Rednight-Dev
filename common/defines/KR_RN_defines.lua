@@ -1,6 +1,6 @@
--- Kaiserreich defines values
+-- Kaiserreich, adapted for Red Night defines values
 
-NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla 1949.1.1.1
+NDefines.NGame.END_DATE = "1985.1.1.1"										-- Vanilla 1949.1.1.1
 NDefines.NGame.MAJOR_PARTICIPANTS_FOR_MAJOR_WAR = 20						-- Vanilla is 3
 NDefines.NGame.DECISION_ALERT_TIMEOUT_DAYS = 60								-- Vanilla is 30
 NDefines.NDiplomacy.IDEOLOGY_JOIN_FACTION_MIN_LEVEL = 0						-- Vanilla is 0.3

@@ -102,6 +102,26 @@ create_country_leader = {#
 	traits = {
 	}
 }
+1981.1.1 = {
+set_politics = {	
+	ruling_party = syndicalism
+	last_election = "1972.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+puppet = ENG
+
+create_country_leader = {
+	name = "Jean-Luc Antoine"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/Apocalypse_War/AW_FRA_leader.tga"
+	ideology = syndicalism_subtype
+	traits = {
+	}
+}
+}
 
 ######Military
 ###Army 

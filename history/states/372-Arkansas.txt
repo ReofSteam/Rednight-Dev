@@ -18,6 +18,10 @@ state={
 		victory_points = {
 			12489 2 
 		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
 
 	}
 
