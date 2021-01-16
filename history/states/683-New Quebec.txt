@@ -16,6 +16,10 @@ state = {
 		}
 		add_core_of = CAN
 		add_core_of = QUE
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
 	}
 
 	provinces = {

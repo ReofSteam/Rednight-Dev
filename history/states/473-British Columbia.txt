@@ -31,6 +31,10 @@ state = {
 		victory_points = {
 			1323 1
 		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
 	}
 
 	provinces = {

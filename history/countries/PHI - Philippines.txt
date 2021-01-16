@@ -1,39 +1,17 @@
 ﻿capital = 327
 OOB = "PHI"
-set_cosmetic_tag = PEC
+set_cosmetic_tag = GOVERNORATE
 JAP = { 
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-
-		set_autonomy = {
-			target = MLU
-			autonomy_state = kn_autonomous
-		}
-		else = {
-			puppet = MLU 
-		}
-	}
+    set_autonomy = {
+        target = JAP
+        autonomy_state = autonomy_puppet
+    }
 }
 set_convoys = 20
 set_research_slots = 3
 
 set_stability = 0.50
 set_war_support = 0.20
-
-set_country_flag = one_party_nation
-
-set_country_flag = coalition_authoritarian_democrat
-set_country_flag = coalition_national_corporatist
-
-set_country_flag = banned_nationalist_socialism
-set_country_flag = banned_revolutionary_socialism
-set_country_flag = banned_syndicalism
-set_country_flag = banned_social_liberal
-set_country_flag = banned_social_conservative
-
-
 set_technology = {
 	### MOD ###
 	### General ###
@@ -50,7 +28,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -110,11 +88,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Masaharu Homma"
-	desc = "POLITICS_MASAHARU_HOMMA_DESC"
-	picture = "gfx/leaders/ASIA/PHI/PHI_Masaharu_Homma.tga"
+	name = "Hoshino Naoki"
+	desc = "POLITICS_HOSHINO_NAOKI_DESC"
+	picture = "gfx/leaders/ASIA/JAP/JAP_Hoshino_Naoki.tga"
 	expire = "1959.11.6"
-	ideology = autocratic_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = { }
 }
 
