@@ -12,7 +12,10 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 		}
-
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
 	}
 	provinces={
 		589 3574 6444 6488 9486 

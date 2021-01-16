@@ -86,6 +86,23 @@ set_popularities = {
 	ultraconservative = 2
 	national_corporatist = 12
 }
+1981.1.1 = {
+set_politics = {	
+	ruling_party = syndicalism
+	last_election = "1972.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Alphonse Vere Ferrers"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/Apocalypse_War/AW_ENG_leader.tga"
+	ideology = syndicalism_subtype
+	traits = {
+	}
+}
+}
 
 ### Starting Political Leaders ###
 create_country_leader = {

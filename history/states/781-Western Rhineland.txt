@@ -25,6 +25,10 @@ state = {
 				bunker = 2
 			}
 		}
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
 	}
 
 	provinces = {

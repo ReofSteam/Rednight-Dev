@@ -60,7 +60,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Division Parachutiste de Marine"
+	name = "Division Parachutiste"
 	division_names_group = ENG_ARM_01
 	regiments = {
 		light_armor = { x = 0 y = 0 }
@@ -105,7 +105,120 @@ units = {
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}	
-
+		division = {
+		name = "Garde nationale de Languedoc"
+		location = 3273
+		division_template = "Division de la Garde nationale"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "11e Division"
+		location = 3273
+		division_template = "Division de chars de combat"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "7e Division"
+		location = 3273
+		division_template = "Division de chars de combat"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "5e Division"
+		location = 3273
+		division_template = "Division de chars de combat"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "5e Division"
+		location = 3273
+		division_template = "Division de chars de combat"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "10e Division Parachutiste"
+		location = 3273
+		division_template = "Division Parachutiste"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "9e Division Parachutiste de Marine"
+		location = 3273
+		division_template = "Division Parachutiste"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "11e Division Parachutiste"
+		location = 3273
+		division_template = "Division Parachutiste"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "25e Division Parachutiste"
+		location = 3273
+		division_template = "Division Parachutiste"
+		start_experience_factor = 0.1
+	}
+		division = {
+		name = "24e Division Parachutiste"
+		location = 3273
+		division_template = "Division Parachutiste"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "12e Division d'infanterie"
+		location = 3273
+		division_template = "Division d'infanterie"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "14e Division d'infanterie"
+		location = 3273
+		division_template = "Division d'infanterie"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "15e Division d'infanterie"
+		location = 3273
+		division_template = "Division d'infanterie"
+		start_experience_factor = 0.1
+	}		
+		division = {
+		name = "109e Division d'infanterie"
+		location = 3273
+		division_template = "Division d'infanterie"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "152e Division d'infanterie"
+		location = 3273
+		division_template = "Division d'infanterie"
+		start_experience_factor = 0.1
+	}	
+		division = {
+		name = "6e Division Légère Blindée"
+		location = 3273
+		division_template = "Division légère blindée"
+		start_experience_factor = 0.1
+	}			
+		division = {
+		name = "6e Division Légère Blindée"
+		location = 3273
+		division_template = "Division légère blindée"
+		start_experience_factor = 0.1
+	}			
+		division = {
+		name = "12e Division Légère Blindée"
+		location = 3273
+		division_template = "Division légère blindée"
+		start_experience_factor = 0.1
+	}
+		division = {
+		name = "14e Division Légère Blindée"
+		location = 3273
+		division_template = "Division légère blindée"
+		start_experience_factor = 0.1
+	}					
 ########
 # Sea
 ########

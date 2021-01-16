@@ -33,6 +33,10 @@ state = {
 				bunker = 2
 			}
 		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
 	}
 
 	provinces = {
