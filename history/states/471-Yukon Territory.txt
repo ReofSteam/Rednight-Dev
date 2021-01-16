@@ -12,6 +12,10 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = CAN
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
 	}
 
 	provinces = {
