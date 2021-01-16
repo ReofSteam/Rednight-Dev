@@ -1,0 +1,21 @@
+state = {
+	id = 188
+	name = "STATE_188"
+	manpower = 359512
+
+	state_category = two
+	history = {
+		owner = RUS
+		add_core_of = RUS
+		victory_points = {
+			3254 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces = {
+		3288 
+	}
+}
