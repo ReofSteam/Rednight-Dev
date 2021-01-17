@@ -5,6 +5,11 @@ ANA = {
 	color_ui = rgb { 214 0 0 }
 }
 
+NGR = {
+	color = rgb { 0 124 0 }
+	color_ui = rgb { 255 169 169 }
+}
+
 OTT = {
 	color = rgb { 66 135 245 }
 	color_ui = rgb { 66 135 245 }
@@ -966,10 +971,6 @@ MLI = {
 MRT = {
 	color = rgb { 168 185 135 }
 	color_ui = rgb { 168 185 135 }
-}
-NGR = {
-	color = rgb { 255 169 169 }
-	color_ui = rgb { 255 169 169 }
 }
 SEN = {
 	color = rgb { 255 149 128 }

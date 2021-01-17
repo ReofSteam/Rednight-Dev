@@ -12,11 +12,10 @@ set_war_support = 0.2
 country_event = inc.1
 
 add_ideas = {
-	INC_young_republic
-	INC_being_of_the_people
-	INC_a_fragile_coaltion
-	INC_disunited_military
-	INC_building_our_economy
+	INC_fatherland_return
+	INC_martyrs_desire
+	INC_thick_blood
+	INC_common_education
 }
 
 ###Council of State
