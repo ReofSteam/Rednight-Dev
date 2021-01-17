@@ -19,6 +19,10 @@ state={
 
 		}
 		add_core_of = FOZ
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
 
 	}
 

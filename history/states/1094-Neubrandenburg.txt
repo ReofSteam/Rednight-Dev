@@ -9,7 +9,10 @@ state={
 			infrastructure = 6
 			industrial_complex = 1
 		}
-
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
 	}
 	provinces={
 		268 293 3258 

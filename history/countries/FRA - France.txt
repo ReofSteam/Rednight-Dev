@@ -110,6 +110,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+declare_war_on = {
+    target = RUS
+    type = annex_everything
+}
 
 puppet = ENG
 

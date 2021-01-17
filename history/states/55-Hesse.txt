@@ -15,6 +15,10 @@ state={
 		victory_points = {
 			564 3 
 		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
 
 	}
 

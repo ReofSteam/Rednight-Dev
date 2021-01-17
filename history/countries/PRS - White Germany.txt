@@ -78,6 +78,23 @@ set_popularities = {
 	national_corporatist = 24
 }
 
+1981.1.1 = {
+set_politics = {	
+	ruling_party = ultraconservative
+	last_election = "1972.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Kaiser Klaus"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/Apocalypse_War/AW_PRS_leader.tga"
+	ideology = ultraconservative_subtype
+	traits = {
+	}
+}
+}
 
 create_country_leader = {
 	name = "Mikhail Levitov"

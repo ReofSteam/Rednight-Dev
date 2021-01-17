@@ -23,6 +23,10 @@ state={
 			air_base = 6
 
 		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
 
 	}
 

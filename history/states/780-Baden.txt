@@ -27,6 +27,10 @@ state = {
 		victory_points = {
 			3530 5
 		}
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
 	}
 
 	provinces = {
