@@ -59,7 +59,20 @@ spriteTypes = {
 		name = "GFX_idea_GER_free_germany"
 		texturefile = "gfx/interface/ideas/GER/GER_FreeGermanyArmy.dds"
 	}
-    
+	#########Indochina
+ 		spriteType = {
+		name = "GFX_idea_INC_return_to_fatherland"
+		texturefile = "gfx/interface/ideas/INC/INC_return_to_fatherland.tga"
+	}
+ 		spriteType = {
+		name = "GFX_idea_INC_return_to_fatherland"
+		texturefile = "gfx/interface/ideas/INC/INC_return_to_fatherland.tga"
+	}
+ 		spriteType = {
+		name = "GFX_idea_INC_common_education"
+		texturefile = "gfx/interface/ideas/INC/INC_common_education.tga"
+	}
+                     
     #Australia
     spriteType = {
 		name = "GFX_idea_AST_king_albert_i"
