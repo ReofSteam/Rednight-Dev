@@ -48,10 +48,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	PHI_japanese_military_occupation
-	PHI_promised_independent
+	PHI_yen_zone
+	PHI_mountain_rebels
 	PHI_native_attitude_apathetic
-	PHI_guerllia_resistance 
+	PHI_military_monopoly
 }
 
 add_ideas = {

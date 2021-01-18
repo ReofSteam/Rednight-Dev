@@ -27,6 +27,15 @@ PHI_autocratic_DEF:0 "the Republic of the Philippines"
 ### Focuses ###
  
 ### Ideas ###
+PHI_yen_zone:0 "Yen Monetary Zone"
+PHI_yen_zone_desc: "While the world economy collapses around us, the Phillipines soldiers on. Much to the dismay of nationalist rebels, it is our relationship with Japan that keeps us afloat.\n\n Implementation of the Yen currency combined with several years of cooperation with the Japanese command economy ensures that things continue as normal as is possible in such chaotic times."
+PHI_mountain_rebels:0 "Rebels in the Mountains"
+PHI_mountain_rebels_desc: "Following the Manila Proclamation of 1947, our Japanese benefactors liberated the nation from twin enemies; the imperialist americans and the proto-socialist guerillas of Aguinaldo. It was expected that peace would finally reign, yet this was not to be.\n\nStubborn holdouts persist in the mountains, terrorising the populace and assaulting brave Japanese soldiers. We must crush these remnants once and for all before they lead the people astray. Death to the sabatouers!"
+PHI_native_attitude_apathetic:0 "Native Attitude: §gApathetic§!"
+PHI_native_attitude_apathetic_desc: "While real enthusiasm for the co-prosperity sphere’s mission is exceedingly rare, there is enough ambivalence to keep the people in check. At least for the moment."
+PHI_military_monopoly:0 "Japanese Military Monopoly"
+PHI_military_monopoly_desc: "The national army raised in 1941 and the American trained scout regiments were both forcefully disbanded as a condition of the Manila Proclamation. While this was an understandable descision, it has also led to a situation where we are unable to adequately defend ourselves.\n\nDue to legal restrictions on our goverment's ability to raise independent armed forces, we must continue to rely on Japanese troops, mercenaries, and various questionable militas to deal with the growing insurgency."
+
 
 ### Flags ###
 
