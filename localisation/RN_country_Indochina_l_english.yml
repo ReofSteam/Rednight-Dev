@@ -62,6 +62,14 @@ CAM_social_democrat_DEF:0 "the Democratic Republic of Kampuchea"
 
 ### Ideas ###
 
+INC_fatherland_return:0 "Return to the Fatherland"
+INC_fatherland_return_desc: "Following the stunning success of the National Revolution, Indochina has become a beacon. In throwing off the imperialist shackles we have found ourselves embroiled in pursuit of a modern nation. Such a project will require educated minds of every discipline, and the diaspora has answered our call!\n\nExiles from across the planet continue to trickle back home eager to help build a brighter future. Among these migrants are those trained and  educated in western universities, a particularly lucrative demographic."
+INC_martyrs_desire:0 "The Martyr's Desire"
+INC_martyrs_desire_desc: ""§YI have but one desire, a supreme desire, that our nation be independent, our people is entirely freed, all our compatriots have foods and clothes, all are educated"- Ho Chi Minh, Martyr of the Revolution.§!\n\n The construction of a modern national economy is a daunting prospect. It is, however, making decent progress. Things have progressed relatively smoothely all things considered, with industrialisation targets being frequently met and infastructure development prioritised.\n\nWe have a long way to go before we can proudly stand as a respectable power of the four seas, but the darkest days are most definitely behind us."
+INC_thick_blood:0 "Blood is Thicker than Water"
+INC_thick_blood_desc: "The shining visage of our Republic can be considered a mirage. Behind all the pomp and flavour lurks extreme dysfunction, and in many ways the paramilitary war never ended.  Alleged japanese plots, ethnic conflicts, chauvinism, class-divide and corruption all remain plagues upon the state.\n\n Our faith in the Fatherland is absolute, but not all of our citzens share the same Fatherland."
+INC_common_education:0 "Common Education Commision"
+INC_common_education_desc: "The Common Education Commission has but one overriding task; Literacy. In 1945, before the revolution, only 10% of our people were literate. It was in light of this reality that the commission was formed. After three years we have risen the number of literate citzens to 35%, a signifigant improvement. Still, we must redouble our efforts. After all, only an educated population can truly enjoy the fruits of democracy." 
 
 ### Flags ###
 
@@ -72,6 +80,10 @@ CAM_social_democrat_DEF:0 "the Democratic Republic of Kampuchea"
 ### Ministers ###
 
 ### Leaders ###
+
+POLITICS_HO_HOC_LAM_DESC: "Ho Hoc Lam is the quintessential revolutionary, a compromise candidate, and an offensive oversight all at once.\n\nLam's was born in 1884 to a family with a streak of revolutionary tradition. Not only was his uncle murdered by colonial authorities, but so too was he the son of a martyr. His father was gunned down when he was only two, a status that surely had a lasting affect on him. As a young man, Lam sought foreign education like many Indochinese in an effort to return home with the gathered fruits of that knowledge and assist the struggle.\n\nFollowing the expulsion of many Vietnamese students to China, he found himself a member of the KMT on the eve of the Xinhai Revolution. Though this revolution would collapse in the Northern Expedition, Ho Hoc Lam took home the many lessons he had learned and remained a highly respected amongst revolutionary circles.\n\nBy the time of Luminous Autumn Lam was an old man. Nonetheless he assisted in the struggle. Now, years later,  he has been selected to lead in a bid for Unity amongst the Vietnamese parties. With such a stature none would dare besmirch his character regardless of their position on the political spectrum.\n\nAnd Yet while not outright hated Ho Hoc Lam is not universally beloved. Among the Khmer and Laotian parties Lam's ascendance to leadership is yet another insult to injury. Since the Republic’s founding it has been solely dominated by Vietnamese interests. Indeed, being the most developed republic and the center of most revolutionary thought Vietnamese Parties and Officials have run the government ceaselessly. While the Crowds of Hanoi and Saigon clap at Lam’s arrival, resentment boils in shadow."
+
+
 ### Tech? ###
 
 ### Events ###
