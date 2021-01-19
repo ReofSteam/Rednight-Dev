@@ -1,0 +1,17 @@
+guiTypes = {
+	containerWindowType = {
+		name = "PARDAN_status"
+		position = { x = 10 y = 82 }
+		instantTextBoxType = {
+			name = "RN_PARDAN_status"
+			position = { x = 0 y = 0 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "RN_PARDAN_status"
+			fixedsize = yes	
+			format = left
+			pdx_tooltip = "RN_PARDAN_status_detail"
+		}
+		
+	}
+}

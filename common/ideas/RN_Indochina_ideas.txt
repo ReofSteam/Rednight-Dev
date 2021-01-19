@@ -5,6 +5,7 @@ ideas = {
 ##############
 	country = {
 			INC_fatherland_return = {
+			picture = INC_return_to_fatherland
 
 			modifier = {
 				monthly_population = 0.15
@@ -15,7 +16,7 @@ ideas = {
 
 
 			INC_martyrs_desire = {
-
+			picture = INC_martyr		
 			modifier = {
 				production_speed_buildings_factor = 0.3
 				research_speed_factor = 0.15
@@ -36,6 +37,7 @@ ideas = {
 
 
 			INC_common_education = {
+			picture = INC_common_education		
 
 			modifier = {
 				political_power_factor = -0.3

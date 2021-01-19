@@ -65,8 +65,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/INC/INC_return_to_fatherland.tga"
 	}
  		spriteType = {
-		name = "GFX_idea_INC_return_to_fatherland"
-		texturefile = "gfx/interface/ideas/INC/INC_return_to_fatherland.tga"
+		name = "GFX_idea_INC_martyr"
+		texturefile = "gfx/interface/ideas/INC/INC_martyr.tga"
 	}
  		spriteType = {
 		name = "GFX_idea_INC_common_education"

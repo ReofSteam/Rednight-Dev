@@ -1,0 +1,36 @@
+defined_text = {
+	name = GetPARDANstatus
+	text = {
+		trigger = {
+			NOT = {
+			FRA = { has_war_with = RUS }
+			threat > 0.5
+			}
+		}
+		localization_key = "RN_PARDAN_4"
+	}
+	text = {
+		trigger = {
+		threat > 0.5
+		NOT = {
+		FRA = { has_war_with = RUS }
+		}	
+		}
+		localization_key = "RN_PARDAN_3"
+	}	
+	text = {
+		trigger = {
+		FRA = { has_war_with = RUS }
+		NOT = {
+		has_global_flag = PARDAN_1_international
+		}
+		}
+		localization_key = "RN_PARDAN_2"
+	}		
+	text = {
+		trigger = {
+		has_global_flag = PARDAN_1_international
+		}
+		localization_key = "RN_PARDAN_1"
+	}	
+}
