@@ -1465,3 +1465,19 @@ fire_only_once = yes
 }			
 	}	
 }
+
+####Nuke Events
+
+country_event = { 
+	id = rus.85
+	title = rus.85.t
+	desc = rus.85.d
+	picture = RUS_nuke
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.85.a
+	}
+}

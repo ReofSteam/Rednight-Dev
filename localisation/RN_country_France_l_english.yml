@@ -147,6 +147,23 @@ fra.5.a:0 "Goodbye, Pierre"
 fra.5.d.b:0 "It was finally over.\n\nEdouard let the shotgun fall against his knee, staring at the towering presence before him. Though only moments before adrenaline had surged through his muscles like a knife, now he simply stood motionless. Unsure of how to proceed.\n\nThe general too was unmoving, as was everyone in the room. It mattered not how much carnage littered the floors below, for there was nothing but respect in the air now. Edouard himself was supposed to do the handcuffing, yet once  he had reached his target, the process seemed unfathomable. How could you arrest a living legend?\n\n"Comrades." Pierre stated simply, finally breaking the long silence "No need to make things messier"\n\nThus with a curt salute, and the adjustment of his hat, Pierre followed the men in tow, peacefully submitting to defeat. As the unit passed other soldiers throughout the building, they were greeted with only quiet nods, an absence of hatred towards their so-called "enemy". As they made their way to the door, Pierre finally stopped, staring at a series of crumpled bodies on the ground. It was here Edouard gazed upon the image he would never forget; the sad eyes of France's most controversial figure.\n\nFinally, the detour over, he stepped out into the light. As the armoured van grew closer, the general's stoic expression turned to a slight grin, and a voice bellowed from his lips.\The man who had just tried to overthrow the government was now proudly singing the La Marseillaise.\n\nThe Republic had survived, despite the calamity that had gripped the city. Yet, though he could not put his finFRA on it, something felt different. A sweeter air, a bluer sky. Pierre had lost, yes, but Edouard had a feeling his legacy would endure, somewhere far outside the walls of a prison cell..."
 fra.5.b:0 "Aux armes... citoyens"
 
+fra.23.t:0 "PARDAN STATUS"
+fra.23.d:0 "THIS IS AN OFFICIAL ANNOUNCEMENT FROM HIGH COMMAND PARIS. STAND BY.\n\nPARDAN LEVEL ONE IS IN EFFECT. LIMITED NUCLEAR BARRAGE IS APPROVED. WEAPONS FREE.\n\nLONG LIVE THE REVOLUTION."
+fra.23.a:0 "§OGod help us. Let it stop here.§!"
+fra.24.t:0 "PARDAN STATUS"
+fra.24.d:0 "THIS IS AN OFFICIAL ANNOUNCEMENT FROM HIGH COMMAND PARIS. STAND BY.\n\nSTANDBY...\n\nCONFIRMED\n\nPARDAN LEVEL ZERO IS IN EFFECT. FULL NUCLEAR ARSENAL IS AUTHORISED FOR DEPLOYMENT AGAINST BOTH CIVILIAN AND MILITARY TARGETS.\n\nLONG LIVE FRANCE."
+fra.24.a:0 "§RIt’s all over but the crying...§!""
+fra.25.t:0 "PARDAN STATUS"
+fra.25.d:0 "THIS IS AN OFFICIAL ANNOUNCEMENT FROM HIGH COMMAND PARIS. STAND BY."\n\nPARDAN LEVEL FOUR IS IN EFFECT. ALL MILITARY PERSONNEL ARE TO REMAIN WATCHFUL OF ADDITIONAL NOTICES. CAUTION ADVISED.\n\nNO FURTHER ACTION REQUIRED."
+fra.25.a:0 "Noted."
+fra.26.t:0 "PARDAN STATUS"
+fra.26.d:0 "THIS IS AN OFFICIAL ANNOUNCEMENT FROM HIGH COMMAND PARIS. STAND BY.\n\nPARDAN LEVEL THREE IS IN EFFECT. ALL MARPAC LAND, AIR, AND SEA FORCES ARE TO BE ACTIVATED IMMEDIATELY. MOBILISATION UNDERWAY.\n\n PLEASE AWAIT FURTHER INSTRUCTIONS."
+fra.26.a:0 "Right Away!"
+fra.27.t:0 "PARDAN STATUS"
+fra.27.d:0 "THIS IS AN OFFICIAL ANNOUNCEMENT FROM HIGH COMMAND PARIS. STAND BY.\n\n PARDEN LEVEL TWO IS IN EFFECT. A STATE OF WAR HAS BEEN DECLARED. ALL MARPAC LAND, AIR, AND SEA FORCES ARE HEREBY CLEARED TO ENGAGE AT THE SUPERIOR DISCRETION.\n\nTHE FINAL CONFLICT HAS ARRIVED, COMRADES."
+fra.27.a:0 "Let each stand in their place. We shall be the Human Race."
+
+
 #####African Freedom
 
 africa.0.t:0 "Whispers from the Sand"

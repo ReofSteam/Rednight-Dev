@@ -483,3 +483,63 @@ country_event = {
 		set_variable = { marpac_against_vote = 0 }
 	}
 }
+country_event = {
+	id = fra.23 ##PARDAN 1
+	title = fra.23.t
+	desc = fra.23.d
+	picture = GFX_RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.23.a
+	}
+}
+country_event = {
+	id = fra.24 ##PARDAN 0
+	title = fra.24.t
+	desc = fra.24.d
+	picture = GFX_RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.24.a
+	}
+}
+country_event = {
+	id = fra.25 ##PARDAN FOUR
+	title = fra.25.t
+	desc = fra.25.d
+	picture = GFX_RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.25.a
+	}
+}
+country_event = {
+	id = fra.26 ##PARDAN THREE
+	title = fra.26.t
+	desc = fra.26.d
+	picture = GFX_RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.26.a
+	}
+}
+country_event = {
+	id = fra.27 ##PARDAN TWO
+	title = fra.27.t
+	desc = fra.27.d
+	picture = GFX_RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.27.a
+	}
+}

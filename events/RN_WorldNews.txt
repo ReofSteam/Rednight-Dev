@@ -139,4 +139,21 @@ news_event = { #Werewolves Rising
 	}	
 }
 
+news_event = { #NUCLEAR WARNING
+	id = worldnews.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.6.d
+	picture = GFX_news_mosley_victory
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.6.a
+	}
+}
 

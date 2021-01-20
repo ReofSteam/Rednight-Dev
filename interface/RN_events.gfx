@@ -160,6 +160,10 @@ spriteTypes = {
 		spriteType = { 
 		name = "GFX_news_GER_werewolves_rising"
 		texturefile = "gfx/event_pictures/news_GER_werewolves_rising.dds"
-	}		
+	}	
+	spriteType = { 
+		name = "RUS_nuke"
+		texturefile = "gfx/event_pictures/RUS_nuke.dds"
+	}			
 		
 }
