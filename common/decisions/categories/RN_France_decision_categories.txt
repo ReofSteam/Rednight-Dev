@@ -1,4 +1,13 @@
-
+FRA_ICBM_activation = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+		has_global_flag = PARDAN_0_international
+	}
+}
 FRA_support_pekkas = {
 	icon = GFX_decision_category_generic_industry
 	priority = 80
