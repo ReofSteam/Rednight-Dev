@@ -57,19 +57,19 @@ FRA_Finland_supply = {
 			} 
 			set_global_flag = france_arms_pekkas 
 			custom_effect_tooltip = FRA_supply_tip
-			№FIN = { add_equipment_to_stockpile = {
-  			№	  type = infantry_equipment
-    		№	 amount = 500
-   			№	 producer = FRA
-   			№	 }
-   			№	 add_equipment_to_stockpile = {
-  			№	  type = support_equipment
-    		№	 amount = 250
-   			№	 producer = FRA
-   			№	 add_manpower = 7500
-			№}
+			#FIN = { add_equipment_to_stockpile = {
+  			#	  type = infantry_equipment
+    		#	 amount = 500
+   			#	 producer = FRA
+   			#	 }
+   			#	 add_equipment_to_stockpile = {
+  			#	  type = support_equipment
+    		#	 amount = 250
+   			#	 producer = FRA
+   			#	 add_manpower = 7500
+			#}
 			
-			№}	
+			#}	
 						}	
 					}
 
@@ -110,4 +110,39 @@ FRA_mission_free_africa = {
 			   
           }
      }
+}
+
+FRA_ICBM_activation = {
+FRA_confirm_order = {
+    fire_only_once = yes
+    allowed = { 
+    has_global_flag = PARDAN_0_international
+}
+	cost = 20
+
+    complete_effect = {
+	set_country_flag = FRA_ICBM_stage2
+	}
+}
+FRA_confirm_authorisation_code = {
+    days_re_enable = 7
+    fire_only_once = no
+    allowed = { 
+    has_country_flag = FRA_ICBM_stage2
+}
+	cost = 20
+
+    complete_effect = {
+	clr_country_flag = FRA_ICBM_stage2
+	set_country_flag = FRA_ICBM_stage3
+	}
+}
+FRA_set_launch_calculation = {
+}
+FRA_activate_nuclear_key = {
+}
+FRA_PARDAN_0_Petrogard = {
+}
+FRA_PARDAN_0_Moscow = {
+}
 }

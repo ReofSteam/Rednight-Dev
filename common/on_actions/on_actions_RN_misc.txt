@@ -2,7 +2,23 @@ on_actions = {
 	#FROM is the nuked state. 
 	on_nuke_drop = {
 		effect = {
-			every_country = { delete_unit = { state = FROM } }
+			every_country = { 
+			delete_unit = { state = FROM } 
+			add_dynamic_modifier = { 
+			modifier = sabotaged_ressources 
+			scope = 7
+			scope = FROM
+			} 
+			FROM = {
+			set_demilitarized_zone = yes
+			state_event = {
+    id = nuke_clear.1
+    days = 3
+    random_days = 10
+    trigger_for = controller
+}
+		}
+			}
 		}
 	}
 }

@@ -10,7 +10,7 @@ news_event = {
     title = bnt.1.t
     desc = bnt.1.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
@@ -25,7 +25,7 @@ news_event = {
     title = bnt.2.t
     desc = bnt.2.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
@@ -41,7 +41,7 @@ news_event = {
     title = bnt.3.t
     desc = bnt.3.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
@@ -57,7 +57,7 @@ news_event = {  #Mass Murder of Serbs
     title = bnt.4.t
     desc = bnt.4.d
 	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
