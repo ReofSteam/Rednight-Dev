@@ -1,0 +1,11 @@
+nuclear_devastation_aftermath_modifier = {
+	icon = "GFX_idea_GBR_devastation"
+	enable = { always = yes }
+	consumer_goods_factor = GBR.GBR_consumer_goods_adj
+	industrial_capacity_factory = GBR.GBR_factory_adj
+	industrial_capacity_dockyard = GBR.GBR_dockyards_adj
+	local_resources_factor = GBR.GBR_resources_adj
+	production_speed_buildings_factor = GBR.GBR_construction_adj
+}
+
+

@@ -240,4 +240,9 @@ spriteTypes = {
 	name = "GFX_CSA_klan"
 	texturefile = "gfx/interface/CSA_gui/CSA_klan.tga"
 	}	
+###############Decisions
+	spriteType = {
+	name = "GFX_decision_generic_nuke"
+	texturefile = "gfx/interface/decisions/decision_generic_nuke.dds"
+	}	
 }

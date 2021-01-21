@@ -119,27 +119,58 @@ FRA_confirm_order = {
     has_global_flag = PARDAN_0_international
 }
 	cost = 20
-
-    complete_effect = {
+    days_remove = 1
+	complete_effect = {
+	country_event = fra.100
+}	
+    remove_effect = {
 	set_country_flag = FRA_ICBM_stage2
 	}
 }
 FRA_confirm_authorisation_code = {
     days_re_enable = 7
     fire_only_once = no
-    allowed = { 
+    available = { 
     has_country_flag = FRA_ICBM_stage2
 }
-	cost = 20
-
-    complete_effect = {
+    days_remove = 1
+	complete_effect = {
+	country_event = fra.101
+}	
+    remove_effect = {
 	clr_country_flag = FRA_ICBM_stage2
 	set_country_flag = FRA_ICBM_stage3
 	}
 }
 FRA_set_launch_calculation = {
+    days_re_enable = 7
+    fire_only_once = no
+    available = { 
+    has_country_flag = FRA_ICBM_stage3
+}
+    days_remove = 1
+	complete_effect = {
+	country_event = fra.102
+}	
+    remove_effect = {
+	clr_country_flag = FRA_ICBM_stage3
+	set_country_flag = FRA_ICBM_stage4
+	}
 }
 FRA_activate_nuclear_key = {
+    days_re_enable = 7
+    fire_only_once = no
+    available = { 
+    has_country_flag = FRA_ICBM_stage4
+}
+    days_remove = 1
+	complete_effect = {
+	country_event = fra.103
+}	
+    remove_effect = {
+	clr_country_flag = FRA_ICBM_stage4
+	set_country_flag = FRA_ICBM_ready
+	}
 }
 FRA_PARDAN_0_Petrogard = {
 }

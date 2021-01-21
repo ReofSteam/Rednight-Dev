@@ -5,7 +5,7 @@ on_actions = {
 			every_country = { 
 			delete_unit = { state = FROM } 
 			add_dynamic_modifier = { 
-			modifier = sabotaged_ressources 
+			modifier = nuclear_devastation_aftermath_modifier 
 			scope = 7
 			scope = FROM
 			} 
