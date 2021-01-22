@@ -10,6 +10,7 @@ state_event = {
 	immediate = {log = "[GetDateText]: [Root.GetName]: event nuke_clear.1"}
 	title = nuke_dropped.13.t
 	desc = nuke_dropped.13.d
+	hidden = yes
 
 	is_triggered_only = yes
 
@@ -18,7 +19,7 @@ state_event = {
 
 	option = {
 		name = nuke_clear.1.a
-		FROM = { 
+		PREV = { 
 		set_demilitarized_zone = no 
 		set_state_name = "Nukeland"
 		}

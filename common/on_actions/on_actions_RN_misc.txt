@@ -5,7 +5,7 @@ on_actions = {
 		FROM = {
 		state_event = {
         id = nuke_clear.1
-		days = 1
+		days = 3
 		trigger_for = controller
 }		
 }
