@@ -3,6 +3,28 @@
 ###########################
 
 add_namespace = nuke_dropped
+add_namespace = nuke_clear
+
+state_event = {
+	id = nuke_clear.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event nuke_clear.1"}
+	title = nuke_dropped.13.t
+	desc = nuke_dropped.13.d
+
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+
+	option = {
+		name = nuke_clear.1.a
+		FROM = { 
+		set_demilitarized_zone = no 
+		set_state_name = "Nukeland"
+		}
+	}
+
+}
 
 # Hidden event to set flag on nuke dropped
 news_event = {
@@ -490,3 +512,4 @@ news_event = {
 		}
 	}
 }
+
