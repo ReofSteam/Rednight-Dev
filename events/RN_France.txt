@@ -543,3 +543,62 @@ country_event = {
 		name = fra.27.a
 	}
 }
+country_event = {
+	id = fra.100
+	title = fra.100.t
+	desc = fra.100.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.100.a
+	
+	}
+}
+
+country_event = {
+	id = fra.101
+	title = fra.101.t
+	desc = fra.101.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.101.a
+	
+	}
+}
+
+country_event = {
+	id = fra.102
+	title = fra.102.t
+	desc = fra.102.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.102.a
+	
+	}
+}
+
+country_event = {
+	id = fra.103
+	title = fra.103.t
+	desc = fra.103.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.103.a
+	
+	}
+}

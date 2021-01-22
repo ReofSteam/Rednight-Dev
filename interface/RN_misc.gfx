@@ -178,6 +178,10 @@ spriteTypes = {
 	name = "GFX_CSA_operation_progress_3"
 	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_3.tga"
 	}	
+	spriteType = {
+	name = "GFX_ICBM_menu"
+	texturefile = "gfx/interface/RN_ICBM_menu.tga"
+	}		
 ################CSA regions names#############	
 	spriteType = {
 	name = "CSA_mountains"
