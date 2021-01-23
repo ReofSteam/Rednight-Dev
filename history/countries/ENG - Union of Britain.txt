@@ -108,7 +108,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Oswald Mosley"
 	desc = "POLITICS_OSWALD_MOSLEY_DESC"
-	picture = "gfx/leaders/ENG/ENG_Mosley.tga"
+	picture = "gfx/Leaders/leaders/ENG/ENG_Mosley.tga"
 	expire = "1965.1.1"
 	ideology = nationalist_socialism_subtype
 	traits = { }
@@ -117,7 +117,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Hugh Dalton"
 	desc = "POLITICS_ATTLEE_DESC"
-	picture = "GFX/ENG/ENG_Dalton.tga"
+	picture = "GFX/Leaders/ENG/ENG_Dalton.tga"
 	expire = "1965.1.1"
 	ideology = moderate_socialist_subtype
 	traits = {
@@ -127,9 +127,19 @@ create_country_leader = {
 create_country_leader = {
 	name = "Micheal MacDonald"
 	desc = "POLITICS_ATTLEE_DESC"
-	picture = "GFX/ENG/ENG_MacDonald.tga"
+	picture = "GFX/Leaders/ENG/ENG_MacDonald.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Ormonde Winter"
+	desc = "POLITICS_ATTLEE_DESC"
+	picture = "GFX/Leaders/ENG/ENG_Winter.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
 	traits = {
 		
 	}

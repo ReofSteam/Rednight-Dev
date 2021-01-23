@@ -1,0 +1,21 @@
+### Nuke Effects
+### Written by Me, Reof
+#
+# How to use:
+#
+#	ICBM_attack_destruction = yes
+#	ICBM_attack_weak = yes
+#
+
+ICBM_attack_destruction = {
+	set_state_flag = nuclear_destroyed
+	set_state_category = wasteland
+	add_manpower -10000
+	remove_building = {
+    type = infrastructure
+    level = infrastructure_level	
+}	
+}
+
+ICBM_attack_weak = {
+}

@@ -19,9 +19,11 @@ state_event = {
 
 	option = {
 		name = nuke_clear.1.a
+		trigger = {
+		PREV = { NOT = { has_state_flag = nuclear_destroyed } }
+		}
 		PREV = { 
 		set_demilitarized_zone = no 
-		set_state_name = "Nukeland"
 		}
 	}
 

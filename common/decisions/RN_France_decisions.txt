@@ -115,6 +115,9 @@ FRA_mission_free_africa = {
 FRA_ICBM_activation = {
 FRA_confirm_order = {
     fire_only_once = yes
+	visible = { 
+	NOT = { has_country_flag = FRA_ICBM_stage2 }
+	}
     allowed = { 
     has_global_flag = PARDAN_0_international
 }
@@ -133,7 +136,7 @@ FRA_confirm_authorisation_code = {
     available = { 
     has_country_flag = FRA_ICBM_stage2
 }
-    days_remove = 1
+    days_remove = 2
 	complete_effect = {
 	country_event = fra.101
 }	
@@ -148,7 +151,7 @@ FRA_set_launch_calculation = {
     available = { 
     has_country_flag = FRA_ICBM_stage3
 }
-    days_remove = 1
+    days_remove = 2
 	complete_effect = {
 	country_event = fra.102
 }	
@@ -163,7 +166,7 @@ FRA_activate_nuclear_key = {
     available = { 
     has_country_flag = FRA_ICBM_stage4
 }
-    days_remove = 1
+    days_remove = 2
 	complete_effect = {
 	country_event = fra.103
 }	
@@ -173,7 +176,79 @@ FRA_activate_nuclear_key = {
 	}
 }
 FRA_PARDAN_0_Petrogard = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 195 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 6174
+	state = 195
+	controller = RUS
+	use_nuke = yes
+}	
+launch_nuke = {
+	state = 208
+	controller = RUS
+	use_nuke = yes
+}
+launch_nuke = {
+	state = 244
+	controller = RUS
+	use_nuke = yes
+}
+launch_nuke = {
+	state = 209
+	controller = RUS
+	use_nuke = yes
+}
+
+    random_list = { 
+90 = { 
+	195 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Petrogard"	
+	}
+	208 = {
+	ICBM_attack_destruction = yes
+}
+	244 = {
+	ICBM_attack_destruction = yes
+}
+	209 = {
+	ICBM_attack_destruction = yes
+	}	
+	
+}
+10 = {
+    195 = {
+	add_manpower = -10000
+	}
+	208 = {
+	ICBM_attack_destruction = yes	
+	}
+	244 = {
+	ICBM_attack_destruction = yes
+	}
+	209 = {
+	ICBM_attack_destruction = yes
+	}	
+}	
+}	
+}
 }
 FRA_PARDAN_0_Moscow = {
+	visible = { has_country_flag = FRA_ICBM_ready }
+
 }
 }

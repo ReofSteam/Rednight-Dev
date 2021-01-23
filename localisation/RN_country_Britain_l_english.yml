@@ -3,48 +3,48 @@
 ### Country Name ###
 
 ENG_nationalist_socialism:0 "Union of Britain"
-ENG_nationalist_socialism_ADJ:0 "the Union of Britain"
-ENG_nationalist_socialism_DEF:0 "British"
+ENG_nationalist_socialism_DEF:0 "the Union of Britain"
+ENG_nationalist_socialism_ADJ:0 "British"
 
 ENG_revolutionary_socialism:0 "Union of Britain"
-ENG_revolutionary_socialism_ADJ:0 "the Union of Britain"
-ENG_revolutionary_socialism_DEF:0 "British"
+ENG_revolutionary_socialism_DEF:0 "the Union of Britain"
+ENG_revolutionary_socialism_ADJ:0 "British"
 
 ENG_syndicalism:0 "Union of Britain"
-ENG_syndicalism_ADJ:0 "the Union of Britain"
-ENG_syndicalism_DEF:0 "British"
+ENG_syndicalism_DEF:0 "the Union of Britain"
+ENG_syndicalism_ADJ:0 "British"
 
 ENG_moderate_socialist:0 "Union of Britain"
-ENG_moderate_socialist_ADJ:0 "the Union of Britain"
-ENG_moderate_socialist_DEF:0 "British"
+ENG_moderate_socialist_DEF:0 "the Union of Britain"
+ENG_moderate_socialist_ADJ:0 "British"
 
 ENG_social_democrat:0 "Union of Britain"
-ENG_social_democrat_ADJ:0 "the Union of Britain"
-ENG_social_democrat_DEF:0 "British"
+ENG_social_democrat_DEF:0 "the Union of Britain"
+ENG_social_democrat_ADJ:0 "British"
 
 ENG_social_liberal:0 "Union of Britain"
-ENG_social_liberal_ADJ:0 "the Union of Britain"
-ENG_social_liberal_DEF:0 "British"
+ENG_social_liberal_DEF:0 "the Union of Britain"
+ENG_social_liberal_ADJ:0 "British"
 
 ENG_social_conservative:0 "Union of Britain"
-ENG_social_conservative_ADJ:0 "the Union of Britain"
-ENG_social_conservative_DEF:0 "British"
+ENG_social_conservative_DEF:0 "the Union of Britain"
+ENG_social_conservative_ADJ:0 "British"
 
 ENG_authoritarian_democrat:0 "Union of Britain"
-ENG_authoritarian_democrat_ADJ:0 "the Union of Britain"
-ENG_authoritarian_democrat_DEF:0 "British"
+ENG_authoritarian_democrat_DEF:0 "the Union of Britain"
+ENG_authoritarian_democrat_ADJ:0 "British"
 
 ENG_autocratic:0 "Union of Britain"
-ENG_autocratic_ADJ:0 "the Union of Britain"
-ENG_autocratic_DEF:0 "British"
+ENG_autocratic_DEF:0 "the Union of Britain"
+ENG_autocratic_ADJ:0 "British"
 
 ENG_ultraconservative:0 "Union of Britain"
-ENG_ultraconservative_ADJ:0 "the Union of Britain"
-ENG_ultraconservative_DEF:0 "British"
+ENG_ultraconservative_DEF:0 "the Union of Britain"
+ENG_ultraconservative_ADJ:0 "British"
 
-ENG_national_corporatist:0 "Union of Britain"
-ENG_national_corporatist_ADJ:0 "the Union of Britain"
-ENG_national_corporatist_DEF:0 "British"
+ENG_national_corporatist:0 "United Kingdom"
+ENG_national_corporatist_DEF:0 "the United Kingdom"
+ENG_national_corporatist_ADJ:0 "British"
 
 ### Parties ###
 ENG_nationalist_socialism_party:0 "Maximist"
