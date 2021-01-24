@@ -1,3 +1,14 @@
+RUS_ICBM_activation = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = RUS
+	}
+	visible = { 
+		has_global_flag = PARDAN_0_international
+	}
+}
+
 RUS_siberian_industrialisation = {
 	icon = GFX_decision_category_generic_industry
 	priority = 80

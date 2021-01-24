@@ -2,6 +2,144 @@
 #Russian Decisions# WIP
 ###########################
 
+
+RUS_ICBM_activation = {
+
+	RUS_confirm_order = {
+		fire_only_once = yes
+		visible = { 
+		NOT = { has_country_flag = RUS_ICBM_stage2 }
+		}
+		allowed = { 
+		has_global_flag = PARDAN_0_international
+	}
+		cost = 20
+		days_remove = 1
+		complete_effect = {
+		country_event = rus.100
+	}	
+		remove_effect = {
+		set_country_flag = RUS_ICBM_stage2
+		}
+	}
+
+	RUS_confirm_authorisation_code = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage2
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.101
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage2
+		set_country_flag = RUS_ICBM_stage3
+		}
+	}
+
+	RUS_set_launch_calculation = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage3
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.102
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage3
+		set_country_flag = RUS_ICBM_stage4
+		}
+	}
+	RUS_activate_nuclear_key = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage4
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.103
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage4
+		set_country_flag = RUS_ICBM_ready
+		}
+	}
+	RUS_PARDAN_0_Paris = {
+		days_re_enable = 7
+		fire_only_once = no
+		visible = { has_country_flag = RUS_ICBM_ready }
+		available = { 
+		NOT = { 195 = {
+		has_state_flag = nuclear_destroyed 
+		} }
+		has_country_flag = RUS_ICBM_ready
+	}
+		days_remove = 1
+		complete_effect = {
+	}	
+		remove_effect = {
+		set_country_flag = RUS_ICBM_stage2	
+		clr_country_flag = RUS_ICBM_ready
+		launch_nuke = {
+		province = 11506
+		state = 16
+		controller = FRA
+		use_nuke = yes
+	}	
+	launch_nuke = {
+		state = 11516
+		controller = FRA
+		use_nuke = yes
+	}
+	launch_nuke = {
+		state = 33
+		controller = FRA
+		use_nuke = yes
+	}
+	launch_nuke = {
+		state = 15
+		controller = FRA
+		use_nuke = yes
+	}
+	15 = {
+		ICBM_attack_destruction = yes
+	}
+		779 = {
+		ICBM_attack_destruction = yes
+	}
+		33 = {
+		ICBM_attack_destruction = yes
+		}
+	
+		random_list = { 
+	90 = { 
+		16 = { 
+		ICBM_attack_destruction = yes
+		set_state_name = "Ruins of Paris"	
+		}
+		
+		
+	}
+	10 = {
+		16 = {
+		add_manpower = -10000
+		}	
+	}	
+	}	
+	}
+	}
+	RUS_PARDAN_0_Moscow = {
+		visible = { has_country_flag = RUS_ICBM_ready }
+	
+	}
+	}
+
+
 RUS_siberian_industrialisation = {
 
 	RUS_construct_siberian_civ_factory = {
@@ -1851,6 +1989,6 @@ RUS_summon_the_siberian_army = {
 		 
 }
 }		  
-
 }
+
 		
