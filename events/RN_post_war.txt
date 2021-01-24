@@ -51,3 +51,38 @@ country_event = { #####France
 
 }
 }
+
+#######Pact Victory
+
+country_event = { #####Russia
+	id = postwar.5 #
+    title = postwar.5.t
+    desc = postwar.5.d
+	picture = 
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	option = {
+		name = postwar.5.a 
+	    set_autonomy = {
+        target = RUS
+        autonomy_state = autonomy_puppet
+    }	
+		RUS = { 
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}
+    create_country_leader = {
+	name = "Kliment Voroshilov"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/Soviet_exiles/kliment_voroshilov.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		
+	}
+}
+	}
+
+}
+}

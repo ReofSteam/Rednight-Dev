@@ -120,7 +120,7 @@ rus.61.t:0 "Chaos in Transamur!"
 rus.61.d:0 "In our quest to free the Asian people from the noxious influence of western imperialism, we have encountered yet another obstacle. The Transamaur region, seized for the emperor in our dealings with the mad Admiral Kolchack, has devolved into riots and protests. Reports of flaming barracks and ransacked dockyards are spiraling out of control and the administrative commission in Vladivostok is urgently requesting reinforcements.\n\nThe slavic ingrates who co-inhabit the region with our native citizens have always been resentful of our influence. Yet what was once a nuisance has become shockingly disruptive. Perhaps they are simply reacting to the recent wartime triumph of their native land, or perhaps these events are simply inevitable when dealing with such an uncouth people.\n\nRegardless, the Russian government has once before attempted to seize the region from us.The situation must be handled swiftly and harshly, so as not to display weakness. We will not allow the imperialists another opportunity!"
 rus.61.a:0 "Handle this...now!"
 rus.62.t:0 "The Next Step"
-rus.62.d:0 "Our agitators have succeeded beyond even the most optimistic expectations as graphic civil unrest grips Transamur! Photos of buildings burning in the countryside and Vladivostok city police scurrying like rats have begun pouring into the media. We must decide our next move, for the dominoes are falling and the opportunity is both lucrative and time sensitive.\n\nTwo options have been presented, and both the TaGop and the Army have been bickering regarding each option’s feasibility or lack thereof.\n\nThe first scenario is more restrained yet likely highly effective. It involves the deployment of several squads; highly armed and professionally trained TaGOP agents who would assault key points. These squads would work under plausible deniability, allowing the rioters to fully seize the region and providing us with a pretext to step in and “Restore Order”.\n\nThe second scenario is certainly bold and fittingly swift, however it may be heavy handed. The army is advocating a mass infiltration operation under the cover of night. Then when the moment is right our soldiers would spring into action. With the Japanese already given a bloody nose by the insurrectionary rioters, surely the overwhelming intervention of our soldiers would force the Japanese into a full withdrawal?\n\nThe window of opportunity grows smaller. We must act now."
+rus.62.d:0 "Our agitators have succeeded beyond even the most optimistic expectations as graphic civil unrest grips Transamur! Photos of buildings burning in the countryside and Vladivostok city police scurrying like rats have begun pouring into the media. We must decide our next move, for the dominoes are falling and the opportunity is both lucrative and time sensitive.\n\nTwo options have been presented, and both the TaGop and the Army have been bickering regarding each option’s feasibility or lack thereof.\n\nThe first scenario is more restrained yet likely highly effective. It involves the deployment of several squads; highly armed and professionally trained TaGOP agents who would assault key points. These squads would work under plausible deniability, allowing the rioters to fully seize the region and providing us with a preRUSt to step in and “Restore Order”.\n\nThe second scenario is certainly bold and fittingly swift, however it may be heavy handed. The army is advocating a mass infiltration operation under the cover of night. Then when the moment is right our soldiers would spring into action. With the Japanese already given a bloody nose by the insurrectionary rioters, surely the overwhelming intervention of our soldiers would force the Japanese into a full withdrawal?\n\nThe window of opportunity grows smaller. We must act now."
 rus.62.a:0 "The TaGop will lead the way."
 rus.62.b:0 "The Army shall correct this grave injustice!"
 rus.64.t:0 "Mortal Failure"
@@ -163,7 +163,7 @@ rus.81.t:0 "Propaganda appears in Transamur!"
 rus.81.d:0 "The riots gripping Transamur seem to have taken on yet another new dimension! In towns and cities across the region, under the cover of night, a propaganda distribution network seems to have developed spontaneously. Leaflets can be found in the hands of the people everywhere, as well as matted wet in the gutters and blowing down the streets in the wind. In addition, Posters are observable in many alleyways and on every lamppost.\n\nSlogans from these propaganda pieces have begun to filter into the regular protest chants, as have wild rumours regarding the massacre of children and even local officials! At one point a minister named Sergei Antonov in Vladivostok had to make several public appearances following the publishing of a pamphlet claiming him to be dead; executed at the hands of our police forces!\n\nYet as absurd as the propaganda is there is no denying its effectiveness. Any hopes that the riots were ceasing have died, and the police are continuing to struggle with the now nightly unruliness across the region."
 rus.81.a:0 "Organize Japanese volunteers to remove these filthy lies!"
 rus.82.t:0 "The Power of Words"
-rus.82.d:0 "Pavel limped through the door, let out a deep sigh, and collapsed backwards into his favorite chair. His mother was asleep in the next room and he was sure she had heard him enter. When she did not emerge from her slumber, Pavel felt a slight guilt. Today was the third day in a row he had gone “protesting” with his coworkers at the dockyards. Each time Pavel was disobeying her; that underpaid woman who sought only to protect their family. He understood her reluctance. Government reprisal descending upon their tiny apartment was the last thing baby Isaak needed.\n\nWhat she didn't understand was that he was protecting Isaak too. It was true Pavel held his own righteous fury at the Japanese, however he was not merely selfish. The real origin of all his actions was hope. He hoped desperately that the future might be better for his little brother, for he could not bear to see that child grow up under foreign domination when they were so close to the Motherland’s border.\n\nIsaak shook his head dejectedly. It was the third night in a row, his bones ached and his muscles cried out as a result of his earlier flight from the police, and he was exhausted. They had all chanted slogans, organised rallies  and thrown bricks through windows. He had even encountered men with rifles firing towards their occupiers. A sinking feeling gripped him as his early tenacity wavered. How could such a disorganized movement triumph over the Japanese? The people held so much rage in their hearts and yet it had only been expressed in a chaotic frenzy.\n\nHe stood up stiffly and grunted despite his body demanding sleep. Pavel needed to clear his head, so the scarf slipped back on and he descended the steps. However, just as he was going to turn towards the exterior door a leaflet caught his eye. He turned it in his palm and opened the folds. Inside, in bold text was the word “MURDERERS!” accompanied by a picture of the local minister Sergei Antonov. He devoured the words, hearing the tale of brutal savagery inflicted upon the poor Russian. Suddenly the tiredness and aches were gone. He glanced at the clock upon the wall above him and squinted his eyes.\n\nFor Sergei, Pavel could afford a few more hours at the dockyard."
+rus.82.d:0 "Pavel limped through the door, let out a deep sigh, and collapsed backwards into his favorite chair. His mother was asleep in the next room and he was sure she had heard him enter. When she did not emerge from her slumber, Pavel felt a slight guilt. Today was the third day in a row he had gone “protesting” with his coworkers at the dockyards. Each time Pavel was disobeying her; that underpaid woman who sought only to protect their family. He understood her reluctance. Government reprisal descending upon their tiny apartment was the last thing baby Isaak needed.\n\nWhat she didn't understand was that he was protecting Isaak too. It was true Pavel held his own righteous fury at the Japanese, however he was not merely selfish. The real origin of all his actions was hope. He hoped desperately that the future might be better for his little brother, for he could not bear to see that child grow up under foreign domination when they were so close to the Motherland’s border.\n\nIsaak shook his head dejectedly. It was the third night in a row, his bones ached and his muscles cried out as a result of his earlier flight from the police, and he was exhausted. They had all chanted slogans, organised rallies  and thrown bricks through windows. He had even encountered men with rifles firing towards their occupiers. A sinking feeling gripped him as his early tenacity wavered. How could such a disorganized movement triumph over the Japanese? The people held so much rage in their hearts and yet it had only been expressed in a chaotic frenzy.\n\nHe stood up stiffly and grunted despite his body demanding sleep. Pavel needed to clear his head, so the scarf slipped back on and he descended the steps. However, just as he was going to turn towards the exterior door a leaflet caught his eye. He turned it in his palm and opened the folds. Inside, in bold RUSt was the word “MURDERERS!” accompanied by a picture of the local minister Sergei Antonov. He devoured the words, hearing the tale of brutal savagery inflicted upon the poor Russian. Suddenly the tiredness and aches were gone. He glanced at the clock upon the wall above him and squinted his eyes.\n\nFor Sergei, Pavel could afford a few more hours at the dockyard."
 rus.82.a:0 "For crimes against our race and people, the Japanese will pay!"
 rus.85.t:0 "A Second Sun in St.Petersburg"
 rus.85.d:0 "The Razor’s gash went deep, drawing bright red fluid from Dimitri’s chin. It ran like water upon glass and dribbled to the floor. Dimitri didn’t even notice. Two fists gripped the sides of the sink and wide eyes stared ahead in the mirror. In the background he heard the shouts and cries. He had no doubt of the scene’s carnage. He guessed half of the men were praying and the other half was beating those that were for cowardice. They hadn’t even reached the front yet and men were probably dead.\n\nHalf shaven but finally aware Dimitri ran from the bathroom to confirm his suspicions. The Barracks was empty save a single sleeping man. Dimitri thought of waking him before deciding against it. If it was really happening, best he stayed that way.\n\nOutside now. The Officers were pounding upon the headquarters of their superior a few meters away. A particularly angry one could be heard yelling even from where he stood. \n\n“You said our progress had been swift enough!”\n\nHis eyes turned from the officer to the sky and felt surreal as the streak made its long arc. His terror was replaced with laughter. It had only taken seconds for every aspiration to vanish. Memento Mori.\n\nHis pupils burned in an instant, alongside the rest of St.Petersburg."
@@ -198,25 +198,46 @@ RUS_ultraconservative_Ilynist_party_party:0 "Ilynists"
 RUS_ultraconservative_Ilynist_party_party_long:0 "Ilynist Clique"
 ### Country Name ###
 
+RUS_nationalist_socialism:0 "Russian Federative Socialist Republic"
+RUS_nationalist_socialism_ADJ:0 "Russian"
+RUS_nationalist_socialism_DEF:0 "the Russian Federative Socialist Republic"
 
-RUS_social_democrat:0 "Russian Republic"
+RUS_revolutionary_socialism:0 "Russian Federative Socialist Republic"
+RUS_revolutionary_socialism_ADJ:0 "Russian"
+RUS_revolutionary_socialism_DEF:0 "the Russian Federative Socialist Republic
+
+RUS_syndicalism:0 "Russian Federative Socialist Republic"
+RUS_syndicalism_ADJ:0 "Russian"
+RUS_syndicalism_DEF:0 "the Russian Federative Socialist Republic"
+
+RUS_moderate_socialist:0 "Russian Federative Socialist Republic"
+RUS_moderate_socialist_ADJ:0 "Russian"
+RUS_moderate_socialist_DEF:0 "the Russian Federative Socialist Republic"
+
+RUS_social_democrat:0 "Russian National State"
 RUS_social_democrat_ADJ:0 "Russian"
-RUS_social_democrat_DEF:0 "the Russian Republic"
-RUS_social_liberal:0 "Russian Republic"
+RUS_social_democrat_DEF:0 "the Russian National State"
+
+RUS_social_liberal:0 "Russian National State"
 RUS_social_liberal_ADJ:0 "Russian"
-RUS_social_liberal_DEF:0 "the Russian Republic"
+RUS_social_liberal_DEF:0 "the Russian National State"
+
 RUS_social_conservative:0 "Russian National State"
 RUS_social_conservative_ADJ:0 "Russian"
 RUS_social_conservative_DEF:0 "the Russian National State"
+
 RUS_authoritarian_democrat:0 "Russian National State"
 RUS_authoritarian_democrat_ADJ:0 "Russian"
 RUS_authoritarian_democrat_DEF:0 "the Russian National State"
+
 RUS_autocratic:0 "Russian National State"
 RUS_autocratic_ADJ:0 "Russian"
 RUS_autocratic_DEF:0 "the Russian National State"
+
 RUS_ultraconservative:0 "Russian National State"
 RUS_ultraconservative_ADJ:0 "Russian"
 RUS_ultraconservative_DEF:0 "the Russian National State"
+
 RUS_national_corporatist:0 "Russian National State"
 RUS_national_corporatist_ADJ:0 "Russian"
 RUS_national_corporatist_DEF:0 "the Russian National State"
