@@ -197,24 +197,23 @@ FRA_PARDAN_0_Petrogard = {
 	controller = RUS
 	use_nuke = yes
 }	
-launch_nuke = {
+    launch_nuke = {
 	state = 208
 	controller = RUS
 	use_nuke = yes
 }
-launch_nuke = {
+    launch_nuke = {
 	state = 244
 	controller = RUS
 	use_nuke = yes
 }
-launch_nuke = {
+    launch_nuke = {
 	state = 209
 	controller = RUS
 	use_nuke = yes
 }
-
     random_list = { 
-90 = { 
+75 = { 
 	195 = { 
 	ICBM_attack_destruction = yes
     set_state_name = "Ruins of Petrogard"	
@@ -230,7 +229,7 @@ launch_nuke = {
 	}	
 	
 }
-10 = {
+25 = {
     195 = {
 	add_manpower = -10000
 	}
@@ -248,7 +247,391 @@ launch_nuke = {
 }
 }
 FRA_PARDAN_0_Moscow = {
+    days_re_enable = 7
+    fire_only_once = no
 	visible = { has_country_flag = FRA_ICBM_ready }
-
+    available = { 
+	NOT = { 219 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 6380
+	state = 219
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 247
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 205
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 223
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 254
+	controller = RUS
+	use_nuke = yes
+}
+	247 = {
+	ICBM_attack_destruction = yes
+}
+	205 = {
+	ICBM_attack_destruction = yes
+}
+	223 = {
+	ICBM_attack_destruction = yes
+	}	
+	223 = {
+	ICBM_attack_destruction = yes
+	}
+	254 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+45 = { 
+	219 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Moscow"	
+	}	
+}
+55 = {
+    219 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
+}
+FRA_PARDAN_0_crimea = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 137 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 3686
+	state = 137
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 192
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 196
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 197
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 200
+	controller = RUS
+	use_nuke = yes
+}
+	192 = {
+	ICBM_attack_destruction = yes
+}
+	196 = {
+	ICBM_attack_destruction = yes
+}
+	197 = {
+	ICBM_attack_destruction = yes
+	}	
+	200 = {
+	ICBM_attack_destruction = yes
+	}
+	254 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+80 = { 
+	137 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Sevastopol"	
+	}	
+}
+20 = {
+    137 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
+}
+FRA_PARDAN_0_kiev = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 202 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 525
+	state = 202
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 193
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 201
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 203
+	controller = RUS
+	use_nuke = yes
+}
+	193 = {
+	ICBM_attack_destruction = yes
+}
+	201 = {
+	ICBM_attack_destruction = yes
+}
+	203 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+80 = { 
+	202 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Kiev"	
+	}	
+}
+20 = {
+    202 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
+}
+FRA_PARDAN_0_tsaritsyn  = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 217 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 3529
+	state = 217
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 236
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 401
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 245
+	controller = RUS
+	use_nuke = yes
+}
+	236 = {
+	ICBM_attack_destruction = yes
+}
+	401 = {
+	ICBM_attack_destruction = yes
+}
+	245 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+80 = { 
+	217 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of tsaritsyn"	
+	}	
+}
+20 = {
+    217 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
+}
+FRA_PARDAN_0_baltic = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 13 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 3152
+	state = 13
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 190
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 189
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 11
+	controller = RUS
+	use_nuke = yes
+}
+	190 = {
+	ICBM_attack_destruction = yes
+}
+	11 = {
+	ICBM_attack_destruction = yes
+}
+	189 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+80 = { 
+	13 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Tallinn"	
+	}	
+}
+20 = {
+    13 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
+}
+FRA_PARDAN_0_arkhangelsk = {
+    days_re_enable = 7
+    fire_only_once = no
+	visible = { has_country_flag = FRA_ICBM_ready }
+    available = { 
+	NOT = { 214 = {
+	has_state_flag = nuclear_destroyed 
+	} }
+    has_country_flag = FRA_ICBM_ready
+}
+    days_remove = 1
+	complete_effect = {
+}	
+    remove_effect = {
+	set_country_flag = FRA_ICBM_stage2	
+	clr_country_flag = FRA_ICBM_ready
+    launch_nuke = {
+	province = 3338
+	state = 214
+	controller = RUS
+	use_nuke = yes
+}	
+    launch_nuke = {
+	state = 351
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 215
+	controller = RUS
+	use_nuke = yes
+}
+    launch_nuke = {
+	state = 400
+	controller = RUS
+	use_nuke = yes
+}
+	351 = {
+	ICBM_attack_destruction = yes
+}
+	215 = {
+	ICBM_attack_destruction = yes
+}
+	400 = {
+	ICBM_attack_destruction = yes
+	}	
+    random_list = { 
+80 = { 
+	214 = { 
+	ICBM_attack_destruction = yes
+    set_state_name = "Ruins of Arkhangelsk"	
+	}	
+}
+20 = {
+    214 = {
+	add_manpower = -10000
+	}	
+}	
+}	
+}
 }
 }

@@ -10,9 +10,7 @@ country_event = { #####Britain
 	id = postwar.1 #
     title = postwar.1.t
     desc = postwar.1.d
-	picture = 
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = {
 		name = postwar.1.a 
@@ -33,9 +31,7 @@ country_event = { #####France
 	id = postwar.2 #
     title = postwar.2.t
     desc = postwar.2.d
-	picture = 
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = {
 		name = postwar.2.a 
@@ -58,9 +54,7 @@ country_event = { #####Russia
 	id = postwar.5 #
     title = postwar.5.t
     desc = postwar.5.d
-	picture = 
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = {
 		name = postwar.5.a 
