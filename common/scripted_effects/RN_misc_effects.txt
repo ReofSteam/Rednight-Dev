@@ -15,6 +15,9 @@ ICBM_attack_destruction = {
     type = infrastructure
     level = infrastructure_level	
 }	
+	NUC = {
+	set_state_controller = PREV
+	}
 }
 
 ICBM_attack_weak = {

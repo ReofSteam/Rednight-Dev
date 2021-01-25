@@ -337,27 +337,22 @@ FRA_PARDAN_0_crimea = {
     launch_nuke = {
 	province = 3686
 	state = 137
-	controller = RUS
 	use_nuke = yes
 }	
     launch_nuke = {
 	state = 192
-	controller = RUS
 	use_nuke = yes
 }
     launch_nuke = {
 	state = 196
-	controller = RUS
 	use_nuke = yes
 }
     launch_nuke = {
 	state = 197
-	controller = RUS
 	use_nuke = yes
 }
     launch_nuke = {
 	state = 200
-	controller = RUS
 	use_nuke = yes
 }
 	192 = {
