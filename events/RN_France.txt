@@ -505,6 +505,7 @@ country_event = {
 
 	option = {
 		name = fra.24.a
+		set_global_flag = PARDAN_0_international
 	}
 }
 country_event = {

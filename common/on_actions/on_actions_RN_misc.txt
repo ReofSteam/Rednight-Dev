@@ -7,7 +7,7 @@ on_actions = {
         id = nuke_clear.1
 		days = 3
 		trigger_for = controller
-}		
+}			
 }
 		FROM = {
 		set_demilitarized_zone = yes

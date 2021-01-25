@@ -1,4 +1,7 @@
 
+#####Nuke
+NUC = "countries/WestEur.txt"
+
 
 ###Europe
 BEL = "countries/Belgium.txt"
@@ -282,7 +285,6 @@ CUB = "countries/Cuba.txt"
 DOM = "countries/Dominican Republic.txt"
 HAI = "countries/Haiti.txt"
 JAM = "countries/Jamaica.txt"
-USN = "countries/Naval Clique.txt"
 WIF = "countries/West Indies Federation.txt"
 PUE = "countries/CentralAmerica.txt"		
 #WIN = "countries/Windward Islands.txt"	Unimplemented

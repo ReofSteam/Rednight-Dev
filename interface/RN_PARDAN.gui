@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType = {
 		name = "PARDAN_status"
-		position = { x = 389 y = 85 }
+		position = { x = 462 y = 85 }
 		instantTextBoxType = {
 			name = "RN_PARDAN_status"
 			position = { x = 0 y = 0 }

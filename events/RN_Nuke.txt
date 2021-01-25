@@ -19,15 +19,22 @@ state_event = {
 
 	option = {
 		name = nuke_clear.1.a
-		trigger = {
+		if = {
+		limit = {
 		PREV = { NOT = { has_state_flag = nuclear_destroyed } }
 		}
 		PREV = { 
 		set_demilitarized_zone = no 
 		}
+		else_if = { has_state_flag = nuclear_destroyed }
+		NUC = { 
+		set_state_controller = PREV.PREV
 	}
+		}
 
 }
+}
+
 
 # Hidden event to set flag on nuke dropped
 news_event = {

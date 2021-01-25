@@ -25,10 +25,10 @@ party_pop_0_00_loc_key:0 "§HParty Popularity\n\nEffects from our current Party 
 KR_PARTY_POP_EFFECT:0 "[GetPopLevel]"
 
 RN_PARDAN_status:0 "[GetPARDANstatus]"
-RN_PARDAN_4:0 "§GPARDAN 4: Caution§!"
-RN_PARDAN_3:0 "§YPARDAN 3: Danger§!"
-RN_PARDAN_2:0 "§RPARDAN 2: Critical§!"
-RN_PARDAN_1:0 "§NPARDAN 1: Severe§!"
-RN_PARDAN_0:0 "§NPARDAN 0: Absolute§!"
+RN_PARDAN_4:0 "§GPARDAN 4§!"
+RN_PARDAN_3:0 "§YPARDAN 3§!"
+RN_PARDAN_2:0 "§RPARDAN 2§!"
+RN_PARDAN_1:0 "§NPARDAN 1§!"
+RN_PARDAN_0:0 "§NPARDAN 0§!"
 
 
