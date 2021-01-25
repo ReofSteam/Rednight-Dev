@@ -165,5 +165,17 @@ spriteTypes = {
 		name = "RUS_nuke"
 		texturefile = "gfx/event_pictures/RUS_nuke.dds"
 	}			
+	spriteType = { 
+		name = "RUS_phone"
+		texturefile = "gfx/event_pictures/RUS_phone.dds"
+	}
+	spriteType = { 
+		name = "RUS_launchroom"
+		texturefile = "gfx/event_pictures/RUS_launchroom.dds"
+	}
+	spriteType = { 
+		name = "RUS_missilesilo"
+		texturefile = "gfx/event_pictures/RUS_missilesilo.dds"
+	}			
 		
 }
