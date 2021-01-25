@@ -1481,3 +1481,62 @@ fire_only_once = yes
 		name = rus.85.a
 	}
 }
+
+country_event = { #Moscow Calling
+	id = rus.100
+	title = rus.100.t
+	desc = rus.100.d
+	picture = RUS_phone
+fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = rus.100.a
+	}
+}
+
+country_event = { #Codes
+	id = rus.101
+	title = rus.101.t
+	desc = rus.101.d
+	picture = RUS_launchroom
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.101.a
+	}
+}
+
+country_event = { #The Heart
+	id = rus.102
+	title = rus.102.t
+	desc = rus.102.d
+	picture = RUS_missilesilo
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.102.a
+	}
+}
+
+
+country_event = { #Holy Fire
+	id = rus.103
+	title = rus.103.t
+	desc = rus.103.d
+	picture = RUS_nuke
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.103.a
+	}
+}
+
+	

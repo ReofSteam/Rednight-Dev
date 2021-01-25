@@ -5,8 +5,8 @@ state = {
 
 	state_category = two
 	history = {
-		owner = RUS
-		add_core_of = RUS
+		owner = POL
+		add_core_of = POL
 		victory_points = {
 			3254 1
 		}
@@ -16,6 +16,6 @@ state = {
 	}
 
 	provinces = {
-		3254 3272 6281 6407 11312
+		3254 400
 	}
 }
