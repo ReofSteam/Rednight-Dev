@@ -22,20 +22,24 @@ defined_text = {
 		trigger = {
 		FRA = { has_war_with = RUS }
 		NOT = {
-		has_global_flag = PARDAN_2_international
+		has_global_flag = PARDAN_1_international
+		has_global_flag = PARDAN_0_international		
 		}
 		}
 		localization_key = "RN_PARDAN_2"
 	}		
 	text = {
 		trigger = {
+		FRA = { has_war_with = RUS }
 		has_global_flag = PARDAN_1_international
 		}
 		localization_key = "RN_PARDAN_1"
 	}	
 	text = {
 		trigger = {
+		FRA = { has_war_with = RUS }
 		has_global_flag = PARDAN_0_international
+		has_global_flag = PARDAN_1_international
 		}
 		localization_key = "RN_PARDAN_0"
 	}	
