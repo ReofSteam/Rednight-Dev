@@ -32,6 +32,7 @@ defined_text = {
 		trigger = {
 		FRA = { has_war_with = RUS }
 		has_global_flag = PARDAN_1_international
+		NOT = { has_global_flag = PARDAN_0_international }
 		}
 		localization_key = "RN_PARDAN_1"
 	}	

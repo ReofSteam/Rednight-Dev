@@ -77,6 +77,30 @@ country_event = { #####Russia
 	}
 }
 	}
-
+	SIB = {
+	transfer_state = 579
+	transfer_state = 580
+	transfer_state = 653
+	transfer_state = 572
+	transfer_state = 583
+	transfer_state = 573
+	transfer_state = 582
+	transfer_state = 403
+	transfer_state = 590
+	transfer_state = 588
+	transfer_state = 571 #Omsk
+	transfer_state = 570
+	transfer_state = 40
+	transfer_state = 589
+	transfer_state = 568
+	transfer_state = 810
+	transfer_state = 811
+	transfer_state = 569
+	transfer_state = 654
+	transfer_state = 578
+	transfer_state = 577	
+	set_politics = {
+      	ruling_party = national_corporatist	
+	}
 }
 }

@@ -290,9 +290,9 @@ SIB_ultraconservative:0 "Omsk Cossack Committee"
 SIB_ultraconservative_ADJ:0 "Cossack"
 SIB_ultraconservative_DEF:0 "the Omsk Cossack Committee"
 
-SIB_national_corporatist:0 "Omsk Cossack Committee"
-SIB_national_corporatist_ADJ:0 "Cossack"
-SIB_national_corporatist_DEF:0 "the Omsk Cossack Committee"
+SIB_national_corporatist:0 "Central Siberia Salvation Front"
+SIB_national_corporatist_ADJ:0 "Russian"
+SIB_national_corporatist_DEF:0 "the Central Siberia Salvation Front"
 
 ####Turkic Revolt
 TRK_authoritarian_democrat:0 "Kazakh Insurgency"

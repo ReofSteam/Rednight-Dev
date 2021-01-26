@@ -1,4 +1,4 @@
-﻿capital = 115
+﻿capital = 517
 
 oob = "SIC"
 
@@ -21,7 +21,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = moderate_socialist
+	ruling_party = authoritarian_democrat
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,16 +40,13 @@ set_popularities = {
 	national_corporatist = 4
 }
 
-set_convoys = 40
-
-###gfx/leaders/SCANDINAVIA/SHL/
 
 create_country_leader = {
-	name = "Christian X"
+	name = "Anatoly Rogozhin"
 	desc = ""
-	picture = "gfx/leaders/SCANDINAVIA/DEN/Portrait_Christian_X.tga"
+	picture = "gfx/leaders/RUS/RUS_rogozhin.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = national_corporatist_subtype
 	traits = {
 		#
 	}
