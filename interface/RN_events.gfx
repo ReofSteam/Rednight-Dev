@@ -141,6 +141,7 @@ spriteTypes = {
 	###############
 	###   NEWS  ###
 	###############
+
 		spriteType = { 
 		name = "GFX_news_american_peace"
 		texturefile = "gfx/event_pictures/news_peace.dds"
@@ -176,6 +177,14 @@ spriteTypes = {
 	spriteType = { 
 		name = "RUS_missilesilo"
 		texturefile = "gfx/event_pictures/RUS_missilesilo.dds"
-	}			
+	}	
+		spriteType = { 
+		name = "FRA_pardan"
+		texturefile = "gfx/event_pictures/FRA_pardan.dds"
+	}
+		spriteType = { 
+		name = "RUS_banat"
+		texturefile = "gfx/event_pictures/RUS_banat.dds"
+	}				
 		
 }

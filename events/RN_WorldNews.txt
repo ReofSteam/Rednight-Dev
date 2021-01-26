@@ -139,6 +139,20 @@ news_event = { #Werewolves Rising
 	}	
 }
 
+news_event = { #########Banat Intervention
+	id = worldnews.7
+	title = worldnews.t
+	desc = worldnews.7.d
+	picture = RUS_banat
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = worldnews.7.a
+	}
+}
+
 news_event = { #NUCLEAR WARNING
 	id = worldnews.6
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
