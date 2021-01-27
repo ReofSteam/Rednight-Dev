@@ -171,3 +171,92 @@ news_event = { #NUCLEAR WARNING
 	}
 }
 
+news_event = { #Russia Revolt Spirals into War
+	id = worldnews.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.8.d
+	picture = RUS_blockade
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.8.a
+	}
+}
+
+news_event = { #Prussia Intervenes in favour of the Werewolves
+	id = worldnews.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.9.d
+	picture = PRU_intervene
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.9.a
+	}
+}
+
+news_event = { #U2 Incident
+	id = worldnews.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.10.d
+	picture = RUS_crash
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.10.a
+	}
+}
+
+news_event = { #Chemical Weapons Deployed in Africa!
+	id = worldnews.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.11.d
+	picture = FRA_chemical
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.11.a
+	}
+}
+
+news_event = { #Terrorist Attack in Norway!
+	id = worldnews.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1" }
+
+	title = worldnews.t
+	desc = worldnews.12.d
+	picture = FRA_oslobomb
+
+	is_triggered_only = yes
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	option = {
+		name = worldnews.12.a
+	}
+}
