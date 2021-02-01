@@ -218,10 +218,15 @@ North_African_MARPAC:0 "North African MARPAC"
 ### Ministers ###
 ####Ideas#####
 FRA_republic_socialism:0 "République et socialisme"
+FRA_republic_socialism_desc: "The French revolutionary tradition is certainly storied. In fact, it's vibrancy even inspired most of Marx's analysis. It was this rebel spirit that enabled the fall of both the Third Republic and the Federation when they failed the people.\n\nOur social republic holds the mandate of the masses, a unity never before seen in French politics!"
 FRA_lighthouse_of_revolution:0 "The Lighthouse of Revolutions"
+FRA_lighthouse_of_revolution_desc: "Since the dawn of history mankind has been racing towards the future. Like a snowball rolling down an alpine hill it accelerates, hitting a few bumps along the path to inevitability.\n\n A world without class, without need, without exploitation, this is what awaits mankind.\n\nFrance is the future in all its might and glory, a shining beacon seen in all directions! The downtrodden masses crawl towards it, finding their own way by it's light. Hope lies ahead and France stands as it's shining example."
 FRA_beloved_liberty:0 "Liberté chérie"
+FRA_beloved_liberty_desc: "There is nowhere else the whole world over where mens hearts beat free and proud. We call eachother comrades, the most honourable name.\n\nFrance seeks to build true democracy. It is a promise fufilled; Liberty, Fraternity, and Equality both economic and political. This is our cherised way."
 FRA_giant_of_industry:0 "Giant of Industry" 
+FRA_giant_of_industry_desc: "Though it required much personal sacrafice and the end of the Communal Federation our industry has become quite the achievement indeed. Rapidly constructed in the leadup to war it is a source of great pride for our people.\n\n Yet now the war is over, and our shrinking military has created a problem of overproduction. We must not continue to let materials go to waste."
 FRA_real_national_spirits:0 "In the Shadow of France"
+FRA_real_national_spirits_desc: "§RThings are not as they seem§!"
 ### Leaders ###
 
 
