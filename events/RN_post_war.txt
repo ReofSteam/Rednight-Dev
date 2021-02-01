@@ -40,6 +40,21 @@ country_event = { #####France
         autonomy_state = autonomy_puppet
     }	
 		FRA = { 
+	    create_country_leader = {
+	name = "François Mitterrand"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/FRA/FRA_mitterrand.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+		
+	}
+}	
+		set_party_name = { 
+        ideology = ultraconservative 
+        long_name = FRA_RUS_puppet_party_long 
+        name = FRA_RUS_puppet_party 
+}
 		set_politics = {
       	ruling_party = ultraconservative
 }
@@ -63,6 +78,7 @@ country_event = { #####Russia
         autonomy_state = autonomy_puppet
     }	
 		RUS = { 
+		set_cosmetic_tag = SOV_russia
 		set_politics = {
       	ruling_party = revolutionary_socialism
 }
@@ -77,6 +93,7 @@ country_event = { #####Russia
 	}
 }
 	}
+	hidden_effect = {
 	SIB = {
 	transfer_state = 579
 	transfer_state = 580
@@ -101,6 +118,8 @@ country_event = { #####Russia
 	transfer_state = 577	
 	set_politics = {
       	ruling_party = national_corporatist	
+	}
+	}
 	}
 }
 }

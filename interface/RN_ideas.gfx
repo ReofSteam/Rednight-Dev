@@ -94,7 +94,19 @@ spriteTypes = {
 		name = "GFX_idea_AST_parliament_suspended"
 		texturefile = "gfx/interface/ideas/generic/disunited_government.tga"
 	}
-
+###France
+	spriteType = {
+		name = "GFX_idea_FRA_republic_et_socialism"
+		texturefile = "gfx/interface/ideas/FRA/FRA_RepublicetSocialism.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_lighthouse"
+		texturefile = "gfx/interface/ideas/FRA/FRA_lighthouse.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_FRA_beloved_liberty"
+		texturefile = "gfx/interface/ideas/FRA/FRA_beloved_liberty.tga"
+	}	
 ###Austria
 	spriteType = {
 		name = "GFX_idea_AUS_age_uncertainty"

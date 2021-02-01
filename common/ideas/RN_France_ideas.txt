@@ -4,6 +4,45 @@
 ideas = {
 
 	country = {
+		FRA_republic_socialism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_republic_socialism"}
+			allowed = { always = no }
+			picture = FRA_republic_et_socialism
+			modifier = {
+				political_power_gain = 0.35
+				stability_factor = 0.2
+			}
+		}	
+		FRA_lighthouse_of_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_lighthouse_of_revolution"}
+			allowed = { always = no }
+			picture = FRA_lighthouse
+			modifier = {
+			political_power_gain = 0.15
+			training_time_factor = 0.1
+
+			}
+		}			
+		FRA_beloved_liberty = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_beloved_liberty"}
+			allowed = { always = no }
+			picture = FRA_beloved_liberty
+			modifier = {
+     		war_support_factor = 0.25
+			army_defence_factor = 0.2
+			surrender_limit = 0.2
+
+			}
+		}		
+		FRA_giant_of_industry = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_giant_of_industry"}
+			allowed = { always = no }
+			picture = generic_production_bonus
+			modifier = {
+			industrial_capacity_factory = 0.25
+			production_speed_arms_factory_factor = 0.25 
+			}
+		}			
 		FRA_national_strike = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_strike"}
 			allowed = { always = no }
@@ -25,4 +64,16 @@ ideas = {
 		}		
 		
 }
+hidden_ideas = {
+      FRA_real_national_spirits = {
+           modifier = {
+           political_power_gain = -1
+		   stability_factor = -0.4
+		   production_speed_industrial_complex_factor = -0.35
+		   consumer_goods_factor = 0.3
+		   stability_weekly_factor = -0.5
+		   industrial_capacity_factory = -0.2
+           }
+      }
+ }
 }

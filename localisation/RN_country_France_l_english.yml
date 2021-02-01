@@ -42,14 +42,16 @@ FRA_autocratic:0 "French State"
 FRA_autocratic_ADJ:0 "French"
 FRA_autocratic_DEF:0 "the French State"
 
-FRA_ultraconservative:0 "French Kingdom"
+FRA_ultraconservative:0 "French State"
 FRA_ultraconservative_ADJ:0 "French"
-FRA_ultraconservative_DEF:0 "the French Kingdom"
+FRA_ultraconservative_DEF:0 "the French State"
 
-FRA_national_corporatist:0 "French Empire"
+FRA_national_corporatist:0 "French State"
 FRA_national_corporatist_ADJ:0 "French"
-FRA_national_corporatist_DEF:0 "the French Empire"
+FRA_national_corporatist_DEF:0 "the French State"
 
+FRA_RUS_puppet_party:0 "National Salvation Front"
+FRA_RUS_puppet_party_long:0 "Front de salut national français"
 #####Parties
 FRA_nationalist_socialism_party:0 "PRFT - Les Quatre-vingts Neuvième"
 FRA_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
@@ -214,8 +216,12 @@ North_African_MARPAC:0 "North African MARPAC"
 ### Companies ###
 
 ### Ministers ###
-
-
+####Ideas#####
+FRA_republic_socialism:0 "République et socialisme"
+FRA_lighthouse_of_revolution:0 "The Lighthouse of Revolutions"
+FRA_beloved_liberty:0 "Liberté chérie"
+FRA_giant_of_industry:0 "Giant of Industry" 
+FRA_real_national_spirits:0 "In the Shadow of France"
 ### Leaders ###
 
 
