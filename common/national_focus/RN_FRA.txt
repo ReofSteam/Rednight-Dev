@@ -1,0 +1,549 @@
+focus_tree = {
+	id = FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	#Focus for Radical Travailleurs-Reformist Jacobin
+	focus = {
+		id = FRA_radical_travailleursreformist_jacobin
+		icon = GFX_goal_unknown
+		x = 5
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_new_workplace_democracy 
+		}
+		prerequisite = { 
+			focus = FRA_empower_the_traditional_opposition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Permanent Political Officer
+	focus = {
+		id = FRA_permanent_political_officer
+		icon = GFX_goal_unknown
+		x = 15
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_purify_the_arf }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Une certaine idée de la France
+	focus = {
+		id = FRA_une_certaine_ide_de_la_france
+		icon = GFX_goal_unknown
+		x = 2
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_destroy_the_party_and_syndicates_domination }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Roundtable with the Brossolettists
+	focus = {
+		id = FRA_roundtable_with_the_brossolettists
+		icon = GFX_goal_unknown
+		x = 13
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_restore_power_to_the_cgt 
+		}
+		prerequisite = { 
+			focus = FRA_relax_state_involvement 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Purify the ARF
+	focus = {
+		id = FRA_purify_the_arf
+		icon = GFX_FRA_purge_ARF
+		x = 15
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_political_disciplinary_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Neutralise the Traditional Opposition
+	focus = {
+		id = FRA_neutralise_the_traditional_opposition
+		icon = GFX_goal_unknown
+		x = 17
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_political_disciplinary_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Empower the Traditional Opposition
+	focus = {
+		id = FRA_empower_the_traditional_opposition
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_from_the_old_republic_to_the_new }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for France of Tomorrow
+	focus = {
+		id = FRA_france_of_tomorrow
+		icon = GFX_goal_unknown
+		x = 5
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_rejuvenate_the_jacobin_party 
+			focus = FRA_une_certaine_ide_de_la_france 
+			focus = FRA_radical_travailleursreformist_jacobin 
+			focus = FRA_reverse_the_revolutionary_course 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dismantle the Command Economy
+	focus = {
+		id = FRA_dismantle_the_command_economy
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_war_against_the_bureaucracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Lift the Regime of the Bureau
+	focus = {
+		id = FRA_lift_the_regime_of_the_bureau
+		icon = GFX_goal_generic_forceful_treaty
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_89_rveille 
+			focus = FRA_coalition_de_lespoir 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reverse the Revolutionary Course
+	focus = {
+		id = FRA_reverse_the_revolutionary_course
+		icon = GFX_goal_unknown
+		x = 9
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_relax_state_involvement 
+			focus = FRA_restore_union_managements 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Trial of Henry Martin
+	focus = {
+		id = FRA_the_trial_of_henry_martin
+		icon = GFX_FRA_henri_martin_focus
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_to_you_my_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for He's Innocent
+	focus = {
+		id = FRA_hes_innocent
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_trial_of_henry_martin }
+		mutually_exclusive = { focus = FRA_guilty_against_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Guilty Against France
+	focus = {
+		id = FRA_guilty_against_france
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_trial_of_henry_martin }
+		mutually_exclusive = { focus = FRA_hes_innocent }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for '89, Réveille!
+	focus = {
+		id = FRA_89_rveille
+		icon = GFX_FRA_Eighty_Niners
+		x = 3
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_hes_innocent }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Coalition de l'espoir
+	focus = {
+		id = FRA_coalition_de_lespoir
+		icon = GFX_goal_unknown
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_hes_innocent }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for War against the Bureaucracy
+	focus = {
+		id = FRA_war_against_the_bureaucracy
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_lift_the_regime_of_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Political Disciplinary Committee
+	focus = {
+		id = FRA_the_political_disciplinary_committee
+		icon = GFX_ENG_destroy_english_romanticism
+		x = 16
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_new_path }
+		mutually_exclusive = { focus = FRA_works_with_sartre }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Listen to their Voice
+	focus = {
+		id = FRA_listen_to_their_voice
+		icon = GFX_focus_por_workers_of_iberia
+		x = 10
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_coalition_de_lespoir 
+			focus = FRA_works_with_sartre 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Works With Sartre
+	focus = {
+		id = FRA_works_with_sartre
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_new_path }
+		mutually_exclusive = { focus = FRA_the_political_disciplinary_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for To You, My France
+	focus = {
+		id = FRA_to_you_my_france
+		icon = GFX_FRA_pierre_la_france
+		x = 10
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The New Path
+	focus = {
+		id = FRA_the_new_path
+		icon = GFX_FRA_rochet_focus
+		x = 14
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_guilty_against_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Old Path
+	focus = {
+		id = FRA_the_old_path
+		icon = GFX_FRA_6th_republic
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_guilty_against_france }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Restore Power to the CGT
+	focus = {
+		id = FRA_restore_power_to_the_cgt
+		icon = GFX_goal_unknown
+		x = 13
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_listen_to_their_voice }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Transparent and Direct Government
+	focus = {
+		id = FRA_transparent_and_direct_government
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_lift_the_regime_of_the_bureau }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Destroy the Party and Syndicates Domination
+	focus = {
+		id = FRA_destroy_the_party_and_syndicates_domination
+		icon = GFX_goal_unknown
+		x = 2
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_bypass_the_cgt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Workplace Democracy
+	focus = {
+		id = FRA_a_new_workplace_democracy
+		icon = GFX_goal_unknown
+		x = 6
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_dismantle_the_command_economy }
+		mutually_exclusive = { 
+			focus = FRA_relax_state_involvement 
+		}
+		mutually_exclusive = { 
+			focus = FRA_restore_union_managements 
+		}
+		mutually_exclusive = { 
+			focus = FRA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Relax State Involvement
+	focus = {
+		id = FRA_relax_state_involvement
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_dismantle_the_command_economy 
+			focus = FRA_listen_to_their_voice 
+		}
+		mutually_exclusive = { focus = FRA_a_new_workplace_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for From the Old Republic to the New
+	focus = {
+		id = FRA_from_the_old_republic_to_the_new
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_transparent_and_direct_government }
+		mutually_exclusive = { focus = FRA_bypass_the_cgt }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Restore Union Managements
+	focus = {
+		id = FRA_restore_union_managements
+		icon = GFX_goal_unknown
+		x = 8
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_dismantle_the_command_economy }
+		mutually_exclusive = { focus = FRA_a_new_workplace_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Bypass the CGT
+	focus = {
+		id = FRA_bypass_the_cgt
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_transparent_and_direct_government }
+		mutually_exclusive = { focus = FRA_from_the_old_republic_to_the_new }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Anti-Corruption and Anti-Factionalism Revolution
+	focus = {
+		id = FRA_anticorruption_and_antifactionalism_revolution
+		icon = GFX_ENG_combat_nationalism
+		x = 17
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_neutralise_the_traditional_opposition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Direct Control on Syndicates
+	focus = {
+		id = FRA_direct_control_on_syndicates
+		icon = GFX_goal_unknown
+		x = 16
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_anticorruption_and_antifactionalism_revolution 
+		}
+		prerequisite = { 
+			focus = FRA_permanent_political_officer 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Sanction Bureau Acitivity in France
+	focus = {
+		id = FRA_sanction_bureau_acitivity_in_france
+		icon = GFX_FRA_the_bureau
+		x = 16
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_direct_control_on_syndicates }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rejuvenate the Jacobin Party
+	focus = {
+		id = FRA_rejuvenate_the_jacobin_party
+		icon = GFX_FRA_jacobin_party
+		x = 13
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_roundtable_with_the_brossolettists }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

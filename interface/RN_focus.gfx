@@ -122,5 +122,37 @@ spriteTypes = {
 		name = "GFX_GER_wolves_prowling"
 		texturefile = "gfx/interface/goals/GER/GER_wolves_prowling.tga"
 	}
-	
+#######France#########
+	SpriteType = { 
+		name = "GFX_FRA_Eighty_Niners"
+		texturefile = "gfx/interface/goals/FRA/FRA_Eighty_Niners.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_rochet_focus"
+		texturefile = "gfx/interface/goals/FRA/FRA_rochet_focus.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_henri_martin_focus"
+		texturefile = "gfx/interface/goals/FRA/FRA_henri_martin_focus.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_pierre_la_france"
+		texturefile = "gfx/interface/goals/FRA/FRA_pierre_la_france.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_6th_republic"
+		texturefile = "gfx/interface/goals/FRA/FRA_6th_republic.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_the_bureau"
+		texturefile = "gfx/interface/goals/FRA/FRA_the_bureau.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_jacobin_party"
+		texturefile = "gfx/interface/goals/FRA/FRA_jacobin_party.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_purge_ARF"
+		texturefile = "gfx/interface/goals/FRA/FRA_purge_ARF.tga"
+	}	
 }
