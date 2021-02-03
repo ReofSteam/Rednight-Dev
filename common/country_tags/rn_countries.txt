@@ -192,6 +192,7 @@ NCL = "countries/New Caledonia.txt"
 ###Africa
 ##North
 EGY = "countries/Egypt.txt"
+LYB = "countries/Libya.txt"
 EQU = "countries/Equatoria.txt"
 MUS = "countries/Muslim Brotherhood.txt"
 TRI = "countries/Tripolitania.txt"

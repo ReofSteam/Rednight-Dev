@@ -7,7 +7,7 @@ state = {
 	state_category = four
 
 	history = {
-		owner = BUL
+		owner = ROM
 
 		victory_points = { 9635 5 }
 
@@ -21,6 +21,7 @@ state = {
 			}
 		}
 		add_core_of = BUL
+		add_core_of = ROM
 	}
 
 	provinces = {

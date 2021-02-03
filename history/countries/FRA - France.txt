@@ -86,6 +86,8 @@ add_to_faction = GER
 add_to_faction = FOZ
 add_to_faction = BOZ
 add_to_faction = JOZ
+add_to_faction = CRO
+
 
 
 
