@@ -88,40 +88,50 @@ ROM_voynist_party:0 "Garda de Fier"
 ROM_voynist_party_long:0 "The Iron Guard-Nationalist Faction (Garda de Fier)"
 
 ### Country Name ###
+ROM_nationalist_socialism:0 "Romanian People's Republic"
+ROM_nationalist_socialism_ADJ:0 "Romanian"
+ROM_nationalist_socialism_DEF:0 "the Romanian People's Republic"
 
-ROM_social_nationalist:0 "Socialist Republic of Romania"
-ROM_social_nationalist_ADJ:0 "Romanian"
-ROM_social_nationalist_DEF:0 "Romania"
-ROM_marxist:0 "Socialist Republic of Romania"
-ROM_marxist_ADJ:0 "Romanian"
-ROM_marxist_DEF:0 "Romania"
-ROM_libertarian:0 "Socialist Republic of Romania"
-ROM_libertarian_ADJ:0 "Romanian"
-ROM_libertarian_DEF:0 "Romania"
-ROM_moderate_socialist:0 "Socialist Republic of Romania"
+ROM_revolutionary_socialism:0 "Romanian People's Republic"
+ROM_revolutionary_socialism_ADJ:0 "Romanian"
+ROM_revolutionary_socialism_DEF:0 "the Romanian People's Republic"
+
+ROM_syndicalism:0 "Romanian Communal Federation"
+ROM_syndicalism_ADJ:0 "Romanian"
+ROM_syndicalism_DEF:0 "the Romanian Communal Federation"
+
+ROM_moderate_socialist:0 "Romanian People's Republic"
 ROM_moderate_socialist_ADJ:0 "Romanian"
-ROM_moderate_socialist_DEF:0 "Romania"
-ROM_social_democrat:0 "Kingdom of Romania"
+ROM_moderate_socialist_DEF:0 "the Romanian People's Republic"
+
+ROM_social_democrat:0 "Romanian Republic"
 ROM_social_democrat_ADJ:0 "Romanian"
-ROM_social_democrat_DEF:0 "Romania"
-ROM_social_liberal:0 "Kingdom of Romania"
+ROM_social_democrat_DEF:0 "the Romanian Republic"
+
+ROM_social_liberal:0 "Romanian Republic"
 ROM_social_liberal_ADJ:0 "Romanian"
-ROM_social_liberal_DEF:0 "Romania"
-ROM_conservative:0 "Kingdom of Romania"
-ROM_conservative_ADJ:0 "Romanian"
-ROM_conservative_DEF:0 "Romania"
+ROM_social_liberal_DEF:0 "the Romanian Republic"
+
+ROM_social_conservative:0 "Romanian Republic"
+ROM_social_conservative_ADJ:0 "Romanian"
+ROM_social_conservative_DEF:0 "the Romanian Republic"
+
 ROM_authoritarian_democrat:0 "Kingdom of Romania"
 ROM_authoritarian_democrat_ADJ:0 "Romanian"
-ROM_authoritarian_democrat_DEF:0 "Romania"
-ROM_autocratic:0 "Legionary Kingdom of Romania"
+ROM_authoritarian_democrat_DEF:0 "the Kingdom of Romania"
+
+ROM_autocratic:0 "Kingdom of Romania"
 ROM_autocratic_ADJ:0 "Romanian"
-ROM_autocratic_DEF:0 "Romania"
-ROM_fundamentalist:0 "Legionary Kingdom of Romania"
-ROM_fundamentalist_ADJ:0 "Romanian"
-ROM_fundamentalist_DEF:0 "Romania"
-ROM_voynist:0 "Romanian National-Legionary State"
-ROM_voynist_ADJ:0 "Romanian"
-ROM_voynist_DEF:0 "Romania"
+ROM_autocratic_DEF:0 "the Kingdom of Romania"
+
+ROM_ultraconservative:0 "Romanian Legionary State"
+ROM_ultraconservative_ADJ:0 "Romanian"
+ROM_ultraconservative_DEF:0 "the Romanian Legionary State"
+
+ROM_national_corporatist:0 "Romanian Legionary State"
+ROM_national_corporatist_ADJ:0 "Romanian"
+ROM_national_corporatist_DEF:0 "the Romanian Legionary State"
+
 
 ### Focuses ###
 ROM_support_concord:0 "Join the Concord"
