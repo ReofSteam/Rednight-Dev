@@ -6,15 +6,73 @@
 
 
 ### Parties ###
-INC_revolutionary_socialism_party:0 "PNI-Workers Left"
-INC_revolutionary_socialism_party_long:0 "Dong Duong Quoc Dan Dang"
-INC_nationalist_socialism_party:0 "PNI-Centralist"
-INC_nationalist_socialism_party_long:0 "Dong Duong Quoc Dan Dang"
-INC_moderate_socialist_party:0 "PNI-Republican Centre"
-INC_moderate_socialist_party_long:0 "Dong Duong Quoc Dan Dang"
-INC_social_democrat_party:0 "PNI-Social Unity"
-INC_social_democrat_party_long:0 "Dong Duong Quoc Dan Dang"
+INC_nationalist_socialism_party:0 "Republican PNI"
+INC_nationalist_socialism_party_long:0 "Dong Duong Quoc Dan Dang - Indochinese National Party"
+INC_revolutionary_socialism_party:0 "Left PNI/CFI"
+INC_revolutionary_socialism_party_long:0 "Indochinese National Party - Communist Federation of Indochina"
+INC_syndicalism_party:0 "PSV - French Tendency"
+INC_syndicalism_party_long:0 "Dang Xa Hoi Viet Nam - Socialist Party of Vietnam"
+INC_moderate_socialist_party:0 "Republican PNI/PTI"
+INC_moderate_socialist_party_long:0 "Indochinese National Party - Indochinese Labour Party"
+INC_social_democrat_party:0 "Republican VNQDD"
+INC_social_democrat_party_long:0 "Viet Nam Quoc Dan Dang - Nationalist Party of Vietnam"
+INC_social_liberal_party:0 "VDCD"
+INC_social_liberal_party_long:0 "Viet Nam Dan Chinh Dang - Party of People's Reforms"
+INC_social_conservative_party:0 "CGXHD"
+INC_social_conservative_party_long:0 "Cong Giao Xa Hoi Dang - Catholic Social Party"
+INC_authoritarian_democrat_party:0 "Dissident VNQDD"
+INC_authoritarian_democrat_party_long:0 "Viet Nam Quoc Dan Dang - Nationalist Party of Vietnam"
+INC_autocratic_party:0 "NPTP"
+INC_autocratic_party_long:0 "Cong-Nong Chinh Dang - Workers-Peasant Party"
+INC_ultraconservative_party:0 "NPTP"
+INC_ultraconservative_party_long:0 "Cong-Nong Chinh Dang - Workers-Peasant Party"
+INC_national_corporatist_party:0 "VNQXD"
+INC_national_corporatist_party_long:0 "Viet Nam Quoc Xa Dang - National Socialist Party"
 
+
+INC_nationalist_socialism:0 "Union of Indochina"
+INC_nationalist_socialism_ADJ:0 "Indochinese"
+INC_nationalist_socialism_DEF:0 "the Union of Indochina"
+
+INC_revolutionary_socialism:0 "Union of Indochina"
+INC_revolutionary_socialism_ADJ:0 "Indochinese"
+INC_revolutionary_socialism_DEF:0 "the Union of Indochina"
+
+INC_syndicalism:0 "Union of Indochina"
+INC_syndicalism_ADJ:0 "Indochinese"
+INC_syndicalism_DEF:0 "the Union of Indochina"
+
+INC_moderate_socialist:0 "Union of Indochina"
+INC_moderate_socialist_ADJ:0 "Indochinese"
+INC_moderate_socialist_DEF:0 "the Union of Indochina"
+
+INC_social_democrat:0 "Union of Indochina"
+INC_social_democrat_ADJ:0 "Indochinese"
+INC_social_democrat_DEF:0 "the Union of Indochina"
+
+INC_social_liberal:0 "Indochinese Republic"
+INC_social_liberal_ADJ:0 "Indochinese"
+INC_social_liberal_DEF:0 "the Indochinese Republic"
+
+INC_social_conservative:0 "Indochinese Republic"
+INC_social_conservative_ADJ:0 "Indochinese"
+INC_social_conservative_DEF:0 "the Indochinese Republic"
+
+INC_authoritarian_democrat:0 "Indochinese State"
+INC_authoritarian_democrat_ADJ:0 "Indochinese"
+INC_authoritarian_democrat_DEF:0 "the Indochinese State"
+
+INC_autocratic:0 "Indochinese State"
+INC_autocratic_ADJ:0 "Indochinese"
+INC_autocratic_DEF:0 "the Indochinese State"
+
+INC_ultraconservative:0 "Indochinese State"
+INC_ultraconservative_ADJ:0 "Indochinese"
+INC_ultraconservative_DEF:0 "the Indochinese State"
+
+INC_national_corporatist:0 "Indochinese State"
+INC_national_corporatist_ADJ:0 "Indochinese"
+INC_national_corporatist_DEF:0 "the Indochinese State"
 
 #####Laos
 INC_Neutralist_Front:0 "National Neutralist Front"
@@ -95,7 +153,7 @@ inc.5.t:0 "German officers will lead the efforts"
 inc.5.d:0 "In the twilight hours of yesterday afternoon famous general Nguyen Van To Quoc of the Euro-African Corps arrived via a biplane in Saigon. A Vietnamese by the citizenship forced upon him but is an ethnic German also known as Arno Von Lenski, the General has always been a somewhat controversial outsider. A status compounded by both his heritage and  allegations of crimes against the people during his time within colonial forces. Regardless, it seems that the admiration of his combat record has triumphed over cries of protest within the government. After being restored to his pre-war rank, Lenski's teachings will apparently be used to whip the overzealous militia and disorganized units into shape. A small part of a larger government initiative to modernize the armed forces. Only time will tell if his efforts can accomplish such a task." 
 inc.5.a:0 "Good luck, Herr General"
 
-inc.6.t:0 "French officers will lead the efforts"
+inc.6.t:0 "Indochinese officers will lead the efforts"
 inc.6.d:0 "After an over 14 hour flight, Communard official Major de Castries has landed in Saigon with his staff officers. Invited by the government, de Castries has accepted command of the newly formed Franco-Indochinese Officer Training Corps. The product of an agreement between the two governments. When asked his opinion of the assignment de Castries appeared stern but enthusiastic, saying he intended to bring "All the traits of a disciplined revolutionary" to each of the "rabble rousing" men under his command. Such a statement is unsurprising given both the Major's record and the current goals of the Indochinese government to modernize its armed forces. An initiative requiring foreign expertise that de Castries likely has in spares."
 inc.6.a:0 "Good luck, Commander"
 

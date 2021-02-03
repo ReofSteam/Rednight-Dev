@@ -67,23 +67,23 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = moderate_socialist 
+	ruling_party = nationalist_socialism 
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-    nationalist_socialism = 15
-    revolutionary_socialism = 25
-    syndicalism = 2
-    moderate_socialist = 15
-    social_democrat = 9
+    nationalist_socialism = 30
+    revolutionary_socialism = 15
+    syndicalism = 3
+    moderate_socialist = 14
+    social_democrat = 12
     social_liberal = 3
-    social_conservative = 19
-    authoritarian_democrat = 5
-    autocratic = 3
-    ultraconservative = 2
-    national_corporatist = 2
+    social_conservative = 5
+    authoritarian_democrat = 9
+    autocratic = 1
+    ultraconservative = 5
+    national_corporatist = 3
 }
 
 ##gfx/leaders/RMK/INC/
@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_HO_HOC_LAM_DESC"
 	picture = "gfx/leaders/INC/INC_ho_hoc_lam.tga"
 	expire = "1953.3.1"
-	ideology = moderate_socialist_subtype
+	ideology = nationalist_socialism_subtype
 	traits = {
 		
 	}

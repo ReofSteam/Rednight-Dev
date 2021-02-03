@@ -774,8 +774,8 @@ MLU = {
 	color_ui = rgb { 204 183 142 }
 }
 INC = {
-	color = rgb { 208 22 84 }
-	color_ui = rgb { 208 22 84 }
+	color = rgb { 179 35 25 }
+	color_ui = rgb { 179 35 25 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
