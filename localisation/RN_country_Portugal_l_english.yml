@@ -8,39 +8,26 @@
 
 ### Country Name ###
 
-PEX_social_nationalist:0 "Commune of Angola"
-PEX_social_nationalist_ADJ:0 "Angolan"
-PEX_social_nationalist_DEF:0 "the Commune of Angola"
-PEX_marxist:0 "Commune of Angola"
-PEX_marxist_ADJ:0 "Angolan"
-PEX_marxist_DEF:0 "the Commune of Angola"
-PEX_libertarian:0 "Commune of Angola"
-PEX_libertarian_ADJ:0 "Angolan"
-PEX_libertarian_DEF:0 "the Commune of Angola"
-PEX_moderate_socialist:0 "Commune of Angola"
-PEX_moderate_socialist_ADJ:0 "Angolan"
-PEX_moderate_socialist_DEF:0 "the Commune of Angola"
-PEX_social_democrat:0 "Kingdom of Portugal"
-PEX_social_democrat_ADJ:0 "Portuguese"
-PEX_social_democrat_DEF:0 "the Kingdom of Portugal"
-PEX_social_liberal:0 "Kingdom of Portugal"
-PEX_social_liberal_ADJ:0 "Portuguese"
-PEX_social_liberal_DEF:0 "the Kingdom of Portugal"
-PEX_conservative:0 "Kingdom of Portugal"
-PEX_conservative_ADJ:0 "Portuguese"
-PEX_conservative_DEF:0 "the Kingdom of Portugal"
-PEX_authoritarian_democrat:0 "Kingdom of Portugal"
-PEX_authoritarian_democrat_ADJ:0 "Portuguese"
-PEX_authoritarian_democrat_DEF:0 "the Kingdom of Portugal"
-PEX_autocratic:0 "Kingdom of Portugal"
-PEX_autocratic_ADJ:0 "Portuguese"
-PEX_autocratic_DEF:0 "the Kingdom of Portugal"
-PEX_fundamentalist:0 "Kingdom of Portugal"
-PEX_fundamentalist_ADJ:0 "Portuguese"
-PEX_fundamentalist_DEF:0 "the Kingdom of Portugal"
-PEX_voynist:0 "Kingdom of Portugal"
-PEX_voynist_ADJ:0 "Portuguese"
-PEX_voynist_DEF:0 "the Kingdom of Portugal"
+POR_nationalist_Socialism:0 "Portugal"
+POR_nationalist_Socialism_ADJ:0 "Portugal"
+POR_nationalist_Socialism_DEF:0 "Portugal"
+
+POR_revolutionary_Socialism:0 "Portugal"
+POR_revolutionary_Socialism_ADJ:0 "Portugal"
+POR_revolutionary_Socialism_DEF:0 "Portugal"
+
+POR_moderate_Socialism:0 "Portugal"
+POR_moderate_Socialism_ADJ:0 "Portugal"
+POR_moderate_Socialism_DEF:0 "Portugal"
+
+POR_social_democracy:0 "Portugal"
+POR_social_democracy_ADJ:0 "Portugal"
+POR_social_democracy_DEF:0 "Portugal"
+
+POR_autocratic:0 "Portugal"
+POR_autocratic_ADJ:0 "Portugal"
+POR_autocratic_DEF:0 "Portugal"
+
 
 ### Opinion Modifiers ###
 
