@@ -72,7 +72,10 @@ spriteTypes = {
 		name = "GFX_idea_INC_common_education"
 		texturefile = "gfx/interface/ideas/INC/INC_common_education.tga"
 	}
-                     
+   		spriteType = {
+		name = "GFX_idea_INC_3_republics_feud"
+		texturefile = "gfx/interface/ideas/INC/INC_3_republics_feud.tga"
+	}                   
     #Australia
     spriteType = {
 		name = "GFX_idea_AST_king_albert_i"

@@ -27,7 +27,7 @@ ideas = {
 
 
 			INC_thick_blood = {
-
+			picture = INC_3_republics_feud		
 			modifier = {
 				political_power_factor = -0.4
 				stability_factor = -0.5
