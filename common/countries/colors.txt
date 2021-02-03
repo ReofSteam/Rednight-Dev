@@ -14,6 +14,11 @@ ALB = {
 	color_ui = rgb { 228 30 32 }
 }
 
+INC = {
+	color = rgb { 205 0 0 }
+	color_ui = rgb { 179 35 25 }
+}
+
 SLK = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
@@ -787,10 +792,6 @@ MLY = {
 MLU = {
 	color = rgb { 204 170 102 }
 	color_ui = rgb { 204 183 142 }
-}
-INC = {
-	color = rgb { 179 35 25 }
-	color_ui = rgb { 179 35 25 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
