@@ -9,6 +9,16 @@ ANA = {
 	color_ui = rgb { 214 0 0 }
 }
 
+ALB = {
+	color = rgb { 228 30 32 }
+	color_ui = rgb { 228 30 32 }
+}
+
+SLK = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+
 NGR = {
 	color = rgb { 0 124 0 }
 	color_ui = rgb { 255 169 169 }
@@ -310,7 +320,7 @@ CIS = {
 	color_ui = rgb { 224 228 255 }
 }
 AUS = {
-	color = rgb { 224 228 255 }
+	color = rgb { 209 211 210 }
 	color_ui = rgb { 224 228 255 }
 }
 CZE = {
