@@ -128,9 +128,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/FRA/FRA_Eighty_Niners.tga"
 	}
 	SpriteType = { 
+		name = "GFX_FRA_Henri_Martin_freed"
+		texturefile = "gfx/interface/goals/FRA/FRA_Henri_Martin_freed.tga"
+	}	
+	SpriteType = { 
+		name = "FRA_Sartre_cooperate"
+		texturefile = "gfx/interface/goals/FRA/FRA_Sartre_cooperate.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_guilty"
+		texturefile = "gfx/interface/goals/FRA/FRA_guilty.tga"
+	}			
+	SpriteType = { 
 		name = "GFX_FRA_rochet_focus"
 		texturefile = "gfx/interface/goals/FRA/FRA_rochet_focus.tga"
 	}
+	SpriteType = { 
+		name = "GFX_FRA_Sartre_focus"
+		texturefile = "gfx/interface/goals/FRA/FRA_Sartre_focus.tga"
+	}	
 	SpriteType = { 
 		name = "GFX_FRA_henri_martin_focus"
 		texturefile = "gfx/interface/goals/FRA/FRA_henri_martin_focus.tga"
@@ -154,5 +170,33 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_purge_ARF"
 		texturefile = "gfx/interface/goals/FRA/FRA_purge_ARF.tga"
-	}	
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Oldnew_Republic"
+		texturefile = "gfx/interface/goals/FRA/FRA_Oldnew_Republic.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Roundtable_Brossolete"
+		texturefile = "gfx/interface/goals/FRA/FRA_Roundtable_Brossolete.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Certain_Idea"
+		texturefile = "gfx/interface/goals/FRA/FRA_Certain_Idea.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Bypass_CGT"
+		texturefile = "gfx/interface/goals/FRA/FRA_Bypass_CGT.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Strengthen_CGT"
+		texturefile = "gfx/interface/goals/FRA/FRA_Strengthen_CGT.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_Direct_Government"
+		texturefile = "gfx/interface/goals/FRA/FRA_Direct_Government.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_commissars"
+		texturefile = "gfx/interface/goals/FRA/FRA_commissars.tga"
+	}		
 }

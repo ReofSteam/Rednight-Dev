@@ -29,7 +29,7 @@ focus_tree = {
 	#Focus for Permanent Political Officer
 	focus = {
 		id = FRA_permanent_political_officer
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_commissars
 		x = 15
 		y = 7
 		cost = 10
@@ -43,7 +43,7 @@ focus_tree = {
 	#Focus for Une certaine idée de la France
 	focus = {
 		id = FRA_une_certaine_ide_de_la_france
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Certain_Idea
 		x = 2
 		y = 9
 		cost = 10
@@ -57,7 +57,7 @@ focus_tree = {
 	#Focus for Roundtable with the Brossolettists
 	focus = {
 		id = FRA_roundtable_with_the_brossolettists
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Roundtable_Brossolete
 		x = 13
 		y = 8
 		cost = 10
@@ -199,7 +199,7 @@ focus_tree = {
 	#Focus for He's Innocent
 	focus = {
 		id = FRA_hes_innocent
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Henri_Martin_freed
 		x = 8
 		y = 3
 		cost = 10
@@ -214,7 +214,7 @@ focus_tree = {
 	#Focus for Guilty Against France
 	focus = {
 		id = FRA_guilty_against_france
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_guilty
 		x = 12
 		y = 3
 		cost = 10
@@ -243,7 +243,7 @@ focus_tree = {
 	#Focus for Coalition de l'espoir
 	focus = {
 		id = FRA_coalition_de_lespoir
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Sartre_focus
 		x = 9
 		y = 4
 		cost = 10
@@ -303,7 +303,7 @@ focus_tree = {
 	#Focus for Works With Sartre
 	focus = {
 		id = FRA_works_with_sartre
-		icon = GFX_goal_unknown
+		icon = FRA_Sartre_cooperate
 		x = 12
 		y = 5
 		cost = 10
@@ -359,7 +359,7 @@ focus_tree = {
 	#Focus for Restore Power to the CGT
 	focus = {
 		id = FRA_restore_power_to_the_cgt
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Strengthen_CGT
 		x = 13
 		y = 7
 		cost = 10
@@ -373,7 +373,7 @@ focus_tree = {
 	#Focus for Transparent and Direct Government
 	focus = {
 		id = FRA_transparent_and_direct_government
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Direct_Government
 		x = 3
 		y = 6
 		cost = 10
@@ -442,7 +442,7 @@ focus_tree = {
 	#Focus for From the Old Republic to the New
 	focus = {
 		id = FRA_from_the_old_republic_to_the_new
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Oldnew_Republic
 		x = 4
 		y = 7
 		cost = 10
@@ -472,7 +472,7 @@ focus_tree = {
 	#Focus for Bypass the CGT
 	focus = {
 		id = FRA_bypass_the_cgt
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Bypass_CGT
 		x = 2
 		y = 7
 		cost = 10
