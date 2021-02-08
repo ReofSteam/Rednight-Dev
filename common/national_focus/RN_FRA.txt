@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for Radical Travailleurs-Reformist Jacobin
 	focus = {
 		id = FRA_radical_travailleursreformist_jacobin
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Travailleurs_Jacobin
 		x = 5
 		y = 9
 		cost = 10
@@ -90,7 +90,7 @@ focus_tree = {
 	#Focus for Neutralise the Traditional Opposition
 	focus = {
 		id = FRA_neutralise_the_traditional_opposition
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_destroy_opposition
 		x = 17
 		y = 6
 		cost = 10
@@ -104,7 +104,7 @@ focus_tree = {
 	#Focus for Empower the Traditional Opposition
 	focus = {
 		id = FRA_empower_the_traditional_opposition
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Work_Opposition
 		x = 4
 		y = 8
 		cost = 10
@@ -118,7 +118,7 @@ focus_tree = {
 	#Focus for France of Tomorrow
 	focus = {
 		id = FRA_france_of_tomorrow
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_the_future
 		x = 5
 		y = 10
 		cost = 10
@@ -137,7 +137,7 @@ focus_tree = {
 	#Focus for Dismantle the Command Economy
 	focus = {
 		id = FRA_dismantle_the_command_economy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_gen_dismantle_command_economy
 		x = 8
 		y = 7
 		cost = 10
@@ -168,7 +168,7 @@ focus_tree = {
 	#Focus for Reverse the Revolutionary Course
 	focus = {
 		id = FRA_reverse_the_revolutionary_course
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_reverse_revolution
 		x = 9
 		y = 9
 		cost = 10
@@ -257,7 +257,7 @@ focus_tree = {
 	#Focus for War against the Bureaucracy
 	focus = {
 		id = FRA_war_against_the_bureaucracy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_crush_the_revolution
 		x = 8
 		y = 6
 		cost = 10
@@ -321,10 +321,35 @@ focus_tree = {
 		icon = GFX_FRA_pierre_la_france
 		x = 10
 		y = 1
-		cost = 10
+		cost = 5
+		allow_branch = {
+		has_country_flag = FRA_pustch_over
+	}
+
+		available = {
+		has_country_flag = FRA_pustch_over
+	}	
+	select_effect = {
+			country_event = {
+				id = fra.50
+				days = 7
+			}
+			country_event = {
+				id = fra.51
+				days = 14
+			}
+			country_event = {
+				id = fra.52
+				days = 21
+			}
+			country_event = {
+				id = fra.53
+				days = 28
+			}			
+	}
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 	}
 
@@ -401,7 +426,7 @@ focus_tree = {
 	#Focus for A New Workplace Democracy
 	focus = {
 		id = FRA_a_new_workplace_democracy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 6
 		y = 8
 		cost = 10

@@ -42,11 +42,20 @@ ideas = {
 			industrial_capacity_factory = 0.25
 			production_speed_arms_factory_factor = 0.25 
 			}
-		}			
+		}		
 		FRA_national_strike = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_strike"}
 			allowed = { always = no }
 			picture = FRA_national_strike
+			modifier = {
+				political_power_gain = 1
+				consumer_goods_factor = 0.40
+			}
+		}		
+		FRA_falling_civilian_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_falling_civilian_economy"}
+			allowed = { always = no }
+			picture = FRA_falling_civilian_economy
 			modifier = {
 				political_power_gain = 1
 				consumer_goods_factor = 0.40

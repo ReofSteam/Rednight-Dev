@@ -544,6 +544,102 @@ country_event = {
 		name = fra.27.a
 	}
 }
+
+#########Focus Tree Trial
+country_event = {
+	id = fra.50
+	title = fra.50.t
+	desc = { 
+	text = fra.50.d
+	trigger = {
+	has_country_flag = Putsch_fully_defeated
+	}
+	}
+	desc = {
+	text = fra.50.e
+	trigger = {
+	has_country_flag = Pustch_military_influence
+	}
+	}	
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.50.a
+		if = { 
+		limit = { has_country_flag = Putsch_fully_defeated }
+		add_political_power = 5
+		else = {
+		add_political_power = -5 
+		}
+		}
+	
+	}
+}
+
+country_event = {
+	id = fra.51
+	title = fra.51.t
+	desc = fra.51.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.51.a
+		swap_ideas = {
+        remove_idea = FRA_giant_of_industry
+        add_idea = FRA_falling_civilian_economy
+}
+	
+	}
+}
+
+country_event = {
+	id = fra.52
+	title = fra.52.t
+	desc = fra.52.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.52.a
+		swap_ideas = {
+        remove_idea = FRA_beloved_liberty
+        add_idea = FRA_falling_civilian_economy
+}
+	
+	}
+}
+
+country_event = {
+	id = fra.53
+	title = fra.53.t
+	desc = fra.53.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.53.a
+		swap_ideas = {
+        remove_idea = FRA_lighthouse_of_revolution
+        add_idea = FRA_falling_civilian_economy
+}
+	
+	}
+}
+
+
+
+#######Nuclear
+
 country_event = {
 	id = fra.100
 	title = fra.100.t

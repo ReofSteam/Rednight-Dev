@@ -49,6 +49,10 @@ spriteTypes = {
         name = "GFX_focus_generic_strengthen_cabinet"
         texturefile = "gfx/interface/goals/generic/focus_generic_strengthen_cabinet.tga"
     }
+	SpriteType = { 
+        name = "GFX_focus_gen_dismantle_command_economy"
+        texturefile = "gfx/interface/goals/generic/gen_dismantle_command_economy.tga"
+    }	
 	###ENG
 	
 	###AUS
@@ -198,5 +202,25 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_commissars"
 		texturefile = "gfx/interface/goals/FRA/FRA_commissars.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_the_future"
+		texturefile = "gfx/interface/goals/FRA/FRA_the_future.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_Work_Opposition"
+		texturefile = "gfx/interface/goals/FRA/FRA_Work_Opposition.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_Travailleurs_Jacobin"
+		texturefile = "gfx/interface/goals/FRA/FRA_Travailleurs_Jacobin.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_reverse_revolution"
+		texturefile = "gfx/interface/goals/FRA/FRA_reverse_revolution.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_destroy_opposition"
+		texturefile = "gfx/interface/goals/FRA/FRA_destroy_opposition.tga"
 	}		
 }
