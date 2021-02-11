@@ -604,14 +604,35 @@ focus_tree = {
 	#Focus for The Story of Our Nation
 	focus = {
 		id = FRA_the_story_of_our_nation
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_frachon_speech
 		x = 26
 		y = 0
-		cost = 10
+		cost = 6
+		select_effect = {
+			country_event = {
+				id = fra.6
+				days = 7
+			}
+			country_event = {
+				id = fra.7
+				days = 14
+			}
+			country_event = {
+				id = fra.8
+				days = 21
+			}
+			country_event = {
+				id = fra.9
+				days = 28
+			}					
+	}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	country_event = fra.10
+}	
 	}
 
 	#Focus for New Order
