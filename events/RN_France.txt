@@ -440,6 +440,28 @@ country_event = { #History of nation 1871
 
 }
 
+
+
+country_event = { #History of nation 1920
+	id = fra.9
+	title = fra.9.t
+	desc = fra.9.d
+	picture = GFX_anti_military_Protest
+
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+	name = fra.9.a
+}
+
+}
+
+
+
+
+
 country_event = {
 	id = fra.15
 	title = fra.1.t
