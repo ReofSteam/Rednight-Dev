@@ -371,7 +371,7 @@ focus_tree = {
 	focus = {
 		id = FRA_the_old_path
 		icon = GFX_FRA_6th_republic
-		x = 21
+		x = 18
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -569,6 +569,205 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	#Focus for Conference of Rapallo
+	focus = {
+		id = FRA_conference_of_rapallo
+		icon = GFX_goal_unknown
+		x = 30
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_new_order 
+		}
+		prerequisite = { 
+			focus = FRA_fte_des_trente_glorieuses 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
+	#Focus for The Joliot-Curie Mission
+	focus = {
+		id = FRA_the_joliotcurie_mission
+		icon = GFX_goal_unknown
+		x = 23
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_story_of_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Story of Our Nation
+	focus = {
+		id = FRA_the_story_of_our_nation
+		icon = GFX_goal_unknown
+		x = 26
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Order
+	focus = {
+		id = FRA_new_order
+		icon = GFX_goal_unknown
+		x = 29
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_story_of_our_nation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Continental European Intergration Discussion
+	focus = {
+		id = FRA_continental_european_intergration_discussion
+		icon = GFX_goal_unknown
+		x = 31
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_conference_of_rapallo }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Union internationale d'assistance économique
+	focus = {
+		id = FRA_union_internationale_dassistance_conomique
+		icon = GFX_goal_unknown
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_conference_of_rapallo }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stuttgart Discussion
+	focus = {
+		id = FRA_stuttgart_discussion
+		icon = GFX_goal_unknown
+		x = 28
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_new_order 
+		}
+		prerequisite = { 
+			focus = FRA_fte_des_trente_glorieuses 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Corbusiervilles
+	focus = {
+		id = FRA_corbusiervilles
+		icon = GFX_goal_unknown
+		x = 23
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_state_commission_on_industry_improvement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Diversify the French Diet
+	focus = {
+		id = FRA_diversify_the_french_diet
+		icon = GFX_goal_unknown
+		x = 24
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_joliotcurie_mission 
+		}
+		prerequisite = { 
+			focus = FRA_fte_des_trente_glorieuses 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for State Commission on Industry Improvement
+	focus = {
+		id = FRA_state_commission_on_industry_improvement
+		icon = GFX_goal_unknown
+		x = 22
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_fte_des_trente_glorieuses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Fête des Trente Glorieuses
+	focus = {
+		id = FRA_fte_des_trente_glorieuses
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_joliotcurie_mission 
+		}
+		prerequisite = { 
+			focus = FRA_new_order 
+		}
+		prerequisite = { 
+			focus = FRA_the_story_of_our_nation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fête du travail et de la victoire 1951
+	focus = {
+		id = FRA_fte_du_travail_et_de_la_victoire_1951
+		icon = GFX_goal_unknown
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_fte_des_trente_glorieuses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Brigade of Shock Workers
+	focus = {
+		id = FRA_brigade_of_shock_workers
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_state_commission_on_industry_improvement }
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 #End of focuses 
  }
