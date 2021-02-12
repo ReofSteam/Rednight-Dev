@@ -789,3 +789,56 @@ country_event = {
 	
 	}
 }
+
+country_event = {  ###Operation Terror                                    
+	id = fra.104
+	title = fra.104.t
+	desc = fra.104.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.104.a
+	
+	}
+}
+
+country_event = {  ###Canadian Uranium Deal                              
+	id = fra.105
+	title = fra.105.t
+	desc = fra.105.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.105.a
+	
+	}
+
+	option = {
+		name = fra.105.b
+
+	}
+}
+
+###Celebration Events
+
+country_event = {  ###End of Celebrations                                
+	id = fra.106
+	title = fra.106.t
+	desc = fra.106.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.106.a
+	
+	}
+}
+
