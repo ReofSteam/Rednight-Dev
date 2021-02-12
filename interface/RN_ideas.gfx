@@ -336,4 +336,27 @@ spriteType = {
 		name = "GFX_idea_gun_and_rose"
 		texturefile = "gfx/interface/ideas/generic/gun_and_rose.dds"
 	}
+
+########Japan
+	spriteType = {
+		name = "GFX_idea_JAP_yen"
+		texturefile = "gfx/interface/ideas/JAP/JAP_Yen.tga"
+	}		
+###########PHI
+	spriteType = {
+		name = "GFX_idea_PHI_japanese_military_monopoly"
+		texturefile = "gfx/interface/ideas/PHI/PHI_japanese_military_monopoly.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_PHI_guerrillas"
+		texturefile = "gfx/interface/ideas/PHI/PHI_guerrillas.tga"
+	}		
+	spriteType = {
+		name = "GFX_idea_JAP_native_apathetic"
+		texturefile = "gfx/interface/ideas/PHI/JAP_native_apathetic.tga"
+	}		
+	spriteType = {
+		name = "GFX_idea_JAP_native_cooperation"
+		texturefile = "gfx/interface/ideas/PHI/JAP_native_cooperation.tga"
+	}			
 }

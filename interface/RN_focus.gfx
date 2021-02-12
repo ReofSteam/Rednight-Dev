@@ -226,5 +226,9 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_frachon_speech"
 		texturefile = "gfx/interface/goals/FRA/FRA_frachon_speech.tga"
-	}		
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_canadian_uranium"
+		texturefile = "gfx/interface/goals/FRA/FRA_canadian_uranium.tga"
+	}	
 }
