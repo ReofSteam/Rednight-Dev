@@ -1,5 +1,5 @@
 ﻿capital = 282
-OOB = "INC"
+OOB = "JAP"
 set_stability = 0.6
 set_research_slots = 4
 
