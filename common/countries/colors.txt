@@ -9,6 +9,12 @@ ANA = {
 	color_ui = rgb { 214 0 0 }
 }
 
+SAH = {
+	color = rgb { 255 206 137 }
+	color_ui = rgb { 173 157 113 }
+}
+
+
 ALB = {
 	color = rgb { 228 30 32 }
 	color_ui = rgb { 228 30 32 }
@@ -962,7 +968,7 @@ BFA = {
 	color_ui = rgb { 177 207 205 }
 }
 SAH = {
-	color = rgb { 173 157 113 }
+	color = rgb { 255 206 137 }
 	color_ui = rgb { 173 157 113 }
 }
 BOR = {

@@ -57,8 +57,19 @@ ideas = {
 			allowed = { always = no }
 			picture = FRA_falling_civilian_economy
 			modifier = {
-				political_power_gain = 1
+				political_power_gain = - 1
 				consumer_goods_factor = 0.40
+				
+			}
+
+	FRA_loss_public_faith = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_loss_public_faith"}
+			allowed = { always = no }
+			picture = FRA_falling_civilian_economy
+			modifier = {
+				political_power_gain = - 1
+				stability_factor = -2
+				
 			}
 		}
 		FRA_national_emergency = {
