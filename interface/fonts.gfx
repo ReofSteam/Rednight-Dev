@@ -207,5 +207,9 @@ bitmapfonts = {
 		n = { 0 0 0 }
 	}
 	}	
-	
+	bitmapfont = {
+		name = "rn_typewriter_16"
+		path = "gfx/fonts/rn_typewriter_16"
+		color = 0xffffffff
+	}		
 }

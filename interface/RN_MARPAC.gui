@@ -20,13 +20,13 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 600
 
-		size = { width = 512 height = 800 }
-		moveable = yes
+		size = { width = 650 height = 840 }
 		background = {
 			name = "hog_gui_background"		
 			spriteType ="GFX_tiled_bg"
 			
-		}
+		}		
+		moveable = yes
 		iconType = {
 			name = "marppac_menu"
 			position = { x = 8 y = 12 }
@@ -38,17 +38,8 @@ guiTypes = {
 			scale = 0.972
 		}
 		instantTextBoxType = {
-			name = "marpac_menu_title"
-			position = { x = 152 y = 290 }
-			font = "rn_viasans"
-			borderSize = {x = 0 y = 0}
-			text = "MARPAC Executive Assembly"
-			fixedsize = yes	
-			format = centre
-		}	
-		instantTextBoxType = {
 			name = "marpac_menu_for"
-			position = { x = 10 y = 350 }
+			position = { x = 80 y = 390 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "FOR"
@@ -57,7 +48,7 @@ guiTypes = {
 		}			
 		instantTextBoxType = {
 			name = "marpac_menu_against"
-			position = { x = 300 y = 350 }
+			position = { x = 380 y = 390 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
 			text = "AGAINST"
@@ -65,18 +56,9 @@ guiTypes = {
 			format = centre
 		}		
 		instantTextBoxType = {
-			name = "marpac_menu_current_motion"
-			position = { x = 150 y = 650 }
-			font = "rn_viasans"
-			borderSize = {x = 0 y = 0}
-			text = "Current Motion"
-			fixedsize = yes	
-			format = centre
-		}		
-		instantTextBoxType = {
 			name = "marpac_menu_current_motion_detail"
-			position = { x = 40 y = 680 }
-			font = "rn_viasans"
+			position = { x = 100 y = 200 }
+			font = "rn_typewriter_16"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 450
 			text = "marpac_current_motion"
@@ -96,14 +78,14 @@ guiTypes = {
 			quadTextureSprite = "GFX_marpac_for_button"
 			clicksound = click_default
 			pdx_tooltip = "marpac_for_button"
-			position = { x = 102 y = 325 }
+			position = { x = 174 y = 750 }
 		}
 		buttonType = {
 			name = "marpac_against_button"
 			quadTextureSprite = "GFX_marpac_against_button"
 			clicksound = click_default
 			pdx_tooltip = "marpac_against_button"
-			position = { x = 390 y = 325 }
+			position = { x = 470 y = 765 }
 		}		
 		containerWindowType = {
 			name ="countries_mini"
@@ -112,7 +94,7 @@ guiTypes = {
 			
 		gridboxType = {
 				name ="marpac_countries_for_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 10 y = 110 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 53 height = 40 }
 				max_slots_horizontal = 2
@@ -121,7 +103,7 @@ guiTypes = {
 			}
 		gridboxType = {
 				name ="marpac_countries_against_grid"
-				position = { x = 0 y = 0 }
+				position = { x = 50 y = 120 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 53 height = 40 }
 				max_slots_horizontal = 2
