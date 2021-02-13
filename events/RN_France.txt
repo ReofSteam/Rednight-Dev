@@ -688,7 +688,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = {  #Pierre Testimony Day Two
 	id = fra.52
 	title = fra.52.t
 	desc = fra.52.d
@@ -701,7 +701,7 @@ country_event = {
 		name = fra.52.a
 		swap_ideas = {
         remove_idea = FRA_beloved_liberty
-        add_idea = FRA_falling_civilian_economy
+        add_idea = FRA_loss_public_faith
 }
 	
 	}
