@@ -458,9 +458,9 @@ country_event = { #History of nation 1920
 }
 
 country_event = { #History of nation 1920
-	id = fra.11
-	title = fra.11.t
-	desc = fra.11.d
+	id = fra.10
+	title = fra.10.t
+	desc = fra.10.d
 	picture = GFX_anti_military_Protest
 
 
@@ -468,109 +468,67 @@ country_event = { #History of nation 1920
 	fire_only_once = yes
 
 	option = {
-	name = fra.11.a
+	name = fra.10.a
 }
 
 }
 
 
 
-
-
-country_event = {
-	id = fra.15
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
+country_event = {  ###Operation Terror                                    
+	id = fra.12
+	title = fra.12.t
+	desc = fra.12.d
+	picture = GFX_nuke
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
-		name = fra.15.a
-		if = {
-		limit = {
-		check_variable = {
-	    var = marpac_for_vote
-	    value = marpac_against_vote
-	    compare = greater_than_or_equals
-}
-	}
-	country_event = fra.20
-}	
-    else = {
-	country_event = fra.21
+		name = fra.13.a
+	
 	}
 }
-}
-country_event = {
-	id = fra.16
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
+
+country_event = {  ###Canadian Uranium Deal                              
+	id = fra.13
+	title = fra.13.t
+	desc = fra.13.d
+	picture = GFX_nuke
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
-		name = fra.15.a
-		clear_array = global.marpac_countries_against
+		name = fra.13.a
+	
+	}
+
+	option = {
+		name = fra.13.b
+
 	}
 }
 
-country_event = {
-	id = fra.17
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
+###Celebration Events
+
+country_event = {  ###End of Celebrations                                
+	id = fra.14
+	title = fra.14.t
+	desc = fra.14.d
+	picture = GFX_nuke
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
-		name = fra.15.a
-		clear_array = global.marpac_countries_for	
+		name = fra.14.a
+	
 	}
 }
 
-country_event = {
-	id = fra.20 ##Test event
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
 
-	is_triggered_only = yes
 
-	option = {
-		name = fra.15.a
-	}
-}
-
-country_event = {
-	id = fra.21 ##Test event
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
-
-	is_triggered_only = yes
-
-	option = {
-		name = fra.15.a
-		add_political_power = 5
-	}
-}
-
-country_event = {
-	id = fra.22 ##Test event
-	title = fra.1.t
-	desc = fra.1.d
-	picture = GFX_FRA_may_pustch
-
-	is_triggered_only = yes
-
-	option = {
-		name = fra.15.a
-		set_variable = { marpac_for_vote = 0 }
-		set_variable = { marpac_against_vote = 0 }
-	}
-}
 country_event = {
 	id = fra.23 ##PARDAN 1
 	title = fra.23.t
@@ -786,58 +744,6 @@ country_event = {
 
 	option = {
 		name = fra.103.a
-	
-	}
-}
-
-country_event = {  ###Operation Terror                                    
-	id = fra.104
-	title = fra.104.t
-	desc = fra.104.d
-	picture = GFX_nuke
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = fra.104.a
-	
-	}
-}
-
-country_event = {  ###Canadian Uranium Deal                              
-	id = fra.105
-	title = fra.105.t
-	desc = fra.105.d
-	picture = GFX_nuke
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = fra.105.a
-	
-	}
-
-	option = {
-		name = fra.105.b
-
-	}
-}
-
-###Celebration Events
-
-country_event = {  ###End of Celebrations                                
-	id = fra.106
-	title = fra.106.t
-	desc = fra.106.d
-	picture = GFX_nuke
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = fra.106.a
 	
 	}
 }

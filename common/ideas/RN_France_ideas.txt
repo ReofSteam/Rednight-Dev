@@ -61,6 +61,7 @@ ideas = {
 				consumer_goods_factor = 0.40
 				
 			}
+		}	
 
 	FRA_loss_public_faith = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_loss_public_faith"}
@@ -82,8 +83,7 @@ ideas = {
 
 			}
 		}		
-		
-}
+	}
 hidden_ideas = {
       FRA_real_national_spirits = {
            modifier = {

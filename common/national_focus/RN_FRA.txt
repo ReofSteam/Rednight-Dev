@@ -7,6 +7,14 @@ focus_tree = {
 			tag = FRA
 		}
 	}
+initial_show_position = {
+	focus = FRA_the_story_of_our_nation
+	offset = {
+			focus = FRA_to_you_my_france
+			has_country_flag = FRA_pustch_over
+		}
+
+}	
 	#Focus for Radical Travailleurs-Reformist Jacobin
 	focus = {
 		id = FRA_radical_travailleursreformist_jacobin
@@ -594,11 +602,20 @@ focus_tree = {
 		icon = GFX_FRA_canadian_uranium
 		x = 23
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_the_story_of_our_nation }
 		ai_will_do = {
 			factor = 1
+		}
+		select_effect = {
+		CAN = { country_event = {
+		id = fra.13
+		days = 15
+		}
+		}}
+		completion_reward = {
+		country_event = fra.12
 		}
 	}
 	#Focus for The Story of Our Nation
@@ -638,7 +655,7 @@ focus_tree = {
 	#Focus for New Order
 	focus = {
 		id = FRA_new_order
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_international
 		x = 29
 		y = 1
 		cost = 10

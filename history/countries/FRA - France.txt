@@ -16,9 +16,8 @@ FRA_lighthouse_of_revolution
 FRA_beloved_liberty
 FRA_giant_of_industry
 FRA_real_national_spirits
-FRA_falling_civilian_economy
-FRA_loss_public_faith
 }
+
 
 # Starting tech
 set_technology = {

@@ -1,0 +1,48 @@
+defined_text = {
+	name = GetIntroText1
+	text = {
+		trigger = {
+			original_tag = FRA
+		}
+		localization_key = "RN_intro_fra_1"
+	}
+	text = {
+		trigger = {
+			original_tag = ENG
+		}
+		localization_key = "RN_intro_eng_1"
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+		}
+		localization_key = "RN_intro_ger_1"
+	}	
+	text = {
+		trigger = {
+			original_tag = RUS
+		}
+		localization_key = "RN_intro_rus_1"
+	}	
+}
+defined_text = {
+	name = GetIntroTextOther	
+	text = {
+		trigger = {
+			original_tag = FRA
+			has_country_flag = intro_slide_2
+			NOT = { has_country_flag = intro_slide_3 }
+		}
+		localization_key = "GFX_intro_FRA_2"
+	}	
+	text = {
+		trigger = {
+			AND = {
+			original_tag = FRA
+			has_country_flag = intro_slide_3
+			NOT = { has_country_flag = intro_slide_2 }
+			}
+		}
+		localization_key = "GFX_intro_FRA_3"
+	}	
+}

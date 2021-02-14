@@ -53,6 +53,10 @@ spriteTypes = {
         name = "GFX_focus_gen_dismantle_command_economy"
         texturefile = "gfx/interface/goals/generic/gen_dismantle_command_economy.tga"
     }	
+	SpriteType = { 
+        name = "GFX_focus_generic_international"
+        texturefile = "gfx/interface/goals/generic/generic_international.tga"
+    }		
 	###ENG
 	
 	###AUS

@@ -50,7 +50,23 @@ spriteTypes = {
 	}		
 	spriteType = {
 	name = "GFX_main_menu"
-	texturefile = "gfx/interface/rn_main_menu.dds"
+	texturefile = "gfx/interface/rn_main_menu.tga"
+	}	
+	spriteType = {
+	name = "GFX_intro_menu"
+	texturefile = "gfx/interface/intro_menu.tga"
+	}	
+	spriteType = {
+	name = "GFX_intro_FRA_1"
+	texturefile = "gfx/intro_pics/FRA_1.tga"
+	}	
+	spriteType = {
+	name = "GFX_intro_FRA_2"
+	texturefile = "gfx/intro_pics/FRA_2.tga"
+	}	
+	spriteType = {
+	name = "GFX_intro_FRA_3"
+	texturefile = "gfx/intro_pics/FRA_3.tga"
 	}		
 	spriteType = {
 	name = "GFX_liberty_corridor"
