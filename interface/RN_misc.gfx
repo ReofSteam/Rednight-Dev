@@ -53,21 +53,21 @@ spriteTypes = {
 	texturefile = "gfx/interface/rn_main_menu.tga"
 	}	
 	spriteType = {
-	name = "GFX_intro_menu"
-	texturefile = "gfx/interface/intro_menu.tga"
+	name = "GFX_intro_button"
+	texturefile = "gfx/interface/intro_button.tga"
 	}	
 	spriteType = {
-	name = "GFX_intro_FRA_1"
-	texturefile = "gfx/intro_pics/FRA_1.tga"
+	name = "GFX_intro_FRA"
+	texturefile = "gfx/interface/intro_pics/fra.tga"
 	}	
 	spriteType = {
-	name = "GFX_intro_FRA_2"
-	texturefile = "gfx/intro_pics/FRA_2.tga"
+	name = "GFX_intro_RUS"
+	texturefile = "gfx/interface/intro_pics/rus.tga"
 	}	
 	spriteType = {
-	name = "GFX_intro_FRA_3"
-	texturefile = "gfx/intro_pics/FRA_3.tga"
-	}		
+	name = "GFX_intro_ENG"
+	texturefile = "gfx/interface/intro_pics/eng.tga"
+	}			
 	spriteType = {
 	name = "GFX_liberty_corridor"
 	texturefile = "gfx/interface/RN_liberty_corridor.dds"

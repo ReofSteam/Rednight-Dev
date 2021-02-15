@@ -4,7 +4,7 @@ guiTypes = {
 		position = { x = 20 y = 430 }
 		buttonType = {
 			name = "open_button"
-			quadTextureSprite = "intro_button"
+			quadTextureSprite = "intro_open_button"
 			clicksound = click_default
 		}
 		
@@ -29,17 +29,40 @@ guiTypes = {
 			position = { x = 380 y = 20 }
 			font = "rn_viasans"
 			borderSize = {x = 0 y = 0}
-			text = "The Nation"
+			text = "[GetIntroTitle]"
 			orientation = upper_left
 			fixedsize = yes	
 			format = center
 		}	
+		buttonType = {
+			name = "forward_button"
+			quadTextureSprite = "GFX_intro_button"
+			position = { x = 780 y = 15 }			
+			clicksound = click_default
+			buttonText = "NEXT"
+			buttonFont = "rn_viasans"
+			orientation = upper_left
+		}		
+		buttonType = {
+			name = "back_button"
+			quadTextureSprite = "GFX_intro_button"
+			position = { x = 20 y = 15 }						
+			clicksound = click_default
+			buttonText = "BACK"
+			buttonFont = "rn_viasans"
+			rotation = 3.145
+		}		
 		
 		buttonType = {
 			name = "close_button"
 			quadTextureSprite = "GFX_close"
-			position = { x = 15 y = 15 }
+			position = { x = 15 y = -50 }
+			orientation = lower_left
 		}	
+		iconType = {
+			name = "intro_menu_picture"
+			position = { x = 0 y = 50 }
+		}			
 		
 containerWindowType = {
 			name = "intro_menu_text"
@@ -105,7 +128,21 @@ containerWindowType = {
 			fixedsize = yes	
 			format = left
 			scrollbarType = "standardtext_slider"
-		}				
+		}		
+#######PARDAN Text
+		    instantTextBoxType = {
+			name = "intro_menu_text_pardan"
+			position = { x = 10 y = 10 }
+			font = "rn_viasans_15"
+			borderSize = {x = 0 y = 0}
+			text = "RN_intro_pardan"
+			orientation = upper_left
+			maxWidth = 560
+			maxHeight = 1000
+			fixedsize = yes	
+			format = left
+			scrollbarType = "standardtext_slider"
+		}			
 }
 }
 }

@@ -17,5 +17,13 @@ on_actions = {
 			}
 		}
 	}
+    on_startup = { 
+	effect = {
+	every_country = {
+	limit = { is_ai = no }
+	set_country_flag = show_intro_menu
+	}
+    } 
+	}		
 }
 
