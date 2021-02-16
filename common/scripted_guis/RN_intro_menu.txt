@@ -44,5 +44,14 @@ scripted_gui = {
 	intro_menu_text_pardan_visible = { has_country_flag = intro_slide_2}
 	}
     }
-	
+	RN_intro_menu_title = {
+        context_type = player_context
+		window_name = "RN_intro_menu_title"
+		
+		triggers = {
+        }
+        visible = {
+        has_country_flag = show_intro_menu
+        }	
+	}	
  }

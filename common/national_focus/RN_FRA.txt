@@ -580,7 +580,7 @@ initial_show_position = {
 	#Focus for Conference of Rapallo
 	focus = {
 		id = FRA_conference_of_rapallo
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Rappalo_conference
 		x = 30
 		y = 3
 		cost = 10
@@ -697,7 +697,7 @@ initial_show_position = {
 	#Focus for Stuttgart Discussion
 	focus = {
 		id = FRA_stuttgart_discussion
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Stuttgart_talk
 		x = 28
 		y = 3
 		cost = 10
@@ -715,7 +715,7 @@ initial_show_position = {
 	#Focus for Corbusiervilles
 	focus = {
 		id = FRA_corbusiervilles
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Corbusierville
 		x = 23
 		y = 4
 		cost = 10
@@ -729,7 +729,7 @@ initial_show_position = {
 	#Focus for Diversify the French Diet
 	focus = {
 		id = FRA_diversify_the_french_diet
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Diversify_Diet
 		x = 24
 		y = 3
 		cost = 10
@@ -761,7 +761,7 @@ initial_show_position = {
 	#Focus for Fête des Trente Glorieuses
 	focus = {
 		id = FRA_fte_des_trente_glorieuses
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_1950_Fete
 		x = 26
 		y = 2
 		cost = 10

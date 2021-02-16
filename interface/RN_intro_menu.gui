@@ -10,6 +10,34 @@ guiTypes = {
 		
 	}
 	containerWindowType = {
+		name = "RN_intro_menu_title"
+		position = { x = 0 y = 0 }	
+		show_position = { x = 280 y = 80 }
+		hide_position = { x = 280 y = -1000 }
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+		animation_time = 600
+		
+		
+		iconType = {
+			name = "intro_arch"
+			position = { x = 380 y = -50 }
+			#Orientation = "CENTER"
+			spriteType = "GFX_intro_arch"
+			clipping = yes
+			frame = 1
+		}		
+		instantTextBoxType = {
+			name = "intro_menu_title"
+			position = { x = 380 y = 60 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "[GetIntroTitle]"
+			fixedsize = yes	
+			format = center
+		}			
+	}	
+	containerWindowType = {
 		name = "RN_intro_menu"
 		position = { x = 0 y = 0 }
 		show_position = { x = 280 y = 120 }
@@ -24,16 +52,9 @@ guiTypes = {
 		}
 		size = { width = 1000 height = 720 }	
 		moveable = yes
-		instantTextBoxType = {
-			name = "intro_menu_title"
-			position = { x = 380 y = 20 }
-			font = "rn_viasans"
-			borderSize = {x = 0 y = 0}
-			text = "[GetIntroTitle]"
-			orientation = upper_left
-			fixedsize = yes	
-			format = center
-		}	
+		
+			
+
 		buttonType = {
 			name = "forward_button"
 			quadTextureSprite = "GFX_intro_button"

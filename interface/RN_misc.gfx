@@ -57,6 +57,10 @@ spriteTypes = {
 	texturefile = "gfx/interface/intro_button.tga"
 	}	
 	spriteType = {
+	name = "GFX_intro_arch"
+	texturefile = "gfx/interface/intro_menu_arch.tga"
+	}				
+	spriteType = {
 	name = "GFX_intro_FRA"
 	texturefile = "gfx/interface/intro_pics/fra.tga"
 	}	

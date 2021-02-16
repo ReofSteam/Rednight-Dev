@@ -82,7 +82,17 @@ ideas = {
 				army_org_factor = -0.15
 
 			}
-		}		
+		}
+		
+	FRA_Canadian_uranium_trade = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_Canadian_uranium_trade"}
+			allowed = { always = no }
+			picture = FRA_CAN_uranium
+			modifier = {
+			consumer_goods_factor = 0.2
+
+			}
+	}				
 	}
 hidden_ideas = {
       FRA_real_national_spirits = {

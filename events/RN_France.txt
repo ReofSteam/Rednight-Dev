@@ -486,7 +486,10 @@ country_event = {  ###Operation Terror
 
 	option = {
 		name = fra.13.a
-	
+	    launch_nuke = {
+	    state = 967
+	    use_nuke = yes
+}
 	}
 }
 
@@ -501,18 +504,21 @@ country_event = {  ###Canadian Uranium Deal
 
 	option = {
 		name = fra.13.a
+		FRA = { 
+		country_event = fra.14
+		}
 	
 	}
 
 	option = {
 		name = fra.13.b
-
+		FRA = {
+		country_event = fra.15
+		}
 	}
 }
 
-###Celebration Events
-
-country_event = {  ###End of Celebrations                                
+country_event = {  ###Canada Agree to limited uranium trade                                  
 	id = fra.14
 	title = fra.14.t
 	desc = fra.14.d
@@ -523,6 +529,55 @@ country_event = {  ###End of Celebrations
 
 	option = {
 		name = fra.14.a
+		set_country_flag = has_supply_of_uranium
+		add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        technology = nuclear_reactor
+}
+		add_timed_idea = {
+		idea = FRA_Canadian_uranium_trade
+        days = 130
+		}
+	}
+}
+
+country_event = {  ###Canada Agrees to French quantity                                  
+	id = fra.15
+	title = fra.15.t
+	desc = fra.15.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.15.a
+		set_country_flag = has_supply_of_uranium
+		add_timed_idea = {
+		idea = FRA_Canadian_uranium_trade
+        days = 350
+		}
+		set_technology = {
+        nuclear_reactor = 1
+}
+	
+	}
+}
+
+###Celebration Events
+
+country_event = {  ###End of Celebrations                                
+	id = fra.20
+	title = fra.20.t
+	desc = fra.20.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.20.a
 	
 	}
 }

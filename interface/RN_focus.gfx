@@ -235,4 +235,24 @@ spriteTypes = {
 		name = "GFX_FRA_canadian_uranium"
 		texturefile = "gfx/interface/goals/FRA/FRA_canadian_uranium.tga"
 	}	
+	SpriteType = { 
+		name = "GFX_FRA_Diversify_Diet"
+		texturefile = "gfx/interface/goals/FRA/FRA_Diversify_Diet.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_Rappalo_conference"
+		texturefile = "gfx/interface/goals/FRA/FRA_Rappalo_conference.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_Stuttgart_talk"
+		texturefile = "gfx/interface/goals/FRA/FRA_Stuttgart_talk.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_Corbusierville"
+		texturefile = "gfx/interface/goals/FRA/FRA_Corbusierville.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_1950_Fete"
+		texturefile = "gfx/interface/goals/FRA/FRA_1950_Fete.tga"
+	}		
 }
