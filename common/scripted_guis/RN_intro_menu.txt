@@ -41,7 +41,9 @@ scripted_gui = {
 	intro_menu_text_rus_visible = { original_tag = RUS NOT = { has_country_flag = intro_slide_2 has_country_flag = intro_slide_3 }}
 	intro_menu_text_eng_visible = { original_tag = ENG NOT = { has_country_flag = intro_slide_2 has_country_flag = intro_slide_3 }}
 	intro_menu_text_ger_visible = { original_tag = GER NOT = { has_country_flag = intro_slide_2 has_country_flag = intro_slide_3 }}
+	intro_menu_text_prs_visible = { original_tag = PRS NOT = { has_country_flag = intro_slide_2 has_country_flag = intro_slide_3 }}	
 	intro_menu_text_pardan_visible = { has_country_flag = intro_slide_2}
+	intro_menu_text_world_visible = { has_country_flag = intro_slide_3}	
 	}
     }
 	RN_intro_menu_title = {

@@ -59,7 +59,8 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_intro_arch"
 	texturefile = "gfx/interface/intro_menu_arch.tga"
-	}				
+	}			
+#######Intro Picture	
 	spriteType = {
 	name = "GFX_intro_FRA"
 	texturefile = "gfx/interface/intro_pics/fra.tga"
@@ -71,7 +72,12 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_intro_ENG"
 	texturefile = "gfx/interface/intro_pics/eng.tga"
-	}			
+	}		
+	spriteType = {
+	name = "GFX_intro_PRS"
+	texturefile = "gfx/interface/intro_pics/PRS.tga"
+	}				
+############	
 	spriteType = {
 	name = "GFX_liberty_corridor"
 	texturefile = "gfx/interface/RN_liberty_corridor.dds"

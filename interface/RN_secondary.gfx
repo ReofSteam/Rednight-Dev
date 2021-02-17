@@ -20,9 +20,13 @@ spriteTypes = {
 		texturefile = "gfx/leaders/HUN/HUN_Vladislav_III.tga"
 	}
 	spriteType = {
-		name = "GFX_Leader_Unknown"
-		texturefile = "gfx/leaders/leader_unknown.dds"
+		name = "GFX_kaiser_louis_ferdinand"
+		texturefile = "gfx/leaders/PRS/PRS_Ferdinand.tga"
 	}
+	spriteType = {
+		name = "GFX_kaiser_wilhelm_third"
+		texturefile = "gfx/leaders/PRS/PRS_wilhelm_third.tga"
+	}	
 	spriteType = {
 		name = "GFX_legislature"
 		texturefile = "gfx/interface/parties/legislature.tga"

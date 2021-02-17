@@ -3,6 +3,7 @@
 oob = "PRS"
 
 set_cosmetic_tag = PRS_russia
+set_country_flag = kaiser_is_wilhelm_third
 
 add_ideas = {
 	

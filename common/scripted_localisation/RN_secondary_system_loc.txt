@@ -37,6 +37,20 @@ defined_text = {
 		localization_key = "GFX_HUN_Vladislav_III"
 	}
 	text = {
+		trigger = {
+			tag = PRS
+			has_country_flag = kaiser_is_wilhelm_third
+		}
+		localization_key = "GFX_kaiser_wilhelm_third"
+	}	
+	text = {
+		trigger = {
+			tag = PRS
+			has_country_flag = kaiser_is_louis_ferdinand
+		}
+		localization_key = "GFX_kaiser_louis_ferdinand"
+	}		
+	text = {
 		localization_key = "GFX_Leader_Unknown"
 	}
 }
@@ -79,6 +93,12 @@ defined_text = {
 		localization_key = "King"
 	}
 	text = {
+		trigger = {
+			tag = PRS
+		}
+		localization_key = "King"
+	}	
+	text = {
 		localization_key = "Secondary Leader"
 	}
 }
@@ -120,6 +140,20 @@ defined_text = {
 		}
 		localization_key = "Vladislav III"
 	}
+	text = {
+		trigger = {
+			tag = PRS
+			has_country_flag = kaiser_is_wilhelm_third
+		}
+		localization_key = "Wilhelm III"
+	}	
+	text = {
+		trigger = {
+			tag = PRS
+			has_country_flag = kaiser_is_louis_ferdinand
+		}
+		localization_key = "Louis Ferdinand I"
+	}		
 	text = {
 		localization_key = "Secondary Leader"
 	}
