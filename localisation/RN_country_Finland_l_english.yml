@@ -42,7 +42,7 @@ FIN_ultraconservative_DEF:0 "the Republic of Finland"
 FIN_national_corporatist:0 "Republic of Finland"
 FIN_national_corporatist_ADJ:0 "Finnish"
 FIN_national_corporatist_DEF:0 "the Republic of Finland"
-
+SOV_finland_occupation:0 "Finland Civil Administration" 
 SECRET_ARMY:0 "Secret Army"
 SECRET_ARMY_DEF:0 "the Finnish Secret Army"
 

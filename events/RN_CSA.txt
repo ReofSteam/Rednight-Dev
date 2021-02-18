@@ -9,8 +9,7 @@ country_event = {
 	id = csa.1 #intro
     title = csa.1.t
     desc = csa.1.d
-	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
@@ -24,8 +23,7 @@ country_event = {
 	id = csa.2 #intro
     title = csa.2.t
     desc = csa.2.d
-	picture = 
-	is_triggered_only = no
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {

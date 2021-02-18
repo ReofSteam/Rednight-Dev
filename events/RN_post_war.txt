@@ -73,10 +73,35 @@ country_event = { #####Russia
 	
 	option = {
 		name = postwar.5.a 
+        RUS = {
+		release = UKR		
+		release = FIN
+		release = BLR
+		}
 	    set_autonomy = {
         target = RUS
         autonomy_state = autonomy_puppet
     }	
+	    set_autonomy = {
+        target = UKR
+        autonomy_state = autonomy_puppet
+    }	
+	    set_autonomy = {
+        target = FIN
+        autonomy_state = autonomy_puppet
+    }	
+		UKR = { 
+		set_cosmetic_tag = SOV_ukraine_occupation
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}
+}
+		FIN = { 
+		set_cosmetic_tag = SOV_finland_occupation
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}	
+}
 		RUS = { 
 		set_cosmetic_tag = SOV_russia
 		set_politics = {
