@@ -54,6 +54,15 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Nikita Khrushchev"
+	desc = "POLITICS_VASYL_DESC"
+	picture = "gfx/leaders/UKR/UKR_khrushchev.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {}
+}
+
+create_country_leader = {
 	name = "Andriy Melnyk"
 	desc = "POLITICS_VASYL_DESC"
 	picture = "gfx/leaders/UKR/UKR_Andriy_Melnyk.tga"
@@ -61,6 +70,7 @@ create_country_leader = {
 	ideology = authoritarian_democrat_subtype
 	traits = {}
 }
+
 
 create_corps_commander = {
 	name = "Andriy Melnyk"
