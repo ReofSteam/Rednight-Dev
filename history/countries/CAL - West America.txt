@@ -51,6 +51,15 @@ set_popularities = {
     ultraconservative = 8
     national_corporatist = 10
 }
+
+
+create_faction = North_American_Freedom_Coalition
+
+add_to_faction = WCN
+add_to_faction = ADC
+
+
+
 add_ideas = {
 	#extensive_conscription
 	America_new_year_peace
