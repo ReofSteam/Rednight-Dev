@@ -711,6 +711,10 @@ initial_show_position = {
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	country_event = fra.54
+	}
+
 	}
 	#Focus for Corbusiervilles
 	focus = {
