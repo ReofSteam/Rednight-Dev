@@ -51,6 +51,15 @@ defined_text = {
 		localization_key = "GFX_kaiser_louis_ferdinand"
 	}		
 	text = {
+		trigger = {
+			tag = SER
+			NOT = {
+			has_country_flag = SER_socialist
+			}
+		}
+		localization_key = "GFX_SER_Alexander_I"
+	}			
+	text = {
 		localization_key = "GFX_Leader_Unknown"
 	}
 }
@@ -98,6 +107,15 @@ defined_text = {
 		}
 		localization_key = "King"
 	}	
+	text = {
+		trigger = {
+			tag = SER
+			NOT = {
+			has_country_flag = SER_socialist
+			}
+		}
+		localization_key = "King"
+	}			
 	text = {
 		localization_key = "Secondary Leader"
 	}
@@ -154,6 +172,15 @@ defined_text = {
 		}
 		localization_key = "Louis Ferdinand I"
 	}		
+	text = {
+		trigger = {
+			tag = SER
+			NOT = {
+			has_country_flag = SER_socialist
+			}
+		}
+		localization_key = "Alexander II"
+	}			
 	text = {
 		localization_key = "Secondary Leader"
 	}

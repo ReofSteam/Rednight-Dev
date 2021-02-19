@@ -29,7 +29,7 @@ set_war_support = 0.6
 
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -56,11 +56,11 @@ add_ideas = {
 ### Starting party leaders
 
 create_country_leader = {
-	name = "Milan Stojadinović"
+	name = "Dragiša Cvetković"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/SER/SER_Milan_Stojadinovic.tga"
+	picture = "gfx/leaders/SER/SER_Cvetkovic.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = { }
 }
 
