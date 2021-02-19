@@ -56,7 +56,7 @@ add_ideas = {
 ### Starting party leaders
 
 create_country_leader = {
-	name = "Dragiša Cvetković"
+	name = "Dragisa Cvetkovic"
 	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
 	picture = "gfx/leaders/SER/SER_Cvetkovic.tga"
 	expire = "1965.1.1"
