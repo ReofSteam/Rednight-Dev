@@ -11,6 +11,8 @@ state = {
 		buildings = {
 			infrastructure = 1
 		}
+set_demilitarized_zone = yes
+
 		add_core_of = CAN
 		1981.1.1 = {
 		owner = CSA
