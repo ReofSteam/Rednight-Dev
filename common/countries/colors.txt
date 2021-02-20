@@ -82,6 +82,12 @@ WCN = {
 	color = rgb { 255 255 153 }
 	color_ui = rgb { 135 198 108 }
 }
+
+TEX = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 135 198 108 }
+}
+
 BEL = {
 	color = rgb { 112 94 117 }
 	color_ui = rgb { 112 94 117 }
