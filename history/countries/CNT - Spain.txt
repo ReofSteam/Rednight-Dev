@@ -26,36 +26,13 @@ set_technology = {
 }
 
 add_ideas = {
-	CNT_victors_of_the_second_weltkrieg
-	CNT_devastated_country
-	CNT_constitutional_debate
-	CNT_syndicalism_bulwark
-	CNT_reactionary_terrorism
-	CNT_international_aid
+
 }
-#CABINET
-add_ideas = {
-	CNT_Andreu_Nin #Head of Government
-	CNT_Federica_Montseny #No Portfolio, Healthcare
-	CNT_Pedro_Lopez_Calle #Interior
-	CNT_Amador_Fernandez_Montes #Economic
-	CNT_Luis_Araquistain #Foreign
-	CNT_Alvaro_Cunhal #Education
-	CNT_Lucia_Sanchez_Saornil #Culture 
-	CNT_Manuel_Davila_Erias #Transport
-	CNT_Carlos_de_Baraibar_Ezpondaburu #Intel
-	CNT_Buenaventura_Durruti #Chief of Staff 
-	CNT_Jose_Riquelme_Lopez_Bago #Chief of Army
-	CNT_Ramon_Franco_Bahamonde #Chief of Air
-	CNT_Joaquin_Enguia_Unzueta #Chief of Navy
-}
+
 
 set_convoys = 150
 set_stability = 0.5
 
-
-### LAWS ###
-set_country_flag = kn_economy_planned
 
 set_politics = {
 	ruling_party = revolutionary_socialism
@@ -78,49 +55,10 @@ set_popularities = {
     national_corporatist = 1
 }
 
-set_country_flag = coalition_revolutionary_socialism
-set_country_flag = banned_social_social_conservative
-set_country_flag = banned_authoritarian_democrat
-set_country_flag = banned_autocratic
-set_country_flag = banned_findamentalist
-set_country_flag = banned_national_corporatist
-
 create_country_leader = {
-	name = "Alberto Monsaraz"
-	desc = ""
+	name = "José Díaz"
+	desc = "gfx/leaders/CNT/CNT_Jose_Diaz.tga"
 	#picture = 
-	expire = "1965.1.1"
-	ideology = ultraconservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Manuel Fal Conde"
-	desc = ""
-	#picture = 
-	expire = "1965.1.1"
-	ideology = autocratic_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "No leadership"
-	desc = ""
-	#picture = 
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Andreu Nin"
-	desc = "POLITICS_ANDREU_NIN_DESC"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
@@ -128,67 +66,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Ramón Serrano Suñer"
-	desc = ""
-	#picture = 
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ángel Pestaña"
-	desc = "POLITICS_ANGEL_PESTANA_DESC"
-	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/CNT/CNT_Pestana.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Álbaro de Albornoz"
-	desc = "POLITICS_ALVARO_ALBORNOZ_DESC"
-	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Álbaro de Albornoz"
-	desc = "POLITICS_ALVARO_ALBORNOZ_DESC"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Diego Martínez Barrio"
-	desc = ""
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Multiple Leaders"
-	desc = ""
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "José Asensio Torrado"
