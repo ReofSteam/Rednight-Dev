@@ -666,6 +666,7 @@ initial_show_position = {
 		}
 	completion_reward = {
 	country_event = worldnews.13
+	major = yes
 	}
 	}
 
