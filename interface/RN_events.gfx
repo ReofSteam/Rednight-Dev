@@ -209,6 +209,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "FRA_oslobomb"
 		texturefile = "gfx/event_pictures/FRA_oslobomb.dds"
-	}							
+	}		
+	spriteType = { 
+		name = "FRA_cast"
+		texturefile = "gfx/event_pictures/FRA_cast.tga"
+	}						
 		
 }
