@@ -9,7 +9,6 @@ news_event = {
 	id = rom.1 #intro
     title = rom.1.t
     desc = rom.1.d
-	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
 	
@@ -25,7 +24,6 @@ news_event = {
 	id = rom.50 #new appointment in the Banat
     title = rom.1.t
     desc = rom.1.d
-	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
 	

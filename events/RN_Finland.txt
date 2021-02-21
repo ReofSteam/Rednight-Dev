@@ -85,6 +85,7 @@ add_manpower = 95000
     idea = RFN_finnish_rebellion
     days = 130
 }
+    kill_sergey_taboritsky = yes
 	}
 }
 

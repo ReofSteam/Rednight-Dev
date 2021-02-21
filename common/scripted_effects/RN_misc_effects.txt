@@ -20,5 +20,21 @@ ICBM_attack_destruction = {
 	}
 }
 
-ICBM_attack_weak = {
+kill_sergey_taboritsky = {
+hidden_effect = {
+random_list = {
+    25 = {
+    country_event = rustabby.1
+    }
+    25 = {
+    country_event = rustabby.1
+    }
+    25 = {
+    country_event = rustabby.1
+    }
+    25 = {
+    country_event = rustabby.1
+    }
+}
+}
 }
