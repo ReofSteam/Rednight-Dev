@@ -665,6 +665,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
+	add_political_power = 5
 	country_event = worldnews.13
 	}
 	}
@@ -773,6 +774,16 @@ initial_show_position = {
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
+	    select_effect = {
+			country_event = {
+				id = fra.16
+				days = 7
+			}
+			country_event = {
+				id = fra.17
+				days = 14
+			}	
+		}		
 		prerequisite = { 
 			focus = FRA_the_joliotcurie_mission 
 		}
@@ -781,6 +792,9 @@ initial_show_position = {
 		}
 		prerequisite = { 
 			focus = FRA_the_story_of_our_nation 
+		}
+		completion_reward = {
+		country_event = fra.18
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,11 +1,22 @@
-FRA_ICBM_activation = {
+FRA_palace_of_fraternity = {
 	icon = GFX_decision_generic_nuke
 	priority = 80
 	allowed = {
 		tag = FRA
 	}
 	visible = { 
-		has_global_flag = PARDAN_0_international
+	NOT = { has_country_flag = FRA_stop_the_contruction }
+
+	}
+}
+FRA_avenue_of_social_revolution = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	NOT = { has_country_flag = FRA_stop_the_contruction }
 	}
 }
 FRA_support_pekkas = {
@@ -20,7 +31,17 @@ FRA_support_pekkas = {
 		NOT = { has_global_flag = the_corridor_is_closed }
 	}
 }
+FRA_truffle_affair = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_country_flag = FRA_truffle_affair
 
+	}
+}
 FRA_mission_free_africa = {
 	icon = GFX_decision_category_generic_industry
 	priority = 80
