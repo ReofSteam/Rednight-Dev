@@ -1,39 +1,44 @@
-state = {
-	id = 70
-	name = "STATE_70"
-	manpower = 1092000
 
-	state_category = six
-
-	resources = {
-		tungsten = 2
+state={
+	id=70
+	name="STATE_70"
+	resources={
+		tungsten=2.000
 	}
 
-	history = {
+	history={
 		owner = SLK
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			9692 = {
 				bunker = 1
+
 			}
 			541 = {
 				bunker = 1
+
 			}
 			3484 = {
 				bunker = 1
+
 			}
+
 		}
 		add_core_of = SLK
 		victory_points = {
-			541 1
+			541 1 
 		}
 		victory_points = {
-			9692 15
+			9692 15 
 		}
+
 	}
 
-	provinces = {
-		541 3484 3537 9539 9551 9692 11522 11539
+	provinces={
+		541 3484 9539 9692 11522 
 	}
+	manpower=1092000
+	buildings_max_level_factor=1.000
+	state_category=six
 }

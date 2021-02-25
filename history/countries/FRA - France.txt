@@ -90,6 +90,10 @@ add_to_faction = JOZ
 add_to_faction = CRO
 
 
+	country_event = {
+		id = africa.7
+		days = 4
+	}
 
 	country_event = {
 		id = africa.0

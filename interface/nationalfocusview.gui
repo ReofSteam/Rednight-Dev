@@ -626,15 +626,12 @@ guiTypes = {
 	containerWindowType = {
 		name = "national_focus_detail_view"
 		position = { x=500 y=100 }
-		size = { width = 550 height = 900 }
+		size = { width = 550 height = 550 }
 		Orientation = UPPER_LEFT
 		moveable = yes
 		clipping = no
 		fade_time = 500
 		fade_type = linear
-
-
-
 		
 		show_sound = pop_up
 
@@ -722,19 +719,19 @@ guiTypes = {
 			borderSize = {x = 5 y = 0}
 			text = "Description"
 			maxWidth = 485
-			maxHeight = 1000
+			maxHeight = 70
 			format = center
 		}
 
 		iconType = {
 			name = "reward_bg"
-			position = { x = 84 y = 800 }
+			position = { x = 84 y = 363 }
 			spriteType = "GFX_unit_list_header"
 		}		
 		
 		instantTextboxType = {
 			name = "reward_label"
-			position = { x = 34 y = 807 }
+			position = { x = 34 y = 370 }
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
@@ -746,7 +743,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "reward"
-			position = { x = 150 y = 780 }
+			position = { x = 50 y = 397 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
@@ -795,7 +792,7 @@ guiTypes = {
 		name = "coninuous_focus_detail_view"
 		position = { x=500 y=100 }
 		size = { width = 550 height = 550 }
-		Orientation = UPPER_RIGHT
+		Orientation = UPPER_LEFT
 		moveable = yes
 		clipping = no
 		fade_time = 500
@@ -868,7 +865,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "statsarea"
 			position = { x=20 y=220 }
-			size = { width = 97%% height = 130%% }
+			size = { width = 97%% height = 98%% }
 			horizontalScrollbar = "bottom_horizontal_slider"
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 4 left = 13 bottom = 0 right = 5}
@@ -887,8 +884,8 @@ guiTypes = {
 			font = "hoi_18mbs"
 			borderSize = {x = 5 y = 0}
 			text = "Description"
-			maxWidth = 1000
-			maxHeight = 1000
+			maxWidth = 485
+			maxHeight = 70
 			format = center
 		}
 

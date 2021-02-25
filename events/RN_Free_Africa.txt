@@ -27,6 +27,49 @@ country_event = {
 }
 
 country_event = {
+	id = africa.5
+	title = africa.5.t
+	desc = africa.5.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = africa.5.a
+		remove_global_flag = FRA_sand_war
+		FRA = {
+        set_autonomy = {
+        target = SAH
+        autonomy_state = autonomy_puppet
+    }
+}
+		SAH = { 
+		transfer_state = 910
+		transfer_state = 809
+		transfer_state = 967
+		transfer_state = 557
+		country_event = africa.6
+		}
+
+	}	
+}
+country_event = { #French Africa Lore Intro
+	id = africa.7
+	title = africa.7.t
+	desc = africa.7.d
+	picture = GFX_helicopter_desert
+
+	is_triggered_only = yes
+
+	option = {
+	name = africa.7.a
+	trigger = {
+	tag = FRA
+	}
+	}
+}
+
+country_event = {
 	id = africa.1
 	title = africa.1.t
 	desc = africa.1.d
@@ -127,7 +170,6 @@ country_event = {
 
 	}	
 }
-
 country_event = {
 	id = africa.6
 	title = africa.6.t
@@ -154,3 +196,4 @@ create_country_leader = {
 }
 	}
 }
+
