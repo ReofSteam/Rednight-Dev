@@ -666,7 +666,7 @@ initial_show_position = {
 		}
 	completion_reward = {
 	add_political_power = 5
-	country_event = worldnews.13
+	news_event = worldnews.13
 	}
 	}
 
@@ -824,6 +824,533 @@ initial_show_position = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_state_commission_on_industry_improvement }
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	#Focus for Shuffle the Government
+	focus = {
+		id = FRA_shuffle_the_government
+		icon = GFX_goal_unknown
+		x = 30
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_old_path 
+			focus = FRA_fte_du_travail_et_de_la_victoire_1951 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Appeals for Unity
+	focus = {
+		id = FRA_appeals_for_unity
+		icon = GFX_goal_unknown
+		x = 28
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_shuffle_the_government }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Thaw the Discords
+	focus = {
+		id = FRA_thaw_the_discords
+		icon = GFX_goal_unknown
+		x = 32
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_shuffle_the_government }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Anti-Corruption Offensive
+	focus = {
+		id = FRA_anticorruption_offensive
+		icon = GFX_goal_unknown
+		x = 30
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_appeals_for_unity 
+		}
+		prerequisite = { 
+			focus = FRA_thaw_the_discords 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Republic of Virtue
+	focus = {
+		id = FRA_republic_of_virtue
+		icon = GFX_goal_unknown
+		x = 32
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_anticorruption_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Citizen Forum
+	focus = {
+		id = FRA_national_citizen_forum
+		icon = GFX_goal_unknown
+		x = 28
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_anticorruption_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of Economic Audit
+	focus = {
+		id = FRA_department_of_economic_audit
+		icon = GFX_goal_unknown
+		x = 28
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_national_citizen_forum }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Create Unified Mass Organisations
+	focus = {
+		id = FRA_create_unified_mass_organisations
+		icon = GFX_goal_unknown
+		x = 32
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_republic_of_virtue }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Clarify the State
+	focus = {
+		id = FRA_clarify_the_state
+		icon = GFX_goal_unknown
+		x = 30
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_create_unified_mass_organisations 
+		}
+		prerequisite = { 
+			focus = FRA_department_of_economic_audit 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Bureau's Handbook
+	focus = {
+		id = FRA_the_bureaus_handbook
+		icon = GFX_goal_unknown
+		x = 22
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_political_disciplinary_committee 
+			focus = FRA_shuffle_the_government 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Red Dossier
+	focus = {
+		id = FRA_red_dossier
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_bureaus_handbook }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for SWISS INCIDENT
+	focus = {
+		id = FRA_swiss_incident
+		icon = GFX_goal_unknown
+		x = 19
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_red_dossier }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for PORTUGUESE DIVERSITY
+	focus = {
+		id = FRA_portuguese_diversity
+		icon = GFX_goal_unknown
+		x = 21
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_red_dossier }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for POLISH DECOY
+	focus = {
+		id = FRA_polish_decoy
+		icon = GFX_goal_unknown
+		x = 19
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_czech_heavy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for CZECH HEAVY
+	focus = {
+		id = FRA_czech_heavy
+		icon = GFX_goal_unknown
+		x = 19
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_swiss_incident }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for ICELAND MAXIMUM
+	focus = {
+		id = FRA_iceland_maximum
+		icon = GFX_goal_unknown
+		x = 21
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_portuguese_diversity }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for DENMARK ALTERNATE
+	focus = {
+		id = FRA_denmark_alternate
+		icon = GFX_goal_unknown
+		x = 21
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_iceland_maximum }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Blue Dossier
+	focus = {
+		id = FRA_blue_dossier
+		icon = GFX_goal_unknown
+		x = 24
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_bureaus_handbook }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The Greatness of Our Revolution
+	focus = {
+		id = FRA_the_greatness_of_our_revolution
+		icon = GFX_goal_unknown
+		x = 37
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = FRA_the_humble_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Humble Revolution
+	focus = {
+		id = FRA_the_humble_revolution
+		icon = GFX_goal_unknown
+		x = 43
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = FRA_the_greatness_of_our_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Construct the National Mainline Rail
+	focus = {
+		id = FRA_construct_the_national_mainline_rail
+		icon = GFX_goal_unknown
+		x = 35
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_greatness_of_our_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Review the New Industrial Zones
+	focus = {
+		id = FRA_review_the_new_industrial_zones
+		icon = GFX_goal_unknown
+		x = 40
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_the_greatness_of_our_revolution 
+			focus = FRA_the_humble_revolution 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Provicial Urbanisation Committee
+	focus = {
+		id = FRA_provicial_urbanisation_committee
+		icon = GFX_goal_unknown
+		x = 45
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_the_humble_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Stay the Course
+	focus = {
+		id = FRA_stay_the_course
+		icon = GFX_goal_unknown
+		x = 38
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_review_the_new_industrial_zones }
+		mutually_exclusive = { focus = FRA_a_france_more_humane }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A France More Humane
+	focus = {
+		id = FRA_a_france_more_humane
+		icon = GFX_goal_unknown
+		x = 42
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_review_the_new_industrial_zones }
+		mutually_exclusive = { focus = FRA_stay_the_course }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Civilian Economy Shift
+	focus = {
+		id = FRA_civilian_economy_shift
+		icon = GFX_goal_unknown
+		x = 43
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FRA_a_france_more_humane 
+		}
+		prerequisite = { 
+			focus = FRA_provicial_urbanisation_committee 
+		}
+		mutually_exclusive = { focus = FRA_improve_the_industrial_settlements }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve the Industrial Settlements
+	focus = {
+		id = FRA_improve_the_industrial_settlements
+		icon = GFX_goal_unknown
+		x = 40
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_a_france_more_humane }
+		mutually_exclusive = { focus = FRA_civilian_economy_shift }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reims New Metropolis
+	focus = {
+		id = FRA_reims_new_metropolis
+		icon = GFX_goal_unknown
+		x = 46
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_provicial_urbanisation_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rennes Metropolis
+	focus = {
+		id = FRA_rennes_metropolis
+		icon = GFX_goal_unknown
+		x = 46
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reims_new_metropolis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Lille Metropolis
+	focus = {
+		id = FRA_lille_metropolis
+		icon = GFX_goal_unknown
+		x = 46
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_reims_new_metropolis }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Defense of Europe
+	focus = {
+		id = FRA_defense_of_europe
+		icon = GFX_goal_unknown
+		x = 30
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for La forteresse Europe
+	focus = {
+		id = FRA_la_forteresse_europe
+		icon = GFX_goal_unknown
+		x = 36
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_defense_of_europe }
+		mutually_exclusive = { focus = FRA_passage_du_vistule }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Passage du Vistule
+	focus = {
+		id = FRA_passage_du_vistule
+		icon = GFX_goal_unknown
+		x = 24
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_defense_of_europe }
+		mutually_exclusive = { focus = FRA_la_forteresse_europe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Kellermann Line
+	focus = {
+		id = FRA_kellermann_line
+		icon = GFX_goal_unknown
+		x = 36
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_la_forteresse_europe }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Groupe mobile de forces
+	focus = {
+		id = FRA_groupe_mobile_de_forces
+		icon = GFX_goal_unknown
+		x = 24
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_passage_du_vistule }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hopetoun Memorandum
+	focus = {
+		id = FRA_hopetoun_memorandum
+		icon = GFX_goal_unknown
+		x = 30
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FRA_defense_of_europe }
 		ai_will_do = {
 			factor = 1
 		}

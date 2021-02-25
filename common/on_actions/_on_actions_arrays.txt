@@ -27,7 +27,7 @@ on_actions = {
 			add_to_array = { global.european_tags_array = CRO }
 			add_to_array = { global.european_tags_array = CYP }
 			add_to_array = { global.european_tags_array = CZE }
-			add_to_array = { global.european_tags_array = DDR } #Prussia
+			add_to_array = { global.european_tags_array = PRS } #Prussia
 			add_to_array = { global.european_tags_array = DEN }
 			add_to_array = { global.european_tags_array = DKB }
 			add_to_array = { global.european_tags_array = EMI }
@@ -44,8 +44,9 @@ on_actions = {
 			add_to_array = { global.european_tags_array = GER }
 			add_to_array = { global.european_tags_array = GLC }
 			add_to_array = { global.european_tags_array = GRE }
-			add_to_array = { global.european_tags_array = GRR } #Greek Rebels
-			add_to_array = { global.european_tags_array = GRU } #German Union
+			add_to_array = { global.european_tags_array = BOZ } #British Occupation
+			add_to_array = { global.european_tags_array = JOZ } 
+			add_to_array = { global.european_tags_array = FOZ } 			
 			add_to_array = { global.european_tags_array = HOL }
 			add_to_array = { global.european_tags_array = HUN }
 			add_to_array = { global.european_tags_array = ICE }
@@ -57,14 +58,14 @@ on_actions = {
 			add_to_array = { global.european_tags_array = LUX }
 			add_to_array = { global.european_tags_array = MLT }
 			add_to_array = { global.european_tags_array = MTN }
-			add_to_array = { global.european_tags_array = NGF } #Hanover
+			add_to_array = { global.european_tags_array = NGF } 
 			add_to_array = { global.european_tags_array = NOR }
 			add_to_array = { global.european_tags_array = OCC }
 			add_to_array = { global.european_tags_array = PAP }
 			add_to_array = { global.european_tags_array = POL }
 			add_to_array = { global.european_tags_array = POR }
 			add_to_array = { global.european_tags_array = ROM }
-			add_to_array = { global.european_tags_array = RRM } #Royalist Romania
+			add_to_array = { global.european_tags_array = BNT }
 			add_to_array = { global.european_tags_array = RUS }
 			add_to_array = { global.european_tags_array = SCA }
 			add_to_array = { global.european_tags_array = SCT }
