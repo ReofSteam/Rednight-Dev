@@ -359,7 +359,7 @@ GER = {
 }
 
 GNR = {
-	color = rgb { 150 20 20 }
+	color = rgb { 73 80 84 }
 	color_ui = rgb { 150 20 20 }
 }
 
