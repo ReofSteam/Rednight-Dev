@@ -38,14 +38,23 @@ set_popularities = {
 	national_corporatist = 0
 }
 
-set_country_flag = mohammed_alim_khan_hog
 
 create_country_leader = {
-	name = "Mohammed Alim Khan"
+	name = "Kolchalk's Ghost"
 	desc = "POLITICS_MOHAMMED_ALIM_DESC"
 	picture = "gfx/leaders/EASTERN_EUROPE/TRK/Portrait_Turkestan_Mohammed_Alim.tga"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nicholas Kalashnikoff"
+	desc = "POLITICS_MOHAMMED_ALIM_DESC"
+	picture = "gfx/leaders/RUS/RUS_Kalashnikoff.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
 	traits = {
 	}
 }

@@ -17,17 +17,9 @@ set_technology = {
 	motorised_infantry = 1
 	early_fighter = 1
 }
-### PARTIES UI ###
-	### BANNED ###
-	set_country_flag = banned_nationalist_socialism
-	set_country_flag = banned_revolutionary_socialism
-	set_country_flag = banned_syndicalism
-	set_country_flag = banned_moderate_socialist
-	set_country_flag = banned_ultrasocial_conservative
-	set_country_flag = banned_national_corporatist
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = autocratic
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -47,11 +39,6 @@ set_popularities = {
     national_corporatist = 5
 }
 
-diplomatic_relation = {
-    country = TUR
-    relation = non_aggression_pact
-    active = no
-}
 
 #Leaders
 
@@ -92,8 +79,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Tsar Boris III"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Boris_III.dds"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
