@@ -5,8 +5,8 @@ state={
 		3407 
 	}
         history={
-        owner = ROM
-        add_core_of = ROM
+        owner = RUS
+        add_core_of = RUS
     }
     manpower=10100
     buildings_max_level_factor=1.000

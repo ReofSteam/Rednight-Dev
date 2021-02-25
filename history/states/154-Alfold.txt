@@ -6,7 +6,7 @@ state = {
 	state_category = six
 
 	history = {
-		owner = HUN
+		owner = ROM
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -18,7 +18,7 @@ state = {
 		victory_points = {
 			6700 2
 		}
-		add_core_of = HUN
+		add_core_of = ROM
 	}
 
 	provinces = {
