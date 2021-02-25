@@ -35,6 +35,11 @@ LYB = {
 	color_ui = rgb { 0 127 14 }
 }
 
+TRM = {
+	color = rgb { 34 82 150 }
+	color_ui = rgb { 124 73 128 }
+}
+
 NGR = {
 	color = rgb { 0 124 0 }
 	color_ui = rgb { 255 169 169 }
@@ -642,10 +647,6 @@ KAZ = {
 	color = rgb { 75 184 203 }
 	color_ui = rgb { 75 184 203 }
 } 
-#TRM = {
-#	color = rgb
-#	color_ui = rgb
-#}
 TRK = {
 	color = rgb { 110 180 84 }
 	color_ui = rgb { 110 180 84 }
