@@ -76,7 +76,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Boris III"
-	picture = "gfx/leaders/BUL/BUL_Boris_III.tga"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
