@@ -80,13 +80,11 @@ FRA_mission_free_africa = {
 	 days_re_enable = 1
 	 fire_only_once = no
           allowed = { 
-		  AND = {
-		  has_global_flag = FRA_sand_war
 		  tag = FRA
 		  NOT = {
 		  has_country_flag = FRA_boots_in_afrca
 		  }
-}}		  
+}		  
           available = {                          
           ALG = {
 		  has_volunteers_amount_from = {
@@ -637,6 +635,7 @@ FRA_expand_boulevard_beaumarchais = {
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }
+}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -644,13 +643,13 @@ FRA_expand_boulevard_beaumarchais = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_abolish_monarchy_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }
+}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -658,13 +657,13 @@ FRA_abolish_monarchy_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_conspiracy_of_equals_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }
+}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -672,13 +671,13 @@ FRA_conspiracy_of_equals_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_robespierre_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }
+}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -686,13 +685,12 @@ FRA_robespierre_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_june_barricades_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -700,13 +698,12 @@ FRA_june_barricades_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_enlightenment_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -714,13 +711,12 @@ FRA_enlightenment_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_social_revolution_arch_statue = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -728,13 +724,12 @@ FRA_social_revolution_arch_statue = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 FRA_eternal_revolution_memorial = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
@@ -742,7 +737,6 @@ FRA_eternal_revolution_memorial = {
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
 	}
-}
 }
 }
 
@@ -751,84 +745,102 @@ FRA_ground_level_fraternity = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 FRA_auditorium_equality = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}	
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 FRA_liberation_archives = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}	
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 FRA_garden_of_liberty = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}	
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 FRA_finish_decorations = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}	
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 FRA_seinne_parks_rennovation = {
     fire_only_once = yes
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
-}
+}}
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_palace_in_construction
 	}
-}
 }
 }

@@ -20,6 +20,11 @@ ALB = {
 	color_ui = rgb { 228 30 32 }
 }
 
+BHC = {
+	color = rgb { 196 72 82 }
+	color_ui = rgb { 228 30 32 }
+}
+
 INC = {
 	color = rgb { 205 0 0 }
 	color_ui = rgb { 179 35 25 }
@@ -33,6 +38,11 @@ SLK = {
 LYB = {
 	color = rgb { 74 124 51 }
 	color_ui = rgb { 0 127 14 }
+}
+
+TRM = {
+	color = rgb { 34 82 150 }
+	color_ui = rgb { 124 73 128 }
 }
 
 NGR = {
@@ -642,10 +652,6 @@ KAZ = {
 	color = rgb { 75 184 203 }
 	color_ui = rgb { 75 184 203 }
 } 
-#TRM = {
-#	color = rgb
-#	color_ui = rgb
-#}
 TRK = {
 	color = rgb { 110 180 84 }
 	color_ui = rgb { 110 180 84 }

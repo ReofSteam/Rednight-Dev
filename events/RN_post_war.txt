@@ -91,6 +91,23 @@ country_event = { #####Russia
         autonomy_state = autonomy_puppet
     }	
 		UKR = { 
+		hidden_effect = { 
+		transfer_state = 202
+		transfer_state = 193
+		transfer_state = 221
+		transfer_state = 228
+		transfer_state = 227
+		transfer_state = 192
+		transfer_state = 198
+		transfer_state = 203
+		transfer_state = 226
+		transfer_state = 821
+		transfer_state = 200	
+		transfer_state = 197
+		transfer_state = 196
+		transfer_state = 93	
+		transfer_state = 225			
+		}
 		set_cosmetic_tag = SOV_ukraine_occupation
 		set_politics = {
       	ruling_party = revolutionary_socialism
@@ -119,6 +136,28 @@ country_event = { #####Russia
 }
 	}
 	hidden_effect = {
+	TRM = {
+	transfer_state = 516
+	transfer_state = 576
+	transfer_state = 644
+	transfer_state = 637
+	transfer_state = 575
+	transfer_state = 574
+	transfer_state = 562	
+	transfer_state = 567
+	transfer_state = 566
+	transfer_state = 564
+	transfer_state = 563
+	transfer_state = 561
+	transfer_state = 657
+	transfer_state = 560	
+	transfer_state = 408
+	transfer_state = 409
+	transfer_state = 565	
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}
 	SIB = {
 	transfer_state = 579
 	transfer_state = 580

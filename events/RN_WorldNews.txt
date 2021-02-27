@@ -59,23 +59,7 @@ news_event = { #New Year Peace
 }
 
 
-news_event = { #The New Order
-	id = worldnews.13
-	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.3" }
 
-	title = worldnews.t
-	desc = worldnews.13.d
-	picture = FRA_cast
-
-	is_triggered_only = yes
-	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
-	option = {
-		name = worldnews.13.a
-	}
-}
 
 
 
@@ -278,5 +262,18 @@ news_event = { #Terrorist Attack in Norway!
 	}
 	option = {
 		name = worldnews.12.a
+	}
+}
+
+news_event = { #The New Order
+	id = worldnews.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.13" }
+	title = worldnews.t
+	desc = worldnews.13.d
+	picture = FRA_cast
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = worldnews.13.a
 	}
 }

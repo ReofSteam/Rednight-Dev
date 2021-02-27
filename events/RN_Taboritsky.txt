@@ -2,7 +2,7 @@
 # Kill Tabby Events
 ###########################
 
-add_namespace = rustabbytabby
+add_namespace = rustabby
 
 
 country_event = {

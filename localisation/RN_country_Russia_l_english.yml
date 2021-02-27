@@ -255,27 +255,51 @@ RUS_national_corporatist_ADJ:0 "Russian"
 RUS_national_corporatist_DEF:0 "the Russian National State"
 
 #Transamur
-TRM_social_democrat:0 "Transamur"
+
+TRM_nationalist_socialism:0 "Democratic Republic of Russia"
+TRM_nationalist_socialism_ADJ:0 "Russian"
+TRM_nationalist_socialism_DEF:0 "the Democratic Republic of Russia"
+
+TRM_revolutionary_socialism:0 "Democratic Republic of Russia"
+TRM_revolutionary_socialism_ADJ:0 "Russian"
+TRM_revolutionary_socialism_DEF:0 "the Democratic Republic of Russia
+
+TRM_syndicalism:0 "Democratic Republic of Russia"
+TRM_syndicalism_ADJ:0 "Russian"
+TRM_syndicalism_DEF:0 "the Democratic Republic of Russia"
+
+TRM_moderate_socialist:0 "Democratic Republic of Russia"
+TRM_moderate_socialist_ADJ:0 "Russian"
+TRM_moderate_socialist_DEF:0 "the Democratic Republic of Russia"
+
+TRM_social_democrat:0 "Democratic Republic of Russia"
 TRM_social_democrat_ADJ:0 "Russian"
-TRM_social_democrat_DEF:0 "the Transamur"
-TRM_social_liberal:0 "Transamur"
+TRM_social_democrat_DEF:0 "the Democratic Republic of Russia"
+
+TRM_social_liberal:0 "Democratic Republic of Russia"
 TRM_social_liberal_ADJ:0 "Russian"
-TRM_social_liberal_DEF:0 "the Transamur"
-TRM_social_conservative:0 "Transamur"
+TRM_social_liberal_DEF:0 "the Democratic Republic of Russia"
+
+TRM_social_conservative:0 "Transamur Republic"
 TRM_social_conservative_ADJ:0 "Russian"
-TRM_social_conservative_DEF:0 "the Transamur"
-TRM_authoritarian_democrat:0 "Transamur"
+TRM_social_conservative_DEF:0 "the Transamur Republic"
+
+TRM_authoritarian_democrat:0 "Transamur Republic"
 TRM_authoritarian_democrat_ADJ:0 "Russian"
-TRM_authoritarian_democrat_DEF:0 "the Transamur"
-TRM_autocratic:0 "Transamur"
+TRM_authoritarian_democrat_DEF:0 "the Transamur Republic"
+
+TRM_autocratic:0 "Transamur Republic
 TRM_autocratic_ADJ:0 "Russian"
-TRM_autocratic_DEF:0 "the Transamur"
-TRM_ultraconservative:0 "Transamur"
+TRM_autocratic_DEF:0 "the Transamur Republic"
+
+TRM_ultraconservative:0 "Transamur Republic"
 TRM_ultraconservative_ADJ:0 "Russian"
-TRM_ultraconservative_DEF:0 "the Transamur"
-TRM_national_corporatist:0 "Transamur"
+TRM_ultraconservative_DEF:0 "the Democratic Republic of Russia"
+
+TRM_national_corporatist:0 "Transamur Republic"
 TRM_national_corporatist_ADJ:0 "Russian"
-TRM_national_corporatist_DEF:0 "the Transamur"
+TRM_national_corporatist_DEF:0 "the Transamur Republic"
+
 
 ####Siberian Cossack
 SIB_authoritarian_democrat:0 "Omsk Cossack Committee"

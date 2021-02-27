@@ -295,6 +295,7 @@ country_event = {
 		clr_country_flag = show_putch_menu
 		clr_country_flag = may_pustch
 		country_event = fra.5
+		set_country_flag = FRA_pustch_over
 		if = {
     	limit = {
         has_stability < 0.3 
@@ -376,6 +377,7 @@ country_event = {
 	option = {
 	trigger = { 
 	has_country_flag = Putsch_fully_defeated
+	mark_focus_tree_layout_dirty = yes
 	}	
 	name = fra.5.a
 	
@@ -383,6 +385,7 @@ country_event = {
 	option = {
 	trigger = { 
 	has_country_flag = Pustch_military_influence
+	mark_focus_tree_layout_dirty = yes
 	}	
 	name = fra.5.b
 	
@@ -564,6 +567,9 @@ country_event = {  ###Canada Agrees to French quantity
 	
 	}
 }
+
+
+
 
 ###30 Glorious Years
 
@@ -801,6 +807,24 @@ country_event = {
 	
 	}
 }
+
+#####Rapallo Conference
+
+country_event = {
+	id = fra.55
+	title = fra.55.t
+	desc = fra.55.d
+	picture = GFX_FRA_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.55.a
+		}	
+	option = {
+		name = fra.55.b
+		}	
+	}
 
 #######Nuclear
 
