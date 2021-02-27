@@ -89,10 +89,23 @@ ideas = {
 			allowed = { always = no }
 			picture = FRA_CAN_uranium
 			modifier = {
-			consumer_goods_factor = 0.2
+			consumer_goods_factor = 0.05
 
 			}
-	}				
+	}	
+		
+	FRA_grandeur_construction = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_grandeur_construction"}
+			allowed = { always = no }
+			picture = FRA_grandeur_construction
+			modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1
+			production_oil_factor = -0.05
+			political_power_gain = -0.1
+
+			}
+	}	
 	}
 hidden_ideas = {
       FRA_real_national_spirits = {

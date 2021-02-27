@@ -295,6 +295,7 @@ country_event = {
 		clr_country_flag = show_putch_menu
 		clr_country_flag = may_pustch
 		country_event = fra.5
+		set_country_flag = FRA_pustch_over
 		if = {
     	limit = {
         has_stability < 0.3 
@@ -376,6 +377,7 @@ country_event = {
 	option = {
 	trigger = { 
 	has_country_flag = Putsch_fully_defeated
+	mark_focus_tree_layout_dirty = yes
 	}	
 	name = fra.5.a
 	
@@ -383,6 +385,7 @@ country_event = {
 	option = {
 	trigger = { 
 	has_country_flag = Pustch_military_influence
+	mark_focus_tree_layout_dirty = yes
 	}	
 	name = fra.5.b
 	

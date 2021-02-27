@@ -255,4 +255,8 @@ spriteTypes = {
 		name = "GFX_FRA_1950_Fete"
 		texturefile = "gfx/interface/goals/FRA/FRA_1950_Fete.tga"
 	}		
+	SpriteType = { 
+		name = "GFX_FRA_ieau"
+		texturefile = "gfx/interface/goals/FRA/FRA_ieau.tga"
+	}		
 }

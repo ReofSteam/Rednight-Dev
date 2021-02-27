@@ -3,10 +3,6 @@
 oob = "BUL"
 
 add_ideas = {
-	BUL_the_last_central_power
-	BUL_early_stages_of_industrialisation
-	BUL_substantial_turkish_minority
-	BUL_irredentist_approach
 }
 
 set_technology = {
@@ -43,8 +39,8 @@ set_popularities = {
 #Leaders
 
 create_country_leader = {
-	name = "Tsar Boris III"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
+	name = "Boris III"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
@@ -52,8 +48,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Tsar Boris III"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
+	name = "Boris III"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
@@ -61,8 +57,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Tsar Boris III"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
+	name = "Boris III"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
@@ -70,8 +66,8 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Tsar Boris III"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.dds"
+	name = "Boris III"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Boris_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
@@ -80,7 +76,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Boris III"
-	picture = "gfx/leaders/BUL/BUL_Boris_III.dds"
+	picture = "gfx/leaders/BUL/BUL_Boris_III.tga"
 	desc = "POLITICS_BORIS_III_DESC"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
@@ -90,7 +86,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hristo Lukov"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Hristo_Lukov.dds"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Hristo_Lukov.tga"
 	desc = "POLITICS_HRISTO_LUKOV_DESC"
 	expire = "1965.1.1"
 	ideology = ultraconservative_subtype
@@ -100,7 +96,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Mladen Kiurtchiulev"
-	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Mladen_Kiurtchiulev.dds"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Mladen_Kiurtchiulev.tga"
 	desc = "POLITICS_MLADEN_KIURTCHIULEV_DESC"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
