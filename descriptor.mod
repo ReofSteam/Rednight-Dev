@@ -1,4 +1,6 @@
 name="Dev Build - Rednight"
+path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/Krasnacht-Rednight"
+
 tags={
 	"Alternative History"
 	"Ideologies"
