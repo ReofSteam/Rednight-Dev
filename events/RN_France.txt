@@ -568,6 +568,9 @@ country_event = {  ###Canada Agrees to French quantity
 	}
 }
 
+
+
+
 ###30 Glorious Years
 
 country_event = {  ###1st                               
@@ -804,6 +807,24 @@ country_event = {
 	
 	}
 }
+
+#####Rapallo Conference
+
+country_event = {
+	id = fra.55
+	title = fra.55.t
+	desc = fra.55.d
+	picture = GFX_FRA_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.55.a
+		}	
+	option = {
+		name = fra.55.b
+		}	
+	}
 
 #######Nuclear
 
