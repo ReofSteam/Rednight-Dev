@@ -25,7 +25,7 @@ set_research_slots = 3
 set_convoys = 60
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = social_conservative
 	last_election = "1888.15.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -83,11 +83,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "António Resende"
-	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_Antonio_Resende.tga"
+	name = "Duarte Nuno II"
+	picture = "gfx/leaders/POR/POR_Duarte_Nuno.tga"
 	desc = "POLITICS_ANTONIO_RESENDE_DESC"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 	}
 }

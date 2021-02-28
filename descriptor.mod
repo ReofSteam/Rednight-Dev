@@ -1,6 +1,4 @@
 name="Dev Build - Rednight"
-path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/Krasnacht-Rednight"
-
 tags={
 	"Alternative History"
 	"Ideologies"
@@ -65,3 +63,6 @@ replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 replace_path="portraits"
+supported_version="1.10.1"
+path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/Krasnacht-Rednight"
+remote_file_id="2409908787"

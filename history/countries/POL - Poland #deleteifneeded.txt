@@ -35,7 +35,7 @@ set_popularities = {
 set_convoys = 10
 
 create_country_leader = {
-	name = "Władysław Sikorski"
+	name = "Wladyssaw Sikorski"
 	desc = "POLITICS_ROMAN_RYBARSKI_DESC"
 	picture = "gfx/leaders//POL/POL_General1.tga"
 	expire = "1965.1.1"
