@@ -20,6 +20,12 @@ ALB = {
 	color_ui = rgb { 228 30 32 }
 }
 
+SWA = {
+	color = rgb { 76 76 76 }
+	color_ui = rgb { 173 157 113 }
+}
+
+
 BHC = {
 	color = rgb { 196 72 82 }
 	color_ui = rgb { 228 30 32 }
