@@ -1,0 +1,111 @@
+﻿########
+# Templates
+########
+
+division_template = {
+    name = "Infantry Division"
+    divisions_name_group = USA_INF_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+    }
+
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+    name = "Milita Division"
+    divisions_name_group = USA_INF_01
+
+    regiments = {
+        	milita = { x = 0 y = 0 }
+		milita = { x = 1 y = 0 }
+		milita = { x = 2 y = 0 }
+		milita = { x = 0 y = 1 }
+		milita = { x = 0 y = 2 }
+    }
+	}
+
+division_template = {
+    name = "Marine Division"
+    divisions_name_group = USA_MAR_01
+
+    regiments = {
+        marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+    }
+}
+
+### Units ###
+
+units = {
+### Land ###
+
+    division = {
+		name = "7th Infantry Division"
+        location = 12463
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	
+	 division = {
+		name = "Missouri Constitutionalists"
+        location = 12463
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	
+	division = {
+		name = "Tennessee Constitutionalists"
+        location = 12501
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+	
+	division = {
+		name = "1st Marine Mutineers"
+        location = 12368
+        division_template = "Marine Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+
+	division = {
+		name = "Blair Mountain Partisan Milita"
+        location = 4627
+        division_template = "Milita Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+
+	division = {
+		name = "Front Range Partisan Milita"
+        location = 1827
+        division_template = "Milita Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+
+	division = {
+		name = "Bozeman Partisan Milita"
+        location = 1736
+        division_template = "Milita Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.5
+    }
+		
+}

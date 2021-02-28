@@ -80,7 +80,7 @@ units = {
 
 	division = {
 		name = "Garde nationale de Paris"
-		location = 3273
+		location = 11506
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}
