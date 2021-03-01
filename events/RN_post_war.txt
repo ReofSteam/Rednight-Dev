@@ -136,6 +136,7 @@ country_event = { #####Russia
 }
 	}
 	hidden_effect = {
+	country_event = postwar.6
 	TRM = {
 	transfer_state = 516
 	transfer_state = 576
@@ -185,5 +186,37 @@ country_event = { #####Russia
 	}
 	}
 	}
+}
+}
+
+country_event = { #####Russia 2
+	id = postwar.6
+    title = postwar.6.t
+    desc = postwar.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = postwar.6.a 
+		TRK = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}
+		KAZ = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}	
+		CAS = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}		
 }
 }
