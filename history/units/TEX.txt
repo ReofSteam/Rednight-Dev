@@ -1,4 +1,4 @@
-﻿########
+########
 # Templates
 ########
 
@@ -25,8 +25,8 @@ division_template = {
 
 
 division_template = {
-	name = "Partisan Division"
-	division_names_group = ENG_GAR_01
+	name = "Milita Division"
+	division_names_group = USA_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -39,6 +39,16 @@ division_template = {
 		militia = { x = 2 y = 2 }
 	}
 }
+
+division_template = {
+    name = "Marine Division"
+    divisions_name_group = USA_MAR_01
+
+    regiments = {
+        	marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+    }
 
 division_template = {
     name = "Mountain Division"
@@ -57,14 +67,26 @@ division_template = {
     }
 
 division_template = {
-    name = "Marine Division"
-    divisions_name_group = USA_MAR_01
+    name = "Armoured Division"
+    divisions_name_group = USA_ARM_01
 
     regiments = {
-        marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
+       		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 0 y = 4 }
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+
+	support = {
+	    artillery =  { x = 0 y = 0 }
+	    recon = { x = 0 y = 0 }
     }
+
+
 }
 
 ### Units ###
@@ -73,68 +95,44 @@ units = {
 ### Land ###
 
     division = {
-		name = "7th Infantry"
-        location = 12463
+		name = "26th 'Stillwell's Boys' Infantry"
+        location = 1738
         division_template = "Infantry Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
-	
-	 division = {
-		name = "35th Infantry"
-        location = 7834
+
+    division = {
+		name = "21st 'Dixie' Infantry"
+        location = 1559
         division_template = "Infantry Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
-	
-	division = {
-		name = "33rd Infantry"
-        location = 12497
+
+    division = {
+		name = "36st 'Arrowhead' Infantry"
+        location = 12489
         division_template = "Infantry Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "1st Marine 'Mutineers'"
-        location = 12368
-        division_template = "Marine Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 
 	division = {
-		name = "Blair Mountain Partisan Milita"
-        location = 4627
+		name = "'Tallahasee Legion' Milita"
+        location = 4535
         division_template = "Partisan Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 
 	division = {
-		name = "Front Range Partisan Milita"
-        location = 1827
-        division_template = "Partisan Division"
+		name = "'20th 'Pirate' Armoured"
+        location = 7904
+        division_template = "Armoured Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 
-	division = {
-		name = "Bozeman Partisan Milita"
-        location = 1736
-        division_template = "Partisan Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "10th Mountaineers"
-	location = 3869
-	division_template = "Mountain Divison"
-	start_experience_factor = 0.1
-	start_equipment_factor = 0.5
-	}
-	
-		
+
 }
