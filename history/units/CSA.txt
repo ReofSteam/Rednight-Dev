@@ -23,18 +23,22 @@ division_template = {
     }
 }
 
-division_template = {
-    name = "Milita Division"
-    divisions_name_group = USA_INF_01
 
-    regiments = {
-        	milita = { x = 0 y = 0 }
-		milita = { x = 1 y = 0 }
-		milita = { x = 2 y = 0 }
-		milita = { x = 0 y = 1 }
-		milita = { x = 0 y = 2 }
-    }
+division_template = {
+	name = "Partisan Division"
+	division_names_group = ENG_GAR_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
 	}
+}
 
 division_template = {
     name = "Marine Division"
@@ -85,25 +89,25 @@ units = {
     }
 
 	division = {
-		name = "Blair Mountain Partisan Milita"
+		name = "Blair Mountain Partisan Division"
         location = 4627
-        division_template = "Milita Division"
+        division_template = "Partisan Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 
 	division = {
-		name = "Front Range Partisan Milita"
+		name = "Front Range Partisan Division"
         location = 1827
-        division_template = "Milita Division"
+        division_template = "Partisan Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
 
 	division = {
-		name = "Bozeman Partisan Milita"
+		name = "Bozeman Partisan Division"
         location = 1736
-        division_template = "Milita Division"
+        division_template = "Partisan Division"
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }

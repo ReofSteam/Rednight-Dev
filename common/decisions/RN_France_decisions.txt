@@ -636,9 +636,13 @@ FRA_expand_boulevard_beaumarchais = {
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }
 }
-    days_remove = 15
+    days_remove = 70
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 70
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -653,6 +657,10 @@ FRA_abolish_monarchy_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -667,6 +675,10 @@ FRA_conspiracy_of_equals_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -681,6 +693,10 @@ FRA_robespierre_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -694,6 +710,10 @@ FRA_june_barricades_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -707,6 +727,10 @@ FRA_enlightenment_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -720,6 +744,10 @@ FRA_social_revolution_arch_statue = {
     days_remove = 15
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 15
+}
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -730,9 +758,13 @@ FRA_eternal_revolution_memorial = {
     available = { 
     NOT = { has_country_flag = FRA_avenue_in_construction 
 }}
-    days_remove = 15
+    days_remove = 70
 	complete_effect = {
 	set_country_flag = FRA_avenue_in_construction
+	add_timed_idea = {
+    idea = FRA_grandeur_construction
+    days = 70
+}	
 }	
     remove_effect = {
 	clr_country_flag = FRA_avenue_in_construction
@@ -831,12 +863,12 @@ FRA_seinne_parks_rennovation = {
     available = { 
     NOT = { has_country_flag = FRA_palace_in_construction 
 }}
-    days_remove = 15
+    days_remove = 30
 	complete_effect = {
 	set_country_flag = FRA_palace_in_construction
 	add_timed_idea = {
     idea = FRA_grandeur_construction
-    days = 15
+    days = 30
 }
 }	
     remove_effect = {

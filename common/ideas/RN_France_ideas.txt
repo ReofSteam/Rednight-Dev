@@ -57,7 +57,7 @@ ideas = {
 			allowed = { always = no }
 			picture = FRA_falling_civilian_economy
 			modifier = {
-				political_power_gain = - 1
+				political_power_gain = -1
 				consumer_goods_factor = 0.40
 				
 			}
@@ -68,7 +68,7 @@ ideas = {
 			allowed = { always = no }
 			picture = FRA_falling_civilian_economy
 			modifier = {
-				political_power_gain = - 1
+				political_power_gain = -1
 				stability_factor = -2
 				
 			}
@@ -113,7 +113,7 @@ hidden_ideas = {
            political_power_gain = -1
 		   stability_factor = -0.4
 		   production_speed_industrial_complex_factor = -0.35
-		   consumer_goods_factor = 0.3
+		   consumer_goods_factor = 0.15
 		   stability_weekly_factor = -0.5
 		   industrial_capacity_factory = -0.2
            }
