@@ -87,135 +87,135 @@ units = {
 	
 	division = {
 		name = "Garde nationale de Toulon et Marseille"
-		location = 3273
+		location = 911
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}	
 	
 	division = {
 		name = "Garde nationale de Bretagne"
-		location = 3273
+		location = 3552
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}	
 	
 	division = {
 		name = "Garde nationale de Languedoc"
-		location = 3273
+		location = 9748
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}	
 		division = {
-		name = "Garde nationale de Languedoc"
-		location = 3273
+		name = "Garde nationale de Ocitan"
+		location = 6766
 		division_template = "Division de la Garde nationale"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "11e Division"
-		location = 3273
+		location = 11483
 		division_template = "Division de chars de combat"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "7e Division"
-		location = 3273
+		location = 3546
 		division_template = "Division de chars de combat"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "5e Division"
-		location = 3273
+		location = 9559
 		division_template = "Division de chars de combat"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "5e Division"
-		location = 3273
+		location = 9503
 		division_template = "Division de chars de combat"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "10e Division Parachutiste"
-		location = 3273
+		location = 3589
 		division_template = "Division Parachutiste"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "9e Division Parachutiste de Marine"
-		location = 3273
+		location = 6449
 		division_template = "Division Parachutiste"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "11e Division Parachutiste"
-		location = 3273
+		location = 454
 		division_template = "Division Parachutiste"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "25e Division Parachutiste"
-		location = 3273
+		location = 9534
 		division_template = "Division Parachutiste"
 		start_experience_factor = 0.1
 	}
 		division = {
 		name = "24e Division Parachutiste"
-		location = 3273
+		location = 9658
 		division_template = "Division Parachutiste"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "12e Division d'infanterie"
-		location = 3273
+		location = 9503
 		division_template = "Division d'infanterie"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "14e Division d'infanterie"
-		location = 3273
+		location = 9898
 		division_template = "Division d'infanterie"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "15e Division d'infanterie"
-		location = 3273
+		location = 3928
 		division_template = "Division d'infanterie"
 		start_experience_factor = 0.1
 	}		
 		division = {
 		name = "109e Division d'infanterie"
-		location = 3273
+		location = 9853
 		division_template = "Division d'infanterie"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "152e Division d'infanterie"
-		location = 3273
+		location = 9472
 		division_template = "Division d'infanterie"
 		start_experience_factor = 0.1
 	}	
 		division = {
 		name = "6e Division Légère Blindée"
-		location = 3273
+		location = 512
 		division_template = "Division légère blindée"
 		start_experience_factor = 0.1
 	}			
 		division = {
 		name = "6e Division Légère Blindée"
-		location = 3273
+		location = 6644
 		division_template = "Division légère blindée"
 		start_experience_factor = 0.1
 	}			
 		division = {
 		name = "12e Division Légère Blindée"
-		location = 3273
+		location = 620
 		division_template = "Division légère blindée"
 		start_experience_factor = 0.1
 	}
 		division = {
 		name = "14e Division Légère Blindée"
-		location = 3273
+		location = 641
 		division_template = "Division légère blindée"
 		start_experience_factor = 0.1
 	}					

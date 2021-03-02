@@ -18,7 +18,6 @@ RUS_Vsevolod_Merkulov
 }
 
 oob = "RUS"
-set_naval_oob = "RUS_Naval"
 
 set_research_slots = 5
 
