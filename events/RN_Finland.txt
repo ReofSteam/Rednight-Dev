@@ -15,6 +15,10 @@ country_event = { #Begins the Rebellion
 	
 	option = {
 		name = fin.1.a
+		country_event = {
+		id = fin.8
+		days = 1
+		}
 		load_oob = "FIN_secret_army"
 	add_equipment_to_stockpile = {
     type = infantry_equipment
@@ -32,6 +36,20 @@ country_event = { #Begins the Rebellion
 }
 add_political_power = 300
 
+	}
+}
+
+country_event = { #Rebellion starting intro 
+	id = fin.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event fin.8"}
+	title = fin.8.t
+	desc = fin.8.d
+	is_triggered_only = yes
+	picture = GFX_FIN_raising_flag	
+	fire_only_once = yes
+	
+	option = {
+	name = fin.8.a
 	add_timed_idea = {
     idea = FIN_national_revolution
     days = 130
@@ -69,11 +87,16 @@ country_event = { #Begins the Rebellion - Russian side
 	immediate = {log = "[GetDateText]: [Root.GetName]: event fin.3"}
 	title = fin.3.t
 	desc = fin.3.d
+	picture = GFX_soldiers_snow	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
 	name = fin.3.a
+	country_event = {
+	id = fin.7
+	days = 1
+	}
 	load_oob = "RUS_finland"
 	add_equipment_to_stockpile = {
     type = infantry_equipment
@@ -81,13 +104,28 @@ country_event = { #Begins the Rebellion - Russian side
     producer = RUS
 }	
 add_manpower = 95000
+	}
+}
+
+country_event = { #Russian Side: Rebellion starting intro 
+	id = fin.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event fin.7"}
+	title = fin.7.t
+	desc = fin.7.d
+	picture = GFX_soldiers_snow		
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = fin.7.a
+	kill_sergey_taboritsky = yes
 	add_timed_idea = {
     idea = RFN_finnish_rebellion
     days = 130
 }
-    kill_sergey_taboritsky = yes
 	}
 }
+
 
 country_event = { #Liberation of Helsinki - 2 #Proclaimation of the Provisional Government
 	id = fin.4

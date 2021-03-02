@@ -31,6 +31,10 @@ spriteTypes = {
 		name = "GFX_star_medal"
 		texturefile = "gfx/event_pictures/star_medal.dds"
 	}	
+		spriteType = { 
+		name = "GFX_soldiers_snow"
+		texturefile = "gfx/event_pictures/soldiers_snow.dds"
+	}	
 
 	###Germany
 	spriteType = { 
@@ -126,6 +130,7 @@ spriteTypes = {
 		name = "GFX_RUS_wrangel"
 		texturefile = "gfx/event_pictures/RUS_wrangel.dds"
 	}
+	
 
     ###########Ireland
 	
@@ -138,6 +143,11 @@ spriteTypes = {
 		name = "GFX_CSA_cia_summary"
 		texturefile = "gfx/event_pictures/CSA_cia_summary.dds"
 	}	
+########Finland
+		spriteType = { 
+		name = "GFX_FIN_raising_flag"
+		texturefile = "gfx/event_pictures/FIN_raising_the_flag.dds"
+	}		
 	###############
 	###   NEWS  ###
 	###############
