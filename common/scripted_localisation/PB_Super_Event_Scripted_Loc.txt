@@ -16,10 +16,28 @@ defined_text = { #SUPER EVENT TITLES
     }
     text = { 
         trigger = {
+            has_country_flag = RUS_anti_russia_revolt
+        }
+        localization_key = "SPEVNT_RUS_anti_russia_revolt"
+    }		
+    text = { 
+        trigger = {
             has_country_flag = INC_indochinese_war
         }
         localization_key = "SPEVNT_INC_indochinese_war"
     }	
+    text = { 
+        trigger = {
+            has_country_flag = FRA_may_pustch
+        }
+        localization_key = "SPEVNT_FRA_may_pustch"
+    }		
+    text = { 
+        trigger = {
+            has_country_flag = America_first_day_of_peace
+        }
+        localization_key = "SPEVNT_America_first_day_of_peace"
+    }		
 }
 
 defined_text = { #SUPER EVENT photo
@@ -42,6 +60,24 @@ defined_text = { #SUPER EVENT photo
             has_country_flag = INC_indochinese_war
         }
         localization_key = "GFX_INC_indochinese_war"
+    }		
+    text = { 
+        trigger = {
+            has_country_flag = FRA_may_pustch
+        }
+        localization_key = "GFX_FRA_superevent_may_pustch"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = America_first_day_of_peace
+        }
+        localization_key = "GFX_American_peace"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = RUS_anti_russia_revolt
+        }
+        localization_key = "GFX_RUS_anti_russia_revolt"
     }		
 
 }
