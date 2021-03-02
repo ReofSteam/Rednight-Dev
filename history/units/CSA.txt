@@ -68,10 +68,10 @@ division_template = {
     }
 }
 
+
 ### Units ###
 
 units = {
-### Land ###
 
     division = {
 		name = "7th Infantry"

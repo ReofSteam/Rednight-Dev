@@ -23,10 +23,9 @@ division_template = {
     }
 }
 
-
 division_template = {
-	name = "Milita Division"
-	division_names_group = USA_INF_01
+	name = "Partisan Division"
+	division_names_group = ENG_GAR_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -40,6 +39,7 @@ division_template = {
 	}
 }
 
+
 division_template = {
     name = "Marine Division"
     divisions_name_group = USA_MAR_01
@@ -49,6 +49,7 @@ division_template = {
 		marine = { x = 0 y = 1 }
 		marine = { x = 0 y = 2 }
     }
+	}
 
 division_template = {
     name = "Mountain Division"
@@ -60,12 +61,13 @@ division_template = {
 		mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 2 y = 0 }
+		}
 
 	support = {
 	    engineer =  { x = 0 y = 0 }
 	    artillery = { x = 0 y = 0 }
     }
-
+}
 division_template = {
     name = "Armoured Division"
     divisions_name_group = USA_ARM_01
@@ -86,13 +88,11 @@ division_template = {
 	    recon = { x = 0 y = 0 }
     }
 
-
 }
-
+}
 ### Units ###
 
 units = {
-### Land ###
 
     division = {
 		name = "26th 'Stillwell's Boys' Infantry"
@@ -133,6 +133,5 @@ units = {
         start_experience_factor = 0.1
         start_equipment_factor = 0.5
     }
-
 
 }
