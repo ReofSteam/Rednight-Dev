@@ -788,6 +788,8 @@ country_event = {
 	
 	}
 }
+
+
 ######Stuttgart Conference
 
 
@@ -825,6 +827,32 @@ country_event = {
 		name = fra.55.b
 		}	
 	}
+
+####Coalition of Hope Satre Stuff
+country_event = {
+	id = fra.56
+	title = fra.56.t
+	desc = fra.56.d
+	picture = GFX_FRA_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.56.a
+		}
+
+country_event = {
+	id = fra.57
+	title = fra.57.t
+	desc = fra.57.d
+	picture = GFX_FRA_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.57.a
+		}
+}
 
 #######Nuclear
 
