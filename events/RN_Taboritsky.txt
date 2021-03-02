@@ -9,6 +9,7 @@ country_event = {
 	id = rustabby.1 #Secret Army
     title = rustabby.1.t
     desc = rustabby.1.d
+	picture = GFX_soldiers_snow		
 	is_triggered_only = yes
 	fire_only_once = yes
 	

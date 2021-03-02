@@ -36,6 +36,15 @@ spriteTypes = {
     	pause_on_loop = 0.0
 	}	
 	
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_blank"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/blank.tga"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}	
+	
 	###############
 	### Scenarios ###
 	###############
@@ -138,14 +147,27 @@ spriteTypes = {
 	name = "GFX_putschpic"
 	texturefile = "gfx/interface/putschpic.dds"
 	}	
+#########Super Event	
 	spriteType = {
-	name = "GFX_theater_of_events"
-	texturefile = "gfx/super_events/theater_of_events.tga"
+	name = "GFX_superevent_frame"
+	texturefile = "gfx/super_events/supereventframe.tga"
 	}		
 	spriteType = {
-	name = "GFX_newsreel_paper"
-	texturefile = "gfx/super_events/newsreel_paper.tga"
+	name = "GFX_frame_magazine"
+	texturefile = "gfx/super_events/supereventmagzineframe.tga"
+	}	
+	spriteType = {
+	name = "GFX_RUS_finnish_rebellion"
+	texturefile = "gfx/super_events/RUS_finnish_war.tga"
+	}		
+	spriteType = {
+	name = "GFX_GER_werewolf_rising"
+	texturefile = "gfx/super_events/GER_werewolf_rising.tga"
 	}			
+	spriteType = {
+	name = "GFX_INC_indochinese_war"
+	texturefile = "gfx/super_events/INC_indochinese_war.tga"
+	}				
 ##########MARPAC Menu##########	
 	spriteType = {
 	name = "GFX_marpac_button"

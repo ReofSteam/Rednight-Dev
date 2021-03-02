@@ -24,16 +24,28 @@ kill_sergey_taboritsky = {
 hidden_effect = {
 random_list = {
     25 = {
-    country_event = rustabby.1
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
     }
     25 = {
-    country_event = rustabby.1
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
     }
     25 = {
-    country_event = rustabby.1
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
     }
     25 = {
-    country_event = rustabby.1
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
     }
 }
 }
