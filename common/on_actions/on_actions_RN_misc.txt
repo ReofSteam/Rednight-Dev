@@ -24,6 +24,13 @@ on_actions = {
 	set_country_flag = show_intro_menu
 	}
     } 
-	}		
+	}	
+    on_startup = { #####News Year Peace 
+	effect = {
+	CSA = {
+	news_event = worldnews.3
+	}
+    } 
+	}	
 }
 

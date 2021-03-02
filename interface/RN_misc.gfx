@@ -161,13 +161,25 @@ spriteTypes = {
 	texturefile = "gfx/super_events/RUS_finnish_war.tga"
 	}		
 	spriteType = {
+	name = "GFX_RUS_anti_russia_revolt"
+	texturefile = "gfx/super_events/RUS_anti_russia_revolt.tga"
+	}				
+	spriteType = {
 	name = "GFX_GER_werewolf_rising"
 	texturefile = "gfx/super_events/GER_werewolf_rising.tga"
 	}			
 	spriteType = {
 	name = "GFX_INC_indochinese_war"
 	texturefile = "gfx/super_events/INC_indochinese_war.tga"
-	}				
+	}	
+	spriteType = {
+	name = "GFX_FRA_superevent_may_pustch"
+	texturefile = "gfx/super_events/FRA_may_pustch.tga"
+	}		
+	spriteType = {
+	name = "GFX_American_peace"
+	texturefile = "gfx/super_events/American_peace.tga"
+	}			
 ##########MARPAC Menu##########	
 	spriteType = {
 	name = "GFX_marpac_button"

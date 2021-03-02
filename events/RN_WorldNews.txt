@@ -54,8 +54,36 @@ news_event = { #New Year Peace
 
 
 	option = {
+	trigger = {
+	NOT = {
+	original_tag = CAL
+	original_tag = CSA
+	original_tag = WCN
+	original_tag = QUE
+	original_tag = CAN
+	}}
 		name = worldnews.3.a
 	}
+	option = {
+	trigger = {
+	OR = {
+	original_tag = CAN
+	original_tag = WCN
+	original_tag = QUE
+	}}
+		name = worldnews.3.b
+	}	
+	option = {
+	trigger = {
+	OR = {
+	original_tag = CAL
+	original_tag = CSA
+	}}
+		name = worldnews.3.b
+	set_country_flag = Super_Event_Visible
+	set_country_flag = America_first_day_of_peace
+	
+	}	
 }
 
 
