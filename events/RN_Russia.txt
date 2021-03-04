@@ -201,61 +201,17 @@ add_named_threat = {
 	}
 }
 
-country_event = { #Finnish rebels victory
+country_event = { #Treaty of Warsaw - Finns Won
 	id = rus.25
 	title = rus.25.t
 	desc = rus.25.d
 	picture = GFX_rebel_1
 	fire_only_once = yes
 	is_triggered_only = yes
-	trigger = { 
-	AND = {
-	original_tag = RUS
-    has_global_flag = RUS_great_rebellion_FIN
-	FIN = { exists = yes }
-    RFN = { exists = yes }
-}
-}
 	option = {
 	name = rus.25.a
-	trigger = {
-	FIN = {
-controls_state = 840
-controls_state = 149
-controls_state = 864
-controls_state = 863
-}}
-	clr_global_flag = RUS_great_rebellion_FIN
-	clr_country_flag = RUS_great_rebellion_FIN
-white_peace = FIN	
-set_country_flag = RFN_defeated
-	FIN = {country_event = { 
-	id = fin.6
-	days = 2
-	}}
-	}
-	option = {
-	trigger = { 
-	NOT = {
-	FIN = {
-controls_state = 840
-controls_state = 149
-controls_state = 864
-controls_state = 863
-}
 	}
 }	
-	name = rus.25.b
-	clr_global_flag = RUS_great_rebellion_FIN
-	clr_country_flag = RUS_great_rebellion_FIN
-white_peace = FIN	
-set_country_flag = RFN_undefeated
-	FIN = {country_event = { 
-	id = fin.6
-	days = 2
-	}}
-	}	
-}
 country_event = { #Troops Reinforcement - Great Revolt
 	id = rus.26
 	title = rus.26.t
@@ -297,16 +253,16 @@ country_event = { #Warsaw Conference
 	is_triggered_only = yes
 
 	option = { 
-	trigger = { has_country_flag = RFN_defeated }
-	set_country_flag = RUS_lost_territory
 	name = rus.28.a	
-transfer_state = 146	
+    RFN = { country_event = fin.12 }
+	add_political_power = -100
 	}
 	option = {
-	trigger = { has_country_flag = RFN_undefeated }
 	name = rus.28.b	
     puppet = RFN
-	RFN = { country_event = fin.7}
+	add_political_power = -50
+	RFN = { country_event = fin.10}
+	FIN = { country_event = fin.11}
 	
 }	
 }

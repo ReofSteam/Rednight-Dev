@@ -633,67 +633,77 @@ country_event = {
 	}
 }
 
+######Stuttgart Conference
+
 
 country_event = {
-	id = fra.23 ##PARDAN 1
-	title = fra.23.t
-	desc = fra.23.d
-	picture = FRA_pardan
+	id = fra.20
+	title = fra.20.t
+	desc = fra.20.d
+	picture = GFX_anti_military_protest
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
-		name = fra.23.a
+		name = fra.20.a
+	country_event = { 
+	id = fra.21
+	days = 2
+}	
+	
 	}
 }
+
 country_event = {
-	id = fra.24 ##PARDAN 0
-	title = fra.24.t
-	desc = fra.24.d
-	picture = RUS_nuke
+	id = fra.21
+	title = fra.21.t
+	desc = fra.21.d
+	picture = GFX_anti_military_protest
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	option = {
-		name = fra.24.a
-		set_global_flag = PARDAN_0_international
+		name = fra.21.a
+	country_event = { 
+	id = fra.22
+	days = 2
+}	
 	}
 }
+
 country_event = {
-	id = fra.25 ##PARDAN FOUR
+	id = fra.22
+	title = fra.22.t
+	desc = fra.22.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.22.a
+
+	}
+}
+
+#####Rapallo Conference
+
+country_event = {
+	id = fra.25
 	title = fra.25.t
 	desc = fra.25.d
-	picture = FRA_pardan
+	picture = GFX_FRA_protest
 
 	is_triggered_only = yes
 
 	option = {
 		name = fra.25.a
-	}
-}
-country_event = {
-	id = fra.26 ##PARDAN THREE
-	title = fra.26.t
-	desc = fra.26.d
-	picture = FRA_pardan
-
-	is_triggered_only = yes
-
+		}	
 	option = {
-		name = fra.26.a
-	}
-}
-country_event = {
-	id = fra.27 ##PARDAN TWO
-	title = fra.27.t
-	desc = fra.27.d
-	picture = FRA_pardan
-
-	is_triggered_only = yes
-
-	option = {
-		name = fra.27.a
-	}
+		name = fra.25.b
+		}	
 }
 
 
@@ -788,43 +798,7 @@ country_event = {
 	
 	}
 }
-######Stuttgart Conference
 
-
-country_event = {
-	id = fra.54
-	title = fra.54.t
-	desc = fra.54.d
-	picture = GFX_anti_military_protest
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = fra.54.a
-	country_event = fra.55
-	days = 2 
-	
-	}
-}
-
-#####Rapallo Conference
-
-country_event = {
-	id = fra.55
-	title = fra.55.t
-	desc = fra.55.d
-	picture = GFX_FRA_protest
-
-	is_triggered_only = yes
-
-	option = {
-		name = fra.55.a
-		}	
-	option = {
-		name = fra.55.b
-		}	
-	}
 
 #######Nuclear
 
@@ -887,4 +861,67 @@ country_event = {
 	
 	}
 }
+country_event = {
+	id = fra.104 ##PARDAN 1
+	title = fra.23.t
+	desc = fra.23.d
+	picture = FRA_pardan
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.23.a
+	}
+}
+country_event = {
+	id = fra.105 ##PARDAN 0
+	title = fra.24.t
+	desc = fra.24.d
+	picture = RUS_nuke
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.24.a
+		set_global_flag = PARDAN_0_international
+	}
+}
+country_event = {
+	id = fra.106 ##PARDAN FIVE
+	title = fra.25.t
+	desc = fra.25.d
+	picture = FRA_pardan
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.25.a
+	}
+}
+country_event = {
+	id = fra.107 ##PARDAN THREE
+	title = fra.26.t
+	desc = fra.26.d
+	picture = FRA_pardan
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.26.a
+	}
+}
+country_event = {
+	id = fra.108 ##PARDAN TWO
+	title = fra.27.t
+	desc = fra.27.d
+	picture = FRA_pardan
+
+	is_triggered_only = yes
+
+	option = {
+		name = fra.27.a
+	}
+}
+
+
 

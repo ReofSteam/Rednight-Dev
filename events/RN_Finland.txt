@@ -123,6 +123,9 @@ country_event = { #Russian Side: Rebellion starting intro
     idea = RFN_finnish_rebellion
     days = 130
 }
+    hidden_effect = {
+	country_event = { id = fin.15 days = 130 }
+	}
 	}
 }
 
@@ -225,6 +228,47 @@ fire_only_once = yes
 		RUS = { country_event = rus.28
 		days = 2
 	}}
+	option = {
+		name = fin.6.b 
+	    add_ideas = FIN_choking_rebellion
+		declare_war_on = {
+        target = RFN
+        type = annex_everything
+}
+    }	
 }
 
-
+country_event = { #Finnish partial rebels victory check RFN
+	id = fin.15
+	title = fin.15.t
+	desc = fin.15.d
+	picture = GFX_rebel_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = { 
+	AND = {
+    has_global_flag = RUS_great_rebellion_FIN
+	FIN = { exists = yes }
+    RFN = { controls_state = 840 }
+	FIN = {
+controls_state = 149
+controls_state = 864
+controls_state = 863
+}	
+}
+}
+	option = {
+	name = fin.15.a
+	clr_global_flag = RUS_great_rebellion_FIN
+	clr_country_flag = RUS_great_rebellion_FIN
+    set_truce = {
+    target = FIN
+    days = 30
+}
+set_country_flag = RFN_defeated
+	FIN = { country_event = { 
+	id = fin.6
+	days = 2
+	}}
+	}	
+}
