@@ -260,6 +260,10 @@ initial_show_position = {
 		ai_will_do = {
 			factor = 1
 		}
+	completion_reward = {
+	country_event = { id = fra.56 days = 2 }
+	country_event = { id = fra.57 days = 4 }
+	}
 	}
 
 	#Focus for War against the Bureaucracy
