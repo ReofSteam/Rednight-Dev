@@ -255,7 +255,7 @@ country_event = { #Warsaw Conference
 	option = { 
 	name = rus.28.a	
     RFN = { country_event = fin.12 }
-	add_political_power = -100
+	add_political_power = -200
 	}
 	option = {
 	name = rus.28.b	
