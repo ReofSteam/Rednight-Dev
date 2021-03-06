@@ -58,8 +58,8 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Aksel Airo"
 	portrait_path = "gfx/leaders/FIN/FIN_Aksel_Airo.tga"
-	traits = { winter_specialist commando }
-	skill = 4
+	traits = { winter_specialist }
+	skill = 3
     attack_skill = 2
     defense_skill = 4
     planning_skill = 4
@@ -67,15 +67,38 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Ruben Lagus"
+	portrait_path = "gfx/leaders/FIN/FIN_Lagus.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Hugo Österman"
 	portrait_path = "gfx/leaders/FIN/FIN_Osterman.tga"
-	traits = { winter_specialist }
+	traits = { }
 	skill = 2
     attack_skill = 1
     defense_skill = 3
     planning_skill = 4
     logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Erkki Raappana"
+	portrait_path = "gfx/leaders/FIN/FIN_Raappana.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
 
 create_corps_commander = {
 	name = "Matti Aarnio"
@@ -91,10 +114,32 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Hjalmar Siilasvuo"
 	portrait_path = "gfx/leaders/FIN/FIN_Siilasvuo.tga"
-	traits = { winter_specialist }
+	traits = { }
 	skill = 2
     attack_skill = 4
     defense_skill = 1
     planning_skill = 2
     logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Olavi Laiho"
+	portrait_path = "gfx/leaders/FIN/FIN_Laiho.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Veikko Pöysti"
+	portrait_path = "gfx/leaders/FIN/FIN_Poysti.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 4
 }
