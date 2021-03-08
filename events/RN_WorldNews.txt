@@ -305,3 +305,34 @@ news_event = { #The New Order
 		name = worldnews.13.a
 	}
 }
+
+news_event = { #Finland independence
+	id = worldnews.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.14" }
+
+	title = worldnews.t
+	desc = worldnews.14.d
+	picture = GFX_news_FIN_first_republic
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+	trigger = {
+	original_tag = RUS
+}
+		name = worldnews.14.a
+	}
+	
+	option = {
+	trigger = {
+	NOT = {
+	original_tag = RUS
+}
+}
+		name = worldnews.14.b
+	}	
+}

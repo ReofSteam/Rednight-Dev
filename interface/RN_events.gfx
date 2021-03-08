@@ -130,6 +130,10 @@ spriteTypes = {
 		name = "GFX_RUS_wrangel"
 		texturefile = "gfx/event_pictures/RUS_wrangel.dds"
 	}
+	spriteType = { 
+		name = "GFX_news_RUS_solider_entry"
+		texturefile = "gfx/event_pictures/RUS_soldiers_entry.dds"
+	}			
 	
 
     ###########Ireland
@@ -169,6 +173,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_IRE_Collins_death.dds"
 	}		
 		spriteType = { 
+		name = "GFX_news_FIN_first_republic"
+		texturefile = "gfx/event_pictures/news_FIN_restoration.dds"
+	}			
+		spriteType = { 
 		name = "GFX_news_GER_werewolves_rising"
 		texturefile = "gfx/event_pictures/news_GER_werewolves_rising.dds"
 	}	
@@ -201,10 +209,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/RUS_blockade.dds"
 	}	
 	spriteType = { 
-		name = "RUS_blockade"
-		texturefile = "gfx/event_pictures/RUS_blockade.dds"
-	}
-	spriteType = { 
 		name = "PRU_intervene"
 		texturefile = "gfx/event_pictures/PRU_intervene.dds"
 	}	
@@ -223,6 +227,11 @@ spriteTypes = {
 	spriteType = { 
 		name = "FRA_cast"
 		texturefile = "gfx/event_pictures/FRA_cast.tga"
-	}						
+	}	
+	
+	spriteType = { 
+		name = "GFX_news_RUS_victory"
+		texturefile = "gfx/event_pictures/news_russian_victory.dds"
+	}		
 		
 }

@@ -44,9 +44,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Osvaldo Aranha"
+	name = "Getulio Vargas"
 	desc = "POLITICS_Osvaldo_Aranha_DESC"
-	picture = "gfx/leaders/BRA/aranha.dds"
+	picture = "gfx/leaders/BRA/BRA_vargas.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {

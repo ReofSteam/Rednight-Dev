@@ -779,7 +779,7 @@ initial_show_position = {
 	}
 		
 		bypass = {
-		date > 1950.06.01
+		date > 1950.06.15
 	}
 
 		available_if_capitulated = yes
@@ -803,6 +803,7 @@ initial_show_position = {
 			focus = FRA_the_story_of_our_nation 
 		}
 		completion_reward = {
+		add_political_power = 25
 		country_event = fra.18
 		}
 		ai_will_do = {

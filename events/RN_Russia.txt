@@ -396,10 +396,11 @@ country_event = { #Victory against Finnish Rebels
 	id = rus.34
 	title = rus.34.t
 	desc = rus.34.d
-	picture = GFX_rebel_1
+	picture = GFX_news_RUS_solider_entry
 	is_triggered_only = yes
 
 	option = {
+	name = rus.34.a
 	clr_country_flag = RUS_great_rebellion_FIN
 	clr_global_flag = RUS_great_rebellion_FIN
 	set_country_flag = RFN_undefeated
