@@ -336,3 +336,34 @@ news_event = { #Finland independence
 		name = worldnews.14.b
 	}	
 }
+
+news_event = { #Finland Autonomy
+	id = worldnews.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.15" }
+
+	title = worldnews.t
+	desc = worldnews.15.d
+	picture = GFX_news_RUS_victory
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+	trigger = {
+	original_tag = RUS
+}
+		name = worldnews.15.a
+	}
+	
+	option = {
+	trigger = {
+	NOT = {
+	original_tag = RUS
+}
+}
+		name = worldnews.15.b
+	}	
+}

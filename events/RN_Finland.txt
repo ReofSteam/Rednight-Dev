@@ -234,7 +234,9 @@ fire_only_once = yes
 	}
 	option = {
 		name = fin.6.b 
-	    add_ideas = FIN_choking_rebellion
+	    add_timed_idea = {
+		idea = FIN_choking_rebellion
+		days = 30 }
 		declare_war_on = {
         target = RFN
         type = annex_everything
@@ -360,10 +362,34 @@ controls_state = 863
     target = FIN
     days = 30
 }
-set_country_flag = RFN_defeated
+set_country_flag = RFN_undefeated
 	FIN = { country_event = { 
 	id = fin.6
 	days = 2
+	}}
+	}	
+}
+
+country_event = { #Finnish last charge
+	id = fin.16
+	title = fin.16.t
+	desc = fin.16.d
+	picture = GFX_rebel_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = { 
+	AND = {
+    has_global_flag = RUS_great_rebellion_FIN
+	FIN = { exists = yes }
+    RFN = { controls_state = 840 }
+	} 
+	}
+	option = {
+	name = fin.16.a
+	add_ideas = FIN_no_more_supply
+	RFN = { country_event = { 
+	id = fin.17
+	days = 1
 	}}
 	}	
 }

@@ -147,6 +147,14 @@ spriteTypes = {
 		name = "GFX_idea_FIN_national_revolution"
 		texturefile = "gfx/interface/ideas/FIN/FIN_national_revolution.dds"
 	}
+		spriteType = {
+		name = "GFX_idea_FIN_choking_rebellion"
+		texturefile = "gfx/interface/ideas/FIN/FIN_supply_dry.tga"
+	}
+		spriteType = {
+		name = "GFX_idea_FIN_last_stand"
+		texturefile = "gfx/interface/ideas/FIN/FIN_no_supply.tga"
+	}	
 ###Ukraine
 		spriteType = {
 		name = "GFX_idea_UKR_national_revolution"
