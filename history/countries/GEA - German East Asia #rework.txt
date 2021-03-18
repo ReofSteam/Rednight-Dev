@@ -1,4 +1,4 @@
-﻿capital = 327
+﻿capital = 647
 
 oob = "GEA"
 
@@ -20,7 +20,7 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = autocratic
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -32,22 +32,21 @@ set_popularities = {
 	moderate_socialist = 0
 	social_democrat = 0
 	social_liberal = 0
-	social_conservative = 0
-	authoritarian_democrat = 100
-	autocratic = 0
+	social_conservative = 20
+	authoritarian_democrat = 20
+	autocratic = 60
 	ultraconservative = 0
 	national_corporatist = 0
 }
 
 
-###gfx/leaders/OCEANIA/GEA/
 
 create_country_leader = {
-	name = "Felix von Luckner"
+	name = "Max-Hermann Bauer"
 	desc = "POLITICS_HENRY_MEWS_DESC"
-	picture = "gfx/leaders/"
+	picture = "gfx/leaders/GEA/Max_Bauer.tga"
 	expire = "1966.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = autocratic_subtype
 	traits = {
 
 	}

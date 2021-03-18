@@ -1,26 +1,4 @@
 defined_text = { # Country
-	name = GetPhalanstereName
-	text = {
-		trigger = { tag = INT }
-		localization_key = KR_phalanstere_name_INT
-	}
-	text = {
-		localization_key = KR_phalanstere_name
-	}
-}
-
-defined_text = { # Country
-	name = GetPhalanstereDesc
-	text = {
-		trigger = { tag = INT }
-		localization_key = KR_phalanstere_desc_INT
-	}
-	text = {
-		localization_key = KR_phalanstere_desc
-	}
-}
-
-defined_text = { # Country
 	name = cherGetPutschPortrait
 	text = {
 		trigger = { has_country_flag = cherb_putscihsts_pacified }
@@ -76,3 +54,26 @@ defined_text = { # Country
 	}
 }
 
+
+############Faction 
+defined_text = { # Country
+	name = GetFraJacobinFaction
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_coalition_de_lespoir } 
+		}
+		localization_key = "GFX_FRA_jacobin_reformists"
+	}
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_the_new_path } 
+		}
+		localization_key = "GFX_FRA_jacobin_party_old_guard"
+	}
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_89_rveille } 
+		}
+		localization_key = "GFX_FRA_jacobin_party_89"
+	}	
+}

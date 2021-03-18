@@ -799,6 +799,50 @@ country_event = {
 	}
 }
 
+country_event = {  ####The Trial of Henri Martin
+	id = fra.54
+	title = fra.54.t
+	desc = fra.54.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.54.a
+	
+	}
+}
+
+country_event = {  ####The Trial of Henri Martin: Decision
+	id = fra.55
+	title = fra.55.t
+	desc = fra.55.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.55.a
+		complete_national_focus = FRA_hes_innocent
+		if = {
+		limit = { has_country_flag = Pustch_military_influence }
+		custom_effect_tooltip = fraeightynine_tt
+		else = { 
+		custom_effect_tooltip = frahope_tt
+		unlock_national_focus = FRA_coalition_de_lespoir
+		}
+		}
+	
+	}
+	option = {
+		name = fra.55.b
+		complete_national_focus = FRA_guilty_against_france
+	
+	}	
+}
+
 
 #######Nuclear
 

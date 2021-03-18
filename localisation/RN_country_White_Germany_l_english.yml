@@ -9,29 +9,32 @@
 ### Decision ####
 
 ### Party Names ###
+PRS_nationalist_socialism_party:0 "PRFT - Les Quatre-vingts Neuvième"
+PRS_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
+PRS_revolutionary_socialism_party:0 "PRFT - Vieille Garde"
+PRS_revolutionary_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
+PRS_syndicalism_party:0 "Travailleurs radicaux"
+PRS_syndicalism_party_long:0 "Parti des socialistes et syndicalistes  - Socialist and Syndicalist Party"
+PRS_moderate_socialist_party:0 "Républicains radicaux et démocrates"
+PRS_moderate_socialist_party_long:0 "Radical Republicans and Democrats"
+PRS_social_democrat_party:0 "Républicains radicaux et démocrates"
+PRS_social_democrat_party_long:0 "Radical Republicans and Democrats"
+PRS_social_liberal_party:0 "Radical Républicain de Gauche"
+PRS_social_liberal_party_long:0 "Radical Republicain Left"
+PRS_social_conservative_party:0 "RNR"
+PRS_social_conservative_party_long:0 "Rassemblement national des républicains - National Rally of Republicains"
+PRS_authoritarian_democrat_party:0 "National Defense Junta"
+PRS_authoritarian_democrat_party_long:0 "Organisation secrète d'action révolutionnaire"
+PRS_autocratic_party:0 "National Defense Junta"
+PRS_autocratic_party_long:0 "Organisation secrète d'action révolutionnaire - Secret Revolutionary Action Organisation"
+PRS_ultraconservative_party:0 "Action Française"
+PRS_ultraconservative_party_long:0 "French Action"
 PRS_national_corporatist_party:0 "National Defense Junta"
-PRS_national_corporatist_party_long:0 "Kommunistische Partei Deutschlands (Zentralistisch)"
-PRS_marxist_party:0 "KPD - Communist Party of Germany (Orthodox)"
-PRS_marxist_party_long:0 "Kommunistische Partei Deutschlands (Orthodox)"
-PRS_libertarian_party:0 "FFS - Federation of Freedom Socialists"
-PRS_libertarian_party_long:0 "Föderation Freiheitlicher Sozialisten"
-PRS_moderate_socialist_party:0 "SPD - Social Democratic Party of Germany (Socialist)"
-PRS_moderate_socialist_party_long:0 "Sozialdemokratische Partei Deutschlands (Sozialistisch)"
-PRS_social_democrat_party:0 "SPD - Social Democratic Party of Germany (Reformist)"
-PRS_social_democrat_party_long:0 "Sozialdemokratische Partei Deutschlands (Reformist)"
-PRS_social_liberal_party:0 "DDP - German Democratic Party"
-PRS_social_liberal_party_long:0 "Deutsche Demokratische Partei"
-PRS_conservative_party:0 "Zentrum - German Centre Party"
-PRS_conservative_party_long:0 "Deutsche Zentrumspartei"
-PRS_authoritarian_democrat_party:0 "DKP - German Conservative Party"
-PRS_authoritarian_democrat_party_long:0 "Deutschkonservative Partei"
-PRS_autocratic_party:0 "DVLP - German Fatherland Party"
-PRS_autocratic_party_long:0 "Deutsche Vaterlandspartei"
-PRS_fundamentalist_party:0 "DRP - German Right Party"
-PRS_fundamentalist_party_long:0 "Deutsche Rechtspartei"
-PRS_voynist_party:0 "NEPD - National Renewal Party of Germany"
-PRS_voynist_party_long:0 "Nationale Erneuerungspartei Deutschlands"
+PRS_national_corporatist_party_long:0 "National Community Party"
 
+
+PRS_westheer_committee_long:0 "Nationalkomitee der Deutsches Heer - German Army National Committee"
+PRS_westheer_committee:0 "NKDH"
 ### Focuses ####
 
 ### Ideas ####
@@ -48,16 +51,58 @@ prs.2.a:0 "Heil, Kaiser, dir."
 
 
 ### Country Name ###
-PRS_national_corporatist:0 "Kingdom of Prussia"
-PRS_national_corporatist_ADJ:0 "German"
-PRS_national_corporatist_DEF:0 "the Kingdom of Prussia"
+PRS_nationalist_socialism:0 "Volksrepublik Deutschland"
+PRS_nationalist_socialism_ADJ:0 "French"
+PRS_nationalist_socialism_DEF:0 "the Volksrepublik Deutschland"
 
+PRS_revolutionary_socialism:0 "Volksrepublik Deutschland"
+PRS_revolutionary_socialism_ADJ:0 "Prussian"
+PRS_revolutionary_socialism_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_syndicalism:0 "Volksrepublik Deutschland"
+PRS_syndicalism_ADJ:0 "Prussian"
+PRS_syndicalism_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_moderate_socialist:0 "Volksrepublik Deutschland"
+PRS_moderate_socialist_ADJ:0 "Prussian"
+PRS_moderate_socialist_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_social_democrat:0 "Volksrepublik Deutschland"
+PRS_social_democrat_ADJ:0 "Prussian"
+PRS_social_democrat_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_social_liberal:0 "Volksrepublik Deutschland"
+PRS_social_liberal_ADJ:0 "Prussian"
+PRS_social_liberal_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_social_conservative:0 "Volksrepublik Deutschland"
+PRS_social_conservative_ADJ:0 "Prussian"
+PRS_social_conservative_DEF:0 "the Volksrepublik Deutschland"
+
+PRS_authoritarian_democrat:0 "Kingdom of Prussia"
+PRS_authoritarian_democrat_ADJ:0 "Prussian"
+PRS_authoritarian_democrat_DEF:0 "the Kingdom of Prussia"
+
+PRS_autocratic:0 "Kingdom of Prussia"
+PRS_autocratic_ADJ:0 "Prussian"
+PRS_autocratic_DEF:0 "the Kingdom of Prussia"
+
+PRS_ultraconservative:0 "Kingdom of Prussia"
+PRS_ultraconservative_ADJ:0 "Prussian"
+PRS_ultraconservative_DEF:0 "the Kingdom of Prussia"
+
+PRS_national_corporatist:0 "Kingdom of Prussia"
+PRS_national_corporatist_ADJ:0 "Prussian"
+PRS_national_corporatist_DEF:0 "the Kingdom of Prussia"
 
 PRS_russia_national_corporatist:0 "Kingdom of Prussia"
 PRS_russia_national_corporatist_ADJ:0 "German"
 PRS_russia_national_corporatist_DEF:0 "the Kingdom of Prussia"
 
 # Cosmetic #
+
+PRS_westheer:0 "Westheer's Revolt"
+
 
 ### Focuses ###
 

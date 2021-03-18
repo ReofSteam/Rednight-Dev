@@ -57,6 +57,64 @@ spriteTypes = {
         name = "GFX_focus_generic_international"
         texturefile = "gfx/interface/goals/generic/generic_international.tga"
     }		
+##########Attack Country
+	SpriteType = { 
+        name = "GFX_focus_Attack_CAL"
+        texturefile = "gfx/interface/goals/generic/Attack_CAL.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_ICE"
+        texturefile = "gfx/interface/goals/generic/Attack_ICE.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_CZE"
+        texturefile = "gfx/interface/goals/generic/Attack_CZE.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_POL"
+        texturefile = "gfx/interface/goals/generic/Attack_POL.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_RUS"
+        texturefile = "gfx/interface/goals/generic/Attack_RUS.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_SWI"
+        texturefile = "gfx/interface/goals/generic/Attack_SWI.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_DEN"
+        texturefile = "gfx/interface/goals/generic/Attack_DEN.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_EGY"
+        texturefile = "gfx/interface/goals/generic/Attack_EGY.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_CHI"
+        texturefile = "gfx/interface/goals/generic/Attack_CHI.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_IND"
+        texturefile = "gfx/interface/goals/generic/Attack_IND.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_POR"
+        texturefile = "gfx/interface/goals/generic/Attack_POR.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_UKR"
+        texturefile = "gfx/interface/goals/generic/Attack_UKR.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Attack_FreeAfrica"
+        texturefile = "gfx/interface/goals/generic/Attack_FreeAfrica.tga"
+    }			
+	SpriteType = { 
+        name = "GFX_focus_Attack_SAF"
+        texturefile = "gfx/interface/goals/generic/Attack_SAF.tga"
+    }			
+	
 	###ENG
 	
 	###AUS

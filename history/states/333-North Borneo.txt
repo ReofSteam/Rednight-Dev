@@ -10,8 +10,8 @@ state = {
 	state_category = two
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = NBO
+		add_core_of = NBO
 		add_core_of = SAR
 		victory_points = {
 			1208 15

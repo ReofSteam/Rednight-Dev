@@ -1,0 +1,22 @@
+﻿add_namespace = misc
+
+
+country_event = {    ######Black Fleet Raid
+	id = misc.1
+	title = misc.1.t
+	desc = misc.1.d
+	picture = GFX_GEA_raider
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.1.a
+	    add_timed_idea = {
+        idea = GEA_raider_struck
+        days = 30
+}
+	}
+}
+
+
+	

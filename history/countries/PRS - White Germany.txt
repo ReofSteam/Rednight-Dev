@@ -1,4 +1,4 @@
-﻿capital = 66
+﻿capital = 5
 
 oob = "PRS"
 

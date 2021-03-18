@@ -196,11 +196,20 @@ initial_show_position = {
 		icon = GFX_FRA_henri_martin_focus
 		x = 10
 		y = 2
-		cost = 10
+		cost = 5
+		select_effect = {
+			country_event = {
+				id = fra.54
+				days = 7
+		}
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_to_you_my_france }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		country_event = fra.55
 		}
 	}
 
@@ -241,6 +250,9 @@ initial_show_position = {
 		x = 3
 		y = 4
 		cost = 10
+		available = {
+		has_country_flag = Pustch_military_influence
+	}			
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_hes_innocent }
 		ai_will_do = {
@@ -255,6 +267,9 @@ initial_show_position = {
 		x = 9
 		y = 4
 		cost = 10
+		available = {
+		has_country_flag = Putsch_fully_defeated
+	}			
 		available_if_capitulated = yes
 		prerequisite = { focus = FRA_hes_innocent }
 		ai_will_do = {
@@ -357,6 +372,9 @@ initial_show_position = {
 			}			
 	}
 		available_if_capitulated = yes
+		completion_reward = {
+		custom_effect_tooltip = frapustchtrial_tt
+		}
 		ai_will_do = {
 			factor = 10
 		}
@@ -981,7 +999,7 @@ initial_show_position = {
 	#Focus for The Bureau's Handbook
 	focus = {
 		id = FRA_the_bureaus_handbook
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service
 		x = 22
 		y = 6
 		cost = 10
@@ -998,7 +1016,7 @@ initial_show_position = {
 	#Focus for Red Dossier
 	focus = {
 		id = FRA_red_dossier
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_operation
 		x = 20
 		y = 7
 		cost = 10
@@ -1011,7 +1029,7 @@ initial_show_position = {
 	#Focus for U.S. SUBVERSION
 	focus = {
 		id = FRA_us_subversion
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_CAL
 		x = 23
 		y = 8
 		cost = 10
@@ -1025,7 +1043,7 @@ initial_show_position = {
 	#Focus for AFRICAN TERRITORIAL
 	focus = {
 		id = FRA_african_territorial
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_FreeAfrica
 		x = 23
 		y = 9
 		cost = 10
@@ -1039,7 +1057,7 @@ initial_show_position = {
 	#Focus for S.AFRICAN DOMESTIC
 	focus = {
 		id = FRA_safrican_domestic
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_SAF
 		x = 23
 		y = 10
 		cost = 10
@@ -1053,7 +1071,7 @@ initial_show_position = {
 	#Focus for EGYPT SURGICAL
 	focus = {
 		id = FRA_egypt_surgical
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_EGY
 		x = 25
 		y = 8
 		cost = 10
@@ -1067,7 +1085,7 @@ initial_show_position = {
 	#Focus for UKRAINIAN CLANDESTINE
 	focus = {
 		id = FRA_ukrainian_clandestine
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_UKR
 		x = 25
 		y = 9
 		cost = 10
@@ -1081,7 +1099,7 @@ initial_show_position = {
 	#Focus for INDIA BRIDGEHEAD
 	focus = {
 		id = FRA_india_bridgehead
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_IND
 		x = 25
 		y = 10
 		cost = 10
@@ -1095,7 +1113,7 @@ initial_show_position = {
 	#Focus for Unthinkable: RUSSIAN SOVEREIGNTY
 	focus = {
 		id = FRA_unthinkable_russian_sovereignty
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_RUS
 		x = 18
 		y = 11
 		cost = 10
@@ -1109,7 +1127,7 @@ initial_show_position = {
 	#Focus for Unthinkable: CHINESE STRIKE
 	focus = {
 		id = FRA_unthinkable_chinese_strike
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_CHI
 		x = 24
 		y = 11
 		cost = 10
@@ -1124,7 +1142,7 @@ initial_show_position = {
 	#Focus for SWISS INCIDENT
 	focus = {
 		id = FRA_swiss_incident
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_SWI
 		x = 19
 		y = 8
 		cost = 10
@@ -1138,7 +1156,7 @@ initial_show_position = {
 	#Focus for PORTUGUESE DIVERSITY
 	focus = {
 		id = FRA_portuguese_diversity
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_POR
 		x = 21
 		y = 8
 		cost = 10
@@ -1152,7 +1170,7 @@ initial_show_position = {
 	#Focus for POLISH DECOY
 	focus = {
 		id = FRA_polish_decoy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_POL
 		x = 19
 		y = 10
 		cost = 10
@@ -1166,7 +1184,7 @@ initial_show_position = {
 	#Focus for CZECH HEAVY
 	focus = {
 		id = FRA_czech_heavy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_CZE
 		x = 19
 		y = 9
 		cost = 10
@@ -1180,7 +1198,7 @@ initial_show_position = {
 	#Focus for ICELAND MAXIMUM
 	focus = {
 		id = FRA_iceland_maximum
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_ICE
 		x = 21
 		y = 9
 		cost = 10
@@ -1194,7 +1212,7 @@ initial_show_position = {
 	#Focus for DENMARK ALTERNATE
 	focus = {
 		id = FRA_denmark_alternate
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Attack_DEN
 		x = 21
 		y = 10
 		cost = 10
@@ -1208,7 +1226,7 @@ initial_show_position = {
 	#Focus for Blue Dossier
 	focus = {
 		id = FRA_blue_dossier
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_conspiracy
 		x = 24
 		y = 7
 		cost = 10

@@ -76,8 +76,9 @@ BNT_national_corporatist_DEF:0 "Banatian"
 
 #####Decisions#####
 BNT_romanianisation:0 "Eradicate Enemies of Romania"
-BNT_romanianisation_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+BNT_romanianisation_desc:0 ""
 BNT_recruit_rom_volunteers:0 "Recruit Romanian Volunteers"
+BNT_ethnic_influence:0 "Ethnic Influence in the Directorate"
 
 ### Flags ###
 

@@ -3,8 +3,8 @@ state = {
 	name = "STATE_336"
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = MLY
+		add_core_of = MLY
 		add_core_of = MLY
 		victory_points = {
 			12299 20 # Singapore

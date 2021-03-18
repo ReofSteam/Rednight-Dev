@@ -2,43 +2,38 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "BNT_factions_menu"
-		size = { width = 581 height = 427 }
-		position = { x = 10 y = -80 }
+		size = { width = 581 height = 250 }
+		position = { x = 0 y = -80 }
 		Orientation = center
 		Origo = center
 		clipping = no	
 		moveable = yes
-
-		#background = {
-		#	name = "Background"	
-		#	spriteType ="GFX_idea_temp_1"
-		#}
-
+		
 		iconType = {
 			name ="GFX_serbs_council"
 			spriteType = "GFX_serbs_council"
-			position = { x = 25 y = 40 }
+			position = { x = 0 y = 40 }
 			pdx_tooltip = "BNT_serbs_status"			
 			scale = 0.65
 		}
 			iconType = {
 			name ="GFX_romanian_assembly"
 			spriteType = "GFX_romanian_assembly"
-			position = { x = 190 y = 40 }
-			pdx_tooltip = "[BNT_romanian_status]"
+			position = { x = 165 y = 40 }
+			pdx_tooltip = "BNT_hungarian_status"
 			scale = 0.65
 		}
 		iconType = {
 			name ="GFX_hungarian_committee"
 			spriteType = "GFX_hungarian_committee"
-			position = { x = 355 y = 40 }
+			position = { x = 330 y = 40 }
 			pdx_tooltip = "BNT_hungarian_status"
 			scale = 0.65
 		}		
 
 		instantTextBoxType = {
 			name = "romania_assembly"
-			position = { x = 120 y = 10 }
+			position = { x = 100 y = 10 }
 			font = "garamond_24"
 			borderSize = {x = 0 y = 0}
 			text = "Great Romanian Assembly"
@@ -49,7 +44,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "serbs_council"
-			position = { x = -45 y = 10 }
+			position = { x = -65 y = 10 }
 			font = "garamond_24"
 			borderSize = {x = 0 y = 0}
 			text = "Serbs Council"
@@ -60,7 +55,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "hungarian_committee"
-			position = { x = 295 y = 10 }
+			position = { x = 275 y = 10 }
 			font = "garamond_24"
 			borderSize = {x = 0 y = 0}
 			text = "Hungarian Committee"

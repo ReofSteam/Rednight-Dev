@@ -1,3 +1,16 @@
+BNT_ethnic_influence = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+		tag = BNT
+	}
+	visible = { 
+	tag = BNT
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_banat_influence 
+    priority = 10000	
+}
 BNT_romanianisation = {
 	icon = GFX_decision_category_generic_industry
 	priority = 80
@@ -8,3 +21,4 @@ BNT_romanianisation = {
 		has_country_flag = BNT_romanianist_in_power
 	}
 }
+

@@ -5,73 +5,84 @@
 ### Opinions ###
 
 ### Events ###
+misc.1.t:0 "The Black Fleet Struck!"
 
 ### Decision ####
 
 ### Parties ###
-GEA_social_nationalist_party:0 "-"
-GEA_social_nationalist_party_long:0 "-"
-GEA_marxist_party:0 "-"
-GEA_marxist_party_long:0 "-"
-GEA_libertarian_party:0 "-"
-GEA_libertarian_party_long:0 "-"
+GEA_nationalist_socialism:0 "Marineabteilung Pazifik"
+GEA_nationalist_socialism_ADJ:0 "Marineabteilung Pazifik"
+GEA_nationalist_socialism_DEF:0 "Marineabteilung Pazifik"
+
+GEA_revolutionary_socialism:0 "Marineabteilung Pazifik"
+GEA_revolutionary_socialism_ADJ:0 "Marineabteilung Pazifik"
+GEA_revolutionary_socialism_DEF:0 "Marineabteilung Pazifik"
+
+GEA_syndicalism:0 "Marineabteilung Pazifik"
+GEA_syndicalism_ADJ:0 "Marineabteilung Pazifik"
+GEA_syndicalism_DEF:0 "Marineabteilung Pazifik"
+
+GEA_moderate_socialist:0 "Marineabteilung Pazifik"
+GEA_moderate_socialist_ADJ:0 "Marineabteilung Pazifik"
+GEA_moderate_socialist_DEF:0 "Marineabteilung Pazifik"
+
+GEA_social_democrat:0 "Marineabteilung Pazifik"
+GEA_social_democrat_ADJ:0 "Marineabteilung Pazifik"
+GEA_social_democrat_DEF:0 "Marineabteilung Pazifik"
+
+GEA_social_liberal:0 "Marineabteilung Pazifik"
+GEA_social_liberal_ADJ:0 "Marineabteilung Pazifik"
+GEA_social_liberal_DEF:0 "Marineabteilung Pazifik"
+
+GEA_social_conservative:0 "Marineabteilung Pazifik"
+GEA_social_conservative_ADJ:0 "Marineabteilung Pazifik"
+GEA_social_conservative_DEF:0 "Marineabteilung Pazifik"
+
+GEA_authoritarian_democrat:0 "Marineabteilung Pazifik"
+GEA_authoritarian_democrat_ADJ:0 "Marineabteilung Pazifik"
+GEA_authoritarian_democrat_DEF:0 "Marineabteilung Pazifik"
+
+GEA_autocratic:0 "Marineabteilung Pazifik"
+GEA_autocratic_ADJ:0 "Marineabteilung Pazifik"
+GEA_autocratic_DEF:0 "Marineabteilung Pazifik"
+
+GEA_ultraconservative:0 "Marineabteilung Pazifik"
+GEA_ultraconservative_ADJ:0 "Marineabteilung Pazifik"
+GEA_ultraconservative_DEF:0 "Marineabteilung Pazifik"
+
+GEA_national_corporatist:0 "Marineabteilung Pazifik"
+GEA_national_corporatist_ADJ:0 "Marineabteilung Pazifik"
+GEA_national_corporatist_DEF:0 "Marineabteilung Pazifik"
+
+
+
+############
+GEA_nationalist_socialism_party:0 "-"
+GEA_nationalist_socialism_party_long:0 "Patriottien liitto (SDP)"
+GEA_revolutionary_socialism_party:0 "-"
+GEA_revolutionary_socialism_party_long:0 "Patriottien liitto (SDP)"
+GEA_syndicalism_party:0 "-"
+GEA_syndicalism_party_long:0 "Patriottien liitto (SAJ)"
 GEA_moderate_socialist_party:0 "-"
-GEA_moderate_socialist_party_long:0 "-"
+GEA_moderate_socialist_party_long:0 "Patriottien liitto (SDP)"
 GEA_social_democrat_party:0 "-"
-GEA_social_democrat_party_long:0 "-"
+GEA_social_democrat_party_long:0 "Patriottien liitto"
 GEA_social_liberal_party:0 "-"
-GEA_social_liberal_party_long:0 "-"
-GEA_conservative_party:0 "-"
-GEA_conservative_party_long:0 "-"
-GEA_authoritarian_democrat_party:0 "General-Government"
-GEA_authoritarian_democrat_party_long:0 "General-Government of Deutsch-Neuguinea"
-GEA_autocratic_party:0 "-"
-GEA_autocratic_party_long:0 "-"
-GEA_fundamentalist_party:0 "-"
-GEA_fundamentalist_party_long:0 "-"
-GEA_voynist_party:0 "-"
-GEA_voynist_party_long:0 "-"
-
-### Country Name ###
-
-GEA_social_nationalist:0 "Deutsch-Neuguinea"
-GEA_social_nationalist_ADJ:0 "Neuguinea"
-GEA_social_nationalist_DEF:0 "Deutsch-Neuguinea"
-GEA_marxist:0 "Deutsch-Neuguinea"
-GEA_marxist_ADJ:0 "Neuguinea"
-GEA_marxist_DEF:0 "Deutsch-Neuguinea"
-GEA_libertarian:0 "Deutsch-Neuguinea"
-GEA_libertarian_ADJ:0 "Neuguinea"
-GEA_libertarian_DEF:0 "Deutsch-Neuguinea"
-GEA_moderate_socialist:0 "Deutsch-Neuguinea"
-GEA_moderate_socialist_ADJ:0 "Neuguinea"
-GEA_moderate_socialist_DEF:0 "Deutsch-Neuguinea"
-GEA_social_democrat:0 "Deutsch-Neuguinea"
-GEA_social_democrat_ADJ:0 "Neuguinea"
-GEA_social_democrat_DEF:0 "Deutsch-Neuguinea"
-GEA_social_liberal:0 "Deutsch-Neuguinea"
-GEA_social_liberal_ADJ:0 "Neuguinea"
-GEA_social_liberal_DEF:0 "Deutsch-Neuguinea"
-GEA_conservative:0 "Deutsch-Neuguinea"
-GEA_conservative_ADJ:0 "Neuguinea"
-GEA_conservative_DEF:0 "Deutsch-Neuguinea"
-GEA_authoritarian_democrat:0 "Deutsch-Neuguinea"
-GEA_authoritarian_democrat_ADJ:0 "Neuguinea"
-GEA_authoritarian_democrat_DEF:0 "Deutsch-Neuguinea"
-GEA_autocratic:0 "Deutsch-Neuguinea"
-GEA_autocratic_ADJ:0 "Neuguinea"
-GEA_autocratic_DEF:0 "Deutsch-Neuguinea"
-GEA_fundamentalist:0 "Deutsch-Neuguinea"
-GEA_fundamentalist_ADJ:0 "Neuguinea"
-GEA_fundamentalist_DEF:0 "Deutsch-Neuguinea"
-GEA_voynist:0 "Deutsch-Neuguinea"
-GEA_voynist_ADJ:0 "Neuguinea"
-GEA_voynist_DEF:0 "Deutsch-Neuguinea"
-
+GEA_social_liberal_party_long:0 "Radical Republicain Left"
+GEA_social_conservative_party:0 "-"
+GEA_social_conservative_party_long:0 "Rassemblement national des républicains - National Rally of Republicains"
+GEA_authoritarian_democrat_party:0 "Abteilung-Westpazifik "
+GEA_authoritarian_democrat_party_long:0 "Kaiserliche Marineabteilung für Westpazifik"
+GEA_autocratic_party:0 "Abteilung-Westpazifik "
+GEA_autocratic_party_long:0 "Kaiserliche Marineabteilung für Westpazifik"
+GEA_ultraconservative_party:0 "Abteilung-Westpazifik "
+GEA_ultraconservative_party_long:0 "Kaiserliche Marineabteilung für Westpazifik"
+GEA_national_corporatist_party:0 "Abteilung-Westpazifik "
+GEA_national_corporatist_party_long:0 "Kaiserliche Marineabteilung für Westpazifik"
 ### Focuses ###
 
 ### Ideas ###
-
+GEA_raider_struck:0 "The Black Fleet Struck!"
 ### Flags ###
 
 ### Tooltips ###

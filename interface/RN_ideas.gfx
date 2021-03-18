@@ -344,7 +344,10 @@ spriteType = {
 		name = "GFX_idea_gun_and_rose"
 		texturefile = "gfx/interface/ideas/generic/gun_and_rose.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_GEA_raider_struck"
+		texturefile = "gfx/interface/ideas/generic/generic_blackfleet.tga"
+	}
 ########Japan
 	spriteType = {
 		name = "GFX_idea_JAP_yen"

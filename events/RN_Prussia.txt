@@ -74,3 +74,78 @@ country_event = {
 }
 }
 }
+
+country_event = { Revolt of the Westheer
+	id = prs.6
+	title = prs.6.t
+	desc = prs.6.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.6.a
+	start_civil_war = {
+    ideology = social_liberal
+    size = 0.3
+    only_own_territory = no
+    capital = 68
+    keep_unit_leaders = {
+    }
+    keep_political_leader = no
+}
+hidden_effect = {
+    D01 = {
+	set_cosmetic_tag = PRS_westheer
+	set_party_name = { 
+    ideology = social_liberal 
+    long_name = PRS_westheer_committee_long 
+    name = PRS_westheer_committee 
+}
+create_country_leader = {
+	name = "Wolf Graf von Baudissin"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/PRS/PRS_Baudissin.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 12
+	social_liberal = 36
+	social_conservative = 15
+	authoritarian_democrat = 10
+	autocratic = 0
+	ultraconservative = 2
+	national_corporatist = 25
+} 
+	}
+}
+	}
+}
+
+country_event = { Prussian Civil War
+	id = prs.7
+	title = prs.7.t
+	desc = prs.7.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.7.a
+	start_civil_war = {
+    ideology = national_corporatist
+    size = 0.4
+    only_own_territory = no
+    capital = 5
+    keep_unit_leaders = {
+    }
+    keep_political_leader = yes
+}
+	}
+}

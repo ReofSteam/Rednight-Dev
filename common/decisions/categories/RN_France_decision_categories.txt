@@ -63,3 +63,17 @@ FRA_mission_free_africa = {
 		has_global_flag = FRA_mission_free_africa
 	}
 }
+
+FRA_reform_struggle = {
+	icon = GFX_decision_generic_nuke
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_country_flag = FRA_reform_struggle
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_fra_reformeter
+    priority = 10000
+	}
+}

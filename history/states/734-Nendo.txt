@@ -5,8 +5,8 @@ state = {
 	state_category = zero_island
 
 	history = {
-		owner = GEA
-		add_core_of = GEA
+		owner = AST
+		add_core_of = AST
 		buildings = {
 			infrastructure = 3
 			7390 = {

@@ -309,4 +309,17 @@ spriteTypes = {
 	name = "GFX_decision_generic_nuke"
 	texturefile = "gfx/interface/decisions/decision_generic_nuke.dds"
 	}	
+############FRA Guis
+	spriteType = {
+	name = "GFX_FRA_jacobin_reformists"
+	texturefile = "gfx/interface/FRA_gui/RN_jacobin_party_reformist.tga"
+	}		
+	spriteType = {
+	name = "GFX_FRA_jacobin_party_89"
+	texturefile = "gfx/interface/FRA_gui/RN_jacobin_party_89.tga"
+	}		
+	spriteType = {
+	name = "GFX_FRA_jacobin_party_old_guard"
+	texturefile = "gfx/interface/FRA_gui/RN_jacobin_party_old_guard.tga"
+	}			
 }
