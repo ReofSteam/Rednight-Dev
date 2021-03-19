@@ -356,7 +356,7 @@ guiTypes = {
 			maxHeight = 20
 			fixedsize = yes	
 			format = center
-		}	
+		}		
 		instantTextBoxType = {
 			name = "FRA_opposititon_status"
 			position = { x = 260 y = 0 }
@@ -365,6 +365,28 @@ guiTypes = {
 			text = "Opposition Strength"
 			maxWidth = 290
 			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}
+		instantTextBoxType = {
+			name = "FRA_opposititon_status_text"
+			position = { x = 260 y = 25 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_opposititon_status_text"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}		
+		instantTextBoxType = {
+			name = "FRA_reform_status_text"
+			position = { x = -5 y = 25 }
+			font = "rn_viasans"
+			text = "FRA_reform_status_text"						
+			borderSize = {x = 0 y = 0}
+			maxWidth = 200
+			maxHeight = 50
 			fixedsize = yes	
 			format = center
 		}			

@@ -11,6 +11,12 @@ scripted_gui = {
         	GFX_jacobin_party_faction = {
             	image = "[GetFraJacobinFaction]"
         	}
-    	}		
+        	FRA_opposititon_status_text = {
+            	image = "[GetFraOpposition]"
+        	}
+        	FRA_reform_status_text = {
+            	image = "[GetFraFactionStatus]"
+        	}
+    	}			
 	}
 }

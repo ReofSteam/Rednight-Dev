@@ -56,7 +56,7 @@ defined_text = { # Country
 
 
 ############Faction 
-defined_text = { # Country
+defined_text = { 
 	name = GetFraJacobinFaction
 	text = {
 		trigger = { 
@@ -77,3 +77,62 @@ defined_text = { # Country
 		localization_key = "GFX_FRA_jacobin_party_89"
 	}	
 }
+
+defined_text = { 
+	name = GetFraOpposition
+	text = {
+		trigger = { has_country_flag = FRA_opposititon_strong }
+		localization_key = "FRA_opposititon_strong"
+	}
+	text = {
+		trigger = { has_country_flag = FRA_opposititon_controlled }
+		localization_key = "FRA_opposititon_controlled"
+	}
+	text = {
+		localization_key = "FRA_opposititon_moderate"
+	}	
+}
+
+defined_text = { 
+	name = GetFraFactionStatus
+	text = {
+		trigger = { has_country_flag = FRA_the_young_radicals }
+		localization_key = "FRA_the_young_radicals"
+	}
+	text = {
+		trigger = { has_country_flag = FRA_orthodox_path }
+		localization_key = "FRA_orthodox_path"
+	}
+	text = {
+		trigger = { has_country_flag = FRA_blue_republican }
+		localization_key = "FRA_blue_republican"
+	}	
+	text = {
+		trigger = { has_country_flag = FRA_path_of_glory }
+		localization_key = "FRA_path_of_glory"
+	}	
+	text = {
+		trigger = { has_country_flag = FRA_the_federals }
+		localization_key = "FRA_the_federals"
+	}		
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_coalition_de_lespoir } 
+		}
+		localization_key = "FRA_jacobin_reformists"
+	}
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_the_new_path } 
+		}
+		localization_key = "FRA_jacobin_party_old_guard"
+	}
+	text = {
+		trigger = { 
+		FRA = { has_completed_focus = FRA_89_rveille } 
+		}
+		localization_key = "FRA_jacobin_party_89"
+	}
+}
+
+

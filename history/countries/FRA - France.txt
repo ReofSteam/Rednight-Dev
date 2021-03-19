@@ -148,6 +148,7 @@ create_field_marshal = {
 	logistics_skill = 3
 }
 
+
 create_field_marshal = {
 	name = "Henri-Rol Tanguy"
 	portrait_path = "gfx/leaders/FRA/FRA_Henri_Rol.tga"
@@ -158,6 +159,18 @@ create_field_marshal = {
 	planning_skill = 3
 	logistics_skill = 3
 }
+
+create_field_marshal = {
+	name = "Jacques Doriot"
+	portrait_path = "gfx/leaders/FRA/FRA_Jacques_Doriot.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
 
 create_corps_commander = {
 	name = "Gilbert Brustlein"
@@ -181,7 +194,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Georges Guingouin"
-	portrait_path = "gfx/leaders/FRA/FRA_Georges Guingouin.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_Georges_Guingouin.tga"
 	traits = { }
 	skill = 4
     attack_skill = 3
@@ -191,7 +204,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Arthur Giovoni"
-	portrait_path = "gfx/leaders/FRA/FRA_Arthur_Giovoni.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_Arthur.tga"
 	traits = { }
 	skill = 1
     attack_skill = 3
@@ -211,7 +224,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jean-Pierre Vernant"
-	portrait_path = "gfx/leaders/FRA/FRA_JP_Vernant.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_JP_VERNANT.tga"
 	traits = { }
 	skill = 1
     attack_skill = 3
@@ -221,7 +234,47 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Jacques Chaban-Delmas"
-	portrait_path = "gfx/leaders/FRA/FRA_Jacques_CD.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Garbiel Fort"
+	portrait_path = "gfx/leaders/FRA/FRA_Fort.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "René Camphin"
+	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Marcel Sagnier"
+	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+create_corps_commander = {
+	name = "Henri Manhès"
+	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
 	traits = { }
 	skill = 2
     attack_skill = 3
@@ -231,3 +284,23 @@ create_corps_commander = {
 }
 #Navy
 
+create_navy_leader = {
+	name = "Charles Tillon"
+	picture = "FRA_Charles_Tillon.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+create_navy_leader = {
+	name = "Marcel Paul"
+	picture = "FRA_Charles_Tillon.tga"
+	traits = { }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
