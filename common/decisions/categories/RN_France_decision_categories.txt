@@ -50,7 +50,6 @@ FRA_truffle_affair = {
 	}
 	visible = { 
 	has_country_flag = FRA_truffle_affair
-
 	}
 }
 FRA_mission_free_africa = {

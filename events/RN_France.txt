@@ -629,6 +629,10 @@ country_event = {
 	option = {
 		name = fra.19.a
 		set_country_flag = FRA_truffle_affair
+		set_variable = {
+	    var = FRA_truffle_affair_check
+	    value = 0
+}
 	
 	}
 }
@@ -706,7 +710,41 @@ country_event = {
 		}	
 }
 
+########Truffle Chain: Next
+country_event = {                               
+	id = fra.26
+	title = fra.26.t
+	desc = fra.26.d
+	picture = GFX_nuke
 
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.26.a
+		set_country_flag = FRA_truffle_affair_1
+	
+	}
+	option = {
+		name = fra.26.b
+	
+	}	
+}
+country_event = {                               
+	id = fra.27
+	title = fra.27.t
+	desc = fra.27.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.27.a
+		clr_country_flag = FRA_truffle_affair_1
+	
+	}
+}
 
 #########Focus Tree Trial
 country_event = {
@@ -907,63 +945,63 @@ country_event = {
 }
 country_event = {
 	id = fra.104 ##PARDAN 1
-	title = fra.23.t
-	desc = fra.23.d
+	title = fra.104.t
+	desc = fra.104.d
 	picture = FRA_pardan
 
 	is_triggered_only = yes
 
 	option = {
-		name = fra.23.a
+		name = fra.104.a
 	}
 }
 country_event = {
 	id = fra.105 ##PARDAN 0
-	title = fra.24.t
-	desc = fra.24.d
+	title = fra.105.t
+	desc = fra.105.d
 	picture = RUS_nuke
 
 	is_triggered_only = yes
 
 	option = {
-		name = fra.24.a
+		name = fra.105.a
 		set_global_flag = PARDAN_0_international
 	}
 }
 country_event = {
 	id = fra.106 ##PARDAN FIVE
-	title = fra.25.t
-	desc = fra.25.d
+	title = fra.106.t
+	desc = fra.106.d
 	picture = FRA_pardan
 
 	is_triggered_only = yes
 
 	option = {
-		name = fra.25.a
+		name = fra.106.a
 	}
 }
 country_event = {
 	id = fra.107 ##PARDAN THREE
-	title = fra.26.t
-	desc = fra.26.d
+	title = fra.107.t
+	desc = fra.107.d
 	picture = FRA_pardan
 
 	is_triggered_only = yes
 
 	option = {
-		name = fra.26.a
+		name = fra.107.a
 	}
 }
 country_event = {
 	id = fra.108 ##PARDAN TWO
-	title = fra.27.t
-	desc = fra.27.d
+	title = fra.108.t
+	desc = fra.108.d
 	picture = FRA_pardan
 
 	is_triggered_only = yes
 
 	option = {
-		name = fra.27.a
+		name = fra.108.a
 	}
 }
 
