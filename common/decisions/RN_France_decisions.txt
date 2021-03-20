@@ -942,7 +942,7 @@ FRA_interview_shopmanager = {
 	}
 }
 FRA_view_your_notebook = {
-    visible = {
+    available = {
 	check_variable = { FRA_truffle_affair_check = 3 }
 	NOT = has_country_flag = FRA_truffle_affair_final
 }

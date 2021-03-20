@@ -309,6 +309,10 @@ spriteTypes = {
 	name = "GFX_decision_generic_nuke"
 	texturefile = "gfx/interface/decisions/decision_generic_nuke.dds"
 	}	
+	spriteType = {
+	name = "GFX_decision_generic_canned_fruit"
+	texturefile = "gfx/interface/decisions/decision_generic_canned_fruit.tga"
+	}		
 ############FRA Guis
 	spriteType = {
 	name = "GFX_FRA_jacobin_reformists"

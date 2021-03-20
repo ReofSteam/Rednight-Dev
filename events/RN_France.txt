@@ -742,9 +742,58 @@ country_event = {
 	option = {
 		name = fra.27.a
 		clr_country_flag = FRA_truffle_affair_1
+		set_country_flag = FRA_truffle_affair_2
 	
 	}
 }
+country_event = {                               
+	id = fra.28
+	title = fra.27.t
+	desc = fra.27.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.27.a
+		clr_country_flag = FRA_truffle_affair_1
+		set_country_flag = FRA_truffle_affair_2
+	
+	}
+}
+country_event = {                               
+	id = fra.29
+	title = fra.29.t
+	desc = fra.29.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.29.a
+		clr_country_flag = FRA_truffle_affair_1
+		set_country_flag = FRA_truffle_affair_2
+	
+	}
+}
+country_event = {                               
+	id = fra.30
+	title = fra.30.t
+	desc = fra.30.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.30.a
+		clr_country_flag = FRA_truffle_affair_1
+	
+	}
+}
+
 
 #########Focus Tree Trial
 country_event = {
