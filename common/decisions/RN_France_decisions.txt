@@ -942,21 +942,23 @@ FRA_interview_shopmanager = {
 	}
 }
 FRA_view_your_notebook = {
+    visible = {
+	NOT = { has_country_flag = FRA_truffle_affair_final } 
+	}
     available = {
 	check_variable = { FRA_truffle_affair_check = 3 }
-	NOT = has_country_flag = FRA_truffle_affair_final
 }
 	complete_effect = {
 	if = { limit = { 
 	has_country_flag = FRA_truffle_affair_1 }
 	country_event = fra.27
-	}
 	else_if = { limit = { has_country_flag = FRA_truffle_affair_2 }
 	country_event = fra.28
 	}
-	else_if = { limit = { has_country_flag = FRA_truffle_affair_3 }
+	else = {
 	country_event = fra.29
-	}	
+	}		
+	}
 	clear_variable = FRA_truffle_affair_check
 }	
 }
@@ -1100,8 +1102,8 @@ FRA_crush_the_black_market = {
 }
 FRA_i_accuse = {
     fire_only_once = yes
-    visible = {
-	check_variable = { FRA_truffle_affair_check = 3 }
+	available = { check_variable = { FRA_truffle_affair_check = 3 }
+    visible = { has_country_flag = FRA_truffle_affair_final	}
 }
 	complete_effect = {
 	country_event = fra.30
