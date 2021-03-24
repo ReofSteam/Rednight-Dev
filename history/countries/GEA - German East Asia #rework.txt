@@ -3,7 +3,10 @@
 oob = "GEA"
 
 add_ideas = {
-	#disarmed_nation
+	GEA_Bauers_Submariners
+	GEA_do_or_die
+	GEA_critical_shortages
+	GEA_kriegsmarine_Training
 }
 
 # Starting tech
@@ -43,7 +46,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Max-Hermann Bauer"
-	desc = "POLITICS_HENRY_MEWS_DESC"
+	desc = "POLITICS_MAX_BAUER_DESC"
 	picture = "gfx/leaders/GEA/Max_Bauer.tga"
 	expire = "1966.1.1"
 	ideology = autocratic_subtype
