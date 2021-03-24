@@ -83,7 +83,10 @@ GEA_national_corporatist_party_long:0 "Kaiserliche Marineabteilung für Westpazi
 
 ### Ideas ###
 GEA_raider_struck:0 "The Black Fleet Struck!"
-### Flags ###
+GEA_Bauers_Submariners:0 "Bauers Submariners"
+GEA_do_or_die:0 "Do or Die Spirit"
+GEA_critical_shortages:0 "Critical Shortages"
+GEA_kriegsmarine_Training:0 "Kriegsmarine Training"
 
 ### Tooltips ###
 
@@ -92,5 +95,6 @@ GEA_raider_struck:0 "The Black Fleet Struck!"
 ### Ministers ###
 
 ### Leaders ###
+POLITICS_MAX_BAUER_DESC:0 "Captain Max Bauer never thought he'd end up like this, but he has learned to enjoy it. After all, the waves of fate are fickle, and they must be ridden to their ends.\n\nA captain from the young age of twenty eight, Max climbed the ranks rapidly and was sent to serve in German East Asia. When both the colony and the Fatherland themselves collapsed, Max was left adrift. Yet he had a duty to those under his command, and he would not see them sacrificed to savage past-subjects or godless socialists. Using his ever charming personality and good natured attitude, Max led hundreds of fellow submariners to a network of  naval stations.Since the war his forces have consolidated there. Max himself resides in Palau, where he tries his best to care for his people.\n\nUngentlemanly methods must be balanced against the needs of his restless men, as well as Max's idealistic nature. He hopes the spirit of the empire may be kept alive. Yet doing so without the stars on one's uniform becoming dirtied may be an impossible task."
 
 ### Tech? ###
