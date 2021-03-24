@@ -57,6 +57,10 @@ spriteTypes = {
         name = "GFX_focus_generic_international"
         texturefile = "gfx/interface/goals/generic/generic_international.tga"
     }		
+	SpriteType = { 
+        name = "GFX_focus_generic_syndicalist_workers"
+        texturefile = "gfx/interface/goals/generic/Generic_syndicalist_workers.tga"
+    }	
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"

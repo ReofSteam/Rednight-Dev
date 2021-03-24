@@ -76,3 +76,16 @@ FRA_reform_struggle = {
     scripted_gui = RN_fra_reformeter
     priority = 10000
 }
+
+FRA_the_putsch = {
+	icon = GFX_idea_FRA_republic_et_socialism
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_country_flag = FRA_first_of_may_putsch
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_fra_putsch
+    priority = 10000
+}

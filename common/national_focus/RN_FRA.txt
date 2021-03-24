@@ -696,7 +696,7 @@ initial_show_position = {
 	#Focus for Continental European Intergration Discussion
 	focus = {
 		id = FRA_continental_european_intergration_discussion
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_great_red_menace
 		x = 31
 		y = 4
 		cost = 10
@@ -836,7 +836,7 @@ initial_show_position = {
 	#Focus for Fête du travail et de la victoire 1951
 	focus = {
 		id = FRA_fte_du_travail_et_de_la_victoire_1951
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_1950_Fete
 		x = 26
 		y = 4
 		cost = 10
@@ -854,7 +854,7 @@ initial_show_position = {
 	#Focus for Brigade of Shock Workers
 	focus = {
 		id = FRA_brigade_of_shock_workers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_syndicalist_workers
 		x = 21
 		y = 4
 		cost = 10

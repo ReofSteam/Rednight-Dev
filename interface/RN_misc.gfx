@@ -116,36 +116,40 @@ spriteTypes = {
 	texturefile = "gfx/interface/dismantle.dds"
 	}
 	spriteType = {
-	name = "GFX_FROGGED"
+	name = "FRA_ELIMINATED"
 	texturefile = "gfx/leaders/FRA/FRA_ELIMINATED.tga"
 	}	
 	spriteType = {
-	name = "GFX_cherb"
+	name = "FRA_De_la_Vigerie"
 	texturefile = "gfx/leaders/FRA/FRA_De_la_Vigerie.tga"
 	}	
 	spriteType = {
-	name = "GFX_marine"
+	name = "FRA_Andre_Malaux"
 	texturefile = "gfx/leaders/FRA/FRA_Andre_Malaux.tga"
 	}	
 	spriteType = {
-	name = "GFX_caab"
+	name = "FRA_Jean_Moulin"
 	texturefile = "gfx/leaders/FRA/FRA_Jean_Moulin.tga"
 	}	
 	spriteType = {
-	name = "GFX_bal"
+	name = "FRA_Henri_Frenay"
 	texturefile = "gfx/leaders/FRA/FRA_Henri_Frenay.tga"
 	}	
 	spriteType = {
-	name = "GFX_paratroops"
+	name = "FRA_Chaban-Delmas"
 	texturefile = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
 	}	
+	spriteType = {
+	name = "FRA_Pierre_Brossolette"
+	texturefile = "gfx/leaders/FRA/FRA_Pierre_Brossolette.tga"
+	}		
 	spriteType = {
 	name = "GFX_comite"
 	texturefile = "gfx/interface/comite.dds"
 	}	
 	spriteType = {
-	name = "GFX_putschpic"
-	texturefile = "gfx/interface/putschpic.dds"
+	name = "GFX_FRA_portrait_frame"
+	texturefile = "gfx/interface/FRA_gui/FRA_portrait_frame.tga"
 	}	
 #########Super Event	
 	spriteType = {

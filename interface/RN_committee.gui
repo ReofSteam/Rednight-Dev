@@ -1,336 +1,4 @@
 guiTypes = {
-	containerWindowType = {
-		name = "fra_committee_button"
-		position = { x = 10 y = 420 }
-		buttonType = {
-			name = "open_button"
-			quadTextureSprite = "GFX_FRA_committee"
-			clicksound = click_default
-			pdx_tooltip = "committee_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-		}
-		
-	}
-	containerWindowType = {
-		name = "FRA_committee_bg"
-		position = { x = 0 y = 0 }
-		show_position = { x = 460 y = 80 }
-		hide_position = { x = 460 y = -1000 }
-		show_animation_type = decelerated
-		hide_animation_type = accelerated
-		animation_time = 600
-
-		size = { width = 1024 height = 800 }
-		moveable = yes
-		background = {
-			name = "hog_gui_background"		
-			spriteType ="GFX_tiled_bg"
-			
-		}
-		iconType = {
-			name = "putschpic"
-			position = { x = 12 y = 17 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_putschpic"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-			scale = 0.991
-		}
-		buttonType = {
-			name = "open_button"
-			quadTextureSprite = "GFX_close"
-			clicksound = click_default
-			#pdx_tooltip = "committee_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 980 y = 10 }
-		}
-		buttonType = {
-			name = "dismantle_button"
-			quadTextureSprite = "GFX_dismantle"
-			clicksound = click_default
-			pdx_tooltip = "dismantling_ready_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 425 y = 385 }
-		}
-		
-		iconType = {
-			name = "comite"
-			position = { x = 320 y = 20 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_comite"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-			scale = 0.8
-		}
-		instantTextBoxType = {
-			name = "cherb_name"
-			position = { x = 30 y = 60 }
-			maxWidth = 150
-			maxHeight = 160
-			font = "hoi_24header"
-			text = "CHERBOURG NAVAL BASE"
-			format = center
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "cherb_port"
-			position = { x = 30 y = 120 }
-			#Orientation = "CENTER"
-			spriteType = "[cherGetPutschPortrait]"
-			#frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "cherb_frame"
-			position = { x = 25 y = 115 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_leader_frame_0_75"
-			frame = 1
-			scale = 1.25
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		
-		buttonType = {
-			name = "cherb_mil_action"
-			quadTextureSprite = "GFX_milaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "milaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 35 y = 335 }
-		}
-		buttonType = {
-			name = "cherb_pol_action"
-			quadTextureSprite = "GFX_polaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "polaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 35 y = 370 }
-		}
-		
-		
-		instantTextBoxType = {
-			name = "paratroop_name"
-			position = { x = 30 y = 410 }
-			maxWidth = 150
-			maxHeight = 160
-			font = "hoi_24header"
-			text = "2ND PARATROOPER DIVISION"
-			format = center
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "paratroop_port"
-			position = { x = 30 y = 490 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_paratroops"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "paratroop_frame"
-			position = { x = 25 y = 485 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_leader_frame_0_75"
-			frame = 1
-			scale = 1.25
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		
-		buttonType = {
-			name = "par_mil_action"
-			quadTextureSprite = "GFX_milaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "milaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 35 y = 710 }
-		}
-		buttonType = {
-			name = "par_pol_action"
-			quadTextureSprite = "GFX_polaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "polaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 35 y = 745 }
-		}
-
-		instantTextBoxType = {
-			name = "caab_name"
-			position = { x = 390 y = 430 }
-			maxWidth = 230
-			maxHeight = 150
-			font = "hoi_24header"
-			text = "CITIZEN ASSOCIATION AGAINST BUREAUCRACY"
-			format = center
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "caab_port"
-			position = { x = 430 y = 490 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_caab"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "caab_frame"
-			position = { x = 425 y = 485 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_leader_frame_0_75"
-			frame = 1
-			scale = 1.25
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		
-		buttonType = {
-			name = "caab_mil_action"
-			quadTextureSprite = "GFX_milaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "milaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 435 y = 710 }
-		}
-		buttonType = {
-			name = "caab_pol_action"
-			quadTextureSprite = "GFX_polaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "polaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 435 y = 745 }
-		}
-	
-
-	instantTextBoxType = {
-			name = "marine_name"
-			position = { x = 780 y = 40 }
-			maxWidth = 200
-			maxHeight = 200
-			font = "hoi_24header"
-			text = "3RD MARINE INFANTRY PARACHUTE REGIMENT"
-			format = center
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "marine_port"
-			position = { x = 800 y = 120 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_marine"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "marine_frame"
-			position = { x = 795 y = 115 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_leader_frame_0_75"
-			frame = 1
-			scale = 1.25
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		
-		buttonType = {
-			name = "marine_mil_action"
-			quadTextureSprite = "GFX_milaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "milaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 805 y = 335 }
-		}
-		buttonType = {
-			name = "marine_pol_action"
-			quadTextureSprite = "GFX_polaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "polaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 805 y = 370 }
-		}
-		
-		
-		instantTextBoxType = {
-			name = "bal_name"
-			position = { x = 800 y = 430 }
-			maxWidth = 170
-			maxHeight = 160
-			font = "hoi_24header"
-			text = "BRIGADE ALSACE-LORRAINE "
-			format = center
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "bal_port"
-			position = { x = 800 y = 490 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_bal"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}
-		iconType = {
-			name = "bal_frame"
-			position = { x = 795 y = 485 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_leader_frame_0_75"
-			frame = 1
-			scale = 1.25
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-		}	
-		buttonType = {
-			name = "bal_mil_action"
-			quadTextureSprite = "GFX_milaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "milaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 805 y = 710 }
-		}
-		buttonType = {
-			name = "bal_pol_action"
-			quadTextureSprite = "GFX_polaction"
-			clicksound = click_default
-			#scale = 0.7
-			#text = "POLITICAL ACTION"
-			pdx_tooltip = "polaction_tt"
-			#pdx_tooltip_delayed = "committee_tt"
-			position = { x = 805 y = 745 }
-		}
-}
-}
-
-
-
-guiTypes = {
 
 	containerWindowType = {
 		name = "FRA_great_reform_menu"
@@ -436,4 +104,47 @@ guiTypes = {
 		}		
 	}
 }
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "FRA_putsch_menu"
+		size = { width = 581 height = 400 }
+		position = { x = 0 y = 0 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+		iconType = {
+			name = "FRA_pustch_main_portrait"
+			position = { x = 327 y = 0 }
+			spriteType = "FRA_Pierre_Brossolette"
+			scale = 0.9			
+		}
+		iconType = {
+			name = "FRA_pustch_main_portrait_frame"
+			position = { x = 323 y = -4 }
+			spriteType = "GFX_FRA_portrait_frame"
+			scale = 0.9				
+		}		
+		instantTextBoxType = {
+			name = "FRA_pustch_name"
+			position = { x = 50 y = 0 }
+			font = rn_viasans
+			borderSize = {x = 0 y = 0}
+			text = "FRA_pustch_text"			
+			maxWidth = 280
+			maxHeight = 150
+			fixedsize = yes	
+			format = left
+		}		
+		buttonType = {
+			name = "FRA_pustch_andre_malraux"
+			position = { x = 50 y = 200 }
+			spriteType = FRA_Andre_Malaux	
+			scale = 0.5			
+		}			
+	}
+}	
+		
 
