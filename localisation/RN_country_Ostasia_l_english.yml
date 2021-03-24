@@ -8,6 +8,9 @@
 misc.1.t:0 "The Black Fleet Struck!"
 
 ### Decision ####
+GEA_Raid_Shipments:0 "Raid Shipments"
+GEA_Raid_Shipments_desc:0 ""
+
 
 ### Parties ###
 GEA_nationalist_socialism:0 "Marineabteilung Pazifik"

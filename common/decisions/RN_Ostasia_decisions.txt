@@ -1,0 +1,462 @@
+###########################
+#Ostasia Decisions#
+###########################
+
+GEA_Raid_Shipments = {
+GEA_Raid_Australian_Shipments = {
+	allowed = {
+	tag = GEA
+	}
+	cost = 15
+	days_remove = 2
+	days_re_enable = 5
+complete_effect = {
+	 random_list = {
+
+	33 = {
+		add_political_power = -10
+	}
+
+	33 = {
+		
+    	create_import = {
+    	resource = oil
+    	amount = 25
+    	exporter = AST
+		}
+
+	}
+
+	33 = {
+
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 10
+			producer = AST
+		}
+	}
+
+}
+   }
+   ai_will_do = {
+	   	   factor = 75
+  		 }
+	}
+
+	GEA_Raid_American_Shipments = {
+		allowed = {
+		tag = GEA
+		}
+		cost = 15
+		days_remove = 2
+		days_re_enable = 5
+	complete_effect = {
+		 random_list = {
+	
+		33 = {
+			add_political_power = -10
+		}
+	
+		33 = {
+			
+			create_import = {
+			resource = oil
+			amount = 25
+			exporter = CAL
+			}
+	
+		}
+	
+		33 = {
+	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10
+				producer = CAL
+			}
+		}
+	
+	}
+	   }
+	   ai_will_do = {
+				  factor = 75
+			   }
+		}
+
+		GEA_Raid_Japanese_Shipments = {
+			allowed = {
+			tag = GEA
+			}
+			cost = 15
+			days_remove = 2
+			days_re_enable = 5
+		complete_effect = {
+			 random_list = {
+		
+			33 = {
+				add_political_power = -10
+			}
+		
+			33 = {
+				
+				create_import = {
+				resource = oil
+				amount = 25
+				exporter = JAP
+				}
+		
+			}
+		
+			33 = {
+		
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10
+					producer = JAP
+				}
+			}
+		
+		}
+		   }
+		   ai_will_do = {
+					  factor = 75
+				   }
+			}
+
+			GEA_Raid_Peruvian_Shipments = {
+				allowed = {
+				tag = GEA
+				}
+				cost = 15
+				days_remove = 2
+				days_re_enable = 5
+			complete_effect = {
+				 random_list = {
+			
+				33 = {
+					add_political_power = -10
+				}
+			
+				33 = {
+					
+					create_import = {
+					resource = oil
+					amount = 25
+					exporter = PRU
+					}
+			
+				}
+			
+				33 = {
+			
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 10
+						producer = PRU
+					}
+				}
+			
+			}
+			   }
+			   ai_will_do = {
+						  factor = 75
+					   }
+				}		
+				
+				GEA_Raid_Chinese_Shipments = {
+					allowed = {
+					tag = GEA
+					}
+					cost = 15
+					days_remove = 2
+					days_re_enable = 5
+				complete_effect = {
+					 random_list = {
+				
+					33 = {
+						add_political_power = -10
+					}
+				
+					33 = {
+						
+						create_import = {
+						resource = oil
+						amount = 25
+						exporter = ROC
+						}
+				
+					}
+				
+					33 = {
+				
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 10
+							producer = ROC
+						}
+					}
+				
+				}
+				   }
+				   ai_will_do = {
+							  factor = 75
+						   }
+					}
+GEA_Raid_Japanese_Shipments = {
+			allowed = {
+			tag = GEA
+			}
+			cost = 15
+			days_remove = 2
+			days_re_enable = 5
+		complete_effect = {
+			 random_list = {
+		
+			33 = {
+				add_political_power = -10
+			}
+		
+			33 = {
+				
+				create_import = {
+				resource = oil
+				amount = 25
+				exporter = JAP
+				}
+		
+			}
+		
+			33 = {
+		
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10
+					producer = JAP
+				}
+			}
+		
+		}
+		   }
+		   ai_will_do = {
+					  factor = 75
+				   }
+			}
+
+
+GEA_Raid_Indochinese_Shipments = {
+				allowed = {
+				tag = GEA
+				}
+				cost = 15
+				days_remove = 2
+				days_re_enable = 5
+			complete_effect = {
+				 random_list = {
+			
+				33 = {
+					add_political_power = -10
+				}
+			
+				33 = {
+					
+					create_import = {
+					resource = oil
+					amount = 25
+					exporter = INC
+					}
+			
+				}
+			
+				33 = {
+			
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 10
+						producer = INC
+					}
+				}
+			
+			}
+			   }
+			   ai_will_do = {
+						  factor = 75
+					   }
+				}
+
+
+
+
+
+GEA_Raid_Argentine_Shipments = {
+					allowed = {
+					tag = GEA
+					}
+					cost = 15
+					days_remove = 2
+					days_re_enable = 5
+				complete_effect = {
+					 random_list = {
+				
+					33 = {
+						add_political_power = -10
+					}
+				
+					33 = {
+						
+						create_import = {
+						resource = oil
+						amount = 25
+						exporter = ARG
+						}
+				
+					}
+				
+					33 = {
+				
+						add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 10
+							producer = ARG
+						}
+					}
+				
+				}
+				   }
+				   ai_will_do = {
+							  factor = 75
+						   }
+					}
+	
+
+
+
+GEA_Raid_Central_American_Shipments = {
+						allowed = {
+						tag = GEA
+						}
+						cost = 15
+						days_remove = 2
+						days_re_enable = 5
+					complete_effect = {
+						 random_list = {
+					
+						33 = {
+							add_political_power = -10
+						}
+					
+						33 = {
+							
+							create_import = {
+							resource = oil
+							amount = 25
+							exporter = CAC
+							}
+					
+						}
+					
+						33 = {
+					
+							add_equipment_to_stockpile = {
+								type = infantry_equipment
+								amount = 10
+								producer = CAC
+							}
+						}
+					
+					}
+					   }
+					   ai_will_do = {
+								  factor = 75
+							   }
+						}
+
+
+
+
+GEA_Raid_Central_American_Shipments = {
+							allowed = {
+							tag = GEA
+							}
+							cost = 15
+							days_remove = 2
+							days_re_enable = 5
+						complete_effect = {
+							 random_list = {
+						
+							33 = {
+								add_political_power = -10
+							}
+						
+							33 = {
+								
+								create_import = {
+								resource = oil
+								amount = 25
+								exporter = CHL
+								}
+						
+							}
+						
+							33 = {
+						
+								add_equipment_to_stockpile = {
+									type = infantry_equipment
+									amount = 10
+									producer = CHL
+								}
+							}
+						
+						}
+						   }
+						   ai_will_do = {
+									  factor = 75
+								   }
+							}
+
+
+GEA_Raid_Mexican_Shipments = {
+								allowed = {
+								tag = GEA
+								}
+								cost = 15
+								days_remove = 2
+								days_re_enable = 5
+							complete_effect = {
+								 random_list = {
+							
+								33 = {
+									add_political_power = -10
+								}
+							
+								33 = {
+									
+									create_import = {
+									resource = oil
+									amount = 25
+									exporter = MEX
+									}
+							
+								}
+							
+								33 = {
+							
+									add_equipment_to_stockpile = {
+										type = infantry_equipment
+										amount = 10
+										producer = MEX
+									}
+								}
+							
+							}
+							   }
+							   ai_will_do = {
+										  factor = 75
+									   }
+								}
+
+
+
+
+
+
+}
