@@ -110,6 +110,17 @@ create_country_leader = {#
 	traits = {
 	}
 }
+
+create_country_leader = {# 
+	name = "Jacques Doriot"
+	desc = "POLITICS_BENOIT_FRACHON_DESC"
+	picture = "gfx/leaders/FRA/FRA_Jacques_Doriot.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+	}
+}
+
 1981.1.1 = {
 set_politics = {	
 	ruling_party = syndicalism
@@ -172,16 +183,6 @@ create_field_marshal = {
 }
 
 
-create_corps_commander = {
-	name = "Gilbert Brustlein"
-	portrait_path = "gfx/leaders/FRA/FRA_Gilbert.tga"
-	traits = { }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
 create_corps_commander = {
 	name = "Jean Schalbroeck"
 	portrait_path = "gfx/leaders/FRA/FRA_Jean_Schalbroeck.tga"
@@ -254,7 +255,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "René Camphin"
-	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_CAMPHIN.tga"
 	traits = { }
 	skill = 1
     attack_skill = 3
@@ -263,8 +264,8 @@ create_corps_commander = {
     logistics_skill = 4
 }
 create_corps_commander = {
-	name = "Marcel Sagnier"
-	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	name = "Louis Pétri"
+	portrait_path = "gfx/leaders/FRA/FRA_Petri.tga"
 	traits = { }
 	skill = 2
     attack_skill = 3
@@ -274,7 +275,7 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "Henri Manhès"
-	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+	portrait_path = "gfx/leaders/FRA/FRA_Manhes.tga"
 	traits = { }
 	skill = 2
     attack_skill = 3

@@ -312,6 +312,14 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_decision_generic_canned_fruit"
 	texturefile = "gfx/interface/decisions/decision_generic_canned_fruit.tga"
+	}	
+	spriteType = {
+	name = "GFX_decision_generic_petition"
+	texturefile = "gfx/interface/decisions/Generic_petition.tga"
+	}	
+	spriteType = {
+	name = "GFX_decision_generic_bill_signing"
+	texturefile = "gfx/interface/decisions/generic_bill_signing.tga"
 	}		
 ############FRA Guis
 	spriteType = {

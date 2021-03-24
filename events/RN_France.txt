@@ -813,6 +813,26 @@ country_event = {
 	}	
 }
 
+country_event = {                               
+	id = fra.31
+	title = fra.31.t
+	desc = fra.31.d
+	picture = GFX_nuke
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.31.a
+		clr_country_flag = FRA_truffle_affair		
+		add_popularity = {
+        ideology = revolutionary_socialism
+        popularity = -0.20
+}
+	
+	}
+}
+
 
 #########Focus Tree Trial
 country_event = {
@@ -935,9 +955,12 @@ country_event = {  ####The Trial of Henri Martin: Decision
 		if = {
 		limit = { has_country_flag = Pustch_military_influence }
 		custom_effect_tooltip = fraeightynine_tt
+		add_popularity = {
+        ideology = nationalist_socialism
+        popularity = 0.15
+}
 		else = { 
 		custom_effect_tooltip = frahope_tt
-		unlock_national_focus = FRA_coalition_de_lespoir
 		}
 		}
 	
@@ -949,6 +972,70 @@ country_event = {  ####The Trial of Henri Martin: Decision
 	}	
 }
 
+country_event = {
+	id = fra.56
+	title = fra.56.t	
+	desc = fra.56.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.56.a
+		set_politics = { ruling_party = syndicalism }
+		set_party_name = { 
+        ideology = syndicalism 
+        long_name = FRA_hope_coalition 
+        name = FRA_hope_coalition_long 
+}
+		create_country_leader = {
+	    name = "Jean-Paul Sartre"
+	    desc = "POLITICS_JEAN_PAUL_SATRE_DESC"
+	    picture = "gfx/leaders/FRA/FRA_Sartre.tga"
+	    expire = "1965.1.1"
+	    ideology = syndicalism_subtype
+     	traits = {
+		
+	}
+}
+		
+	}
+}
+
+country_event = {
+	id = fra.57
+	title = fra.57.t		
+	desc = fra.57.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.57.a
+	    set_country_flag = FRA_reform_struggle	
+		add_political_power = 50
+		FRA_reformeter_check = yes
+		FRA_reformeter_check_2 = yes
+	}
+}
+
+country_event = {
+	id = fra.56
+	title = fra.56.t	
+	desc = fra.56.d
+	picture = GFX_anti_military_protest
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = fra.56.a
+		set_politics = { ruling_party = nationalist_socialism }
+		
+	}
+}
 
 #######Nuclear
 

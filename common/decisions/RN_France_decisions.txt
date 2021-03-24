@@ -81,11 +81,11 @@ FRA_mission_free_africa = {
 	 fire_only_once = no
           allowed = { 
 		  tag = FRA
+}		  
+          available = {
 		  NOT = {
 		  has_country_flag = FRA_boots_in_afrca
-		  }
-}		  
-          available = {                          
+		  }		  
           ALG = {
 		  has_volunteers_amount_from = {
           tag = FRA
@@ -879,7 +879,6 @@ FRA_seinne_parks_rennovation = {
 
 FRA_truffle_affair = { 
 FRA_truffle_affair_existence = {                          
-     allowed = { tag = FRA }  
           available = {                          
 		  has_country_flag = FRA_truffle_affair_ended
           }
@@ -1102,12 +1101,61 @@ FRA_crush_the_black_market = {
 }
 FRA_i_accuse = {
     fire_only_once = yes
-	available = { check_variable = { FRA_truffle_affair_check = 3 }
-    visible = { has_country_flag = FRA_truffle_affair_final	}
-}
+	available = { 
+	has_country_flag = FRA_truffle_affair_final
+	check_variable = { FRA_truffle_affair_check = 3 }
+	}
+    visible = { 	}
 	complete_effect = {
 	country_event = fra.30
 }	
 
+}
+}
+
+
+FRA_reform_struggle = {
+FRA_BGT_session = {
+icon = GFX_decision_generic_petition
+          days_re_enable = 1
+          available = { 
+          has_country_flag = FRA_reform_struggle                  		  
+          }
+          activation = {                         
+          has_country_flag = FRA_reform_struggle                  
+          }
+          is_good = no                          
+          selectable_mission = no                
+          days_mission_timeout = 6  
+		  days_remove = 6 
+          timeout_effect = {  
+          add_political_power = -200           		  
+          }
+          complete_effect = { 
+		  FRA_reformeter_check = yes
+		  FRA_reformeter_check_2 = yes
+		  country_event = fra.60 ####Fail Check
+    }
+}
+FRA_hold_rally = {
+available = {
+check_variable = { party_popularity@ruling_party > 0.15 }
+}
+    days_re_enable = 5
+    cost = 50
+    complete_effect = {
+    add_manpower = -500
+    }
+}
+FRA_publish_polemic {
+icon = GFX_decision_generic_bill_signing
+available = {
+check_variable = { party_popularity@ruling_party > 0.15 }
+}
+    days_re_enable = 5
+    cost = 50
+    complete_effect = {
+    add_manpower = -500
+    }
 }
 }
