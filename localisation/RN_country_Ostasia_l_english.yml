@@ -9,7 +9,27 @@ misc.1.t:0 "The Black Fleet Struck!"
 
 ### Decision ####
 GEA_Raid_Shipments:0 "Raid Shipments"
-GEA_Raid_Shipments_desc:0 ""
+GEA_Raid_Shipments_desc:0 "If we are to keep our boys fed and clothed, we have no choice but to strike out. Our future lies upon the high sea. Let enemies of the Kriegsmarine fear her might!"
+GEA_Raid_Australian_Shipments:0 "Raid Australian Shipments"
+GEA_Raid_Indochinese_Shipments:0 "Raid Indochinese Shipments"
+GEA_Raid_Malayan_Shipments:0 "Raid Malayan Shipments"
+GEA_Raid_Phillipine_Shipments:0 "Raid Phillipine Shipments"
+GEA_Raid_Russian_Shipments:0 "Raid Russian Shipments"
+GEA_Raid_Peruvian_Shipments:0 "Raid Peruvian Shipments"
+GEA_Raid_Central_American_Shipments:0 "Raid Central American Shipments"
+GEA_Raid_Japanese_Shipments:0 "Raid Japanese Shipments"
+GEA_Raid_Mexican_Shipments:0 "Raid Mexican Shipments"
+GEA_Raid_Hawaii_Shipments:0 "Raid Hawaiian Shipments"
+GEA_Raid_Canadian_Shipments:0 "Raid Canadian Shipments"
+GEA_Raid_North_Borneo_Shipments:0 "Raid North Bornean Shipments"
+GEA_Raid_American_Shipments:0 "Raid West American Shipments"
+GEA_Raid_Thai_Shipments:0 "Raid Thai Shipments"
+GEA_Raid_Panamanian_Shipments:0 "Raid Panamanian Shipments"
+GEA_Raid_Indian_Shipments:0 "Raid Indian Shipments"
+GEA_Raid_Indonesian_Shipments:0 "Raid Indonesian Shipments"
+GEA_Raid_Argentine_Shipments:0 "Raid Argentine Shipments"
+GEA_Raid_Chilean_Shipments:0 "Raid Chilean Shipments"
+GEA_Raid_Colombian_Shipments:0 "Raid Colombian Shipments"
 
 
 ### Parties ###

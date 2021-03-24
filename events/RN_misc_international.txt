@@ -19,4 +19,20 @@ country_event = {    ######Black Fleet Raid
 }
 
 
+country_event = {    ######Raid Failed
+	id = misc.2
+	title = misc.2.t
+	desc = misc.2.d
+	picture = GFX_GEA_raider
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.2.a
+	    	add_manpower = -0.08
+}
+	}
+}
+
+
 	
