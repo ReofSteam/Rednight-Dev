@@ -267,6 +267,11 @@ initial_show_position = {
 		x = 9
 		y = 4
 		cost = 10
+		select_effect = {
+		country_event = {
+		id = fra.56 
+		days = 15
+		} }
 		available = {
 		has_country_flag = Putsch_fully_defeated
 	}			
@@ -276,8 +281,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = { id = fra.56 days = 2 }
-	country_event = { id = fra.57 days = 4 }
+	country_event = fra.57
 	}
 	}
 

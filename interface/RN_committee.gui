@@ -380,6 +380,28 @@ guiTypes = {
 			format = center
 		}		
 		instantTextBoxType = {
+			name = "FRA_opposititon_status_number_text"
+			position = { x = 260 y = 75 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "In the BGT"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}						
+		instantTextBoxType = {
+			name = "FRA_opposititon_status_number"
+			position = { x = 260 y = 100 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_opposititon_status_number"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}				
+		instantTextBoxType = {
 			name = "FRA_reform_status_text"
 			position = { x = -5 y = 25 }
 			font = "rn_viasans"
@@ -389,7 +411,29 @@ guiTypes = {
 			maxHeight = 50
 			fixedsize = yes	
 			format = center
-		}			
+		}		
+		instantTextBoxType = {
+			name = "FRA_reform_status_number_text"
+			position = { x = -5 y = 75 }
+			font = "rn_viasans"
+			text = "In the BGT"						
+			borderSize = {x = 0 y = 0}
+			maxWidth = 200
+			maxHeight = 50
+			fixedsize = yes	
+			format = center
+		}	
+		instantTextBoxType = {
+			name = "FRA_reform_status_number"
+			position = { x = -5 y = 100 }
+			font = "rn_viasans"
+			text = "FRA_reform_status_number"						
+			borderSize = {x = 0 y = 0}
+			maxWidth = 200
+			maxHeight = 50
+			fixedsize = yes	
+			format = center
+		}		
 	}
 }
 

@@ -52,6 +52,10 @@ FRA_national_corporatist_DEF:0 "the French State"
 
 FRA_RUS_puppet_party:0 "National Salvation Front"
 FRA_RUS_puppet_party_long:0 "Front de salut national français"
+
+FRA_hope_coalition:0 "PRFT - L'espoir"
+FRA_hope_coalition_long:0 "PRFT - Comité de réorganisation révolutionnaire - Committee of Revolutionary Reorganisation"
+
 #####Parties
 FRA_nationalist_socialism_party:0 "PRFT - Les Quatre-vingts Neuvième"
 FRA_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - French Revolutionary Workers Party"
@@ -124,6 +128,9 @@ FRA_interview_import_department_personels:0 "Interview all Personel of the Impor
 FRA_crush_the_black_market:0 "Crush the black market"
 FRA_i_accuse:0 "J'Accuse…!"
 FRA_reform_struggle:0 "The Great Change Status"
+FRA_BGT_session:0 "BGT Weekly Session"
+FRA_publish_polemic:0 "Publish Polemic Against Political Enemies"
+FRA_hold_rally:0 "Hold Public Rally"
 ###Focuses####
 FRA_radical_travailleursreformist_jacobin:0 "Radical Travailleurs-Reformist Jacobin"
 FRA_radical_travailleursreformist_jacobin_desc:0 ""
@@ -635,6 +642,9 @@ FRA_grandeur_construction_desc:0 "The granduer of France and that of the fame of
 ### Leaders ###
 
 POLITICS_BENOIT_FRACHON_DESC: "Benoit Frachon is the status quo. He can fully chart his ideological development, as well as his personal growth, to the maturity of the French Left. There is no better embodiment of modern France. Whether such a status is a positive trait depends on who one asks.\n\nBorn into poverty and forced to work from the age of thirteen, Benoit grew into an anarchist organically. He would become heavily involved in trade union struggles from an early age. When the first Weltkrieg led the SFIO into the worldwide struggle between “patriotic” and anti-war socialists Benoit wisely sided with the latter. This decision would enable him to help organize the 1919 General Strike in Marseille.\n\nAfter the civil war Frachon found his utopian views slowly corrupted. His optimism for the Syndicalist Federation degraded as it became clear that the tyranny of capital had been replaced with the rule of a thousand petty tyrants. Often he would voice particular concerns about the divide between urban and rural communes.\n\nDespite these reservations however, Benoit did not come to support the Jacobin reforms initially. It was only after a steady barrage of positive changes, specifically in the areas of military production, that he was swayed. His anarcho-syndicalist leanings were abandoned in favour of Marxist ones.\n\nToday Benoit is a champion of the status quo. Like most of the moderate Jacobins he supports a decent amount of centralisation and internationalism. Frachon is comfortable in the Social Republic, for he has  always tailored his views to what circumstances have dictated. With the glorious French victory in the Second Weltkrieg, what better system could there be?"
+POLITICS_WALDECK_ROCHET_DESC:0 "Waldech Rochet is the silent workhorse of the PRFT. For years he has been a staple of the state apparatus. He is powerful and reliable, yet some may characterize his personality as “uninspiring”. He has formerly served as the Minister of Agriculture, a position he greatly enjoyed alongside secretaryship of the Economic Crimes Committee. The source of his power comes mostly from the countryside. It is there he dedicated his efforts to bridging the Urban workers syndicates with the small peasantry. This has earned him a disparate network of supporters in the party and the fields. \n\n Criticism has begun to mount alongside notoriety. The more orthodox factions claim Waldech to be a peasant-minded sentimentalist in the workers revolution. Meanwhile the reformist factions accuse him of being a bureaucratic fool that cares only for petty matters, an example of the stagnant and diseased status quo. Change is coming in some form. Waldech will try and do the right thing."
+POLITICS_JACQUES_DORIOT_DESC:0 "Jacques Doriot was once recognized as an early leader of the Jacobin party and a decorated war hero. Now he is known mostly as a jaded cynic. His belief in the system decayed steadily over the years, as did its belief in him. During his time as a party outcast he has maintained a close relationship with the moderate or simply anti-Jacobin parties. As a result, he transformed into an irk In the eyes of the leadership who found such ambitious ideas unamusing.\n\n Jacques has found a new gospel In the army, heeding Pierre Brosolettes call to remember France’s “two million martyrs abandoned by the state.” He still resents his de-facto expulsion from the establishment, and seeks to form a government free of party politics altogether. The vision of the putschist general lives on in him. Perhaps this time, it is with a bit of personal vengeance."
+POLITICS_JEAN_PAUL_SATRE_DESC:0 "Jean-Paul Satre is a man not easily encapsulated.  During his time as minister of culture he became known as a prolific writer. His paradoxical views expressed in this time were hard to quantify. As a result, he would find himself an outcast in the very party he himself participated in.\n\nDespite this, Satre’s musings are never outright rejected. He commands a certain aura around him that demands respect and admiration. It is a charming presence of frankness and an inherent understanding of the troubled French minds, who in turn dominate the appendixes of the Jacobin Party and the youth as well as intellectual organizations of the Republic.\n\n Satre is an attractive machination of contradictions, and the recent circumstances have allowed him to gather a flock. Under his wing is the dream of a new future for the revolution, one that rejects both the opposition and the status quo. Satre himself claims no agency in the matter, hoping only to go where the people take him."
 ####Intro Text
 
 
@@ -650,6 +660,8 @@ FRA_opposititon_status_text:0 "[GetFraOpposition]"
 FRA_opposititon_moderate:0 "§YMODERATE§!"
 FRA_opposititon_controlled:0 "§GCONTROLLED§!"
 FRA_opposititon_strong:0 "§RSTRONG§!"
+FRA_opposititon_status_number:0 "§Y[?FRA_reform_value]%§!"
+FRA_reform_status_number:0 "§Y[?FRA_reform_value2]%§!"
 FRA_reform_status_text:0 "[GetFraFactionStatus]"
 FRA_the_young_radicals:0 "§GThe Young Radicals Dominate§!"
 FRA_orthodox_path:0 "§GThe Orthodox Socialists Dominate§!"
