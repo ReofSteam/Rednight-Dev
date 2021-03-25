@@ -13,15 +13,6 @@ GEA_Bauers_Submariners = {
 	}
 }
 
-GEA_do_or_die = {
-    modifier = {
-   war_support_factor = 0.9
-   drift_defence_factor = 0.3
-   surrender_limit = 0.3
-   
-	}
-}
-
 GEA_critical_shortages = {
     modifier = {
     equipment_capture_factor = 0.2
