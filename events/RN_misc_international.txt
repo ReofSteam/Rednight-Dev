@@ -29,10 +29,25 @@ country_event = {    ######Raid Failed
 
 	option = {
 		name = misc.2.a
-	    	add_manpower = -0.08
+	    	add_manpower = -0.1
 }
 	}
 }
 
 
+
+country_event = {    ######Captain Glassner Raid
+	id = misc.3
+	title = misc.3.t
+	desc = misc.3.d
+	picture = GFX_GEA_raider
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.3.a
+		add_political_power = -0.05
+}
+	}
+}
 	
