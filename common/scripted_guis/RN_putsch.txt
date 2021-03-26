@@ -7,8 +7,23 @@ scripted_gui = {
        	visible = {
         always = no
 		}
-		effects = {
-	}
+		properties = {
+        FRA_andre_malraux_button = {
+        image = "[GetMalrauxStatus]"
+    }
+        FRA_pustch_henri_frenay = {
+        image = "[GetFrenayStatus]"
+    }
+        FRA_pustch_chaban_delmas = {
+        image = "[GetDelmasStatus]"
+    }
+        FRA_pustch_vigerie = {
+        image = "[GetVigerieStatus]"
+    }
+        FRA_pustch_moulin = {
+        image = "[GetMoulinStatus]"
+    }	
+}
 	}
 }
 

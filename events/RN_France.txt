@@ -198,7 +198,13 @@ country_event = {
 
 	option = {
 		name = putsch.4.a
-		set_country_flag = marine_putscihsts_pacified
+		set_country_flag = malraux_pacified
+	    add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = -10
+        producer = FRA
+	    }
+	    add_stability = -0.05	
 		}	
 	}
 
@@ -212,8 +218,14 @@ country_event = {
 
 	option = {
 		name = putsch.5.a
-		set_country_flag = bal_putscihsts_pacified
-		}	
+		set_country_flag = frenay_pacified
+	    add_equipment_to_stockpile = {
+        type = support_equipment
+        amount = -10
+        producer = FRA
+	    }
+	    add_stability = -0.05	
+		}			}	
 	}
 
 country_event = {
@@ -268,7 +280,9 @@ country_event = {
 
 	option = {
 		name = putsch.9.a
-		set_country_flag = marine_putscihsts_pacified
+		set_country_flag = malraux_pacified
+	    add_stability = 0.05
+	    add_political_power = 5	
 		}	
 	}
 
@@ -282,7 +296,9 @@ country_event = {
 
 	option = {
 		name = putsch.10.a
-		set_country_flag = bal_putscihsts_pacified
+		set_country_flag = frenay_pacified
+	    add_stability = 0.05
+	    add_political_power = 5	
 		}	
 	}
 

@@ -1,56 +1,36 @@
 defined_text = { # Country
-	name = cherGetPutschPortrait
+	name = GetMalrauxStatus
 	text = {
-		trigger = { has_country_flag = cherb_putscihsts_pacified }
-		localization_key = "GFX_FROGGED"
-	}
-	text = {
-		trigger = { NOT = { has_country_flag = cherb_putscihsts_pacified } }
-		localization_key = "GFX_cherb"
+		trigger = { has_country_flag = malraux_pacified }
+		localization_key = "FRA_ELIMINATED"
 	}
 }
-
 defined_text = { # Country
-	name = marineGetPutschPortrait
+	name = GetFrenayStatus
 	text = {
-		trigger = { has_country_flag = marine_putscihsts_pacified }
-		localization_key = "GFX_FROGGED"
-	}
-	text = {
-		localization_key = "GFX_marine"
+		trigger = { has_country_flag = frenay_pacified }
+		localization_key = "FRA_ELIMINATED"
 	}
 }
-
 defined_text = { # Country
-	name = caabGetPutschPortrait
+	name = GetDelmasStatus
 	text = {
-		trigger = { has_country_flag = caab_utscihsts_pacified }
-		localization_key = "GFX_FROGGED"
-	}
-	text = {
-		localization_key = "GFX_caab"
+		trigger = { has_country_flag = delmas_pacified }
+		localization_key = "FRA_ELIMINATED"
 	}
 }
-
 defined_text = { # Country
-	name = balGetPutschPortrait
+	name = GetVigerieStatus
 	text = {
-		trigger = { has_country_flag = bal_putscihsts_pacified }
-		localization_key = "GFX_FROGGED"
-	}
-	text = {
-		localization_key = "GFX_bal"
+		trigger = { has_country_flag = vigerie_pacified }
+		localization_key = "FRA_ELIMINATED"
 	}
 }
-
 defined_text = { # Country
-	name = paratroopsGetPutschPortrait
+	name = GetMoulinStatus
 	text = {
-		trigger = { has_country_flag = par_putscihsts_pacified }
-		localization_key = "GFX_FROGGED"
-	}
-	text = {
-		localization_key = "GFX_paratroops"
+		trigger = { has_country_flag = moulin_pacified }
+		localization_key = "FRA_ELIMINATED"
 	}
 }
 

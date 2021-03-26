@@ -150,28 +150,28 @@ guiTypes = {
 			position = { x = 135 y = 200 }
 			spriteType = "FRA_Henri_Frenay"				
 			scale = 0.5			
-			pdx_tooltip = "FRA_andre_malraux_desc"			
+			pdx_tooltip = "FRA_henri_frenay_desc"			
 		}
 		iconType = {
 			name = "FRA_pustch_chaban_delmas"
 			position = { x = 220 y = 200 }
 			spriteType = "FRA_Chaban-Delmas"							
 			scale = 0.5		
-			pdx_tooltip = "FRA_andre_malraux_desc"	
+			pdx_tooltip = "FRA_chaban_delmas_desc"	
 		}
 		iconType = {
 			name = "FRA_pustch_vigerie"
 			position = { x = 305 y = 200 }
 			spriteType = "FRA_De_la_Vigerie"	
 			scale = 0.5
-			pdx_tooltip = "FRA_andre_malraux_desc"	
+			pdx_tooltip = "FRA_vigerie_desc"	
 		}		
 		iconType = {
 			name = "FRA_pustch_moulin"
 			position = { x = 390 y = 200 }
 			spriteType = "FRA_Jean_Moulin"	
 			scale = 0.5
-			pdx_tooltip = "FRA_andre_malraux_desc"	
+			pdx_tooltip = "FRA_moulin_desc"	
 		}	
 		iconType = {
 			name = "FRA_pustch_portrait_frame_1"
