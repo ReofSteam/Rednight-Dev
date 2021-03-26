@@ -113,18 +113,18 @@ guiTypes = {
 		position = { x = 0 y = 0 }
 		Orientation = center
 		Origo = center
-		clipping = no	
-		moveable = yes
 		iconType = {
 			name = "FRA_pustch_main_portrait"
 			position = { x = 327 y = 0 }
 			spriteType = "FRA_Pierre_Brossolette"
 			scale = 0.9			
+			pdx_tooltip = "FRA_putsch_general_brossolette"	
 		}
 		iconType = {
 			name = "FRA_pustch_main_portrait_frame"
 			position = { x = 323 y = -4 }
 			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes			
 			scale = 0.9				
 		}		
 		instantTextBoxType = {
@@ -136,14 +136,106 @@ guiTypes = {
 			maxWidth = 280
 			maxHeight = 150
 			fixedsize = yes	
-			format = left
+			format = center
 		}		
-		buttonType = {
-			name = "FRA_pustch_andre_malraux"
+		iconType = {
+			name = "FRA_andre_malraux_button"
 			position = { x = 50 y = 200 }
-			spriteType = FRA_Andre_Malaux	
+			spriteType = "FRA_Andre_Malaux"	
+			scale = 0.5	
+			pdx_tooltip = "FRA_andre_malraux_desc"
+		}			
+		iconType = {
+			name = "FRA_pustch_henri_frenay"
+			position = { x = 135 y = 200 }
+			spriteType = "FRA_Henri_Frenay"				
+			scale = 0.5			
+			pdx_tooltip = "FRA_andre_malraux_desc"			
+		}
+		iconType = {
+			name = "FRA_pustch_chaban_delmas"
+			position = { x = 220 y = 200 }
+			spriteType = "FRA_Chaban-Delmas"							
+			scale = 0.5		
+			pdx_tooltip = "FRA_andre_malraux_desc"	
+		}
+		iconType = {
+			name = "FRA_pustch_vigerie"
+			position = { x = 305 y = 200 }
+			spriteType = "FRA_De_la_Vigerie"	
+			scale = 0.5
+			pdx_tooltip = "FRA_andre_malraux_desc"	
+		}		
+		iconType = {
+			name = "FRA_pustch_moulin"
+			position = { x = 390 y = 200 }
+			spriteType = "FRA_Jean_Moulin"	
+			scale = 0.5
+			pdx_tooltip = "FRA_andre_malraux_desc"	
+		}	
+		iconType = {
+			name = "FRA_pustch_portrait_frame_1"
+			position = { x = 48 y = 198 }
+			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes
+			scale = 0.5			
+		}		
+		iconType = {
+			name = "FRA_pustch_portrait_frame_2"
+			position = { x = 132 y = 198 }
+			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes
 			scale = 0.5			
 		}			
+		iconType = {
+			name = "FRA_pustch_portrait_frame_3"
+			position = { x = 302 y = 198 }
+			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes
+			scale = 0.5			
+		}			
+		iconType = {
+			name = "FRA_pustch_portrait_frame_4"
+			position = { x = 388 y = 198 }
+			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes
+			scale = 0.5			
+		}		
+		iconType = {
+			name = "FRA_pustch_portrait_frame_5"
+			position = { x = 218 y = 198 }
+			spriteType = "GFX_FRA_portrait_frame"
+			alwaystransparent = yes
+			scale = 0.5			
+		}
+		iconType = {
+			name = "FRA_pustch_jacobin_party"
+			position = { x = 380 y = 310 }
+			spriteType = "GFX_FRA_jacobin_party"
+		}		
+		iconType = {
+			name = "FRA_pustch_arf"
+			position = { x = 50 y = 310 }
+			spriteType = "GFX_FRA_french_army_logo"		
+		}		
+		instantTextBoxType = {
+			name = "FRA_pustch_jacobin_number"
+			position = { x = 240 y = 350 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_pustch_jacobin_text"			
+			fixedsize = yes	
+			format = center
+		}		
+		instantTextBoxType = {
+			name = "FRA_pustch_arf_number"
+			position = { x = 70 y = 350 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "FRA_pustch_arf_text"			
+			fixedsize = yes	
+			format = center
+		}				
 	}
 }	
 		

@@ -7,13 +7,8 @@ scripted_gui = {
        	visible = {
         always = no
 		}
-   		properties = {
-    	}	
-	effects = {
-	FRA_pustch_andre_malraux_click = {
-	add_political_power = 5
+		effects = {
 	}
-	}		
 	}
 }
 

@@ -32,9 +32,12 @@ country_event = {
 		add_political_power = -80
 		set_country_flag = FRA_first_of_may_putsch
 		country_event = fra.2
-		set_capital = 26
-		16 = {set_demilitarized_zone = yes
-	}	
+		set_capital = 19
+		16 = {set_demilitarized_zone = yes}	
+		set_variable = {
+    	var = FRA_putsch_power
+	    value = 100
+}
 	}
 }
 

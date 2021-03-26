@@ -151,6 +151,14 @@ spriteTypes = {
 	name = "GFX_FRA_portrait_frame"
 	texturefile = "gfx/interface/FRA_gui/FRA_portrait_frame.tga"
 	}	
+	spriteType = {
+	name = "GFX_FRA_jacobin_party"
+	texturefile = "gfx/interface/FRA_gui/jacobin_party.tga"
+	}		
+	spriteType = {
+	name = "GFX_FRA_french_army_logo"
+	texturefile = "gfx/interface/FRA_gui/french_army_logo.tga"
+	}			
 #########Super Event	
 	spriteType = {
 	name = "GFX_superevent_frame"
