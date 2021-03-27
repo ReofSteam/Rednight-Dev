@@ -6,12 +6,12 @@
 
 ### Events ###
 
-INS.1.t:0 "Indonesia in 1950"
+INS.1.t:0 "Insulindia in 1950"
 INS.1.d:0 "The Islands of the Gods, the Emerald of the Equator, the East Indies, Insulindia. All those names refer to the Seventeen Thousand Islands that lies between Asia and Oceania, between the Pacific and the Indian Oceans. \n\nFor hundreds of years, the islands have captivated the Indians, the Arabs, the Chinese and eventually, the Europeans. Though the first three nations have heavily influenced the cultures within the islands, the last one, the Europeans, had placed an iron yoke on Insulindia, specifically the Dutch. \n\nFirstly, the Dutch came to trade, but slowly but surely, the Dutch would create a colonial state stretching from Atjeh to Papua and would oppress the natives for three hundred years, until they fought back hard, in 1936, the Insulindians, led by Hoesni Thamrin, would revolt against the Dutch. \n\nThe revolt would end in failure and would bring new and horrible suffering in the form of Johannes Furstner. The suffering would last six long years, until a new revolt erupted, one mightier and much better organized, led by Soekarno, the current president. It was called the National Revolution. \n\nThe National Revolution would see the Dutch expelled from Java, Sumatra, Sulawesi, Kalimantan and the Sunda Islands. It was filled with many great battles, betrayals, and heroic figures from both sides, and indeed, Insulindia is a nation built by the blood of its heroes.   \n\nBut now, the heroes have died for more than a year, and their blood dry and their bones turned to dust. If Insulindia, wants to last, it needs to change now."
 INS.1.a:0 "Thanks be to God"
 
 INS.2.t:0 "Rise of the PKI"
-INS.2.d:0 "Ever since Musso and his clique’s failed putsch, the far-left has never gained many supporters, especially with Murba and Masyumi’s ever-growing popularity. The failed putsch also caused the SOBSI, the sole far-left organisation to be banned, and many socialist supporters to come flocking to Murba. \n\nThe SOBSI would find itself in an eternal state of decline, until Semaun was approached by the “Three Musketeers”, Aidit, Njoto and Lukman, all young Indonesian-educated intellectuals. Together, they formed the PKI or the Partai Komunis Insulindia from the remnants of the SOBSI."
+INS.2.d:0 "Ever since Musso and his clique’s failed putsch, the far-left has never gained many supporters, especially with Murba and Masyumi’s ever-growing popularity. The failed putsch also caused the SOBSI, the sole far-left organisation to be banned, and many socialist supporters to come flocking to Murba. \n\nThe SOBSI would find itself in an eternal state of decline, until Semaun was approached by the “Three Musketeers”, Aidit, Njoto and Lukman, all young Insulindian-educated intellectuals. Together, they formed the PKI or the Partai Komunis Insulindia from the remnants of the SOBSI."
 INS.2.a:0 "We need to watch this closely"
 
 INS_cabinet.1.t:0 "Fall of Natsir's Cabinet"
@@ -32,11 +32,11 @@ INS_cabinet.4.d:0 "Wikana looked battered when he left the Parliament today. Ear
 INS_cabinet.4.a:0 "This isn't working!"
 
 INS_cabinet.5.t:0 "The Presidential Decree"
-INS_cabinet.5.d:0 "The fall of Wikana’s government has prompted Soekarno to take “extreme measures to save the country”. With all the parliament seemingly defiant against his will, Soekarno has decided to disband the parliament.  This morning, Soekarno announced a presidential decree, and it’s contents are: \n\nFirstly, the disbandment of the Indonesian Parliament. Secondly, the creation of the Majelis Permusyawaratan Rakyat Sementara, or the Temporary People’s Consultative Assembly to “replace” the Parliament. Thirdly, he would announce the creation of a new constitution, based on the constitution of the First Republic and some of the original drafts of the current constitution. \n\nThis decision caused an immediate shock in the government, attracting criticism from a lot of people, even from the Vice-President, Mohammad Hatta, who called this move to be potentially dictatorial, and would subvert the decade-old republic, but what does he know?"
+INS_cabinet.5.d:0 "The fall of Wikana’s government has prompted Soekarno to take “extreme measures to save the country”. With all the parliament seemingly defiant against his will, Soekarno has decided to disband the parliament.  This morning, Soekarno announced a presidential decree, and it’s contents are: \n\nFirstly, the disbandment of the Insulindian Parliament. Secondly, the creation of the Majelis Permusyawaratan Rakyat Sementara, or the Temporary People’s Consultative Assembly to “replace” the Parliament. Thirdly, he would announce the creation of a new constitution, based on the constitution of the First Republic and some of the original drafts of the current constitution. \n\nThis decision caused an immediate shock in the government, attracting criticism from a lot of people, even from the Vice-President, Mohammad Hatta, who called this move to be potentially dictatorial, and would subvert the decade-old republic, but what does he know?"
 INS_cabinet.5.a:0 "You live long enough to become the villain..."
 
 INS_cabinet.6.t:0 "Natsir Secures Second Term"
-INS_cabinet.6.d:0 "Mohammad Natsir’s cabinet had managed to push their agenda, the creation of the unitary state of Indonesia successfully. Natsir said that this is really all he wishes to accomplish, but many within his party pressed him to ask Soekarno for a second term. Expectedly, Soekarno would grant this request, as the Masyumi’s political victory had just soared their influence within the parliament, and Soekarno approved of this. \n\nThough their move to integrate the islands is successful, actually integrating Insulindia into Indonesia is a much harder job, and that the higher-ups of the outer provinces aren’t very happy with the arrangement, as shown in the entire Andi Azis debacle. Should anything happen, this is a mess that Natsir had created, and one that perhaps only Natsir can fix. Either way, the road ahead for Insulindia, no, Indonesia, seems bright."
+INS_cabinet.6.d:0 "Mohammad Natsir’s cabinet had managed to push their agenda, the creation of the unitary state of Insulindia successfully. Natsir said that this is really all he wishes to accomplish, but many within his party pressed him to ask Soekarno for a second term. Expectedly, Soekarno would grant this request, as the Masyumi’s political victory had just soared their influence within the parliament, and Soekarno approved of this. \n\nThough their move to integrate the islands is successful, actually integrating Insulindia into Insulindia is a much harder job, and that the higher-ups of the outer provinces aren’t very happy with the arrangement, as shown in the entire Andi Azis debacle. Should anything happen, this is a mess that Natsir had created, and one that perhaps only Natsir can fix. Either way, the road ahead for Insulindia, no, Insulindia, seems bright."
 INS_cabinet.6.a:0 "Incredible!"
 
 INS_cabinet.7.t:0 "Tan Malaka Secures Second Term"
@@ -44,7 +44,7 @@ INS_cabinet.7.d:0 "With the ACAMA in the streets, Soekarno’s approval in the p
 INS_cabinet.7.a:0 "No surprises there.."
 
 INS_cabinet.8.t:0 "Ali Secures Second Term"
-INS_cabinet.8.d:0 "Ali’s victory against the Dutch has immensely boosted his popularity among both the people and the politicians. Gaining support from the Masyumi and the Murba, Ali decides to seek another term, a move that would definitely be supported by the parliament, his party the PNI, and his superior, the man himself, Soekarno. \n\nAli promises to integrate the provinces gained after his diplomatic campaign against the Dutch. With the backing of Soemitro Djojohadikoesomo, a great economist, he would also try to improve the economy. With many promises and plans made, it is clear, that with Ali, Indonesia’s future seems bright"
+INS_cabinet.8.d:0 "Ali’s victory against the Dutch has immensely boosted his popularity among both the people and the politicians. Gaining support from the Masyumi and the Murba, Ali decides to seek another term, a move that would definitely be supported by the parliament, his party the PNI, and his superior, the man himself, Soekarno. \n\nAli promises to integrate the provinces gained after his diplomatic campaign against the Dutch. With the backing of Soemitro Djojohadikoesomo, a great economist, he would also try to improve the economy. With many promises and plans made, it is clear, that with Ali, Insulindia’s future seems bright"
 INS_cabinet.8.a:0 "Congratulations!"
 
 INS_cabinet.9.t:0 "Wikana's Appointment"
@@ -60,7 +60,7 @@ INS_parlemen.1.d:0 "Things got heated in the parliament as the Prime Minister, N
 INS_parlemen.1.a:0 "Debates are healthy, but grudges aren't."
 
 INS_civilwar.1.t:0 "The Resignation of Mohammad Hatta"
-INS_civilwar.1.d:0 "Mohammad Hatta has been the Vice-President of Indonesia for a very long time. He had accompanied Soekarno since the days of the National Revolution, he was also the First Prime Minister of the United States of Insulindia, creating an emergency, ragtag cabinet to make sure that the nation can function properly. \n\nA democrat, he had criticized and often tried in vain to talk Soekarno out of his stubbornness, his view that Indonesia’s democracy must be guided by himself. Hatta’s role had also grown to represent the non-Javan islands in the new cabinets that Soekarno formed, with Hatta being considered as the only thing keeping their heads free from a Javanese yoke. \n\nNow, with Soekarno’s outright rejection of true democracy and establishment of guided democracy, Hatta had enough. He had decided to resign from his office of Vice-President. Only time will tell how the other islands may react to this."
+INS_civilwar.1.d:0 "Mohammad Hatta has been the Vice-President of Insulindia for a very long time. He had accompanied Soekarno since the days of the National Revolution, he was also the First Prime Minister of the United States of Insulindia, creating an emergency, ragtag cabinet to make sure that the nation can function properly. \n\nA democrat, he had criticized and often tried in vain to talk Soekarno out of his stubbornness, his view that Insulindia’s democracy must be guided by himself. Hatta’s role had also grown to represent the non-Javan islands in the new cabinets that Soekarno formed, with Hatta being considered as the only thing keeping their heads free from a Javanese yoke. \n\nNow, with Soekarno’s outright rejection of true democracy and establishment of guided democracy, Hatta had enough. He had decided to resign from his office of Vice-President. Only time will tell how the other islands may react to this."
 INS_civilwar.1.a:0 "The Duumvirate falls..."
 
 INS_civilwar.2.t:0 "Rise of the Regional Councils"
@@ -79,8 +79,8 @@ INS_civilwar.5.t:0 "The Four Councils Petition"
 INS_civilwar.5.d:0 "We have received a red dossier earlier today, containing a letter, filled with the names of four colonels, each a leader of a council. \n\nThe letter started with greeting and praises to both Soekarno and the country, and prayer to hope that the country would last a thousand years, another thousand years, and thousands of years more. \n\nThen the contents of the letters suddenly became serious and formal, filled with demands. The Colonels of the Dewan Gajah, Banteng, Manguni dan Rangkong demand the resignation of the Leimena cabinet, the restoration of the Parliament, an amendment to the constitution regarding regional autonomies, and finally, the formation of a cabinet without PKI influence that would rule until a general election is held. \n\nThe letter ends with a threat, that if these demands aren’t fulfilled within the next five days, the councils will take “drastic measures to save the country”."
 INS_civilwar.5.a:0 "How dare they?!"
 
-INS_civilwar.6.t:0 "The Emergency Government of Indonesia"
-INS_civilwar.6.d:0 "With their demands refused, the four councils have taken their move. Ahmad Hussein had just invited former economic minister, Sjafruddin Prawiranegara, to lead an “emergency government” to save the Republic of Indonesia. He then cut off any ties to the central government of Jakarta and declared for this emergency government.  \n\nIn a short ceremony in Padang, the emergency government and the new cabinet was sworn in, with Sjafruddin as President,  Ahmad Hussein as commander-in-chief, and Maludin Simbolon as Foreign Minister. A short prayer followed the ceremony, which was then finished with a speech by Sjafruddin, proclaiming themselves as “protectors of democracy” and importantly, declaring themselves not as separatists. \n\nBut it was clear that separatists or not, this rival government is a serious challenge to national stability, and that no matter what the goals are, this is a rebellion. "
+INS_civilwar.6.t:0 "The Emergency Government of Insulindia"
+INS_civilwar.6.d:0 "With their demands refused, the four councils have taken their move. Ahmad Hussein had just invited former economic minister, Sjafruddin Prawiranegara, to lead an “emergency government” to save the Republic of Insulindia. He then cut off any ties to the central government of Jakarta and declared for this emergency government.  \n\nIn a short ceremony in Padang, the emergency government and the new cabinet was sworn in, with Sjafruddin as President,  Ahmad Hussein as commander-in-chief, and Maludin Simbolon as Foreign Minister. A short prayer followed the ceremony, which was then finished with a speech by Sjafruddin, proclaiming themselves as “protectors of democracy” and importantly, declaring themselves not as separatists. \n\nBut it was clear that separatists or not, this rival government is a serious challenge to national stability, and that no matter what the goals are, this is a rebellion. "
 INS_civilwar.6.a:0 "Order! We will have order!"
 INS_civilwar.6.b:0 "No, I call it aggressive negotiations. (Play as the PDRI)"
 
@@ -107,7 +107,7 @@ INS_civilwar.11.d:0 "After a stunning success in stomping down the rebels, Soeha
 INS_civilwar.11.a:0 "God grant him strength."
 
 INS_civilwar.12.t:0 "The Presidential Order"
-INS_civilwar.12.d:0 "As Soekarno accepted Soeharto’s proposal, many generals, mostly from Soeharto’s own clique, are emboldened to dare ask Soekarno to sign a presidential decree to give Soeharto “dictatorial powers”, just like the dictators of ancient Rome. \n\nThey cited that Indonesia is in a time of heavy trouble, just like in the days of Lucius Cincinnatus, and as has the senate gave Cincinnatus dictatorial powers to save the Roman Republic, Soeharto should also be given dictatorial powers to save the Federal Republic of Indonesia. He should be given the power to do whatever he deems right to save the country. \n\nAfter some negotiations, three cups of coffee, and a small pistol, Soekarno decides to relent, and sign a presidential order to give “emergency powers” to Soeharto that would last indefinitely."
+INS_civilwar.12.d:0 "As Soekarno accepted Soeharto’s proposal, many generals, mostly from Soeharto’s own clique, are emboldened to dare ask Soekarno to sign a presidential decree to give Soeharto “dictatorial powers”, just like the dictators of ancient Rome. \n\nThey cited that Insulindia is in a time of heavy trouble, just like in the days of Lucius Cincinnatus, and as has the senate gave Cincinnatus dictatorial powers to save the Roman Republic, Soeharto should also be given dictatorial powers to save the Federal Republic of Insulindia. He should be given the power to do whatever he deems right to save the country. \n\nAfter some negotiations, three cups of coffee, and a small pistol, Soekarno decides to relent, and sign a presidential order to give “emergency powers” to Soeharto that would last indefinitely."
 INS_civilwar.12.a:0 "This better be the right move.."
 
 INS_civilwar.13.t:0 "Operation Trisula"
@@ -119,15 +119,15 @@ INS_civilwar.14.d:0 "Lieutenant-Colonel Untung ibn Sjamsuri was the commander of
 INS_civilwar.14.a:0 "Not so lucky, eh?"
 
 INS_civilwar.15.t:0 "Fall of Soekarno"
-INS_civilwar.15.d:0 "The mobs demanded the trial of Soekarno at the Mahmilub. It was the final nail in the coffin for Soekarno’s power. It was clear that Soekarno was losing the support of the same people he liberated long ago. The same people that chanted “NASAKOM Bersatu!” has now chanted “Down with Soekarno!” \n\nAs Soekarno slowly falls from power, Soeharto climbs the ranks. For some, it would be obvious that the General will replace the Great Leader of the Revolution as the President of the Republic of Indonesia. \n\nSoekarno decided to resign in front of the court today, [GetDateText]. In the same ceremony, Soeharto was to be sworn in as President. As if it was some cruel joke, it was Soekarno who had to read the oath before Soeharto followed. After an emotional oath, General Soeharto was finally sworn in as president. God grant him strength in ruling our mighty country."
+INS_civilwar.15.d:0 "The mobs demanded the trial of Soekarno at the Mahmilub. It was the final nail in the coffin for Soekarno’s power. It was clear that Soekarno was losing the support of the same people he liberated long ago. The same people that chanted “NASAKOM Bersatu!” has now chanted “Down with Soekarno!” \n\nAs Soekarno slowly falls from power, Soeharto climbs the ranks. For some, it would be obvious that the General will replace the Great Leader of the Revolution as the President of the Republic of Insulindia. \n\nSoekarno decided to resign in front of the court today, [GetDateText]. In the same ceremony, Soeharto was to be sworn in as President. As if it was some cruel joke, it was Soekarno who had to read the oath before Soeharto followed. After an emotional oath, General Soeharto was finally sworn in as president. God grant him strength in ruling our mighty country."
 INS_civilwar.15.a:0 "Jenderalku, Jenderal Soeharto!"
 
 ### Parties ###
 
 INS_nationalist_socialism_party:0 "PRFT - Les Quatre-vingts Neuvième"
-INS_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - Indonesian Revolutionary Workers Party"
+INS_nationalist_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - Insulindian Revolutionary Workers Party"
 INS_revolutionary_socialism_party:0 "PRFT - Vieille Garde"
-INS_revolutionary_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - Indonesian Revolutionary Workers Party"
+INS_revolutionary_socialism_party_long:0 "Parti Révolutionnaire Français des Travailleurs - Insulindian Revolutionary Workers Party"
 INS_syndicalism_party:0 "Travailleurs radicaux"
 INS_syndicalism_party_long:0 "Parti des socialistes et syndicalistes  - Socialist and Syndicalist Party"
 INS_moderate_socialist_party:0 "Républicains radicaux et démocrates"
@@ -143,54 +143,54 @@ INS_authoritarian_democrat_party_long:0 "Organisation secrète d'action révolut
 INS_autocratic_party:0 "Organisation secrète"
 INS_autocratic_party_long:0 "Organisation secrète d'action révolutionnaire - Secret Revolutionary Action Organisation"
 INS_ultraconservative_party:0 "Action Française"
-INS_ultraconservative_party_long:0 "Indonesian Action"
+INS_ultraconservative_party_long:0 "Insulindian Action"
 INS_national_corporatist_party:0 "Parti Communautaire National"
 INS_national_corporatist_party_long:0 "National Community Party"
 
 ### Country Name ###
-INS_nationalist_socialism:0 "Federal Republic of Indonesia"
-INS_nationalist_socialism_ADJ:0 "Indonesian"
-INS_nationalist_socialism_DEF:0 "the Federal Republic of Indonesia"
+INS_nationalist_socialism:0 "Federal Republic of Insulindia"
+INS_nationalist_socialism_ADJ:0 "Insulindian"
+INS_nationalist_socialism_DEF:0 "the Federal Republic of Insulindia"
 
-INS_revolutionary_socialism:0 "Federal Republic of Indonesia"
-INS_revolutionary_socialism_ADJ:0 "Indonesian"
-INS_revolutionary_socialism_DEF:0 "the Federal Republic of Indonesia"
+INS_revolutionary_socialism:0 "Federal Republic of Insulindia"
+INS_revolutionary_socialism_ADJ:0 "Insulindian"
+INS_revolutionary_socialism_DEF:0 "the Federal Republic of Insulindia"
 
-INS_syndicalism:0 "Federal Republic of Indonesia"
-INS_syndicalism_ADJ:0 "Indonesian"
-INS_syndicalism_DEF:0 "the Federal Republic of Indonesia"
+INS_syndicalism:0 "Federal Republic of Insulindia"
+INS_syndicalism_ADJ:0 "Insulindian"
+INS_syndicalism_DEF:0 "the Federal Republic of Insulindia"
 
-INS_moderate_socialist:0 "Federal Republic of Indonesia"
-INS_moderate_socialist_ADJ:0 "Indonesian"
-INS_moderate_socialist_DEF:0 "the Federal Republic of Indonesia"
+INS_moderate_socialist:0 "Federal Republic of Insulindia"
+INS_moderate_socialist_ADJ:0 "Insulindian"
+INS_moderate_socialist_DEF:0 "the Federal Republic of Insulindia"
 
-INS_social_democrat:0 "Federal Republic of Indonesia"
-INS_social_democrat_ADJ:0 "Indonesian"
-INS_social_democrat_DEF:0 "the Federal Republic of Indonesia"
+INS_social_democrat:0 "Federal Republic of Insulindia"
+INS_social_democrat_ADJ:0 "Insulindian"
+INS_social_democrat_DEF:0 "the Federal Republic of Insulindia"
 
-INS_social_liberal:0 "Federal Republic of Indonesia"
-INS_social_liberal_ADJ:0 "Indonesian"
-INS_social_liberal_DEF:0 "the Federal Republic of Indonesia"
+INS_social_liberal:0 "Federal Republic of Insulindia"
+INS_social_liberal_ADJ:0 "Insulindian"
+INS_social_liberal_DEF:0 "the Federal Republic of Insulindia"
 
-INS_social_conservative:0 "Federal Republic of Indonesia"
-INS_social_conservative_ADJ:0 "Indonesian"
-INS_social_conservative_DEF:0 "the Federal Republic of Indonesia"
+INS_social_conservative:0 "Federal Republic of Insulindia"
+INS_social_conservative_ADJ:0 "Insulindian"
+INS_social_conservative_DEF:0 "the Federal Republic of Insulindia"
 
-INS_authoritarian_democrat:0 "Federal Republic of Indonesia"
-INS_authoritarian_democrat_ADJ:0 "Indonesian"
-INS_authoritarian_democrat_DEF:0 "the Federal Republic of Indonesia"
+INS_authoritarian_democrat:0 "Federal Republic of Insulindia"
+INS_authoritarian_democrat_ADJ:0 "Insulindian"
+INS_authoritarian_democrat_DEF:0 "the Federal Republic of Insulindia"
 
-INS_autocratic:0 "Federal Republic of Indonesia"
-INS_autocratic_ADJ:0 "Indonesian"
-INS_autocratic_DEF:0 "the Federal Republic of Indonesia"
+INS_autocratic:0 "Federal Republic of Insulindia"
+INS_autocratic_ADJ:0 "Insulindian"
+INS_autocratic_DEF:0 "the Federal Republic of Insulindia"
 
-INS_ultraconservative:0 "Federal Republic of Indonesia"
-INS_ultraconservative_ADJ:0 "Indonesian"
-INS_ultraconservative_DEF:0 "the Federal Republic of Indonesia"
+INS_ultraconservative:0 "Federal Republic of Insulindia"
+INS_ultraconservative_ADJ:0 "Insulindian"
+INS_ultraconservative_DEF:0 "the Federal Republic of Insulindia"
 
-INS_national_corporatist:0 "Federal Republic of Indonesia"
-INS_national_corporatist_ADJ:0 "Indonesian"
-INS_national_corporatist_DEF:0 "the Federal Republic of Indonesia"
+INS_national_corporatist:0 "Federal Republic of Insulindia"
+INS_national_corporatist_ADJ:0 "Insulindian"
+INS_national_corporatist_DEF:0 "the Federal Republic of Insulindia"
 
 ### Focuses ###
 
@@ -458,9 +458,9 @@ INS_swabhuwana_paksa:0 ""The Motherland's Wings""
 ### Ideas ###
 #starting
 INS_tripartite_struggle:0 "Tripartite Power Struggle"
-INS_tripartite_struggle_desc:0 "The Politics of the Republic of Indonesia's parliament is always dominated by a three-way power struggle between the faction of Muhammad Natsir's Masyumi, Tan Malaka's Murba and Ali Sostroamidjojo's PNI which is Soekarno's own party. Despite the fact that Masyumi's Natsir is the Prime Minister of the Republic, neither of these three sides has found dominance in the parliament."
+INS_tripartite_struggle_desc:0 "The Politics of the Republic of Insulindia's parliament is always dominated by a three-way power struggle between the faction of Muhammad Natsir's Masyumi, Tan Malaka's Murba and Ali Sostroamidjojo's PNI which is Soekarno's own party. Despite the fact that Masyumi's Natsir is the Prime Minister of the Republic, neither of these three sides has found dominance in the parliament."
 INS_decentralisation:0 "Decentralisation"
-INS_decentralisation_desc:0 "Thanks to the Dutch and our own politics, the entire country is in a state of extreme decentralisation. This has caused inefficiency in administration, national defence, construction and development, and many things. Insulindia must centralise under Indonesia's banner if it wants to survive."
+INS_decentralisation_desc:0 "Thanks to the Dutch and our own politics, the entire country is in a state of extreme decentralisation. This has caused inefficiency in administration, national defence, construction and development, and many things. Insulindia must centralise under Insulindia's banner if it wants to survive."
 INS_orla:0 "Orde Lama"
 INS_orla_desc:0 "The Soekarno Years is often dubbed the 'Orde Lama' or 'The Old Order'. This period in history is marked by the Insulindian parliament, slow economic growth, and overall focus to 'Revolutionary Struggles'."
 INS_orba:0 "Orde Baru"
