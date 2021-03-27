@@ -61,6 +61,10 @@ spriteTypes = {
         name = "GFX_focus_generic_syndicalist_workers"
         texturefile = "gfx/interface/goals/generic/Generic_syndicalist_workers.tga"
     }	
+	SpriteType = { 
+        name = "GFX_focus_Generic_French_MBT_Tank"
+        texturefile = "gfx/interface/goals/generic/Generic_French_MBT_Tank.tga"
+    }		
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -320,5 +324,25 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_ieau"
 		texturefile = "gfx/interface/goals/FRA/FRA_ieau.tga"
+	}
+	SpriteType = { 
+		name = "GFX_FRA_The_Granduer_Revolution"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Granduer_Revolution.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_The_Humble_Revolution"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Humble_Revolution.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_FRA_path_of_glory"
+		texturefile = "gfx/interface/goals/FRA/FRA_path_of_glory.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_The_Path_Of_Hope"
+		texturefile = "gfx/interface/goals/FRA/FRA_The_Path_Of_Hope.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_FRA_Cross_Vistula"
+		texturefile = "gfx/interface/goals/FRA/FRA_Cross_Vistula.tga"
 	}		
 }

@@ -80,4 +80,62 @@ guiTypes = {
 			pdx_tooltip_delayed = "secondary_full_name_tt"
 		}
 	}
+##########Yugoslav Tripple 
+	containerWindowType = {
+		name = "button_YUG_secondary_leader"
+		position = { x = 20 y = 430 }
+		buttonType = {
+			name = "open_button"
+			quadTextureSprite = "GFX_smallflag_Serbia"
+			clicksound = click_default
+			pdx_tooltip = "Serbia"
+		}
+		buttonType = {
+			name = "open_button_croatia"
+			quadTextureSprite = "GFX_smallflag_Croatia"
+			clicksound = click_default
+			pdx_tooltip = "Serbia"
+		}			
+		iconType = {
+			name = "country"	
+			quadTextureSprite = "GFX_mini_country_selector"
+			position = { x=-8 y =-8 }			
+			alwaystransparent = yes						
+		}	
+	}	
+	containerWindowType = {
+		name = "YUG_secondary_leader_croatia"
+		position = { x = 0 y = 0 }			
+		iconType = {
+			name = "croatia_leader"	
+			quadTextureSprite = "SER_Predavec"
+			position = { x= 18 y = 58 }
+			pdx_tooltip = "SER_croat_leader_desc"			
+		}	
+		iconType = {
+			name = "leader_filter"
+			quadTextureSprite = "GFX_leader_filter"
+			position = { x = 8 y = 44 }		
+			alwaystransparent = yes
+		}			
+
+		iconType = {
+			name = "leader_frame2"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = 9 y = 44 }		
+			alwaystransparent = yes
+		}	
+
+		instantTextboxType = {
+			name = "leader_name"
+			position = { x = 18 y = 271 }
+			font = "rn_viasans"
+			text = "Josip Predavec"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}		
+	}		
+	
 }

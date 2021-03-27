@@ -75,7 +75,7 @@ ideas = {
 
 	## This economy law is intentionally changed from the vanilla name to avoid hardcoded behavior.
 	## If we ever want to go back to the hardcoded behavior then change this back to match vanilla's name for the laws
-	KR_economy = {
+	RN_economy = {
 		law = yes
 
 		undisturbed_isolation = {
@@ -336,7 +336,7 @@ ideas = {
 
 	## This trade law is intentionally changed from the vanilla name to avoid hardcoded behavior.
 	## If we ever want to go back to the hardcoded behavior then change this back to match vanilla's name for the laws
-	KR_trade_laws = {
+	RN_trade_laws = {
 		law = yes
 
 		## Used by SWI so isolationism isn't suicide ##
@@ -535,7 +535,7 @@ ideas = {
 		}
 	}
 
-	KR_mobilization_laws = {
+	RN_mobilization_laws = {
 		law = yes
 
 		disarmed_nation = {

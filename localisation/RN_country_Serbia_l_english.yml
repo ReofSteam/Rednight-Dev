@@ -49,6 +49,6 @@ SER_red_purges:0 "Socialist Purges"
 ### Ministers ###
 
 ### Leaders ###
-POLITICS_KING_ALEXANDER_SERBIA_DESC:0 "§YKing of Yugoslavia§!\n\n"
-
+POLITICS_KING_ALEXANDER_SERBIA_DESC:0 "§YKing of the Serbs and Croats§!\n\n"
+SER_croat_leader_desc:0 "§YPrime Minister of the Kingdom of Croatia§!"
 ### Tech? ###

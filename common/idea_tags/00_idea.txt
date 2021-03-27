@@ -24,9 +24,9 @@ idea_categories = {
 	}
 
 	government = {
-		slot = KR_mobilization_laws
-		slot = KR_trade_laws
-		slot = KR_economy
+		slot = RN_mobilization_laws
+		slot = RN_trade_laws
+		slot = RN_economy
 		removal_cost = -1
 
 		ledger = civilian

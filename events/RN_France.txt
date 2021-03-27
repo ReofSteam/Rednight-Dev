@@ -1042,8 +1042,8 @@ country_event = {
 }
 
 country_event = {
-	id = fra.56
-	title = fra.56.t	
+	id = fra.58
+	title = fra.58.t	
 	desc = fra.56.d
 	picture = GFX_anti_military_protest
 

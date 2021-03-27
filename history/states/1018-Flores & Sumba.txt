@@ -7,8 +7,8 @@ state = {
 	manpower = 1466647
 
 	history = {
-		owner = DEI
-		add_core_of = DEI
+		owner = INS
+		add_core_of = INS
 		add_core_of = INS
 		buildings = {
 			infrastructure = 3

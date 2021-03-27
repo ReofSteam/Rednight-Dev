@@ -345,5 +345,18 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_FRA_jacobin_party_old_guard"
 	texturefile = "gfx/interface/FRA_gui/RN_jacobin_party_old_guard.tga"
+	}	
+########Yugoslavia
+	spriteType = {
+	name = "GFX_smallflag_Serbia"
+	texturefile = "gfx/flags/Medium/SER.tga"
+	}		
+	spriteType = {
+	name = "GFX_smallflag_Croatia"
+	texturefile = "gfx/flags/medium/ISC.tga"
 	}			
+	spriteType = {
+	name = "SER_Predavec"
+	texturefile = "gfx/leaders/SER/SER_Predavec.tga"
+	}		
 }

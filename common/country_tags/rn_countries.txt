@@ -188,6 +188,7 @@ DEI = "countries/East Indies.txt"
 #SOL = "countries/Solomon Islands.txt"	Unimplemented
 #FJI = "countries/Fiji.txt"				Unimplemented
 NCL = "countries/New Caledonia.txt"
+PNG = "countries/WestEur.txt"
 
 
 ###Africa

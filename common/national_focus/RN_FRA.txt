@@ -1243,7 +1243,7 @@ initial_show_position = {
 	#Focus for The Greatness of Our Revolution
 	focus = {
 		id = FRA_the_greatness_of_our_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_The_Granduer_Revolution
 		x = 37
 		y = 1
 		cost = 10
@@ -1311,7 +1311,7 @@ initial_show_position = {
 	#Focus for The Humble Revolution
 	focus = {
 		id = FRA_the_humble_revolution
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_The_Humble_Revolution
 		x = 43
 		y = 1
 		cost = 10
@@ -1504,7 +1504,7 @@ initial_show_position = {
 	#Focus for Passage du Vistule
 	focus = {
 		id = FRA_passage_du_vistule
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_Cross_Vistula
 		x = 24
 		y = 12
 		cost = 10
@@ -1687,7 +1687,7 @@ initial_show_position = {
 	#Focus for Legentilhomme CCP
 	focus = {
 		id = FRA_legentilhomme_ccp
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_French_MBT_Tank
 		x = 27
 		y = 15
 		cost = 10

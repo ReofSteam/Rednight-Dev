@@ -3,8 +3,8 @@ state = {
 	name = "STATE_669"
 
 	history = {
-		owner = DEI
-		add_core_of = DEI
+		owner = INS
+		add_core_of = INS
 		add_core_of = INS
 		add_core_of = PNG
 		victory_points = {
