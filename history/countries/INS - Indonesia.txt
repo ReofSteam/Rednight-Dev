@@ -21,39 +21,9 @@ set_technology = {
 
 set_convoys = 25
 
-create_faction = "United States of Insulindia"
-
-add_to_faction = INS
-add_to_faction = SUL
-add_to_faction = KAL
-add_to_faction = ACH
-
-set_country_flag = banned_revolutionary_socialism
-
-load_focus_tree = KN_INS_natsir
 
 add_ideas = {
-#starting
-	INS_tripartite_struggle
-	INS_decentralisation
-	INS_orla
-}
 
-#cabinet
-add_ideas = {
-	INS_Mohammad_Natsir
-	INS_Mohammad_Hatta
-	INS_Dato_Assaat
-	INS_Sjafruddin_Economy
-	INS_Mohammad_Roem
-	INS_KH_Dewantara
-	INS_Buya_Hamka
-	INS_Djuanda_Kartawidjaja
-	INS_Dzulkifli_Lubis
-	INS_Gen_Soedirman
-	INS_Gatot_Soebroto
-	INS_Abdurrachman_Saleh
-	INS_Eddy_Martadinata
 }
 
 set_politics = {
@@ -63,13 +33,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_variable = { var = INS_masyumi_support value = 32 }
-set_variable = { var = INS_murba_support value = 23 }
-set_variable = { var = INS_pni_support value = 31 }
-
-set_country_flag = INS_soekarno_approval_med
-set_country_flag = INS_people_approval_med
-set_country_flag = INS_external_influence_low
 
 set_popularities = {
 	nationalist_socialism = 4
@@ -86,102 +49,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Soekarno"
+	name = "Abikoesno Tjokrosoejoso"
 	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = syndicalism_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
+	picture = "gfx/leaders/INS/INS_Abikoesno_Tjokrosoejoso.tga"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype 
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Soekarno"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soekarno.tga"
-	expire = "1965.1.1"
-	ideology = autocratic_subtype 
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Sekarmadji Maridjan Kartosoewirjo"
-	desc = "POLITICS_KARTOSOEWIRJO_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Kartosoewiryo.tga"
-	expire = "1965.10.1"
-	ideology = ultraconservative_subtype
-	traits = { }
-}
-
-create_country_leader = {
-	name = "Maludin Simbolon"
-	desc = "POLITICS_SIMBOLON_DESC"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simbolon.tga"
-	expire = "1965.10.1"
-	ideology = national_corporatist_subtype
-	traits = { }
 }
 
 ###Military Leaders

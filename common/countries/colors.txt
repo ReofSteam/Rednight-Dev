@@ -289,6 +289,10 @@ GEA = {
 	color = rgb { 0 0 128}
 	color_ui = rgb { 57 143 97 }
 }
+PNG = {
+	color = rgb { 0 0 128}
+	color_ui = rgb { 57 143 97 }
+}
 ARG = {
 	color = rgb { 153 217 234 }
 	color_ui = rgb { 189 204 255 }
