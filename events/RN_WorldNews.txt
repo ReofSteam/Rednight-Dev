@@ -367,3 +367,22 @@ news_event = { #Finland Autonomy
 		name = worldnews.15.b
 	}	
 }
+
+news_event = { #Swiss_Saved
+	id = worldnews.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2" }
+
+	title = worldnews.t
+	desc = worldnews.16.d
+	picture = GFX_germany_occupation_ends
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.16.a
+	}
+}
