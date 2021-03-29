@@ -4,8 +4,6 @@ oob = "GEA"
 
 add_ideas = {
 	GEA_Bauers_Submariners
-	GEA_critical_shortages
-	GEA_kriegsmarine_Training
 }
 
 # Starting tech

@@ -695,6 +695,9 @@ country_event = {
 	days = 2
 }	
 	}
+	option = {
+		name = fra.21.b
+	}
 }
 
 country_event = {
@@ -708,7 +711,14 @@ country_event = {
 
 	option = {
 		name = fra.22.a
+		news_event = {
+			id = worldnews.16
+			days = 2
+		}
 
+	}
+	option = {
+		name = fra.22.b
 	}
 }
 
