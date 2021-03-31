@@ -887,10 +887,16 @@ AST = {
 	color = rgb { 57 143 97 }
 	color_ui = rgb { 57 143 97 }
 }
-WST = {
-	color = rgb { 224 197 20 }
-	color_ui = rgb { 234 234 159 }
+NCL = {
+	color = rgb { 62 155 165 }
+	color_ui = rgb { 66 155 165 }
 }
+
+PLN = {
+	color = rgb { 207 12 19 }
+	color_ui = rgb { 207 12 19 }
+}
+
 HAW = {
 	color = rgb { 239 239 0 }
 	color_ui = rgb { 239 239 0 }
@@ -919,10 +925,6 @@ DEI = {
 #	color = rgb
 #	color_ui = rgb
 #}
-NCL = {
-	color = rgb { 62 155 165 }
-	color_ui = rgb { 66 155 165 }
-}
 
 ###Africa
 ##North

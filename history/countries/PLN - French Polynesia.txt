@@ -20,7 +20,7 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = autocratic
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -40,11 +40,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Henri Lafleur"
+	name = "Masayuki Matsuda"
 	desc = "POLITICS_CALIDONIAMAN_DESC"
-	picture = "gfx/leaders/NCL/NCL_Henri_Lafleur.tga"
+	picture = "gfx/leaders/JAP/JAP_Matsuda.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = autocratic_subtype
 	traits = {
 		#
 	}
