@@ -183,11 +183,11 @@ AST = "countries/WestEur.txt"
 HAW = "countries/Hawaii.txt"
 NZL = "countries/New Zealand.txt"
 GEA = "countries/German East Asia.txt"
-PLN = "countries/New Caledonia.txt"
+PLN = "countries/Oceania.txt"
 DEI = "countries/East Indies.txt"
 #SOL = "countries/Solomon Islands.txt"	Unimplemented
 #FJI = "countries/Fiji.txt"				Unimplemented
-NCL = "countries/New Caledonia.txt"
+NCL = "countries/Oceania.txt"
 PNG = "countries/WestEur.txt"
 
 

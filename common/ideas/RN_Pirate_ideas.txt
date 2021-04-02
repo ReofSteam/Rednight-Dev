@@ -7,6 +7,7 @@ ideas = {
 	country = {
 
 GEA_Bauers_Submariners = {
+picture = PRS_submarine
     modifier = {
    stability_factor = -0.4
    political_power_factor = 0.2

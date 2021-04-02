@@ -6,11 +6,12 @@ ideas = {
 	country = {
 
 		
-PNG_Professional_Administration = {
+PNG_colonial_administration = {
+	picture =  AST_british_empire
     modifier = {
    stability_factor = 0.4
    political_power_factor = 0.3
-   conscription = -0.8
+   conscription_factor = -0.8
 	}
 }
 

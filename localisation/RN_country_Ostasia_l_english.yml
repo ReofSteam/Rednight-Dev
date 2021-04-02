@@ -6,6 +6,8 @@
 
 ### Events ###
 misc.1.t:0 "The Black Fleet Struck!"
+misc.1.d:0 "Calamity at sea!\n\nToday a [THIS.GetAdjective] ship was reported missing following several distress calls. We managed to rescue a few survivors, all of which recounted quite a harrowing tale. They claim to have been attacked by what was first thought to be a coastal patrol. This was in fact a group of pirates, who boarded and seized the ship at gunpoint following their inconspicuous approach. Several members of the crew, though not all, were herded onto lifeboats, which our navy spotted and picked up.The status of their ship itself was confirmed many hours later, as it was found drifting empty of cargo near a small Indonesian Island.\n\n Maritime security has greatly deteriorated in the west pacific alongside the decline of global trade. This situation has gotten worse since the evacuation of the Kriegsmarine’s Ostasien station. It was also certainly affected by the chaos of the Indonesian national revolution, and  Japanese expansion in the pacific.\n\n It is unknown just where these pirates originate from. The survivors claim that they spoke a strange language reminiscent of German and English, but that it sounded mostly like gibberish.This incident is a loss to our economy and a humiliation to our national pride."
+misc.1.a:0 "Damn it!"
 misc.2.t:0 "Raid Failed!"
 misc.2.d:0 "It has been quite a while since we sent them out, and yet  our taskforce has failed to return. Whether they were killed, captured, or sunk, we must now assume they shall not return home. Their memory must be honored, and new raids launched as soon as possible. We need more supplies if we are to survive."
 misc.2.a:0 "They died for their country."
@@ -111,7 +113,6 @@ GEA_national_corporatist_party_long:0 "Kaiserliche Marineabteilung für Westpazi
 
 ### Ideas ###
 GEA_raider_struck:0 "The Black Fleet Struck!"
-GEA_raider_struck:0 ""
 GEA_Bauers_Submariners:0 "Bauers Submariners"
 GEA_Bauers_Submariners_desc:0 "It is through sheer force of personality that Captain Bauer holds our rowdy sailors together. The fatherland may have surrendered, but we have not. As long as it is occupied we may not return. Thankfully, the Kriegsmarine is used to making do, and our leader is quite courageous. We shall scavenge, survive, and thrive despite being surrounded by enemies. We are free men, and we shall never surrender!"
 

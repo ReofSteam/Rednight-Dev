@@ -23,59 +23,59 @@ PNG_conservative_party_long:0 "-"
 PNG_authoritarian_democrat_party:0 "-"
 PNG_authoritarian_democrat_party_long:0 "-"
 PNG_autocratic_party:0 "New Guinea Commission"
-PNG_autocratic_party_long:0 "Conservative and Royalist Party"
+PNG_autocratic_party_long:0 "New Guinea Commission"
 ### Country Name ###
 
 PNG_nationalist_socialism:0 "Mandate for German New Guinea"
-PNG_nationalist_socialism_ADJ:0 "the Mandate for German New Guinea"
-PNG_nationalist_socialism_DEF:0 "Papuan"
+PNG_nationalist_socialism_DEF:0 "the Mandate for German New Guinea"
+PNG_nationalist_socialism_ADJ:0 "Papuan"
 
 PNG_revolutionary_socialism:0 "Mandate for German New Guinea"
-PNG_revolutionary_socialism_ADJ:0 "the Mandate for German New Guinea"
-PNG_revolutionary_socialism_DEF:0 "Papuan"
+PNG_revolutionary_socialism_DEF:0 "the Mandate for German New Guinea"
+PNG_revolutionary_socialism_ADJ:0 "Papuan"
 
 PNG_syndicalism:0 "Mandate for German New Guinea"
-PNG_syndicalism_ADJ:0 "the Mandate for German New Guinea"
-PNG_syndicalism_DEF:0 "Papuan"
+PNG_syndicalism_DEF:0 "the Mandate for German New Guinea"
+PNG_syndicalism_ADJ:0 "Papuan"
 
 PNG_moderate_socialist:0 "Mandate for German New Guinea"
-PNG_moderate_socialist_ADJ:0 "the Mandate for German New Guinea"
-PNG_moderate_socialist_DEF:0 "Papuan"
+PNG_moderate_socialist_DEF:0 "the Mandate for German New Guinea"
+PNG_moderate_socialist_ADJ:0 "Papuan"
 
 PNG_social_democrat:0 "Mandate for German New Guinea"
-PNG_social_democrat_ADJ:0 "the Mandate for German New Guinea"
-PNG_social_democrat_DEF:0 "Papuan"
+PNG_social_democrat_DEF:0 "the Mandate for German New Guinea"
+PNG_social_democrat_ADJ:0 "Papuan"
 
 PNG_social_liberal:0 "Mandate for German New Guinea"
-PNG_social_liberal_ADJ:0 "the Mandate for German New Guinea"
-PNG_social_liberal_DEF:0 "Papuan"
+PNG_social_liberal_DEF:0 "the Mandate for German New Guinea"
+PNG_social_liberal_ADJ:0 "Papuan"
 
 PNG_social_conservative:0 "Mandate for German New Guinea"
-PNG_social_conservative_ADJ:0 "the Mandate for German New Guinea"
-PNG_social_conservative_DEF:0 "Papuan"
+PNG_social_conservative_DEF:0 "the Mandate for German New Guinea"
+PNG_social_conservative_ADJ:0 "Papuan"
 
 PNG_authoritarian_democrat:0 "Mandate for German New Guinea"
-PNG_authoritarian_democrat_ADJ:0 "the Mandate for German New Guinea"
-PNG_authoritarian_democrat_DEF:0 "Papuan"
+PNG_authoritarian_democrat_DEF:0 "the Mandate for German New Guinea"
+PNG_authoritarian_democrat_ADJ:0 "Papuan"
 
 PNG_autocratic:0 "Mandate for German New Guinea"
-PNG_autocratic_ADJ:0 "Mandate for German New Guinea"
-PNG_autocratic_DEF:0 "Serbian"
+PNG_autocratic_DEF:0 "Mandate for German New Guinea"
+PNG_autocratic_ADJ:0 "Papuan"
 
 PNG_ultraconservative:0 "Mandate for German New Guinea"
-PNG_ultraconservative_ADJ:0 "the Mandate for German New Guinea"
-PNG_ultraconservative_DEF:0 "Papuan"
+PNG_ultraconservative_DEF:0 "the Mandate for German New Guinea"
+PNG_ultraconservative_ADJ:0 "Papuan"
 
 PNG_national_corporatist:0 "Mandate for German New Guinea"
-PNG_national_corporatist_ADJ:0 "the Mandate for German New Guinea"
-PNG_national_corporatist_DEF:0 "Papuan"
+PNG_national_corporatist_DEF:0 "the Mandate for German New Guinea"
+PNG_national_corporatist_ADJ:0 "Papuan"
 
 ### Focuses ###
  
 ### Ideas ###
 
-PNG_Professional_Administration:0 "Professional Administration"
-PNG_Professional_Administration_desc:0 "Despite his origins as a civilian called up by the military, Governor Lyon's rule is quite competent. The ports bustle, the streets remain crime free, and the opposing forces live in harmony. The people may not enjoy unlimited freedom, but the goverment's guiding hand has ensured smooth sailing all things considered."
+PNG_colonial_administration:0 "Colonial Administration"
+PNG_colonial_administration_desc:0 "Despite his origins as a civilian called up by the military, Governor Lyon's rule is quite competent. The ports bustle, the streets remain crime free, and the opposing forces live in harmony. The people may not enjoy unlimited freedom, but the goverment's guiding hand has ensured smooth sailing all things considered."
 
 #####Decisions#####
 

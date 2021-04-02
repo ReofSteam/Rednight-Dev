@@ -78,24 +78,8 @@ spriteTypes = {
 	}                   
     #Australia
     spriteType = {
-		name = "GFX_idea_AST_king_albert_i"
-		texturefile = "gfx/interface/ideas/idea_george_vi.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_AST_last_bastion"
-		texturefile = "gfx/interface/ideas/AST/AST_last_bastion.tga"
-	}
-    spriteType = {
-		name = "GFX_idea_AST_slow_economic_recovery"
-		texturefile = "gfx/interface/ideas/AST/AST_slow_economic_recovery.tga"
-	}
-    spriteType = {
-		name = "GFX_idea_AST_white_australia"
-		texturefile = "gfx/interface/ideas/AST/AST_whiteaussie.tga"
-	}
-    spriteType = {
-		name = "GFX_idea_AST_parliament_suspended"
-		texturefile = "gfx/interface/ideas/generic/disunited_government.tga"
+		name = "GFX_idea_AST_british_empire"
+		texturefile = "gfx/interface/ideas/AST/AST_colonial_empire.tga"
 	}
 ###France
 	spriteType = {
@@ -262,6 +246,12 @@ spriteTypes = {
 		name = "GFX_idea_BRA_army"
 		texturefile = "gfx/interface/ideas/BRA/BRA_army.tga"
 	}				
+
+###Croatia
+	spriteType = {
+		name = "GFX_idea_PRS_submarine"
+		texturefile = "gfx/interface/ideas/PRS/PRS_submarine_spirit.tga"
+	}	
 	
 ####Generic	
 spriteType = {
