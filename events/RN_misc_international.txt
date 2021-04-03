@@ -5,7 +5,7 @@ country_event = {    ######Black Fleet Raid
 	id = misc.1
 	title = misc.1.t
 	desc = misc.1.d
-	picture = GFX_GEA_raider
+	picture = GFX_sinking_ship
 
 	is_triggered_only = yes
 
@@ -23,7 +23,7 @@ country_event = {    ######Raid Failed
 	id = misc.2
 	title = misc.2.t
 	desc = misc.2.d
-	picture = GFX_GEA_raider
+	picture = GFX_sinking_ship
 
 	is_triggered_only = yes
 
@@ -39,7 +39,7 @@ country_event = {    ######Captain Glassner Raid
 	id = misc.3
 	title = misc.3.t
 	desc = misc.3.d
-	picture = GFX_GEA_raider
+	picture = GFX_sinking_ship
 
 	is_triggered_only = yes
 

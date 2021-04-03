@@ -35,7 +35,10 @@ spriteTypes = {
 		name = "GFX_soldiers_snow"
 		texturefile = "gfx/event_pictures/soldiers_snow.dds"
 	}	
-
+		spriteType = { 
+		name = "GFX_sinking_ship"
+		texturefile = "gfx/event_pictures/generic_sinking_ship.tga"
+	}	
 	###Germany
 	spriteType = { 
 		name = "GFX_GER_occupation_britain"
@@ -65,6 +68,16 @@ spriteTypes = {
 		name = "GFX_german_army_evil"
 		texturefile = "gfx/event_pictures/evil_german_army.dds"
 	}		
+#######GEA
+		spriteType = { 
+		name = "GFX_GEA_submariners"
+		texturefile = "gfx/event_pictures/GEA_submariners.tga"
+	}		
+#######GEA
+		spriteType = { 
+		name = "GFX_JAP_navy_destroyer"
+		texturefile = "gfx/event_pictures/JAP_navy_destroyer.tga"
+	}			
 	
 	###Britain
 		spriteType = { 
