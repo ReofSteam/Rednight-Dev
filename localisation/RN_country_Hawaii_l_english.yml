@@ -8,59 +8,76 @@
 
 ### Decision ####
 
-### Parties ###
-HAW_social_nationalist_party:0 "SPH - Socialist Party of Hawaii"
-HAW_social_nationalist_party_long:0 "Hui Pūʻaina ʻoi Pae"
-HAW_marxist_party:0 "SPH - Socialist Party of Hawaii"
-HAW_marxist_party_long:0 "Hui Pūʻaina ʻoi Pae"
-HAW_libertarian_party:0 "SPH - Socialist Party of Hawaii"
-HAW_libertarian_party_long:0 "Hui Pūʻaina ʻoi Pae"
-HAW_moderate_socialist_party:0 "SPH - Socialist Party of Hawaii"
-HAW_moderate_socialist_party_long:0 "‘Amelika Hui Pū ‘la"
-HAW_social_democrat_party:0 "Democrats - Democratic Party of Hawaii"
-HAW_social_democrat_party_long:0 "Demokrasi o Ka Pae ʻaina O Ka Mokulele"
-HAW_social_liberal_party:0 "AFP - America First Party"
-HAW_social_liberal_party_long:0 "‘Amelika Hui Pū ‘la"
-HAW_conservative_party:0 "Republicans - Republican Party of Hawaii"
-HAW_conservative_party_long:0 "Ka Hui Repubalika o Hawaii"
-HAW_authoritarian_democrat_party:0 "Kepani - Local Japanese Association"
-HAW_authoritarian_democrat_party_long:0 "Genchi Nihon Kyokai"
-HAW_autocratic_party:0 "Royalists - Association for Service to the Kingdom of Hawaii"
-HAW_autocratic_party_long:0 "Hui No Ka Lawelawe ʻana i Ke Aupuni o Nā Pae"
-HAW_fundamentalist_party:0 "Royalists - Association for Service to the Kingdom of Hawaii"
-HAW_fundamentalist_party_long:0 "‘Amelika Hui Pū ‘la"
-HAW_voynist_party:0 "AFP - America First Party"
-HAW_voynist_party_long:0 "Hui No Ka Lawelawe ʻana i Ke Aupuni o Nā Pae"
+######Name#########
+HAW_nationalist_socialism:0 "Territory of Hawaii"
+HAW_nationalist_socialism_ADJ:0 "Hawaiian"
+HAW_nationalist_socialism_DEF:0 "Territory of Hawaii"
 
-### Country Name ###
+HAW_revolutionary_socialism:0 "Territory of Hawaii"
+HAW_revolutionary_socialism_ADJ:0 "Hawaiian"
+HAW_revolutionary_socialism_DEF:0 "Territory of Hawaii"
 
-HAW_social_nationalist:0 "Hawaii People's Republic"
-HAW_social_nationalist_ADJ:0 "Hawaiian"
-HAW_social_nationalist_DEF:0 "the Hawaii People's Republic"
-HAW_marxist:0 "Hawaii People's Republic"
-HAW_marxist_ADJ:0 "Hawaiian"
-HAW_marxist_DEF:0 "the Hawaii People's Republic"
-HAW_radical_socialist:0 "Hawaii People's Republic"
-HAW_radical_socialist_ADJ:0 "Hawaiian"
-HAW_radical_socialist_DEF:0 "the Hawaii People's Republic"
-HAW_social_democrat:0 "Republic of Hawaii"
+HAW_syndicalism:0 "Territory of Hawaii"
+HAW_syndicalism_ADJ:0 "Hawaiian"
+HAW_syndicalism_DEF:0 "Territory of Hawaii"
+
+HAW_moderate_socialist:0 "Territory of Hawaii"
+HAW_moderate_socialist_ADJ:0 "Hawaiian"
+HAW_moderate_socialist_DEF:0 "Territory of Hawaii"
+
+HAW_social_democrat:0 "Territory of Hawaii"
 HAW_social_democrat_ADJ:0 "Hawaiian"
-HAW_social_democrat_DEF:0 "the Republic of Hawaii"
-HAW_social_liberal:0 "Republic of Hawaii"
+HAW_social_democrat_DEF:0 "Territory of Hawaii"
+
+HAW_social_liberal:0 "Territory of Hawaii"
 HAW_social_liberal_ADJ:0 "Hawaiian"
-HAW_social_liberal_DEF:0 "the Republic of Hawaii"
-HAW_conservative:0 "Republic of Hawaii"
-HAW_conservative_ADJ:0 "Hawaiian"
-HAW_conservative_DEF:0 "the Republic of Hawaii"
-HAW_authoritarian_democrat:0 "Republic of Hawaii"
+HAW_social_liberal_DEF:0 "Territory of Hawaii"
+
+HAW_social_conservative:0 "Territory of Hawaii"
+HAW_social_conservative_ADJ:0 "Hawaiian"
+HAW_social_conservative_DEF:0 "Territory of Hawaii"
+
+HAW_authoritarian_democrat:0 "Territory of Hawaii"
 HAW_authoritarian_democrat_ADJ:0 "Hawaiian"
-HAW_authoritarian_democrat_DEF:0 "the Republic of Hawaii"
-HAW_autocratic:0 "Republic of Hawaii"
+HAW_authoritarian_democrat_DEF:0 "Territory of Hawaii"
+
+HAW_autocratic:0 "Territory of Hawaii"
 HAW_autocratic_ADJ:0 "Hawaiian"
-HAW_autocratic_DEF:0 "the Republic of Hawaii"
-HAW_voynist:0 "Republic of Hawaii"
-HAW_voynist_ADJ:0 "Hawaiian"
-HAW_voynist_DEF:0 "the Republic of Hawaii"
+HAW_autocratic_DEF:0 "Territory of Hawaii"
+
+HAW_ultraconservative:0 "Territory of Hawaii"
+HAW_ultraconservative_ADJ:0 "Hawaiian"
+HAW_ultraconservative_DEF:0 "Territory of Hawaii"
+
+HAW_national_corporatist:0 "Territory of Hawaii"
+HAW_national_corporatist_ADJ:0 "Hawaiian"
+HAW_national_corporatist_DEF:0 "Territory of Hawaii"
+
+
+
+############
+HAW_nationalist_socialism_party:0 "RO-West"
+HAW_nationalist_socialism_party_long:0 "RO-West"
+HAW_revolutionary_socialism_party:0 "RO-West"
+HAW_revolutionary_socialism_party_long:0 "RO-West"
+HAW_syndicalism_party:0 "RO-West"
+HAW_syndicalism_party_long:0 "RO-West"
+HAW_moderate_socialist_party:0 "Democrats - Nationalists"
+HAW_moderate_socialist_party_long:0 "Democratic Party - League of American Nationalists"
+HAW_social_democrat_party:0 "Democratic Party"
+HAW_social_democrat_party_long:0 "Democratic Party of America"
+HAW_social_liberal_party:0 "National Unity (D-R)"
+HAW_social_liberal_party_long:0 "National Unity Party (Democratic-Republican)"
+HAW_social_conservative_party:0 "National Unity (D-R)"
+HAW_social_conservative_party_long:0 "National Unity Party (Democratic-Republican)"
+HAW_authoritarian_democrat_party:0 "Republicans"
+HAW_authoritarian_democrat_party_long:0 "Republican Party of America"
+HAW_autocratic_party:0 "Japanese Interest Party"
+HAW_autocratic_party_long:0 "Japanese Interest Party"
+HAW_ultraconservative_party:0 "Japanese Interest Party"
+HAW_ultraconservative_party_long:0 "Japanese Interest Party"
+HAW_national_corporatist_party:0 "Republicans (AFP)"
+HAW_national_corporatist_party_long:0 "Republican Party of America - American First Party"
 
 ### Focuses ###
 
