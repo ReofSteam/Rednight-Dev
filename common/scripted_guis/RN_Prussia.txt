@@ -1,0 +1,33 @@
+scripted_gui = {
+
+    RN_prs_conspiracy = {
+        context_type = player_context
+        parent_window_token = decision_tab
+        window_name = "PRS_conspiracy_menu"
+       	visible = {
+        always = yes
+		}
+		properties = {
+		GFX_prs_conspiracy_progress = {
+		frame = PRS_conspiracy_progress
+		}
+}
+        triggers = {
+            GFX_prs_conspiracy_priority3_visible = {
+            has_country_flag = PRS_GRU_priority
+            }
+            GFX_prs_conspiracy_priority_visible = {
+            has_country_flag = PRS_CONSERVATIVE_priority
+            }		
+            GFX_prs_conspiracy_priority2_visible = {
+            NOT = { 
+			has_country_flag = PRS_GRU_priority 
+			has_country_flag = PRS_CONSERVATIVE_priority
+			}
+            }			
+        }
+	}
+}
+
+
+

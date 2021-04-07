@@ -149,3 +149,37 @@ country_event = { Prussian Civil War
 }
 	}
 }
+
+country_event = {
+	id = prs.21
+	title = prs.4.t
+	desc = prs.4.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.4.a
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}
+}
+}
+
+country_event = {
+	id = prs.22
+	title = prs.4.t
+	desc = prs.4.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.4.a
+		subtract_from_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}
+}
+}

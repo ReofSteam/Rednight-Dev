@@ -1,0 +1,362 @@
+focus_tree = {
+	id = prs
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRS
+		}
+	}
+	#Focus for The East in White and Black
+	focus = {
+		id = PRS_the_east_in_white_and_black
+		icon = GFX_PRS_the_east
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_our_path_foward }
+		mutually_exclusive = { focus = PRS_project_nationale_ehre }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Danzig Armament AG
+	focus = {
+		id = PRS_danzig_armament_ag
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_reorganise_the_royal_army_of_prussia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for 1950 Budget Review
+	focus = {
+		id = PRS_1950_budget_review
+		icon = GFX_goal_unknown
+		x = 7
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Attend to the Resettlement
+	focus = {
+		id = PRS_attend_to_the_resettlement
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_1950_budget_review }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deal with the Bund der Frontsoldaten
+	focus = {
+		id = PRS_deal_with_the_bund_der_frontsoldaten
+		icon = GFX_PRS_bundsoldaten
+		x = 6
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_attend_to_the_resettlement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Coronation of Louis Ferdinand
+	focus = {
+		id = PRS_coronation_of_louis_ferdinand
+		icon = GFX_PRS_coronation
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_1950_budget_review }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Improve Conditions in Resettlement Camps
+	focus = {
+		id = PRS_improve_conditions_in_resettlement_camps
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_attend_to_the_resettlement }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Path Foward
+	focus = {
+		id = PRS_our_path_foward
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_coronation_of_louis_ferdinand }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Project Nationale Ehre
+	focus = {
+		id = PRS_project_nationale_ehre
+		icon = GFX_PRS_national_glory
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_our_path_foward 
+		}
+		prerequisite = { 
+			focus = PRS_deal_with_the_bund_der_frontsoldaten 
+		}
+		mutually_exclusive = { focus = PRS_the_east_in_white_and_black }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Multi-Departments Veteran and Expellee Committee
+	focus = {
+		id = PRS_multidepartments_veteran_and_expellee_committee
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_deal_with_the_bund_der_frontsoldaten 
+		}
+		prerequisite = { 
+			focus = PRS_improve_conditions_in_resettlement_camps 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Russian Loan
+	focus = {
+		id = PRS_the_russian_loan
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_project_nationale_ehre 
+		}
+		prerequisite = { 
+			focus = PRS_multidepartments_veteran_and_expellee_committee 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Austerity Program
+	focus = {
+		id = PRS_austerity_program
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_multidepartments_veteran_and_expellee_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Arbeitsprogramm
+	focus = {
+		id = PRS_arbeitsprogramm
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_the_russian_loan 
+		}
+		prerequisite = { 
+			focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinstate value of the Mark
+	focus = {
+		id = PRS_reinstate_value_of_the_mark
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_austerity_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deutschen Gesellschaft für öffentliche Arbeiten
+	focus = {
+		id = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_multidepartments_veteran_and_expellee_committee }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Blut und Boden
+	focus = {
+		id = PRS_blut_und_boden
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_arbeitsprogramm }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reorganise the Royal Army of Prussia
+	focus = {
+		id = PRS_reorganise_the_royal_army_of_prussia
+		icon = GFX_PRS_royal_army
+		x = 8
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_project_nationale_ehre }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Baltic Armament Board
+	focus = {
+		id = PRS_baltic_armament_board
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_reorganise_the_royal_army_of_prussia 
+		}
+		prerequisite = { 
+			focus = PRS_the_russian_loan 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Cut Pensions and Army Payments
+	focus = {
+		id = PRS_cut_pensions_and_army_payments
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_reinstate_value_of_the_mark }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Preußischer Volkskrieg
+	focus = {
+		id = PRS_preuischer_volkskrieg
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_danzig_armament_ag 
+			focus = PRS_baltic_armament_board 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reinforce the Polish Border
+	focus = {
+		id = PRS_reinforce_the_polish_border
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_east_in_white_and_black }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Change Army Composition
+	focus = {
+		id = PRS_change_army_composition
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_reinforce_the_polish_border }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Freikorps of Silesia
+	focus = {
+		id = PRS_freikorps_of_silesia
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_change_army_composition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#End of focuses 
+ }

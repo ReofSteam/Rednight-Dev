@@ -344,5 +344,26 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_FRA_Cross_Vistula"
 		texturefile = "gfx/interface/goals/FRA/FRA_Cross_Vistula.tga"
+	}	
+############Prussia	
+	SpriteType = { 
+		name = "GFX_PRS_the_east"
+		texturefile = "gfx/interface/goals/PRS/PRS_the_east.tga"
 	}		
+	SpriteType = { 
+		name = "GFX_PRS_national_glory"
+		texturefile = "gfx/interface/goals/PRS/PRS_national_glory.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_bundsoldaten"
+		texturefile = "gfx/interface/goals/PRS/PRS_bundsoldaten.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_coronation"
+		texturefile = "gfx/interface/goals/PRS/PRS_coronation.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_royal_army"
+		texturefile = "gfx/interface/goals/PRS/PRS_royal_army.tga"
+	}			
 }

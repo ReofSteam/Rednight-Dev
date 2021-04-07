@@ -45,6 +45,20 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}	
 	
+    progressbartype = {
+        name = "GFX_RN_progressbar_decision"
+        textureFile1 = "gfx/interface/RN_progressbar_decision2.tga"
+        textureFile2 = "gfx/interface/RN_progressbar_decision1.tga"
+        size = { 
+            x = 457
+            y = 33
+        }
+        effectFile = "gfx/FX/progress.lua"
+        
+        horizontal = yes
+    }
+	
+	
 	###############
 	### Scenarios ###
 	###############
@@ -358,5 +372,26 @@ spriteTypes = {
 	spriteType = {
 	name = "SER_Predavec"
 	texturefile = "gfx/leaders/SER/SER_Predavec.tga"
+	}
+#############Prussia
+	spriteType = {
+	name = "GFX_PRS_conspiracy_triad"
+	texturefile = "gfx/interface/PRS_gui/conspiracy_triad.tga"
 	}		
+	spriteType = {
+	name = "GFX_PRS_conspiracy_1"
+	texturefile = "gfx/interface/PRS_gui/PRS_conspiracy1.tga"
+	}		
+	spriteType = {
+	name = "GFX_PRS_conspiracy_2"
+	texturefile = "gfx/interface/PRS_gui/PRS_conspiracy2.tga"
+	}		
+	spriteType = {
+	name = "GFX_PRS_conspiracy_3"
+	texturefile = "gfx/interface/PRS_gui/PRS_conspiracy3.tga"
+	}	
+	spriteType = {
+	name = "GFX_direction_button"
+	texturefile = "gfx/interface/PRS_gui/direction_button.tga"
+	}			
 }
