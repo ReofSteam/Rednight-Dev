@@ -65,6 +65,22 @@ spriteTypes = {
         name = "GFX_focus_Generic_French_MBT_Tank"
         texturefile = "gfx/interface/goals/generic/Generic_French_MBT_Tank.tga"
     }		
+	SpriteType = { 
+        name = "GFX_focus_Generic_French_MBT_Tank"
+        texturefile = "gfx/interface/goals/generic/Generic_French_MBT_Tank.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_generic_russian_loans"
+        texturefile = "gfx/interface/goals/generic/generic_russian_loans.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_Generic_Refugee_Camps"
+        texturefile = "gfx/interface/goals/generic/Generic_Refugee_Camps.tga"
+    }		
+	SpriteType = { 
+        name = "GFX_focus_generic_farm_requisition"
+        texturefile = "gfx/interface/goals/generic/generic_farm_requisition.tga"
+    }			
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -365,5 +381,29 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_royal_army"
 		texturefile = "gfx/interface/goals/PRS/PRS_royal_army.tga"
-	}			
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_mark"
+		texturefile = "gfx/interface/goals/PRS/PRS_mark.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_baltic_armament"
+		texturefile = "gfx/interface/goals/PRS/PRS_baltic_armament.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_danzig_armaments"
+		texturefile = "gfx/interface/goals/PRS/PRS_danzig_armaments.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_government1"
+		texturefile = "gfx/interface/goals/PRS/PRS_government1.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_government2"
+		texturefile = "gfx/interface/goals/PRS/PRS_government2.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_Freikorps_of_Silesia"
+		texturefile = "gfx/interface/goals/PRS/PRS_Freikorps_of_Silesia.tga"
+	}		
 }

@@ -25,11 +25,12 @@ focus_tree = {
 	#Focus for Danzig Armament AG
 	focus = {
 		id = PRS_danzig_armament_ag
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_danzig_armaments
 		x = 10
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = { focus = PRS_baltic_armament_board }	
 		prerequisite = { focus = PRS_reorganise_the_royal_army_of_prussia }
 		ai_will_do = {
 			factor = 1
@@ -39,7 +40,7 @@ focus_tree = {
 	#Focus for 1950 Budget Review
 	focus = {
 		id = PRS_1950_budget_review
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_privatisation
 		x = 7
 		y = 1
 		cost = 10
@@ -52,7 +53,7 @@ focus_tree = {
 	#Focus for Attend to the Resettlement
 	focus = {
 		id = PRS_attend_to_the_resettlement
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Refugee_Camps
 		x = 4
 		y = 2
 		cost = 10
@@ -94,7 +95,7 @@ focus_tree = {
 	#Focus for Improve Conditions in Resettlement Camps
 	focus = {
 		id = PRS_improve_conditions_in_resettlement_camps
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_concessions
 		x = 2
 		y = 3
 		cost = 10
@@ -108,7 +109,7 @@ focus_tree = {
 	#Focus for Our Path Foward
 	focus = {
 		id = PRS_our_path_foward
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_focus_on_europe
 		x = 10
 		y = 3
 		cost = 10
@@ -142,7 +143,7 @@ focus_tree = {
 	#Focus for Multi-Departments Veteran and Expellee Committee
 	focus = {
 		id = PRS_multidepartments_veteran_and_expellee_committee
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_government1
 		x = 4
 		y = 4
 		cost = 10
@@ -161,7 +162,7 @@ focus_tree = {
 	#Focus for The Russian Loan
 	focus = {
 		id = PRS_the_russian_loan
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_russian_loans
 		x = 6
 		y = 5
 		cost = 10
@@ -180,11 +181,14 @@ focus_tree = {
 	#Focus for Austerity Program
 	focus = {
 		id = PRS_austerity_program
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 2
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten
+	}	
 		prerequisite = { focus = PRS_multidepartments_veteran_and_expellee_committee }
 		ai_will_do = {
 			factor = 1
@@ -194,7 +198,7 @@ focus_tree = {
 	#Focus for Arbeitsprogramm
 	focus = {
 		id = PRS_arbeitsprogramm
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construction2
 		x = 4
 		y = 6
 		cost = 10
@@ -213,7 +217,7 @@ focus_tree = {
 	#Focus for Reinstate value of the Mark
 	focus = {
 		id = PRS_reinstate_value_of_the_mark
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_mark
 		x = 2
 		y = 6
 		cost = 10
@@ -227,11 +231,14 @@ focus_tree = {
 	#Focus for Deutschen Gesellschaft für öffentliche Arbeiten
 	focus = {
 		id = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_government2
 		x = 4
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = PRS_austerity_program
+	}			
 		prerequisite = { focus = PRS_multidepartments_veteran_and_expellee_committee }
 		ai_will_do = {
 			factor = 1
@@ -241,7 +248,7 @@ focus_tree = {
 	#Focus for Blut und Boden
 	focus = {
 		id = PRS_blut_und_boden
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_farm_requisition
 		x = 4
 		y = 7
 		cost = 10
@@ -269,11 +276,12 @@ focus_tree = {
 	#Focus for Baltic Armament Board
 	focus = {
 		id = PRS_baltic_armament_board
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_baltic_armament
 		x = 6
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = { focus = PRS_danzig_armament_ag }			
 		prerequisite = { 
 			focus = PRS_reorganise_the_royal_army_of_prussia 
 		}
@@ -288,7 +296,7 @@ focus_tree = {
 	#Focus for Cut Pensions and Army Payments
 	focus = {
 		id = PRS_cut_pensions_and_army_payments
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_forceful_treaty
 		x = 2
 		y = 7
 		cost = 10
@@ -302,7 +310,7 @@ focus_tree = {
 	#Focus for Preußischer Volkskrieg
 	focus = {
 		id = PRS_preuischer_volkskrieg
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_monarchy_2
 		x = 8
 		y = 7
 		cost = 10
@@ -319,7 +327,7 @@ focus_tree = {
 	#Focus for Reinforce the Polish Border
 	focus = {
 		id = PRS_reinforce_the_polish_border
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_fortify_city
 		x = 12
 		y = 5
 		cost = 10
@@ -333,7 +341,7 @@ focus_tree = {
 	#Focus for Change Army Composition
 	focus = {
 		id = PRS_change_army_composition
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_manpower
 		x = 12
 		y = 6
 		cost = 10
@@ -347,7 +355,7 @@ focus_tree = {
 	#Focus for Freikorps of Silesia
 	focus = {
 		id = PRS_freikorps_of_silesia
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_Freikorps_of_Silesia
 		x = 12
 		y = 7
 		cost = 10
