@@ -1,0 +1,620 @@
+focus_tree = {
+	id = CSA
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSA
+		}
+	}
+
+	#Focus for Force a Compromise
+	focus = {
+		id = CSA_force_a_compromise
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_differing_interpretations }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Young Republic
+	focus = {
+		id = CSA_the_young_republic
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_the_calm_before_the_storm 
+		}
+		prerequisite = { 
+			focus = CSA_a_dent_in_the_drain 
+		}
+		prerequisite = { 
+			focus = CSA_canonize_his_legacy 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Address Congress
+	focus = {
+		id = CSA_address_congress
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_will__testament }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Differing Interpretations
+	focus = {
+		id = CSA_differing_interpretations
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_address_congress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Respect Comrade Bryant
+	focus = {
+		id = CSA_respect_comrade_bryant
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_writing_the_speech }
+		mutually_exclusive = { focus = CSA_the_hall_of_heroes }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Writing The Speech
+	focus = {
+		id = CSA_writing_the_speech
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_flight_to_new_york }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Hall of Heroes
+	focus = {
+		id = CSA_the_hall_of_heroes
+		icon = GFX_goal_unknown
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_writing_the_speech }
+		mutually_exclusive = { focus = CSA_respect_comrade_bryant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Flight to New York
+	focus = {
+		id = CSA_flight_to_new_york
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_will__testament }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Internal War
+	focus = {
+		id = CSA_the_internal_war
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_hand_browder_the_keys 
+		}
+		prerequisite = { 
+			focus = CSA_build_the_foundation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Calm Before the Storm
+	focus = {
+		id = CSA_the_calm_before_the_storm
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_the_internal_war 
+		}
+		prerequisite = { 
+			focus = CSA_announce_the_second_convention 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Announce the Second Convention
+	focus = {
+		id = CSA_announce_the_second_convention
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_a_gentlemans_agreement 
+		}
+		prerequisite = { 
+			focus = CSA_arrest_the_militas 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for A Gentleman's Agreement
+	focus = {
+		id = CSA_a_gentlemans_agreement
+		icon = GFX_goal_unknown
+		x = 0
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_who_to_invite }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Arrest the Militas
+	focus = {
+		id = CSA_arrest_the_militas
+		icon = GFX_goal_unknown
+		x = 2
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_who_to_invite }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Hand Browder the Keys
+	focus = {
+		id = CSA_hand_browder_the_keys
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_national_security_bill }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+#Focus for Who to invite?
+	focus = {
+		id = CSA_who_to_invite
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_prepare_philidelphia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for National Security Bill
+	focus = {
+		id = CSA_national_security_bill
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_prepare_philidelphia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Build the Foundation
+	focus = {
+		id = CSA_build_the_foundation
+		icon = GFX_goal_unknown
+		x = 4
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_national_security_bill }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Denver's Destiny
+	focus = {
+		id = CSA_denvers_destiny
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_spitting_in_the_wind }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Time on our side
+	focus = {
+		id = CSA_time_on_our_side
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_denvers_destiny 
+		}
+		prerequisite = { 
+			focus = CSA_prioritize_the_plains 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for A Dent in the Drain
+	focus = {
+		id = CSA_a_dent_in_the_drain
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_heroic_propaganda 
+		}
+		prerequisite = { 
+			focus = CSA_time_on_our_side 
+		}
+		prerequisite = { 
+			focus = CSA_relocation_and_reunion_camps 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Heroic Propaganda
+	focus = {
+		id = CSA_heroic_propaganda
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_dangling_the_carrot 
+		}
+		prerequisite = { 
+			focus = CSA_any_volunteers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Relocation and Reunion Camps
+	focus = {
+		id = CSA_relocation_and_reunion_camps
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_raise_elite_divisions 
+		}
+		prerequisite = { 
+			focus = CSA_the_agency_proposal 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Prioritize the Plains
+	focus = {
+		id = CSA_prioritize_the_plains
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_spitting_in_the_wind }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for An Argument with Comrade Thomas
+	focus = {
+		id = CSA_an_argument_with_comrade_thomas
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_congress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Prepare Philidelphia
+	focus = {
+		id = CSA_prepare_philidelphia
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_a_chat_with_comrade_flynn 
+		}
+		prerequisite = { 
+			focus = CSA_an_argument_with_comrade_thomas 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Chat with Comrade Flynn
+	focus = {
+		id = CSA_a_chat_with_comrade_flynn
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_congress }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Spitting in the Wind
+	focus = {
+		id = CSA_spitting_in_the_wind
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
+		mutually_exclusive = { focus = CSA_red_border_patrol }
+		mutually_exclusive = { 
+			focus = CSA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Dangling the Carrot
+	focus = {
+		id = CSA_dangling_the_carrot
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_convene_the_generals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+#Focus for Any Volunteers?
+	focus = {
+		id = CSA_any_volunteers
+		icon = GFX_goal_unknown
+		x = 9
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_convene_the_generals }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Agency Proposal
+	focus = {
+		id = CSA_the_agency_proposal
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_red_border_patrol }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Convene the Generals
+	focus = {
+		id = CSA_convene_the_generals
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
+		mutually_exclusive = { focus = CSA_red_border_patrol }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Red Border Patrol
+	focus = {
+		id = CSA_red_border_patrol
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
+		mutually_exclusive = { 
+			focus = CSA_convene_the_generals 
+		}
+		mutually_exclusive = { 
+			focus = CSA_spitting_in_the_wind
+		}
+		mutually_exclusive = { 
+			focus = CSA_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+#Focus for The Last Congress
+	focus = {
+		id = CSA_the_last_congress
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_president }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for The Last Will & Testament
+	focus = {
+		id = CSA_the_last_will__testament
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_president }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The 3000 Kilometer Nightmare
+	focus = {
+		id = CSA_the_3000_kilometer_nightmare
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_the_last_president }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Last President
+	focus = {
+		id = CSA_the_last_president
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Raise Elite Divisions
+	focus = {
+		id = CSA_raise_elite_divisions
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = CSA_red_border_patrol }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#Focus for Canonize His Legacy
+	focus = {
+		id = CSA_canonize_his_legacy
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = CSA_the_hall_of_heroes 
+		}
+		prerequisite = { 
+			focus = CSA_respect_comrade_bryant 
+		}
+		prerequisite = { 
+			focus = CSA_force_a_compromise 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+#End of focuses 
+ }

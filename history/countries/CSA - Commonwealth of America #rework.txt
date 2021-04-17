@@ -7,9 +7,7 @@ oob = "CSA"
 add_ideas = {
 	America_new_year_peace
 	CSA_ruins
-	CSA_famine
 	CSA_divided_goverment
-	CSA_internal_war
 }
 
 set_research_slots = 3
@@ -38,7 +36,7 @@ set_technology = {
 }
 1981.1.1 = {
 set_politics = {	
-	ruling_party = syndicalism
+	ruling_party = revolutionary_Socialism
 	last_election = "1972.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -71,16 +69,16 @@ days = 1
 }
 
 set_popularities = {
-    nationalist_socialism = 4.5
-    revolutionary_socialism = 24.4
-    syndicalism = 25.7
-    moderate_socialist = 13
-    social_democrat = 12.5
-    social_liberal = 8.2
-    social_conservative = 1
-    authoritarian_democrat = 3
-    autocratic = 3
-    ultraconservative = 3.7
+    nationalist_socialism = 5
+    revolutionary_socialism = 22 
+    syndicalism = 22
+    moderate_socialist = 20
+    social_democrat = 19
+    social_liberal = 4
+    social_conservative = 0
+    authoritarian_democrat = 1
+    autocratic = 4
+    ultraconservative = 2
     national_corporatist = 1
 }
 
