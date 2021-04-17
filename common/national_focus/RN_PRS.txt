@@ -7,6 +7,8 @@ focus_tree = {
 			tag = PRS
 		}
 	}
+	continuous_focus_position = { x = 50 y = 1080 }
+	
 	#Focus for The East in White and Black
 	focus = {
 		id = PRS_the_east_in_white_and_black
@@ -365,6 +367,1048 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	#Focus for Kämpf' um dein Leben mein Land!
+	focus = {
+		id = PRS_kmpf_um_dein_leben_mein_land
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 10
+		available = {
+		has_civil_war = yes
+		has_government = social_liberal
+
+	}
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = PRS_deutschordensstaat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Deutschordensstaat
+	focus = {
+		id = PRS_deutschordensstaat
+		icon = GFX_goal_unknown
+		x = 19
+		y = 1
+		cost = 10
+		available = {
+		has_civil_war = yes
+		has_government = national_corporatist
+
+	}		
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = PRS_kmpf_um_dein_leben_mein_land }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rise for our imperial colour!
+	focus = {
+		id = PRS_rise_for_our_imperial_colour
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_kmpf_um_dein_leben_mein_land }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Call the Baltic Knighthoods
+	focus = {
+		id = PRS_call_the_baltic_knighthoods
+		icon = GFX_PRS_baltic_knights
+		x = 19
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_deutschordensstaat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Renegotiate the Secret Dossier
+	focus = {
+		id = PRS_renegotiate_the_secret_dossier
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_kmpf_um_dein_leben_mein_land }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reconcilate with W Kommando
+	focus = {
+		id = PRS_reconcilate_with_w_kommando
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_renegotiate_the_secret_dossier }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Destroy the Prussian junkers
+	focus = {
+		id = PRS_destroy_the_prussian_junkers
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_rise_for_our_imperial_colour }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Brothers in Sudetenland
+	focus = {
+		id = PRS_our_brothers_in_sudetenland
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_reconcilate_with_w_kommando }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Silesia Question
+	focus = {
+		id = PRS_the_silesia_question
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_our_brothers_in_sudetenland }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Kaiser
+	focus = {
+		id = PRS_our_kaiser
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_destroy_the_prussian_junkers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Saratov Memorandum
+	focus = {
+		id = PRS_saratov_memorandum
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_deutschordensstaat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Control the Westerners
+	focus = {
+		id = PRS_control_the_westerners
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_call_the_baltic_knighthoods }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conditions of the Secret Dossier
+	focus = {
+		id = PRS_conditions_of_the_secret_dossier
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_saratov_memorandum }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raise the Reich flag!
+	focus = {
+		id = PRS_raise_the_reich_flag
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_conditions_of_the_secret_dossier }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Resume the War for Silesia
+	focus = {
+		id = PRS_resume_the_war_for_silesia
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_raise_the_reich_flag }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rally the Protestant forces
+	focus = {
+		id = PRS_rally_the_protestant_forces
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_control_the_westerners }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hohenzollern Restoration
+	focus = {
+		id = PRS_hohenzollern_restoration
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 13
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_a_new_junta }
+		mutually_exclusive = { focus = PRS_only_blood_might_redeem_us }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hail noble German lords
+	focus = {
+		id = PRS_hail_noble_german_lords
+		icon = GFX_goal_unknown
+		x = 12
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_and_the_arrogance_of_evil 
+		}
+		prerequisite = { 
+			focus = PRS_from_the_heavy_chains_of_sin 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Because only iron can save us
+	focus = {
+		id = PRS_because_only_iron_can_save_us
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 12
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_only_blood_might_redeem_us 
+			focus = PRS_hohenzollern_restoration 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for From the heavy chains of sin,
+	focus = {
+		id = PRS_from_the_heavy_chains_of_sin
+		icon = GFX_focus_ger_bulwark_against_bolshevism
+		x = 10
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_because_only_iron_can_save_us }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for And the arrogance of evil.
+	focus = {
+		id = PRS_and_the_arrogance_of_evil
+		icon = GFX_goal_generic_attack_allies
+		x = 13
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_because_only_iron_can_save_us }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for We are better than this
+	focus = {
+		id = PRS_we_are_better_than_this
+		icon = GFX_goal_unknown
+		x = 1
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_free_and_fair_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Our Brothers in Africa
+	focus = {
+		id = PRS_our_brothers_in_africa
+		icon = GFX_goal_unknown
+		x = 1
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_we_are_better_than_this }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Fight against Socialism
+	focus = {
+		id = PRS_the_fight_against_socialism
+		icon = GFX_goal_anti_comintern_pact
+		x = 8
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_authoritative_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Reforms Bill
+	focus = {
+		id = PRS_social_reforms_bill
+		icon = GFX_goal_unknown
+		x = 3
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_free_and_fair_election }
+		mutually_exclusive = { 
+			focus = PRS_conservative_values 
+			focus = PRS_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A New Junta
+	focus = {
+		id = PRS_a_new_junta
+		icon = GFX_focus_ger_oppose_hitler
+		x = 12
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_enable_act 
+		}
+		prerequisite = { 
+			focus = PRS_grand_nationalist_coalition 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Authoritative Democracy
+	focus = {
+		id = PRS_authoritative_democracy
+		icon = GFX_focus_usa_voter_registration_act
+		x = 6
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_restoration_of_democratic_government }
+		mutually_exclusive = { focus = PRS_free_and_fair_election }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Form the German People's  Party
+	focus = {
+		id = PRS_form_the_german_peoples__party
+		icon = GFX_goal_unknown
+		x = 6
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_comrades_of_national_struggle 
+			focus = PRS_the_army_with_the_people 
+		}
+		mutually_exclusive = { focus = PRS_grand_nationalist_coalition }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Repeal the Martial Laws Provisions
+	focus = {
+		id = PRS_repeal_the_martial_laws_provisions
+		icon = GFX_goal_unknown
+		x = 3
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_army_with_the_people }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Free and Fair Election
+	focus = {
+		id = PRS_free_and_fair_election
+		icon = GFX_goal_unknown
+		x = 3
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_restoration_of_democratic_government }
+		mutually_exclusive = { focus = PRS_authoritative_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Restoration of Democratic Government
+	focus = {
+		id = PRS_restoration_of_democratic_government
+		icon = GFX_goal_unknown
+		x = 4
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_repeal_the_martial_laws_provisions 
+		}
+		prerequisite = { 
+			focus = PRS_form_the_german_peoples__party 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Grand Nationalist Coalition
+	focus = {
+		id = PRS_grand_nationalist_coalition
+		icon = GFX_goal_unknown
+		x = 10
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_comrades_of_national_struggle }
+		mutually_exclusive = { focus = PRS_form_the_german_peoples__party }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Enable Act
+	focus = {
+		id = PRS_enable_act
+		icon = GFX_goal_unknown
+		x = 13
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_comrades_of_national_struggle }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Westheer Victorious
+	focus = {
+		id = PRS_the_westheer_victorious
+		icon = GFX_PRS_westheer
+		x = 8
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Pack of Russian Cigarettes
+	focus = {
+		id = PRS_a_pack_of_russian_cigarettes
+		icon = GFX_goal_unknown
+		x = 18
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reichstag Triumphant
+	focus = {
+		id = PRS_reichstag_triumphant
+		icon = GFX_PRS_Reichstag
+		x = 25
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Army with the People
+	focus = {
+		id = PRS_the_army_with_the_people
+		icon = GFX_PRS_von_baudissin_focus
+		x = 5
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_westheer_victorious }
+		mutually_exclusive = { focus = PRS_comrades_of_national_struggle }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Comrades of National Struggle
+	focus = {
+		id = PRS_comrades_of_national_struggle
+		icon = GFX_PRS_Ehrhardt_focus
+		x = 11
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_westheer_victorious }
+		mutually_exclusive = { focus = PRS_the_army_with_the_people }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for National Social Democrat
+	focus = {
+		id = PRS_national_social_democrat
+		icon = GFX_PRS_schumacher
+		x = 16
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_a_pack_of_russian_cigarettes }
+		mutually_exclusive = { focus = PRS_aufbau_vereinigung }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Aufbau Vereinigung
+	focus = {
+		id = PRS_aufbau_vereinigung
+		icon = GFX_PRS_rosenberg
+		x = 20
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_a_pack_of_russian_cigarettes }
+		mutually_exclusive = { focus = PRS_national_social_democrat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Rebirth of Germany
+	focus = {
+		id = PRS_rebirth_of_germany
+		icon = GFX_goal_unknown
+		x = 25
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_reichstag_triumphant }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Social Corporatism
+	focus = {
+		id = PRS_social_corporatism
+		icon = GFX_goal_unknown
+		x = 27
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_rebirth_of_germany }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Family
+	focus = {
+		id = PRS_the_family
+		icon = GFX_goal_unknown
+		x = 23
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_down_with_the_murderous_traditions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Renewed Christian Values
+	focus = {
+		id = PRS_renewed_christian_values
+		icon = GFX_goal_unknown
+		x = 23
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_rebirth_of_germany }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Down with the murderous traditions!
+	focus = {
+		id = PRS_down_with_the_murderous_traditions
+		icon = GFX_goal_unknown
+		x = 25
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_renewed_christian_values 
+		}
+		prerequisite = { 
+			focus = PRS_social_corporatism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Conservative Values
+	focus = {
+		id = PRS_conservative_values
+		icon = GFX_goal_unknown
+		x = 6
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_free_and_fair_election 
+			focus = PRS_authoritative_democracy 
+		}
+		mutually_exclusive = { focus = PRS_social_reforms_bill }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Only Blood Might Redeem Us
+	focus = {
+		id = PRS_only_blood_might_redeem_us
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 10
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_a_new_junta }
+		mutually_exclusive = { focus = PRS_hohenzollern_restoration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Delegation in Warsaw
+	focus = {
+		id = PRS_a_delegation_in_warsaw
+		icon = GFX_goal_unknown
+		x = 15
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_national_social_democrat }
+		mutually_exclusive = { focus = PRS_little_rapallo_conference }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fires burn hot in our heart
+	focus = {
+		id = PRS_fires_burn_hot_in_our_heart
+		icon = GFX_goal_unknown
+		x = 15
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_assert_national_sovereignty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Assert National Sovereignty
+	focus = {
+		id = PRS_assert_national_sovereignty
+		icon = GFX_goal_generic_forceful_treaty
+		x = 16
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_little_rapallo_conference 
+			focus = PRS_a_delegation_in_warsaw 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fires burn hot for our Nation
+	focus = {
+		id = PRS_fires_burn_hot_for_our_nation
+		icon = GFX_goal_unknown
+		x = 17
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_assert_national_sovereignty }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for That everyday will be more beautiful
+	focus = {
+		id = PRS_that_everyday_will_be_more_beautiful
+		icon = GFX_goal_unknown
+		x = 16
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_fires_burn_hot_for_our_nation 
+		}
+		prerequisite = { 
+			focus = PRS_fires_burn_hot_in_our_heart 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for That its safe in our hands
+	focus = {
+		id = PRS_that_its_safe_in_our_hands
+		icon = GFX_goal_unknown
+		x = 16
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_that_everyday_will_be_more_beautiful }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Little Rapallo Conference
+	focus = {
+		id = PRS_little_rapallo_conference
+		icon = GFX_goal_unknown
+		x = 17
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_national_social_democrat }
+		mutually_exclusive = { focus = PRS_a_delegation_in_warsaw }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Macht, die sich vereint im Bruderbunde.
+	focus = {
+		id = PRS_macht_die_sich_vereint_im_bruderbunde
+		icon = GFX_goal_unknown
+		x = 16
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_that_its_safe_in_our_hands }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for An Audience with Louis Ferdinand
+	focus = {
+		id = PRS_an_audience_with_louis_ferdinand
+		icon = GFX_goal_unknown
+		x = 20
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_aufbau_vereinigung }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Proclaim the Volkstaat
+	focus = {
+		id = PRS_proclaim_the_volkstaat
+		icon = GFX_goal_unknown
+		x = 19
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_an_audience_with_louis_ferdinand }
+		mutually_exclusive = { focus = PRS_a_puppet_monarchy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for A Puppet Monarchy
+	focus = {
+		id = PRS_a_puppet_monarchy
+		icon = GFX_goal_unknown
+		x = 21
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_an_audience_with_louis_ferdinand }
+		mutually_exclusive = { focus = PRS_proclaim_the_volkstaat }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Greater Russian Cooperation
+	focus = {
+		id = PRS_greater_russian_cooperation
+		icon = GFX_goal_unknown
+		x = 20
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_a_puppet_monarchy 
+			focus = PRS_proclaim_the_volkstaat 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Troops for Industry
+	focus = {
+		id = PRS_troops_for_industry
+		icon = GFX_focus_generic_industry_3
+		x = 19
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_greater_russian_cooperation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Surrender Czechia
+	focus = {
+		id = PRS_surrender_czechia
+		icon = GFX_goal_unknown
+		x = 21
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_greater_russian_cooperation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Join the Russian Market
+	focus = {
+		id = PRS_join_the_russian_market
+		icon = GFX_goal_unknown
+		x = 20
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_surrender_czechia 
+		}
+		prerequisite = { 
+			focus = PRS_troops_for_industry 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for German Kornilovism
+	focus = {
+		id = PRS_german_kornilovism
+		icon = GFX_goal_unknown
+		x = 20
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_join_the_russian_market }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Town
+	focus = {
+		id = PRS_the_town
+		icon = GFX_goal_unknown
+		x = 25
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_down_with_the_murderous_traditions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Nation
+	focus = {
+		id = PRS_the_nation
+		icon = GFX_goal_unknown
+		x = 27
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_down_with_the_murderous_traditions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Pact of the Crosses
+	focus = {
+		id = PRS_pact_of_the_crosses
+		icon = GFX_goal_unknown
+		x = 25
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_the_family 
+		}
+		prerequisite = { 
+			focus = PRS_the_town 
+		}
+		prerequisite = { 
+			focus = PRS_the_nation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Freedom of the Faithful
+	focus = {
+		id = PRS_freedom_of_the_faithful
+		icon = GFX_goal_unknown
+		x = 25
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_pact_of_the_crosses }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Crusaders Against Evil
+	focus = {
+		id = PRS_crusaders_against_evil
+		icon = GFX_goal_unknown
+		x = 24
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_freedom_of_the_faithful }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Little Entente
+	focus = {
+		id = PRS_little_entente
+		icon = GFX_goal_unknown
+		x = 26
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_freedom_of_the_faithful }
+		ai_will_do = {
+			factor = 1
+		}
+	}	
 
 #End of focuses 
  }

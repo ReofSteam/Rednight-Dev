@@ -405,5 +405,33 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_Freikorps_of_Silesia"
 		texturefile = "gfx/interface/goals/PRS/PRS_Freikorps_of_Silesia.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_baltic_knights"
+		texturefile = "gfx/interface/goals/PRS/PRS_baltic_knights.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_von_baudissin_focus"
+		texturefile = "gfx/interface/goals/PRS/PRS_von_baudissin_focus.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_Ehrhardt_focus"
+		texturefile = "gfx/interface/goals/PRS/PRS_Ehrhardt_focus.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_westheer"
+		texturefile = "gfx/interface/goals/PRS/PRS_westheer.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_Reichstag"
+		texturefile = "gfx/interface/goals/PRS/PRS_Reichstag.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_rosenberg"
+		texturefile = "gfx/interface/goals/PRS/PRS_rosenberg.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_schumacher"
+		texturefile = "gfx/interface/goals/PRS/PRS_schumacher.tga"
 	}		
 }
