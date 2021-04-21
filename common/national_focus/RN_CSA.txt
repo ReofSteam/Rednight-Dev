@@ -42,6 +42,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = csa.17
+		}
 	}
 
 #Focus for Address Congress
@@ -576,6 +579,11 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = csa.18
+			add_political_power = 0.2
+			stability_factor = -0.1
 		}
 	}
 

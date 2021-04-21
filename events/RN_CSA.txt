@@ -119,3 +119,14 @@ country_event = {
 	}
 
 }
+
+country_event = { #####Young Republic#####
+	id = csa.17
+	title = csa.17
+	desc = csa.17.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.17
+	}
+}

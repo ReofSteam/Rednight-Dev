@@ -85,6 +85,9 @@ csa.13.d:0 "For exceptional services in paramilitary and military actions for th
 csa.15.t:0 "Operation Black Magnolia"
 csa.15.d:0 "Commander, do not let us down"
 csa.15.a:0 "Who is this "Conductor"?"
+csa.17.t:0 "The Young Republic"
+csa.17.d:0 "tis young and a republic"
+csa.17.a:0 "nice"
 ### Focuses ###
 CSA_force_a_compromise:0 "Force a Compromise"
 CSA_force_a_compromise_desc:0 "-"
@@ -212,3 +215,4 @@ satlantic_CSA_klan_details:0 "The Arms of the Lord and its various associated or
 internal_war_sanction_button:0 "The operation will begin after you sanction it, while an active mission is in process, you can not select another until the mission is completed" 
 ### Leaders ###
 ### Tech? ###
+
