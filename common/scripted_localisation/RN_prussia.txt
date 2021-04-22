@@ -1,0 +1,15 @@
+defined_text = {
+	name = GetREICHConspirator
+	text = {
+		trigger = {
+			has_country_flag = PRS_reichconspirator_identified
+	}
+		localization_key = "GFX_PRS_heinemann"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_reichconspirator_eliminated
+	}
+		localization_key = "FRA_ELIMINATED"
+	}		
+}

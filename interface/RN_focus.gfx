@@ -433,5 +433,21 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_schumacher"
 		texturefile = "gfx/interface/goals/PRS/PRS_schumacher.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_brotherhood"
+		texturefile = "gfx/interface/goals/PRS/PRS_brotherhood.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_kornilovism"
+		texturefile = "gfx/interface/goals/PRS/PRS_kornilovism.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_volkspartei"
+		texturefile = "gfx/interface/goals/PRS/PRS_volkspartei.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_little_entente"
+		texturefile = "gfx/interface/goals/PRS/PRS_little_entente.tga"
 	}		
 }

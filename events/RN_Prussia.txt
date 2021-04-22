@@ -150,36 +150,58 @@ country_event = { Prussian Civil War
 	}
 }
 
-country_event = {
-	id = prs.21
-	title = prs.4.t
-	desc = prs.4.d
+country_event = { ###The Westheer Occupation of Danzig. 
+	id = prs.8
+	title = prs.8.t
+	desc = prs.8.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes
 
 	option = {
-		name = prs.4.a
+		name = prs.8.a
+		add_political_power = -50
+}
+}
+
+country_event = { ###The Westheer Occupation of Danzig. 2
+	id = prs.9
+	title = prs.9.t
+	desc = prs.9.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.9.a
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
 }
 }
+	option = {
+		name = prs.8.b
+		activate_mission = PRS_promised_payment
+}
 }
 
-country_event = {
-	id = prs.22
-	title = prs.4.t
-	desc = prs.4.d
+country_event = { ###Veteran and Expellee Affairs
+	id = prs.10
+	title = prs.10.t
+	desc = prs.10.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes
 
 	option = {
-		name = prs.4.a
-		subtract_from_variable = {
+		name = prs.9.a
+		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
 }
+}
+	option = {
+		name = prs.8.b
+		activate_mission = PRS_promised_payment
 }
 }
