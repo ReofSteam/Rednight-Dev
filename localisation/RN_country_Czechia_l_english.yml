@@ -6,6 +6,11 @@
 
 ### Events ###
 
+cze.1.t:0 "Corrective Action in Prague"
+cze.1.d:0 "The Rise of Alfred Rosenberg in Prussia was one piece of a complex puzzle. The ascension of a pro russian government within the rump state has ensured the withdrawl of german forces from the Sudentenland. Moscow can now relax, freed from its role as mediator between us and the and Tetons. Yet more than this, the situation has provided another boon.\n\n Today a number of racial patriots have seizing government buildings in Prague. In a bloodless coup, President Jay Sykory was forced into an early retirement. Finally, the beautiful completed image is becoming visible. The Pan-Slavic Colonel Trushdovich has assumed command of the Czech Republic, raising the Slavish tricolour on every mast. Soon, the dream of a brotherly union with Russia may be realised. Together, we shall be the ultimate bullwark against the degenerate socialists, the realization of our ancient racial destiny. West and East slavdom are now one!"
+cze.1.a:0 "Long live the destiny of the Slavic people"
+cze.2.t:0 "National Plebiscite on Czechslovakia"
+
 ### Parties ###
 
 CZE_nationalist_socialism_party:0 "BW"
@@ -38,7 +43,7 @@ CZE_autocratic_party_long:0 "Government of National Unity"
 CZE_ultraconservative_party:0 "Czech National Renaissance Party"
 CZE_ultraconservative_party_long:0 "Government of National Unity"
 
-CZE_national_corporatist_party:0 "National Unity Government"
+CZE_national_corporatist_party:0 "Slavic National League"
 CZE_national_corporatist_party_long:0 "Government of National Unity"
 
 ### Country Name ###

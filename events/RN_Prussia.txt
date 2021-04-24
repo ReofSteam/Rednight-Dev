@@ -180,7 +180,7 @@ country_event = { ###The Westheer Occupation of Danzig. 2
 }
 }
 	option = {
-		name = prs.8.b
+		name = prs.9.b
 		activate_mission = PRS_promised_payment
 }
 }
@@ -194,14 +194,92 @@ country_event = { ###Veteran and Expellee Affairs
 	is_triggered_only = yes
 
 	option = {
-		name = prs.9.a
+		name = prs.10.a
+}
+}
+
+country_event = { The Loan
+	id = prs.11
+	title = prs.11.t
+	desc = prs.11.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.11.a
+		RUS = {
+		country_event = { id = prs.12
+		days = 7 }
+		}
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
 }
 }
+}
+
+country_event = { The Loan: RUS
+	id = prs.12
+	title = prs.12.t
+	desc = prs.12.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
 	option = {
-		name = prs.8.b
-		activate_mission = PRS_promised_payment
+		name = prs.12.a
+		ai_chance = {
+			factor = 40
+		}
+		PRS = {
+		country_event = { id = prs.14
+		days = 5 }
+		}		
+}
+	option = {
+		name = prs.12.b
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 3
+				OR = { 
+				has_stability < 0.2
+				num_of_available_civilian_factories < 10
+				}
+			}
+		}
+		PRS = {
+		country_event = { id = prs.13
+		days = 5 }
+		}		
+}
+}
+
+
+country_event = { The Loan: Failed
+	id = prs.13
+	title = prs.13.t
+	desc = prs.13.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.13.a
+		complete_national_focus = PRS_austerity_program		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
+		
+}
+	option = {
+		name = prs.13.b
+		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
 }
 }

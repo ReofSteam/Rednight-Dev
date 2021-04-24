@@ -1,0 +1,47 @@
+﻿###########################
+# German Events
+###########################
+add_namespace = cze
+
+
+####INTROS
+country_event = { ##Pan-Slavic Corrective Action
+	id = cze.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event cze.1"}
+	title = cze.1.t
+	desc = cze.1.d
+
+	is_trigczeed_only = yes
+	fire_only_once = yes
+	picture = GFX_1
+
+	option = {
+		name = cze.1.a
+		set_politics = {
+    	ruling_party = national_corporatist
+}
+    RUS = { set_autonomy = {
+    target = CZE
+    autonomy_state = autonomy_puppet
+} }
+	}			
+}
+
+country_event = { ##Referendum in Slovakia
+	id = cze.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event cze.2"}
+	title = cze.2.t
+	desc = cze.2.d
+
+	is_trigczeed_only = yes
+	fire_only_once = yes
+	picture = GFX_1
+
+	option = {
+		name = cze.2.a
+		annex_country = {
+    target = SLK
+    transfer_troops = yes
+}
+	}			
+}

@@ -8,29 +8,6 @@
 
 ### Parties ###
 
-#WPL_social_nationalist_party:0 "VNOJ"
-#WPL_social_nationalist_party_long:0 "Council for the National Liberation of Poland (Vijeće Narodnog Oslobođenja Jugoslavije)"
-#WPL_marxist_party:0 "VNOJ"
-#WPL_marxist_party_long:0 "Council for the National Liberation of Poland (Vijeće Narodnog Oslobođenja Jugoslavije)"
-#WPL_libertarian_party:0 "VNOJ"
-#WPL_libertarian_party_long:0 "Council for the National Liberation of Poland (Vijeće Narodnog Oslobođenja Jugoslavije)"
-#WPL_moderate_socialist_party:0 "VNOJ"
-#WPL_moderate_socialist_party_long:0 "Council for the National Liberation of Poland (Vijeće Narodnog Oslobođenja Jugoslavije)"
-#WPL_social_democrat_party:0 "VNOJ"
-#WPL_social_democrat_party_long:0 "Council for the National Liberation of Poland (Vijeće Narodnog Oslobođenja Jugoslavije)"
-#WPL_social_liberal_party:0 "SDS"
-#WPL_social_liberal_party_long:0 "Independent Democratic Party (Samostalna Demokratska Stranka)"
-#WPL_conservative_party:0 "NRS"
-#WPL_conservative_party_long:0 "People's Radical Party (Narodna Radikalna Stranka)"
-#WPL_authoritarian_democrat_party:0 "JRZ"
-#WPL_authoritarian_democrat_party_long:0 "Yugoslav Radical Union (Jugoslovenska Radikalna Zajednica)"
-#WPL_autocratic_party:0 "JRZ"
-#WPL_autocratic_party_long:0 "Yugoslav Radical Union (Jugoslovenska Radikalna Zajednica)"
-#WPL_fundamentalist_party:0 "Zbor/ZBOR"
-#WPL_fundamentalist_party_long:0 "United Militant Labour Organization (Združena Borbena Organizacija Rada)"
-#WPL_voynist_party:0 "RP"
-#WPL_voynist_party_long:0 "Ravna Gora Movement (Ravnogorski Pokret)"
-
 ### Country Name ###
 
 POL_nationalist_socialism:0 "Polish Republic"

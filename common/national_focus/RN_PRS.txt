@@ -159,6 +159,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.10
+		add_political_power = 25
+	}	
 	}
 
 	#Focus for The Russian Loan
@@ -178,6 +182,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.11
+	}			
 	}
 
 	#Focus for Austerity Program
@@ -244,6 +251,13 @@ focus_tree = {
 		prerequisite = { focus = PRS_multidepartments_veteran_and_expellee_committee }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		if = { limit = { has_country_flag = PRS_russian_loan }
+		country_event = prs.15 } 
+		else = { 
+		country_event = prs.16
+		}	
 		}
 	}
 
