@@ -450,4 +450,13 @@ spriteTypes = {
 		name = "GFX_PRS_little_entente"
 		texturefile = "gfx/interface/goals/PRS/PRS_little_entente.tga"
 	}		
+	############CSA
+	SpriteType = { 
+		name = "GFX_CSA_LAST_PRESIDENT"
+		texturefile = "gfx/interface/goals/CSA/CSA_LAST_PRESIDENT.dds"
+	}		
+	SpriteType = { 
+		name = "GFX_CSA_TIME_SIDE"
+		texturefile = "gfx/interface/goals/CSA/CSA_TIME_SIDE.dds"
+	}	
 }

@@ -386,3 +386,22 @@ news_event = { #Swiss_Saved
 		name = worldnews.16.a
 	}
 }
+
+news_event = { #Prussian Civil War
+	id = worldnews.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2" }
+
+	title = worldnews.t
+	desc = worldnews.17.d
+	picture = PRU_intervene
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.17.a
+	}
+}
