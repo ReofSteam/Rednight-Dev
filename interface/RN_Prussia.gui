@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "PRS_conspiracy_menu"
-		size = { width = 581 height = 250 }
+		size = { width = 581 height = 500 }
 		position = { x = 0 y = 0 }
 		Orientation = center
 		Origo = center
@@ -11,58 +11,92 @@ guiTypes = {
 		
 		iconType = {
 			name ="GFX_prs_conspiracy_progress"
-			position = { x = 50 y = 250 }
+			position = { x = 30 y = 440 } #250 - 190
 			spriteType = "GFX_RN_progressbar_decision"		
 			frame = 10
 		}	
+
 		iconType = {
 			name ="GFX_prs_conspiracy_1"
-			position = { x = 219 y = 20 }
+			position = { x = 199 y = 210 }
 			spriteType = "GFX_PRS_conspiracy_1"	
 			scale = 0.8			
 		}
 		iconType = {
 			name ="GFX_prs_conspiracy_2"
-			position = { x = 55 y = -185 }
+			position = { x = 35 y = 5 }
 			spriteType = "GFX_PRS_conspiracy_2"	
 			scale = 0.8			
 		}
 		iconType = {
 			name ="GFX_prs_conspiracy_3"
-			position = { x = 384 y = -185 }
+			position = { x = 364 y = 5 }
 			spriteType = "GFX_PRS_conspiracy_3"		
 			scale = 0.8			
 		}		
 		iconType = {
 			name ="GFX_prs_conspiracy_triad"
-			position = { x = 40 y = -200 }
+			position = { x = 20 y = -10 } #-20
 			spriteType = "GFX_PRS_conspiracy_triad"	
 			scale = 0.8
 			
 		}	
+		instantTextBoxType = {
+			name = "GFX_prs_conspiracy_3_name"
+			position = { x = 280 y = 175 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Heinemann"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}
+		instantTextBoxType = {
+			name = "GFX_prs_conspiracy_2_name"
+			position = { x = -50 y = 175 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Von Bausidini"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}			
+		instantTextBoxType = {
+			name = "GFX_prs_conspiracy_1_name"
+			position = { x = 115 y = 385 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Abakumov"			
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}			
 		iconType = {
 			name ="GFX_prs_conspiracy_priority"
-			position = { x = 345 y = -100 }
+			position = { x = 325 y = 90 }
 			spriteType = "GFX_direction_button"	
 			
 		}	
 		iconType = {
 			name ="GFX_prs_conspiracy_priority2"
-			position = { x = 190 y = -100 }
+			position = { x = 170 y = 90 }
 			spriteType = "GFX_direction_button"	
 			rotation = 3.1
 			
 		}
 		iconType = {
 			name ="GFX_prs_conspiracy_priority3"
-			position = { x = 265 y = -10 }
+			position = { x = 245 y = 180 }
 			spriteType = "GFX_direction_button"	
 			rotation = -1.59
 			
 		}		
 		instantTextBoxType = {
 			name = "GFX_prs_conspiracy_number"
-			position = { x = 340 y = 230 }
+			position = { x = 320 y = 420 }
 			font = "rn_viasans_15"
 			borderSize = {x = 0 y = 0}
 			text = "PRS_conspiracy_progress_number"			
@@ -73,7 +107,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "GFX_prs_conspiracy_text"
-			position = { x = 50 y = 230 }
+			position = { x = 30 y = 420 }
 			font = "rn_viasans_15"
 			borderSize = {x = 0 y = 0}
 			text = "The Conspiracy Materialising"			

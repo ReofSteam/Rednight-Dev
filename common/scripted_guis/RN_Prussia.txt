@@ -5,11 +5,14 @@ scripted_gui = {
         parent_window_token = decision_tab
         window_name = "PRS_conspiracy_menu"
        	visible = {
-        always = yes
+        always = no
 		}
 		properties = {
 		GFX_prs_conspiracy_progress = {
 		frame = PRS_conspiracy_progress
+		}
+		GFX_prs_conspiracy_3 = {
+        image = "[GetREICHConspirator]"		
 		}
 }
         triggers = {
@@ -24,6 +27,15 @@ scripted_gui = {
 			has_country_flag = PRS_GRU_priority 
 			has_country_flag = PRS_CONSERVATIVE_priority
 			}
+            }			
+            GFX_prs_conspiracy_1_name_visible = {
+            has_country_flag = PRS_GRUconspirator_identified
+            }
+            GFX_prs_conspiracy_2_name_visible = {
+            has_country_flag = PRS_HEERconspirator_identified
+            }		
+            GFX_prs_conspiracy_3_name_visible = {
+            has_country_flag = PRS_reichconspirator_identified
             }			
         }
 	}

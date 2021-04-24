@@ -1,0 +1,34 @@
+###########################
+#Prussia Decisions# WIP
+###########################
+
+PRS_conspiracy_menu = {                          
+     PRS_political_mood = {                          
+          allowed = { tag = PRS }               
+          available = {                       
+          has_country_flag = PRS_conspiracy_active                
+          }
+          activation = {                          
+          has_country_flag = PRS_conspiracy_active                
+          }
+          is_good = no             
+          days_re_enable = 1		  
+          selectable_mission = no                
+          days_mission_timeout = 13
+		  days_remove = 13 
+          timeout_effect = {                     
+          add_political_power = -5  
+          }
+          complete_effect = {                    
+          add_political_power = 50      
+          if = {
+		  limit = {
+		  check_variable = { party_popularity@social_democrat > party_popularity@social_conservatism }
+          check_variable = { party_popularity@social_democrat > party_popularity@social_liberal }
+          } 
+		  set_country_flag = PRS_GRU_priority
+		  clr_country_flag = PRS_CONSERVATIVE_priority
+		  }
+		  }
+     }
+}

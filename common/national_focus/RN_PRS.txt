@@ -777,7 +777,7 @@ focus_tree = {
 	#Focus for Form the German People's  Party
 	focus = {
 		id = PRS_form_the_german_peoples__party
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_volkspartei
 		x = 6
 		y = 13
 		cost = 10
@@ -824,7 +824,7 @@ focus_tree = {
 	#Focus for Restoration of Democratic Government
 	focus = {
 		id = PRS_restoration_of_democratic_government
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_democracy
 		x = 4
 		y = 14
 		cost = 10
@@ -876,6 +876,9 @@ focus_tree = {
 		x = 8
 		y = 11
 		cost = 10
+		available = {
+		always = no
+	}			
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -885,10 +888,13 @@ focus_tree = {
 	#Focus for A Pack of Russian Cigarettes
 	focus = {
 		id = PRS_a_pack_of_russian_cigarettes
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_operation
 		x = 18
 		y = 11
 		cost = 10
+		available = {
+		always = no
+	}				
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -902,6 +908,9 @@ focus_tree = {
 		x = 25
 		y = 11
 		cost = 10
+		available = {
+		always = no
+	}				
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
@@ -1079,7 +1088,7 @@ focus_tree = {
 	#Focus for A Delegation in Warsaw
 	focus = {
 		id = PRS_a_delegation_in_warsaw
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_polish_deal
 		x = 15
 		y = 13
 		cost = 10
@@ -1094,7 +1103,7 @@ focus_tree = {
 	#Focus for Fires burn hot in our heart
 	focus = {
 		id = PRS_fires_burn_hot_in_our_heart
-		icon = GFX_goal_unknown
+		icon = GFX_focus_research
 		x = 15
 		y = 15
 		cost = 10
@@ -1125,7 +1134,7 @@ focus_tree = {
 	#Focus for Fires burn hot for our Nation
 	focus = {
 		id = PRS_fires_burn_hot_for_our_nation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		x = 17
 		y = 15
 		cost = 10
@@ -1139,7 +1148,7 @@ focus_tree = {
 	#Focus for That everyday will be more beautiful
 	focus = {
 		id = PRS_that_everyday_will_be_more_beautiful
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_consumer_goods
 		x = 16
 		y = 16
 		cost = 10
@@ -1158,7 +1167,7 @@ focus_tree = {
 	#Focus for That its safe in our hands
 	focus = {
 		id = PRS_that_its_safe_in_our_hands
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		x = 16
 		y = 17
 		cost = 10
@@ -1172,7 +1181,7 @@ focus_tree = {
 	#Focus for Little Rapallo Conference
 	focus = {
 		id = PRS_little_rapallo_conference
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_international
 		x = 17
 		y = 13
 		cost = 10
@@ -1187,7 +1196,7 @@ focus_tree = {
 	#Focus for Macht, die sich vereint im Bruderbunde.
 	focus = {
 		id = PRS_macht_die_sich_vereint_im_bruderbunde
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_brotherhood
 		x = 16
 		y = 18
 		cost = 10
@@ -1228,7 +1237,7 @@ focus_tree = {
 	#Focus for A Puppet Monarchy
 	focus = {
 		id = PRS_a_puppet_monarchy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_rom_handle_king
 		x = 21
 		y = 14
 		cost = 10
@@ -1274,7 +1283,7 @@ focus_tree = {
 	#Focus for Surrender Czechia
 	focus = {
 		id = PRS_surrender_czechia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_concessions
 		x = 21
 		y = 16
 		cost = 10
@@ -1307,7 +1316,7 @@ focus_tree = {
 	#Focus for German Kornilovism
 	focus = {
 		id = PRS_german_kornilovism
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_kornilovism
 		x = 20
 		y = 18
 		cost = 10
@@ -1349,7 +1358,7 @@ focus_tree = {
 	#Focus for Pact of the Crosses
 	focus = {
 		id = PRS_pact_of_the_crosses
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_concordat
 		x = 25
 		y = 16
 		cost = 10
@@ -1399,7 +1408,7 @@ focus_tree = {
 	#Focus for Little Entente
 	focus = {
 		id = PRS_little_entente
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_little_entente
 		x = 26
 		y = 18
 		cost = 10

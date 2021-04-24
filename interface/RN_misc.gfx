@@ -393,5 +393,9 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_direction_button"
 	texturefile = "gfx/interface/PRS_gui/direction_button.tga"
-	}			
+	}		
+	spriteType = {
+	name = "GFX_PRS_heinemann"
+	texturefile = "gfx/leaders/PRS/PRS_heinemann.tga"
+	}	
 }
