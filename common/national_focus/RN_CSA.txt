@@ -11,7 +11,7 @@ focus_tree = {
 	#Focus for Force a Compromise
 	focus = {
 		id = CSA_force_a_compromise
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_unify_the_london_bureau
 		x = 22
 		y = 4
 		cost = 10
@@ -64,7 +64,7 @@ focus_tree = {
 	#Focus for Differing Interpretations
 	focus = {
 		id = CSA_differing_interpretations
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_conspiracy
 		x = 21
 		y = 3
 		cost = 10
@@ -93,7 +93,7 @@ focus_tree = {
 #Focus for Writing The Speech
 	focus = {
 		id = CSA_writing_the_speech
-		icon = GFX_goal_unknown
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 19
 		y = 3
 		cost = 10
@@ -122,7 +122,7 @@ focus_tree = {
 #Focus for Flight to New York
 	focus = {
 		id = CSA_flight_to_new_york
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_air_fighter
 		x = 19
 		y = 2
 		cost = 10
@@ -174,7 +174,7 @@ focus_tree = {
 #Focus for Announce the Second Convention
 	focus = {
 		id = CSA_announce_the_second_convention
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_propaganda
 		x = 1
 		y = 6
 		cost = 10
@@ -193,7 +193,7 @@ focus_tree = {
 #Focus for A Gentleman's Agreement
 	focus = {
 		id = CSA_a_gentlemans_agreement
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_improve_relations
 		x = 0
 		y = 5
 		cost = 10
@@ -207,7 +207,7 @@ focus_tree = {
 #Focus for Arrest the Militas
 	focus = {
 		id = CSA_arrest_the_militas
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 2
 		y = 5
 		cost = 10
@@ -248,7 +248,7 @@ focus_tree = {
 #Focus for National Security Bill
 	focus = {
 		id = CSA_national_security_bill
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_imprisonment
 		x = 5
 		y = 4
 		cost = 10
@@ -262,7 +262,7 @@ focus_tree = {
 	#Focus for Build the Foundation
 	focus = {
 		id = CSA_build_the_foundation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civilian
 		x = 4
 		y = 5
 		cost = 10
@@ -290,7 +290,7 @@ focus_tree = {
 #Focus for Time on our side
 	focus = {
 		id = CSA_time_on_our_side
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_TIME_SIDE
 		x = 16
 		y = 4
 		cost = 10
@@ -331,7 +331,7 @@ focus_tree = {
 #Focus for Heroic Propaganda
 	focus = {
 		id = CSA_heroic_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_workers_of_iberia
 		x = 8
 		y = 4
 		cost = 10
@@ -350,7 +350,7 @@ focus_tree = {
 #Focus for Relocation and Reunion Camps
 	focus = {
 		id = CSA_relocation_and_reunion_camps
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Refugee_Camps
 		x = 12
 		y = 4
 		cost = 10
@@ -369,7 +369,7 @@ focus_tree = {
 #Focus for Prioritize the Plains
 	focus = {
 		id = CSA_prioritize_the_plains
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_soviet_construction
 		x = 15
 		y = 3
 		cost = 10
@@ -463,7 +463,7 @@ focus_tree = {
 #Focus for Any Volunteers?
 	focus = {
 		id = CSA_any_volunteers
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_syndicalist_workers
 		x = 9
 		y = 3
 		cost = 10
@@ -477,7 +477,7 @@ focus_tree = {
 #Focus for The Agency Proposal
 	focus = {
 		id = CSA_the_agency_proposal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service
 		x = 11
 		y = 3
 		cost = 10
@@ -491,7 +491,7 @@ focus_tree = {
 #Focus for Convene the Generals
 	focus = {
 		id = CSA_convene_the_generals
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		x = 8
 		y = 2
 		cost = 10
@@ -503,10 +503,11 @@ focus_tree = {
 		}
 	}
 
+
 	#Focus for Red Border Patrol
 	focus = {
 		id = CSA_red_border_patrol
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_operation
 		x = 12
 		y = 2
 		cost = 10
@@ -544,7 +545,7 @@ focus_tree = {
 #Focus for The Last Will & Testament
 	focus = {
 		id = CSA_the_last_will__testament
-		icon = GFX_goal_unknown
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 20
 		y = 1
 		cost = 10
@@ -572,7 +573,7 @@ focus_tree = {
 	#Focus for The Last President
 	focus = {
 		id = CSA_the_last_president
-		icon = GFX_goal_unknown
+		icon = "GFX_CSA_LAST_PRESIDENT"
 		x = 12
 		y = 0
 		cost = 10
@@ -590,7 +591,7 @@ focus_tree = {
 #Focus for Raise Elite Divisions
 	focus = {
 		id = CSA_raise_elite_divisions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		x = 13
 		y = 3
 		cost = 10
@@ -604,7 +605,7 @@ focus_tree = {
 #Focus for Canonize His Legacy
 	focus = {
 		id = CSA_canonize_his_legacy
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 20
 		y = 5
 		cost = 10
