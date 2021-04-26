@@ -1,27 +1,27 @@
 ﻿###########################
 # German Events
 ###########################
-add_namespace = cze
+add_namespace = pol
 
 
 ####INTROS
 country_event = { ##Pan-Slavic Corrective Action
-	id = cze.1
-	immediate = {log = "[GetDateText]: [Root.GetName]: event cze.1"}
-	title = cze.1.t
-	desc = cze.1.d
+	id = pol.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event pol.1"}
+	title = pol.1.t
+	desc = pol.1.d
 
-	is_trigczeed_only = yes
+	is_trigpoled_only = yes
 	fire_only_once = yes
 	picture = GFX_1
 
 	option = {
-		name = cze.1.a
+		name = pol.1.a
 		set_politics = {
     	ruling_party = national_corporatist
 }
     RUS = { set_autonomy = {
-    target = CZE
+    target = POL
     autonomy_state = autonomy_puppet
 } }
 	}			

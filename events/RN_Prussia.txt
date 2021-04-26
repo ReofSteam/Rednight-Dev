@@ -283,3 +283,41 @@ country_event = { The Loan: Failed
 }		
 }
 }
+
+country_event = { Workers Riot
+	id = prs.15
+	title = prs.15.t
+	desc = prs.15.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.15.a
+		complete_national_focus = PRS_austerity_program		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
+}
+
+country_event = { Bureaucracy Strike
+	id = prs.16
+	title = prs.16.t
+	desc = prs.16.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.16.a
+		complete_national_focus = PRS_austerity_program		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
+}

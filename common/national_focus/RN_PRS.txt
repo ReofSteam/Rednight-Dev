@@ -202,6 +202,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_ideas = PRS_austerity_disruption
+		}
 	}
 
 	#Focus for Arbeitsprogramm
@@ -230,10 +233,22 @@ focus_tree = {
 		x = 2
 		y = 6
 		cost = 10
+		select_effect = {
+		country_event = {
+		id = prs.15
+		days = 30
+		}	
+		}		
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_austerity_program }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		swap_ideas = {
+        remove_idea = PRS_austerity_disruption_1
+        add_idea = PRS_austerity_disruption_2
+}
 		}
 	}
 
@@ -321,7 +336,32 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		swap_ideas = {
+        remove_idea = PRS_austerity_disruption_2
+        add_idea = PRS_austerity_disruption_3
+}		
+		}
 	}
+
+	focus = {
+		id = PRS_economic_recovery
+		icon = GFX_goal_generic_forceful_treaty
+		x = 3
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_cut_pensions_and_army_payments }
+		prerequisite = { focus = PRS_blut_und_boden }		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+        remove_idea = PRS_austerity_disruption_3
+		remove_idea = PRS_fragile_economy
+		add_political_power = 150
+		}
+	}	
 
 	#Focus for Preußischer Volkskrieg
 	focus = {

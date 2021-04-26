@@ -219,6 +219,7 @@ PRS_crusaders_against_evil_desc:0 ""
 PRS_little_entente:0 "Little Entente"
 PRS_little_entente_desc:0 ""
 PRS_an_audience_with_louis_ferdinand:0 "An Audience with Louis Ferdinand"
+PRS_economic_recovery:0 ""
 ### Ideas ####
 
 ### Events ###
@@ -241,7 +242,12 @@ prs.13.t:0 "The Loan failed to manifest"
 prs.13.d:0 "The deal with Moscow has failed! The arrogant bastards have refused to save our fragile economy. It seems they do not care what kind of disorder their actions will create. Prussia now finds itself in a great calamity.Without foreign aid, all of our economic schemes is in serious jeopardy and alarming castatrophic inflation. A drastic measure ought to be taken. Should we cut our losses?"
 prs.13.a:0 "Austerity must be implemented"
 prs.13.b:0 "Tell Speer to come here"
-
+prs.15.t:0 "Workers Riot"
+prs.15.d:0 "They dont like having everything cut"
+prs.15.a:0 "What do you think? Shoot them"
+prs.16.t:0 "Bureaucracy General Strike"
+prs.16.d:0 "Strike!"
+prs.16.a:0 "Feck bro, we are screwed"
 # Flavor #
 
 # FocusEvents #
@@ -307,6 +313,12 @@ PRS_westheer:0 "Westheer's Revolt"
 PRS_last_kaiser:0 "The Last Kaiser"
 PRS_fragile_economy:0 "Fragile Economy"
 PRS_westerners:0 "The Westerners"
+PRS_austerity_disruption_1:0 "Austerity Disruption"
+PRS_austerity_disruption_1_desc:0 "The shock of the austerity policy hit the worst on our workers and handicap government spendings on businesses"
+PRS_austerity_disruption_2:0 "Austerity Disruption"
+PRS_austerity_disruption_2_desc:0 "Unemployement are on the rise, the austerity policy have regained some operational activites of the major enterprises"
+PRS_austerity_disruption_3:0 "Austerity Disruption"
+PRS_austerity_disruption_3_desc:0 "Unemployement are widespread, the austerity policy have restored a resemblance of balance of the national budget"
 ### Flags ###
 PRS_conspiracy_progress_number:0 "§R[?PRS_conspiracy_progress]%§!"
 ### Tooltips ###
