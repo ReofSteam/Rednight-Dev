@@ -1,0 +1,33 @@
+### Prussia
+
+ideas = {
+	country = {
+		PRS_last_kaiser = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_last_kaiser"}
+			picture = PRS_willy_third_spirit
+			modifier = {
+				stability_factor = 0.15
+				political_advisor_cost_factor = -0.2
+			}
+		}
+		PRS_fragile_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_fragile_economy"}
+			picture = economy_bad
+			modifier = {
+				political_power_factor = -0.3
+				production_speed_buildings_factor = -0.2
+				industrial_capacity_factory = -0.3
+				production_speed_industrial_complex_factor = 0.15 
+				
+			}
+		}	
+		PRS_westerners = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_westerners"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.2
+			}
+		}		
+	}
+}

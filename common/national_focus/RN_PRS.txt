@@ -711,7 +711,7 @@ focus_tree = {
 	#Focus for Our Brothers in Africa
 	focus = {
 		id = PRS_our_brothers_in_africa
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_africa_naval
 		x = 1
 		y = 17
 		cost = 10
@@ -739,7 +739,7 @@ focus_tree = {
 	#Focus for Social Reforms Bill
 	focus = {
 		id = PRS_social_reforms_bill
-		icon = GFX_goal_unknown
+		icon = GFX_social_democrat
 		x = 3
 		y = 16
 		cost = 10
@@ -823,7 +823,7 @@ focus_tree = {
 	#Focus for Free and Fair Election
 	focus = {
 		id = PRS_free_and_fair_election
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_free_democracy
 		x = 3
 		y = 15
 		cost = 10
@@ -1050,7 +1050,7 @@ focus_tree = {
 	#Focus for Down with the murderous traditions!
 	focus = {
 		id = PRS_down_with_the_murderous_traditions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = 25
 		y = 14
 		cost = 10
@@ -1069,7 +1069,7 @@ focus_tree = {
 	#Focus for Conservative Values
 	focus = {
 		id = PRS_conservative_values
-		icon = GFX_goal_unknown
+		icon = GFX_social_conservative
 		x = 6
 		y = 16
 		cost = 10
@@ -1297,7 +1297,7 @@ focus_tree = {
 	#Focus for Surrender Czechia
 	focus = {
 		id = PRS_surrender_czechia
-		icon = GFX_focus_generic_concessions
+		icon = GFX_focus_CZE_german_puppet
 		x = 21
 		y = 16
 		cost = 10
@@ -1394,7 +1394,7 @@ focus_tree = {
 	#Focus for Freedom of the Faithful
 	focus = {
 		id = PRS_freedom_of_the_faithful
-		icon = GFX_goal_unknown
+		icon = GFX_social_liberal
 		x = 25
 		y = 17
 		cost = 10

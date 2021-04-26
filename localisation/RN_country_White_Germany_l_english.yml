@@ -304,7 +304,9 @@ PRS_westheer:0 "Westheer's Revolt"
 ### Focuses ###
 
 ### Ideas ###
-
+PRS_last_kaiser:0 "The Last Kaiser"
+PRS_fragile_economy:0 "Fragile Economy"
+PRS_westerners:0 "The Westerners"
 ### Flags ###
 PRS_conspiracy_progress_number:0 "§R[?PRS_conspiracy_progress]%§!"
 ### Tooltips ###

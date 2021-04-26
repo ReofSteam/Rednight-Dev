@@ -59,6 +59,11 @@ spriteTypes = {
 		name = "GFX_idea_GER_free_germany"
 		texturefile = "gfx/interface/ideas/GER/GER_FreeGermanyArmy.dds"
 	}
+########Prussia
+		spriteType = {
+		name = "GFX_idea_PRS_willy_third_spirit"
+		texturefile = "gfx/interface/ideas/PRS/PRS_willy_third_spirit.tga"
+	}	
 	#########Indochina
  		spriteType = {
 		name = "GFX_idea_INC_return_to_fatherland"

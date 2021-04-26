@@ -6,7 +6,9 @@ set_cosmetic_tag = PRS_russia
 set_country_flag = kaiser_is_wilhelm_third
 
 add_ideas = {
-	
+PRS_last_kaiser
+PRS_fragile_economy
+PRS_westerners	
 }
 
 country_event = { 
