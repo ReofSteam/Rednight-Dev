@@ -65,6 +65,11 @@ set_politics = {
 
 country_event = {
 id = csa.2
+days = 5
+}
+
+country_event = {
+id = csa.16
 days = 1
 }
 

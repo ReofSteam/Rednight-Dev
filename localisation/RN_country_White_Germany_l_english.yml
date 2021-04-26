@@ -305,8 +305,11 @@ PRS_westheer:0 "Westheer's Revolt"
 
 ### Ideas ###
 PRS_last_kaiser:0 "The Last Kaiser"
+PRS_last_kaiser_desc:0 "Wilhelm III is a name that will forever live in infamy, uttered on the lips of every historian. The Kaiser to be lead our people to sweet glory in 1918, and in 1946 he bore witness to our greatest failure. Though he has aged, the man still plays his role as the ultimate face of German politics. He is a symbol of German honor, and of days long past. For now, he still endures."
 PRS_fragile_economy:0 "Fragile Economy"
+PRS_fragile_economy_desc:0 "There is no use beating around the bush, the Reich's economy has utterly collapsed. Ironically, the worst symptoms of this crisis have grown less severe since the enemy gained control of most of our land. Yet our old problems are steadily being replaced with new ones. Post-War repatrarations, unpaid loans, and anihalated buisnesses categorize our remnant kingdom. We must tread carefully as we carry the heavy weight of this problem upon our backs, lest we tumble over!"
 PRS_westerners:0 "The Westerners"
+PRS_westerners_desc:0 "Two million German exiles and 600,000 demobilized veterans. The numbers speak for themselves. It takes great effort to convince a Rhinelander and a Bavarian that they must suffer for the good of a state called "Prussia"."
 ### Flags ###
 PRS_conspiracy_progress_number:0 "§R[?PRS_conspiracy_progress]%§!"
 ### Tooltips ###

@@ -111,22 +111,90 @@ country_event = {
 	id = csa.16
     title = csa.16.t
     desc = csa.16.d
-	picture = GFX_star_medal
+	picture = GFX_CSA_new_york
 	is_triggered_only = yes
 	
 	option = {
-		name = csa.11.a 
+		name = csa.16.a 
 	}
 
 }
 
-country_event = { #####Young Republic#####
+country_event = { #####Last President#####
 	id = csa.17
-	title = csa.17
+	title = csa.17.t
 	desc = csa.17.d
 	is_triggered_only = yes
 
 	option = {
-		name = csa.17
+		name = csa.17.a
+	}
+}
+
+country_event = { #####The Human Drain (3k Nightmare)#####
+	id = csa.18
+	title = csa.18.t
+	desc = csa.18.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.18.a
+		complete_national_focus = CSA_convene_the_generals
+	}
+	option = {
+		name = csa.18.b
+		complete_national_focus = CSA_red_border_patrol
+	}
+	option = {
+		name = csa.18.c
+		complete_national_focus = CSA_spitting_in_the_wind
+	}
+}
+
+country_event = { #####Raising Elite Divisions#####
+	id = csa.19
+	title = csa.19.t
+	desc = csa.19.d
+	is_triggered_only = yes
+
+	
+	option = {
+		name = csa.19.a
+		add_manpower = 900
+	}
+}
+
+country_event = { #####Convene the Generals#####
+	id = csa.20
+	title = csa.20.t
+	desc = csa.20.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.20.a
+	}
+}
+
+country_event = { #####Any Volunteers?#####
+	id = csa.21
+	title = csa.21.t
+	desc = csa.21.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.21.a
+		add_manpower = 2500
+	}
+}
+
+country_event = { #####Dangling the Carrot#####
+	id = csa.22
+	title = csa.22.t
+	desc = csa.22.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.22.a
+		add_manpower = 6500
 	}
 }
