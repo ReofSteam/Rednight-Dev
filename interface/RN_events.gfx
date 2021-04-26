@@ -100,6 +100,12 @@ spriteTypes = {
 		name = "GFX_ENG_fall_of_mosley"
 		texturefile = "gfx/event_pictures/ENG_fall_of_mosley.dds"
 	}
+
+	####CSA
+	spriteType = { 
+		name = "GFX_CSA_new_york"
+		texturefile = "gfx/event_pictures/CSA_new_york.dds"
+	}
 	#####France
 		spriteType = { 
 		name = "GFX_FRA_may_pustch_news"
