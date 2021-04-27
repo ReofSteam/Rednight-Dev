@@ -37,7 +37,13 @@ defined_text = { #SUPER EVENT TITLES
             has_country_flag = America_first_day_of_peace
         }
         localization_key = "SPEVNT_America_first_day_of_peace"
-    }		
+    }	
+    text = { 
+        trigger = {
+            has_country_flag = PRS_civil_war
+        }
+        localization_key = "SPEVNT_PRS_civil_war"
+    }	
 }
 
 defined_text = { #SUPER EVENT photo
@@ -79,5 +85,11 @@ defined_text = { #SUPER EVENT photo
         }
         localization_key = "GFX_RUS_anti_russia_revolt"
     }		
+    text = { 
+        trigger = {
+            has_country_flag = PRS_civil_war
+        }
+        localization_key = "GFX_PRS_civil_war"
+    }	
 
 }

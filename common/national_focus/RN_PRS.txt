@@ -7,7 +7,7 @@ focus_tree = {
 			tag = PRS
 		}
 	}
-	continuous_focus_position = { x = 50 y = 1080 }
+	continuous_focus_position = { x = 50 y = 2500 }
 	
 	#Focus for The East in White and Black
 	focus = {

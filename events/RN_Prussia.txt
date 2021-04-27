@@ -85,6 +85,8 @@ country_event = { Revolt of the Westheer
 
 	option = {
 		name = prs.6.a
+		set_country_flag = PRS_civil_war
+		set_country_flag = Super_Event_Visible		
 	start_civil_war = {
     ideology = social_liberal
     size = 0.3
@@ -138,6 +140,8 @@ country_event = { Prussian Civil War
 
 	option = {
 		name = prs.7.a
+		set_country_flag = PRS_civil_war
+		set_country_flag = Super_Event_Visible
 	start_civil_war = {
     ideology = national_corporatist
     size = 0.4
