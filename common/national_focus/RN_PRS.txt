@@ -7,7 +7,7 @@ focus_tree = {
 			tag = PRS
 		}
 	}
-	continuous_focus_position = { x = 50 y = 1080 }
+	continuous_focus_position = { x = 50 y = 2500 }
 	
 	#Focus for The East in White and Black
 	focus = {
@@ -30,12 +30,16 @@ focus_tree = {
 		icon = GFX_PRS_danzig_armaments
 		x = 10
 		y = 6
-		cost = 10
+		cost = 5
+
 		available_if_capitulated = yes
 		mutually_exclusive = { focus = PRS_baltic_armament_board }	
 		prerequisite = { focus = PRS_reorganise_the_royal_army_of_prussia }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 50
 		}
 	}
 
@@ -45,10 +49,19 @@ focus_tree = {
 		icon = GFX_focus_mex_privatisation
 		x = 7
 		y = 1
+		select_effect = {
+		country_event = {
+		id = prs.8
+		days = 14 #occupation of Danzig
+		}
+		}		
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = { 
+		add_political_power = 50
 		}
 	}
 
@@ -78,6 +91,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.9
+		}
 	}
 
 	#Focus for Coronation of Louis Ferdinand
@@ -91,6 +107,10 @@ focus_tree = {
 		prerequisite = { focus = PRS_1950_budget_review }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		country_event = prs.18
+		set_country_flag = kaiser_is_louis_ferdinand
 		}
 	}
 
@@ -139,6 +159,9 @@ focus_tree = {
 		mutually_exclusive = { focus = PRS_the_east_in_white_and_black }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+
 		}
 	}
 
@@ -202,6 +225,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_ideas = PRS_austerity_disruption
+		}
 	}
 
 	#Focus for Arbeitsprogramm
@@ -230,10 +256,22 @@ focus_tree = {
 		x = 2
 		y = 6
 		cost = 10
+		select_effect = {
+		country_event = {
+		id = prs.15
+		days = 30
+		}	
+		}		
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_austerity_program }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		swap_ideas = {
+        remove_idea = PRS_austerity_disruption_1
+        add_idea = PRS_austerity_disruption_2
+}
 		}
 	}
 
@@ -287,6 +325,25 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		if = { limit = { has_country_flag = PRS_priority_national_glory }
+		add_idea = PRS_national_glory }
+		add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = artillery
+} 
+		add_tech_bonus = {
+        bonus = 0.3
+        uses = 2
+        category = infantry_weapons
+} 
+		add_tech_bonus = {
+        bonus = 0.5
+        uses = 1
+        category = cat_medium_armor
+} 
+}		
 	}
 
 	#Focus for Baltic Armament Board
@@ -297,6 +354,9 @@ focus_tree = {
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
+		available = {
+		has_idea = PRS_russian_loan
+		}
 		mutually_exclusive = { focus = PRS_danzig_armament_ag }			
 		prerequisite = { 
 			focus = PRS_reorganise_the_royal_army_of_prussia 
@@ -321,7 +381,32 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		swap_ideas = {
+        remove_idea = PRS_austerity_disruption_2
+        add_idea = PRS_austerity_disruption_3
+}		
+		}
 	}
+
+	focus = {
+		id = PRS_economic_recovery
+		icon = GFX_goal_generic_forceful_treaty
+		x = 3
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_cut_pensions_and_army_payments }
+		prerequisite = { focus = PRS_blut_und_boden }		
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+        remove_idea = PRS_austerity_disruption_3
+		remove_idea = PRS_fragile_economy
+		add_political_power = 150
+		}
+	}	
 
 	#Focus for Preußischer Volkskrieg
 	focus = {

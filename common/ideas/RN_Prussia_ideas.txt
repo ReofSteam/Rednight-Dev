@@ -15,10 +15,7 @@ ideas = {
 			picture = economy_bad
 			modifier = {
 				political_power_factor = -0.3
-				production_speed_buildings_factor = -0.2
-				industrial_capacity_factory = -0.3
-				production_speed_industrial_complex_factor = 0.15 
-				
+				industrial_capacity_factory = -0.3				
 			}
 		}	
 		PRS_westerners = {
@@ -27,6 +24,51 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				consumer_goods_factor = 0.2
+			}
+		}		
+		PRS_austerity_disruption_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_austerity_disruption_1"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.5
+				production_speed_buildings_factor = -0.2
+			}
+		}	
+		PRS_austerity_disruption_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_austerity_disruption_2"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = -0.2
+				political_power_cost = 0.4
+				production_speed_buildings_factor = -0.15
+			}
+		}	
+		PRS_austerity_disruption_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_austerity_disruption_3"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = -0.3
+				political_power_cost = 0.03
+				production_speed_buildings_factor = -0.1
+			}
+		}	
+		PRS_russian_loan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_russian_loan"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.5
+				production_speed_buildings_factor = 0.2
+			}
+		}	
+		PRS_priority_national_glory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_priority_national_glory"}
+			picture = prc_low_popular_support3
+			modifier = {
+			conscription = 0.015
+			production_factory_efficiency_gain_factor = 0.5 
+
 			}
 		}		
 	}

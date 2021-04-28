@@ -85,6 +85,8 @@ country_event = { Revolt of the Westheer
 
 	option = {
 		name = prs.6.a
+		set_country_flag = PRS_civil_war
+		set_country_flag = Super_Event_Visible		
 	start_civil_war = {
     ideology = social_liberal
     size = 0.3
@@ -138,6 +140,8 @@ country_event = { Prussian Civil War
 
 	option = {
 		name = prs.7.a
+		set_country_flag = PRS_civil_war
+		set_country_flag = Super_Event_Visible
 	start_civil_war = {
     ideology = national_corporatist
     size = 0.4
@@ -284,7 +288,7 @@ country_event = { The Loan: Failed
 }
 }
 
-country_event = { #no Loan: Speer Meting
+country_event = { The Loan: Passed 
 	id = prs.14
 	title = prs.14.t
 	desc = prs.14.d
@@ -293,22 +297,27 @@ country_event = { #no Loan: Speer Meting
 	is_triggered_only = yes
 
 	option = {
-		name = prs.14.a	
-		add_popularity = {
-			ideology = social_liberal	
-			popularity = 0.01
-		}
-	}
+		name = prs.14.a
+		set_country_flag = PRS_priority_national_glory		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
+		
+}
 	option = {
-		name = prs.14.b	
-		add_popularity = {
-			ideology = social_democrat
-			popularity = 0.01
-			}			
-		}
-	}
+		name = prs.14.b
+		set_country_flag = PRS_priority_rebuilding		
+		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
+}
+}
 
-	country_event = { #Heinemann Soapbox
+
+country_event = { Workers Riot
 	id = prs.15
 	title = prs.15.t
 	desc = prs.15.d
@@ -317,11 +326,83 @@ country_event = { #no Loan: Speer Meting
 	is_triggered_only = yes
 
 	option = {
-		name = prs.15.a	
+		name = prs.15.a
+		complete_national_focus = PRS_austerity_program		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
+}
+
+country_event = { Bureaucracy Strike
+	id = prs.16
+	title = prs.16.t
+	desc = prs.16.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.16.a
+		complete_national_focus = PRS_austerity_program		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
+}
+
+
+country_event = { Death of Willy 3
+	id = prs.17
+	title = prs.17.t
+	desc = prs.17.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.17.a
+		remove_idea = PRS_last_kaiser		
+		clr_country_flag = kaiser_is_wilhelm_third
+		
+}
+}
+
+country_event = { King Louis Ferdinand
+	id = prs.18
+	title = prs.18.t
+	desc = prs.18.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = { ####Promise of Glory
+		name = prs.18.a
+}
+	option = { ####Promise of Healing
+		name = prs.18.b
+}
+	option = { ####Promise of Faith
+		name = prs.18.c
+}
+}
+
+country_event = { #Heinemann Soapbox
+	id = prs.19
+	title = prs.19.t
+	desc = prs.19.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.19.a
 	}
 	option = {
-		name = prs.15.b				
-		}
+	name = prs.19.b
 	}
-
-
+}

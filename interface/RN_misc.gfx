@@ -205,7 +205,11 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_American_peace"
 	texturefile = "gfx/super_events/American_peace.tga"
-	}			
+	}	
+	spriteType = {
+	name = "GFX_PRS_civil_war"
+	texturefile = "gfx/super_events/PRS_civil_war.tga"
+	}		
 ##########MARPAC Menu##########	
 	spriteType = {
 	name = "GFX_marpac_button"
