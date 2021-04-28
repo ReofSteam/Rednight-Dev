@@ -392,3 +392,19 @@ country_event = { ########King Louis Ferdinand#####
 		name = prs.18.c
 }
 }
+
+country_event = { #Heinemann Soapbox
+	id = prs.19
+	title = prs.19.t
+	desc = prs.19.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.19.a
+	}
+	option = {
+	name = prs.19.b
+	}
+}
