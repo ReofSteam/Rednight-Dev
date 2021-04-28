@@ -226,7 +226,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas = PRS_austerity_disruption
+		add_ideas = PRS_austerity_disruption_1
 		}
 	}
 
@@ -269,7 +269,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		swap_ideas = {
-        remove_idea = PRS_austerity_disruption_1
+        remove_ideas = PRS_austerity_disruption_1
         add_idea = PRS_austerity_disruption_2
 }
 		}
@@ -383,7 +383,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		swap_ideas = {
-        remove_idea = PRS_austerity_disruption_2
+        remove_ideas = PRS_austerity_disruption_2
         add_idea = PRS_austerity_disruption_3
 }		
 		}
@@ -402,8 +402,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-        remove_idea = PRS_austerity_disruption_3
-		remove_idea = PRS_fragile_economy
+        remove_ideas = PRS_austerity_disruption_3
+		remove_ideas = PRS_fragile_economy
 		add_political_power = 150
 		}
 	}	

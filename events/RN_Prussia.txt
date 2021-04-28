@@ -75,7 +75,7 @@ country_event = {
 }
 }
 
-country_event = { Revolt of the Westheer
+country_event = { ##### Revolt of the Westheer#######
 	id = prs.6
 	title = prs.6.t
 	desc = prs.6.d
@@ -130,7 +130,7 @@ set_popularities = {
 	}
 }
 
-country_event = { Prussian Civil War
+country_event = { #####Prussian Civil War#######
 	id = prs.7
 	title = prs.7.t
 	desc = prs.7.d
@@ -154,7 +154,7 @@ country_event = { Prussian Civil War
 	}
 }
 
-country_event = { ###The Westheer Occupation of Danzig. 
+country_event = { ###The Westheer Occupation of Danzig. #######
 	id = prs.8
 	title = prs.8.t
 	desc = prs.8.d
@@ -168,7 +168,7 @@ country_event = { ###The Westheer Occupation of Danzig.
 }
 }
 
-country_event = { ###The Westheer Occupation of Danzig. 2
+country_event = { ###The Westheer Occupation of Danzig. 2 #######
 	id = prs.9
 	title = prs.9.t
 	desc = prs.9.d
@@ -189,7 +189,7 @@ country_event = { ###The Westheer Occupation of Danzig. 2
 }
 }
 
-country_event = { ###Veteran and Expellee Affairs
+country_event = { ###Veteran and Expellee Affairs #######
 	id = prs.10
 	title = prs.10.t
 	desc = prs.10.d
@@ -202,7 +202,7 @@ country_event = { ###Veteran and Expellee Affairs
 }
 }
 
-country_event = { The Loan
+country_event = { #########The Loan #######
 	id = prs.11
 	title = prs.11.t
 	desc = prs.11.d
@@ -223,7 +223,7 @@ country_event = { The Loan
 }
 }
 
-country_event = { The Loan: RUS
+country_event = { #########The Loan: RUS ########
 	id = prs.12
 	title = prs.12.t
 	desc = prs.12.d
@@ -261,7 +261,7 @@ country_event = { The Loan: RUS
 }
 
 
-country_event = { The Loan: Failed
+country_event = { ##########The Loan: Failed #######
 	id = prs.13
 	title = prs.13.t
 	desc = prs.13.d
@@ -288,7 +288,7 @@ country_event = { The Loan: Failed
 }
 }
 
-country_event = { The Loan: Passed 
+country_event = { ###### The Loan: Passed ######
 	id = prs.14
 	title = prs.14.t
 	desc = prs.14.d
@@ -317,7 +317,7 @@ country_event = { The Loan: Passed
 }
 
 
-country_event = { Workers Riot
+country_event = { ######Workers Riot#######
 	id = prs.15
 	title = prs.15.t
 	desc = prs.15.d
@@ -336,7 +336,7 @@ country_event = { Workers Riot
 }
 }
 
-country_event = { Bureaucracy Strike
+country_event = { #######Bureaucracy Strike######
 	id = prs.16
 	title = prs.16.t
 	desc = prs.16.d
@@ -356,7 +356,7 @@ country_event = { Bureaucracy Strike
 }
 
 
-country_event = { Death of Willy 3
+country_event = { ######Death of Willy 3########
 	id = prs.17
 	title = prs.17.t
 	desc = prs.17.d
@@ -366,13 +366,13 @@ country_event = { Death of Willy 3
 
 	option = {
 		name = prs.17.a
-		remove_idea = PRS_last_kaiser		
+		remove_ideas = PRS_last_kaiser		
 		clr_country_flag = kaiser_is_wilhelm_third
 		
 }
 }
 
-country_event = { King Louis Ferdinand
+country_event = { ########King Louis Ferdinand#####
 	id = prs.18
 	title = prs.18.t
 	desc = prs.18.d
@@ -380,13 +380,15 @@ country_event = { King Louis Ferdinand
 
 	is_triggered_only = yes
 
-	option = { ####Promise of Glory
+	option = { ####Promise of Glory ###
 		name = prs.18.a
+		set_country_flag = kaiser_is_louis_ferdinand
+		
 }
-	option = { ####Promise of Healing
+	option = { ####Promise of Healing###
 		name = prs.18.b
 }
-	option = { ####Promise of Faith
+	option = { ####Promise of Faith###
 		name = prs.18.c
 }
 }
