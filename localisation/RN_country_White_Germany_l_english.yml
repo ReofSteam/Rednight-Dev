@@ -321,7 +321,8 @@ PRS_austerity_disruption_1_desc:0 "The shock of the austerity policy hit the wor
 PRS_austerity_disruption_2:0 "Austerity Disruption"
 PRS_austerity_disruption_2_desc:0 "Unemployement are on the rise, the austerity policy have regained some operational activites of the major enterprises"
 PRS_austerity_disruption_3:0 "Austerity Disruption"
-
+PRS_russian_loan:0 "Russian Loan"
+PRS_priority_national_glory:0 "Project National Glory"
 ### Flags ###
 PRS_conspiracy_progress_number:0 "§R[?PRS_conspiracy_progress]%§!"
 ### Tooltips ###

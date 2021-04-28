@@ -52,6 +52,24 @@ ideas = {
 				political_power_cost = 0.03
 				production_speed_buildings_factor = -0.1
 			}
-		}			
+		}	
+		PRS_russian_loan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_russian_loan"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.5
+				production_speed_buildings_factor = 0.2
+			}
+		}	
+		PRS_priority_national_glory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_priority_national_glory"}
+			picture = prc_low_popular_support3
+			modifier = {
+			conscription = 0.015
+			production_factory_efficiency_gain_factor = 0.5 
+
+			}
+		}		
 	}
 }

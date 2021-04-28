@@ -288,6 +288,35 @@ country_event = { The Loan: Failed
 }
 }
 
+country_event = { The Loan: Passed 
+	id = prs.14
+	title = prs.14.t
+	desc = prs.14.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.14.a
+		set_country_flag = PRS_priority_national_glory		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
+		
+}
+	option = {
+		name = prs.14.b
+		set_country_flag = PRS_priority_rebuilding		
+		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten		
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}		
+}
+}
+
+
 country_event = { Workers Riot
 	id = prs.15
 	title = prs.15.t
@@ -323,5 +352,41 @@ country_event = { Bureaucracy Strike
 	    value = 30
 }		
 		
+}
+}
+
+
+country_event = { Death of Willy 3
+	id = prs.17
+	title = prs.17.t
+	desc = prs.17.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.17.a
+		remove_idea = PRS_last_kaiser		
+		clr_country_flag = kaiser_is_wilhelm_third
+		
+}
+}
+
+country_event = { King Louis Ferdinand
+	id = prs.18
+	title = prs.18.t
+	desc = prs.18.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = { ####Promise of Glory
+		name = prs.18.a
+}
+	option = { ####Promise of Healing
+		name = prs.18.b
+}
+	option = { ####Promise of Faith
+		name = prs.18.c
 }
 }
