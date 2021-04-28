@@ -25,7 +25,7 @@ focus_tree = {
 #Focus for The Young Republic
 	focus = {
 		id = CSA_the_young_republic
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_young_republic
 		x = 12
 		y = 8
 		cost = 10
@@ -50,7 +50,7 @@ focus_tree = {
 #Focus for Address Congress
 	focus = {
 		id = CSA_address_congress
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_seal
 		x = 21
 		y = 2
 		cost = 10
@@ -107,7 +107,7 @@ focus_tree = {
 #Focus for The Hall of Heroes
 	focus = {
 		id = CSA_the_hall_of_heroes
-		icon = GFX_goal_unknown
+		icon = "GFX_CSA_hall_of_heroes"
 		x = 18
 		y = 4
 		cost = 10

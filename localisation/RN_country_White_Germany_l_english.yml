@@ -6,6 +6,7 @@
 
 ### Events ###
 
+
 ### Decision ####
 
 ### Party Names ###
@@ -241,7 +242,14 @@ prs.13.t:0 "The Loan failed to manifest"
 prs.13.d:0 "The deal with Moscow has failed! The arrogant bastards have refused to save our fragile economy. It seems they do not care what kind of disorder their actions will create. Prussia now finds itself in a great calamity.Without foreign aid, all of our economic schemes is in serious jeopardy and alarming castatrophic inflation. A drastic measure ought to be taken. Should we cut our losses?"
 prs.13.a:0 "Austerity must be implemented"
 prs.13.b:0 "Tell Speer to come here"
-
+prs.14.t:0 "A Meeting with Mr.Speer"
+prs.14.d:0 "Albert Speer, a civilian bureaucrat, opened the door to find himself standing before medals and caps. The dissonance struck him each day, never abating. Sometimes he wished he had a rank to his name. It would have given him credibility amongst the junta.Then again, no other man could call himself the economist.\n\nSpeer nodded to each member seated at the table. Yet when he reached Donitz, their eyes locked. The back of his neck grew warm and he adjusted his tie. He turned his gaze to Von Schleicher instead. \n\n “Sirs, Our monetary scheme has been a resounding success!\nVon Schleicher indulged Speer out of probable spite for Donitz.\n\n“With our newfound surplus we should be able each soldier what he is rightly owed. In addition, all indications of inflation remain concealed behind work bills.”\nDonitz pointed to a file in Speer’s hands.“Give me that.”\n\nHe took his time, silence reigned for several minutes. Finally, Von Schleicher found himself impatient.\n“Karl. What of it?”\n\n“This is unsustainable! What will happen when they realize inflation has made their newfound pay utterly worthless?! You have dragged us into this programme, surely you have a plan beyond concealment?”\n\n Speer boiled internally. They had requested a way to stop the bleeding, to calm dissident soldiers, yet now a permanent solution that didnt offend someone? He was not god.\n\n “What would you have me do?!\nThe room erupted into a debate, with Von Schleicher taking Speer's side. Donitz proposed raising taxes on the Junkers, alienating them but preventing inflation. Speer advocated staying the course, not wishing to tarnish what was left of their goodwill.In the end it was decided."
+prs.14.a:0 "Donitz was overruled, and printing of bills continued"
+prs.14.b:0 "Speer was ignored, and taxes were raised"
+prs.15.t:0 "Heinemanns Soapbox"
+prs.15.d:0 "Gustav Heinemann moved his feet slowly, planting one on each stair as if they were made of wet concrete and he intended to avoid a mess. He clutched a prepared statement, revised yesterday evening. Gustav had a tendency to passionately argue, and even cut down today's statements would be such a thing.\n\nHe reached the podium and began speaking to the assembled crowd below. To his left stood Kurt Schumacher, a social democrat infamous for his uncompromising zeal. To his right was Papen, an old nationalist staple, and yet age had not dulled his fox-like nature.Papen would be vital to their movement, commanding prestige and extensive connections.\n\nGustav spoke first of what they shared, their common love for the Fatherland and their wish to see it whole again. He spoke of his compatriots, men of the old reichstag who had put aside their ideological differences. He shared nostalgia, a reminiscence on old ways and alternate futures.Finally, when the audience was captive, he began his tirade.\n\nHadn't the German people endured enough misery? What sense was there in continuing with those who had failed against the socialists? Even now, in the crowd below, stood abandoned veterans, exiled westerners, and impoverished families.\n\n The Junta had no vision. The Junta had no plans for the future. The people yearned for peace, bread, and elections. These were rights, not priveleges. Donitz and his cabal had no right to behave as they did!\n\nAs the speech wound down and the crowd filtered away from the Landtag building he surveyed them. There was no great celebration. The citizens of Danzig were far too weary, far too jaded. Yet for every glassy eyed man there was another who shook his head quietly in approval. Some began to gather in whispered discussion.\n\nGustav smiled and turned to Schumacher. Perhaps they truly had captured the public sentiment?"
+prs.15.a:0 "It is easy to criticize from the sidelines."
+prs.15.b:0 "The future of Germany?"
 # Flavor #
 
 # FocusEvents #
@@ -319,5 +327,8 @@ PRS_conspiracy_progress_number:0 "§R[?PRS_conspiracy_progress]%§!"
 ### Ministers ###
 
 ### Leaders ###
+
+POLITICS_LEVITOV_DESC:0 "For his victory in the Battle of Memel, General Levitov was granted control over the Russian occupation of Germany and made Marshall of Prussia by the Vohzd.  This was a fitting post for the so called “Black Colonel”, a man who was famously photographed mid stride on horseback, as his armies decimated Baltic German Forces.\n\n Of the two German governments Levitovs is the most powerful. Yet Konigsberg is lucky, for the Marshall has grown to care little for the job. To him, it is a distraction from important matters in Moscow. In addition, Levitov is a bit of a Tuetonophile, marginally preferring the Germans to the Poles.\n\n When hands need to be shaken, they are shook. When Silesian disputes need mediation, they are apathetically mediated. As long as the border fortifications continue to be built up, The Marshal of Prussia shall remain distracted, content to let the remnant state bicker amongst itself."
+
 
 ### Tech? ###
