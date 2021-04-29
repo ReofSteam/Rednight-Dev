@@ -32,3 +32,34 @@ PRS_conspiracy_menu = {
 		  }
      }
 }
+
+PRS_domestic_politics = {
+     PRS_promised_payment = {                          
+          allowed = { tag = PRS }         
+          available = {                           
+          OR = {
+		  has_idea = PRS_russian_loan
+		  has_idea = PRS_work_scheme
+          }
+		  }
+          activation = {                         
+          always = no              
+          }
+          is_good = yes                          
+          selectable_mission = yes               
+          days_mission_timeout = 100             
+          timeout_effect = {                     
+               add_political_power = -50          
+			   add_stability = -0.1
+			   add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 10
+}
+          }
+          complete_effect = {                   
+               add_political_power = 50
+			   add_stability = 0.2
+          }
+     }
+
+}

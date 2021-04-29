@@ -13,3 +13,15 @@ PRS_conspiracy_menu = {
     priority = 10000	
 }
 
+
+PRS_domestic_politics = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+		tag = PRS
+	}
+	visible = { 
+	tag = PRS
+	}
+    priority = 100	
+}

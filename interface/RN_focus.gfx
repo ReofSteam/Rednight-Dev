@@ -453,14 +453,22 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_free_democracy"
 		texturefile = "gfx/interface/goals/PRS/PRS_free_democracy.tga"
-	}			
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_noble_lords"
+		texturefile = "gfx/interface/goals/PRS/PRS_noble_lords.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_nationalist_coalition"
+		texturefile = "gfx/interface/goals/PRS/PRS_nationalist_coalition.tga"
+	}		
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
 		texturefile = "gfx/interface/goals/CSA/CSA_LAST_PRESIDENT.dds"
 	}	
 	SpriteType = { 
-		name = "GFX_CSA_TIME_SIDE" #########Change to generic 
+		name = "GFX_CSA_TIME_SIDE" #########Change to generic ####### ######attention#######
 		texturefile = "gfx/interface/goals/CSA/CSA_TIME_SIDE.dds"
 	}	
 

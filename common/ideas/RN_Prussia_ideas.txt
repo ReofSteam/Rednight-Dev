@@ -62,6 +62,15 @@ ideas = {
 				production_speed_buildings_factor = 0.2
 			}
 		}	
+		PRS_work_scheme = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_work_scheme"}
+			picture = prc_low_popular_support3
+			modifier = {
+				stability_factor = 0.3
+				political_power_cost = 0.5
+				production_speed_buildings_factor = 0.2
+			}
+		}		
 		PRS_priority_national_glory = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_priority_national_glory"}
 			picture = prc_low_popular_support3

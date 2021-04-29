@@ -126,6 +126,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		add_stability = 0.1
+		}
 	}
 
 	#Focus for Our Path Foward
@@ -319,7 +322,7 @@ focus_tree = {
 		icon = GFX_PRS_royal_army
 		x = 8
 		y = 5
-		cost = 10
+		cost = 20
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_project_nationale_ehre }
 		ai_will_do = {
@@ -718,7 +721,7 @@ focus_tree = {
 	#Focus for Hail noble German lords
 	focus = {
 		id = PRS_hail_noble_german_lords
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_noble_lords
 		x = 12
 		y = 18
 		cost = 10
@@ -942,7 +945,7 @@ focus_tree = {
 	#Focus for Grand Nationalist Coalition
 	focus = {
 		id = PRS_grand_nationalist_coalition
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_nationalist_coalition
 		x = 10
 		y = 13
 		cost = 10
@@ -1107,7 +1110,7 @@ focus_tree = {
 	#Focus for The Family
 	focus = {
 		id = PRS_the_family
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 23
 		y = 15
 		cost = 10
@@ -1429,7 +1432,7 @@ focus_tree = {
 	#Focus for The Town
 	focus = {
 		id = PRS_the_town
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 25
 		y = 15
 		cost = 10
@@ -1443,7 +1446,7 @@ focus_tree = {
 	#Focus for The Nation
 	focus = {
 		id = PRS_the_nation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 27
 		y = 15
 		cost = 10
