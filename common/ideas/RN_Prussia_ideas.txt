@@ -79,6 +79,12 @@ ideas = {
 			production_factory_efficiency_gain_factor = 0.5 
 
 			}
+		}
+		PRS_capital_flight = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_capital_flight"}
+			picture = prc_low_popular_support3
+			modifier = {
+			}
 		}		
 	}
 }

@@ -178,6 +178,7 @@ country_event = { ###The Westheer Occupation of Danzig. 2 #######
 
 	option = {
 		name = prs.9.a
+	    set_country_flag = PRS_conspiracy_active
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
@@ -272,7 +273,8 @@ country_event = { ##########The Loan: Failed #######
 
 	option = {
 		name = prs.13.a
-		complete_national_focus = PRS_austerity_program		
+		complete_national_focus = PRS_austerity_program	
+	    set_country_flag = PRS_conspiracy_active		
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
@@ -281,7 +283,8 @@ country_event = { ##########The Loan: Failed #######
 }
 	option = {
 		name = prs.13.b
-		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten		
+		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten	
+	    set_country_flag = PRS_conspiracy_active		
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
@@ -299,7 +302,12 @@ country_event = { ###### The Loan: Passed ######
 
 	option = {
 		name = prs.14.a
-		set_country_flag = PRS_priority_national_glory		
+		set_country_flag = PRS_priority_national_glory	
+	    set_country_flag = PRS_conspiracy_active	
+		add_popularity = {
+        ideology = social_democrat
+        popularity = 0.05
+}
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
@@ -309,7 +317,12 @@ country_event = { ###### The Loan: Passed ######
 	option = {
 		name = prs.14.b
 		set_country_flag = PRS_priority_rebuilding		
+	    set_country_flag = PRS_conspiracy_active		
 		complete_national_focus = PRS_deutschen_gesellschaft_fr_ffentliche_arbeiten		
+		add_popularity = {
+        ideology = social_liberal
+        popularity = 0.05
+}		
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 10
@@ -408,4 +421,22 @@ country_event = { #Heinemann Soapbox
 	option = {
 	name = prs.19.b
 	}
+}
+######Speer's Economy
+country_event = {
+	id = prs.20
+	title = prs.20.t
+	desc = prs.20.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prs.20.a
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
 }

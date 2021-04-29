@@ -29,8 +29,41 @@ PRS_conspiracy_menu = {
 		  set_country_flag = PRS_GRU_priority
 		  clr_country_flag = PRS_CONSERVATIVE_priority
 		  }
+		  else_if = { limit = { 
+		  check_variable = { party_popularity@social_conservatism > party_popularity@social_democrat }
+          check_variable = { party_popularity@social_conservatism > party_popularity@social_liberal }
 		  }
+		  set_country_flag = PRS_CONSERVATIVE_priority
+		  clr_country_flag = PRS_GRU_priority		  
+		  }
+		  else = {
+		  clr_country_flag = PRS_GRU_priority
+		  clr_country_flag = PRS_CONSERVATIVE_priority
+		  }		  
      }
+	 }
+     PRS_the_conspiracy_reality = {                          
+          allowed = { tag = PRS }         
+          available = {  
+		  check_variable = {
+          var = PRS_conspiracy_progress
+	      value = 90
+		  }		  
+		  }
+          activation = {
+		  check_variable = {
+          var = PRS_conspiracy_progress
+	      value = 90
+		  }		  
+          }
+          is_good = no                          
+          selectable_mission = no               
+          days_mission_timeout = 10             
+          timeout_effect = {                     
+          }
+          complete_effect = {                   
+          }
+     }	 
 }
 
 PRS_domestic_politics = {
