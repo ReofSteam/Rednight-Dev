@@ -456,7 +456,7 @@ country_event = { #Keitel and Von Baudisini
 }
 
 
-country_event = { #
+country_event = { #Funeral of Kaiser Willy
 	id = prs.22
 	title = prs.22.t
 	desc = prs.22.d
