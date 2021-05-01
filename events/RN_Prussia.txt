@@ -464,19 +464,6 @@ country_event = { #Keitel and Von Baudisini
 }
 
 
-country_event = { #Funeral of Kaiser Willy
-	id = prs.22
-	title = prs.22.t
-	desc = prs.22.d
-	picture = GFX_FRA_commune
-
-	is_triggered_only = yes
-
-	option = {
-		name = prs.22.a		
-		
-	}
-}
 
 country_event = { #Doenitz Greets Russians
 	id = prs.23
