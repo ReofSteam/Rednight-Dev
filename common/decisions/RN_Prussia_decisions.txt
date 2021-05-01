@@ -48,6 +48,7 @@ PRS_conspiracy_menu = {
 		  check_variable = {
           var = PRS_conspiracy_progress
 	      value = 90
+		  compare = less_than 
 		  }		  
 		  }
           activation = {

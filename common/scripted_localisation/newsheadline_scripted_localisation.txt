@@ -72,6 +72,12 @@ defined_text = {
 				original_tag = IRE
 		}
 		localization_key = news_headline_8
+	}
+	text = {
+		trigger = {
+				original_tag = PRS
+		}
+		localization_key = news_headline_9
 	}	
 
 	#### VANILA

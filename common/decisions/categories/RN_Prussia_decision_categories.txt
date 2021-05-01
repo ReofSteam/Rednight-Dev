@@ -1,5 +1,5 @@
 PRS_conspiracy_menu = {
-	icon = GFX_decision_category_generic_industry
+	icon = GFX_decision_category_generic_political_actions
 	priority = 80
 	allowed = {
 		tag = PRS
@@ -15,7 +15,7 @@ PRS_conspiracy_menu = {
 
 
 PRS_domestic_politics = {
-	icon = GFX_decision_category_generic_industry
+	icon = GFX_decision_category_generic_political_actions
 	priority = 80
 	allowed = {
 		tag = PRS

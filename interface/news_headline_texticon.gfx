@@ -49,4 +49,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/news_headline/nhl_IRE.dds"
 		legacy_lazy_load = no
 	}	
+	spriteType = {
+		name = "GFX_nhl_PRS"
+		texturefile = "gfx/interface/news_headline/nhl_PRS.dds"
+		legacy_lazy_load = no
+	}		
 }

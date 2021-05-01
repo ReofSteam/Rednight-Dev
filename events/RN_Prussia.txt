@@ -23,7 +23,7 @@ country_event = {
 	id = prs.2
 	title = prs.2.t
 	desc = prs.2.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
@@ -32,7 +32,7 @@ country_event = {
 drop_cosmetic_tag = yes
 create_country_leader = {
 	name = "Karl von Doenitz"
-	desc = "POLITICS_LEVITOV_DESC"
+	desc = "POLITICS_DOENITZ_DESC"
 	picture = "gfx/leaders/PRS/PRS_Karl_Donitz.tga"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
@@ -134,7 +134,7 @@ country_event = { #####Prussian Civil War#######
 	id = prs.7
 	title = prs.7.t
 	desc = prs.7.d
-	picture = GFX_FRA_commune
+	picture = GFX_german_army_evil
 
 	is_triggered_only = yes
 
@@ -158,7 +158,7 @@ country_event = { ###The Westheer Occupation of Danzig. #######
 	id = prs.8
 	title = prs.8.t
 	desc = prs.8.d
-	picture = GFX_FRA_commune
+	picture = GFX_german_army_evil
 
 	is_triggered_only = yes
 
@@ -172,7 +172,7 @@ country_event = { ###The Westheer Occupation of Danzig. 2 #######
 	id = prs.9
 	title = prs.9.t
 	desc = prs.9.d
-	picture = GFX_FRA_commune
+	picture = GFX_german_army_evil
 
 	is_triggered_only = yes
 
@@ -195,7 +195,7 @@ country_event = { ###Veteran and Expellee Affairs #######
 	id = prs.10
 	title = prs.10.t
 	desc = prs.10.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
@@ -208,7 +208,7 @@ country_event = { #########The Loan #######
 	id = prs.11
 	title = prs.11.t
 	desc = prs.11.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
@@ -267,7 +267,7 @@ country_event = { ##########The Loan: Failed #######
 	id = prs.13
 	title = prs.13.t
 	desc = prs.13.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
@@ -296,7 +296,7 @@ country_event = { ###### The Loan: Passed ######
 	id = prs.14
 	title = prs.14.t
 	desc = prs.14.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
@@ -374,7 +374,7 @@ country_event = { ######Death of Willy 3########
 	id = prs.17
 	title = prs.17.t
 	desc = prs.17.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_funeral
 
 	is_triggered_only = yes
 
@@ -411,7 +411,7 @@ country_event = { #Heinemann Soapbox
 	id = prs.19
 	title = prs.19.t
 	desc = prs.19.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_report
 
 	is_triggered_only = yes
 
@@ -427,12 +427,20 @@ country_event = {
 	id = prs.20
 	title = prs.20.t
 	desc = prs.20.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_doenitz_government
 
 	is_triggered_only = yes
 
 	option = {
 		name = prs.20.a
+		add_to_variable = {
+    	var = PRS_conspiracy_progress
+	    value = 30
+}		
+		
+}
+	option = {
+		name = prs.20.b
 		add_to_variable = {
     	var = PRS_conspiracy_progress
 	    value = 30
@@ -445,7 +453,7 @@ country_event = { #Keitel and Von Baudisini
 	id = prs.21
 	title = prs.21.t
 	desc = prs.21.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_report
 
 	is_triggered_only = yes
 

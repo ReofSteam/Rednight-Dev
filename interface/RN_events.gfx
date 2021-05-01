@@ -171,6 +171,19 @@ spriteTypes = {
 		name = "GFX_FIN_raising_flag"
 		texturefile = "gfx/event_pictures/FIN_raising_the_flag.dds"
 	}		
+########Prussia
+		spriteType = { 
+		name = "GFX_PRS_report"
+		texturefile = "gfx/event_pictures/PRS_report.tga"
+	}	
+		spriteType = { 
+		name = "GFX_PRS_funeral"
+		texturefile = "gfx/event_pictures/PRS_funeral.tga"
+	}			
+		spriteType = { 
+		name = "GFX_PRS_doenitz_government"
+		texturefile = "gfx/event_pictures/PRS_doenitz_government.tga"
+	}				
 	###############
 	###   NEWS  ###
 	###############
@@ -199,6 +212,12 @@ spriteTypes = {
 		name = "GFX_news_GER_werewolves_rising"
 		texturefile = "gfx/event_pictures/news_GER_werewolves_rising.dds"
 	}	
+		spriteType = { 
+		name = "GFX_news_war"
+		texturefile = "gfx/event_pictures/news_war.dds"
+	}	
+		
+ ###############change name according to the standard#############	
 	spriteType = { 
 		name = "RUS_nuke"
 		texturefile = "gfx/event_pictures/RUS_nuke.dds"

@@ -389,11 +389,11 @@ news_event = { #Swiss_Saved
 
 news_event = { #Prussian Civil War
 	id = worldnews.17
-	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2" }
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.17" }
 
 	title = worldnews.t
 	desc = worldnews.17.d
-	picture = PRU_intervene
+	picture = GFX_news_war
 	major = yes
 	show_major = {
 	is_in_europe = yes
