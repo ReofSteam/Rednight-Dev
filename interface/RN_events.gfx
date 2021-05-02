@@ -216,7 +216,26 @@ spriteTypes = {
 		name = "GFX_news_war"
 		texturefile = "gfx/event_pictures/news_war.dds"
 	}	
-		
+		spriteType = { 
+		name = "GFX_news_PRS_coup2"
+		texturefile = "gfx/event_pictures/news_PRS_coup2.dds"
+	}	
+		spriteType = { 
+		name = "GFX_news_PRS_coup"
+		texturefile = "gfx/event_pictures/news_PRS_coup.tga"
+	}	
+		spriteType = { 
+		name = "GFX_news_Polish_government"
+		texturefile = "gfx/event_pictures/news_Polish_government.tga"
+	}
+		spriteType = { 
+		name = "GFX_news_PRS_republic"
+		texturefile = "gfx/event_pictures/news_PRS_republic.tga"
+	}	
+		spriteType = { 
+		name = "GFX_news_PRS_rightwing"
+		texturefile = "gfx/event_pictures/news_PRS_rightwing.tga"
+	}			
  ###############change name according to the standard#############	
 	spriteType = { 
 		name = "RUS_nuke"

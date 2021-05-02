@@ -393,7 +393,7 @@ news_event = { #Prussian Civil War
 
 	title = worldnews.t
 	desc = worldnews.17.d
-	picture = GFX_news_war
+	picture = GFX_news_PRS_coup2
 	major = yes
 	show_major = {
 	is_in_europe = yes
@@ -409,16 +409,125 @@ news_event = { #Prussian Civil War
 news_event = { #Third American Constitutional Convention Announced
 	id = worldnews.18
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.17" }
-
 	title = worldnews.t
 	desc = worldnews.18.d
 	picture = GFX_news_american_peace
 	major = yes
-	show_major = yes
 	is_triggered_only = yes
 
 
 	option = {
 		name = worldnews.18.a
+	}
+}
+news_event = { #Prussian Coup
+	id = worldnews.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.19" }
+
+	title = worldnews.t
+	desc = worldnews.19.d
+	picture = GFX_news_PRS_coup
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.17.a
+	}
+}
+
+news_event = { #Abakumov at the border
+	id = worldnews.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.20" }
+
+	title = worldnews.t
+	desc = worldnews.20.d
+	picture = GFX_news_PRS_coup2
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.20.a
+	}
+}
+
+news_event = { #German People's Republic
+	id = worldnews.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.21" }
+
+	title = worldnews.t
+	desc = worldnews.21.d
+	picture = GFX_news_PRS_republic
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.21.a
+	}
+}
+news_event = { #Little Entente
+	id = worldnews.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.22" }
+
+	title = worldnews.t
+	desc = worldnews.22.d
+	picture = GFX_news_Polish_government
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.22.a
+	}
+}
+news_event = { #Little Rappallo
+	id = worldnews.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.23" }
+
+	title = worldnews.t
+	desc = worldnews.23.d
+	picture = GFX_news_PRS_republic
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.23.a
+	}
+}
+
+news_event = { #Rosenberg's Prussia
+	id = worldnews.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.24" }
+
+	title = worldnews.t
+	desc = worldnews.24.d
+	picture = GFX_news_PRS_rightwing
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.24.a
 	}
 }

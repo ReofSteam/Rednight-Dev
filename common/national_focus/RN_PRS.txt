@@ -138,10 +138,16 @@ focus_tree = {
 		x = 10
 		y = 3
 		cost = 2
+		select_effect = {
+		country_event = prs.24
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_coronation_of_louis_ferdinand }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		country_event = prs.25
 		}
 	}
 
@@ -394,7 +400,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_economic_recovery
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_goal_generic_production
 		x = 3
 		y = 8
 		cost = 10
