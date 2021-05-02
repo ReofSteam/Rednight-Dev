@@ -17,6 +17,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_differing_interpretations }
+		completion_reward = {
+			country_event = csa.21
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -43,7 +46,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = 
+			country_event = csa.84
 		}
 	}
 
@@ -56,6 +59,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_will__testament }
+		completion_reward = {
+			country_event = csa.19
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -70,6 +76,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_address_congress }
+		completion_reward = {
+			country_event = csa.20
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -99,6 +108,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_flight_to_new_york }
+		completion_reward = {
+			country_event = csa.17
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -128,6 +140,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_will__testament }
+		completion_reward = {
+			country_event = csa.14
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -150,6 +165,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = csa.30
+		}
 	}
 
 #Focus for The Calm Before the Storm
@@ -165,6 +183,9 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = CSA_announce_the_second_convention 
+		}
+		completion_reward = {
+			country_event = csa.92
 		}
 		ai_will_do = {
 			factor = 1
@@ -185,6 +206,10 @@ focus_tree = {
 		prerequisite = { 
 			focus = CSA_arrest_the_militas 
 		}
+		completion_reward = {
+			country_event = csa.84
+			news_event = worldnews.18
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -199,6 +224,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_who_to_invite }
+		completion_reward = {
+			country_event = csa.82
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -213,6 +241,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_who_to_invite }
+		completion_reward = {
+			country_event = csa.83
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -227,6 +258,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_national_security_bill }
+		completion_reward = {
+			country_event = csa.29
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -240,6 +274,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_prepare_philidelphia }
+		completion_reward = {
+			country_event = csa.81
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -254,6 +291,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_prepare_philidelphia }
+		completion_reward = {
+			country_event = csa.27
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -268,6 +308,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_national_security_bill }
+		completion_reward = {
+			country_event = csa.28
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -282,6 +325,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_spitting_in_the_wind }
+		completion_reward = {
+			country_event = csa.11
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -301,6 +347,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = CSA_prioritize_the_plains 
 		}
+		completion_reward = {
+			country_event = csa.12
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -319,6 +368,12 @@ focus_tree = {
 			focus = CSA_relocation_and_reunion_camps
 			focus = CSA_time_on_our_side
 			
+		}
+		completion_reward = {
+			swap_ideas = {
+                add_idea = CSA_refugee_crisis_improved
+                remove_idea = CSA_refugee_crisis
+            }
 		}
 		ai_will_do = {
 			factor = 1
@@ -363,6 +418,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = CSA_the_agency_proposal 
 		}
+		completion_reward = {
+			country_event = csa.9
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -371,16 +429,56 @@ focus_tree = {
 #Focus for Prioritize the Plains
 	focus = {
 		id = CSA_prioritize_the_plains
-		icon = GFX_goal_generic_soviet_construction
+		icon = GFX_focus_Generic_soviet_construction
 		x = 15
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_spitting_in_the_wind }
+		completion_reward = {
+		
+			381 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+
+			382 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+			383 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+
+			384 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+		}
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
+
+			
 
 #Focus for An Argument with Comrade Thomas
 	focus = {
@@ -391,6 +489,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_congress }
+		completion_reward = {
+			country_event = csa.25
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -410,6 +511,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = CSA_an_argument_with_comrade_thomas 
 		}
+		completion_reward = {
+			country_event = csa.26
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -424,6 +528,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_congress }
+		completion_reward = {
+			country_event = csa.24
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -439,8 +546,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
 		mutually_exclusive = { focus = CSA_red_border_patrol }
-		mutually_exclusive = { 
-			focus = CSA_ 
+		mutually_exclusive = { focus = CSA_convene_the_generals }
+		completion_reward = {
+			country_event = csa.10
 		}
 		ai_will_do = {
 			factor = 1
@@ -457,7 +565,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_convene_the_generals }
 		completion_reward = {
-			country_event = csa.22
+			country_event = csa.4
 		}
 		ai_will_do = {
 			factor = 1
@@ -475,7 +583,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_convene_the_generals }
 		completion_reward = {
-			country_event = CSA.21
+			country_event = CSA.5
 		}
 		ai_will_do = {
 			factor = 1
@@ -491,6 +599,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_red_border_patrol }
+		completion_reward = {
+			country_event = csa.7
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -506,7 +617,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
 		mutually_exclusive = { focus = CSA_red_border_patrol }
-		completion_reward = { country_event = csa.21 }
+		completion_reward = { country_event = csa.3 }
 		ai_will_do = {
 			factor = 1
 		}
@@ -528,8 +639,8 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = CSA_spitting_in_the_wind
 		}
-		mutually_exclusive = { 
-			focus = CSA_ 
+		completion_reward = {
+			country_event = csa.6
 		}
 		ai_will_do = {
 			factor = 1
@@ -546,6 +657,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
+		completion_reward = {
+			country_event = csa.23
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -560,6 +674,9 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
+		completion_reward = {
+			country_event = csa.13
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -568,14 +685,14 @@ focus_tree = {
 	#Focus for The 3000 Kilometer Nightmare
 	focus = {
 		id = CSA_the_3000_kilometer_nightmare
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_3k2
 		x = 12
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
 		completion_reward = {
-			country_event = csa.18
+			country_event = csa.2
 		}
 		ai_will_do = {
 			factor = 1
@@ -594,7 +711,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = csa.17
+			country_event = csa.1
 			add_political_power = 0.2
 			stability_factor = -0.1
 		}
@@ -610,7 +727,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_red_border_patrol }
 		completion_reward = {
-			country_event = csa.19
+			country_event = csa.8
 		}
 		ai_will_do = {
 			factor = 1
@@ -627,12 +744,13 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = CSA_the_hall_of_heroes 
-		}
-		prerequisite = { 
-			focus = CSA_respect_comrade_bryant 
+			focus = CSA_respect_comrade_bryant
 		}
 		prerequisite = { 
 			focus = CSA_force_a_compromise 
+		}
+		completion_reward = {
+			country_event = csa.22
 		}
 		ai_will_do = {
 			factor = 1
@@ -644,6 +762,7 @@ focus_tree = {
 	#Focus for The Storm
 	focus = {
 		id = CSA_the_storm
+		icon = "GFX_CSA_the_storm"
 		x = 11
 		y = 9
 		cost = 10

@@ -8,6 +8,11 @@ add_ideas = {
 	America_new_year_peace
 	CSA_ruins
 	CSA_divided_goverment
+	CSA_refugee_crisis
+}
+
+hidden_ideas = {
+	CSA_refugee_crisis_improved
 }
 
 set_research_slots = 3
@@ -57,20 +62,15 @@ create_country_leader = {
 }
 
 set_politics = {	
-	ruling_party = syndicalism
+	ruling_party = revolutionary_Socialism
 	last_election = "1950.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 country_event = {
-id = csa.2
-days = 5
-}
-
-country_event = {
 id = csa.16
-days = 1
+days = 5
 }
 
 set_popularities = {
@@ -88,24 +88,25 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "James P. Cannon"
-	desc = "POLITICS_JAMES_P_CANNON_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_James_P_Cannon.tga"
+	name = "William Z Foster"
+	desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
+	picture = "gfx/leaders/CSA/CSA_Foster.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
+	ideology = revolutionary_Socialism_subtype
 	traits = {
 		#
 	}
 }
 
+
 create_country_leader = {
-	name = "William Z. Foster"
-	desc = "POLITICS_ELIZABETH_GURLEY_FLYNN_DESC"
+	name = "William Z Foster"
+	desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
 	picture = "gfx/leaders/CSA/CSA_Foster.tga"
 	expire = "1965.1.1"
-	ideology = syndicalism_subtype
+	ideology = Syndicalism_subtype
 	traits = {
-	
+		#
 	}
 }
 
