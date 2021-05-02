@@ -41,7 +41,7 @@ set_technology = {
 }
 1981.1.1 = {
 set_politics = {	
-	ruling_party = revolutionary_Socialism
+	ruling_party = syndicalism
 	last_election = "1972.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -62,7 +62,7 @@ create_country_leader = {
 }
 
 set_politics = {	
-	ruling_party = revolutionary_Socialism
+	ruling_party = revolutionary_socialism
 	last_election = "1950.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -92,7 +92,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
 	picture = "gfx/leaders/CSA/CSA_Foster.tga"
 	expire = "1965.1.1"
-	ideology = revolutionary_Socialism_subtype
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		#
 	}
