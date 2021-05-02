@@ -405,3 +405,20 @@ news_event = { #Prussian Civil War
 		name = worldnews.17.a
 	}
 }
+
+news_event = { #Third American Constitutional Convention Announced
+	id = worldnews.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.17" }
+
+	title = worldnews.t
+	desc = worldnews.18.d
+	picture = GFX_news_american_peace
+	major = yes
+	show_major = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.18.a
+	}
+}

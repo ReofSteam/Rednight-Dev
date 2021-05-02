@@ -69,46 +69,90 @@ CSA_national_corporatist:0 ""
 ##############
 ### Events ###
 ##############
-csa.2.t:0 "An Address to the People of America" 
-csa.2.d:0 "Browder wasn't nervous, but he felt like he should be, so he acted the way a nervous person might. He paced the room, drummed his fingers upon the desk and reached for his glass of water excessively. It was a maneuver, a show to underscore to his comrades in the room that he had not embarked upon his quest without consideration of alternatives. He had, of course, been nervous before,  but such doubts were long long ago smothered by reality. He knew the truth and so did foster, backlash be damned. Finally, after a few minutes of waiting it was time. They turned on the television.\n\nFoster stepped up to the podium in Denver, white hair rustling in the wind, and spoke softly “Comrades, I am here today in the  furthest reaches of our republic in the name of transparency. Transparency is perhaps the most important of virtues, a virtue that our old government lacked. If our state is to serve the people, it must be honest with them. Behind me stands the regional offices for the Central Intelligence Agency, that all too infamous organisation. The people have good reason to be wary of it, and that wariness has been made clear in the polemics  of our many great journalists and intellectuals. What I would like to respond with, however, is a quote from our now departed Comrade and the last president of the United States of America, Jack Reed, on the eve of revolution.”\n\n“The path has never been easy, and along its route lay destruction and chaos. Were it possible to construct a new society free of bloodshed, we would do so, and often we have tried. It is the task of a revolutionary to build a new society in the shadow of the old. If that new society is forced to fight for its survival then so be it. We will take to the task in earnest, always keeping in mind the humanistic ends that justify our means.”\n\nFoster finished the quote.\n\n“Comrade Reed was, as always, prophetic. We have secured for ourselves an opportunity to build this new society. It is a future without hunger, without homelessness and want. A future where the power resides in the people themselves. Yet there still remain many enemies, and indeed allies, who would destroy it. From the forests of the Rockies to the shining southern coast there are still militias that burn with hatred and terrorists who conspire vile deeds.The war is over, and we can no longer tolerate lawlessness. That is why the Central Intelligence agency must continue to exist, why it was ratified by the American Labour Congress despite reservations, and why I support it in its entirety. Rest assured that unlike the FBI or the western OSS, our organisation will be entirely beholden to…”"
-csa.2.a:0 "Welcome to the Internal War"
-csa.10.t:0 "Situation in New England"
-csa.10.d:0 "New England is not Cheyenne, nor is it Bozeman. The people of the region, distant from the current frontlines of the revolution have been mostly free from strife as of late, at least as free as a place can be in present times.\n\n A string of high profile robberies have been occurring, and their targets are both puzzling and rage-inducing. Workers relief centres have been the primary recipients of these attacks, harming our most vulnerable people at a key time in reconstruction.\n\nThis would be bad enough, were it not for two additional encounters. One was between police officers and non-state forces in rural Vermont which left multiple people dead and wounded. Another was reported at Boston Harbour, where violence erupted as well.\n\n The timing of these incidents and their location is quite puzzling indeed. We must see if these events are connected in any way and track down any counter-revolutionaries or conspirators."
-csa.10.a:0 "We must deal with this"
-csa.11.t:0 "Intelligence Medal of Merit"
-csa.11.d:0 "For exceptionally meritorious service while assigned as a commanding officer for the CIA office in Boston during the most sensitive period of the post-war period. Captain Henry's outstanding performance, technical expertise, and unwavering leadership to mission accomplishment against a hostile elements were vital to successful eliminated the bandit situation, secured the ceasefire line and brought down a hostile conspiratoral plot to undermine the Worker's Government. His contributions and dedication to duty are exemplar of class consciouness and dedication to the international revolutionary cause as well as well as the proletarian power in America"
-csa.11.a:0 "For the triumph of labor!"
-csa.12.t:0 "Situation in the Rockies"
-csa.12.d:0 "Since even before the New Years peace the illegal flow of materials across the country has only ramped up in scale. Everything from black market weapons, drugs, and even human trafficking can be observed across the breadth of North America. In some places, where the long reach of Chicago or Sacramento has still not found its footing, the black market remains the only option for desperate people.\n\nRegardless of this brutal reality, however, the sooner this black market can be stamped out, the sooner our republic might recover. The new Office of the CIA in Denver has completed its maiden intelligence-gathering operations. Inside their first status report on the region was information collected from our border patrols. Over twenty illegal crossings had been attempted at various points in the week before peace went into effect. Several of the detained refugees were carrying startling cargo including heavy weaponry. Long-range observation patrols have also noted an unusual mass concentration of individuals in the lower plateau of the Rockies. Given the circumstances, we should investigate these matters at once to preserve the stability of our frontline."
-csa.13.t:0 "Intelligence Special Operations Medal"
-csa.13.d:0 "For exceptional services in paramilitary and military actions for the security of the Socialist Republic and the Workers Power, Captain Henry Lafaye of CIA Auxillary Field Division"
-csa.15.t:0 "Operation Black Magnolia"
-csa.15.d:0 "Commander, do not let us down"
-csa.15.a:0 "Who is this "Conductor"?"
+
+####Intro Events ###
+
 csa.16.t:0 "New Dawn"
 csa.16.d:0 "Comrades, Representatives of the American People.\nWe have fought valiantly for nine years, weathering a brutal tragedy. This effort was possible because it was backed by dreams of tomorrow. The lights of the new decade shall greet us in a few hours, that tomorrow has finally arrived, the end of an era.\n\nYet as the dawn looms on the horizon of past twilight, I think back to 1776. Our revolutionary fathers brought upon this land a Republic, worthy of praise and predicated on the fire in men’s hearts. A longing for liberty amongst the people was harnessed to give birth to a new nation. But this Nation was imperfect. soon the coal barons, the trusts, the barbaric vampires of industry seized it to feast upon generations of toilers.\n\nIt was in that faithful year of 1941 that the American people, motivated by that very same love for the nation were aroused to its rescue. Together, they took back their Republic from a humiliation of the ages! And so it was, young men kissing their sweetheart goodbye as they gladly gave their blood to cement the republic’s wall. Their tender bodies becoming her living barricades against tyranny. Never under capitalism could such glorious deeds occur. The freedmen marched on with the most sacred of rational devotion. It was a devotion to a land they themselves were masters of, and to the machines of industry they would now captain. Against such forces, how could the slave soldiers paid by gold coin ever fare? No, they paled against the beating heart of freedom.\n\nA new year comes. The Republic that is yours asks that you remain faithful as we embark upon our grand journey. Long live the workers of America! Long Live the Socialist Republic!"
 csa.16.a:0 "Thank you, Comrade Foster."
-csa.17.t:0 "The Last President"
-csa.17.d:0 "Description"
-csa.17.a:0 "Option"
-csa.18.t:0 "A Human Drain"
-csa.18.d:0 "the refugee crisis sucks we have to do something dammit"
-csa.18.a:0 "Ask the Military"
-csa.18.b:0 "form a red border patrol"
-csa.18.c:0 "its hopeless, focus on rebuilding the region"
-csa.19.t:0 "Raising Elite Divisions"
-csa.19.d:0 "they are elite and stuff"
-csa.19.a:0 "nice"
-csa.20.t:0 "Grizzled Warriors"
-csa.20.d:0 "Description"
-csa.20.a:0 "test"
-csa.21.t:0 "Star Brimmed Meeting"
-csa.21.d:0 "description"
-csa.21.a:0 "generals"
-csa.22.t:0 "Stay a While Longer?"
-csa.22.d:0 "please stay we will increase your pension"
-csa.22.a:0 "test"
 
+###Intro Tree Events ####
+
+
+csa.1.t:0 "The Last President"
+csa.1.d:0 "Description"
+csa.1.a:0 "Option"
+
+csa.2.t:0 "A Human Drain"
+csa.2.d:0 "the refugee crisis sucks we have to do something dammit"
+csa.2.a:0 "Ask the Military"
+csa.2.b:0 "form a red border patrol"
+csa.2.c:0 "its hopeless, focus on rebuilding the region"
+
+
+csa.3.t:0 "Star Brimmed Meeting"
+csa.3.d:0 "description"
+csa.3.a:0 "generals"
+
+csa.4.t:0 "Stay a While Longer?"
+csa.4.d:0 "please stay we will increase your pension"
+csa.4.a:0 "test"
+
+
+csa.5.t:0 "Grizzled Warriors"
+csa.5.d:0 "Description"
+csa.5.a:0 "test"
+
+csa.8.t:0 "Raising Elite Divisions"
+csa.8.d:0 "they are elite and stuff"
+csa.8.a:0 "nice"
+
+
+######Internal War Situation Report Events#######
+
+csa.85.t:0 "Situation in New England"
+csa.85.d:0 "New England is not Cheyenne, nor is it Bozeman. The people of the region, distant from the current frontlines of the revolution have been mostly free from strife as of late, at least as free as a place can be in present times.\n\n A string of high profile robberies have been occurring, and their targets are both puzzling and rage-inducing. Workers relief centres have been the primary recipients of these attacks, harming our most vulnerable people at a key time in reconstruction.\n\nThis would be bad enough, were it not for two additional encounters. One was between police officers and non-state forces in rural Vermont which left multiple people dead and wounded. Another was reported at Boston Harbour, where violence erupted as well.\n\n The timing of these incidents and their location is quite puzzling indeed. We must see if these events are connected in any way and track down any counter-revolutionaries or conspirators."
+csa.85.a:0 "We must deal with this."
+
+csa.87.t:0 "Situation in the Rockies"
+csa.87.d:0 "Since even before the New Years peace the illegal flow of materials across the country has only ramped up in scale. Everything from black market weapons, drugs, and even human trafficking can be observed across the breadth of North America. In some places, where the long reach of Chicago or Sacramento has still not found its footing, the black market remains the only option for desperate people.\n\nRegardless of this brutal reality, however, the sooner this black market can be stamped out, the sooner our republic might recover. The new Office of the CIA in Denver has completed its maiden intelligence-gathering operations. Inside their first status report on the region was information collected from our border patrols. Over twenty illegal crossings had been attempted at various points in the week before peace went into effect. Several of the detained refugees were carrying startling cargo including heavy weaponry. Long-range observation patrols have also noted an unusual mass concentration of individuals in the lower plateau of the Rockies. Given the circumstances, we should investigate these matters at once to preserve the stability of our frontline."
+csa.87.a:0 "We must deal with this."
+
+
+
+####Internal War Operation Events####
+
+csa.30.t:0 "An Address to the People of America" 
+csa.30.d:0 "Browder wasn't nervous, but he felt like he should be, so he acted the way a nervous person might. He paced the room, drummed his fingers upon the desk and reached for his glass of water excessively. It was a maneuver, a show to underscore to his comrades in the room that he had not embarked upon his quest without consideration of alternatives. He had, of course, been nervous before,  but such doubts were long long ago smothered by reality. He knew the truth and so did foster, backlash be damned. Finally, after a few minutes of waiting it was time. They turned on the television.\n\nFoster stepped up to the podium in Denver, white hair rustling in the wind, and spoke softly “Comrades, I am here today in the  furthest reaches of our republic in the name of transparency. Transparency is perhaps the most important of virtues, a virtue that our old government lacked. If our state is to serve the people, it must be honest with them. Behind me stands the regional offices for the Central Intelligence Agency, that all too infamous organisation. The people have good reason to be wary of it, and that wariness has been made clear in the polemics  of our many great journalists and intellectuals. What I would like to respond with, however, is a quote from our now departed Comrade and the last president of the United States of America, Jack Reed, on the eve of revolution.”\n\n“The path has never been easy, and along its route lay destruction and chaos. Were it possible to construct a new society free of bloodshed, we would do so, and often we have tried. It is the task of a revolutionary to build a new society in the shadow of the old. If that new society is forced to fight for its survival then so be it. We will take to the task in earnest, always keeping in mind the humanistic ends that justify our means.”\n\nFoster finished the quote.\n\n“Comrade Reed was, as always, prophetic. We have secured for ourselves an opportunity to build this new society. It is a future without hunger, without homelessness and want. A future where the power resides in the people themselves. Yet there still remain many enemies, and indeed allies, who would destroy it. From the forests of the Rockies to the shining southern coast there are still militias that burn with hatred and terrorists who conspire vile deeds.The war is over, and we can no longer tolerate lawlessness. That is why the Central Intelligence agency must continue to exist, why it was ratified by the American Labour Congress despite reservations, and why I support it in its entirety. Rest assured that unlike the FBI or the western OSS, our organisation will be entirely beholden to…”"
+csa.30.a:0 "Welcome to the Internal War"
+
+
+csa.31.t:0 "Operation Black Magnolia"
+csa.31.d:0 "Commander, do not let us down."
+csa.31.a:0 "Who is this "Conductor"?"
+
+csa.40.t:0 "Operation Anti-Bandits and Conspirators"
+csa.40.d:0 "Commander, do not let us down."
+csa.40.a:0 "I'll try my best"
+
+csa.49.t:0 "Intelligence Medal of Merit"
+csa.49.d:0 "For exceptionally meritorious service while assigned as a commanding officer for the CIA office in Boston during the most sensitive period of the post-war period. Captain Henry's outstanding performance, technical expertise, and unwavering leadership to mission accomplishment against a hostile elements were vital to successful eliminated the bandit situation, secured the ceasefire line and brought down a hostile conspiratoral plot to undermine the Worker's Government. His contributions and dedication to duty are exemplar of class consciouness and dedication to the international revolutionary cause as well as well as the proletarian power in America"
+csa.49.a:0 "For the triumph of labor!"
+
+
+csa.50.t:0 "Operation Frond pest"
+csa.50.d:0 "Commander, do not let us down."
+csa.50.a:0 "Long live the African Blood Brotherhood."
+
+
+csa.60.t:0 "Operation Olympia"
+csa.60.d:0 "Commander, do not let us down."
+csa.60.a:0 "I'll try my best"
+
+
+csa.70.t:0 "Operation Jerome"
+csa.70.d:0 "Commander, do not let us down."
+csa.70.a:0 "I'll try my best"
 
 
 ### Focuses ###
@@ -204,8 +248,10 @@ America_new_year_peace:0 "New Year Peace"
 America_new_year_peace_desc: "It's over.\n\nOn December 30th 1949 we signed the "Agreement on the Cessation of Hostility and Exchange of Prisoners-of-War in the North American Continent." The nightmare had finally ended, and amongst the blackened skyscrapers and burning fields the people quietly celebrate.\n\nNow we sit in brief reprise, gathering strength for the pale horse's return. There are few people across the Earth's surface that have experienced what the American people have."
 CSA_ruins:0 "America in Ruins"
 CSA_ruins_desc: ""
-CSA_famine:0 "Golden Fields No More"
-CSA_famine_desc: ""
+CSA_refugee_crisis:0 "The Flowing Drain"
+CSA_refugee_crisis_desc: "Theres refugees"
+CSA_refugee_crisis_improved:0 "The Trickling Drain"
+CSA_refugee_crisis_improved_desc: "There are less refugees"
 CSA_divided_goverment:0 "Divided Goverment"
 CSA_divided_goverment_desc: ""
 CSA_internal_war:0 "The Internal War"
@@ -243,5 +289,6 @@ internal_war_south_atlantic_status:0 "[GetCSASAtlanticDetails]"
 satlantic_CSA_klan_details:0 "The Arms of the Lord and its various associated organs operate actively and extremely powerful in this region"
 internal_war_sanction_button:0 "The operation will begin after you sanction it, while an active mission is in process, you can not select another until the mission is completed" 
 ### Leaders ###
+POLITICS_WILLIAM_Z_FOSTER_DESC: "There is a certain comedic element to the life of William Z Foster, for he is a man of contradiction. He prides himself on being a silent workhorse, and yet his face has become notorious. He is a committed revolutionary, and yet he still finds himself an elected president of the “United States”. He is accommodating to all tendencies, and yet he still holds his own strong opinions.\n\nThe truth is, it was these contradictions that ensured Foster would become president. Following the retirement and death of Jack Reed, the nation needed someone reliable. Foster was the perfect choice. Having spent much of his early life purely devoted to organizing workers, and finding himself friendly with both Marxists and Anarchists. He held a revolutionary edge, yet Foster was not seen as the SDP’s grim reaper. It was his calm demeanor and cautious attitude that permitted widespread support; he offended no-one and fought for all.\n\n Nowadays, Foster has made it his mission to organize another constitutional convention. He knows the nation cannot continue in its frankenstein state, regardless of which faction prevails. America must escape its wartime stagnation, and Foster will help it sort out its differences once and for all."
 ### Tech? ###
 

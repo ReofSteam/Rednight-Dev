@@ -14,6 +14,8 @@ CSA_internal_war = {
 	}
 }
 
+
+
 CSA_ruins = {
 	modifier = {
    production_speed_buildings_factor = -0.7
@@ -22,14 +24,6 @@ CSA_ruins = {
 			 } 
 			 removal_cost = -1
 }
-
-CSA_famine = {
-	modifier = {
-   monthly_population = -0.1
-			 } 
-			 removal_cost = -1
-}
-
 
 CSA_divided_goverment = {
 	modifier = {
@@ -46,8 +40,32 @@ America_new_year_peace = {
 			}
 			removal_cost = -1
 		}
-}
+
+CSA_refugee_crisis = {
+		modifier = {
+			stability_weekly_factor = -0.05
+			war_support_factor = -0.8
+			political_power_gain = -0.15
+			monthly_population = -0.2
+			recruitable_population_factor = -0.4
+
+					 } 
+					 removal_cost = -1
+		}
+
+		CSA_refugee_crisis_improved = {
+			modifier = {
+				war_support_factor = -0.3
+				political_power_gain = -0.05
+				monthly_population = 0.1
+				recruitable_population_factor = 0.05
+	
+						 } 
+						 removal_cost = -1
+			}
 
 }
+
+
 
 	
