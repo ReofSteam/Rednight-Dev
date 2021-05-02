@@ -10,7 +10,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = head_of_gov_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -30,7 +30,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -47,7 +47,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -65,7 +65,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -88,7 +88,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = head_of_gov_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -108,7 +108,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
@@ -126,7 +126,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = minister_available
-					always = no
+					has_country_flag = can_pick_ministers
 				}
 			}
 			on_add = {
