@@ -791,7 +791,7 @@ focus_tree = {
 	#Focus for We are better than this
 	focus = {
 		id = PRS_we_are_better_than_this
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_werewolves
 		x = 1
 		y = 16
 		cost = 10
@@ -903,7 +903,7 @@ focus_tree = {
 	#Focus for Repeal the Martial Laws Provisions
 	focus = {
 		id = PRS_repeal_the_martial_laws_provisions
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_constitution
 		x = 3
 		y = 13
 		cost = 10
@@ -966,7 +966,7 @@ focus_tree = {
 	#Focus for Enable Act
 	focus = {
 		id = PRS_enable_act
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_constitution_burn
 		x = 13
 		y = 13
 		cost = 10
@@ -1102,7 +1102,7 @@ focus_tree = {
 	#Focus for Social Corporatism
 	focus = {
 		id = PRS_social_corporatism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_the_family
 		x = 27
 		y = 13
 		cost = 10
@@ -1130,7 +1130,7 @@ focus_tree = {
 	#Focus for Renewed Christian Values
 	focus = {
 		id = PRS_renewed_christian_values
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_concordat
 		x = 23
 		y = 13
 		cost = 10
@@ -1317,7 +1317,7 @@ focus_tree = {
 	#Focus for An Audience with Louis Ferdinand
 	focus = {
 		id = PRS_an_audience_with_louis_ferdinand
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_Meet_LouFer
 		x = 20
 		y = 13
 		cost = 10
@@ -1330,7 +1330,7 @@ focus_tree = {
 	#Focus for Proclaim the Volkstaat
 	focus = {
 		id = PRS_proclaim_the_volkstaat
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_Volkstaat_Proclaim
 		x = 19
 		y = 14
 		cost = 10
@@ -1360,7 +1360,7 @@ focus_tree = {
 	#Focus for Greater Russian Cooperation
 	focus = {
 		id = PRS_greater_russian_cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Rus_Cooperation
 		x = 20
 		y = 15
 		cost = 10
@@ -1405,7 +1405,7 @@ focus_tree = {
 	#Focus for Join the Russian Market
 	focus = {
 		id = PRS_join_the_russian_market
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Russian_market
 		x = 20
 		y = 17
 		cost = 10
