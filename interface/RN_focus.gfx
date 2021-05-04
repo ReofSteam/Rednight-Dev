@@ -493,7 +493,11 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_werewolves"
 		texturefile = "gfx/interface/goals/PRS/PRS_werewolves.tga"
-	}		
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_christian_union"
+		texturefile = "gfx/interface/goals/PRS/PRS_christian_union.tga"
+	}			
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"

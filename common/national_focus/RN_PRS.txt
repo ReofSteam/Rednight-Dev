@@ -1466,7 +1466,7 @@ focus_tree = {
 	#Focus for Pact of the Crosses
 	focus = {
 		id = PRS_pact_of_the_crosses
-		icon = GFX_focus_por_concordat
+		icon = GFX_PRS_christian_union
 		x = 25
 		y = 16
 		cost = 10
