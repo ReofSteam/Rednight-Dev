@@ -83,10 +83,7 @@ country_event = { ##### Revolt of the Westheer#######
 
 	is_triggered_only = yes
 
-	option = {
-		name = prs.6.a
-		set_country_flag = PRS_civil_war
-		set_country_flag = Super_Event_Visible		
+	immediate = {
 	start_civil_war = {
     ideology = social_liberal
     size = 0.3
@@ -96,8 +93,18 @@ country_event = { ##### Revolt of the Westheer#######
     }
     keep_political_leader = no
 }
-hidden_effect = {
-    D01 = {
+	}
+	
+
+	option = {
+		name = prs.6.a
+		set_country_flag = PRS_civil_war
+		set_country_flag = Super_Event_Visible		
+every_enemy_country = {
+limit = {
+has_civil_war = yes 
+original_tag = PRS
+}		
 	set_cosmetic_tag = PRS_westheer
 	set_party_name = { 
     ideology = social_liberal 
@@ -124,11 +131,10 @@ set_popularities = {
 	autocratic = 0
 	ultraconservative = 2
 	national_corporatist = 25
-} 
 	}
 }
-	}
 }
+}	
 
 country_event = { #####Prussian Civil War#######
 	id = prs.7

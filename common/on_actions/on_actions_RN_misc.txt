@@ -12,9 +12,15 @@ on_actions = {
 		FROM = {
 		set_demilitarized_zone = yes
 		}
+		fixed_random_seed = no
+		random_list = {
+		20 = {
 			every_country = { 
 			delete_unit = { state = FROM } 
 			}
+		}	
+		80 = { }		
+		}
 		}
 	}
     on_startup = { 

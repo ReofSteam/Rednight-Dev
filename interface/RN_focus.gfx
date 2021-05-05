@@ -80,7 +80,19 @@ spriteTypes = {
 	SpriteType = { 
         name = "GFX_focus_generic_farm_requisition"
         texturefile = "gfx/interface/goals/generic/generic_farm_requisition.tga"
-    }			
+    }
+	SpriteType = { 
+        name = "GFX_focus_Generic_Rus_Cooperation"
+        texturefile = "gfx/interface/goals/generic/Generic_Rus_Cooperation.tga"
+    }
+	SpriteType = { 
+        name = "GFX_focus_Generic_Russian_market"
+        texturefile = "gfx/interface/goals/generic/Generic_Join_Russian_market.tga"
+    }	
+	SpriteType = { 
+        name = "GFX_focus_generic_the_family"
+        texturefile = "gfx/interface/goals/generic/generic_the_family.tga"
+    }	
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -462,6 +474,30 @@ spriteTypes = {
 		name = "GFX_PRS_nationalist_coalition"
 		texturefile = "gfx/interface/goals/PRS/PRS_nationalist_coalition.tga"
 	}		
+	SpriteType = { 
+		name = "GFX_PRS_Meet_LouFer"
+		texturefile = "gfx/interface/goals/PRS/PRS_Meet_LouFer.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_Volkstaat_Proclaim"
+		texturefile = "gfx/interface/goals/PRS/PRS_Volkstaat_Proclaim.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_constitution_burn"
+		texturefile = "gfx/interface/goals/PRS/PRS_constitution_burn.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_constitution"
+		texturefile = "gfx/interface/goals/PRS/PRS_constitution.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_werewolves"
+		texturefile = "gfx/interface/goals/PRS/PRS_werewolves.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_christian_union"
+		texturefile = "gfx/interface/goals/PRS/PRS_christian_union.tga"
+	}			
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
