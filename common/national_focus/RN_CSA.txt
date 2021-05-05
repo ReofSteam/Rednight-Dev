@@ -53,7 +53,7 @@ focus_tree = {
 #Focus for Address Congress
 	focus = {
 		id = CSA_address_congress
-		icon = GFX_CSA_seal
+		icon = GFX_CSA_address_congress
 		x = 21
 		y = 2
 		cost = 10

@@ -533,5 +533,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_3k2.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_CSA_address_congress"
+		texturefile = "gfx/interface/goals/CSA/CSA_address_congress.dds"
+	}
+
 
 }
