@@ -1,22 +1,70 @@
 ﻿add_namespace = prs
+add_namespace = prsset
 
 country_event = {
-	id = prs.1
-	title = prs.1.t
-	desc = prs.1.d
+	id = prsset.1
+	title = prsset.1.t
+	desc = prsset.1.d
 	picture = GFX_FRA_commune
 
 	is_triggered_only = yes
 
 	option = {
-		name = prs.1.a
-	hidden_effect = {
-	country_event = { 
-	id = prs.2
-	days = 31
+		name = prsset.1.a
+		set_country_flag = PRS_conspiracy_GRU_version_1
 	}
+	option = {
+		name = prsset.1.a
+		set_country_flag = PRS_conspiracy_GRU_version_2
 	}
+	option = {
+		name = prsset.1.a
+		set_country_flag = PRS_conspiracy_GRU_version_3
+	}	
+}
+
+country_event = {
+	id = prsset.2
+	title = prsset.2.t
+	desc = prsset.2.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prsset.2.a
+		set_country_flag = PRS_conspiracy_CDU_version_1
 	}
+	option = {
+		name = prsset.2.a
+		set_country_flag = PRS_conspiracy_CDU_version_2
+	}
+	option = {
+		name = prsset.2.a
+		set_country_flag = PRS_conspiracy_CDU_version_3
+	}	
+}
+
+country_event = {
+	id = prsset.3
+	title = prsset.3.t
+	desc = prsset.3.d
+	picture = GFX_FRA_commune
+
+	is_triggered_only = yes
+
+	option = {
+		name = prsset.3.a
+		set_country_flag = PRS_conspiracy_HEER_version_1
+	}
+	option = {
+		name = prsset.3.a
+		set_country_flag = PRS_conspiracy_HEER_version_2
+	}
+	option = {
+		name = prsset.3.a
+		set_country_flag = PRS_conspiracy_HEER_version_3
+	}	
 }
 
 country_event = {
@@ -465,8 +513,18 @@ country_event = { #Keitel and Von Baudisini
 
 	option = {
 		name = prs.21.a		
-		
+		trigger = { has_country_flag = PRS_conspiracy_HEER_version_1 }
 	}
+	option = {
+		name = prs.21.b		
+		trigger = { has_country_flag = PRS_conspiracy_HEER_version_2 }		
+		
+	}	
+	option = {
+		name = prs.21.c
+		trigger = { has_country_flag = PRS_conspiracy_HEER_version_3 }		
+		
+	}		
 }
 
 
@@ -475,7 +533,7 @@ country_event = { #Doenitz Greets Russians
 	id = prs.23
 	title = prs.23.t
 	desc = prs.23.d
-	picture = GFX_FRA_commune
+	picture = GFX_PRS_report
 
 	is_triggered_only = yes
 

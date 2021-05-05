@@ -12,8 +12,8 @@ PRS_westerners
 }
 
 country_event = { 
-id = prs.1
-days = 1
+id = prs.2
+days = 32
 }
 
 # Starting tech

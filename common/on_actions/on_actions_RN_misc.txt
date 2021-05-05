@@ -14,12 +14,12 @@ on_actions = {
 		}
 		fixed_random_seed = no
 		random_list = {
-		20 = {
+		10 = {
 			every_country = { 
 			delete_unit = { state = FROM } 
 			}
 		}	
-		80 = { }		
+		90 = { }		
 		}
 		}
 	}
