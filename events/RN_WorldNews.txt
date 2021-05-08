@@ -531,3 +531,40 @@ news_event = { #Rosenberg's Prussia
 		name = worldnews.24.a
 	}
 }
+
+news_event = { #Westheer:Good
+	id = worldnews.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.25" }
+
+	title = worldnews.t
+	desc = worldnews.25.d
+	picture = GFX_news_PRS_coup2
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.26.a
+	}
+}
+news_event = { #Westheer:Evil
+	id = worldnews.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.26" }
+
+	title = worldnews.t
+	desc = worldnews.26.d
+	picture = GFX_news_PRS_coup2
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.26.a
+	}
+}

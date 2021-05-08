@@ -20,9 +20,9 @@ PRS_syndicalism_party:0 "-"
 PRS_syndicalism_party_long:0 "-"
 PRS_moderate_socialist_party:0 "-"
 PRS_moderate_socialist_party_long:0 "-"
-PRS_social_democrat_party:0 "Nationalsozialdemokraten"
+PRS_social_democrat_party:0 "National SPD"
 PRS_social_democrat_party_long:0 "Radical Republicans and Democrats"
-PRS_social_liberal_party:0 "Demokratische Union"
+PRS_social_liberal_party:0 "Zentrum/DU/SPD"
 PRS_social_liberal_party_long:0 "Radical Republicain Left"
 PRS_social_conservative_party:0 "Zentrum/DRP/DKP"
 PRS_social_conservative_party_long:0 "Rassemblement national des républicains - National Rally of Republicains"
@@ -34,10 +34,14 @@ PRS_ultraconservative_party:0 "DNVP/DKP"
 PRS_ultraconservative_party_long:0 "French Action"
 PRS_national_corporatist_party:0 "National Defense Junta"
 PRS_national_corporatist_party_long:0 "National Community Party"
-
+PRS_Nationalen_Konzentration:0 "Nationalen Kozentration Government"
+PRS_Nationalen_Konzentration_long:0 "Government of National Concentration"
 
 PRS_westheer_committee_long:0 "Nationalkomitee der Deutsches Heer - German Army National Committee"
 PRS_westheer_committee:0 "NKDH"
+PRS_DVP:0 "DVP"
+PRS_DVP_long:0 "Deutsches Volkspartei - German People's Party"
+
 ### Focuses ####
 PRS_the_east_in_white_and_black:0 "The East in White and Black"
 PRS_the_east_in_white_and_black_desc:0 ""
@@ -274,10 +278,17 @@ prs.25.d:0 "Blabla the King hate your gut"
 prs.25.d.b:0 "The King thinks that your efforts are commendable"
 prs.25.a:0 "The King's voluntarily cooperation is needed"
 prs.25.b:0 "Its better that we work together, Mein König..."
+prs.50.t:0 "Prussian Landtag and Reichstag Election" 
+prs.50.d:0 "Elections have returned to the Reich! For the first time since the 1930 constitution’s suspension in 1939 the iron fist of martial law has relaxed. This is a bright opportunity for the nation, as we are one of the few states within the ETO that can now pride itself on democratic procedures.\n\n Three major factions have taken advantage of this opportunity. Now, they are engaged in a great jousting for the Prussian electorate. The Zentrum, National SDP, and liberal Democratic Union form the “Democratic Bloc”, the first of these factions. Their biggest opposition consists of the “National Bloc”, which is comprised of the DKP, All-German League, and the DNVP. Finally, there remains the party of the army, the DVP.\n\n General Count von Baudissin has promised that no matter the outcome, the spirit of the constitution shall be obeyed. The Army government seems fit to fashion itself into the caretakers of democracy."
+prs.50.a:0 "The spirit of democracy will save Germany"
+prs.50.b:0 "A Government of national concentration is needed"
+prs.50.c:0 "The Army is with the people"
+prs.48.t:0 "To my People"
+prs.48.d:0 "...For many months now the people have been bereft of their king’s voice. For this, I issue a grave apology. The crisis gripping our country has made it impossible to properly address you regarding these hours of peril. \n\n On the eve of the restoration of our 1930 constitution, the errors of the past weigh heavy on our shoulders. In our rush to promote national unity, to pit order against evil, we instead created social ills. Ironically, it was these social ills that destroyed any semblance of unity and allowed a scourge to sweep our lands. God has punished us, hoping that we might learn from our humiliation.\n\n Once, Germany strayed from the path. Today, I would have you remember it. As the great King Friedrich Wilhelm called upon you in 1813 I call upon you now. All social classes must put aside their differences in the name of German freedoms. Only through cooperative action may we redeem national honor.\n\n I do not address you as a Prussian, but as a German. Together, we shall ensure Germany and our honour does not disappear into the mists of time. Only in the air that a German soul shall breath freely that our soil shall birth warriors who will one day conquer again..."
+prs.48.a:0 "Long live the Kaiser"
 # Flavor #
 
 # FocusEvents #
-
 
 ### Country Name ###
 PRS_nationalist_socialism:0 "Volksrepublik Deutschland"
@@ -327,6 +338,8 @@ PRS_national_corporatist_DEF:0 "the Kingdom of Prussia"
 PRS_russia_national_corporatist:0 "Kingdom of Prussia"
 PRS_russia_national_corporatist_ADJ:0 "German"
 PRS_russia_national_corporatist_DEF:0 "the Kingdom of Prussia"
+
+PRS_reich_restored:0 "German Reich"
 
 # Cosmetic #
 

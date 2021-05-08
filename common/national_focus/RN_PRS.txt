@@ -478,7 +478,7 @@ focus_tree = {
 	#Focus for Kämpf' um dein Leben mein Land!
 	focus = {
 		id = PRS_kmpf_um_dein_leben_mein_land
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_tricolour_army
 		x = 17
 		y = 1
 		cost = 10
@@ -558,7 +558,7 @@ focus_tree = {
 	#Focus for Reconcilate with W Kommando
 	focus = {
 		id = PRS_reconcilate_with_w_kommando
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_werewolves
 		x = 15
 		y = 3
 		cost = 10
@@ -586,7 +586,7 @@ focus_tree = {
 	#Focus for Our Brothers in Sudetenland
 	focus = {
 		id = PRS_our_brothers_in_sudetenland
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_sudetenland
 		x = 15
 		y = 4
 		cost = 10
@@ -874,12 +874,19 @@ focus_tree = {
 		x = 6
 		y = 15
 		cost = 10
+		select_effect = {
+		set_country_flag = PRS_no_liberal
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = PRS_restoration_of_democratic_government }
 		mutually_exclusive = { focus = PRS_free_and_fair_election }
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.50
+		}
+		
 	}
 
 	#Focus for Form the German People's  Party
@@ -927,6 +934,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.50
+		add_political_power = 15
+		}
 	}
 
 	#Focus for Restoration of Democratic Government
@@ -945,6 +956,10 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		country_event = prs.48
+		add_ideas = PRS_democracy
 		}
 	}
 
@@ -1088,7 +1103,7 @@ focus_tree = {
 	#Focus for Rebirth of Germany
 	focus = {
 		id = PRS_rebirth_of_germany
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_Rebirth_of_Germany
 		x = 25
 		y = 12
 		cost = 10
@@ -1502,7 +1517,7 @@ focus_tree = {
 	#Focus for Crusaders Against Evil
 	focus = {
 		id = PRS_crusaders_against_evil
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_crusade_against_evil
 		x = 24
 		y = 18
 		cost = 10

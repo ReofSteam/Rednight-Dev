@@ -86,5 +86,13 @@ ideas = {
 			modifier = {
 			}
 		}		
+		PRS_democracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_democracy"}
+			picture = prc_low_popular_support3
+			modifier = {
+			stability_factor = 0.1
+			political_power_gain = 0.1
+			}
+		}		
 	}
 }

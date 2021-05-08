@@ -599,3 +599,105 @@ country_event = { #Doenitz Meets Louis Ferdinand####
 		}
 	}	
 }
+
+
+country_event = { #King Speech#### 
+	id = prs.48
+	title = prs.48.t
+	desc = prs.48.d
+	picture = GFX_report_event_german_speech
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prs.48.a	
+		set_cosmetic_tag = PRS_reich_restored
+		
+	}
+}
+
+country_event = { #Election#### 
+	id = prs.50
+	title = prs.50.t
+	desc = prs.50.d
+	picture = GFX_report_event_fascist_gathering
+	is_triggered_only = yes
+
+	option = {
+		name = prs.50.a	
+		set_politics = {
+    	ruling_party = social_liberal
+        elections_allowed = no
+}		
+	}
+	option = {
+		name = prs.50.b	
+		trigger = {
+		NOT = { has_country_flag = PRS_no_liberal }
+		}
+		set_politics = {
+    	ruling_party = authoritarian_democrat
+        elections_allowed = no
+		}
+	    set_party_name = { 
+        ideology = authoritarian_democrat 
+        long_name = PRS_Nationalen_Konzentration_long 
+        name = PRS_Nationalen_Konzentration 
+}
+create_country_leader = {
+	name = "Carl Goerdeler"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/PRS/PRS_Goerdeler.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+}	
+	option = {
+		name = prs.50.c	
+		set_politics = {
+    	ruling_party = social_liberal
+        elections_allowed = yes
+        election_frequency = 48
+		
+}
+	    set_party_name = { 
+        ideology = social_liberal 
+        long_name = PRS_DVP_long 
+        name = PRS_DVP
+}		
+create_country_leader = {
+	name = "Wolf Graf von Baudissin"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/PRS/PRS_Baudissin.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+	}		
+}
+
+country_event = { #Right Side#### 
+	id = prs.51
+	title = prs.51.t
+	desc = prs.51.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prs.51.a	
+		set_politics = {
+    	ruling_party = ultraconservative
+        elections_allowed = yes
+        election_frequency = 48
+		
+}			
+	}
+	option = {
+		name = prs.51.a	
+		add_political_power = -25
+		
+	}	
+}
