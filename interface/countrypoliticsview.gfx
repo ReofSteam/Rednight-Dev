@@ -431,6 +431,11 @@ spriteTypes = {
 		name = "GFX_ideology_revolutionary_socialism_group"
 		texturefile = "gfx/interface/ideologies/revolutionary_socialism_group.tga"
 	}
+	spriteType = {
+		name = "GFX_ideology_ultraconservative_group"
+		texturefile = "gfx/interface/ideologies/ultraconservative_group.tga"
+	}
+	
 
 	spriteType = {
 		name = "GFX_ideology_unknown"

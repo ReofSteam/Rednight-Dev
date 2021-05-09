@@ -671,7 +671,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Wolf Graf von Baudissin"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
-	picture = "gfx/leaders/PRS/PRS_Baudissin.tga"
+	picture = "gfx/leaders/PRS/PRS_von_baudissin2.tga"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 }
@@ -690,14 +690,20 @@ country_event = { #Right Side####
 		name = prs.51.a	
 		set_politics = {
     	ruling_party = ultraconservative
-        elections_allowed = yes
-        election_frequency = 48
-		
+		}
+	    set_party_name = { 
+        ideology = ultraconservative 
+        long_name = PRS_Nationalen_Konzentration_long 
+        name = PRS_Nationalen_Konzentration 
+}		
 }			
-	}
 	option = {
 		name = prs.51.a	
 		add_political_power = -25
-		
+	    set_party_name = { 
+        ideology = national_corporatist 
+        long_name = PRS_Nationalen_Konzentration_long 
+        name = PRS_Nationalen_Konzentration 
+}		
 	}	
 }
