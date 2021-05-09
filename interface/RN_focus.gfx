@@ -513,6 +513,18 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_tricolour_army"
 		texturefile = "gfx/interface/goals/PRS/PRS_tricolour_army.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_silesia_ceasefire"
+		texturefile = "gfx/interface/goals/PRS/PRS_silesia_ceasefire.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_silesia_struggle"
+		texturefile = "gfx/interface/goals/PRS/PRS_silesia_struggle.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_volkskaiser"
+		texturefile = "gfx/interface/goals/PRS/PRS_volkskaiser.tga"
 	}		
 	############CSA
 	SpriteType = { 

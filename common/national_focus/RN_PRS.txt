@@ -600,7 +600,7 @@ focus_tree = {
 	#Focus for The Silesia Question
 	focus = {
 		id = PRS_the_silesia_question
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_silesia_ceasefire
 		x = 15
 		y = 5
 		cost = 10
@@ -614,7 +614,7 @@ focus_tree = {
 	#Focus for Our Kaiser
 	focus = {
 		id = PRS_our_kaiser
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_volkskaiser
 		x = 17
 		y = 4
 		cost = 10
@@ -642,7 +642,7 @@ focus_tree = {
 	#Focus for Control the Westerners
 	focus = {
 		id = PRS_control_the_westerners
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_imprisonment
 		x = 19
 		y = 3
 		cost = 10
@@ -656,7 +656,7 @@ focus_tree = {
 	#Focus for Conditions of the Secret Dossier
 	focus = {
 		id = PRS_conditions_of_the_secret_dossier
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Rus_Cooperation
 		x = 21
 		y = 3
 		cost = 10
@@ -684,7 +684,7 @@ focus_tree = {
 	#Focus for Resume the War for Silesia
 	focus = {
 		id = PRS_resume_the_war_for_silesia
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_silesia_struggle
 		x = 21
 		y = 5
 		cost = 10
