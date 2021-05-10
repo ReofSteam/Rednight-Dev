@@ -1542,5 +1542,383 @@ focus_tree = {
 		}
 	}	
 
+	#Focus for War Fueling War
+	focus = {
+		id = PRS_war_fueling_war
+		icon = GFX_goal_generic_attack_allies
+		x = 32
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_learn_from_the_east }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The General Staff
+	focus = {
+		id = PRS_the_general_staff
+		icon = GFX_goal_unknown
+		x = 29
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Prussian Traditions
+	focus = {
+		id = PRS_the_prussian_traditions
+		icon = GFX_goal_unknown
+		x = 26
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_general_staff }
+		mutually_exclusive = { focus = PRS_new_ideas }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Ideas
+	focus = {
+		id = PRS_new_ideas
+		icon = GFX_goal_unknown
+		x = 32
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_general_staff }
+		mutually_exclusive = { focus = PRS_the_prussian_traditions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Industry Restoration
+	focus = {
+		id = PRS_military_industry_restoration
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 29
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_the_prussian_traditions 
+			focus = PRS_new_ideas 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Military Industry Restoration II
+	focus = {
+		id = PRS_military_industry_restoration_ii
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 29
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_military_industry_restoration }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Learn from the West
+	focus = {
+		id = PRS_learn_from_the_west
+		icon = GFX_goal_unknown
+		x = 34
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_new_ideas }
+		mutually_exclusive = { focus = PRS_learn_from_the_east }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Learn from the East
+	focus = {
+		id = PRS_learn_from_the_east
+		icon = GFX_goal_unknown
+		x = 32
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_new_ideas }
+		mutually_exclusive = { focus = PRS_learn_from_the_west }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revive the Bewegungskrieg
+	focus = {
+		id = PRS_revive_the_bewegungskrieg
+		icon = GFX_goal_generic_cavalry
+		x = 34
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_learn_from_the_west }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Professional Army
+	focus = {
+		id = PRS_the_professional_army
+		icon = GFX_goal_unknown
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_prussian_traditions }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Elite Forces
+	focus = {
+		id = PRS_elite_forces
+		icon = GFX_goal_generic_territory_or_war
+		x = 26
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_professional_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Panzer-Priority
+	focus = {
+		id = PRS_panzerpriority
+		icon = GFX_goal_generic_build_tank
+		x = 24
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_professional_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Prussian Levée en masse
+	focus = {
+		id = PRS_prussian_leve_en_masse
+		icon = GFX_goal_unknown
+		x = 33
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_revive_the_bewegungskrieg 
+			focus = PRS_war_fueling_war 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Repatriation of the Nuclear Program
+	focus = {
+		id = PRS_repatriation_of_the_nuclear_program
+		icon = GFX_focus_research2
+		x = 29
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_tested_and_proven 
+			focus = PRS_revitasize_the_german_designs 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mass Production of Prototype KWIP/45
+	focus = {
+		id = PRS_mass_production_of_prototype_kwip45
+		icon = GFX_goal_unknown
+		x = 29
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_repatriation_of_the_nuclear_program }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Oberste Luftstreitkräfte Leitung
+	focus = {
+		id = PRS_oberste_luftstreitkrfte_leitung
+		icon = GFX_PRS_kaiser_airforce
+		x = 37
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Intergrate Air Support
+	focus = {
+		id = PRS_intergrate_air_support
+		icon = GFX_goal_unknown
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_oberste_luftstreitkrfte_leitung }
+		mutually_exclusive = { focus = PRS_strategic_air_force }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revive the Jugendwehr
+	focus = {
+		id = PRS_revive_the_jugendwehr
+		icon = GFX_goal_unknown
+		x = 25
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_elite_forces 
+		}
+		prerequisite = { 
+			focus = PRS_panzerpriority 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Aircraft Designs
+	focus = {
+		id = PRS_new_aircraft_designs
+		icon = GFX_goal_generic_position_armies
+		x = 37
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_fighterbomber_priority 
+			focus = PRS_airspace_superiority 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Fighter-Bomber Priority
+	focus = {
+		id = PRS_fighterbomber_priority
+		icon = GFX_goal_generic_air_fighter2
+		x = 38
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_intergrate_air_support }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Regierungsbunker
+	focus = {
+		id = PRS_regierungsbunker
+		icon = GFX_goal_unknown
+		x = 37
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_the_general_staff }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Revitasize the German Designs
+	focus = {
+		id = PRS_revitasize_the_german_designs
+		icon = GFX_goal_unknown
+		x = 28
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_military_industry_restoration_ii }
+		mutually_exclusive = { focus = PRS_tested_and_proven }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Airspace Superiority
+	focus = {
+		id = PRS_airspace_superiority
+		icon = GFX_goal_generic_air_fighter2
+		x = 36
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_strategic_air_force }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strategic Air Force
+	focus = {
+		id = PRS_strategic_air_force
+		icon = GFX_goal_generic_CAS
+		x = 36
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = PRS_oberste_luftstreitkrfte_leitung 
+		}
+		prerequisite = { 
+			focus = PRS_learn_from_the_west 
+		}
+		mutually_exclusive = { focus = PRS_intergrate_air_support }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Tested and Proven
+	focus = {
+		id = PRS_tested_and_proven
+		icon = GFX_goal_unknown
+		x = 30
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_military_industry_restoration_ii }
+		mutually_exclusive = { focus = PRS_revitasize_the_german_designs }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
 #End of focuses 
  }

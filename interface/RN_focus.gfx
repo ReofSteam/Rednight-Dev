@@ -526,6 +526,10 @@ spriteTypes = {
 		name = "GFX_PRS_volkskaiser"
 		texturefile = "gfx/interface/goals/PRS/PRS_volkskaiser.tga"
 	}		
+	SpriteType = { 
+		name = "GFX_PRS_kaiser_airforce"
+		texturefile = "gfx/interface/goals/PRS/PRS_kaiser_airforce.tga"
+	}			
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
