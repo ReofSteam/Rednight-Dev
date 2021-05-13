@@ -93,6 +93,14 @@ spriteTypes = {
         name = "GFX_focus_generic_the_family"
         texturefile = "gfx/interface/goals/generic/generic_the_family.tga"
     }	
+	SpriteType = { 
+        name = "GFX_focus_generic_calm_before_storm"
+        texturefile = "gfx/interface/goals/generic/focus_generic_calm_before_storm.dds"
+    }	
+	SpriteType = { 
+        name = "GFX_focus_generic_question"
+        texturefile = "gfx/interface/goals/generic/focus_generic_question.dds"
+    }	
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"

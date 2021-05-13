@@ -224,8 +224,8 @@ country_event = { #revising the speech
 
 country_event = { #hall of heroes & bryant
 	id = csa.17
-	title = csa.17
-	desc = csa.17.desc
+	title = csa.17.t
+	desc = csa.17.d
 	is_triggered_only = yes
 
 	option = {
