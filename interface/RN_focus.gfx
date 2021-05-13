@@ -529,7 +529,19 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_kaiser_airforce"
 		texturefile = "gfx/interface/goals/PRS/PRS_kaiser_airforce.tga"
-	}			
+	}
+	SpriteType = { 
+		name = "GFX_PRS_total_war"
+		texturefile = "gfx/interface/goals/PRS/PRS_total_war.tga"
+	}
+	SpriteType = { 
+		name = "GFX_PRS_general_staff"
+		texturefile = "gfx/interface/goals/PRS/PRS_general_staff.tga"
+	}	
+	SpriteType = { 
+		name = "PRS_anti_poles"
+		texturefile = "gfx/interface/goals/PRS/PRS_anti_poles.tga"
+	}		
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"

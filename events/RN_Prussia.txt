@@ -205,6 +205,50 @@ country_event = { #####Prussian Civil War#######
     }
     keep_political_leader = yes
 }
+	set_party_name = { 
+    ideology = social_liberal 
+    long_name = PRS_westheer_committee_long 
+    name = PRS_westheer_committee 
+}
+create_country_leader = {
+	name = "Wolf Graf von Baudissin"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/PRS/PRS_Baudissin.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+		set_politics = {
+    	ruling_party = social_liberal
+		
+}
+    if = { limit = { has_country_flag = PRS_HEERconspirator_identified }
+	set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 2
+	social_liberal = 25
+	social_conservative = 15
+	authoritarian_democrat = 0
+	autocratic = 0
+	ultraconservative = 21
+	national_corporatist = 35
+	} }
+	else = {
+	set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 12
+	social_liberal = 36
+	social_conservative = 15
+	authoritarian_democrat = 10
+	autocratic = 0
+	ultraconservative = 2
+	national_corporatist = 25
+	}	}
 	}
 }
 
@@ -599,12 +643,61 @@ country_event = { #Doenitz Meets Louis Ferdinand####
 		}
 	}	
 }
+#The Conspiracy in action
+country_event = { 
+	id = prs.30
+	title = prs.30.t
+	desc = prs.30.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
 
+	option = {
+	name = prs.48.a			
+	trigger = { has_country_flag = PRS_CONSERVATIVE_priority }	
+	hidden_effect = {
+	country_event = {
+	id = prs.31
+	days = 7
+	}
+	}	
+	}
+	option = {
+	name = prs.48.b			
+	trigger = { has_country_flag = PRS_GRU_priority }	
+	hidden_effect = {
+	country_event = {
+	id = prs.32
+	days = 7
+	}
+	}	
+	}	
+	option = {
+	name = prs.48.b			
+	trigger = { NOT = { OR = {
+	has_country_flag = PRS_GRU_priority 
+	has_country_flag = PRS_CONSERVATIVE_priority 
+	} }
+	}
+	hidden_effect = {
+	country_event = {
+	id = prs.7
+	days = 7
+	}
+	}	
+	}	
+}
 
 country_event = { #King Speech#### 
 	id = prs.48
 	title = prs.48.t
-	desc = prs.48.d
+	desc = { 
+	text = prs.48.d
+	trigger = { has_government = national_corporatist }
+	}
+	desc = { 
+	text = prs.48.d.b
+	trigger = { has_government = social_liberal }
+	}	
 	picture = GFX_report_event_german_speech
 	hidden = yes
 	is_triggered_only = yes
@@ -698,12 +791,52 @@ country_event = { #Right Side####
 }		
 }			
 	option = {
-		name = prs.51.a	
-		add_political_power = -25
+		name = prs.51.b	
+		set_politics = {
+    	ruling_party = national_corporatist
+		}		
+		add_political_power = -25	
 	    set_party_name = { 
         ideology = national_corporatist 
         long_name = PRS_Nationalen_Konzentration_long 
         name = PRS_Nationalen_Konzentration 
 }		
 	}	
+}
+
+country_event = {
+	id = prs.52
+	title = prs.52.t
+	desc = prs.52.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prs.52.a	
+		set_politics = {
+    	ruling_party = social_democrat
+		}		
+}				
+}
+
+country_event = {
+	id = prs.53
+	title = prs.53.t
+	desc = prs.53.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prs.53.a	
+		set_politics = {
+    	ruling_party = national_corporatist
+		}
+	    set_party_name = { 
+        ideology = national_corporatist 		
+        long_name = PRS_Aufbau_Vereinigung_long 
+        name = PRS_Aufbau_Vereinigung	
+}		
+}				
 }
