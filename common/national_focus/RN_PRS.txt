@@ -684,7 +684,7 @@ focus_tree = {
 	#Focus for Resume the War for Silesia
 	focus = {
 		id = PRS_resume_the_war_for_silesia
-		icon = GFX_PRS_silesia_struggle
+		icon = PRS_anti_poles
 		x = 21
 		y = 5
 		cost = 10
@@ -1417,10 +1417,10 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Join the Russian Market
+	#Focus for Total War
 	focus = {
-		id = PRS_join_the_russian_market
-		icon = GFX_focus_Generic_Russian_market
+		id = PRS_total_war
+		icon = GFX_PRS_total_war
 		x = 20
 		y = 17
 		cost = 10
@@ -1444,7 +1444,7 @@ focus_tree = {
 		y = 18
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = PRS_join_the_russian_market }
+		prerequisite = { focus = PRS_total_war }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1559,7 +1559,7 @@ focus_tree = {
 	#Focus for The General Staff
 	focus = {
 		id = PRS_the_general_staff
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_general_staff
 		x = 29
 		y = 1
 		cost = 10
@@ -1572,7 +1572,7 @@ focus_tree = {
 	#Focus for The Prussian Traditions
 	focus = {
 		id = PRS_the_prussian_traditions
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_royal_army
 		x = 26
 		y = 2
 		cost = 10

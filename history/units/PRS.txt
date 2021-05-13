@@ -116,6 +116,12 @@ units = {
 		start_experience_factor = 0.1
 	}
 	division = {
+		name = "27th (Sudenteland) Infantry Division"
+		location = 6332
+		division_template = "Landwehr Division"
+		start_experience_factor = 0.1
+	}	
+	division = {
 		name = "21st Panzer Division"
 		location = 6390
 		division_template = "Panzerdivision"

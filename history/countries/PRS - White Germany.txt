@@ -118,6 +118,15 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Kurt Schumacher"
+	desc = "POLITICS_LEVITOV_DESC"
+	picture = "gfx/leaders/PRS/PRS_Schumacher.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
 	name = "Carl Goerdeler"
 	desc = "POLITICS_LEVITOV_DESC"
 	picture = "gfx/leaders/PRS/PRS_Goerdeler.tga"
