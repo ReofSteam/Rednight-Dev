@@ -590,5 +590,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_address_congress.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_CSA_denver_destiny"
+		texturefile = "gfx/interface/goals/CSA/CSA_denver_destiny.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_dangling_the_carrot"
+		texturefile = "gfx/interface/goals/CSA/CSA_dangling_the_carrot.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_spitting_wind"
+		texturefile = "gfx/interface/goals/CSA/CSA_spitting_wind.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_prepare_philly"
+		texturefile = "gfx/interface/goals/CSA/CSA_prepare_philly.dds"
+	}
 
 }
