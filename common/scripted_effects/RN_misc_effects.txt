@@ -8,9 +8,16 @@
 #
 
 ICBM_attack_destruction = {
+random_list = { 
+75 = {
+        modifier = {
+            factor = 0.3
+            anti_air_building < 5
+        }
+    set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
-	add_manpower -10000
+	add_manpower = -100000
 	remove_building = {
     type = infrastructure
     level = infrastructure_level	
@@ -18,6 +25,23 @@ ICBM_attack_destruction = {
 	NUC = {
 	set_state_controller = PREV
 	}
+controller = {
+state = 195
+news_event = { 
+id = worldnews.1000
+}
+}	
+}
+25 = {
+	add_manpower = -100000
+controller = {
+state = 195
+news_event = { 
+id = worldnews.1001
+}
+}	
+}
+}	
 }
 
 kill_sergey_taboritsky = {

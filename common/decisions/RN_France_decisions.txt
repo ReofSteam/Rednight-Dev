@@ -178,9 +178,6 @@ FRA_PARDAN_0_Petrogard = {
     fire_only_once = no
 	visible = { has_country_flag = FRA_ICBM_ready }
     available = { 
-	NOT = { 195 = {
-	has_state_flag = nuclear_destroyed 
-	} }
     has_country_flag = FRA_ICBM_ready
 }
     days_remove = 1
@@ -188,13 +185,12 @@ FRA_PARDAN_0_Petrogard = {
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
-	clr_country_flag = FRA_ICBM_ready
+	clr_country_flag = FRA_ICBM_ready	
     launch_nuke = {
-	province = 6174
 	state = 195
 	controller = RUS
 	use_nuke = yes
-}	
+}
     launch_nuke = {
 	state = 208
 	controller = RUS
@@ -209,40 +205,22 @@ FRA_PARDAN_0_Petrogard = {
 	state = 209
 	controller = RUS
 	use_nuke = yes
-}
-    random_list = { 
-75 = { 
+}	
 	195 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Petrogard"	
-	}
-	208 = {
-	ICBM_attack_destruction = yes
-}
-	244 = {
-	ICBM_attack_destruction = yes
-}
-	209 = {
-	ICBM_attack_destruction = yes
-	}	
-	
-}
-25 = {
-    195 = {
-	add_manpower = -10000
 	}
 	208 = {
 	ICBM_attack_destruction = yes	
-	}
+
+}
 	244 = {
 	ICBM_attack_destruction = yes
-	}
-	209 = {
-	ICBM_attack_destruction = yes
-	}	
-}	
-}	
 }
+	209 = {
+	ICBM_attack_destruction = yes	
+	}	
+	
+}		
 }
 FRA_PARDAN_0_Moscow = {
     days_re_enable = 7

@@ -568,3 +568,31 @@ news_event = { #Westheer:Evil
 		name = worldnews.26.a
 	}
 }
+
+news_event = { 
+	id = worldnews.1000
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1000" }
+
+	title = worldnews.t
+	desc = worldnews.1000.d
+	picture = GFX_news_war
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = worldnews.1000.a
+	}
+}
+
+news_event = { 
+	id = worldnews.1001
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.1001" }
+
+	title = worldnews.t
+	desc = worldnews.1001.d
+	picture = GFX_news_war
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = worldnews.1001.a
+	}
+}
