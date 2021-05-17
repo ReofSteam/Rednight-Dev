@@ -497,7 +497,7 @@ focus_tree = {
 	#Focus for Deutschordensstaat
 	focus = {
 		id = PRS_deutschordensstaat
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_teutonknight
 		x = 19
 		y = 1
 		cost = 10
@@ -516,7 +516,7 @@ focus_tree = {
 	#Focus for Rise for our imperial colour!
 	focus = {
 		id = PRS_rise_for_our_imperial_colour
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_black_red_gold_army
 		x = 17
 		y = 2
 		cost = 10
@@ -572,7 +572,7 @@ focus_tree = {
 	#Focus for Destroy the Prussian junkers
 	focus = {
 		id = PRS_destroy_the_prussian_junkers
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_anti_junker
 		x = 17
 		y = 3
 		cost = 10
@@ -670,7 +670,7 @@ focus_tree = {
 	#Focus for Raise the Reich flag!
 	focus = {
 		id = PRS_raise_the_reich_flag
-		icon = GFX_goal_unknown
+		icon = GFX_PRS_reichemblem
 		x = 21
 		y = 4
 		cost = 10

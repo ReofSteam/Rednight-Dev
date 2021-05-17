@@ -541,6 +541,22 @@ spriteTypes = {
 	SpriteType = { 
 		name = "PRS_anti_poles"
 		texturefile = "gfx/interface/goals/PRS/PRS_anti_poles.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_black_red_gold_army"
+		texturefile = "gfx/interface/goals/PRS/PRS_black_red_gold_army.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_anti_junker"
+		texturefile = "gfx/interface/goals/PRS/PRS_anti_junker.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_teutonknight"
+		texturefile = "gfx/interface/goals/PRS/PRS_teutonknight.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_PRS_reichemblem"
+		texturefile = "gfx/interface/goals/PRS/PRS_reichemblem.tga"
 	}		
 	############CSA
 	SpriteType = { 

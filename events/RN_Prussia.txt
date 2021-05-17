@@ -147,7 +147,9 @@ country_event = { ##### Revolt of the Westheer#######
 	option = {
 		name = prs.6.a
 		set_country_flag = PRS_civil_war
-		set_country_flag = Super_Event_Visible		
+		set_country_flag = Super_Event_Visible
+		play_song = "RNunsereheimat"
+		
 every_enemy_country = {
 limit = {
 has_civil_war = yes 
@@ -160,7 +162,7 @@ original_tag = PRS
     name = PRS_westheer_committee 
 }
 create_country_leader = {
-	name = "Wolf Graf von Baudissin"
+	name = "Wolf von Baudissin"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "gfx/leaders/PRS/PRS_Baudissin.tga"
 	expire = "1965.1.1"
@@ -762,7 +764,7 @@ create_country_leader = {
         name = PRS_DVP
 }		
 create_country_leader = {
-	name = "Wolf Graf von Baudissin"
+	name = "Wolf von Baudissin"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "gfx/leaders/PRS/PRS_von_baudissin2.tga"
 	expire = "1965.1.1"
@@ -814,6 +816,11 @@ country_event = {
 
 	option = {
 		name = prs.52.a	
+		set_country_flag = PRS_republic
+		set_country_flag = Super_Event_Visible
+		hidden_effect = {
+		play_song = "RNschumacher_republic"
+		}
 		set_politics = {
     	ruling_party = social_democrat
 		}		
@@ -838,5 +845,37 @@ country_event = {
         long_name = PRS_Aufbau_Vereinigung_long 
         name = PRS_Aufbau_Vereinigung	
 }		
+}				
+}
+
+country_event = {
+	id = prs.54
+	title = prs.54.t
+	desc = prs.54.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prs.54.a	
+		set_country_flag = PRS_christian_democracy
+		set_country_flag = Super_Event_Visible
+		hidden_effect = {
+		play_song = "RNschumacher_republic"
+		}
+		set_politics = {
+    	ruling_party = social_conservative
+		}		
+}
+	option = {
+		name = prs.54.b
+		set_country_flag = PRS_christian_democracy
+		set_country_flag = Super_Event_Visible
+		hidden_effect = {
+		play_song = "RNschumacher_republic"
+		}
+		set_politics = {
+    	ruling_party = social_liberal
+		}		
 }				
 }

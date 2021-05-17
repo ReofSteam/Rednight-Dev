@@ -209,6 +209,14 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_PRS_civil_war"
 	texturefile = "gfx/super_events/PRS_civil_war.tga"
+	}
+	spriteType = {
+	name = "GFX_SPEVNT_schumacher"
+	texturefile = "gfx/super_events/PRS_schumacher.tga"
+	}		
+	spriteType = {
+	name = "GFX_PRS_democratic_germany"
+	texturefile = "gfx/super_events/PRS_democratic_germany.tga"
 	}		
 ##########MARPAC Menu##########	
 	spriteType = {

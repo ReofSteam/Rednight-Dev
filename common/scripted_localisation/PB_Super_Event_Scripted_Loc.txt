@@ -43,6 +43,18 @@ defined_text = { #SUPER EVENT TITLES
             has_country_flag = PRS_civil_war
         }
         localization_key = "SPEVNT_PRS_civil_war"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = PRS_republic
+        }
+        localization_key = "KURT SCHUMACHER'S REPUBLIC"
+    }	
+    text = { 
+        trigger = {
+            has_country_flag = PRS_christian_democracy
+        }
+        localization_key = "GERMAN CHRISTIAN CONSTITUTIONALISM"
     }	
 }
 
@@ -90,6 +102,18 @@ defined_text = { #SUPER EVENT photo
             has_country_flag = PRS_civil_war
         }
         localization_key = "GFX_PRS_civil_war"
+    }	
+    text = { 
+        trigger = {
+            has_country_flag = PRS_republic
+        }
+        localization_key = "GFX_SPEVNT_schumacher"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = PRS_christian_democracy
+        }
+        localization_key = "GFX_PRS_democratic_germany"
     }	
 
 }

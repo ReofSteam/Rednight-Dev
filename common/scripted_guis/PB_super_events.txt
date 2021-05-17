@@ -38,7 +38,13 @@ scripted_gui = {
 						has_country_flag = America_first_day_of_peace
 					}
 					clr_country_flag  = America_first_day_of_peace
-				}				
+				}
+				if = {
+					limit = {	
+						has_country_flag = PRS_republic
+					}
+					clr_country_flag  = PRS_republic
+				}					
 			}
 		}
 	}
