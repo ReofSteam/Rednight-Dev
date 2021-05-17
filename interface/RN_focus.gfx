@@ -93,6 +93,14 @@ spriteTypes = {
         name = "GFX_focus_generic_the_family"
         texturefile = "gfx/interface/goals/generic/generic_the_family.tga"
     }	
+	SpriteType = { 
+        name = "GFX_focus_generic_calm_before_storm"
+        texturefile = "gfx/interface/goals/generic/focus_generic_calm_before_storm.dds"
+    }	
+	SpriteType = { 
+        name = "GFX_focus_generic_question"
+        texturefile = "gfx/interface/goals/generic/focus_generic_question.dds"
+    }	
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -598,5 +606,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_address_congress.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_CSA_denver_destiny"
+		texturefile = "gfx/interface/goals/CSA/CSA_denver_destiny.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_dangling_the_carrot"
+		texturefile = "gfx/interface/goals/CSA/CSA_dangling_the_carrot.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_spitting_wind"
+		texturefile = "gfx/interface/goals/CSA/CSA_spitting_wind.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_prepare_philly"
+		texturefile = "gfx/interface/goals/CSA/CSA_prepare_philly.dds"
+	}
 
 }

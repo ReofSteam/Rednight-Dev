@@ -173,7 +173,7 @@ focus_tree = {
 #Focus for The Calm Before the Storm
 	focus = {
 		id = CSA_the_calm_before_the_storm
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_calm_before_storm
 		x = 3
 		y = 7
 		cost = 10
@@ -268,7 +268,7 @@ focus_tree = {
 #Focus for Who to invite?
 	focus = {
 		id = CSA_who_to_invite
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_question
 		x = 1
 		y = 4
 		cost = 10
@@ -319,7 +319,7 @@ focus_tree = {
 #Focus for Denver's Destiny
 	focus = {
 		id = CSA_denvers_destiny
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_denver_destiny
 		x = 17
 		y = 3
 		cost = 10
@@ -500,7 +500,7 @@ focus_tree = {
 #Focus for Prepare Philidelphia
 	focus = {
 		id = CSA_prepare_philidelphia
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_prepare_philly
 		x = 3
 		y = 3
 		cost = 10
@@ -539,7 +539,7 @@ focus_tree = {
 #Focus for Spitting in the Wind
 	focus = {
 		id = CSA_spitting_in_the_wind
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_spitting_wind
 		x = 16
 		y = 2
 		cost = 10
@@ -558,7 +558,7 @@ focus_tree = {
 #Focus for Dangling the Carrot
 	focus = {
 		id = CSA_dangling_the_carrot
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_dangling_the_carrot
 		x = 7
 		y = 3
 		cost = 10
