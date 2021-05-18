@@ -358,7 +358,7 @@ focus_tree = {
 #Focus for A Dent in the Drain
 	focus = {
 		id = CSA_a_dent_in_the_drain
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_dent
 		x = 12
 		y = 5
 		cost = 10
@@ -483,7 +483,7 @@ focus_tree = {
 #Focus for An Argument with Comrade Thomas
 	focus = {
 		id = CSA_an_argument_with_comrade_thomas
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_Thomas
 		x = 4
 		y = 2
 		cost = 10
@@ -500,7 +500,7 @@ focus_tree = {
 #Focus for Prepare Philidelphia
 	focus = {
 		id = CSA_prepare_philidelphia
-		icon = GFX_CSA_prepare_philly #####GFX_focus_CSA_prepare_philly######
+		icon = GFX_focus_CSA_prepare_philly 
 		x = 3
 		y = 3
 		cost = 10
@@ -522,7 +522,7 @@ focus_tree = {
 	#Focus for A Chat with Comrade Flynn
 	focus = {
 		id = CSA_a_chat_with_comrade_flynn
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_Flynn
 		x = 2
 		y = 2
 		cost = 10

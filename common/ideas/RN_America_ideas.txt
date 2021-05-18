@@ -17,6 +17,7 @@ CSA_internal_war = {
 
 
 CSA_ruins = {
+	picture = CSA_east_ruins
 	modifier = {
    production_speed_buildings_factor = -0.7
    research_speed_factor = -0.5
@@ -26,6 +27,7 @@ CSA_ruins = {
 }
 
 CSA_divided_goverment = {
+	picture = CSA_divided_gov
 	modifier = {
    political_power_gain = -0.1
    stability_factor = -0.3

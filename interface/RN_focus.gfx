@@ -101,6 +101,12 @@ spriteTypes = {
         name = "GFX_focus_generic_question"
         texturefile = "gfx/interface/goals/generic/focus_generic_question.dds"
     }	
+
+	SpriteType = { 
+		name = "GFX_focus_generic_drain"
+		texturefile = "gfx/interface/goals/generic/focus_generic_drain.dds"
+	}
+
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -625,5 +631,21 @@ spriteTypes = {
 		name = "GFX_focus_CSA_prepare_philly"
 		texturefile = "gfx/interface/goals/CSA/CSA_prepare_philly.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_Flynn"
+		texturefile = "gfx/interface/goals/CSA/CSA_Flynn.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_Thomas"
+		texturefile = "gfx/interface/goals/CSA/CSA_Thomas.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CSA_dent"
+		texturefile = "gfx/interface/goals/CSA/CSA_dent.dds"
+	}
+
 
 }
