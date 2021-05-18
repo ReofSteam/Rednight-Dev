@@ -107,7 +107,6 @@ spriteType = {
 	texturefile = "gfx/interface/ideas/CSA/CSA_divided_gov.dds"
 }	
 
-
 spriteType = {
 	name = "GFX_idea_CSA_east_ruins"
 	texturefile = "gfx/interface/ideas/CSA/CSA_east_ruins.dds"

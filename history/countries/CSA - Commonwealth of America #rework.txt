@@ -9,6 +9,7 @@ add_ideas = {
 	CSA_ruins
 	CSA_divided_goverment
 	CSA_refugee_crisis
+	CSA_internal_war
 }
 
 hidden_ideas = {

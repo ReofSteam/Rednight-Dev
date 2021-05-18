@@ -107,6 +107,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic/focus_generic_drain.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_focus_generic_socialism"
+		texturefile = "gfx/interface/goals/generic/focus_generic_socialism.dds"
+	}
+
 ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
@@ -646,6 +651,12 @@ spriteTypes = {
 		name = "GFX_focus_CSA_dent"
 		texturefile = "gfx/interface/goals/CSA/CSA_dent.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_CSA_resume_debate"
+		texturefile = "gfx/interface/goals/CSA/CSA_resume_debate.dds"
+	}
+
 
 
 }

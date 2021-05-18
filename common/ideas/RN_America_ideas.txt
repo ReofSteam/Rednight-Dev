@@ -9,7 +9,7 @@ ideas = {
 CSA_internal_war = {
     modifier = {
    stability_factor = -0.3
-   conscription_factor = -0.4
+   conscription_factor = -0.2
    industry_repair_factor = -0.15
 	}
 }

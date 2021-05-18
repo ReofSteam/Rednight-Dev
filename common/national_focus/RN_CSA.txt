@@ -651,7 +651,7 @@ focus_tree = {
 #Focus for The Last Congress
 	focus = {
 		id = CSA_the_last_congress
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_socialism
 		x = 3
 		y = 1
 		cost = 10
@@ -777,6 +777,7 @@ focus_tree = {
 	#Focus for Resume the Debate
 	focus = {
 		id = CSA_resume_the_debate
+		icon = GFX_CSA_resume_debate
 		x = 13
 		y = 9
 		cost = 10
