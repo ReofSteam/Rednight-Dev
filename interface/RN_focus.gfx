@@ -657,6 +657,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_resume_debate.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_CSA_martyr"
+		texturefile = "gfx/interface/goals/CSA/CSA_martyr.dds"
+	}
 
+	SpriteType = { 
+		name = "GFX_CSA_browder"
+		texturefile = "gfx/interface/goals/CSA/CSA_browder.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_CSA_nat"
+		texturefile = "gfx/interface/goals/CSA/CSA_nat.dds"
+	}
 
 }

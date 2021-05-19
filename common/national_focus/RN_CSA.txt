@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = CSA
 	country = {
 		factor = 0
@@ -87,7 +87,7 @@ focus_tree = {
 #Focus for Respect Comrade Bryant
 	focus = {
 		id = CSA_respect_comrade_bryant
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_martyr
 		x = 20
 		y = 4
 		cost = 10
@@ -109,7 +109,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_flight_to_new_york }
 		completion_reward = {
-			country_event = csa.17
+			country_event = csa.15
 		}
 		ai_will_do = {
 			factor = 1
@@ -151,7 +151,7 @@ focus_tree = {
 #Focus for The Internal War
 	focus = {
 		id = CSA_the_internal_war
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_nat
 		x = 5
 		y = 6
 		cost = 10
@@ -252,7 +252,7 @@ focus_tree = {
 #Focus for Hand Browder the Keys
 	focus = {
 		id = CSA_hand_browder_the_keys
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_browder
 		x = 6
 		y = 5
 		cost = 10
@@ -429,9 +429,9 @@ focus_tree = {
 #Focus for Prioritize the Plains
 	focus = {
 		id = CSA_prioritize_the_plains
-		icon = GFX_focus_Generic_soviet_construction
-		x = 15
+		icon = GFX_goal_generic_construction2
 		y = 3
+		x = 15
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_spitting_in_the_wind }
