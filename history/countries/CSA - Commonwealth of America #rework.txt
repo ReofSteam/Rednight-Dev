@@ -74,6 +74,11 @@ id = csa.16
 days = 5
 }
 
+country_event = {
+	id = csa.91
+	days = 125
+	}
+
 set_popularities = {
     nationalist_socialism = 5
     revolutionary_socialism = 22 

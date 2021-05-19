@@ -35,6 +35,26 @@ country_event = { #The Last President
 
 }
 
+country_event = { #Anarchists surround congress, lovestone orders RSB to disperse
+	id = csa.91
+    title = csa.91.t
+    desc = csa.91.d
+	picture = GFX_FRA_may_putsch
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = csa.91.a 
+		add_political_power = 5
+	}
+
+	option = {
+		name = csa.91.b 
+		add_political_power = 5
+	}
+
+}
+
 
 ###3k nightmare
 
@@ -197,8 +217,8 @@ country_event = { #the last will and testament
 
 country_event = { #flight to new york
 	id = csa.14
-	title = csa.14
-	desc = csa.14.desc
+	title = csa.14.t
+	desc = csa.14.d
 	is_triggered_only = yes
 
 	option = {
@@ -1179,7 +1199,7 @@ country_event = { #the young republic
 }
 
 country_event = { #WIP constitutional convention shit 
-	id = csa.91
+	id = csa.92
     title = csa.91.t
     desc = csa.91.d
 	is_triggered_only = yes
