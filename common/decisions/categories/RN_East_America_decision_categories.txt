@@ -1,0 +1,13 @@
+CSA_arrest_troublemakers = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+
+	visible = { 
+	has_country_flag = arrest_troublemakers
+
+	}
+}
+

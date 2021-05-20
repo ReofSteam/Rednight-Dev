@@ -19,6 +19,7 @@
 		prerequisite = { focus = CSA_differing_interpretations }
 		completion_reward = {
 			country_event = csa.21
+			add_political_power = 20
 		}
 		ai_will_do = {
 			factor = 1
@@ -47,6 +48,7 @@
 		}
 		completion_reward = {
 			country_event = csa.84
+			add_political_power = 125
 		}
 	}
 
@@ -94,6 +96,9 @@
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_writing_the_speech }
 		mutually_exclusive = { focus = CSA_the_hall_of_heroes }
+		completion_reward = {
+			country_event = 
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -209,6 +214,7 @@
 		completion_reward = {
 			country_event = csa.84
 			news_event = worldnews.18
+			add_political_power = 30
 		}
 		ai_will_do = {
 			factor = 1
@@ -226,6 +232,8 @@
 		prerequisite = { focus = CSA_who_to_invite }
 		completion_reward = {
 			country_event = csa.82
+			add_political_power = 5
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -243,6 +251,8 @@
 		prerequisite = { focus = CSA_who_to_invite }
 		completion_reward = {
 			country_event = csa.83
+			add_stability = 0.05
+			set_country_flag = america_troublemakers
 		}
 		ai_will_do = {
 			factor = 1
@@ -327,6 +337,23 @@
 		prerequisite = { focus = CSA_spitting_in_the_wind }
 		completion_reward = {
 			country_event = csa.11
+			add_political_power = 15
+
+			382 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+
+			382 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -349,6 +376,8 @@
 		}
 		completion_reward = {
 			country_event = csa.12
+			add_political_power = 10
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -395,9 +424,9 @@
 			focus = CSA_any_volunteers 
 		}
 		completion_reward = {
-			add_manpower = 50
+			add_manpower = 5300
 			add_political_power = 40
-			add_stability = 0.15
+			add_stability = 0.5
 		}
 		ai_will_do = {
 			factor = 1
@@ -420,11 +449,53 @@
 		}
 		completion_reward = {
 			country_event = csa.9
+			add_stability = 0.1
+
+			388 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+				}
 		}
+
+		370 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+			}
+	}
+
+		381 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+			}
+	}
+
+	382 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+		}
+}
+
+	383 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+		}
+}
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
+}
 
 #Focus for Prioritize the Plains
 	focus = {
@@ -641,6 +712,7 @@
 		}
 		completion_reward = {
 			country_event = csa.6
+			add_political_power = 5
 		}
 		ai_will_do = {
 			factor = 1
@@ -712,7 +784,7 @@
 		}
 		completion_reward = {
 			country_event = csa.1
-			add_political_power = 0.2
+			add_political_power = 25
 			stability_factor = -0.1
 		}
 	}
@@ -751,6 +823,7 @@
 		}
 		completion_reward = {
 			country_event = csa.22
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1

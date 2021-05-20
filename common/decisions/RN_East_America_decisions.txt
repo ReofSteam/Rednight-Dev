@@ -1,0 +1,25 @@
+###########################
+#East America Decisions# WIP
+###########################
+
+CSA_arrest_troublemakers = {
+
+CSA_nationalist_radio_host = {
+	icon = generic_prepare_civil_war
+
+	allowed = {
+		tag = CSA
+	}
+
+
+	visible = {
+		has_country_flag = america_troublemakers
+	}
+
+	cost = 20
+	days_re_enable = 20
+
+	ai_will_do = {
+		factor = 75
+	}
+}

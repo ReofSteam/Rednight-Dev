@@ -16,6 +16,7 @@ country_event = { #new Dawn
 	
 	option = {
 		name = csa.16.a 
+		add_political_power = 0.15
 	}
 
 }
@@ -30,7 +31,7 @@ country_event = { #The Last President
 	
 	option = {
 		name = csa.1.a 
-		add_political_power = 25
+		add_political_power = 5
 	}
 
 }
@@ -251,11 +252,14 @@ country_event = { #hall of heroes & bryant
 	option = {
 		name = csa.17.a
 		complete_national_focus = CSA_respect_comrade_bryant
+		add_political_power = 0.05
 	}
 
 	option = {
 		name = csa.17.b
 		complete_national_focus = CSA_the_hall_of_heroes
+		add_political_power = 0.75
+		add_stability = 0.05
 	}
 
 }
