@@ -9,6 +9,7 @@ add_ideas = {
 	CSA_ruins
 	CSA_divided_goverment
 	CSA_refugee_crisis
+	CSA_internal_war
 }
 
 hidden_ideas = {
@@ -72,6 +73,11 @@ country_event = {
 id = csa.16
 days = 5
 }
+
+country_event = {
+	id = csa.91
+	days = 125
+	}
 
 set_popularities = {
     nationalist_socialism = 5

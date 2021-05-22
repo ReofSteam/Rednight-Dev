@@ -99,6 +99,19 @@ spriteTypes = {
 		name = "GFX_idea_FRA_beloved_liberty"
 		texturefile = "gfx/interface/ideas/FRA/FRA_beloved_liberty.tga"
 	}	
+
+###Socialist America
+
+spriteType = {
+	name = "GFX_idea_CSA_divided_gov"
+	texturefile = "gfx/interface/ideas/CSA/CSA_divided_gov.dds"
+}	
+
+spriteType = {
+	name = "GFX_idea_CSA_east_ruins"
+	texturefile = "gfx/interface/ideas/CSA/CSA_east_ruins.dds"
+}	
+
 ###Austria
 	spriteType = {
 		name = "GFX_idea_AUS_age_uncertainty"
@@ -235,6 +248,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CSA_CIA"
 		texturefile = "gfx/interface/ideas/CSA/CSA_CIA.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_CSA_refugees"
+		texturefile = "gfx/interface/ideas/CSA/CSA_refugees.dds"
 	}	
 
 ########Brazil

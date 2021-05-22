@@ -7,9 +7,11 @@ ideas = {
 	country = {
 
 CSA_internal_war = {
+	picture = CSA_CIA
     modifier = {
-   stability_factor = -0.3
-   conscription_factor = -0.4
+   stability_factor = -0.6
+   research_speed_factor = -0.3
+   political_power_gain = -0.2
    industry_repair_factor = -0.15
 	}
 }
@@ -17,18 +19,18 @@ CSA_internal_war = {
 
 
 CSA_ruins = {
+	picture = CSA_east_ruins
 	modifier = {
    production_speed_buildings_factor = -0.7
-   research_speed_factor = -0.5
-   production_speed_industrial_complex_factor = -0.2
 			 } 
 			 removal_cost = -1
 }
 
 CSA_divided_goverment = {
+	picture = CSA_divided_gov
 	modifier = {
-   political_power_gain = -0.1
-   stability_factor = -0.3
+   political_power_gain = -0.35
+   stability_factor = -0.1
    }
    removal_cost = -1
 }
@@ -42,10 +44,11 @@ America_new_year_peace = {
 		}
 
 CSA_refugee_crisis = {
+		picture = CSA_refugees
 		modifier = {
 			stability_weekly_factor = -0.05
-			war_support_factor = -0.8
-			political_power_gain = -0.15
+			war_support_factor = -0.3
+			political_power_gain = -0.45
 			monthly_population = -0.2
 			recruitable_population_factor = -0.4
 
@@ -55,10 +58,11 @@ CSA_refugee_crisis = {
 
 		CSA_refugee_crisis_improved = {
 			modifier = {
-				war_support_factor = -0.3
-				political_power_gain = -0.05
+				stability_weekly_factor = 
+				war_support_factor = -0.1
+				political_power_gain = -0.2
 				monthly_population = 0.1
-				recruitable_population_factor = 0.05
+				recruitable_population_factor = -0.2
 	
 						 } 
 						 removal_cost = -1

@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = CSA
 	country = {
 		factor = 0
@@ -19,6 +19,7 @@ focus_tree = {
 		prerequisite = { focus = CSA_differing_interpretations }
 		completion_reward = {
 			country_event = csa.21
+			add_political_power = 20
 		}
 		ai_will_do = {
 			factor = 1
@@ -47,6 +48,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.84
+			add_political_power = 125
 		}
 	}
 
@@ -87,13 +89,16 @@ focus_tree = {
 #Focus for Respect Comrade Bryant
 	focus = {
 		id = CSA_respect_comrade_bryant
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_martyr
 		x = 20
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_writing_the_speech }
 		mutually_exclusive = { focus = CSA_the_hall_of_heroes }
+		completion_reward = {
+			country_event = 
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -109,7 +114,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_flight_to_new_york }
 		completion_reward = {
-			country_event = csa.17
+			country_event = csa.15
 		}
 		ai_will_do = {
 			factor = 1
@@ -151,7 +156,7 @@ focus_tree = {
 #Focus for The Internal War
 	focus = {
 		id = CSA_the_internal_war
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_nat
 		x = 5
 		y = 6
 		cost = 10
@@ -209,6 +214,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = csa.84
 			news_event = worldnews.18
+			add_political_power = 30
 		}
 		ai_will_do = {
 			factor = 1
@@ -226,6 +232,8 @@ focus_tree = {
 		prerequisite = { focus = CSA_who_to_invite }
 		completion_reward = {
 			country_event = csa.82
+			add_political_power = 5
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -243,6 +251,8 @@ focus_tree = {
 		prerequisite = { focus = CSA_who_to_invite }
 		completion_reward = {
 			country_event = csa.83
+			add_stability = 0.05
+			set_country_flag = america_troublemakers
 		}
 		ai_will_do = {
 			factor = 1
@@ -252,7 +262,7 @@ focus_tree = {
 #Focus for Hand Browder the Keys
 	focus = {
 		id = CSA_hand_browder_the_keys
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_browder
 		x = 6
 		y = 5
 		cost = 10
@@ -327,6 +337,23 @@ focus_tree = {
 		prerequisite = { focus = CSA_spitting_in_the_wind }
 		completion_reward = {
 			country_event = csa.11
+			add_political_power = 15
+
+			382 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}
+
+			382 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -349,6 +376,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.12
+			add_political_power = 10
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -358,7 +387,7 @@ focus_tree = {
 #Focus for A Dent in the Drain
 	focus = {
 		id = CSA_a_dent_in_the_drain
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_dent
 		x = 12
 		y = 5
 		cost = 10
@@ -395,9 +424,9 @@ focus_tree = {
 			focus = CSA_any_volunteers 
 		}
 		completion_reward = {
-			add_manpower = 50
+			add_manpower = 5300
 			add_political_power = 40
-			add_stability = 0.15
+			add_stability = 0.5
 		}
 		ai_will_do = {
 			factor = 1
@@ -420,18 +449,60 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.9
+			add_stability = 0.1
+
+			388 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+				}
 		}
+
+		370 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+			}
+	}
+
+		381 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+			}
+	}
+
+	382 = {
+		add_building_construction = {
+			type = bunker
+			level = 3
+			instant_build = yes
+		}
+}
+
+	383 = {
+		add_building_construction = {
+			type = bunker
+			level = 1
+			instant_build = yes
+		}
+}
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
+}
 
 #Focus for Prioritize the Plains
 	focus = {
 		id = CSA_prioritize_the_plains
-		icon = GFX_focus_Generic_soviet_construction
-		x = 15
+		icon = GFX_goal_generic_construction2
 		y = 3
+		x = 15
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_spitting_in_the_wind }
@@ -483,7 +554,7 @@ focus_tree = {
 #Focus for An Argument with Comrade Thomas
 	focus = {
 		id = CSA_an_argument_with_comrade_thomas
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_Thomas
 		x = 4
 		y = 2
 		cost = 10
@@ -500,7 +571,7 @@ focus_tree = {
 #Focus for Prepare Philidelphia
 	focus = {
 		id = CSA_prepare_philidelphia
-		icon = GFX_CSA_prepare_philly #####GFX_focus_CSA_prepare_philly######
+		icon = GFX_focus_CSA_prepare_philly 
 		x = 3
 		y = 3
 		cost = 10
@@ -522,7 +593,7 @@ focus_tree = {
 	#Focus for A Chat with Comrade Flynn
 	focus = {
 		id = CSA_a_chat_with_comrade_flynn
-		icon = GFX_goal_unknown
+		icon = GFX_CSA_Flynn
 		x = 2
 		y = 2
 		cost = 10
@@ -641,6 +712,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.6
+			add_political_power = 5
 		}
 		ai_will_do = {
 			factor = 1
@@ -651,7 +723,7 @@ focus_tree = {
 #Focus for The Last Congress
 	focus = {
 		id = CSA_the_last_congress
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_socialism
 		x = 3
 		y = 1
 		cost = 10
@@ -712,7 +784,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.1
-			add_political_power = 0.2
+			add_political_power = 25
 			stability_factor = -0.1
 		}
 	}
@@ -751,6 +823,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = csa.22
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -777,6 +850,7 @@ focus_tree = {
 	#Focus for Resume the Debate
 	focus = {
 		id = CSA_resume_the_debate
+		icon = GFX_CSA_resume_debate
 		x = 13
 		y = 9
 		cost = 10

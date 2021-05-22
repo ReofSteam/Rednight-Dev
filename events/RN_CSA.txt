@@ -16,6 +16,7 @@ country_event = { #new Dawn
 	
 	option = {
 		name = csa.16.a 
+		add_political_power = 0.15
 	}
 
 }
@@ -30,7 +31,27 @@ country_event = { #The Last President
 	
 	option = {
 		name = csa.1.a 
-		add_political_power = 25
+		add_political_power = 5
+	}
+
+}
+
+country_event = { #Anarchists surround congress, lovestone orders RSB to disperse
+	id = csa.91
+    title = csa.91.t
+    desc = csa.91.d
+	picture = GFX_FRA_may_putsch
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = csa.91.a 
+		add_political_power = 5
+	}
+
+	option = {
+		name = csa.91.b 
+		add_political_power = 5
 	}
 
 }
@@ -197,8 +218,8 @@ country_event = { #the last will and testament
 
 country_event = { #flight to new york
 	id = csa.14
-	title = csa.14
-	desc = csa.14.desc
+	title = csa.14.t
+	desc = csa.14.d
 	is_triggered_only = yes
 
 	option = {
@@ -231,11 +252,14 @@ country_event = { #hall of heroes & bryant
 	option = {
 		name = csa.17.a
 		complete_national_focus = CSA_respect_comrade_bryant
+		add_political_power = 0.05
 	}
 
 	option = {
 		name = csa.17.b
 		complete_national_focus = CSA_the_hall_of_heroes
+		add_political_power = 0.75
+		add_stability = 0.05
 	}
 
 }
@@ -1179,7 +1203,7 @@ country_event = { #the young republic
 }
 
 country_event = { #WIP constitutional convention shit 
-	id = csa.91
+	id = csa.92
     title = csa.91.t
     desc = csa.91.d
 	is_triggered_only = yes
