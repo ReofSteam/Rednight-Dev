@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "FRA_ICBM_control"
-		size = { width = 581 height = 427 }
+		size = { width = 581 height = 300 }
 		position = { x=0 y=0 }
 		Orientation = center
 		Origo = center
@@ -11,8 +11,8 @@ guiTypes = {
 		iconType = {
 			name ="FRA_ICBM_control_picture"
 			spriteType = "GFX_ICBM_menu"
-			position = { x = 35 y = -100 }
-			#size = {width = 200 height = 200}
+			position = { x = 0 y = 0 }
+			#size = {width = 200 height = 100}
 			scale = 0.657
 		}
 

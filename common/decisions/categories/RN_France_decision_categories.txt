@@ -8,6 +8,8 @@ FRA_ICBM_activation = {
 	has_global_flag = PARDAN_0_international
 
 	}
+	scripted_gui = RN_ICBM_decision_menu 
+	visible_when_empty = yes
 }
 FRA_palace_of_fraternity = {
 	icon = GFX_decision_generic_nuke

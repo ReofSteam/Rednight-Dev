@@ -81,7 +81,7 @@ FRA_national_corporatist_party:0 "Parti Communautaire National"
 FRA_national_corporatist_party_long:0 "National Community Party"
 ### Decision ####
 FRA_ICBM_activation:0 "La Patrie en danger"
-FRA_ICBM_activation_desc:0 "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+FRA_ICBM_activation_desc:0 ""
 FRA_confirm_order:0 "Confirm Order"
 FRA_confirm_authorisation_code:0 "Confirm Authorisation Code"
 FRA_set_launch_calculation:0 "Set Launch Calculations" 

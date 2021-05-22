@@ -28,7 +28,7 @@ scripted_gui = {
         parent_window_token = decision_tab
         window_name = "FRA_ICBM_control"
        	visible = {
-		has_global_flag = PARDAN_0_international  	
+		always = no 	
        	}
 	}
 }

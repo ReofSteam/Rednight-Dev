@@ -12,8 +12,8 @@ random_list = {
 75 = {
         modifier = {
             factor = 0.3
-            anti_air_building < 5
-        }
+            anti_air_building > 5
+        }		
     set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
@@ -29,6 +29,7 @@ controller = {
 state = 195
 news_event = { 
 id = worldnews.1000
+hours = 16
 }
 }	
 }
@@ -38,6 +39,7 @@ controller = {
 state = 195
 news_event = { 
 id = worldnews.1001
+hours = 16
 }
 }	
 }
