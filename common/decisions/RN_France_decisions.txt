@@ -178,6 +178,9 @@ FRA_PARDAN_0_Petrogard = {
     fire_only_once = no
 	visible = { has_country_flag = FRA_ICBM_ready }
     available = { 
+	NOT = { 195 = {
+	has_state_flag = nuclear_destroyed 
+	} }	
     has_country_flag = FRA_ICBM_ready
 }
     days_remove = 1
@@ -278,20 +281,10 @@ FRA_PARDAN_0_Moscow = {
 	}
 	254 = {
 	ICBM_attack_destruction = yes
-	}	
-    random_list = { 
-45 = { 
+	}	 
 	219 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Moscow"	
-	}	
-}
-55 = {
-    219 = {
-	add_manpower = -10000
-	}	
-}	
-}	
+	}		
 }
 }
 FRA_PARDAN_0_crimea = {
@@ -345,20 +338,10 @@ FRA_PARDAN_0_crimea = {
 	}
 	254 = {
 	ICBM_attack_destruction = yes
-	}	
-    random_list = { 
-80 = { 
+	}	 
 	137 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Sevastopol"	
 	}	
-}
-20 = {
-    137 = {
-	add_manpower = -10000
-	}	
-}	
-}	
 }
 }
 FRA_PARDAN_0_kiev = {
@@ -407,20 +390,10 @@ FRA_PARDAN_0_kiev = {
 	203 = {
 	ICBM_attack_destruction = yes
 	}	
-    random_list = { 
-80 = { 
 	202 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Kiev"	
-	}	
-}
-20 = {
-    202 = {
-	add_manpower = -10000
-	}	
+	}		
 }	
-}	
-}
 }
 FRA_PARDAN_0_tsaritsyn  = {
     days_re_enable = 7
@@ -468,19 +441,9 @@ FRA_PARDAN_0_tsaritsyn  = {
 	245 = {
 	ICBM_attack_destruction = yes
 	}	
-    random_list = { 
-80 = { 
 	217 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of tsaritsyn"	
-	}	
-}
-20 = {
-    217 = {
-	add_manpower = -10000
-	}	
-}	
-}	
+	}		
 }
 }
 FRA_PARDAN_0_baltic = {
