@@ -25,19 +25,43 @@ random_list = {
 	NUC = {
 	set_state_controller = PREV
 	}
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
 controller = {
 news_event = { 
 id = worldnews.1000
 }
 }	
 }
+}
 25 = {
-	add_manpower = -200000	
+add_manpower = -200000	
+if = {
+    limit = {
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
 controller = {
 news_event = { 
 id = worldnews.1001
 }
 }	
+}
 }
 }	
 }
