@@ -879,3 +879,38 @@ country_event = {
 		}		
 }				
 }
+
+country_event = {
+	id = prs.55
+	title = prs.55.t
+	desc = prs.55.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.55.a		
+	remove_unit_leader = 4
+	remove_unit_leader = 5	
+	add_timed_idea = {
+    idea = PRS_long_knives
+    days = 80
+}
+}		
+		
+}
+
+country_event = {
+	id = prs.56
+	title = prs.56.t
+	desc = prs.53.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.56.a		
+
+}		
+		
+}

@@ -596,3 +596,4 @@ news_event = {
 		name = worldnews.1001.a
 	}
 }
+
