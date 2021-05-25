@@ -185,10 +185,11 @@ FRA_PARDAN_0_Petrogard = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
-	clr_country_flag = FRA_ICBM_ready	
     launch_nuke = {
 	state = 195
 	controller = RUS
@@ -237,6 +238,8 @@ FRA_PARDAN_0_Moscow = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -299,6 +302,8 @@ FRA_PARDAN_0_crimea = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -356,6 +361,8 @@ FRA_PARDAN_0_kiev = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -407,6 +414,8 @@ FRA_PARDAN_0_tsaritsyn  = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -458,6 +467,8 @@ FRA_PARDAN_0_baltic = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -492,18 +503,10 @@ FRA_PARDAN_0_baltic = {
 	189 = {
 	ICBM_attack_destruction = yes
 	}	
-    random_list = { 
-80 = { 
+    random_list = {  
 	13 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Tallinn"	
-	}	
-}
-20 = {
-    13 = {
-	add_manpower = -10000
-	}	
-}	
+	}			
 }	
 }
 }
@@ -519,6 +522,8 @@ FRA_PARDAN_0_arkhangelsk = {
 }
     days_remove = 1
 	complete_effect = {
+	clr_country_flag = FRA_ICBM_ready	
+	
 }	
     remove_effect = {
 	set_country_flag = FRA_ICBM_stage2	
@@ -552,24 +557,13 @@ FRA_PARDAN_0_arkhangelsk = {
 }
 	400 = {
 	ICBM_attack_destruction = yes
-	}	
-    random_list = { 
-80 = { 
+	}	 
 	214 = { 
 	ICBM_attack_destruction = yes
-    set_state_name = "Ruins of Arkhangelsk"	
-	}	
-}
-20 = {
-    214 = {
-	add_manpower = -10000
-	}	
-}	
+	}		
 }	
 }
 }
-}
-
 FRA_avenue_of_social_revolution = { 
 FRA_expand_boulevard_beaumarchais = {
     fire_only_once = yes

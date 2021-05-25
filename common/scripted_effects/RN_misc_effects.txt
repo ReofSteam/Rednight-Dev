@@ -8,6 +8,11 @@
 #
 
 ICBM_attack_destruction = {
+set_temp_variable = { temp1 = 0 }
+set_temp_variable = { temp2 = PREV@state_population }
+subtract_from_temp_variable = { temp1 = temp2 }
+
+hidden_effect = {
 random_list = { 
 75 = {
         modifier = {
@@ -17,7 +22,7 @@ random_list = {
     set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
-	add_manpower = -200000
+	add_manpower = -1500000
 	remove_building = {
     type = infrastructure
     level = infrastructure_level	
@@ -64,6 +69,7 @@ id = worldnews.1001
 }
 }
 }	
+}
 }
 
 kill_sergey_taboritsky = {
@@ -125,3 +131,5 @@ FRA_reformeter_check_2 = {
 		round_temp_variable = temp5
         set_variable = { FRA_reform_value2 = temp5 }	
 }
+
+

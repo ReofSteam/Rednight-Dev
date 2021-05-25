@@ -1213,3 +1213,32 @@ country_event = { #WIP constitutional convention shit
 	}
 
 }
+
+#########Super
+country_event = { 
+	id = csa.1000
+    title = csa.1000.t
+    desc = csa.1000.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.91.a 
+		set_country_flag = CSA_denver_destroyed
+		set_country_flag = Super_Event_Visible
+	}
+
+}
+
+country_event = { 
+	id = csa.1001
+    title = csa.1001.t
+    desc = csa.1001.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.91.a 
+		set_country_flag = CSA_b_52_nuke
+		set_country_flag = Super_Event_Visible
+	}
+
+}

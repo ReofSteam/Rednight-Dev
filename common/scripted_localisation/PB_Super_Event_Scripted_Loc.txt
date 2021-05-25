@@ -56,6 +56,18 @@ defined_text = { #SUPER EVENT TITLES
         }
         localization_key = "GERMAN CHRISTIAN CONSTITUTIONALISM"
     }	
+    text = { 
+        trigger = {
+            has_country_flag = CSA_denver_destroyed
+        }
+        localization_key = "NUCLEAR TERRORISM IN DENVER"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = CSA_b_52_nuke
+        }
+        localization_key = "WORKERS AIR FORCES LAUNCH RETALIATION"
+    }	
 }
 
 defined_text = { #SUPER EVENT photo
@@ -114,6 +126,18 @@ defined_text = { #SUPER EVENT photo
             has_country_flag = PRS_christian_democracy
         }
         localization_key = "GFX_PRS_democratic_germany"
+    }	
+    text = { 
+        trigger = {
+            has_country_flag = CSA_denver_destroyed
+        }
+        localization_key = "GFX_CSA_denver_destroyed"
+    }
+    text = { 
+        trigger = {
+            has_country_flag = CSA_b_52_nuke
+        }
+        localization_key = "GFX_CSA_b_52_nuke"
     }	
 
 }

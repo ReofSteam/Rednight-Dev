@@ -217,7 +217,15 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_PRS_democratic_germany"
 	texturefile = "gfx/super_events/PRS_democratic_germany.tga"
-	}		
+	}
+	spriteType = {
+	name = "GFX_CSA_b_52_nuke"
+	texturefile = "gfx/super_events/CSA_b_52.tga"
+	}
+	spriteType = {
+	name = "GFX_CSA_denver_destroyed"
+	texturefile = "gfx/super_events/CSA_nuclear_fallout_aftermath.tga"
+	}	
 ##########MARPAC Menu##########	
 	spriteType = {
 	name = "GFX_marpac_button"
