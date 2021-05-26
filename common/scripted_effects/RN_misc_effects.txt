@@ -17,7 +17,15 @@ random_list = {
 75 = {
         modifier = {
             factor = 0.3
+            anti_air_building > 3
+        }	
+        modifier = {
+            factor = 0.2
             anti_air_building > 5
+        }
+        modifier = {
+            factor = 0.1
+            anti_air_building > 8
         }		
     set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
