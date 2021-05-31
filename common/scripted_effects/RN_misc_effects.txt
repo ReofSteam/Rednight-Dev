@@ -8,26 +8,34 @@
 #
 
 ICBM_attack_destruction = {
-set_temp_variable = { temp1 = 0 }
-set_temp_variable = { temp2 = PREV@state_population }
-subtract_from_temp_variable = { temp1 = temp2 }
-
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
+set_variable = { ROOT.nuclear_name_1 = THIS.id }
+}
 hidden_effect = {
 random_list = { 
 75 = {
         modifier = {
             factor = 0.3
-            anti_air_building > 3
+            anti_air_building > 2
         }	
         modifier = {
             factor = 0.2
-            anti_air_building > 5
+            anti_air_building > 3
         }
         modifier = {
             factor = 0.1
-            anti_air_building > 8
+            anti_air_building > 4
         }		
-    set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
 	add_manpower = -1500000
@@ -140,4 +148,7 @@ FRA_reformeter_check_2 = {
         set_variable = { FRA_reform_value2 = temp5 }	
 }
 
+name_variable = {
+set_variable = { nuclear_name = THIS.id }
+}
 

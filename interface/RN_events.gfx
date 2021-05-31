@@ -289,6 +289,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_news_RUS_victory"
 		texturefile = "gfx/event_pictures/news_russian_victory.dds"
+	}	
+	spriteType = { 
+		name = "GFX_news_nuclear_cloud"
+		texturefile = "gfx/event_pictures/news_nuclear_cloud.tga"
 	}		
 		
 }

@@ -80,8 +80,4 @@ defined_text = {
 		localization_key = news_headline_9
 	}	
 
-	#### VANILA
-	text = {
-		localization_key = news_headline_0
-	}
 }

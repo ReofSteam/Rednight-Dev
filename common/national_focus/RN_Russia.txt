@@ -7,19 +7,6 @@ focus_tree = {
 			tag = RUS
 		}
 	}
-	#Focus for Purge the Monarchists
-	focus = {
-		id = RUS_purge_the_monarchists
-		icon = GFX_focus_rom_abdicate
-		x = 3
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_the_party_state }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Night of the Widows
 	focus = {
@@ -203,8 +190,8 @@ focus_tree = {
 	focus = {
 		id = RUS_ministry_of_reunited_territories
 		icon = GFX_goal_unknown
-		x = 5
-		y = 4
+		x = 1
+		y = 3
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_loyal_minorities_system }
@@ -213,12 +200,12 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Resotration of Cossack Autonomies
+	#Focus for Minorities vs Minorities
 	focus = {
-		id = RUS_resotration_of_cossack_autonomies
+		id = RUS_minorities_against_minorities
 		icon = GFX_goal_unknown
-		x = 5
-		y = 5
+		x = 1
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_ministry_of_reunited_territories }
@@ -231,35 +218,17 @@ focus_tree = {
 	focus = {
 		id = RUS_national_ethnicities_commission
 		icon = GFX_goal_unknown
-		x = 5
-		y = 6
+		x = 1
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_resotration_of_cossack_autonomies }
+		prerequisite = { focus = RUS_minorities_against_minorities }
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
 
-	#Focus for We can not forgive
-	focus = {
-		id = RUS_we_can_not_forgive
-		icon = GFX_goal_unknown
-		x = 3
-		y = 7
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = RUS_national_ethnicities_commission 
-		}
-		prerequisite = { 
-			focus = RUS_purge_the_monarchists 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	#Focus for The Yusopov Decrees
 	focus = {
@@ -334,19 +303,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Racial Reconciliation
-	focus = {
-		id = RUS_purge_the_radicals
-		icon = GFX_RUS_purge_the_black_hundreds
-		x = 13
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_true_democrats }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Jewish Settlement Program
 	focus = {
@@ -443,8 +399,8 @@ focus_tree = {
 	focus = {
 		id = RUS_new_industrial_zones
 		icon = GFX_goal_generic_construction2
-		x = 7
-		y = 5
+		x = 5
+		y = 3
 		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_5_years_plan }
@@ -458,152 +414,35 @@ focus_tree = {
 }	
 	}
 
-	#Focus for State Teutophobia
 	focus = {
-		id = RUS_state_teutophobia
-		icon = GFX_RUS_state_teutophobia
-		x = 3
-		y = 2
+		id = RUS_end_to_war_economy
+		icon = GFX_RUS_levitovs_council
+		x = 8
+		y = 1
 		cost = 10
-			select_effect = {
-			country_event = {
-				id = rus.40
-				days = 2
-			}
-			country_event = {
-				id = rus.41
-				days = 7
-			}
-			country_event = {
-				id = rus.42
-				days = 21
-			}
-		country_event = {
-				id = rus.43
-				days = 40
-			}	
-		}	
+		prerequisite = { 
+			focus = RUS_skoblins_council  
+		}		
+		available = {
+		}
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_the_savinkovist }
 		ai_will_do = {
 			factor = 1
 		}
-	completion_reward = {
-	country_event = {
-				id = rus.44
-			}
-}	
-	}
-
-	#Racial Unity
-	focus = {
-		id = RUS_racial_reconciliation
-		icon = GFX_focus_focus_fra_national_resistance_council
-		x = 13
-		y = 2
-		cost = 10
-		select_effect = {
-			country_event = {
-				id = rus.46
-				days = 2
-			}
-			country_event = {
-				id = rus.47
-				days = 7
-			}
-			country_event = {
-				id = rus.48
-				days = 21
-			}
-		country_event = {
-				id = rus.49
-				days = 40
-			}	
-		}			
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_the_ilyinists }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-		country_event = {
-		id = rus.50
-	}	
-	}	
-	}
-
-	#Focus for Russian Purity
-	focus = {
-		id = RUS_russian_purity
-		icon = GFX_RUS_russian_purity
-		x = 15
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_racial_reconciliation }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for New Russian Man
-	focus = {
-		id = RUS_new_russian_man
-		icon = GFX_RUS_new_russian_man
-		x = 1
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_state_teutophobia }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Spiritual Education
-	focus = {
-		id = RUS_spiritual_education
-		icon = GFX_focus_generic_military_academy
-		x = 15
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_russian_purity }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Political Soldiers
-	focus = {
-		id = RUS_political_soldiers
-		icon = GFX_RUS_political_soldiers
-		x = 1
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_new_russian_man }
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-		country_event = rus.80
-		add_idea = RUS_political_officers_corps
-	}	
 	}
 
 	#Focus for 5 Years Plan
 	focus = {
 		id = RUS_5_years_plan
 		icon = GFX_RUS_five_years
-		x = 8
-		y = 4
+		x = 6
+		y = 2
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = RUS_loyal_minorities_system 
-			focus = RUS_allrussian_people 
+			focus = RUS_end_to_war_economy  
 		}
+		mutually_exclusive = { focus = RUS_free_enterprise }
 		ai_will_do = {
 			factor = 1
 		}
@@ -625,8 +464,8 @@ focus_tree = {
 	focus = {
 		id = RUS_siberian_plan
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 7
-		y = 6
+		x = 5
+		y = 4
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_new_industrial_zones }
@@ -654,8 +493,8 @@ focus_tree = {
 	focus = {
 		id = RUS_corporatist_agarian_reform
 		icon = GFX_RUS_corporatist_agarian_reform
-		x = 9
-		y = 5
+		x = 7
+		y = 3
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_5_years_plan }
@@ -672,8 +511,8 @@ focus_tree = {
 	focus = {
 		id = RUS_rural_electrification_program
 		icon = GFX_ENG_all_your_valleys_call_you
-		x = 9
-		y = 6
+		x = 7
+		y = 4
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_corporatist_agarian_reform }
@@ -683,6 +522,214 @@ focus_tree = {
 		completion_reward = {
 		add_political_power = 25		
 		set_country_flag = RUS_rural_electrification				
+	}	
+	}
+
+	focus = {
+		id = RUS_free_enterprise
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 10
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_end_to_war_economy }
+		mutually_exclusive = { focus = RUS_5_years_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+	focus = {
+		id = RUS_breaking_down_estates
+		icon = GFX_RUS_land_reform2
+		x = 9
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_free_enterprise }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}	
+	focus = {
+		id = RUS_peasant_bank
+		icon = GFX_RUS_peasant_bank
+		x = 9
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_breaking_down_estates }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+	focus = {
+		id = RUS_focus_on_cities
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 11
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_free_enterprise }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}	
+	focus = {
+		id = RUS_american_mission
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 11
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_focus_on_cities }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_national_knighthood
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 14
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_skoblins_council }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_fairness_no_equality
+		icon = GFX_RUS_fairness_no_equality
+		x = 13
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_national_knighthood }
+		mutually_exclusive = { focus = RUS_honour_the_heroes }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_services_to_tired
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 13
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_fairness_no_equality }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_regenerate_civil_society
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 13
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_services_to_tired }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_patriot_knights
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 15
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_honour_the_heroes }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}	
+
+	focus = {
+		id = RUS_blood_conquer_rights
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 15
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_patriot_knights }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}
+
+	focus = {
+		id = RUS_chivalry_and_might
+		icon = GFX_ENG_all_your_valleys_call_you
+		x = 14
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_blood_conquer_rights }
+		prerequisite = { focus = RUS_regenerate_civil_society }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
+	}	
+	}	
+
+	focus = {
+		id = RUS_honour_the_heroes
+		icon = GFX_RUS_honour_heroes
+		x = 15
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = RUS_national_knighthood }
+		mutually_exclusive = { focus = RUS_fairness_no_equality}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		add_political_power = 25		
 	}	
 	}
 
@@ -702,52 +749,17 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Savinkovist
-	focus = {
-		id = RUS_the_savinkovist
-		icon = GFX_RUS_the_savinkovist
-		x = 4
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		available = {				
-			}	
-
-		prerequisite = { focus = RUS_skoblins_council }
-		mutually_exclusive = { focus = RUS_the_ilyinists }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Ilyinists
-	focus = {
-		id = RUS_the_ilyinists
-		icon = GFX_RUS_the_ilyinists
-		x = 12
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		available = {
-		}
-		prerequisite = { focus = RUS_skoblins_council }
-		mutually_exclusive = { focus = RUS_the_savinkovist }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Russian National
 	focus = {
 		id = RUS_russian_national
 		icon = GFX_RUS_russian_national
-		x = 8
-		y = 2
+		x = 2
+		y = 1
 		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = RUS_the_savinkovist 
-			focus = RUS_the_ilyinists 
+			focus = RUS_skoblins_council 
 		}
 		ai_will_do = {
 			factor = 1
@@ -805,26 +817,13 @@ focus_tree = {
 		}
 	}
 
-	#Focus for The Third Way
-	focus = {
-		id = RUS_soldiers_honour
-		icon = GFX_focus_usa_voter_registration_act
-		x = 13
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_racial_reconciliation }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Loyal Minorities System
 	focus = {
 		id = RUS_loyal_minorities_system
 		icon = GFX_RUS_loyal_minorities_system
-		x = 7
-		y = 3
+		x = 1
+		y = 2
 		cost = 10
 		available_if_capitulated = yes
 		available = {
@@ -848,8 +847,8 @@ focus_tree = {
 	focus = {
 		id = RUS_allrussian_people
 		icon = GFX_focus_generic_diplomatic_treaty
-		x = 9
-		y = 3
+		x = 3
+		y = 2
 		cost = 10
 		available = {
 		has_country_flag = RUS_national_unity
@@ -868,47 +867,8 @@ focus_tree = {
 	}	
 	}
 
-	#Focus for Nothing But The State
-	focus = {
-		id = RUS_second_april_decrees
-		icon = GFX_goal_generic_political_pressure
-		x = 3
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_state_teutophobia }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
-	#Focus for True Democrats
-	focus = {
-		id = RUS_true_democrats
-		icon = GFX_goal_continuous_restrict_freedom
-		x = 13
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_soldiers_honour }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
-	#Focus for The Party State
-	focus = {
-		id = RUS_the_party_state
-		icon = GFX_RUS_the_party_state
-		x = 3
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = RUS_second_april_decrees }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for The Eurasian Living Space
 	focus = {
@@ -1969,8 +1929,8 @@ focus_tree = {
 	focus = {
 		id = RUS_miracle_of_russian_statehood
 		icon = GFX_goal_unknown
-		x = 11
-		y = 4
+		x = 3
+		y = 3
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_allrussian_people }
@@ -1982,8 +1942,8 @@ focus_tree = {
 	focus = {
 		id = RUS_to_honour_all
 		icon = GFX_goal_unknown
-		x = 11
-		y = 5
+		x = 3
+		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_miracle_of_russian_statehood }
@@ -1996,8 +1956,8 @@ focus_tree = {
 	focus = {
 		id = RUS_to_reconcile_all
 		icon = GFX_goal_unknown
-		x = 11
-		y = 6
+		x = 3
+		y = 5
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = RUS_to_honour_all }
@@ -2005,23 +1965,6 @@ focus_tree = {
 			factor = 1
 		}
 	}	
-	#Focus for Freedom of the Russians
-	focus = {
-		id = RUS_freedom_of_the_russians
-		icon = GFX_goal_unknown
-		x = 13
-		y = 7
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = RUS_purge_the_radicals
-		}
-		prerequisite = { 
-			focus = RUS_to_reconcile_all 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 #End of focuses 
  }

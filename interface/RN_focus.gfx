@@ -672,4 +672,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_nat.dds"
 	}
 
+########RUS
+
+	SpriteType = { 
+		name = "GFX_RUS_fairness_no_equality"
+		texturefile = "gfx/interface/goals/RUS/RUS_fairness_no_equality.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_RUS_honour_heroes"
+		texturefile = "gfx/interface/goals/RUS/RUS_honour_heroes.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_RUS_land_reform2"
+		texturefile = "gfx/interface/goals/RUS/RUS_land_reform2.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_RUS_peasant_bank"
+		texturefile = "gfx/interface/goals/RUS/RUS_peasant_bank.tga"
+	}		
+
 }

@@ -580,6 +580,7 @@ news_event = {
 	is_triggered_only = yes
 	option = {
 		name = worldnews.1000.a
+		clear_variable = nuclear_name_1
 	}
 }
 
@@ -589,11 +590,12 @@ news_event = {
 
 	title = worldnews.t
 	desc = worldnews.1001.d
-	picture = GFX_news_war
+	picture = GFX_news_nuclear_cloud
 	major = yes
 	is_triggered_only = yes
 	option = {
 		name = worldnews.1001.a
+		clear_variable = nuclear_name_1		
 	}
 }
 
