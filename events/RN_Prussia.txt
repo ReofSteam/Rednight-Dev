@@ -894,7 +894,7 @@ country_event = {
 	id = prs.55
 	title = prs.55.t
 	desc = prs.55.d
-	picture = GFX_report_event_fascist_gathering
+	picture = GFX_German_army_patrol
 	hidden = yes
 	is_triggered_only = yes
 
@@ -929,7 +929,7 @@ country_event = {
 	id = prs.57
 	title = prs.57.t
 	desc = prs.57.d
-	picture = GFX_report_event_fascist_gathering
+	picture = GFX_German_army_patrol
 	hidden = yes
 	is_triggered_only = yes
 

@@ -67,6 +67,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_german_army_evil"
 		texturefile = "gfx/event_pictures/evil_german_army.dds"
+	}	
+	spriteType = { 
+		name = "GFX_German_army_patrol"
+		texturefile = "gfx/event_pictures/German_army_patrol.tga"
 	}		
 #######GEA
 		spriteType = { 
