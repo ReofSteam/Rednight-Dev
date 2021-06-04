@@ -672,4 +672,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_nat.dds"
 	}
 
+	SpriteType = { 
+		name = "GFX_CSA_internal_troops"
+		texturefile = "gfx/interface/goals/CSA/CSA_internal_troops.dds"
+	}
+
 }
