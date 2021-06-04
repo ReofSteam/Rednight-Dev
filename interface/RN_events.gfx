@@ -67,6 +67,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_german_army_evil"
 		texturefile = "gfx/event_pictures/evil_german_army.dds"
+	}	
+	spriteType = { 
+		name = "GFX_German_army_patrol"
+		texturefile = "gfx/event_pictures/German_army_patrol.tga"
 	}		
 #######GEA
 		spriteType = { 
@@ -289,6 +293,10 @@ spriteTypes = {
 	spriteType = { 
 		name = "GFX_news_RUS_victory"
 		texturefile = "gfx/event_pictures/news_russian_victory.dds"
+	}	
+	spriteType = { 
+		name = "GFX_news_nuclear_cloud"
+		texturefile = "gfx/event_pictures/news_nuclear_cloud.tga"
 	}		
 		
 }

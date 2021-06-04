@@ -1391,7 +1391,7 @@ focus_tree = {
 
 	#Focus for Troops for Industry
 	focus = {
-		id = PRS_troops_for_industry
+		id = PRS_labour_valour_honour
 		icon = GFX_focus_generic_industry_3
 		x = 19
 		y = 16
@@ -1405,8 +1405,8 @@ focus_tree = {
 
 	#Focus for Surrender Czechia
 	focus = {
-		id = PRS_surrender_czechia
-		icon = GFX_focus_CZE_german_puppet
+		id = PRS_the_order
+		icon = GFX_PRS_teutonknight
 		x = 21
 		y = 16
 		cost = 10
@@ -1426,10 +1426,10 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = PRS_surrender_czechia 
+			focus = PRS_the_order 
 		}
 		prerequisite = { 
-			focus = PRS_troops_for_industry 
+			focus = PRS_labour_valour_honour 
 		}
 		ai_will_do = {
 			factor = 1

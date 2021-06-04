@@ -845,8 +845,18 @@ country_event = {
         long_name = PRS_Aufbau_Vereinigung_long 
         name = PRS_Aufbau_Vereinigung	
 }		
+create_country_leader = {
+	name = "Alfred Rosenberg" 
+	desc = "POLITICS_ROSENBERG_DESC"
+	picture = "gfx/leaders/PRS/PRS_Rosenberg.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = { }
+}
 }				
 }
+
+
 
 country_event = {
 	id = prs.54
@@ -878,4 +888,86 @@ country_event = {
     	ruling_party = social_liberal
 		}		
 }				
+}
+
+country_event = {
+	id = prs.55
+	title = prs.55.t
+	desc = prs.55.d
+	picture = GFX_German_army_patrol
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.55.a		
+	remove_unit_leader = 4
+	remove_unit_leader = 5	
+	add_timed_idea = {
+    idea = PRS_long_knives
+    days = 80
+}
+}		
+		
+}
+
+country_event = {
+	id = prs.56
+	title = prs.56.t
+	desc = prs.53.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.56.a		
+
+}		
+		
+}
+
+country_event = {
+	id = prs.57
+	title = prs.57.t
+	desc = prs.57.d
+	picture = GFX_German_army_patrol
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.55.a		
+	remove_unit_leader = 4
+}		
+		
+}
+
+country_event = {
+	id = prs.60
+	title = prs.60.t
+	desc = prs.60.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.60.a		
+	set_cosmetic_tag = PRS_volksstaat
+	
+}		
+		
+}
+
+country_event = {
+	id = prs.61
+	title = prs.61.t
+	desc = prs.60.d
+	picture = GFX_report_event_fascist_gathering
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+	name = prs.60.a		
+	set_cosmetic_tag = PRS_rosenberg_monarchy
+	
+}		
+		
 }

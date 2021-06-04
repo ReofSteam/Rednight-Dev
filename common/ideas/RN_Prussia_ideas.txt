@@ -80,12 +80,13 @@ ideas = {
 
 			}
 		}
-		PRS_capital_flight = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_capital_flight"}
+		PRS_long_knives = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_long_knives"}
 			picture = prc_low_popular_support3
 			modifier = {
 			}
-		}		
+		}
+		
 		PRS_democracy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRS_democracy"}
 			picture = prc_low_popular_support3

@@ -8,16 +8,37 @@
 #
 
 ICBM_attack_destruction = {
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
+set_variable = { ROOT.nuclear_name_1 = THIS.id }
+}
+hidden_effect = {
 random_list = { 
 75 = {
         modifier = {
             factor = 0.3
-            anti_air_building > 5
+            anti_air_building > 2
+        }	
+        modifier = {
+            factor = 0.2
+            anti_air_building > 3
+        }
+        modifier = {
+            factor = 0.1
+            anti_air_building > 4
         }		
-    set_state_name = "Destroyed Ruin"	
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
-	add_manpower = -100000
+	add_manpower = -1500000
 	remove_building = {
     type = infrastructure
     level = infrastructure_level	
@@ -25,25 +46,46 @@ random_list = {
 	NUC = {
 	set_state_controller = PREV
 	}
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
 controller = {
-state = 195
 news_event = { 
 id = worldnews.1000
-hours = 16
 }
 }	
+}
 }
 25 = {
-	add_manpower = -100000
+add_manpower = -200000	
+if = {
+    limit = {
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
 controller = {
-state = 195
 news_event = { 
 id = worldnews.1001
-hours = 16
 }
 }	
 }
+}
 }	
+}
 }
 
 kill_sergey_taboritsky = {
@@ -105,3 +147,8 @@ FRA_reformeter_check_2 = {
 		round_temp_variable = temp5
         set_variable = { FRA_reform_value2 = temp5 }	
 }
+
+name_variable = {
+set_variable = { nuclear_name = THIS.id }
+}
+
