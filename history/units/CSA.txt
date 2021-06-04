@@ -63,6 +63,24 @@ division_template = {
 }
 
 
+division_template = {
+	name = "Mountaineer Division"
+	division_names_group = CSA_INF_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		light_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+		field_hospital = { x= 0 y = 0 }
+    }
+}
+
+
+
 ### Units ###
 units = {
 ### Land ###
@@ -303,12 +321,43 @@ division = {
 ############################################### Armoured #########################################
 
 division = {
-	name = "Humanity's Hammers"
+	name = "1st 'Humanity's Hammers' Detroit Armoured"
 	location = 1827
 	division_template = "Armored-Division"
 	start_experience_factor = 0.1
 }
 
+
+division = {
+	name = "16th Armoured"
+	location = 12024
+	division_template = "Armored-Division"
+	start_experience_factor = 0.1
+}
+
+
+division = {
+	name = "3rd 'Spearhead' Armoured"
+	location = 10477
+	division_template = "Armored-Division"
+	start_experience_factor = 0.1
+}
+
+
+division = {
+	name = "2nd Detroit Armoured"
+	location = 3869
+	division_template = "Armored-Division"
+	start_experience_factor = 0.1
+}
+
+
+division = {
+	name = "3rd Detroit Armoured"
+	location = 7779
+	division_template = "Armored-Division"
+	start_experience_factor = 0.1
+}
 
 ########################################## Motorised & Cavalry ###################################
 
