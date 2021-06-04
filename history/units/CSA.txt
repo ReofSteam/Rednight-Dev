@@ -66,3 +66,260 @@ division_template = {
 ### Units ###
 units = {
 ### Land ###
+
+############################### Milita #########################
+### Colorado ###
+division = {
+	name = "Philidelphia Partisan Milita"
+	location = 7780
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "1st Minneapolis Partisan Militia"
+	location = 1809
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Indianapolis Partisan Militia"
+	location = 12642
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "1st Chicago Partisan Militia"
+	location = 12570
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+### Wyoming ###
+
+division = {
+	name = "Bronx Partisan Militia"
+	location = 10640
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.4
+}
+
+division = {
+	name = "1st Detroit Partisan Militia"
+	location = 7814
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd Detroit Partisan Militia"
+	location = 10711
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+## Montana ##
+division = {
+	name = "2nd Minneapolis Partisan Militia"
+	location = 1851
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+## Kansas ##
+
+division = {
+	name = "Logan County Partisan Militia"
+	location = 7892
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "Cherokee Nation Partisan Militia"
+	location = 4811
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Baltimore Partisan Militia"
+	location = 10532
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Topeka Partisan Militia"
+	location = 4814
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "2nd Chicago Partisan Militia"
+	location = 1352
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+### Arkansas ###
+
+division = {
+	name = "3rd Chicago Partisan Militia"
+	location = 1646
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd St.Louis Partisan Militia"
+	location = 4567
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+division = {
+	name = "Pittsburgh Partisan Militia"
+	location = 12463
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+### Mississippi & Louisiana ###
+
+division = {
+	name = "4th Chicago Partisan Militia"
+	location = 11717
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+division = {
+	name = "Charlotte Partisan Militia"
+	location = 4650
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Cleveland Partisan Militia"
+	location = 4464
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Atlanta Partisan Militia"
+	location = 104010
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Jacksonville Partisan Militia"
+	location = 1615
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+### Garrison Duty ###
+
+division = {
+	name = "Upstate NY Partisan Militia"
+	location = 7202
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Boston Partisan Militia"
+	location = 3823
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "1st St.Louis Partisan Militia"
+	location = 4569
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+division = {
+	name = "Hartford Partisan Militia"
+	location = 10407
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Birmingham Partisan Militia"
+	location = 1843
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+division = {
+	name = "Staten Island Partisan Militia"
+	location = 733
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd Jersey Partisan Militia"
+	location = 6882
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "Queens Partisan Militia"
+	location = 6929
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "1st Jersey Partisan Militia"
+	location = 12561
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+############################################ Regular Infantry #################################
+
+
+
+########################################### Special Forces ###################################
+division = {
+	name = "1st Marine 'Mutineers' "
+	location = 9682
+	division_template = "Revolutionary Marines"
+	start_experience_factor = 0.4
+}
+############################################### Armoured #########################################
+
+division = {
+	name = "Humanity's Hammers"
+	location = 1827
+	division_template = "Armored-Division"
+	start_experience_factor = 0.1
+}
+
+
+########################################## Motorised & Cavalry ###################################
+
+
+
+
+
+
+
+
+
+
+
+
