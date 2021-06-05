@@ -256,7 +256,7 @@ division = {
 
 division = {
 	name = "Atlanta Partisan Militia"
-	location = 104010
+	location = 12384
 	division_template = "Partisan Militia"
 	start_experience_factor = 0.9
 }
@@ -328,7 +328,7 @@ division = {
 
 division = {
 	name = "1st Jersey Partisan Militia"
-	location = 4723
+	location = 12586
 	division_template = "Partisan Militia"
 	start_experience_factor = 0.15
 }
@@ -667,6 +667,22 @@ division = {
 
 }
 
+
+
+################################# Starting Production ########################
+
+
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+	    type = motorized_equipment_0
+	    creator = "CSA"
+	}
+	requested_factories = 1
+	progress = 0.19
+	efficiency = 100
+    }
+}
 
 
 

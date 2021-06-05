@@ -1,0 +1,169 @@
+########
+# Templates
+########
+
+
+division_template = {
+	name = "Border-Patrol"
+	division_names_group = CSA_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 3 y = 0 }
+	}
+		}
+	}
+
+	support = {
+        military_police = { x = 0 y = 0 }
+		logistics_company = { x= 0 y = 0 }
+    }
+}
+
+
+
+### Units ###
+units = {
+### Land ###
+
+
+### Colorado ###
+
+division = {
+	name = "1st Volunteer Peacekeepers"
+	location = 1827
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "2nd Volunteer Peacekeepers"
+	location = 3869
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "3rd Volunteer Peacekeepers"
+	location = 10588
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+### South Dakota ###
+
+division = {
+	name = "4th Volunteer Peacekeepers"
+	location = 12620
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+### North Dakota ###
+
+division = {
+	name = "7th Volunteer Peacekeepers"
+	location = 1836
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "13th Volunteer Peacekeepers"
+	location = 1870
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+
+### Wyoming ###
+
+
+division = {
+	name = "5th Volunteer Peacekeepers"
+	location = 4723
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+
+division = {
+	name = "8th Volunteer Peacekeepers"
+	location = 7814
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "9th Volunteer Peacekeepers"
+	location = 4794
+	division_template = "Border-Patrol"
+	start_experience_factor = 0.1
+}
+
+### Missouri ###
+
+
+division = {
+	name = "6th Volunteer Peacekeepers"
+	location = 4569
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+
+division = {
+	name = "12th Volunteer Peacekeepers"
+	location = 12361
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+### Montana ###
+
+division = {
+	name = "10th Volunteer Peacekeepers"
+	location = 7779
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "11th Volunteer Peacekeepers"
+	location = 1851
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "14th Volunteer Peacekeepers"
+	location = 7883
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "15th Volunteer Peacekeepers"
+	location = 10593
+	division_template = "Border Patrol"
+	start_experience_factor = 0.1
+}
+
+
+
+}
+
+
+
+
+
+
+
+
