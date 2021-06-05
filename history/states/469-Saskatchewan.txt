@@ -2,8 +2,9 @@ state = {
 	id = 469
 	name = "STATE_469"
 	manpower = 908888
+	impassable = yes
 
-	state_category = four
+	state_category = zero
 
 	history = {
 		owner = CAN
