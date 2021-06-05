@@ -392,6 +392,10 @@ spriteTypes = {
 		name = "GFX_FRA_Cross_Vistula"
 		texturefile = "gfx/interface/goals/FRA/FRA_Cross_Vistula.tga"
 	}	
+	SpriteType = { 
+		name = "GFX_FRA_airforces_focus"
+		texturefile = "gfx/interface/goals/FRA/FRA_airforces_focus.tga"
+	}		
 ############Prussia	
 	SpriteType = { 
 		name = "GFX_PRS_the_east"

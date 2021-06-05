@@ -1731,7 +1731,7 @@ initial_show_position = {
 	#Focus for Commandement des Forces Aériennes Stratégiques
 	focus = {
 		id = FRA_commandement_des_forces_ariennes_stratgiques
-		icon = GFX_goal_unknown
+		icon = GFX_FRA_airforces_focus
 		x = 21
 		y = 15
 		cost = 10

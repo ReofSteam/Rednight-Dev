@@ -1902,7 +1902,7 @@ spriteTypes = {
 	##Icon For: Air Fleets of Russia
 	SpriteType = { 
 		name = "GFX_RUS_air_fleets_of_russia"
-		texturefile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.dds"
+		texturefile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.tga"
 	}
 
 	##Icon Shine For: Air Fleets of Russia
@@ -1911,7 +1911,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.dds"
+			animationmaskfile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.tga"
 			animationtexturefile = "gfx/interface/goals/RUS/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1923,7 +1923,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.dds"
+			animationmaskfile = "gfx/interface/goals/RUS/GFX_RUS_air_fleets_of_russia.tga"
 			animationtexturefile = "gfx/interface/goals/RUS/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

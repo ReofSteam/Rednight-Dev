@@ -475,6 +475,77 @@ focus_tree = {
 			factor = 1
 		}
 	}
+
+
+	focus = {
+		id = PRS_unthinkable_czechia_action
+		icon = GFX_PRS_Freikorps_of_Silesia
+		x = 11
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_freikorps_of_silesia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = PRS_unthinkable_polish_border
+		icon = GFX_PRS_Freikorps_of_Silesia
+		x = 13
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_freikorps_of_silesia }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = PRS_german_federation
+		icon = GFX_PRS_Freikorps_of_Silesia
+		x = 12
+		y = 9
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_unthinkable_czechia_action }
+		prerequisite = { focus = PRS_unthinkable_polish_border }		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = PRS_return_to_ostland
+		icon = GFX_PRS_Freikorps_of_Silesia
+		x = 12
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = PRS_german_federation }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = PRS_beyond_oder
+		icon = GFX_PRS_Freikorps_of_Silesia
+		x = 8
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+		focus = PRS_german_federation
+		focus = PRS_preuischer_volkskrieg
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
 	#Focus for Kämpf' um dein Leben mein Land!
 	focus = {
 		id = PRS_kmpf_um_dein_leben_mein_land
