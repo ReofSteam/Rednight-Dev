@@ -104,7 +104,7 @@ division = {
 	name = "Philidelphia Partisan Milita"
 	location = 7780
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.3
 }
 
 division = {
@@ -118,14 +118,14 @@ division = {
 	name = "Indianapolis Partisan Militia"
 	location = 12642
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.1
+	start_experience_factor = 0.13
 }
 
 division = {
 	name = "1st Chicago Partisan Militia"
 	location = 12570
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.5
+	start_experience_factor = 0.37
 }
 
 ### Wyoming ###
@@ -134,21 +134,21 @@ division = {
 	name = "Bronx Partisan Militia"
 	location = 10640
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.4
+	start_experience_factor = 0.45
 }
 
 division = {
 	name = "1st Detroit Partisan Militia"
 	location = 7814
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.3
 }
 
 division = {
 	name = "2nd Detroit Partisan Militia"
 	location = 10711
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.3
 }
 
 ## Montana ##
@@ -156,7 +156,7 @@ division = {
 	name = "2nd Minneapolis Partisan Militia"
 	location = 1851
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.3
 }
 
 ## Kansas ##
@@ -165,14 +165,14 @@ division = {
 	name = "Logan County Partisan Militia"
 	location = 7834
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.55
 }
 
 division = {
 	name = "Cherokee Nation Partisan Militia"
 	location = 4811
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.3
+	start_experience_factor = 0.5
 }
 
 division = {
@@ -193,7 +193,7 @@ division = {
 	name = "2nd Chicago Partisan Militia"
 	location = 1352
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.1
+	start_experience_factor = 0.55
 }
 
 ### Arkansas ###
@@ -202,21 +202,21 @@ division = {
 	name = "3rd Chicago Partisan Militia"
 	location = 1646
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.5
 }
 
 division = {
 	name = "2nd St.Louis Partisan Militia"
 	location = 4567
 	division_template = "Partisan Militia"
-	start_experience_factor = 1.0
+	start_experience_factor = 0.95
 }
 
 division = {
 	name = "Pittsburgh Partisan Militia"
 	location = 12463
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.3
 }
 
 division = {
@@ -238,7 +238,7 @@ division = {
 	name = "4th Chicago Partisan Militia"
 	location = 11717
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.1
+	start_experience_factor = 0.31
 }
 division = {
 	name = "Charlotte Partisan Militia"
@@ -258,14 +258,14 @@ division = {
 	name = "Atlanta Partisan Militia"
 	location = 104010
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.3
+	start_experience_factor = 0.9
 }
 
 division = {
 	name = "Jacksonville Partisan Militia"
 	location = 1615
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.15
 }
 
 ### Garrison Duty ###
@@ -288,7 +288,7 @@ division = {
 	name = "1st St.Louis Partisan Militia"
 	location = 4569
 	division_template = "Partisan Militia"
-	start_experience_factor = 1.5
+	start_experience_factor = 0.98
 }
 
 division = {
@@ -302,35 +302,35 @@ division = {
 	name = "Birmingham Partisan Militia"
 	location = 1843
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.5
+	start_experience_factor = 0.95
 }
 
 division = {
 	name = "Staten Island Partisan Militia"
 	location = 733
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.15
 }
 
 division = {
 	name = "2nd Jersey Partisan Militia"
 	location = 6882
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.15
 }
 
 division = {
 	name = "Queens Partisan Militia"
 	location = 6929
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.3
+	start_experience_factor = 0.77
 }
 
 division = {
 	name = "1st Jersey Partisan Militia"
 	location = 4723
 	division_template = "Partisan Militia"
-	start_experience_factor = 0.2
+	start_experience_factor = 0.15
 }
 
 ############################################ Regular Infantry #################################
@@ -589,7 +589,7 @@ division = {
 
 
 division = {
-	name = "1st 'Knights of Labor' Chicago Motorized"
+	name = "1st 'Knights of Labor' Motorized"
 	location = 12024
 	division_template = "Motorized-Division"
 	start_experience_factor = 0.97
@@ -598,70 +598,70 @@ division = {
 division = {
 	name = "2nd Chicago Motorized"
 	location = 1827
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.93
 }
 
 division = {
 	name = "1st Detroit Motorized"
 	location = 1827
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.95
 }
 
 division = {
 	name = "3rd Detroit Motorized"
 	location = 12561
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.94
 }
 
 division = {
 	name = "4th 'Tiresmoke' Motorized"
 	location = 6742
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.90
 }
 
 division = {
 	name = "5th Detroit Motorized"
 	location = 12024
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.90
 }
 
 division = {
 	name = "6th Detroit Motorized"
 	location = 4814
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.90
 }
 
 division = {
 	name = "7th 'Chainbreakers' Motorized"
 	location = 1806
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.94
 }
 
 division = {
 	name = "8th 'Godless' Motorized"
 	location = 3869
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.98
 }
 
 division = {
 	name = "9th 'Wildcat' Motorized"
 	location = 6742
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.97
 }
 
 division = {
 	name = "10th Detroit Motorized"
 	location = 1815
-	division_template = "Motorized-Divison"
+	division_template = "Motorized-Division"
 	start_experience_factor = 0.97
 }
 
