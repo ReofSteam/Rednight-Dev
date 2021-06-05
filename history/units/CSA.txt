@@ -1,13 +1,12 @@
-﻿########
+########
 # Templates
 ########
 
 division_template = {
-    name = "Infantry Division"
-    divisions_name_group = USA_INF_01
-
-    regiments = {
-        infantry = { x = 0 y = 0 }
+	name = "infantry_division"
+	division_names_group = CSA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
@@ -16,17 +15,42 @@ division_template = {
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
-    }
+	}
 
-    support = {
+	support = {
         engineer = { x = 0 y = 0 }
     }
 }
 
+division_template = {
+	name = "Motorized-Division"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
 
 division_template = {
-	name = "Partisan Division"
-	division_names_group = ENG_GAR_01
+	name = "Armored-Division"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Partisan Militia"
+	division_names_group = CSA_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -40,102 +64,613 @@ division_template = {
 	}
 }
 
-division_template = {
-    name = "Mountain Division"
-    divisions_name_group = USA_MAR_01
-
-    regiments = {
-       		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-		mountaineers = { x = 0 y = 2 }
-		mountaineers = { x = 1 y = 0 }
-		mountaineers = { x = 2 y = 0 }
-	}	
-	support = {
-	    engineer =  { x = 0 y = 0 }
-	    artillery = { x = 0 y = 0 }
-    }
-}	
 
 division_template = {
-    name = "Marine Division"
-    divisions_name_group = USA_MAR_01
-
-    regiments = {
-        marine = { x = 0 y = 0 }
+	name = "Revolutionary Marines"
+	division_names_group = CSA_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
 		marine = { x = 0 y = 1 }
 		marine = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Mountaineer Division"
+	division_names_group = CSA_INF_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		light_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+		field_hospital = { x= 0 y = 0 }
     }
 }
+
 
 
 ### Units ###
-
 units = {
+### Land ###
 
-    division = {
-		name = "7th Infantry"
-        location = 12463
-        division_template = "Infantry Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	 division = {
-		name = "35th Infantry"
-        location = 7834
-        division_template = "Infantry Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "33rd Infantry"
-        location = 12497
-        division_template = "Infantry Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "1st Marine 'Mutineers'"
-        location = 12368
-        division_template = "Marine Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-
-	division = {
-		name = "Blair Mountain Partisan Milita"
-        location = 4627
-        division_template = "Partisan Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-
-	division = {
-		name = "Front Range Partisan Milita"
-        location = 1827
-        division_template = "Partisan Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-
-	division = {
-		name = "Bozeman Partisan Milita"
-        location = 1736
-        division_template = "Partisan Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "10th Mountaineers"
-	location = 3869
-	division_template = "Mountain Divison"
-	start_experience_factor = 0.1
-	start_equipment_factor = 0.5
-	}
-	
-		
+############################### Milita #########################
+### Colorado ###
+division = {
+	name = "Philidelphia Partisan Milita"
+	location = 7780
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
 }
+
+division = {
+	name = "1st Minneapolis Partisan Militia"
+	location = 1809
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Indianapolis Partisan Militia"
+	location = 12642
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "1st Chicago Partisan Militia"
+	location = 12570
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+### Wyoming ###
+
+division = {
+	name = "Bronx Partisan Militia"
+	location = 10640
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.4
+}
+
+division = {
+	name = "1st Detroit Partisan Militia"
+	location = 7814
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd Detroit Partisan Militia"
+	location = 10711
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+## Montana ##
+division = {
+	name = "2nd Minneapolis Partisan Militia"
+	location = 1851
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+## Kansas ##
+
+division = {
+	name = "Logan County Partisan Militia"
+	location = 7834
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "Cherokee Nation Partisan Militia"
+	location = 4811
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Baltimore Partisan Militia"
+	location = 10532
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Topeka Partisan Militia"
+	location = 1753
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "2nd Chicago Partisan Militia"
+	location = 1352
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+### Arkansas ###
+
+division = {
+	name = "3rd Chicago Partisan Militia"
+	location = 1646
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd St.Louis Partisan Militia"
+	location = 4567
+	division_template = "Partisan Militia"
+	start_experience_factor = 1.0
+}
+
+division = {
+	name = "Pittsburgh Partisan Militia"
+	location = 12463
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "23rd Infantry"
+	location = 4597
+	division_template = "infantry_division"
+	start_experience_factor = 0.75
+}
+
+division = {
+	name = "26th Infantry"
+	location = 4444
+	division_template = "infantry_division"
+	start_experience_factor = 0.1
+}
+### Mississippi & Louisiana ###
+
+division = {
+	name = "4th Chicago Partisan Militia"
+	location = 11717
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+division = {
+	name = "Charlotte Partisan Militia"
+	location = 4650
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Cleveland Partisan Militia"
+	location = 4464
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Atlanta Partisan Militia"
+	location = 104010
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "Jacksonville Partisan Militia"
+	location = 1615
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+### Garrison Duty ###
+
+division = {
+	name = "Upstate NY Partisan Militia"
+	location = 7202
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Boston Partisan Militia"
+	location = 3823
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "1st St.Louis Partisan Militia"
+	location = 4569
+	division_template = "Partisan Militia"
+	start_experience_factor = 1.5
+}
+
+division = {
+	name = "Hartford Partisan Militia"
+	location = 10407
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.1
+}
+
+division = {
+	name = "Birmingham Partisan Militia"
+	location = 1843
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.5
+}
+
+division = {
+	name = "Staten Island Partisan Militia"
+	location = 733
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "2nd Jersey Partisan Militia"
+	location = 6882
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+division = {
+	name = "Queens Partisan Militia"
+	location = 6929
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.3
+}
+
+division = {
+	name = "1st Jersey Partisan Militia"
+	location = 4723
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.2
+}
+
+############################################ Regular Infantry #################################
+
+### Colorado ####
+
+division = {
+	name = "2nd 'Indianhead' Infantry"
+	location = 10588
+	division_template = "infantry_division"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "15th Infantry"
+	location = 1827
+	division_template = "infantry_division"
+	start_experience_factor = 0.4
+
+}
+
+division = {
+	name = "25th Infantry"
+	location = 1809
+	division_template = "infantry_division"
+	start_experience_factor = 0.1
+
+}
+
+### Wyoming ###
+
+division = {
+	name = "1st Reformed Infantry"
+	location = 1815
+	division_template = "infantry_division"
+	start_experience_factor = 0.96
+}
+
+division = {
+	name = "3rd Reformed Infantry"
+	location = 12561
+	division_template = "infantry_division"
+	start_experience_factor = 0.95
+}
+
+division = {
+	name = "21st Infantry"
+	location = 1815
+	division_template = "infantry_division"
+	start_experience_factor = 0.2
+}
+
+### Montana ###
+
+division = {
+	name = "10th Infantry"
+	location = 6742
+	division_template = "infantry_division"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "7th Infantry"
+	location = 1736
+	division_template = "infantry_division"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "8th Infantry"
+	location = 1854
+	division_template = "infantry_division"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "16th Infantry"
+	location = 7779
+	division_template = "infantry_division"
+	start_experience_factor = 0.8
+}
+
+division = {
+	name = "17th Infantry"
+	location = 1854
+	division_template = "infantry_division"
+	start_experience_factor = 0.76
+}
+
+
+division = {
+	name = "19th Infantry"
+	location = 10588
+	division_template = "infantry_division"
+	start_experience_factor = 0.82
+}
+
+### Kansas ###
+
+division = {
+	name = "5th 'Fordbreaker' Infantry"
+	location = 1806
+	division_template = "infantry_division"
+	start_experience_factor = 0.91
+}
+
+division = {
+	name = "9th Infantry"
+	location = 4814
+	division_template = "infantry_division"
+	start_experience_factor = 0.91
+}
+
+division = {
+	name = "6th 'Brown's Boys' Infantry"
+	location = 7892
+	division_template = "infantry_division"
+	start_experience_factor = 0.93
+}
+
+division = {
+	name = "11th 'Red Rifle' Infantry"
+	location = 2043
+	division_template = "infantry_division"
+	start_experience_factor = 0.94
+}
+
+#### Louisiana & Mississippi ###
+
+division = {
+	name = "4th 'Frogs' Infantry"
+	location = 7552
+	division_template = "infantry_division"
+	start_experience_factor = 0.92
+}
+
+division = {
+	name = "12th 'Last Rope' Infantry"
+	location = 1453
+	division_template = "infantry_division"
+	start_experience_factor = 0.94
+}
+
+division = {
+	name = "20th Infantry"
+	location = 10410
+	division_template = "infantry_division"
+	start_experience_factor = 0.76
+}
+
+division = {
+	name = "13th Infantry"
+	location = 10449
+	division_template = "infantry_division"
+	start_experience_factor = 0.91
+}
+
+division = {
+	name = "14th Infantry"
+	location = 4510
+	division_template = "infantry_division"
+	start_experience_factor = 0.88
+}
+
+### Missouri ###
+
+
+
+### Canada ###
+
+division = {
+	name = "18th Infantry"
+	location = 4872
+	division_template = "infantry_division"
+	start_experience_factor = 0.79
+}
+
+division = {
+	name = "22nd Infantry"
+	location = 12145
+	division_template = "infantry_division"
+	start_experience_factor = 0.75
+}
+
+division = {
+	name = "24th Infantry"
+	location = 7899
+	division_template = "infantry_division"
+	start_experience_factor = 0.75
+}
+
+
+########################################### Special Forces ###################################
+division = {
+	name = "1st Marine 'Mutineers' "
+	location = 9682
+	division_template = "Revolutionary Marines"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "2nd Marine"
+	location = 3878
+	division_template = "Revolutionary Marines"
+	start_experience_factor = 0.9
+}
+
+division = {
+	name = "3rd Marine"
+	location = 3957
+	division_template = "Revolutionary Marines"
+	start_experience_factor = 0.9
+}
+############################################### Armoured #########################################
+
+division = {
+	name = "1st 'Humanity's Hammers' Detroit Armoured"
+	location = 1827
+	division_template = "Armored-Division"
+	start_experience_factor = 0.96
+}
+
+
+division = {
+	name = "3rd 'Spearhead' Armoured"
+	location = 12024
+	division_template = "Armored-Division"
+	start_experience_factor = 0.93
+}
+
+
+division = {
+	name = "16th 'Sherman's Ghost' Armoured"
+	location = 10477
+	division_template = "Armored-Division"
+	start_experience_factor = 0.94
+}
+
+
+division = {
+	name = "2nd Detroit Armoured"
+	location = 3869
+	division_template = "Armored-Division"
+	start_experience_factor = 1.6
+}
+
+
+division = {
+	name = "3rd Detroit Armoured"
+	location = 7779
+	division_template = "Armored-Division"
+	start_experience_factor = 1.9
+}
+
+########################################## Motorised & Cavalry ###################################
+
+
+division = {
+	name = "1st 'Knights of Labor' Chicago Motorized"
+	location = 12024
+	division_template = "Motorized-Division"
+	start_experience_factor = 0.97
+}
+
+division = {
+	name = "2nd Chicago Motorized"
+	location = 1827
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.93
+}
+
+division = {
+	name = "1st Detroit Motorized"
+	location = 1827
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.95
+}
+
+division = {
+	name = "3rd Detroit Motorized"
+	location = 12561
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.94
+}
+
+division = {
+	name = "4th 'Tiresmoke' Motorized"
+	location = 6742
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.90
+}
+
+division = {
+	name = "5th Detroit Motorized"
+	location = 12024
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.90
+}
+
+division = {
+	name = "6th Detroit Motorized"
+	location = 4814
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.90
+}
+
+division = {
+	name = "7th 'Chainbreakers' Motorized"
+	location = 1806
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.94
+}
+
+division = {
+	name = "8th 'Godless' Motorized"
+	location = 3869
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.98
+}
+
+division = {
+	name = "9th 'Wildcat' Motorized"
+	location = 6742
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.97
+}
+
+division = {
+	name = "10th Detroit Motorized"
+	location = 1815
+	division_template = "Motorized-Divison"
+	start_experience_factor = 0.97
+}
+
+
+
+
+
+
+
+
+
+

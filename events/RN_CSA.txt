@@ -105,7 +105,7 @@ country_event = { #Dangling the Carrot
 
 }
 
-country_event = { #Any Volunteers
+country_event = { #Respect Comrade Bryant
 	id = csa.5
 	title = csa.5
 	desc = csa.5.desc
