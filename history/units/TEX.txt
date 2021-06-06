@@ -111,7 +111,7 @@ units = {
     }
 
     division = {
-		name = "36st 'Arrowhead' Infantry"
+		name = "29th 'Arrowhead' Infantry"
         location = 12489
         division_template = "Infantry Division"
         start_experience_factor = 0.1
@@ -127,15 +127,7 @@ units = {
     }
 
 	division = {
-		name = "'20th 'Pirate' Armoured"
-        location = 7904
-        division_template = "Armoured Division"
-        start_experience_factor = 0.1
-        start_equipment_factor = 0.5
-    }
-	
-	division = {
-		name = "'20th 'Pirate' Armoured"
+		name = "'17th 'Pirate' Armoured"
         location = 7904
         division_template = "Armoured Division"
         start_experience_factor = 0.1
@@ -159,7 +151,7 @@ units = {
     }
 	
 	division = {
-		name = "66th Infantry"
+		name = "33rd Infantry"
         location = 7599
         division_template = "Infantry Division"
         start_experience_factor = 0.1
@@ -167,7 +159,7 @@ units = {
     }
 	
 	division = {
-		name = "63rd Infantry"
+		name = "31st Infantry"
         location = 7599
         division_template = "Infantry Division"
         start_experience_factor = 0.1

@@ -227,7 +227,7 @@ division = {
 }
 
 division = {
-	name = "26th Infantry"
+	name = "27th Infantry"
 	location = 4444
 	division_template = "infantry_division"
 	start_experience_factor = 0.1
@@ -377,7 +377,7 @@ division = {
 }
 
 division = {
-	name = "21st Infantry"
+	name = "28th Infantry"
 	location = 1815
 	division_template = "infantry_division"
 	start_experience_factor = 0.2
