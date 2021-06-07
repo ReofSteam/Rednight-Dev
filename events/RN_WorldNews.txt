@@ -82,6 +82,13 @@ news_event = { #New Year Peace
 		name = worldnews.3.b
 	set_country_flag = Super_Event_Visible
 	set_country_flag = America_first_day_of_peace
+	play_song = "RNamericanpeace"
+	hidden_effect = {
+	country_event = { 
+	id = csa.0 
+	days = 3 
+	}
+	}
 	
 	}	
 }

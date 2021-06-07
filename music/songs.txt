@@ -305,3 +305,15 @@ music = {
 		}
 	}
 }
+
+music = {
+	song = "RNamericanpeace"
+
+	chance = {
+		modifier = {
+        factor = 0
+        has_war = no
+        TAG = CSA
+		}
+	}
+}

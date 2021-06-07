@@ -5,7 +5,25 @@
 add_namespace = csa
 
 
-###intro events
+###set up event
+country_event = { 
+	id = csa.0
+    title = csa.0.t
+    desc = csa.0.d
+	picture = GFX_CSA_new_york
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.0.a 
+		set_country_flag = show_intro_menu
+	}
+
+}
+
+
+
+
 
 country_event = { #new Dawn
 	id = csa.16

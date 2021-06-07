@@ -27,6 +27,12 @@ music = {
 	volume = 0.85
 }
 
+music = {
+	name = "RNamericanpeace"
+	file = "RNamericanpeace.ogg"
+	volume = 0.85
+}
+
 
 # General Peace:
 music = {

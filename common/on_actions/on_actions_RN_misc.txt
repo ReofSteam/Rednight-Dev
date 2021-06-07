@@ -23,20 +23,27 @@ on_actions = {
 		}
 		}
 	}
-    on_startup = { 
-	effect = {
+on_startup = { 
+effect = {
 	every_country = {
-	limit = { is_ai = no }
-	set_country_flag = show_intro_menu
+	if = {
+	      limit = { 
+	is_ai = no
+	NOT = { 
+       	tag = CSA
+    	tag = CAL
+    	tag = CAN
+	    tag = QUE
+	    tag = WCN
 	}
+	}
+	set_country_flag = show_intro_menu
     } 
-	}	
-    on_startup = { #####News Year Peace 
-	effect = {
+	}
 	CSA = {
 	news_event = worldnews.3
 	}
-    } 
-	}	
+  } 
+}	
 }
 
