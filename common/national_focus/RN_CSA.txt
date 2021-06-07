@@ -637,6 +637,7 @@ focus_tree = {
 		prerequisite = { focus = CSA_convene_the_generals }
 		completion_reward = {
 			country_event = csa.4
+			load_oob = CSA_carrot
 		}
 		ai_will_do = {
 			factor = 1
@@ -800,6 +801,7 @@ focus_tree = {
 		prerequisite = { focus = CSA_red_border_patrol }
 		completion_reward = {
 			country_event = csa.8
+			load_oob = CSA_elite_units
 		}
 		ai_will_do = {
 			factor = 1

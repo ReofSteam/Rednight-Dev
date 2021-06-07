@@ -35,9 +35,10 @@ country_event = { #new Dawn
 	option = {
 		name = csa.16.a 
 		add_political_power = 0.15
+		}
 	}
 
-}
+
 
 
 country_event = { #The Last President
@@ -73,6 +74,25 @@ country_event = { #Anarchists surround congress, lovestone orders RSB to dispers
 	}
 
 }
+
+country_event = { #building damage
+	id = csa.92
+    title = csa.92.t
+    desc = csa.92.d
+	picture = GFX_CSA_new_york
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = csa.92.a 
+		damage_building = damage_building = {
+			type = industrial_complex
+			damage = 1
+			province = 4569
+		}
+		}
+	}
+
 
 
 ###3k nightmare
@@ -186,8 +206,8 @@ country_event = { #Relocation Camps
 
 country_event = { #Spitting In the Wind
 	id = csa.10
-	title = csa.10
-	desc = csa.10.desc
+	title = csa.10.t
+	desc = csa.10.d
 	is_triggered_only = yes
 
 	option = {

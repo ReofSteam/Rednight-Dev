@@ -1,0 +1,181 @@
+########
+# Templates
+########
+
+division_template = {
+	name = "infantry_division"
+	division_names_group = CSA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Motorized-Division"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Militia"
+	division_names_group = CSA_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Marines"
+	division_names_group = CSA_MAR_01
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Mountaineer Division"
+	division_names_group = CSA_INF_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		light_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+
+	support = {
+        engineer = { x = 0 y = 0 }
+		field_hospital = { x= 0 y = 0 }
+    }
+}
+
+division_template = {
+	name = "Cavalry-Division"
+	division_names_group = CSA_ARM_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+
+
+
+### Units ###
+units = {
+### Land ###
+
+############################### Regular Infantry #########################
+
+### Colorado ###
+
+division = {
+	name = "1st 'Big Red One' Infantry"
+	location = 1658
+	division_template = "Partisan Militia"
+	start_experience_factor = 0.97
+}
+
+division = {
+	name = "1st Colorado National Guard"
+	location = 868
+	division_template = "infantry_division"
+	start_experience_factor = 0.35
+}
+
+division = {
+	name = "Nevada National Guard"
+	location = 6887
+	division_template = "infantry_division"
+	start_experience_factor = 0.35
+}
+
+division = {
+	name = "2nd Colorado National Guard"
+	location = 10535
+	division_template = "infantry_division"
+	start_experience_factor = 0.35
+}
+
+### Wyoming ###
+
+division = {
+	name = "1st Oregon National Guard"
+	location = 12633
+	division_template = "infantry_division"
+	start_experience_factor = 0.78
+}
+
+division = {
+	name = "2nd California National Guard"
+	location = 7688
+	division_template = "infantry_division"
+	start_experience_factor = 0.74
+}
+
+division = {
+	name = "3rd California National Guard"
+	location = 12651
+	division_template = "infantry_division"
+	start_experience_factor = 0.72
+}
+
+division = {
+	name = "1st Cavalry"
+	location = 12651
+	division_template = "Cavalry-Division"
+	start_experience_factor = 0.96
+}
+
+
+
+
+
+
+
+
