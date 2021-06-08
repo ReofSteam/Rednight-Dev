@@ -110,7 +110,7 @@ focus_tree = {
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 19
 		y = 3
-		cost = 10
+		cost = 1
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_flight_to_new_york }
 		completion_reward = {
@@ -142,7 +142,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter
 		x = 19
 		y = 2
-		cost = 10
+		cost = 2
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_will__testament }
 		completion_reward = {
