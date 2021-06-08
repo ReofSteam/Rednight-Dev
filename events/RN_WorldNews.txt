@@ -75,6 +75,7 @@ news_event = { #New Year Peace
 	}	
 	option = {
 	trigger = {
+	is_ai = no
 	OR = {
 	original_tag = CAL
 	original_tag = CSA

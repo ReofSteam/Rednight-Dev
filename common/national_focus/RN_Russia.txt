@@ -789,31 +789,28 @@ focus_tree = {
 }		
 		select_effect = {
 			country_event = {
-				id = rus.19
+				id = rus.2
 				days = 7
 			}
 			country_event = {
-				id = rus.20
+				id = rus.3
 				days = 14
 			}
 			country_event = {
-				id = rus.21
+				id = rus.4
 				days = 21
 			}
+			country_event = {
+				id = rus.5
+				days = 30
+			}			
 		}
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 60
 		}
 		completion_reward = {
-			custom_effect_tooltip = RUS_A_Council_is_Selected_tt
 			add_political_power = 50 
-			add_stability = 0.05
-			set_country_flag = not_eurasianist
-			country_event = {
-				id = rus.22
-				days = 0
-			}
 		}
 	}
 
