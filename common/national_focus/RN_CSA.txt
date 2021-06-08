@@ -181,7 +181,7 @@ focus_tree = {
 		icon = GFX_focus_generic_calm_before_storm
 		x = 3
 		y = 7
-		cost = 10
+		cost = 6
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = CSA_the_internal_war 
@@ -390,7 +390,7 @@ focus_tree = {
 		icon = GFX_CSA_dent
 		x = 12
 		y = 5
-		cost = 10
+		cost = 6
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = CSA_heroic_propaganda 
@@ -727,7 +727,7 @@ focus_tree = {
 		icon = GFX_focus_generic_socialism
 		x = 3
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
 		completion_reward = {
@@ -744,7 +744,7 @@ focus_tree = {
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 20
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
 		completion_reward = {
@@ -761,7 +761,7 @@ focus_tree = {
 		icon = GFX_CSA_3k2
 		x = 12
 		y = 1
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_last_president }
 		completion_reward = {
@@ -814,7 +814,7 @@ focus_tree = {
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 20
 		y = 5
-		cost = 10
+		cost = 6
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = CSA_the_hall_of_heroes 
@@ -840,13 +840,16 @@ focus_tree = {
 		icon = "GFX_CSA_the_storm"
 		x = 11
 		y = 9
-		cost = 10
+		cost = 17.2
 		available_if_capitulated = yes
 		prerequisite {
 			focus = CSA_the_young_republic
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			country_event = csa.93
 		}
 	}
 	#Focus for Resume the Debate
@@ -855,8 +858,9 @@ focus_tree = {
 		icon = GFX_CSA_resume_debate
 		x = 13
 		y = 9
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
+		available = { has_country_flag = crisis_resolved }
 		prerequisite = {
 			focus = CSA_the_storm
 		}
@@ -873,9 +877,8 @@ focus_tree = {
 		y = 10
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = CSA_resume_the_debate
-			focus = CSA_the_storm }
+		prerequisite = { focus = CSA_resume_the_debate }
+		prerequisite = { focus = CSA_the_storm }
 		ai_will_do = {
 			factor = 1
 		}

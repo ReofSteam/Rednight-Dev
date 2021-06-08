@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # East America Events
 ###########################
 
@@ -90,16 +90,14 @@ country_event = { #building damage
 	
 	option = {
 		name = csa.92.a 
-	393 = {	
-		damage_building = {
-        type = infrastructure
-        damage = 1
-    }
-}
+		393 = {
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
 	}
 }
-
-
 
 ###3k nightmare
 
@@ -1246,17 +1244,69 @@ country_event = { #the young republic
 
 }
 
-country_event = { #WIP constitutional convention shit 
-	id = csa.92
-    title = csa.91.t
-    desc = csa.91.d
+###########################################Convention Chain##########################################
+
+country_event = { #Constitutional Convention Intro
+	id = csa.93
+    title = csa.93.t
+    desc = csa.93.d
 	is_triggered_only = yes
 	
 	option = {
-		name = csa.91.a 
+		name = csa.93.a 
+		country_event = csa.94
+		days = 2
 	}
 
 }
+
+country_event = { #Debate Bryant's Preamble
+	id = csa.94
+    title = csa.94.t
+    desc = csa.94.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.94.a 
+		completion_reward = {
+			### small boost +Fosterites, Lovestoneites, Anarchists, Orthodox
+			country_event = csa.95
+			days = 3
+		}
+	}
+
+	option = {
+		name = csa.94.b
+		completion_reward = {
+			### small boost +SDP
+			country_event = csa.95
+			days = 3
+		}
+	}
+	
+}
+
+################################################ Crisis Event Chain ################################
+
+
+country_event = { #Crisis Resolved
+	id = csa.113
+    title = csa.113.t
+    desc = csa.113.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.113.a 
+		country_event = csa.114
+		set_country_flag = crisis_resolved
+		custom_effect_tooltip = crisis_resolved
+		days = 2
+	}
+
+}
+
+
+
 
 #########Super
 country_event = { 
