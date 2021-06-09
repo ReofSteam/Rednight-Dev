@@ -1296,6 +1296,21 @@ country_event = {
 	}
 
 }
+
+country_event = { 
+	id = csa.113
+    title = csa.113.t
+    desc = csa.113.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.113.a 
+		set_country_flag = crisis_resolved
+		mark_focus_tree_layout_dirty 
+	}
+
+}
+
 ####Calculation Event####
 country_event = { 
 	id = csa.121

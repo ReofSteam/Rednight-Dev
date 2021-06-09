@@ -845,6 +845,13 @@ focus_tree = {
 		prerequisite {
 			focus = CSA_the_young_republic
 		}
+		available = { NOT = { OR = {
+		has_country_flag = crisis_resolved
+		has_country_flag = crisis_occured
+		}		
+		}
+		}
+		cancel_if_invalid = yes
 		ai_will_do = {
 			factor = 1
 		}
@@ -859,6 +866,10 @@ focus_tree = {
 		x = 13
 		y = 9
 		cost = 5
+		
+    	allow_branch = {
+		has_country_flag = crisis_resolved
+	}
 		available_if_capitulated = yes
 		available = { has_country_flag = crisis_resolved }
 		prerequisite = {
