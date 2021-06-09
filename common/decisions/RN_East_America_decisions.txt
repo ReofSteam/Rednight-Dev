@@ -23,3 +23,51 @@ CSA_nationalist_radio_host = {
 		factor = 75
 	}
 }
+}
+
+CSA_convention_status = {
+CSA_congress_session = {
+icon = GFX_decision_generic_petition
+          days_re_enable = 1
+          available = { 
+          has_country_flag = CSA_convention_in_process                  		  
+          }
+          activation = {                         
+          has_country_flag = CSA_convention_in_process                  
+          }
+          is_good = no                          
+          selectable_mission = no                
+          days_mission_timeout = 10  
+		  days_remove = 10 
+          timeout_effect = {  
+          add_political_power = -200           		  
+          }
+          complete_effect = {
+          set_variable = { CSA_congress_total = 0 }	
+		  country_event = CSA.121
+		  country_event = CSA.122
+		  country_event = CSA.123
+		  
+    }
+}
+CSA_lobby_effort_iww = {
+	icon = generic_prepare_civil_war
+
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	    add_popularity = {
+        ideology = syndicalism
+        popularity = 0.05
+        }
+	}
+	visible = {
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
+}

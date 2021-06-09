@@ -1109,6 +1109,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+		country_event = prs.54
+		}
 	}
 
 	#Focus for The Army with the People

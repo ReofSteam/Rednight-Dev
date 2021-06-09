@@ -261,8 +261,10 @@ CSA_moment_of_truth:0 "Moment of Truth"
 CSA_moment_of_truth_desc:0 "-"
 
 
-
-
+######Decisions######
+CSA_convention_status:0 "Constitutional Convention in Prociess"
+CSA_convention_status_desc:0 "Current Support in Congress: [?CSA_congress_total|%G0]\n\nA majority of 60% is needed for the Draft to Pass. Session occurs every 10 days"
+CSA_congress_session:0 "Congress Session"
  
 #### Ideas ####
 America_new_year_peace:0 "New Year Peace"
