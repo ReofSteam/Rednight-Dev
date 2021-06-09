@@ -63,6 +63,7 @@ CSA_refugee_crisis = {
 				political_power_gain = -0.2
 				monthly_population = 0.1
 				recruitable_population_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.3
 	
 						 } 
 						 removal_cost = -1
