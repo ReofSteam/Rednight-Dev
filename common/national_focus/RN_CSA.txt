@@ -838,7 +838,7 @@ focus_tree = {
 	focus = {
 		id = CSA_the_storm
 		icon = "GFX_CSA_the_storm"
-		x = 11
+		x = 12
 		y = 9
 		cost = 17.2
 		available_if_capitulated = yes
@@ -863,7 +863,7 @@ focus_tree = {
 	focus = {
 		id = CSA_resume_the_debate
 		icon = GFX_CSA_resume_debate
-		x = 13
+		x = 15
 		y = 9
 		cost = 5
 		
@@ -872,9 +872,7 @@ focus_tree = {
 	}
 		available_if_capitulated = yes
 		available = { has_country_flag = crisis_resolved }
-		prerequisite = {
-			focus = CSA_the_storm
-		}
+
 		ai_will_do = {
 			factor = 1
 		}

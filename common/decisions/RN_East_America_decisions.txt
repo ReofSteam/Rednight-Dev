@@ -47,7 +47,26 @@ icon = GFX_decision_generic_petition
 		  country_event = CSA.121
 		  country_event = CSA.122
 		  country_event = CSA.123
-		  
+    add_popularity = {
+    ideology = social_conservative
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = authoritarian_democrat
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = autocratic
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = ultraconservative
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = national_corporatist
+    popularity = -1
+}		  
     }
 }
 CSA_lobby_effort_iww = {

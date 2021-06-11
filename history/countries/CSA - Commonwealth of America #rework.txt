@@ -5,11 +5,11 @@ oob = "CSA"
 
 ### Cabinet 
 add_ideas = {
+	CSA_internal_war
 	America_new_year_peace
 	CSA_ruins
 	CSA_divided_goverment
 	CSA_refugee_crisis
-	CSA_internal_war
 }
 
 hidden_ideas = {
@@ -81,16 +81,16 @@ country_event = {
 
 set_popularities = {
     nationalist_socialism = 5
-    revolutionary_socialism = 22 
+    revolutionary_socialism = 32 
     syndicalism = 22
     moderate_socialist = 20
     social_democrat = 19
-    social_liberal = 4
+    social_liberal = 2
     social_conservative = 0
-    authoritarian_democrat = 1
-    autocratic = 4
-    ultraconservative = 2
-    national_corporatist = 1
+    authoritarian_democrat = 0
+    autocratic = 0
+    ultraconservative = 0
+    national_corporatist = 0
 }
 
 create_country_leader = {

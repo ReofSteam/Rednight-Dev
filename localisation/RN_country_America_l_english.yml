@@ -174,7 +174,13 @@ csa.60.a:0 "I'll try my best"
 csa.70.t:0 "Operation Jerome"
 csa.70.d:0 "Commander, do not let us down."
 csa.70.a:0 "I'll try my best"
-
+csa.98.t:0 "Article 3"
+csa.98.d:0 "The Government of the American people"
+csa.98.a:0 "A National Congress"
+csa.98.b:0 "An Industrial Congress"
+csa.99.t:0 "Article 9"
+csa.99.d:0 "The national economic organisation of the Socialist Republic would be..."
+csa.99.a:0 "limited enterprises"
 
 ### Focuses ###
 CSA_force_a_compromise:0 "Force a Compromise"
@@ -253,7 +259,7 @@ CSA_raise_elite_divisions:0 "Raise Elite Divisions"
 CSA_raise_elite_divisions_desc:0 "-"
 CSA_canonize_his_legacy:0 "Canonize his Legacy"
 CSA_canonize_his_legacy_desc:0 "-"
-CSA_the_storm:0 "The Storm"
+CSA_the_storm:0 "The Convention"
 CSA_the_storm_desc:0 "-"
 CSA_resume_the_debate:0 "Resume the Debate"
 CSA_resume_the_debate_desc:0 "-"
@@ -262,8 +268,8 @@ CSA_moment_of_truth_desc:0 "-"
 
 
 ######Decisions######
-CSA_convention_status:0 "Constitutional Convention in Prociess"
-CSA_convention_status_desc:0 "Current Support in Congress: [?CSA_congress_total|%G0]\n\nA majority of 60% is needed for the Draft to Pass. Session occurs every 10 days"
+CSA_convention_status:0 "Constitutional Convention in Process"
+CSA_convention_status_desc:0 "Socialist Party of America: Support\n\nSocial Democratic Party of America: Support\n\nIndustrial Workers of the World: Support\n\n\n\nCurrent Support in Congress: [?CSA_congress_total|%G0]\n\nA majority of 60% is needed for the Draft Constitution to Pass.\n\nSession occurs every 10 days."
 CSA_congress_session:0 "Congress Session"
  
 #### Ideas ####
