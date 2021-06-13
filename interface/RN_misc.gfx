@@ -285,6 +285,14 @@ spriteTypes = {
 	texturefile = "gfx/interface/CSA_gui/CSA_operation_progress_3.tga"
 	}	
 	spriteType = {
+	name = "GFX_CSA_lady_liberty"
+	texturefile = "gfx/interface/CSA_gui/lady_liberty.tga"
+	}	
+	spriteType = {
+	name = "GFX_CSA_congress_symbol"
+	texturefile = "gfx/interface/CSA_gui/CSA_congress_symbol.tga"
+	}			
+	spriteType = {
 	name = "GFX_ICBM_menu"
 	texturefile = "gfx/interface/RN_ICBM_menu.tga"
 	}		

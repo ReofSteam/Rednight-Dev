@@ -208,3 +208,165 @@ guiTypes = {
 		}			
 }		
 }
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "CSA_convention_menu"
+		size = { width = 581 height = 350 }
+		position = { x = 150 y = -50 }
+		Orientation = center
+		Origo = center
+		
+		iconType = {
+			name ="CSA_convention_progress"
+			position = { x = 30 y = 290 } 
+			spriteType = "GFX_RN_progressbar_decision"		
+			frame = 10
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_number"
+			position = { x = 180 y = 255 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_status_number"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = right
+		}	
+		
+		instantTextBoxType = {
+			name = "CSA_congress_text"
+			position = { x = 50 y = 255 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "Current Support for the Draft"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+
+
+		instantTextBoxType = {
+			name = "CSA_congress_SPA_title"
+			position = { x = 200 y = 50 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "SOCIALIST PARTY OF AMERICA"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_SPA_title_status"
+			position = { x = 200 y = 75 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_no_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}
+
+		instantTextBoxType = {
+			name = "CSA_congress_SPA_title_status2"
+			position = { x = 200 y = 75 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}			
+
+		instantTextBoxType = {
+			name = "CSA_congress_SDP_title"
+			position = { x = 200 y = 100 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "SOCIAL DEMOCRATIC PARTY"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_SDP_title_status"
+			position = { x = 200 y = 125 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_no_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_SDP_title_status2"
+			position = { x = 200 y = 125 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}			
+		
+
+		instantTextBoxType = {
+			name = "CSA_congress_IWW_title"
+			position = { x = 200 y = 150 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "INDUSTRIAL WORKERS OF THE WORLD"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_IWW_title_status"
+			position = { x = 200 y = 175 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_no_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}	
+
+		instantTextBoxType = {
+			name = "CSA_congress_IWW_title_status2"
+			position = { x = 200 y = 175 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "CSA_convention_party_support"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}			
+		
+		iconType = {
+			name = "GFX_CSA_congress_symbol"
+			position = { x = 35 y = 0 }
+			pdx_tooltip = "CSA_congress"
+			spriteType = "GFX_CSA_congress_symbol"			
+		}			
+		
+				
+		
+    }
+}	

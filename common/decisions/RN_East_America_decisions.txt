@@ -47,6 +47,7 @@ icon = GFX_decision_generic_petition
 		  country_event = CSA.121
 		  country_event = CSA.122
 		  country_event = CSA.123
+		  country_event = CSA.124
     add_popularity = {
     ideology = social_conservative
     popularity = -1

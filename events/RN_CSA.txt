@@ -1501,7 +1501,7 @@ country_event = {
 		name = csa.96.a 
 	if = { limit = { has_country_flag = SPA_support }
 	add_to_variable = { CSA_congress_total = party_popularity@revolutionary_socialism }
-	add_to_variable = { CSA_congress_total = party_popularity@nationalist_socialism }	
+	add_to_variable = { CSA_congress_total = party_popularity@nationalist_socialism }		
 	}
 	else = { }		
 	}
@@ -1520,7 +1520,7 @@ country_event = {
 		name = csa.96.a 
 	if = { limit = { has_country_flag = SDP_support }
 	add_to_variable = { CSA_congress_total = party_popularity@moderate_socialist }
-	add_to_variable = { CSA_congress_total = party_popularity@social_democrat }		
+	add_to_variable = { CSA_congress_total = party_popularity@social_democrat }	
 	}
 	else = { }		
 	}
@@ -1542,6 +1542,22 @@ country_event = {
 	add_to_variable = { CSA_congress_total = party_popularity@syndicalism }
 	}
 	else = { }	
+	}
+
+}
+
+country_event = { 
+	id = csa.124
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	hidden = yes	
+
+	option = {
+		name = csa.96.a 
+		set_temp_variable = { CSA_congress_frame = CSA_congress_total }
+		multiply_temp_variable = { CSA_congress_frame = 100 }
+		set_variable = { CSA_congress_frame_final = CSA_congress_frame }
 	}
 
 }

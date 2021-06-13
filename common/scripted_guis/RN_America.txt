@@ -241,4 +241,38 @@ NOT = { has_country_flag = CSA_cia_active_operation }
 }	
 }
 }
+
+    RN_CSA_congress_convention = {
+        context_type = player_context
+        parent_window_token = decision_tab
+        window_name = "CSA_convention_menu"
+       	visible = {
+        always = no
+		}
+		properties = {
+        CSA_convention_progress = {
+        frame = CSA_congress_frame_final
+    }	
+}
+triggers = {
+CSA_congress_SPA_title_status_visible = {
+NOT = { has_country_flag = SPA_support }
+}
+CSA_congress_SDP_title_status_visible = {
+NOT = { has_country_flag = SDP_support }
+}
+CSA_congress_IWW_title_status_visible = {
+NOT = { has_country_flag = IWW_support }
+}
+CSA_congress_SPA_title_status2_visible = {
+has_country_flag = SPA_support
+}
+CSA_congress_SDP_title_status2_visible = {
+has_country_flag = SDP_support
+}
+CSA_congress_IWW_title_status2_visible = {
+has_country_flag = IWW_support
+}
+}
+	}
 }
