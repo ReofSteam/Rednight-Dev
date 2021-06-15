@@ -868,7 +868,7 @@ country_event = {
 
 	option = {
 		name = prs.54.a	
-		set_country_flag = PRS_christian_democracy
+		set_cosmetic_tag = PRS_christian_democracy
 		set_country_flag = Super_Event_Visible
 		hidden_effect = {
 		play_song = "RNschumacher_republic"
@@ -879,7 +879,7 @@ country_event = {
 }
 	option = {
 		name = prs.54.b
-		set_country_flag = PRS_christian_democracy
+		set_cosmetic_tag = PRS_christian_democracy
 		set_country_flag = Super_Event_Visible
 		hidden_effect = {
 		play_song = "RNschumacher_republic"

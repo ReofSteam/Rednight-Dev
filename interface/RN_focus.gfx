@@ -693,6 +693,10 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_RUS_peasant_bank"
 		texturefile = "gfx/interface/goals/RUS/RUS_peasant_bank.tga"
-	}		
+	}
+	SpriteType = { 
+		name = "GFX_RUS_honour_all"
+		texturefile = "gfx/interface/goals/RUS/RUS_honour_all.tga"
+	}			
 
 }

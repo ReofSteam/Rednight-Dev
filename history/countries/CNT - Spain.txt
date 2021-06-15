@@ -26,6 +26,9 @@ set_technology = {
 }
 
 add_ideas = {
+CNT_civil_war_recovery
+CNT_political_divide
+CNT_legacy_of_the_purge
 
 }
 

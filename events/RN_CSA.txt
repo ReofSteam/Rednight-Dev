@@ -1590,3 +1590,28 @@ country_event = {
 	}
 
 }
+
+######Operation Torchbearers
+country_event = { 
+	id = csa.1002
+    title = csa.1002.t
+    desc = csa.1002.d
+	is_triggered_only = yes
+	immediate = {
+    OSS = {
+	transfer_state = 390
+	transfer_state = 389
+	add_state_core = 390
+	add_state_core = 389
+	}
+	}
+	option = {
+		name = csa.1002.a 
+		declare_war_on = {
+        target = OSS
+        type = annex_everything
+}	
+
+	}
+
+}

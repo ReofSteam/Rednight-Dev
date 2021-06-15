@@ -1938,7 +1938,7 @@ focus_tree = {
 	#Focus for To Honour All
 	focus = {
 		id = RUS_to_honour_all
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_honour_all
 		x = 3
 		y = 4
 		cost = 10

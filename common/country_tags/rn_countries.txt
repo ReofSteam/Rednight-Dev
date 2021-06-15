@@ -269,6 +269,11 @@ QUE = "countries/WestEur.txt"
 TEX = "countries/Texas.txt"
 YUC = "countries/Yucatan.txt"
 CAL = "countries/WestEur.txt"
+####Civil War
+OSS = "countries/WestEur.txt"
+COF = "countries/WestEur.txt"
+NGO = "countries/WestEur.txt"
+
 ##Central
 CAC = "countries/Central America.txt"
 COS = "countries/Costa Rica.txt"

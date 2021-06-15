@@ -29,15 +29,12 @@ CSA_conservative_ADJ:0 "the Socialist Republic of America"
 CSA_authoritarian_democrat:0 "Socialist Republic of America"
 CSA_authoritarian_democrat_DEF:0 "American"
 CSA_authoritarian_democrat_ADJ:0 "the Socialist Republic of America"
-CSA_autocratic:0 "Socialist Republic of America"
-CSA_autocratic_DEF:0 "American"
-CSA_autocratic_ADJ:0 "the Socialist Republic of America"
-CSA_fundamentalist:0 "Socialist Republic of America"
-CSA_fundamentalist_DEF:0 "American"
-CSA_fundamentalist_ADJ:0 "the Socialist Republic of America"
-CSA_voynist:0 "Socialist Republic of America"
-CSA_voynist_DEF:0 "American"
-CSA_voynist_ADJ:0 "the Socialist Republic of America"
+
+#####Civil War
+OSS_authoritarian_democrat:0 "Operation Torchbearers"
+OSS_authoritarian_democrat_DEF:0 "American"
+OSS_authoritarian_democrat_ADJ:0 "the Anti-Socialist Army"
+
 
 ###############
 ### Parties ###

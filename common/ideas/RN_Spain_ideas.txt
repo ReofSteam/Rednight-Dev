@@ -1,0 +1,30 @@
+### Madagascar
+
+ideas = {
+	country = {
+		CNT_civil_war_recovery = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_civil_war_recovery"}
+			picture = ITA_southern_question
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.15							
+
+			}
+		}
+		CNT_political_divide = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_political_divide"}
+			picture = ITA_papal_question
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.05		
+			}
+		}
+		CNT_legacy_of_the_purge = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_legacy_of_the_purge"}
+			picture = ITA_reconstruction
+			modifier = {
+				war_support_factor = -0.10					
+			}
+		}	
+	}
+}
