@@ -16,29 +16,6 @@ set_technology = {
 }
 
 add_ideas = {
-	CHI_Party_State
-	CHI_Wang_Jingwei_Thought
-	CHI_National_Revolutionary_Army
-	CHI_Unindustrialized_Society
-	CHI_Rural_Illiteracy
-
-##Cabinet##
-
-	CHI_Li_Fuchun_hog
-	CHI_Zhou_Fohai_no_portfolio
-	#CHI_Song_Qingling_no_portfolio
-	CHI_Li_Kenong_interior
-	CHI_Deng_Xiaoping_economy
-	CHI_Zhou_Enlai_foreign
-	CHI_Chen_Lifu_education
-	CHI_Shen_Yanbing_culture
-	CHI_Sun_Fo_transport
-	CHI_Dai_Chunfeng_intel
-	CHI_Li_Jishen_staff
-	CHI_Wei_Lihuang_army
-	CHI_Fang_Ziyi_air_force
-	CHI_Lin_Zun_navy
-
 }
 
 set_politics = {

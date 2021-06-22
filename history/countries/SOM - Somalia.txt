@@ -1,9 +1,7 @@
 ﻿capital = 559
 OOB = "SOM"
 add_ideas = {
-	SOM_soomaaliweyn
-	SOM_peace_between_the_clans
-	SOM_the_old_boqor
+
 }
 set_research_slots = 3
 

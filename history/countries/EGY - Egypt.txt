@@ -11,10 +11,7 @@ set_technology = {
 }
 
 add_ideas = {
-	EGY_resentful_lower_class
-	EGY_the_aswan_dam
-	EGY_gilded_age
-	EGY_peshmerga_raids
+
 }
 
 set_convoys = 50

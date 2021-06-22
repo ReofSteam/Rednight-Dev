@@ -1,6 +1,7 @@
-state={
+state = {
 	id=1095
 	name="STATE_1095"
+	state_category = rural
 	provinces={
 		3834 4796 6897 7747 7821 7920 10573 
 	}
@@ -20,6 +21,6 @@ state={
 }	
 	}
 	manpower=300000
-	state_category = rural
+
 	buildings_max_level_factor=1.000
 }

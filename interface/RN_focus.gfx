@@ -580,7 +580,28 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_reichemblem"
 		texturefile = "gfx/interface/goals/PRS/PRS_reichemblem.tga"
+	}	
+
+	SpriteType = { 
+		name = "GFX_PRS_anti_czech"
+		texturefile = "gfx/interface/goals/PRS/PRS_anti_czech.tga"
 	}		
+	SpriteType = { 
+		name = "GFX_PRS_anti_poland"
+		texturefile = "gfx/interface/goals/PRS/PRS_anti_poland.tga"
+	}			
+	SpriteType = { 
+		name = "GFX_PRS_over_the_oder"
+		texturefile = "gfx/interface/goals/PRS/PRS_over_the_oder.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_german_federation"
+		texturefile = "gfx/interface/goals/PRS/PRS_german_federation.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_PRS_return_to_ostland"
+		texturefile = "gfx/interface/goals/PRS/PRS_return_to_ostland.tga"
+	}			
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
@@ -697,6 +718,37 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_RUS_honour_all"
 		texturefile = "gfx/interface/goals/RUS/RUS_honour_all.tga"
-	}			
-
+	}
+	SpriteType = { 
+		name = "GFX_RUS_jewish_reconcilation"
+		texturefile = "gfx/interface/goals/RUS/RUS_jewish_reconcilation.tga"
+	}		
+	SpriteType = { 
+		name = "GFX_RUS_ministry_paramilitary"
+		texturefile = "gfx/interface/goals/RUS/RUS_ministry_paramilitary.tga"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_ethnicity_commission"
+		texturefile = "gfx/interface/goals/RUS/RUS_ethnicity_commission.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_RUS_ROVS_focus"
+		texturefile = "gfx/interface/goals/RUS/RUS_ROVS_focus.tga"
+	}	
+	SpriteType = { 
+		name = "GFX_RUS_civil_society"
+		texturefile = "gfx/interface/goals/RUS/RUS_civil_society.tga"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_national_volunteer"
+		texturefile = "gfx/interface/goals/RUS/RUS_national_volunteer.tga"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_social_relief"
+		texturefile = "gfx/interface/goals/RUS/RUS_social_relief.tga"
+	}
+	SpriteType = { 
+		name = "GFX_RUS_patriotic_cult"
+		texturefile = "gfx/interface/goals/RUS/RUS_patriotic_cult.tga"
+	}	
 }

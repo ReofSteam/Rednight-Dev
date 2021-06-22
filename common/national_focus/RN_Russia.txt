@@ -189,7 +189,7 @@ focus_tree = {
 	#Focus for Ministry of Reunited Territories
 	focus = {
 		id = RUS_ministry_of_reunited_territories
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_ministry_paramilitary
 		x = 1
 		y = 3
 		cost = 10
@@ -203,7 +203,7 @@ focus_tree = {
 	#Focus for Minorities vs Minorities
 	focus = {
 		id = RUS_minorities_against_minorities
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_state_teutophobia
 		x = 1
 		y = 4
 		cost = 10
@@ -217,7 +217,7 @@ focus_tree = {
 	#Focus for National Ethnicities Commission
 	focus = {
 		id = RUS_national_ethnicities_commission
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_ethnicity_commission
 		x = 1
 		y = 5
 		cost = 10
@@ -604,7 +604,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_national_knighthood
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_RUS_ROVS_focus
 		x = 14
 		y = 1
 		cost = 5
@@ -637,7 +637,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_services_to_tired
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_RUS_social_relief
 		x = 13
 		y = 3
 		cost = 5
@@ -653,7 +653,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_regenerate_civil_society
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_RUS_civil_society
 		x = 13
 		y = 4
 		cost = 5
@@ -669,7 +669,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_patriot_knights
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_RUS_patriotic_cult
 		x = 15
 		y = 3
 		cost = 5
@@ -685,7 +685,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_blood_conquer_rights
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_RUS_national_volunteer
 		x = 15
 		y = 4
 		cost = 5
@@ -706,8 +706,10 @@ focus_tree = {
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = RUS_blood_conquer_rights }
-		prerequisite = { focus = RUS_regenerate_civil_society }
+		prerequisite = { 
+		focus = RUS_blood_conquer_rights
+		focus = RUS_regenerate_civil_society
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -1925,7 +1927,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_miracle_of_russian_statehood
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_new_russian_man
 		x = 3
 		y = 3
 		cost = 10
@@ -1952,7 +1954,7 @@ focus_tree = {
 	#Focus for To Reconcile All
 	focus = {
 		id = RUS_to_reconcile_all
-		icon = GFX_goal_unknown
+		icon = GFX_RUS_jewish_reconcilation
 		x = 3
 		y = 5
 		cost = 10

@@ -479,7 +479,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_unthinkable_czechia_action
-		icon = GFX_PRS_Freikorps_of_Silesia
+		icon = GFX_PRS_anti_czech
 		x = 11
 		y = 8
 		cost = 10
@@ -492,7 +492,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_unthinkable_polish_border
-		icon = GFX_PRS_Freikorps_of_Silesia
+		icon = GFX_PRS_anti_poland
 		x = 13
 		y = 8
 		cost = 10
@@ -505,7 +505,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_german_federation
-		icon = GFX_PRS_Freikorps_of_Silesia
+		icon = GFX_PRS_german_federation
 		x = 12
 		y = 9
 		cost = 10
@@ -519,7 +519,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_return_to_ostland
-		icon = GFX_PRS_Freikorps_of_Silesia
+		icon = GFX_PRS_return_to_ostland
 		x = 12
 		y = 10
 		cost = 10
@@ -532,7 +532,7 @@ focus_tree = {
 
 	focus = {
 		id = PRS_beyond_oder
-		icon = GFX_PRS_Freikorps_of_Silesia
+		icon = GFX_PRS_over_the_oder
 		x = 8
 		y = 10
 		cost = 10

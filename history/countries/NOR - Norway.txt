@@ -3,22 +3,7 @@
 OOB = "NOR"
 
 add_ideas = {
-	NOR_careful_shot_socialism
-	NOR_swedish_exiles
-	NOR_king_haakon
-	
-	NOR_einar_henry_gerhardssen_hog
-	NOR_kirsten_hansteen_interior
-	NOR_emil_lovlien_economy
-	NOR_Trygve_Lie_foreign
-	NOR_kaare_fostervoll_education
-	NOR_kaare_fostervoll_culture
-	NOR_nils_langhelle_transport
-	NOR_oscar_christian_gundersen_intel
-	NOR_ole_berg_staff
-	NOR_ole_berg_army
-	NOR_Bjarne_Oen_air
-	NOR_Skule_Storheil_navy
+
 }
 
 set_technology = {

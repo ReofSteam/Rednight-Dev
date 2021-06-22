@@ -20,13 +20,6 @@ set_technology = {
 	transport = 1
 }
 
-set_country_flag = banned_national_corporatist
-set_country_flag = banned_revolutionary_socialism
-set_country_flag = banned_nationalist_socialism
-set_country_flag = banned_syndicalism
-set_country_flag = banned_moderate_socialist
-set_country_flag = banned_ultrasocial_conservative
-set_country_flag = banned_autocratic
 
 set_politics = {
 	ruling_party = social_democrat
@@ -62,23 +55,6 @@ create_country_leader = {
 }
 
 add_ideas = {
-	DEN_influx_refugees
-	DEN_thriving_social_democracy
-	DEN_lack_trading_partners
-	DEN_iceland_question
-
-	DEN_Hans_Hedtoft_hog
-	DEN_Alsing_Anderson_interior
-	DEN_HC_Hansen_economy
-	DEN_Gustav_Rasmussen_foreign
-	DEN_Hartvig_Frisch_education
-	DEN_Fred_Nielsen_culture
-	DEN_Carl_Petersen_transport
-	DEN_Vilhelm_Buhl_intel
-	DEN_Erhard_JC_Qvistgaard_cos
-	DEN_Ebbe_Gortz_coa
-	DEN_Torben_Ploug_Aagesen_Orum_coaf
-	DEN_AH_Vedel_con
 	}
 
 ###create_country_leader = {

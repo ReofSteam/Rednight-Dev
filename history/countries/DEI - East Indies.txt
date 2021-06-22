@@ -43,9 +43,7 @@ set_technology = {
 
 add_ideas = {
 #starting
-	DEI_colonial_nation_idea
-	DEI_naval_junta_idea
-	DEI_economy_lvl0_idea
+
 	
 #ministers
 }

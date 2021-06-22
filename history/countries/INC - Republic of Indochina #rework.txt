@@ -20,15 +20,7 @@ add_ideas = {
 
 ###Council of State
 add_ideas = {
-	INC_Nguyen_Van_Cu
-	INC_Tran_Trong_Kim
-	INC_Ha_Huy_Tap
-	INC_Phan_Anh
-	INC_Nguyen_Hai_Than
-	INC_Nguyen_Tuong_Tam
-	INC_Nguyen_Van_Huyen
-	INC_Tran_Dang_Khoa
-	INC_Dao_Phuc_Loc
+
 }
 
 # Starting tech

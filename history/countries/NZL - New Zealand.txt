@@ -53,21 +53,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	#medium_economy
-	NZL_Sidney_Holland_hog
-	NZL_William_Bodkin_interior
-	NZL_Clifton_Webb_for
-	NZL_Jack_Watts_eco
-	NZL_Ronald_Algie_edu
-	NZL_William_Goosman_tra
-	NZL_David_Maxwell_Fyfe_intel
-	NZL_Peter_Phipps_cos
-	NZL_Keith_Lindsay_Stewart_coa
-	NZL_David_Carnegie_air
-	NZL_Charles_Madden_navy
-	NZL_reliant_on_agriculture
-	NZL_forced_isolation
-	NZL_new_kingdom
+
 }
 
 create_country_leader = {

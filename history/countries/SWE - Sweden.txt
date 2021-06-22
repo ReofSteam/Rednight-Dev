@@ -5,23 +5,6 @@ OOB = "SWE"
 
 ### CABINET ###
 add_ideas = {
-	SWE_german_advisors_to_the_king
-	SWE_crown_prince_gustaf_adolf
-	SWE_ruined_economy
-	SWE_refugee_crisis
-
-    SWE_Fritiof_Domo_hog #Head of Government
-    SWE_Carl_Persson_interior #Interior
-    SWE_Conrad_Carleson_economy #Economy
-    SWE_Christian_Gunther_foreign #Foreign
-    SWE_Georg_Andren_education #Education
-    SWE_Georg_Andren_culture #Culture
-    SWE_Walter_Murray_transport #Transport
-    SWE_Thorwald_Bergquist_intel #Intel
-    SWE_Helge_Jung_staff #Chief of Staff
-    SWE_Carl_A_Ehrensvard_army #Chief of Army
-    SWE_Bengt_Nordenskiold_air #Chief of Air Force
-    SWE_Helge_Stromback_navy #Chief of Navy
 }
 
 set_convoys = 75

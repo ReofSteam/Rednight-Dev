@@ -377,9 +377,6 @@ ideas = {
 			}
 
 			allowed_to_remove = {
-				NOT = {
-					has_idea = HON_free_market
-				}
 			}
 
 			ai_will_do = {
@@ -681,7 +678,6 @@ ideas = {
 					has_idea = undisturbed_isolation
 					has_idea = isolation
 					has_country_flag = cannot_have_conscription
-					has_idea = CSA_militia_disbanded
 					has_country_flag = cannot_have_extensive_conscription
 				}
 				if = {
