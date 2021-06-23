@@ -31,15 +31,8 @@ set_popularities = {
     national_corporatist = 20
 }
 add_ideas = {
-	druze_minority
-}
 
-###############################
-#### COALITION AND BANNNED ####
-###### set_country_flag #######
-###### banned_[IDEOLOGY] ######
-##### coalition_[IDEOLOGY] ####
-###############################
+}
 
 ###############################
 ########### LEADERS ###########

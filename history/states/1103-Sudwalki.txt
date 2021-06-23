@@ -21,6 +21,6 @@ history = {
 }
 
 manpower = 300000
-state_category = rural
+state_category = two
 buildings_max_level_factor = 1.000
 }

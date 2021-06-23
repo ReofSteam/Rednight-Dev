@@ -35,24 +35,9 @@ set_popularities = {
     national_corporatist = 0
 }
 
-### COALITION & BANNED ###
-set_country_flag = coalition_autocratic
-set_country_flag = coalition_social_conservative
-set_country_flag = coalition_social_liberal
-set_country_flag = coalition_social_democrat
-
-set_country_flag = banned_revolutionary_socialism
-set_country_flag = banned_syndicalism
-set_country_flag = banned_moderate_socialist
-set_country_flag = banned_ultrasocial_conservative
-set_country_flag = banned_national_corporatist
-
 
 add_ideas = {
-	#extensive_conscription
-	tribal_government
-	untamed_hinterlands
-	egyptian_lifeline
+
 }
 
 create_country_leader = {

@@ -1,12 +1,8 @@
-﻿capital = 1384
+﻿capital = 807
 OOB = "empty"
 
 add_ideas = {
-	IVY_viva_la_republique
-	IVY_francophile_policymaking
-	IVY_french_mercenaries
-	IVY_resist_the_red_menace
-	IVY_immense_population_growth
+
 }
 
 set_technology = {}

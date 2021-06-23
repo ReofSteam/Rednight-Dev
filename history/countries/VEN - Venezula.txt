@@ -44,22 +44,8 @@ set_popularities = {
 }
 
 add_ideas = {
-	VEN_Memories_of_the_Coup
-	VEN_Insufficient_Economy
-	VEN_Oil_Worker_Strikes
+
 }
-
-### PARTIES UI ###
-	set_country_flag = coalition_autocratic
-	set_country_flag = coalition_social_conservative
-
-	### BANNED ###
-	set_country_flag = banned_nationalist_socialism
-	set_country_flag = banned_revolutionary_socialism
-	set_country_flag = banned_syndicalism
-	set_country_flag = banned_moderate_socialist
-	set_country_flag = banned_social_democrat
-###
 
 create_country_leader = {
 	name = "Juan B. Fuenmayor"

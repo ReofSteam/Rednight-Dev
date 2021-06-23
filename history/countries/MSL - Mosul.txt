@@ -32,10 +32,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	uneasy_peace
-	leftist_activity
-	egyptian_lapdog
-	endemic_corruption
+
 }
 
 ###############################

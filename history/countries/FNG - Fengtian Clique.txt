@@ -15,11 +15,7 @@ set_technology = {
 }
 
 add_ideas = {
-	FNG_Legacy_of_the_Xinhai_Revolution
-	FNG_Japanese_Sponsorship
-	FNG_The_Northern_Army
-	FNG_Large_Outdated_Industry
-	FNG_Insitutionalized_Corruption
+
 }
 
 JAP = { 

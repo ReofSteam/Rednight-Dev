@@ -3,16 +3,7 @@
 OOB = "YEM"
 
 add_ideas = {
-	ahmad_devil
-	closed_society
-	republican_unrest
-	egyptian_lifeline
 
-	#medium_economy
-	#YEM_Hassan_ibn_Yahya_hog_pau
-	#YEM_Carl_Rathjens_for_pau
-	#YEM_Ibrahim_Yahya_Hamiduddin_eco_pau
-	#YEM_Sayyid_Ahmad_Zabara_sec_pau
 }
 
 set_research_slots = 2

@@ -26,11 +26,7 @@ set_technology = {
 }
 
 add_ideas = {
-	AST_king_albert_i
-	AST_last_bastion
-	AST_parliament_suspended
-	AST_slow_economic_recovery
-	AST_white_australia
+
 }
 
 set_politics = {	

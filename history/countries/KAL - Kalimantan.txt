@@ -25,9 +25,7 @@ give_resource_rights = { receiver = JAP state = 1330 }
 
 add_ideas = {
 #starting
-	KAL_council_neutral
-	KAL_central_low
-	KAL_control_high
+
 }
 
 set_politics = {

@@ -1,4 +1,4 @@
-﻿capital = 1375
+﻿capital = 70
 
 oob = "SLK"
 

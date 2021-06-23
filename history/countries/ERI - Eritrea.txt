@@ -1,9 +1,7 @@
 ﻿capital = 550
 
 add_ideas = {
-	ERI_popular_dictatorship
-	ERI_an_armed_nation
-	ERI_egyptian_ties
+
 }
 
 set_research_slots = 2

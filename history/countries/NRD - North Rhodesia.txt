@@ -1,0 +1,49 @@
+﻿capital = 813
+OOB = "empty"
+
+add_ideas = {
+
+}
+
+set_technology = {
+	### MOD ###
+	### General ###
+	shipbuild_basics = 1
+	### INF ###
+	infantry_weapons = 1
+}
+set_research_slots = 2
+
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1888.15.6"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 7
+    revolutionary_socialism = 1
+    syndicalism = 9
+    moderate_socialist = 9
+    social_democrat = 6
+    social_liberal = 8
+    social_conservative = 6
+    authoritarian_democrat = 8
+    autocratic = 32
+    ultraconservative = 14
+    national_corporatist = 0
+}
+
+###LEADERS
+create_country_leader = {
+	name = "Thomas Cholmondeley"
+	desc = "POLITICS_DEDAN_KIMATHI_DESC"
+	picture = "gfx/leaders/KEN/KEN_Cholmondeley.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+		
+	}
+}
+

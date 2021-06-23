@@ -2,10 +2,7 @@
 OOB = "empty"
 
 add_ideas = {
-	BGA_colonial_vestiges
-	BGA_ravages_of_war
-	BGA_religious_conflicts
-	BGA_peace_between_the_tribes
+
 }
 
 set_research_slots = 2

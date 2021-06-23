@@ -3,10 +3,7 @@
 oob = "ETH"
 
 add_ideas = {
-	ETH_the_arbegnoch
-	ETH_bloated_aristocracy
-	ETH_the_hermit_kingdom
-	ETH_famine
+
 }
 
 # Starting tech

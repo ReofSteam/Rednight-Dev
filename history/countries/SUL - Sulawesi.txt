@@ -5,11 +5,7 @@ oob = "SUL_1950"
 set_research_slots = 2
 
 add_ideas = {
-	#Starting Ideas
-	SUL_roadmaking_idea
-	SUL_political_infighting_4_idea
-	SUL_ratulangi_idea
-	SUL_dii_idea
+
 }
 
 country_event = { id = SUL.0 days = 2 }

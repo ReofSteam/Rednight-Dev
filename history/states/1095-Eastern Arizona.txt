@@ -1,7 +1,7 @@
 state = {
 	id=1095
 	name="STATE_1095"
-	state_category = rural
+	state_category = two
 	provinces={
 		3834 4796 6897 7747 7821 7920 10573 
 	}
