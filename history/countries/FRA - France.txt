@@ -7,7 +7,12 @@ set_stability = 0.85
 set_war_support = 0.85
 
 set_rule = {
-    can_be_called_to_war = no
+    can_decline_call_to_war = yes
+}
+
+add_opinion_modifier = {
+    target = RUS
+    modifier = national_concern
 }
 
 add_ideas = {

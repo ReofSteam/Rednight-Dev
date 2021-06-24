@@ -31,4 +31,10 @@ opinion_modifiers = {
 		value = -50
 	}
 
+##########Generic
+   national_concern = {
+   		value = -200
+   }
+
+
 }

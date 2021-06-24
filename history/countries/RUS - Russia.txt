@@ -11,10 +11,7 @@ set_country_flag = RUS_disapproved_liberals
 
 ## Cabinet ##
 add_ideas = {
-RUS_ivan_ilyin 
-RUS_Ivan_Mikhailov
-RUS_Alexander_Kazembek
-RUS_Vsevolod_Merkulov
+
 }
 
 oob = "RUS"

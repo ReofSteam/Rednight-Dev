@@ -27,9 +27,7 @@ TEX_soldiers_nation
 }
 
 add_ideas = {
-TEX_william_d_leahy
-TEX_Josef_R_Sheetz
-TEX_Carl_F_Eifler
+
 }
 
 set_popularities = {
