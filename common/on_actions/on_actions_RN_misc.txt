@@ -43,6 +43,23 @@ effect = {
 	CSA = {
 	news_event = worldnews.3
 	}
+	#######Set Up Marpac Executive Council#####
+	add_to_array = { global.marpac_executive_array = ENG }
+	add_to_array = { global.marpac_executive_array = GER }
+	add_to_array = { global.marpac_executive_array = FRA }	
+	add_to_array = { global.marpac_executive_array = CSA }
+	add_to_array = { global.marpac_executive_array = ITA }	
+	add_to_array = { global.marpac_executive_array = CNT }	
+	add_to_array = { global.marpac_executive_array = CRO }
+	add_to_array = { global.marpac_executive_array = ALG }
+	add_to_array = { global.marpac_executive_array = MOR }
+	add_to_array = { global.marpac_executive_array = TUN }
+	add_to_array = { global.marpac_executive_array = NTH }
+	add_to_array = { global.marpac_executive_array = BEL }		
+	
+	
+	
+}
   } 
 }	
 }

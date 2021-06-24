@@ -29,21 +29,6 @@ scripted_gui = {
 			original_tag = NTH
 			}
         }
-	ai_enabled = {
-    has_global_flag = MARPAC_voting_in_process
-	NOT = { has_country_flag = MARPAC_voted }
-    }	
-	ai_test_interval = 25	
-	ai_check = {
-	has_global_flag = MARPAC_voting_in_process
-	}
-	ai_weights = {
-	open_button_click = {
-	    ai_will_do = {
-		base = 100
-	    }
-	    }
-	}
     }
     marpac_executive_window = {
         context_type = player_context
@@ -86,17 +71,18 @@ scripted_gui = {
 			if = {
 			limit = { original_tag = FRA }
 			add_to_variable = {
-			var = marpac_for_vote
+			var = global.marpac_for_vote
 			value = 5
 			}
-			else_if = { original_tag = ENG }
+			else_if = { limit= { original_tag = ENG }
 			add_to_variable = { 
-			var = marpac_for_vote
+			var = global.marpac_for_vote
 			value = 3
+			}
 			}
 			else = {
 			add_to_variable = {
-	        var = marpac_for_vote
+	        var = global.marpac_for_vote
 	        value = 1
 			}
         }
@@ -111,21 +97,22 @@ scripted_gui = {
 			if = {
 			limit = { original_tag = FRA }
 			add_to_variable = {
-			var = marpac_against_vote
+			var = global.marpac_against_vote
 			value = 5
 			}
-			else_if = { original_tag = ENG }
+			}
+			else_if = { limit = { original_tag = ENG } 
 			add_to_variable = { 
-			var = marpac_against_vote
+			var = global.marpac_against_vote
 			value = 3
+			}
 			}
 			else = {			
 			add_to_variable = {
-	        var = marpac_against_vote
+	        var = global.marpac_against_vote
 	        value = 1
             }
-			}
-			}
+			}			
 			
 			set_country_flag = MARPAC_voted
 		    add_to_array = {
@@ -142,20 +129,5 @@ marpac_against_button_click_enabled = {
 NOT = { has_country_flag = MARPAC_voted }
 }
 }
-	ai_enabled = {
-    has_global_flag = MARPAC_voting_in_process
-	NOT = { has_country_flag = MARPAC_voted }
-    }	
-	ai_test_interval = 25	
-	ai_check = {
-	has_global_flag = show_marpac_menu
-	}
-	ai_weights = {
-	marpac_against_button_click = {
-	    ai_will_do = {
-		base = 100
-	    }
-	}
-	}
 }
 }

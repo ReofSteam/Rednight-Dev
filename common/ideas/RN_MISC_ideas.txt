@@ -12,5 +12,12 @@ ideas = {
 			political_power_gain = -0.15
 			}
 		}
+		volunteer_proxy_war = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea volunteer_proxy_war"}
+			picture = generic_volunteer_proxy_war
+			modifier = {
+			send_volunteer_size = 10
+			}
+		}		
 	}	
 }

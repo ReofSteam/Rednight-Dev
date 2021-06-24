@@ -59,7 +59,13 @@ FRA_mission_free_africa = {
 	icon = GFX_decision_category_generic_industry
 	priority = 80
 	allowed = {
-		tag = FRA
+	OR = { 
+	tag = FRA
+	tag = ENG 
+	tag = ITA 
+	tag = CSA
+	tag = CNT
+	}
 	}
 	visible = { 
 		has_global_flag = FRA_mission_free_africa

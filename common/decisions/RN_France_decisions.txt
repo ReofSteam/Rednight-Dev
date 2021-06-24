@@ -80,15 +80,18 @@ FRA_mission_free_africa = {
 	 days_re_enable = 1
 	 fire_only_once = no
           allowed = { 
-		  tag = FRA
+		  OR = { 
+	tag = FRA
+	tag = ENG 
+	tag = ITA 
+	tag = CSA
+	tag = CNT
+	}
 }		  
-          available = {
-		  NOT = {
-		  has_country_flag = FRA_boots_in_afrca
-		  }		  
+          available = {		  
           ALG = {
 		  has_volunteers_amount_from = {
-          tag = FRA
+          tag = ROOT
           count > 4
 }
 }

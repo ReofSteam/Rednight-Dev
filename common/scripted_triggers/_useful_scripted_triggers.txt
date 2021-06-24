@@ -213,6 +213,12 @@ same_government_type_as_ROOT = {
 		}
 	}
 }
+###Alliance Check###
+
+is_marpac_executive = {
+		is_in_array = { global.marpac_executive_array = THIS }
+}
+
 
 # the following triggers will check if the country in scope is on a particular continent
 # note that these are continents as per the game - asia and middle-east are considered separate continents

@@ -14,7 +14,7 @@ country_event = {
 		}
 		country_event = {
 		id = africa.1
-		days = 10
+		days = 20
 	}	
 	}
 	option = {
@@ -67,6 +67,21 @@ country_event = { #French Africa Lore Intro
 	tag = FRA
 	}
 	}
+	option = {
+	name = africa.7.b
+	trigger = {
+	tag = SEN
+	}
+	}	
+	option = {
+	name = africa.7.c
+	trigger = { OR = {
+	tag = ALG
+	tag = MOR
+	tag = TUN
+	}
+	}
+	}	
 }
 
 country_event = {
@@ -104,6 +119,7 @@ country_event = {
 	name = africa.2.a
 	set_global_flag = FRA_mission_free_africa
 	has_global_flag = FRA_sand_war
+	add_ideas = volunteer_proxy_war
 	ALG = { 
 	declare_war_on = {
     target = SAH
@@ -135,6 +151,7 @@ country_event = {
 	fire_only_once = yes
 
 	option = {
+	add_ideas = volunteer_proxy_war	
 	name = africa.3.a
 	add_political_power = 15
 
@@ -154,7 +171,12 @@ country_event = {
 	option = {
 		name = africa.5.a
 		remove_global_flag = FRA_sand_war
+		all_allied_country = { 
+		has_idea = volunteer_proxy_war
+		remove_ideas = volunteer_proxy_war
+		}
 		FRA = {
+		remove_ideas = volunteer_proxy_war
         set_autonomy = {
         target = SAH
         autonomy_state = autonomy_puppet
