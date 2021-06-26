@@ -41,7 +41,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "John Birch"
-	desc = "POLITICS_WILLIAM_LEAHY_DESC"
+	desc = "POLITICS_JOHN_BIRCH_DESC"
 	picture = "gfx/leaders/CAL/CAL_Birch.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
