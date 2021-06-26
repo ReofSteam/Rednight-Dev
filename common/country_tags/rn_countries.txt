@@ -273,6 +273,9 @@ CAL = "countries/WestEur.txt"
 OSS = "countries/WestEur.txt"
 COF = "countries/WestEur.txt"
 NGO = "countries/WestEur.txt"
+IWW = "countries/WestEur.txt"
+MIS = "countries/WestEur.txt"
+
 
 ##Central
 CAC = "countries/Central America.txt"

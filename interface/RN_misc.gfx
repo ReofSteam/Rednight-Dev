@@ -295,7 +295,15 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_ICBM_menu"
 	texturefile = "gfx/interface/RN_ICBM_menu.tga"
-	}		
+	}	
+	spriteType = {
+	name = "GFX_thirdinternationalBW"
+	texturefile = "gfx/interface/FRA_gui/thirdinternationalBW.tga"
+	}	
+	spriteType = {
+	name = "GFX_thirdinternationalstamp"
+	texturefile = "gfx/interface/FRA_gui/thirdinternationalstamp.dds"
+	}	
 ################CSA regions names#############	
 	spriteType = {
 	name = "CSA_mountains"

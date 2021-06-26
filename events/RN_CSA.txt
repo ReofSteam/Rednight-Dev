@@ -1615,3 +1615,29 @@ country_event = {
 	}
 
 }
+
+#######National Guards Uprising####
+country_event = { 
+	id = csa.1003
+    title = csa.1003.t
+    desc = csa.1003.d
+	is_triggered_only = yes
+	immediate = {
+    OSS = {
+	transfer_state = 390
+	transfer_state = 389
+	add_state_core = 390
+	add_state_core = 389
+	}
+	}
+	option = {
+		name = csa.1003.a 
+		declare_war_on = {
+        target = NGO
+        type = annex_everything
+}	
+
+	}
+
+}
+

@@ -20,23 +20,13 @@ guiTypes = {
 		hide_animation_type = accelerated
 		animation_time = 600
 
-		size = { width = 650 height = 840 }
+		size = { width = 650 height = 540 }
 		background = {
 			name = "hog_gui_background"		
 			spriteType ="GFX_tiled_bg"
 			
 		}		
 		moveable = yes
-		iconType = {
-			name = "marppac_menu"
-			position = { x = 8 y = 12 }
-			#Orientation = "CENTER"
-			spriteType = "GFX_marpac_menu"
-			frame = 1
-			#pdx_tooltip = "secondary_name_tt"
-			#pdx_tooltip_delayed = "secondary_full_name_tt"
-			scale = 0.972
-		}
 		instantTextBoxType = {
 			name = "marpac_menu_for"
 			position = { x = 80 y = 390 }
@@ -55,16 +45,6 @@ guiTypes = {
 			fixedsize = yes	
 			format = centre
 		}		
-		instantTextBoxType = {
-			name = "marpac_menu_current_motion_detail"
-			position = { x = 100 y = 200 }
-			font = "rn_typewriter_16"
-			borderSize = {x = 0 y = 0}
-			maxWidth = 450
-			text = "marpac_current_motion"
-			fixedsize = yes	
-			format = centre
-		}			
 		buttonType = {
 			name = "open_button"
 			quadTextureSprite = "GFX_close"
@@ -73,44 +53,105 @@ guiTypes = {
 			#pdx_tooltip_delayed = "committee_tt"
 			position = { x = 10 y = 10 }
 		}
+
+		iconType = {
+			name = "marpac_header"
+			quadTextureSprite = "GFX_thirdinternationalBW"
+			position = { x = 250 y = 20 }
+		}
+	
+		instantTextBoxType = {
+			name = "marpac_header_text"
+			position = { x = -25 y = 130 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 450
+			text = "EXECUTIVE COUNCIL"
+			fixedsize = yes	
+			format = centre
+		}	
+		instantTextBoxType = {
+			name = "marpac_header_text2"
+			position = { x = 215 y = 130 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 450
+			text = "CONSEIL EXÉCUTIF"
+			fixedsize = yes	
+			format = centre
+		}				
 		buttonType = {
 			name = "marpac_for_button"
 			quadTextureSprite = "GFX_marpac_for_button"
 			clicksound = click_default
 			pdx_tooltip = "marpac_for_button"
-			position = { x = 174 y = 750 }
+			position = { x = 174 y = 370 }
 		}
 		buttonType = {
 			name = "marpac_against_button"
 			quadTextureSprite = "GFX_marpac_against_button"
 			clicksound = click_default
 			pdx_tooltip = "marpac_against_button"
-			position = { x = 470 y = 765 }
+			position = { x = 470 y = 370 }
 		}		
 		containerWindowType = {
 			name ="countries_mini"
 			position = { x = 15 y = 340 }
-			size = { width = -15 height = 120}
+			size = { width = -15 height = 40}
 			
 		gridboxType = {
 				name ="marpac_countries_for_grid"
-				position = { x = 10 y = 110 }
+				position = { x = -30 y = 40 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 53 height = 40 }
-				max_slots_horizontal = 2
+				max_slots_horizontal = 6`
 				add_horizontal = yes
 				format = "UPPER_LEFT"
 			}
 		gridboxType = {
 				name ="marpac_countries_against_grid"
-				position = { x = 50 y = 120 }
+				position = { x = 20 y = 40 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 53 height = 40 }
-				max_slots_horizontal = 2
+				max_slots_horizontal = 6
 				add_horizontal = yes
 				format = "UPPER_LEFT"
 			}			
-		}		
+		}			
+containerWindowType = {
+			name = "intro_menu_text"
+			position = { x = 35 y = 185 }
+			size = { width=600 height=150 }
+			verticalScrollbar = "right_vertical_slider"
+			margin = { top = 10 bottom = 10 }
+			smooth_scrolling = yes		
+			clipping = yes
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
+			}
+		    instantTextBoxType = {
+			name = "intro_menu_text_fra"
+			position = { x = 10 y = 10 }
+			font = "rn_viasans_15"
+			borderSize = {x = 0 y = 0}
+			text = "marpac_current_motion"
+			orientation = upper_left
+			maxWidth = 560
+			maxHeight = 1000
+			fixedsize = yes	
+			format = left
+			scrollbarType = "standardtext_slider"
+		}
+}
+		iconType = {
+			name = "marpac_header4"
+			quadTextureSprite = "GFX_thirdinternationalstamp"
+			position = { x = 450 y = 190 }
+			scale = 0.68
+			rotation = 0.5
+		}					
 }
 	containerWindowType = {
 		name = "marpac_countries_for_list_entry"
@@ -119,14 +160,12 @@ guiTypes = {
 		iconType = {
 			name = "memberstate_flag"
 			quadTextureSprite = "GFX_flag_small2"
-			clicksound = click_default
 		}
 		buttonType = {
 			name = "country"	
 			quadTextureSprite = "GFX_mini_country_selector"
 			position = { x=-8 y =-8 }
 			pdx_tooltip = "marpac_name"			
-			clicksound = click_checkbox
 		}			
 		
 	}
@@ -147,5 +186,6 @@ guiTypes = {
 			clicksound = click_checkbox
 		}			
 		
-	}	
+	}
+	
 }

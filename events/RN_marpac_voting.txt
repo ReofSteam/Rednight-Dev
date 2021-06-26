@@ -6,11 +6,21 @@ country_event = {        #######Resolution 51: Operation Juin
 	desc = marpac.1.d
 	picture = GFX_FRA_may_pustch
 	is_triggered_only = yes
-
+    immediate = {
+	set_variable = { global.marpac_for_vote = 0 }
+	set_variable = { global.marpac_against_vote = 0 }		
+	}
 	option = {
 		name = marpac.1.b
-		set_variable = { global.marpac_for_vote = 0 }
-		set_variable = { global.marpac_against_vote = 0 }		
+		set_country_flag = MARPAC_voted
+		add_to_array = {
+	        array = global.marpac_countries_for
+            value = THIS.id
+		}		
+		add_to_variable = {
+	        var = global.marpac_against_vote
+	        value = 5
+		}			
 		set_global_flag = MARPAC_voting_in_process
 		set_global_flag = MARPAC_resolution_51
         set_country_flag = show_marpac_menu	
@@ -107,9 +117,22 @@ country_event = {
 	desc = marpac.5.d
 	picture = GFX_FRA_may_pustch
 	is_triggered_only = yes
+	trigger = {
+	is_ai = yes
+	NOT = { has_country_flag = MARPAC_voted }		
+	}
 
 	option = {
 		name = marpac.5.a	
+		ai_chance = { factor = 10 
+		modifier = {
+		is_in_array = {
+    	array = global.marpac_countries_for
+      	value = FRA
+}
+        factor = 7
+    }
+		}
 		    add_to_array = {
 	        array = global.marpac_countries_for
             value = THIS.id
@@ -120,7 +143,16 @@ country_event = {
         }	
 	}	
 	option = {
-		name = marpac.5.b				
+		name = marpac.5.b		
+		ai_chance = { factor = 10
+		modifier = {
+		is_in_array = {
+    	array = global.marpac_against_vote
+      	value = FRA
+}
+        factor = 7
+    }		
+		}		
 			add_to_variable = {
 	        var = global.marpac_against_vote
 	        value = 1
