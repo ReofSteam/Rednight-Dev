@@ -145,6 +145,7 @@ country_event = { #Dangling the Carrot
 	option = {
 		name = csa.4.a
 		add_manpower = 6500
+		add_political_power = -0.4
 	}
 
 }
