@@ -1,6 +1,6 @@
-﻿capital = 932
+﻿capital = 367
 
-oob = "NGO"
+oob = "OSS"
 
 set_research_slots = 3
 set_stability = 0.8
@@ -13,7 +13,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
+	ruling_party = ultraconservative
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,18 +33,18 @@ set_popularities = {
     social_democrat = 0
     social_liberal = 0
     social_conservative = 0
-    authoritarian_democrat = 100
+    authoritarian_democrat = 0
     autocratic = 0
-    ultraconservative = 0
+    ultraconservative = 100
     national_corporatist = 0
 }
 
 create_country_leader = {
-	name = "Henry Mucci"
+	name = "Strom Thurmond"
 	desc = "POLITICS_WILLIAM_LEAHY_DESC"
-	picture = "gfx/leaders/CAL/CAL_Mucci.tga"
+	picture = "gfx/leaders/CAL/CAL_Thurmond.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = ultraconservative_subtype
 	traits = {
 		
 	}

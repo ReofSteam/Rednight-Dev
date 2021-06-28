@@ -10,6 +10,15 @@ D01 = {
 	color_ui = rgb { 125 121 109 }
 }
 
+COF = {
+	color = rgb { 125 121 109 }
+	color_ui = rgb { 125 121 109 }
+}
+
+NGO = {
+	color = rgb { 125 121 109 }
+	color_ui = rgb { 125 121 109 }
+}
 
 ###Europe
 
@@ -1237,14 +1246,6 @@ CAL = {
 PUE = {
 	color = rgb
 	color_ui = rgb
-}
-#WIN = {
-#	color = rgb
-#	color_ui = rgb
-#}
-WIF = {
-	color = rgb { 50 12 175 }
-	color_ui = rgb { 50 12 175 }
 }
 
 ##South America

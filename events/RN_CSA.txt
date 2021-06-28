@@ -1260,17 +1260,28 @@ country_event = {
 		name = csa.93.a
 		set_country_flag = CSA_convention_in_process
 		set_country_flag = SPA_support
+		add_political_power = -15
 	}
 
 	option = {
 		name = csa.93.a
 		set_country_flag = CSA_convention_in_process
 		set_country_flag = SPA_support
+		add_political_power = 30
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}	
 	}
 	option = {
 		name = csa.93.a
 		set_country_flag = CSA_convention_in_process
 		set_country_flag = SPA_support
+		add_political_power = 30
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}		
 	}	
 
 }
@@ -1362,7 +1373,6 @@ country_event = {
 
 }
 
-######Congress Form####Major###
 
 country_event = {  
 	id = csa.98
@@ -1568,11 +1578,29 @@ country_event = {
     title = csa.1000.t
     desc = csa.1000.d
 	is_triggered_only = yes
-	
+	immediate = {
+	        launch_nuke = {
+			province = 1827
+    	    state = 382 
+    	    use_nuke = no
+}		
+	}
 	option = {
 		name = csa.91.a 
-		set_country_flag = CSA_denver_destroyed
-		set_country_flag = Super_Event_Visible
+		hidden_effect = {		
+	382 = {
+	set_state_flag = nuclear_destroyed
+	set_state_category = wasteland
+	add_manpower = -1500000
+	remove_building = {
+    type = infrastructure
+    level = infrastructure_level	
+}	
+	NUC = {
+	set_state_controller = PREV
+	}
+}
+}
 	}
 
 }
@@ -1585,8 +1613,8 @@ country_event = {
 	
 	option = {
 		name = csa.91.a 
-		set_country_flag = CSA_b_52_nuke
-		set_country_flag = Super_Event_Visible
+		set_country_flag = CSA_denver_destroyed
+		set_country_flag = Super_Event_Visible		
 	}
 
 }
@@ -1623,17 +1651,70 @@ country_event = {
     desc = csa.1003.d
 	is_triggered_only = yes
 	immediate = {
-    OSS = {
-	transfer_state = 390
-	transfer_state = 389
-	add_state_core = 390
-	add_state_core = 389
+    NGO = {
+	transfer_state = 932
+	transfer_state = 796
+	transfer_state = 933	
+	add_state_core = 932
+	add_state_core = 933
+	add_state_core = 796
+	
 	}
 	}
 	option = {
 		name = csa.1003.a 
 		declare_war_on = {
         target = NGO
+        type = annex_everything
+}	
+
+	}
+
+}
+
+#######National Guards Uprising2####
+country_event = { 
+	id = csa.1004
+    title = csa.1004.t
+    desc = csa.1004.d
+	is_triggered_only = yes
+	immediate = {
+    NGO = {
+	transfer_state = 360	
+	add_state_core = 360
+	
+	}
+	}
+	option = {
+		name = csa.1003.a 
+		declare_war_on = {
+        target = NGO
+        type = annex_everything
+}	
+
+	}
+
+}
+
+####KLANN
+
+country_event = { 
+	id = csa.1005
+    title = csa.1005.t
+    desc = csa.1005.d
+	is_triggered_only = yes
+	immediate = {
+    COF = {
+	transfer_state = 367
+	transfer_state = 365		
+	add_state_core = 367
+	add_state_core = 365	
+	}
+	}
+	option = {
+		name = csa.1005.a 
+		declare_war_on = {
+        target = COF
         type = annex_everything
 }	
 

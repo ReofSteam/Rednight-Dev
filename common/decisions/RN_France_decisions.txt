@@ -185,6 +185,7 @@ FRA_PARDAN_0_Petrogard = {
 	has_state_flag = nuclear_destroyed 
 	} }	
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12
 }
     days_remove = 1
 	complete_effect = {
@@ -192,6 +193,7 @@ FRA_PARDAN_0_Petrogard = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
     launch_nuke = {
 	state = 195
@@ -238,6 +240,7 @@ FRA_PARDAN_0_Moscow = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12	
 }
     days_remove = 1
 	complete_effect = {
@@ -245,6 +248,7 @@ FRA_PARDAN_0_Moscow = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {
@@ -302,6 +306,7 @@ FRA_PARDAN_0_crimea = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12	
 }
     days_remove = 1
 	complete_effect = {
@@ -309,6 +314,7 @@ FRA_PARDAN_0_crimea = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {
@@ -361,6 +367,7 @@ FRA_PARDAN_0_kiev = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12	
 }
     days_remove = 1
 	complete_effect = {
@@ -368,6 +375,7 @@ FRA_PARDAN_0_kiev = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {
@@ -414,6 +422,7 @@ FRA_PARDAN_0_tsaritsyn  = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12	
 }
     days_remove = 1
 	complete_effect = {
@@ -421,6 +430,7 @@ FRA_PARDAN_0_tsaritsyn  = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {
@@ -467,6 +477,7 @@ FRA_PARDAN_0_baltic = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12	
 }
     days_remove = 1
 	complete_effect = {
@@ -474,6 +485,7 @@ FRA_PARDAN_0_baltic = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12	
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {
@@ -522,6 +534,8 @@ FRA_PARDAN_0_arkhangelsk = {
 	has_state_flag = nuclear_destroyed 
 	} }
     has_country_flag = FRA_ICBM_ready
+	num_of_nukes > 12
+	
 }
     days_remove = 1
 	complete_effect = {
@@ -529,6 +543,7 @@ FRA_PARDAN_0_arkhangelsk = {
 	
 }	
     remove_effect = {
+	add_nuclear_bombs = -12
 	set_country_flag = FRA_ICBM_stage2	
 	clr_country_flag = FRA_ICBM_ready
     launch_nuke = {

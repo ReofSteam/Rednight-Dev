@@ -32,8 +32,16 @@ CSA_authoritarian_democrat_ADJ:0 "the Socialist Republic of America"
 
 #####Civil War
 OSS_authoritarian_democrat:0 "Operation Torchbearers"
-OSS_authoritarian_democrat_DEF:0 "American"
-OSS_authoritarian_democrat_ADJ:0 "the Anti-Socialist Army"
+OSS_authoritarian_democrat_DEF:0 "the Anti-Socialist Army"
+OSS_authoritarian_democrat_ADJ:0 "American"
+
+COF_ultraconservative:0 "National Resistance Front"
+COF_ultraconservative_DEF:0 "the National Resistance Front"
+COF_ultraconservative_ADJ:0 "American"
+
+NGO_authoritarian_democrat:0 "National Guards Organization"
+NGO_authoritarian_democrat_DEF:0 "the National Guards Organization"
+NGO_authoritarian_democrat_ADJ:0 "American"
 
 
 ###############
