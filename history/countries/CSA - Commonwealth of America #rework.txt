@@ -128,37 +128,142 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "Alexander Vandegrift"
-	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Alexander_Vandegrift.dds"
+	name = "Mark Clark"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Mark_Clark.dds"
 	traits = { 
 		expert_delegator
 		old_guard
-		naval_invader
-		invader_ii
-		naval_liason
+		infantry_leader
 	}
 	skill = 4
-    attack_skill = 3
-    defense_skill = 2
+    attack_skill = 4
+    defense_skill = 3
     planning_skill = 4
     logistics_skill = 3
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "David Shoup"
 	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_David_Shoup.dds"
 	traits = { 
 		infantry_leader
 		swamp_fox
-		naval_invader
 		urban_assault_specialist
 	}
-	skill = 3
+	skill = 4
     attack_skill = 3
     defense_skill = 3
     planning_skill = 2
     logistics_skill = 4
 }
+
+create_corps_commander = {
+	name = "Oliver Law"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Oliver_Law.dds"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Evans Carlson"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Evans_Carlson.dds
+	traits = {
+		naval_invader
+		marine_leader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Hale Merriam"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Robert_Merriam.dds
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Milton Wolff"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Milton_Wolff.dds
+	traits = {
+		infantry_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "George Parker"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_George_Parker.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Leo Boyle"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Leo_Boyle.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name = "Omar Bradley"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Omar_Bradley.dds
+	traits = {
+	}
+
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Harry Chamberlain"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Harry_Chamberlain.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 
 
 create_navy_leader = {

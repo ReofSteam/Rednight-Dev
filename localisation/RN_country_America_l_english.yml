@@ -101,12 +101,12 @@ csa.2.c:0 "Focus on reconstruction. We shall endure."
 
 
 csa.3.t:0 "Star Brimmed Meeting"
-csa.3.d:0 "description"
-csa.3.a:0 "generals"
+csa.3.d:0 "At the behest of Rowan’s impudent nod, David unfurled the map. It blanketed the table in its entirety, which was impressive for such a grand old dining room. He sauntered up first, followed by General Law. The other men caught on a moment later. In times like this, the old US army formalities were sorely missed.\n\nThe cartographer had certainly been well paid. It would be a moment before the generals comprehended the intricate puzzle before them. The shapes of Wyoming, Colorado, Montana, and Oklahoma were carpeted in a vast array of bright red stars and snaking arrows.\n\nDavid looked into Rowan’s eyes, searching for a bit of humanity. Two solid marbles returned his glance, and he knew then that the man’s heart held only dogma."
+csa.3.a:0 " “Citzen-Generals, congress expects me to return with a plan” "
 
-csa.4.t:0 "Stay a While Longer?"
-csa.4.d:0 "please stay we will increase your pension"
-csa.4.a:0 "test"
+csa.4.t:0 "Bulletin"
+csa.4.d:0 "NOTICE TO ALL ACTIVE-DUTY PERSONNEL\n\nTHOUGH THE THUGS AND CONSPIRATORS WHO WOULD SEE OUR CONSTITUTION LAID LOW HAVE BEEN PUSHED WEST, THE REVOLUTION REMAINS IMPERILED. EVERY DAY WE STAND IDLE, THE ENEMY GATHERS STRENGTH. ALREADY, THE COSTAL BOURGEOISE HAVE BEGUN PLOTTING. USING THEIR STOLEN WEALTH AND VAST UNTOUCHED INDUSTRY, THEY PREY UPON THE VERY SAME CITZENS WHOSE HOMES THEY DESTROYED BY INITIATING WARFARE.\n\nIN LIGHT OF THESE DANGEROUS CIRCUMSTANCES PRESIDENT FOSTER AND THE CHICAGO CONGRESS HAVE AUTHORISED A RECRUITMENT DRIVE. PLEASE SPEAK TO YOUR SUPERIOR OFFICER REGARDING AN OPPORTUNITY TO SERVE IN THE GREAT PLAINS RECONSTRUCTION CORPS.\n\nTODAY WE EMBARK UPON CONSOLIDATION. TOMMOROW, WE EMBARK WITH THE REST OF AN UNBOUND HUMANITY TOWARDS A BRIGHTER FUTURE!"
+csa.4.a:0 "SERVICE GUARANTEES SIGNIFIGANT PENSION INCREASE"
 
 
 csa.5.t:0 "Grizzled Warriors"
@@ -329,5 +329,6 @@ satlantic_CSA_klan_details:0 "The Arms of the Lord and its various associated or
 internal_war_sanction_button:0 "The operation will begin after you sanction it, while an active mission is in process, you can not select another until the mission is completed" 
 ### Leaders ###
 POLITICS_WILLIAM_Z_FOSTER_DESC: "Jack Reed led the American left through sheer force of personality. Without the infectious zeal and near inexhaustible charisma of that bohemian reporter, the constitutionalist army surely would have perished in 1941. On the surface William Z Foster is incomparable. His demeanor is steady, boring even. His over-riding trait seems to be pragmatism. He is known for his simple desire to organize workers. He infamously opted to bore within the AFL, rather than deal directly with the SPA or IWW. A decision that ultimately proved vital to success and made him a pillar of American syndicalism.\n\nLike an iceberg, Foster’s surface is deceiving. He is not a Machiavellian who holds no beliefs of his own. Though he may coincidentally appeal to different tendencies at different times, he is always chasing a north star. An Industrial state and workers self-management, as he witnessed in France, above all else.\n\nThose who truly know Foster hold no doubt. The man is a force of his own. He is willing to take many paths towards his goal, be they Marxist or Anarchist. Yet, the goal shall never waver."
+POLITICS_JOHN_BIRCH_DESC: "John Birch was once a zealot, a vicious young man with a great stirring in his breast. The lord was his compass, and it was with divine endowment that John would guide his countrymen to the kingdom of heaven. When the devil began to whisper in some American ears, they too became zealouts. Soon the perfidious cries of socialism, and the egomaniacal machinations of Longism echoed across the land. Their voices drowned John’s out. After joining the army and rising to the rank of an officer, he watched with horror as the red tide drowned America in blood.\n\nThe new and sobering reality humbled John. Slowly, he found the wisdom of speaking softly. In secret, Officer Birch became a key OSS asset in the great plains.\n\nNow, as the fools who led America astray bicker amongst themselves, Birch has taken the opportunity. John has matured with age, but his willingness to die for Christian civilization continues to simmer under the surface. With God on his side he will help Sacramento push the traitors to the sea!"
 ### Tech? ###
 
