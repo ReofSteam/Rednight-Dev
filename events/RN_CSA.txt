@@ -219,9 +219,7 @@ country_event = { #Spitting In the Wind
 
 	option = {
 		name = csa.10.a
-		country_event = csa.11
-		days = 100
-	}
+		}
 
 }
 
@@ -250,6 +248,7 @@ country_event = { #Denvers Destiny
 			}
 		}
 
+}
 }
 
 country_event = { #Time on our side
@@ -1282,7 +1281,7 @@ country_event = {
 	}
 
 	option = {
-		name = csa.93.a
+		name = csa.93.b
 		set_country_flag = CSA_convention_in_process
 		set_country_flag = SPA_support
 		add_political_power = 30
@@ -1292,7 +1291,7 @@ country_event = {
 		}	
 	}
 	option = {
-		name = csa.93.a
+		name = csa.93.c
 		set_country_flag = CSA_convention_in_process
 		set_country_flag = SPA_support
 		add_political_power = 30
@@ -1314,24 +1313,17 @@ country_event = {
 	
 	option = {
 		name = csa.94.a 
-		add_political_power = 5
-		add_popularity = {
-        ideology = revolutionary_socialism
-        popularity = -0.02
-}				
+		CSA_convention_effect_republican_clause = yes
 	}
 	option = {
 		name = csa.94.b
-		add_political_power = 5
-		add_popularity = {
-        ideology = revolutionary_socialism
-        popularity = -0.02
-}				
+		CSA_convention_effect_modsoc_clause = yes
 	}	
 
 	option = {
 		name = csa.94.b
-		add_political_power = -10		
+		CSA_convention_effect_syndicalist_clause = yes
+		set_country_flag = IWW_support		
 	}	
 
 }
@@ -1346,25 +1338,16 @@ country_event = {
 	
 	option = {
 		name = csa.95.a 
-		add_political_power = -10
-		FRA = {
-		country_event = csa.96
-		}
-		ENG = {
-		country_event = csa.96
-		}
+		CSA_convention_effect_republican_clause = yes		
 	}
 	
 	option = {
-		name = csa.95.a 
-		add_political_power = 10
-		add_popularity = {
-        ideology = revolutionary_socialism
-        popularity = -0.02
-}		
-		country_event = { 
-		id = csa.97
-		}
+		name = csa.95.b
+		CSA_convention_effect_modsoc_clause = yes		
+	}
+	option = {
+		name = csa.95.c
+		CSA_convention_effect_syndicalist_clause = yes		
 	}	
 
 }

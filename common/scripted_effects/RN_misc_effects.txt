@@ -152,3 +152,162 @@ name_variable = {
 set_variable = { nuclear_name = THIS.id }
 }
 
+CSA_convention_effect_modsoc_clause = {
+if = { limit = { has_country_flag = SPA_support } 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = 30
+}
+else_if = {	
+limit = { has_country_flag = IWW_support } 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.03
+		}
+		add_political_power = 30
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.02
+		}
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.01
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_political_power = -30
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = -15
+}	
+}
+
+CSA_convention_effect_syndicalist_clause = {
+if = { limit = { has_country_flag = SPA_support } 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = 30
+}
+else_if = { limit = { has_country_flag = IWW_support } 
+		add_political_power = -15
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = -0.02
+		}		
+		add_political_power = 30
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = -0.02
+		}		
+		add_popularity = {
+		    ideology = nationalist_socialism
+            popularity = -0.01
+		}		
+		add_political_power = 30
+}	
+}
+
+CSA_convention_effect_republican_clause = {
+if = { limit = { has_country_flag = SPA_support } 
+		add_political_power = -15
+}
+else_if = { limit = { has_country_flag = IWW_support } 
+		add_political_power = 30
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = -0.02
+		}		
+		add_political_power = 30
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.02
+		}		
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = -0.01
+		}		
+		add_political_power = 30
+}	
+}
+

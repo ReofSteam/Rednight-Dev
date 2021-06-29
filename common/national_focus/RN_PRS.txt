@@ -615,7 +615,7 @@ focus_tree = {
 	#Focus for Renegotiate the Secret Dossier
 	focus = {
 		id = PRS_renegotiate_the_secret_dossier
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Rus_Cooperation
 		x = 15
 		y = 2
 		cost = 10
@@ -699,7 +699,7 @@ focus_tree = {
 	#Focus for Saratov Memorandum
 	focus = {
 		id = PRS_saratov_memorandum
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_paratrooper
 		x = 21
 		y = 2
 		cost = 10
@@ -769,7 +769,7 @@ focus_tree = {
 	#Focus for Rally the Protestant forces
 	focus = {
 		id = PRS_rally_the_protestant_forces
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_manpower
 		x = 19
 		y = 4
 		cost = 10
