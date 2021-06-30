@@ -21,6 +21,6 @@ CSA_convention_status = {
 	visible = { 
 	has_country_flag = CSA_convention_in_process
 	}
-	visible_when_empty = yes
+	visible_when_empty = no
 	scripted_gui = RN_CSA_congress_convention
 }

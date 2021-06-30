@@ -153,7 +153,14 @@ set_variable = { nuclear_name = THIS.id }
 }
 
 CSA_convention_effect_modsoc_clause = {
-if = { limit = { has_country_flag = SPA_support } 
+if = { limit = {
+has_country_flag = SPA_support 
+NOT = { OR = {
+has_country_flag = SDP_support 
+has_country_flag = IWW_support
+}
+}
+} 
 		add_popularity = {
 		    ideology = revolutionary_socialism
             popularity = -0.03
@@ -161,7 +168,13 @@ if = { limit = { has_country_flag = SPA_support }
 		add_political_power = 30
 }
 else_if = {	
-limit = { has_country_flag = IWW_support } 
+limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = IWW_support
+}
+} } 
 		add_popularity = {
 		    ideology = syndicalism
             popularity = -0.03

@@ -116,16 +116,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Jay Lovestone"
-	desc = "POLITICS_JAY_LOVESTONE_DESC"
-	picture = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Jay_Lovestone.tga"
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = {
-		#
-	}
-}
+
 
 create_field_marshal = {
 	name = "Mark Clark"

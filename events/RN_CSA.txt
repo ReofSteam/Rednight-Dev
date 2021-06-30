@@ -1318,14 +1318,14 @@ country_event = {
 	option = {
 		name = csa.94.b
 		CSA_convention_effect_modsoc_clause = yes
+		set_country_flag = SDP_support				
 	}	
 
 	option = {
-		name = csa.94.b
+		name = csa.94.c
 		CSA_convention_effect_syndicalist_clause = yes
-		set_country_flag = IWW_support		
 	}	
-
+ 
 }
 
 #######Press Radio Silence
@@ -1359,9 +1359,19 @@ country_event = {
 	
 	option = {
 		name = csa.96.a 
+		CSA_convention_effect_modsoc_clause = yes				
 	}
+	option = {
+		name = csa.96.b 
+		CSA_convention_effect_syndicalist_clause = yes				
+		set_country_flag = IWW_support
+		if = { limit = { has_country_flag = SDP_support }
+		clr_country_flag = SDP_support }
+	}	
 
 }
+
+####Police
 country_event = { 
 	id = csa.97
     title = csa.97.t
@@ -1370,10 +1380,20 @@ country_event = {
 	
 	option = {
 		name = csa.97.a 
+		CSA_convention_effect_modsoc_clause = yes						
 	}
+	option = {
+		name = csa.97.b
+		CSA_convention_effect_syndicalist_clause = yes						
+	}
+	option = {
+		name = csa.97.c
+		CSA_convention_effect_republican_clause = yes				
+	}	
 
 }
 
+####Centralisation
 
 country_event = {  
 	id = csa.98
@@ -1383,16 +1403,30 @@ country_event = {
 	
 	option = {
 		name = csa.98.a 
-		set_country_flag = SDP_support
-		add_political_power = 5
+		CSA_convention_effect_syndicalist_clause = yes
+		clr_country_flag = SPA_support
+		if = { limit = { has_country_flag = SDP_support }
+		country_event = csa.99
+		}
+		else_if = { limit = { has_country_flag = IWW_support }
+		country_event = csa.100
+		}
+		else = {
+		country_event = csa.105
+		}
+		
 	}
 	option = {
 		name = csa.98.b 
-		set_country_flag = IWW_support	
-		add_political_power = 5
-	}	
+		CSA_convention_effect_republican_clause = yes
+		
+	}		
+	
 
 }
+
+####Fosterites switch
+
 country_event = { 
 	id = csa.99
     title = csa.99.t
@@ -1401,76 +1435,22 @@ country_event = {
 	
 	option = {
 		name = csa.99.a 
-		if = { limit = {
-		has_country_flag = IWW_support
-		}
-		add_popularity = {
-        ideology = syndicalism
-        popularity = -0.03
+		set_politics = {
+     	ruling_party = syndicalism
+        elections_allowed = no
 }
-		clr_country_flag = IWW_support
-		set_country_flag = SDP_support
-		add_political_power = 20
-		else_if = { limit = { has_country_flag = SDP_support }
-		add_political_power = -25
-		}
-		}
-		
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}
 	}
 
-	option = {
-		name = csa.99.b 
-		if = { limit = {
-		has_country_flag = SDP_support
-		}
-		add_popularity = {
-        ideology = moderate_socialist
-        popularity = -0.01
-}
-		add_popularity = {
-        ideology = social_democrat
-        popularity = -0.03
-}
-		clr_country_flag = SDP_support
-		set_country_flag = IWW_support
-		add_political_power = 20
-		else_if = { limit = { has_country_flag = IWW_support }
-		add_political_power = -25
-		add_popularity = {
-        ideology = revolutionary_socialism
-        popularity = -0.01
-}		
-		}
-		}
-		
-	}
-	
-	option = {
-		name = csa.99.c
-		if = { limit = {
-		has_country_flag = SDP_support
-		}
-		add_popularity = {
-        ideology = moderate_socialist
-        popularity = -0.02
-}
-		add_popularity = {
-        ideology = social_democrat
-        popularity = -0.03
-}
-		clr_country_flag = SDP_support
-		add_political_power = -20
-		else_if = { limit = { has_country_flag = IWW_support }
-		add_political_power = -25
-		add_popularity = {
-        ideology = syndicalism
-        popularity = -0.07
-}
-		clr_country_flag = IWW_support		
-		}
-		}		
-	}	
-	
 
 }
 country_event = { 
@@ -1481,9 +1461,130 @@ country_event = {
 	
 	option = {
 		name = csa.98.a 
+		set_politics = {
+     	ruling_party = moderate_socialist
+        elections_allowed = no
+}
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}	
+        create_country_leader = {
+	    name = "William Z. Foster"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Foster.tga"
+	    expire = "1965.1.1"
+	    ideology = moderate_socialist_subtype
+	     traits = {
+		#
+	    }
+}		
 	}
 
 }
+
+country_event = { 
+	id = csa.101
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.101.a 
+		CSA_convention_effect_modsoc_clause = yes						
+	}
+	option = {
+		name = csa.101.b
+		CSA_convention_effect_syndicalist_clause = yes						
+	}
+	option = {
+		name = csa.101.c
+		CSA_convention_effect_republican_clause = yes				
+	}	
+
+}
+
+######Finale
+country_event = { 
+	id = csa.102
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.102.a
+		clr_country_flag = CSA_convention_in_process 
+	if = { limit = {	
+    check_variable = {
+	var = CSA_congress_total
+	value = 60
+	compare = greater_than_or_equals
+}	
+}
+    country_event = csa.103								
+	}
+else = {
+country_event = csa.104
+}	
+	}
+
+}
+
+country_event = { 
+	id = csa.103
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.102.a	
+		add_political_power = 50
+	}
+
+}
+
+country_event = { 
+	id = csa.104
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.102.a	
+		add_political_power = -50
+	}
+
+}
+
+country_event = { 
+	id = csa.105
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.102.a	
+		add_political_power = -100
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}			
+	}
+
+}
+
 
 country_event = { 
 	id = csa.113
