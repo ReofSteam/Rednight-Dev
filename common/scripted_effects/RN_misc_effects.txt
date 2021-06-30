@@ -221,7 +221,14 @@ has_country_flag = SPA_support
 }
 
 CSA_convention_effect_syndicalist_clause = {
-if = { limit = { has_country_flag = SPA_support } 
+if = { limit = {
+has_country_flag = SPA_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = SDP_support
+}
+}
+} 
 		add_popularity = {
 		    ideology = revolutionary_socialism
             popularity = -0.03
@@ -275,11 +282,27 @@ has_country_flag = SPA_support
 }
 
 CSA_convention_effect_republican_clause = {
-if = { limit = { has_country_flag = SPA_support } 
+if = { limit = {
+has_country_flag = SPA_support
+NOT = { OR = {
+has_country_flag = IWW_support     		
+has_country_flag = SDP_support
+}
+} } 
 		add_political_power = -15
 }
-else_if = { limit = { has_country_flag = IWW_support } 
+else_if = { limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = SDP_support
+}
+} } 
 		add_political_power = 30
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.03
+		}		
 }
 else_if = {	
 limit = { 
