@@ -80,10 +80,33 @@ CSA_lobby_effort_iww = {
 	    add_political_power = 5
 	    add_popularity = {
         ideology = syndicalism
-        popularity = 0.05
+        popularity = -0.05
         }
+	if = { limit = {
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = 0.05
+		}
+}
+	else_if = { limit = {
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = IWW_support     		
+has_country_flag = SPA_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = 0.05
+		}
+}
 	}
 	visible = {
+	syndicalism > 0.10
+	NOT = { has_country_flag = IWW_support } 
 	}
 	cost = 20
 	ai_will_do = {
