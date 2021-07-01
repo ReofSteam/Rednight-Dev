@@ -1516,7 +1516,6 @@ country_event = {
     title = csa.101.t
     desc = csa.101.d
 	is_triggered_only = yes
-	
 	option = {
 		name = csa.102.a
 		clr_country_flag = CSA_convention_in_process 

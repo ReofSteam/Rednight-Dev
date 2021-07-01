@@ -820,6 +820,36 @@ focus_tree = {
 		x = 12
 		y = 9
 		cost = 17.2
+		select_effect = {
+			country_event = {
+				id = csa.93
+				days = 1
+			}
+			country_event = {
+				id = csa.94
+				days = 20
+			}
+			country_event = {
+				id = csa.95
+				days = 35
+			}
+			country_event = {
+				id = csa.96
+				days = 50
+			}	
+			country_event = {
+				id = csa.97
+				days = 65
+			}
+			country_event = {
+				id = csa.98
+				days = 80
+			}	
+			country_event = {
+				id = csa.98
+				days = 95
+			}				
+	}		
 		available_if_capitulated = yes
 		prerequisite {
 			focus = CSA_the_young_republic
@@ -835,7 +865,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = csa.93
+			country_event = csa.102
 		}
 	}
 	#Focus for Resume the Debate

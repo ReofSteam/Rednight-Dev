@@ -165,7 +165,7 @@ has_country_flag = IWW_support
 		    ideology = revolutionary_socialism
             popularity = -0.03
 		}
-		add_political_power = 30
+		add_political_power = 15
 }
 else_if = {	
 limit = {
@@ -179,7 +179,7 @@ has_country_flag = IWW_support
 		    ideology = syndicalism
             popularity = -0.03
 		}
-		add_political_power = 30
+		add_political_power = 15
 }
 else_if = {	
 limit = { 
@@ -233,7 +233,7 @@ has_country_flag = SDP_support
 		    ideology = revolutionary_socialism
             popularity = -0.03
 		}
-		add_political_power = 30
+		add_political_power = 15
 }
 else_if = { limit = { has_country_flag = IWW_support } 
 		add_political_power = -15
@@ -262,7 +262,7 @@ has_country_flag = IWW_support
 		    ideology = moderate_socialism
             popularity = -0.02
 		}		
-		add_political_power = 30
+		add_political_power = 15
 }
 else_if = {	
 limit = { 
@@ -277,7 +277,7 @@ has_country_flag = SPA_support
 		    ideology = nationalist_socialism
             popularity = -0.01
 		}		
-		add_political_power = 30
+		add_political_power = 15
 }	
 }
 
@@ -298,7 +298,7 @@ has_country_flag = SPA_support
 has_country_flag = SDP_support
 }
 } } 
-		add_political_power = 30
+		add_political_power = 15
 		add_popularity = {
 		    ideology = syndicalism
             popularity = -0.03
@@ -328,7 +328,7 @@ has_country_flag = IWW_support
 		    ideology = moderate_socialism
             popularity = -0.02
 		}		
-		add_political_power = 30
+		add_political_power = 15
 }
 else_if = {	
 limit = { 
@@ -343,7 +343,7 @@ has_country_flag = SPA_support
 		    ideology = moderate_socialism
             popularity = -0.01
 		}		
-		add_political_power = 30
+		add_political_power = 15
 }	
 }
 
