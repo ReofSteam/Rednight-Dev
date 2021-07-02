@@ -6,7 +6,7 @@ state = {
 		owner = FOZ
 		add_core_of = FOZ
 		victory_points = {
-			11366 1
+			3231 1
 		}
 		buildings = {
 			infrastructure = 6
