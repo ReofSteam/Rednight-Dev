@@ -113,4 +113,89 @@ has_country_flag = SPA_support
 		factor = 75
 	}
 }
+CSA_lobby_effort_SDP_thomas = {
+	icon = generic_prepare_civil_war
+
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	    add_popularity = {
+        ideology = moderate_socialism
+        popularity = -0.05
+        }
+	if = { limit = {
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = 0.05
+		}
+}
+	else_if = { limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SDP_support     		
+has_country_flag = SPA_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = 0.05
+		}
+}
+	}
+	visible = {
+	syndicalism > 0.10
+	NOT = { has_country_flag = SDP_support } 
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
+CSA_lobby_effort_labor_front = {
+	icon = generic_prepare_civil_war
+
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	if = { limit = {
+has_country_flag = SDP_support
+} 
+		add_popularity = {
+		    ideology = moderate_socialism
+            popularity = 0.10
+		}
+	    add_popularity = {
+        ideology = nationalist_socialism
+        popularity = -0.10
+        }		
+}
+	else_if = { limit = {
+has_country_flag = IWW_support
+}
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = 0.05
+		}
+	    add_popularity = {
+        ideology = nationalist_socialism
+        popularity = -0.05
+        }		
+	}	
+}
+	visible = {
+	nationalist_socialism > 0.10
+	NOT = { has_country_flag = SPA_support } 
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
 }
