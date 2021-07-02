@@ -21,10 +21,10 @@ state={
 		}
 		add_core_of = TEX
 		victory_points = {
-			7552 25 
+			12401 10 
 		}
 		victory_points = {
-			1453 2 
+			4522 2 
 		}
 		1981.1.1 = {
 		owner = CSA

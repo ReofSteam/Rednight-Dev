@@ -7,7 +7,7 @@ state={
 		owner = CNT
 		add_core_of = CNT
 		victory_points = {
-			11707 1
+			9770 1
 		}
 		victory_points = {
 			6907 1

@@ -15,7 +15,7 @@ state={
 		}
 		add_core_of = CAL
 		victory_points = {
-			12552 2 
+			12684 2 
 		}
 
 	}

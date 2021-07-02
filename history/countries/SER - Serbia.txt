@@ -4,7 +4,7 @@ set_research_slots = 3
 
 oob = "SER"
 set_cosmetic_tag = YUG
-
+set_country_flag = SER_alexander_ii_is_king
 add_ideas = {
 	#medium_economy
 	#limited_conscription

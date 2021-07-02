@@ -16,7 +16,16 @@ scripted_gui = {
 				}
 			}
 		}
-		triggers = {
+		visible = {
+		is_ai = no
+		OR = {
+		has_country_flag = skoblin_secondary
+		has_country_flag = HUN_is_monarchy
+		has_country_flag = mosley_secondary
+		has_country_flag = kaiser_is_wilhelm_third	
+		has_country_flag = kaiser_is_louis_ferdinand
+		has_country_flag = SER_alexander_ii_is_king
+		}
         }
     }
     RB_head_of_government_window = {

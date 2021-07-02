@@ -11,12 +11,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = RUS
-		}
-		localization_key = "GFX_Boris_Savinkov"
-	}
-	text = {
-		trigger = {
 			AND = {
 			tag = ENG
 			has_country_flag = mosley_secondary
@@ -33,6 +27,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = HUN
+			has_country_flag = HUN_is_monarchy
 		}
 		localization_key = "GFX_HUN_Vladislav_III"
 	}
@@ -53,6 +48,7 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SER
+			has_country_flag = SER_alexander_ii_is_king
 			NOT = {
 			has_country_flag = SER_socialist
 			}
