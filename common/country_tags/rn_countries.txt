@@ -52,7 +52,7 @@ SER = "countries/Serbia.txt"
 SLN = "countries/Slovenia.txt"
 YUG = "countries/Yugoslavia.txt"
 VAR = "countries/Vardar.txt"
-BNT = "countries/Banat Free State.txt"
+BNT = "countries/Romania.txt"
 
 ##North
 DEN = "countries/Denmark.txt"

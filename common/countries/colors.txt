@@ -442,10 +442,7 @@ CSA = {
 	color = rgb { 178 34 52 }
 	color_ui = rgb { 178 34 52 }
 }
-NFL = {
-	color = rgb { 200 56 80 }
-	color_ui = rgb { 200 56 80 }
-}
+
 CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
