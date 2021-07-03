@@ -23,14 +23,15 @@ set_convoys = 100
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantry_weapons = 3
+	infantry_weapons1 = 2
+	motorised = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
-	gw_artillery = 1
+	gw_artillery = 2
 	gwtank = 1
-	basic_light_tank = 1
+	basic_light_tank = 2
 	early_fighter = 1
 	naval_bomber1 = 1
 	early_bomber = 1

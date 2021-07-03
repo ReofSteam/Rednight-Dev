@@ -250,9 +250,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_who_to_invite }
 		completion_reward = {
-			country_event = csa.83
+			add_political_power = -25
 			add_stability = 0.05
-			set_country_flag = america_troublemakers
 		}
 		ai_will_do = {
 			factor = 1
@@ -285,7 +284,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_prepare_philidelphia }
 		completion_reward = {
-			country_event = csa.81
+			add_political_power = 5
 		}
 		ai_will_do = {
 			factor = 1
@@ -302,7 +301,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_prepare_philidelphia }
 		completion_reward = {
-			country_event = csa.27
+			add_political_power = -10
 		}
 		ai_will_do = {
 			factor = 1
@@ -319,7 +318,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_national_security_bill }
 		completion_reward = {
-			country_event = csa.28
+			add_stability = 0.05
+			add_political_power = -15
 		}
 		ai_will_do = {
 			factor = 1
@@ -409,8 +409,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_manpower = 5300
-			add_political_power = 40
-			add_stability = 0.5
+			add_political_power = 15
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -567,7 +567,7 @@ focus_tree = {
 			focus = CSA_an_argument_with_comrade_thomas 
 		}
 		completion_reward = {
-			country_event = csa.26
+			add_political_power = 30
 		}
 		ai_will_do = {
 			factor = 1
@@ -636,7 +636,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_convene_the_generals }
 		completion_reward = {
-			
+			add_manpower = 1500
 		}
 		ai_will_do = {
 			factor = 1
@@ -653,7 +653,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_red_border_patrol }
 		completion_reward = {
-			country_event = csa.7
+			add_political_power = -20
+			add_stability = 0.05
 		}
 		ai_will_do = {
 			factor = 1
@@ -692,7 +693,6 @@ focus_tree = {
 			focus = CSA_spitting_in_the_wind
 		}
 		completion_reward = {
-			add_political_power = 5
 		}
 		ai_will_do = {
 			factor = 1
@@ -803,7 +803,6 @@ focus_tree = {
 			focus = CSA_force_a_compromise 
 		}
 		completion_reward = {
-			country_event = csa.22
 			add_stability = 0.05
 		}
 		ai_will_do = {
