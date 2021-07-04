@@ -22,7 +22,7 @@ state={
 			12782 10 
 		}
 		victory_points = {
-			10740 2 
+			2019 2 
 		}
 		1981.1.1 = {
 		owner = CSA

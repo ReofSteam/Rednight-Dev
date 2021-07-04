@@ -21,10 +21,7 @@ state={
 				bunker = 1
 
 			}
-			13633 = {
-				bunker = 1
 
-			}
 
 		}
 		victory_points = {

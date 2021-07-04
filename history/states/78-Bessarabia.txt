@@ -9,17 +9,12 @@ state={
 			3707 10 
 		}
 		victory_points = {
-			6727 1 
+			565 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			air_base = 2
-			6727 = {
-				naval_base = 3
-				bunker = 1
-
-			}
 
 		}
 		add_core_of = ROM
