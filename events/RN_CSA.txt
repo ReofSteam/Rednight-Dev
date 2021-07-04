@@ -1574,6 +1574,7 @@ country_event = {
 	option = {
 		name = csa.102.a	
 		add_political_power = -100
+		clr_country_flag = CSA_convention_in_process
         create_country_leader = {
 	    name = "Jay Lovestone"
     	desc = "POLITICS_JAY_LOVESTONE_DESC"
