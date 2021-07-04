@@ -99,7 +99,7 @@ has_country_flag = SPA_support
 }
 } 
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = 0.05
 		}
 }
@@ -122,7 +122,7 @@ CSA_lobby_effort_SDP_thomas = {
      complete_effect = {
 	    add_political_power = 5
 	    add_popularity = {
-        ideology = moderate_socialism
+        ideology = moderate_socialist
         popularity = -0.05
         }
 	if = { limit = {
@@ -168,11 +168,11 @@ CSA_lobby_effort_labor_front = {
 has_country_flag = SDP_support
 } 
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = 0.10
 		}
 	    add_popularity = {
-        ideology = nationalist_socialism
+        ideology = nationalist_socialist
         popularity = -0.10
         }		
 }

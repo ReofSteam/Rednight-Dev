@@ -844,11 +844,7 @@ focus_tree = {
 			country_event = {
 				id = csa.98
 				days = 80
-			}	
-			country_event = {
-				id = csa.98
-				days = 95
-			}				
+			}					
 	}		
 		available_if_capitulated = yes
 		prerequisite {

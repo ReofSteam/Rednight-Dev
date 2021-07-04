@@ -1406,10 +1406,10 @@ country_event = {
 		CSA_convention_effect_syndicalist_clause = yes
 		clr_country_flag = SPA_support
 		if = { limit = { has_country_flag = SDP_support }
-		country_event = csa.99
+		country_event = csa.100
 		}
 		else_if = { limit = { has_country_flag = IWW_support }
-		country_event = csa.100
+		country_event = csa.99
 		}
 		else = {
 		country_event = csa.105
@@ -1462,7 +1462,7 @@ country_event = {
 	option = {
 		name = csa.98.a 
 		set_politics = {
-     	ruling_party = moderate_socialist
+     	ruling_party = moderate_socialism
         elections_allowed = no
 }
         create_country_leader = {
@@ -1557,6 +1557,10 @@ country_event = {
 	option = {
 		name = csa.102.a	
 		add_political_power = -50
+		set_politics = {
+     	ruling_party = revolutionary_socialism
+        elections_allowed = no
+}
 	}
 
 }
