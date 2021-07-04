@@ -39,7 +39,7 @@ country_event = { #new Dawn
 	
 	option = {
 		name = csa.16.a 
-		add_political_power = 0.15
+		add_political_power = 15
 		}
 	}
 
