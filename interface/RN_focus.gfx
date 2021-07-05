@@ -108,9 +108,19 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_generic_socialism"
-		texturefile = "gfx/interface/goals/generic/focus_generic_socialism.dds"
+		name = "GFX_focus_generic_capitalism"
+		texturefile = "gfx/interface/goals/generic/generic_capitalism.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_generic_consumer_goods"
+		texturefile = "gfx/interface/goals/generic/generic_consumer_goods.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_city"
+		texturefile = "gfx/interface/goals/generic/generic_city.tga"
+	}
+	
 
 ##########Attack Country
 	SpriteType = { 

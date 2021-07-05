@@ -527,7 +527,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_free_enterprise
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_focus_generic_capitalism
 		x = 10
 		y = 2
 		cost = 5
@@ -573,7 +573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = RUS_focus_on_cities
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = GFX_focus_generic_city
 		x = 11
 		y = 3
 		cost = 5

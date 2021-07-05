@@ -908,7 +908,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1943
+		start_year = 1945
 		
 		folder = {
 			name = electronics_folder
@@ -957,7 +957,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1946
 		
 		folder = {
 			name = electronics_folder
@@ -1008,7 +1008,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1948
 		
 		folder = {
 			name = electronics_folder
@@ -1049,7 +1049,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1946
+		start_year = 1952
 		
 		folder = {
 			name = electronics_folder
@@ -1072,7 +1072,7 @@ technologies = {
 			position = { x = 2 y = 2 }
 		}
 		
-		start_year = 1944
+		start_year = 1950
 		research_cost = 2
 
 		folder = {
