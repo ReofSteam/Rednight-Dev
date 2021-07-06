@@ -1435,6 +1435,7 @@ country_event = {
 	
 	option = {
 		name = csa.99.a 
+		clr_country_flag = SPA_support
 		set_politics = {
      	ruling_party = syndicalism
         elections_allowed = no
@@ -1461,6 +1462,7 @@ country_event = {
 	
 	option = {
 		name = csa.98.a 
+		clr_country_flag = SPA_support		
 		set_politics = {
      	ruling_party = moderate_socialism
         elections_allowed = no
@@ -1513,8 +1515,8 @@ country_event = {
 ######Finale
 country_event = { 
 	id = csa.102
-    title = csa.101.t
-    desc = csa.101.d
+    title = csa.102.t
+    desc = csa.102.d
 	is_triggered_only = yes
 	option = {
 		name = csa.102.a
@@ -1522,7 +1524,7 @@ country_event = {
 	if = { limit = {	
     check_variable = {
 	var = CSA_congress_total
-	value = 60
+	value = 0.6
 	compare = greater_than_or_equals
 }	
 }
@@ -1537,12 +1539,12 @@ country_event = csa.104
 
 country_event = { 
 	id = csa.103
-    title = csa.101.t
-    desc = csa.101.d
+    title = csa.103.t
+    desc = csa.103.d
 	is_triggered_only = yes
 	
 	option = {
-		name = csa.102.a	
+		name = csa.103.a	
 		add_political_power = 50
 	}
 
@@ -1550,12 +1552,12 @@ country_event = {
 
 country_event = { 
 	id = csa.104
-    title = csa.101.t
-    desc = csa.101.d
+    title = csa.104.t
+    desc = csa.104.d
 	is_triggered_only = yes
 	
 	option = {
-		name = csa.102.a	
+		name = csa.104.a	
 		add_political_power = -50
 		set_politics = {
      	ruling_party = revolutionary_socialism
@@ -1572,7 +1574,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = csa.102.a	
+		name = csa.105.a	
 		add_political_power = -100
 		clr_country_flag = CSA_convention_in_process
         create_country_leader = {
