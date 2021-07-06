@@ -3,9 +3,7 @@ state = {
 	name = "STATE_389"
 	manpower = 664000
 	state_category = three
-	resources = {
-		steel = 24
-	}
+
 
 	history = {
 		owner = CSA
@@ -19,6 +17,6 @@ state = {
 	}
 
 	provinces = {
-		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 13395
+		1752 1836 4772 10709 12685 13395
 	}
 }

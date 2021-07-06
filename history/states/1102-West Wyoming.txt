@@ -2,7 +2,7 @@ state={
 	id=1102
 	name="STATE_1102"
 	provinces={
-	 7688 7888 12633 12651 
+	 7688 7888 12651 
 	}
 	history = {
 		owner = CAL

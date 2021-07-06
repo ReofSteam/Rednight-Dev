@@ -10,15 +10,13 @@ state = {
 			infrastructure = 4
 		}
 		add_core_of = CSA
-		victory_points = {
-			12620 1
-		}
+
 		victory_points = {
 			10595 3
 		}		
 	}
 
 	provinces = {
-		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667
+		10569 10595 12667
 	}
 }
