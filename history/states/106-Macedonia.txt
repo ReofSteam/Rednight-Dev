@@ -16,9 +16,7 @@ state={
 			air_base = 2
 
 		}
-		victory_points = {
-			8 
-		}
+
 		add_core_of = BUL
 		add_claim_by = SER
 

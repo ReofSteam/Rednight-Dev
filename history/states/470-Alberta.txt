@@ -4,7 +4,7 @@ state = {
 	manpower = 763887
 	impassable = yes
 
-	state_category = zero
+	state_category = five
 
 
 	history = {

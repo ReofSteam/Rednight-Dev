@@ -6,7 +6,7 @@ state = {
 		chromium = 28
 	}
 
-	state_category = six
+	state_category = eight
 
 	history = {
 		owner = JAP

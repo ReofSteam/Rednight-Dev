@@ -1735,10 +1735,20 @@ country_event = {
 	is_triggered_only = yes
 	immediate = {
     OSS = {
-	transfer_state = 390
 	transfer_state = 389
-	add_state_core = 390
+	transfer_state = 1119
+	transfer_state = 1120
+	transfer_state = 1121
+	transfer_state = 1126
+	transfer_state = 1123
+	transfer_state = 1125
 	add_state_core = 389
+	add_state_core = 1119
+	add_state_core = 1120
+	add_state_core = 1121
+	add_state_core = 1126
+	add_state_core = 1123
+	add_state_core = 1125	
 	}
 	}
 	option = {

@@ -12,11 +12,7 @@ state = {
 			industrial_complex = 2
 			air_base = 2
 		}
-		victory_points = {
-			11659 3
-		}
-		victory_points = {
-		}
+
 		add_core_of = ROM
 	}
 
