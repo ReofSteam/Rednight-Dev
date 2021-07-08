@@ -1272,6 +1272,7 @@ country_event = {
     title = csa.93.t
     desc = csa.93.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.93.a
@@ -1310,6 +1311,7 @@ country_event = {
     title = csa.94.t
     desc = csa.94.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.94.a 
@@ -1335,6 +1337,7 @@ country_event = {
     title = csa.95.t
     desc = csa.95.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.95.a 
@@ -1356,6 +1359,7 @@ country_event = {
     title = csa.96.t
     desc = csa.96.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.96.a 
@@ -1377,6 +1381,7 @@ country_event = {
     title = csa.97.t
     desc = csa.97.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.97.a 
@@ -1400,6 +1405,7 @@ country_event = {
     title = csa.98.t
     desc = csa.98.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.98.a 
@@ -1432,6 +1438,7 @@ country_event = {
     title = csa.99.t
     desc = csa.99.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.99.a 
@@ -1459,6 +1466,7 @@ country_event = {
     title = csa.100.t
     desc = csa.100.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.98.a 
@@ -1496,6 +1504,7 @@ country_event = {
     title = csa.101.t
     desc = csa.101.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.101.a 
@@ -1518,6 +1527,8 @@ country_event = {
     title = csa.102.t
     desc = csa.102.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
 	option = {
 		name = csa.102.a
 		clr_country_flag = CSA_convention_in_process 
@@ -1542,6 +1553,7 @@ country_event = {
     title = csa.103.t
     desc = csa.103.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.103.a	
@@ -1555,6 +1567,7 @@ country_event = {
     title = csa.104.t
     desc = csa.104.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.104.a	
@@ -1572,6 +1585,7 @@ country_event = {
     title = csa.101.t
     desc = csa.101.d
 	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
 	
 	option = {
 		name = csa.105.a	
@@ -1680,23 +1694,27 @@ country_event = {
 
 }
 
-#########Super
+#########Denver go bye
 country_event = { 
 	id = csa.1000
     title = csa.1000.t
     desc = csa.1000.d
+	hidden = yes
 	is_triggered_only = yes
-	immediate = {
-	        launch_nuke = {
-			province = 1827
-    	    state = 382 
-    	    use_nuke = no
-}		
-	}
+	immediate = {		}
 	option = {
 		name = csa.91.a 
+		launch_nuke = {
+			province = 1827
+    	    state = 1135 
+    	    use_nuke = no
+}
+		country_event = { 
+		id = csa.1001
+		days = 1
+		}
 		hidden_effect = {		
-	382 = {
+	1135 = {
 	set_state_flag = nuclear_destroyed
 	set_state_category = wasteland
 	add_manpower = -1500000
@@ -1733,6 +1751,8 @@ country_event = {
     title = csa.1002.t
     desc = csa.1002.d
 	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
 	immediate = {
     OSS = {
 	transfer_state = 389
@@ -1768,6 +1788,8 @@ country_event = {
     title = csa.1003.t
     desc = csa.1003.d
 	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
 	immediate = {
     NGO = {
 	transfer_state = 932
@@ -1796,6 +1818,8 @@ country_event = {
     title = csa.1004.t
     desc = csa.1004.d
 	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
 	immediate = {
     NGO = {
 	transfer_state = 360	
@@ -1821,12 +1845,22 @@ country_event = {
     title = csa.1005.t
     desc = csa.1005.d
 	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
 	immediate = {
     COF = {
-	transfer_state = 367
-	transfer_state = 365		
-	add_state_core = 367
+	transfer_state = 1130
+	transfer_state = 1129		
+	transfer_state = 1131
+	transfer_state = 365	
+	transfer_state = 1133
+	transfer_state = 1134
+	add_state_core = 1130
+	add_state_core = 1129		
+	add_state_core = 1131
 	add_state_core = 365	
+	add_state_core = 1133
+	add_state_core = 1134	
 	}
 	}
 	option = {

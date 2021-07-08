@@ -80,7 +80,7 @@ news_event = { #New Year Peace
 	original_tag = CAL
 	original_tag = CSA
 	}}
-		name = worldnews.3.b
+		name = worldnews.3.c
 	set_country_flag = Super_Event_Visible
 	set_country_flag = America_first_day_of_peace
 	play_song = "RNamericanpeace"
@@ -575,6 +575,41 @@ news_event = { #Westheer:Evil
 	option = {
 		name = worldnews.26.a
 	}
+}
+#Nuclear Bombing of Denver
+
+news_event = { 
+	id = worldnews.27
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.27" }
+
+	title = worldnews.t
+	desc = worldnews.27.d
+	picture = GFX_news_nuclear_cloud
+	major = yes
+	is_triggered_only = yes
+
+
+	option = {
+	trigger = {
+	original_tag = CAL
+	}
+		name = worldnews.27.a
+	}
+	option = {
+	trigger = {
+	original_tag = CSA
+	}
+		name = worldnews.27.a
+	}	
+	option = {
+	trigger = { NOT = { OR = {
+	original_tag = CSA
+	original_tag = CAL
+	} 
+	}
+	}
+		name = worldnews.27.a
+	}	
 }
 
 news_event = { 

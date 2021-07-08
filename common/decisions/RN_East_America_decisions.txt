@@ -72,7 +72,7 @@ icon = GFX_decision_generic_petition
 }
 CSA_lobby_effort_iww = {
 	icon = generic_prepare_civil_war
-
+	days_re_enable = 10
 	allowed = {
 		tag = CSA
 	}
@@ -115,7 +115,7 @@ has_country_flag = SPA_support
 }
 CSA_lobby_effort_SDP_thomas = {
 	icon = generic_prepare_civil_war
-
+	days_re_enable = 10
 	allowed = {
 		tag = CSA
 	}
@@ -158,7 +158,7 @@ has_country_flag = SPA_support
 }
 CSA_lobby_effort_labor_front = {
 	icon = generic_prepare_civil_war
-
+	days_re_enable = 10
 	allowed = {
 		tag = CSA
 	}

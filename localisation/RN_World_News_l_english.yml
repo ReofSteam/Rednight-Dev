@@ -10,7 +10,7 @@ worldnews.3.d:0 "Since 1941 the North American continent has more closely resemb
 worldnews.3.b:0 "Will America ever recover?"
 worldnews.4.d:0 "Micheal Collins,  President of the Irish Republic has passed away in Leinster House. According to his Widow Mrs Catherine Collins the cause was a heart attack amidst deteriorating health, which Mr Collins had kept hidden from the public at large.\n\nHis state funeral in Dublin was attended by an estimated 400,000 people, including many veterans from the war of independence with the absence of Ulster protestant TD's in protest of Collins role during the 1925 northern Campaign.\n\nAt the forefront of politics since the days of the war of independence, Collins legacy looms large, and it is doubtful if any one man could fill the void left behind by his absence. His unifying presence and guiding hand in its first decades ensured the young republic did not fall into factionalism. Even if many have accused him of using dictatorial and authoritarian methods to achieve such goals, few doubt his vision of neutrality in the world war and peaceful co-existence have been highly successful"
 worldnews.4.a:0 "\nFarewell, Big Mick." 
-worldnews.4.a:0 "\nAn era ended..." 
+worldnews.4.b:0 "\nAn era ended..." 
 worldnews.5.d:0 "goddamn werewolves have rose up"
 worldnews.5.a:0 "Reactionary scums!"
 worldnews.5.b:0 "The Germans couldnt be trusted to handle themselves"
@@ -78,6 +78,12 @@ worldnews.25.d:0 "Following the great "revolution" in Prussia, today the Nationa
 worldnews.25.a:0 "A constitutional German, good joke"
 worldnews.26.d:0 "Following the great "revolution" in Prussia, today the National Committee of the German Army have dissolved itself after a bitter factional fighting which saw the victory of the Bund der Frontsoldaten in its rank, who proclaimed their new Chief of State, General Hermann Ehrhardt. The restoration of the German Reich as well as the new regime absolutely determination to cleanse the German society of traitors and capitulators and enact its revenge is pronounced. Its very unclear how Russia would deal with this ambiguous position on its eastern relationship" 
 worldnews.26.a:0 "Lets hope they don't do anything rash"
+
+worldnews.27.d:0 "Denver is gone, the city is dying, 50 thousands are dead, 2 millions dying"
+worldnews.27.a:0 "Who could have done this?"
+worldnews.27.b:0 "The Westerners will pay!"
+worldnews.27.c:0 "A tragedy"
+
 worldnews.1000.d:0 "[?nuclear_name_1.GetName|R] were once great hubs. Like hives of culture and civilization their influence spread wide. Their name was uttered on countless lips, and their splendor featured on countless maps.\n\nOnce.\n\nDistant citizens have experienced small seismic activity, followed by shockwaves. Angry clouds loom on the horizon. There can be no doubt. [?nuclear_name_1.GetName|R] is gone. What few inhabitants managed to survive and flee will soon succumb to radiation and third degree burns. These are victims of the final conflict. A price unwillingly paid. May god forgive us and damn our enemy!\n\nYet the question remains will anyone be left to honor their sacrifice"
 worldnews.1000.a:0 "Oh the Humanity"
 worldnews.1001.d:0 "Against all odds the brave soliders of [?nuclear_name_1.GetName|R] have achieved the impossible! This news comes according to the nation’s aerospace defense ministry, as well as several eyewitness reports. Enemy missiles carrying nuclear payload were downed over [?nuclear_name_1.GetName|R] in the nick of time, narrowly averting a nightmare.\n\nA potent mixture of panic and joy has taken hold across [?nuclear_name_1.GetName|R]. This war is mighty and terrible. Though a brief reprieve from carnage is certainly good, such a narrow brush with death has made an impact. Alcohol and violence are abound. As are quiet hugs and neurotic officials./n/nShould the enemy launch another attack perhaps [?nuclear_name_1.GetName|R] will not be so lucky. For the sake of all mankind, one must hope this war ends soon!"

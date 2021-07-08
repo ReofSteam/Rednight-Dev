@@ -239,6 +239,11 @@ spriteTypes = {
 		spriteType = { 
 		name = "GFX_news_PRS_rightwing"
 		texturefile = "gfx/event_pictures/news_PRS_rightwing.tga"
+	}	
+######CSA
+		spriteType = { 
+		name = "GFX_CSA_congress_report"
+		texturefile = "gfx/event_pictures/CSA_congress_report.tga"
 	}			
  ###############change name according to the standard#############	
 	spriteType = { 
