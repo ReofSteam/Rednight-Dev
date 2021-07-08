@@ -114,7 +114,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_flight_to_new_york }
 		completion_reward = {
-			country_event = csa.15
+			country_event = csa.17
 		}
 		ai_will_do = {
 			factor = 1
@@ -829,7 +829,7 @@ focus_tree = {
 				days = 20
 			}
 			country_event = {
-				id = csa.95
+				id = csa.106
 				days = 35
 			}
 			country_event = {

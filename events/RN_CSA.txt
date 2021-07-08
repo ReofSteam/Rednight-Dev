@@ -299,7 +299,7 @@ country_event = { #revising the speech
 		name = csa.15.a
 		country_event = {
 		id = csa.17
-		days = 3
+		days = 1
 		}
 	}
 
@@ -1332,28 +1332,125 @@ country_event = {
 
 #######Press Radio Silence
 
-country_event = { 
+country_event = { #### Le marin curieux newspaper breaks the story
+	id = csa.106
+	title = csa.106.t
+	desc = csa.106.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.106.a
+		add_political_power = -5
+		add_stability = -0.02
+		country_event = {
+		id = csa.107
+		days = 1
+		}
+
+	}
+}
+
+country_event = {  ##Pressure mounts due to story
+	id = csa.107
+	title = csa.107.t
+	desc = csa.107.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.107
+		add_political_power = -15
+		add_stability = -0.05
+		country_event = {
+		id = csa.95
+		days = 3 
+		}
+		
+	}
+
+}
+
+country_event = {  #####Muzzle the press?
 	id = csa.95
     title = csa.95.t
     desc = csa.95.d
 	is_triggered_only = yes
 	picture = GFX_CSA_congress_report
-	
 	option = {
 		name = csa.95.a 
-		CSA_convention_effect_republican_clause = yes		
+		CSA_convention_effect_republican_clause = yes
+		country_event = {
+			id = csa.109
+		}	
 	}
 	
 	option = {
 		name = csa.95.b
-		CSA_convention_effect_modsoc_clause = yes		
+		CSA_convention_effect_modsoc_clause = yes
+		country_event  = {
+			id = csa.110	
+		}	
 	}
 	option = {
 		name = csa.95.c
-		CSA_convention_effect_syndicalist_clause = yes		
+		CSA_convention_effect_syndicalist_clause = yes	
+		country_event = {
+			id = csa.108
+		}	
 	}	
-
 }
+
+
+country_event = {  ##The Story Leaks to America
+	id = csa.108
+	title = csa.108.t
+	desc = csa.108.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.108.a
+		add_political_power = -45
+		
+	}
+}
+
+##France protests us deporting their journalists
+country_event = {  
+	id = csa.109
+	title = csa.109.t
+	desc = csa.109.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.109.a
+		add_political_power = -45
+		add_stability = -0.05
+	
+		
+	}
+}
+
+##Several Papers are forcefully closed and the story leaks
+country_event = {  
+	id = csa.110
+	title = csa.110.t
+	desc = csa.110.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.110.a
+		add_political_power = -45
+		add_stability = -0.1
+		
+	}
+}
+
+
+
+##########Legislature
+
 country_event = { 
 	id = csa.96
     title = csa.96.t
@@ -1582,8 +1679,8 @@ country_event = {
 
 country_event = { 
 	id = csa.105
-    title = csa.101.t
-    desc = csa.101.d
+    title = csa.105.t
+    desc = csa.105.d
 	is_triggered_only = yes
 	picture = GFX_CSA_congress_report
 	
