@@ -196,11 +196,11 @@ csa.94.b:0 "Primarily conducted by the National Syndicates, with small enterpris
 csa.94.c:0 "The exclusive domain of the National Syndicates upon the basis of worker's self-management."
 
 csa.106.t:0 "The Curious Sailor"
-csa.106.d:0 "A French Newspaper called the curious sailor has leaked sections of our debate regarding commerce! This is a disaster, as both sides are extremely dissatisfied and public sentiment has turned hostile."
+csa.106.d:0 "This morning, officers of the RSB stationed outside Independence Hall were subjected to a surprising scene. One Earnest Hemmingway, prolific journalist, comrade, and rogue adventurist. Hemmingway approached at a brisk pace with a newspaper in hand loudly demanding an audience with the convention on behalf of several obscure American journalists.\n\nWhile he was turned away like anyone else, the paper managed to make its way inside where it was read aloud. Soon, it became obvious why Hemmingway had been sent all the way to Pennsylvania.\n\nLe Marin Curieux, otherwise known as “The Curious Sailor” is a French tabloid known in Europe for vicious yellow journalism and a total lack of discretion. The paper primarily covers foreign affairs, and America, such as it is, did not disappoint. Somehow the folks in Paris have gotten ahold of intimate details regarding the convention thus far. Quotes from debates over commerce, traded insults and more are included.\n\nThankfully only a small contingent of the American populace can speak French. In addition, our gentleman’s agreement with the American press appears to be holding. While this event has caused some controversy abroad, damage has been limited by the paper’s reputation."
 csa.106.a:0 "It's not what it looks like!"
 
 csa.107.t:0 "Outside Pressure mounts"
-csa.107.d:0 "The revelations revealed by the curious sailor have started to hurt the convention by pressuring its participants. In addition, murmurs of strikes and protests have begun. We do not need a repeat of the lovestone riot siutation!"
+csa.107.d:0 "Disaster! Sympathetic Comrades within the editorial staff of “The Masses” have tipped  s off regarding a great drama brewing within American journalism. Though they once pledged to honor our gentleman’s agreement, the information present upon the pages of “The Curious Sailor” was simply too lucrative to turn down.\n\nWithin the rapidly regrowing sector of American News, papers have been competing at breakneck pace for control of the vast readership left behind by now defunct publications like the New York Times and Chicago Tribune. Eager to break the story for an English-speaking audience, journalists across the nation are quietly requesting meetings with the team behind the Curious Sailor Article.\n\nWere details of the convention to leak prematurely, there would no doubt be great outrage across every political tendency. Militamen, strikers, and protestors would no doubt be mobilized. As a result, the convention could be influenced or even undone by public pressure and thuggery! \n\nThe convention has been called to emergency session tomorrow morning regarding these revelations. There is still a short window to act before the news breaks. "
 csa.107.a:0 "Assemble the convention for an emergency motion!"
 
 csa.95.t:0 "Convention Motion- Press Slience"
@@ -243,6 +243,7 @@ csa.103.t:0 "A New Constituion"
 csa.104.t:0 "1947 Constitution Defended"
 
 csa.105.t:0 "Extreme Political Deadlock"
+
 ### Focuses ###
 CSA_force_a_compromise:0 "Force a Compromise"
 CSA_force_a_compromise_desc:0 "-"

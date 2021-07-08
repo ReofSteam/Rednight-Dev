@@ -1348,7 +1348,7 @@ country_event = { #### Le marin curieux newspaper breaks the story
 	}
 }
 
-country_event = {
+country_event = {  ##Pressure mounts due to story
 	id = csa.107
 	title = csa.107.t
 	desc = csa.107.d
@@ -1367,7 +1367,7 @@ country_event = {
 
 }
 
-country_event = { 
+country_event = {  #####Muzzle the press?
 	id = csa.95
     title = csa.95.t
     desc = csa.95.d
