@@ -179,38 +179,69 @@ csa.60.a:0 "I'll try my best"
 csa.70.t:0 "Operation Jerome"
 csa.70.d:0 "Commander, do not let us down."
 csa.70.a:0 "I'll try my best"
-csa.93.t:0 "Preamble of the CONSTITUTION"
-csa.93.a:0 "Belongs to the workers union in democratic and republican principles"
-csa.93.b:0 "Belongs to the popular union of the American people"
-csa.93.c:0 "Belongs to the Workers of America"
-csa.94.t:0 "Organisation of the National Economy"
-csa.94.a:0 "National Syndicates under a National Government"
-csa.94.b:0 "The national syndicates with limited forms of private enteprises"
-csa.94.c:0 "The national syndicates, on the basic of workers democracy"
-csa.95.t:0 "Convention Motion: Press Slience"
-csa.95.a:0 "Motion Carried: Deport the mudrakers"
-csa.95.b:0 "Motion Carried: Gentlemans Agreement"
-csa.95.c:0 "Motion Repealed: Press Freedom Restored"
-csa.96.t:0 "The National Legislature"
-csa.96.a:0 "A national congress, that which represent the American people"
-csa.96.b:0 "An industrial congress, that which represent the proletarian"
-csa.97.t:0 "Organisation of Law Enforcements"
-csa.97.a:0 "On the principle of communal self-policing, via federal management, the RSB"
-csa.97.b:0 "On the principle of communal self-policing, self-organised"
-csa.98.t:0 "Structure of State"
-csa.98.a:0 "A federal union of Commonwealth"
-csa.98.b:0 "A republic, one and indivisible"
+
+### Convention Chain ###
+
+csa.93.t:0 "Preamble"
+csa.93.d:0 "On the 3rd of March 1940, the President of the United States of America, and those forces loyal to the constitution escaped a coup d’etat in the nation’s capital. These events would come to form the genesis of a decade long civil war. It was only through sacrifice that the forces of democracy would manage to survive against the onslaught. Narrowly, they would best their many tyrannical and regressive enemies.\n\nWhen it became clear that the rule of law would endure, the remaining men and women of the United States congress gathered. Deeply affected by the barbarous violence that the servants of the Bourgeoise had inflicted, and aware of centuries of ruthless exploitation, a new era was declared. The United States of America had evolved beyond its harrowing past. It was rechristened a “Socialist Republic” in consideration of newfound purpose; to provide true liberty and justice for all. The new union shall be a ...."
+csa.93.a:0 "A Popular union of Democratic and Republican principles."
+csa.93.b:0 "A Popular union of the American People."
+csa.93.c:0 "A Popular Union, belonging to the working class of America."
+
+
+csa.94.t:0 "Article Four - Commerce"
+csa.94.d:0 "In Recognition of the reality that the political and economic life of a nation are inseparable, America is a nation engaged in the construction of Socialism. Commerce within the socialist republic must be conducted with this national goal in mind. To that end, commerce shall be .."
+csa.94.a:0 "The exclusive domain of the National Syndicates directed by the national government."
+csa.94.b:0 "Primarily conducted by the National Syndicates, with small enterprise permitted alongside."
+csa.94.c:0 "The exclusive domain of the National Syndicates upon the basis of worker's self-management."
+
+csa.106.t:0 "The Curious Sailor"
+csa.106.d:0 "A French Newspaper called the curious sailor has leaked sections of our debate regarding commerce! This is a disaster, as both sides are extremely dissatisfied and public sentiment has turned hostile."
+csa.106.a:0 "It's not what it looks like!"
+
+csa.107.t:0 "Outside Pressure mounts"
+csa.107.d:0 "The revelations revealed by the curious sailor have started to hurt the convention by pressuring its participants. In addition, murmurs of strikes and protests have begun. We do not need a repeat of the lovestone riot siutation!"
+csa.107.a:0 "Assemble the convention for an emergency motion!"
+
+csa.95.t:0 "Convention Motion- Press Slience"
+csa.95.d:0 "Fuck the frogs"
+csa.95.a:0 "Motion Carried- Deport the mudrakers"
+csa.95.b:0 "Motion Carried- Gentlemans Agreement"
+csa.95.c:0 "Motion Repealed- Press Freedom Restored"
+
+csa.96.t:0 "Article Five - Legislature"
+csa.96.d:0 "Legislative power in America shall derive primarily from the supreme legislative body. Beyond extralegal duties, the executive shall be subservient to this body and carry out its will.\n\nThe supreme executive body shall be…"
+csa.96.a:0 "...A National Congress, organised by geography."
+csa.96.b:0 "...An Industrial Congress organised by workplace."
+
+csa.97.t:0 "Article Nine - Law Enforcement"
+csa.97.d:0 "The rule of law shall take priority in all matters, without exception. Laws, are drafted by the legislature and carried out by the executive. Enforcement of laws shall be conducted..."
+csa.97.a:0 "On the principle of communal self-policing, with federal oversight via the RSB."
+csa.97.b:0 "On the principle of communal self-policing."
+
+csa.98.t:0 "Article Eleven - Structure of State"
+csa.98.d:0 "Economic, Executive, Legislative, and Judicial authority in America are held by the popular government, which shall be beholden to the rule of law. America is a…"
+csa.98.a:0 "...Federal Republic, responsible for limited administrative duties"
+csa.98.b:0 "...Unitary Republic, responsible for all administrative duties."
+
 csa.99.t:0 "Foster abandoned the SPA"
 csa.99.d:0 "He went with the IWW"
+
 csa.100.t:0 "Foster abandoned the SPA"
 csa.100.d:0 "He went with the SDP"
-csa.101.a:0 "An independent professional military force"
-csa.101.t:0 "Organisation of National Defense"
-csa.101.b:0 "The people of America in arms, as a well organised force"
-csa.101.c:0 "The people of America in arms, on the principle of communal self-defense"
+
+csa.101.t:0 "Article Twelve - National Defense"
+csa.101.d:0 "The responsibility of the defense of the republic shall fall upon a national defense council, appointed by and directly subservient to the supreme legislature. The National Defense Council shall be entrusted to raise armed forces, consisting of a navy, air force, and army.\n\The structure of these armed forces shall be comprised of.."
+csa.101.a:0 "An independent professional military force."
+csa.101.b:0 "The people of America in arms, as a well organised force."
+csa.101.c:0 "The people of America in arms, on the principle of communal self-defense."
+
 csa.102.t:0 "The Final Day of the Convention"
+
 csa.103.t:0 "A New Constituion"
+
 csa.104.t:0 "1947 Constitution Defended"
+
 csa.105.t:0 "Extreme Political Deadlock"
 ### Focuses ###
 CSA_force_a_compromise:0 "Force a Compromise"
