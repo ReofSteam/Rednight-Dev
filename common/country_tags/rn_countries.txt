@@ -272,8 +272,9 @@ CAL = "countries/WestEur.txt"
 OSS = "countries/America.txt"
 COF = "countries/America.txt"
 NGO = "countries/America.txt"
-IWW = "countries/America.txt"
-MIS = "countries/America.txt"
+IWW = "countries/AmericaLeftist.txt"
+MIS = "countries/AmericaLeftist.txt"
+NAF = "countries/AmericaLeftist.txt"
 
 
 ##Central

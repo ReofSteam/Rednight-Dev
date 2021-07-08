@@ -44,6 +44,14 @@ NGO_authoritarian_democrat_DEF:0 "the National Guards Organization"
 NGO_authoritarian_democrat_ADJ:0 "American"
 
 
+NAF_nationalist_socialism:0 "Black Autonomous Republic"
+NAF_nationalist_socialism_DEF:0 "the Black Autonomous Republic"
+NAF_nationalist_socialism_ADJ:0 "African-American"
+
+IWW_syndicalism:0 "Provisional Industrial Congress"
+IWW_syndicalism_DEF:0 "American"
+IWW_syndicalism_ADJ:0 "the Provisional Industrial Congress"
+
 ###############
 ### Parties ###
 ###############
@@ -183,10 +191,10 @@ csa.70.a:0 "I'll try my best"
 ### Convention Chain ###
 
 csa.93.t:0 "Preamble"
-csa.93.d:0 "On the 3rd of March 1940, the President of the United States of America, and those forces loyal to the constitution escaped a coup d’etat in the nation’s capital. These events would come to form the genesis of a decade long civil war. It was only through sacrifice that the forces of democracy would manage to survive against the onslaught. Narrowly, they would best their many tyrannical and regressive enemies.\n\nWhen it became clear that the rule of law would endure, the remaining men and women of the United States congress gathered. Deeply affected by the barbarous violence that the servants of the Bourgeoise had inflicted, and aware of centuries of ruthless exploitation, a new era was declared. The United States of America had evolved beyond its harrowing past. It was rechristened a “Socialist Republic” in consideration of newfound purpose; to provide true liberty and justice for all. The new union shall be a ...."
-csa.93.a:0 "A Popular union of Democratic and Republican principles."
-csa.93.b:0 "A Popular union of the American People."
-csa.93.c:0 "A Popular Union, belonging to the working class of America."
+csa.93.d:0 "On the 3rd of March 1940, the President of the United States of America, and those forces loyal to the constitution escaped a coup d’etat in the nation’s capital. These events would come to form the genesis of a decade long civil war. It was only through sacrifice that the forces of democracy would manage to survive against the onslaught. Narrowly, they would best their many tyrannical and regressive enemies.\n\nWhen it became clear that the rule of law would endure, the remaining men and women of the United States congress gathered. Deeply affected by the barbarous violence that the servants of the Bourgeoise had inflicted, and aware of centuries of ruthless exploitation, a new era was declared. The United States of America had evolved beyond its harrowing past to provide true liberty and justice for all. To that end the new union shall be a ...."
+csa.93.a:0 "popular union of American on democratic and republican principles..."
+csa.93.b:0 "popular union of the entire American People..."
+csa.93.c:0 "proletarian state, with all power belonging to the working class of America..."
 
 csa.94.t:0 "Article Four - Commerce"
 csa.94.d:0 "In Recognition of the reality that the political and economic life of a nation are inseparable, America is a nation engaged in the construction of Socialism. Commerce within the socialist republic must be conducted with this national goal in mind. To that end, commerce shall be .."

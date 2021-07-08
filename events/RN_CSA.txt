@@ -1971,3 +1971,90 @@ country_event = {
 
 }
 
+#######Black Nationalist Coup####
+country_event = { 
+	id = csa.1006
+    title = csa.1006.t
+    desc = csa.1006.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    NAF = {
+	transfer_state = 1138	
+	add_state_core = 1138
+	transfer_state = 929	
+	add_state_core = 929
+	add_state_core = 362	
+	transfer_state = 362	
+	
+	}
+	}
+	option = {
+		name = csa.1006.a 
+		declare_war_on = {
+        target = NAF
+        type = annex_everything
+}	
+
+	}
+
+}
+
+
+#######IWW-Radical####
+country_event = { 
+	id = csa.1007
+    title = csa.1007.t
+    desc = csa.1007.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    IWW = {
+	transfer_state = 393	
+	add_state_core = 393
+	transfer_state = 261	
+	add_state_core = 261
+	transfer_state = 369	
+	add_state_core = 369	
+	}
+	}
+	option = {
+		name = csa.1007.a 
+		declare_war_on = {
+        target = IWW
+        type = annex_everything
+}	
+
+	}
+
+}
+
+####Torchbearers 2#####
+country_event = { 
+	id = csa.1008
+    title = csa.1008.t
+    desc = csa.1008.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    OSS = {
+	transfer_state = 1136
+	transfer_state = 384	
+	add_state_core = 1136
+	add_state_core = 384
+	
+	}
+	}
+	option = {
+		name = csa.1008.a 
+		declare_war_on = {
+        target = OSS
+        type = annex_everything
+}	
+
+	}
+
+}
