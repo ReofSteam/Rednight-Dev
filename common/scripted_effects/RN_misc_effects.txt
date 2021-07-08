@@ -343,12 +343,12 @@ has_country_flag = SDP_support
 has_country_flag = SPA_support
 } 
 		add_popularity = {
-		    ideology = syndicalism
-            popularity = -0.02
+		    ideology = revolutionary_socialism
+            popularity = -0.01
 		}		
 		add_popularity = {
 		    ideology = moderate_socialism
-            popularity = -0.01
+            popularity = -0.02
 		}		
 		add_political_power = 15
 }	
