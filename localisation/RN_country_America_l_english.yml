@@ -188,7 +188,6 @@ csa.93.a:0 "A Popular union of Democratic and Republican principles."
 csa.93.b:0 "A Popular union of the American People."
 csa.93.c:0 "A Popular Union, belonging to the working class of America."
 
-
 csa.94.t:0 "Article Four - Commerce"
 csa.94.d:0 "In Recognition of the reality that the political and economic life of a nation are inseparable, America is a nation engaged in the construction of Socialism. Commerce within the socialist republic must be conducted with this national goal in mind. To that end, commerce shall be .."
 csa.94.a:0 "The exclusive domain of the National Syndicates directed by the national government."
@@ -199,15 +198,15 @@ csa.106.t:0 "The Curious Sailor"
 csa.106.d:0 "This morning, officers of the RSB stationed outside Independence Hall were subjected to a surprising scene. One Earnest Hemmingway, prolific journalist, comrade, and rogue adventurist. Hemmingway approached at a brisk pace with a newspaper in hand loudly demanding an audience with the convention on behalf of several obscure American journalists.\n\nWhile he was turned away like anyone else, the paper managed to make its way inside where it was read aloud. Soon, it became obvious why Hemmingway had been sent all the way to Pennsylvania.\n\nLe Marin Curieux, otherwise known as “The Curious Sailor” is a French tabloid known in Europe for vicious yellow journalism and a total lack of discretion. The paper primarily covers foreign affairs, and America, such as it is, did not disappoint. Somehow the folks in Paris have gotten ahold of intimate details regarding the convention thus far. Quotes from debates over commerce, traded insults and more are included.\n\nThankfully only a small contingent of the American populace can speak French. In addition, our gentleman’s agreement with the American press appears to be holding. While this event has caused some controversy abroad, damage has been limited by the paper’s reputation."
 csa.106.a:0 "It's not what it looks like!"
 
-csa.107.t:0 "Outside Pressure mounts"
-csa.107.d:0 "Disaster! Sympathetic Comrades within the editorial staff of “The Masses” have tipped  s off regarding a great drama brewing within American journalism. Though they once pledged to honor our gentleman’s agreement, the information present upon the pages of “The Curious Sailor” was simply too lucrative to turn down.\n\nWithin the rapidly regrowing sector of American News, papers have been competing at breakneck pace for control of the vast readership left behind by now defunct publications like the New York Times and Chicago Tribune. Eager to break the story for an English-speaking audience, journalists across the nation are quietly requesting meetings with the team behind the Curious Sailor Article.\n\nWere details of the convention to leak prematurely, there would no doubt be great outrage across every political tendency. Militamen, strikers, and protestors would no doubt be mobilized. As a result, the convention could be influenced or even undone by public pressure and thuggery! \n\nThe convention has been called to emergency session tomorrow morning regarding these revelations. There is still a short window to act before the news breaks. "
-csa.107.a:0 "Assemble the convention for an emergency motion!"
+csa.107.t:0 "The Brewing Catastrophe"
+csa.107.d:0 "Disaster! Sympathetic comrades within the editorial staff of “The Masses” have tipped us off regarding a great drama brewing within American journalism. Within the rapidly regrowing sector of American news, papers have been competing at breakneck pace for control of a vast readership. Once, it was held   by now defunct papers like the Chicago Tribune and New York Times. \n\nThough the press pledged to honor our gentleman’s agreement, the information present upon the pages of the latest “The Curious Sailor” is apparently too lucrative to turn down. Details of our convention are a huge story, considering much of the public is unaware that a convention is even taking place. Eager to spin a tale for an English-speaking audience, journalists across the nation are quietly requesting meetings with the team behind the original article.\n\nWere details of the convention to leak prematurely there would be an upheaval, regardless of political tendency! Militiamen, strikers, and protestors would undoubtedly be mobilized. As a result, the convention could be influenced or even undone by public pressure and thuggery.\n\nThe delegates have been called to an emergency session, to be held tomorrow morning. There is still a short window of time before the news breaks."
+csa.107.a:0 "Assemble the convention!"
 
 csa.95.t:0 "Convention Motion- Press Slience"
-csa.95.d:0 "Fuck the frogs"
-csa.95.a:0 "Motion Carried- Deport the mudrakers"
-csa.95.b:0 "Motion Carried- Gentlemans Agreement"
-csa.95.c:0 "Motion Repealed- Press Freedom Restored"
+csa.95.d:0 "The convention is engaged in a furious but short debate regarding the brewing press crisis. Our gentleman’s agreement failed to account for foreign journalists, and as a result, someone in the convention began acting as an anonymous source for French papers. We are unable to correct this oversight. However, we can still mitigate the damage.\n\nMany SDP delegates in Independence Hall are urging we file a motion to quietly deport all foreign journalists immediately. This would easily stop the story in its tracks, saving the convention and protecting the integrity of the constitution.\n\nTo the SPA delegates, the benefits of such an action are far outweighed by the consequences. Not only would such a move irreparably harm relations with Europe, but it might be an even larger story in of itself. Instead, they advocate that we remind the domestic press of our Gentleman’s agreement and forcefully dissolve any paper that refuses to abide by it.\n\nFinally, the Independent IWW delegates have rejected both options. Typical to their character, they refuse to launch an “assault on  free speech”, claiming that  censorship would set a dangerous precedent. Of course, with a support base amongst unionized workers and Militiamen, they stand to lose the least should the story come out."
+csa.95.a:0 "Motion Carried- Deport the muckrakers."
+csa.95.b:0 "Motion Carried- Renew the Gentlemans Agreement."
+csa.95.c:0 "Motion Repealed- Uphold Freedom of the Press, regardless of the consequences."
 
 csa.96.t:0 "Article Five - Legislature"
 csa.96.d:0 "Legislative power in America shall derive primarily from the supreme legislative body. Beyond extralegal duties, the executive shall be subservient to this body and carry out its will.\n\nThe supreme executive body shall be…"
@@ -237,12 +236,33 @@ csa.101.b:0 "The people of America in arms, as a well organised force."
 csa.101.c:0 "The people of America in arms, on the principle of communal self-defense."
 
 csa.102.t:0 "The Final Day of the Convention"
+csa.102.d:0 "It's over.\n\nFor better or worse, the path laid down nearly a century ago has reached it's end. All that remains are a few trivial articles. No matter what form it takes, the only question facing the delegation now is whether a constitution shall pass.\n\nIn every seat of Independence Hall fists tighten and eyelids narrow. Every shouting match, every political crisis, every bullet fired and slogan chanted has led to this; a final vote. Can the convention overcome partisanship, or will it sink any chance at a new document?" 
+csa.102.a:0 "We did our best..."
 
-csa.103.t:0 "A New Constituion"
+csa.103.t:0 "Yay or Nay?"
+csa.103.d:0 "The independent delegate rose slowly, her shaky knees refusing to match her genuine smile. A cough erupted from the man behind involuntarily, echoing against the chamber’s old oak ceiling. She surveyed the giants around her; names like Flynn, Tresca, and Rowan. Each returned a nerve-racking stare. She was a piece of meat, thrust into the lion’s den.\n\nThe words croaked into her own cough, induced by the man behind. Comrade Tresca stuck his head between his knees, sure of the result like the rest of them, but straining to remain quiet any longer.\n\n"I Vote"\n\n"Ahem"\n\n"I Vote yay"\n\nThe blast of voices threw her from her feet, backwards into the chair. Her smile developed into a grin as the chorus drowned any pretense. A new nation, once and for all!\n\nAcross the chamber, the tears flowed freely. A few angry, a few sad.\n\nMost were happy."
+csa.103.a:0 "Bust out the champagne!"
 
 csa.104.t:0 "1947 Constitution Defended"
+csa.104.d:0 "Flynn looked up, instinctively searching for the sky. They were soulmates; a sky that ached to be seen and a dizzy mind that longed for escape. Instead, she found only a cross-beam and a badly mounted lightbulb.\n\nIt truly was an eldritch nightmare. Four rotten old oak walls pressing inwards, the room spinning as if it were a ship at sea, the bulb burning a hole in her skull.\n\nShe knew the constitution had failed minutes ago, simply by the number of “nay’s” that had echoed across the chamber. They all did. A woman of action, Flynn should have been planning next steps.\n\nInstead, she felt all the years catch up to her.  A deep depression set in in that moment, from which she would never truly recover.\n\nWhat was it all for?"
+csa.104.a:0 "The Status quo, forever."
+
 
 csa.105.t:0 "Extreme Political Deadlock"
+csa.105.d:0 "The Independent delegate rose slowly, her shaky knees betraying the masked terror of her visage. In this great big chamber, enclosed by massive oak and filled with uncomfortable chairs, she was truly alone.\n\nThe man behind her coughed loud enough to startle her, breaking the tension of their stares.\n\n“I vote yay”\n\nShe breathed a sigh of relief, and yet no great jubilation began. Nor did a great sadness. Comrade Tresca’s head rose from between his legs. She followed his gaze to the front of the chamber, where the vote had been tallied.\n\nSuddenly, Tresca was seized by a boisterous laughter."
+csa.105.a:0 "A perfect tie, how is such an absurdity possible!?!"
+
+csa.108.t:0 "The Cat's Outta the Bag"
+csa.108.d:0 "they found out EVERYBODY RUN FOR YOUR LIVES"
+csa.108.a:0 "oh god oh fuck oh god oh fuck oh god oh fuck oh god oh fuck..."
+
+csa.109.t:0 "Paris is Furious"
+csa.109.d:0 "They issued a diplomatic protest and threatened us."
+csa.109.a:0 "A Small price to pay for salvation"
+
+csa.110.t:0 "Several Newspapers forcefully closed"
+csa.110.d:0 "It had to be done, wait FUCK the story still got out?"
+csa.110.a:0 "god what do I even pay you people for????!!!!"
 
 ### Focuses ###
 CSA_force_a_compromise:0 "Force a Compromise"
