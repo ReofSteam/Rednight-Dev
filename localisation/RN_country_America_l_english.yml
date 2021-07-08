@@ -224,10 +224,12 @@ csa.98.a:0 "...Federal Republic, responsible for limited administrative duties"
 csa.98.b:0 "...Unitary Republic, responsible for all administrative duties."
 
 csa.99.t:0 "Foster abandoned the SPA"
-csa.99.d:0 "He went with the IWW"
+csa.99.d:0 "Sensing the changing winds, President Foster has formally resigned from the Socialist Party in favour of the IWW. While he has cited a change in personal sentiment that did not line up with the party's stated mission, it is obvious that this is due to recent political developments. However, few outside of the party hardliners have chastised the man for his choice. The new America needs it's leader, after all."
+csa.99.a:0 "A necessary manuever."
 
 csa.100.t:0 "Foster abandoned the SPA"
-csa.100.d:0 "He went with the SDP"
+csa.100.d:0 "Sensing the changing winds, President Foster has formally resigned from the Socialist Party in favour of the SDP. While he has cited a change in personal sentiment that did not line up with the party's stated mission, it is obvious that this is due to recent political developments.However, few outside of the party hardliners have chastised the man for his choice. The new America needs it's leader, after all."
+csa.100.a:0 "A Necessary manuever."
 
 csa.101.t:0 "Article Twelve - National Defense"
 csa.101.d:0 "The responsibility of the defense of the republic shall fall upon a national defense council, appointed by and directly subservient to the supreme legislature. The National Defense Council shall be entrusted to raise armed forces, consisting of a navy, air force, and army.\n\The structure of these armed forces shall be comprised of.."
