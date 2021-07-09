@@ -69,7 +69,7 @@ production_factory_max_efficiency_factor = 0.10
 			picture = RUS_narodost_1
 			modifier = {
 			stability_factor = -0.30
-			conscription_factor = -0.5
+			recruitable_population_factor = -0.5
 			war_support_factor = -0.20	
 			}
 		}
@@ -81,7 +81,7 @@ production_factory_max_efficiency_factor = 0.10
 			picture = RUS_narodost_2
 			modifier = {
 			stability_factor = -0.25
-			conscription_factor = -0.25
+			recruitable_population_factor = -0.25
 			war_support_factor = -0.10	
 			}
 		}
@@ -92,9 +92,9 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_3"}
 			picture = RUS_narodost_3
 			modifier = {
-			stability_factor = -0.05
-			conscription_factor = -0.20
-			war_support_factor = 0.10	
+			stability_factor = -0.15
+			recruitable_population_factor = 0.25
+			war_support_factor = -0.10	
 			}
 		}
 
@@ -104,9 +104,9 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_4"}
 			picture = RUS_narodost_3
 			modifier = {
-			stability_factor = -0.15
-			conscription = 0.02
-			war_support_factor = -0.10	
+			stability_factor = 0.12
+			recruitable_population_factor = -0.25
+			war_support_factor = 0.15	
 			}
 		}
 
@@ -138,15 +138,15 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_mechanisation_of_farming"}
 			picture = bad_military
 			modifier = {
-			planning_speed = -0.20
-			army_org_factor = -0.05
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = 0.15
 			}
 		}
 
 	}
 	country = {
 		RUS_agriculture_stability = { 
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability_2"}
 			picture = bad_military
 			modifier = {
 			planning_speed = -0.20
@@ -157,7 +157,7 @@ production_factory_max_efficiency_factor = 0.10
 	}	
 	country = {
 		RUS_agriculture_stability = { 
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability_3"}
 			picture = bad_military
 			modifier = {
 			planning_speed = -0.20
@@ -171,8 +171,8 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_outdated_agrarian_production"}
 			picture = bad_military
 			modifier = {
-			production_speed_buildings_factor = -0.15
-			consumer_goods_factor = 0.05
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = 0.10
 			}
 		}
 
@@ -182,8 +182,9 @@ production_factory_max_efficiency_factor = 0.10
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_weak_economy"}
 			picture = GFX_idea_economy_bad
 			modifier = {
-			production_speed_buildings_factor = -0.05
-production_factory_max_efficiency_factor = -0.05
+			production_speed_industrial_complex_factor = -0.1
+            production_factory_max_efficiency_factor = -0.05
+			political_power_gain = -0.5
 			}
 		}
 
@@ -193,7 +194,7 @@ country = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_the_enemy_among_us"}
 			picture = GFX_idea_economy_bad
 			modifier = {
-			stability_factor = -0.15
+			stability_factor = -0.05
 			}
 		}
 

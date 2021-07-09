@@ -9,9 +9,9 @@ set_country_flag = skoblin_secondary
 set_country_flag = RUS_disapproved_cossacks
 set_country_flag = RUS_disapproved_liberals
 
-## Cabinet ##
+## Economy ##
 add_ideas = {
-
+war_economy
 }
 
 oob = "RUS"
@@ -41,7 +41,7 @@ set_technology = {
 }
 
 set_convoys = 300
-set_stability = 0.8
+set_stability = 0.6
 set_war_support = 0.75
 
 1981.1.1 = {

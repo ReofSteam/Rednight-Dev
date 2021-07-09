@@ -10,6 +10,7 @@ country_event = { #Good Morning Rusia
 	desc = rus.1.d
 	picture = GFX_kremlin
 	is_triggered_only = yes
+	hidden = yes
 
 	option = {
 		name = rus.1.a
@@ -45,6 +46,7 @@ country_event = {
 
 	option = {
 		name = rus.2.a
+		add_political_power = 5
 		}
 }
 ####Land Report
@@ -57,6 +59,7 @@ country_event = {
 
 	option = {
 		name = rus.3.a
+		add_political_power = 5		
 		}
 }
 ####Minorities Unrest
@@ -69,6 +72,7 @@ country_event = {
 
 	option = {
 		name = rus.4.a
+		add_political_power = 5		
 		}
 }
 ###Transamur Problem 
@@ -81,23 +85,11 @@ country_event = {
 
 	option = {
 		name = rus.5.a
+		add_political_power = 5				
 		}
 }
 
 
-country_event = { #Siberian Plan
-	id = rus.5
-	title = rus.5.t
-	desc = rus.5.d
-	picture = GFX_rebel_1
-hidden = yes
-	is_triggered_only = yes
-
-	option = {
-		name = rus.5.a
-		clr_country_flag = construct_siberian_infra
-		}
-}
 
 country_event = { #Yusopov Decrees
 	id = rus.6
@@ -127,6 +119,47 @@ hidden = yes
 	
 	}
 }
+
+country_event = { #Siberian Plan
+	id = rus.8
+	title = rus.8.t
+	desc = rus.8.d
+	picture = GFX_rebel_1
+hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = rus.8.a
+		clr_country_flag = construct_siberian_infra
+		}
+}
+#first demobilisation#
+
+country_event = { 
+	id = rus.9
+	title = rus.9.t
+	desc = rus.9.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+    
+    immediate = {
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.3
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = RUS
+    }
+	white_peace = RUS
+	}
+}	 
+	option = {
+		name = rus.9.a
+		}
+}
+
 country_event = { #Ukrainian Revolt
 	id = rus.12
 	title = rus.12.t
