@@ -143,6 +143,7 @@ country_event = {
 	is_triggered_only = yes
     
     immediate = {
+	hidden_effect = {
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.3
@@ -153,6 +154,7 @@ country_event = {
     original_tag = RUS
     }
 	white_peace = RUS
+	}
 	}
 }	 
 	option = {
