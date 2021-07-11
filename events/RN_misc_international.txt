@@ -49,3 +49,167 @@ country_event = {    ######Captain Glassner Raid
 }
 	}
 	
+	######Demobilisation
+country_event = {    
+	id = misc.4
+	title = misc.4.t
+	desc = misc.4.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.4.a
+		trigger = { NOT = { has_country_flag = demobilisation_by_narrative } }
+		
+    if = { limit = {
+		has_war = no
+		has_idea = reservist_people_war
+		num_divisions > 5
+		is_major = no
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.35
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = reservist_people_war
+		num_divisions > 15
+		is_major = yes
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.35
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = large_reservist_force
+		num_divisions > 5
+		is_major = no
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = large_reservist_force
+		num_divisions > 15
+		is_major = yes
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}	
+    else_if = { limit = {
+		has_war = no
+		has_idea = medium_reservist_force
+		num_divisions > 5
+		is_major = no
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.1
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = medium_reservist_force
+		num_divisions > 15
+		is_major = yes
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.2
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}	
+	
+    else_if = { limit = {
+		has_war = no
+		NOT = { OR = {
+		has_idea = medium_reservist_force
+		has_idea = large_reservist_force
+		has_idea = reservist_people_war
+		}
+		}
+		num_divisions > 20
+	} 
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.1
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}	
+		
+	country_event = {
+	id = misc.4
+	days = 365
+	}		
+}
+    option = {
+	    name = misc.4.b
+		trigger = { has_country_flag = demobilisation_by_narrative } 
+	country_event = {
+	id = misc.4
+	days = 365
+	}		 
+	}
+}	
+	

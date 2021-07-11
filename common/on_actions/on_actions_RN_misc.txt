@@ -50,7 +50,11 @@ effect = {
 	}
 	}
 	set_country_flag = show_intro_menu
-    } 
+    }
+	country_event = {
+	id = misc.4
+	days = 365
+	}
 	}
 	CAL = { 
 	add_named_threat = { 
