@@ -1,0 +1,20 @@
+state = {
+	id = 1140
+	name = "Greater New Orleans"
+	manpower = 1000
+	state_category = six
+
+	history = {
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = USA
+		add_core_of = TEX
+		victory_points = {
+			7552 15
+		}		
+	}
+
+	provinces = {
+	1453 4464 7552 7524 
+	}
+}

@@ -9,7 +9,7 @@ state = {
 		owner = CSA
 
 		victory_points = {
-			3957 40
+			3957 20
 		}
 		victory_points = {
 			6984 15
