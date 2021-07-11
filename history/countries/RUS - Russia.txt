@@ -12,6 +12,7 @@ set_country_flag = RUS_disapproved_liberals
 ## Economy ##
 add_ideas = {
 war_economy
+no_reservist_force
 }
 
 oob = "RUS"

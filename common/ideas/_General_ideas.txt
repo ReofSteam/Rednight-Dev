@@ -179,7 +179,7 @@ ideas = {
 				max_fuel_factor = -0.25
 				fuel_gain_factor = -0.4
 				political_power_gain = 0.15
-				production_speed_industrial_complex_factor = 0.3
+				production_speed_industrial_complex_factor = 0.25
 			}
 
 			default = yes
@@ -218,7 +218,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
 				fuel_gain_factor = -0.25
-				production_speed_industrial_complex_factor = -0.1				
+				production_speed_industrial_complex_factor = 0.1				
 			}
 
 			ai_will_do = {
@@ -252,7 +252,7 @@ ideas = {
 				conversion_cost_civ_to_mil_factor = -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
 				fuel_gain_factor = -0.1
-				production_speed_industrial_complex_factor = -0.05				
+				production_speed_industrial_complex_factor = 0.1				
 			}
 
 			ai_will_do = {
@@ -289,7 +289,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor = -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
-				production_speed_industrial_complex_factor = 0.15								
+				production_speed_industrial_complex_factor = -0.3								
 			}
 
 			ai_will_do = {
@@ -973,6 +973,109 @@ ideas = {
 			}
 		}
 	}
+	RN_reservist = {
+		law = yes
+		no_reservist_force = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea no_reservist_force" }
+            picture = no_reservist
+			cancel_if_invalid = no
+			available = {
+			always = yes
+			}
+
+			modifier = {
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		small_reservist_force = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea small_reservist_force" }
+            picture = law_reservist_small
+			cancel_if_invalid = no
+			available = {
+			always = yes
+			}
+
+			modifier = {
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		medium_reservist_force = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea medium_reservist_force" }
+            picture = law_reservist_large
+			cancel_if_invalid = no
+			available = {
+			always = yes
+			}
+
+			modifier = {
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}		
+		large_reservist_force = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea large_reservist_force" }
+            picture = law_reservist_large
+			cancel_if_invalid = no
+			available = {
+				has_war = yes
+				has_war_support > 0.4
+				has_stability > 0.4
+			}
+
+			modifier = {
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		reservist_people_war = {
+			level = 5
+			cost = 100
+			removal_cost = -1
+			on_add = { log = "[GetDateText] [Root.GetName]: add idea law_reservist_people_war" }
+            picture = law_reservist_people_war
+			cancel_if_invalid = no
+			available = {
+				has_war = yes
+				has_war_support > 0.4
+				has_stability > 0.4
+			}
+
+			modifier = {
+				training_time_factor = 0.3
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}		
+
+    }	
 
 #	economic_health = {
 #		law = yes

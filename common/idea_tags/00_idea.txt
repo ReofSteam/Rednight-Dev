@@ -27,6 +27,7 @@ idea_categories = {
 		slot = RN_mobilization_laws
 		slot = RN_trade_laws
 		slot = RN_economy
+		slot = RN_reservist
 		removal_cost = -1
 
 		ledger = civilian

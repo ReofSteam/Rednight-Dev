@@ -1,5 +1,13 @@
 ﻿l_english:
 
+######Reservist Laws#####
+RN_reservist:0 "Reserve Force"
+no_reservist_force:0 "No Reservist Force"
+small_reservist_force:0 "Elite Reservist Force"
+medium_reservist_force:0 "Large Trained Reservist Force"
+large_reservist_force:0 "Compulsory National Conscription"
+reservist_people_war:0 "People's War Stratagem"
+
 ### Theorists ###
 
 ### Austria ###

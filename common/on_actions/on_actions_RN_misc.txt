@@ -25,6 +25,18 @@ on_actions = {
 	}
 on_startup = { 
 effect = {
+    RUS = {
+	add_named_threat = { 
+    threat = 10 
+    name = after_the_war
+}
+	}
+    FRA = {
+	add_named_threat = { 
+    threat = 10 
+    name = after_the_war
+}
+	}	
 	every_country = {
 	if = {
 	      limit = { 
@@ -40,8 +52,18 @@ effect = {
 	set_country_flag = show_intro_menu
     } 
 	}
+	CAL = { 
+	add_named_threat = { 
+    threat = 5 
+    name = after_the_civil_war
+}	
+}	
 	CSA = {
 	news_event = worldnews.3
+	add_named_threat = { 
+    threat = 5 
+    name = after_the_civil_war
+}	
 	}
 	#######Set Up Marpac Executive Council#####
 	add_to_array = { global.marpac_executive_array = ENG }
