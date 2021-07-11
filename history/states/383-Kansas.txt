@@ -1,7 +1,7 @@
 
 state={
-	id= 383
-	name="Kansas"
+	id=383
+	name="STATE_383"
 	resources={
 		oil=61.000
 	}
@@ -16,13 +16,13 @@ state={
 		}
 		add_core_of = CSA
 		victory_points = {
-			7834 2 
+			1352 2 
 		}
 
 	}
 
 	provinces={
-		1352 1753 4757 4811 4814 4871 7834 7892 9802 10532 12024 12513 
+		1352 1753 1806 2043 4757 4811 4814 4871 7834 7892 9802 10532 12024 12513 
 	}
 	manpower=1869000
 	buildings_max_level_factor=1.000
