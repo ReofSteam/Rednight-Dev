@@ -1,7 +1,7 @@
 
 state={
-	id= 383
-	name="Kansas"
+	id= 1143
+	name="Southwest Kansas"
 	resources={
 		oil=61.000
 	}
@@ -15,14 +15,16 @@ state={
 
 		}
 		add_core_of = CSA
+		add_core_of = TEX
+		add_core_of = USA
 		victory_points = {
-			7834 2 
+			1806 3 
 		}
 
 	}
 
 	provinces={
-		1352 1753 4757 4811 4814 4871 7834 7892 9802 10532 12024 12513 
+		4740 10340 4586
 	}
 	manpower=1869000
 	buildings_max_level_factor=1.000

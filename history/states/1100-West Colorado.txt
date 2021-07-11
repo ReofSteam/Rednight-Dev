@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = CAL
 		add_core_of = CAL
+		victory_points = {
+			7684 1
+		}
 		buildings = {
 			infrastructure = 4
 		}

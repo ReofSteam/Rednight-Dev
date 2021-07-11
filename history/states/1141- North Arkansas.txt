@@ -1,0 +1,35 @@
+State={
+	id=1141
+	name="North Arkansas"
+	resources={
+		aluminium=20.000
+		oil=10.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = CSA
+		add_core_of = CSA
+		victory_points = {
+			4625
+		}
+		
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
+
+	}
+
+	provinces={
+		1646 4444 4567 4597 4625 7586 10477
+	}
+	manpower=1892000
+	buildings_max_level_factor=1.000
+	state_category=four
+}
