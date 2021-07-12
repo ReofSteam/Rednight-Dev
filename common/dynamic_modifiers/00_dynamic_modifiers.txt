@@ -4,3 +4,15 @@ party_popularity_dynamic_modifier = {
 
 	political_power_gain = ROOT.party_popularity@ruling_party
 }
+
+reservist_large_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = large_reservist_force }
+	}
+	training_time_factor = 0.3
+	mobilization_speed = 0.35
+	RN_mobilization_laws_cost_factor = 0.25
+	experience_gain_infantry_combat_factor = 0.25
+}
