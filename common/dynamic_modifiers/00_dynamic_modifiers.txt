@@ -66,3 +66,15 @@ reservist_none_dynamic_modifier = {
 	RN_mobilization_laws_cost_factor = 0.25
 	experience_gain_infantry_combat_factor = -0.25
 }
+
+reservist_exhausted_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = no_reservist_force }
+	}
+	training_time_factor = 0.6
+	mobilization_speed = -0.5
+	RN_mobilization_laws_cost_factor = 0.7
+	experience_gain_infantry_combat_factor = -0.7
+}

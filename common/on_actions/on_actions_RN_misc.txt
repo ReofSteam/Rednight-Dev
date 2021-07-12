@@ -26,6 +26,7 @@ on_actions = {
 on_startup = { 
 effect = {
     RUS = {
+	set_country_flag = demobilisation_by_narrative
 	add_named_threat = { 
     threat = 10 
     name = after_the_war
@@ -86,7 +87,31 @@ effect = {
 	
 	
 }
-  } 
+  }
+  
+#ROOT is winner #FROM is loser  
+on_peaceconference_ended = { 
+   effect = { 
+   if = { limit = {
+   ROOT = { OR = { 
+   has_idea = extensive_conscription
+   has_idea = service_by_requirement
+   has_idea = all_adults_serve
+   has_idea = scraping_the_barrel
+   }
+   has_war = no   
+   }
+   }
+   ROOT = {
+   set_country_flag = recent_major_war
+   country_event = misc.6
+   }
+   FROM = { 
+   country_event = misc.7
+   }
+   
+   }
+   } 
+}	  
 }	
-}
 

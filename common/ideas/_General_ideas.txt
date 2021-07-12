@@ -980,7 +980,12 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			on_add = { log = "[GetDateText] [Root.GetName]: add idea no_reservist_force" 
+			if = { limit = { has_country_flag = recent_major_war }
+			add_dynamic_modifier = { modifier = reservist_exhausted_dynamic_modifier } 
+			}
+			else = {
 			add_dynamic_modifier = { modifier = reservist_none_dynamic_modifier } 
+			}
 			}
             picture = no_reservist
 			cancel_if_invalid = no
