@@ -5,14 +5,64 @@ party_popularity_dynamic_modifier = {
 	political_power_gain = ROOT.party_popularity@ruling_party
 }
 
+reservist_people_war_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = reservist_people_war }
+	}
+	war_support_factor = 0.15
+	training_time_factor = -0.3
+	mobilization_speed = 0.35
+	RN_mobilization_laws_cost_factor = -0.25
+	experience_gain_infantry_combat_factor = 0.25
+}
+
 reservist_large_dynamic_modifier = {
 	icon = GFX_idea_law_reservist_large
 	enable = { has_war = yes }
 	remove_trigger = {
 	NOT = { has_idea = large_reservist_force }
 	}
+	war_support_factor = 0.05	
 	training_time_factor = 0.3
-	mobilization_speed = 0.35
+	mobilization_speed = 0.25
+	RN_mobilization_laws_cost_factor = -0.15
+	experience_gain_infantry_combat_factor = 0.15
+}
+
+reservist_medium_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = medium_reservist_force }
+	}
+	training_time_factor = -0.25
+	mobilization_speed = 0.15
+	RN_mobilization_laws_cost_factor = -0.15
+	experience_gain_infantry_combat_factor = 0.1
+}
+
+reservist_small_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = small_reservist_force }
+	}
+	training_time_factor = 0.1
+	mobilization_speed = -0.15
 	RN_mobilization_laws_cost_factor = 0.25
 	experience_gain_infantry_combat_factor = 0.25
+}
+
+reservist_none_dynamic_modifier = {
+	icon = GFX_idea_law_reservist_large
+	enable = { has_war = yes }
+	remove_trigger = {
+	NOT = { has_idea = no_reservist_force }
+	}
+	training_time_factor = 0.3
+	mobilization_speed = -0.35
+	RN_mobilization_laws_cost_factor = 0.25
+	experience_gain_infantry_combat_factor = -0.25
 }

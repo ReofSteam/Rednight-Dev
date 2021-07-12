@@ -68,6 +68,7 @@ country_event = {
 		num_divisions > 5
 		is_major = no
 	} 
+	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.35
@@ -87,6 +88,7 @@ country_event = {
 		num_divisions > 15
 		is_major = yes
 	} 
+	country_event = misc.5	
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.35
@@ -106,6 +108,7 @@ country_event = {
 		num_divisions > 5
 		is_major = no
 	} 
+	country_event = misc.5	
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.25
@@ -125,6 +128,7 @@ country_event = {
 		num_divisions > 15
 		is_major = yes
 	} 
+    country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.25
@@ -143,6 +147,7 @@ country_event = {
 		num_divisions > 5
 		is_major = no
 	} 
+	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.1
@@ -162,6 +167,7 @@ country_event = {
 		num_divisions > 15
 		is_major = yes
 	} 
+	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.2
@@ -185,6 +191,7 @@ country_event = {
 		}
 		num_divisions > 20
 	} 
+	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.1
@@ -196,7 +203,11 @@ country_event = {
     }
 	white_peace = ROOT
 	}		
-	}	
+	}
+	else = {
+	army_experience = 5
+	}
+	
 		
 	country_event = {
 	id = misc.4
@@ -212,4 +223,20 @@ country_event = {
 	}		 
 	}
 }	
+
+######Demobilisation Notice
+country_event = {    
+	id = misc.5
+	title = misc.5.t
+	desc = misc.5.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.5.a
+		add_political_power = 5
+		army_experience = 5
+}
+	}
 	

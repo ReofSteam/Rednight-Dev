@@ -7,7 +7,11 @@ small_reservist_force:0 "Elite Reservist Force"
 medium_reservist_force:0 "Large Trained Reservist Force"
 large_reservist_force:0 "Compulsory National Conscription"
 reservist_people_war:0 "People's War Stratagem"
-
+reservist_none_dynamic_modifier:0 "Unprepared Nation"
+reservist_small_dynamic_modifier:0 "Mobilised Reserve Corps"
+reservist_large_dynamic_modifier:0 "Mobilised Territorial Army"
+reservist_medium_dynamic_modifier:0 "Mobilised Army Reserve"
+reservist_people_war_dynamic_modifier:0 "The Nation In Arms!"
 ### Theorists ###
 
 ### Austria ###
