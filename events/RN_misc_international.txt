@@ -55,7 +55,7 @@ country_event = {
 	title = misc.4.t
 	desc = misc.4.d
 	picture = GFX_sinking_ship
-
+    hidden = yes
 	is_triggered_only = yes
 
 	option = {
@@ -71,8 +71,9 @@ country_event = {
 	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
-    size = 0.35
+    size = 0.35	
     }
+	demobilisation_35_percent_refund = yes
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -93,6 +94,7 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.35
     }
+	demobilisation_35_percent_refund = yes
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -113,6 +115,7 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.25
     }
+	demobilisation_25_percent_refund = yes
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -133,6 +136,7 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.25
     }
+	demobilisation_25_percent_refund = yes	
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -152,6 +156,7 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.1
     }
+	demobilisation_10_percent_refund = yes
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -170,7 +175,7 @@ country_event = {
 	country_event = misc.5
 	start_civil_war = {
     ideology = nationalist_socialism
-    size = 0.2
+    size = 0.25
     }
     every_enemy_country = {
     limit = {
@@ -196,6 +201,7 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.1
     }
+	demobilisation_10_percent_refund = yes	
     every_enemy_country = {
     limit = {
     has_civil_war = yes 
@@ -260,6 +266,7 @@ country_event = {
         ideology = nationalist_socialism
         size = 0.75
     }
+	    demobilisation_75_percent_refund = yes
         every_enemy_country = {
         limit = {
         has_civil_war = yes 
@@ -277,6 +284,7 @@ country_event = {
         ideology = nationalist_socialism
         size = 0.5
     }
+        demobilisation_50_percent_refund = yes	
         every_enemy_country = {
         limit = {
         has_civil_war = yes 
@@ -292,8 +300,9 @@ country_event = {
 }	
     	start_civil_war = {
         ideology = nationalist_socialism
-        size = 0.6
+        size = 0.65
     }
+	    demobilisation_65_percent_refund = yes
         every_enemy_country = {
         limit = {
         has_civil_war = yes 
@@ -307,7 +316,14 @@ country_event = {
         remove_idea = extensive_conscription
         add_idea = limited_conscription
 }	
-		}		
+		}
+	add_idea = no_reservist_force	
+    remove_ideas = {
+         small_reservist_force
+         medium_reservist_force
+		 large_reservist_force
+		 reservist_people_war
+}		
 }
 	}	
 	

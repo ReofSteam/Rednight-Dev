@@ -354,3 +354,55 @@ has_country_flag = SPA_support
 }	
 }
 
+demobilisation_10_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.1 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_25_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.25 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_35_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.35 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+demobilisation_50_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.5 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_65_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.65 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_75_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.75 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}

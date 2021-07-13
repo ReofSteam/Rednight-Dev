@@ -143,22 +143,10 @@ country_event = {
 	is_triggered_only = yes
     
     immediate = {
-	hidden_effect = {
-	start_civil_war = {
-    ideology = nationalist_socialism
-    size = 0.3
-    }
-    every_enemy_country = {
-    limit = {
-    has_civil_war = yes 
-    original_tag = RUS
-    }
-	white_peace = RUS
-	}
-	}
 }	 
 	option = {
 		name = rus.9.a
+		
 		}
 }
 

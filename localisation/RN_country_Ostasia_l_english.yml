@@ -5,15 +5,7 @@
 ### Opinions ###
 
 ### Events ###
-misc.1.t:0 "The Black Fleet Struck!"
-misc.1.d:0 "Calamity at sea!\n\nToday a [THIS.GetAdjective] ship was reported missing following several distress calls. We managed to rescue a few survivors, all of which recounted quite a harrowing tale. They claim to have been attacked by what was first thought to be a coastal patrol. This was in fact a group of pirates, who boarded and seized the ship at gunpoint following their inconspicuous approach. Several members of the crew, though not all, were herded onto lifeboats, which our navy spotted and picked up.The status of their ship itself was confirmed many hours later, as it was found drifting empty of cargo near a small Indonesian Island.\n\n Maritime security has greatly deteriorated in the west pacific alongside the decline of global trade. This situation has gotten worse since the evacuation of the Kriegsmarine’s Ostasien station. It was also certainly affected by the chaos of the Indonesian national revolution, and  Japanese expansion in the pacific.\n\n It is unknown just where these pirates originate from. The survivors claim that they spoke a strange language reminiscent of German and English, but that it sounded mostly like gibberish.This incident is a loss to our economy and a humiliation to our national pride."
-misc.1.a:0 "Damn it!"
-misc.2.t:0 "Raid Failed!"
-misc.2.d:0 "It has been quite a while since we sent them out, and yet  our taskforce has failed to return. Whether they were killed, captured, or sunk, we must now assume they shall not return home. Their memory must be honored, and new raids launched as soon as possible. We need more supplies if we are to survive."
-misc.2.a:0 "They died for their country."
-misc.3.t:0 "Pecuilar Criminals"
-misc.3.d:0 "Captain Glassner didn't hate them. In fact, he wished they had met under better circumstances. There was an undeniably attractive quality about those he was conversing with. It revived a boyish fantasy evoking visions of a different life; one full of breakneck adventure.\nThen the German smacked him in the gut with the but of a rifle.\n\n"Verzeihung, Sir."\n\nHe laughed as he crumpled to the ground. Never before had a man apologized for taking him hostage. Two burly sailors gripped him by the arms, thrusting them behind his back. A single handcuff materialised on his right wrist, the other cuff to a small metal pipe behind.\n\n"You know the drill. Search the lower decks."\n\nThe hours passed and one by one the crew joined Captain Glassner. When the Pirates ran out of handcuffs, they simply took to stern commands and pointed guns. A few brave idiots rushed said guns. The muzzle flashes made quick work of those sailors.\n\nWhen it was all said and done and the ships small cargo had been carted off, Glassner could resist no longer. He called out to the one who had humbled him.\n\n"Who are you?0""
-misc.3.a:0 "We're the Vitalienbrüder, Captain."
+
 ### Decision ####
 GEA_Raid_Shipments:0 "Raid Shipments"
 GEA_Raid_Shipments_desc:0 "If we are to keep our boys fed and clothed, we have no choice but to strike out. Our future lies upon the high sea. Let enemies of the Kriegsmarine fear her might!"
