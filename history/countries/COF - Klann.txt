@@ -41,7 +41,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Strom Thurmond"
-	desc = "POLITICS_WILLIAM_LEAHY_DESC"
+	desc = "POLITICS_STROM_THURMOND_DESC"
 	picture = "gfx/leaders/CAL/CAL_Thurmond.tga"
 	expire = "1965.1.1"
 	ideology = ultraconservative_subtype

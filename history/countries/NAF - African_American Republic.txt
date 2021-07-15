@@ -41,7 +41,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Cyril Briggs"
-	desc = "POLITICS_WILLIAM_LEAHY_DESC"
+	desc = "POLITICS_CYRIL_BRIGGS_DESC"
 	picture = "gfx/leaders/CSA/CSA_Briggs.tga"
 	expire = "1965.1.1"
 	ideology = nationalist_socialism_subtype
