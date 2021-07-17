@@ -57,6 +57,9 @@ country_event = {
 	picture = GFX_sinking_ship
     hidden = yes
 	is_triggered_only = yes
+     
+	immediate = {
+	}
 
 	option = {
 		name = misc.4.a
@@ -73,7 +76,6 @@ country_event = {
     ideology = nationalist_socialism
     size = 0.35	
     }
-	demobilisation_35_percent_refund = yes
     every_enemy_country = {
     limit = {
     has_civil_war = yes 

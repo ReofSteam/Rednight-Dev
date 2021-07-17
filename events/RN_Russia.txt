@@ -146,6 +146,7 @@ country_event = {
 }	 
 	option = {
 		name = rus.9.a
+		clr_country_flag = demobilisation_by_narrative
 		
 		}
 }
