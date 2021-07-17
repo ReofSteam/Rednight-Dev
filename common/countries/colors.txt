@@ -11,14 +11,25 @@ D01 = {
 }
 
 COF = {
-	color = rgb { 125 121 109 }
+	color = rgb { 139 69 19 }
 	color_ui = rgb { 125 121 109 }
 }
 
 NGO = {
-	color = rgb { 125 121 109 }
+	color = rgb { 209 211 215 }
 	color_ui = rgb { 125 121 109 }
 }
+
+IWW = {
+	color = rgb { 210 43 43 }
+	color_ui = rgb { 59 9 9 }
+}
+
+NAF = {
+	color = rgb { 0  132 62 }
+	color_ui = rgb { 0 132 62 }
+}
+
 
 ###Europe
 
@@ -123,8 +134,8 @@ TEX = {
 }
 
 OSS = {
-	color = rgb { 125 121 109 }
-	color_ui = rgb { 125 121 109 }
+	color = rgb { 100 149 240  }
+	color_ui = rgb { 100 149 237  }
 }
 
 

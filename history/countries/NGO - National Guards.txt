@@ -41,7 +41,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Henry Mucci"
-	desc = "POLITICS_WILLIAM_LEAHY_DESC"
+	desc = "POLITICS_HENRY_MUCCI_DESC"
 	picture = "gfx/leaders/CAL/CAL_Mucci.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
