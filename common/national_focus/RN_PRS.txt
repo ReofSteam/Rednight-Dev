@@ -876,7 +876,7 @@ focus_tree = {
 	#Focus for Our Brothers in Africa
 	focus = {
 		id = PRS_our_brothers_in_africa
-		icon = GFX_focus_generic_africa_naval
+		icon = GFX_PRS_german_marine
 		x = 1
 		y = 17
 		cost = 10

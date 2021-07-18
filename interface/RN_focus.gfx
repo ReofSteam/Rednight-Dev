@@ -591,7 +591,10 @@ spriteTypes = {
 		name = "GFX_PRS_reichemblem"
 		texturefile = "gfx/interface/goals/PRS/PRS_reichemblem.tga"
 	}	
-
+	SpriteType = { 
+		name = "GFX_PRS_german_marine"
+		texturefile = "gfx/interface/goals/PRS/PRS_german_marine.tga"
+	}	
 	SpriteType = { 
 		name = "GFX_PRS_anti_czech"
 		texturefile = "gfx/interface/goals/PRS/PRS_anti_czech.tga"
