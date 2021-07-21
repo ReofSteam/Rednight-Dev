@@ -482,7 +482,11 @@ technologies = {
 	}
 	
 	paratroopers2 = {
-
+	
+		enable_subunits = {
+			light_armor_airdeployable
+		}
+		
 		paratrooper = {
 			max_organisation = 5
 			soft_attack = 0.05
