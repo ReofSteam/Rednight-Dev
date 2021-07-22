@@ -68,6 +68,13 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_light_tank_recon_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/support_unit_armored_recon_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mot_recon_icon_medium"									texturefile = "gfx/interface/counters/divisions_large/support_unit_motorized_recon_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_fake_intel_unit_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/unit_fake_intel_unit_icon.dds" noOfFrames = 2}
+ 
+   spriteType = { 
+     name = "GFX_unit_light_armor_airdeployable_icon_medium"				
+     textureFile = "gfx/interface/counters/divisions_large/unit_paratroop_tank_icon.dds"  
+     noOfFrames = 2
+   }
+ 
 	
 ##########Texticons############3
 	spriteType = {
