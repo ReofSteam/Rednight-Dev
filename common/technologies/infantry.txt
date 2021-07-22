@@ -439,7 +439,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 1948
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1936 }
@@ -484,7 +484,7 @@ technologies = {
 	paratroopers2 = {
 	
 		enable_subunits = {
-			light_armor_airdeployable
+			airdeployable_motorized
 		}
 		
 		paratrooper = {
@@ -498,7 +498,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1951
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1939 }
@@ -533,10 +533,13 @@ technologies = {
 		paratrooper = {
 			max_organisation = 5
 		}
-		
+
+		enable_subunits = {
+			light_armor_airdeployable
+		}	
 
 		research_cost = 2.0
-		start_year = 1943
+		start_year = 1954
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -1560,7 +1563,8 @@ technologies = {
 		}
 		
 		sub_technologies = {
-			motorized_rocket_unit
+			motorized_rocket_unit		
+			motorized_paratrooper_unit
 		}
 		
 		categories = {
@@ -1590,7 +1594,7 @@ technologies = {
 				factor = 0.5
 			}
 		}
-	}
+	}	
 	motorized_rocket_unit = {
 
 		enable_subunits = {
@@ -1606,16 +1610,32 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
 		}
 		
 		categories = {
 			mot_rockets
 		}
 	}
+
+	motorized_paratrooper_unit = {
+
+		enable_equipments = {
+			gw_armored_car_equipment
+		}
+	
+		research_cost = 1.5
+		start_year = 1950
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			motorized_equipment
+			para_tech
+		}
+	}	
 	
 	armored_car1 = {
 
@@ -1996,17 +2016,4 @@ technologies = {
 		}		
 	}
 
-	camelry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			camelry
-		}		
-	}
 }

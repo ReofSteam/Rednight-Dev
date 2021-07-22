@@ -42,7 +42,6 @@ has_unsupported_economic_law_ai = {
 	if = {
 		limit = { has_idea = low_economic_mobilisation }
 		has_idea = low_economic_mobilisation
-		has_unattained_important_goals = no
 		OR = {
 			has_war_support < 0.25
 			has_elected_government = yes
@@ -51,7 +50,6 @@ has_unsupported_economic_law_ai = {
 	else_if = {
 		limit = { has_idea = partial_economic_mobilisation }
 		has_idea = partial_economic_mobilisation
-		has_unattained_important_goals = no
 		OR = {
 			has_war_support < 0.50
 			has_elected_government = yes
@@ -112,11 +110,8 @@ has_unsupported_manpower_law_ai = {
 	if = {
 		limit = { has_idea = limited_conscription }
 		has_idea = limited_conscription
-		has_unattained_important_goals = no
 		OR = {
 			has_war_support < 0.25
-			has_government = social_liberal
-			has_government = market_liberal
 			AND = {
 				has_government = social_democrat
 				NOT = { has_country_flag = soc_dems_are_socialists }
@@ -126,7 +121,6 @@ has_unsupported_manpower_law_ai = {
 	else_if = {
 		limit = { has_idea = extensive_conscription }
 		has_idea = extensive_conscription
-		has_unattained_important_goals = no
 		OR = {
 			has_war_support < 0.50
 			has_elected_government = yes

@@ -278,7 +278,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		swap_ideas = {
-        remove_ideas = PRS_austerity_disruption_1
+        remove_idea = PRS_austerity_disruption_1
         add_idea = PRS_austerity_disruption_2
 }
 		}
@@ -336,7 +336,8 @@ focus_tree = {
 		}
 		completion_reward = {
 		if = { limit = { has_country_flag = PRS_priority_national_glory }
-		add_idea = PRS_national_glory }
+		add_ideas = PRS_national_glory 
+	}
 		add_tech_bonus = {
         bonus = 0.5
         uses = 1
@@ -392,7 +393,7 @@ focus_tree = {
 		}
 		completion_reward = {
 		swap_ideas = {
-        remove_ideas = PRS_austerity_disruption_2
+        remove_idea = PRS_austerity_disruption_2
         add_idea = PRS_austerity_disruption_3
 }		
 		}
