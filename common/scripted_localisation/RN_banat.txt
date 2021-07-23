@@ -24,7 +24,7 @@ defined_text = {
 	name = GetBNTHungarian
 	text = {
 		trigger = {
-			original_tag = BNT
+			original_original_tag = BNT
 			has_country_flag = BNT_hungarian_status_1
 		}
 		localization_key = "BNT_hungarian_status_1"

@@ -239,6 +239,10 @@ technologies = {
 				date > "1937.1.1"
 			}
 
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+			}
 		}
 		
 		categories = {
@@ -266,6 +270,10 @@ technologies = {
 				date > "1937.1.1"
 			}
 
+			modifier = {
+				factor = 0
+				NOT = { has_government = fascism }
+			}
 		}
 		
 		categories = {

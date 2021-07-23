@@ -469,6 +469,9 @@ initial_show_position = {
 		mutually_exclusive = { 
 			focus = FRA_restore_union_managements 
 		}
+		mutually_exclusive = { 
+			focus = FRA_ 
+		}
 		ai_will_do = {
 			factor = 1
 		}

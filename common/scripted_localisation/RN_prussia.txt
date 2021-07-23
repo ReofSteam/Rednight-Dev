@@ -41,7 +41,7 @@ defined_text = {
 	text = {
 		trigger = {
 			has_country_flag = PRS_conspiracy_GRU_version_1
-	}
+	}`
 		localization_key = "Claudius Foss"
 	}	
 	text = {
