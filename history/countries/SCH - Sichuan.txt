@@ -3,7 +3,7 @@
 oob = "empty"
 
 set_technology = {
-	shipbuild_basics = 1
+
 	gwtank = 1
 	infantry_weapons = 1
 	tech_support = 1

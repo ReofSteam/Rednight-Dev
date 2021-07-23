@@ -10,7 +10,7 @@ set_stability = 0.45
 set_war_support = 0.60
 
 set_technology = {
-	shipbuild_basics = 1
+
 	gwtank = 1
 	infantry_weapons = 1
 	tech_support = 1

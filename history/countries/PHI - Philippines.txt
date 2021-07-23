@@ -15,7 +15,7 @@ set_war_support = 0.20
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### Tanks ###
 	gwtank = 1
 	### INF ###

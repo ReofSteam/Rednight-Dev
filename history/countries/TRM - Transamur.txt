@@ -5,7 +5,7 @@ oob = "TRM"
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### Navy ###
 	### INF ###
 	infantry_weapons = 1

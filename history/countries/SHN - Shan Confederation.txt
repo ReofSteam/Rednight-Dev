@@ -3,7 +3,7 @@
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### Navy ###
 	transport = 1
 	### Tanks ###

@@ -11,7 +11,7 @@ set_research_slots = 2
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### INF ###
 	infantry_weapons = 1
 }

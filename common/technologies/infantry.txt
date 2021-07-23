@@ -1166,6 +1166,10 @@ technologies = {
 	
 	support_weapons = {
 
+		enable_equipments = {
+			support_equipment 
+		}
+
 		infantry = {
 			defense = 0.05
 			breakthrough = 0.05
@@ -1981,32 +1985,4 @@ technologies = {
 		}
 	}
 	
-	######### FROM JAPANESE FOCUS ##########
-	bicycle_infantry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			bicycle_battalion
-		}		
-	}
-
-	camelry = {
-		
-		allow = {
-			always = no
-		}
-
-		research_cost = 1
-		start_year = 1936
-
-		enable_subunits = {
-			camelry
-		}		
-	}
 }

@@ -9,7 +9,7 @@ add_ideas = {
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### Navy ###
 	early_submarine = 1
 	early_destroyer = 1

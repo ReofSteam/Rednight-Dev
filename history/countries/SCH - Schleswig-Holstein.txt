@@ -5,7 +5,7 @@ set_research_slots = 3
 set_technology = {
 ### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	electronic_mechanical_engineering = 1
 
 	### Navy ###

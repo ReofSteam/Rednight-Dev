@@ -13,7 +13,7 @@ set_technology = {
 
 ### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	### Navy ###
 	early_submarine = 1
 	basic_submarine = 1

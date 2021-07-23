@@ -3,7 +3,7 @@ OOB = "PAR"
 set_research_slots = 2
 set_technology = {
 	### Navy ###
-	shipbuild_basics = 1
+
 	####Tanks ###
 	gwtank = 1
 	### INF ###

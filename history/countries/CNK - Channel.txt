@@ -36,7 +36,7 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
-	shipbuild_basics = 1
+
 }
 
 

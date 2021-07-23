@@ -24,7 +24,7 @@ days = 372
 
 # Starting tech
 set_technology = {
-	shipbuild_basics = 1
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1

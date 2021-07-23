@@ -5,7 +5,7 @@ set_convoys = 10
 set_technology = {
 	### MOD ###
 	### General ###
-	shipbuild_basics = 1
+
 	synth_oil_experiments = 1
 
 	### Navy ###
