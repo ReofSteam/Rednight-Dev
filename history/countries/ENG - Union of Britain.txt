@@ -54,10 +54,6 @@ ENG_army_of_germany
 ENG_postwar_recession
 }
 
-#CABINET
-add_ideas = {
-
-}
 
 
 
@@ -323,18 +319,6 @@ create_equipment_variant = {
 			ship_engine_upgrade = 3
 			ship_armor_upgrade = 3
 			ship_gun_upgrade = 3
-		}
-	}
-	# Battlecruisers #
-	create_equipment_variant = {
-		name = "Admiral Class"
-		type = battle_cruiser_1
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 3
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 3
-			ship_gun_upgrade = 2
 		}
 	}
 	# Battleships #

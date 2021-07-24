@@ -475,10 +475,11 @@ focus_tree = {
 		}
 }
 
-		ai_will_do = {
-			factor = 1
-		}
+
 	}
+	ai_will_do = {
+		factor = 1
+	}	
 }
 
 #Focus for Prioritize the Plains
@@ -618,7 +619,7 @@ focus_tree = {
 		prerequisite = { focus = CSA_convene_the_generals }
 		completion_reward = {
 			country_event = csa.4
-			load_oob = CSA_carrot
+			CSA = { load_oob = "CSA_carrot" }
 		}
 		ai_will_do = {
 			factor = 1
@@ -671,6 +672,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = CSA_the_3000_kilometer_nightmare }
 		mutually_exclusive = { focus = CSA_red_border_patrol }
+		mutually_exclusive = { focus = CSA_spitting_in_the_wind }
 		ai_will_do = {
 			factor = 1
 		}
@@ -765,7 +767,6 @@ focus_tree = {
 		completion_reward = {
 			country_event = csa.1
 			add_political_power = 25
-			stability_factor = -0.1
 		}
 	}
 
@@ -850,7 +851,7 @@ focus_tree = {
 			}			
 	}		
 		available_if_capitulated = yes
-		prerequisite {
+		prerequisite = {
 			focus = CSA_the_young_republic
 		}
 		available = { NOT = { OR = {

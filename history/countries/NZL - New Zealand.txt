@@ -63,7 +63,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-		queen_of_the_people
+		
 	}
 }
 create_country_leader = {
@@ -73,7 +73,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
 	traits = {
-		queen_of_the_people
+		
 	}
 }
 create_country_leader = {
@@ -83,7 +83,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 	traits = {
-		queen_of_the_people
+		
 	}
 }
 create_country_leader = {
@@ -93,7 +93,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {
-		queen_of_the_people
+		
 	}
 }
 create_country_leader = {
@@ -103,7 +103,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		queen_of_the_people
+		
 	}
 }
 create_country_leader = {

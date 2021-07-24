@@ -6,14 +6,15 @@ state = {
 
 	history = {
 		owner = CSA
-		add_core_of = CSA	
-	}
+		add_core_of = CSA
 		victory_points = {
 			10717 8 
 		}
 		victory_points = {
 			12361 1 
-		}
+		}	
+	}
+
 	provinces = {
 	1523 7449 7607 10333 10391 10516 10717 12361
 	}

@@ -431,8 +431,8 @@ focus_tree = {
 		}
 		completion_reward = {
 		country_event = rus.9
-	    swap_ideas = {
 		add_political_power = 100
+	    swap_ideas = {
         remove_idea = war_economy
         add_idea = low_economic_mobilisation 
 }	

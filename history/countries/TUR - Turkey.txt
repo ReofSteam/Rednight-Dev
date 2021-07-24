@@ -52,11 +52,6 @@ set_popularities = {
 
 add_ideas = {
 	#TUR_poverty
-	TUR_turkish_nationalism
-	TUR_agrarian_society
-	TUR_illiteracy
-	TUR_recovering_from_war
-	TUR_sided_neutrality
 }
 
 create_country_leader = {
@@ -151,7 +146,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 	traits = {
-		moderate_westernizer
 	}
 }
 
@@ -162,7 +156,6 @@ create_country_leader = {
 	expire = "1965.01.01"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		secular_westernizer
 	}
 }
 

@@ -8,7 +8,7 @@ bookmarks = {
 	
 		FRA = {
 			history = FRA_RN_1981_DESC
-			ideology = democratic
+			ideology = syndicalism
 			ideas={
 			}
 			focuses = {
@@ -17,92 +17,54 @@ bookmarks = {
 		}
 		USA = {
 			history = USA_RN_1981_DESC
-			ideology = democratic
+			ideology = syndicalism
 			ideas = {
-				home_of_the_free
-				great_depression_3
-				air_war_plans_division_focus
-				USA_war_department
-				new_deal
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_arsenal_of_democracy
-				USA_selective_training_act
 			}
 		}
 		ENG = {
 			history = ENG_RN_1981_DESC
-			ideology = democratic
+			ideology = syndicalism
 			ideas = {
-				stiff_upper_lip
-				ENG_the_war_to_end_all_wars
-				ENG_george_vi
-				british_austerity_idea
-				ENG_colonial_elite
+
 			}
 			focuses = {
-				ENG_war_with_japan
-				bomber_command_focus
-				maud_focus
+
 			}
 			
 		}
 		GER = {
 			history = GER_RN_1981_DESC
-			ideology = fascism
+			ideology = syndicalism
 			ideas = {
-				sour_loser
-				general_staff
-				GER_mefo_bills_15
-				GER_autarky_idea
+
 			}
 			focuses = {
-				GER_weserubung
-				GER_plan_z
-				GER_ussr_war_goal
 			}
 		}
 		ITA = {
 			history = ITA_RN_1981_DESC
-			ideology = fascism
+			ideology = syndicalism
 			ideas={
-				vittoria_mutilata
-				victor_emmanuel
 			}
 			focuses = {
-				ITA_pact_of_steel
-				ITA_spanish_italian_faction
-				ITA_italy_first
 			}			
 		}
 		JAP = {
 			history = JAP_RN_1981_DESC
-			ideology = fascism
+			ideology = syndicalism
 			ideas={
-				state_shintoism
-				JAP_guide_the_zaibatsus
-				JAP_militarism
 			}	
 			focuses = {
-				JAP_the_zero
-				JAP_warrior_spirit
-				JAP_strike_on_the_southern_resource_area
 			}		
 		}
 		RUS = {
 			history = SOV_RN_1981_DESC
-			ideology = communism
+			ideology = syndicalism
 			ideas = {
-				trotskyite_plot_purged
-				home_of_revolution
-				officers_purged
-				nkvd_2
 			}
 			focuses = {
-				SOV_move_industry_to_urals
-				SOV_claims_on_baltic
-				SOV_war_with_uk
 			}
 		}
 

@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 
 		"FRA" = {
-			history = "FRA_KR_GATHERING_STORM_DESC"
+			history = "FRA_RN_GATHERING_STORM_DESC"
 			ideology = revolutionary_socialism
 			ideas = {
 			}
@@ -18,7 +18,7 @@ bookmarks = {
 		}
 
 		"ENG" = {
-			history = "ENG_KR_GATHERING_STORM_DESC"
+			history = "ENG_RN_GATHERING_STORM_DESC"
 			ideology = revolutionary_socialism
 			ideas = {
 			}
@@ -31,8 +31,8 @@ bookmarks = {
 		}
 
 		"GER" = {
-			history = "GER_KR_GATHERING_STORM_DESC"
-			ideology = moderate_socialism
+			history = "GER_RN_GATHERING_STORM_DESC"
+			ideology = moderate_socialist
 			ideas = {
 			}
 			focuses = {
@@ -41,8 +41,8 @@ bookmarks = {
 		}
 
 		"RUS" = {
-			history = "RUS_KR_GATHERING_STORM_DESC"
-			ideology = national_corporatism
+			history = "RUS_RN_GATHERING_STORM_DESC"
+			ideology = national_corporatist
 			ideas = {
 			RUS_minorities_crisis
 			RUS_NOELRUD
@@ -57,7 +57,7 @@ bookmarks = {
 		}
 
 		"PRS" = {
-			history = "PRS_KR_GATHERING_STORM_DESC"
+			history = "PRS_RN_GATHERING_STORM_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
 			}
@@ -66,7 +66,7 @@ bookmarks = {
 		}
 
 		"CHI" = {
-			history = "CHI_KR_GATHERING_STORM_DESC"
+			history = "CHI_RN_GATHERING_STORM_DESC"
 			ideology = social_liberal
 			ideas = {
 			}
@@ -76,23 +76,17 @@ bookmarks = {
 		}
 
 		"JAP" = {
-			history = "JAP_KR_GATHERING_STORM_DESC"
+			history = "JAP_RN_GATHERING_STORM_DESC"
 			ideology = social_conservative
 			ideas = {
-				JAP_no_army_focus
-				JAP_narrow_rail
-				JAP_bad_land
 			}
 
 			focuses = {
-				JAP_democratic_path
-				JAP_chuou
-				JAP_ishinha
 			}
 		}
 
 		"---" = {
-			history = "OTHER_KR_GATHERING_STORM_DESC"
+			history = "OTHER_RN_GATHERING_STORM_DESC"
 		}
 
 		effect = {

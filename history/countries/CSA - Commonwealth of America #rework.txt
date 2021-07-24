@@ -10,11 +10,9 @@ add_ideas = {
 	CSA_ruins
 	CSA_divided_goverment
 	CSA_refugee_crisis
-}
-
-hidden_ideas = {
 	CSA_refugee_crisis_improved
 }
+
 
 set_research_slots = 3
 set_stability = 0.8
@@ -23,8 +21,8 @@ set_convoys = 100
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 3
-	infantry_weapons1 = 2
+	infantry_weapons = 1
+	infantry_weapons1 = 1
 	motorised = 1
 	motorised_infantry = 1
         tech_support = 1
@@ -33,9 +31,9 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
-	gw_artillery = 2
+	gw_artillery = 1
 	gwtank = 1
-	basic_light_tank = 2
+	basic_light_tank = 1
 	early_fighter = 1
 	naval_bomber1 = 1
 	early_bomber = 1
@@ -171,7 +169,6 @@ create_corps_commander = {
 	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Evans_Carlson.dds
 	traits = {
 		naval_invader
-		marine_leader
 	}
 	skill = 4
 	attack_skill = 4

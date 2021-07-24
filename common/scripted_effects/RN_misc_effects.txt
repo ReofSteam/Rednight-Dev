@@ -266,7 +266,7 @@ has_country_flag = IWW_support
 }
 } 
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = -0.02
 		}		
 		add_political_power = 15
@@ -277,7 +277,7 @@ has_country_flag = SDP_support
 has_country_flag = SPA_support
 } 
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = -0.02
 		}		
 		add_popularity = {
@@ -332,7 +332,7 @@ has_country_flag = IWW_support
 }
 } 
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = -0.02
 		}		
 		add_political_power = 15
@@ -347,7 +347,7 @@ has_country_flag = SPA_support
             popularity = -0.01
 		}		
 		add_popularity = {
-		    ideology = moderate_socialism
+		    ideology = moderate_socialist
             popularity = -0.02
 		}		
 		add_political_power = 15

@@ -428,9 +428,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_english_socialist_victory 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -485,7 +483,7 @@ focus_tree = {
 			focus = ENG_national_labour_victory 
 		}
 		mutually_exclusive = { 
-			focus = ENG_ 
+			focus = ENG_english_socialist_victory 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1105,9 +1103,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_plan_lily 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1208,9 +1204,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_plan_rose 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -1385,9 +1379,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_workers_selfmanagement 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}

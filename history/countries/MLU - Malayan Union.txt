@@ -26,24 +26,12 @@ add_ideas = {
 }
 
 JAP = { 
-	if = {
-		limit = {
-			has_dlc = "Together for Victory"
-		}
-
-		set_autonomy = {
-			target = MLU
-			autonomy_state = kn_autonomous
-		}
-		else = {
-			puppet = MLU 
-		}
-	}
+puppet = MLU 
 }
 
 set_politics = {	
 	ruling_party = autocratic
-	last_election = "1888.15.6"
+	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
 

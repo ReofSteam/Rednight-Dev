@@ -16,7 +16,7 @@ reservist_people_war_dynamic_modifier = {
 	mobilization_speed = 0.35
 	RN_mobilization_laws_cost_factor = -0.25
 	minimum_training_level = 0.4
-	partisan_effect = 0.1
+    resistance_growth_on_our_occupied_states = 0.5
 }
 
 reservist_large_dynamic_modifier = {
@@ -30,6 +30,7 @@ reservist_large_dynamic_modifier = {
 	mobilization_speed = 0.25
 	RN_mobilization_laws_cost_factor = -0.15
 	experience_gain_infantry_combat_factor = 0.15
+
 }
 
 reservist_medium_dynamic_modifier = {

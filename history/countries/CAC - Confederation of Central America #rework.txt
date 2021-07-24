@@ -1,7 +1,7 @@
 ﻿capital = 313
 
 oob = "GUA"
-Starting tech
+###Starting tech###
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
@@ -32,7 +32,7 @@ set_popularities = {
     national_corporatist = 0
 }
 
-gfx/leaders/NORTH_AMERICA/CAC/
+####gfx/leaders/NORTH_AMERICA/CAC/####
 
 create_country_leader = {
 	name = "Jorge Ubico"

@@ -94,12 +94,12 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		available = { has_country_flag = FRA_a_decision_in_Oran
+		available = { has_country_flag = FRA_a_decision_in_Oran }
 		prerequisite = { focus = SEN_time_is_not_on_our_side }
 		ai_will_do = {
 			factor = 1
 		}
-	}
+}
 
 	#Focus for The Safe Passage
 	focus = {
@@ -478,4 +478,4 @@ focus_tree = {
 	}
 
 #End of focuses 
- }
+}
