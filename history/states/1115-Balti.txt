@@ -5,7 +5,8 @@ state={
 		414 3577 6600 
 	}
         history={
-        owner = RUS
+        owner = ROM
+        add_core_of = ROM
         add_core_of = RUS
     }
     manpower=10100
