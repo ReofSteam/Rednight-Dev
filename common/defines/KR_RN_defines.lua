@@ -46,7 +46,7 @@ NDefines.NTrade.BASE_TRADE_FACTOR = 100										-- Vanilla is 150
 NDefines.NWiki.BASE_URL = "http://kaiserreich.wikia.com/wiki/The_Kaiserreich_Wiki"
 -- Vanilla is "http://www.hoi4wiki.com/"
 NDefines.NGraphics.POLITICAL_GRID_SMALL_BOX_LIMIT = 12
-NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 11						-- Vanilla is 10
+NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 10						-- Vanilla is 10
 NDefines.NGraphics.COUNTRY_FLAG_TEX_MAX_SIZE = 512							-- Vanilla is 256
 NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_MAX_SIZE = 128					-- Vanilla is 64
 NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 11					-- Vanilla is 10

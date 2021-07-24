@@ -416,7 +416,7 @@ focus_tree = {
 
 	focus = {
 		id = RUS_end_to_war_economy
-		icon = GFX_RUS_levitovs_council
+		icon = GFX_focus_Generic_Russian_market
 		x = 8
 		y = 1
 		cost = 10
