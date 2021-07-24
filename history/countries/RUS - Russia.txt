@@ -39,6 +39,10 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1 
 
 }
 
@@ -101,6 +105,8 @@ add_to_faction = MON
 add_to_faction = POL
 add_to_faction = PRS
 add_to_faction = CZE
+add_to_faction = HUN
+add_to_faction = AUS
 
 
 

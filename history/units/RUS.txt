@@ -12,10 +12,14 @@ division_template = {
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		anti_air_brigade  = { x = 2 y = 0 }
+		
 	}
 	support = {
 		engineer = { x = 0 y = 0 } 	
-		artillery = { x = 0 y = 1 } 		
+		recon = {x = 0 y = 1 }
+		
 	}	
 }
 
@@ -29,15 +33,21 @@ division_template = {
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
+		
 	}
+	support = {
+		engineer = { x = 0 y = 0 } 	
+		artillery = { x = 0 y = 1 } 
+		recon = {x = 0 y = 2 }
+	}		
 }
 division_template = {
 	name = "Tankovaya Diviziya"                  ########Tank Divisions
 	division_names_group = RUS_ARM_01
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
@@ -53,7 +63,7 @@ units = {
 #####Western Group of Forces
 
 		division = {
-		name = "1st Guard Rifle Division"
+		name = "1st Guards Rifle Division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 178
@@ -63,7 +73,7 @@ units = {
 		start_experience_factor = 0.4
 	}
 		division = {
-		name = "2nd Guard Rifle Division"
+		name = "2nd Guards Rifle Division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 189
@@ -73,7 +83,7 @@ units = {
 		start_experience_factor = 0.4
 	}	
 		division = {
-		name = "3rd Guard Rifle Division"
+		name = "3rd Guards Rifle Division"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 203
@@ -83,18 +93,103 @@ units = {
 		start_experience_factor = 0.4
 	}	
 		division = {
-		name = "1st Guard Motorised Rifle Division"
+		name = "1st Guards Motorised Rifle Division"
 		location = 6390
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.4
 	}
 		division = {
-		name = "2nd Guard Motorised Rifle Division"
+		name = "2nd Guards Motorised Rifle Division"
 		location = 3473
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.4
+	}
+		division = {
+		name = "27th Guards Motorised Rifle Division"
+		location = 3473
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "39th Guards Motorised Rifle Division"
+		location = 3473
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "57th Guards Motorised Rifle Division"
+		location = 6334
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "20th Guards Motorised Rifle Division"
+		location = 6390
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "207th Motorised Rifle Division"
+		location = 6334
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
 	}	
+		division = {
+		name = "9th Tank Division"
+		location = 6390
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "11th Guards Tank Division"
+		location = 3473
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "79th Guards Tank Division"
+		location = 6334
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
 
+#####Shock Tank Army####	
+		division = {
+		name = "7th Guards Tank Division"
+		location = 3288
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "10th Guards Tank Division"
+		location = 6407
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "12th Guards Tank Division"
+		location = 11312
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "47th Guards Tank Division"
+		location = 3288
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "21st Motorised Rifle Division"
+		location = 11312
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "94th GuardsMotorised Rifle Division"
+		location = 6407
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}			
 ########Moscow District
 #####Moscow HQ######
 		division = {
@@ -128,7 +223,7 @@ units = {
 		start_experience_factor = 0.3
 	}	
 		division = {
-		name = "1st Guard Motorised Rifle Division"
+		name = "1st Guards Motorised Rifle Division"
 		location = 9302
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.3
@@ -379,6 +474,30 @@ units = {
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.3
 	}
+		division = {
+		name = "18th Guards Motorised Rifle Division"
+		location = 688
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "30th Guards Motorised Rifle Division"
+		location = 13210
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "48th Motorised Rifle Division"
+		location = 3673
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "16th Guards Tank Division"
+		location = 688
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
 #########Central Group of Forces (Austria)
 		division = {
 		name = "18th Rifle Division"
@@ -422,6 +541,30 @@ units = {
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.3
 	}
+		division = {
+		name = "94th Guards Motorised Rifle Division"
+		location = 665
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "32nd Guards Tank Division"
+		location = 688
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
+		division = {
+		name = "90th Guards Tank Division"
+		location = 13210
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
+		division = {
+		name = "25th Tank Division"
+		location = 3673
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}		
 ######Belarus District#####	
 ########Brest HQ####	
 		division = {
@@ -472,11 +615,17 @@ units = {
 		start_experience_factor = 0.3
 	}	
 		division = {
-		name = "Independent Guard Motorised Rifle Division"
+		name = "Independent Guards Motorised Rifle Division"
 		location = 11627
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.3
 	}	
+		division = {
+		name = "6th Guards Motorised Rifle Division"
+		location = 11627
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}		
 ########Odessa District####
 ####Simferopol HQ####	
 		division = {
@@ -910,7 +1059,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 409
 		}	
-		location = 4200
+		location = 4805
 		division_template = "Pekhotnaya Diviziya"
 		start_experience_factor = 0.3
 	}
@@ -959,7 +1108,37 @@ units = {
 		location = 12657
 		division_template = "Motorised Rifle Division"
 		start_experience_factor = 0.3
-	}		
+	}
+		division = {
+		name = "1st Guards Tank Division"
+		location = 3664
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "51st Tank Division"
+		location = 10722
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "18th Guards Motorised Rifle Division"
+		location = 12657
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "30th Guards Motorised Rifle Division"
+		location = 12192
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "48th Guards Motorised Rifle Division"
+		location = 12263
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
 ####Petrograd District###
 		division = {
 		name = "22nd Rifle Division"		
