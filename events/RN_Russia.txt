@@ -1021,7 +1021,7 @@ fire_only_once = yes
 start_border_war = {
     change_state_after_war = yes
     attacker = {
-        state = 657
+        state = 560
         num_provinces = 4
         on_win = rus.62
         on_lose = rus.62
@@ -1031,16 +1031,15 @@ start_border_war = {
     defender = {
         state = 409
         num_provinces = 4
-        on_win = rus.62
-        on_lose = rus.62
+        on_win = rus.81
+        on_lose = rus.86
         on_cancel = rus.62
     }
-}
-		      
+}	      
 	}
 }
 
-
+#################
 country_event = { 
 	id = rus.70
 	title = rus.70.t
@@ -1057,6 +1056,7 @@ fire_only_once = yes
 		country_event = rus.72
 	}
 }
+###################
 
 country_event = { 
 	id = rus.82
@@ -1066,14 +1066,10 @@ country_event = {
 fire_only_once = yes
 
 	is_triggered_only = yes
-
+ 
 	option = {
 		name = rus.82.a
 		add_political_power = -10
-		country_event = {
-		id = rus.84
-		days = 7
-		}
 		JAP = {
 		country_event = { 
 		id = rus.83
@@ -1082,7 +1078,26 @@ fire_only_once = yes
 		}
 	}
 }
+#######Transamur Unification Revolt####
+country_event = { 
+	id = rus.83
+	title = rus.83.t
+	desc = rus.83.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
 
+	is_triggered_only = yes
+
+	option = {
+		name = rus.83.a
+		add_political_power = -50
+		country_event = rus.81
+	}
+	option = {
+		name = rus.83.b
+		add_political_power = -10
+	}	
+}
 
 country_event = { 
 	id = rus.81
@@ -1095,6 +1110,22 @@ fire_only_once = yes
 
 	option = {
 		name = rus.81.a
+		add_political_power = 60
+	}
+}
+
+####Peaceful End####
+country_event = { 
+	id = rus.84
+	title = rus.84.t
+	desc = rus.84.d
+	picture = GFX_RUS_kremlin
+fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = rus.84.a
 		add_political_power = -15
 	}
 }
