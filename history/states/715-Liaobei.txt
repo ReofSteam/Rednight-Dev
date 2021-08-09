@@ -6,8 +6,9 @@ state = { #Liaobei
 	state_category = four
 
 	history = {
-		owner = CHI
+		owner = MNC
 		add_core_of = CHI
+		add_core_of = MNC
 		buildings = {
 			infrastructure = 4
 		}

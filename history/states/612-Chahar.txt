@@ -3,7 +3,8 @@ state = {
 	name = "STATE_612" # Chahar
 
 	history = {
-		owner = CHI
+		owner = MNC
+		add_core_of = MNC
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 1

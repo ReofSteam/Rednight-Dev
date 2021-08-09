@@ -689,7 +689,9 @@ the_french_lose:0 "§GThe Perfidious French won't be able to send their help to 
 the_corridor_closes:0 "The Finnish Corridor"
 the_corridor_unlocks:0 "§YDecisions concerning the Finnish War and the Finnish corridor will be open.§!"
 the_corridor_closes_desc:0 "The French are always happy to accelerate someone else's demise. Through the Baltic sea, they're supplying the Finnish terrorists with weaponry and volunteers. Yet, §Yat least ten submarines§! being ready in one of our ports shall let the French know that we won't tolerate such things."
-
+#######cUSTOM gui######
+RUS_cossacks_status_TEXT:0 "§RDISLOYAL§!"
+###############
 RUS_five_year_plan:0 "NEP"
 RUS_five_year_plan_desc:0 "The first phase of the National Economic-Political (NEP) Plan to turn Russia into a proper industrial world power"
 RUS_national_electrification:0 "NOELRUD Plan"

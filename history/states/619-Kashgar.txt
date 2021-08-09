@@ -13,7 +13,6 @@ state = {
 	history = {
 		owner = SIK
 		add_core_of = SIK
-		add_claim_by = QIE
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 2

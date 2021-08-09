@@ -6,7 +6,6 @@ state = { #Ordos
 		owner = XSM
 		add_core_of = XSM
 		add_claim_by = MON
-		add_claim_by = QIE
 		add_claim_by = FNG
 		buildings = {
 			infrastructure = 1
