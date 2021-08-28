@@ -146,10 +146,68 @@ country_event = {
 }	 
 	option = {
 		name = rus.9.a
-		clr_country_flag = demobilisation_by_narrative
+		hidden_effect = {
+		country_event = { 
+		id = rus.10
+		days = 60
+		}
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.10
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}			
+		demobilisation_10_percent_refund = yes
 		
 		}
+	}
 }
+
+country_event = { 
+	id = rus.10
+	title = rus.10.t
+	desc = rus.10.d
+	picture = GFX_rebel_1
+	is_triggered_only = yes
+    
+    immediate = {
+}	 
+	option = {
+		name = rus.10.a
+		clr_country_flag = demobilisation_by_narrative
+		army_experience = 25
+	    add_stability = 0.15
+        add_popularity = {
+        ideology = national_corporatist
+        popularity = 0.1
+}		
+		hidden_effect = {
+		country_event = { 
+		id = rus.10
+		days = 60
+		}
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}			
+		demobilisation_25_percent_refund = yes
+		
+		}
+	}
+}
+
 
 country_event = { #Ukrainian Revolt
 	id = rus.12

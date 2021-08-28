@@ -788,7 +788,7 @@ focus_tree = {
 		icon = GFX_RUS_skoblins_council
 		x = 8
 		y = 0
-		cost = 5
+		cost = 10
 		allow_branch = {
 		NOT = { 
 		OR = {
@@ -804,15 +804,15 @@ focus_tree = {
 			}
 			country_event = {
 				id = rus.3
-				days = 14
+				days = 30
 			}
 			country_event = {
 				id = rus.4
-				days = 21
+				days = 50
 			}
 			country_event = {
 				id = rus.5
-				days = 30
+				days = 65
 			}			
 		}
 		available_if_capitulated = yes
@@ -821,6 +821,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 10 
+			custom_effect_tooltip = RUS_1_tt
 		}
 	}
 
