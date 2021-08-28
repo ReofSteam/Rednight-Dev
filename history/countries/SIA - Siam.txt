@@ -35,7 +35,7 @@ set_research_slots = 3
 set_convoys = 50
 
 set_politics = {	
-	ruling_party = moderate_socialist
+	ruling_party = national_corporatist
 	last_election = "1949.10.1" 
 	election_frequency = 48
 	elections_allowed = no
@@ -63,11 +63,11 @@ add_ideas = {
 }
 ######### #############
 create_country_leader = { 
-	name = "Pridi Banomyong"
+	name = "Luang Wichitwathakan"
 	desc = "POLITICS_PRIDI_BANOMYONG_DESC"
-	picture = "gfx/leaders/SIA/KN_PRIDI.tga"
+	picture = "gfx/leaders/SIA/SIA_Wichitwathakan.tga"
 	expire = "1963.12.30"
-	ideology = moderate_socialist_subtype
+	ideology = national_corporatist_subtype
 	traits = { }
 }
 
