@@ -12,15 +12,6 @@ add_ideas = {
 	GER_freegerman_army_real
 }
 
-country_event = {
-id = ger.0
-days = 1
-}
-
-country_event = {
-id = ger.1
-days = 372
-}
 
 # Starting tech
 set_technology = {

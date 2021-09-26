@@ -1,0 +1,80 @@
+﻿add_namespace = script
+
+#Birth of German Republic
+country_event = {    
+	id = script.1
+	title = script.1.t
+	desc = script.1.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = script.1.a
+		GER = {
+		country_event = worldnews.1
+		every_state = {
+		limit = { is_core_of = FOZ } 
+		remove_core_of = FOZ
+		add_core_of = GER
+     	}		
+		every_state = {
+		limit = { is_core_of = BOZ } 
+		remove_core_of = BOZ
+		add_core_of = GER
+     	}
+		every_state = {
+		limit = { is_core_of = JOZ } 
+		remove_core_of = JOZ
+		add_core_of = GER
+     	}
+		annex_country = {
+        target = FOZ
+        transfer_troops = no
+}
+		annex_country = {
+        target = BOZ
+        transfer_troops = no
+}
+		annex_country = {
+        target = JOZ
+        transfer_troops = no
+}
+		}
+	}
+}
+
+country_event = {
+    id = script.2
+	title script.2.t
+	desc = script.2.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = script.2.a
+	GER = {
+		country_event = worldnews.2
+		
+	start_civil_war = {
+        ideology  = national_corporatist
+        size = 0.0
+        only_own_territory = no
+        capital = 54
+        states = { 54 }
+	}
+
+every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = PRS
+}		
+	set_cosmetic_tag = GER_werewolves_revolt
+	
+}
+}
+}
+}		
+
+

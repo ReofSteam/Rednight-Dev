@@ -6,16 +6,6 @@ add_ideas = {
 	GER_reconstruction_germany
 }
 
-country_event = {
-id = foz.0
-days = 1
-}
-
-country_event = {
-id = foz.1
-days = 365
-}
-
 # Starting tech
 set_technology = {
 
