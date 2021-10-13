@@ -43,9 +43,9 @@ set_popularities = {
 set_convoys = 40
 
 create_country_leader = {
-	name = "Cao Rulin"
+	name = "Zhang Xueliang"
 	desc = "POLITICS_CHEN_MINGSHU_DESC"
-	picture = "gfx/leaders/ROC/CHI_Cao.tga"
+	picture = "gfx/leaders/ROC/CHI_Xueliang.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
