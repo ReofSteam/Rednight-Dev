@@ -166,7 +166,7 @@ spriteTypes = {
 	texturefile = "gfx/interface/FRA_gui/FRA_portrait_frame.tga"
 	}	
 	spriteType = {
-	name = "GFX_FRA_jacobin_party"
+	name = "GFX_FRA_jacobin_party_ui"
 	texturefile = "gfx/interface/FRA_gui/jacobin_party.tga"
 	}		
 	spriteType = {

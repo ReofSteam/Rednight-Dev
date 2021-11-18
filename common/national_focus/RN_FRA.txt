@@ -59,7 +59,7 @@ initial_show_position = {
 
 	focus = {
 		id = FRA_for_the_glory_of_france
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_The_Granduer_Revolution
 		x = 24
 		y = 2
 		cost = 5
@@ -86,7 +86,7 @@ initial_show_position = {
 
 	focus = {
 		id = FRA_our_glory_in_the_joyous_life
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_The_Humble_Revolution
 		x = 20
 		y = 2
 		cost = 5
@@ -113,7 +113,7 @@ initial_show_position = {
 
 	focus = {
 		id = FRA_corbusiervilles
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_Corbusierville
 		x = 21
 		y = 3
 		cost = 5
@@ -137,7 +137,7 @@ initial_show_position = {
 
 	focus = {
 		id = FRA_MPU_stores
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_Diversify_Diet
 		x = 19
 		y = 3
 		cost = 5
@@ -166,7 +166,7 @@ initial_show_position = {
 		y = 4
 		cost = 5
 		prerequisite = {
-		focus = FRA_our_glory_in_the_joyous_life
+		focus = FRA_MPU_stores
 		}
 		select_effect = {
 			country_event = {
@@ -182,6 +182,30 @@ initial_show_position = {
 	country_event = fra.1
 }	
 	}	
+
+	focus = {
+		id = FRA_liberty_orphans
+		icon = GFX_FRA_frachon_speech
+		x = 19
+		y = 5
+		cost = 5
+		prerequisite = {
+		focus = FRA_the_home_of_progress
+		}
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}		
 
 	focus = {
 		id = FRA_new_cities_of_france
@@ -257,7 +281,7 @@ initial_show_position = {
 
 	focus = {
 		id = FRA_the_granduer_constructions
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_1950_Fete
 		x = 25
 		y = 3
 		cost = 5
@@ -304,8 +328,32 @@ initial_show_position = {
 	}
 
 	focus = {
-		id = FRA_operation_terror_v
+		id = FRA_federate_the_agarian_communes
 		icon = GFX_FRA_frachon_speech
+		x = 25
+		y = 5
+		cost = 5
+		prerequisite = {
+		focus = FRA_the_granduer_constructions
+		}
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}	
+
+	focus = {
+		id = FRA_operation_terror_v
+		icon = GFX_FRA_canadian_uranium
 		x = 22
 		y = 5
 		cost = 5
@@ -326,11 +374,35 @@ initial_show_position = {
 	completion_reward = {
 	country_event = fra.1
 }	
-	}	
+	}
+
+	focus = {
+		id = FRA_atoms_of_peace
+		icon = GFX_FRA_frachon_speech
+		x = 22
+		y = 6
+		cost = 5
+		prerequisite = {
+		focus = FRA_operation_terror_v
+		}
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}		
 	
 	focus = {
 		id = FRA_consolidate_the_party_state
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_jacobin_party
 		x = 28
 		y = 1
 		cost = 5
@@ -353,7 +425,7 @@ initial_show_position = {
 	}
 	focus = {
 		id = FRA_control_syndicate_elections
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_Bypass_CGT
 		x = 29
 		y = 2
 		cost = 5
@@ -370,7 +442,7 @@ initial_show_position = {
 	}
 	focus = {
 		id = FRA_undermine_opposition_parties
-		icon = GFX_FRA_frachon_speech
+		icon = GFX_FRA_destroy_opposition
 		x = 29
 		y = 3
 		cost = 5
@@ -437,7 +509,7 @@ initial_show_position = {
 }	
 	}
 	focus = {
-		id = FRA_presidential_control_of_the_bureau
+		id = FRA_presidential_control_of_militia
 		icon = GFX_FRA_frachon_speech
 		x = 27
 		y = 4
@@ -461,7 +533,7 @@ initial_show_position = {
 		y = 5
 		cost = 5
 		prerequisite = {
-		focus = FRA_presidential_control_of_the_bureau
+		focus = FRA_presidential_control_of_militia
 		}
 		prerequisite = {
 		focus = FRA_federation_of_national_syndicates	
@@ -520,6 +592,99 @@ initial_show_position = {
 	completion_reward = {
 	country_event = fra.1
 }	
-	}				
+	}
+	focus = {
+		id = FRA_conference_on_german_unity
+		icon = GFX_FRA_frachon_speech
+		x = 32
+		y = 3
+		cost = 5
+		prerequisite = {
+			focus = FRA_the_north_african_exile
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}
+	focus = {
+		id = FRA_international_red_aids
+		icon = GFX_FRA_frachon_speech
+		x = 31
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = FRA_conference_on_german_unity
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}
+	focus = {
+		id = FRA_bureau_of_revolutionary_actions_overseas
+		icon = GFX_FRA_frachon_speech
+		x = 33
+		y = 4
+		cost = 5
+		prerequisite = {
+			focus = FRA_conference_on_german_unity
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}	
+	focus = {
+		id = FRA_toward_la_republique_universelle
+		icon = GFX_FRA_frachon_speech
+		x = 32
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = FRA_bureau_of_revolutionary_actions_overseas
+			focus = FRA_international_red_aids
+		}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+	country_event = fra.1
+}	
+	}									
 
  }
