@@ -641,7 +641,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "back_button"
-			position = { x = -158 y = -52 }
+			position = { x = -158 y = -40 } 
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "rn_viasans"
@@ -653,7 +653,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = 10 y = -52 }
+			position = { x = 10 y = -40 } 
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "rn_viasans"
@@ -1970,7 +1970,7 @@ guiTypes = {
 			
 		containerWindowType = {
 			name ="bottom"
-			position = { x=0 y =0}
+			position = { x=0 y =0}  
 			show_position = { x=0 y =-100 }
 			animation_type = decelerated
 			animation_time = 1000				
