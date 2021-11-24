@@ -151,7 +151,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_entry"
 			
-	
+		iconType = {
+			name = "country_leader"
+			quadTextureSprite ="GFX_tiled_window_blank"
+			position = { x = 17 y = 22 }
+			scale=0.75		
+			alwaystransparent = yes
+		}
+		
 		iconType = {
 			name = "country_flag"
 			quadTextureSprite ="GFX_shield_medium"

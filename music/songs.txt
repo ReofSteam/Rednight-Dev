@@ -55,7 +55,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_democratic_government = yes
 		}
 	}
 }
@@ -68,7 +67,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_democratic_government = yes
 		}
 	}
 }
@@ -81,7 +79,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -94,7 +91,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -133,7 +129,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -146,7 +141,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -159,7 +153,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -172,7 +165,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_dictatorship_government = yes
 		}
 	}
 }
@@ -185,7 +177,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_democratic_government = yes
 		}
 	}
 }
@@ -198,7 +189,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_democratic_government = yes
 		}
 	}
 }
@@ -211,7 +201,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_socialist_government = yes
 		}
 	}
 }
@@ -224,7 +213,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_socialist_government = yes
 		}
 	}
 }
@@ -237,7 +225,6 @@ music = {
 			factor = 2
 
 			has_war = no
-			has_socialist_government = yes
 		}
 	}
 }
@@ -251,7 +238,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_socialist_government = yes
 		}
 	}
 }
@@ -264,7 +250,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_socialist_government = yes
 		}
 	}
 }
@@ -277,7 +262,6 @@ music = {
 			factor = 2
 
 			has_war = yes
-			has_socialist_government = yes
 		}
 	}
 }
