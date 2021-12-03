@@ -28,7 +28,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -52,7 +52,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -80,7 +80,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -107,7 +107,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -131,7 +131,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -155,7 +155,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -179,7 +179,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}	
 
@@ -203,7 +203,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}		
 
@@ -227,7 +227,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}		
 
@@ -251,7 +251,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -275,7 +275,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -299,7 +299,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -323,7 +323,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -347,7 +347,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}	
 
@@ -372,7 +372,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
@@ -396,7 +396,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}		
 	
@@ -420,7 +420,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
@@ -437,7 +437,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
@@ -454,7 +454,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}	
 	focus = {
@@ -471,7 +471,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}		
 	focus = {
@@ -488,7 +488,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
@@ -505,7 +505,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
@@ -522,7 +522,7 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}	
 
@@ -543,14 +543,14 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 
 	focus = {
 		id = FRA_the_international_affairs
 		icon = GFX_FRA_frachon_speech
-		x = 32
+		x = 33
 		y = 1
 		cost = 5
 		prerequisite = {
@@ -567,13 +567,13 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
 		id = FRA_the_north_african_exile
 		icon = GFX_FRA_frachon_speech
-		x = 32
+		x = 33
 		y = 2
 		cost = 5
 		prerequisite = {
@@ -590,13 +590,13 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
 		id = FRA_conference_on_german_unity
 		icon = GFX_FRA_frachon_speech
-		x = 32
+		x = 33
 		y = 3
 		cost = 5
 		prerequisite = {
@@ -613,17 +613,21 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
-		id = FRA_international_red_aids
+		id = FRA_toward_the_universal_republic
 		icon = GFX_FRA_frachon_speech
 		x = 31
 		y = 4
 		cost = 5
+		mutually_exclusive = {
+			focus = FRA_no_world_without_countries
+		}	
 		prerequisite = {
 			focus = FRA_conference_on_german_unity
+			focus = FRA_no_world_without_countries
 			}		
 		select_effect = {
 			country_event = {
@@ -636,15 +640,18 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}
 	focus = {
-		id = FRA_bureau_of_revolutionary_actions_overseas
+		id = FRA_no_world_without_countries
 		icon = GFX_FRA_frachon_speech
 		x = 33
 		y = 4
 		cost = 5
+		mutually_exclusive = {
+			focus = FRA_toward_the_universal_republic
+		}
 		prerequisite = {
 			focus = FRA_conference_on_german_unity
 			}		
@@ -659,19 +666,23 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
 	}	
+
 	focus = {
-		id = FRA_toward_la_republique_universelle
+		id = FRA_never_again_germany
 		icon = GFX_FRA_frachon_speech
-		x = 32
-		y = 5
+		x = 35
+		y = 4
 		cost = 5
+		mutually_exclusive = {
+			focus = FRA_no_world_without_countries
+			focus = FRA_toward_the_universal_republic
+		}
 		prerequisite = {
-			focus = FRA_bureau_of_revolutionary_actions_overseas
-			focus = FRA_international_red_aids
-		}		
+			focus = FRA_conference_on_german_unity
+			}		
 		select_effect = {
 			country_event = {
 				id = fra.1
@@ -683,8 +694,87 @@ initial_show_position = {
 			factor = 1
 		}
 	completion_reward = {
-	country_event = fra.1
+
 }	
-	}									
+	}
+	focus = {
+		id = FRA_assert_ideological_purity
+		icon = GFX_FRA_frachon_speech
+		x = 33
+		y = 5
+		cost = 5
+		prerequisite = {
+			focus = FRA_never_again_germany
+			focus = FRA_no_world_without_countries
+			focus = FRA_toward_the_universal_republic
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}
+	focus = {
+		id = FRA_the_will_of_the_executive
+		icon = GFX_FRA_frachon_speech
+		x = 32
+		y = 6
+		cost = 5
+		mutually_exclusive = {
+			focus = FRA_the_will_of_France
+		}		
+		prerequisite = {
+			focus = FRA_assert_ideological_purity
+
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}
+	focus = {
+		id = FRA_the_will_of_France
+		icon = GFX_FRA_frachon_speech
+		x = 34
+		y = 6
+		cost = 5
+		mutually_exclusive = {
+			focus = FRA_the_will_of_the_executive
+		}
+		prerequisite = {
+			focus = FRA_assert_ideological_purity
+
+			}		
+		select_effect = {
+			country_event = {
+				id = fra.1
+				days = 3
+			}					
+	}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}						
 
  }
