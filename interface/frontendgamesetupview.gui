@@ -57,14 +57,14 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spirit_idea_entry_small"
-		size = { width=60 height=66 }
+		size = { width=33 height=37 }
 		clipping = no
 		
 		iconType = {
 			name = "icon"
 			quadTextureSprite ="GFX_idea_unknown"
 			orientation = "CENTER"
-			position = { x = -20 y = -25 }
+			centerposition = yes
 			scale = 0.55
 		}
 	}
@@ -871,6 +871,7 @@ guiTypes = {
 				frame = 1
 			}
 			
+
 			
 			containerWindowType = {
 				name ="focus"
@@ -977,21 +978,22 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "spirit_grid"
-			position = { x = 250 y = 30 }
-			size = { width = 300 height = 70 }
+			position = { x = 253 y = 30 }
+			size = { width = 300 height = 68 }
 			slotsize = { width = 60 height = 68 }
-			max_slots = { x = 8 y = 1 }
+			max_slots = { x = 5 y = 1 }
 			format = "UPPER_LEFT"
 		}
 		
 		gridboxtype = {
 			name = "spirit_grid_over_defined"
-			position = { x = 250 y = 20 }
-			size = { width = 300 height = 70 }
-			slotsize = { width = 33 height = 32 }
+			position = { x = 253 y = 28 }
+			size = { width = 330 height = 68 }
+			slotsize = { width = 33 height = 34 }
 			max_slots = { x = 6 y = 2 }
 			format = "UPPER_LEFT"
 		}
+			
 			
 		containerWindowType = {
 			name = "political_pie_chart"

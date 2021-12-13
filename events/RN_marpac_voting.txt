@@ -133,13 +133,14 @@ country_event = {
         factor = 7
     }
 		}
+	set_country_flag = MARPAC_voted	
 		    add_to_array = {
 	        array = global.marpac_countries_for
             value = THIS.id
 		}		
 			add_to_variable = {
 	        var = global.marpac_for_vote
-	        value = 1
+	        value = ROOT.faction_power
         }	
 	}	
 	option = {
@@ -153,13 +154,40 @@ country_event = {
         factor = 7
     }		
 		}		
+			set_country_flag = MARPAC_voted	
 			add_to_variable = {
 	        var = global.marpac_against_vote
-	        value = 1
+	        value = ROOT.faction_power
 			}
 		    add_to_array = {
 	        array = global.marpac_countries_against
             value = THIS.id
 		}				
+	}	
+}
+
+country_event = {        #######Resolution 51: hidden check 
+	id = marpac.52
+	title = marpac.1.t
+	desc = marpac.1
+	picture = GFX_FRA_may_pustch
+    hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = marpac.1.b	
+		RN_faction_power_calculation = yes	
+}
+}
+
+country_event = {        
+	id = testingevent.1
+	title = marpacnews.t
+	desc = marpac.4.d
+	picture = GFX_germany_occupation_ends
+	is_triggered_only = yes
+
+	option = {
+		name = marpacnews
 	}	
 }

@@ -38,7 +38,9 @@ effect = {
     name = after_the_war
 }
 	}	
+	
 	every_country = {
+	RN_faction_power_calculation = yes		
 	if = {
 	      limit = { 
 	is_ai = no

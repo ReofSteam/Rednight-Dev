@@ -68,57 +68,27 @@ scripted_gui = {
 				}
 			}
 			marpac_for_button_click = {
-			if = {
-			limit = { original_tag = FRA }
-			add_to_variable = {
-			var = global.marpac_for_vote
-			value = 5
-			}
-			else_if = { limit= { original_tag = ENG }
-			add_to_variable = { 
-			var = global.marpac_for_vote
-			value = 3
-			}
-			}
-			else = {
-			add_to_variable = {
-	        var = global.marpac_for_vote
-	        value = 1
-			}
-        }
-		}
 			set_country_flag = MARPAC_voted
 		    add_to_array = {
 	        array = global.marpac_countries_for
             value = THIS.id
-		}			
+		}
+			add_to_variable = {
+	        var = global.marpac_for_vote
+	        value = ROOT.faction_power
+        }			
 		}	
-			marpac_against_button_click = {
-			if = {
-			limit = { original_tag = FRA }
-			add_to_variable = {
-			var = global.marpac_against_vote
-			value = 5
-			}
-			}
-			else_if = { limit = { original_tag = ENG } 
-			add_to_variable = { 
-			var = global.marpac_against_vote
-			value = 3
-			}
-			}
-			else = {			
-			add_to_variable = {
-	        var = global.marpac_against_vote
-	        value = 1
-            }
-			}			
+			marpac_against_button_click = {			
 			
 			set_country_flag = MARPAC_voted
 		    add_to_array = {
 	        array = global.marpac_countries_against
             value = THIS.id
-		}			
+		}
+			add_to_variable = {
+	        var = global.marpac_against_vote
+	        value = ROOT.faction_power
+			}		
 		}		
 }
 triggers = {

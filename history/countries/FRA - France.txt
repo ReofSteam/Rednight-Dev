@@ -103,208 +103,28 @@ add_to_faction = CRO
 		days = 7
 	}
 
-
-create_country_leader = {# 
-	name = "Benoit Frachon"
-	desc = "POLITICS_BENOIT_FRACHON_DESC"
-	picture = "gfx/leaders/FRA/FRA_Benoit_Frachon.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {
-	}
-}
-
-create_country_leader = {# 
-	name = "Jacques Doriot"
-	desc = "POLITICS_BENOIT_FRACHON_DESC"
-	picture = "gfx/leaders/FRA/FRA_Jacques_Doriot.tga"
-	expire = "1965.1.1"
-	ideology = nationalist_socialism_subtype
-	traits = {
-	}
-}
-
-1981.1.1 = {
-set_politics = {	
-	ruling_party = syndicalism
-	last_election = "1972.11.9"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-declare_war_on = {
-    target = RUS
-    type = annex_everything
-}
-
-puppet = ENG
-
-create_country_leader = {
-	name = "Jean-Luc Antoine"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "gfx/leaders/Apocalypse_War/AW_FRA_leader.tga"
-	ideology = syndicalism_subtype
-	traits = {
-	}
-}
-}
-
-######Military
-###Army 
-create_field_marshal = {
-	name = "Jules Dumont"
-	portrait_path = "gfx/leaders/FRA/FRA_Jules_Dumont.tga"
-	traits = {  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-
-create_field_marshal = {
-	name = "Henri-Rol Tanguy"
-	portrait_path = "gfx/leaders/FRA/FRA_Henri_Rol.tga"
-	traits = {  }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Jacques Doriot"
-	portrait_path = "gfx/leaders/FRA/FRA_Jacques_Doriot.tga"
-	traits = {  }
-	skill = 1
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-
-create_corps_commander = {
-	name = "Jean Schalbroeck"
-	portrait_path = "gfx/leaders/FRA/FRA_Jean_Schalbroeck.tga"
-	traits = { }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Georges Guingouin"
-	portrait_path = "gfx/leaders/FRA/FRA_Georges_Guingouin.tga"
-	traits = { }
-	skill = 4
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Arthur Giovoni"
-	portrait_path = "gfx/leaders/FRA/FRA_Arthur.tga"
-	traits = { }
-	skill = 1
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Serge Ravanel"
-	portrait_path = "gfx/leaders/FRA/FRA_Serge_Ravanel.tga"
-	traits = { }
-	skill = 1
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Jean-Pierre Vernant"
-	portrait_path = "gfx/leaders/FRA/FRA_JP_VERNANT.tga"
-	traits = { }
-	skill = 1
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Jacques Chaban-Delmas"
-	portrait_path = "gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
-	traits = { }
-	skill = 2
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Garbiel Fort"
-	portrait_path = "gfx/leaders/FRA/FRA_Fort.tga"
-	traits = { }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "René Camphin"
-	portrait_path = "gfx/leaders/FRA/FRA_CAMPHIN.tga"
-	traits = { }
-	skill = 1
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Louis Pétri"
-	portrait_path = "gfx/leaders/FRA/FRA_Petri.tga"
-	traits = { }
-	skill = 2
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-create_corps_commander = {
-	name = "Henri Manhès"
-	portrait_path = "gfx/leaders/FRA/FRA_Manhes.tga"
-	traits = { }
-	skill = 2
-    attack_skill = 3
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 4
-}
-#Navy
-
-create_navy_leader = {
-	name = "Charles Tillon"
-	picture = "FRA_Charles_Tillon.tga"
-	traits = { }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
-create_navy_leader = {
-	name = "Marcel Paul"
-	picture = "FRA_Charles_Tillon.tga"
-	traits = { }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 2
-}
+recruit_character = FRA_benoit_frachon
+recruit_character = FRA_jacques_doriot
+recruit_character = FRA_jules_dumont
+recruit_character = FRA_henrirol_tanguy
+recruit_character = FRA_jean_schalbroeck
+recruit_character = FRA_georges_guingouin
+recruit_character = FRA_arthur_giovoni
+recruit_character = FRA_serge_ravanel
+recruit_character = FRA_jeanpierre_vernant
+recruit_character = FRA_jacques_chabandelmas
+recruit_character = FRA_garbiel_fort
+recruit_character = FRA_rené_camphin
+recruit_character = FRA_louis_pétri
+recruit_character = FRA_henri_manhès
+recruit_character = FRA_charles_tillon
+recruit_character = FRA_marcel_paul
+recruit_character = FRA_thomas_davout
+recruit_character = FRA_antoine_cousin
+recruit_character = FRA_thierry_exelmans
+recruit_character = FRA_alphonse_humbert
+recruit_character = FRA_adrien_harispe
+recruit_character = FRA_hubert_petit
+recruit_character = FRA_lazare_baraguey
+recruit_character = FRA_jules_anthoine
+recruit_character = FRA_lucien_leboeuf

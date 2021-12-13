@@ -79,7 +79,27 @@ guiTypes = {
 			text = "CONSEIL EXÉCUTIF"
 			fixedsize = yes	
 			format = centre
-		}				
+		}
+		instantTextBoxType = {
+			name = "marpac_country_faction_power_title"
+			position = { x = 320 y = 45 }
+			font = "rn_viasans_15"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 450
+			text = "FACTION POWER"
+			fixedsize = yes	
+			format = centre
+		}			 
+		instantTextBoxType = {
+			name = "marpac_country_faction_power"
+			position = { x = 320 y = 75 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 450
+			text = "[?ROOT.faction_power|G0]"
+			fixedsize = yes	
+			format = centre
+		}		
 		buttonType = {
 			name = "marpac_for_button"
 			quadTextureSprite = "GFX_marpac_for_button"

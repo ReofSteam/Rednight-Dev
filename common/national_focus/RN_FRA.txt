@@ -775,6 +775,54 @@ initial_show_position = {
 	completion_reward = {
 
 }	
-	}						
+	}
+	focus = {
+		id = FRA_the_trial_of_france
+		icon = GFX_FRA_frachon_speech
+		x = 5
+		y = 0
+		cost = 5	
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}
+	focus = {
+		id = FRA_not_guilty
+		icon = GFX_FRA_frachon_speech
+		x = 3
+		y = 1
+		cost = 5	
+		prerequisite = {
+			focus = FRA_the_trial_of_france
+		}
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}	
+	focus = {
+		id = FRA_guilty_against_france
+		icon = GFX_FRA_frachon_speech
+		x = 7
+		y = 1
+		cost = 5
+		prerequisite = {
+			focus = FRA_the_trial_of_france
+		}			
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	completion_reward = {
+
+}	
+	}								
 
  }
