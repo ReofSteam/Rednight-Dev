@@ -15,6 +15,10 @@ scripted_gui = {
 					limit = { has_country_flag = show_marpac_menu }
 					clr_country_flag = show_marpac_menu
 				}
+				if = {
+					limit = { has_country_flag = show_faction_power_menu }
+					clr_country_flag =  show_faction_power_menu
+				}				
 			}
 		}
 		triggers = {
@@ -54,7 +58,7 @@ scripted_gui = {
 		array = global.marpac_countries_against
 		entry_container = marpac_countries_against_list_entry
 		change_scope = yes
-		}		
+		}	
 		}
     	effects = {
 			open_button_click = {
@@ -65,6 +69,10 @@ scripted_gui = {
 				else_if = {
 					limit = { has_country_flag = show_marpac_menu }
 					clr_country_flag = show_marpac_menu
+				}
+					if = {
+					limit = { has_country_flag = show_faction_power_menu }
+					clr_country_flag =  show_faction_power_menu
 				}
 			}
 			marpac_for_button_click = {
@@ -89,7 +97,18 @@ scripted_gui = {
 	        var = global.marpac_against_vote
 	        value = ROOT.faction_power
 			}		
-		}		
+		}
+		mapac_faction_power_graphic_click = {
+			if = {
+					limit = { NOT = { has_country_flag = show_faction_power_menu } }
+					set_country_flag =  show_faction_power_menu
+				}
+			else_if = {
+					limit = { has_country_flag = show_faction_power_menu }
+					clr_country_flag = show_faction_power_menu
+				}		
+		}
+		
 }
 triggers = {
 marpac_for_button_click_enabled = {
@@ -100,4 +119,19 @@ NOT = { has_country_flag = MARPAC_voted }
 }
 }
 }
+    MARPAC_faction_power = {
+        window_name = marpac_executive_bg_2
+        context_type = player_context         
+        visible = {
+        has_country_flag = show_faction_power_menu
+        }
+		dynamic_lists = {
+		marpac_countries_council_grid = {
+		array = global.marpac_executive_array 
+		entry_container = marpac_countries_council_entry
+		change_scope = yes
+		}		
+		}		
+	}
+
 }

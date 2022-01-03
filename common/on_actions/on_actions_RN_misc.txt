@@ -84,7 +84,8 @@ effect = {
 	add_to_array = { global.marpac_executive_array = MOR }
 	add_to_array = { global.marpac_executive_array = TUN }
 	add_to_array = { global.marpac_executive_array = NTH }
-	add_to_array = { global.marpac_executive_array = BEL }		
+	add_to_array = { global.marpac_executive_array = BEL }	
+	add_to_array = { global.marpac_executive_array = CAN }			
 	
 	
 	

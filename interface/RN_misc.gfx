@@ -304,6 +304,10 @@ spriteTypes = {
 	name = "GFX_thirdinternationalstamp"
 	texturefile = "gfx/interface/FRA_gui/thirdinternationalstamp.dds"
 	}	
+	spriteType = {
+	name = "GFX_selection_banner"
+	texturefile = "gfx/interface/FRA_gui/selection_banner.tga"
+	}		
 ################CSA regions names#############	
 	spriteType = {
 	name = "CSA_mountains"
