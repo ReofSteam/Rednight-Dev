@@ -83,7 +83,7 @@ scripted_gui = {
 		}
 			add_to_variable = {
 	        var = global.marpac_for_vote
-	        value = ROOT.faction_power
+	        value = 1
         }			
 		}	
 			marpac_against_button_click = {			
@@ -95,7 +95,7 @@ scripted_gui = {
 		}
 			add_to_variable = {
 	        var = global.marpac_against_vote
-	        value = ROOT.faction_power
+	        value = 1
 			}		
 		}
 		mapac_faction_power_graphic_click = {
@@ -125,12 +125,30 @@ NOT = { has_country_flag = MARPAC_voted }
         visible = {
         has_country_flag = show_faction_power_menu
         }
+
+   		properties = {
+		
+		memberstate_flag_small = {
+		image = [This.GetFlag]
+		}
+
+    	}
+		
 		dynamic_lists = {
 		marpac_countries_council_grid = {
 		array = global.marpac_executive_array 
 		entry_container = marpac_countries_council_entry
 		change_scope = yes
 		}		
+		}	
+    	effects = {
+		memberstate_flag_small_click = {
+		set_variable = { ROOT.selected_marpac = THIS.id }
+		}
+		diplomacy_button_click = {
+		var:ROOT.selected_marpac = { add_political_power = 100 }
+
+		}
 		}		
 	}
 

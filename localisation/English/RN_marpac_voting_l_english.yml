@@ -1,4 +1,5 @@
 ﻿l_english:
+marpac_council_name:0 "§G[?ROOT.selected_marpac.GetName]§!"
 marpacnews.t:0 "[GetNewsHeadline]"
 marpac.1.t:0 "Called the Assembly to Vote" 
 marpac.2.t:0 "vote check"

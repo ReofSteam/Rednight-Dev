@@ -110,7 +110,8 @@ guiTypes = {
 			clicksound = click_default
 			pdx_tooltip = "marpac_against_button"
 			position = { x = 470 y = 370 }
-		}		
+		}	
+			
 		containerWindowType = {
 			name ="countries_mini"
 			position = { x = 15 y = 340 }
@@ -121,7 +122,7 @@ guiTypes = {
 				position = { x = -30 y = 40 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 53 height = 40 }
-				max_slots_horizontal = 6`
+				max_slots_horizontal = 6
 				add_horizontal = yes
 				format = "UPPER_LEFT"
 			}
@@ -257,7 +258,17 @@ containerWindowType = {
 			text = "NO CHANCE DUDE%" 
 			fixedsize = yes	
 			format = centre
-		}		
+		}
+		instantTextBoxType = {
+			name = "marpac_faction_voting_name"
+			position = { x = -90 y = 360 } 
+			font = "rn_viasans_15" 
+			borderSize = {x = 50 y = 0}    
+			maxWidth = 280  
+			text = "marpac_council_name"   
+			fixedsize = yes	
+			format = centre
+		}	
 		buttonType = {
 			name = "beg_button"
 			position = { x = 25 y = 150 }

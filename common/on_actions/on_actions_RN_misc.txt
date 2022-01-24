@@ -40,7 +40,6 @@ effect = {
 	}	
 	
 	every_country = {
-	RN_faction_power_calculation = yes		
 	if = {
 	      limit = { 
 	is_ai = no
@@ -54,6 +53,13 @@ effect = {
 	}
 	set_country_flag = show_intro_menu
     }
+	if = { 
+	limit = { is_marpac_executive = yes }
+	RN_faction_power_calculation = yes
+	country_event = {
+	id = marpac.0
+	}	
+	}
 	country_event = {
 	id = misc.4
 	days = 365

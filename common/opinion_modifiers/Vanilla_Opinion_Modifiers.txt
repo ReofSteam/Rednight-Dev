@@ -205,9 +205,9 @@ opinion_modifiers = {
 	}
 
 	in_faction = {
-		value = 200
-		max_trust = 200
-		min_trust = 200
+		value = 50
+		max_trust = 50
+		min_trust = 50
 	}
 
 	military_access = {
@@ -238,7 +238,7 @@ opinion_modifiers = {
 	}
 
 	same_ruling_party = {
-		value = 0
+		value = 15
 	}
 
 	similar_ruling_party = {

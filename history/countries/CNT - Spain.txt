@@ -45,16 +45,16 @@ set_politics = {
 }
 
 set_popularities = {
-    nationalist_socialism = 4
-    revolutionary_socialism = 26
-    syndicalism = 29
-    moderate_socialist = 16
-    social_democrat = 4
-    social_liberal = 3
-    social_conservative = 2
-    authoritarian_democrat = 9
-    autocratic = 4
-    ultraconservative = 2
+    nationalist_socialism = 6
+    revolutionary_socialism = 25
+    syndicalism = 26
+    moderate_socialist = 12
+    social_democrat = 7
+    social_liberal = 7
+    social_conservative = 5
+    authoritarian_democrat = 5
+    autocratic = 3
+    ultraconservative = 4
     national_corporatist = 1
 }
 
