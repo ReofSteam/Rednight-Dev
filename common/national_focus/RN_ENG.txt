@@ -129,9 +129,6 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
-		
-		}
 	}
 
 	#Focus for Department of British Isles
@@ -447,18 +444,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
-		}
-		completion_reward = {
-			add_popularity = {
-        ideology = nationalist_socialism
-        popularity = 0.05
-        }		
-		country_event = {
-			id = ENG.10
-			days = 1
-		}
-		add_political_power = 10
-		
 		}
 	}
 

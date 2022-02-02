@@ -207,8 +207,8 @@ country_event = { #United Workers Party of Britain
     long_name = ENG_United_Workers_long 
     name = ENG_United_Workers
 }
-create_country_leader = { #This should probably be changed to the new charater system and use recruit_character
-	name = "Reg Birch"
+create_country_leader = {
+	name = "Reg Birch "
 	desc = "POLITICS_REG_BIRCH_DESC"
 	picture = "GFX/Leaders/ENG/ENG_Joe.tga"
 	expire = "1965.1.1"
@@ -217,53 +217,6 @@ create_country_leader = { #This should probably be changed to the new charater s
 		
 	}
 }		
-	}
-}
-
-country_event = { #elections
-	id = ENG.9
-	title = ENG.9.t
-	desc = ENG.9.d
-	picture = GFX_ENG_generic_1
-
-	is_triggered_only = yes
-
-
-	option = {
-		name = ENG.9.a
-	complete_national_focus = ENG_national_labour_victory
-	add_popularity = {
-        ideology = social_democrat
-        popularity = 0.05
-        }		
-		set_politics = {
-			ruling_party = social_democrat
-			elections_allowed = yes
-			}
-	}
-	option = {
-		name = ENG.9.b
-	complete_national_focus = ENG_maximist_victory 
-		add_popularity = {
-        ideology = nationalist_socialism
-        popularity = 0.05
-        }		
-			set_politics = {
-			ruling_party = nationalist_socialism
-			elections_allowed = yes
-			}
-	}
-	option = {
-		name = ENG.9.c
-		complete_national_focus = ENG_english_socialist_victory
-		add_popularity = {
-        ideology = moderate_socialist
-        popularity = 0.05
-        }		 
-			set_politics = {
-			ruling_party = moderate_socialist
-			elections_allowed = yes
-			}
 	}
 }
 
