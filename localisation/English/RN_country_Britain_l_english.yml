@@ -68,9 +68,13 @@ ENG_Workers_Council_long:0 "Workers Revolutionary Council of Britain"
 ### Cosmetic Tag ###
 
 ### Ideas ###
-ENG_mosley_democracy:0 "Mosley's Democracy"
-ENG_army_of_germany:0 "Army of Germany"
-ENG_postwar_recession:0 "Post-War Recession"
+
+ENG_united_britain:0 "United Britain"
+ENG_industrial_revolution_home:0 "Home of the Industrial Revolution"
+ENG_french_rivalry:0 "French Rivalry"
+ENG_food_import:0 "Food Import Dependency"
+
+
 ### Focuses ###
 ENG_o_england_arise:0 "O England, Arise!"
 ENG_o_england_arise_desc:0 ""

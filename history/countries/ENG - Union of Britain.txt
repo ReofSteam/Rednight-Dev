@@ -49,9 +49,10 @@ set_technology = {
 }
 
 add_ideas = {
-ENG_mosley_democracy
-ENG_army_of_germany
-ENG_postwar_recession
+ENG_united_britain
+ENG_industrial_revolution_home
+ENG_french_rivalry
+ENG_food_import
 }
 
 

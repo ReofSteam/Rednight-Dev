@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		# Start
-		ENG_army_of_germany = {
+		ENG_united_britain = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
 			allowed = {
 				always = no
@@ -14,32 +14,44 @@ ideas = {
 			removal_cost = -1
 			picture = ENG_army_of_germany
 		}
-		ENG_postwar_recession = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_postwar_recession"}
+		ENG_industrial_revolution_home = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
 			allowed = {
 				always = no
 			}
 			modifier = {
-				justify_war_goal_time = 1.0
-				join_faction_tension = 1.00
-				guarantee_tension = 1.00
+				conscription_factor = -0.1
+				army_morale_factor = -0.1
+				planning_speed = 0.5
 			}
 			removal_cost = -1
-			picture = ENG_postwar_recession
-		}
-		ENG_mosley_democracy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_mosley_democracy"}
+			picture = ENG_army_of_germany
+		}	
+		ENG_french_rivalry = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
 			allowed = {
 				always = no
 			}
 			modifier = {
-				justify_war_goal_time = 1.0
-				join_faction_tension = 1.00
-				guarantee_tension = 1.00
+				conscription_factor = -0.1
+				army_morale_factor = -0.1
+				planning_speed = 0.5
 			}
 			removal_cost = -1
-			picture = ENG_mosley_democracy
+			picture = ENG_army_of_germany
 		}
-				
+		ENG_food_import = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				conscription_factor = -0.1
+				army_morale_factor = -0.1
+				planning_speed = 0.5
+			}
+			removal_cost = -1
+			picture = ENG_army_of_germany
+		}		
 }
 }
