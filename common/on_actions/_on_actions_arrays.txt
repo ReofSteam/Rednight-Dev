@@ -317,38 +317,24 @@ on_actions = {
 			add_to_array = { global.oceania_tags_array = AST }
 			add_to_array = { global.oceania_tags_array = NZL }
 			add_to_array = { global.oceania_tags_array = PNG }
-
-			#Set up Legation Council
-			add_to_array = { global.LEC_voters = GER }
-			add_to_array = { global.LEC_voters = JAP }
-			add_to_array = { global.LEC_voters = AUS }
-			add_to_array = { global.LEC_voters = USA }
-			add_to_array = { global.LEC_voters = BEL }
-
-			#Russian integration arrays
-			for_each_scope_loop = {
-				array = UKR.owned_states
-				if = {
-					limit = { region = 130 } #Western Ukraine
-					add_to_array = { global.RUS_western_ukraine_region = THIS }
-				}
-				if = {
-					limit = { region = 165 } #Eastern Ukraine
-					add_to_array = { global.RUS_eastern_ukraine_region = THIS }
-				}
-			}
-			for_each_scope_loop = {
-				array = DKB.owned_states
-				add_to_array = { global.RUS_kuban_region = THIS }
-			}
-			for_each_scope_loop = {
-				array = ALO.owned_states
-				add_to_array = { global.RUS_kazakhstan_region = THIS }
-			}
-			for_each_scope_loop = {
-				array = TRK.owned_states
-				add_to_array = { global.RUS_turkestan_region = THIS }
-			}
+			
+			
+	#######Set Up Marpac Executive Council#####
+	add_to_array = { global.marpac_executive_array = ENG }
+	add_to_array = { global.marpac_executive_array = GER }
+	add_to_array = { global.marpac_executive_array = FRA }	
+	add_to_array = { global.marpac_executive_array = CSA }
+	add_to_array = { global.marpac_executive_array = ITA }	
+	add_to_array = { global.marpac_executive_array = CNT }	
+	add_to_array = { global.marpac_executive_array = CRO }
+	add_to_array = { global.marpac_executive_array = ALG }
+	add_to_array = { global.marpac_executive_array = MOR }
+	add_to_array = { global.marpac_executive_array = TUN }
+	add_to_array = { global.marpac_executive_array = NTH }
+	add_to_array = { global.marpac_executive_array = BEL }	
+	add_to_array = { global.marpac_executive_array = CAN }			
+	
+	
 		}
 	}
 }

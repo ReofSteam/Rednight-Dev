@@ -88,6 +88,20 @@ id = worldnews.1001
 }
 }
 
+voting_set_up_marpac = {
+		add_to_array = {
+	        array = global.marpac_countries_for
+            value = THIS.id
+		}		
+		add_to_variable = {
+	        var = global.marpac_against_vote
+	        value = 1
+		}
+		add_to_variable = {
+	        var = global.marpac_vote_proposal_country
+	        value = ROOT
+		}
+}
 kill_sergey_taboritsky = {
 hidden_effect = {
 random_list = {

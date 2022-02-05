@@ -13,14 +13,7 @@ country_event = {        #######Resolution 51: Operation Juin
 	option = {
 		name = marpac.1.b
 		set_country_flag = MARPAC_voted
-		add_to_array = {
-	        array = global.marpac_countries_for
-            value = THIS.id
-		}		
-		add_to_variable = {
-	        var = global.marpac_against_vote
-	        value = 5
-		}			
+		voting_set_up_marpac = yes
 		set_global_flag = MARPAC_voting_in_process
 		set_global_flag = MARPAC_resolution_51
         set_country_flag = show_marpac_menu	
@@ -71,8 +64,8 @@ country_event = {        #######Resolution 51: hidden check
     else = {
 	news_event = marpac.4
 	}		
-	clr_global_flag = MARPAC_voting_in_process
 	clr_global_flag = MARPAC_resolution_51
+	clr_global_flag = MARPAC_voting_in_process	
 	clear_array = global.marpac_countries_against
 	clear_array = global.marpac_countries_for
 
@@ -140,7 +133,7 @@ country_event = {
 		}		
 			add_to_variable = {
 	        var = global.marpac_for_vote
-	        value = ROOT.faction_power
+	        value = 1
         }	
 	}	
 	option = {
@@ -157,7 +150,7 @@ country_event = {
 			set_country_flag = MARPAC_voted	
 			add_to_variable = {
 	        var = global.marpac_against_vote
-	        value = ROOT.faction_power
+	        value = 1
 			}
 		    add_to_array = {
 	        array = global.marpac_countries_against
