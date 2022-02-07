@@ -99,6 +99,7 @@ news_event = {        #######Resolution 51 not passed
 		name = marpacnews
 		add_political_power = 5
 		clr_country_flag = show_marpac_menu
+		clr_country_flag = show_faction_power_menu
 		clr_country_flag = MARPAC_voted		
 	}	
 }
