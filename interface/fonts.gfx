@@ -211,5 +211,10 @@ bitmapfonts = {
 		name = "rn_typewriter_16"
 		path = "gfx/fonts/rn_typewriter_16"
 		color = 0xffffffff
-	}		
+	}
+	bitmapfont = { 
+		name = "rn_sabon"
+		path = "gfx/fonts/rn_sabon"
+		color = 0xffffffff
+	}			
 }

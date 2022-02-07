@@ -305,6 +305,10 @@ spriteType = {
 		texturefile = "gfx/interface/ideas/generic/moving_industry.dds"
 	}	
 	spriteType = {
+		name = "GFX_idea_Import_Dependency"
+		texturefile = "gfx/interface/ideas/generic/Import_Dependency.tga"
+	}		
+	spriteType = {
 		name = "GFX_idea_economy_bad"
 		texturefile = "gfx/interface/ideas/generic/economy_bad.dds"
 	}

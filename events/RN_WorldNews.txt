@@ -46,8 +46,8 @@ news_event = { #New Year Peace
 	id = worldnews.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.3" }
 
-	title = worldnews.t
-	desc = worldnews.3.d
+	title = worldnews.3.t
+	desc = worldnews.3.d   
 	picture = GFX_news_american_peace
 	major = yes
 	is_triggered_only = yes
@@ -61,7 +61,8 @@ news_event = { #New Year Peace
 	original_tag = WCN
 	original_tag = QUE
 	original_tag = CAN
-	}}
+	}
+	}
 		name = worldnews.3.a
 	}
 	option = {

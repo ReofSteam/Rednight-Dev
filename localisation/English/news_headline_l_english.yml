@@ -1,30 +1,30 @@
 ﻿l_english:
     #Scripted localisation
-    news_headline_0:0 "\n£nhl_generic\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_0:0 "\n£nhl_generic"
     
     ### FRA ###
-    news_headline_1:0 "\n£nhl_FRA\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_1:0 "\n£nhl_FRA"
     
     ### ENG ###
-    news_headline_2:0 "\n£nhl_ENG\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_2:0 "\n£nhl_ENG\n\n\n"
     
     ### GER ###
     news_headline_3:0 "\n£nhl_GER\n\n\n\n\n\n\n\n\n\n\n"
     
     ### JAP ###
-    news_headline_5:0 "\n£nhl_JAP\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_5:0 "\n£nhl_JAP"
     
     ### USA / CAL ###
-    news_headline_6:0 "\n£nhl_CAL\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_6:0 "\n£nhl_CAL"
 
     ### CSA ###
-    news_headline_7:0 "\n£nhl_CSA\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_7:0 "\n£nhl_CSA"
     
     ### IRE
-    news_headline_8:0 "\n£nhl_IRE\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_8:0 "\n£nhl_IRE"
     
      ### PRS
-    news_headline_9:0 "\n£nhl_PRS\n\n\n\n\n\n\n\n\n\n\n"
+    news_headline_9:0 "\n£nhl_PRS"
                
 
     

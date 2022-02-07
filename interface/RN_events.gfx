@@ -1,5 +1,8 @@
 spriteTypes = {
-	
+	spriteType = {
+	name = "GFX_news_event_overlay"
+	texturefile = "gfx/interface/event_news_bg_overlay.tga"
+	}
 	###############
 	### GENERIC ###
 	###############
