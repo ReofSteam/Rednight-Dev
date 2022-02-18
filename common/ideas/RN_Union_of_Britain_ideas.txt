@@ -51,7 +51,59 @@ ideas = {
 				planning_speed = 0.5
 			}
 			removal_cost = -1
-			picture = ENG_army_of_germany
+			picture = ENG_food_import
 		}		
+		
+		ENG_interceptior_program = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech } #when interceptor catagory is added replace radar tech with it
+			}
+			removal_cost = -1
+		}
+		ENG_stratbomberprogram = { #stratbomber program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_stratbomberprogram"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				add_tech_bonus = { bonus = 0.5 uses = 2 category = air_strategic_bomber } 
+			}
+			removal_cost = -1
+		}
+		ENG_jetfighter = { #fighterjet program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_jetfighter"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				add_tech_bonus = { bonus = 0.5 uses = 2 category = rocket_site } 
+			}
+			removal_cost = -1
+		}
+		ENG_carrierboost = { #navycariear program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_carrierboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				add_tech_bonus = { bonus = 0.5 uses = 2 category = navy_carrier } 
+			}
+			removal_cost = -1
+		}
+			ENG_submarineboost = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				add_tech_bonus = { bonus = 0.5 uses = 2 category = navy_submarine } 
+			}
+			removal_cost = -1
+		}
+		######
 }
 }
