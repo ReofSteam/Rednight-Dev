@@ -78,6 +78,12 @@ defined_text = {
 				original_tag = PRS
 		}
 		localization_key = news_headline_9
-	}	
+	}
+	text = {
+		trigger = {
+				original_tag = INC
+		}
+		localization_key = news_headline_10
+	}		
 
 }
