@@ -1,0 +1,45 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+
+country = {
+
+INS_army_friction = {
+	picture = INS_army
+	modifier = {
+	stability_factor = -0.2
+	political_power_gain = -0.2
+	}
+}
+
+INS_papau_struggle = {
+	picture = INS_papau_conflict
+	modifier = {
+	stability_factor = -0.2
+	political_power_gain = -0.2
+	}
+}
+
+INS_election_question = {
+	picture = rural_society
+	modifier = {
+	stability_factor = -0.2
+	political_power_gain = -0.2
+	}
+}
+INS_war_damage = {
+	picture = rural_society
+	modifier = {
+	stability_factor = -0.2
+	political_power_gain = -0.2
+	}
+}
+
+}
+}
+
+
+
+	
