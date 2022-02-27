@@ -2,3 +2,8 @@
 
 secondary_name_tt:0 "§Y[This.Get_Secondary_Leader]§!"
 secondary_full_name_tt:0 "§Y[This.Get_Secondary_Leader]§! is the current §Y[This.Get_Secondary_Title]§! of §Y[This.GetNameDef]§!"
+minister_economy:0 "Minister of Economy"
+minister_foreign:0 "Minister of Foreign Affairs"
+minister_interior:0 "Minister of Internal Affairs"
+minister_no_portfolio:0 "Minister without Portfolio"
+cabinet:0 "National Cabinet"

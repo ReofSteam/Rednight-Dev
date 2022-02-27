@@ -23,11 +23,15 @@ set_convoys = 25
 
 
 add_ideas = {
+INS_army_friction
+INS_papau_struggle  
+INS_election_question 
+INS_war_damage 
 
 }
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat 
 	last_election = "1949.10.26"
 	election_frequency = 48
 	elections_allowed = no

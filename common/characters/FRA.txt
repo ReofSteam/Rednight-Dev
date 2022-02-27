@@ -12,6 +12,25 @@ characters={
 			expire="1965.1.1.1"
 			id=-1
 		}
+		advisor={
+			slot = minister_economy
+			idea_token = FRA_benoit_frachon
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = FRA
+			}
+			traits  = {
+				royalist_bulldog 
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
 	}
 	FRA_jacques_doriot={
 		name="Jacques Doriot"

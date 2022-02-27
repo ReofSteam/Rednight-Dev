@@ -15,7 +15,7 @@ INS_army_friction = {
 }
 
 INS_papau_struggle = {
-	picture = INS_papau_conflict
+	picture = INS_KNIL
 	modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
@@ -23,14 +23,14 @@ INS_papau_struggle = {
 }
 
 INS_election_question = {
-	picture = rural_society
+	picture = INS_election_question
 	modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}
 }
 INS_war_damage = {
-	picture = rural_society
+	picture = INS_production
 	modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2

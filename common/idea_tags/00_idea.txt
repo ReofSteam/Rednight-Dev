@@ -36,9 +36,10 @@ idea_categories = {
 	}
 	
 	cabinet = {
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor	
+		character_slot = minister_interior
+		character_slot = minister_foreign
+		character_slot = minister_economy
+		character_slot = minister_no_portfolio	
 		ledger = civilian
 		
 		cost = 150
