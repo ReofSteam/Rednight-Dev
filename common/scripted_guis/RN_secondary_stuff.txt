@@ -25,7 +25,7 @@ scripted_gui = {
 		has_country_flag = kaiser_is_wilhelm_third	
 		has_country_flag = kaiser_is_louis_ferdinand
 		has_country_flag = SER_alexander_ii_is_king
-		has_country_flag = INS_hatta_is_vice_president
+		has_country_flag = INS_sukarno_is_president
 		}
         }
     }

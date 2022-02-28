@@ -33,7 +33,7 @@ INS_sjafruddin_prawiranegara
 INS_hadji_agus_salim
 }
 
-set_country_flag = INS_hatta_is_vice_president
+set_country_flag = INS_sukarno_is_president
 
 set_politics = {
 	ruling_party = authoritarian_democrat 
@@ -57,7 +57,7 @@ set_popularities = {
 	national_corporatist = 0
 }
 
-recruit_character = INS_sukarno
+recruit_character = INS_hatta
 recruit_character = INS_tan_malaka
 recruit_character = INS_semaoen
 recruit_character = INS_sjafruddin_prawiranegara

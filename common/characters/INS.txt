@@ -13,6 +13,20 @@ characters={
 			id=-1
 		}
 	}
+	INS_hatta ={
+		name="Mohammad Hatta"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Hatta.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=authoritarian_democrat_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}	
 	INS_tan_malaka ={
 		name="Tan Malaka"
 		portraits={

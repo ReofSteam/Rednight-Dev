@@ -32,8 +32,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SER/SER_Alexander.tga"
 	}	
 	spriteType = {
-		name = "GFX_INS_Hatta"
-		texturefile = "gfx/leaders/INS/INS_Hatta.tga"
+		name = "GFX_INS_Sukarno"
+		texturefile = "gfx/leaders/INS/INS_Sukarno.tga"
 	}		
 	spriteType = {
 		name = "GFX_legislature"

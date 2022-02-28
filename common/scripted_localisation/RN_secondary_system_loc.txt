@@ -58,9 +58,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = INS
-			has_country_flag = INS_hatta_is_vice_president
+			has_country_flag = INS_sukarno_is_president
 		}
-		localization_key = "GFX_INS_Hatta"
+		localization_key = "GFX_INS_Sukarno"
 	}	
 	text = {
 		localization_key = "GFX_Leader_Unknown"
@@ -117,9 +117,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = INS
-			has_country_flag = INS_hatta_is_vice_president
+			has_country_flag = INS_sukarno_is_president
 		}
-		localization_key = "Vice-President"
+		localization_key = "President"
 	}		
 	text = {
 		localization_key = "Secondary Leader"
@@ -190,9 +190,9 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = INS
-			has_country_flag = INS_hatta_is_vice_president
+			has_country_flag = INS_sukarno_is_president
 		}
-		localization_key = "Mohammad Hatta"
+		localization_key = "Sukarno"
 	}		
 	text = {
 		localization_key = "Secondary Leader"
