@@ -28,7 +28,12 @@ INS_papau_struggle
 INS_election_question 
 INS_war_damage 
 
+####Free Ministers####
+INS_sjafruddin_prawiranegara
+INS_hadji_agus_salim
 }
+
+set_country_flag = INS_hatta_is_vice_president
 
 set_politics = {
 	ruling_party = authoritarian_democrat 
@@ -52,141 +57,9 @@ set_popularities = {
 	national_corporatist = 0
 }
 
-create_country_leader = {
-	name = "Abikoesno Tjokrosoejoso"
-	desc = "POLITICS_SOEKARNO_DESC"
-	picture = "gfx/leaders/INS/INS_Abikoesno_Tjokrosoejoso.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {}
-}
+recruit_character = INS_sukarno
+recruit_character = INS_tan_malaka
+recruit_character = INS_semaoen
+recruit_character = INS_sjafruddin_prawiranegara
+recruit_character = INS_hadji_agus_salim
 
-###Military Leaders
-
-create_field_marshal = {
-	name = "Soedirman"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Sudirman.tga"
-	id = 601
-	traits = {
-		organisational_leader
-		brilliant_strategist
-		jungle_rat
-		guerilla_fighter
-		organizer
-	}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Abdul Haris Nasution"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_AH_Nasution.tga"
-	id = 602
-	traits = {
-		inspirational_leader
-		trickster
-		organizer
-		guerilla_fighter
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "Gatot Soebroto"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soebroto.tga"
-	id = 603
-	traits = {
-		thorough_planner
-		brilliant_strategist
-		skilled_staffer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Ahmad Yani"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Ahmad_Yani.tga"
-	traits = {
-		combined_arms_expert
-		media_personality
-		brilliant_strategist
-		politically_connected
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Basuki Rachmat"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Rachmat.tga"
-	traits = {
-		war_hero
-		skilled_staffer
-		cavalry_leader
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "T. B. Simatupang"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Simatupang.tga"
-	traits = {
-		infantry_leader
-		trickster
-		superior_tactician
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Bambang Soegeng"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soegeng.tga"
-	traits = {
-		old_guard
-		thorough_planner
-		trait_cautious
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Soeharto"
-	picture = "gfx/leaders/INSULINDIA/INS/Portrait_INS_Soeharto.tga"
-	desc = "INS_Soeharto_general_desc"
-	traits = {
-		career_officer
-		infantry_leader
-		politically_connected
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}

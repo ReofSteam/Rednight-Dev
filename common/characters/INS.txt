@@ -1,0 +1,94 @@
+characters={
+	INS_sukarno ={
+		name="Sukarno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_sukarno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=authoritarian_democrat_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_tan_malaka ={
+		name="Tan Malaka"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Tan_Malaka.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=nationalist_socialism_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_semaoen ={
+		name="Semaoen"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Semaoen.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=revolutionary_socialism_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_sjafruddin_prawiranegara ={
+		name="Sjafruddin Prawiranegara"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_prawiranegara.tga"
+			}
+		}
+		advisor={
+			slot = minister_economy
+			idea_token = INS_sjafruddin_prawiranegara
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+	INS_hadji_agus_salim  ={
+		name="Hadji Agus Salim "
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Semaoen.tga"
+			}
+		}
+		advisor={
+			slot = minister_foreign
+			idea_token = INS_hadji_agus_salim
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+}

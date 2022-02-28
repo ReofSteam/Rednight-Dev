@@ -293,7 +293,26 @@ spriteType = {
 	spriteType = {
 		name = "GFX_idea_PRS_submarine"
 		texturefile = "gfx/interface/ideas/PRS/PRS_submarine_spirit.tga"
-	}	
+	}
+
+#Indonesia	
+
+spriteType = {
+	name = "GFX_idea_INS_army"
+	texturefile = "gfx/interface/ideas/INS/INS_army.tga"
+}	
+spriteType = {
+	name = "GFX_idea_INS_dutch_remnant"
+	texturefile = "gfx/interface/ideas/INS/INS_dutch_remnant.tga"
+}	
+spriteType = {
+	name = "GFX_idea_INS_election_question"
+	texturefile = "gfx/interface/ideas/INS/INS_election_question.tga"
+}	
+spriteType = {
+	name = "GFX_idea_INS_recover"
+	texturefile = "gfx/interface/ideas/INS/INS_recover.tga"
+}		
 	
 ####Generic	
 spriteType = {

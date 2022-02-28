@@ -457,126 +457,25 @@ INS_swabhuwana_paksa:0 ""The Motherland's Wings""
 
 ### Ideas ###
 #starting
-INS_tripartite_struggle:0 "Tripartite Power Struggle"
-INS_tripartite_struggle_desc:0 "The Politics of the Republic of Insulindia's parliament is always dominated by a three-way power struggle between the faction of Muhammad Natsir's Masyumi, Tan Malaka's Murba and Ali Sostroamidjojo's PNI which is Soekarno's own party. Despite the fact that Masyumi's Natsir is the Prime Minister of the Republic, neither of these three sides has found dominance in the parliament."
-INS_decentralisation:0 "Decentralisation"
-INS_decentralisation_desc:0 "Thanks to the Dutch and our own politics, the entire country is in a state of extreme decentralisation. This has caused inefficiency in administration, national defence, construction and development, and many things. Insulindia must centralise under Insulindia's banner if it wants to survive."
-INS_orla:0 "Orde Lama"
-INS_orla_desc:0 "The Soekarno Years is often dubbed the 'Orde Lama' or 'The Old Order'. This period in history is marked by the Insulindian parliament, slow economic growth, and overall focus to 'Revolutionary Struggles'."
-INS_orba:0 "Orde Baru"
-INS_orba_desc:0 "The Soeharto Years is often dubbed the 'Orde Baru' or 'The New Order'. The name originated from a speech made by Soeharto himself in his inauguration. This period in history is marked by an authoritarian military regime, a presidential system of governance, and overall focus to economic growth and self-sufficiency."
-INS_economic_chaos_ampera:0 "Utter Economic Chaos"
-INS_economic_chaos_ampera_desc:0 "Soekarno's policies have caused rampant inflation, economic confusion and inneficient management of the economy itself. We need to repair our economy in order do do anything well for the nation again."
-INS_political_restrucuring:0 "Political Restructuring"
-INS_political_restrucuring_desc:0 "We have been restructuring the MPRS for quite a while now, and slowly but surely we are gaining influence and the loyalties there. Perhaps there would be a time later when they will obey our every whims."
-INS_desoekarnoisation_idea:0 "Desoekarnoisation"
-INS_desoekarnoisation_idea_desc:0 "For years now, the government has been led by Marxist sycophants and Soekarno loyalists. Our new cabinet may be at the top of things, but there are still many Soekarnoist elements beneath it that may subvert our government."
- 
+INS_army_friction:0 "Army Friction"
+INS_papau_struggle:0 "Papua Struggle"
+INS_election_question:0 "Election Question" 
+INS_war_damage:0 "War Damage" 
 ### Flags ###
 
-INS_soekarno_tried_mahmilub:0 "Soekarno has been summoned to the court"
 
-INS_soekarno_approval_low:0 "Soekarno has low approval."
-INS_soekarno_approval_med:0 "Soekarno has medium approval."
-INS_soekarno_approval_high:0 "Soekarno has high approval."
-
-INS_people_approval_low:0 "The people are dissaproving"
-INS_people_approval_lowmed:0 "The people are apathetic"
-INS_people_approval_med:0 "The people are neutral"
-INS_people_approval_medhigh:0 "The people are symphatetic"
-INS_people_approval_high:0 "The people are approving"
-
-INS_external_influence_low:0 "Low external influence"
-INS_external_influence_med:0 "Medium external influence"
-INS_external_influence_high:0 "High external influence"
 
 ### Tooltips ###
 
-INS_ampera_power_struggle:0 "§RThe nation is saved, but a power struggle will soon begin§!"
-INS_soeharto_appointed_president:0 "§YSoekarno will resign, and Soeharto will become President!§!"
-INS_cabinet_formation:0 "§YA new cabinet will be formed.§!"
-
-
 ### Scripted Loc ###
 
-INS_term_natsir:0 "Mohammad Natsir"
-INS_term_Malaka:0 "Tan Malaka"
-INS_term_Ali:0 "Ali Sastroamidjojo"
-
-INS_soekarno_approval_low_triumvirate:0 "§RDislikes§!"
-INS_soekarno_approval_med_triumvirate:0 "§Wneither likes nor dislikes§!"
-INS_soekarno_approval_high_triumvirate:0 "§lLikes§!"
-
-INS_people_approval_low_triumvirate:0 "§RDespises§!"
-INS_people_approval_lowmed_triumvirate:0 "§RDislikes§!"
-INS_people_approval_med_triumvirate:0 "§Wneither likes nor dislikes§!"
-INS_people_approval_medhigh_triumvirate:0 "§lLikes§!"
-INS_people_approval_high_triumvirate:0 "§lloves§!"
-
-INS_external_influence_low_triumvirate:0 "§lLittle§!"
-INS_external_influence_med_triumvirate:0 "§WMedium§!"
-INS_external_influence_high_triumvirate:0 "§RHigh§!"
 
 ### Companies ###
 
 ### Ministers ###
 
-	INS_Mohammad_Natsir:0 "Mohammad Natsir"
-	INS_Tan_Malaka:0 "Ibrahim Tan Malaka"
-	INS_Ali_Sastroamidjojo:0 "Ali Sastroamidjojo"
-	INS_Wikana_HoG:0 "Wikana"
-	INS_Johannes_Leimena:0 "Johannes Leimena"
-	INS_Abdul_Haris_Nasution_HoG:0 "Abdul Haris Nasution"
-	
-	INS_Mohammad_Hatta:0 "Mohammad Hatta"
-	INS_Soeharto:0 "Soeharto"
-	
-	INS_Dato_Assaat:0 "Assaat"
-	INS_Basuki_Rachmat:0 "Basuki Rachmat"
-	
-	INS_Sjafruddin_Economy:0 "Sjafruddin Prawiranegara"
-	INS_SSHBIX:0 "Hamengkubuwana IX"
-	INS_Notohamiprodjo:0 "Notohamiprodjo"
-	
-	INS_Mohammad_Roem:0 "Mohammad Roem"
-	INS_Soebandrio:0 "Soebandrio"
-	INS_Adam_Malik_Autocrat:0 "Adam Malik"
-	
-	INS_KH_Dewantara:0 "Ki Hadjar Dewantara"
-	INS_Sarino_Mangunpranoto:0 "Sarino Mangunpranoto"
-	
-	INS_Buya_Hamka:0 "Haji Abdul Malik Karim Amrullah"
-	INS_Bander_Djohan:0 "Bander Djohan"
-	
-	INS_Djuanda_Kartawidjaja:0 "Djuanda Kartawidjaja"
-	INS_Sutami:0 "Sutami"
-	
-	INS_Dzulkifli_Lubis:0 "Dzulkifli Lubis"
-	INS_Soeharto_Intel:0 "Soeharto"
-	
-	INS_Gen_Soedirman:0 "Soedirman"
-	INS_Gatot_Soebroto:0 "Gatot Soebroto"
-	
-	INS_Abdurrachman_Saleh:0 "Abdulrahman Saleh"
-	
-	INS_Eddy_Martadinata:0 "Raden Eddy Martadinata"
-
-##Laws
-	#Economy : Colonial
-	#Currency : Fiat Currency
-	#Trade Unions: Allowed
-	#Penal System: Paid Penal Labour
-	#Mobilisation: Partial
-	#Capital Punishment: Legal
-	#Women's Right: Male Guardianship
-	#Sexuality Rights : Outlawed
-	#Worker's Right: Limited
 	
 ### Leaders ###
-
-INS_KN_GATHERING_STORM_DESC:0 "The Insulindians have claimed independence from the Dutch after 3 long years of war. Many heroes sacrificed their lives so that others may live in an independent and free nation, and so that the great Insulindian Revolution may succeed. Insulindia is independent now, but the revolution has only begun..."
-POLITICS_SOEKARNO_DESC:0 "Born Koesno Sosrodiharjdo on the 6th of June, 1901, Soekarno was born into a minor noble family, with a Muslim Javanese Father and a Hindu Balinese Mother. \n\nEver since his youth, many have praised his 'supernatural ability' as an orator, for Soekarno was able to, with ease, raise the spirits of any who gave him their ear. His uncle would remark that "This boy shall be indispensable to the nation." \n\nSoekarno was born during the age of liberal rule in the Netherlands when the Dutch East Indies began to enact the Ethical Policy, by which natives were finally granted the right to the access of education. Soekarno was famously dormmates with the Islamist Kartosoewirjo and the Maximist Musso during this period. he was one of the first four natives graduates from the prestigious Hogere Burgerschool te Bandoeng. \n\nHe would later become a prolific and influential nationalist and socialist writer. For which he would be imprisoned in Bandung in 1932, then exiled to Bencoolen in 1934, and finally exiled to Digoel in 1936- right before the First National Uprising. He would eventually be released on June 1945, and his release would be one in a series of events which ultimately resulted with the end of Dutch rule in the East Indies. In the ashes of the now collapsed Dutch colonial administration, the Insulindian Republic would be born, with Soekarno as it's President."
-INS_Soeharto_general_desc:0 "§YGeneral Description\n§YBorn:§W June 8th, 1921, in Kemusuk, Yogyakarta\n§YMilitary Career:§W Originallly a poor peasant, in 1942, Soeharto joined a strong regional militia group led by a former teacher, Soedirman. By 1945, this group would swear fealty to the Insulindian Uprising, and would become the most powerful militia group in Central Java. Soeharto was a Lieutenant Colonel and led a small battalion back then. Soeharto became a general due to his critical role in the recapture of Yogyakarta in 1947. Soeharto was assigned to his superior and friend Gatot Soebroto during Musso's Madiun revolt in 1948, he would be promoted again for his great services on surpressing the revolt.\n§YImportant Notes:§W \n- Has friends everywhere, even in Russia. \n§R- Has an intense rivalry with general Ahmad Yani§!."
 
 ### Tech? ###
 
@@ -584,24 +483,3 @@ INS_Soeharto_general_desc:0 "§YGeneral Description\n§YBorn:§W June 8th, 1921,
 ### Decisions ###
 
 ##Triumvirate Placeholder
-INS_parliament:0 "Tripartite Power Struggle"
-INS_parliament_desc:0 "A house divided against itself cannot stand, said Lincoln, yet our nation stands mighty amidst the power-mongering in the parliament. Glued by Soekarno and stitched together by sheer willpower, the Parliament promotes unity and democracy to the young nation, but beneath its surface, three parties struggle to gain dominance and control. \n \n §YMasyumi Support: [?INS_masyumi_support] \n §YMurba Support: [?INS_murba_support] \n §YPNI Support: [?INS_pni_support] \n\nSoekarno [INS_soekarno_approval_triumvirate] our government. \n The people [INS_people_approval_triumvirate] our government. \n External powers have [INS_external_approval_triumvirate] influence over our politics."
-INS_term_premier:0 "[INS_term_premier_name]'s term"
-
-#Soekarno-Soeharto Power Struggle
-INS_ampera_struggle:0 "The New Order"
-INS_ampera_struggle_desc:0 "General Soeharto has managed to save the country, stamping down Marxist rebels and humble the PDRI rebels, who won’t threaten the country in any way ever again. The way everyone sees it, Soeharto has cleaned up Soekarno’s mess. \n\nNow, many calls for the resignation of Soekarno, who jealously continues to cling to power. The same people who supported him now turned to support Soeharto and wish to make him the President of this Republic. Of course, Soeharto definitely has ambitions of his own, no? \n\n§YSoeharto’s control:§! [?INS_ampera_soeharto]% \n§YSoekarno’s control:§! [?INS_ampera_soekarno]% \n\nA new shadow looms over the islands..."
-INS_soeharto_president:0 "Topple Soekarno"
-INS_summon_soekarno:0 "Summon Soekarno to Court"
-INS_imprison_soebiandro:0 "Imprison Soebiandro"
-INS_adam_malik_testify:0 "The Testimony of Adam Malik"
-INS_nasution_testify:0 "The Testimony of General Nasution"
-INS_hang_untung:0 "Hang Lieutenant-Colonel Untung"
-INS_hang_nyoto:0 "Hang Njoto"
-INS_wisma_yasso:0 "Put Soekarno on House Arrest"
-INS_imprison_toer:0 "Disband the LEKRA"
-INS_imprison_sakirman:0 "Imprison Sakirman"
-INS_rehabilitate_natsir:0 "Rehabilitate Mohammad Natsir"
-INS_rehabilitate_ali:0 "Rehabilitate Ali Sastroamidjojo"
-INS_rehabilitate_tan_malaka:0 "Rehabilitate Tan Malaka"
-INS_rid_soekarnoists:0 "Challenge Soekarnoists"

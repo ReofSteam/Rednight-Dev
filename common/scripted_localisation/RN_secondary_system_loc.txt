@@ -54,11 +54,19 @@ defined_text = {
 			}
 		}
 		localization_key = "GFX_SER_Alexander_I"
-	}			
+	}
+	text = {
+		trigger = {
+			tag = INS
+			has_country_flag = INS_hatta_is_vice_president
+		}
+		localization_key = "GFX_INS_Hatta"
+	}	
 	text = {
 		localization_key = "GFX_Leader_Unknown"
 	}
 }
+
 defined_text = {
 	name = Get_Secondary_Title
 	text = {
@@ -87,12 +95,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			tag = ENG
-		}
-		localization_key = "Prime Minister"
-	}
-	text = {
-		trigger = {
 			tag = HUN
 		}
 		localization_key = "King"
@@ -102,7 +104,7 @@ defined_text = {
 			tag = PRS
 		}
 		localization_key = "King"
-	}	
+	}		
 	text = {
 		trigger = {
 			tag = SER
@@ -110,12 +112,20 @@ defined_text = {
 			has_country_flag = SER_socialist
 			}
 		}
-		localization_key = "King"
-	}			
+		localization_key = "King"		
+    }			
+	text = {
+		trigger = {
+			tag = INS
+			has_country_flag = INS_hatta_is_vice_president
+		}
+		localization_key = "Vice-President"
+	}		
 	text = {
 		localization_key = "Secondary Leader"
-	}
-}
+	}	
+}	
+
 defined_text = {
 	name = Get_Secondary_Leader
 	text = {
@@ -176,7 +186,14 @@ defined_text = {
 			}
 		}
 		localization_key = "Alexander II"
-	}			
+	}		
+	text = {
+		trigger = {
+			tag = INS
+			has_country_flag = INS_hatta_is_vice_president
+		}
+		localization_key = "Mohammad Hatta"
+	}		
 	text = {
 		localization_key = "Secondary Leader"
 	}

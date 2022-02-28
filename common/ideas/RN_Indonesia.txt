@@ -15,7 +15,7 @@ INS_army_friction = {
 }
 
 INS_papau_struggle = {
-	picture = INS_KNIL
+	picture = INS_dutch_remnant
 	modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
@@ -30,7 +30,7 @@ INS_election_question = {
 	}
 }
 INS_war_damage = {
-	picture = INS_production
+	picture = INS_recover
 	modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
