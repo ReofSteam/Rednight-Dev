@@ -6,7 +6,7 @@ guiTypes = {
 			name = "open_button"
 			quadTextureSprite = "GFX_legislature"
 			clicksound = click_default
-			#pdx_tooltip = "hog_gui_pop_tt"
+			pdx_tooltip = "RN_secondary_leader_view_tt"
 			#pdx_tooltip_delayed = "hog_gui_pop_long_tt"
 		}
 		

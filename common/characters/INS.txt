@@ -58,8 +58,8 @@ characters={
 	INS_sjafruddin_prawiranegara ={
 		name="Sjafruddin Prawiranegara"
 		portraits={
-			civilian={
-				large="gfx/Leaders/INS/INS_prawiranegara.tga"
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
 			}
 		}
 		advisor={
@@ -83,8 +83,8 @@ characters={
 	INS_hadji_agus_salim  ={
 		name="Hadji Agus Salim "
 		portraits={
-			civilian={
-				large="gfx/Leaders/INS/INS_Semaoen.tga"
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
 			}
 		}
 		advisor={
@@ -105,4 +105,29 @@ characters={
 			}
 		}
 	}	
+	INS_hadji_agus_salim2  ={
+		name="Hadji Agus Salim "
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
+			}
+		}
+		advisor={
+			slot = minister_interior
+			idea_token = INS_hadji_agus_salim2
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 }

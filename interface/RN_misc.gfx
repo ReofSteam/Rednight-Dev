@@ -463,5 +463,22 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_social_democrat"
 	texturefile = "gfx/interface/ideologies/social_democrat_group.dds"
-	}			
+	}		
+#####Idea Icons###
+	spriteType = {
+		name = "GFX_idea_slot_minister_foreign"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_economy"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_interior"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_no_portfolio"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}		
 }

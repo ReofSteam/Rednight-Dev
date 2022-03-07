@@ -4,8 +4,8 @@
 ideas = {
 
 	country = {
-		FRA_republic_socialism = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_republic_socialism"}
+		FRA_wound_of_war = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_wound_of_war"}
 			allowed = { always = no }
 			picture = FRA_republic_et_socialism
 			modifier = {
@@ -23,8 +23,8 @@ ideas = {
 
 			}
 		}			
-		FRA_beloved_liberty = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_beloved_liberty"}
+		FRA_bureau_level_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_bureau_level_3"}
 			allowed = { always = no }
 			picture = FRA_beloved_liberty
 			modifier = {
@@ -34,8 +34,8 @@ ideas = {
 
 			}
 		}		
-		FRA_giant_of_industry = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_giant_of_industry"}
+		FRA_industry_of_glory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_industry_of_glory"}
 			allowed = { always = no }
 			picture = generic_production_bonus
 			modifier = {

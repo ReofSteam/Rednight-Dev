@@ -62,4 +62,5 @@ recruit_character = INS_tan_malaka
 recruit_character = INS_semaoen
 recruit_character = INS_sjafruddin_prawiranegara
 recruit_character = INS_hadji_agus_salim
+recruit_character = INS_hadji_agus_salim2
 
