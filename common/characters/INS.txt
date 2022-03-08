@@ -130,4 +130,264 @@ characters={
 			}
 		}
 	}
+	INS_Soemohardjo ={
+		name="Oerip Soemohardjo"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Soemohardjo.tga"
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Soemohardjo
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Martaatmaja ={
+		name="Hidayat Martaatmaja"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Martaatmaja.tga"
+				large = "gfx/leaders/INS/INS_Martaatmaja.tga"
+				
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Martaatmaja
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Soedirman ={
+		name="Soedirman"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Soedirman.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"				
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Soedirman
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Djatikusumo ={
+		name="G.P.H Djatikusumo"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Nasution ={
+		name="Nasution"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Nasution.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Simatupan ={
+		name="T.B Simatupan"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Moestopo ={
+		name="Moestopo"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Soeprijadi ={
+		name="Soeprijadi"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Soepeno ={
+		name="Bambang Soepeno"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Arifin ={
+		name="Zainul Arifin"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}	
+	INS_Kawilarang ={
+		name="Alex Evert Kawilarang"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
+				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
 }

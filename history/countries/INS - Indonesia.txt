@@ -1,6 +1,6 @@
 ﻿capital = 335 #Jakarta
 
-oob = "INS_1950"
+oob = "TEX"
 
 set_research_slots = 3
 
@@ -63,4 +63,13 @@ recruit_character = INS_semaoen
 recruit_character = INS_sjafruddin_prawiranegara
 recruit_character = INS_hadji_agus_salim
 recruit_character = INS_hadji_agus_salim2
+recruit_character = INS_Soemohardjo
+recruit_character = INS_Martaatmaja
+recruit_character = INS_Soedirman
+recruit_character = INS_Djatikusumo
+recruit_character = INS_Nasution
+recruit_character = INS_Simatupan
+recruit_character = INS_Moestopo
+recruit_character = INS_Soeprijadi
+recruit_character = INS_Soepeno
 
