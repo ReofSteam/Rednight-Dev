@@ -7,10 +7,11 @@ ideas = {
 		FRA_wound_of_war = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_wound_of_war"}
 			allowed = { always = no }
-			picture = FRA_republic_et_socialism
+			picture = FRA_war_wound
 			modifier = {
-				political_power_gain = 0.35
-				stability_factor = 0.2
+				war_support_factor = -0.2
+				training_time_factor = 0.1	
+				conscription_factor = -0.15
 			}
 		}	
 		FRA_lighthouse_of_revolution = {
@@ -18,19 +19,18 @@ ideas = {
 			allowed = { always = no }
 			picture = FRA_lighthouse
 			modifier = {
-			political_power_gain = 0.15
-			training_time_factor = 0.1
+			political_power_gain = 0.25
+			stability_weekly = 0.01
 
 			}
 		}			
-		FRA_bureau_level_3 = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_bureau_level_3"}
+		FRA_bureau_level_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_bureau_level_2"}
 			allowed = { always = no }
-			picture = FRA_beloved_liberty
+			picture = FRA_bureau_level_2
 			modifier = {
-     		war_support_factor = 0.25
-			army_defence_factor = 0.2
-			surrender_limit = 0.2
+     		stability_factor = 0.25
+			political_power_factor = -0.3
 
 			}
 		}		
@@ -41,6 +41,7 @@ ideas = {
 			modifier = {
 			industrial_capacity_factory = 0.25
 			production_speed_arms_factory_factor = 0.25 
+			political_power_gain = -0.3
 			}
 		}		
 		FRA_national_strike = {

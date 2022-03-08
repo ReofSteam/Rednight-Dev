@@ -18,7 +18,7 @@ add_opinion_modifier = {
 add_ideas = {
 FRA_lighthouse_of_revolution
 FRA_wound_of_war
-FRA_bureau_level_3
+FRA_bureau_level_2
 FRA_industry_of_glory
 }
 

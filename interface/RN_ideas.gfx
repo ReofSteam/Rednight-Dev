@@ -118,7 +118,30 @@ spriteTypes = {
 		name = "GFX_idea_FRA_beloved_liberty"
 		texturefile = "gfx/interface/ideas/FRA/FRA_beloved_liberty.tga"
 	}	
-
+	spriteType = {
+		name = "GFX_idea_FRA_war_wound"
+		texturefile = "gfx/interface/ideas/FRA/FRA_wound_of_war.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_bureau_level_0"
+		texturefile = "gfx/interface/ideas/FRA/FRA_bureau_level_0.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_FRA_bureau_level_1"
+		texturefile = "gfx/interface/ideas/FRA/FRA_bureau_level_1.tga"
+	}		
+	spriteType = {
+		name = "GFX_idea_FRA_bureau_level_2"
+		texturefile = "gfx/interface/ideas/FRA/FRA_bureau_level_2.tga"
+	}		
+	spriteType = {
+		name = "GFX_idea_FRA_bureau_level_3"
+		texturefile = "gfx/interface/ideas/FRA/FRA_bureau_level_3.tga"
+	}		
+	spriteType = {
+		name = "GFX_idea_FRA_bureau_level_4"
+		texturefile = "gfx/interface/ideas/FRA/FRA_bureau_level_4.tga"
+	}			
 ###Socialist America
 
 spriteType = {
