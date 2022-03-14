@@ -181,6 +181,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_political_power = -50
+		}
 	}
 
 	#Focus for Centralized Economy
@@ -223,6 +226,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			
+		}
 	}
 
 	#Focus for Industrial Spearhead
@@ -251,6 +257,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_limited_liberalization }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_political_power = -100
 		}
 	}
 
@@ -325,6 +334,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_political_power = 100
+
+		}
 	}
 
 	#Focus for Industrial Research Grant
@@ -338,6 +351,14 @@ focus_tree = {
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+    bonus = 0.5
+    uses = 3
+    category = industry
+}
+
 		}
 	}
 
@@ -409,6 +430,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_english_socialist_victory }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_war_support = 0.05
 		}
 	}
 

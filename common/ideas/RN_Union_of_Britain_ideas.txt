@@ -104,6 +104,255 @@ ideas = {
 			}
 			removal_cost = -1
 		}
+		ENG_new_britain_plan = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_buildings_factor = 0.5 
+				civilian_factory_use = -5
+				stability_factor = 0.3
+			}
+			removal_cost = -1
+		}
+
+			ENG_industry_Spherehead = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			research_speed_factor = 0.10
+			industrial_capacity_factory = 0.10
+			}
+			removal_cost = -1
+		}
+		NBP_ISH = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			research_speed_factor = 0.10
+			industrial_capacity_factory = 0.10
+			consumer_goods_factor = 0.3
+			}
+			removal_cost = -1
+		}
+		NHS_Expansion = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = 0.03
+			}
+			removal_cost = -1
+		}
+		English_way_of_life = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			war_support_factor = 0.05
+			}
+			removal_cost = -1
+		}
+		NBP_FOB = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			war_support_factor = 0.05
+			monthly_population = 0.05
+
+			}
+			removal_cost = -1
+		}
+		NBP_FOOD_SELF_SUF = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			war_support_factor = 0.05
+			stability_factor = 0.02
+			}
+			removal_cost = -1
+		}
+		NBP_RAILROAD = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_speed_buildings_factor = 0.10
+			}
+			removal_cost = -1
+		}
+		NBP_NHS = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			stability_factor = 0.05
+			}
+			removal_cost = -1
+		}
+		NBP_NBI = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			consumer_goods_factor = -0.03
+			}
+			removal_cost = -1
+		}
+		NBP_mixed = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_factory_efficiency_gain_factor = 0.05
+			consumer_goods_factor = -0.02
+			}
+			removal_cost = -1
+		}
+		NBP_Centralized  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_speed_buildings_factor  = 0.05
+			political_power_gain  = 0.02
+			}
+			removal_cost = -1
+		}
+		NBP_Bureaucratic   = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor   = 0.05
+			stability_factor   = 0.02
+			}
+			removal_cost = -1
+		}
+		NBP_Middle    = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor   = 0.05
+			stability_factor   = 0.05
+			}
+			removal_cost = -1
+		}
+		NBP_Qou    = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			drift_defence_factor    = 0.5
+			}
+			removal_cost = -1
+		}
+		NBP_Liberal = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			political_power_gain     = -0.15
+			stability_factor = -0.02
+			consumer_goods_factor = - 2
+			production_speed_buildings_factor =0.05
+			}
+			removal_cost = -1
+		}
+		NBP_Enyerprice = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			political_power_gain     = -0.10
+			stability_factor = -0.05
+			consumer_goods_factor = -5
+			production_speed_buildings_factor =0.05
+			}
+			removal_cost = -1
+		}
+		NBP_Professional_Workfoce = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_factory_efficiency_gain_factor = 0.10
+			}
+			removal_cost = -1
+		}
+		NBP_steady = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			stability_factor  = 0.10
+			}
+			removal_cost = -1
+		}
+		NBP_Import_Dependence = {
+		 { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = 0.3
+			}
+			removal_cost = -1
+		}
+		
+		NBP_Spherehead_indsutry_Professional_Workforce:  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			research_speed_factor = 0.10
+			industrial_capacity_factory = 0.10
+			production_factory_efficiency_gain_factor = 0.10
+			}
+			removal_cost = -1
+		}
+		NBP_postwarressecision:  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			production_speed_buildings_factor = 0.5 
+			civilian_factory_use = -.5
+			stability_factor = 0.5
+
+
+			}
+			removal_cost = -1
+		}
+		
 		######
 }
 }
