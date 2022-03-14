@@ -858,8 +858,8 @@ BUR = {
 	color_ui = rgb { 71 100 10 }
 }
 INS = {
-	color = rgb { 74 0 102 }
-	color_ui = rgb { 74 0 102 }
+	color = rgb { 245 245 220 }
+	color_ui = rgb { 245 245 220 }
 }
 #NBE = {
 #	color = rgb

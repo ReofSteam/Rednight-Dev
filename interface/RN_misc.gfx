@@ -99,7 +99,11 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_intro_PRS"
 	texturefile = "gfx/interface/intro_pics/PRS.tga"
-	}				
+	}
+	spriteType = {
+	name = "GFX_intro_INS"
+	texturefile = "gfx/interface/intro_pics/ins.tga"
+	}			
 ############	
 	spriteType = {
 	name = "GFX_liberty_corridor"

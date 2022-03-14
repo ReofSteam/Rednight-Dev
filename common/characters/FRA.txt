@@ -3,7 +3,7 @@ characters={
 		name="Benoit Frachon"
 		portraits={
 			civilian={
-				large="gfx/leaders/FRA/FRA_Benoit_Frachon.tga"
+				large="gfx/leaders/FRA/FRA_Benoit_Frachon.png"
 			}
 		}
 		country_leader={
@@ -36,7 +36,7 @@ characters={
 		name="Jacques Doriot"
 		portraits={
 			civilian={
-				large="gfx/leaders/FRA/FRA_Jacques_Doriot.tga"
+				large="gfx/leaders/FRA/FRA_Jacques_Doriot.png"
 			}
 		}
 		field_marshal={
@@ -61,7 +61,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Jules_Dumont.tga"
+				large="gfx/leaders/FRA/FRA_Jules_Dumont.png"
 			}
 		}
 		field_marshal={
@@ -80,7 +80,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Henri_Rol.tga"
+				large="gfx/leaders/FRA/FRA_Henri_Rol.png"
 			}
 		}
 		field_marshal={
@@ -99,7 +99,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Jean_Schalbroeck.tga"
+				large="gfx/leaders/FRA/FRA_Jean_Schalbroeck.png"
 			}
 		}
 		corps_commander={
@@ -118,7 +118,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Georges_Guingouin.tga"
+				large="gfx/leaders/FRA/FRA_Georges_Guingouin.png"
 			}
 		}
 		corps_commander={
@@ -137,7 +137,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Arthur.tga"
+				large="gfx/leaders/FRA/FRA_Arthur.png"
 			}
 		}
 		corps_commander={
@@ -156,7 +156,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Serge_Ravanel.tga"
+				large="gfx/leaders/FRA/FRA_Serge_Ravanel.png"
 			}
 		}
 		corps_commander={
@@ -175,7 +175,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_JP_VERNANT.tga"
+				large="gfx/leaders/FRA/FRA_JP_VERNANT.png"
 			}
 		}
 		corps_commander={
@@ -194,7 +194,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Chaban-Delmas.tga"
+				large="gfx/leaders/FRA/FRA_Chaban-Delmas.png"
 			}
 		}
 		corps_commander={
@@ -213,7 +213,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Fort.tga"
+				large="gfx/leaders/FRA/FRA_Fort.png"
 			}
 		}
 		corps_commander={
@@ -232,7 +232,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_CAMPHIN.tga"
+				large="gfx/leaders/FRA/FRA_CAMPHIN.png"
 			}
 		}
 		corps_commander={
@@ -251,7 +251,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Petri.tga"
+				large="gfx/leaders/FRA/FRA_Petri.png"
 			}
 		}
 		corps_commander={
@@ -270,7 +270,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Manhes.tga"
+				large="gfx/leaders/FRA/FRA_Manhes.png"
 			}
 		}
 		corps_commander={
@@ -289,7 +289,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Charles_Tillon.tga"
+				large="gfx/leaders/FRA/FRA_Charles_Tillon.png"
 			}
 		}
 		navy_leader={
@@ -308,7 +308,7 @@ characters={
 				small=""
 			}
 			army={
-				large="gfx/leaders/FRA/FRA_Charles_Tillon.tga"
+				large="gfx/leaders/FRA/FRA_Charles_Tillon.png"
 			}
 		}
 		navy_leader={

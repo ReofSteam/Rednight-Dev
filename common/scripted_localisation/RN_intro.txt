@@ -52,5 +52,11 @@ defined_text = {
 		original_tag = PRS
 		}
 		localization_key = "GFX_intro_PRS"
-	}		
+	}
+	text = {
+		trigger = {
+		original_tag = INS
+		}
+		localization_key = "GFX_intro_INS"
+	}	
 }
