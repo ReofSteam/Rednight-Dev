@@ -258,7 +258,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Qou    = { #submarine program
+		NBP_Quo   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -268,7 +268,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Liberal = { #submarine program
+		NBP_Liberal = { #Limited Liberalization
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -281,7 +281,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Enyerprice = { #submarine program
+		NBP_Enterprice = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -352,7 +352,6 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		
 		######
 }
 }
