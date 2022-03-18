@@ -33,8 +33,8 @@ focus_tree = {
 			factor = 1
 		}
 	}
-###############
-#Focus for Industrial Expansion
+  ###############
+ #Focus for Industrial Expansion
 	focus = {
 		id = ENG_industrial_expansion
 		icon = GFX_goal_unknown
@@ -51,6 +51,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+				 add_ideas = NHS_Expansion
+			}
 	}
 
 	#Focus for NHS expansion
@@ -81,6 +84,9 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  NBP_steady	}
 		}
 	}
 
@@ -116,6 +122,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = {  NBP_FOB }
+		}
 	}
 
 	#Focus for Fishing Industry Expansion
@@ -144,6 +153,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		add_ideas = {
+			NBP_Quo
+		}
 	}
 
 	#Focus for Bureaucratic Economy
@@ -162,6 +174,9 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  NBP_Bureaucratic }
 		}
 	}
 
@@ -183,6 +198,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -50
+			add_ideas = {  NBP_Liberal }
 		}
 	}
 
@@ -198,6 +214,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = {  NBP_Centralized	}
+		}
 	}
 
 	#Focus for Mixed Economy
@@ -211,6 +230,11 @@ focus_tree = {
 		prerequisite = { focus = ENG_national_bourgeoisie_initiative }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  
+				NBP_mixed
+			}
 		}
 	}
 
@@ -260,6 +284,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -100
+			add_ideas = {  
+				NBP_Enterprice
+			}
 		}
 	}
 
@@ -274,6 +301,11 @@ focus_tree = {
 		prerequisite = { focus = ENG_new_britain_plan }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  
+				NBP_NBI
+			}
 		}
 	}
 
@@ -399,6 +431,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = {  
+				NBP_Middle
+			}
+		}
 	}
 
 	#Focus for A Professional Workforce
@@ -412,6 +449,12 @@ focus_tree = {
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  
+				NBP_Spherehead_indsutry_Professional_Workforce
+				NBP_Professional_Workfoce
+			}
 		}
 	}
 
@@ -449,6 +492,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			add_ideas = {  
+				NBP_FOOD_SELF_SUF
+			}
+		}
 	}
 
 	#Focus for British Railway Collective
@@ -465,6 +513,9 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			add_ideas = {  NBP_RAILROAD }
 		}
 	}
 
