@@ -328,7 +328,7 @@ ideas = {
 			removal_cost = -1
 		}
 		
-		NBP_Spherehead_indsutry_Professional_Workforce:  = { #submarine program
+		NBP_Spherehead_indsutry_Professional_Workforce = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -340,7 +340,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_postwarressecision:  = { #submarine program
+		NBP_postwarressecision  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
