@@ -7,9 +7,9 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				conscription_factor = -0.1
-				army_morale_factor = -0.1
-				planning_speed = 0.5
+			war_support_factor = 0.05
+			stability_factor = 0.05
+
 			}
 			removal_cost = -1
 			picture = ENG_army_of_germany
@@ -33,9 +33,11 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				conscription_factor = -0.1
-				army_morale_factor = -0.1
-				planning_speed = 0.5
+				add_opinion_modifier = {
+					target = FRA
+					modifier = medium_decrease
+					}
+
 			}
 			removal_cost = -1
 			picture = ENG_army_of_germany
@@ -46,13 +48,53 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				conscription_factor = -0.1
-				army_morale_factor = -0.1
-				planning_speed = 0.5
+				consumer_goods_factor = 0.05
+
 			}
 			removal_cost = -1
 			picture = ENG_food_import
 		}		
+		ENG_Import Dependency_FOB = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = -0.02
+			industrial_capacity_factory = 0.05
+			}
+			removal_cost = -1
+		}
+		ENG_Import Dependency_FOB = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = 0.03
+			}
+			removal_cost = -1
+		}
+		ENG_Import Dependency_fishing = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = -0.02
+			}
+			removal_cost = -1
+		}
+		ENG_Import Dependency_towards_food_ss = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			consumer_goods_factor = -0.02
+			}
+			removal_cost = -1
+		}
 		
 		ENG_interceptior_program = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
@@ -157,6 +199,17 @@ ideas = {
 			}
 			modifier = {
 			war_support_factor = 0.05
+			}
+			removal_cost = -1
+		}
+		ENG_NBP_fishing = { #interceptor program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+			monthly_population = 0.05
+
 			}
 			removal_cost = -1
 		}
@@ -344,9 +397,10 @@ ideas = {
 				always = no
 			}
 			modifier = {
-			production_speed_buildings_factor = 0.5 
+			consumer_goods_factor  = 0.5 
 			civilian_factory_use = -.5
-			stability_factor = 0.5
+			stability_factor = -0.10
+			production_speed_buildings_factor = -0.5 
 
 
 			}
