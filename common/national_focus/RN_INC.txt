@@ -1,0 +1,23 @@
+focus_tree = {
+	id = INC
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = INC
+		}
+	}
+	#Focus for Invite Red Aid
+	focus = {
+		id = FOZ_invite_red_aid
+		icon = GFX_goal_generic_soviet_construction
+		x = 16
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FOZ_coordinate_wiith_hamburg }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ }

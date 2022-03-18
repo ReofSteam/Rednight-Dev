@@ -292,9 +292,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_national_labour_victory 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}
@@ -315,9 +313,7 @@ focus_tree = {
 		mutually_exclusive = { 
 			focus = ENG_english_socialist_victory 
 		}
-		mutually_exclusive = { 
-			focus = ENG_ 
-		}
+
 		ai_will_do = {
 			factor = 1
 		}
