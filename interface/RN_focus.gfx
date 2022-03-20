@@ -764,4 +764,45 @@ spriteTypes = {
 		name = "GFX_RUS_patriotic_cult"
 		texturefile = "gfx/interface/goals/RUS/RUS_patriotic_cult.tga"
 	}	
+############Spain
+    SpriteType = { 
+		name = "GFX_CNT_a_national_revolution"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_a_national_revolution.png"
+	}	
+	SpriteType = { 
+		name = "GFX_CNT_cortes_signing"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_cortes_signing.png"
+	}	
+	SpriteType = { 
+		name = "GFX_CNT_Change_in_course"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_Change_in_course.png"
+	}	
+	SpriteType = { 
+		name = "GFX_CNT_Check_on_the_Army"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_Check_on_the_Army.png"
+	}	
+	SpriteType = { 
+		name = "GFX_CNT_Diaz_final_hours"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_Diaz_final_hours.png"
+	}
+	SpriteType = { 
+		name = "GFX_CNT_keep_the_streets_safe"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_keep_the_streets_safe.png"
+	}
+	SpriteType = { 
+		name = "GFX_CNT_let_the_people_choose"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_let_the_people_choose.png"
+	}
+	SpriteType = { 
+		name = "GFX_CNT_More_of_the_same"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_More_of_the_same.png"
+	}
+	SpriteType = { 
+		name = "GFX_CNT_Talk_with_the_French"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_Talk_with_the_French.png"
+	}
+	SpriteType = { 
+		name = "GFX_CNT_What_it_was_meant_to_be"
+		texturefile = "gfx/interface/goals/CNT/GFX_CNT_What_it_was_meant_to_be.png"
+	}
 }

@@ -1,0 +1,143 @@
+focus_tree = {
+	id = spanish-focus-tree
+	continuous_focus_position = { x = 530 y = 1180 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CNT
+		}
+	}
+	#Nearing his end
+	focus = {
+		id = CNT_nearing_his_end
+		icon = GFX_CNT_Diaz_final_hours
+		x = 3
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Keep the streets safe
+	focus = {
+		id = CNT_keep_the_streets_safe
+		icon = GFX_CNT_keep_the_streets_safe
+		x = 4
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_nearing_his_end  }
+	}
+
+	#Dissolve the cortes
+	focus = {
+		id = CNT_dissolve_the_cortes
+		icon = GFX_CNT_cortes_signing
+		x = 2
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_nearing_his_end  }
+	}
+
+	#Check on the Army
+	focus = {
+		id = CNT_check_on_the_army
+		icon = GFX_CNT_Check_on_the_Army
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_dissolve_the_cortes  }
+	}
+
+	#Talk with the French
+	focus = {
+		id = CNT_talk_with_the_french
+		icon = GFX_CNT_Talk_with_the_French
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_keep_the_streets_safe  }
+	}
+
+	#Let the people choose!
+	focus = {
+		id = CNT_letthepeoplechoose
+		icon = GFX_CNT_let_the_people_choose
+		x = 3
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_check_on_the_army  } prerequisite = { focus = CNT_talk_with_the_french  }
+	}
+
+	#What it was mean to be
+	focus = {
+		id = CNT_what_it_was_mean_to_be
+		icon = GFX_CNT_What_it_was_meant_to_be
+		x = 0
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_letthepeoplechoose  }
+		mutually_exclusive = { focus = CNT_a_change_of_course  } mutually_exclusive = { focus = CNT_more_of_the_same  } mutually_exclusive = { focus = CNT_anationalrevolution  }
+	}
+
+	#A change of course
+	focus = {
+		id = CNT_a_change_of_course
+		icon = GFX_CNT_Change_in_course
+		x = 2
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_letthepeoplechoose  }
+		mutually_exclusive = { focus = CNT_what_it_was_mean_to_be  } mutually_exclusive = { focus = CNT_more_of_the_same  } mutually_exclusive = { focus = CNT_anationalrevolution  }
+	}
+
+	#More of the same
+	focus = {
+		id = CNT_more_of_the_same
+		icon = GFX_CNT_More_of_the_same
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_letthepeoplechoose  }
+		mutually_exclusive = { focus = CNT_what_it_was_mean_to_be  } mutually_exclusive = { focus = CNT_a_change_of_course  } mutually_exclusive = { focus = CNT_anationalrevolution  }
+	}
+
+	#A national "revolution"
+	focus = {
+		id = CNT_anationalrevolution
+		icon = GFX_CNT_a_national_revolution
+		x = 6
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = CNT_letthepeoplechoose  }
+		mutually_exclusive = { focus = CNT_what_it_was_mean_to_be  } mutually_exclusive = { focus = CNT_a_change_of_course  } mutually_exclusive = { focus = CNT_more_of_the_same  }
+	}
+
+	
