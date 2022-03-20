@@ -53,6 +53,34 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = INC_adhere_to_the_paris_charter
+		icon = GFX_goal_generic_soviet_construction
+		x = 8
+		y = 3
+		cost = 10
+		available_if_capitulated = yes			
+		prerequisite = {
+			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_against_chauvinism_against_dai_viet
+		icon = GFX_goal_generic_soviet_construction
+		x = 8
+		y = 4
+		cost = 10
+		available_if_capitulated = yes			
+		prerequisite = {
+			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}				
+	focus = {
 		id = INC_defend_the_republican_dream
 		icon = GFX_goal_generic_soviet_construction
 		x = 12
