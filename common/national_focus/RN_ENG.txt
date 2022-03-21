@@ -190,13 +190,13 @@ focus_tree = {
 			focus = ENG_rural_renovation 
 		}
 		prerequisite = { 
-			focus = ENG_the_english_way_of_life 
+			focus = ENG_the_ENG_way_of_life 
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_FOB }
+			add_ideas = {  NBP_fob }
 		}
 	}
 
@@ -550,7 +550,7 @@ focus_tree = {
 
 	#Focus for The English way of life
 	focus = {
-		id = ENG_the_english_way_of_life
+		id = ENG_the_ENG_way_of_life
 		icon = GFX_goal_unknown
 		x = 18
 		y = 3
@@ -584,7 +584,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {  
-				add_ideas = NBP_FOOD_SELF_SUF
+				add_ideas = NBP_food_self_suf
 				remove_ideas = NBP_Import_Dependence
 			}
 		}
