@@ -461,4 +461,14 @@ spriteType = {
 		name = "GFX_idea_CNT_anarchists_purged"
 		texturefile = "gfx/interface/ideas/CNT/CNT_purge.png"
 	}	
+###########SER
+    spriteType = {
+	    name = "GFX_idea_SER_yugoslavia_disunity"
+		texturefile = "gfx/interface/ideas/SER/SER_yugoslavia_disunity.png"
+	}
+     spriteType = {
+	    name = "GFX_idea_SER_independent_power"
+		texturefile = "gfx/interface/ideas/SER/SER_independent_power.png"
+	}		
+	
 }
