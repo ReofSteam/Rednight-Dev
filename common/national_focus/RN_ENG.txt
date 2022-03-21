@@ -190,7 +190,7 @@ focus_tree = {
 			focus = ENG_rural_renovation 
 		}
 		prerequisite = { 
-			focus = ENG_the_ENG_way_of_life 
+			focus = ENG_way_of_life_focus
 		}
 		ai_will_do = {
 			factor = 1
@@ -550,7 +550,7 @@ focus_tree = {
 
 	#Focus for The English way of life
 	focus = {
-		id = ENG_the_ENG_way_of_life
+		id = ENG_way_of_life_focus
 		icon = GFX_goal_unknown
 		x = 18
 		y = 3
@@ -561,7 +561,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support = 0.05
+			add_ideas = {
+				ENG_way_of_life
+			}
 		}
 	}
 
