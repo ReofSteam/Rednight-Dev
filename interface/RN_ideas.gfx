@@ -447,5 +447,18 @@ spriteType = {
 	spriteType = {
 		name = "GFX_idea_JAP_native_cooperation"
 		texturefile = "gfx/interface/ideas/PHI/JAP_native_cooperation.tga"
-	}			
+	}
+###########CNT
+    spriteType = {
+		name = "GFX_idea_CNT_political_divide"
+		texturefile = "gfx/interface/ideas/CNT/CNT_political_divide.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_CNT_recover_from_war"
+		texturefile = "gfx/interface/ideas/CNT/CNT_recover_from_war.png"
+	}
+    spriteType = {
+		name = "GFX_idea_CNT_anarchists_purged"
+		texturefile = "gfx/interface/ideas/CNT/CNT_purge.png"
+	}	
 }
