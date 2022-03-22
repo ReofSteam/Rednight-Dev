@@ -90,6 +90,12 @@ defined_text = {
 				original_tag = CNT
 		}
 		localization_key = news_headline_11
-	}	
+	}
+	text = {
+		trigger = {
+				original_tag = GRE
+		}
+		localization_key = news_headline_12
+	}		
 
 }

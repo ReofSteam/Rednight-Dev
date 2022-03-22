@@ -437,4 +437,73 @@ characters={
 			id=-1
 		}
 	}
+####End of Starting Leaders#######
+	
+	FRA_auguste_lecoeur={
+		name="Auguste Lecoeur"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/FRA_lecoeur.png"
+			}
+		    army = {
+		 		small = "gfx/ministers/FRA/FRA_lecoeur_minister.png"
+			}			
+		}
+		country_leader={
+			desc="POLITICS_BENOIT_FRACHON_DESC"
+			ideology=revolutionary_socialism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = minister_interior
+			idea_token = FRA_auguste_lecoeur
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = FRA
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
+	}
+	FRA_pierre_cot ={
+		name="Pierre Cot"
+		portraits={
+		    army = {
+		 		small = "gfx/ministers/FRA/FRA_cot_minister.png"
+			}			
+		}
+		country_leader={
+			desc="POLITICS_BENOIT_FRACHON_DESC"
+			ideology=revolutionary_socialism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		advisor={
+			slot = minister_foreign
+			idea_token = FRA_pierre_cot
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = FRA
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+		
+	}		
 }
