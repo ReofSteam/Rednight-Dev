@@ -4,7 +4,7 @@ ideas = {
 	country = {
 		MAG_merina_dominance = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_merina_dominance"}
-			picture = 
+			picture = MAG_merina_dominance
 			modifier = {
 				stability_factor = -0.15
 				political_power_gain = -0.05
@@ -15,7 +15,7 @@ ideas = {
 		}
 		MAG_ongoing_westernization = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_ongoing_westernization"}
-			picture = 
+			picture = MAG_ongoing_westernization
 			modifier = {
 				stability_factor = -0.05
 				conscription_factor = -0.2
@@ -25,7 +25,7 @@ ideas = {
 		}
 		MAG_legacy_teacher = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_legacy_teacher"}
-			picture = 
+			picture = MAG_legacy_teacher
 			modifier = {
 				stability_weekly = 0.01
 				army_core_attack_factor = 0.1

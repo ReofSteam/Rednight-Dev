@@ -483,5 +483,18 @@ spriteType = {
 	    name = "GFX_idea_BUL_substantial_turkish_minority"
 		texturefile = "gfx/interface/ideas/BUL/BUL_turkish_minority.png"
 	}
+###########MAG
+    spriteType = {
+	    name = "GFX_idea_MAG_legacy_teacher"
+		texturefile = "gfx/interface/ideas/MAG/MAG_legacy_teacher.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_MAG_merina_dominance"
+		texturefile = "gfx/interface/ideas/MAG/MAG_merina_dominance.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_MAG_ongoing_westernization"
+		texturefile = "gfx/interface/ideas/MAG/MAG_ongoing_westernization.png"
+	}
 	
 }
