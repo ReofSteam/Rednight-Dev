@@ -37,7 +37,9 @@ SER_national_corporatist_DEF:0 "the Serbocroatian Kingdom"
  
 ### Ideas ###
 SER_yugoslav_dilemma:0 "The Yugoslav Dilemma"
+SER_yugoslav_dilemma_desc:0 "While the King of Yugoslavia; Alexander, might be one of the few 'Yugoslavs' in the country...quite simply, those are a minority. Most of the nation refer to themselves as Serbs, Croats, Macedonians and in extreme cases even Bosniaks. This has become a truly dangerous environment, where, lest the nationalist tendencies of the nation are suppressed, or a truly Yugoslav identity isn't created...our country may just collapse under the right circumstances."
 SER_balkan_pillar:0 "Balkan Pilla"
+SER_balkan_pillar_desc:0 "Yugoslavia is one of the very few last democracies in the Balkans. A part of the Russian 'bloc' it is perhaps the most sovereign of the said, leading an; at times; completely different foreign policy to Russia. This has also led to somewhat of an estrangement with the rest of the Russian block. The only two countries which are truly friends to Yugoslavia, are Albania and Bulgaria. They are newly born brothers; made anew during the Balkan wars and Serbia's eventual victory over Bulgaria and Albania."
 SER_agrarian_society:0 "Agarian Society"
  
 ### Flags ###

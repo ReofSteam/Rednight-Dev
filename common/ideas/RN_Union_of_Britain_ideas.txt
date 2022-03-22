@@ -141,7 +141,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		English_way_of_life = { #submarine program
+		ENG_way_of_life = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -162,7 +162,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_FOB = { #submarine program
+		NBP_fob = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -174,7 +174,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_FOOD_SELF_SUF = { #submarine program
+		NBP_food_self_suf = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -185,7 +185,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_RAILROAD = { #submarine program
+		NBP_railroad = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no

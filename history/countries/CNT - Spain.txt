@@ -26,9 +26,9 @@ set_technology = {
 }
 
 add_ideas = {
-CNT_civil_war_recovery
 CNT_political_divide
 CNT_legacy_of_the_purge
+CNT_civil_war_recovery
 
 }
 
@@ -60,7 +60,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "José Díaz"
-        picture = "gfx/leaders/CNT/CNT_Jose_Diaz.tga"
+      picture = "gfx/leaders/CNT/CNT_Jose_Diaz.png"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {

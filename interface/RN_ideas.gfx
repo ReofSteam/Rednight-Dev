@@ -447,5 +447,54 @@ spriteType = {
 	spriteType = {
 		name = "GFX_idea_JAP_native_cooperation"
 		texturefile = "gfx/interface/ideas/PHI/JAP_native_cooperation.tga"
-	}			
+	}
+###########CNT
+    spriteType = {
+		name = "GFX_idea_CNT_political_divide"
+		texturefile = "gfx/interface/ideas/CNT/CNT_political_divide.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_CNT_recover_from_war"
+		texturefile = "gfx/interface/ideas/CNT/CNT_recover_from_war.png"
+	}
+    spriteType = {
+		name = "GFX_idea_CNT_anarchists_purged"
+		texturefile = "gfx/interface/ideas/CNT/CNT_purge.png"
+	}	
+###########SER
+    spriteType = {
+	    name = "GFX_idea_SER_yugoslavia_disunity"
+		texturefile = "gfx/interface/ideas/SER/SER_yugoslavia_disunity.png"
+	}
+     spriteType = {
+	    name = "GFX_idea_SER_independent_power"
+		texturefile = "gfx/interface/ideas/SER/SER_independent_power.png"
+	}		
+###########BUL
+    spriteType = {
+	    name = "GFX_idea_BUL_the_last_central_power"
+		texturefile = "gfx/interface/ideas/BUL/BUL_the_last_central_power.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_BUL_early_stages_of_industrialisation"
+		texturefile = "gfx/interface/ideas/BUL/BUL_early_stages_of_industrialisation.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_BUL_substantial_turkish_minority"
+		texturefile = "gfx/interface/ideas/BUL/BUL_turkish_minority.png"
+	}
+###########MAG
+    spriteType = {
+	    name = "GFX_idea_MAG_legacy_teacher"
+		texturefile = "gfx/interface/ideas/MAG/MAG_legacy_teacher.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_MAG_merina_dominance"
+		texturefile = "gfx/interface/ideas/MAG/MAG_merina_dominance.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_MAG_ongoing_westernization"
+		texturefile = "gfx/interface/ideas/MAG/MAG_ongoing_westernization.png"
+	}
+	
 }

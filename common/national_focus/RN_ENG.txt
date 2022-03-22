@@ -190,13 +190,13 @@ focus_tree = {
 			focus = ENG_rural_renovation 
 		}
 		prerequisite = { 
-			focus = ENG_the_english_way_of_life 
+			focus = ENG_way_of_life_focus
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_FOB }
+			add_ideas = {  NBP_fob }
 		}
 	}
 
@@ -211,6 +211,23 @@ focus_tree = {
 		prerequisite = { focus = ENG_rural_renovation }
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+			136 = { add_building_construction = {
+	type = dockyard
+	level = 1
+	instant_build = yes
+}
+		} 
+		121 = { add_building_construction = {
+	type = dockyard
+	level = 1
+	instant_build = yes
+}
+		
+	}
+	add_opinion_modifier = { target = NOR modifier = medium_decrease }
+
 		}
 	}
 
@@ -533,7 +550,7 @@ focus_tree = {
 
 	#Focus for The English way of life
 	focus = {
-		id = ENG_the_english_way_of_life
+		id = ENG_way_of_life_focus
 		icon = GFX_goal_unknown
 		x = 18
 		y = 3
@@ -544,7 +561,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_war_support = 0.05
+			add_ideas = {
+				ENG_way_of_life
+			}
 		}
 	}
 
@@ -566,8 +585,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_FOOD_SELF_SUF
+			swap_ideas = {  
+				add_ideas = NBP_food_self_suf
+				remove_ideas = NBP_Import_Dependence
 			}
 		}
 	}
