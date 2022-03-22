@@ -62,4 +62,15 @@ create_country_leader = {
 	ideology = social_conservative_subtype
 	traits = { }
 }
+create_corps_commander = {
+	name = "Milorad Petrović"
+	portrait_path = "gfx/leaders/SER/SER_Petrović.png"
+	traits = { }
+	skill = 3
+	id = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
 
