@@ -83,7 +83,7 @@ spriteTypes = {
 		name = "GFX_idea_PRS_willy_third_spirit"
 		texturefile = "gfx/interface/ideas/PRS/PRS_willy_third_spirit.tga"
 	}	
-	#########Indochina
+#########Indochina
  		spriteType = {
 		name = "GFX_idea_INC_return_to_fatherland"
 		texturefile = "gfx/interface/ideas/INC/INC_return_to_fatherland.tga"
@@ -425,6 +425,10 @@ spriteType = {
 	spriteType = {
 		name = "GFX_idea_GEA_raider_struck"
 		texturefile = "gfx/interface/ideas/generic/generic_blackfleet.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_outdated_agrarian"
+		texturefile = "gfx/interface/ideas/generic/outdated_agrarian.png"
 	}
 ########Japan
 	spriteType = {
