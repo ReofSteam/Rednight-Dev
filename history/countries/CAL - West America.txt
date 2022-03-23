@@ -62,8 +62,8 @@ add_to_faction = ADC
 
 add_ideas = {
 	#extensive_conscription
-	America_new_year_peace
 	CAL_prosperity
+      America_new_year_peace
 	CAL_the_caravan
 	CAL_covenant
 }
