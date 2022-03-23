@@ -97,72 +97,20 @@ containerWindowType = {
 			background = {
 				name = "Background"
 				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
-			}
-		    instantTextBoxType = {
-			name = "intro_menu_text_fra"
+			}	
+		    instantTextBoxType = {  
+			name = "intro_menu_nation_text"
 			position = { x = 10 y = 10 }
 			font = "rn_viasans_15"
 			borderSize = {x = 0 y = 0}
-			text = "RN_intro_fra_1"
+			text = "[GetIntroText]"
 			orientation = upper_left
 			maxWidth = 560
-			maxHeight = 1000
+			maxHeight = 1750
 			fixedsize = yes	
 			format = left
 			scrollbarType = "standardtext_slider"
-		}		
-		    instantTextBoxType = {
-			name = "intro_menu_text_eng"
-			position = { x = 10 y = 10 }
-			font = "rn_viasans_15"
-			borderSize = {x = 0 y = 0}
-			text = "RN_intro_eng_1"
-			orientation = upper_left
-			maxWidth = 560
-			maxHeight = 1000
-			fixedsize = yes	
-			format = left
-			scrollbarType = "standardtext_slider"
-		}		
-		    instantTextBoxType = {
-			name = "intro_menu_text_ger"
-			position = { x = 10 y = 10 }
-			font = "rn_viasans_15"
-			borderSize = {x = 0 y = 0}
-			text = "RN_intro_ger_1"
-			orientation = upper_left
-			maxWidth = 560
-			maxHeight = 1000
-			fixedsize = yes	
-			format = left
-			scrollbarType = "standardtext_slider"
-		}		
-		    instantTextBoxType = {
-			name = "intro_menu_text_rus"
-			position = { x = 10 y = 10 }
-			font = "rn_viasans_15"
-			borderSize = {x = 0 y = 0}
-			text = "RN_intro_rus_1"
-			orientation = upper_left
-			maxWidth = 560
-			maxHeight = 1000
-			fixedsize = yes	
-			format = left
-			scrollbarType = "standardtext_slider"
-		}		
-		    instantTextBoxType = {
-			name = "intro_menu_text_prs"
-			position = { x = 10 y = 10 }
-			font = "rn_viasans_15"
-			borderSize = {x = 0 y = 0}
-			text = "RN_intro_prs_1"
-			orientation = upper_left
-			maxWidth = 560
-			maxHeight = 700
-			fixedsize = yes	
-			format = left
-			scrollbarType = "standardtext_slider"
-		}				
+		}					
 #######PARDAN Text
 		    instantTextBoxType = {
 			name = "intro_menu_text_pardan"

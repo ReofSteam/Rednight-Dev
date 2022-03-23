@@ -28,6 +28,40 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetIntroText
+	text = {
+		trigger = {
+		original_tag = FRA
+		}
+		localization_key = "RN_intro_fra_1"
+	}
+	text = {
+		trigger = {
+		original_tag = ENG
+		}
+		localization_key = "RN_intro_eng_1"
+	}
+	text = {
+		trigger = {
+		original_tag = RUS
+		}
+		localization_key = "RN_intro_rus_1"
+	}	
+	text = {
+		trigger = {
+		original_tag = PRS
+		}
+		localization_key = "RN_intro_prs_1"
+	}
+	text = {
+		trigger = {
+		original_tag = INS
+		}
+		localization_key = "RN_intro_ins_1"
+	}	
+}
+
+defined_text = {
 	name = GetIntroPic
 	text = {
 		trigger = {
