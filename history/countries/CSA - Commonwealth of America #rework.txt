@@ -5,12 +5,12 @@ oob = "CSA"
 
 ### Cabinet 
 add_ideas = {
-	CSA_internal_war
-	America_new_year_peace
-	CSA_ruins
 	CSA_divided_goverment
+      America_new_year_peace
+	CSA_ruins
 	CSA_refugee_crisis
 	CSA_refugee_crisis_improved
+      CSA_internal_war
 }
 
 

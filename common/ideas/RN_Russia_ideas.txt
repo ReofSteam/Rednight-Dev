@@ -169,7 +169,7 @@ production_factory_max_efficiency_factor = 0.10
 	country = {
 		RUS_outdated_agrarian_production = { 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_outdated_agrarian_production"}
-			picture = bad_military
+			picture = outdated_agrarian
 			modifier = {
 			production_speed_buildings_factor = -0.05
 			consumer_goods_factor = 0.10
@@ -180,7 +180,7 @@ production_factory_max_efficiency_factor = 0.10
 	country = {
 		RUS_weak_economy = { 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_weak_economy"}
-			picture = GFX_idea_economy_bad
+			picture = economy_bad
 			modifier = {
 			production_speed_industrial_complex_factor = -0.1
             production_factory_max_efficiency_factor = -0.05
@@ -192,7 +192,7 @@ production_factory_max_efficiency_factor = 0.10
 country = {
 		RUS_the_enemy_among_us = { 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_the_enemy_among_us"}
-			picture = GFX_idea_economy_bad
+			picture = economy_bad
 			modifier = {
 			stability_factor = -0.05
 			}

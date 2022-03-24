@@ -29,9 +29,9 @@ set_technology = {
 
 add_ideas = {
 	#medium_economy
-	CAN_west_east_divide
 	CAN_great_northern_militia
 	CAN_spared_from_the_war
+      CAN_west_east_divide
 }
 
 set_politics = {

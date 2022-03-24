@@ -20,8 +20,8 @@ set_politics = {
 }
 
 add_ideas = {
-America_new_year_peace
 TEX_gun_and_rose
+America_new_year_peace
 TEX_anti_long
 TEX_soldiers_nation
 }
