@@ -101,8 +101,11 @@ CNT_anationalrevolution_desc:0 "WIP"
 
 ### Ideas ###
 CNT_civil_war_recovery:0 "Recovery from Civil War"
+CNT_civil_war_recovery_desc:0 "The Spanish Civil War was the biggest nation-wide disaster to probably ever happen in Spain, families were divided, Fields were burnt, villages were abandoned and cities became mere rocks on the ground. Even 11 years later the war still affects many lives, The economy, (though it has recovered) still is in the level it was before the 1936 economic crisis and reconstruction still isn't finished. But on a societal level the war's toll is even heavier, prisoners were tortured, children were abandoned and who knows how many unidentified dead bodies still lie in fields or mass graves."
 CNT_political_divide:0 "Political Divide"
+CNT_political_divide_desc:0 "In 1937, as the war was reaching its destructive peak, Anarchists and Republicans banded together in what they called the "Popular Front" and merged their states in the "Spanish People's Republic". thirteen years have passed since that moment, and the Popular Front is growing weaker every day, the democratic coalition is becoming more aggressive, The POUM is sucking the blood out of the USE and Paramilitary groups have started using mafioso tactics in order to intimidate the citizenship into submission."
 CNT_legacy_of_the_purge:0 "Anarchists Purged"
+CNT_legacy_of_the_purge_desc:0 "Since the coup in 1942 the government has tried to suppress any Anarchist prevalence in Spanish society, first with the imprisonment and assassination of the main Anarchist leaders and later with several "party purges" in which dissidents within the party were kicked and forced to move into other parties. However, this didn't work as well as it was to be expected and in 1946 an anarchist terrorist organisation was discovered while they were planning to commit a bombing in Barcelona. This event sent fear through the Spanish society and many fear that an anarchist uprising might happen someday."
 
 ### Flags ###
 
