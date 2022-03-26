@@ -70,14 +70,14 @@ create_country_leader = {
 
 
 create_field_marshal = {
-	name = "José Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Francisco Franco"
+	portrait_path = "gfx/leaders/CNT/CNT_Francisco_Franco.png"
 	traits = { defensive_doctrine }
-	skill = 2
-    attack_skill = 1
+	skill = 3
+    attack_skill = 2
     defense_skill = 3
     planning_skill = 2
-    logistics_skill = 1
+    logistics_skill = 2
 }
 
 

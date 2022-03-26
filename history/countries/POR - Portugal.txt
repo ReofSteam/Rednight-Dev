@@ -33,13 +33,13 @@ set_politics = {
 }
 
 set_popularities = {
-    nationalist_socialism = 33
+    nationalist_socialism = 27
     revolutionary_socialism = 0
     syndicalism = 11
     moderate_socialist = 7
     social_democrat = 3
     social_liberal = 8
-    social_conservative = 7
+    social_conservative = 10
     authoritarian_democrat = 4
     autocratic = 16
     ultraconservative = 14
