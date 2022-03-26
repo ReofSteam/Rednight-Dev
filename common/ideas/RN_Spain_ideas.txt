@@ -23,7 +23,8 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_legacy_of_the_purge"}
 			picture = CNT_anarchists_purged
 			modifier = {
-				stability_factor = -0.05					
+				stability_factor = -0.05
+                        political_power_gain = 0.1					
 			}
 		}	
 	}
