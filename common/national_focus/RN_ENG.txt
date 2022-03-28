@@ -85,7 +85,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_steady	}
+			add_ideas = { NBP_steady}
+			country_event = { id = Uob.9 hours = 1 }
 		}
 	}
 
@@ -196,6 +197,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = {  NBP_fob }
+			country_event = { id = Uob.4 hours = 1 }
 		}
 	}
 
@@ -357,6 +359,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = Uob.2 hours = 1 }
+		}
 	}
 
 	#Focus for Enterprise Financial Autonomy
@@ -395,6 +400,7 @@ focus_tree = {
 			add_ideas = {  
 				NBP_NBI
 			}
+			country_event = { id = Uob.7 hours = 1 }
 		}
 	}
 
@@ -506,6 +512,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
+			country_event = { id = Uob.1 hours = 1 }
+		}
 	}
 
 	#Focus for Middle Class Socialism
@@ -524,6 +533,7 @@ focus_tree = {
 			add_ideas = {  
 				NBP_Middle
 			}
+			country_event = { id = Uob.8 hours = 1 }
 		}
 	}
 
@@ -563,6 +573,7 @@ focus_tree = {
 			add_ideas = {
 				ENG_way_of_life
 			}
+			country_event = { id = Uob.3 hours = 1 }
 		}
 	}
 
@@ -588,6 +599,7 @@ focus_tree = {
 				add_ideas = NBP_food_self_suf
 				remove_ideas = NBP_Import_Dependence
 			}
+			country_event = { id = Uob.5 hours = 1 }
 		}
 	}
 
@@ -607,7 +619,8 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_RAILROAD }
+			add_ideas = { NBP_RAILROAD }
+			country_event = { id = Uob.6 hours = 1 }
 		}
 	}
 
