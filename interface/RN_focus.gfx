@@ -180,7 +180,335 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/generic/Attack_SAF.tga"
     }			
 	
-	###ENG
+######ENG
+    SpriteType = { 
+        name = "ENG_all_your_valleys_call_you"
+        texturefile = "gfx/interface/goals/ENG/ENG_all_your_valleys_call_you.png"
+	}
+	SpriteType = { 
+        name = "ENG_britannia_rules_the_waves"
+        texturefile = "gfx/interface/goals/ENG/ENG_britannia_rules_the_waves.png"
+	}
+	SpriteType = { 
+        name = "ENG_british_cultural_revolution"
+        texturefile = "gfx/interface/goals/ENG/ENG_british_cultural_revolution.png"
+	}
+	SpriteType = { 
+        name = "ENG_british_home_defense"
+        texturefile = "gfx/interface/goals/ENG/ENG_british_home_defense.png"
+	}
+	SpriteType = { 
+        name = "ENG_british_railway_collective"
+        texturefile = "gfx/interface/goals/ENG/ENG_british_railway_collective.png"
+	}
+	SpriteType = { 
+        name = "ENG_british_workers_government"
+        texturefile = "gfx/interface/goals/ENG/ENG_british_workers_government.png"
+	}
+	SpriteType = { 
+        name = "ENG_centralised_economy"
+        texturefile = "gfx/interface/goals/ENG/ENG_centralised_economy.png"
+	}
+	SpriteType = { 
+        name = "ENG_cog_bunkers"
+        texturefile = "gfx/interface/goals/ENG/ENG_cog_bunkers.png"
+	}
+	SpriteType = { 
+        name = "ENG_combat_nationalism"
+        texturefile = "gfx/interface/goals/ENG/ENG_combat_nationalism.png"
+	}
+	SpriteType = { 
+        name = "ENG_control_the_unions"
+        texturefile = "gfx/interface/goals/ENG/ENG_control_the_unions.png"
+	}
+	SpriteType = { 
+        name = "ENG_department_of_internal_security"
+        texturefile = "gfx/interface/goals/ENG/ENG_department_of_internal_security.png"
+	}
+	SpriteType = { 
+        name = "ENG_destroy_english_romanticism"
+        texturefile = "gfx/interface/goals/ENG/ENG_destroy_english_romanticism.png"
+	}
+	SpriteType = { 
+        name = "ENG_destruction_of_the_regime"
+        texturefile = "gfx/interface/goals/ENG/ENG_destruction_of_the_regime.png"
+	}
+	SpriteType = { 
+        name = "ENG_english_socialist_victory"
+        texturefile = "gfx/interface/goals/ENG/ENG_english_socialist_victory.png"
+	}
+	SpriteType = { 
+        name = "ENG_european_navigation_and_guidance_network"
+        texturefile = "gfx/interface/goals/ENG/ENG_european_navigation_and_guidance_network.png"
+	}
+	SpriteType = { 
+        name = "ENG_expand_the_sas"
+        texturefile = "gfx/interface/goals/ENG/ENG_expand_the_sas.png"
+	}
+	SpriteType = { 
+        name = "ENG_exports_revolution"
+        texturefile = "gfx/interface/goals/ENG/ENG_exports_revolution.png"
+	}
+	SpriteType = { 
+        name = "ENG_helicopter_auxillary_forces"
+        texturefile = "gfx/interface/goals/ENG/ENG_helicopter_auxillary_forces.png"
+	}
+	SpriteType = { 
+        name = "ENG_home_isles_aerospace_defense_command"
+        texturefile = "gfx/interface/goals/ENG/ENG_home_isles_aerospace_defense_command.png"
+	}
+	SpriteType = { 
+        name = "ENG_industry_for_national_defense"
+        texturefile = "gfx/interface/goals/ENG/ENG_industry_for_national_defense.png"
+	}
+	SpriteType = { 
+        name = "ENG_interceptor_program"
+        texturefile = "gfx/interface/goals/ENG/ENG_interceptor_program.png"
+	}
+	SpriteType = { 
+        name = "ENG_jet_fighter_squadrons"
+        texturefile = "gfx/interface/goals/ENG/ENG_jet_fighter_squadrons.png"
+	}
+	SpriteType = { 
+        name = "ENG_light_tanks_and_amoured_vehicles_focus"
+        texturefile = "gfx/interface/goals/ENG/ENG_jet_fighter_squadrons.png"
+	}
+	SpriteType = { 
+        name = "ENG_london_peoples_court"
+        texturefile = "gfx/interface/goals/ENG/ENG_london_peoples_court.png"
+	}
+	SpriteType = { 
+        name = "ENG_maximist_victory"
+        texturefile = "gfx/interface/goals/ENG/ENG_maximist_victory.png"
+	}
+	SpriteType = { 
+        name = "ENG_mbt_focus"
+        texturefile = "gfx/interface/goals/ENG/ENG_mbt_focus.png"
+	}
+	SpriteType = { 
+        name = "ENG_memories_of_the_second_great_war"
+        texturefile = "gfx/interface/goals/ENG/ENG_memories_of_the_second_great_war.png"
+	}
+	SpriteType = { 
+        name = "ENG_mixed_economy"
+        texturefile = "gfx/interface/goals/ENG/ENG_mixed_economy.png"
+	}
+	SpriteType = { 
+        name = "ENG_mosleys_democratic_election"
+        texturefile = "gfx/interface/goals/ENG/ENG_mosleys_democratic_election.png"
+	}
+	SpriteType = { 
+        name = "ENG_national_bourgeoise_initiative"
+        texturefile = "gfx/interface/goals/ENG/ENG_national_bourgeoise_initiative.png"
+	}
+	SpriteType = { 
+        name = "ENG_national_labour_victory"
+        texturefile = "gfx/interface/goals/ENG/ENG_national_labour_victory.png"
+	}
+	SpriteType = { 
+        name = "ENG_new_britain_plan"
+        texturefile = "gfx/interface/goals/ENG/ENG_new_britain_plan.png"
+	}
+	SpriteType = { 
+        name = "ENG_noninterventionalism"
+        texturefile = "gfx/interface/goals/ENG/ENG_noninterventionalism.png"
+	}
+	SpriteType = { 
+        name = "ENG_north_sea_expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_north_sea_expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_nhs_expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_nhs_expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_o_england_arise"
+        texturefile = "gfx/interface/goals/ENG/ENG_o_england_arise.png"
+	}
+	SpriteType = { 
+        name = "ENG_operation_fork"
+        texturefile = "gfx/interface/goals/ENG/ENG_operation_fork.png"
+	}
+	SpriteType = { 
+        name = "ENG_operation_pendragon_ii"
+        texturefile = "gfx/interface/goals/ENG/ENG_operation_pendragon_ii.png"
+	}
+	SpriteType = { 
+        name = "ENG_operation_strongbow"
+        texturefile = "gfx/interface/goals/ENG/ENG_operation_strongbow.png"
+	}
+	SpriteType = { 
+        name = "ENG_operation_wilfred"
+        texturefile = "gfx/interface/goals/ENG/ENG_operation_wilfred.png"
+	}
+	SpriteType = { 
+        name = "ENG_over_your_face_a_web_of_lies"
+        texturefile = "gfx/interface/goals/ENG/ENG_over_your_face_a_web_of_lies.png"
+	}
+	SpriteType = { 
+        name = "ENG_personal_weapon_research"
+        texturefile = "gfx/interface/goals/ENG/ENG_personal_weapon_research.png"
+	}
+	SpriteType = { 
+        name = "ENG_plan_lily"
+        texturefile = "gfx/interface/goals/ENG/ENG_plan_lily.png"
+	}
+	SpriteType = { 
+        name = "ENG_plan_rose"
+        texturefile = "gfx/interface/goals/ENG/ENG_plan_rose.png"
+	}
+	SpriteType = { 
+        name = "ENG_plan_violet"
+        texturefile = "gfx/interface/goals/ENG/ENG_plan_violet.png"
+	}
+	SpriteType = { 
+        name = "ENG_project_northumberland"
+        texturefile = "gfx/interface/goals/ENG/ENG_project_northumberland.png"
+	}
+	SpriteType = { 
+        name = "ENG_proletarian_culture"
+        texturefile = "gfx/interface/goals/ENG/ENG_proletarian_culture.png"
+	}
+	SpriteType = { 
+        name = "ENG_question_of_political_warfare"
+        texturefile = "gfx/interface/goals/ENG/ENG_question_of_political_warfare.png"
+	}
+	SpriteType = { 
+        name = "ENG_red_atlantic_division"
+        texturefile = "gfx/interface/goals/ENG/ENG_red_atlantic_division.png"
+	}
+	SpriteType = { 
+        name = "ENG_revolutionary_guards_expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_revolutionary_guards_expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_scottish_coastal_defense"
+        texturefile = "gfx/interface/goals/ENG/ENG_scottish_coastal_defense.png"
+	}
+	SpriteType = { 
+        name = "ENG_set_the_sea_on_fire"
+        texturefile = "gfx/interface/goals/ENG/ENG_set_the_sea_on_fire.png"
+	}
+	SpriteType = { 
+        name = "ENG_southern_england_coastal_defense"
+        texturefile = "gfx/interface/goals/ENG/ENG_southern_england_coastal_defense.png"
+	}
+	SpriteType = { 
+        name = "ENG_standing_army_expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_standing_army_expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_strategic_warfare_assistance_bureau"
+        texturefile = "gfx/interface/goals/ENG/ENG_strategic_warfare_assistance_bureau.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_ages_yet_to_extinguish"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_ages_yet_to_extinguish.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_arsenal_of_england"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_arsenal_of_england.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_british_nationalities"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_british_nationalities.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_future_aerial_warfare_committee"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_future_aerial_warfare_committee.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_great_naval_reorganisation"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_great_naval_reorganisation.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_ocean_sparkling_lights"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_ocean_sparkling_lights.png"
+	}
+	SpriteType = { 
+        name = "ENG_the_principles_of_pacifism"
+        texturefile = "gfx/interface/goals/ENG/ENG_the_principles_of_pacifism.png"
+	}
+	SpriteType = { 
+        name = "ENG_will_you_disown_your_native_land"
+        texturefile = "gfx/interface/goals/ENG/ENG_will_you_disown_your_native_land.png"
+	}
+	SpriteType = { 
+        name = "ENG_winter_of_discontent"
+        texturefile = "gfx/interface/goals/ENG/ENG_winter_of_discontent.png"
+	}
+	SpriteType = { 
+        name = "ENG_womens_revolutionary_federation"
+        texturefile = "gfx/interface/goals/ENG/ENG_womens_revolutionary_federation.png"
+	}
+	SpriteType = { 
+        name = "ENG_your_harvest_shall_it_reap"
+        texturefile = "gfx/interface/goals/ENG/ENG_your_harvest_shall_it_reap.png"
+	}
+	SpriteType = { 
+        name = "ENG_Steady_as_she_goes"
+        texturefile = "gfx/interface/goals/ENG/ENG_Steady_as_she_goes.png"
+	}
+	SpriteType = { 
+        name = "ENG_rural_renovation"
+        texturefile = "gfx/interface/goals/ENG/ENG_rural_renovation.png"
+	}
+	SpriteType = { 
+        name = "ENG_Industrial_Expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_Industrial_Expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_fields_of_britain_campaign"
+        texturefile = "gfx/interface/goals/ENG/ENG_fields_of_britain_campaign.png"
+	}
+	SpriteType = { 
+        name = "ENG_fishing_industry_expansion"
+        texturefile = "gfx/interface/goals/ENG/ENG_fishing_industry_expansion.png"
+	}
+	SpriteType = { 
+        name = "ENG_safeguard_the_status_qou"
+        texturefile = "gfx/interface/goals/ENG/ENG_safeguard_the_status_qou.png"
+	}
+	SpriteType = { 
+        name = "ENG_bureaucratic_economy"
+        texturefile = "gfx/interface/goals/ENG/ENG_bureaucratic_economy.png"
+	}
+	SpriteType = { 
+        name = "ENG_limited_liberalization"
+        texturefile = "gfx/interface/goals/ENG/ENG_limited_liberalization.png"
+	}
+	SpriteType = { 
+        name = "ENG_peacetime_development"
+        texturefile = "gfx/interface/goals/ENG/ENG_peacetime_development.png"
+	}
+	SpriteType = { 
+        name = "ENG_industrial_spearhead"
+        texturefile = "gfx/interface/goals/ENG/ENG_industrial_spearhead.png"
+	}
+	SpriteType = { 
+        name = "ENG_enterprise_financial_autonomy"
+        texturefile = "gfx/interface/goals/ENG/ENG_enterprise_financial_autonomy.png"
+	}
+	SpriteType = { 
+        name = "ENG_industrial_research_grant"
+        texturefile = "gfx/interface/goals/ENG/ENG_industrial_research_grant.png"
+	}
+	SpriteType = { 
+        name = "ENG_middle_class_socialism"
+        texturefile = "gfx/interface/goals/ENG/ENG_middle_class_socialism.png"
+	}
+	SpriteType = { 
+        name = "ENG_a_professional_workforce"
+        texturefile = "gfx/interface/goals/ENG/ENG_a_professional_workforce.png"
+	}
+	SpriteType = { 
+        name = "ENG_way_of_life_focus"
+        texturefile = "gfx/interface/goals/ENG/ENG_way_of_life_focus.png"
+	}
+	SpriteType = { 
+        name = "ENG_towards_food_self_sufficency"
+        texturefile = "gfx/interface/goals/ENG/ENG_towards_food_self_sufficency.png"
+	}
 	
 	###AUS
 	SpriteType = { 

@@ -10,7 +10,7 @@ focus_tree = {
 	#Focus for O England, Arise!
 	focus = {
 		id = ENG_o_england_arise
-		icon = GFX_ENG_o_england_arise-7595
+		icon = ENG_o_england_arise
 		x = 25
 		y = 0
 		cost = 10
@@ -37,7 +37,7 @@ focus_tree = {
  #Focus for Industrial Expansion
 	focus = {
 		id = ENG_industrial_expansion
-		icon = GFX_goal_unknown
+		icon = ENG_Industrial_Expansion
 		x = 11
 		y = 6
 		cost = 10
@@ -59,8 +59,7 @@ focus_tree = {
 	#Focus for NHS expansion
 	focus = {
 		id = ENG_nhs_expansion
-		icon = GFX_goal_unknown
-		x = 13
+		icon = ENG_nhs_expansion
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -73,7 +72,7 @@ focus_tree = {
 	#Focus for Steady as she goes
 	focus = {
 		id = ENG_steady_as_she_goes
-		icon = GFX_goal_unknown
+		icon = ENG_Steady_as_she_goes
 		x = 10
 		y = 8
 		cost = 10
@@ -93,7 +92,7 @@ focus_tree = {
 	#Focus for Rural Renovation
 	focus = {
 		id = ENG_rural_renovation
-		icon = GFX_goal_unknown
+		icon = ENG_rural_renovation
 		x = 16
 		y = 4
 		cost = 10
@@ -181,7 +180,7 @@ focus_tree = {
 	#Focus for Fields Of Britain Campaign
 	focus = {
 		id = ENG_fields_of_britain_campaign
-		icon = GFX_goal_unknown
+		icon = ENG_fields_of_britain_campaign
 		x = 17
 		y = 5
 		cost = 10
@@ -203,7 +202,7 @@ focus_tree = {
 	#Focus for Fishing Industry Expansion
 	focus = {
 		id = ENG_fishing_industry_expansion
-		icon = GFX_goal_unknown
+		icon = ENG_fishing_industry_expansion
 		x = 15
 		y = 5
 		cost = 10
@@ -234,7 +233,7 @@ focus_tree = {
 	#Focus for Safeguard the Status Qou
 	focus = {
 		id = ENG_safeguard_the_status_qou
-		icon = GFX_goal_unknown
+		icon = ENG_safeguard_the_status_qou
 		x = 7
 		y = 7
 		cost = 10
@@ -251,7 +250,7 @@ focus_tree = {
 	#Focus for Bureaucratic Economy
 	focus = {
 		id = ENG_bureaucratic_economy
-		icon = GFX_goal_unknown
+		icon = ENG_bureaucratic_economy
 		x = 7
 		y = 5
 		cost = 10
@@ -273,7 +272,7 @@ focus_tree = {
 	#Focus for Limited Liberalization
 	focus = {
 		id = ENG_limited_liberalization
-		icon = GFX_goal_unknown
+		icon = ENG_limited_liberalization
 		x = 4
 		y = 5
 		cost = 10
@@ -295,7 +294,7 @@ focus_tree = {
 	#Focus for Centralized Economy
 	focus = {
 		id = ENG_centralized_economy
-		icon = GFX_goal_unknown
+		icon = ENG_centralised_economy
 		x = 8
 		y = 4
 		cost = 10
@@ -312,7 +311,7 @@ focus_tree = {
 	#Focus for Mixed Economy
 	focus = {
 		id = ENG_mixed_economy
-		icon = GFX_goal_unknown
+		icon = ENG_mixed_economy
 		x = 6
 		y = 4
 		cost = 10
@@ -331,7 +330,7 @@ focus_tree = {
 	#Focus for Peacetime Development
 	focus = {
 		id = ENG_peacetime_development
-		icon = GFX_goal_unknown
+		icon = ENG_peacetime_development
 		x = 11
 		y = 3
 		cost = 10
@@ -348,7 +347,7 @@ focus_tree = {
 	#Focus for Industrial Spearhead
 	focus = {
 		id = ENG_industrial_spearhead
-		icon = GFX_goal_unknown
+		icon = ENG_industrial_spearhead
 		x = 11
 		y = 4
 		cost = 10
@@ -363,7 +362,7 @@ focus_tree = {
 	#Focus for Enterprise Financial Autonomy
 	focus = {
 		id = ENG_enterprise_financial_autonomy
-		icon = GFX_goal_unknown
+		icon = ENG_enterprise_financial_autonomy
 		x = 4
 		y = 6
 		cost = 10
@@ -383,7 +382,7 @@ focus_tree = {
 	#Focus for National Bourgeoisie Initiative
 	focus = {
 		id = ENG_national_bourgeoisie_initiative
-		icon = GFX_goal_unknown
+		icon = ENG_national_bourgeoise_initiative
 		x = 7
 		y = 3
 		cost = 10
@@ -402,7 +401,7 @@ focus_tree = {
 	#Focus for Maximalist Victory
 	focus = {
 		id = ENG_maximalist_victory
-		icon = GFX_goal_unknown
+		icon = ENG_maximist_victory
 		x = 9
 		y = 1
 		cost = 10
@@ -423,7 +422,7 @@ focus_tree = {
 	#Focus for National Labour Victory
 	focus = {
 		id = ENG_national_labour_victory
-		icon = GFX_goal_unknown
+		icon = ENG_national_labour_victory
 		x = 4
 		y = 1
 		cost = 10
@@ -444,7 +443,7 @@ focus_tree = {
 	#Focus for Mosley's Democratic Election
 	focus = {
 		id = ENG_mosleys_democratic_election
-		icon = GFX_goal_unknown
+		icon = ENG_mosleys_democratic_election
 		x = 9
 		y = 0
 		cost = 10
@@ -461,7 +460,7 @@ focus_tree = {
 	#Focus for Industrial Research Grant
 	focus = {
 		id = ENG_industrial_research_grant
-		icon = GFX_goal_unknown
+		icon = ENG_industrial_research_grant
 		x = 10
 		y = 5
 		cost = 10
@@ -483,7 +482,7 @@ focus_tree = {
 	#Focus for English Socialist Victory
 	focus = {
 		id = ENG_english_socialist_victory
-		icon = GFX_goal_unknown
+		icon = ENG_english_socialist_victory
 		x = 18
 		y = 1
 		cost = 10
@@ -498,7 +497,7 @@ focus_tree = {
 	#Focus for New Britain Plan
 	focus = {
 		id = ENG_new_britain_plan
-		icon = GFX_goal_unknown
+		icon = ENG_new_britain_plan
 		x = 9
 		y = 2
 		cost = 10
@@ -512,7 +511,7 @@ focus_tree = {
 	#Focus for Middle Class Socialism
 	focus = {
 		id = ENG_middle_class_socialism
-		icon = GFX_goal_unknown
+		icon = ENG_middle_class_socialism
 		x = 7
 		y = 6
 		cost = 10
@@ -531,7 +530,7 @@ focus_tree = {
 	#Focus for A Professional Workforce
 	focus = {
 		id = ENG_a_professional_workforce
-		icon = GFX_goal_unknown
+		icon = ENG_a_professional_workforce
 		x = 12
 		y = 5
 		cost = 10
@@ -551,7 +550,7 @@ focus_tree = {
 	#Focus for The English way of life
 	focus = {
 		id = ENG_way_of_life_focus
-		icon = GFX_goal_unknown
+		icon = ENG_way_of_life_focus
 		x = 18
 		y = 3
 		cost = 10
@@ -570,7 +569,7 @@ focus_tree = {
 	#Focus for Towards Food Self Sufficency
 	focus = {
 		id = ENG_towards_food_self_sufficency
-		icon = GFX_goal_unknown
+		icon = ENG_towards_food_self_sufficency
 		x = 16
 		y = 6
 		cost = 10
@@ -595,7 +594,7 @@ focus_tree = {
 	#Focus for British Railway Collective
 	focus = {
 		id = ENG_british_railway_collective
-		icon = GFX_goal_unknown
+		icon = ENG_british_railway_collective
 		x = 13
 		y = 6
 		cost = 10
