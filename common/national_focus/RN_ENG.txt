@@ -61,6 +61,7 @@ focus_tree = {
 		id = ENG_nhs_expansion
 		icon = ENG_nhs_expansion
 		y = 7
+		x = 13
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_british_railway_collective }
@@ -73,13 +74,14 @@ focus_tree = {
 	focus = {
 		id = ENG_steady_as_she_goes
 		icon = ENG_Steady_as_she_goes
-		x = 10
+		x = 8
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_safeguard_the_status_qou 
 			focus = ENG_nhs_expansion 
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -104,79 +106,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			209 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-}
-122 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-} 
-123 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-} 
-125 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-} 
-129 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-} 
-338 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-} 
-131 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-}
-133 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-}
-120 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-}
-136 = {
-	add_building_construction = {
-		type = infrastructure
-        	province = 11392
-		level = 1
-	}
-}
 
 		}
-	}
+			}
+		
 
 	#Focus for Fields Of Britain Campaign
 	focus = {
@@ -218,18 +151,17 @@ focus_tree = {
 	type = dockyard
 	level = 1
 	instant_build = yes
-}
 		} 
+	} 
 		121 = { add_building_construction = {
 	type = dockyard
 	level = 1
 	instant_build = yes
-}
+	}
 		
 	}
 	add_opinion_modifier = { target = NOR modifier = medium_decrease }
-
-		}
+	}
 	}
 
 	#Focus for Safeguard the Status Qou
@@ -244,9 +176,11 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		completion_reward = {
 		add_ideas = {
 			NBP_Quo
 		}
+	}
 	}
 
 	#Focus for Bureaucratic Economy
@@ -259,8 +193,6 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_mixed_economy 
-		}
-		prerequisite = { 
 			focus = ENG_centralized_economy 
 		}
 		ai_will_do = {
@@ -289,7 +221,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -50
-			add_ideas = {  NBP_Liberal }
+			add_ideas = { NBP_Liberal }
 		}
 	}
 
@@ -301,6 +233,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = {focus = ENG_mixed_economy }
 		prerequisite = { focus = ENG_national_bourgeoisie_initiative }
 		ai_will_do = {
 			factor = 1
@@ -318,6 +251,7 @@ focus_tree = {
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
+		mutually_exclusive = {focus = ENG_centralized_economy }
 		prerequisite = { focus = ENG_national_bourgeoisie_initiative }
 		ai_will_do = {
 			factor = 1
@@ -489,7 +423,7 @@ focus_tree = {
 	focus = {
 		id = ENG_english_socialist_victory
 		icon = ENG_english_socialist_victory
-		x = 18
+		x = 17
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -561,7 +495,7 @@ focus_tree = {
 	focus = {
 		id = ENG_way_of_life_focus
 		icon = ENG_way_of_life_focus
-		x = 18
+		x = 17
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -586,19 +520,15 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
+			OR = {
 			focus = ENG_fields_of_britain_campaign 
-		}
-		prerequisite = { 
 			focus = ENG_fishing_industry_expansion 
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			swap_ideas = {  
-				 NBP_food_self_suf
-				 NBP_Import_Dependence
-			}
 			country_event = { id = Uob.5 hours = 1 }
 		}
 	}
@@ -629,7 +559,7 @@ focus_tree = {
 	#Focus for Interceptor Program
 	focus = {
 		id = ENG_interceptor_program
-		icon = GFX_ENG_interceptor_program-12417
+		icon = GFX_ENG_interceptor_program
 		x = 25
 		y = 11
 		cost = 10
@@ -644,7 +574,7 @@ focus_tree = {
 	#Focus for Operation Wilfred
 	focus = {
 		id = ENG_operation_wilfred
-		icon = GFX_ENG_operation_wilfred-8107
+		icon = GFX_ENG_operation_wilfred
 		x = 38
 		y = 2
 		cost = 10
@@ -658,7 +588,7 @@ focus_tree = {
 	#Focus for Project Northumberland
 	focus = {
 		id = ENG_project_northumberland
-		icon = GFX_ENG_project_northumberland-11784
+		icon = GFX_ENG_project_northumberland
 		x = 24
 		y = 9
 		cost = 10
@@ -672,7 +602,7 @@ focus_tree = {
 	#Focus for Operation Fork
 	focus = {
 		id = ENG_operation_fork
-		icon = GFX_ENG_operation_fork-8105
+		icon = GFX_ENG_operation_fork
 		x = 36
 		y = 2
 		cost = 10
