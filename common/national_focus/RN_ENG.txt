@@ -525,10 +525,8 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			OR = {
 			focus = ENG_fields_of_britain_campaign 
 			focus = ENG_fishing_industry_expansion 
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -538,26 +536,8 @@ focus_tree = {
 		}
 	}
 
-	#Focus for British Railway Collective
-	focus = {
-		id = ENG_british_railway_collective
-		icon = ENG_british_railway_collective
-		x = 13
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_industrial_spearhead 
-			focus = ENG_rural_renovation 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		completion_reward = {
-			add_ideas = { NBP_RAILROAD }
-			country_event = { id = Uob.6 hours = 1 }
-		}
-	}
+
+
 
 ###############
 
@@ -1750,5 +1730,25 @@ focus_tree = {
 		}
 	}
 
+	#Focus for British Railway Collective
+	focus = {
+		id = ENG_british_railway_collective
+		icon = ENG_british_railway_collective
+		x = 13
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_industrial_spearhead 
+			focus = ENG_rural_renovation 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = { NBP_RAILROAD }
+			country_event = { id = Uob.6 hours = 1 }
+		}
+	}	
 #End of focuses 
  }
