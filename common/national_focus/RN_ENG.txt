@@ -601,8 +601,8 @@ focus_tree = {
 		}
 		completion_reward = {
 			swap_ideas = {  
-				add_ideas = NBP_food_self_suf
-				remove_ideas = NBP_Import_Dependence
+				 NBP_food_self_suf
+				 NBP_Import_Dependence
 			}
 			country_event = { id = Uob.5 hours = 1 }
 		}
