@@ -60,6 +60,7 @@ focus_tree = {
 	focus = {
 		id = ENG_nhs_expansion
 		icon = ENG_nhs_expansion
+		x = 13
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
@@ -508,7 +509,11 @@ focus_tree = {
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = ENG_maximalist_victory }
+		prerequisite = { 
+		focus = ENG_maximalist_victory 
+		focus = ENG_national_labour_victory
+		focus = ENG_english_socialist_victory
+	}
 		ai_will_do = {
 			factor = 1
 		}
