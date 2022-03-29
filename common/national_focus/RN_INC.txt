@@ -9,7 +9,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INC_the_new_parliament
-		icon = GFX_goal_generic_soviet_construction
+		icon = GFX_INC_parliament
 		x = 12
 		y = 0
 		cost = 10
@@ -20,7 +20,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INC_PNI_national_congress
-		icon = GFX_goal_generic_soviet_construction
+		icon = GFX_INC_PNI_congress
 		x = 12
 		y = 1
 		cost = 10
@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INC_toward_the_new_revolution
-		icon = GFX_goal_generic_soviet_construction
+		icon = GFX_INC_nguyen_duc_canh
 		x = 7
 		y = 2
 		cost = 10
@@ -82,7 +82,7 @@ focus_tree = {
 	}				
 	focus = {
 		id = INC_defend_the_republican_dream
-		icon = GFX_goal_generic_soviet_construction
+		icon = GFX_INC_ho_tung_mau
 		x = 12
 		y = 2
 		cost = 10
