@@ -62,10 +62,10 @@ focus_tree = {
 		icon = ENG_nhs_expansion
 		x = 13
 		y = 7
-		x = 13
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_railway_collective }
+		prerequisite = { focus = ENG_industrial_expansion }
+		prerequisite = { focus = ENG_towards_food_self_sufficency }
 		ai_will_do = {
 			factor = 1
 		}
@@ -75,7 +75,7 @@ focus_tree = {
 	focus = {
 		id = ENG_steady_as_she_goes
 		icon = ENG_Steady_as_she_goes
-		x = 8
+		x = 10
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
