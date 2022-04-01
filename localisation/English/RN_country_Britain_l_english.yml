@@ -80,6 +80,8 @@ ENG_food_import_desc:0 "Our glorious revolution have put an end to the ruthless 
 
 
 ### Focuses ###
+ENG_way_of_life_focus:0 "British Way of Life"
+ENG_way_of_life_focus_desc:0 ""
 ENG_o_england_arise:0 "O England, Arise!"
 ENG_o_england_arise_desc:0 ""
 ENG_peoples_war_plan:0 "People's War Plan"

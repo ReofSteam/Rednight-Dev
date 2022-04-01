@@ -120,6 +120,14 @@ spriteTypes = {
 		name = "GFX_focus_generic_city"
 		texturefile = "gfx/interface/goals/generic/generic_city.tga"
 	}
+	SpriteType = { 
+        name = "GFX_focus_generic_study"
+        texturefile = "gfx/interface/goals/generic/generic_study.png"
+    }
+	SpriteType = { 
+        name = "GFX_focus_generic_worker_effort"
+        texturefile = "gfx/interface/goals/generic/generic_worker_effort.png"
+    }
 	
 
 ##########Attack Country
@@ -178,8 +186,8 @@ spriteTypes = {
 	SpriteType = { 
         name = "GFX_focus_Attack_SAF"
         texturefile = "gfx/interface/goals/generic/Attack_SAF.tga"
-    }			
-	
+    }
+    		
 ######ENG
     SpriteType = { 
         name = "ENG_all_your_valleys_call_you"
@@ -942,7 +950,23 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_PRS_return_to_ostland"
 		texturefile = "gfx/interface/goals/PRS/PRS_return_to_ostland.tga"
-	}			
+	}
+    SpriteType = { 
+		name = "GFX_PRS_army"
+		texturefile = "gfx/interface/goals/PRS/PRS_army.png"
+	}
+    SpriteType = { 
+		name = "GFX_PRS_assert_nation_sovereignty"
+		texturefile = "gfx/interface/goals/PRS/PRS_assert_nation_sovereignty.png"
+	}
+    SpriteType = { 
+		name = "GFX_PRS_fire_burn_hot_for_our_nation"
+		texturefile = "gfx/interface/goals/PRS/PRS_fire_burn_hot_for_our_nation.png"
+	}
+    SpriteType = { 
+		name = "GFX_PRS_puppet_monarch"
+		texturefile = "gfx/interface/goals/PRS/PRS_puppet_monarch.png"
+	}	
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
