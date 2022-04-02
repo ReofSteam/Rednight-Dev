@@ -128,6 +128,10 @@ spriteTypes = {
         name = "GFX_focus_generic_worker_effort"
         texturefile = "gfx/interface/goals/generic/generic_worker_effort.png"
     }
+	SpriteType = { 
+        name = "GFX_focus_generic_foods"
+        texturefile = "gfx/interface/goals/generic/generic_foods.png"
+    }
 	
 
 ##########Attack Country
@@ -966,6 +970,10 @@ spriteTypes = {
     SpriteType = { 
 		name = "GFX_PRS_puppet_monarch"
 		texturefile = "gfx/interface/goals/PRS/PRS_puppet_monarch.png"
+	}
+    SpriteType = { 
+		name = "GFX_PRS_DDR_Army"
+		texturefile = "gfx/interface/goals/PRS/PRS_DDR_Army.png"
 	}	
 	############CSA
 	SpriteType = { 

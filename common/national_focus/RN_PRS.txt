@@ -1205,7 +1205,7 @@ focus_tree = {
 	#Focus for The Family
 	focus = {
 		id = PRS_the_family
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_generic_foods
 		x = 23
 		y = 15
 		cost = 10
@@ -1364,7 +1364,7 @@ focus_tree = {
 	#Focus for That its safe in our hands
 	focus = {
 		id = PRS_that_its_safe_in_our_hands
-		icon = GFX_focus_generic_treaty
+		icon = GFX_PRS_DDR_Army
 		x = 16
 		y = 17
 		cost = 10
