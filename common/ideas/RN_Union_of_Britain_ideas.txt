@@ -283,7 +283,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Enterprice = { #submarine program
+		NBP_Enterprice = { #Enterprice
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
