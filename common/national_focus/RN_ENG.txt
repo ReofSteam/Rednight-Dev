@@ -52,7 +52,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-				 add_ideas = NHS_Expansion
+
 			}
 	}
 
@@ -71,6 +71,10 @@ focus_tree = {
 			}
 		ai_will_do = {
 			factor = 1
+		}
+		completion_reward = {
+		 add_ideas = NHS_Expansion
+
 		}
 	}
 
@@ -181,8 +185,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		add_ideas = {
-			NBP_Quo
+		swap_ideas = {
+			remove_idea = NBP_Middle
+			add_idea = NBP_Quo
 		}
 	}
 	}
@@ -203,7 +208,28 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_Bureaucratic }
+			if = {
+				limit = {
+					has_completed_focus = ENG_centralised_economy
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_Centralized
+			add_idea =  NBP_Bureaucratic	
+		}
+			}
+			else = {
+				limit = {
+					has_completed_focus = ENG_mixed_economy
+				}
+				swap_ideas = {
+			remove_idea = NBP_mixed
+			add_idea =  NBP_Bureaucratic
+				}	
+							}
+			else = {
+			add_political_power = 10
+							}
 		}
 	}
 
@@ -243,8 +269,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_Centralized	}
+		swap_ideas = {
+			remove_idea = NBP_NBI
+			add_idea =  NBP_Centralized	
 		}
+	}
 	}
 
 	#Focus for Mixed Economy
@@ -261,8 +290,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_mixed
+			swap_ideas = {
+			remove_idea = NBP_NBI
+			add_idea = NBP_mixed
 			}
 		}
 	}
@@ -299,6 +329,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			country_event = { id = Uob.2 hours = 1 }
+			add_ideas = {
+				NBP_Spherehead_indsutry_Professional_Workforce
+			}
 		}
 	}
 
@@ -316,8 +349,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = -100
-			add_ideas = {  
-				NBP_Enterprice
+			swap_ideas = {  
+				add_idea = NBP_Enterprice
+				remove_idea = NBP_Liberal
 			}
 		}
 	}
@@ -479,8 +513,9 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_Middle
+			swap_ideas = {  
+				add_idea = NBP_Middle
+				remove_idea = NBP_Bureaucratic
 			}
 			country_event = { id = Uob.8 hours = 1 }
 		}
@@ -499,9 +534,10 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_Spherehead_indsutry_Professional_Workforce
-				NBP_Professional_Workfoce
+
+			swap_ideas = {
+				remove_idea = NBP_Spherehead_indsutry_Professional_Workforce
+				add_idea = NBP_Professional_Workfoce
 			}
 		}
 	}
