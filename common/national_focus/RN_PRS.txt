@@ -1345,7 +1345,7 @@ focus_tree = {
 	#Focus for That everyday will be more beautiful
 	focus = {
 		id = PRS_that_everyday_will_be_more_beautiful
-		icon = GFX_goal_generic_consumer_goods
+		icon = PRS_everyday_will_be_more_beautiful
 		x = 16
 		y = 16
 		cost = 10
@@ -1541,7 +1541,7 @@ focus_tree = {
 	#Focus for The Nation
 	focus = {
 		id = PRS_the_nation
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = PRS_the_nation
 		x = 27
 		y = 15
 		cost = 10

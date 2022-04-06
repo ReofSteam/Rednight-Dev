@@ -974,6 +974,14 @@ spriteTypes = {
     SpriteType = { 
 		name = "GFX_PRS_DDR_Army"
 		texturefile = "gfx/interface/goals/PRS/PRS_DDR_Army.png"
+	}
+    SpriteType = { 
+		name = "PRS_everyday_will_be_more_beautiful"
+		texturefile = "gfx/interface/goals/PRS/PRS_everyday_will_be_more_beautiful.png"
+	}
+    SpriteType = { 
+		name = "PRS_the_nation"
+		texturefile = "gfx/interface/goals/PRS/PRS_the_nation.png"
 	}	
 	############CSA
 	SpriteType = { 
