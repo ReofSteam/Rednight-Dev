@@ -33,7 +33,7 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_INS_Sukarno"
-		texturefile = "gfx/leaders/INS/INS_Sukarno.tga"
+		texturefile = "gfx/leaders/INS/INS_Sukarno.png"
 	}		
 	spriteType = {
 		name = "GFX_legislature"

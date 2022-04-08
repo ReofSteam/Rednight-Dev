@@ -325,7 +325,7 @@ country_event = {
          medium_reservist_force
 		 large_reservist_force
 		 reservist_people_war
-}		
+	}		
 }
 	}	
 	

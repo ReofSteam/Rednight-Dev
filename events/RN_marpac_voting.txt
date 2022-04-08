@@ -174,15 +174,3 @@ country_event = {        #######Resolution 51: hidden check
 		RN_faction_power_calculation = yes	
 }
 }
-
-country_event = {        
-	id = testingevent.1
-	title = marpacnews.t
-	desc = marpac.4.d
-	picture = GFX_germany_occupation_ends
-	is_triggered_only = yes
-
-	option = {
-		name = marpacnews
-	}	
-}

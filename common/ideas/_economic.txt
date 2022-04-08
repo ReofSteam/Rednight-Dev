@@ -33,7 +33,7 @@ ideas = {
 				OR = {
 					has_war_support > 0.5
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
+					
 				}
 			}
 
@@ -66,7 +66,7 @@ ideas = {
 				OR = {
 					has_war_support > 0.75
 					has_war = yes
-					has_completed_focus = USA_limited_intervention
+					
 				}
 			}
 
@@ -98,20 +98,14 @@ ideas = {
 
 			available = {
 				has_war_support > 0.15
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
+						
 						has_defensive_war = no
 					}
 					has_war_support > 0.3
-					congress_high_support_trigger = yes
+
 				}
 				if = {
 					limit = {
@@ -128,14 +122,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
+
 			}
 
 			cost = 150
@@ -176,23 +163,14 @@ ideas = {
 			available = {
 				has_war_support > 0.25
 
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					OR = {
-						has_completed_focus = HUN_secret_rearmament
-						NOT = { has_idea = HUN_treaty_of_triannon }
-					}
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
+						
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
-					congress_high_support_trigger = yes
+
 				}
 				if = {
 					limit = {
@@ -222,14 +200,7 @@ ideas = {
 
 			cancel_if_invalid = no
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
+
 			}
 			ai_will_do = {
    				factor = 2
@@ -262,20 +233,14 @@ ideas = {
 					}
 				}
 
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
+						
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
-					congress_high_support_trigger = yes
+
 				}
 				if = {
 					limit = {
@@ -304,14 +269,7 @@ ideas = {
 
 			cancel_if_invalid = no
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
+
 			}
 			ai_will_do = {
    				factor = 3
@@ -360,20 +318,14 @@ ideas = {
 					}
 				}
 
+
 				if = {
 					limit = {
-						original_tag = HUN
-						has_dlc = "Death or Dishonor"
-					}
-					NOT = { has_idea = HUN_treaty_of_triannon }
-				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
+						
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
-					congress_high_support_trigger = yes
+
 				}
 				if = {
 					limit = {
@@ -390,14 +342,7 @@ ideas = {
 				}
 			}
 			on_add = {
-				if = {
-					limit = {
-						tag = USA
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					USA_congress_large_opposition = yes
-				}
+
 			}
 			ai_will_do = {
    				factor = 1
