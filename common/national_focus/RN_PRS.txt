@@ -817,7 +817,7 @@ focus_tree = {
 	#Focus for Because only iron can save us
 	focus = {
 		id = PRS_because_only_iron_can_save_us
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_PRS_army
 		x = 12
 		y = 16
 		cost = 10
@@ -1205,7 +1205,7 @@ focus_tree = {
 	#Focus for The Family
 	focus = {
 		id = PRS_the_family
-		icon = GFX_goal_generic_construct_civ_factory
+		icon = GFX_focus_generic_foods
 		x = 23
 		y = 15
 		cost = 10
@@ -1300,7 +1300,7 @@ focus_tree = {
 	#Focus for Fires burn hot in our heart
 	focus = {
 		id = PRS_fires_burn_hot_in_our_heart
-		icon = GFX_focus_research
+		icon = GFX_focus_generic_study
 		x = 15
 		y = 15
 		cost = 10
@@ -1314,7 +1314,7 @@ focus_tree = {
 	#Focus for Assert National Sovereignty
 	focus = {
 		id = PRS_assert_national_sovereignty
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_PRS_assert_nation_sovereignty
 		x = 16
 		y = 14
 		cost = 10
@@ -1331,7 +1331,7 @@ focus_tree = {
 	#Focus for Fires burn hot for our Nation
 	focus = {
 		id = PRS_fires_burn_hot_for_our_nation
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_PRS_fire_burn_hot_for_our_nation
 		x = 17
 		y = 15
 		cost = 10
@@ -1345,7 +1345,7 @@ focus_tree = {
 	#Focus for That everyday will be more beautiful
 	focus = {
 		id = PRS_that_everyday_will_be_more_beautiful
-		icon = GFX_goal_generic_consumer_goods
+		icon = PRS_everyday_will_be_more_beautiful
 		x = 16
 		y = 16
 		cost = 10
@@ -1364,7 +1364,7 @@ focus_tree = {
 	#Focus for That its safe in our hands
 	focus = {
 		id = PRS_that_its_safe_in_our_hands
-		icon = GFX_focus_generic_treaty
+		icon = GFX_PRS_DDR_Army
 		x = 16
 		y = 17
 		cost = 10
@@ -1434,7 +1434,7 @@ focus_tree = {
 	#Focus for A Puppet Monarchy
 	focus = {
 		id = PRS_a_puppet_monarchy
-		icon = GFX_focus_rom_handle_king
+		icon = GFX_PRS_puppet_monarch
 		x = 21
 		y = 14
 		cost = 10
@@ -1466,7 +1466,7 @@ focus_tree = {
 	#Focus for Troops for Industry
 	focus = {
 		id = PRS_labour_valour_honour
-		icon = GFX_focus_generic_industry_3
+		icon = GFX_focus_generic_worker_effort
 		x = 19
 		y = 16
 		cost = 10
@@ -1541,7 +1541,7 @@ focus_tree = {
 	#Focus for The Nation
 	focus = {
 		id = PRS_the_nation
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = PRS_the_nation
 		x = 27
 		y = 15
 		cost = 10

@@ -6,9 +6,9 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_civil_war_recovery"}
 			picture = CNT_recover_from_war
 			modifier = {
-				production_speed_buildings_factor = -0.05
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.12				
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.05
+				political_power_gain = 0.2					
 
 			}
 		}
