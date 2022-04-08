@@ -3,7 +3,7 @@ characters={
 		name="Sukarno"
 		portraits={
 			civilian={
-				large="gfx/Leaders/INS/INS_sukarno.tga"
+				large="gfx/Leaders/INS/INS_sukarno.png"
 			}
 		}
 		country_leader={
@@ -17,7 +17,7 @@ characters={
 		name="Mohammad Hatta"
 		portraits={
 			civilian={
-				large="gfx/Leaders/INS/INS_Hatta.tga"
+				large="gfx/Leaders/INS/INS_Hatta.png"
 			}
 		}
 		country_leader={
@@ -31,7 +31,7 @@ characters={
 		name="Tan Malaka"
 		portraits={
 			civilian={
-				large="gfx/Leaders/INS/INS_Tan_Malaka.tga"
+				large="gfx/Leaders/INS/INS_Tan_Malaka.png"
 			}
 		}
 		country_leader={
@@ -45,7 +45,7 @@ characters={
 		name="Semaoen"
 		portraits={
 			civilian={
-				large="gfx/Leaders/INS/INS_Semaoen.tga"
+				large="gfx/Leaders/INS/INS_Semaoen.png"
 			}
 		}
 		country_leader={
@@ -59,7 +59,7 @@ characters={
 		name="Sjafruddin Prawiranegara"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
 			}
 		}
 		advisor={
@@ -84,7 +84,7 @@ characters={
 		name="Hadji Agus Salim "
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
 			}
 		}
 		advisor={
@@ -109,7 +109,7 @@ characters={
 		name="Hadji Agus Salim "
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_prawiranegara.tga"
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
 			}
 		}
 		advisor={
@@ -134,7 +134,7 @@ characters={
 		name="Oerip Soemohardjo"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Soemohardjo.tga"
+				small = "gfx/ministers/INS/INS_minister_Soemohardjo.png"
 			}
 		}
 		
@@ -169,8 +169,8 @@ characters={
 		name="Hidayat Martaatmaja"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Martaatmaja.tga"
-				large = "gfx/leaders/INS/INS_Martaatmaja.tga"
+				small = "gfx/ministers/INS/INS_minister_Martaatmaja.png"
+				large = "gfx/leaders/INS/INS_Martaatmaja.png"
 				
 			}
 		}
@@ -206,8 +206,8 @@ characters={
 		name="Soedirman"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Soedirman.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"				
+				small = "gfx/ministers/INS/INS_minister_Soedirman.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"				
 			}
 		}
 		
@@ -242,8 +242,8 @@ characters={
 		name="G.P.H Djatikusumo"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -261,8 +261,8 @@ characters={
 		name="Nasution"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Nasution.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Nasution.png"	
 			}
 		}
 		
@@ -280,8 +280,8 @@ characters={
 		name="T.B Simatupan"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -299,8 +299,8 @@ characters={
 		name="Moestopo"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -318,8 +318,8 @@ characters={
 		name="Soeprijadi"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -337,8 +337,8 @@ characters={
 		name="Bambang Soepeno"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -356,8 +356,8 @@ characters={
 		name="Zainul Arifin"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
@@ -375,8 +375,8 @@ characters={
 		name="Alex Evert Kawilarang"
 		portraits={
 			army = {
-				small = "gfx/ministers/INS/INS_minister_Djatikusumo.tga"
-				large = "gfx/leaders/INS/INS_Soedirman.tga"	
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
 			}
 		}
 		
