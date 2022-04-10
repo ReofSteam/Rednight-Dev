@@ -133,6 +133,7 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/generic/generic_foods.png"
     }
 	
+	
 
 ##########Attack Country
 	SpriteType = { 
@@ -982,7 +983,15 @@ spriteTypes = {
     SpriteType = { 
 		name = "PRS_the_nation"
 		texturefile = "gfx/interface/goals/PRS/PRS_the_nation.png"
-	}	
+	}
+	SpriteType = { 
+		name = "PRS_plane_design"
+		texturefile = "gfx/interface/goals/PRS/PRS_plane_design.png"
+	}
+	SpriteType = { 
+		name = "PRS_tank_design"
+		texturefile = "gfx/interface/goals/PRS/PRS_tank_design.png"
+	}
 	############CSA
 	SpriteType = { 
 		name = "GFX_CSA_LAST_PRESIDENT"
