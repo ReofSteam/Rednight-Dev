@@ -35,7 +35,7 @@ GER_Inf_01 =
 {
 	name = "Infantry Divisions"
 
-	for_countries = { GER }
+	for_countries = { GER JOZ PRS }
 
 	can_use = { always = yes }
 
