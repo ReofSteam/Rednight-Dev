@@ -1779,7 +1779,7 @@ focus_tree = {
 	#Focus for Panzer-Priority
 	focus = {
 		id = PRS_panzerpriority
-		icon = PRS_tank_design
+		icon = GFX_goal_generic_build_tank
 		x = 24
 		y = 4
 		cost = 10
@@ -1887,7 +1887,7 @@ focus_tree = {
 	#Focus for New Aircraft Designs
 	focus = {
 		id = PRS_new_aircraft_designs
-		icon = PRS_plane_design
+		icon = GFX_goal_generic_position_armies
 		x = 37
 		y = 6
 		cost = 10
