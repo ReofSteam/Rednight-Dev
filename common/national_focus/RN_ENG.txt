@@ -87,9 +87,10 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
+			AND = {
 			focus = ENG_safeguard_the_status_qou 
 			focus = ENG_nhs_expansion 
-
+			}
 		}
 		ai_will_do = {
 			factor = 1
