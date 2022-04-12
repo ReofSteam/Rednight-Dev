@@ -65,9 +65,11 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
+			AND = {
 			focus = ENG_industrial_expansion 
 			focus = ENG_towards_food_self_sufficency 
 			focus = ENG_british_railway_collective
+			}
 			}
 		ai_will_do = {
 			factor = 1
