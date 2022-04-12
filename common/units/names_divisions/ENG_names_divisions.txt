@@ -33,7 +33,7 @@
 ENG_INF_01 = {
 	name = "Infantry Division"
 
-	for_countries = { ENG }
+	for_countries = { ENG BOZ JOZ }
 
 	can_use = { always = yes }
 

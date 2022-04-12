@@ -34,7 +34,7 @@ FRA_INF_01 =
 {
 	name = "Infantry Division"
 
-	for_countries = { FRA }
+	for_countries = { FRA FOZ JOZ }
 
 	can_use = { always = yes }
 
