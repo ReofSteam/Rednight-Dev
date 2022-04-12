@@ -54,7 +54,7 @@ ideas = {
 			removal_cost = -1
 			picture = ENG_food_import
 		}		
-		ENG_Import Dependency_FOB = { #interceptor program
+		ENG_Import_Dependency_FOB = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
 				always = no
@@ -65,7 +65,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		ENG_Import Dependency_FOB = { #interceptor program
+		ENG_Import_Dependency_FOB = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
 				always = no
@@ -75,7 +75,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		ENG_Import Dependency_fishing = { #interceptor program
+		ENG_Import_Dependency_fishing = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
 				always = no
@@ -85,7 +85,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		ENG_Import Dependency_towards_food_ss = { #interceptor program
+		ENG_Import_Dependency_towards_food_ss = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
 				always = no
@@ -316,8 +316,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Import_Dependence = {
-		 { #submarine program
+		NBP_Import_Dependence = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no

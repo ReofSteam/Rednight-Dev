@@ -50,7 +50,7 @@ set_technology = {
 
 add_ideas = {
 ENG_united_britain
-ENG_industrial_revolution_home
+ENG_postwar_recession
 ENG_french_rivalry
 ENG_food_import
 }
