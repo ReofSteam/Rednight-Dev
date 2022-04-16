@@ -58,28 +58,18 @@ set_popularities = {
     national_corporatist = 1
 }
 
-create_country_leader = {
-	name = "José Díaz"
-      picture = "gfx/leaders/CNT/CNT_Jose_Diaz.png"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {
-		#
-	}
-}
-
-
-create_field_marshal = {
-	name = "Francisco Franco"
-	portrait_path = "gfx/leaders/CNT/CNT_Francisco_Franco.png"
-	traits = { defensive_doctrine }
-	skill = 3
-    attack_skill = 2
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 2
-}
-
+recruit_character = CNT_josé_díaz
+recruit_character = CNT_francisco_franco
+recruit_character = CNT_nicolás_asensio
+recruit_character = CNT_santiago_márquez
+recruit_character = CNT_Álvaro_blázquez
+recruit_character = CNT_bernardo_hevia
+recruit_character = CNT_dionisio_topete
+recruit_character = CNT_francisco_díaz
+recruit_character = CNT_jacobo_narváez
+recruit_character = CNT_luis_barradas
+recruit_character = CNT_pascual_menéndez
+recruit_character = CNT_segismundo_blázquez
 
 ### Ship Variants ###
 
