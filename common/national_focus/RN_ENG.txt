@@ -216,7 +216,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					has_completed_focus = ENG_centralised_economy
+					has_completed_focus = ENG_centralized_economy
 				}
 			
 			swap_ideas = {
@@ -225,18 +225,12 @@ focus_tree = {
 		}
 			}
 			else = {
-				limit = {
-					has_completed_focus = ENG_mixed_economy
-				}
-				swap_ideas = {
+			swap_ideas = {
 			remove_idea = NBP_mixed
 			add_idea =  NBP_Bureaucratic
-				}	
+				}
+			}	
 							}
-			else = {
-			add_political_power = 10
-							}
-		}
 	}
 
 	#Focus for Limited Liberalization
@@ -279,7 +273,7 @@ focus_tree = {
 		completion_reward = {
 		swap_ideas = {
 			remove_idea = NBP_NBI
-			add_idea =  NBP_Centralized	
+			add_idea = NBP_Centralized	
 		}
 	}
 	}
@@ -400,7 +394,7 @@ focus_tree = {
 			focus = ENG_national_labour_victory 
 		}
 		available = {
-			always = false
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -423,7 +417,7 @@ focus_tree = {
 			focus = ENG_english_socialist_victory 
 		}
 		available = {
-			always = false
+			always = no
 		}
 		ai_will_do = {
 			factor = 1
@@ -464,7 +458,7 @@ focus_tree = {
     bonus = 0.5
     uses = 3
     category = industry
-}
+ }
 
 		}
 	}
@@ -479,11 +473,12 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_mosleys_democratic_election }
 		mutually_exclusive = { focus = ENG_national_labour_victory }
+		mutually_exclusive = { focus = ENG_maximalist_victory  }
 		ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = false
+			always = no
 		}
 	}
 
@@ -593,7 +588,7 @@ focus_tree = {
 
 
 
-###############
+ ###############
 
 	#Focus for Interceptor Program
 	focus = {
@@ -1338,7 +1333,7 @@ focus_tree = {
 	#Focus for Dream of Toil and Sorrow
 	focus = {
 		id = ENG_dream_of_toil_and_sorrow
-		icon = focus_focus_fra_liberte_egalite_solidarite
+		icon = focus_fra_liberte_egalite_solidarite
 		x = 23
 		y = 1
 		cost = 10

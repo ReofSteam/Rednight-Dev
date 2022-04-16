@@ -134,7 +134,7 @@ spriteTypes = {
     }
 	
 
-##########Attack Country
+ ##########Attack Country
 	SpriteType = { 
         name = "GFX_focus_Attack_CAL"
         texturefile = "gfx/interface/goals/generic/Attack_CAL.tga"
@@ -192,7 +192,7 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/generic/Attack_SAF.tga"
     }
     		
-######ENG
+ ######ENG
     SpriteType = { 
         name = "ENG_all_your_valleys_call_you"
         texturefile = "gfx/interface/goals/ENG/ENG_all_your_valleys_call_you.png"
@@ -593,7 +593,7 @@ spriteTypes = {
 		name = "GFX_GER_wolves_prowling"
 		texturefile = "gfx/interface/goals/GER/GER_wolves_prowling.tga"
 	}
-#######France#########
+ #######France#########
 	SpriteType = { 
 		name = "GFX_FRA_Eighty_Niners"
 		texturefile = "gfx/interface/goals/FRA/FRA_Eighty_Niners.tga"
@@ -746,7 +746,7 @@ spriteTypes = {
 		name = "GFX_FRA_airforces_focus"
 		texturefile = "gfx/interface/goals/FRA/FRA_airforces_focus.tga"
 	}		
-############Prussia	
+ ############Prussia	
 	SpriteType = { 
 		name = "GFX_PRS_the_east"
 		texturefile = "gfx/interface/goals/PRS/PRS_the_east.tga"
@@ -1078,7 +1078,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CSA/CSA_nat.dds"
 	}
 
-########RUS
+ ########RUS
 
 	SpriteType = { 
 		name = "GFX_RUS_fairness_no_equality"
@@ -1132,7 +1132,7 @@ spriteTypes = {
 		name = "GFX_RUS_patriotic_cult"
 		texturefile = "gfx/interface/goals/RUS/RUS_patriotic_cult.tga"
 	}	
-####Indochina###
+ ####Indochina###
     SpriteType = { 
 		name = "GFX_INC_parliament"
 		texturefile = "gfx/interface/goals/INC/INC_new_parliament.png"
@@ -1149,7 +1149,7 @@ spriteTypes = {
 		name = "GFX_INC_nguyen_duc_canh"
 		texturefile = "gfx/interface/goals/INC/INC_PNI_workers_clique.png"
 	}	
-############Spain
+ ############Spain
     SpriteType = { 
 		name = "GFX_CNT_a_national_revolution"
 		texturefile = "gfx/interface/goals/CNT/GFX_CNT_a_national_revolution.png"
