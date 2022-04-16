@@ -23,7 +23,7 @@ focus_tree = {
 	#Focus for People's War Plan
 	focus = {
 		id = ENG_peoples_war_plan
-		icon = GFX_goal_generic_attack_allies
+		icon = goal_generic_attack_allies
 		x = 28
 		y = 8
 		cost = 10
@@ -598,7 +598,7 @@ focus_tree = {
 	#Focus for Interceptor Program
 	focus = {
 		id = ENG_interceptor_program
-		icon = GFX_ENG_interceptor_program
+		icon = ENG_interceptor_program
 		x = 25
 		y = 11
 		cost = 10
@@ -613,7 +613,7 @@ focus_tree = {
 	#Focus for Operation Wilfred
 	focus = {
 		id = ENG_operation_wilfred
-		icon = GFX_ENG_operation_wilfred
+		icon = ENG_operation_wilfred
 		x = 38
 		y = 2
 		cost = 10
@@ -627,7 +627,7 @@ focus_tree = {
 	#Focus for Project Northumberland
 	focus = {
 		id = ENG_project_northumberland
-		icon = GFX_ENG_project_northumberland
+		icon = ENG_project_northumberland
 		x = 24
 		y = 9
 		cost = 10
@@ -641,7 +641,7 @@ focus_tree = {
 	#Focus for Operation Fork
 	focus = {
 		id = ENG_operation_fork
-		icon = GFX_ENG_operation_fork
+		icon = ENG_operation_fork
 		x = 36
 		y = 2
 		cost = 10
@@ -655,7 +655,7 @@ focus_tree = {
 	#Focus for Department of the North Sea
 	focus = {
 		id = ENG_department_of_the_north_sea
-		icon = GFX_focus_eng_global_defense
+		icon = focus_eng_global_defense
 		x = 36
 		y = 1
 		cost = 10
@@ -669,7 +669,7 @@ focus_tree = {
 	#Focus for Defense of the Republic
 	focus = {
 		id = ENG_defense_of_the_republic
-		icon = GFX_goal_generic_military_sphere
+		icon = goal_generic_military_sphere
 		x = 36
 		y = 6
 		cost = 10
@@ -682,7 +682,7 @@ focus_tree = {
 	#Focus for Department of British Isles
 	focus = {
 		id = ENG_department_of_british_isles
-		icon = GFX_focus_eng_global_defense
+		icon = focus_eng_global_defense
 		x = 34
 		y = 1
 		cost = 10
@@ -701,7 +701,7 @@ focus_tree = {
 	#Focus for Operation Strongbow
 	focus = {
 		id = ENG_operation_strongbow
-		icon = GFX_ENG_operation_strongbow
+		icon = ENG_operation_strongbow
 		x = 34
 		y = 2
 		cost = 10
@@ -719,7 +719,7 @@ focus_tree = {
 	#Focus for Will you disown your native land?
 	focus = {
 		id = ENG_will_you_disown_your_native_land
-		icon = GFX_ENG_will_you_disown_your_native_land
+		icon = ENG_will_you_disown_your_native_land
 		x = 25
 		y = 4
 		cost = 10
@@ -738,7 +738,7 @@ focus_tree = {
 	#Focus for Exports Revolution
 	focus = {
 		id = ENG_exports_revolution
-		icon = GFX_ENG_exports_revolution-11206
+		icon = ENG_exports_revolution-11206
 		x = 10
 		y = 13
 		cost = 10
@@ -753,7 +753,7 @@ focus_tree = {
 	#Focus for British Worker's Government
 	focus = {
 		id = ENG_british_workers_government
-		icon = GFX_ENG_british_workers_government
+		icon = ENG_british_workers_government
 		x = 11
 		y = 9
 		cost = 10
@@ -768,7 +768,7 @@ focus_tree = {
 	#Focus for R.E.D Atlantic Division
 	focus = {
 		id = ENG_red_atlantic_division
-		icon = GFX_ENG_red_atlantic_division
+		icon = ENG_red_atlantic_division
 		x = 35
 		y = 0
 		cost = 10
@@ -781,7 +781,7 @@ focus_tree = {
 	#Focus for Operation Pendragon II
 	focus = {
 		id = ENG_operation_pendragon_ii
-		icon = GFX_ENG_operation_pendragon_ii
+		icon = ENG_operation_pendragon_ii
 		x = 32
 		y = 2
 		cost = 10
@@ -796,7 +796,7 @@ focus_tree = {
 	#Focus for Destruction of the Regime
 	focus = {
 		id = ENG_destruction_of_the_regime
-		icon = GFX_ENG_destruction_of_the_regime
+		icon = ENG_destruction_of_the_regime
 		x = 9
 		y = 10
 		cost = 10
@@ -810,7 +810,7 @@ focus_tree = {
 	#Focus for London People's Court
 	focus = {
 		id = ENG_london_peoples_court
-		icon = GFX_ENG_london_peoples_court
+		icon = ENG_london_peoples_court
 		x = 8
 		y = 11
 		cost = 10
@@ -824,7 +824,7 @@ focus_tree = {
 	#Focus for British Cultural Revolution
 	focus = {
 		id = ENG_british_cultural_revolution
-		icon = GFX_ENG_british_cultural_revolution
+		icon = ENG_british_cultural_revolution
 		x = 13
 		y = 10
 		cost = 10
@@ -838,7 +838,7 @@ focus_tree = {
 	#Focus for New Military Shipyards
 	focus = {
 		id = ENG_new_military_shipyards
-		icon = GFX_goal_generic_navy_cruiser
+		icon = goal_generic_navy_cruiser
 		x = 48
 		y = 10
 		cost = 10
@@ -855,7 +855,7 @@ focus_tree = {
 	#Focus for Retire Outdated Ships
 	focus = {
 		id = ENG_retire_outdated_ships
-		icon = GFX_goal_continuous_naval_production
+		icon = goal_continuous_naval_production
 		x = 49
 		y = 9
 		cost = 10
@@ -870,7 +870,7 @@ focus_tree = {
 	#Focus for Maintain the Great Fleet
 	focus = {
 		id = ENG_maintain_the_great_fleet
-		icon = GFX_goal_generic_navy_battleship
+		icon = goal_generic_navy_battleship
 		x = 47
 		y = 9
 		cost = 10
@@ -885,7 +885,7 @@ focus_tree = {
 	#Focus for Personal Weapon Research
 	focus = {
 		id = ENG_personal_weapon_research
-		icon = GFX_ENG_personal_weapon_research
+		icon = ENG_personal_weapon_research
 		x = 44
 		y = 12
 		cost = 10
@@ -899,7 +899,7 @@ focus_tree = {
 	#Focus for The Great Naval Reorganisation
 	focus = {
 		id = ENG_the_great_naval_reorganisation
-		icon = GFX_ENG_the_great_naval_reorganisation
+		icon = ENG_the_great_naval_reorganisation
 		x = 48
 		y = 8
 		cost = 10
@@ -913,7 +913,7 @@ focus_tree = {
 	#Focus for Artillery Focus
 	focus = {
 		id = ENG_artillery_focus
-		icon = GFX_goal_generic_army_artillery2
+		icon = goal_generic_army_artillery2
 		x = 44
 		y = 11
 		cost = 10
@@ -927,7 +927,7 @@ focus_tree = {
 	#Focus for Modern Infantry Tactic
 	focus = {
 		id = ENG_modern_infantry_tactic
-		icon = GFX_focus_generic_military_academy
+		icon = focus_generic_military_academy
 		x = 44
 		y = 10
 		cost = 10
@@ -941,7 +941,7 @@ focus_tree = {
 	#Focus for The Grand Army
 	focus = {
 		id = ENG_the_grand_army
-		icon = GFX_focus_generic_little_entente
+		icon = focus_generic_little_entente
 		x = 44
 		y = 9
 		cost = 10
@@ -956,7 +956,7 @@ focus_tree = {
 	#Focus for Helicopter Auxillary Forces
 	focus = {
 		id = ENG_helicopter_auxillary_forces
-		icon = GFX_ENG_helicopter_auxillary_forces
+		icon = ENG_helicopter_auxillary_forces
 		x = 40
 		y = 12
 		cost = 10
@@ -973,7 +973,7 @@ focus_tree = {
 	#Focus for Expand the SAS
 	focus = {
 		id = ENG_expand_the_sas
-		icon = GFX_ENG_expand_the_sas
+		icon = ENG_expand_the_sas
 		x = 39
 		y = 11
 		cost = 10
@@ -987,7 +987,7 @@ focus_tree = {
 	#Focus for Expand the Republican Marines
 	focus = {
 		id = ENG_expand_the_republican_marines
-		icon = GFX_goal_generic_amphibious_assault
+		icon = goal_generic_amphibious_assault
 		x = 41
 		y = 11
 		cost = 10
@@ -1001,7 +1001,7 @@ focus_tree = {
 	#Focus for Light Tanks and Amoured Vehicles Focus
 	focus = {
 		id = ENG_light_tanks_and_amoured_vehicles_focus
-		icon = GFX_ENG_light_tanks_and_amoured_vehicles_focus
+		icon = ENG_light_tanks_and_amoured_vehicles_focus
 		x = 39
 		y = 10
 		cost = 10
@@ -1016,7 +1016,7 @@ focus_tree = {
 	#Focus for MBT Focus
 	focus = {
 		id = ENG_mbt_focus
-		icon = GFX_ENG_mbt_focus
+		icon = ENG_mbt_focus
 		x = 41
 		y = 10
 		cost = 10
@@ -1031,7 +1031,7 @@ focus_tree = {
 	#Focus for Memories of the Second Great War
 	focus = {
 		id = ENG_memories_of_the_second_great_war
-		icon = GFX_ENG_memories_of_the_second_great_war
+		icon = ENG_memories_of_the_second_great_war
 		x = 42
 		y = 8
 		cost = 10
@@ -1045,7 +1045,7 @@ focus_tree = {
 	#Focus for Mobile Armed Forces
 	focus = {
 		id = ENG_mobile_armed_forces
-		icon = GFX_goal_generic_cavalry
+		icon = goal_generic_cavalry
 		x = 40
 		y = 9
 		cost = 10
@@ -1060,7 +1060,7 @@ focus_tree = {
 	#Focus for Master of the Azure
 	focus = {
 		id = ENG_master_of_the_azure
-		icon = GFX_goal_generic_air_fighter2
+		icon = goal_generic_air_fighter2
 		x = 37
 		y = 9
 		cost = 10
@@ -1075,7 +1075,7 @@ focus_tree = {
 	#Focus for Strategic Bomber Strike Force
 	focus = {
 		id = ENG_strategic_bomber_strike_force
-		icon = GFX_goal_generic_air_bomber
+		icon = goal_generic_air_bomber
 		x = 35
 		y = 10
 		cost = 10
@@ -1089,7 +1089,7 @@ focus_tree = {
 	#Focus for Jet Fighter Squadrons
 	focus = {
 		id = ENG_jet_fighter_squadrons
-		icon = GFX_ENG_jet_fighter_squadrons
+		icon = ENG_jet_fighter_squadrons
 		x = 37
 		y = 10
 		cost = 10
@@ -1103,7 +1103,7 @@ focus_tree = {
 	#Focus for The Future Aerial Warfare Committee
 	focus = {
 		id = ENG_the_future_aerial_warfare_committee
-		icon = GFX_ENG_the_future_aerial_warfare_committee
+		icon = ENG_the_future_aerial_warfare_committee
 		x = 36
 		y = 8
 		cost = 10
@@ -1117,7 +1117,7 @@ focus_tree = {
 	#Focus for Raze the Earth
 	focus = {
 		id = ENG_raze_the_earth
-		icon = GFX_goal_generic_occupy_start_war
+		icon = goal_generic_occupy_start_war
 		x = 35
 		y = 9
 		cost = 10
@@ -1132,7 +1132,7 @@ focus_tree = {
 	#Focus for International Revolutionary Offense
 	focus = {
 		id = ENG_international_revolutionary_offense
-		icon = GFX_focus_ger_great_red_menace
+		icon = focus_ger_great_red_menace
 		x = 42
 		y = 7
 		cost = 10
@@ -1146,7 +1146,7 @@ focus_tree = {
 	#Focus for Reforming the Air-Defense System
 	focus = {
 		id = ENG_reforming_the_airdefense_system
-		icon = GFX_focus_generic_air_defense
+		icon = focus_generic_air_defense
 		x = 25
 		y = 8
 		cost = 10
@@ -1160,7 +1160,7 @@ focus_tree = {
 	#Focus for Combat Nationalism
 	focus = {
 		id = ENG_combat_nationalism
-		icon = GFX_ENG_combat_nationalism
+		icon = ENG_combat_nationalism
 		x = 14
 		y = 12
 		cost = 10
@@ -1174,7 +1174,7 @@ focus_tree = {
 	#Focus for Plan Rose
 	focus = {
 		id = ENG_plan_rose
-		icon = GFX_ENG_plan_rose
+		icon = ENG_plan_rose
 		x = 36
 		y = 3
 		cost = 10
@@ -1195,7 +1195,7 @@ focus_tree = {
 	#Focus for Sits idelness Encrowned
 	focus = {
 		id = ENG_sits_idelness_encrowned
-		icon = GFX_focus_rom_abdicate
+		icon = focus_rom_abdicate
 		x = 28
 		y = 2
 		cost = 10
@@ -1209,7 +1209,7 @@ focus_tree = {
 	#Focus for The ocean sparkling lights
 	focus = {
 		id = ENG_the_ocean_sparkling_lights
-		icon = GFX_ENG_the_ocean_sparkling_lights
+		icon = ENG_the_ocean_sparkling_lights
 		x = 23
 		y = 3
 		cost = 10
@@ -1228,7 +1228,7 @@ focus_tree = {
 	#Focus for Your harvest shall it reap?
 	focus = {
 		id = ENG_your_harvest_shall_it_reap
-		icon = GFX_ENG_your_harvest_shall_it_reap
+		icon = ENG_your_harvest_shall_it_reap
 		x = 27
 		y = 3
 		cost = 10
@@ -1247,7 +1247,7 @@ focus_tree = {
 	#Focus for Destroy English Romanticism
 	focus = {
 		id = ENG_destroy_english_romanticism
-		icon = GFX_ENG_destroy_english_romanticism
+		icon = ENG_destroy_english_romanticism
 		x = 12
 		y = 11
 		cost = 10
@@ -1261,7 +1261,7 @@ focus_tree = {
 	#Focus for The Principles of Pacifism
 	focus = {
 		id = ENG_the_principles_of_pacifism
-		icon = GFX_ENG_the_principles_of_pacifism
+		icon = ENG_the_principles_of_pacifism
 		x = 10
 		y = 11
 		cost = 10
@@ -1275,7 +1275,7 @@ focus_tree = {
 	#Focus for Plan Violet
 	focus = {
 		id = ENG_plan_violet
-		icon = GFX_ENG_plan_violet
+		icon = ENG_plan_violet
 		x = 38
 		y = 3
 		cost = 10
@@ -1296,7 +1296,7 @@ focus_tree = {
 	#Focus for From your fields and hills
 	focus = {
 		id = ENG_from_your_fields_and_hills
-		icon = GFX_focus_prc_agrarian_socialism
+		icon = focus_prc_agrarian_socialism
 		x = 22
 		y = 2
 		cost = 10
@@ -1310,7 +1310,7 @@ focus_tree = {
 	#Focus for All your valleys call you
 	focus = {
 		id = ENG_all_your_valleys_call_you
-		icon = GFX_ENG_all_your_valleys_call_you
+		icon = ENG_all_your_valleys_call_you
 		x = 24
 		y = 2
 		cost = 10
@@ -1324,7 +1324,7 @@ focus_tree = {
 	#Focus for Laws that are falsehood
 	focus = {
 		id = ENG_laws_that_are_falsehood
-		icon = GFX_focus_renounce_the_treaty_of_trianon
+		icon = focus_renounce_the_treaty_of_trianon
 		x = 26
 		y = 2
 		cost = 10
@@ -1338,7 +1338,7 @@ focus_tree = {
 	#Focus for Dream of Toil and Sorrow
 	focus = {
 		id = ENG_dream_of_toil_and_sorrow
-		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		icon = focus_focus_fra_liberte_egalite_solidarite
 		x = 23
 		y = 1
 		cost = 10
@@ -1352,7 +1352,7 @@ focus_tree = {
 	#Focus for Over your face a web of lies
 	focus = {
 		id = ENG_over_your_face_a_web_of_lies
-		icon = GFX_ENG_over_your_face_a_web_of_lies
+		icon = ENG_over_your_face_a_web_of_lies
 		x = 27
 		y = 1
 		cost = 10
@@ -1366,7 +1366,7 @@ focus_tree = {
 	#Focus for England is risen, and the day is here!
 	focus = {
 		id = ENG_england_is_risen_and_the_day_is_here
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		icon = focus_spr_torchbearers_of_tomorrow
 		x = 25
 		y = 5
 		cost = 10
@@ -1380,7 +1380,7 @@ focus_tree = {
 	#Focus for Collectivisation
 	focus = {
 		id = ENG_collectivisation
-		icon = GFX_goal_generic_war_with_comintern
+		icon = goal_generic_war_with_comintern
 		x = 12
 		y = 12
 		cost = 10
@@ -1394,7 +1394,7 @@ focus_tree = {
 	#Focus for Plan Lily
 	focus = {
 		id = ENG_plan_lily
-		icon = GFX_ENG_plan_lily
+		icon = ENG_plan_lily
 		x = 40
 		y = 3
 		cost = 10
@@ -1414,7 +1414,7 @@ focus_tree = {
 	#Focus for Plan Osborne
 	focus = {
 		id = ENG_plan_osborne
-		icon = GFX_focus_generic_paratrooper
+		icon = focus_generic_paratrooper
 		x = 34
 		y = 3
 		cost = 10
@@ -1428,7 +1428,7 @@ focus_tree = {
 	#Focus for Worker's Self-Management
 	focus = {
 		id = ENG_workers_selfmanagement
-		icon = GFX_focus_YUG_pan_slavic_congress
+		icon = focus_YUG_pan_slavic_congress
 		x = 12
 		y = 13
 		cost = 10
@@ -1448,7 +1448,7 @@ focus_tree = {
 	#Focus for Central Economic Planning
 	focus = {
 		id = ENG_central_economic_planning
-		icon = GFX_goal_generic_soviet_construction
+		icon = goal_generic_soviet_construction
 		x = 14
 		y = 13
 		cost = 10
@@ -1471,7 +1471,7 @@ focus_tree = {
 	#Focus for Proletarian Culture
 	focus = {
 		id = ENG_proletarian_culture
-		icon = GFX_ENG_proletarian_culture
+		icon = ENG_proletarian_culture
 		x = 14
 		y = 11
 		cost = 10
@@ -1485,7 +1485,7 @@ focus_tree = {
 	#Focus for Non-Interventionalism
 	focus = {
 		id = ENG_noninterventionalism
-		icon = GFX_ENG_noninterventionalism
+		icon = ENG_noninterventionalism
 		x = 8
 		y = 13
 		cost = 10
@@ -1500,7 +1500,7 @@ focus_tree = {
 	#Focus for The British Nationalities
 	focus = {
 		id = ENG_the_british_nationalities
-		icon = GFX_ENG_the_british_nationalities
+		icon = ENG_the_british_nationalities
 		x = 10
 		y = 12
 		cost = 10
@@ -1519,7 +1519,7 @@ focus_tree = {
 	#Focus for Dicatorship of the Proletariat
 	focus = {
 		id = ENG_dicatorship_of_the_proletariat
-		icon = GFX_focus_por_workers_of_iberia
+		icon = focus_por_workers_of_iberia
 		x = 11
 		y = 14
 		cost = 10
@@ -1538,7 +1538,7 @@ focus_tree = {
 	#Focus for Submarine Efforts
 	focus = {
 		id = ENG_submarine_efforts
-		icon = GFX_goal_generic_navy_submarine
+		icon = goal_generic_navy_submarine
 		x = 49
 		y = 11
 		cost = 10
@@ -1552,7 +1552,7 @@ focus_tree = {
 	#Focus for Carrier Combat Group
 	focus = {
 		id = ENG_carrier_combat_group
-		icon = GFX_goal_generic_navy_carrier
+		icon = goal_generic_navy_carrier
 		x = 47
 		y = 11
 		cost = 10
@@ -1566,7 +1566,7 @@ focus_tree = {
 	#Focus for Britannia rules the waves!
 	focus = {
 		id = ENG_britannia_rules_the_waves
-		icon = GFX_ENG_britannia_rules_the_waves
+		icon = ENG_britannia_rules_the_waves
 		x = 48
 		y = 12
 		cost = 10
@@ -1585,7 +1585,7 @@ focus_tree = {
 	#Focus for British Home Defense
 	focus = {
 		id = ENG_british_home_defense
-		icon = GFX_ENG_british_home_defense
+		icon = ENG_british_home_defense
 		x = 28
 		y = 7
 		cost = 10
@@ -1599,7 +1599,7 @@ focus_tree = {
 	#Focus for The Atlantic Wall
 	focus = {
 		id = ENG_the_atlantic_wall
-		icon = GFX_focus_generic_coastal_fort
+		icon = focus_generic_coastal_fort
 		x = 31
 		y = 8
 		cost = 10
@@ -1613,7 +1613,7 @@ focus_tree = {
 	#Focus for New Radar Technology
 	focus = {
 		id = ENG_new_radar_technology
-		icon = GFX_focus_generic_cryptologic_bomb
+		icon = focus_generic_cryptologic_bomb
 		x = 26
 		y = 9
 		cost = 10
@@ -1627,7 +1627,7 @@ focus_tree = {
 	#Focus for Future War Shelter Program
 	focus = {
 		id = ENG_future_war_shelter_program
-		icon = GFX_focus_usa_guarantee_the_american_dream
+		icon = focus_usa_guarantee_the_american_dream
 		x = 30
 		y = 9
 		cost = 10
@@ -1641,7 +1641,7 @@ focus_tree = {
 	#Focus for COG Bunkers
 	focus = {
 		id = ENG_cog_bunkers
-		icon = GFX_ENG_cog_bunkers
+		icon = ENG_cog_bunkers
 		x = 32
 		y = 9
 		cost = 10
@@ -1655,7 +1655,7 @@ focus_tree = {
 	#Focus for Anstruther Government War Headquarters
 	focus = {
 		id = ENG_anstruther_government_war_headquarters
-		icon = GFX_goal_generic_fortify_city
+		icon = goal_generic_fortify_city
 		x = 31
 		y = 10
 		cost = 10
@@ -1674,7 +1674,7 @@ focus_tree = {
 	#Focus for Home Isles Aerospace Defense Command
 	focus = {
 		id = ENG_home_isles_aerospace_defense_command
-		icon = GFX_ENG_home_isles_aerospace_defense_command
+		icon = ENG_home_isles_aerospace_defense_command
 		x = 25
 		y = 10
 		cost = 10
@@ -1693,7 +1693,7 @@ focus_tree = {
 	#Focus for Scottish Coastal Defense
 	focus = {
 		id = ENG_scottish_coastal_defense
-		icon = GFX_ENG_scottish_coastal_defense
+		icon = ENG_scottish_coastal_defense
 		x = 32
 		y = 11
 		cost = 10
@@ -1707,7 +1707,7 @@ focus_tree = {
 	#Focus for Southern England Coastal Defense
 	focus = {
 		id = ENG_southern_england_coastal_defense
-		icon = GFX_ENG_southern_england_coastal_defense
+		icon = ENG_southern_england_coastal_defense
 		x = 30
 		y = 11
 		cost = 10
@@ -1721,7 +1721,7 @@ focus_tree = {
 	#Focus for Set the Sea on Fire
 	focus = {
 		id = ENG_set_the_sea_on_fire
-		icon = GFX_ENG_set_the_sea_on_fire
+		icon = ENG_set_the_sea_on_fire
 		x = 31
 		y = 12
 		cost = 10
@@ -1740,7 +1740,7 @@ focus_tree = {
 	#Focus for Hidden Amouries
 	focus = {
 		id = ENG_hidden_amouries
-		icon = GFX_focus_generic_army_tanks2
+		icon = focus_generic_army_tanks2
 		x = 28
 		y = 9
 		cost = 10
@@ -1754,7 +1754,7 @@ focus_tree = {
 	#Focus for Ministry of Unconventional Warfare
 	focus = {
 		id = ENG_ministry_of_unconventional_warfare
-		icon = GFX_goal_generic_more_territorial_claims
+		icon = goal_generic_more_territorial_claims
 		x = 28
 		y = 10
 		cost = 10
@@ -1768,7 +1768,7 @@ focus_tree = {
 	#Focus for European Navigation and Guidance Network
 	focus = {
 		id = ENG_european_navigation_and_guidance_network
-		icon = GFX_ENG_european_navigation_and_guidance_network
+		icon = ENG_european_navigation_and_guidance_network
 		x = 36
 		y = 11
 		cost = 10
