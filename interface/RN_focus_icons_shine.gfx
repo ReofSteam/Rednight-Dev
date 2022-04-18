@@ -1024,8 +1024,8 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
-##########France
-SpriteType = {
+ ##########France
+ SpriteType = {
         name = "GFX_FRA_pierre_la_france_shine"
         texturefile = "gfx/interface/goals/FRA/FRA_pierre_la_france.tga"            
         effectFile = "gfx/FX/buttonstate.lua"
@@ -1056,7 +1056,7 @@ SpriteType = {
         }
         legacy_lazy_load = no
     }	
-SpriteType = {
+ SpriteType = {
         name = "GFX_FRA_frachon_speech_shine"
         texturefile = "gfx/interface/goals/FRA/FRA_frachon_speech.tga"            
         effectFile = "gfx/FX/buttonstate.lua"
