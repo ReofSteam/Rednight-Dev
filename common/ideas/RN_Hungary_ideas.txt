@@ -1,0 +1,39 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+			HUN_Defeated_but_not_destroyed = {
+			picture = HUN_Defeated_but_not_destroyed
+
+			modifier = {
+			}
+			removal_cost = -1
+		}
+
+
+			HUN_underground_democrats = {
+			picture = HUN_underground_democrats		
+			modifier = {
+			}
+			removal_cost = -1
+		}
+
+
+			HUN_Unused_potential = {
+			picture = economy_bad		
+			modifier = {
+			removal_cost = -1
+		}
+
+
+			HUN_Radicals_in_the_cabinet = {
+			picture = economy_bad		
+                  modifier = {
+			}
+			removal_cost = -1
+		}
+	}
+}		
+		

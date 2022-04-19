@@ -500,5 +500,14 @@ spriteType = {
 	    name = "GFX_idea_MAG_ongoing_westernization"
 		texturefile = "gfx/interface/ideas/MAG/MAG_ongoing_westernization.png"
 	}
+###########HUN
+    spriteType = {
+	    name = "GFX_idea_HUN_Defeated_but_not_destroyed"
+		texturefile = "gfx/interface/ideas/HUN/HUN_Defeated_but_not_destroyed.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_HUN_underground_democrats"
+		texturefile = "gfx/interface/ideas/HUN/HUN_underground_democrats.png"
+	}
 	
 }
