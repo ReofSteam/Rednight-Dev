@@ -26,6 +26,7 @@ ideas = {
 			modifier = {
 			removal_cost = -1
 		}
+	}
 
 
 			HUN_Radicals_in_the_cabinet = {
