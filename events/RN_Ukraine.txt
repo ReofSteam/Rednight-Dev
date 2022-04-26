@@ -1,5 +1,18 @@
 ﻿add_namespace = ukr
 
+country_event = { #Front of Nations
+	id = ukr.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ukr.3"}
+	title = ukr.0.t
+	desc = ukr.0.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+	name = ukr.3.a
+	}
+}
+
 country_event = {
 	id = ukr.1
 	title = ukr.1.t
@@ -56,15 +69,17 @@ country_event = { #Peasants Revolt
     idea = UKR_peasant_rebellion
     days = 130
 }
-		declare_war_on = {
-			target = RUR
+UPR = {	
+declare_war_on = {
+			target = UKR
 			type = annex_everything
-		}    
+		}	
+}  
 }
 	}
 }
 
-country_event = { #Begins the Rebellion - Russian side
+country_event = { #Front of Nations
 	id = ukr.3
 	immediate = {log = "[GetDateText]: [Root.GetName]: event ukr.3"}
 	title = ukr.3.t
@@ -74,16 +89,9 @@ country_event = { #Begins the Rebellion - Russian side
 	
 	option = {
 	name = ukr.3.a
-	load_oob = "RUS_ukraine"
-	add_equipment_to_stockpile = {
-    type = infantry_equipment
-    amount = 65000
-    producer = RUS
+UKR = {
+create_faction = FRONT_OF_NATIONS
+add_to_faction = FIN
 }	
-add_manpower = 100000
-	add_timed_idea = {
-    idea = RFN_ukraine_rebellion
-    days = 130
-}
 	}
 }

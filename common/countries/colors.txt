@@ -596,11 +596,22 @@ UKR = {
 	color = rgb { 0 124 195 }
 	color_ui = rgb { 0 124 195 }
 }
-WPL = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 255 120 138 }
+DCO = {
+	color = rgb { 0 124 195 }
+	color_ui = rgb { 0 124 195 }
 }
-
+CAU = {
+	color = rgb { 0 124 195 }
+	color_ui = rgb { 0 124 195 }
+}
+UPR = {
+	color = rgb { 0 124 195 }
+	color_ui = rgb { 0 124 195 }
+}
+OLD = {
+	color = rgb { 0 124 195 }
+	color_ui = rgb { 0 124 195 }
+}
 POL = {
 	color = rgb { 197 92 106 }
 	color_ui = rgb { 255 120 138 }

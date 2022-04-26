@@ -16,11 +16,9 @@ GNR = "countries/WestEur.txt"	#German Nationalist Revolt
 RUS = "countries/WestEur.txt"
 RUR = "countries/WestEur.txt" #Little Russia 
 RFN = "countries/WestEur.txt" #Russian Finland
-SIB = "countries/WestEur.txt"
 TRM = "countries/WestEur.txt"	#Transamur
 
 ##Central
-CIS = "countries/Cisleithania.txt"
 AUS = "countries/Austria.txt"
 BOZ = "countries/British Occupation Zone.txt"
 CZE = "countries/Czechia.txt"
@@ -30,7 +28,6 @@ JOZ = "countries/Joint Occupation Zone.txt"
 NTH = "countries/Netherlands.txt"
 KNR = "countries/Netherlands Revolt.txt"
 SWI = "countries/Switzerland.txt"
-FRG = "countries/White Germany.txt" #Fash Republic of Germany
 MRV = "countries/Moravia.txt" 
 
 
@@ -71,9 +68,20 @@ MOL = "countries/Romania.txt"
 PRS = "countries/WestEur.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
-UPR = "countries/Ukraine.txt" #Ukrainian Peasants Rebels
 POL = "countries/Poland.txt"
 #CNK = "countries/Russian Channel.txt"
+
+####Anti-Russia####
+KAZ = "countries/Kazakhstan.txt" 
+DCO = "countries/Kazakhstan.txt" #Don Cossack  
+TRK = "countries/Turkestan.txt"
+UPR = "countries/Ukraine.txt"  #Ukrainian Peasants Rebels
+SIB = "countries/WestEur.txt"
+FRG = "countries/White Germany.txt" #Fash Republic of Germany
+OLD = "countries/WestEur.txt"
+CAU = "countries/WestEur.txt"
+
+
 
 ###Asia
 ##Middle-East
@@ -108,9 +116,7 @@ UAR = "countries/United Arab Republic.txt"
 
 ##Central
 AFG = "countries/Afghanistan.txt"
-KAZ = "countries/Kazakhstan.txt" 
-DCO = "countries/Kazakhstan.txt" #Don Cossack  
-TRK = "countries/Turkestan.txt"
+
 CAS = "countries/Turkestan.txt" #Caspian Republic
 
 ##East

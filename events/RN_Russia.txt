@@ -187,10 +187,6 @@ country_event = {
         popularity = 0.1
 }		
 		hidden_effect = {
-		country_event = { 
-		id = rus.10
-		days = 60
-		}
 	start_civil_war = {
     ideology = nationalist_socialism
     size = 0.25
@@ -232,34 +228,15 @@ transfer_state = 241
         set_country_flag = RUS_great_rebellion_UKR	
         set_global_flag = RUS_great_rebellion_FIN				
 	hidden_effect = {
-		RUR = { transfer_state = 791
-transfer_state = 997
-transfer_state = 93
-transfer_state = 821
-transfer_state = 221
-transfer_state = 202
-transfer_state = 196
-transfer_state = 193
-transfer_state = 228
-transfer_state = 225
-transfer_state = 197
-transfer_state = 226
-transfer_state = 227
-transfer_state = 192
-transfer_state = 203
-transfer_state = 198
-transfer_state = 200
 		declare_war_on = {
 			target = UKR
 			type = annex_everything
 		}
-}		
 	country_event = { 
 	id = rus.13
 	days = 12 
 	}
 UKR = { country_event = ukr.1 }		
-RUR = { country_event = ukr.3 }		
 	}
 }
 }
@@ -281,19 +258,10 @@ custom_effect_tooltip = the_corridor_unlocks
         set_global_flag = RUS_great_rebellion_FIN	
         set_global_flag = liberty_corridor_exists
 		hidden_effect = {
-RFN = { transfer_state = 863
-transfer_state = 111
-transfer_state = 865
-transfer_state = 844
-transfer_state = 147
-transfer_state = 150
-transfer_state = 146
-transfer_state = 864
-transfer_state = 840
 declare_war_on = {
 			target = FIN
 			type = annex_everything
-		}}		
+		}		
 	country_event = { 
 	id = rus.23
 	days = 2
@@ -304,8 +272,9 @@ declare_war_on = {
 	}	
 country_event = rus.33	
 
-RFN = { country_event = fin.3 }	
-FIN = { country_event = fin.1 }	
+FIN = { country_event = fin.1 }
+UKR = { country_event = ukr.3 }	
+	
 	}		
 	}
 }
@@ -412,7 +381,10 @@ country_event = { #Estonia Revolt
 declare_war_on = {
 			target = EST
 			type = annex_everything
-		}		
+		}	
+UKR = {
+add_to_faction = TRK
+}		
 	hidden_effect = {
 	country_event = { 
 	id = rus.30
@@ -432,12 +404,14 @@ country_event = { #Don Host Revolt
 
 	option = {
 	name = rus.30.a		
-	DCO = { transfer_state = 218 }
-declare_war_on = {
-			target = DCO
-			type = annex_everything
-		}		
+	DCO = { transfer_state = 218 }	
 	hidden_effect = {
+DCO = {	
+declare_war_on = {
+			target = UKR
+			type = annex_everything
+		}	
+}	
 	country_event = {
 	id = rus.31
 	days = 7
@@ -459,10 +433,16 @@ country_event = { #Siberian Cossack Revolt
 	transfer_state = 570
 	transfer_state = 588
 	}
+SIB = {	
 declare_war_on = {
-			target = SIB
+			target = UKR
 			type = annex_everything
-		}		
+		}	
+}		
+DCO = {
+create_faction = FEDERAL_FRONT
+add_to_faction = SIB
+}
 	hidden_effect = {
 	country_event = {
 	id = rus.32
@@ -483,6 +463,9 @@ country_event = { #Turkic Revolt
 	name = rus.32.a		
 	TRK = { transfer_state = 404
 	}
+UKR = {
+add_to_faction = TRK
+}	
 declare_war_on = {
 			target = TRK
 			type = annex_everything
@@ -543,85 +526,42 @@ country_event = { #Victory against Finnish Rebels
 	}
 }
 
-
-#######Political struggle chain
-
-country_event = { #Levitov breaks the ice
-	id = rus.14
-	title = rus.14.t
-	desc = rus.14.d
-	picture = GFX_RUS_kremlin
-
+country_event = { #German Revolt
+	id = rus.35
+	title = rus.35.t
+	desc = rus.35.d
+	picture = GFX_rebel_1
 	is_triggered_only = yes
-fire_only_once = yes
+
 	option = {
-	name = rus.14.a
-	hidden_effect = {
-	country_event = {
-	id = rus.15
-	days = 20
-}	
+	name = rus.35.a		
+	OLD = { transfer_state = 12
+	}
+DCO = {
+add_to_faction = OLD
+}			
+
 }	
 	}
-}
 
-country_event = { #Levitov denounces Skoblin 
-	id = rus.15
-	title = rus.15.t
-	desc = rus.15.d
-	picture = GFX_RUS_duma
-
+country_event = { #Islamist Revolt
+	id = rus.36
+	title = rus.36.t
+	desc = rus.36.d
+	picture = GFX_rebel_1
 	is_triggered_only = yes
-fire_only_once = yes
-
-		option = {
-		name = rus.15.b
-		set_country_flag = RUS_kremlin_crisis		
-
-	}
-}
-
-country_event = { #Arrest of Levitov
-	id = rus.16
-	title = rus.16.t
-	desc = rus.16.d
-	picture = GFX_RUS_skoblin_annd_levitov
-
-	is_triggered_only = yes
-fire_only_once = yes
 
 	option = {
-		name = rus.16.a
+	name = rus.36.a		
+	CAU = { transfer_state = 787
 	}
-}
+UKR = {
+add_to_faction = CAU
+}			
 
-country_event = { #Arrest of Levitov
-	id = rus.17
-	title = rus.17.t
-	desc = rus.17.d
-	picture = GFX_RUS_skoblin_annd_levitov
+}	
+	}	
 
-	is_triggered_only = yes
-fire_only_once = yes
-
-	option = {
-		name = rus.17.a
-	}
-}
-
-country_event = { #Return of the Whites
-	id = rus.18
-	title = rus.18.t
-	desc = rus.18.d
-	picture = GFX_RUS_wrangel
-
-	is_triggered_only = yes
-fire_only_once = yes
-
-	option = {
-		name = rus.18.a
-	}
-}
 
 
 #Teutonphobia

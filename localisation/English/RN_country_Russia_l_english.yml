@@ -343,6 +343,98 @@ TRK_national_corporatist:0 "Kazakh Insurgency"
 TRK_national_corporatist_ADJ:0 "Kazakh"
 TRK_national_corporatist_DEF:0 "the Kazakh Insurgency"
 
+########
+CAU_nationalist_socialism:0 "Mountainous People's Congress"
+CAU_nationalist_socialism_ADJ:0 "Caucasian"
+CAU_nationalist_socialism_DEF:0 "the Mountainous People's Congress"
+
+CAU_revolutionary_socialism:0 "Mountainous People's Congress"
+CAU_revolutionary_socialism_ADJ:0 "Caucasian"
+CAU_revolutionary_socialism_DEF:0 "the Mountainous People's Congress
+
+CAU_syndicalism:0 "Mountainous People's Congress"
+CAU_syndicalism_ADJ:0 "Caucasian"
+CAU_syndicalism_DEF:0 "the Mountainous People's Congress"
+
+CAU_moderate_socialist:0 "Mountainous People's Congress"
+CAU_moderate_socialist_ADJ:0 "Caucasian"
+CAU_moderate_socialist_DEF:0 "the Mountainous People's Congress"
+
+CAU_social_democrat:0 "Mountainous People's Congress"
+CAU_social_democrat_ADJ:0 "Caucasian"
+CAU_social_democrat_DEF:0 "the Mountainous People's Congress"
+
+CAU_social_liberal:0 "Mountainous People's Congress"
+CAU_social_liberal_ADJ:0 "Caucasian"
+CAU_social_liberal_DEF:0 "the Mountainous People's Congress"
+
+CAU_social_conservative:0 "Mountainous People's Congress"
+CAU_social_conservative_ADJ:0 "Caucasian"
+CAU_social_conservative_DEF:0 "the Mountainous People's Congress"
+
+CAU_authoritarian_democrat:0 "Mountainous People's Congress"
+CAU_authoritarian_democrat_ADJ:0 "Caucasian"
+CAU_authoritarian_democrat_DEF:0 "the Mountainous People's Congress"
+
+CAU_autocratic:0 "Mountainous People's Congress"
+CAU_autocratic_ADJ:0 "Caucasian"
+CAU_autocratic_DEF:0 "the Mountainous People's Congress"
+
+CAU_ultraconservative:0 "Mountainous People's Congress"
+CAU_ultraconservative_ADJ:0 "Caucasian"
+CAU_ultraconservative_DEF:0 "the Mountainous People's Congress"
+
+CAU_national_corporatist:0 "Mountainous People's Congress"
+CAU_national_corporatist_ADJ:0 "Caucasian"
+CAU_national_corporatist_DEF:0 "the Mountainous People's Congress"
+
+
+#######
+OLD_nationalist_socialism:0 "Ostland Volunteers"
+OLD_nationalist_socialism_ADJ:0 "Ostlander"
+OLD_nationalist_socialism_DEF:0 "the Ostland Volunteers"
+
+OLD_revolutionary_socialism:0 "Ostland Volunteers"
+OLD_revolutionary_socialism_ADJ:0 "Ostlander"
+OLD_revolutionary_socialism_DEF:0 "the Ostland Volunteers
+
+OLD_syndicalism:0 "Ostland Volunteers"
+OLD_syndicalism_ADJ:0 "Ostlander"
+OLD_syndicalism_DEF:0 "the Ostland Volunteers"
+
+OLD_moderate_socialist:0 "Ostland Volunteers"
+OLD_moderate_socialist_ADJ:0 "Ostlander"
+OLD_moderate_socialist_DEF:0 "the Ostland Volunteers"
+
+OLD_social_democrat:0 "Ostland Volunteers"
+OLD_social_democrat_ADJ:0 "Ostlander"
+OLD_social_democrat_DEF:0 "the Ostland Volunteers"
+
+OLD_social_liberal:0 "Ostland Volunteers"
+OLD_social_liberal_ADJ:0 "Ostlander"
+OLD_social_liberal_DEF:0 "the Ostland Volunteers"
+
+OLD_social_conservative:0 "Ostland Volunteers"
+OLD_social_conservative_ADJ:0 "Ostlander"
+OLD_social_conservative_DEF:0 "the Ostland Volunteers"
+
+OLD_authoritarian_democrat:0 "Ostland Volunteers"
+OLD_authoritarian_democrat_ADJ:0 "Ostlander"
+OLD_authoritarian_democrat_DEF:0 "the Ostland Volunteers"
+
+OLD_autocratic:0 "Ostland Volunteers"
+OLD_autocratic_ADJ:0 "Ostlander"
+OLD_autocratic_DEF:0 "the Ostland Volunteers"
+
+OLD_ultraconservative:0 "Ostland Volunteers"
+OLD_ultraconservative_ADJ:0 "Ostlander"
+OLD_ultraconservative_DEF:0 "the Ostland Volunteers"
+
+OLD_national_corporatist:0 "Ostland Volunteers"
+OLD_national_corporatist_ADJ:0 "Ostlander"
+OLD_national_corporatist_DEF:0 "the Ostland Volunteers"
+
+
 ####
 DCO_rebel:0 "Shkuroist Cossacks"
 
@@ -715,3 +807,7 @@ RUS_confirm_authorisation_code:0 "Confirm Authorisation Code"
 RUS_set_launch_calculation:0 "Set Launch Calculations" 
 RUS_activate_nuclear_key:0 "Activate Nuclear Key"
 RUS_PARDAN_0_Paris:0 "Target Paris"
+
+###Random####
+FEDERAL_FRONT:0 "Federal Front"
+FRONT_OF_NATIONS:0 "United Front of Nations"
