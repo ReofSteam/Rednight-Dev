@@ -65,7 +65,7 @@ LAT = "countries/Latvia.txt"
 LIT = "countries/Lithuania.txt"
 ROM = "countries/Romania.txt"
 MOL = "countries/Romania.txt"
-PRS = "countries/WestEur.txt"
+PRS = "countries/Germany.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
 POL = "countries/Poland.txt"
@@ -76,10 +76,9 @@ KAZ = "countries/Kazakhstan.txt"
 DCO = "countries/Kazakhstan.txt" #Don Cossack  
 TRK = "countries/Turkestan.txt"
 UPR = "countries/Ukraine.txt"  #Ukrainian Peasants Rebels
-SIB = "countries/WestEur.txt"
-FRG = "countries/White Germany.txt" #Fash Republic of Germany
-OLD = "countries/WestEur.txt"
-CAU = "countries/WestEur.txt"
+SIB = "countries/Russia.txt"
+OLD = "countries/White_Germany.txt"
+CAU = "countries/Russia.txt"
 
 
 

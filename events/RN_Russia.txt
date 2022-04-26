@@ -383,7 +383,7 @@ declare_war_on = {
 			type = annex_everything
 		}	
 UKR = {
-add_to_faction = TRK
+add_to_faction = EST
 }		
 	hidden_effect = {
 	country_event = { 
@@ -410,7 +410,8 @@ DCO = {
 declare_war_on = {
 			target = UKR
 			type = annex_everything
-		}	
+		}
+add_to_faction = UPR		
 }	
 	country_event = {
 	id = rus.31
@@ -470,7 +471,12 @@ declare_war_on = {
 			target = TRK
 			type = annex_everything
 		}		
-
+	hidden_effect = {
+	country_event = {
+	id = rus.35
+	days = 2
+}
+}	
 }	
 	}
 
@@ -540,7 +546,12 @@ country_event = { #German Revolt
 DCO = {
 add_to_faction = OLD
 }			
-
+	hidden_effect = {
+	country_event = {
+	id = rus.36
+	days = 3
+}
+}
 }	
 	}
 
