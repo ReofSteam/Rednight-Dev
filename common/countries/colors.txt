@@ -374,8 +374,8 @@ GNR = {
 	color_ui = rgb { 150 20 20 }
 }
 RUS = {
-	color = rgb { 0 100 25 }
-	color_ui = rgb { 0 100 25 }
+	color = rgb { 62 97 54 }
+	color_ui = rgb { 62 97 54 }
 }
 SIB = {
 	color = rgb { 62 97 54 }
