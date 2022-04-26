@@ -17,7 +17,13 @@ RUS = "countries/WestEur.txt"
 RUR = "countries/WestEur.txt" #Little Russia 
 RFN = "countries/WestEur.txt" #Russian Finland
 TRM = "countries/WestEur.txt"	#Transamur
-
+RUS = "countries/Russia.txt" #Russia
+CSA = "countries/CSA.txt" #csa
+DCO = "countries/Omsk_Cossack_Committee.txt" #Omsk
+MNC = "countries/MNC.txt"
+SIB = "countries/Siberia.txt"
+OLD = "countries/OstlandVolunteers.txt"
+UPR = "countries/FarmersLegion.txt"
 ##Central
 AUS = "countries/Austria.txt"
 BOZ = "countries/British Occupation Zone.txt"

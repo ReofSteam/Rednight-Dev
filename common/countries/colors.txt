@@ -1,110 +1,81 @@
-NUC = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-}
-
 ################Civil WAr
-
 D01 = {
 	color = rgb { 125 121 109 }
 	color_ui = rgb { 125 121 109 }
 }
-
 COF = {
 	color = rgb { 139 69 19 }
 	color_ui = rgb { 125 121 109 }
 }
-
 NGO = {
 	color = rgb { 209 211 215 }
 	color_ui = rgb { 125 121 109 }
 }
-
 IWW = {
 	color = rgb { 210 43 43 }
 	color_ui = rgb { 59 9 9 }
 }
-
 NAF = {
-	color = rgb { 0  132 62 }
+	color = rgb { 0 132 62 }
 	color_ui = rgb { 0 132 62 }
 }
-
-
 ###Europe
-
 ANA = {
 	color = rgb { 214 0 0 }
 	color_ui = rgb { 214 0 0 }
 }
-
 SAH = {
 	color = rgb { 255 206 137 }
 	color_ui = rgb { 173 157 113 }
 }
-
-
 ALB = {
 	color = rgb { 228 30 32 }
 	color_ui = rgb { 228 30 32 }
 }
-
 SWA = {
 	color = rgb { 76 76 76 }
 	color_ui = rgb { 173 157 113 }
 }
-
-
 BHC = {
 	color = rgb { 196 72 82 }
 	color_ui = rgb { 228 30 32 }
 }
-
 INC = {
 	color = rgb { 205 0 0 }
 	color_ui = rgb { 179 35 25 }
 }
-
 SLK = {
 	color = rgb { 128 128 128 }
 	color_ui = rgb { 128 128 128 }
 }
-
 LYB = {
 	color = rgb { 74 124 51 }
 	color_ui = rgb { 0 127 14 }
 }
-
 TRM = {
 	color = rgb { 34 82 150 }
 	color_ui = rgb { 124 73 128 }
 }
-
 NGR = {
 	color = rgb { 0 124 0 }
 	color_ui = rgb { 255 169 169 }
 }
-
 OTT = {
 	color = rgb { 66 135 245 }
 	color_ui = rgb { 66 135 245 }
 }
-
 BOL = {
 	color = rgb { 208 68 255 }
 	color_ui = rgb {208 68 255}
 }
-
 TUR = {
 	color = rgb { 138 227 164 }
 	color_ui = rgb { 138 227 164 }
 }
-
 BRA = {
 	color = rgb { 100 180 0 }
 	color_ui = rgb { 100 180 0 }
 }
-
 CAL = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 57 143 97 }
@@ -117,28 +88,22 @@ MEX = {
 	color = rgb { 135 198 108 }
 	color_ui = rgb { 135 198 108 }
 }
-
 QUE = {
 	color = rgb { 0 61 165 }
 	color_ui = rgb { 135 198 108 }
 }
-
 WCN = {
 	color = rgb { 255 255 153 }
 	color_ui = rgb { 135 198 108 }
 }
-
 TEX = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 135 198 108 }
 }
-
 OSS = {
 	color = rgb { 100 149 240  }
 	color_ui = rgb { 100 149 237  }
 }
-
-
 BEL = {
 	color = rgb { 112 94 117 }
 	color_ui = rgb { 112 94 117 }
@@ -327,7 +292,6 @@ CHL = {
 	color = rgb { 0 89 132 }
 	color_ui = rgb { 189 204 255 }
 }
-
 ECU = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 189 204 255 }
@@ -384,13 +348,6 @@ ICE = {
 	color = rgb { 100 125 175 }
 	color_ui = rgb { 100 125 175 }
 }
-
-
-
-
-
-
-
 ##Central
 CIS = {
 	color = rgb { 224 228 255 }
@@ -412,48 +369,38 @@ GER = {
 	color = rgb { 150 20 20 }
 	color_ui = rgb { 150 20 20 }
 }
-
 GNR = {
 	color = rgb { 73 80 84 }
 	color_ui = rgb { 150 20 20 }
 }
-
 RUS = {
-	color = rgb { 0 100 25 }
-	color_ui = rgb { 0 100 25 }
+	color = rgb { 62 97 54 }
+	color_ui = rgb { 62 97 54 }
 }
-
 SIB = {
-	color = rgb { 0 100 25 }
-	color_ui = rgb { 0 100 25 }
+	color = rgb { 62 97 54 }
+	color_ui = rgb { 62 97 54 }
 }
-
 RFN = {
 	color = rgb { 0 100 25 }
 	color_ui = rgb { 0 100 25 }
 }
-
 RUR = {
 	color = rgb { 0 100 25 }
 	color_ui = rgb { 0 100 25 }
 }
-
 SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 224 5 5 }
 }
-
 PRS = {
 	color = rgb { 66  82  72 }
 	color_ui = rgb { 66  82  72 }
 }
-
-
 CSA = {
 	color = rgb { 178 34 52 }
 	color_ui = rgb { 178 34 52 }
 }
-
 CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
@@ -462,7 +409,6 @@ QUE = {
 	color = rgb { 19 83 180 }
 	color_ui = rgb { 19 83 180 }
 }
-
 #Southwest
 CNT = {
 	color = rgb { 172 91 183 }
@@ -480,7 +426,6 @@ MLT = {
 	color = rgb { 173 100 110 }
 	color_ui = rgb { 173 100 110 }
 }
-
 ##Southeast
 ALB = {
 	color = rgb { 149 45 102 }
@@ -528,7 +473,6 @@ VAR = {
 	color = rgb { 120 146 93 }
 	color_ui = rgb { 100 100 150 }
 }
-
 ##North
 DEN = {
 	color = rgb { 153  116  93 }
@@ -554,7 +498,6 @@ SWE = {
 	color = rgb { 0 106 167 }
 	color_ui = rgb { 84 133 186 }
 }
-
 ##East
 BLR = {
 	color = rgb { 180 220 190 }
@@ -596,19 +539,7 @@ UKR = {
 	color = rgb { 0 124 195 }
 	color_ui = rgb { 0 124 195 }
 }
-DCO = {
-	color = rgb { 0 124 195 }
-	color_ui = rgb { 0 124 195 }
-}
 CAU = {
-	color = rgb { 0 124 195 }
-	color_ui = rgb { 0 124 195 }
-}
-UPR = {
-	color = rgb { 0 124 195 }
-	color_ui = rgb { 0 124 195 }
-}
-OLD = {
 	color = rgb { 0 124 195 }
 	color_ui = rgb { 0 124 195 }
 }
@@ -616,14 +547,12 @@ POL = {
 	color = rgb { 197 92 106 }
 	color_ui = rgb { 255 120 138 }
 }
-
 ###Asia
 ##Middle-East
 EGY = {
 	color = rgb { 255 255 0 }
 	color_ui = rgb { 255 255 0 }
 }
-
 ADE = {
 	color = rgb { 135 206 250 }
 	color_ui = rgb { 135 206 250 }
@@ -705,7 +634,6 @@ TRK = {
 	color = rgb { 110 180 84 }
 	color_ui = rgb { 110 180 84 }
 }
-
 ##East
 CHI = {
 	color = rgb { 54 118 100 }
@@ -775,10 +703,6 @@ XRA = {
 	color = rgb { 206 79 57 }
 	color_ui = rgb { 206 79 57 }
 }
-#TAI = {
-#	color = rgb
-#	color_ui = rgb
-#}
 TIB = {
 	color = rgb { 177 207 205 }
 	color_ui = rgb { 177 207 205 }
@@ -795,20 +719,11 @@ YNN = {
 	color = rgb { 143 20 20 }
 	color_ui = rgb { 143 40 40 }
 }
-
 ##South
 BHC = {
 	color = rgb { 163 0 0 }
 	color_ui = rgb { 163 0 0 }
 }
-#PNJ = {
-#	color = rgb
-#	color_ui = rgb
-#}
-#KSH = {
-#	color = rgb
-#	color_ui = rgb
-#}
 HYD = {
 	color = rgb { 245 162 10 }
 	color_ui = rgb { 245 162 10 }
@@ -841,8 +756,6 @@ BHU = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 152 130 191 }
 }
-
-
 ##Southeast
 SHN = {
 	color = rgb { 255 157 171 }
@@ -872,10 +785,6 @@ INS = {
 	color = rgb { 245 245 220 }
 	color_ui = rgb { 245 245 220 }
 }
-#NBE = {
-#	color = rgb
-#	color_ui = rgb
-#}		Unimplemented
 PHI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 152 130 191 }
@@ -921,12 +830,10 @@ NCL = {
 	color = rgb { 62 155 165 }
 	color_ui = rgb { 66 155 165 }
 }
-
 PLN = {
 	color = rgb { 207 12 19 }
 	color_ui = rgb { 207 12 19 }
 }
-
 HAW = {
 	color = rgb { 239 239 0 }
 	color_ui = rgb { 239 239 0 }
@@ -947,15 +854,6 @@ DEI = {
 	color = rgb { 201 108 24 }
 	color_ui = rgb { 201 108 24 }
 }
-#SOL = {
-#	color = rgb
-#	color_ui = rgb
-#}
-#FJI = {
-#	color = rgb
-#	color_ui = rgb
-#}
-
 ###Africa
 ##North
 EGY = {
@@ -982,7 +880,6 @@ SUD = {
 	color = rgb { 135 144 180 }
 	color_ui = rgb { 135 144 180 }
 }
-
 ##Central
 BGU = {
 	color = rgb { 127 13 5 }
@@ -1020,7 +917,6 @@ KIV = {
 	color = rgb { 75 17 116 }
 	color_ui = rgb { 75 17 116 }
 }
-
 ##West
 ASH = {
 	color = rgb { 97 98 195 }
@@ -1086,7 +982,6 @@ SIE = {
 	color = rgb { 173 157 113 }
 	color_ui = rgb { 173 157 113 }
 }
-
 ##East
 BGA = {
 	color = rgb { 21 21 227 }
@@ -1120,7 +1015,6 @@ TNG = {
 	color = rgb { 94  100  91 }
 	color_ui = rgb { 94  100  91 }
 }
-
 ##South
 ANG = {
 	color = rgb { 155 135 195 }
@@ -1162,7 +1056,6 @@ SAF = {
 	color = rgb { 240 100 0 }
 	color_ui = rgb { 255 126 0 }
 }
-
 SWA = {
 	color = rgb { 63  83  91 }
 	color_ui = rgb { 63  83  91 }
@@ -1171,13 +1064,11 @@ CHK = {
 	color = rgb { 197 110 255 }
 	color_ui = rgb { 197 110 255 }
 }
-
 ###Americas
 TEX = {
 	color = rgb { 225 163 75 }
 	color_ui = rgb { 225 163 75 }
 }
-
 ##Central
 CAC = {
 	color = rgb { 111 178 251 }
@@ -1227,8 +1118,6 @@ YUC = {
 	color = rgb { 170 54 60 }
 	color_ui = rgb { 170 54 60 }
 }
-
-
 ##Caribbean
 #ANT = {
 #	color = rgb
@@ -1262,7 +1151,6 @@ PUE = {
 	color = rgb
 	color_ui = rgb
 }
-
 ##South America
 ARG = {
 	color = rgb { 145 157 236 }
@@ -1304,3 +1192,19 @@ VEN = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
+NUC = {
+	color = rgb { 215 172 52 }
+	color_ui = rgb { 215 172 52 }
+}
+UPR = { 
+	color = rgb { 215 172 52 }
+	color_ui = rgb { 215 172 52 }
+}
+ DCO = {
+	color = rgb { 215 172 52 }
+	color_ui = rgb { 215 172 52 }
+ }
+ OLD = {
+	color = rgb { 215 172 52 }
+	color_ui = rgb { 215 172 52 }
+ }
