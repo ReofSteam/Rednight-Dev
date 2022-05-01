@@ -6,7 +6,7 @@ ENG_DD_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = {
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -64,7 +64,7 @@ ENG_DE_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -102,7 +102,7 @@ ENG_CL_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -133,7 +133,7 @@ ENG_CLAA_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -160,7 +160,7 @@ ENG_CA_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -187,7 +187,7 @@ ENG_MINELAYERS_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -211,7 +211,7 @@ ENG_BB_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -235,7 +235,7 @@ ENG_BC_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -257,7 +257,7 @@ ENG_CV_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -281,7 +281,7 @@ ENG_CVL_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -306,7 +306,7 @@ ENG_SS_HISTORICAL = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -350,7 +350,7 @@ ENG_COUNTIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -379,7 +379,7 @@ ENG_CITIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -404,7 +404,7 @@ ENG_COLONIES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		not = { has_government = communism }
+		not = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -422,7 +422,7 @@ ENG_KINGS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communism }
+		NOT = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -446,7 +446,7 @@ ENG_BATTLES = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communism }
+		NOT = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -468,7 +468,7 @@ ENG_RIVERS = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communism }
+		NOT = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -489,7 +489,7 @@ ENG_MYTHOLOGY = {
 	for_countries = { ENG }
 
 	can_use = { 
-		NOT = { has_government = communism }
+		NOT = { has_government = nationalist_socialism }
 	}
 
 	type = ship
@@ -515,13 +515,13 @@ ENG_DD_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Destroyer %s"					
 
 	unique = {											
@@ -573,13 +573,13 @@ ENG_DE_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Destroyer Escort %s"					
 
 	unique = {											
@@ -611,13 +611,13 @@ ENG_CL_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Light Cruiser %s"
 
 	unique = {
@@ -642,13 +642,13 @@ ENG_CLAA_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Light Cruiser (AA) %s"
 
 	unique = {
@@ -669,13 +669,13 @@ ENG_CA_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Heavy Cruiser %s"
 
 	unique = {
@@ -696,13 +696,13 @@ ENG_MINELAYERS_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Miner %s"
 
 	unique = {
@@ -720,13 +720,13 @@ ENG_BB_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Battleship %s"		
 
 	unique = {
@@ -744,13 +744,13 @@ ENG_BC_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
@@ -766,13 +766,13 @@ ENG_CV_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Carrier %s"		
 
 	unique = {
@@ -790,13 +790,13 @@ ENG_CVL_COMMUNISM = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Carrier %s"	
 
 	unique = {
@@ -815,13 +815,13 @@ ENG_SS_COMMUNISM= {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "WLNS "							
+	prefix = "RNS "							
 	fallback_name = "Submarine %s"
 	
 	unique = {
@@ -859,12 +859,12 @@ ENG_COUNTIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "RNS "
 
 	unique = {
 		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" 
@@ -889,12 +889,12 @@ ENG_CITIES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "RNS "
 
 	unique = {
 		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Manchester" "Edinburgh" "Liverpool" "Bristol" 
@@ -915,12 +915,12 @@ ENG_ADMIRALS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "RNS "
 
 	unique = {
 		"Blake" "Deane" "Popham" "Monck" "Penn" "Montague" "Desborow" 
@@ -935,12 +935,12 @@ ENG_BATTLES_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "RNS "
 
 	unique = {
 		"Edgehill" "Aylesbury" "Leeds" "Hopton Heath" "Sourton Down" "Gainsborough" "Newbury" 
@@ -959,12 +959,12 @@ ENG_RIVERS_COMMUNIST = {
 	for_countries = { ENG }
 
 	can_use = { 
-		has_government = communism
+		has_government = nationalist_socialism
 	}
 
 	type = ship
 
-	prefix = "WLNS "
+	prefix = "RNS "
 
 	unique = {
 		"Severn" "Thames" "Trent" "Great Ouse" "Wye" "Ure" "Tay" "Clyde" "Spey" "Nene" "Bann" "Tweed" 

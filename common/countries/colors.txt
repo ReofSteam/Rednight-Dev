@@ -486,10 +486,6 @@ NOR = {
 	color = rgb { 135 178 192 }
 	color_ui = rgb { 161 213 230 }
 }
-SHL = {
-	color = rgb { 201  162  139 }
-	color_ui = rgb { 201  162  139 }
-}
 SWE = {
 	color = rgb { 0 106 167 }
 	color_ui = rgb { 84 133 186 }

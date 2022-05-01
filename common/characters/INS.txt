@@ -134,6 +134,7 @@ characters={
 		name="Oerip Soemohardjo"
 		portraits={
 			army = {
+				large = "gfx/leaders/INS/INS_Soemohardjo.png"			
 				small = "gfx/ministers/INS/INS_minister_Soemohardjo.png"
 			}
 		}
@@ -175,7 +176,7 @@ characters={
 			}
 		}
 		
-		field_marshal = {
+		corps_commander = {
 			traits = { war_hero }
 			skill = 4
 			attack_skill = 3
@@ -243,11 +244,11 @@ characters={
 		portraits={
 			army = {
 				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
-				large = "gfx/leaders/INS/INS_Soedirman.png"	
+				large = "gfx/leaders/INS/INS_Djatikusumo.png"	
 			}
 		}
 		
-		field_marshal = {
+		corps_commander = {
 			traits = { war_hero }
 			skill = 4
 			attack_skill = 3
@@ -266,7 +267,7 @@ characters={
 			}
 		}
 		
-		field_marshal = {
+		corps_commander = {
 			traits = { war_hero }
 			skill = 4
 			attack_skill = 3
@@ -285,7 +286,7 @@ characters={
 			}
 		}
 		
-		field_marshal = {
+		corps_commander = {
 			traits = { war_hero }
 			skill = 4
 			attack_skill = 3
@@ -304,7 +305,7 @@ characters={
 			}
 		}
 		
-		field_marshal = {
+		corps_commander = {
 			traits = { war_hero }
 			skill = 4
 			attack_skill = 3
