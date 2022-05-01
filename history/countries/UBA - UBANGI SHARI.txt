@@ -1,0 +1,67 @@
+﻿#capital = 109
+OOB = "UBA"
+set_research_slots = 1
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_cosmetic_tag = UBA_SFR
+
+set_popularities = {
+    nationalist_socialism = 6
+    syndicalism = 18
+    revolutionary_socialism = 28
+    social_democrat = 15
+    social_liberal = 10
+    social_conservative = 4
+    authoritarian_democrat = 3
+    autocratic = 14
+    national_corporatist = 2
+}
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+set_country_flag = banned_social_liberal
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
+
+set_country_flag = coalition_syndicalism
+set_country_flag = coalition_moderate_socialist
+
+set_stability = 0.35
+
+##########################################
+################# LEADERS ################
+##########################################
+
+
+
+create_country_leader = {
+	name = "Antoine Théophile Darlan"
+	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
+	#picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Josip_Broz_Tito.dds"
+	expire = "1974.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = { }
+}
