@@ -30,18 +30,18 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-USA_INF_01 = 
+CAL_INF_01 = 
 {
 	name = "Infantry Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { USA_INF_01 }
+	#link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Infantry Division"
 
@@ -305,18 +305,18 @@ USA_INF_01 =
 	}
 }
 
-USA_CAV_01 = 
+CAL_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { USA_INF_01 }
+	#link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Cavalry Division"
 
@@ -348,18 +348,18 @@ USA_CAV_01 =
 	}
 }
 
-USA_MOT_01 = 
+CAL_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { USA_INF_01 }
+	link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Motorized Division"
 
@@ -444,18 +444,18 @@ USA_MOT_01 =
 	}
 }
 
-USA_MEC_01 = 
+CAL_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { USA_INF_01 }
+	link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Mechanized Division"
 
@@ -540,18 +540,18 @@ USA_MEC_01 =
 	}
 }
 
-USA_ARM_01 = 
+CAL_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { USA_INF_01 }
+	#link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Armored Division"
 
@@ -615,18 +615,18 @@ USA_ARM_01 =
 	}
 }
 
-USA_PAR_01 = 
+CAL_PAR_01 = 
 {
 	name = "Airborne Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { USA_INF_01 }
+	link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Airborne Division"
 
@@ -661,18 +661,18 @@ USA_PAR_01 =
 	}
 }
 
-USA_MAR_01 = 
+CAL_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { USA_INF_01 }
+	#link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Marine Division"
 
@@ -732,18 +732,18 @@ USA_MAR_01 =
 	}
 }
 
-USA_MNT_01 = 
+CAL_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { USA_INF_01 }
+	link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d Mountain Division"
 
@@ -785,18 +785,18 @@ USA_MNT_01 =
 	}
 }
 
-USA_GAR_01 = 
+CAL_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { USA }
+	for_countries = { CAL }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { USA_INF_01 }
+	link_numbering_with = { CAL_INF_01 }
 
 	fallback_name = "%d National Guard Division"
 

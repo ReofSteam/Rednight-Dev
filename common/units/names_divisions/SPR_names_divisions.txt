@@ -30,20 +30,20 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-SPR_INF_01 = 
+CNT_INF_01 = 
 {
 	name = "Republican Infantry"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
-		NOT = { has_government = fascism } 
+		NOT = { has_government = autocratic } 
 	}
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de Infantería"
 
@@ -74,18 +74,18 @@ SPR_INF_01 =
 	}
 }
 
-SPR_CAV_01 = 
+CNT_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de Caballería"
 
@@ -106,18 +106,18 @@ SPR_CAV_01 =
 	}
 }
 
-SPR_MOT_01 = 
+CNT_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División Motorizada"
 
@@ -138,18 +138,18 @@ SPR_MOT_01 =
 	}
 }
 
-SPR_MEC_01 = 
+CNT_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División Mecanizada"
 
@@ -170,18 +170,18 @@ SPR_MEC_01 =
 	}
 }
 
-SPR_ARM_01 = 
+CNT_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División Blindada"
 
@@ -202,18 +202,18 @@ SPR_ARM_01 =
 	}
 }
 
-SPR_PAR_01 = 
+CNT_PAR_01 = 
 {
 	name = "Airborne Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División Aerotransportada"
 
@@ -234,18 +234,18 @@ SPR_PAR_01 =
 	}
 }
 
-SPR_MAR_01 = 
+CNT_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Div. de Infantería de Marina"
 
@@ -266,18 +266,18 @@ SPR_MAR_01 =
 	}
 }
 
-SPR_MNT_01 = 
+CNT_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de Montaña"
 
@@ -298,18 +298,18 @@ SPR_MNT_01 =
 	}
 }
 
-SPR_GAR_01 = 
+CNT_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de Guarnición"
 
@@ -342,16 +342,16 @@ SPA_INF_01 =
 {
 	name = "Nationalist Infantry"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
-		has_government = fascism 
+		has_government = autocratic 
 	}
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de Infantería"
 
@@ -417,11 +417,11 @@ SPA_INF_01 =
 	}
 }
 
-SPR_INF_02 = 
+CNT_INF_02 = 
 {
 	name = "Nationalist Garrisons"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -430,7 +430,7 @@ SPR_INF_02 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Guarnición Nacionalista"
 
@@ -442,11 +442,11 @@ SPR_INF_02 =
 	}
 }
 
-SPR_INF_03 = 
+CNT_INF_03 = 
 {
 	name = "Carlist Requetés"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -455,7 +455,7 @@ SPR_INF_03 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%d° Requeté"
 
@@ -467,11 +467,11 @@ SPR_INF_03 =
 	}
 }
 
-SPR_INF_04 = 
+CNT_INF_04 = 
 {
 	name = "Guardia Civil"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -480,7 +480,7 @@ SPR_INF_04 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Brigada de la Guardia Civil"
 
@@ -492,11 +492,11 @@ SPR_INF_04 =
 	}
 }
 
-SPR_INF_05 = 
+CNT_INF_05 = 
 {
 	name = "Guardia de Asalto"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -505,7 +505,7 @@ SPR_INF_05 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División de la Guardia de Asalto"
 
@@ -517,11 +517,11 @@ SPR_INF_05 =
 	}
 }
 
-SPR_INF_06 = 
+CNT_INF_06 = 
 {
 	name = "Army of Africa"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -530,7 +530,7 @@ SPR_INF_06 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da División del Ejército de África"
 
@@ -546,7 +546,7 @@ SPD_INF_01 =
 {
 	name = "Republican Garrisons"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -555,7 +555,7 @@ SPD_INF_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Guarnición Republicana"
 
@@ -571,7 +571,7 @@ SPD_INF_02 =
 {
 	name = "Union Youth Brigade"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -580,7 +580,7 @@ SPD_INF_02 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Brigada de Juventudes Sindicales"
 
@@ -596,7 +596,7 @@ SPD_INF_03 =
 {
 	name = "Popular Brigade"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -605,7 +605,7 @@ SPD_INF_03 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Brigada Popular"
 
@@ -621,7 +621,7 @@ SPD_INF_04 =
 {
 	name = "Euzko Gudarosteko Eskuadroia"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -630,7 +630,7 @@ SPD_INF_04 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "Euzko Gudarosteko %da Eskuadroia"
 
@@ -646,7 +646,7 @@ SPD_INF_05 =
 {
 	name = "Anarchist Brigade"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -655,7 +655,7 @@ SPD_INF_05 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Brigada Anarquista"
 
@@ -671,7 +671,7 @@ SPD_INF_06 =
 {
 	name = "Anarchist Militia"
 
-	for_countries = { SPR }
+	for_countries = { CNT }
 
 	can_use = { 
 		always = yes
@@ -680,7 +680,7 @@ SPD_INF_06 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { CNT_INF_01 }
 
 	fallback_name = "%da Milicia Anarquista"
 

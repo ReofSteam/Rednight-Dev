@@ -107,19 +107,7 @@ ideas = {
 					has_war_support > 0.3
 
 				}
-				if = {
-					limit = {
-						original_tag = TUR
-						has_dlc = "Battle for the Bosporus"
-					}
-					NOT = {
-						OR = {
-							has_active_mission = TUR_etatism_crisis_2
-							has_active_mission = TUR_etatism_crisis_3
-							has_active_mission = TUR_etatism_crisis_4
-						}
-					}
-				}
+
 			}
 			on_add = {
 
@@ -298,7 +286,7 @@ ideas = {
 
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
+
 				}
    			}
 		}
@@ -533,7 +521,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+
 				}
 			}
 
@@ -597,7 +585,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+
 				}
 			}
 
@@ -679,7 +667,7 @@ ideas = {
 						original_tag = SPR
 						has_dlc = "La Resistance"
 					}
-					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
+
 				}
 			}
 
@@ -722,7 +710,7 @@ ideas = {
 
 					# revert from closed_economy if we have large allies
 					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
+
 				}
    			}
 		}
@@ -788,7 +776,7 @@ ideas = {
 
 					# don't take if we have a reasonable sized ally
 					# since they will require our trades
-					has_large_ally_not_pick_closed_economy = yes
+
 				}
    			}
 		}
