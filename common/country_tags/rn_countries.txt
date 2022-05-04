@@ -75,8 +75,9 @@ PRS = "countries/Germany.txt"
 SLK = "countries/Slovakia.txt"
 UKR = "countries/Ukraine.txt"
 POL = "countries/Poland.txt"
+TAN = "countries/Tanganyiaka.txt"
 #CNK = "countries/Russian Channel.txt"
-
+UGA = "countries/Uganda.txt"
 ####Anti-Russia####
 KAZ = "countries/Kazakhstan.txt" 
 DCO = "countries/Kazakhstan.txt" #Don Cossack  

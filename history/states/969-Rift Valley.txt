@@ -3,9 +3,10 @@ state = {
 	name = "STATE_969"
 
 	history = {
-		owner = MAF
+		owner = UGA
 		add_claim_by = MAF
 		add_core_of = KEN
+		add_core_of = UGA
 		buildings = {
 			infrastructure = 3
 		}

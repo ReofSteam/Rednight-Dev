@@ -6,9 +6,9 @@ state = {
 	}
 
 	history = {
-		owner = MAF
+		owner = KON
 		add_core_of = MAF
-		add_core_of = COG
+		add_core_of = KON
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

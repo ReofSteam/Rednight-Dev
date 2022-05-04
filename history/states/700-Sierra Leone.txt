@@ -6,8 +6,8 @@ state = {
 	state_category = one
 
 	history = {
-		owner = NFA
-		add_core_of = NFA
+		owner = SIE
+		add_core_of = SIE
 		add_core_of = SIE
 		victory_points = {
 			2038 1 #Freistadt/Freetown
