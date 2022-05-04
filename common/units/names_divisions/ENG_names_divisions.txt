@@ -1019,7 +1019,7 @@ ENG_MNT_01 = {
 ENG_MNT_02 = { 
 	name = "Gurkha Division" 
 
-	for_countries = { ENG RAJ } 
+	for_countries = { ENG } 
 
 	can_use = {
 		OR = {

@@ -13,17 +13,11 @@ IRE = "countries/Ireland.txt"
 WLL = "countries/Wallonia.txt"
 LUX = "countries/Luxembourg.txt"	#Unplanned
 GNR = "countries/WestEur.txt"	#German Nationalist Revolt
-RUS = "countries/WestEur.txt"
 RUR = "countries/WestEur.txt" #Little Russia 
 RFN = "countries/WestEur.txt" #Russian Finland
 TRM = "countries/WestEur.txt"	#Transamur
 RUS = "countries/Russia.txt" #Russia
 CSA = "countries/CSA.txt" #csa
-DCO = "countries/Omsk_Cossack_Committee.txt" #Omsk
-MNC = "countries/MNC.txt"
-SIB = "countries/Siberia.txt"
-OLD = "countries/OstlandVolunteers.txt"
-UPR = "countries/FarmersLegion.txt"
 ##Central
 AUS = "countries/Austria.txt"
 BOZ = "countries/British Occupation Zone.txt"
@@ -32,7 +26,6 @@ FOZ = "countries/French Occupation Zone.txt"
 GER = "countries/Germany.txt"
 JOZ = "countries/Joint Occupation Zone.txt"
 NTH = "countries/Netherlands.txt"
-KNR = "countries/Netherlands Revolt.txt"
 SWI = "countries/Switzerland.txt"
 MRV = "countries/Moravia.txt" 
 
@@ -80,7 +73,7 @@ TAN = "countries/Tanganyiaka.txt"
 UGA = "countries/Uganda.txt"
 ####Anti-Russia####
 KAZ = "countries/Kazakhstan.txt" 
-DCO = "countries/Kazakhstan.txt" #Don Cossack  
+DCO = "countries/Omsk_Cossack_Committee.txt" #Don Cossack  
 TRK = "countries/Turkestan.txt"
 UPR = "countries/Ukraine.txt"  #Ukrainian Peasants Rebels
 SIB = "countries/Russia.txt"

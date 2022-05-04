@@ -1,9 +1,13 @@
 DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 	if = {
 	limit = { has_global_flag = PARDAN_1_international }
+	always = yes	
 	}		
-	
-	else_if = {
+	if = {
+	limit = { has_country_flag = RN_is_internal_war }
+	always = no	
+	}		
+	if = {
 		limit = {
 			is_ai = yes
 			is_in_faction = yes
@@ -20,11 +24,13 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 	}
 }
 
+
 DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 	if = {
 	limit = { has_global_flag = PARDAN_1_international }
+	always = yes
 	}		
-	else_if = {
+	if = {
 	limit = {
 	     tag = FRA
 		 NOT = { has_country_flag = FRA_first_of_may_putsch }
@@ -32,9 +38,10 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 		 tag = GER
 		 any_enemy_country = { tag = GNR }
 		 }
-       }	
+       }
+	always = yes	   
 	}
-	else_if = {
+	if = {
 		limit = {
 			is_ai = yes
 			is_in_faction = yes
