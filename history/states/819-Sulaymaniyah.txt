@@ -10,9 +10,6 @@ state={
 
 		}
 		add_core_of = ANA
-		victory_points = {
-			8123 2
-		}
 
 	}
 
