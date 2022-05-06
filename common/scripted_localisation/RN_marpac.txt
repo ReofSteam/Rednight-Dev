@@ -1,9 +1,0 @@
-defined_text = {
-	name = GetMARPACMotionName
-	text = {
-		trigger = {
-			has_global_flag = MARPAC_resolution_51
-	}
-		localization_key = "MARPAC_resolution_51"
-	}	
-}
