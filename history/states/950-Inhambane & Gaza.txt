@@ -6,13 +6,8 @@ state = {
 	state_category = two
 
 	history = {
-<<<<<<< HEAD
 		owner = POR
 		add_core_of = POR
-=======
-		owner = SAF
-		add_core_of = SAF
->>>>>>> parent of a21e86df (relocate)
 		buildings = {
 			infrastructure = 3
 			air_base = 1

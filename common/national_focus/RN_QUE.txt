@@ -11,11 +11,7 @@ focus_tree = {
 	focus = {
 		id = QUE_in_the_shadow_of_the_godless
 		icon = GFX_CNT_Diaz_final_hours
-<<<<<<< HEAD
 		x = 4
-=======
-		x = 3
->>>>>>> parent of a21e86df (relocate)
 		y = 0
 		cost = 5
 		search_filters = {
@@ -28,7 +24,6 @@ focus_tree = {
 		x = 2
 		y = 1
 		cost = 5
-<<<<<<< HEAD
 		prerequisite = {
 			focus = QUE_in_the_shadow_of_the_godless
 		}
@@ -172,14 +167,10 @@ focus_tree = {
 		prerequisite = {
 			focus = QUE_in_combat_against_socialists
 		}	
-=======
-		
->>>>>>> parent of a21e86df (relocate)
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}	
-<<<<<<< HEAD
 	focus = {
 		id = QUE_good_time_still_ahead
 		icon = GFX_CNT_Diaz_final_hours
@@ -220,8 +211,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 	}		
-=======
->>>>>>> parent of a21e86df (relocate)
 
 }
 	
