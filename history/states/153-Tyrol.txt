@@ -1,0 +1,35 @@
+
+state={
+	id=153
+	name="STATE_153"
+
+	history={
+		owner = FOZ
+		victory_points = {
+			673 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 3
+			673 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = FOZ
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
+
+	}
+
+	provinces={
+		673 6678 9633 9636 11618 11634 13211 
+	}
+	manpower=348985
+	buildings_max_level_factor=1.000
+	state_category=three
+}

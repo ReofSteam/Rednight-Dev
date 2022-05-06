@@ -1,0 +1,113 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+BRA_nationalist_socialism_party:0 "SBIO"
+BRA_nationalist_socialism_party_long:0 "Secção Brasileira  da Internacional Operária- Brazilian Section of the Worker's International"
+BRA_revolutionary_socialism_party:0 "PSB(T)"
+BRA_revolutionary_socialism_party_long:0 "Partido Socialista Brasileiro- Brazilian Socialist Party"
+BRA_syndicalism_party:0 "CTB"
+BRA_syndicalism_party_long:0 "Confederacão de Trabalhadores Brasileiros- Brazilian Workers Confederation"
+BRA_moderate_socialist_party:0 "PSB (M)"
+BRA_moderate_socialist_party_long:0 "Partido Socialista Brasileiro- Brazilian Socialist Party"
+BRA_social_democrat_party:0 "PSD"
+BRA_social_democrat_party_long:0 " Partido Social-Democratico- Social-Democratic Party"
+BRA_social_liberal_party:0 "PLD (L)"
+BRA_social_liberal_party_long:0 "Partido Liberal Democratico- Liberal Democrat Party"
+BRA_social_conservative_party:0 "PNR (C)"
+BRA_social_conservative_party_long:0 "Partido Nacional Republicano- National Republican Party"
+BRA_authoritarian_democrat_party:0 "PNR (M)"
+BRA_authoritarian_democrat_party_long:0 "Partido Nacional Republicano- National Republican Party"
+BRA_autocratic_party:0 "PVB"
+BRA_autocratic_party_long:0 "Exercito Brasileiro- Brazilian Army"
+BRA_nationalist_socialism_party:0 "SBIO"
+BRA_nationalist_socialism_party_long:0 "Secção Brasileira  da Internacional Operária- Brazilian Section of the Worker's International"
+BRA_ultraconservative_party:0 "FCB"
+BRA_ultraconservative_party_long:0 "Frente Católico Brasileiro- Brazilian Catholic Front"
+BRA_national_corporatist_party:0 "AIB"
+BRA_national_corporatist_party_long:0 "Ação Integralista Brasileira- Brazilian Integralist Action"
+
+### Country Name ###
+
+BRA_social_nationalist:0 "Union of Brazil"
+BRA_social_nationalist_ADJ:0 "Brazilian"
+BRA_social_nationalist_DEF:0 "the Union of Brazil"
+
+BRA_syndicalism:0 "United Communes of Brazil"
+BRA_syndicalism_ADJ:0 "Brazilian"
+BRA_syndicalism_DEF:0 "the United Communes of Brazil"
+
+BRA_libertarian:0 "United Communes of Brazil"
+BRA_libertarian_ADJ:0 "Brazilian"
+BRA_libertarian_DEF:0 "the United Communes of Brazil"
+
+BRA_moderate_socialist:0 "United Communes of Brazil"
+BRA_moderate_socialist_ADJ:0 "Brazilian"
+BRA_moderate_socialist_DEF:0 "the United Communes of Brazil"
+
+BRA_social_democrat:0 "Federative Republic of Brazil"
+BRA_social_democrat_ADJ:0 "Brazilian"
+BRA_social_democrat_DEF:0 "the Federative Republic of Brazil"
+
+BRA_social_liberal:0 "Federative Republic of Brazil"
+BRA_social_liberal_ADJ:0 "Brazilian"
+BRA_social_liberal_DEF:0 "the Federative Republic of Brazil"
+
+BRA_social_conservative:0 "Federative Republic of Brazil"
+BRA_social_conservative_ADJ:0 "Brazilian"
+BRA_social_conservative_DEF:0 "the Federative Republic of Brazil"
+
+BRA_authoritarian_democrat:0 "Empire of Brazil"
+BRA_authoritarian_democrat_ADJ:0 "Brazilian"
+BRA_authoritarian_democrat_DEF:0 "the Empire of Brazil"
+
+BRA_autocratic:0 "Empire of Brazil"
+BRA_autocratic_ADJ:0 "Brazilian"
+BRA_autocratic_DEF:0 "the Empire of Brazil"
+
+BRA_fundamentalist:0 "Empire of Brazil"
+BRA_fundamentalist_ADJ:0 "Brazilian"
+BRA_fundamentalist_DEF:0 "the Empire of Brazil"
+
+BRA_ultraconservative:0 "Empire of Brazil"
+BRA_ultraconservative_ADJ:0 "Brazilian"
+BRA_ultraconservative_DEF:0 "the Empire of Brazil"
+BRA_ultraconservative:0 "Union of Brazil"
+
+BRA_national_corporatist:0 "State of Brazil"
+BRA_national_corporatist_ADJ:0 "Brazilian"
+BRA_national_corporatist_DEF:0 "the State of Brazil"
+
+
+
+### Focuses ###
+ 
+### Ideas ###
+BRA_aib_remnants:0 "Integralist Remnants"
+BRA_aib_remnants_desc: "Despite their attempt to subvert the will of the people by reinstating the monarchy and their deposistion by the Brazilian Army in 1938, the “Ação Integralista Brasileira” (the Brazilian Integralist Action) party remains active in the dark.These vile reactionary terrorists are a plague on the countryside. They must be expunged!"
+BRA_democracy_bastion:0 "Bastion of Democracy"
+BRA_democracy_bastion_desc: "After the brief horrors of the Intergalist Trianium the Brazilian nation has resoundly cried in unison: NEVER AGAIN!\n\nWith the horrible news coming from the neighboring reactionary regimes, the Brazilian populace, armed forces, and political establishment stand vigilant against any tyrannical ideology that dare show its face. We will defend our 1939 constitution at all costs!"
+BRA_neutral_nation:0 "Neutralidade Interesseira"
+BRA_neutral_nation_desc: "Brazil is officially a Neutral Nation, taking no side in the dangerous game between the ideological blocks. This has resulted in Brazil being not only one of the very few countries that enjoy universal friendly diplomatic relations, but in being one of the very few that openly trades with all nations on earth. This stance has contributed relatively to the Brazilian economy. The “country of the future” has come to pass today."
+BRA_vigilant_population:0 "Vigilant Population"
+BRA_vigilant_population_desc: "We narrowly avoided the vile poison that has gripped the continent, yet our brother nations were not so lucky. The fact that Brazil sits surrounded by reactionary regimes, mirrors of our own short integralist period, has instilled a generalized fear in the population. Our country must be prepared for the inevitable showdown to come.As the president has said;\n\nFor if any who dare to raise their hand against us, we will be ready!"
+
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_Osvaldo_Aranha_DESC: "Osvaldo Aranha was born to a life of ease in 1884, the son of an old Riograndense family. He would come to study law as a young man. Soon study would grow would grow into a career in government. Osvaldo had become a congressman most popular for his unabashed criticism of the growing integralist movement, a status that would enable him to become legendary.\n\nWhen the Integralist usurped the republic in 1937, Aranha discovered his deep seated bravery. Not only did he continue his criticism, but he refused to flee with his colleagues.\n\nAfter the Republican counter-coup a year later Aranha would find himself invited into the provisional government. He would serve in several key minister positions before finding himself catapulted to leadership. It was a title he had earned handily owing to the perception that he would best be able to keep the Democratic Consensus afloat in the stormy years of the Second Great War.\n\nHis domestic reforms have enfranchised and supported large parts of the population, particularly women, workers, and the illiterate. Internationally he has maintained a position of splendid neutrality, regarding good relations with all powers as vital. Under Aranha Brazil stands as the lifeboat of Democracy."
+
+### Tech? ###

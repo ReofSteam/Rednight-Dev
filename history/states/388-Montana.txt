@@ -1,0 +1,29 @@
+
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		tungsten=16.000
+		oil=6.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = CSA
+		victory_points = {
+			7779 2 
+		}
+
+	}
+
+	provinces={
+	1736 7779 6742 1854
+	}
+	manpower=554000
+	buildings_max_level_factor=1.000
+	state_category=three
+}

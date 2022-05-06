@@ -1,0 +1,47 @@
+### Croatian Ideads
+ideas = {
+	##############
+	# Country ideas
+	##############
+	country = {
+
+		CRO_italian_question = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_italian_question"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.20	
+				add_opinion_modifier = { target = ITA modifier = CRO_italy_question }
+			}
+			picture = CRO_italy_question			
+		}
+		CRO_military_government = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_military_government"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05	
+				mobilization_speed = 0.10	
+			}
+			picture = red_junta			
+		}
+		CRO_rural_society = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CRO_rural_society"}
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+			production_speed_buildings_factor = -0.2
+			production_factory_max_efficiency_factor = -0.25
+			}
+			picture = rural_society			
+		}		
+
+
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 943
+	name = "STATE_943"
+
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			9603 = {
+				bunker = 3
+			}
+			778 = {
+				bunker = 3
+			}
+		}
+		victory_points = {
+			778 1
+		}
+	}
+
+	provinces = {
+		778 9603
+	}
+
+	manpower = 260000
+	state_category = two
+}

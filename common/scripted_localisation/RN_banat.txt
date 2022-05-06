@@ -1,0 +1,65 @@
+defined_text = {
+	name = GetBNTDirectorate
+	text = {
+		trigger = {
+			AND = {
+			original_tag = BNT
+			has_country_flag = BNT_directorate_stable
+			}
+		}
+		localization_key = "BNT_directorate_stable"
+	}
+	text = {
+		trigger = {
+			AND = {
+			original_tag = BNT
+			has_country_flag = BNT_directorate_collapsed
+			}
+		}
+		localization_key = "BNT_directorate_collapsed"
+	}	
+}
+
+defined_text = {
+	name = GetBNTHungarian
+	text = {
+		trigger = {
+			original_original_tag = BNT
+			has_country_flag = BNT_hungarian_status_1
+		}
+		localization_key = "BNT_hungarian_status_1"
+	}
+}
+
+defined_text = {
+	name = GetBNTSerbs
+	text = {
+		trigger = {
+			original_tag = BNT
+			has_country_flag = BNT_serbs_status_1
+		}
+		localization_key = "BNT_serbs_status_1"
+	}
+	text = {
+		trigger = {
+			original_tag = BNT
+			has_country_flag = BNT_serbs_status_2
+		}
+		localization_key = "BNT_serbs_status_2"
+	}
+	text = {
+		trigger = {
+			original_tag = BNT
+			has_country_flag = BNT_serbs_status_3
+		}
+		localization_key = "BNT_serbs_status_3"
+	}
+	text = {
+		trigger = {
+			original_tag = BNT
+			has_country_flag = BNT_serbs_status_4
+		}
+		localization_key = "BNT_serbs_status_4"
+	}	
+}
+

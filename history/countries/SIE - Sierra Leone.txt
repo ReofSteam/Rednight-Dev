@@ -1,0 +1,112 @@
+﻿capital = 700
+OOB = "empty"
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+
+	### INF ###
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+### Field Marshal
+
+create_field_marshal = {
+	name = "Banja Tejan-Sie"
+	portrait_path = "gfx/leaders/WEST_AFRICA/SIE/Portrait_SIE_Allister.tga"
+	traits = {
+		logistics_wizard
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "George Giffard"
+	portrait_path = "gfx/leaders/WEST_AFRICA/SIE/Portrait_SIE_Allister.tga"
+	traits = {
+		old_guard
+		trait_cautious
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Lashmer Whistler"
+	portrait_path = "gfx/leaders/WEST_AFRICA/SIE/Portrait_SIE_Benji.tga"
+	traits = {
+		infantry_officer
+		career_officer
+		trickster
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "John Karefa-Smart"
+	portrait_path = "gfx/leaders/WEST_AFRICA/SIE/Portrait_SIE_Hartwell_Symonds.tga"
+	traits = {
+		politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Amadu Wurie"
+	portrait_path = "gfx/leaders/WEST_AFRICA/SIE/Portrait_SIE_Koblo.tga"
+	traits = {
+		brilliant_strategist
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+
+### Navy Leader
+create_navy_leader = {
+	name = "Mohammad Sanusi Mustapha"
+	portrait_path = "gfx/leaders/ALG/Portrait_SIE_Bennabi.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1
+}

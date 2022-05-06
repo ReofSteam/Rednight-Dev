@@ -4,9 +4,16 @@ state = {
 	name = "STATE_956"
 
 	history = {
+<<<<<<< HEAD
 		owner = NRD
 		add_core_of = ZAM
 		add_core_of = NRD
+=======
+		owner = KON
+		add_claim_by = MAF
+		add_core_of = ZAM
+		add_core_of = KON
+>>>>>>> parent of a21e86df (relocate)
 		buildings = {
 			infrastructure = 3
 		}

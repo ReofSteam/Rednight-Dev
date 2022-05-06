@@ -1,0 +1,119 @@
+﻿capital = 44
+
+OOB = "ALB"
+
+set_convoys = 20
+set_research_slots = 3
+set_technology = {
+	### MOD ###
+	### General ###
+
+	### Navy ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1932.6.12"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 21
+    syndicalism = 10
+    revolutionary_socialism = 14
+    social_democrat = 15
+    social_liberal = 7
+    social_conservative = 17
+    authoritarian_democrat = 3
+    autocratic = 3
+    national_corporatist = 10
+}
+
+create_country_leader = {
+	name = "Ahmet Zogu"
+	desc = "POLITICS_ENVER_HOXHA_DESC"
+	picture = "gfx/leaders/ALB/ALB_Zog.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+
+### Field Marshal
+create_field_marshal = {
+	name = "Prenk Pervizi"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Prenk_Pervizi.tga"
+	traits = {
+		politically_connected
+		skilled_staffer
+		expert_delegator
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "Muharrem Bajraktari"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Muharrem_Bajraktari.tga"
+	traits = {
+		infantry_officer
+		infantry_leader
+		commando
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Elez Isufi"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Elez_Isufi.tga"
+	id = 5490
+	traits = {
+		trait_reckless
+		trickster
+		guerilla_fighter
+		commando
+		skirmisher
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Azem Galica"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Azem_Galica.tga"
+	id = 5480
+	traits = {
+		trait_reckless
+		trickster
+		guerilla_fighter
+		commando
+		skirmisher
+	}
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

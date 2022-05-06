@@ -1,0 +1,124 @@
+###Always add new entries on it's own nation
+spriteTypes = {
+		###Generic
+		SpriteType = {
+				name = "GFX_focus_generic_conspiracy"
+				texturefile = "gfx/interface/goals/generic/focus_generic_conspiracy.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_film"
+				texturefile = "gfx/interface/goals/generic/focus_generic_film.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_guillotine"
+				texturefile = "gfx/interface/goals/generic/focus_generic_guillotine.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_imprisonment"
+				texturefile = "gfx/interface/goals/generic/focus_generic_imprisonment.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_newspaper"
+				texturefile = "gfx/interface/goals/generic/focus_generic_newspaper.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_secret_operation"
+				texturefile = "gfx/interface/goals/generic/focus_generic_secret_operation.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_secret_service"
+				texturefile = "gfx/interface/goals/generic/focus_generic_secret_service.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_television"
+				texturefile = "gfx/interface/goals/generic/focus_generic_television.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_the_police"
+				texturefile = "gfx/interface/goals/generic/focus_generic_the_police.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_funds"
+				texturefile = "gfx/interface/goals/generic/focus_generic_funds.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_rally"
+				texturefile = "gfx/interface/goals/generic/focus_generic_rally.tga"
+			}
+		SpriteType = {
+				name = "GFX_focus_generic_strengthen_cabinet"
+				texturefile = "gfx/interface/goals/generic/focus_generic_strengthen_cabinet.tga"
+			}
+		###ENG
+		###AUS
+		SpriteType = {
+				name = "GFX_AUS_dollfuss_regime"
+				texturefile = "gfx/interface/goals/AUS/AUS_dollfuss_regime.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_dollfuss_years"
+				texturefile = "gfx/interface/goals/AUS/AUS_dollfuss_years.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_heimatschutz_strengthen"
+				texturefile = "gfx/interface/goals/AUS/AUS_heimatschutz_strengthen.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_maintain_steady_course"
+				texturefile = "gfx/interface/goals/AUS/AUS_maintain_steady_course.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_one_party"
+				texturefile = "gfx/interface/goals/AUS/AUS_one_party.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_vertical_revolution"
+				texturefile = "gfx/interface/goals/AUS/AUS_vertical_revolution.tga"
+			}
+		SpriteType = {
+				name = "GFX_AUS_vfo_unity"
+				texturefile = "gfx/interface/goals/AUS/AUS_vfo_unity.tga"
+			}
+		###GER
+		SpriteType = {
+				name = "GFX_GER_german_revolution"
+				texturefile = "gfx/interface/goals/GER/GER_german_revolution.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_grotewohl_address"
+				texturefile = "gfx/interface/goals/GER/GER_grotewohl_address.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_moths_flame"
+				texturefile = "gfx/interface/goals/GER/GER_moths_flame.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_new_culture"
+				texturefile = "gfx/interface/goals/GER/GER_new_culture.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_new_heroes"
+				texturefile = "gfx/interface/goals/GER/GER_new_heroes.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_old_heroes"
+				texturefile = "gfx/interface/goals/GER/GER_old_heroes.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_reunification_start"
+				texturefile = "gfx/interface/goals/GER/GER_reunification_start.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_road_socialism"
+				texturefile = "gfx/interface/goals/GER/GER_road_socialism.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_socialist_education"
+				texturefile = "gfx/interface/goals/GER/GER_socialist_education.tga"
+			}
+		SpriteType = {
+				name = "GFX_GER_wolves_prowling"
+				texturefile = "gfx/interface/goals/GER/GER_wolves_prowling.tga"
+			}
+	}
+

@@ -1,0 +1,94 @@
+scripted_gui = {
+    open_secondary_button = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "button_open_secondary_leader"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_secondary_leader } }
+					set_country_flag =  show_secondary_leader
+				}
+				else_if = {
+					limit = { has_country_flag = show_secondary_leader }
+					clr_country_flag = show_secondary_leader
+				}
+			}
+		}
+		visible = {
+		is_ai = no
+		OR = {
+		has_country_flag = skoblin_secondary
+		has_country_flag = HUN_is_monarchy
+		has_country_flag = mosley_secondary
+		has_country_flag = kaiser_is_wilhelm_third	
+		has_country_flag = kaiser_is_louis_ferdinand
+		has_country_flag = SER_alexander_ii_is_king
+		has_country_flag = INS_sukarno_is_president
+		}
+        }
+    }
+    RB_head_of_government_window = {
+        context_type = player_context
+        parent_window_token = politics_tab
+        window_name = "secondary_leader_bg"
+        visible = {
+		    is_ai = no
+            has_country_flag = show_secondary_leader
+        }
+   		properties = {
+        	secondary_portrait = {
+            	image = "[Get_Secondary_Portrait]"
+        	}
+    	}
+	}
+    YUG_secondary_button = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "button_YUG_secondary_leader"
+		visible = {
+		is_ai = no
+        original_tag = SER
+		SER = {
+		has_cosmetic_tag = YUG
+		}
+        }
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_YUG_secondary_leader } }
+					set_country_flag =  show_YUG_secondary_leader
+				}
+				else_if = {
+					limit = { has_country_flag = show_secondary_leader }
+					clr_country_flag = show_secondary_leader
+				}
+			}
+			open_button_croatia_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_YUG_secondary_leader } }
+					set_country_flag =  show_YUG_secondary_leader
+				}
+				else_if = {
+					limit = { has_country_flag = show_YUG_secondary_leader }
+					clr_country_flag = show_YUG_secondary_leader
+				}				
+			}			
+		}
+		triggers = {
+		open_button_croatia_visible = {
+		has_country_flag = show_YUG_secondary_leader
+		}
+        }
+    }	
+    YUG_secondary_leader = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "YUG_secondary_leader_croatia"
+		visible = {
+		NOT = { has_country_flag = show_secondary_leader }
+		has_country_flag = show_YUG_secondary_leader		
+        }
+	}	
+}

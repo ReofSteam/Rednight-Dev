@@ -1,0 +1,21 @@
+###########################
+#Banat Decisions# WIP
+###########################
+
+BNT_romanianisation = { 
+     BNT_recruit_rom_volunteers = { 
+	 days_re_enable = 1
+	 fire_only_once = no
+          allowed = { 
+		  tag = BNT
+}		  
+          available = {                          
+          tag = BNT
+}           
+          complete_effect = {                    
+               add_political_power = 10
+			   set_country_flag = FRA_boots_in_afrca
+			   
+          }
+     }
+}

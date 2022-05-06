@@ -1,0 +1,21 @@
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = ANA
+		add_core_of = KUR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ANA
+
+	}
+
+	provinces={
+		5014 6826 10811
+	}
+	manpower=503040
+	state_category=one
+}

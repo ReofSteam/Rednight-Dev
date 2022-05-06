@@ -1,0 +1,41 @@
+﻿capital = 425
+
+oob = "MYS"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	transport = 1
+	#trench_warfare = 1
+	#fleet_in_being = 1
+	CAS1 = 1
+	
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+###gfx/leaders/RMK/MYS/

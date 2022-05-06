@@ -1,0 +1,30 @@
+### Senegal
+
+ideas = {
+	country = {
+		SEN_the_final_struggle = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SEN_the_final_struggle"}
+			picture = SEN_the_final_struggle
+			modifier = {
+				conscription_factor = 0.1
+				training_time_factor = -0.25
+				army_org_factor = -0.10
+				attrition = -0.05
+
+			}
+		}
+	}
+	country = {
+		SEN_the_damned_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SEN_the_damned_republic"}
+			picture = SEN_the_damned_republic
+			modifier = {
+			political_power_gain = 0.25
+			max_dig_in = 1
+			attrition = -0.1
+			defence = 0.15
+
+			}
+		}
+	}	
+}

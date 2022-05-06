@@ -1,0 +1,43 @@
+
+state={
+	id=61
+	name="STATE_61"
+
+	history={
+		owner = BOZ
+		add_core_of = BOZ
+		victory_points = {
+			321 1 
+		}
+		buildings = {
+			infrastructure = 6
+			321 = {
+				naval_base = 3
+
+			}
+			9294 = {
+				bunker = 1
+
+			}
+			11276 = {
+				bunker = 1
+
+			}
+			air_base = 3
+			dockyard = 1
+
+		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
+
+	}
+
+	provinces={
+		321 9294 11276 11305 
+	}
+	manpower=836353
+	buildings_max_level_factor=1.000
+	state_category=four
+}

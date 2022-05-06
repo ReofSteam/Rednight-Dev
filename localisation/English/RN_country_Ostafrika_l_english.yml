@@ -1,0 +1,93 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+TNG_social_nationalist_party:0 "Chama Cha Mapinduzi"
+TNG_social_nationalist_party_long:0 "Chama Cha Mapinduzi (The Revolutionary Party / Die Revolutionäre Partei)"
+TNG_marxist_party:0 "Chama Cha Mapinduzi"
+TNG_marxist_party_long:0 "Chama Cha Mapinduzi (The Revolutionary Party / Die Revolutionäre Partei)"
+TNG_libertarian_party:0 "Chama Cha Mapinduzi"
+TNG_libertarian_party_long:0 "Chama Cha Mapinduzi (The Revolutionary Party / Die Revolutionäre Partei)"
+TNG_moderate_socialist_party:0 "Chama Cha Mapinduzi"
+TNG_moderate_socialist_party_long:0 "Chama Cha Mapinduzi (The Revolutionary Party / Die Revolutionäre Partei)"
+TNG_social_democrat_party:0 "BU"
+TNG_social_democrat_party_long:0 "Bürgerliche Unabhängigkeitspartei (Civil Independence Party)"
+TNG_social_liberal_party:0 "BU"
+TNG_social_liberal_party_long:0 "Bürgerliche Unabhängigkeitspartei (Civil Independence Party)"
+TNG_conservative_party:0 "DE"
+TNG_conservative_party_long:0 "Demokratische Entwicklungspartei (Democratic Development Party)"
+TNG_authoritarian_democrat_party:0 "OV"
+TNG_authoritarian_democrat_party_long:0 "Ostafrikanischer Verband (Ostafrikan League)"
+TNG_authoritarian_democrat_party_desc:0 "Led by influential mercenary leader Albrecht Sykes, the East African League is a prominent nationalist group advocating for the formal independence of Ostafrika and an end to the Askari military government. The OV’s support primarily relies on its ostensible private army, a group of mercenaries who cooperate with the Askari military government."
+TNG_autocratic_party:0 "Militärregierung von Ostafrika"
+TNG_autocratic_party_long:0 "Militärregierung von Ostafrika (Military Government of Ostafrika)"
+TNG_fundamentalist_party:0 "DE"
+TNG_fundamentalist_party_long:0 "Demokratische Entwicklungspartei (Democratic Development Party)"
+TNG_voynist_party:0 "Chama Cha Mapinduzi"
+TNG_voynist_party_long:0 "Chama Cha Mapinduzi (The Revolutionary Party / Die Revolutionäre Partei)"
+
+### Country Name ###
+
+TNG_social_nationalist:0 "Tanganjika"
+TNG_social_nationalist_ADJ:0 "Tanganjikan"
+TNG_social_nationalist_DEF:0 "Tanganjika"
+TNG_marxist:0 "Tanganjika"
+TNG_marxist_ADJ:0 "Tanganjikan"
+TNG_marxist_DEF:0 "Tanganjika"
+TNG_libertarian:0 "Tanganjika"
+TNG_libertarian_ADJ:0 "Tanganjikan"
+TNG_libertarian_DEF:0 "Tanganjika"
+TNG_moderate_socialist:0 "Tanganjika"
+TNG_moderate_socialist_ADJ:0 "Tanganjikan"
+TNG_moderate_socialist_DEF:0 "Tanganjika"
+TNG_social_democrat:0 "Deutsch-Ostafrika"
+TNG_social_democrat_ADJ:0 "Ostafrikan"
+TNG_social_democrat_DEF:0 "Deutsch-Ostafrika"
+TNG_social_liberal:0 "Deutsch-Ostafrika"
+TNG_social_liberal_ADJ:0 "Ostafrikan"
+TNG_social_liberal_DEF:0 "Deutsch-Ostafrika"
+TNG_conservative:0 "Deutsch-Ostafrika"
+TNG_conservative_ADJ:0 "Ostafrikan"
+TNG_conservative_DEF:0 "Deutsch-Ostafrika"
+TNG_authoritarian_democrat:0 "Deutsch-Ostafrika"
+TNG_authoritarian_democrat_ADJ:0 "Ostafrikan"
+TNG_authoritarian_democrat_DEF:0 "Deutsch-Ostafrika"
+TNG_autocratic:0 "Deutsch-Ostafrika"
+TNG_autocratic_ADJ:0 "Ostafrikan"
+TNG_autocratic_DEF:0 "Deutsch-Ostafrika"
+TNG_fundamentalist:0 "Deutsch-Ostafrika"
+TNG_fundamentalist_ADJ:0 "Ostafrikan"
+TNG_fundamentalist_DEF:0 "Deutsch-Ostafrika"
+TNG_voynist:0 "Deutsch-Ostafrika"
+TNG_voynist_ADJ:0 "Ostafrikan"
+TNG_voynist_DEF:0 "Deutsch-Ostafrika"
+
+### Focuses ###
+
+ 
+### Ideas ###
+ 
+TNG_patchwork_government:0 "Patchwork Government"
+TNG_patchwork_government_desc:0 "The Government of Ostafrika could best be described as a Patchwork Government, a frankenstein of different institutions and power structures both colonial and native held together by the force of the Askari. The nature of this government makes it extremely hard for the government to do anything from collecting taxes to conscription."
+TNG_might_of_the_askari:0 "Might of the Askari"
+TNG_might_of_the_askari_desc:0 "The Askari, the great colonial army of the former German empire, are perhaps one of the most formidable fighting forces in all of Africa. The force of the Askari is deeply feared and respected by their foes and by the people of Ostafrika and their reputation essentially keeps Ostafrika together."
+TNG_ccm_insurrection:0 "CCM Insurrection"
+TNG_ccm_insurrection_desc:0 "The Chama Cha Mapinduzi or Party of the Revolution, a militant and revolutionary panafrikanist and anti-colonial organization lead by Oskar Kambona, is fed up with the government and has organized open rebellion against the Askari Collaborators. The CCM is funded and aided by the Mau Mau who hope to overthrow the Askari and form a Pan-Afrikan state."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_ASKARI_MILITIARAT_DESC:0 " Formed after the collapse of Mittelafrika in late 1946 and Paul Emil von Lettow-Vorbeck’s subsequent coup in Dar es Salaam, the Deutscher Askari Militariat rules as a pseudo regency council in his absence. Effectively a military state, the Militariat has had to make a series of deals and alliances with native groups and political parties to retain supremacy, but in doing so has crippled its ability to make effective policy changes. Especially concerning is the Militariat’s commitment to the creation of Deutsch-Südwestafrika, causing thousands of Ostafrikan Askari, including those most loyal to the regime, being kept far away. On top of this, the Militariat is also maintaining an increasingly violent and attrition-based occupation in the remnants of Deutsch-Kenia. Both occupations cause routine anti-regime sentiment amongst much of the politically involved populace of Ostafrika, which further hampers the Militariat’s ability to make any meaningful turn towards state-building at home."
+### Tech? ###

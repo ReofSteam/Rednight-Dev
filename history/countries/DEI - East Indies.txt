@@ -1,0 +1,156 @@
+﻿capital = 669
+
+oob = "GER"
+
+# Starting tech
+set_technology = {
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	#mobile_warfare = 1
+	#trade_interdiction = 1
+	#formation_flying = 1
+	transport = 1
+}
+
+add_ideas = {
+#starting
+
+	
+#ministers
+}
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 2
+	social_democrat = 1
+	social_liberal = 1
+	social_conservative = 1
+	authoritarian_democrat = 26
+	autocratic = 54
+	ultraconservative = 9
+	national_corporatist = 6
+}
+
+set_country_flag = coalition_authoritarian_democrat
+set_country_flag = coalition_autocratic
+set_country_flag = coalition_ultrasocial_conservative
+set_country_flag = coalition_national_corporatist
+
+create_country_leader = {
+	name = "Johan Furstner"
+	desc = "POLITICS_FURSTNER_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Furstner.tga"
+	expire = "1965.10.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Hubertus van Mook"
+	desc = "POLITICS_MOOK_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_van_Mook.tga"
+	expire = "1965.10.1"
+	ideology = authoritarian_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Raymond Westerling"
+	desc = "POLITICS_WESTERLING_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Westerling.tga"
+	expire = "1965.10.1"
+	ideology = ultraconservative_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Cornelis van Geelkerken"
+	desc = "POLITICS_GEELKERKEN_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Geelkerken.tga"
+	expire = "1965.10.1"
+	ideology = national_corporatist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Charles G. Cramer"
+	desc = "POLITICS_CRAMER_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Cramer.tga"
+	expire = "1965.10.1"
+	ideology = social_democrat_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Chalid Salim"
+	desc = "POLITICS_CHALID_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Salim.tga"
+	expire = "1965.10.1"
+	ideology = syndicalism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Boedi Soetjitro"
+	desc = "POLITICS_SOECITRO_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Soetjitro.tga"
+	expire = "1965.10.1"
+	ideology = moderate_socialist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Silas Papare"
+	desc = "POLITICS_PAPARE_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Papare.tga"
+	expire = "1965.10.1"
+	ideology = revolutionary_socialism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Abraham Dimara"
+	desc = "POLITICS_DIMARA_DESC"
+	picture = "gfx/leaders/INSULINDIA/DEI/Portrait_DEI_Dimara.tga"
+	expire = "1965.10.1"
+	ideology = nationalist_socialism_subtype
+	traits = { }
+}

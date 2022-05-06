@@ -1,0 +1,101 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+SWE_social_nationalist_party:0 "VN - Left Nationalists"
+SWE_social_nationalist_party_long:0 "Vänster Nationalisterna"
+SWE_marxist_party:0 "SKP - Swedish Communist Party"
+SWE_marxist_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_libertarian_party:0 "SAC - Central Organisation of the Workers of Sweden"
+SWE_libertarian_party_long:0 "Sveriges Arbetares Centralorganisation"
+SWE_moderate_socialist_party:0 "SAP-S - Social Democratic Workers' Party of Sweden - Socialists"
+SWE_moderate_socialist_party_long:0 "Sveriges Socialdemokratiska Arbetareparti: Socialisterna"
+SWE_social_democrat_party:0 "SAP - Social Democratic Workers' Party of Sweden"
+SWE_social_democrat_party_long:0 "Sveriges Socialdemokratiska Arbetareparti"
+SWE_social_liberal_party:0 "FP - People's Party"
+SWE_social_liberal_party_long:0 "Folkpartiet"
+SWE_conservative_party:0 "HR - National Organization of the Right"
+SWE_conservative_party_long:0 "Högerns Riksorganisation"
+SWE_authoritarian_democrat_party:0 "HR - National Organization of the Right"
+SWE_authoritarian_democrat_party_long:0 "Högerns Riksorganisation"
+SWE_autocratic_party:0 "SNF - National League of Sweden"
+SWE_autocratic_party_long:0 "Sveriges Nationella Förbund"
+SWE_fundamentalist_party:0 "SNF - National League of Sweden"
+SWE_fundamentalist_party_long:0 "Sveriges Nationella Förbund"
+SWE_voynist_party:0 "SB - Brotherhood of Sweden"
+SWE_voynist_party_long:0 "Sveriges Brödraskap"
+
+### Country Name ###
+
+SWE_social_nationalist:0 "Sweden"
+SWE_social_nationalist_ADJ:0 "Swedish"
+SWE_social_nationalist_DEF:0 "-"
+SWE_marxist:0 "Sweden"
+SWE_marxist_ADJ:0 "Swedish"
+SWE_marxist_DEF:0 "-"
+SWE_moderate_socialist:0 "Sweden"
+SWE_moderate_socialist_ADJ:0 "Swedish"
+SWE_moderate_socialist_DEF:0 "-"
+SWE_social_democrat:0 "Kingdom of Sweden"
+SWE_social_democrat_ADJ:0 "Swedish"
+SWE_social_democrat_DEF:0 "the Kingdom of Sweden"
+SWE_social_liberal:0 "Kingdom of Sweden"
+SWE_social_liberal_ADJ:0 "Swedish"
+SWE_social_liberal_DEF:0 "the Kingdom of Sweden"
+SWE_conservative:0 "Kingdom of Sweden"
+SWE_conservative_ADJ:0 "Swedish"
+SWE_conservative_DEF:0 "the Kingdom of Sweden"
+SWE_authoritarian_democrat:0 "Kingdom of Sweden"
+SWE_authoritarian_democrat_ADJ:0 "Swedish"
+SWE_authoritarian_democrat_DEF:0 "the Kingdom of Sweden"
+SWE_autocratic:0 "Kingdom of Sweden"
+SWE_autocratic_ADJ:0 "Swedish"
+SWE_autocratic_DEF:0 "the Kingdom of Sweden"
+SWE_fundamentalist:0 "Kingdom of Sweden"
+SWE_fundamentalist_ADJ:0 "Swedish"
+SWE_fundamentalist_DEF:0 "the Kingdom of Sweden"
+SWE_voynist:0 "Kingdom of Sweden"
+SWE_voynist_ADJ:0 "Swedish"
+SWE_voynist_DEF:0 "the Kingdom of Sweden"
+
+### Focuses ###
+
+ 
+### Ideas ###
+SWE_german_advisors_to_the_king:0 "German Advisors to the King"
+SWE_german_advisors_to_the_king_desc:0 "Members of the House of Zähringen, relatives of the late Queen of Sweden, have been granted positions as advisors to the King. Also featured prominently at court is the Duke of Saxe-Coburg and Gotha, who regularly voices his opinions to the King Gustaf. This decision has angered much of the population as well as a large part of the lower house and even members of the upper one."
+SWE_crown_prince_gustaf_adolf:0 "Crown Prince Gustaf Adolf"
+SWE_crown_prince_gustaf_adolf_desc:0 "Unlike much of his family, Crown Prince Gustaf Adolf is seen to be a voice of reason within the House of Bernadotte. Having been courted by the liberal party for the past few decades, he is likely to enable sweeping reforms should he come to the throne."
+SWE_ruined_economy:0 "Ruined Economy"
+SWE_ruined_economy_desc:0 "The fall of the German Empire, our largest trading partner, has had disastrous repercussions for the economy. We must find new trading partners to fix this grievous issue."
+SWE_refugee_crisis:0 "Refugee Crisis"
+SWE_refugee_crisis_desc:0 "The recent conflicts in Europe have seen a massive number of refugees flee to Sweden, particularly from Germany and Finland. Although most of the Germans are currently in the process of moving to Südwestafrika, a small number wish to stay and the Finns are left with no choice on the matter at all. We will need to find a way to integrate this part of the population, or perhaps eventually find a way to send them home…"
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+SWE_Fritiof_Domo_hog:0 "Fritiof Domö" #Head of Government
+SWE_Carl_Persson_interior:0 "Carl Person" #Interior
+SWE_Conrad_Carleson_economy:0 "Conrad Carleson" #Economy
+SWE_Christian_Gunther_foreign:0 "Christian Günther" #Foreign
+SWE_Georg_Andren_education:0 "Georg Andrén" #Education
+SWE_Georg_Andren_culture:0 "Georg Andrén" #Culture
+SWE_Walter_Murray_transport:0 "Walter Murray" #Transport
+SWE_Thorwald_Bergquist_intel:0 "Thorwald Bergquist" #Intel
+SWE_Helge_Jung_staff:0 "Helge Jung" #Chief of Staff
+SWE_Carl_A_Ehrensvard_army:0 "Carl A. Ehrensvärd" #Chief of Army
+SWE_Bengt_Nordenskiold_air:0 "Bengt Nordenskiöld" #Chief of Air Force
+SWE_Helge_Stromback_navy:0 "Helge Strömbäck" #Chief of Navy 
+### Leaders ###
+POLITICS_Gustaf_V_DESC:0 "§YKing of Sweden§!\n\nFor 43 years, King Gustaf V Bernadotte has ruled as King of Sweden. His reign began as Sweden first marched towards democracy and the end of royal powers. In 1918, Gustaf changed all that. Perhaps it was the revolution in Russia that scared him. Perhaps it was the success of Germany in the Weltkrieg that spurred him on. Maybe his wife, herself a German that made him act. Or was he simply scared of change? Regardless, Gustaf’s appointment of the ultraconservative Ernst Trygger as PM killed true democracy in Sweden. Once a passive figure in politics, this would be the first of his many interferences in the countries affairs. Ordering striking workers to back down with threats of violence, appointing unelected officials to cabinet positions and pocketing exorbitant funds from the government are but a few of the deeds he committed in past decades. Now, in his very old age, he humours himself with various trivial activities. What else is there for him to do? His wife died in 1930 and his children seldom speak to him, disappointed in their fathers stubbornness and lack of heart. The Palace is quiet except for the shuffle of the King’s slippered feet, empty of those that once cared for him. His supporters only value him for his longevity. His enemies despise him for it. Sweden waits, waits for the old tyrant to draw his last breath. Once he does, nothing will hold back the tides of change whether they be for better or worse."
+### Tech? ###

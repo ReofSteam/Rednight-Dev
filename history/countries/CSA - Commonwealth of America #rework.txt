@@ -1,0 +1,300 @@
+﻿capital = 395
+
+oob = "CSA"
+
+
+### Cabinet 
+add_ideas = {
+	CSA_divided_goverment
+      America_new_year_peace
+	CSA_ruins
+	CSA_refugee_crisis
+	CSA_refugee_crisis_improved
+      CSA_internal_war
+}
+
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.1
+set_convoys = 100
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	motorised = 1
+	motorised_infantry = 1
+        tech_support = 1
+        gw_artillery = 1
+        gwtank = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	#trench_warfare = 1
+	#fleet_in_being = 1
+}
+1981.1.1 = {
+set_politics = {	
+	ruling_party = syndicalism
+	last_election = "1972.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+puppet = JAP
+
+create_country_leader = {
+	name = "Union Council"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "gfx/leaders/Apocalypse_War/AW_US.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {
+	}
+}
+}
+
+set_politics = {	
+	ruling_party = revolutionary_socialism
+	last_election = "1950.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+country_event = {
+id = csa.16
+days = 5
+}
+
+country_event = {
+	id = csa.91
+	days = 125
+	}
+
+set_popularities = {
+    nationalist_socialism = 5
+    revolutionary_socialism = 32 
+    syndicalism = 22
+    moderate_socialist = 20
+    social_democrat = 19
+    social_liberal = 2
+    social_conservative = 0
+    authoritarian_democrat = 0
+    autocratic = 0
+    ultraconservative = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "William Z Foster"
+	desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
+	picture = "gfx/leaders/CSA/CSA_Foster.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "William Z Foster"
+	desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
+	picture = "gfx/leaders/CSA/CSA_Foster.tga"
+	expire = "1965.1.1"
+	ideology = Syndicalism_subtype
+	traits = {
+		#
+	}
+}
+
+
+
+create_field_marshal = {
+	name = "Mark Clark"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Mark_Clark.dds"
+	traits = { 
+		expert_delegator
+		old_guard
+		infantry_leader
+	}
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "David Shoup"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_David_Shoup.dds"
+	traits = { 
+		infantry_leader
+		swamp_fox
+		urban_assault_specialist
+	}
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Oliver Law"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/CSA/CSA_Oliver_Law.dds"
+	traits = {
+
+	}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Evans Carlson"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Evans_Carlson.dds
+	traits = {
+		naval_invader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Robert Hale Merriam"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Robert_Merriam.dds
+	traits = {
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Milton Wolff"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Milton_Wolff.dds
+	traits = {
+		infantry_leader
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "George Parker"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_George_Parker.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Leo Boyle"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Leo_Boyle.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+create_corps_commander = {
+	name = "Omar Bradley"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Omar_Bradley.dds
+	traits = {
+	}
+
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Harry Chamberlain"
+	portrait_path = gfx/leaders/NORTH_AMERICA/CSA/CSA_Harry_Chamberlain.dds
+	traits = {
+	}
+
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+
+
+create_navy_leader = {
+	name = "Leonard W. Murray"
+	gfx = "GFX_CAN_leonard_warren_murray"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "H.T. Baillie-Grohman"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { spotter }
+	skill = 4
+}
+create_navy_leader = {
+	name = "James D. Prentice"
+	gfx = "GFX_CAN_james_prentice"
+	traits = { spotter }
+	skill = 3
+}
+create_navy_leader = {
+	name = "Harry DeWolf"
+	gfx = "GFX_CAN_harry_dewolf"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Sanguenay Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}
+

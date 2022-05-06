@@ -1,0 +1,223 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+KAL_DEWAN.3.t:0 "The Tarakan Oilfields Nationalised!"
+KAL_DEWAN.3.d:0 "The Tarakan Oil fields have been leased to Japan for a couple of years. It has been an insulting sign of Japanese influence in our beautiful Kalimantan, and the many thousand gallons of its precious oil shipped off to Japan for their use, when it could’ve been used for the prosperity of our peoples. \n \nBut now, the Sultan of Bulungan has declared his support to our plans to nationalize the oil fields. And after a month-long struggle against the Japanese side and also against the Bureaucracy, we have successfully nationalised the oilfields. This will be the first step to rid Kalimantan of Japan’s grip!"
+KAL_DEWAN.3.a:0 "Today, the octopus loses one of its tentacles!"
+
+### Parties ###
+
+KAL_social_nationalist_party:0 "-"
+KAL_social_nationalist_party_long:0 "-"
+KAL_marxist_party:0 "-"
+KAL_marxist_party_long:0 "-"
+KAL_libertarian_party:0 "-"
+KAL_libertarian_party_long:0 "-"
+KAL_moderate_socialist_party:0 "-"
+KAL_moderate_socialist_party_long:0 "-"
+KAL_social_democrat_party:0 "Dewan Kesultanan-Kerajaan Kalimantan"
+KAL_social_democrat_party_long:0 "Council of Kalimantan's Rulers"
+KAL_social_liberal_party:0 "Dewan Kesultanan-Kerajaan Kalimantan"
+KAL_social_liberal_party_long:0 "Council of Kalimantan's Rulers"
+KAL_conservative_party:0 "Dewan Kesultanan-Kerajaan Kalimantan"
+KAL_conservative_party_long:0 "Council of Kalimantan's Rulers"
+KAL_authoritarian_democrat_party:0 "PEMPROV Kalimantan - Provincial Government of Kalimantan"
+KAL_authoritarian_democrat_party_long:0 "Pemerintahan Provinsi Kalimantan"
+KAL_autocratic_party:0 "Dewan Kesultanan-Kerajaan Kalimantan"
+KAL_autocratic_party_long:0 "Council of Kalimantan's Rulers"
+KAL_fundamentalist_party:0 "DI/TII"
+KAL_fundamentalist_party_long:0 "Darul Islam/Islamic Army of Indonesia"
+KAL_voynist_party:0 "Pontianak - Royal Court of Pontianak"
+KAL_voynist_party_long:0 "Abdi Istana Kesultanan Pontianak"
+
+### Country Name ###
+
+KAL_social_nationalist:0 "Commune of Kalimantan"
+KAL_social_nationalist_ADJ:0 "Kalimantan"
+KAL_social_nationalist_DEF:0 "the Commune of Kalimantan"
+KAL_marxist:0 "Commune of Kalimantan"
+KAL_marxist_ADJ:0 "Kalimantan"
+KAL_marxist_DEF:0 "the Commune of Kalimantan"
+KAL_libertarian:0 "Commune of Kalimantan"
+KAL_libertarian_ADJ:0 "Kalimantan"
+KAL_libertarian_DEF:0 "the Commune of Kalimantan"
+KAL_moderate_socialist:0 "Commune of Kalimantan"
+KAL_moderate_socialist_ADJ:0 "Kalimantan"
+KAL_moderate_socialist_DEF:0 "the Commune of Kalimantan"
+KAL_social_democrat:0 "Kingdom of Kalimantan"
+KAL_social_democrat_ADJ:0 "Kalimantan"
+KAL_social_democrat_DEF:0 "the Kingdom of Kalimantan"
+KAL_social_liberal:0 "Kingdom of Kalimantan"
+KAL_social_liberal_ADJ:0 "Kalimantan"
+KAL_social_liberal_DEF:0 "the Kingdom of Kalimantan"
+KAL_conservative:0 "Kingdom of Kalimantan"
+KAL_conservative_ADJ:0 "Kalimantan"
+KAL_conservative_DEF:0 "the Kingdom of Kalimantan"
+KAL_authoritarian_democrat:0 "Province of Kalimantan"
+KAL_authoritarian_democrat_ADJ:0 "Kalimantann"
+KAL_authoritarian_democrat_DEF:0 "the Province of Kalimantan"
+KAL_autocratic:0 "Province of Kalimantan"
+KAL_autocratic_ADJ:0 "Kalimantan"
+KAL_autocratic_DEF:0 "the Province of Kalimantan"
+KAL_fundamentalist:0 "Islamic State of Kalimantan"
+KAL_fundamentalist_ADJ:0 "Kalimantan"
+KAL_fundamentalist_DEF:0 "the Islamic State of Kalimantan"
+KAL_voynist:0 "Kingdom of Kalimantan"
+KAL_voynist_ADJ:0 "Kalimantan"
+KAL_voynist_DEF:0 "the Kingdom of Kalimantan"
+
+### Focuses ###
+ 
+### Ideas ###
+KAL_council_neutral:0 "Council of Rulers - Ambivalent"
+KAL_council_neutral_desc:0 "The approval of the Council of Rulers are important for our daily affairs, due to the fact that it helps to weaken them from our political actions. If the council starts to disapprove of us, it would unite them against us, but if the council is content to fight among each other, that would be best for us..."
+KAL_central_low:0 "Central Government Control - Low"
+KAL_central_low_desc:0 "Djakarta’s iron fist is often a chaos variable in our many schemes. Their dictates might help us, or it might throw a wrench in our plans. We should limit their influence as much as we can so that whatever impact their actions may have, it would be the bare minimum, for better or for worse."
+KAL_control_high:0 "Overall Control - Dominant"
+KAL_control_high_desc:0 "While the Sultans bicker and Kings argue, we tighten our grip over the Council. We have exploited the infighting of the rulers to slowly but surely gain control over the council, and so long as they keep fighting among one another, our influence will grow, and perhaps some of them had realised it but had not or will not do anything about it. Hopefully, the council will never unite, for together, they can and will overthrow us."
+
+### Flags ###
+
+KAL_bulungan_contentious:0 "Bulungan is Rebellious"
+KAL_bulungan_disloyal:0 "Bulungan is Disloyal"
+KAL_bulungan_content:0 "Bulungan is Content"
+KAL_bulungan_sympathetic:0 "Bulungan is Sympathetic"
+KAL_bulungan_loyal:0 "Bulungan is Loyal"
+
+KAL_Kutai_contentious:0 "Kutai is Rebellious"
+KAL_Kutai_disloyal:0 "Kutai is Disloyal"
+KAL_Kutai_content:0 "Kutai is Content"
+KAL_Kutai_sympathetic:0 "Kutai is Sympathetic"
+KAL_Kutai_loyal:0 "Kutai is Loyal"
+
+KAL_Paser_contentious:0 "Paser is Rebellious"
+KAL_Paser_disloyal:0 "Paser is Disloyal"
+KAL_Paser_content:0 "Paser is Content"
+KAL_Paser_sympathetic:0 "Paser is Sympathetic"
+KAL_Paser_loyal:0 "Paser is Loyal"
+
+KAL_Riwut_contentious:0 "Riwut is Rebellious"
+KAL_Riwut_disloyal:0 "Riwut is Disloyal"
+KAL_Riwut_content:0 "Riwut is Content"
+KAL_Riwut_sympathetic:0 "Riwut is Sympathetic"
+KAL_Riwut_loyal:0 "Riwut is Loyal"
+
+KAL_Kotawaringin_contentious:0 "Kotawaringin is Rebellious"
+KAL_Kotawaringin_disloyal:0 "Kotawaringin is Disloyal"
+KAL_Kotawaringin_content:0 "Kotawaringin is Content"
+KAL_Kotawaringin_sympathetic:0 "Kotawaringin is Sympathetic"
+KAL_Kotawaringin_loyal:0 "Kotawaringin is Loyal"
+
+KAL_Ketapang_contentious:0 "Ketapang is Rebellious"
+KAL_Ketapang_disloyal:0 "Ketapang is Disloyal"
+KAL_Ketapang_content:0 "Ketapang is Content"
+KAL_Ketapang_sympathetic:0 "Ketapang is Sympathetic"
+KAL_Ketapang_loyal:0 "Ketapang is Loyal"
+
+### Scripted Loc ###
+
+KAL_BUL_contentious:0 "§RThe Sultan of Bulungan is Contentious§!"
+KAL_BUL_disloyal:0 "§RThe Sultan of Bulungan is Disloyal§!"
+KAL_BUL_content:0 "§YThe Sultan of Bulungan is Content§!"
+KAL_BUL_sympathetic:0 "§GThe Sultan of Bulungan is Sympathetic§!"
+KAL_BUL_loyal:0 "§GThe Sultan of Bulungan is Loyal§!"
+
+KAL_KUT_contentious:0 "§RThe Sultan of Kutai is Contentious§!"
+KAL_KUT_disloyal:0 "§RThe Sultan of Kutai is Disloyal§!"
+KAL_KUT_content:0 "§YThe Sultan of Kutai is Content§!"
+KAL_KUT_sympathetic:0 "§GThe Sultan of Kutai is Sympathetic§!"
+KAL_KUT_loyal:0 "§GThe Sultan of Kutai is Loyal§!"
+
+KAL_PAS_contentious:0 "§RThe Sultan of Paser is Contentious§!"
+KAL_PAS_disloyal:0 "§RThe Sultan of Paser is Disloyal§!"
+KAL_PAS_content:0 "§YThe Sultan of Paser is Content§!"
+KAL_PAS_sympathetic:0 "§GThe Sultan of Paser is Sympathetic§!"
+KAL_PAS_loyal:0 "§GThe Sultan of Paser is Loyal§!"
+
+KAL_DAJ_contentious:0 "§RThe Dajaks are Contentious§!"
+KAL_DAJ_disloyal:0 "§RThe Dajaks are Disloyal§!"
+KAL_DAJ_content:0 "§YThe Dajaks are Content§!"
+KAL_DAJ_sympathetic:0 "§GThe Dajaks are Sympathetic§!"
+KAL_DAJ_loyal:0 "§GThe Dajaks are Loyal§!"
+
+KAL_KOT_contentious:0 "§RThe King of Kotawaringin and Sampit is Contentious§!"
+KAL_KOT_disloyal:0 "§RThe King of Kotawaringin and Sampit is Disloyal§!"
+KAL_KOT_content:0 "§YThe King of Kotawaringin and Sampit is Content§!"
+KAL_KOT_sympathetic:0 "§GThe King of Kotawaringin and Sampit is Sympathetic§!"
+KAL_KOT_loyal:0 "§GThe King of Kotawaringin and Sampit is Loyal§!"
+
+KAL_KET_contentious:0 "§RThe Sultan of Ketapang is Contentious§!"
+KAL_KET_disloyal:0 "§RThe Sultan of Ketapang is Disloyal§!"
+KAL_KET_content:0 "§YThe Sultan of Ketapang is Content§!"
+KAL_KET_sympathetic:0 "§GThe Sultan of Ketapang is Sympathetic§!"
+KAL_KET_loyal:0 "§GThe Sultan of Ketapang is Loyal§!"
+
+KAL_INS_low:0 "§GLow§! ([?KAL_INS_control])"
+KAL_INS_medium:0 "§BNoteworthy§! ([?KAL_INS_control])"
+KAL_INS_high:0 "§RHigh§! ([?KAL_INS_control])"
+
+KAL_PON_low:0 "§RLow§! ([?KAL_PON_control])"
+KAL_PON_medium:0 "§MNoteworthy§! ([?KAL_PON_control])"
+KAL_PON_high:0 "§GHigh§! ([?KAL_PON_control])"
+
+KAL_dewan_low:0 "§RLow§! ([?KAL_dewan_power])"
+KAL_dewan_medium:0 "§MMedium§! ([?KAL_dewan_power])"
+KAL_dewan_high:0 "§GHigh§! ([?KAL_dewan_power])"
+
+KAL_leader_PON:0 "§YPrince Sjarif Hamid Alkadrie of Pontianak§!"
+KAL_leader_DAJ:0 "§YBrigadier-General Hasan Basry§!"
+KAL_leader_BAN:0 "§YGovernor Ir. Pangeran Muhammad Noor§!"
+
+### Tooltips ###
+
+KAL_sultan_lvlup:0 "§GThis will improve our relations!§!"
+KAL_INS_petition_generic:0 "§MWe shall await the Central Government's response§!"
+KAL_INS_getrid_generic:0 "§MWe shall stuff the bureaucracy with locals to get rid of Central influence!§!"
+
+### Decisions ###
+KAL_council_of_sultans:0 "Dewan Kerajaan-Kesultanan Kalimantan"
+KAL_council_of_sultans_desc:0 "Current leader of the council: [KAL_leader] \nCentral Government Control: [KAL_influence_INS] \nOur Control: [KAL_influence_PON] \nDewan's Satisfaction: [KAL_influence_dewan] \n\nBulungan: [KAL_Bulungan] \nKutai: [KAL_Kutai] \nPaser: [KAL_Paser] \nDayak Autonomous Land: [KAL_Riwut] \nKotawaringin – Sampit: [KAL_Kotawaringin] \nKetapang: [KAL_Ketapang] \n\nThe Dewan Kerajaan-Kesultanan has united the various rulers of Kalimantan against any threats, whether it is the Dutch’s brutal administration or the Hardliners among the Republicans. But now, after twelve years of unity, the cracks have begun to show...   "
+lobby_bulungan:0 "Meet the Sultan of Bulungan"
+lobby_kutai:0 "Meet with the Sultan of Kutai"
+lobby_paser:0 "Meet with the Sultan of Paser"
+lobby_dayaks:0 "Meet with the Representative of the Dajaks"
+lobby_kotawaringin:0 "Meet with the King of Kotawaringin-Sampit"
+lobby_ketapang:0 "Meet with the Sultan of Ketapang"
+
+KAL_INS_control:0 "Central Government control"
+KAL_PON_control:0 "Our control"
+KAL_dewan_power:0 "Council power"
+
+crackdown_INS_bureaucrat:0 "Reshuffle Local Bureaucracy"
+petition_the_INS:0 "Petition the Central Government"
+nationalise_tarakan:0 "Nationalise the Tarakan Oil Fields"
+electrication_proposal:0 "Kutai Electrification Campaign"
+replace_soehario:0 "Request the Replacement of Soehario Padmodiwirjo"
+
+### Companies ###
+
+### Ministers ###
+
+	#Placeholder before Implementation
+	#Head of Government: Sjarif Hamid Alkadrie
+	#Office without Portfolio: Pangeran Muhammad Noor
+	#Interior: Sultan Aji Muhammad Parikesit
+	#Econ: Sultan Muhammad Djalaludin
+	#Foreign: Sultan Muhammad Djalaludin
+	#Educ: 
+	#Cult:
+	#Transpo: 
+	#Intel: Sultan Hamid II
+	#Chief of Staff: 
+	#Army:
+	#Air: 
+	#Navy: 
+	
+### Leaders ###
+
+### Tech? ###

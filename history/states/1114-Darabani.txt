@@ -1,0 +1,14 @@
+state={
+	id=1114
+	name="STATE_1114"
+	provinces={
+		744 3728 3741 6584 9716 11534 11672 
+	}
+        history={
+        owner = ROM
+        add_core_of = ROM
+    }
+    manpower=10100
+    buildings_max_level_factor=1.000
+        state_category = two
+}

@@ -1,0 +1,321 @@
+
+#####Nuke
+NUC = "countries/WestEur.txt"
+
+
+###Europe
+BEL = "countries/Belgium.txt"
+BRI = "countries/Britanny.txt"
+FLN = "countries/Flanders.txt"
+FRA = "countries/France.txt"
+ENG = "countries/Britain.txt"
+IRE = "countries/Ireland.txt"
+WLL = "countries/Wallonia.txt"
+LUX = "countries/Luxembourg.txt"	#Unplanned
+GNR = "countries/WestEur.txt"	#German Nationalist Revolt
+RUR = "countries/WestEur.txt" #Little Russia 
+RFN = "countries/WestEur.txt" #Russian Finland
+TRM = "countries/WestEur.txt"	#Transamur
+RUS = "countries/Russia.txt" #Russia
+CSA = "countries/CSA.txt" #csa
+##Central
+AUS = "countries/Austria.txt"
+BOZ = "countries/British Occupation Zone.txt"
+CZE = "countries/Czechia.txt"
+FOZ = "countries/French Occupation Zone.txt"
+GER = "countries/Germany.txt"
+JOZ = "countries/Joint Occupation Zone.txt"
+NTH = "countries/Netherlands.txt"
+SWI = "countries/Switzerland.txt"
+MRV = "countries/Moravia.txt" 
+
+
+#Southwest
+CNT = "countries/Iberia.txt"
+POR = "countries/Exile Portugal.txt"
+ITA = "countries/Italy.txt"
+MLT = "countries/Malta.txt"
+
+##Southeast
+ALB = "countries/Albania.txt"
+BOS = "countries/Bosnia.txt"
+BUL = "countries/Bulgaria.txt"
+CRO = "countries/Croatia.txt"
+GRE = "countries/Greece.txt"
+MNT = "countries/Montenegro.txt"
+SER = "countries/Serbia.txt"
+SLN = "countries/Slovenia.txt"
+YUG = "countries/Yugoslavia.txt"
+VAR = "countries/Vardar.txt"
+BNT = "countries/Romania.txt"
+
+##North
+DEN = "countries/Denmark.txt"
+FIN = "countries/WestEur.txt"
+ICE = "countries/Iceland.txt"
+NOR = "countries/Norway.txt"
+#SHL = "countries/Schleswig-Holstein.txt"
+SWE = "countries/Sweden.txt"
+
+BLR = "countries/Belarus.txt"
+EST = "countries/Estonia.txt"
+HUN = "countries/Hungary.txt"
+LAT = "countries/Latvia.txt"
+LIT = "countries/Lithuania.txt"
+ROM = "countries/Romania.txt"
+MOL = "countries/Romania.txt"
+PRS = "countries/Germany.txt"
+SLK = "countries/Slovakia.txt"
+UKR = "countries/Ukraine.txt"
+POL = "countries/Poland.txt"
+TAN = "countries/Tanganyiaka.txt"
+#CNK = "countries/Russian Channel.txt"
+UGA = "countries/Uganda.txt"
+####Anti-Russia####
+KAZ = "countries/Kazakhstan.txt" 
+DCO = "countries/Omsk_Cossack_Committee.txt" #Don Cossack  
+TRK = "countries/Turkestan.txt"
+UPR = "countries/Ukraine.txt"  #Ukrainian Peasants Rebels
+SIB = "countries/Russia.txt"
+OLD = "countries/White_Germany.txt"
+CAU = "countries/Russia.txt"
+
+
+
+###Asia
+##Middle-East
+ADE = "countries/Aden.txt"
+ANA = "countries/Anatolia.txt"
+ARA = "countries/Arabia.txt"
+ARM = "countries/Armenia.txt"
+AZR = "countries/Azerbaijan.txt"
+CYP = "countries/Cyprus.txt"
+GEO = "countries/Georgia.txt"
+HEJ = "countries/Hejaz.txt"
+IRQ = "countries/Iraq.txt"
+KUR = "countries/Kurdistan.txt"
+MAH = "countries/Mahra.txt"
+MUC = "countries/Muscat and Oman.txt"
+MSL = "countries/Mosul.txt"
+OTT = "countries/Ottomans.txt"
+PAL = "countries/Palestine.txt"
+PER = "countries/Persia.txt"
+QUT = "countries/Quaiti Sultanate.txt"
+SYR = "countries/Syria.txt"
+TUR = "countries/Turkey.txt"
+UAE = "countries/United Arab Emirates.txt"
+YEM = "countries/Yemen.txt"
+LEB = "countries/Lebanon.txt"
+DRU = "countries/Druze.txt"
+#JER = "countries/Jerusalem.txt"
+ALA = "countries/Alawite.txt"
+SAU = "countries/Saudi Arabia.txt"
+HOL = "countries/Holy Army.txt"
+UAR = "countries/United Arab Republic.txt"
+
+##Central
+AFG = "countries/Afghanistan.txt"
+
+CAS = "countries/Turkestan.txt" #Caspian Republic
+
+##East
+JAP = "countries/Japan.txt"
+KOR = "countries/Korea.txt"
+#TAI = "countries/Taiwan.txt"			Unimplemented
+MNC = "countries/Manchuria.txt"
+MON = "countries/Mongolia.txt"
+TIB = "countries/Tibet.txt"
+
+FNG = "countries/Fengtian.txt"
+CHI = "countries/Kuomintang.txt"
+NRC = "countries/Northern ROC.txt"
+SHX = "countries/Shanxi.txt"
+HNN = "countries/Hunan.txt"
+GND = "countries/Guangdong.txt"
+GXI = "countries/Guangxi.txt"
+SCH = "countries/Sichuan.txt"
+YNN = "countries/Yunnan.txt"
+XSM = "countries/Xibei San Ma.txt"
+XNJ = "countries/Xinjiang.txt"
+SIK = "countries/Sinkiang.txt"
+MAC = "countries/Ma Clique.txt"
+ETR = "countries/East Turkestan.txt"
+ALT = "countries/Altay.txt"
+XRA = "countries/Xinjiang Revolutionary Army.txt"
+
+
+##South
+BHC = "countries/Bharat.txt"
+PNJ = "countries/Panjab.txt"
+#KSH = "countries/Kashmir.txt"			Unimplemented
+NEP = "countries/Nepal.txt"
+BHU = "countries/Bhutan.txt"
+#South India
+HYD = "countries/Hyderabad.txt"
+MHA = "countries/Maharashtra.txt"
+CEY = "countries/Ceylon.txt"
+DRA = "countries/Dravida Nadu.txt"
+MYS = "countries/Mysore.txt"
+TRV = "countries/Travancore.txt"
+
+##Southeast
+SHN = "countries/Shan.txt"
+KAC = "countries/Kachin.txt"
+MLY = "countries/Malaya.txt"
+MLU = "countries/Malayan Union.txt"
+INC = "countries/Indochina.txt"
+SIA = "countries/Siam.txt"
+BUR = "countries/Burma.txt"
+INS = "countries/Indonesia.txt"
+VIN = "countries/Vietnam.txt"
+LAO = "countries/Laos.txt"
+CAM = "countries/Cambodia.txt"
+PHI = "countries/Philippines.txt"
+SUL = "countries/Sulawesi.txt"
+ACH = "countries/Aceh.txt"
+CLA = "countries/AcehClerics.txt"
+NBA = "countries/AcehNobles.txt"
+KAL = "countries/Kalimantan.txt"
+NBO = "countries/North Borneo.txt"
+PRI = "countries/Indonesian Revolt.txt"
+SVA = "countries/Seventh Army"
+NRM = "countries/Northern Resistance Comittee.txt"
+EVN = "countries/Empire of Vietnam.txt"
+KNR = "countries/Khmer Nationalist Revolt.txt"
+
+##Pacific
+AST = "countries/WestEur.txt"
+HAW = "countries/Hawaii.txt"
+NZL = "countries/New Zealand.txt"
+GEA = "countries/German East Asia.txt"
+PLN = "countries/Oceania.txt"
+DEI = "countries/East Indies.txt"
+#SOL = "countries/Solomon Islands.txt"	Unimplemented
+#FJI = "countries/Fiji.txt"				Unimplemented
+NCL = "countries/Oceania.txt"
+PNG = "countries/WestEur.txt"
+
+
+###Africa
+##North
+EGY = "countries/Egypt.txt"
+LYB = "countries/Libya.txt"
+EQU = "countries/Equatoria.txt"
+MUS = "countries/Muslim Brotherhood.txt"
+TRI = "countries/Tripolitania.txt"
+TUN = "countries/Tunisia.txt"
+ALG = "countries/Algeria.txt"
+MOR = "countries/Morocco.txt"
+SUD = "countries/Sudan.txt"
+#CNR = "countries/Canaries.txt"		Unimplemented.	
+
+##Central
+BGU = "countries/Bangui.txt"
+CNG = "countries/Congo.txt"
+GAB = "countries/Gabon.txt"
+KAM = "countries/Kamerun.txt"
+KON = "countries/Kongo.txt"
+TAS = "countries/Tashad.txt" 		#Chad, Wadai, who knows.
+TKE = "countries/Teke.txt"
+KAS = "countries/Kasai.txt"
+KIV = "countries/Kivu.txt"
+
+##West
+ASH = "countries/Ashanti.txt"
+SAH = "countries/Africa.txt"		
+BOR = "countries/Borno.txt"			#Bornu, Bornuo, who knows.
+DAH = "countries/Dahomey.txt"
+GNE = "countries/Guinea.txt"
+HAU = "countries/Hausaland.txt"
+IVY = "countries/Ivory Coast.txt"
+LIB = "countries/Liberia.txt"
+MLI = "countries/Mali.txt"
+MRT = "countries/Mauritania.txt"
+NGR = "countries/Africa.txt"
+SEN = "countries/Senegal.txt"
+TOG = "countries/Togo.txt"
+TUA = "countries/Tuareg.txt"		#90% certain this an AZA are identical
+BFA = "countries/Burkina Faso.txt"
+SIE = "countries/Sierra Leone.txt"
+
+##East
+BGA = "countries/Buganda.txt"
+BRD = "countries/Burundi.txt"
+ERI = "countries/Eritrea.txt"
+ETH = "countries/Ethiopia.txt"
+KEN = "countries/Africa.txt"
+RWA = "countries/Rwanda.txt"
+SOM = "countries/Somalia.txt"
+TNG = "countries/Ostafrika.txt"
+
+##South
+ANG = "countries/Angola.txt"
+BRT = "countries/Barotseland.txt"
+KTG = "countries/Katanga.txt"
+MAG = "countries/Madagaskar.txt"
+MSC = "countries/Mascarenes.txt"
+MZB = "countries/Mozambique.txt"
+NYA = "countries/Nyasaland.txt"
+NRD = "countries/Africa.txt"
+SAF = "countries/South Africa.txt"
+SWA = "countries/Africa.txt"
+PWA = "countries/Portuguese West Africa.txt"
+CHK = "countries/Chokwe.txt"
+
+###Americas
+#North
+CAN = "countries/Canada.txt"
+CHP = "countries/Chiapas.txt"
+CSA = "countries/WestEur.txt"
+WCN = "countries/WestEur.txt"
+QUE = "countries/WestEur.txt"
+#RGR = "countries/Rio Grande.txt"		Unimplemented
+TEX = "countries/Texas.txt"
+YUC = "countries/Yucatan.txt"
+CAL = "countries/WestEur.txt"
+####Civil War
+OSS = "countries/America.txt"
+COF = "countries/America.txt"
+NGO = "countries/America.txt"
+IWW = "countries/AmericaLeftist.txt"
+MIS = "countries/AmericaLeftist.txt"
+NAF = "countries/AmericaLeftist.txt"
+
+
+##Central
+CAC = "countries/Central America.txt"
+COS = "countries/Costa Rica.txt"
+ELS = "countries/El Salvador.txt"
+GUA = "countries/Guatemala.txt"
+HON = "countries/Honduras.txt"
+MES = "countries/Socialist Mexico.txt"
+MEX = "countries/Mexico.txt"
+NIC = "countries/Nicaragua.txt"
+PAN = "countries/Panama.txt"
+SYN = "countries/Synarchist Mexico.txt"
+
+
+##Caribbean
+#ANT = "countries/Antilles.txt"			Unimplemented
+#BHS = "countries/Bahamas.txt"			Unimplemented
+CUB = "countries/Cuba.txt"
+DOM = "countries/Dominican Republic.txt"
+HAI = "countries/Haiti.txt"
+JAM = "countries/Jamaica.txt"
+WIF = "countries/West Indies Federation.txt"
+PUE = "countries/CentralAmerica.txt"		
+#WIN = "countries/Windward Islands.txt"	Unimplemented
+
+##South America
+ARG = "countries/Argentina.txt"
+BOL = "countries/Bolivia.txt"
+BRA = "countries/Brazil.txt"
+CHL = "countries/Chile.txt"
+COL = "countries/Colombia.txt"
+ECU = "countries/Ecuador.txt"
+GUI = "countries/Guiana.txt"
+PAR = "countries/Paraguay.txt"
+PRU = "countries/Peru.txt"
+URG = "countries/Uruguay.txt"
+VEN = "countries/Venezula.txt"
+VNN = "countries/New American Movement.txt"

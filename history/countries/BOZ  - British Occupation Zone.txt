@@ -1,0 +1,123 @@
+﻿capital = 59
+
+oob = "BOZ"
+
+add_ideas = {
+	GER_reconstruction_germany
+}
+
+country_event = {
+id = boz.0
+days = 1
+}
+country_event = {
+id = boz.1
+days = 362
+}
+
+# Starting tech
+set_technology = {
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	#mobile_warfare = 1
+	#trade_interdiction = 1
+	#formation_flying = 1
+	transport = 1
+}
+
+set_research_slots = 4
+set_convoys = 100
+set_stability = 0.65
+set_war_support = 0.35
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1932.3.8"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+country_lock_all_division_template = yes
+
+set_popularities = {
+	nationalist_socialism = 6
+	revolutionary_socialism = 22
+	syndicalism = 3
+	moderate_socialist = 14
+	social_democrat = 8
+	social_liberal = 11
+	social_conservative = 18
+	authoritarian_democrat = 6
+	autocratic = 4
+	ultraconservative = 1
+	national_corporatist = 7
+}
+
+create_country_leader = {
+	name = "T.E Lawrence"
+	desc = "POLITICS_TE_LAWRENCE_DESC"
+	picture = "gfx/leaders/ENG/ENG_TE_Lawrence.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "T.E Lawrence"
+	desc = "POLITICS_TE_LAWRENCE_DESC"
+	picture = "gfx/leaders/ENG/ENG_TE_Lawrence.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "T.E Lawrence"
+	desc = "POLITICS_TE_LAWRENCE_DESC"
+	picture = "gfx/leaders/ENG/ENG_TE_Lawrence.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "T.E Lawrence"
+	desc = "POLITICS_TE_LAWRENCE_DESC"
+	picture = "gfx/leaders/ENG/ENG_TE_Lawrence.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}

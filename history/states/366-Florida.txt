@@ -1,0 +1,37 @@
+state = {
+	id = 366
+	name = "STATE_366"
+	manpower = 1651000
+
+	state_category = five
+
+	history = {
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			air_base = 8
+			1572 = {
+				naval_base = 2
+			}
+			1843 = {
+				naval_base = 5
+			}
+			7388 = {
+				naval_base = 3
+			}
+			10352 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CSA
+		victory_points = {
+			1843 15
+		}
+
+	}
+
+	provinces = {
+	1843 1913 9834 10489 12752 13609
+	}
+}

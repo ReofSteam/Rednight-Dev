@@ -1,0 +1,115 @@
+﻿l_english:
+
+### Bookmark ###
+CRO_RN_1950_DESC:0 "-"
+
+### Country Name ###
+CRO_nationalist_socialism:0 "Republic of Croatia"
+CRO_nationalist_socialism_ADJ:0 "Republic of Croatia"
+CRO_nationalist_socialism_DEF:0 "Republic of Croatia"
+
+CRO_revolutionary_socialism:0 "Republic of Croatia"
+CRO_revolutionary_socialism_ADJ:0 "Republic of Croatia"
+CRO_revolutionary_socialism_DEF:0 "Republic of Croatia"
+
+CRO_syndicalism:0 "Republic of Croatia"
+CRO_syndicalism_ADJ:0 "Republic of Croatia"
+CRO_syndicalism_DEF:0 "Republic of Croatia"
+
+CRO_moderate_socialist:0 "Republic of Croatia"
+CRO_moderate_socialist_ADJ:0 "Republic of Croatia"
+CRO_moderate_socialist_DEF:0 "Republic of Croatia"
+
+CRO_social_democrat:0 "Republic of Croatia"
+CRO_social_democrat_ADJ:0 "Republic of Croatia"
+CRO_social_democrat_DEF:0 "Republic of Croatia"
+
+CRO_social_liberal:0 "Republic of Croatia"
+CRO_social_liberal_ADJ:0 "Republic of Croatia"
+CRO_social_liberal_DEF:0 "Republic of Croatia"
+
+CRO_social_conservative:0 "Republic of Croatia"
+CRO_social_conservative_ADJ:0 "Republic of Croatia"
+CRO_social_conservative_DEF:0 "Republic of Croatia"
+
+CRO_authoritarian_democrat:0 "Republic of Croatia"
+CRO_authoritarian_democrat_ADJ:0 "Republic of Croatia"
+CRO_authoritarian_democrat_DEF:0 "Republic of Croatia"
+
+CRO_autocratic:0 "Republic of Croatia"
+CRO_autocratic_ADJ:0 "Republic of Croatia"
+CRO_autocratic_DEF:0 "Republic of Croatia"
+
+CRO_ultraconservative:0 "Republic of Croatia"
+CRO_ultraconservative_ADJ:0 "Republic of Croatia"
+CRO_ultraconservative_DEF:0 "Republic of Croatia"
+
+CRO_national_corporatist:0 "Republic of Croatia"
+CRO_national_corporatist_ADJ:0 "Republic of Croatia"
+CRO_national_corporatist_DEF:0 "Republic of Croatia"
+
+CRO_FDR:0 "Illyrian Socialist Federal Republic"
+
+### Parties ###
+
+CRO_nationalist_socialism_party:0 "SRPI"
+CRO_nationalist_socialism_party_long:0 "Socijalistička radnička partija Ilirije"
+
+CRO_revolutionary_socialism_party:0 "SRPI"
+CRO_revolutionary_socialism_party_long:0 "Socijalistička radnička partija Ilirije"
+
+CRO_syndicalism_party:0 "SRPI"
+CRO_syndicalism_party_long:0 "Socijalistička radnička partija Ilirije"
+
+CRO_moderate_socialist_party:0 "SRPI"
+CRO_moderate_socialist_party_long:0 "Socijalistička radnička partija Ilirije"
+
+CRO_social_democrat_party:0 "SRPI"
+CRO_social_democrat_party_long:0 "Socijalistička radnička partija Ilirije"
+
+CRO_social_liberal_party:0 "-"
+CRO_social_liberal_party_long:0 "-"
+
+CRO_social_conservative_party:0 "-"
+CRO_social_conservative_party_long:0 "-"
+
+CRO_authoritarian_democrat_party:0 "-"
+CRO_authoritarian_democrat_party_long:0 "-"
+
+CRO_autocratic_party:0 "-"
+CRO_autocratic_party_long:0 "-"
+
+CRO_ultraconservative_party:0 "-"
+CRO_ultraconservative_party_long:0 "-"
+
+CRO_national_corporatist_party:0 "-"
+CRO_national_corporatist_party_long:0 "-"
+
+### Cosmetic Tags ###
+
+### Opinions ###
+CRO_italy_question:0 "The Italian Question"
+### Ideas ###
+CRO_italian_question:0 "The Italian Question"
+CRO_italian_question_desc:0 "It is unbecoming to speak harshly of your allies, and even more so of your liberators. We will never forget the sacrifices of our Italian comrades.\n\nHowever, as the Italian military presence only grows in influence, and the special autonomy of Dalmatia remains a thorn in our side, many have begun to grow....uncomfortable. We must address these sentiments without betraying those that fought for us."
+CRO_military_government:0 "Military Government"
+CRO_military_government_desc:0 "While not officially a military government, our entire national leadership is comrpised of the core of the  wartime Illyrian Division. Their outlook has garnered much stability and trust at home, but continues to generate weariness in our allies, who might compare us to a simple Junta."
+CRO_rural_society:0 "Rural Society"
+CRO_rural_society_desc:0 "The Balkans are often unflatteringly referred to as the "Backwater" of Europe, accounting for their mostly illiterate population and agrarian way of life. We must continue our quest to uplift our people to dignity, and provide the masses with the tools of their own liberation."
+### Focuses ###
+
+### Decisions ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech ###
+
+### Events ###

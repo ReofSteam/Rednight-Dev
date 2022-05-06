@@ -1,0 +1,81 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+KNR_social_nationalist_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_social_nationalist_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_marxist_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_marxist_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_libertarian_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_libertarian_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_moderate_socialist_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_moderate_socialist_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_social_democrat_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_social_democrat_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_social_liberal_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_social_liberal_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_conservative_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_conservative_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_authoritarian_democrat_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_authoritarian_democrat_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_autocratic_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_autocratic_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_fundamentalist_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_fundamentalist_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+KNR_voynist_party:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_voynist_party_long:0 "Gouvernement d'union national pour le Salut du Kampuchéa libre"
+
+### Country Name ###
+
+KNR_social_nationalist:0 "GUNSKL"
+KNR_social_nationalist_ADJ:0 "Khmer"
+KNR_social_nationalist_DEF:0 "the Government of National Union for the Salvation of Free Kampuchea"
+KNR_marxist:0 "GUNSKL"
+KNR_marxist_ADJ:0 "Khmer"
+KNR_marxist_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_libertarian:0 "GUNSKL"
+KNR_libertarian_ADJ:0 "Khmer"
+KNR_libertarian_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_social_democrat:0 "GUNSKL"
+KNR_social_democrat_ADJ:0 "Khmer"
+KNR_social_democrat_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_social_liberal:0 "GUNSKL"
+KNR_social_liberal_ADJ:0 "Khmer"
+KNR_social_liberal_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_conservative:0 "GUNSKL"
+KNR_conservative_ADJ:0 "Khmer"
+KNR_conservative_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_authoritarian_democrat:0 "GUNSKL"
+KNR_authoritarian_democrat_ADJ:0 "Khmer"
+KNR_authoritarian_democrat_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_autocratic:0 "GUNSKL"
+KNR_autocratic_ADJ:0 "Khmer"
+KNR_autocratic_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_fundamentalist:0 "GUNSKL"
+KNR_fundamentalist_ADJ:0 "Khmer"
+KNR_fundamentalist_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+KNR_voynist:0 "GUNSKL"
+KNR_voynist_ADJ:0 "Khmer"
+KNR_voynist_DEF:0 "Government of National Union for the Salvation of Free Kampuchea"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_SON_NGOC_THANH_DESC:0 "§YPresident of Kampuchea (GUNSKL)§!\nDistinctive by more than just his Vietnamese name, Son Ngoc Thanh has his own ideas about how things ought to be run. A Vietnamese Khmer, Thanh was born into a well off family in 1908. Enjoying education opportunities a peasant could only dream of, he quickly fell into the gospels of Republicanism and Buddhism. A right winger by all means, Son Ngoc Thanh would still find himself a part of the leftist Khmer Issarak Front, albeit within a smaller rightist faction. Taking part in the great revolution of 1947, Thanh was delighted to topple his most hated enemy; the monarchy.When the Interim President Dap Chhuon was deposed, Thanh himself would become president despite ferocious protests from the left. His Republican Social Party then attempted to forge a nationalist-socialist state to his vision. \nNow, as the blood dries on the stone roads of Phnom Penh the nationalist guerilla hero has returned from exile. He stands indignant, ready to fight the vietnamese puppets and traitors within his government."
+### Tech? ###

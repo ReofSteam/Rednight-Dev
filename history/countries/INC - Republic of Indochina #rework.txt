@@ -1,0 +1,217 @@
+﻿capital = 286 #Saigon
+
+oob = "INC"
+
+
+set_research_slots = 3
+
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.2
+
+country_event = inc.1
+
+add_ideas = {
+	INC_fatherland_return
+	INC_martyrs_desire
+	INC_thick_blood
+	INC_common_education
+}
+
+###Council of State
+add_ideas = {
+
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	transport = 1
+	#trench_warfare = 1
+	#fleet_in_being = 1
+}
+
+set_politics = {	
+	ruling_party = nationalist_socialism 
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 30
+    revolutionary_socialism = 15
+    syndicalism = 3
+    moderate_socialist = 14
+    social_democrat = 12
+    social_liberal = 3
+    social_conservative = 5
+    authoritarian_democrat = 9
+    autocratic = 1
+    ultraconservative = 5
+    national_corporatist = 3
+}
+
+##gfx/leaders/RMK/INC/
+
+
+create_country_leader = {
+	name = "Ho Hoc Lam" 
+	desc = "POLITICS_HO_HOC_LAM_DESC"
+	picture = "gfx/leaders/INC/INC_ho_hoc_lam.tga"
+	expire = "1953.3.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Tran Van Huong" 
+	desc = "POLITICS_TRAN_VAN_HUONG_1_DESC"
+	picture = "gfx/leaders/INC/Tran_Van_Huong_INC.tga"
+	expire = "1963.3.1"
+	ideology = social_conservative_subtype
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "Tran Van Huong" 
+	desc = "POLITICS_TRAN_VAN_HUONG_2_DESC"
+	picture = "gfx/leaders/INC/Tran_Van_Huong_INC.tga"
+	expire = "1963.3.1"
+	ideology = social_liberal_subtype
+	traits = {
+		
+	}
+}
+create_field_marshal = {
+	name = "Nguyen Binh"
+	portrait_path = "gfx/leaders/INC/Nguyen_Binh_INC.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Van Tien Dung"
+	portrait_path = "gfx/leaders/INC/Van_Tien_Dung_INC.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+######Military 
+create_corps_commander = {
+	name = "Tran Van Tra"
+	portrait_path = "gfx/leaders/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nguyen Son"
+	portrait_path = "gfx/leaders/INC/Nguyen_Son_INC.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Phung Chi Kien"
+	portrait_path = "gfx/leaders/INC/asianman.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Dam Quang Trung"
+	portrait_path = "gfx/leaders/INC/asianman.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Vu Hong Khanh"
+	portrait_path = "gfx/leaders/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Bo Xuan Luat"
+	portrait_path = "gfx/leaders/INC/asianman.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Trinh Minh The"
+	portrait_path = "gfx/leaders/INC/Trinh_Minh_The_INC.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nguyen Dan"
+	portrait_path = "gfx/leaders/INC/Nguyen_Dan_INC.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+

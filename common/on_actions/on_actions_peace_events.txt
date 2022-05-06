@@ -1,0 +1,58 @@
+on_actions = {
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has capitulated to [From.GetName]"
+			news_event = country_capitulated.0
+			if = { ########Finnish Rebellion
+				limit = {
+					AND = {
+						ROOT = { tag = FIN }
+						FROM = { tag = RFN }
+					}
+				}
+				RFN = {
+					annex_country = {
+						target = FIN
+						transfer_troops = no
+					}
+				}
+				RUS = {
+				country_event = rus.34
+
+}
+			}
+			if = {
+				limit = {
+					AND = {
+						ROOT = { tag = RFN }
+						FROM = { tag = FIN }
+					}
+				}
+				FIN = {
+					annex_country = {
+						target = RFN
+						transfer_troops = no
+					}
+				}
+				RUS = {
+				country_event = rus.25 
+				}
+				FIN = {
+				country_event = fin.13
+				}
+			}			
+			if = {
+				limit = {
+					AND = {
+						ROOT = { tag = SAH }
+						FROM = { tag = ALG }
+					}
+				}
+				FRA = {
+				country_event = africa.5
+			}
+			}			
+	}
+}
+}

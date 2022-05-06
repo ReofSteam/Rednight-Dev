@@ -1,0 +1,21 @@
+state = {
+	id = 1120
+	name = "STATE_1120"
+	manpower = 1000
+	state_category = one
+
+	history = {
+		owner = CSA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12620 1
+		}		
+		add_core_of = CSA		
+	}
+
+	provinces = {
+	4880 7862 12620	
+	}
+}

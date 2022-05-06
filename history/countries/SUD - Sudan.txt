@@ -1,0 +1,93 @@
+﻿capital = 551
+OOB = "empty"
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+
+	### INF ###
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "Abd al-Rahman al-Mahdi"
+	picture = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "Abd al-Rahman al-Mahdi"
+	picture = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "Abd al-Rahman al-Mahdi"
+	picture = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+create_country_leader = {# Abd al-Rahman al-Mahdi
+	name = "Abd al-Rahman al-Mahdi"
+	picture = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Abd_Mahdi.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+	}
+}
+
+
+add_ideas = {
+	#medium_economy
+	#SUD_Siddick_Sayed_el_Mahdi_hog_ade
+	#SUD_Sayed_Abd_el_Rahman_el_Mahdi_for_ade
+	#SUD_Slah_Elzubir_eco_sde
+	#SUD_Farik_Ibrahim_Abboud_sec_sde
+}
+### Generals
+create_field_marshal = {# Ali Abd al Latif
+	name = "Ali Abd al Latif"
+	portrait_path = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Ali_Latif.tga"
+	traits = {	defensive_doctrine	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# El Ferik Ibrahim Abboud
+	name = "El Ferik Ibrahim Abboud"
+	portrait_path = "gfx/leaders/CAIRO_PACT/SUD/Portrait_SUD_Ferik_Abboud.tga"
+	traits = { }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+

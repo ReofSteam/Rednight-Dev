@@ -1,0 +1,34 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		aluminium=20.000
+		oil=10.000
+	}
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = TEX
+		victory_points = {
+			12489 2 
+		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
+
+	}
+
+	provinces={
+		1503 7485 7543 10355 12458 12489 12778 
+	}
+	manpower=1892000
+	buildings_max_level_factor=1.000
+	state_category=four
+}

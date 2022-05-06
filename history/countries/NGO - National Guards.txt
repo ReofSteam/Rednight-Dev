@@ -1,0 +1,52 @@
+﻿capital = 932
+
+oob = "NGO"
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.1
+set_convoys = 100
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+}
+
+add_ideas = {
+}
+
+set_popularities = {
+    nationalist_socialism = 0
+    revolutionary_socialism = 0
+    syndicalism = 0
+    moderate_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    social_conservative = 0
+    authoritarian_democrat = 100
+    autocratic = 0
+    ultraconservative = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Henry Mucci"
+	desc = "POLITICS_HENRY_MUCCI_DESC"
+	picture = "gfx/leaders/CAL/CAL_Mucci.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		
+	}
+}
+

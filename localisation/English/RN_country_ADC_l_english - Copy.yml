@@ -1,0 +1,99 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+
+### Parties ###
+TEX_revolutionary_socialism_party:0 "RO-West"
+TEX_revolutionary_socialism_party_long:0 "American Revolutionary Workers Party"
+TEX_nationalist_socialism_party:0 "RO-West"
+TEX_nationalist_socialism_party_long:0 "Workers Party - Patriotic and Ethnical"
+TEX_moderate_socialist_party:0 "Revolutionary Organisation West"
+TEX_moderate_socialist_party_long:0 "Workers Party - Moderate"
+TEX_social_democrat_party:0 "The Committee"
+TEX_social_democrat_party_long:0 "Army Committee for the Restoration of Democracy - Nationalist"
+TEX_social_liberal_party:0 "The Committee"
+TEX_social_liberal_party_long:0 "Army Committee for the Restoration of Democracy"
+TEX_conservative_party:0 "Tories"
+TEX_conservative_party_long:0 "Conservative and Unionist Party"
+TEX_authoritarian_democrat_party:0 "The Committee"
+TEX_authoritarian_democrat_party_long:0 "Army Committee for the Restoration of Democracy - Nonpartisan"
+TEX_autocratic_party:0 "The Committee"
+TEX_autocratic_party_long:0 "MacArthurites"
+TEX_national_corporatist_party:0 "Longist Insurgents"
+TEX_national_corporatist_long:0 "Longist Insurgents"
+### Country Name ###
+
+TEX_nationalist_socialism:0 "Army Democracy Committee"
+TEX_nationalist_socialism_ADJ:0 "the Army Democracy Committee"
+TEX_nationalist_socialism_DEF:0 "American"
+
+TEX_revolutionary_socialism:0 "Army Democracy Committee"
+TEX_revolutionary_socialism_ADJ:0 "the Army Democracy Committee"
+TEX_revolutionary_socialism_DEF:0 "American"
+
+TEX_syndicalism:0 "Army Democracy Committee"
+TEX_syndicalism_ADJ:0 "the Army Democracy Committee"
+TEX_syndicalism_DEF:0 "American"
+
+TEX_moderate_socialist:0 "Army Democracy Committee"
+TEX_moderate_socialist_ADJ:0 "the Army Democracy Committee"
+TEX_moderate_socialist_DEF:0 "American"
+
+TEX_social_democrat:0 "Army Democracy Committee"
+TEX_social_democrat_ADJ:0 "the Army Democracy Committee"
+TEX_social_democrat_DEF:0 "American"
+
+TEX_social_liberal:0 "Army Democracy Committee"
+TEX_social_liberal_ADJ:0 "the Army Democracy Committee"
+TEX_social_liberal_DEF:0 "American"
+
+TEX_social_conservative:0 "Army Democracy Committee"
+TEX_social_conservative_ADJ:0 "the Army Democracy Committee"
+TEX_social_conservative_DEF:0 "American"
+
+TEX_authoritarian_democrat:0 "Army Democracy Committee"
+TEX_authoritarian_democrat_ADJ:0 "the Army Democracy Committee"
+TEX_authoritarian_democrat_DEF:0 "American"
+
+TEX_autocratic:0 "Army Democracy Committee"
+TEX_autocratic_ADJ:0 "the Army Democracy Committee"
+TEX_autocratic_DEF:0 "American"
+
+TEX_ultraconservative:0 "Army Democracy Committee"
+TEX_ultraconservative_ADJ:0 "the Army Democracy Committee"
+TEX_ultraconservative_DEF:0 "American"
+
+TEX_national_corporatist:0 "Army Democracy Committee"
+TEX_national_corporatist_ADJ:0 "the Army Democracy Committee"
+TEX_national_corporatist_DEF:0 "American"
+
+### Focuses ###
+ 
+### Ideas ###
+
+TEX_anti_long:0 "Longist-Committee Struggle"
+TEX_anti_long_desc:0 "The hand of the Committee is light upon the people of America. Those under its protection are better off than coming under the boots of the Reds. However, it is not perfect, for it was once the home of Huey Long. His influence lingers, and many still cling to his ideals. It is important to take care when dealing with these activists."
+TEX_soldiers_nation:0 "The Soldiers Nation"
+TEX_soldiers_nation_desc:0 "This is a land of soldiers. Its mayor is an Admiral. Its grocery store owned by a captain. Men and women of the 9th and 15th Armies, as well as those of the southern navy, live here. No blade of grass is without the protection of those who served under Stillwell and Leahy. It will be unwise to anyone, especially the Reds, to come here and mess with the people."
+TEX_soldiers_nation_desc:0 "Though our aspirations are grand and noble present realities and the history of our goverment necessitate continued martial law. We are a nation of Soldiers presiding over the civilian population, and will continue to be so until the situation stabilises."
+TEX_gun_and_rose:0 "Of Bayonet and Rose"
+TEX_gun_and_rose_desc:0 "The beauty of the South was once reduced to ashes and mud by the battles of the war before. At Louisiana, territory has been seized and lost many times by the Reds and their foes. The years 1945 and 1947 will not be forgotten by those who have fought and lived through them all. The promise of restoring the beauty of this land must be fulfilled. Not only for victory through arms and through policies, but through the revitalization of what matters so much to the people."
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+TEX_william_d_leahy:0 "William D. Leahy"
+TEX_Josef_R_Sheetz:0 "Josef R. Sheetz"
+TEX_Carl_F_Eifler:0 "Carl F. Eifler"
+### Leaders ###
+POLITICS_WILLIAM_LEAHY_DESC:0 "Once he had been a great admiral, William D. Leahy finds himself adrift in the seas he once knew so fondly. And no longer within reach of his birthplace at Iowa. But that country was no longer united, nor was it considered as safe as it was before the flames of the Second American Civil War ruined it all. So far away was he now from Iowa, so far away was he from the lands and seas where he once served.\n\Leahy began the war as commander of the Second Atlantic Fleet, continuing to be its provisional commander until now. He has always known his oath, of course. A stalwart promise to defend the constitution. And such a promise never left his mind nor his spirit. It was this oath that drove him to support the rightful President despite his reservations. It was also this oath that drove him to abandon the man when it became clear that Reed was just as willing to abuse the sacred document and its provisions for the people as Macarthur did.\n\nAnd for his decision to walk away, he has had to make ugly but needed sacrifices. He has never forgotten the loss of Florida to the enemy. Nor has he forgotten the failure of his comrades in arms to link up with his 15th Army after so much blood was shed in their best attempts to accomplish the goals of Operation Tacoma. \n\nToday, Leahy rules Texas as a necessity, and not out of any particular want. Out of necessity, he maintained his skills of war. Were it not for such competence. Yet beyond putting down the rabid Longist disease and ensuring vital supplies continue to reach Fort Worth, he struggles to find and secure a future with the same confidence he had before it all fell apart. But for now, all he could do now was to keep doing what he could for the sake of those under him, serving what remained of their now shattered country."
+### Tech? ###

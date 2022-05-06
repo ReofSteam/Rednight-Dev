@@ -1,0 +1,59 @@
+DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
+	if = {
+	limit = { has_global_flag = PARDAN_1_international }
+	always = yes	
+	}		
+	if = {
+	limit = { has_country_flag = RN_is_internal_war }
+	always = no	
+	}		
+	if = {
+		limit = {
+			is_ai = yes
+			is_in_faction = yes
+			is_faction_leader = no
+			surrender_progress < 0.25
+			FROM = {
+				is_in_faction_with = ROOT
+				NOT = { is_subject_of = ROOT }
+				is_faction_leader = no
+			}
+		}
+		always = no
+
+	}
+}
+
+
+DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
+	if = {
+	limit = { has_global_flag = PARDAN_1_international }
+	always = yes
+	}		
+	if = {
+	limit = {
+	     tag = FRA
+		 NOT = { has_country_flag = FRA_first_of_may_putsch }
+		 FROM = { 
+		 tag = GER
+		 any_enemy_country = { tag = GNR }
+		 }
+       }
+	always = yes	   
+	}
+	if = {
+		limit = {
+			is_ai = yes
+			is_in_faction = yes
+			is_faction_leader = no
+			surrender_progress < 0.25
+			FROM = {
+				is_in_faction_with = ROOT
+				NOT = { is_subject_of = ROOT }
+				is_faction_leader = no
+			}
+		}
+		always = no
+
+	}
+}

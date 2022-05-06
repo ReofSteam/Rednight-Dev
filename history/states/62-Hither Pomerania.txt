@@ -1,0 +1,35 @@
+state = {
+	id = 62
+	name = "STATE_62"
+	manpower = 806221
+
+
+	state_category = four
+
+	history = {
+		owner = JOZ
+		add_core_of = JOZ
+		victory_points = {
+			6282 4
+		}
+
+		buildings = {
+			infrastructure = 6
+
+
+			air_base = 3
+			dockyard = 2
+			6282 = {
+				naval_base = 5
+			}
+		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
+	}
+
+	provinces = {
+		349 3312 3340 9388 6282
+	}
+}

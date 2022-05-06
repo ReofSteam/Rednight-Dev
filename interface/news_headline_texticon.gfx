@@ -1,0 +1,72 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_nhl_generic"
+		texturefile = "gfx/interface/news_headline/nhl_generic.png"
+		legacy_lazy_load = no
+	}
+	
+	
+	spriteType = {
+		name = "GFX_nhl_FRA"
+		texturefile = "gfx/interface/news_headline/nhl_FRA.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_ENG"
+		texturefile = "gfx/interface/news_headline/nhl_ENG.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_GER"
+		texturefile = "gfx/interface/news_headline/nhl_GER.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_RUS"
+		texturefile = "gfx/interface/news_headline/nhl_RUS.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_CAL"
+		texturefile = "gfx/interface/news_headline/nhl_CAL.png"
+		legacy_lazy_load = no
+	}
+		
+	spriteType = {
+		name = "GFX_nhl_JAP"
+		texturefile = "gfx/interface/news_headline/nhl_JAP.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_CSA"
+		texturefile = "gfx/interface/news_headline/nhl_CSA.png"
+		legacy_lazy_load = no
+	}
+		
+	spriteType = {
+		name = "GFX_nhl_IRE"
+		texturefile = "gfx/interface/news_headline/nhl_IRE.png"
+		legacy_lazy_load = no
+	}	
+	spriteType = {
+		name = "GFX_nhl_PRS"
+		texturefile = "gfx/interface/news_headline/nhl_PRS.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_nhl_INC"
+		texturefile = "gfx/interface/news_headline/nhl_INC.png"
+		legacy_lazy_load = no
+	}	
+	spriteType = {
+		name = "GFX_nhl_CNT"
+		texturefile = "gfx/interface/news_headline/nhl_CNT.png"
+		legacy_lazy_load = no
+	}	
+	spriteType = {
+		name = "GFX_nhl_GRE"
+		texturefile = "gfx/interface/news_headline/nhl_GRE.png"
+		legacy_lazy_load = no
+	}	
+}

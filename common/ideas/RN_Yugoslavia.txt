@@ -1,0 +1,41 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+
+country = {
+
+SER_yugoslav_dilemma = {
+	picture = SER_yugoslavia_disunity
+	modifier = {
+	stability_factor = -0.2
+	political_power_gain = -0.2
+	}
+}
+
+SER_balkan_pillar = {
+	picture = SER_independent_power
+	modifier = {
+	war_support_factor = 0.1
+      war_stability_factor = 0.1
+      army_core_defence_factor = 0.05
+	}
+}
+
+SER_agrarian_society = {
+	picture = rural_society
+	modifier = {
+	research_speed_factor = -0.15
+	}
+}
+
+}
+
+}
+
+
+
+
+
+	

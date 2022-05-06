@@ -1,0 +1,48 @@
+﻿capital = 459
+OOB = "ALG"
+
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+        tech_support = 1
+        gw_artillery = 1
+        gwtank = 1
+}
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = moderate_socialist
+	last_election = "1888.12.6"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 4
+    revolutionary_socialism = 19
+    syndicalism = 0
+    moderate_socialist = 32
+    social_democrat = 13
+    social_liberal = 9
+    social_conservative = 8
+    authoritarian_democrat = 4
+    autocratic = 3
+    ultraconservative = 7
+    national_corporatist = 1
+}
+
+create_country_leader = {
+	name = "Messali Hadj"
+	desc = "POLITICS_DUALABELL_DESC"
+	picture = "gfx/leaders/ALG/ALG_Messali.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_faction = North_African_MARPAC
+add_to_faction = MOR
+add_to_faction = TUN

@@ -1,0 +1,44 @@
+### Ukrainian Ideas
+
+ideas = {
+##############
+# Country ideas
+##############
+	country = {
+		UKR_national_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea UKR_national_revolution"}
+			picture = UKR_national_revolution
+			allowed = { always = no }
+			modifier = {
+				army_morale_factor = 0.1
+				political_power_gain = 0.25
+			hidden_modifer = {
+			army_core_defence_factor = 0.3
+			partisan_effect = 0.3
+			out_of_supply_factor = -0.5
+			}					
+			}
+		}
+			UKR_peasant_rebellion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea UKR_peasant_rebellion"}
+			picture = UKR_peasant_rebellion
+			allowed = { always = no }
+			modifier = {
+				army_morale_factor = 0.1
+				political_power_gain = 0.25
+			hidden_modifer = {
+			army_core_defence_factor = 0.3
+			out_of_supply_factor = -0.5
+			}					
+			}
+		}
+		RFN_ukraine_rebellion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RFN_ukraine_rebellion"}
+			picture = RUS_Ukraine
+			allowed = { always = no }
+			modifier = {
+			army_morale_factor = -0.1
+			surrender_limit = 1				
+			}
+		}		
+	}

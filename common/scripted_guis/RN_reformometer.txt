@@ -1,0 +1,22 @@
+scripted_gui = {
+
+    RN_fra_reformeter = {
+        context_type = player_context
+        parent_window_token = decision_tab
+        window_name = "FRA_great_reform_menu"
+       	visible = {
+        always = no
+		}
+   		properties = {
+        	GFX_jacobin_party_faction = {
+            	image = "[GetFraJacobinFaction]"
+        	}
+        	FRA_opposititon_status_text = {
+            	image = "[GetFraOpposition]"
+        	}
+        	FRA_reform_status_text = {
+            	image = "[GetFraFactionStatus]"
+        	}
+    	}			
+	}
+}

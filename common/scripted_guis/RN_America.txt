@@ -1,0 +1,278 @@
+scripted_gui = {
+
+	open_internal_war = {
+        context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "internal_war_button"
+		
+		effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_internal_war } }
+					set_country_flag =  show_internal_war
+				}
+				else_if = {
+					limit = { has_country_flag = show_internal_war }
+					clr_country_flag = show_internal_war
+				}
+			}
+		}
+		triggers = {
+        }
+        visible = {
+		original_tag = CSA
+		has_country_flag = internal_war
+        }
+    }
+    RN_internal_war_menu = {
+        context_type = player_context
+        window_name = "CSA_internal_war"
+        visible = {
+            has_country_flag = show_internal_war
+        }
+   		properties = {
+        	internal_war_progress_bar = {
+        	image = [GetCSAProgressBar]
+        	}		
+        	internal_war_ne = {
+        	image = [GetCSANewEnglandStatus]
+        	}
+        	internal_war_mountain = {
+        	image = [GetCSAMountainStatus]
+        	}		
+        	internal_war_great_lakes = {
+        	image = [GetCSAGreatLakesStatus]
+        	}
+        	internal_war_illinois = {
+        	image = [GetCSAIllinoisStatus]
+        	}		
+        	internal_war_ma = {
+        	image = [GetCSAMAtlanticStatus]
+        	}	
+        	internal_war_south_atlantic = {
+        	image = [GetCSASAtlanticStatus]
+        	}			
+    	}
+	effects = {
+			open_button_click = {
+				if = {
+					limit = { NOT = { has_country_flag = show_internal_war } }
+					set_country_flag =  show_internal_war
+				}
+				else_if = {
+					limit = { has_country_flag = show_internal_war }
+					clr_country_flag = show_internal_war
+				}
+			}
+			CSA_sanction_operation_button_click = {
+			if = { 
+			limit = { 
+			has_country_flag = CSA_region_ne_selected }
+			country_event = csa.15
+			}
+			else_if = {
+			limit = {
+			has_country_flag = CSA_region_mountains_selected }
+			country_event = csa.16
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_ma_selected }
+			country_event = csa.17
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_midwest_selected }
+			country_event = csa.18
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_mississippi_selected }
+			country_event = csa.18
+			}
+			else_if = {
+			limit = { has_country_flag = CSA_region_south_east_selected }
+			country_event = csa.19
+			}			
+			else_if = {
+			limit = { has_country_flag = CSA_region_satlantic_selected }
+			country_event = csa.20
+			}						
+			}
+			CSA_new_england_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_illinois_selected			
+			clr_country_flag = CSA_region_satlantic_selected			
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_ma_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_ne_selected
+			}
+			CSA_m_atlantic_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_illinois_selected			
+			clr_country_flag = CSA_region_satlantic_selected			
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_ma_selected
+			}		
+			CSA_mississippi_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_illinois_selected			
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_midwest_selected
+			set_country_flag = CSA_region_mississippi_selected
+			}
+			CSA_south_atlantic_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_illinois_selected			
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_midwest_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			set_country_flag = CSA_region_satlantic_selected
+			}
+			CSA_midwest_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_illinois_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			set_country_flag = CSA_region_midwest_selected			
+			}
+			CSA_illinois_click = { 
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_midwest_selected		
+			set_country_flag = CSA_region_illinois_selected
+			}
+			CSA_great_lakes_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_south_east_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_midwest_selected		
+			clr_country_flag = CSA_region_illinois_selected	
+			set_country_flag = CSA_region_great_lakes_selected
+			}
+			CSA_south_east_click = {
+			clr_country_flag = CSA_region_mountains_selected
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_midwest_selected		
+			clr_country_flag = CSA_region_illinois_selected	
+			set_country_flag = CSA_region_south_east_selected
+			}
+			CSA_mountains_click = {
+			clr_country_flag = CSA_region_great_lakes_selected
+			clr_country_flag = CSA_region_ma_selected			
+			clr_country_flag = CSA_region_ne_selected
+			clr_country_flag = CSA_region_satlantic_selected
+			clr_country_flag = CSA_region_mississippi_selected
+			clr_country_flag = CSA_region_midwest_selected		
+			clr_country_flag = CSA_region_illinois_selected	
+			clr_country_flag = CSA_region_south_east_selected
+			set_country_flag = CSA_region_mountains_selected
+			}
+			CSA_new_england_right_click = {
+			if = { 
+			limit = { has_country_flag = CSA_region_ne_completed }
+			country_event = csa.11
+			}
+			else = {
+			country_event = csa.10
+			}
+			}
+			CSA_mountains_right_click = {
+			if = { 
+			limit = { has_country_flag = CSA_region_mountain_completed }
+			country_event = csa.13
+			}
+			else = {
+			country_event = csa.12
+			}
+			}			
+}			
+triggers = {
+internal_war_progress_bar_visible = {
+has_country_flag = CSA_cia_active_operation
+}
+internal_war_south_atlantic_visible = {
+has_country_flag = CSA_region_satlantic_selected
+}
+internal_war_ma_visible = {
+has_country_flag = CSA_region_ma_selected
+}
+internal_war_great_lakes_visible = {
+has_country_flag = CSA_region_great_lakes_selected 
+}
+internal_war_illinois_visible = {
+has_country_flag = CSA_region_illinois_selected
+}
+internal_war_ne_visible = {
+has_country_flag = CSA_region_ne_selected
+}
+internal_war_mountain_visible = {
+has_country_flag = CSA_region_mountains_selected
+}
+CSA_sanction_operation_button_click_enabled = {
+NOT = { has_country_flag = CSA_cia_active_operation }
+}	
+}
+}
+
+    RN_CSA_congress_convention = {
+        context_type = player_context
+        parent_window_token = decision_tab
+        window_name = "CSA_convention_menu"
+       	visible = {
+        always = no
+		}
+		properties = {
+        CSA_convention_progress = {
+        frame = CSA_congress_frame_final
+    }	
+}
+triggers = {
+CSA_congress_SPA_title_status_visible = {
+NOT = { has_country_flag = SPA_support }
+}
+CSA_congress_SDP_title_status_visible = {
+NOT = { has_country_flag = SDP_support }
+}
+CSA_congress_IWW_title_status_visible = {
+NOT = { has_country_flag = IWW_support }
+}
+CSA_congress_SPA_title_status2_visible = {
+has_country_flag = SPA_support
+}
+CSA_congress_SDP_title_status2_visible = {
+has_country_flag = SDP_support
+}
+CSA_congress_IWW_title_status2_visible = {
+has_country_flag = IWW_support
+}
+}
+	}
+}

@@ -1,0 +1,55 @@
+scripted_gui = {
+
+	RN_intro_menu = {
+        context_type = player_context
+		window_name = "RN_intro_menu"
+		
+		triggers = {
+        }
+        visible = {
+        has_country_flag = show_intro_menu
+        }
+		properties = {
+        intro_menu_picture = {
+        image = "[GetIntroPic]"
+    }
+}
+    effects = {
+	close_button_click = {
+	clr_country_flag = show_intro_menu
+	}
+	back_button_click = {
+	if = { limit = { has_country_flag = intro_slide_3 }
+	clr_country_flag  = intro_slide_3
+	}
+	else = {
+	set_country_flag = intro_slide_2
+	}	
+	}
+	
+	forward_button_click = {
+	if = { limit = { has_country_flag = intro_slide_2 }
+	clr_country_flag  = intro_slide_2
+	}
+	else = {
+	set_country_flag = intro_slide_3
+	}
+	}
+	}
+    triggers = {
+	intro_menu_nation_text_visible = {NOT = { has_country_flag = intro_slide_2 has_country_flag = intro_slide_3 }}	
+	intro_menu_text_pardan_visible = { has_country_flag = intro_slide_2}
+	intro_menu_text_world_visible = { has_country_flag = intro_slide_3}	
+	}
+    }
+	RN_intro_menu_title = {
+        context_type = player_context
+		window_name = "RN_intro_menu_title"
+		
+		triggers = {
+        }
+        visible = {
+        has_country_flag = show_intro_menu
+        }	
+	}	
+ }

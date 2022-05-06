@@ -1,0 +1,201 @@
+###########################
+#East America Decisions# WIP
+###########################
+
+CSA_arrest_troublemakers = {
+
+CSA_nationalist_radio_host = {
+	icon = generic_prepare_civil_war
+
+	allowed = {
+		tag = CSA
+	}
+
+
+	visible = {
+		has_country_flag = america_troublemakers
+	}
+
+	cost = 20
+	days_re_enable = 20
+
+	ai_will_do = {
+		factor = 75
+	}
+}
+}
+
+CSA_convention_status = {
+CSA_congress_session = {
+icon = GFX_decision_generic_petition
+          days_re_enable = 1
+          available = { 
+          has_country_flag = CSA_convention_in_process                  		  
+          }
+          activation = {                         
+          has_country_flag = CSA_convention_in_process                  
+          }
+          is_good = no                          
+          selectable_mission = no                
+          days_mission_timeout = 10  
+		  days_remove = 10 
+          timeout_effect = {  
+          add_political_power = -200           		  
+          }
+          complete_effect = {
+          set_variable = { CSA_congress_total = 0 }	
+		  country_event = CSA.121
+		  country_event = CSA.122
+		  country_event = CSA.123
+		  country_event = CSA.124
+    add_popularity = {
+    ideology = social_conservative
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = authoritarian_democrat
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = autocratic
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = ultraconservative
+    popularity = -1
+} 
+    add_popularity = {
+    ideology = national_corporatist
+    popularity = -1
+}		  
+    }
+}
+CSA_lobby_effort_iww = {
+	icon = generic_prepare_civil_war
+	days_re_enable = 10
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	    add_popularity = {
+        ideology = syndicalism
+        popularity = -0.05
+        }
+	if = { limit = {
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = 0.05
+		}
+}
+	else_if = { limit = {
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = IWW_support     		
+has_country_flag = SPA_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = 0.05
+		}
+}
+	}
+	visible = {
+	syndicalism > 0.10
+	NOT = { has_country_flag = IWW_support } 
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
+CSA_lobby_effort_SDP_thomas = {
+	icon = generic_prepare_civil_war
+	days_re_enable = 10
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	    add_popularity = {
+        ideology = moderate_socialist
+        popularity = -0.05
+        }
+	if = { limit = {
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = 0.05
+		}
+}
+	else_if = { limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SDP_support     		
+has_country_flag = SPA_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = 0.05
+		}
+}
+	}
+	visible = {
+	syndicalism > 0.10
+	NOT = { has_country_flag = SDP_support } 
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
+CSA_lobby_effort_labor_front = {
+	icon = generic_prepare_civil_war
+	days_re_enable = 10
+	allowed = {
+		tag = CSA
+	}
+     complete_effect = {
+	    add_political_power = 5
+	if = { limit = {
+has_country_flag = SDP_support
+} 
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = 0.10
+		}
+	    add_popularity = {
+        ideology = nationalist_socialist
+        popularity = -0.10
+        }		
+}
+	else_if = { limit = {
+has_country_flag = IWW_support
+}
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = 0.05
+		}
+	    add_popularity = {
+        ideology = nationalist_socialism
+        popularity = -0.05
+        }		
+	}	
+}
+	visible = {
+	nationalist_socialism > 0.10
+	NOT = { has_country_flag = SPA_support } 
+	}
+	cost = 20
+	ai_will_do = {
+		factor = 75
+	}
+}
+}

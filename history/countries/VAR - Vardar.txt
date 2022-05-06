@@ -1,0 +1,184 @@
+﻿capital = 1176
+
+set_convoys = 0
+set_research_slots = 2
+set_technology = {
+	### MOD ###
+	### General ###
+
+	### Navy ###
+	### Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+#country_event = { id = albania.1 days = 1 } #Intro event
+
+add_ideas = {
+
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1932.6.12"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 23
+    revolutionary_socialism = 31
+    syndicalism = 11
+    moderate_socialist = 14
+    social_democrat = 5
+    social_liberal = 3
+    social_conservative = 1
+    authoritarian_democrat = 5
+    autocratic = 2
+    ultraconservative = 1
+    national_corporatist = 4
+}
+
+create_country_leader = {
+	name = "Valko Chervenkov"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/VAR_Valko_Chervenkov.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Traicho Kostov"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/VAR_Traicho_Kostov.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Avni Rrustemi"
+	desc = "POLITICS_AVNI_RRUSTEMI_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_Albania_Avni_Rustemi.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Xhafer Ypi"
+	desc = "POLITICS_XHAFER_YPI_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_Albania_Xhafer_Ypi.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Shefqet Vërlaci"
+	desc = "POLITICS_SHEFQET_VËRLACI_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_Albania_Shefqet_Verlaci.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Luigj Bumçi"
+	desc = "POLITICS_LUIGJ_BUMCI_DESC"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Eshref Frashëri"
+	desc = "POLITICS_ESHREF_FRASHERI_DESC"
+	picture = "gfx/leaders/Generic/Portrait_Europe_Generic_new_4.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Mid'hat Frashëri"
+	desc = "POLITICS_MID'HAT_FRASHERI_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/VAR/Portrait_ALB_Midhat_Frasheri.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {}
+}
+
+### Field Marshal
+create_field_marshal = {
+	name = "Prenk Pervizi"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Prenk_Pervizi.tga"
+	traits = {
+		politically_connected
+		skilled_staffer
+		expert_delegator
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+### Corps Commander
+create_corps_commander = {
+	name = "Muharrem Bajraktari"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Muharrem_Bajraktari.tga"
+	traits = {
+		infantry_officer
+		infantry_leader
+		commando
+		hill_fighter
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Elez Isufi"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Elez_Isufi.tga"
+	#id = 5490
+	traits = {
+		trait_reckless
+		trickster
+		guerilla_fighter
+		commando
+		skirmisher
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Azem Galica"
+	portrait_path = "gfx/leaders/ALB/Portrait_Albania_Azem_Galica.tga"
+	#id = 5480
+	traits = {
+		trait_reckless
+		trickster
+		guerilla_fighter
+		commando
+		skirmisher
+	}
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}

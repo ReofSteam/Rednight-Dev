@@ -1,0 +1,99 @@
+FRA_ICBM_activation = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_global_flag = PARDAN_0_international
+
+	}
+	scripted_gui = RN_ICBM_decision_menu 
+	visible_when_empty = yes
+}
+FRA_palace_of_fraternity = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	NOT = { has_country_flag = FRA_stop_the_contruction }
+
+	}
+}
+FRA_avenue_of_social_revolution = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	NOT = { has_country_flag = FRA_stop_the_contruction }
+	}
+}
+FRA_support_pekkas = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	scripted_gui = KN_liberty_corridor
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+		has_global_flag = RUS_great_rebellion_FIN
+		NOT = { has_global_flag = the_corridor_is_closed }
+	}
+}
+FRA_truffle_affair = {
+	icon = GFX_decision_generic_canned_fruit
+	priority = 100
+	allowed = {
+	original_tag = FRA	
+	}
+	visible = { 
+	has_country_flag = FRA_truffle_affair
+	}
+    visible_when_empty = yes	
+}
+FRA_mission_free_africa = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+	OR = { 
+	tag = FRA
+	tag = ENG 
+	tag = ITA 
+	tag = CSA
+	tag = CNT
+	}
+	}
+	visible = { 
+		has_global_flag = FRA_mission_free_africa
+	}
+}
+
+FRA_reform_struggle = {
+	icon = GFX_idea_FRA_republic_et_socialism
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_country_flag = FRA_reform_struggle
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_fra_reformeter
+    priority = 10000
+}
+
+FRA_the_putsch = {
+	icon = GFX_idea_FRA_republic_et_socialism
+	allowed = {
+		tag = FRA
+	}
+	visible = { 
+	has_country_flag = FRA_first_of_may_putsch
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_fra_putsch
+    priority = 10000
+}

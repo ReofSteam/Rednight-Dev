@@ -1,0 +1,84 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+TUN_social_nationalist_party:0 "PSD"
+TUN_social_nationalist_party_long:0 "Socialist Destourian Party"
+TUN_marxist_party:0 "PCT"
+TUN_marxist_party_long:0 "Tunisian Communist Party"
+TUN_libertarian_party:0 "-"
+TUN_libertarian_party_long:0 "-"
+TUN_moderate_socialist_party:0 "PSD"
+TUN_moderate_socialist_party_long:0 "Socialist Destourian Party"
+TUN_social_democrat_party:0 "-"
+TUN_social_democrat_party_long:0 "-"
+TUN_social_liberal_party:0 "-"
+TUN_social_liberal_party_long:0 "-"
+TUN_conservative_party:0 "-"
+TUN_conservative_party_long:0 "-"
+TUN_authoritarian_democrat_party:0 "-"
+TUN_authoritarian_democrat_party_long:0 "-"
+TUN_autocratic_party:0 "-"
+TUN_autocratic_party_long:0 "-"
+TUN_fundamentalist_party:0 "-"
+TUN_fundamentalist_party_long:0 "-"
+TUN_voynist_party:0 "-"
+TUN_voynist_party_long:0 "-"
+
+### Country Name ###
+
+TUN_social_nationalist:0 " Democratic Republic of Tunisia"
+TUN_social_nationalist_ADJ:0 "Tunisian"
+TUN_social_nationalist_DEF:0 "the  Democratic Republic of Tunisia"
+TUN_marxist:0 " Democratic Republic of Tunisia"
+TUN_marxist_ADJ:0 "Tunisian"
+TUN_marxist_DEF:0 "the  Democratic Republic of Tunisia"
+TUN_libertarian:0 " Democratic Republic of Tunisia"
+TUN_libertarian_ADJ:0 "Tunisian"
+TUN_libertarian_DEF:0 "the  Democratic Republic of Tunisia"
+TUN_moderate_socialist:0 " Democratic Republic of Tunisia"
+TUN_moderate_socialist_ADJ:0 "Tunisian"
+TUN_moderate_socialist_DEF:0 "the  Democratic Republic of Tunisia"
+TUN_social_democrat:0 " Democratic Republic of Tunisia"
+TUN_social_democrat_ADJ:0 "Tunisian"
+TUN_social_democrat_DEF:0 "the  Democratic Republic of Tunisia"
+TUN_social_liberal:0 "Republic of Tunisia"
+TUN_social_liberal_ADJ:0 "Tunisian"
+TUN_social_liberal_DEF:0 "the Republic of Tunisia"
+TUN_conservative:0 "Republic of Tunisia"
+TUN_conservative_ADJ:0 "Tunisian"
+TUN_conservative_DEF:0 "the Republic of Tunisia"
+TUN_authoritarian_democrat:0 "Republic of Tunisia"
+TUN_authoritarian_democrat_ADJ:0 "Tunisian"
+TUN_authoritarian_democrat_DEF:0 "the Republic of Tunisia"
+TUN_autocratic:0 "Republic of Tunisia"
+TUN_autocratic_ADJ:0 "Tunisian"
+TUN_autocratic_DEF:0 "the Republic of Tunisia"
+TUN_fundamentalist:0 "State of Tunisia"
+TUN_fundamentalist_ADJ:0 "Tunisian"
+TUN_fundamentalist_DEF:0 "the State of Tunisia"
+TUN_voynist:0 "State of Tunisia"
+TUN_voynist_ADJ:0 "Tunisian"
+TUN_voynist_DEF:0 "the State of Tunisia"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

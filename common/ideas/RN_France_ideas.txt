@@ -1,0 +1,123 @@
+##############
+# Commune of France
+##############
+ideas = {
+
+	country = {
+		FRA_wound_of_war = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_wound_of_war"}
+			allowed = { always = no }
+			picture = FRA_war_wound
+			modifier = {
+				war_support_factor = -0.2
+				training_time_factor = 0.1	
+				conscription_factor = -0.15
+			}
+		}	
+		FRA_lighthouse_of_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_lighthouse_of_revolution"}
+			allowed = { always = no }
+			picture = FRA_lighthouse
+			modifier = {
+			political_power_gain = 0.25
+			stability_weekly = 0.01
+
+			}
+		}			
+		FRA_bureau_level_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_bureau_level_2"}
+			allowed = { always = no }
+			picture = FRA_bureau_level_2
+			modifier = {
+     		stability_factor = 0.25
+			political_power_factor = -0.3
+
+			}
+		}		
+		FRA_industry_of_glory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_industry_of_glory"}
+			allowed = { always = no }
+			picture = generic_production_bonus
+			modifier = {
+			industrial_capacity_factory = 0.25
+			production_speed_arms_factory_factor = 0.25 
+			political_power_gain = -0.3
+			}
+		}		
+		FRA_national_strike = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_strike"}
+			allowed = { always = no }
+			picture = FRA_national_strike
+			modifier = {
+				political_power_gain = 1
+				consumer_goods_factor = 0.40
+			}
+		}		
+		FRA_falling_civilian_economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_falling_civilian_economy"}
+			allowed = { always = no }
+			picture = FRA_falling_civilian_economy
+			modifier = {
+				political_power_gain = -1
+				consumer_goods_factor = 0.40
+				
+			}
+		}	
+
+	FRA_loss_public_faith = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_loss_public_faith"}
+			allowed = { always = no }
+			picture = FRA_falling_civilian_economy
+			modifier = {
+				political_power_gain = -1
+				stability_factor = -2
+				
+			}
+		}
+		FRA_national_emergency = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_national_emergency"}
+			allowed = { always = no }
+			picture = FRA_national_emergency
+			modifier = {
+				stability_weekly = 0.50
+				army_org_factor = -0.15
+
+			}
+		}
+		
+	FRA_Canadian_uranium_trade = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_Canadian_uranium_trade"}
+			allowed = { always = no }
+			picture = FRA_CAN_uranium
+			modifier = {
+			consumer_goods_factor = 0.05
+
+			}
+	}	
+		
+	FRA_grandeur_construction = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FRA_grandeur_construction"}
+			allowed = { always = no }
+			picture = FRA_grandeur_construction
+			modifier = {
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1
+			production_oil_factor = -0.05
+			political_power_gain = -0.1
+
+			}
+	}	
+	}
+hidden_ideas = {
+      FRA_real_national_spirits = {
+           modifier = {
+           political_power_gain = -1
+		   stability_factor = -0.4
+		   production_speed_industrial_complex_factor = -0.35
+		   consumer_goods_factor = 0.15
+		   stability_weekly_factor = -0.5
+		   industrial_capacity_factory = -0.2
+           }
+      }
+ }
+}

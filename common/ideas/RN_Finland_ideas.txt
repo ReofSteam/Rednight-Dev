@@ -1,0 +1,55 @@
+### Finland
+
+ideas = {
+	country = {
+		FIN_national_revolution = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_national_revolution"}
+			picture = FIN_national_revolution
+
+		modifier = {
+		army_morale_factor = 0.2
+		max_dig_in = 1
+			hidden_modifer = {
+			army_core_defence_factor = 0.3
+			partisan_effect = 0.3
+			out_of_supply_factor = -0.5
+			}	
+			}
+		}
+}
+	country = {
+		FIN_choking_rebellion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_choking_rebellion"}
+			picture = FIN_choking_rebellion
+		modifier = {
+		army_morale_factor = 0.2
+        offence = 0.25
+			}
+		}
+}
+
+	country = {
+		FIN_no_more_supply = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_no_more_supply"}
+			picture = FIN_last_stand
+		modifier = {
+		army_org_factor = -0.5
+		army_defence_factor = -0.5
+		army_attack_factor = -0.5
+		political_power_cost = -1
+			}
+		}
+}
+
+	country = {
+		RFN_finnish_rebellion = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RFN_finnish_rebellion"}
+			picture = RUS_Finland
+
+		modifier = {
+		army_morale_factor = -0.2
+        surrender_limit = 1
+			}
+		}
+}
+}

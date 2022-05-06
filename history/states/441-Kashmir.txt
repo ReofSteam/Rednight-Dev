@@ -1,0 +1,22 @@
+state = {
+	id = 441
+	name = "STATE_441"
+	manpower = 3539500
+
+	state_category = two
+
+	history = {
+		owner = BHC
+		add_core_of = BHC
+		
+		
+		victory_points = { 2041 1 } #Srinagar
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		1910 2041 7273 7316 8005 10821 10905 12754 12884
+	}
+}

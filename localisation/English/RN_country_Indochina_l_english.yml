@@ -1,0 +1,204 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+
+### Parties ###
+INC_nationalist_socialism_party:0 "Republican PNI"
+INC_nationalist_socialism_party_long:0 "Dong Duong Quoc Dan Dang - Indochinese National Party"
+INC_revolutionary_socialism_party:0 "Left PNI/CFI"
+INC_revolutionary_socialism_party_long:0 "Indochinese National Party - Communist Federation of Indochina"
+INC_syndicalism_party:0 "PSV - French Tendency"
+INC_syndicalism_party_long:0 "Dang Xa Hoi Viet Nam - Socialist Party of Vietnam"
+INC_moderate_socialist_party:0 "Republican PNI/PTI"
+INC_moderate_socialist_party_long:0 "Indochinese National Party - Indochinese Labour Party"
+INC_social_democrat_party:0 "Republican VNQDD"
+INC_social_democrat_party_long:0 "Viet Nam Quoc Dan Dang - Nationalist Party of Vietnam"
+INC_social_liberal_party:0 "VDCD"
+INC_social_liberal_party_long:0 "Viet Nam Dan Chinh Dang - Party of People's Reforms"
+INC_social_conservative_party:0 "CGXHD"
+INC_social_conservative_party_long:0 "Cong Giao Xa Hoi Dang - Catholic Social Party"
+INC_authoritarian_democrat_party:0 "Dissident VNQDD"
+INC_authoritarian_democrat_party_long:0 "Viet Nam Quoc Dan Dang - Nationalist Party of Vietnam"
+INC_autocratic_party:0 "NPTP"
+INC_autocratic_party_long:0 "Cong-Nong Chinh Dang - Workers-Peasant Party"
+INC_ultraconservative_party:0 "NPTP"
+INC_ultraconservative_party_long:0 "Cong-Nong Chinh Dang - Workers-Peasant Party"
+INC_national_corporatist_party:0 "VNQXD"
+INC_national_corporatist_party_long:0 "Viet Nam Quoc Xa Dang - National Socialist Party"
+
+
+INC_nationalist_socialism:0 "Union of Indochina"
+INC_nationalist_socialism_ADJ:0 "Indochinese"
+INC_nationalist_socialism_DEF:0 "the Union of Indochina"
+
+INC_revolutionary_socialism:0 "Union of Indochina"
+INC_revolutionary_socialism_ADJ:0 "Indochinese"
+INC_revolutionary_socialism_DEF:0 "the Union of Indochina"
+
+INC_syndicalism:0 "Union of Indochina"
+INC_syndicalism_ADJ:0 "Indochinese"
+INC_syndicalism_DEF:0 "the Union of Indochina"
+
+INC_moderate_socialist:0 "Union of Indochina"
+INC_moderate_socialist_ADJ:0 "Indochinese"
+INC_moderate_socialist_DEF:0 "the Union of Indochina"
+
+INC_social_democrat:0 "Union of Indochina"
+INC_social_democrat_ADJ:0 "Indochinese"
+INC_social_democrat_DEF:0 "the Union of Indochina"
+
+INC_social_liberal:0 "Indochinese Republic"
+INC_social_liberal_ADJ:0 "Indochinese"
+INC_social_liberal_DEF:0 "the Indochinese Republic"
+
+INC_social_conservative:0 "Indochinese Republic"
+INC_social_conservative_ADJ:0 "Indochinese"
+INC_social_conservative_DEF:0 "the Indochinese Republic"
+
+INC_authoritarian_democrat:0 "Indochinese State"
+INC_authoritarian_democrat_ADJ:0 "Indochinese"
+INC_authoritarian_democrat_DEF:0 "the Indochinese State"
+
+INC_autocratic:0 "Indochinese State"
+INC_autocratic_ADJ:0 "Indochinese"
+INC_autocratic_DEF:0 "the Indochinese State"
+
+INC_ultraconservative:0 "Indochinese State"
+INC_ultraconservative_ADJ:0 "Indochinese"
+INC_ultraconservative_DEF:0 "the Indochinese State"
+
+INC_national_corporatist:0 "Indochinese State"
+INC_national_corporatist_ADJ:0 "Indochinese"
+INC_national_corporatist_DEF:0 "the Indochinese State"
+
+#####Laos
+INC_Neutralist_Front:0 "National Neutralist Front"
+INC_Neutralist_Front_long:0 "National Front for the Stability, Neutrality and Security"
+INC_Cambodian_Leftfront:0 "National Coalition for the Defense of the Republic"
+INC_Cambodian_Leftfront_long:0 "Coalition nationale pour la défense de la république"
+#####Vietnam
+VIN_voynist_party:0 "DVQDD - Dai Viet National Party"
+### Country Name ###
+INC_moderate_socialist:0 "Union of Indochina"
+INC_moderate_socialist_ADJ:0 "Indochinese"
+INC_moderate_socialist_DEF:0  "the Union of Indochina"
+INC_social_democrat:0 "Union of Indochina"
+INC_social_democrat_ADJ:0 "Indochinese"
+INC_social_democrat_DEF:0 "the Union of Indochina"
+
+#Seprated#Vietnam
+
+VIN_moderate_socialist:0 "Democratic Republic of Vietnam"
+VIN_moderate_socialist_ADJ:0 "Vietnamese"
+VIN_moderate_socialist_DEF:0  "the Democratic Republic of Vietnam"
+VIN_social_democrat:0 "Democratic Republic of Vietnam"
+VIN_social_democrat_ADJ:0 "Vietnamese"
+VIN_social_democrat_DEF:0 "the Democratic Republic of Vietnam"
+VINC:0 "Democratic Republic of Vietnam"
+VINC_ADJ:0 "Vietnamese"
+VINC_DEF:0 "the Democratic Republic of Vietnam"
+#Seprated#Laos
+LAO_moderate_socialist:0 "Democratic Republic of Laos"
+LAO_moderate_socialist_ADJ:0 "Laotian"
+LAO_moderate_socialist_DEF:0  "the Democratic Republic of Laos"
+LAO_social_democrat:0 "Democratic Republic of Laos"
+LAO_social_democrat_ADJ:0 "Laotian"
+LAO_social_democrat_DEF:0 "the Democratic Republic of Laos"
+
+#Seprated#Cambodia
+CAM_moderate_socialist:0 "Democratic Republic of Kampuchea"
+CAM_moderate_socialist_ADJ:0 "Khmer"
+CAM_moderate_socialist_DEF:0  "the Democratic Republic of Kampuchea"
+CAM_social_democrat:0 "Democratic Republic of Kampuchea"
+CAM_social_democrat_ADJ:0 "Khmer"
+CAM_social_democrat_DEF:0 "the Democratic Republic of Kampuchea"
+
+### Focuses ###
+
+### Ideas ###
+
+INC_fatherland_return:0 "Return to the Fatherland"
+INC_fatherland_return_desc: "Following the stunning success of the National Revolution, Indochina has become a beacon. In throwing off the imperialist shackles we have found ourselves embroiled in pursuit of a modern nation. Such a project will require educated minds of every discipline, and the diaspora has answered our call!\n\nExiles from across the planet continue to trickle back home eager to help build a brighter future. Among these migrants are those trained and  educated in western universities, a particularly lucrative demographic."
+INC_martyrs_desire:0 "The Martyr's Desire"
+INC_martyrs_desire_desc: ""§YI have but one desire, a supreme desire, that our nation be independent, our people is entirely freed, all our compatriots have foods and clothes, all are educated"- Nguyen Ai Quoc, Martyr of the Revolution.§!\n\n The construction of a modern national economy is a daunting prospect. It is, however, making decent progress. Things have progressed relatively smoothely all things considered, with industrialisation targets being frequently met and infastructure development prioritised.\n\nWe have a long way to go before we can proudly stand as a respectable power of the four seas, but the darkest days are most definitely behind us."
+INC_thick_blood:0 "Blood is Thicker than Water"
+INC_thick_blood_desc: "The shining visage of our Republic can be considered a mirage. Behind all the pomp and flavour lurks extreme dysfunction, and in many ways the paramilitary war never ended.  Alleged japanese plots, ethnic conflicts, chauvinism, class-divide and corruption all remain plagues upon the state.\n\n Our faith in the Fatherland is absolute, but not all of our citzens share the same Fatherland."
+INC_common_education:0 "Common Education Commision"
+INC_common_education_desc: "The Common Education Commission has but one overriding task; Literacy. In 1945, before the revolution, only 10% of our people were literate. It was in light of this reality that the commission was formed. After three years we have risen the number of literate citzens to 35%, a signifigant improvement. Still, we must redouble our efforts. After all, only an educated population can truly enjoy the fruits of democracy." 
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+POLITICS_HO_HOC_LAM_DESC: "Ho Hoc Lam is the quintessential revolutionary, a compromise candidate, and an offensive oversight all at once.\n\nLam's was born in 1884 to a family with a streak of revolutionary tradition. Not only was his uncle murdered by colonial authorities, but so too was he the son of a martyr. His father was gunned down when he was only two, a status that surely had a lasting affect on him. As a young man, Lam sought foreign education like many Indochinese in an effort to return home with the gathered fruits of that knowledge and assist the struggle.\n\nFollowing the expulsion of many Vietnamese students to China, he found himself a member of the KMT on the eve of the Xinhai Revolution. Though this revolution would collapse in the Northern Expedition, Ho Hoc Lam took home the many lessons he had learned and remained a highly respected amongst revolutionary circles.\n\nBy the time of Luminous Autumn Lam was an old man. Nonetheless he assisted in the struggle. Now, years later,  he has been selected to lead in a bid for Unity amongst the Vietnamese parties. With such a stature none would dare besmirch his character regardless of their position on the political spectrum.\n\nAnd Yet while not outright hated Ho Hoc Lam is not universally beloved. Among the Khmer and Laotian parties Lam's ascendance to leadership is yet another insult to injury. Since the Republic’s founding it has been solely dominated by Vietnamese interests. Indeed, being the most developed republic and the center of most revolutionary thought Vietnamese Parties and Officials have run the government ceaselessly. While the Crowds of Hanoi and Saigon clap at Lam’s arrival, resentment boils in shadow."
+
+
+### Tech? ###
+
+### Events ###
+
+inc.1.t:0 "Day of the Republic"
+inc.1.d:0 "As we celebrate our annual “Day of the Republic” and enter the Third Republican Year it is important we look back upon our great history, but also towards our uncertain future.In 1947, the twin shackles of feudalism and colonialism were shattered. Our homeland returned to its people’s hands. To the Viets went Vietnam, to the Laotians went Laos, to the Khmer went Kampuchea. A union of freeborn republics, conceived in liberty and revolutionary fire came to be.\nNow it is 1950, and in those two years since our people stood proudly together much has changed.The government is ruled by the ever fragile “United Coalition Government”. A frankenstein compromise between the leftist Democratic Popular Front and the traditionalist National front. Both formed from smaller parties during the revolution and neither often willing to work with the other.\nIn addition to a seemingly impossible government, the Indochinese economy is now starting from scratch. Its ministers constantly fight to stave off famine and stabilize monetary crises. Industrialisation still seems like a distant dream.Despite bipartisan programmes, Illiteracy also remains common. A remnant of hundreds of years of ngu dân (suppression of basic literacy) by colonial oppressors. Much more will have to be done to improve the situation, after all education is the lifeblood of democracy.The National Army mirrors its government. Constructed from hundreds of highly partisan revolutionary remnants, centralized command is impossible. For this and many other reasons both the NF and DPF maintain their own private militias.\nIn the east, the rising sun looms large. Making more and more aggressive overtures, many in our nation fear the pearl of the orient cannot survive its menace.On this national holiday, we must not lose sight of the work that is to be done. For If we lose sight now, all the martyrs of the revolution may have died in vain."
+inc.1.a:0 "Long live the People, Long live the Revolution"
+inc.5.t:0 "German officers will lead the efforts"
+inc.5.d:0 "In the twilight hours of yesterday afternoon famous general Nguyen Van To Quoc of the Euro-African Corps arrived via a biplane in Saigon. A Vietnamese by the citizenship forced upon him but is an ethnic German also known as Arno Von Lenski, the General has always been a somewhat controversial outsider. A status compounded by both his heritage and  allegations of crimes against the people during his time within colonial forces. Regardless, it seems that the admiration of his combat record has triumphed over cries of protest within the government. After being restored to his pre-war rank, Lenski's teachings will apparently be used to whip the overzealous militia and disorganized units into shape. A small part of a larger government initiative to modernize the armed forces. Only time will tell if his efforts can accomplish such a task." 
+inc.5.a:0 "Good luck, Herr General"
+
+inc.6.t:0 "Indochinese officers will lead the efforts"
+inc.6.d:0 "After an over 14 hour flight, Communard official Major de Castries has landed in Saigon with his staff officers. Invited by the government, de Castries has accepted command of the newly formed Franco-Indochinese Officer Training Corps. The product of an agreement between the two governments. When asked his opinion of the assignment de Castries appeared stern but enthusiastic, saying he intended to bring "All the traits of a disciplined revolutionary" to each of the "rabble rousing" men under his command. Such a statement is unsurprising given both the Major's record and the current goals of the Indochinese government to modernize its armed forces. An initiative requiring foreign expertise that de Castries likely has in spares."
+inc.6.a:0 "Good luck, Commander"
+
+inc.7.t:0 "Chinese officers will lead the efforts"
+inc.7.d:0  "A small crowd gathered today in the Haiphong harbor, bearing witness to the return of another ship fulls of Indochinese expats in China. Standing on the ship's deck to accompany the weary returning civilians was Chinese General Hu Lien and a group of officers from the Whampoa Military Academy. Invited to northern Indochina as part of an initiative to help modernize the armed forces. Reporters present described the General as a Jovial man, laughing  and making conversation with soldiers and inquiring about their various homelands. Despite his seemingly informal nature, Hu Lien has an impressive combat record attached to his name. While not from a more disciplined European army, he is likely a safe choice for such a job."
+inc.7.a:0 "Good luck, Comrade."
+
+inc.10.t:0 "Indochina Legislative Election"
+inc.10.d:0 "While elections occured in the time of colonial rule, true mass democracy is a relatively new concept in Indochina. What was once the sole domain of the european clubs, rich capitalists, and scheming plantation owners now belongs to every house and village. As a result, its implementation has been turbid and tumultuous.The 1948 election was a frantic battle in the true meaning of the word. None can truly recall just how many bullets were exchanged in militia shootouts to recover stolen ballot boxes. Fewer still can confirm how many voters found themselves intimidated by gangs to vote one way or another.To say that the results of the election were dubious is an understatement. The First People's Parliament has been based on contribution during the revolution and hasty compromises more then serious ballot counts.\n\nNow, on the eve of yet another election, things are looking to be just as savage. The united coalition government has collapsed, it's absurd contradictions finally ushering in its undoing. In its place, both sides gear up for the final struggle. The future of Indochina for decades to come is about to be sealed. As police forces enact their futile preparations in cities across Indochina. Soon, the militias will storm to the voting places to the sounds of fluttering paper and rifle fire. The time has come to finally decide the destiny of the republic, and the soul of the Indochinese people."
+inc.10.a:0 "Our future in a moment..."
+
+inc.20.t:0 "Dissolution of the Union of Republics"
+inc.20.d:0 "In 1948, the whole of Indochina came together under a single flag. A centuries old vision of a free and united peninsula had been realized. However all dreams end, and today the vietnamese people finally awoke from their long slumber. The Union of Indochina takes its place in the altar of the past. From its ashes; three republics arise.\nWe tried to build utopia. Bring our Brothers forth with us into the future. Perhaps we were too naive, to believe that the Cham and Khmer shared our vision. Somewhere along the way, we were blinded by glory and got lost in the clouds.To our west, nationalists and pragmatists alike celebrate the deaths of what they saw as an oppressive bureaucracy eternally dominated by the vietnamese. Parades and parties are breaking out in the streets.\nIn Saigon, the city is silent.\nSolidarity and Victory to the Khmer nation, the Champa nation and the Viet nation, may our bound last 'till the last dust of the earth passed away."
+inc.20.a:0 "Solidarity and Victory"
+
+inc.28.t:0 "Coup in Laos!"
+inc.28.d:0 "The Vientiane government descended into crisis today after Japanese forces smashed through defensive lines in Upper Laos. General Phoumi Nosavan has launched a successful coup after linking up with the invaders, despite resistance from the loyalist elements of the Laotian National Army and Vietnamese National Guards.\nWhile attempts are being made to form an exile government, the situation appears to be dire. The new "Emergency Government for the Security, Neutrality and Stability of Laos" (GUPSNSL) has disbanded the National Parliament and unleashed a wave of arrests throughout the capital. It appears that for the time being General Nosavan will become undisputed head of state."
+inc.28.a:0 "The traitors!"
+inc.29.t:0 "Coup in Kampuchea"
+inc.29.d:0 "Whiplash inducing developments came out of Phnom Penh today. Only hours after Kampuchean President Son Ngoc Thanh announced his decision to withdraw from the ongoing war and cut ties with Vietnam, violence erupted.Various revolutionary elements from both the National army and former Free Khmer leftist groups organized themselves around the Tou Samouth’s Democratic revolutionary Party. United and furious with the president's decision they executed a swift coup d’etat.Calling themselves the Coalition for the Defense of the Republic, the new government's first action was to declare solidarity with the vietnamese people and re-enter the struggle against the Japanese "Imperialists".Son Ngoc Thanh himself barely escaped east with a number of loyalists, now no doubt hoping to collect himself and build an opposition in the chaos."
+inc.29.a:0 "Good job comrades."
+inc.32.t:0 "Viet Bac in operation again!"
+inc.32.d:0 "The last retreating regiments from Hanoi have assembled in Vietbac, the base established in the early days of the Revolution by the Vietnam Liberation Army. It now serves as a temporary capital for all forces and territories of the DRV in the north. Lt. General Hoang Van Thai has assumed command of the Resistance-Administrative Committee and all 4 Resistance zones under its jurisdiction. With the loss of most major cities throughout northern  Vietnam, his command is entirely independent. This is compounded by the extreme difficulty of currently communicating with the central government."
+ #TODO
+ INC_the_new_parliament:0 "The New Parliament"
+ INC_the_new_parliament_desc:0 ""
+ INC_PNI_national_congress:0 "3rd National Congress of the PNI"
+ INC_PNI_national_congress_desc:0 ""
+ INC_toward_the_new_revolution:0 "Toward The New Revolution"
+ INC_toward_the_new_revolution_desc:0 ""
+ INC_adhere_to_the_paris_charter:0 "Adhere to the Paris Charter"
+ INC_adhere_to_the_paris_charter_desc:0 ""
+ INC_against_chauvinism_against_dai_viet:0 "Against Chauvnism, Against Daivietism"
+ INC_against_chauvinism_against_dai_viet_desc:0 ""
+ INC_defend_the_republican_dream:0 "Defend the Republican Dream"
+ INC_defend_the_republican_dream_desc:0 ""
+ INC_a_union_of_patriots:0 "A Union of Patriots"
+ INC_a_union_of_patriots_desc:0 ""
+ INC_national_land_fund:0 "National Land Fund"
+ INC_national_land_fund_desc:0 ""
+ INC_empower_the_national_congress:0 "Empower the National Congress"
+ INC_empower_the_national_congress_desc:0 ""
+ INC_indigenise_party_and_state_administration:0 "Indigenise Party and State Administration"
+ INC_indigenise_party_and_state_administration_desc:0 ""
+ INC_expand_PNI_membership:0 "Expand PNI Membership"
+ INC_expand_PNI_membership_desc:0 ""
+ INC_indochinese_national_solidarity:0 "Indochinese National Solidarity"
+ INC_indochinese_national_solidarity_desc:0 ""

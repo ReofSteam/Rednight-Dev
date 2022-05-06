@@ -1,0 +1,142 @@
+﻿########
+# Templates
+########
+
+
+division_template = {
+	name = "Infantry Division"
+	division_names_group = GER_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		
+		artillery = { x = 0 y = 1 } 	
+	}	
+}
+
+division_template = {
+	name = "Landwehr Division"
+	division_names_group = GER_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Panzerdivision"
+	division_names_group = GER_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+
+
+### Units ###
+units = {
+### Land ### 
+
+	division = {
+		name = "1st Infantry Division"
+		location = 6390
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 3473
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 9570
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 3438
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "5th Infantry Division"
+		location = 6595
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6th Infantry Division"
+		location = 537
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}	
+	division = {
+		name = "28th Panzergrenadier Division"
+		location = 6390
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}		
+	division = {
+		name = "281st Infantry Division"
+		location = 11517
+		division_template = "Landwehr Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "281st Infantry Division"
+		location = 6334
+		division_template = "Landwehr Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "303rd Infantry Division"
+		location = 6332
+		division_template = "Landwehr Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "27th (Sudenteland) Infantry Division"
+		location = 6332
+		division_template = "Landwehr Division"
+		start_experience_factor = 0.1
+	}	
+	division = {
+		name = "21st Panzer Division"
+		location = 6390
+		division_template = "Panzerdivision"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1st Panzer Division"
+		location = 6390
+		division_template = "Panzerdivision"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Panzer Division"
+		location = 3473
+		division_template = "Panzerdivision"
+		start_experience_factor = 0.3
+	}	
+}	

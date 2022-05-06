@@ -1,0 +1,2090 @@
+focus_tree = {
+	id = RUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RUS
+		}
+	}
+	default = no
+	focus = {
+		id = RUS_the_unity_government
+		icon = GFX_RUS_the_unity_government
+		cost = 10,00
+		x = 6
+		y = 8
+			allow_branch = {
+					has_country_flag = RUS_Levitov_took_over
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_levitovs_council
+		icon = GFX_RUS_levitovs_council
+		cost = 10,00
+		x = 28
+		y = 0
+			available = {
+					has_country_flag = RUS_Levitov_took_over
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_skoblins_council
+		icon = GFX_RUS_skoblins_council
+		cost = 5,00
+		x = 9
+		y = 0
+			select_effect = {
+					country_event = {
+							id = rus.19
+							days = 7
+						}
+					country_event = {
+							id = rus.20
+							days = 14
+						}
+					country_event = {
+							id = rus.21
+							days = 21
+						}
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					custom_effect_tooltip = RUS_A_Council_is_Selected_tt
+					add_political_power = 50
+					add_stability = 0.05
+					set_country_flag = not_eurasianist
+					country_event = {
+							id = rus.22
+							days = 0
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_russian_armed_forces
+		icon = GFX_RUS_russian_armed_forces
+		cost = 10,00
+		x = 23
+		y = 7
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_bear_roars
+		icon = GFX_RUS_the_bear_roars
+		cost = 10,00
+		x = 46
+		y = 0
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_savinkovist
+		icon = GFX_RUS_the_savinkovist
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_skoblins_council
+		}
+		mutually_exclusive = {
+			focus = RUS_the_ilyinists
+		}
+		x = 6
+		y = 1
+			available_if_capitulated = yes
+			available = {
+
+}
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_state_teutophobia
+		icon = GFX_RUS_state_teutophobia
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_savinkovist
+		}
+		x = 6
+		y = 2
+			select_effect = {
+					country_event = {
+							id = rus.40
+							days = 2
+						}
+					country_event = {
+							id = rus.41
+							days = 7
+						}
+					country_event = {
+							id = rus.42
+							days = 21
+						}
+					country_event = {
+							id = rus.43
+							days = 40
+						}
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					country_event = {
+							id = rus.44
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_new_russian_man
+		icon = GFX_RUS_new_russian_man
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_state_teutophobia
+		}
+		x = 1
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_2nd_april_decrees
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_state_teutophobia
+		}
+		x = 3
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_ilyinists
+		icon = GFX_RUS_the_ilyinists
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_skoblins_council
+		}
+		mutually_exclusive = {
+			focus = RUS_the_savinkovist
+		}
+		x = 12
+		y = 1
+			available_if_capitulated = yes
+			available = {
+
+}
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_russian_national
+		icon = GFX_RUS_russian_national
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_the_savinkovist
+			focus = RUS_the_ilyinists
+		}
+		x = 9
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = RUS_minorities_crisis
+							add_idea = RUS_minorities_crisis_2
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_loyal_minorities_system
+		icon = GFX_RUS_loyal_minorities_system
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_national
+		}
+		mutually_exclusive = {
+			focus = RUS_allrussian_people
+		}
+		x = 8
+		y = 3
+			available_if_capitulated = yes
+			available = {
+					has_country_flag = RUS_loyal_minorities
+				}
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = RUS_minorities_crisis_2
+							add_idea = RUS_minorities_crisis_3
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_ministry_of_reunited_territories
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_loyal_minorities_system
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = RUS_allrussian_people
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_national
+		}
+		mutually_exclusive = {
+			focus = RUS_loyal_minorities_system
+		}
+		x = 10
+		y = 3
+			available = {
+					has_country_flag = RUS_national_unity
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					swap_ideas = {
+							remove_idea = RUS_minorities_crisis_2
+							add_idea = RUS_minorities_crisis_4
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_5_years_plan
+		icon = GFX_RUS_five_years
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_loyal_minorities_system
+			focus = RUS_allrussian_people
+		}
+		x = 9
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					set_variable = {
+							var = RUS_nep
+							value = 0
+						}
+					add_political_power = 50
+					add_timed_idea = {
+							idea = RUS_five_years_plan
+							days = 120
+						}
+					set_country_flag = RUS_five_years_plan
+				}
+
+	}
+	focus = {
+		id = RUS_corporatist_agarian_reform
+		icon = GFX_RUS_corporatist_agarian_reform
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_5_years_plan
+		}
+		x = 10
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					set_country_flag = RUS_corporatist_land_reforms
+					add_political_power = 25
+				}
+
+	}
+	focus = {
+		id = RUS_rural_electrification_program
+		icon = GFX_ENG_all_your_valleys_call_you
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_corporatist_agarian_reform
+		}
+		x = 10
+		y = 6
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_political_power = 25
+					set_country_flag = RUS_rural_electrification
+				}
+
+	}
+	focus = {
+		id = RUS_racial_reconciliation
+		icon = GFX_focus_focus_fra_national_resistance_council
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_ilyinists
+		}
+		x = 12
+		y = 2
+			select_effect = {
+					country_event = {
+							id = rus.46
+							days = 2
+						}
+					country_event = {
+							id = rus.47
+							days = 7
+						}
+					country_event = {
+							id = rus.48
+							days = 21
+						}
+					country_event = {
+							id = rus.49
+							days = 40
+						}
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					country_event = {
+							id = rus.50
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_miracle_of_Russian_statehood
+		icon = GFX_goal_unknown
+		cost = 4,80
+		prerequisite = {
+			focus = RUS_allrussian_people
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = RUS_to_honour_all
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_miracle_of_Russian_statehood
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = RUS_reconcile_all
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_to_honour_all
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = RUS_honour_of_soldiers
+		icon = GFX_focus_usa_voter_registration_act
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_racial_reconciliation
+		}
+		x = 15
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_true_democrats
+		icon = GFX_goal_continuous_restrict_freedom
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_honour_of_soldiers
+		}
+		x = 15
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_purge_the_radicals
+		icon = GFX_RUS_purge_the_black_hundreds
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_true_democrats
+		}
+		x = 15
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_freedom_of_Russian
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_reconcile_all
+			focus = RUS_purge_the_radicals
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = RUS_air_fleets_of_russia
+		icon = GFX_RUS_air_fleets_of_russia
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_armed_forces
+		}
+		x = 15
+		y = 8
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_offensive
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_air_fleets_of_russia
+		}
+		mutually_exclusive = {
+			focus = RUS_defensive
+		}
+		x = 16
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_flying_superfortresses
+		icon = GFX_goal_generic_air_bomber
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_offensive
+		}
+		x = 16
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_russian_purity
+		icon = GFX_RUS_russian_purity
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_racial_reconciliation
+		}
+		x = 17
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_spiritual_education
+		icon = GFX_focus_generic_military_academy
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_purity
+		}
+		x = 17
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_lessons_of_the_second_great_war
+		icon = GFX_goal_generic_military_sphere
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_armed_forces
+		}
+		x = 23
+		y = 8
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_manovrennaya_doctrine
+		icon = GFX_goal_generic_army_motorized
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_lessons_of_the_second_great_war
+		}
+		mutually_exclusive = {
+			focus = RUS_modern_deep_battle
+		}
+		x = 21
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_eurasianist
+		icon = GFX_RUS_the_eurasianist
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_levitovs_council
+		}
+		mutually_exclusive = {
+			focus = RUS_the_marshals_regime
+		}
+		x = 23
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_eurasian_living_space
+		icon = GFX_RUS_the_eurasian_living_space
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_eurasianist
+		}
+		x = 22
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_yusopov_decrees
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 5,00
+		prerequisite = {
+			focus = RUS_the_eurasian_living_space
+		}
+		x = 20
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					hidden_effect = {
+							country_event = {
+									id = RUS.6
+									days = 730
+								}
+						}
+					custom_effect_tooltip = RUS_yusopov_decrees_tt
+					set_country_flag = yusopov_decrees
+					add_timed_idea = {
+							idea = RUS_yusopov_investments
+							days = 120
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_eastern_autonomies
+		icon = GFX_RUS_eastern_autonomies
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_eurasian_living_space
+		}
+		x = 22
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_struggle_for_mongolia
+		icon = GFX_RUS_struggle_for_mongolia
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_eastern_autonomies
+		}
+		x = 22
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_modern_deep_battle
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_lessons_of_the_second_great_war
+		}
+		mutually_exclusive = {
+			focus = RUS_manovrennaya_doctrine
+		}
+		x = 25
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_iron_fist
+		icon = GFX_ENG_mbt_focus
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_modern_deep_battle
+			focus = RUS_manovrennaya_doctrine
+		}
+		x = 23
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_rifle
+		icon = GFX_ENG_personal_weapon_research
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_iron_fist
+		}
+		x = 23
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_new_infantry_manual
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_rifle
+		}
+		x = 23
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_marshals_regime
+		icon = GFX_RUS_the_marshals_regime
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_levitovs_council
+		}
+		mutually_exclusive = {
+			focus = RUS_the_eurasianist
+		}
+		x = 33
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_russification
+		icon = GFX_RUS_russification
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_eurasianist
+			focus = RUS_the_marshals_regime
+		}
+		x = 25
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_new_russian_culture
+		icon = GFX_RUS_new_russian_culture
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russification
+		}
+		mutually_exclusive = {
+			focus = RUS_the_teutonic_reconciliation
+		}
+		x = 24
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_teutonic_reconciliation
+		icon = GFX_RUS_the_teutonic_reconciliation
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russification
+		}
+		mutually_exclusive = {
+			focus = RUS_new_russian_culture
+		}
+		x = 26
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_purge_the_black_hundreds
+		icon = GFX_RUS_purge_the_black_hundreds
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_new_russian_culture
+			focus = RUS_the_teutonic_reconciliation
+		}
+		x = 25
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_strip_cossacks_autonomy
+		icon = GFX_RUS_strip_cossacks_autonomy
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_purge_the_black_hundreds
+		}
+		x = 26
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_russian_airborne_forces
+		icon = GFX_RUS_russian_airborne_forces
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_modern_deep_battle
+		}
+		x = 26
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_kings_of_the_battlefield
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_airborne_forces
+		}
+		x = 26
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_krasnocherniye_divisions
+		icon = GFX_RUS_krasnocherniye_divisions
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_kings_of_the_battlefield
+		}
+		x = 26
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_atomic_division
+		icon = GFX_focus_wonderweapons
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_armed_forces
+		}
+		x = 30
+		y = 8
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_extraordinary_comission_for_areospace_defense
+		icon = GFX_RUS_extraordinary_comission_for_areospace_defense
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_atomic_division
+		}
+		x = 28
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_eyes
+		icon = GFX_RUS_the_eyes
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_extraordinary_comission_for_areospace_defense
+		}
+		x = 28
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_chasovoy_program
+		icon = GFX_focus_rocketry
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_eyes
+		}
+		x = 28
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_panslavic_direction
+		icon = GFX_RUS_panslavic_direction
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_marshals_regime
+		}
+		x = 30
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_eastern_europe_development_program
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_panslavic_direction
+		}
+		x = 30
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_slavic_national_states
+		icon = GFX_RUS_slavic_national_states
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_eastern_europe_development_program
+		}
+		x = 30
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_panslavic_congress
+		icon = GFX_RUS_the_panslavic_congress
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_slavic_national_states
+		}
+		x = 30
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_sb1
+		icon = GFX_RUS_sb1
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_atomic_division
+		}
+		x = 30
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_moscow_ring
+		icon = GFX_RUS_moscow_ring
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_sb1
+		}
+		x = 30
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_sledopyt_program
+		icon = GFX_RUS_sledopyt_program
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_atomic_division
+		}
+		x = 32
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_tagop
+		icon = GFX_RUS_tagop
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_marshals_regime
+		}
+		x = 34
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_reform_the_krasnocherniye
+		icon = GFX_RUS_reform_the_krasnocherniye
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_tagop
+		}
+		x = 33
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_antirussia_trial
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_tagop
+		}
+		x = 35
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_centralise_the_regime
+		icon = GFX_goal_demand_sudetenland
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_reform_the_krasnocherniye
+		}
+		prerequisite = {
+			focus = RUS_the_antirussia_trial
+		}
+		x = 34
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_armystate
+		icon = GFX_focus_generic_military_mission
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_centralise_the_regime
+		}
+		x = 34
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_naval_commission
+		icon = GFX_RUS_the_naval_commission
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russian_armed_forces
+		}
+		x = 37
+		y = 8
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_expand_the_baltic_fleet
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_naval_commission
+		}
+		x = 36
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_rebuild_the_black_see_fleet
+		icon = GFX_focus_generic_destroyer
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_naval_commission
+		}
+		x = 38
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_convert_german_vessels
+		icon = GFX_goal_continuous_naval_production
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_expand_the_baltic_fleet
+		}
+		prerequisite = {
+			focus = RUS_rebuild_the_black_see_fleet
+		}
+		x = 37
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_submarine_efforts
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_convert_german_vessels
+		}
+		x = 36
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_home_front
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_bear_roars
+		}
+		x = 41
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_national_petroleum_corporation
+		icon = GFX_RUS_national_petroleum_corporation
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_home_front
+		}
+		x = 39
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							bonus = 0.5
+							uses = 1
+							category = synth_resources
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_causcasian_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_national_petroleum_corporation
+		}
+		x = 38
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_west_siberian_oil
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_national_petroleum_corporation
+		}
+		x = 40
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_industrialisation_of_agriculture
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_causcasian_oil
+			focus = RUS_west_siberian_oil
+		}
+		x = 39
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_northwest_industrialisation
+		icon = GFX_goal_generic_production
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_home_front
+		}
+		x = 43
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					246 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					247 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					248 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_malorossiya_industrialisation
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_northwest_industrialisation
+		}
+		x = 42
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					202 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					137 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					206 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_south_russia_industrialisation
+		icon = GFX_goal_generic_construction2
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_northwest_industrialisation
+		}
+		x = 44
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_far_east_industry
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_south_russia_industrialisation
+		}
+		prerequisite = {
+			focus = RUS_malorossiya_industrialisation
+		}
+		x = 43
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					408 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					409 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					657 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_warm_water_ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_far_east_industry
+		}
+		x = 42
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_north_sea_routes
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_far_east_industry
+		}
+		x = 44
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_duty_to_the_world
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_bear_roars
+		}
+		x = 50
+		y = 1
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_reconciliate_with_japan
+		icon = GFX_RUS_reconciliate_with_japan
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_duty_to_the_world
+		}
+		mutually_exclusive = {
+			focus = RUS_bid_for_asian_influence
+		}
+		x = 48
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_russojapanese_economic_treaty
+		icon = GFX_RUS_russojapanese_economic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_reconciliate_with_japan
+		}
+		x = 48
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_joint_monopoly_over_china
+		icon = GFX_focus_chi_one_china_policy
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_russojapanese_economic_treaty
+		}
+		x = 48
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_bid_for_asian_influence
+		icon = GFX_focus_usa_focus_on_asia
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_duty_to_the_world
+		}
+		mutually_exclusive = {
+			focus = RUS_reconciliate_with_japan
+		}
+		x = 50
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_rebuild_the_pacific_fleet
+		icon = GFX_goal_continuous_naval_production
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_bid_for_asian_influence
+		}
+		x = 50
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_influence_china
+		icon = GFX_RUS_influence_china
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_rebuild_the_pacific_fleet
+		}
+		x = 50
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_reach_to_the_us
+		icon = GFX_RUS_reach_to_the_us
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_influence_china
+			focus = RUS_joint_monopoly_over_china
+		}
+		x = 49
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_purge_the_monarchists
+		icon = GFX_focus_rom_abdicate
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_party_state
+		}
+		x = 3
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_night_of_the_widows
+		icon = GFX_RUS_night_of_the_widows
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_unity_government
+		}
+		x = 4
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_russian_bill_of_rights
+		icon = GFX_RUS_the_russian_bill_of_rights
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_popular_kadets
+		}
+		x = 9
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_purge_the_young_kornilovites
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_unity_government
+		}
+		x = 8
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_jewish_settlement_program
+		icon = GFX_RUS_jewish_settlement_program
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_purge_the_black_hundreds
+		}
+		x = 24
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_encourage_private_enterprises
+		icon = GFX_ENG_national_bourgeoise_initiative
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_paneurasia_guidance_system
+		}
+		mutually_exclusive = {
+			focus = RUS_the_national_defense_decree
+		}
+		x = 14
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_national_defense_decree
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_paneurasia_guidance_system
+		}
+		mutually_exclusive = {
+			focus = RUS_encourage_private_enterprises
+		}
+		x = 16
+		y = 12
+			available = {
+					has_country_flag = not_eurasianist
+				}
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_new_industrial_zones
+		icon = GFX_goal_generic_construction2
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_5_years_plan
+		}
+		x = 8
+		y = 5
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					add_political_power = 25
+					country_event = rus.45
+				}
+
+	}
+	focus = {
+		id = RUS_political_soldiers
+		icon = GFX_RUS_political_soldiers
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_new_russian_man
+		}
+		x = 1
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_siberian_plan
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 2,00
+		prerequisite = {
+			focus = RUS_new_industrial_zones
+		}
+		x = 8
+		y = 6
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+			completion_reward = {
+					hidden_effect = {
+							country_event = {
+									id = rus.5
+									days = 730
+								}
+						}
+					custom_effect_tooltip = RUS_siberian_plan_tt
+					set_country_flag = construct_siberian_infra
+					add_political_power = 25
+					add_timed_idea = {
+							idea = RUS_siberian_plan
+							days = 120
+						}
+				}
+
+	}
+	focus = {
+		id = RUS_the_party_state
+		icon = GFX_RUS_the_party_state
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_2nd_april_decrees
+		}
+		x = 3
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_a_new_5headed_regime
+		icon = GFX_RUS_a_new_5headed_regime
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_night_of_the_widows
+		}
+		prerequisite = {
+			focus = RUS_purge_the_young_kornilovites
+		}
+		x = 6
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_arabia_direction
+		icon = GFX_RUS_the_arabia_direction
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_duty_to_the_world
+		}
+		x = 52
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_persian_gambit
+		icon = GFX_RUS_persian_gambit
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_arabia_direction
+		}
+		x = 52
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_popular_kadets
+		icon = GFX_RUS_popular_kadets
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_a_new_5headed_regime
+		}
+		mutually_exclusive = {
+			focus = RUS_union_of_the_february_revolution
+		}
+		x = 8
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_union_of_the_february_revolution
+		icon = GFX_RUS_union_of_the_february_revolution
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_a_new_5headed_regime
+		}
+		mutually_exclusive = {
+			focus = RUS_popular_kadets
+		}
+		x = 4
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_the_russian_federation
+		icon = GFX_RUS_the_russian_federation
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_popular_kadets
+			focus = RUS_union_of_the_february_revolution
+		}
+		x = 6
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_african_influence
+		icon = GFX_focus_generic_africa_production
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_persian_gambit
+		}
+		x = 52
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_socialisation_of_land
+		icon = GFX_focus_generic_self_management
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_union_of_the_february_revolution
+		}
+		x = 3
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_amoured_vehicles_and_light_tanks
+		icon = GFX_ENG_light_tanks_and_amoured_vehicles_focus
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_special_miltary_detachments
+		}
+		x = 20
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_special_miltary_detachments
+		icon = GFX_goal_generic_special_forces
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_manovrennaya_doctrine
+		}
+		x = 20
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_interceptor_program
+		icon = GFX_ENG_interceptor_program
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_defensive
+		}
+		x = 14
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_defensive
+		icon = GFX_focus_generic_air_defense
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_air_fleets_of_russia
+		}
+		mutually_exclusive = {
+			focus = RUS_offensive
+		}
+		x = 14
+		y = 9
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_helicopter_warfare
+		icon = GFX_ENG_helicopter_auxillary_forces
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_amoured_vehicles_and_light_tanks
+		}
+		x = 20
+		y = 12
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_paneurasia_guidance_system
+		icon = GFX_ENG_european_navigation_and_guidance_network
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_interceptor_program
+			focus = RUS_flying_superfortresses
+		}
+		x = 15
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_surface_fleet
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_convert_german_vessels
+		}
+		x = 38
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_perestroika
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_the_russian_federation
+			focus = RUS_the_russian_bill_of_rights
+			focus = RUS_socialisation_of_land
+		}
+		x = 6
+		y = 13
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+				}
+
+	}
+	focus = {
+		id = RUS_restablishment_of_cossack_hosts
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_ministry_of_reunited_territories
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = RUS_liquidation_of_regionalist_tendencies
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_restablishment_of_cossack_hosts
+		}
+		x = 6
+		y = 6
+
+	}
+	focus = {
+		id = RUS_we_can_not_forgive
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = RUS_purge_the_monarchists
+			focus = RUS_liquidation_of_regionalist_tendencies
+		}
+		x = 4
+		y = 7
+
+	}
+}

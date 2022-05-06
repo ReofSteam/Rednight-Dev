@@ -1,0 +1,137 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+sen.1.t:0 "Senegal-Gambia in 1950"
+sen.1.d:0 "While the French Republic was defeated in the weltkrieg and displaced in the resulting turmoil that gripped the country, hope remained that the homeland could still be reclaimed. With our Entente allies we sought to fortify our hold on North Africa. Algeria was to be a springboard in our glorious return home.We failed.\n\n“Operation Starlight” was the agent of our downfall. A massive Communard offensive descended upon our shores. Where once there was talk of a reclamation, now there were simply talks of survival. The end had come, an eclipse for the traditions that had held since the Frankish kings.\n\nYet as the citizens of Tunis and Algiers fell beneath the red tide, plans were being sprung into motion. We took what we could and retreated south. On the west coast of the continent Young Admiral Henri Honoroes took action. In the face of despair the “Republic of Generals” was born. The old colonial administration had a new structure grafted atop; a council of those brave few generals who refused to surrender.\n\nSince then we have been engaged in a great game. With the signing of an armistice in 1947 an ultimatum was engaged. Three years time was traded for guarantees; we were to disband or withdraw from the sahara in its entirety. In Dakar factions began to form.\n\nThere are the Young Officers, men who believe the future lies in Africa itself. In their view Senegal-Gambia should be built up upon its own two feet; an independent beacon for all exiled Frenchmen. Dakar must be defended from the coming onslaught at all costs.\n\nThen there are the Continentals, those that seek reproach. According to them, though the mainland is red it is still French. Continued struggle is futile. They believe it is night time to come home.\n\nFinally there is Sacred France. Comprising mostly of the old guard, those that follow this faction believe in fighting until the end. France must never be abandoned, and when the moment is right the reclamation must begin.\n\nThe three years secured in 1947 are rapidly running out. Time is not on our side, and a direction must be chosen if the spirit of France is to be perserved."
+sen.1.a:0 "We did not plan it, but Africa is home."
+
+### Parties ###
+
+SEN_moderate_socialist_party:0 "-"
+SEN_moderate_socialist_party_long:0 "-"
+SEN_social_democrat_party:0 "-"
+SEN_social_democrat_party_long:0 "-"
+SEN_social_liberal_party:0 "-"
+SEN_social_liberal_party_long:0 "-"
+SEN_conservative_party:0 "Les Continentaux"
+SEN_conservative_party_long:0 "Continentals Clique"
+SEN_authoritarian_democrat_party:0 "Jeune France Libre"
+SEN_authoritarian_democrat_party_long:0 "Free France Clique"
+SEN_autocratic_party:0 "Imperial Clique"
+SEN_autocratic_party_long:0 "Imperial Clique"
+SEN_ultraconservative_party:0 "-"
+SEN_ultraconservative_party_long:0 "-"
+SEN_ultranationalist_party:0 "France sacrée"
+SEN_ultranationalist_party_long:0 "Sacred France Clique"
+
+### Country Name ###
+
+SEN_moderate_socialist:0 "Socialist Republic of Sénégal-Gambie"
+SEN_moderate_socialist_ADJ:0 "Sénégal-Gambien"
+SEN_moderate_socialist_DEF:0 "the Socialist Republic of Sénégal-Gambie"
+SEN_social_democrat:0 "Republic of Sénégal-Gambie"
+SEN_social_democrat_ADJ:0 "Sénégambien"
+SEN_social_democrat_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_social_liberal:0 "Republic of Sénégal-Gambie"
+SEN_social_liberal_ADJ:0 "Sénégambien"
+SEN_social_liberal_DEF:0 "the Republic of Senegal-Gambia"
+SEN_conservative:0 "Republic of Senegal-Gambia"
+SEN_conservative_ADJ:0 "Sénégambien"
+SEN_conservative_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_authoritarian_democrat:0 "Republic of Sénégal-Gambie"
+SEN_authoritarian_democrat_ADJ:0 "Sénégambien"
+SEN_authoritarian_democrat_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_autocratic:0 "Republic of Sénégal-Gambie"
+SEN_autocratic_ADJ:0 "Sénégambien"
+SEN_autocratic_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_ultraconservative:0 "Republic of Sénégal-Gambie"
+SEN_ultraconservative_ADJ:0 "Sénégambien"
+SEN_ultraconservative_DEF:0 "the Republic of Sénégal-Gambie"
+SEN_ultranationalist:0 "Republic of Sénégal-Gambie"
+SEN_ultranationalist_ADJ:0 "Sénégambien"
+SEN_ultranationalist_DEF:0 "the Republic of Sénégal-Gambie"
+
+#####
+Senegal_Gambia:0 "Republic of Senegal-Gambia"
+
+### Focuses ###
+ SEN_ally_with_the_social_republic:0 "Ally with the Social Republic"
+SEN_ally_with_the_social_republic_desc:0 ""
+SEN_retake_sudan:0 "Retake Sudan"
+SEN_retake_sudan_desc:0 ""
+SEN_expand_the_foreign_legion:0 "Expand the Foreign Legion"
+SEN_expand_the_foreign_legion_desc:0 ""
+SEN_may_god_save_us_all:0 "May God Save Us All"
+SEN_may_god_save_us_all_desc:0 ""
+SEN_time_is_not_on_our_side:0 "Time Is Not On Our Side"
+SEN_time_is_not_on_our_side_desc:0 ""
+SEN_the_sand_war_resumes:0 "The Sand War resumes"
+SEN_the_sand_war_resumes_desc:0 ""
+SEN_the_safe_passage:0 "The Safe Passage"
+SEN_the_safe_passage_desc:0 ""
+SEN_the_damned_republic:0 "The Damned Republic"
+SEN_the_damned_republic_desc:0 ""
+SEN_frenchmen_hear_your_hearts:0 "Frenchmen, Hear Your Hearts!"
+SEN_frenchmen_hear_your_hearts_desc:0 ""
+SEN_those_who_fight_the_revolution:0 "Those Who Fight the Revolution"
+SEN_those_who_fight_the_revolution_desc:0 ""
+SEN_senegal_fortress:0 "Senegal Fortress"
+SEN_senegal_fortress_desc:0 ""
+SEN_the_fertile_land:0 "The Fertile Land"
+SEN_the_fertile_land_desc:0 ""
+SEN_the_act_of_nationality:0 "The Act of Nationality"
+SEN_the_act_of_nationality_desc:0 ""
+SEN_the_new_homefront:0 "The New Homefront"
+SEN_the_new_homefront_desc:0 ""
+SEN_fountainable_conference:0 "Fountainable Conference"
+SEN_fountainable_conference_desc:0 ""
+SEN_the_last_cross_of_lorraine:0 "The Last Cross of Lorraine"
+SEN_the_last_cross_of_lorraine_desc:0 ""
+SEN_the_holy_legion:0 "The Holy Legion"
+SEN_the_holy_legion_desc:0 ""
+SEN_overturn_the_dakar_autonomy_agreement:0 "Overturn the Dakar Autonomy Agreement"
+SEN_overturn_the_dakar_autonomy_agreement_desc:0 ""
+SEN_with_honour:0 "With Honour"
+SEN_with_honour_desc:0 ""
+SEN_cast_down_the_stars_and_arms:0 "Cast down the Stars and Arms"
+SEN_cast_down_the_stars_and_arms_desc:0 ""
+SEN_a_model_majorgeneral:0 "A Model Major-General"
+SEN_a_model_majorgeneral_desc:0 ""
+SEN_forming_the_revolutionary_soldiers_council:0 "Forming the Revolutionary Soldiers Council"
+SEN_forming_the_revolutionary_soldiers_council_desc:0 ""
+SEN_the_crusade_for_algeria:0 "The Crusade for Algeria"
+SEN_the_crusade_for_algeria_desc:0 ""
+SEN_mass_colonial_conscrption:0 "Mass Colonial Conscrption"
+SEN_mass_colonial_conscrption_desc:0 ""
+SEN_international_arsenal:0 "International Arsenal"
+SEN_international_arsenal_desc:0 ""
+SEN_purge_the_english:0 "Purge the English"
+SEN_purge_the_english_desc:0 ""
+SEN_subjugate_guinea:0 "Subjugate Guinea"
+SEN_subjugate_guinea_desc:0 ""
+SEN_render_unto_france_its_laurels:0 "Render unto France its Laurels"
+SEN_render_unto_france_its_laurels_desc:0 ""
+SEN_africas_sirens:0 "Africa's Sirens"
+SEN_africas_sirens_desc:0 ""
+SEN_declare_independence:0 "Declare Independence"
+SEN_declare_independence_desc:0 ""
+SEN_destroy_the_exiles:0 "Destroy the Exiles"
+SEN_destroy_the_exiles_desc:0 ""
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_HENRI_HONORE_DESC:0 "The situation is dire, and there is no greater test of a man's character than his response to such a situation.\n\nWill he flail his arms about, heaving obscenities upon the clouds and denying the reality before him?\n\nWill he abandon his ideals? Twist himself into a pathetic imitation of his oppressor in a futile attempt at acceptance?\n\nOr will he keep his wits about him, stay true to his identity, and do what can be done?\n\nHenri Honoré d'Estienne d'Orves is not interested in the ravings of the geriatric warmongers or communist contortionists. He holds no futile illusions of a continental reconquest. However, just because the homeland is lost does not mean France is. As long as she sticks true to the ideals that she was founded upon, a future can be made in the sands. Senegal-Gambia shall be a safe haven, a colony for all who refuse to submit to socialist tyranny. It will be developed to the greatest extent possible, so that it may stand upon its own two legs.\n\nOnce this task is completed, all that remains is the long wait. One day, perhaps decades from now, our great dream may become reality..."
+POLITICS_DE_LATTRE_DESC:0 "There were none more reluctant to flee south than General de Lattre, a man who was forcibly transformed from Weltkrieg hero and holder of the military cross to bitter african exile. It is not unusual among his countrymen to hold hatred for the communists, far from it in fact. Yet even among Jean's comrades, his zeal is unrivaled.\n\nIn General de Lattre's view a line must be drawn in the sand. As the new world chases all remnants of the past to distant corners of the globe Jean clings to Africa like a raft in the storm. Every inch of every man ought to be armed, every resource exploited, and every scrap of territory held for dear life. The modern age, a tragedy unrivaled but by the fall of Rome itself is a titanic struggle. The forces of order and christian civilization; pitted against tyrannical barbarism! Jean will not rest until the red plague is swept from the planet's surface, and he will preserve tradition, fatherland and culture to his last breath."
+### Tech? ###

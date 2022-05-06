@@ -1,0 +1,16 @@
+#THIS IS FOR THE GRAPHICAL USER INTERFACE (GUI). IT IS AN IMPORTANT FILE
+
+
+graphical_culture = middle_eastern_gfx
+graphical_culture_2d = middle_eastern_2d  
+
+color = { 64 160 167 }
+
+
+#if you aren't a dev, hi... uhm *I hope you are enjoying reading these*
+#
+# 
+#
+#
+#
+#

@@ -1,0 +1,40 @@
+
+state={
+	id=833
+	name="STATE_833"
+	resources={
+		oil=220.000
+	}
+
+	history={
+		owner = CAL
+		buildings = {
+			industrial_complex = 4
+			infrastructure = 6
+			6785 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAL
+		victory_points = {
+			12782 10 
+		}
+		victory_points = {
+			2019 2 
+		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
+
+	}
+
+	provinces={
+		1927 1954 1998 2019 2042 4884 4955 5038 5061 6785 6798 6987 8064 10894 12369 12728 12782 9773
+	}
+	manpower=2329884
+	buildings_max_level_factor=1.000
+	state_category=eight
+}

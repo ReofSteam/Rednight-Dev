@@ -1,0 +1,84 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+TRV_social_nationalist_party:0 "INC" #Illegal
+TRV_social_nationalist_party_long:0 "Indian National Congress (Boseist)"
+TRV_marxist_party:0 "INC" #Illegal
+TRV_marxist_party_long:0 "Indian National Congress (Marxist)"
+TRV_libertarian_party:0 "INC" #Illegal
+TRV_libertarian_party_long:0 "Indian National Congress (Socialist)"
+TRV_moderate_socialist_party:0 "INC" #Illegal
+TRV_moderate_socialist_party_long:0 "Indian National Congress (Reformist)"
+TRV_social_democrat_party:0 "Kerala Socialist Party"
+TRV_social_democrat_party_long:0 "Kerala Socialist Party"
+TRV_social_liberal_party:0 "Travancore Congress"
+TRV_social_liberal_party_long:0 "Travancore Tamil Nadu Congress"
+TRV_conservative_party:0 "Kupaka Swaroopam"
+TRV_conservative_party_long:0 "-Kupaka Swaroopam"
+TRV_authoritarian_democrat_party:0 "Kupaka Swaroopam"
+TRV_authoritarian_democrat_party_long:0 "Kupaka Swaroopam"
+TRV_autocratic_party:0 "Junta" #Illegal
+TRV_autocratic_party_long:0 "Junta"
+TRV_fundamentalist_party:0 "BJS"
+TRV_fundamentalist_party_long:0 "Bharatiya Jana Sangh"
+TRV_voynist_party:0 "BJS"
+TRV_voynist_party_long:0 "Bharatiya Jana Sangh"
+
+### Country Name ###
+
+TRV_social_nationalist:0 "Kingdom of Travancore"
+TRV_social_nationalist_ADJ:0 "Travancore"
+TRV_social_nationalist_DEF:0 "the Kingdom of Travancore"
+TRV_marxist:0 "Kingdom of Travancore"
+TRV_marxist_ADJ:0 "Travancore"
+TRV_marxist_DEF:0 "the Kingdom of Travancore"
+TRV_libertarian:0 "Kingdom of Travancore"
+TRV_libertarian_ADJ:0 "Travancore"
+TRV_libertarian_DEF:0 "the Kingdom of Travancore"
+TRV_moderate_socialist:0 "Kingdom of Travancore"
+TRV_moderate_socialist_ADJ:0 "Travancore"
+TRV_moderate_socialist_DEF:0 "the Kingdom of Travancore"
+TRV_social_democrat:0 "Kingdom of Travancore"
+TRV_social_democrat_ADJ:0 "Travancore"
+TRV_social_democrat_DEF:0 "the Kingdom of Travancore"
+TRV_social_liberal:0 "Kingdom of Travancore"
+TRV_social_liberal_ADJ:0 "Travancore"
+TRV_social_liberal_DEF:0 "the Kingdom of Travancore"
+TRV_conservative:0 "Kingdom of Travancore"
+TRV_conservative_ADJ:0 "Travancore"
+TRV_conservative_DEF:0 "the Kingdom of Travancore"
+TRV_authoritarian_democrat:0 "Kingdom of Travancore"
+TRV_authoritarian_democrat_ADJ:0 "Travancore"
+TRV_authoritarian_democrat_DEF:0 "the Kingdom of Travancore"
+TRV_autocratic:0 "Kingdom of Travancore"
+TRV_autocratic_ADJ:0 "Travancore"
+TRV_autocratic_DEF:0 "the Kingdom of Travancore"
+TRV_fundamentalist:0 "Kingdom of Travancore"
+TRV_fundamentalist_ADJ:0 "Travancore"
+TRV_fundamentalist_DEF:0 "the Kingdom of Travancore"
+TRV_voynist:0 "Kingdom of Travancore"
+TRV_voynist_ADJ:0 "Travancore"
+TRV_voynist_DEF:0 "the Kingdom of Travancore"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

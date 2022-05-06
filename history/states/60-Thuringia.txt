@@ -1,0 +1,39 @@
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		steel=20.000
+		chromium=4.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = BOZ
+		add_core_of = BOZ
+		victory_points = {
+			6524 1 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 4
+			6524 = {
+				bunker = 2
+
+			}
+
+		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
+	}
+
+	provinces={
+		425 482 538 3500 3561 6501 6524 6582 9497 9560 
+	}
+	manpower=3005214
+	buildings_max_level_factor=1.000
+	state_category=eight
+}

@@ -1,0 +1,97 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+IVY_social_nationalist_party:0 "Socialists"
+IVY_social_nationalist_party_long:0 "Socialists"
+IVY_marxist_party:0 "Socialists"
+IVY_marxist_party_long:0 "Socialists"
+IVY_libertarian_party:0 "Socialists"
+IVY_libertarian_party_long:0 "Socialists"
+IVY_moderate_socialist_party:0 "Socialists"
+IVY_moderate_socialist_party_long:0 "Socialists"
+IVY_social_democrat_party:0 "PDCI - Democratic Party of Cote d'Ivoire"
+IVY_social_democrat_party_long:0 "Parti Démocratique de la Côte d'Ivoire"
+IVY_social_liberal_party:0 "PDCI - Democratic Party of Cote d'Ivoire"
+IVY_social_liberal_party_long:0 "Parti Démocratique de la Côte d'Ivoire"
+IVY_conservative_party:0 "PDCI - Democratic Party of Cote d'Ivoire"
+IVY_conservative_party_long:0 "Parti Démocratique de la Côte d'Ivoire"
+IVY_authoritarian_democrat_party:0 "PDCI - Democratic Party of Cote d'Ivoire"
+IVY_authoritarian_democrat_party_long:0 "Parti Démocratique de la Côte d'Ivoire"
+IVY_autocratic_party:0 "Mockey's Nationalists"
+IVY_autocratic_party_long:0 "Mockey's Nationalists"
+IVY_fundamentalist_party:0 "Mockey's Nationalists"
+IVY_fundamentalist_party_long:0 "Mockey's Nationalists"
+IVY_voynist_party:0 "PDCI - Democratic Party of Cote d'Ivoire"
+IVY_voynist_party_long:0 "Parti Démocratique de la Côte d'Ivoire"
+
+### Country Name ###
+
+IVY_social_nationalist:0 "Cote d'Ivoire"
+IVY_social_nationalist_ADJ:0 "Ivoarian"
+IVY_social_nationalist_DEF:0 "Cote d'Ivoire"
+IVY_marxist:0 "Cote d'Ivoire"
+IVY_marxist_ADJ:0 "Ivoarian"
+IVY_marxist_DEF:0 "Cote d'Ivoire"
+IVY_libertarian:0 "Cote d'Ivoire"
+IVY_libertarian_ADJ:0 "Ivoarian"
+IVY_libertarian_DEF:0 "Cote d'Ivoire"
+IVY_social_democrat:0 "Cote d'Ivoire"
+IVY_social_democrat_ADJ:0 "Ivoarian"
+IVY_social_democrat_DEF:0 "the Cote d'Ivoire"
+IVY_social_liberal:0 "Cote d'Ivoire"
+IVY_social_liberal_ADJ:0 "Ivoarian"
+IVY_social_liberal_DEF:0 "Cote d'Ivoire"
+IVY_conservative:0 "Cote d'Ivoire"
+IVY_conservative_ADJ:0 "Ivoarian"
+IVY_conservative_DEF:0 "Cote d'Ivoire"
+IVY_authoritarian_democrat:0 "Cote d'Ivoire"
+IVY_authoritarian_democrat_ADJ:0 "Ivoarian"
+IVY_authoritarian_democrat_DEF:0 "Cote d'Ivoire"
+IVY_autocratic:0 "Cote d'Ivoire"
+IVY_autocratic_ADJ:0 "Ivoarian"
+IVY_autocratic_DEF:0 "Cote d'Ivoire"
+IVY_fundamentalist:0 "Cote d'Ivoire"
+IVY_fundamentalist_ADJ:0 "Ivoarian"
+IVY_fundamentalist_DEF:0 "Cote d'Ivoire"
+IVY_voynist:0 "Cote d'Ivoire"
+IVY_voynist_ADJ:0 "Ivoarian"
+IVY_voynist_DEF:0 "Cote d'Ivoire"
+
+### Focuses ###
+ 
+### Ideas ###
+ 
+IVY_viva_la_republique:0 "Vive la Republique!"
+IVY_viva_la_republique_desc:0 "Long live the republic, long live Felix Boigny, the man who singlehandedly secured Cote d’Ivoire’s independence from the Asante and Socialist Invaders! The fledgling republic will never know oppression and trampling of rights thanks to him! He even managed to pacify the northern secessionists and invited in our French brothers in arms. Only success awaits the great republic."
+IVY_francophile_policymaking:0 "Francophile Policymaking"
+IVY_francophile_policymaking_desc:0 "The Ivorian and French nations have always been friends and are interlinked in more ways than one. Not even the germans could force the friendship to end with their nonsensical annexation of the colony, the loyal people of this country made sure of that. Our nation is defined by its language, and its language is French!"
+IVY_french_mercenaries:0 "French Mercenaries"
+IVY_french_mercenaries_desc:0 "After the victory against Asante and the treaty of Kumasi, Boigny, so satisfied by the French mercenaries’ performance and contribution, invited them to stay in the country indefinitely. While many of them refused, some agreed, and have stayed to help the country in the building up of its army and industry. This has helped the whole nation immensely in more ways than one, however many fear that giving too much power to the former colonials could result in a French takeover and a return of the colony along with the costs of fulfilling the high standards of living of the mercenaries."
+IVY_resist_the_red_menace:0 "Resist the Red Menace"
+IVY_resist_the_red_menace_desc:0 "Following National France’s violent collapse, the Communist Imperialists invaded Dakar and the colony of Senegal under the pretenses of “liberation” and “humanitarianism”. Boigny was smart enough to recognise these lies and see through the socialist attempts at deception. The establishment of the Mandate, a clearly colonial state, only confirmed his suspicions. Now our great country stands against the Mandate and Sekou Toure’s Guinea, poised to take them out and actually liberate their populations."
+IVY_immense_population_growth:0 "Immense Population Growth"
+IVY_immense_population_growth_desc:0 "Our population has started to increase drastically, and our growth rate continues to rise indefinitely."
+ 
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###
+
+SEN_social_nationalist:0 "West African Mandate"
+SEN_social_nationalist_long:0 "the West African Mandate"
+GNE_authoritarian_democrat:0 "People's Republic of Guinea"
+GNE_authoritarian_democrat_long:0 "the People's Republic of Guinea"

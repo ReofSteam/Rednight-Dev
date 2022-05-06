@@ -1,0 +1,205 @@
+﻿capital = 339
+oob = "TUR_1950"
+
+#set_cosmetic_tag = TUR_otto
+
+set_technology = {
+	### MOD ###
+	### General ###
+
+	### Navy ###
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+	### Tanks ###
+	gwtank = 1
+	basic_medium_tank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_research_slots = 4
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalist_socialism = 28
+	revolutionary_socialism = 52
+	syndicalism = 6
+	moderate_socialist = 14
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 0
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+add_ideas = {
+	ANA_marxist_leninist_thought
+	ANA_liberty_and_equality
+	ANA_white_terror
+}
+
+create_country_leader = {
+	name = "Sultan Ahmed IV"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Sultan_Ahmed_IV.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nihâl Atsız"
+	desc = "POLITICS_NIHAL_ATSIZ_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Nihal_Atsiz.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Nazım Hikmet Ran"
+	desc = "POLITICS_NAZIM_HIKMET_DESC"
+	picture = "gfx/leaders/TUR/TUR_Hikmet.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Reşat Fuat Baraner"
+	desc = "POLITICS_RESAT_FUAT_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Resad_Fuad.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hikmet Kıvılcımlı"
+	desc = "POLITICS_NAZIM_HIKMET_DESC"
+	picture = "gfx/leaders/TUR/Portrait_TUR_Hikmet_Kivilcimli.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hasan Âli Yücel"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Hasan_Ali.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Fethi Okyar"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Fethi_Okyar.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Celal Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/TUR_Celal_Bayar.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Yusuf Hikmet Bayur"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_TUR_Yusuf_Hikmet_Bayur.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+### Corps Commander - rest of the generals are in the event file
+
+create_corps_commander = {
+	name = "Ali İhsan Sabis"
+	id = 678
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_Ali_Ihsan.tga"
+	traits = {
+		trait_reckless
+		trait_engineer
+		fortress_buster
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+### Navy Leader
+create_navy_leader = {
+	name = "Necip Fazıl Kısakürek"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Necip_Fazil.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Nâzım Hikmet Ran"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Nazim_Hikmet.tga"
+	traits = {
+	}
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Şükrü Okan"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Sukru.tga"
+	traits = {
+	}
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "Hüseyin Rauf Orbay"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Huseyin_Rauf.tga"
+	traits = {
+		superior_tactician
+	}
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Mahmud Muhtar Katırcıoğlu"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/TUR/Portrait_OTT_NAV_Mahmud_Muhtar.tga"
+	traits = {
+		seawolf
+	}
+	skill = 1
+}

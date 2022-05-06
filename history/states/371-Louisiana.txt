@@ -1,0 +1,38 @@
+
+state={
+	id=371
+	name="STATE_371"
+	resources={
+		oil=81.000
+	}
+
+	history={
+		owner = TEX
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = TEX
+		victory_points = {
+			12401 10 
+		}
+		victory_points = {
+			4522 2 
+		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
+
+	}
+
+	provinces={
+		1528 1559 1643 4507 4522 4535 7555 7599 12313 12398 12401 
+	}
+	manpower=2246000
+	buildings_max_level_factor=1.000
+	state_category=six
+}

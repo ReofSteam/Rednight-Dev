@@ -1,0 +1,120 @@
+﻿###########################
+# Romania Events
+###########################
+
+add_namespace = rom
+
+
+country_event = {
+	id = rom.1 #intro
+    title = rom.1.t
+    desc = rom.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.1.a 
+		add_political_power = 50
+	}
+
+}
+
+
+country_event = {
+	id = rom.50 #new appointment in the Banat
+    title = rom.1.t
+    desc = rom.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.1.a 
+		BNT = {
+		country_event = bnt.2
+		create_country_leader = {
+	name = "Sabin Manuilă"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/ROM/ROM_Manuila.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+		
+	}
+}
+	}
+	    SER = {
+		country_event = SER.50
+		}
+}
+	option = {
+		name = rom.1.b
+		BNT = {
+		country_event = bnt.3
+	}
+	}
+}
+
+country_event = {
+	id = rom.51
+    title = rom.51.t
+    desc = rom.51.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.51.a 
+		release = MOL
+		declare_war_on = {
+        target = MOL
+        type = annex_everything
+}
+	}
+
+}
+country_event = {
+	id = rom.52 
+    title = rom.52.t
+    desc = rom.52.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	immediate = {
+	start_civil_war = {
+    ideology = autocratic
+    size = 0.3
+    keep_unit_leaders = {
+    }
+    keep_political_leader = yes
+}
+	}
+	
+	option = {
+		name = rom.52.a 
+		add_political_power = 50
+every_enemy_country = {
+limit = {
+has_civil_war = yes 
+original_tag = ROM
+}		
+	set_cosmetic_tag = ROM_national_salvation_war
+	set_party_name = { 
+    ideology = autocratic 
+    long_name = ROM_national_salvation_long 
+    name = ROM_national_salvation 
+}
+}		
+	}
+
+}
+country_event = {
+	id = rom.53
+    title = rom.53.t
+    desc = rom.53.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = rom.53.a 
+		add_political_power = 50
+	}
+
+}

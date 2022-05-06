@@ -1,0 +1,331 @@
+﻿add_namespace = misc
+
+
+country_event = {    ######Black Fleet Raid
+	id = misc.1
+	title = misc.1.t
+	desc = misc.1.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.1.a
+	    add_timed_idea = {
+        idea = GEA_raider_struck
+        days = 30
+}
+	}
+}
+
+
+country_event = {    ######Raid Failed
+	id = misc.2
+	title = misc.2.t
+	desc = misc.2.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.2.a
+	    	add_manpower = -10
+}
+	}
+
+
+
+country_event = {    ######Captain Glassner Raid
+	id = misc.3
+	title = misc.3.t
+	desc = misc.3.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.3.a
+		add_political_power = -0.05
+}
+	}
+	
+	######Demobilisation
+country_event = {    
+	id = misc.4
+	title = misc.4.t
+	desc = misc.4.d
+	picture = GFX_sinking_ship
+    hidden = yes
+	is_triggered_only = yes
+     
+	immediate = {
+	}
+
+	option = {
+		name = misc.4.a
+		trigger = { NOT = { has_country_flag = demobilisation_by_narrative } }
+		
+    if = { limit = {
+		has_war = no
+		has_idea = reservist_people_war
+		num_divisions > 5
+		is_major = no
+	} 
+	country_event = misc.5
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.35	
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = reservist_people_war
+		num_divisions > 15
+		is_major = yes
+	} 
+	country_event = misc.5	
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.35
+    }
+	demobilisation_35_percent_refund = yes
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = large_reservist_force
+		num_divisions > 5
+		is_major = no
+	} 
+	country_event = misc.5	
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+	demobilisation_25_percent_refund = yes
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = large_reservist_force
+		num_divisions > 15
+		is_major = yes
+	} 
+    country_event = misc.5
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+	demobilisation_25_percent_refund = yes	
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}	
+    else_if = { limit = {
+		has_war = no
+		has_idea = medium_reservist_force
+		num_divisions > 5
+		is_major = no
+	} 
+	country_event = misc.5
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.1
+    }
+	demobilisation_10_percent_refund = yes
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+
+    else_if = { limit = {
+		has_war = no
+		has_idea = medium_reservist_force
+		num_divisions > 15
+		is_major = yes
+	} 
+	country_event = misc.5
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.25
+    }
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}	
+	
+    else_if = { limit = {
+		has_war = no
+		NOT = { OR = {
+		has_idea = medium_reservist_force
+		has_idea = large_reservist_force
+		has_idea = reservist_people_war
+		}
+		}
+		num_divisions > 20
+	} 
+	country_event = misc.5
+	start_civil_war = {
+    ideology = nationalist_socialism
+    size = 0.1
+    }
+	demobilisation_10_percent_refund = yes	
+    every_enemy_country = {
+    limit = {
+    has_civil_war = yes 
+    original_tag = ROOT
+    }
+	white_peace = ROOT
+	}		
+	}
+	else = {
+	army_experience = 5
+	}
+	
+		
+	country_event = {
+	id = misc.4
+	days = 365
+	}		
+}
+    option = {
+	    name = misc.4.b
+		trigger = { has_country_flag = demobilisation_by_narrative } 
+	country_event = {
+	id = misc.4
+	days = 365
+	}		 
+	}
+}	
+
+######Demobilisation Notice
+country_event = {    
+	id = misc.5
+	title = misc.5.t
+	desc = misc.5.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.5.a
+		add_political_power = 5
+		army_experience = 5
+}
+	}
+
+######End of Major War	
+country_event = {    
+	id = misc.6
+	title = misc.6.t
+	desc = misc.6.d
+	picture = GFX_sinking_ship
+
+	is_triggered_only = yes
+
+	option = {
+		name = misc.6.a
+		if = { limit = { has_idea = scraping_the_barrel }
+	    swap_ideas = {
+        remove_idea = scraping_the_barrel
+        add_idea = volunteer_only
+}	
+    	start_civil_war = {
+        ideology = nationalist_socialism
+        size = 0.75
+    }
+	    demobilisation_75_percent_refund = yes
+        every_enemy_country = {
+        limit = {
+        has_civil_war = yes 
+        original_tag = ROOT
+    }
+	    white_peace = ROOT
+	}
+		}
+		else_if = { limit = { has_idea = service_by_requirement }
+	    swap_ideas = {
+        remove_idea = service_by_requirement
+        add_idea = limited_conscription
+}	
+    	start_civil_war = {
+        ideology = nationalist_socialism
+        size = 0.5
+    }
+        demobilisation_50_percent_refund = yes	
+        every_enemy_country = {
+        limit = {
+        has_civil_war = yes 
+        original_tag = ROOT
+    }
+	    white_peace = ROOT
+	}
+		}
+		else_if = { limit = { has_idea = all_adults_serve }
+	    swap_ideas = {
+        remove_idea = all_adults_serve
+        add_idea = limited_conscription
+}	
+    	start_civil_war = {
+        ideology = nationalist_socialism
+        size = 0.65
+    }
+	    demobilisation_65_percent_refund = yes
+        every_enemy_country = {
+        limit = {
+        has_civil_war = yes 
+        original_tag = ROOT
+    }
+	    white_peace = ROOT
+	}
+		}		
+		else_if = { limit = { has_idea = extensive_conscription }
+	    swap_ideas = {
+        remove_idea = extensive_conscription
+        add_idea = limited_conscription
+}	
+		}
+	add_idea = no_reservist_force	
+    remove_ideas = {
+         small_reservist_force
+         medium_reservist_force
+		 large_reservist_force
+		 reservist_people_war
+	}		
+}
+	}	
+	

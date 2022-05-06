@@ -1,0 +1,183 @@
+﻿capital = 446
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_submarine = 1
+	early_destroyer = 1
+}
+
+add_ideas = {
+
+}
+
+set_convoys = 50
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1931.10.16"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalist_socialism = 2
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 8
+	social_liberal = 16	
+	social_conservative = 62
+	authoritarian_democrat = 7
+	autocratic = 5
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+set_country_flag = banned_syndicalism
+set_country_flag = banned_revolutionary_socialism
+set_country_flag = banned_moderate_socialist
+set_country_flag = banned_national_corporatist
+set_country_flag = banned_ultrasocial_conservative
+
+
+create_faction = "Cairo Agreement"
+add_to_faction = EGY
+add_to_faction = ARA
+add_to_faction = LBA
+add_to_faction = OMA
+add_to_faction = YEM
+add_to_faction = KUR
+
+###############################
+########### LEADERS ###########
+# gfx/leaders/CAIRO_PACT/EGY/ #
+###############################
+
+create_country_leader = {
+	name = "Gamal Abdel Nasser"
+	desc = ""
+	picture = "gfx/leaders/CAIRO_PACT/UAR/UAR_Gamal_Abdel_Nasser.dds"
+	ideology = nationalist_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Youssef Darwish"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Shuhdi Atiyya ash-Shafi"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = syndicalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Khaled Mohieddin"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = moderate_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Farouk I"
+	desc = ""
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Farouk I"
+	desc = ""
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Farouk I"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Farouk I"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Farouk I"
+	desc = "POLITICS_EGY_FAROUK_DESC"
+	picture = "gfx/leaders/CAIRO_PACT/EGY/Hot_Farouk.tga"
+	ideology = autocratic_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Hassan al-Banna"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = ultraconservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Said Ramadan"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = ultraconservative_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Ahmed Husayn"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = national_corporatist_subtype
+	traits = {
+		#
+	}
+}

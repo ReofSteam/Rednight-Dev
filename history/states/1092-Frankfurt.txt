@@ -1,0 +1,25 @@
+state={
+	id=1092
+	name="STATE_1092"
+	state_category=six
+	history={
+		owner = FOZ
+		add_core_of = FOZ
+		victory_points = {
+			6488 20 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		1981.1.1 = {
+		owner = GNR
+		add_core_of = GNR
+}	
+	}
+	provinces={
+		589 3574 6444 6488 9486 
+	}
+	manpower=750840
+	buildings_max_level_factor=1.000
+}

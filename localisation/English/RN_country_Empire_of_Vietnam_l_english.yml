@@ -1,0 +1,122 @@
+﻿l_english:
+
+### Country Name ###
+EVN_social_nationalist:0 "Empire of Annam"
+EVN_social_nationalist_ADJ:0 "Annamese"
+EVN_social_nationalist_DEF:0 "the Empire of Annam"
+
+EVN_marxist:0 "Empire of Annam"
+EVN_marxist_ADJ:0 "Annamese"
+EVN_marxist_DEF:0 "the Empire of Annam"
+
+EVN_libertarian:0 "Empire of Annam"
+EVN_libertarian_ADJ:0 "Annamese"
+EVN_libertarian_DEF:0 "the Empire of Annam"
+
+EVN_moderate_socialist:0 "Empire of Annam"
+EVN_moderate_socialist_ADJ:0 "Annamese"
+EVN_moderate_socialist_DEF:0 "the Empire of Annam"
+
+EVN_social_democrat:0 "Empire of Annam"
+EVN_social_democrat_ADJ:0 "Annamese"
+EVN_social_democrat_DEF:0 "the Empire of Annam"
+
+EVN_social_liberal:0 "Empire of Annam"
+EVN_social_liberal_ADJ:0 "Annamese"
+EVN_social_liberal_DEF:0 "the Empire of Annam"
+
+EVN_conservative:0 "Empire of Annam"
+EVN_conservative_ADJ:0 "Annamese"
+EVN_conservative_DEF:0 "the Empire of Annam"
+
+EVN_authoritarian_democrat:0 "Empire of Annam"
+EVN_authoritarian_democrat_ADJ:0 "Annamese"
+EVN_authoritarian_democrat_DEF:0 "the Empire of Annam"
+
+EVN_autocratic:0 "Empire of Annam"
+EVN_autocratic_ADJ:0 "Annamese"
+EVN_autocratic_DEF:0 "the Empire of Annam"
+
+EVN_fundamentalist:0 "Empire of Annam"
+EVN_fundamentalist_ADJ:0 "Annamese"
+EVN_fundamentalist_DEF:0 "the Empire of Annam"
+
+EVN_voynist:0 "Empire of Annam"
+EVN_voynist_ADJ:0 "Annamese"
+EVN_voynist_DEF:0 "the Empire of Annam"
+
+### Parties ###
+EVN_social_nationalist_party:0 "DCMDD - Indochinese Revolutionary Party"
+EVN_social_nationalist_party_long:0 "Dang Cach Mang Dong Duong"
+
+EVN_marxist_party:0 "DCMDD - Indochinese Revolutionary Party"
+EVN_marxist_party_long:0 "Dang Cach Mang Dong Duong"
+
+EVN_libertarian_party:0 "Empire of Annam"
+EVN_libertarian_party_long:0 "Empire of Annam"
+
+EVN_moderate_socialist_party:0 "DCMDD - Indochinese Revolutionary Party"
+EVN_moderate_socialist_party_long:0 "Dang Cach Mang Dong Duong"
+
+EVN_social_democrat_party:0 "Provisional Imperial Government of Annam"
+EVN_social_democrat_party_long:0 "An Nam De Quoc Lam Thoi Chinh Phu"
+
+EVN_social_liberal_party:0 "Empire of Annam"
+EVN_social_liberal_party_long:0 "Empire of Annam"
+
+EVN_conservative_party:0 "Empire of Annam"
+EVN_conservative_party_long:0 "Empire of Annam"
+
+EVN_authoritarian_democrat_party:0 "Provisional Imperial Government of Annam"
+EVN_authoritarian_democrat_party_long:0 "An Nam De Quoc Lam Thoi Chinh Phu"
+
+EVN_autocratic_party:0 "Provisional Imperial Government of Annam"
+EVN_autocratic_party_long:0 "An Nam De Quoc Lam Thoi Chinh Phu"
+
+EVN_fundamentalist_party:0 "Provisional Imperial Government of Annam"
+EVN_fundamentalist_party_long:0 "An Nam De Quoc Lam Thoi Chinh Phu"
+
+EVN_voynist_party:0 "Provisional Imperial Government of Annam"
+EVN_voynist_party_long:0 "An Nam De Quoc Lam Thoi Chinh Phu"
+
+EVN_Renewal_Society:0 "Renewal Society"
+EVN_Renewal_Society_long:0 "Phuc Hung Hoi"
+
+### Cosmetic Tags ###
+EVIET:0 "Empire of Vietnam"
+EVIET_ADJ:0 "Vietnamese"
+EVIET_DEF:0 "the Empire of Vietnam"
+
+### Opinions ###
+
+### Ideas ###
+
+### Focuses ###
+
+
+### Decisions ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_BUU_LOC_DESC:0 "§YHis Imperial Highness, Prince Nguyen Phuc Buu Loc d'Annam, Regent of the Empire of Annam§!"
+POLITICS_CUONG_DE_DESC:0 "§YHis Imperial Majesty, Emperor Trung Hung d'Annam§!"
+POLITICS_DUY_TAN_DESC:0 "§YHis Imperial Majesty, Emperor Duy Tan d'Annam§!"
+### Tech ###
+
+### Events ###
+evn.1.t:0 "Hai Phong Proclamation"
+evn.1.d:0 "The First Democratic Republic of Vietnam will be reorganised into the 2nd Empire of Annam"
+evn.1.a:0 "Heaven guides your path."
+evn.1.b:0 "Heaven guides our path"
+evn.2.t:0 "A new Mandate of Heaven"
+evn.2.d:0 "They shot Bao Dai, the monsters !"
+evn.2.a:0 "Crown Prince Bao Long - Bao Dai's Heir!"
+evn.2.b:0 "Emperor Duy Tan's 2nd Reign - The Hero returns!"
+evn.2.c:0 "Marquis Cuong De - The Revolutionary fighter!"

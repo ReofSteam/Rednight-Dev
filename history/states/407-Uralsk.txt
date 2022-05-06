@@ -1,0 +1,22 @@
+state = {
+	id = 407
+	name = "STATE_407"
+	manpower = 268572
+
+	state_category = two
+
+	history = {
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = RUS
+		victory_points = {
+			11537 1
+		}
+	}
+
+	provinces = {
+		432 508 566 576 1318 3404 3502 4351 6491 6551 7438 9462 9526 9528 9538 9549 11473 11480 11510 11524 11537 11552
+	}
+}
