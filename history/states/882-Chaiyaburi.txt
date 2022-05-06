@@ -1,0 +1,18 @@
+state = {
+	id = 882
+	name = "STATE_882"
+
+	history = {
+		owner = INC
+		add_core_of = INC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		10330 10356 10456
+	}
+	manpower = 34000
+	state_category = one
+}

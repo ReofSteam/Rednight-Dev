@@ -1,0 +1,280 @@
+﻿
+capital = 202
+add_ideas = {
+
+}
+set_country_flag = skoblin_secondary
+## Cabinet ##
+add_ideas = {
+
+}
+
+oob = "RUR"
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+
+}
+
+set_convoys = 60
+set_stability = 0.2
+set_war_support = 0.2
+
+
+
+set_politics = {	
+	ruling_party = national_corporatist
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 0
+    revolutionary_socialism = 2
+    syndicalism = 0
+    moderate_socialist = 1
+    social_democrat = 4
+    social_liberal = 3
+    social_conservative = 7
+    authoritarian_democrat = 20
+    autocratic = 10
+    ultraconservative = 12
+    national_corporatist = 43
+}
+
+
+add_ideas = {
+	#medium_economy
+}
+
+
+create_country_leader = {
+	name = "Mikhail Tereshchenko"
+	desc = "POLITICS_NIKOLAI_SKOBLIN_DESC"
+	picture = "gfx/leaders/RUS/RUS_Tereshchenko.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+	}
+}
+
+
+####
+# military leaders
+####
+
+create_field_marshal = {
+	name = "Fyodor Tolbukhin"
+	portrait_path = "gfx/leaders/RUS/RUS_Tolbukhin.tga"
+	traits = {
+		career_officer
+		war_hero
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+
+}
+
+create_field_marshal = {
+	name = "Vasily Yushkevich"
+	portrait_path = "gfx/leaders/RUS/RUS_Yushkevich.tga"
+	traits = {
+		war_hero
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+
+}
+
+create_corps_commander = {
+	name = "Fyodor Trukhin"
+	portrait_path = "gfx/leaders/RUS/RUS_Trukhin.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Dmitry Zakutniy"
+	portrait_path = "gfx/leaders/RUS/RUS_Zakutniy.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Ivan Blagoveshensky"
+	portrait_path = "gfx/leaders/RUS/RUS_Blagoveshensky.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "VIktor Maltsev"
+	portrait_path = "gfx/leaders/RUS/RUS_Maltsev.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Sergey Bunyachenko"
+	portrait_path = "gfx/leaders/RUS/RUS_Bunyachenko.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Ivan Galanin"
+	portrait_path = "gfx/leaders/RUS/RUS_Galanin.tga"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Mikhail Gerasimov"
+	portrait_path = "gfx/leaders/RUS/RUS_Gerasimov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Vasiliy Glazunov"
+	portrait_path = "gfx/leaders/RUS/RUS_Glazunov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Nikolai Baranov"
+	portrait_path = "gfx/leaders/RUS/RUS_Baranov.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Ivan Isakov"
+	picture = "RUS_Isakov.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Ivan Kolyshkin"
+	picture = "RUS_Kolyshkin.tga"
+	traits = { }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Aleksander Monastyriev"
+	picture = "RUS_FictionalAdmiral.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 3
+	coordination_skill = 2
+}
+
+####Variants
+
+### Ship Variants ###
+	create_equipment_variant = {
+		name = "Series I Debakrist"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Series IX Srednyaya"
+		type = submarine_2
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+	create_equipment_variant = {
+		name = "Lavr Kornilov Class"
+		type = destroyer_1
+		upgrades = {
+			ship_torpedo_upgrade = 3
+			destroyer_engine_upgrade = 3
+			ship_ASW_upgrade = 3
+			ship_anti_air_upgrade = 3
+		}
+	}

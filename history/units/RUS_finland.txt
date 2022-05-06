@@ -1,0 +1,103 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Strelkovaya Diviziya"			# Rifle Division
+	division_names_group = RUS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 	
+		engineer = { x = 0 y = 1 } 	
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+division_template = {
+	name = "NVS Combat Brigade"
+	division_names_group = RUS_INF_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}	
+}
+
+division_template = {
+	name = "Rifle Brigade"			
+	division_names_group = RUS_INF_03
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 	
+	}
+}
+	#####################
+	
+units = {
+### Land ###
+
+	division = {
+		name = "3rd Infantry Division"
+		location = 11105
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+	division = {
+		name = "35th Infantry Division"
+		location = 9094
+		division_template = "Strelkovaya Diviziya"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Petrograd NVS Brigade"
+		location = 11162
+		division_template = "NVS Combat Brigade"
+		start_experience_factor = 0.1
+	}	
+	division = {
+		name = "3rd Karelia NVS Brigade"
+		location = 11105
+		division_template = "NVS Combat Brigade"
+		start_experience_factor = 0.1
+	}		
+	division = {
+		name = "1st Finland Rifle Brigade"
+		location = 103
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "2nd Finland Rifle Brigade"
+		location = 6142
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "3rd Finland Rifle Brigade"
+		location = 193
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.2
+	}	
+	division = {
+		name = "4th Finland Rifle Brigade"
+		location = 11105
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.2
+	}		
+}
+	

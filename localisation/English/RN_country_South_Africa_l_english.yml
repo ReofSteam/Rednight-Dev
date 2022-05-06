@@ -1,0 +1,77 @@
+﻿l_english:
+
+### Parties ###
+SAF_social_nationalist_party:0 "-"
+SAF_social_nationalist_party_long:0 "-"
+SAF_marxist_party:0 "-"
+SAF_marxist_party_long:0 "-"
+SAF_libertarian_party:0 "-"
+SAF_libertarian_party_long:0 "-"
+SAF_moderate_socialist_party:0 "ANC - African National Congress"
+SAF_moderate_socialist_party_long:0 "African National Congress (Umkhonto we Sizwe)"
+SAF_social_democrat_party:0 "ANC - African National Congress"
+SAF_social_democrat_party_long:0 "African National Congress (Reformists)"
+SAF_social_liberal_party:0 "ULP - United Liberal Party"
+SAF_social_liberal_party_long:0 "United Liberal Party"
+SAF_conservative_party:0 "UP - United Party"
+SAF_conservative_party_long:0 "United Party (Traditionalists)"
+SAF_authoritarian_democrat_party:0 "UP - United Party"
+SAF_authoritarian_democrat_party_long:0 "United Party"
+SAF_autocratic_party:0 "Imperial High Command"
+SAF_autocratic_party_long:0 "Imperial High Command"
+SAF_fundamentalist_party:0 "-"
+SAF_fundamentalist_party_long:0 "-"
+SAF_voynist_party:0 "-"
+SAF_voynist_party_long:0 "-"
+
+### Country Name ###
+SAF_social_nationalist:0 "Socialist Republic of South Africa"
+SAF_social_nationalist_ADJ:0 "South African"
+SAF_social_nationalist_DEF:0 "the Socialist Republic of South Africa"
+SAF_marxist:0 "Socialist Republic of South Africa"
+SAF_marxist_ADJ:0 "South African"
+SAF_marxist_DEF:0 "the Socialist Republic of South Africa"
+SAF_libertarian:0 "Socialist Republic of South Africa"
+SAF_libertarian_ADJ:0 "South African"
+SAF_libertarian_DEF:0 "the Socialist Republic of South Africa"
+SAF_moderate_socialist:0 "Socialist Republic of South Africa"
+SAF_moderate_socialist_ADJ:0 "South African"
+SAF_moderate_socialist_DEF:0 "the Socialist Republic of South Africa"
+SAF_social_democrat:0 "South African Republic"
+SAF_social_democrat_ADJ:0 "South African"
+SAF_social_democrat_DEF:0 "the South African Republic"
+SAF_social_liberal:0 "South African Republic"
+SAF_social_liberal_ADJ:0 "South African"
+SAF_social_liberal_DEF:0 "the South African Republic"
+SAF_conservative:0 "South African Republic"
+SAF_conservative_ADJ:0 "South African"
+SAF_conservative_DEF:0 "the South African Republic"
+SAF_authoritarian_democrat:0 "South African Republic"
+SAF_authoritarian_democrat_ADJ:0 "South African"
+SAF_authoritarian_democrat_DEF:0 "the South African Republic"
+SAF_autocratic:0 "South African Republic"
+SAF_autocratic_ADJ:0 "South African"
+SAF_autocratic_DEF:0 "the South African Republic"
+SAF_fundamentalist:0 "South African Republic"
+SAF_fundamentalist_ADJ:0 "South African"
+SAF_fundamentalist_DEF:0 "the South African Republic"
+SAF_voynist:0 "South African Republic"
+SAF_voynist_ADJ:0 "South African"
+SAF_voynist_DEF:0 "the South African Republic"
+
+
+### Focuses ###
+
+### Ideas ###
+SAF_segregation_1:0 "Racial Segregation"
+SAF_segregation_1_desc:0 "Despite the major reforms by the Dominionist government over the years, South Africa is still far from an egalitarian society. The majority race, the blacks, still suffer discrimination - especially in the two Afrikaner states, who are vehemently fighting every attempt by the central government to improve. This seems to be destined to South Africa's major struggle for the next decades."
+
+### Leaders ###
+POLITICS_JAN_SMUTS_DESC:0 "§YGovernor-General of the South African Republic§!\n\nSluts for Smuts"
+
+### Tooltips ###
+
+### Events ###
+saf.1.t:0 "Sweet Banana"
+saf.1.d:0 "The Rhodesian African Rifles, formed in 1946 as part of South Africa's readiness campaign in the leadup to the fall of Germany, have run into an odd sight today. In a joint border mission and training exercise in Katanga, one of the riflemen has run into an odd sight - An Askari eating their lunch. To an outsider this may sound comical, but due to the sharp drop in world trade and huge distances in South Africa, Bananas are completely foreign to the RAR. Partially urged on by some more propaganda-minded officers and partially out of sheer curiosity, the RAR have adopted a new Regimental song: 'Sweet Banana'\n\n Nhowo, pfumo, ne tsvimbo\n <Shield, spear and knobkerrie>\n\n Ndiyo RAR, muhondo ne runyararo\n<That's RAR, in war and peace>\n\n Ndichakutengera sweet banana\n <I will buy you a sweet banana>\n\n Vorbeck, Kabwe ne Lusaka\n <Vorbeck, Kabwe and Lusaka>\n\n Takarwa tikakunda\n <We fought and we conquered>\n\n Federation ne Rhodesia\n <The Federation and Rhodesia>\n\n Takarwa tikakunda\n <We fought and we conquered>\n\n Muhondo, muhondo, muhondo\n <In war, in war, in war>\n\n Muhondo RAR, inorwa nokushinga\n <In war, she fights with bravery>"
+saf.1.a:0 "Well, as long as they're happy..."

@@ -1,0 +1,34 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = ANA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			1005 = {
+				naval_base = 2
+
+			}
+
+
+		}
+		victory_points = {
+			1005 3 
+		}
+		victory_points = {
+			784 5 
+		}
+		add_core_of = ANA
+
+	}
+
+	provinces={
+		784 1005 1119 1122 3788 3876 9861 11792 11860 12013 12016 13122 
+	}
+	manpower=1427903
+	buildings_max_level_factor=1.000
+	state_category=four
+}

@@ -1,0 +1,143 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+bul.1.t:0 "Bulgaria in 1950"
+bul.1.d:0 "Bulgaria in 1950 stands at a crossroads. Whilst the country had been building democratic institutions under the watchful eyes of the agrarians under G.M. Dimitrov, this time of prosperity soon ended when the nationalists led by professor Bogdan Filov couped the government with the help of the tsar and gave almost unlimited power to Boris III, making him the deciding factor in every issue the country faces. While the tsar is by far not the worst choice for leader, many of his decisions have been put into question by his opposition, including the attempts at reconciliation with Greece, the assigning of Hristo Lukov as minister of war and the tolerant approach towards the ethnic turks in Edirne. The government, assigned by Boris, has also made it very clear that a russophilic direction is desirable, but has stated that it will only join the Azov pact if borders with the Kingdom of Yugoslavia and Romania are revisited and redrawn in Sofia’s favour. This has brought on a deadlock in foreign policy, where Belgrade and Bucharest have refused to give up any of the territory they had seized during the Fourth Balkan War. Domestic issues arise aswell, as the ultranationalist National Revolutionary Front, led by Mladen Kiurtchiev has started a guerilla war in the Balkan Mountains, and tensions between workers and business owners in the dockyards of Varna and Burgas have reached a peak. All the while, Boris III has been caught up in several disastrous scandals, which he claims were manufactured by his opposition and the agrarians. In conclusion, Bulgaria in 1950 faces a very interesting set of problems and projects, even while its future is very uncertain."
+bul.1.a:0 "Long Live the Tsar!"
+bul.2.t:0 "Passing of Stambolyiski"
+bul.2.d:0 "Today the former agrarian leader and defacto face of BZNS, Aleksander Stambolyiski passed away in his sleep. While having retired from the party a few years prior, he had remained one of the most trusted advisors to new agrarian leader G.M. Dimitrov. Who knows what the agrarians are going to do now..."
+bul.2.a:0 "Svetla mu pamet."
+bul.3.t:0 "The Prolet Paper"
+bul.3.d:0 "BZNS' own weekly newspaper has started being published today. With the Prolet Paper, we will be able to spread our political messages throughout the country, along with that, we'd be one step ahead of our opponents, none of which have their own paper just yet."
+bul.3.a:0 "Marvelous."
+bul.4.t:0 "Education Reforms"
+bul.4.d:0 "The time has come to push for reforming the education. It has gone without major change since the reforms passed by Ferdinand I following the Great War. However, those mainly affected our newly acquired lands back then, and had little to no change concerning the education at home. We now look at the rest of the world implementing free and mandatory education for all. How long before we finally get our act together?"
+bul.4.a:0 "For a free public education!"
+bul.5.t:0 "Hristo Lukov Arrested!"
+bul.5.d:0 "Today evidence of former Hristo Lukov's subversive actions has come out. The former army man has long been suspected for harbouring ultra-nationalist views, and it has been uncovered he's the leader of a secret fundamentalist community, the PNV. He was arrested at noon today, and will face trial later on during the week."
+bul.5.a:0 "Finally that bastard will be put to justice!"
+bul.6.t:0 "The Tsar steps in for Lukov"
+bul.6.d:0 "The Tsar has stepped in and officially pardoned Lukov. While it might seem very suspicious, the right to pardon was given to the tsar by the constitution. We have, however, been calling for limiting his powers over the judicial sector for quite some time now and this could be our perfect chance to organise a referendum. Should we go for it?"
+bul.6.a:0 "The tsar be damned, organise the referendum!"
+bul.6.b:0 "We must respect the tsar's opinion, he's what is keeping this country in one piece."
+
+### Parties ###
+
+BUL_social_nationalist_party:0 "BSP"
+BUL_social_nationalist_party_long:0 "Social Nationalist Wing of BSP"
+BUL_marxist_party:0 "BSP"
+BUL_marxist_party_long:0 "Marxist Wing of BSP"
+BUL_libertarian_party:0 "BSP"
+BUL_libertarian_party_long:0 "Libertarian Wing of BSP"
+BUL_moderate_socialist_party:0 "DSP"
+BUL_moderate_socialist_party_long:0 "Democratic Socialist Party"
+BUL_social_democrat_party:0 "BZNS"
+BUL_social_democrat_party_long:0 "Agrarians"
+BUL_social_liberal_party:0 "LM"
+BUL_social_liberal_party_long:0 "Liberal Motherland"
+BUL_conservative_party:0 "DC"
+BUL_conservative_party_long:0 "Democratic Consensus"
+BUL_authoritarian_democrat_party:0 "OOR - Organisation for the United Motherland"
+BUL_authoritarian_democrat_party_long:0 "Organisation for the United Motherland"
+BUL_autocratic_party:0 "Hardline Monarchists"
+BUL_autocratic_party_long:0 "Hardline Monarchists"
+BUL_fundamentalist_party:0 "PNV"
+BUL_fundamentalist_party_long:0 "Party for National Supremacy"
+BUL_voynist_party:0 "NVF"
+BUL_voynist_party_long:0 "National Voynist Front"
+
+### Country Name ###
+
+BUL_social_nationalist:0 "Republic of Bulgaria"
+BUL_social_nationalist_ADJ:0 "Bulgarian"
+BUL_social_nationalist_DEF:0 "the Republic of Bulgaria"
+BUL_marxist:0 "Republic of Bulgaria"
+BUL_marxist_ADJ:0 "Bulgarian"
+BUL_marxist_DEF:0 "the Republic of Bulgaria"
+BUL_moderate_socialist:0 "Republic of Bulgaria"
+BUL_moderate_socialist_ADJ:0 "Bulgarian"
+BUL_moderate_socialist_DEF:0 "the Republic of Bulgaria"
+BUL_social_democrat:0 "Tsardom of Bulgaria"
+BUL_social_democrat_ADJ:0 "Bulgarian"
+BUL_social_democrat_DEF:0 "the Tsardom of Bulgaria"
+BUL_social_liberal:0 "Tsardom of Bulgaria"
+BUL_social_liberal_ADJ:0 "Bulgarian"
+BUL_social_liberal_DEF:0 "the Tsardom of Bulgaria"
+BUL_conservative:0 "Tsardom of Bulgaria"
+BUL_conservative_ADJ:0 "Bulgarian"
+BUL_conservative_DEF:0 "the Tsardom of Bulgaria"
+BUL_authoritarian_democrat:0 "Tsardom of Bulgaria"
+BUL_authoritarian_democrat_ADJ:0 "Bulgarian"
+BUL_authoritarian_democrat_DEF:0 "the Tsardom of Bulgaria"
+BUL_autocratic:0 "Bulgaria"
+BUL_autocratic_ADJ:0 "Tsardom of Bulgaria"
+BUL_autocratic_DEF:0 "the Tsardom of Bulgaria"
+BUL_fundamentalist:0 "Tsardom of Bulgaria"
+BUL_fundamentalist_ADJ:0 "Bulgarian"
+BUL_fundamentalist_DEF:0 "the Tsardom of Bulgaria"
+BUL_voynist:0 "Republic of Bulgaria"
+BUL_voynist_ADJ:0 "Bulgarian"
+BUL_voynist_DEF:0 "the Republic of Bulgaria"
+
+### Focuses ###
+
+BUL_legacy_of_stambolyiski:0 "Stambolyiski's Legacy"
+BUL_establish_new_museums:0 "Establish New Museums"
+BUL_education_reforms:0 "Education Reforms"
+BUL_creation_of_the_prolet_paper:0 "Creation of the Prolet Paper"
+BUL_jail_lukov:0 "Jail Lukov"
+BUL_respect_the_tsars_authority:0 "Respect the Tsar's Authority"
+BUL_referendum_on_the_judicial_sector:0 "Referendum on the Judicial Sector"
+BUL_appoint_new_judges:0 "Appoint New Judges"
+BUL_revoke_the_censorship_law:0 "Revoke the Censorship Law"
+BUL_simply_a_symbolic_figure:0 "Simply a Symbolic Figure"
+BUL_develop_industry_in_plovdiv:0 "Develop Industry in Plovdiv"
+BUL_develop_industry_in_ruse:0 "Develop Industry in Ruse"
+BUL_industrial_expansion_in_the_sofia_region:0 "Industrial Expansion in Sofia"
+BUL_employ_the_former_farmers:0 "Employ the Former Farmers"
+BUL_compensate_the_remaining_farmers:0 "Compensate the Remaining Farmers"
+BUL_finish_industrialisation:0 "Finish the Industrialisation"
+BUL_befriend_the_tsar:0 "Befriend the Tsar"
+BUL_joint_statements:0 "Joint Statements"
+BUL_the_tsar_must_be_able_to_propose:0 "The Tsar Must be Able to Propose!"
+BUL_the_tsar_must_be_able_to_veto:0 "The Tsar Must Be Able to Veto!"
+BUL_preparation_for_the_1953_elections:0 "Preparation for the 1953 Elections"
+ 
+### Ideas ###
+BUL_the_last_central_power:0 "The Last Central Power"
+BUL_the_last_central_power_desc:0 "We are the last bastion of the old order in Europe. The rest of the former Central Powers have all but crumbled under their own weight, only Bulgaria retains their legacy now."
+BUL_early_stages_of_industrialisation:0 "Early Stages of Industrialisation"
+BUL_early_stages_of_industrialisation_desc:0 "With significant help from foreign advisors, our economy is beginning to industrialise. This is not to the liking of our rural population however,as mechanised agriculture also comes into development."
+BUL_substantial_turkish_minority:0 "Substantial Turkish Minority"
+BUL_substantial_turkish_minority_desc:0 "Since the annexation of Edirne, the Turkish people in the region haven’t stopped being a nuiscance to their new Bulgarian administration. Many of them openly call for autonomy and, god forbid, equal rights. Whatever solution we may find, we must solve this problem quickly."
+BUL_irredentist_approach:0 "Irredentist Approach"
+BUL_irredentist_approach_desc:0 "After the Great War, our country became truly great, the hegemon of the balkans people called it. Almost all of our nationalist dreams were fulfilled and prosperity and growth soon followed. This, however, was quickly put to a stop once the vultures in Athens and Bucharest recovered for the war and came for rightful bulgarian territory. We have been stripped of Dobrudja, Southern Macedonia and Pomoravie, our main priorities should be getting them back, through peaceful means if possible, violent if necessary."
+ 
+### Flags ###
+
+### Tooltips ###
+
+1_BUL_tt:0 "§BThis focus will enable decisions allowing the establishment of new museums and cultural hubs§!"
+2_BUL_tt:0 "§BAfter the completion of this focus, you will periodically get events increasing your party popularity and stability§!"
+
+### Decisions ###
+
+BUL_upgrade_the_national_history_museum:0 "Upgrade the National History Museum"
+BUL_found_the_national_history_museum:0 "Found the National History Museum"
+BUL_establish_the_national_naval_museum_in_varna:0 "Establish the National Naval Museum in Varna"
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+POLITICS_BORIS_III_DESC:0 "§YTsar of the Bulgarians§!\n\nBoris Clement Robert Mary Pius Louis Stanislaus Xavier, or Boris III for short, was born to Marie-Louise of Bourbon-Parma and Ferdinand I, the first tsar of Bulgaria. Boris has been tsar since his father abdicated following the catastrophe that was the Fourth Balkan War. Calm and benevolent, the tsar is beloved by the public. The fact he's so popular has made him some enemies however, such as the agrarians, led by G.M. Dimitrov who have been calling for stripping him of his rights over the judicial sector for some time now. He is also criticised by his opposition for associating himself with authoritarian types like Hristo Lukov and Bogdan Filov, but that has also gone unnoticed by the general public."
+POLITICS_MLADEN_KIURTCHIULEV_DESC:0 "Mladen Penkov Kiurtchiev was born in Tarnovo to a middle-class family. Young and patriotic, he volunteered in the army at age 16, lying about his age in order to get accepted. Through hard work and strong will, he quickly rose up the ranks, being accepted in the special forces at age 21. During the Fourth Balkan War however, he was sent directly to the front, where he performed extremely well. After the catastrophic end of the war, Kiurtchiev left the army and started taking interest in Boris Savinkov's ideological line of thought. Soon after, he created the NRF (National Evolutionary Front), which was almost immedeately declared illegal and began being persecuted. It seems, however, that the National Front has finally prevailed and its armies march in Tarnovo ready to combat any threat, under the watchful eye of the Great Haidut, Mladen Kiurtchiev."
+
+### Tech? ###

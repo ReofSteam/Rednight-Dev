@@ -1,0 +1,394 @@
+characters={
+	INS_sukarno ={
+		name="Sukarno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_sukarno.png"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=authoritarian_democrat_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_hatta ={
+		name="Mohammad Hatta"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Hatta.png"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=authoritarian_democrat_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}	
+	INS_tan_malaka ={
+		name="Tan Malaka"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Tan_Malaka.png"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=nationalist_socialism_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_semaoen ={
+		name="Semaoen"
+		portraits={
+			civilian={
+				large="gfx/Leaders/INS/INS_Semaoen.png"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=revolutionary_socialism_subtype
+			expire="1970.6.21.1"
+			id=-1
+		}
+	}
+	INS_sjafruddin_prawiranegara ={
+		name="Sjafruddin Prawiranegara"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
+			}
+		}
+		advisor={
+			slot = minister_economy
+			idea_token = INS_sjafruddin_prawiranegara
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+	INS_hadji_agus_salim  ={
+		name="Hadji Agus Salim "
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
+			}
+		}
+		advisor={
+			slot = minister_foreign
+			idea_token = INS_hadji_agus_salim
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+	INS_hadji_agus_salim2  ={
+		name="Hadji Agus Salim "
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_prawiranegara.png"
+			}
+		}
+		advisor={
+			slot = minister_interior
+			idea_token = INS_hadji_agus_salim2
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Soemohardjo ={
+		name="Oerip Soemohardjo"
+		portraits={
+			army = {
+				large = "gfx/leaders/INS/INS_Soemohardjo.png"			
+				small = "gfx/ministers/INS/INS_minister_Soemohardjo.png"
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Soemohardjo
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Martaatmaja ={
+		name="Hidayat Martaatmaja"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Martaatmaja.png"
+				large = "gfx/leaders/INS/INS_Martaatmaja.png"
+				
+			}
+		}
+		
+		corps_commander = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Martaatmaja
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Soedirman ={
+		name="Soedirman"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Soedirman.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"				
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+		advisor={
+			slot = army_chief
+			idea_token = INS_Soedirman
+			cost = 150
+			
+			available  = {
+
+			}
+			allowed  = {
+				original_tag  = INS
+			}
+			traits  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+	INS_Djatikusumo ={
+		name="G.P.H Djatikusumo"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Djatikusumo.png"	
+			}
+		}
+		
+		corps_commander = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Nasution ={
+		name="Nasution"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Nasution.png"	
+			}
+		}
+		
+		corps_commander = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Simatupan ={
+		name="T.B Simatupan"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		corps_commander = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Moestopo ={
+		name="Moestopo"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		corps_commander = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Soeprijadi ={
+		name="Soeprijadi"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Soepeno ={
+		name="Bambang Soepeno"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+	INS_Arifin ={
+		name="Zainul Arifin"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}	
+	INS_Kawilarang ={
+		name="Alex Evert Kawilarang"
+		portraits={
+			army = {
+				small = "gfx/ministers/INS/INS_minister_Djatikusumo.png"
+				large = "gfx/leaders/INS/INS_Soedirman.png"	
+			}
+		}
+		
+		field_marshal = {
+			traits = { war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}	
+		
+	}
+}

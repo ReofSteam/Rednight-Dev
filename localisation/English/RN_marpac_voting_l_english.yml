@@ -1,0 +1,13 @@
+﻿l_english:
+marpac_council_name:0 "§G[?ROOT.selected_marpac.GetName]§!"
+marpacnews.t:0 "[GetNewsHeadline]"
+marpac.1.t:0 "Called the Assembly to Vote" 
+marpac.2.t:0 "vote check"
+marpac.3.d:0 "Vote passed"
+marpacnews.a:0 "Long live the Socialist International!"
+marpac.4.d:0 "Vote not passed"
+marpac_current_motion:0 "[GetMARPACMotionName]\n\n\n\n\n\n\n\n\n\n\n\n\n"
+MARPAC_resolution_51:0 "§RResolution 51§!: Authorisation of Joint-Military Measures against Counter-Revolutionary Forces in North and West Africa\n\nProposed: §G[FRA.GetName]§!\n\nSince the §YFrench Proletarian Revolution§!, a large number of counter-revolutionaries have fled the continents to the African colonies and rebult their base there. After the §YPlan Starlight§! in 1947, the united military of the workers states of Europe have dispersed them, under the pretext of humanitarian reasons we have allowed the emigres and colonists a period of evacuation of 1 years, due to concerns elsewhere the French Republic as head of the §YArmistice Commission§! have not enforced this limit harshly, but the counter-revolutionaries have repeatedly delayed the disarmament date and test our limit. The §G[FRA.GetName]§Y proposes to the §YExecutive Council§Y to launch a mlitary operation against the exiles."
+marpac_name:0 "§Y[THIS.GetName]§!"
+marpac_against_button:0 "§RVote against this motion§!"
+marpac_for_button:0 "§GSupport this motion§!"

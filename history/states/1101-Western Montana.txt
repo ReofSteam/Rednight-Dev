@@ -1,0 +1,21 @@
+state={
+	id=1101
+	name="STATE_1101"
+	provinces={
+		  4838 12676 
+	}
+	history = {
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			infrastructure = 4
+		}
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}			
+	}
+	manpower=300000
+	state_category = two
+	buildings_max_level_factor=1.000
+}

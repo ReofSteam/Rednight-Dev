@@ -1,0 +1,111 @@
+on_actions = {
+	#FROM is the nuked state. 
+	on_nuke_drop = {
+		effect = {
+		FROM = {
+		state_event = {
+        id = nuke_clear.1
+		days = 3
+		trigger_for = controller
+}			
+}
+		FROM = {
+		set_demilitarized_zone = yes
+		}
+		fixed_random_seed = no
+		random_list = {
+		10 = {
+			every_country = { 
+			delete_unit = { state = FROM } 
+			}
+		}	
+		90 = { }		
+		}
+		}
+	}
+on_startup = { 
+effect = {
+    RUS = {
+	set_country_flag = demobilisation_by_narrative
+	add_named_threat = { 
+    threat = 10 
+    name = after_the_war
+}
+	}
+    FRA = {
+	add_named_threat = { 
+    threat = 10 
+    name = after_the_war
+}
+	}	
+	
+	every_country = {
+	if = {
+	      limit = { 
+	is_ai = no
+	NOT = { 
+       	tag = CSA
+    	tag = CAL
+    	tag = CAN
+	    tag = QUE
+	    tag = WCN
+	}
+	}
+	set_country_flag = show_intro_menu
+    }
+	if = { 
+	limit = { is_marpac_executive = yes }
+	RN_faction_power_calculation = yes
+	country_event = {
+	id = marpac.0
+	}	
+	}
+	country_event = {
+	id = misc.4
+	days = 365
+	}
+	}
+	CAL = { 
+	add_named_threat = { 
+    threat = 5 
+    name = after_the_civil_war
+}	
+}	
+	CSA = {
+	news_event = worldnews.3
+	add_named_threat = { 
+    threat = 5 
+    name = after_the_civil_war
+}	
+	}
+	
+	
+}
+  }
+  
+#ROOT is winner #FROM is loser  
+on_peaceconference_ended = { 
+   effect = { 
+   if = { limit = {
+   ROOT = { OR = { 
+   has_idea = extensive_conscription
+   has_idea = service_by_requirement
+   has_idea = all_adults_serve
+   has_idea = scraping_the_barrel
+   }
+   has_war = no   
+   }
+   }
+   ROOT = {
+   set_country_flag = recent_major_war
+   country_event = misc.6
+   }
+   FROM = { 
+   country_event = misc.7
+   }
+   
+   }
+   } 
+}	  
+}	
+

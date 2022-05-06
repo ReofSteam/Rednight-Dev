@@ -1,0 +1,247 @@
+﻿capital = 48
+
+oob = "BUL"
+
+add_ideas = {
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	motorised_infantry = 1
+	early_fighter = 1
+}
+
+set_politics = {	
+	ruling_party = autocratic
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 1
+    revolutionary_socialism = 2
+    syndicalism = 1
+    moderate_socialist = 8
+    social_democrat = 18
+    social_liberal = 9
+    social_conservative = 23
+    authoritarian_democrat = 23
+    autocratic = 7
+    ultraconservative = 3
+    national_corporatist = 5
+}
+
+add_ideas = {
+BUL_the_last_central_power
+BUL_early_stages_of_industrialisation
+BUL_substantial_turkish_minority
+}
+
+
+#Leaders
+
+create_country_leader = {
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Boris III"
+	picture = "gfx/leaders/BUL/BUL_Bors_III.tga"
+	desc = "POLITICS_BORIS_III_DESC"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Hristo Lukov"
+	picture = "gfx/leaders/BUL/BUL_Hristo_Lukov.tga"
+	desc = "POLITICS_HRISTO_LUKOV_DESC"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mladen Kiurtchiulev"
+	picture = "gfx/leaders/BUL/BUL_Mladen_Kiurtchiulev.tga"
+	desc = "POLITICS_MLADEN_KIURTCHIULEV_DESC"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+	}
+}
+
+
+#Field marshal
+create_field_marshal = {
+	name = "Ivan Valkov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Ivan_Valkov.tga"
+	traits = { politically_connected thorough_planner brilliant_strategist }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Nikola Zhekov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Nikola_Zhekov.tga"
+	traits = { war_hero trait_cautious }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vasil Tenev Boydev"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Vasil_Tenev_Boydev.tga"
+	traits = { inflexible_strategist infantry_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vladimir Stoychev"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Vladimir_Stoychev.tga"
+	traits = { cavalry_officer media_personality }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kimon Georgiev"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/Portrait_Bulgaria_Kimon_Georgiev.tga"
+	traits = { infantry_officer skilled_staffer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Pencho Zlatev"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Pencho_Zlatev.tga"
+	traits = { trait_reckless politically_connected cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Atanas Zhilkov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Atanas_Zhilkov.tga"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Vasil Kutinchev"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Vasil_Kutinchev.tga"
+	traits = { old_guard infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hristo Lukov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Hristo_Lukov.tga"
+	traits = { bearer_of_artillery career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Nikola Popov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Nikola_Popov.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Vladimir Zaimov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Vladimir_Zaimov.tga"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Georgi Nikolov Popov"
+	portrait_path = "gfx/leaders/EASTERN_MEDITERRANEAN/BUL/BUL_Georgi_Nikolov_Popov.tga"
+	traits = { defensive_doctrine camouflage_expert }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+

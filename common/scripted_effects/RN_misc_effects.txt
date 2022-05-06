@@ -1,0 +1,422 @@
+### Nuke Effects
+### Written by Me, Reof
+#
+# How to use:
+#
+#	ICBM_attack_destruction = yes
+#	ICBM_attack_weak = yes
+#
+
+ICBM_attack_destruction = {
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
+set_variable = { ROOT.nuclear_name_1 = THIS.id }
+}
+hidden_effect = {
+random_list = { 
+75 = {
+        modifier = {
+            factor = 0.3
+            anti_air_building > 2
+        }	
+        modifier = {
+            factor = 0.2
+            anti_air_building > 3
+        }
+        modifier = {
+            factor = 0.1
+            anti_air_building > 4
+        }		
+	set_state_flag = nuclear_destroyed
+	set_state_category = wasteland
+	add_manpower = -1500000
+	remove_building = {
+    type = infrastructure
+    level = infrastructure_level	
+}	
+	NUC = {
+	set_state_controller = PREV
+	}
+if = {
+    limit = { 
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
+controller = {
+news_event = { 
+id = worldnews.1000
+}
+}	
+}
+}
+25 = {
+add_manpower = -200000	
+if = {
+    limit = {
+	OR = {
+	state = 195 
+	state = 219
+	state = 137
+	state = 202
+	state = 217
+	state = 13
+	state = 214
+	} }
+controller = {
+news_event = { 
+id = worldnews.1001
+}
+}	
+}
+}
+}	
+}
+}
+
+voting_set_up_marpac = {
+		add_to_array = {
+	        array = global.marpac_countries_for
+            value = THIS.id
+		}		
+		add_to_variable = {
+	        var = global.marpac_against_vote
+	        value = 1
+		}
+		add_to_variable = {
+	        var = global.marpac_vote_proposal_country
+	        value = ROOT
+		}
+}
+kill_sergey_taboritsky = {
+hidden_effect = {
+random_list = {
+    25 = {
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
+    }
+    25 = {
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
+    }
+    25 = {
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
+    }
+    25 = {
+    country_event = {
+    id = rustabby.1
+	days = 2
+	}
+    }
+}
+}
+}
+
+FRA_reformeter_check = {
+        set_temp_variable = { temp1 = party_popularity@nationalist_socialism }
+        set_temp_variable = { temp2 = party_popularity@revolutionary_socialism }	
+        set_temp_variable = { temp3 = party_popularity@syndicalism }		
+        set_temp_variable = { temp4 = party_popularity@moderate_socialist }		
+		add_to_temp_variable = { temp1 = temp2 }
+		add_to_temp_variable = { temp1 = temp3 }
+		add_to_temp_variable = { temp1 = temp4 }
+		divide_temp_variable = { temp2 = temp1 }		
+		multiply_temp_variable = { temp2 = 100 }
+		round_temp_variable = temp2
+        set_variable = { FRA_reform_value = temp2 }	
+}
+
+FRA_reformeter_check_2 = {
+        set_temp_variable = { temp1 = party_popularity@nationalist_socialism }
+        set_temp_variable = { temp2 = party_popularity@revolutionary_socialism }	
+        set_temp_variable = { temp3 = party_popularity@syndicalism }		
+        set_temp_variable = { temp4 = party_popularity@moderate_socialist }		
+        set_temp_variable = { temp5 = party_popularity@ruling_party }				
+		add_to_temp_variable = { temp1 = temp2 }
+		add_to_temp_variable = { temp1 = temp3 }
+		add_to_temp_variable = { temp1 = temp4 }
+		divide_temp_variable = { temp5 = temp1 }		
+		multiply_temp_variable = { temp5 = 100 }
+		round_temp_variable = temp5
+        set_variable = { FRA_reform_value2 = temp5 }	
+}
+
+name_variable = {
+set_variable = { nuclear_name = THIS.id }
+}
+
+CSA_convention_effect_modsoc_clause = {
+if = { limit = {
+has_country_flag = SPA_support 
+NOT = { OR = {
+has_country_flag = SDP_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = 15
+}
+else_if = {	
+limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = IWW_support
+}
+} } 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.03
+		}
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.02
+		}
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.01
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_political_power = -30
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = -15
+}	
+}
+
+CSA_convention_effect_syndicalist_clause = {
+if = { limit = {
+has_country_flag = SPA_support
+NOT = { OR = {
+has_country_flag = IWW_support     		
+has_country_flag = SDP_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}
+		add_political_power = 15
+}
+else_if = { limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = SDP_support
+}
+} 
+} 
+		add_political_power = -15
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = -0.02
+		}		
+		add_popularity = {
+		    ideology = nationalist_socialism
+            popularity = -0.01
+		}		
+		add_political_power = 15
+}	
+}
+
+CSA_convention_effect_republican_clause = {
+if = { limit = {
+has_country_flag = SPA_support
+NOT = { OR = {
+has_country_flag = IWW_support     		
+has_country_flag = SDP_support
+}
+} } 
+		add_political_power = -15
+}
+else_if = { limit = {
+has_country_flag = IWW_support
+NOT = { OR = {
+has_country_flag = SPA_support     		
+has_country_flag = SDP_support
+}
+} } 
+		add_political_power = 15
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.03
+		}		
+}
+else_if = {	
+limit = { 
+has_country_flag = IWW_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = syndicalism
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+NOT = { OR = {
+has_country_flag = SPA_support 
+has_country_flag = IWW_support
+}
+}
+} 
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}
+else_if = {	
+limit = { 
+has_country_flag = SDP_support
+has_country_flag = SPA_support
+} 
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.01
+		}		
+		add_popularity = {
+		    ideology = moderate_socialist
+            popularity = -0.02
+		}		
+		add_political_power = 15
+}	
+}
+
+demobilisation_10_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.1 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_25_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.25 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_35_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.35 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:caldemobilisation1
+}
+demobilisation_50_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.5 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}
+
+demobilisation_65_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.65 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:caldemobilisation1
+}
+
+demobilisation_75_percent_refund = {
+		set_temp_variable = { ROOT.caldemobilisation1 = num_equipment_in_armies@infantry_equipment }
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 0.75 }
+		divide_temp_variable = { ROOT.caldemobilisation1 = 150 }
+		round_temp_variable = ROOT.caldemobilisation1
+		multiply_temp_variable = { ROOT.caldemobilisation1 = 1500 }		
+		add_manpower = var:ROOT.caldemobilisation1
+}

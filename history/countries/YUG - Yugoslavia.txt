@@ -1,0 +1,132 @@
+﻿capital = 109
+OOB = "empty"
+set_research_slots = 3
+set_convoys = 50
+
+set_technology = {
+	### Navy ###
+
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	transport = 1
+	####Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = revolutionary_socialism
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_cosmetic_tag = YUG_SFR
+
+set_popularities = {
+    nationalist_socialism = 6
+    syndicalism = 18
+    revolutionary_socialism = 28
+    social_democrat = 15
+    social_liberal = 10
+    social_conservative = 4
+    authoritarian_democrat = 3
+    autocratic = 14
+    national_corporatist = 2
+}
+
+###############################
+#### COALITION AND BANNNED ####
+###### set_country_flag #######
+###### banned_[IDEOLOGY] ######
+##### coalition_[IDEOLOGY] ####
+###############################
+
+set_country_flag = banned_social_liberal
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_democrat
+set_country_flag = banned_autocratic
+set_country_flag = banned_ultrasocial_conservative
+set_country_flag = banned_national_corporatist
+
+set_country_flag = coalition_syndicalism
+set_country_flag = coalition_moderate_socialist
+
+set_stability = 0.75
+
+##########################################
+################# LEADERS ################
+# gfx/leaders/EASTERN_MEDITERRANEAN/YUG/ #
+##########################################
+
+create_country_leader = {
+	name = "Aleksandar Ranković"
+	desc = "POLITICS_ALEKSANDAR_RANKOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Alexander_Ranković.dds"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Josip Broz Tito"
+	desc = "POLITICS_JOSIP_BROZ_TITO_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Josip_Broz_Tito.dds"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Vladimir Ćopić"
+	desc = "POLITICS_VLADIMIR_COPIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Vladimir_Copic.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Federal Chamber"
+	desc = "POLITICS_YUG_FEDERAL_CHAMBER_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Federal_Chamber.dds"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ivan Ribar"
+	desc = "POLITICS_IVAN_RIBAR_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Ivan_Ribar.tga"
+	expire = "1965.1.1"
+	ideology = moderate_socialist_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Ivan Šubašić"
+	desc = "POLITICS_IVAN_SUBASIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Ivan_Šubašić.dds"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = { }
+}
+
+create_country_leader = {
+	name = "Dragoljub Mihailović"
+	desc = "POLITICS_DRAZA_MIHAILOVIC_DESC"
+	picture = "gfx/leaders/EASTERN_MEDITERRANEAN/YUG/YUG_Draza_Mihailovic.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = { }
+}
+

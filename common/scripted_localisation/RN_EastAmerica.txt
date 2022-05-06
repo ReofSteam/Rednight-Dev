@@ -1,0 +1,299 @@
+defined_text = {
+	name = GetCSAOperationName
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_no_operation
+		}
+		localization_key = "CSA_operation_0"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_1
+		}
+		localization_key = "CSA_operation_1"
+	}	
+	text = {
+		trigger = {
+			AND = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_2
+			}
+		}
+		localization_key = "CSA_operation_2"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_3
+		}
+		localization_key = "CSA_operation_3"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_operation_4
+		}
+		localization_key = "CSA_operation_4"
+	}	
+}
+
+defined_text = {
+	name = GetCSARegionName
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+		}
+		localization_key = "CSA_region_ne_name"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ma_selected
+		}
+		localization_key = "CSA_region_ma_name"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_mississippi_selected
+		}
+		localization_key = "CSA_region_mississippi_name"
+	}		
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_satlantic_selected
+		}
+		localization_key = "CSA_region_satlantic_name"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_midwest_selected
+		}
+		localization_key = "CSA_region_midwest_name"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_illinois_selected
+		}
+		localization_key = "CSA_region_illinois_name"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_great_lakes_selected
+		}
+		localization_key = "CSA_region_great_lakes_name"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_south_east_selected
+		}
+		localization_key = "CSA_region_south_east_name"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_mountains_selected
+		}
+		localization_key = "CSA_region_mountains_name"
+	}		
+}
+
+defined_text = {
+	name = GetCSAProgressBar
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation
+			has_country_flag = CSA_cia_no_progress
+		}
+		localization_key = "GFX_CSA_operation_progress_0"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_1
+		}
+		localization_key = "GFX_CSA_operation_progress_1"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_2
+		}
+		localization_key = "GFX_CSA_operation_progress_2"
+	}	
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_cia_active_operation			
+			has_country_flag = CSA_cia_active_operation_3
+		}
+		localization_key = "GFX_CSA_operation_progress_3"
+	}		
+}	
+
+defined_text = {
+	name = GetCSANewEnglandStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+			has_country_flag = CSA_region_ne_national_guard
+		}
+		localization_key = "GFX_CSA_national_guard"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+			has_country_flag = CSA_region_ne_completed
+		}
+		localization_key = "GFX_CSA_cia"
+	}	
+}	
+
+defined_text = {
+	name = GetCSANewEnglandDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+			has_country_flag = CSA_region_ne_national_guard
+		}
+		localization_key = "ne_CSA_national_guard_details"
+	}
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ne_selected
+			has_country_flag = CSA_region_ne_completed
+		}
+		localization_key = "ne_CSA_completed_details"
+	}	
+}
+
+defined_text = {
+	name = GetCSAMountainStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_mountains_selected
+			has_country_flag = CSA_region_mountains_oss
+		}
+		localization_key = "GFX_CSA_oss"
+	}
+}
+
+defined_text = {
+	name = GetCSAMountainDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_mountains_selected
+			has_country_flag = CSA_region_mountains_oss
+		}
+		localization_key = "mountain_CSA_oss_details"
+	}
+}
+
+defined_text = {
+	name = GetCSAMAtlanticStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ma_selected
+			has_country_flag = CSA_region_ma_gdc_guard
+		}
+		localization_key = "GFX_CSA_gdc_guard"
+	}
+}
+
+defined_text = {
+	name = GetCSAMAtlanticDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_ma_selected
+			has_country_flag = CSA_region_ma_gdc_guard
+		}
+		localization_key = "ma_CSA_gdc_guard_details"
+	}
+}
+
+defined_text = {
+	name = GetCSAGreatLakesStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_great_lakes_selected
+		}
+		localization_key = "GFX_CSA_cia"
+	}
+}
+
+defined_text = {
+	name = GetCSAGreatLakesDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_great_lakes_selected
+		}
+		localization_key = "great_lakes_CSA_safe_details"
+	}
+}
+
+
+defined_text = {
+	name = GetCSAIllinoisStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_illinois_selected
+		}
+		localization_key = "GFX_CSA_cia"
+	}
+}
+defined_text = {
+	name = GetCSAIllinoisDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_illinois_selected
+		}
+		localization_key = "illinois_CSA_safe_details"
+	}
+}
+
+defined_text = {
+	name = GetCSASAtlanticStatus
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_satlantic_selected
+			has_country_flag = CSA_region_satlantic_klan
+		}
+		localization_key = "GFX_CSA_klan"
+	}
+}
+
+defined_text = {
+	name = GetCSASAtlanticDetails
+	text = {
+		trigger = {
+			original_tag = CSA
+			has_country_flag = CSA_region_satlantic_selected
+			has_country_flag = CSA_region_satlantic_klan
+		}
+		localization_key = "satlantic_CSA_klan_details"
+	}
+}

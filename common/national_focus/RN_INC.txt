@@ -1,0 +1,255 @@
+focus_tree = {
+	id = INC
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = INC
+		}
+	}
+	focus = {
+		id = INC_the_new_parliament
+		icon = GFX_INC_parliament
+		x = 12
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_PNI_national_congress
+		icon = GFX_INC_PNI_congress
+		x = 12
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = INC_the_new_parliament
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_toward_the_new_revolution
+		icon = GFX_INC_nguyen_duc_canh
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = {
+			focus = INC_a_union_of_patriots
+		}
+		mutually_exclusive = {
+			focus = INC_defend_the_republican_dream
+		}			
+		prerequisite = {
+			focus = INC_PNI_national_congress
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_adhere_to_the_paris_charter
+		icon = GFX_goal_generic_soviet_construction
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes			
+		prerequisite = {
+			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_against_chauvinism_against_dai_viet
+		icon = GFX_goal_generic_soviet_construction
+		x = 7
+		y = 4
+		cost = 10
+		available_if_capitulated = yes			
+		prerequisite = {
+			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}				
+	focus = {
+		id = INC_defend_the_republican_dream
+		icon = GFX_INC_ho_tung_mau
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = {
+			focus = INC_a_union_of_patriots
+		}
+		mutually_exclusive = {
+			focus = INC_toward_the_new_revolution
+		}		
+		prerequisite = {
+			focus = INC_PNI_national_congress
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_a_union_of_patriots
+		icon = GFX_goal_generic_soviet_construction
+		x = 17
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = {
+			focus = INC_defend_the_republican_dream
+		}
+		mutually_exclusive = {
+			focus = INC_toward_the_new_revolution
+		}		
+		prerequisite = {
+			focus = INC_PNI_national_congress
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_national_land_fund
+		icon = GFX_goal_generic_soviet_construction
+		x = 10
+		y = 3
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_defend_the_republican_dream
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_chinese_naturalisation_parliamentary_resolution
+		icon = GFX_goal_generic_soviet_construction
+		x = 11
+		y = 4
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_national_land_fund
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_rent_relief_laws
+		icon = GFX_goal_generic_soviet_construction
+		x = 9
+		y = 4
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_national_land_fund
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_nationalise_foreign_estates
+		icon = GFX_goal_generic_soviet_construction
+		x = 9
+		y = 5
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_rent_relief_laws
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}					
+	focus = {
+		id = INC_empower_the_national_congress
+		icon = GFX_goal_generic_soviet_construction
+		x = 14
+		y = 3
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_defend_the_republican_dream
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_indigenise_party_and_state_administration
+		icon = GFX_goal_generic_soviet_construction
+		x = 13
+		y = 4
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_empower_the_national_congress
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_expand_PNI_membership
+		icon = GFX_goal_generic_soviet_construction
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_empower_the_national_congress
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_indochinese_national_solidarity
+		icon = GFX_goal_generic_soviet_construction
+		x = 14
+		y = 5
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_expand_PNI_membership
+		}
+		prerequisite = {
+			focus = INC_indigenise_party_and_state_administration
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_enemies_of_the_republic
+		icon = GFX_goal_generic_soviet_construction
+		x = 14
+		y = 6
+		cost = 10
+		available_if_capitulated = yes	
+		prerequisite = {
+			focus = INC_expand_PNI_membership
+		}
+		prerequisite = {
+			focus = INC_indochinese_national_solidarity
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	}									
+ }

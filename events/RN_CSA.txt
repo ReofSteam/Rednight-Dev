@@ -1,0 +1,2060 @@
+﻿###########################
+# East America Events
+###########################
+
+add_namespace = csa
+
+
+###set up event
+country_event = { 
+	id = csa.0
+    title = csa.0.t
+    desc = csa.0.d
+	picture = GFX_CSA_new_york
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.0.a 
+		if = { limit = { is_ai = no }
+		set_country_flag = show_intro_menu
+		}
+		else = {
+		add_political_power = 1
+		}
+	}
+
+}
+
+
+
+
+
+country_event = { #new Dawn
+	id = csa.16
+    title = csa.16.t
+    desc = csa.16.d
+	picture = GFX_CSA_new_york
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.16.a 
+		add_political_power = 15
+		}
+	}
+
+
+
+
+country_event = { #The Last President
+	id = csa.1 
+    title = csa.1.t
+    desc = csa.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = csa.1.a 
+		add_political_power = 5
+	}
+
+}
+
+country_event = { #Anarchists surround congress, lovestone orders RSB to disperse
+	id = csa.91
+    title = csa.91.t
+    desc = csa.91.d
+	picture = GFX_FRA_may_putsch
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = csa.91.a 
+		add_political_power = 5
+	}
+
+	option = {
+		name = csa.91.b 
+		add_political_power = 5
+	}
+
+}
+
+country_event = { #building damage
+	id = csa.92
+    title = csa.92.t
+    desc = csa.92.d
+	picture = GFX_CSA_new_york
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = csa.92.a 
+	393 = {	
+		damage_building = {
+        type = infrastructure
+        damage = 1
+    }
+}
+	}
+}
+
+
+
+###3k nightmare
+
+
+country_event = { #####The Human Drain (3k Nightmare)#####
+	id = csa.2
+	title = csa.2.t
+	desc = csa.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.2.a
+		complete_national_focus = CSA_convene_the_generals
+	}
+	option = {
+		name = csa.2.b
+		complete_national_focus = CSA_red_border_patrol
+	}
+	option = {
+		name = csa.2.c
+		complete_national_focus = CSA_spitting_in_the_wind
+	}
+}
+
+country_event = { #Convene the generals
+	id = csa.3
+	title = csa.3.t
+	desc = csa.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.3.a
+	}
+
+}
+
+country_event = { #Dangling the Carrot
+	id = csa.4
+	title = csa.4.t
+	desc = csa.4.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.4.a
+		add_manpower = 6500
+		add_political_power = -0.4
+	}
+
+}
+
+country_event = { #Respect Comrade Bryant
+	id = csa.5
+	title = csa.5
+	desc = csa.5.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.5.a
+	}
+
+}
+
+country_event = { #Red Border Patrol
+	id = csa.6
+	title = csa.6
+	desc = csa.6.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.6.a
+	}
+
+}
+
+country_event = { #The Agency Proposal
+	id = csa.7
+	title = csa.7
+	desc = csa.7.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.7.a
+	}
+
+}
+
+country_event = { #Raise elite divisons
+	id = csa.8
+	title = csa.8
+	desc = csa.8.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.8.a
+		add_manpower = 900
+	}
+
+}
+
+country_event = { #Relocation Camps
+	id = csa.9
+	title = csa.9
+	desc = csa.9.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.9.a
+	}
+
+}
+
+country_event = { #Spitting In the Wind
+	id = csa.10
+	title = csa.10.t
+	desc = csa.10.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.10.a
+		}
+
+}
+
+country_event = { #Denvers Destiny
+	id = csa.11
+	title = csa.11
+	desc = csa.11.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.11.a
+
+		382 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+
+		382 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+
+}
+}
+
+country_event = { #Time on our side
+	id = csa.12
+	title = csa.12
+	desc = csa.12.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.12.a
+	}
+
+}
+
+###death of reed 
+
+country_event = { #the last will and testament
+	id = csa.13
+	title = csa.13
+	desc = csa.13.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.13.a
+	}
+
+}
+
+country_event = { #flight to new york
+	id = csa.14
+	title = csa.14.t
+	desc = csa.14.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.14.a
+	}
+
+}
+
+country_event = { #revising the speech
+	id = csa.15
+	title = csa.15
+	desc = csa.15.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.15.a
+		country_event = {
+		id = csa.17
+		days = 1
+		}
+	}
+
+}
+
+
+country_event = { #hall of heroes & bryant
+	id = csa.17
+	title = csa.17.t
+	desc = csa.17.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.17.a
+		complete_national_focus = CSA_respect_comrade_bryant
+		add_political_power = 0.05
+	}
+
+	option = {
+		name = csa.17.b
+		complete_national_focus = CSA_the_hall_of_heroes
+		add_political_power = 0.75
+		add_stability = 0.05
+	}
+
+}
+
+country_event = { #address congress
+	id = csa.19
+	title = csa.19
+	desc = csa.19.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.19.a
+	}
+
+}
+
+country_event = { #differing interpretations
+	id = csa.20
+	title = csa.20
+	desc = csa.20.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.19.a
+	}
+
+}
+
+country_event = { #differing interpretations
+	id = csa.20
+	title = csa.20
+	desc = csa.20.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.19.a
+	}
+
+}
+
+country_event = { #force a compromise
+	id = csa.21
+	title = csa.21
+	desc = csa.21.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.21.a
+	}
+
+}
+
+country_event = { #force a compromise
+	id = csa.22
+	title = csa.22
+	desc = csa.22.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.22.a
+	}
+
+}
+
+###congress stuff pre-convention
+
+country_event = { #the last congress
+	id = csa.23
+	title = csa.23
+	desc = csa.23.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.23.a
+	}
+
+}
+
+country_event = { #argument with flynn
+	id = csa.24
+	title = csa.24
+	desc = csa.24.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.24.a
+	}
+
+}
+
+country_event = { #argument with thomas
+	id = csa.25
+	title = csa.25
+	desc = csa.25.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.25.a
+	}
+
+}
+
+country_event = { #prepare philidelphia
+	id = csa.26
+	title = csa.26
+	desc = csa.26.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.26.a
+	}
+
+}
+
+country_event = { #national security bill
+	id = csa.27
+	title = csa.27
+	desc = csa.27.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.27.a
+	}
+
+
+}
+
+country_event = { #build the foundation
+	id = csa.28
+	title = csa.28
+	desc = csa.28.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.28.a
+	}
+
+}
+
+country_event = { #hand browder the keys
+	id = csa.29
+	title = csa.29
+	desc = csa.29.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.29.a
+	}
+
+}
+
+country_event = { #who to invite?
+	id = csa.81
+    title = csa.81.t
+    desc = csa.81.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.81.a 
+	}
+
+}
+
+country_event = { #gentlemans agreement
+	id = csa.82
+    title = csa.82.t
+    desc = csa.82.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.82.a 
+	}
+
+}
+
+country_event = { #arrest troublemakers
+	id = csa.83
+    title = csa.83.t
+    desc = csa.83.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.83.a 
+	}
+
+}
+
+country_event = { #announce the third convention
+	id = csa.84
+    title = csa.84.t
+    desc = csa.84.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.84.a 
+	}
+
+}
+
+country_event = { #calm before the storm
+	id = csa.92
+    title = csa.92.t
+    desc = csa.92.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.92.a 
+	}
+
+}
+
+
+
+#############################################################Internal War#################################################
+
+country_event = { #internal war foster speech
+	id = csa.30 
+    title = csa.30.t
+    desc = csa.30.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = csa.30.a 
+        set_country_flag = internal_war
+        set_country_flag = CSA_no_operation
+		set_country_flag = CSA_region_mountains_oss
+		set_country_flag = CSA_region_ne_national_guard
+		set_country_flag = CSA_region_ma_gdc_guard
+		set_country_flag = CSA_region_satlantic_klan
+	}
+
+}
+
+country_event = { #internal war ending
+	id = csa.80
+    title = csa.80.t
+    desc = csa.80.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.80.a 
+	}
+
+}
+
+country_event = { #New England Situation
+	id = csa.85
+    title = csa.85.t
+    desc = csa.85.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.86.a 
+	}
+
+}
+
+country_event = { #Mid Atlantic Situation
+	id = csa.86
+    title = csa.87.t
+    desc = csa.87.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.87.a 
+	}
+
+}
+
+country_event = { #Rockies Situation
+	id = csa.87
+    title = csa.87.t
+    desc = csa.87.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.87.a 
+	}
+
+}
+
+country_event = { #South Atlantic Situation
+	id = csa.88
+    title = csa.88.t
+    desc = csa.88.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.88.a 
+	}
+
+}
+
+country_event = { #Midwest
+	id = csa.89
+    title = csa.89.t
+    desc = csa.89.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.89.a 
+	}
+
+}
+
+
+
+#####Operation Black Magnolia
+
+country_event = { #Black Magnolia Intro
+	id = csa.31
+	title = csa.31
+	desc = csa.31.desc
+	picture = GFX_CSA_cia_summary
+	is_triggered_only = yes
+
+	option = {
+		name = csa.31.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.32
+	title = csa.32
+	desc = csa.32.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.32.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.33
+	title = csa.33
+	desc = csa.33.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.33.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.34
+	title = csa.34
+	desc = csa.34.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.34.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.35
+	title = csa.35
+	desc = csa.35.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.35.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.36
+	title = csa.36
+	desc = csa.36.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.36.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.37
+	title = csa.37
+	desc = csa.37.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.37.a
+	}
+
+}
+
+country_event = { #Black Magnolia 
+	id = csa.38
+	title = csa.38
+	desc = csa.38.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.38.a
+	}
+
+}
+
+country_event = { #Black Magnolia ending
+	id = csa.39
+	title = csa.39
+	desc = csa.39.desc
+	is_triggered_only = yes
+
+	option = {
+		name = csa.39.a
+	}
+
+}
+
+#####Operation ABC
+
+country_event = { #ABC intro
+	id = csa.40
+    title = csa.40.t
+    desc = csa.40.d
+	picture = GFX_CSA_cia_summary
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.40.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.41
+    title = csa.41.t
+    desc = csa.41.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.41.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.42
+    title = csa.42.t
+    desc = csa.42.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.42.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.43
+    title = csa.43.t
+    desc = csa.43.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.43.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.44
+    title = csa.44.t
+    desc = csa.44.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.44.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.45
+    title = csa.45.t
+    desc = csa.45.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.45.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.46
+    title = csa.46.t
+    desc = csa.46.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.46.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.47
+    title = csa.47.t
+    desc = csa.47.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.47.a 
+	}
+
+}
+
+country_event = { #ABC
+	id = csa.48
+    title = csa.48.t
+    desc = csa.48.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.48.a 
+	}
+
+}
+
+
+country_event = { #ABC
+	id = csa.48
+    title = csa.48.t
+    desc = csa.48.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.48.a 
+	}
+
+}
+
+country_event = { #ABC ending
+	id = csa.49
+    title = csa.49.t
+    desc = csa.49.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.49.a 
+	}
+
+}
+
+###Operation Frond Pest 
+
+country_event = { #Frond Pest Intro
+	id = csa.50
+    title = csa.50.t
+    desc = csa.50.d
+	picture = GFX_CSA_cia_summary
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.50.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.51
+    title = csa.51.t
+    desc = csa.51.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.51.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.52
+    title = csa.52.t
+    desc = csa.52.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.52.a 
+	}
+
+}
+
+
+country_event = { #Frond Pest 
+	id = csa.53
+    title = csa.53.t
+    desc = csa.53.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.53.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.54
+    title = csa.54.t
+    desc = csa.54.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.54.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.55
+    title = csa.55.t
+    desc = csa.55.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.55.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.56
+    title = csa.56.t
+    desc = csa.56.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.56.a 
+	}
+
+}
+
+
+country_event = { #Frond Pest 
+	id = csa.57
+    title = csa.57.t
+    desc = csa.57.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.57.a 
+	}
+
+}
+
+country_event = { #Frond Pest 
+	id = csa.58
+    title = csa.58.t
+    desc = csa.58.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.58.a 
+	}
+
+}
+
+country_event = { #Frond Pest ending
+	id = csa.59
+    title = csa.59.t
+    desc = csa.59.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.59.a 
+	}
+
+}
+
+######Operation Olympia
+
+country_event = { #Olympia Intro
+	id = csa.60
+    title = csa.60.t
+    desc = csa.60.d
+	picture = GFX_CSA_cia_summary
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.60.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.61
+    title = csa.61.t
+    desc = csa.61.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.61.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.62
+    title = csa.62.t
+    desc = csa.62.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.62.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.63
+    title = csa.63.t
+    desc = csa.63.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.63.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.64
+    title = csa.64.t
+    desc = csa.64.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.64.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.65
+    title = csa.65.t
+    desc = csa.65.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.65.a 
+	}
+
+}
+
+
+country_event = { #Olympia 
+	id = csa.66
+    title = csa.66.t
+    desc = csa.66.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.66.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.67
+    title = csa.67.t
+    desc = csa.67.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.67.a 
+	}
+
+}
+
+country_event = { #Olympia 
+	id = csa.68
+    title = csa.68.t
+    desc = csa.68.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.68.a 
+	}
+
+}
+
+country_event = { #Olympia ending
+	id = csa.69
+    title = csa.69.t
+    desc = csa.69.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.69.a 
+	}
+
+}
+
+#########Operation Jerome
+
+country_event = { #Jerome Intro
+	id = csa.70
+    title = csa.70.t
+    desc = csa.70.d
+	picture = GFX_CSA_cia_summary
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.70.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.71
+    title = csa.71.t
+    desc = csa.71.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.71.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.72
+    title = csa.72.t
+    desc = csa.72.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.72.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.73
+    title = csa.73.t
+    desc = csa.73.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.73.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.74
+    title = csa.74.t
+    desc = csa.74.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.74.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.75
+    title = csa.75.t
+    desc = csa.75.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.75.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.76
+    title = csa.76.t
+    desc = csa.76.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.76.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.77
+    title = csa.77.t
+    desc = csa.77.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.77.a 
+	}
+
+}
+
+country_event = { #Jerome 
+	id = csa.78
+    title = csa.78.t
+    desc = csa.78.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.78.a 
+	}
+
+}
+
+country_event = { #Jerome ending
+	id = csa.79
+    title = csa.79.t
+    desc = csa.79.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.79.a 
+	}
+
+}
+
+
+################################################convention tree
+
+country_event = { #the young republic
+	id = csa.84
+    title = csa.84.t
+    desc = csa.84.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.84.a 
+	}
+
+}
+
+#######Preamble
+
+country_event = { 
+	id = csa.93
+    title = csa.93.t
+    desc = csa.93.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.93.a
+		set_country_flag = CSA_convention_in_process
+		set_country_flag = SPA_support
+		add_political_power = -15
+	}
+
+	option = {
+		name = csa.93.b
+		set_country_flag = CSA_convention_in_process
+		set_country_flag = SPA_support
+		add_political_power = 30
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}	
+	}
+	option = {
+		name = csa.93.c
+		set_country_flag = CSA_convention_in_process
+		set_country_flag = SPA_support
+		add_political_power = 30
+		add_popularity = {
+		    ideology = revolutionary_socialism
+            popularity = -0.03
+		}		
+	}	
+
+}
+
+####Nature of State
+
+country_event = { 
+	id = csa.94
+    title = csa.94.t
+    desc = csa.94.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.94.a 
+		CSA_convention_effect_republican_clause = yes
+	}
+	option = {
+		name = csa.94.b
+		CSA_convention_effect_modsoc_clause = yes
+		set_country_flag = SDP_support				
+	}	
+
+	option = {
+		name = csa.94.c
+		CSA_convention_effect_syndicalist_clause = yes
+	}	
+ 
+}
+
+#######Press Radio Silence
+
+country_event = { #### Le marin curieux newspaper breaks the story
+	id = csa.106
+	title = csa.106.t
+	desc = csa.106.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.106.a
+		add_political_power = -5
+		add_stability = -0.02
+		country_event = {
+		id = csa.107
+		days = 1
+		}
+
+	}
+}
+
+country_event = {  ##Pressure mounts due to story
+	id = csa.107
+	title = csa.107.t
+	desc = csa.107.d
+	is_triggered_only = yes
+
+	option = {
+		name = csa.107
+		add_political_power = -15
+		add_stability = -0.05
+		country_event = {
+		id = csa.95
+		days = 3 
+		}
+		
+	}
+
+}
+
+country_event = {  #####Muzzle the press?
+	id = csa.95
+    title = csa.95.t
+    desc = csa.95.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	option = {
+		name = csa.95.a 
+		CSA_convention_effect_republican_clause = yes
+		country_event = {
+			id = csa.109
+		}	
+	}
+	
+	option = {
+		name = csa.95.b
+		CSA_convention_effect_modsoc_clause = yes
+		country_event  = {
+			id = csa.110	
+		}	
+	}
+	option = {
+		name = csa.95.c
+		CSA_convention_effect_syndicalist_clause = yes	
+		country_event = {
+			id = csa.108
+		}	
+	}	
+}
+
+
+country_event = {  ##The Story Leaks to America
+	id = csa.108
+	title = csa.108.t
+	desc = csa.108.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.108.a
+		add_political_power = -45
+		
+	}
+}
+
+##France protests us deporting their journalists
+country_event = {  
+	id = csa.109
+	title = csa.109.t
+	desc = csa.109.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.109.a
+		add_political_power = -45
+		add_stability = -0.05
+	
+		
+	}
+}
+
+##Several Papers are forcefully closed and the story leaks
+country_event = {  
+	id = csa.110
+	title = csa.110.t
+	desc = csa.110.d
+	is_triggered_only = yes
+	days = 1
+
+	option = {
+		name = csa.110.a
+		add_political_power = -45
+		add_stability = -0.1
+		
+	}
+}
+
+
+
+##########Legislature
+
+country_event = { 
+	id = csa.96
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.96.a 
+		CSA_convention_effect_modsoc_clause = yes				
+	}
+	option = {
+		name = csa.96.b 
+		CSA_convention_effect_syndicalist_clause = yes				
+		set_country_flag = IWW_support
+		if = { limit = { has_country_flag = SDP_support }
+		clr_country_flag = SDP_support }
+	}	
+
+}
+
+####Police
+country_event = { 
+	id = csa.97
+    title = csa.97.t
+    desc = csa.97.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.97.a 
+		CSA_convention_effect_modsoc_clause = yes						
+	}
+	option = {
+		name = csa.97.b
+		CSA_convention_effect_syndicalist_clause = yes						
+	}
+	option = {
+		name = csa.97.c
+		CSA_convention_effect_republican_clause = yes				
+	}	
+
+}
+
+####Centralisation
+
+country_event = {  
+	id = csa.98
+    title = csa.98.t
+    desc = csa.98.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.98.a 
+		CSA_convention_effect_syndicalist_clause = yes
+		clr_country_flag = SPA_support
+		if = { limit = { has_country_flag = SDP_support }
+		country_event = csa.100
+		}
+		else_if = { limit = { has_country_flag = IWW_support }
+		country_event = csa.99
+		}
+		else = {
+		country_event = csa.105
+		}
+		
+	}
+	option = {
+		name = csa.98.b 
+		CSA_convention_effect_republican_clause = yes
+		
+	}		
+	
+
+}
+
+####Fosterites switch
+
+country_event = { 
+	id = csa.99
+    title = csa.99.t
+    desc = csa.99.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.99.a 
+		clr_country_flag = SPA_support
+		set_politics = {
+     	ruling_party = syndicalism
+        elections_allowed = no
+}
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}
+	}
+
+
+}
+country_event = { 
+	id = csa.100
+    title = csa.100.t
+    desc = csa.100.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.98.a 
+		clr_country_flag = SPA_support		
+		set_politics = {
+     	ruling_party = moderate_socialism
+        elections_allowed = no
+}
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}	
+        create_country_leader = {
+	    name = "William Z. Foster"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Foster.tga"
+	    expire = "1965.1.1"
+	    ideology = moderate_socialist_subtype
+	     traits = {
+		#
+	    }
+}		
+	}
+
+}
+
+country_event = { 
+	id = csa.101
+    title = csa.101.t
+    desc = csa.101.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.101.a 
+		CSA_convention_effect_modsoc_clause = yes						
+	}
+	option = {
+		name = csa.101.b
+		CSA_convention_effect_syndicalist_clause = yes						
+	}
+	option = {
+		name = csa.101.c
+		CSA_convention_effect_republican_clause = yes				
+	}	
+
+}
+
+######Finale
+country_event = { 
+	id = csa.102
+    title = csa.102.t
+    desc = csa.102.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.102.a
+		clr_country_flag = CSA_convention_in_process 
+	if = { limit = {	
+    check_variable = {
+	var = CSA_congress_total
+	value = 0.6
+	compare = greater_than_or_equals
+}	
+}
+    country_event = csa.103								
+	}
+else = {
+country_event = csa.104
+}	
+	}
+
+}
+
+country_event = { 
+	id = csa.103
+    title = csa.103.t
+    desc = csa.103.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.103.a	
+		add_political_power = 50
+	}
+
+}
+
+country_event = { 
+	id = csa.104
+    title = csa.104.t
+    desc = csa.104.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.104.a	
+		add_political_power = -50
+		set_politics = {
+     	ruling_party = revolutionary_socialism
+        elections_allowed = no
+}
+	}
+
+}
+
+country_event = { 
+	id = csa.105
+    title = csa.105.t
+    desc = csa.105.d
+	is_triggered_only = yes
+	picture = GFX_CSA_congress_report
+	
+	option = {
+		name = csa.105.a	
+		add_political_power = -100
+		clr_country_flag = CSA_convention_in_process
+        create_country_leader = {
+	    name = "Jay Lovestone"
+    	desc = "POLITICS_JAY_LOVESTONE_DESC"
+	    picture = "gfx/leaders/CSA/CSA_Lovestone.tga"
+	    expire = "1965.1.1"
+	    ideology = revolutionary_socialism_subtype
+	     traits = {
+		#
+	    }
+}			
+	}
+
+}
+
+
+country_event = { 
+	id = csa.113
+    title = csa.113.t
+    desc = csa.113.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.113.a 
+		set_country_flag = crisis_resolved
+		mark_focus_tree_layout_dirty = yes
+	}
+
+}
+
+####Calculation Event####
+country_event = { 
+	id = csa.121
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	}
+	option = {
+		name = csa.96.a 
+	if = { limit = { has_country_flag = SPA_support }
+	add_to_variable = { CSA_congress_total = party_popularity@revolutionary_socialism }
+	add_to_variable = { CSA_congress_total = party_popularity@nationalist_socialism }		
+	}
+	else = { }		
+	}
+
+}
+
+country_event = { 
+	id = csa.122
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	}
+	option = {
+		name = csa.96.a 
+	if = { limit = { has_country_flag = SDP_support }
+	add_to_variable = { CSA_congress_total = party_popularity@moderate_socialist }
+	add_to_variable = { CSA_congress_total = party_popularity@social_democrat }	
+	}
+	else = { }		
+	}
+
+}
+
+country_event = { 
+	id = csa.123
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	hidden = yes	
+	immediate = {
+
+	}
+	option = {
+		name = csa.96.a 
+	if = { limit = { has_country_flag = IWW_support }
+	add_to_variable = { CSA_congress_total = party_popularity@syndicalism }
+	}
+	else = { }	
+	}
+
+}
+
+country_event = { 
+	id = csa.124
+    title = csa.96.t
+    desc = csa.96.d
+	is_triggered_only = yes
+	hidden = yes	
+
+	option = {
+		name = csa.96.a 
+		set_temp_variable = { CSA_congress_frame = CSA_congress_total }
+		multiply_temp_variable = { CSA_congress_frame = 100 }
+		set_variable = { CSA_congress_frame_final = CSA_congress_frame }
+	}
+
+}
+
+#########Denver go bye
+country_event = { 
+	id = csa.1000
+    title = csa.1000.t
+    desc = csa.1000.d
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {		}
+	option = {
+		name = csa.91.a 
+		launch_nuke = {
+			province = 1827
+    	    state = 1135 
+    	    use_nuke = no
+}
+		country_event = { 
+		id = csa.1001
+		days = 1
+		}
+		hidden_effect = {		
+	1135 = {
+	set_state_flag = nuclear_destroyed
+	set_state_category = wasteland
+	add_manpower = -1500000
+	remove_building = {
+    type = infrastructure
+    level = infrastructure_level	
+}	
+	NUC = {
+	set_state_controller = PREV
+	}
+}
+}
+	}
+
+}
+
+country_event = { 
+	id = csa.1001
+    title = csa.1001.t
+    desc = csa.1001.d
+	is_triggered_only = yes
+	
+	option = {
+		name = csa.91.a 
+		set_country_flag = CSA_denver_destroyed
+		set_country_flag = Super_Event_Visible		
+	}
+
+}
+
+######Operation Torchbearers
+country_event = { 
+	id = csa.1002
+    title = csa.1002.t
+    desc = csa.1002.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    OSS = {
+	transfer_state = 389
+	transfer_state = 1119
+	transfer_state = 1120
+	transfer_state = 1121
+	transfer_state = 1126
+	transfer_state = 1123
+	transfer_state = 1125
+	add_state_core = 389
+	add_state_core = 1119
+	add_state_core = 1120
+	add_state_core = 1121
+	add_state_core = 1126
+	add_state_core = 1123
+	add_state_core = 1125	
+	}
+	}
+	option = {
+		name = csa.1002.a 
+		declare_war_on = {
+        target = OSS
+        type = annex_everything
+}	
+
+	}
+
+}
+
+#######National Guards Uprising####
+country_event = { 
+	id = csa.1003
+    title = csa.1003.t
+    desc = csa.1003.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    NGO = {
+	transfer_state = 932
+	transfer_state = 796
+	transfer_state = 933	
+	add_state_core = 932
+	add_state_core = 933
+	add_state_core = 796
+	
+	}
+	}
+	option = {
+		name = csa.1003.a 
+		declare_war_on = {
+        target = NGO
+        type = annex_everything
+}	
+
+	}
+
+}
+
+#######National Guards Uprising2####
+country_event = { 
+	id = csa.1004
+    title = csa.1004.t
+    desc = csa.1004.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    NGO = {
+	transfer_state = 360	
+	add_state_core = 360
+	
+	}
+	}
+	option = {
+		name = csa.1003.a 
+		declare_war_on = {
+        target = NGO
+        type = annex_everything
+}	
+
+	}
+
+}
+
+####KLANN
+
+country_event = { 
+	id = csa.1005
+    title = csa.1005.t
+    desc = csa.1005.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    COF = {
+	transfer_state = 1130
+	transfer_state = 1129		
+	transfer_state = 1131
+	transfer_state = 365	
+	transfer_state = 1133
+	transfer_state = 1134
+	add_state_core = 1130
+	add_state_core = 1129		
+	add_state_core = 1131
+	add_state_core = 365	
+	add_state_core = 1133
+	add_state_core = 1134	
+	}
+	}
+	option = {
+		name = csa.1005.a 
+		declare_war_on = {
+        target = COF
+        type = annex_everything
+}	
+
+	}
+
+}
+
+#######Black Nationalist Coup####
+country_event = { 
+	id = csa.1006
+    title = csa.1006.t
+    desc = csa.1006.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    NAF = {
+	transfer_state = 1138	
+	add_state_core = 1138
+	transfer_state = 929	
+	add_state_core = 929
+	add_state_core = 362	
+	transfer_state = 362	
+	
+	}
+	}
+	option = {
+		name = csa.1006.a 
+		declare_war_on = {
+        target = NAF
+        type = annex_everything
+}	
+
+	}
+
+}
+
+
+#######IWW-Radical####
+country_event = { 
+	id = csa.1007
+    title = csa.1007.t
+    desc = csa.1007.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    IWW = {
+	transfer_state = 393	
+	add_state_core = 393
+	transfer_state = 261	
+	add_state_core = 261
+	transfer_state = 369	
+	add_state_core = 369	
+	}
+	}
+	option = {
+		name = csa.1007.a 
+		declare_war_on = {
+        target = IWW
+        type = annex_everything
+}	
+
+	}
+
+}
+
+####Torchbearers 2#####
+country_event = { 
+	id = csa.1008
+    title = csa.1008.t
+    desc = csa.1008.d
+	is_triggered_only = yes
+	picture = GFX_CSA_cia_summary
+	
+	immediate = {
+    OSS = {
+	transfer_state = 1136
+	transfer_state = 384	
+	add_state_core = 1136
+	add_state_core = 384
+	
+	}
+	}
+	option = {
+		name = csa.1008.a 
+		declare_war_on = {
+        target = OSS
+        type = annex_everything
+}	
+
+	}
+
+}

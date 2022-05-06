@@ -1,0 +1,113 @@
+﻿capital = 37
+
+oob = "DEN"
+
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 0.1
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1932.3.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	nationalist_socialism = 1
+	revolutionary_socialism = 5
+	syndicalism = 2
+	moderate_socialist = 4
+	social_democrat = 38
+	social_liberal = 22
+	social_conservative = 10
+	authoritarian_democrat = 7
+	autocratic = 5
+	ultraconservative = 2
+	national_corporatist = 4
+}
+
+set_convoys = 40
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = ""
+	picture = "gfx/leaders/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+add_ideas = {
+	}
+
+###create_country_leader = {
+#	name = "Hans H. Hansen"
+#	desc = ""
+#	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Hans_Hedtoft_Hansen.tga"
+#	expire = "1965.1.1"
+#	ideology = social_democrat_subtype
+#	traits = {
+#		#
+#	}
+##}
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Frederick IX"
+	desc = "POLITICS_FREDERICK_IX_DESC"
+	picture = "gfx/leaders/SCANDINAVIA/DEN/DEN_Frederick_IX.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Wilhelm Wain Prior"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { trickster }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

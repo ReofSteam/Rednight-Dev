@@ -1,0 +1,1196 @@
+﻿########
+# Templates
+########
+
+
+division_template = {
+	name = "Pekhotnaya Diviziya"         ###Rifle Division
+	division_names_group = RUS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		anti_air_brigade  = { x = 2 y = 0 }
+		
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 	
+		recon = {x = 0 y = 1 }
+		
+	}	
+}
+
+division_template = {
+	name = "Motorised Rifle Division"
+	division_names_group = RUS_MOT_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 	
+		artillery = { x = 0 y = 1 } 
+		recon = {x = 0 y = 2 }
+	}		
+}
+division_template = {
+	name = "Tankovaya Diviziya"                  ########Tank Divisions
+	division_names_group = RUS_ARM_01
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+
+
+### Units ###
+units = {
+### Land ### 174 infantry division, 70 motorised infantry,  25 tanks division, 7 marine divisions 
+
+#####Western Group of Forces
+
+		division = {
+		name = "1st Guards Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 178
+		}			
+		location = 6334
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "2nd Guards Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 189
+		}	
+		location = 6390
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "3rd Guards Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 203
+		}	
+		location = 6334
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "1st Guards Motorised Rifle Division"
+		location = 6390
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "2nd Guards Motorised Rifle Division"
+		location = 3473
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "27th Guards Motorised Rifle Division"
+		location = 3473
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "39th Guards Motorised Rifle Division"
+		location = 3473
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "57th Guards Motorised Rifle Division"
+		location = 6334
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "20th Guards Motorised Rifle Division"
+		location = 6390
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "207th Motorised Rifle Division"
+		location = 6334
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "9th Tank Division"
+		location = 6390
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "11th Guards Tank Division"
+		location = 3473
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "79th Guards Tank Division"
+		location = 6334
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
+
+#####Shock Tank Army####	
+		division = {
+		name = "7th Guards Tank Division"
+		location = 3288
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "10th Guards Tank Division"
+		location = 6407
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "12th Guards Tank Division"
+		location = 11312
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "47th Guards Tank Division"
+		location = 3288
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "21st Motorised Rifle Division"
+		location = 11312
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "94th GuardsMotorised Rifle Division"
+		location = 6407
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}			
+########Moscow District
+#####Moscow HQ######
+		division = {
+		name = "2nd Grenadier Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 142
+		}	
+		location = 6380
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "1st Grenadier Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 126
+		}	
+		location = 6348
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "3rd Grenadier Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 205
+		}
+		location = 6348
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "1st Guards Motorised Rifle Division"
+		location = 9302
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3358
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}		
+		location = 3358
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "46th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}		
+		location = 344
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "1st Motorised Rifle Division"
+		location = 344
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}		
+#######HQ Smolenks######
+
+		division = {
+		name = "1st Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}		
+		location = 3247
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "36th Rifle Division"
+		location = 11241
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "2nd Independent Motorised Rifle Division"
+		location = 6387
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+	
+#####HQ Voronezh####	
+		division = {
+		name = "10th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}		
+		location = 6553
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+
+		division = {
+		name = "7th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}		
+		location = 413
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "3rd Independent Motorised Rifle Division"
+		location = 3358
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+
+
+
+#####Kiev Military District
+#####Kiev HQ#####
+		division = {
+		name = "5th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}		
+		location = 525
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "42nd Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}		
+		location = 3543
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "9th Motorised Rifle Division"
+		location = 9465
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+####KharkovHQ###	
+		division = {
+		name = "9th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}	
+		location = 6554
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "31st Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}	
+		location = 6530
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "10th Motorised Rifle Division"
+		location = 11397
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+####Rovno HQ#####
+		division = {
+		name = "11th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}	
+		location = 6520
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "32nd Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}	
+		location = 3470
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "11th Motorised Rifle Division"
+		location = 6557
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+########Vinnitsa HQ####	
+		division = {
+		name = "12th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}	
+		location = 9481
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}	
+		location = 476
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "12th Motorised Rifle Division"
+		location = 9435
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "2nd Cossack Motorised Rifle Division"
+		location = 6480
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 198
+		}	
+		location = 476
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+####Central Group of Forces (Czechia)#####
+		division = {
+		name = "6th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}	
+		location = 6440
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "8th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}	
+		location = 6418
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "6th Motorised Rifle Division"
+		location = 6592
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "15th Motorised Rifle Division"
+		location = 5283
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "18th Guards Motorised Rifle Division"
+		location = 688
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "30th Guards Motorised Rifle Division"
+		location = 13210
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "48th Motorised Rifle Division"
+		location = 3673
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "16th Guards Tank Division"
+		location = 688
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
+#########Central Group of Forces (Austria)
+		division = {
+		name = "18th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}	
+		location = 3673
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "128th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 128
+		}	
+		location = 13210
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "273rd Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 273
+		}	
+		location = 688
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "13th Motorised Rifle Division"
+		location = 3703
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "14th Motorised Rifle Division"
+		location = 665
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "94th Guards Motorised Rifle Division"
+		location = 665
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.4
+	}
+		division = {
+		name = "32nd Guards Tank Division"
+		location = 688
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
+		division = {
+		name = "90th Guards Tank Division"
+		location = 13210
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}		
+		division = {
+		name = "25th Tank Division"
+		location = 3673
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+######Belarus District#####	
+########Brest HQ####	
+		division = {
+		name = "17th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}	
+		location = 3392
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "38th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		}	
+		location = 11247
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "7th Motorised Rifle Division"
+		location = 6546
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+########Southern Group of Forces (Hungary)####
+		division = {
+		name = "3rd Guards Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 172
+		}	
+		location = 6685
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "2nd Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}	
+		location = 6670
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "Independent Guards Motorised Rifle Division"
+		location = 11627
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "6th Guards Motorised Rifle Division"
+		location = 11627
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}		
+########Odessa District####
+####Simferopol HQ####	
+		division = {
+		name = "13th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}	
+		location = 705
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "34th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}	
+		location = 705
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "Crimean Motorised Rifle Division"
+		location = 3686
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+####Odessa HQ####	
+		division = {
+		name = "14th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}	
+		location = 9714
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "15th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}	
+		location = 9714
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "8th Motorised Rifle Division"
+		location = 11670
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "89th Rifle Division"
+		location = 11670
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 89
+		}			
+	}
+###Kazan District####
+####Kazan HQ####	
+		division = {
+		name = "41st Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}	
+		location = 3214
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "45th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 45
+		}	
+		location = 3214
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}		
+		division = {
+		name = "5th Motorised Rifle Division"
+		location = 372
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "47th Rifle Division"
+		location = 372
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}			
+	}
+####Samara HQ####	
+		division = {
+		name = "48th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}	
+		location = 9299
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "49th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 49
+		}	
+		location = 11377
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+#####Vilna District####
+####Grudno HQ####	
+		division = {
+		name = "26th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}	
+		location = 13738
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "43rd Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 43
+		}	
+		location = 13738
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "2nd Motorised Rifle Division"
+		location = 9236
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+####Vilna HQ####	
+		division = {
+		name = "25th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		}	
+		location = 9404
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "27th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}	
+		location = 327
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "272th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 272
+		}	
+		location = 9274
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "3rd Motorised Rifle Division"
+		location = 3320
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+####Minsk HQ####	
+		division = {
+		name = "30th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		}	
+		location = 3267
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "40th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}	
+		location = 3267
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+####Caucasus District####
+####North Armenia####	
+		division = {
+		name = "20th Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}	
+		location = 12441
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "31st Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}	
+		location = 13724
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "1st (Caucasian Cossack) Motorised Rifle Division"
+		location = 11708
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+####Georgia####	
+		division = {
+		name = "Caucasus Grenadier Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 242
+		}	
+		location = 3658
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "51st Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 51
+		}	
+		location = 772
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "2nd (Caucasian Cossack) Motorised Rifle Division"
+		location = 6671
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "2nd Caucasian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 97
+		}	
+		location = 6669
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+####North OSsetita####	
+		division = {
+		name = "21st Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}	
+		location = 11614
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "52nd Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}	
+		location = 9628
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "3rd (Caucasian Cossack) Motorised Rifle Division"
+		location = 9628
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+#####Turkestan District###	
+####Tashkent HQ####	
+		division = {
+		name = "1st Turkestan Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 99
+		}	
+		location = 12471
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "2nd Turkestan Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 321
+		}	
+		location = 1479
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "3rd Turkestan Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 522
+		}	
+		location = 4488
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "1st (Turkestan Cossack) Motorised Rifle Division"
+		location = 10420
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+####Askhabad HQ####	
+		division = {
+		name = "4th Turkestan Rifle Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 102
+		}	
+		location = 10510
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "5th Turkestan Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 169
+		}	
+		location = 12333
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "Transcaspian Cossack Motorised Rifle Division"
+		location = 7491
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+#########Siberian Army####
+#####Chita HQ####	
+		division = {
+		name = "4th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 173
+		}	
+		location = 10559
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "5th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 174
+		}	
+		location = 12622
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "Transbaikal Cossack Motorised Rifle Division"
+		location = 4719
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+#####Irkutsk HQ####	
+		division = {
+		name = "7th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 181
+		}	
+		location = 1810
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "8th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 409
+		}	
+		location = 10543
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+#####Manchurian-Far East Army####	
+		division = {
+		name = "1st Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 181
+		}	
+		location = 10571
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "2nd Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 409
+		}	
+		location = 4805
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "3rd Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 181
+		}	
+		location = 12263
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "9th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 409
+		}	
+		location = 12192
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "6th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 409
+		}	
+		location = 3664
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "10th Siberian Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 409
+		}	
+		location = 10722
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}			
+		division = {
+		name = "Ussuri Motorised Rifle Division"
+		location = 12657
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "1st Guards Tank Division"
+		location = 3664
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.4
+	}	
+		division = {
+		name = "51st Tank Division"
+		location = 10722
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "18th Guards Motorised Rifle Division"
+		location = 12657
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "30th Guards Motorised Rifle Division"
+		location = 12192
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+		division = {
+		name = "48th Guards Motorised Rifle Division"
+		location = 12263
+		division_template = "Motorised Rifle Division"
+		start_experience_factor = 0.3
+	}	
+####Petrograd District###
+		division = {
+		name = "22nd Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}	
+		location = 6174
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "24th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		}	
+		location = 11068
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "23rd Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		}	
+		location = 149
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "37th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}	
+		location = 149
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "50th Rifle Division"		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 50
+		}	
+		location = 117
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.3
+	}	
+}
+
+
+

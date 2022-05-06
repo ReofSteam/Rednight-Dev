@@ -1,0 +1,31 @@
+
+state={
+	id=759
+	name="STATE_759"
+	resources={
+		steel=24.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			9613 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		628 3657 6626 6656 9613 11735 13582 
+	}
+	manpower=938000
+	buildings_max_level_factor=1.000
+	state_category=five
+}

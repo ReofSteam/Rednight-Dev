@@ -1,0 +1,76 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+
+	country = {
+
+CSA_internal_war = {
+	picture = CSA_CIA
+    modifier = {
+   stability_factor = -0.6
+   research_speed_factor = -0.3
+   political_power_gain = -0.2
+   industry_repair_factor = -0.15
+	}
+}
+
+
+
+CSA_ruins = {
+	picture = CSA_east_ruins
+	modifier = {
+   production_speed_buildings_factor = -0.7
+			 } 
+			 removal_cost = -1
+}
+
+CSA_divided_goverment = {
+	picture = CSA_divided_gov
+	modifier = {
+   political_power_gain = -0.35
+   stability_factor = -0.1
+   }
+   removal_cost = -1
+}
+
+America_new_year_peace = {
+	on_add = { log = "[GetDateText]: [Root.GetName]: add idea America_new_year_peace"}
+	modifier = {
+   conscription_factor = -0.15
+			}
+			removal_cost = -1
+		}
+
+CSA_refugee_crisis = {
+		picture = CSA_refugees
+		modifier = {
+			stability_weekly_factor = -0.05
+			war_support_factor = -0.3
+			political_power_gain = -0.45
+			monthly_population = -0.2
+			recruitable_population_factor = -0.4
+
+					 } 
+					 removal_cost = -1
+		}
+
+		CSA_refugee_crisis_improved = {
+			modifier = { 
+				war_support_factor = -0.1
+				political_power_gain = -0.2
+				monthly_population = 0.1
+				recruitable_population_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.3
+	
+						 } 
+						 removal_cost = -1
+			}
+
+}
+}
+
+
+
+	

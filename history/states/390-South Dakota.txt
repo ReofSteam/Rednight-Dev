@@ -1,0 +1,22 @@
+state = {
+	id = 390
+	name = "STATE_390"
+	manpower = 666000
+	state_category = three
+
+	history = {
+		owner = CSA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CSA
+
+		victory_points = {
+			10595 3
+		}		
+	}
+
+	provinces = {
+		10569 10595 12667
+	}
+}

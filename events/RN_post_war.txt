@@ -1,0 +1,222 @@
+﻿###########################
+# Post_war Events
+###########################
+
+add_namespace = postwar
+
+####ETO Victory
+
+country_event = { #####Britain
+	id = postwar.1 #
+    title = postwar.1.t
+    desc = postwar.1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = postwar.1.a 
+	    set_autonomy = {
+        target = ENG
+        autonomy_state = autonomy_puppet
+    }	
+		ENG = { 
+		set_politics = {
+      	ruling_party = national_corporatist
+}
+	}
+
+}
+}
+
+country_event = { #####France
+	id = postwar.2 #
+    title = postwar.2.t
+    desc = postwar.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = postwar.2.a 
+	    set_autonomy = {
+        target = FRA
+        autonomy_state = autonomy_puppet
+    }	
+		FRA = { 
+	    create_country_leader = {
+	name = "François Mitterrand"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/FRA/FRA_mitterrand.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {
+		
+	}
+}	
+		set_party_name = { 
+        ideology = ultraconservative 
+        long_name = FRA_RUS_puppet_party_long 
+        name = FRA_RUS_puppet_party 
+}
+		set_politics = {
+      	ruling_party = ultraconservative
+}
+	}
+
+}
+}
+
+#######Pact Victory
+
+country_event = { #####Russia
+	id = postwar.5 #
+    title = postwar.5.t
+    desc = postwar.5.d
+	is_triggered_only = yes
+	
+	option = {
+		name = postwar.5.a 
+        RUS = {
+		release = UKR		
+		release = FIN
+		release = BLR
+		}
+	    set_autonomy = {
+        target = RUS
+        autonomy_state = autonomy_puppet
+    }	
+	    set_autonomy = {
+        target = UKR
+        autonomy_state = autonomy_puppet
+    }	
+	    set_autonomy = {
+        target = FIN
+        autonomy_state = autonomy_puppet
+    }	
+		UKR = { 
+		hidden_effect = { 
+		transfer_state = 202
+		transfer_state = 193
+		transfer_state = 221
+		transfer_state = 228
+		transfer_state = 227
+		transfer_state = 192
+		transfer_state = 198
+		transfer_state = 203
+		transfer_state = 226
+		transfer_state = 821
+		transfer_state = 200	
+		transfer_state = 197
+		transfer_state = 196
+		transfer_state = 93	
+		transfer_state = 225			
+		}
+		set_cosmetic_tag = SOV_ukraine_occupation
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}
+}
+		FIN = { 
+		set_cosmetic_tag = SOV_finland_occupation
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}	
+}
+		RUS = { 
+		set_cosmetic_tag = SOV_russia
+		set_politics = {
+      	ruling_party = revolutionary_socialism
+}
+    create_country_leader = {
+	name = "Kliment Voroshilov"
+	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
+	picture = "gfx/leaders/Soviet_exiles/kliment_voroshilov.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {
+		
+	}
+}
+	}
+	hidden_effect = {
+	country_event = postwar.6
+	TRM = {
+	transfer_state = 516
+	transfer_state = 576
+	transfer_state = 644
+	transfer_state = 637
+	transfer_state = 575
+	transfer_state = 574
+	transfer_state = 562	
+	transfer_state = 567
+	transfer_state = 566
+	transfer_state = 564
+	transfer_state = 563
+	transfer_state = 561
+	transfer_state = 657
+	transfer_state = 560	
+	transfer_state = 408
+	transfer_state = 409
+	transfer_state = 565	
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}
+	SIB = {
+	transfer_state = 579
+	transfer_state = 580
+	transfer_state = 653
+	transfer_state = 572
+	transfer_state = 583
+	transfer_state = 573
+	transfer_state = 582
+	transfer_state = 403
+	transfer_state = 590
+	transfer_state = 588
+	transfer_state = 571 #Omsk
+	transfer_state = 570
+	transfer_state = 40
+	transfer_state = 589
+	transfer_state = 568
+	transfer_state = 810
+	transfer_state = 811
+	transfer_state = 569
+	transfer_state = 654
+	transfer_state = 578
+	transfer_state = 577	
+	set_politics = {
+      	ruling_party = national_corporatist	
+	}
+	}
+	}
+}
+}
+
+country_event = { #####Russia 2
+	id = postwar.6
+    title = postwar.6.t
+    desc = postwar.6.d
+	is_triggered_only = yes
+	
+	option = {
+		name = postwar.6.a 
+		TRK = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}
+		KAZ = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}	
+		CAS = {
+	transfer_state = 516
+	transfer_state = 576
+	set_politics = {
+      	ruling_party = social_democrat	
+	}	
+	}		
+}
+}

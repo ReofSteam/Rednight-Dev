@@ -1,0 +1,126 @@
+﻿########
+# Templates
+########
+
+
+division_template = {
+	name = "Infantry Brigade"
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		
+		artillery = { x = 0 y = 1 } 	
+	}	
+}
+
+division_template = {
+	name = "Motorised Brigade"
+	division_names_group = FRA_MOT_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Armoured Brigade"
+	division_names_group = FRA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "People's Milita"
+	division_names_group = FRA_MIL_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+
+	}
+}
+
+### Units ###
+units = {
+### Land ###
+	division = {
+		name = "1st Infantry Brigade"
+		location = 7069
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Infantry Brigade"
+		location = 7100
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}
+	division = {
+		name = "3rd Armoured Brigade"
+		location = 7069
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "4th Light Mechanized Brigade"
+		location = 9945
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}
+	division = {
+		name = "5th Light Mechanized Brigade"
+		location = 989
+		division_template = "Motorised Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "6th Infantry Brigade"
+		location = 4139
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "7th Infantry Brigade"
+		location = 7958
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}
+	division = {
+		name = "8th Infantry Brigade"
+		location = 4139
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "9th Infantry Brigade"
+		location = 4199
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "1st Zone"
+		location = 9945
+		division_template = "People's Milita"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "2nd Zone"
+		location = 7069
+		division_template = "People's Milita"
+		start_experience_factor = 0
+	}		
+}

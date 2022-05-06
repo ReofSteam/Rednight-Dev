@@ -1,0 +1,53 @@
+﻿capital = 647
+
+oob = "GEA"
+
+add_ideas = {
+	GEA_Bauers_Submariners
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 20
+	authoritarian_democrat = 20
+	autocratic = 60
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+
+
+create_country_leader = {
+	name = "Max-Hermann Bauer"
+	desc = "POLITICS_MAX_BAUER_DESC"
+	picture = "gfx/leaders/GEA/Max_Bauer.tga"
+	expire = "1966.1.1"
+	ideology = autocratic_subtype
+	traits = {
+
+	}
+}

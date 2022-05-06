@@ -1,0 +1,44 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+
+		CAN_west_east_divide = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAN_west_east_divide"}
+			modifier = {
+			stability_factor = 0.20
+            political_power_factor = -0.20				
+			}
+			custom_modifier_tooltip = CAN_1_tt	
+			removal_cost = -1
+			picture = CAN_west_east_divide
+		}
+		CAN_great_northern_militia = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAN_great_northern_militia"}
+			modifier = {
+			training_time_factor = 0.3
+			army_org_factor = -0.10
+				mobilization_speed = -0.50	
+				conscription_factor = +0.15			
+			}
+			custom_modifier_tooltip = CAN_1_tt	
+			removal_cost = -1
+			picture = CAN_great_northern_militia
+		}
+		CAN_spared_from_the_war = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAN_spared_from_the_war"}
+			modifier = {
+		    MONTHLY_POPULATION = 0.25
+			production_factory_max_efficiency_factor = 0.1
+			production_speed_buildings_factor = 0.1
+			}
+			removal_cost = -1
+			picture = good_economy
+		}
+		
+		
+
+}
+}

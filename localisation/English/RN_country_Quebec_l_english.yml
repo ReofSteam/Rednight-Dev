@@ -1,0 +1,88 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+que.1.t: "The Duplessis Bridge Collapsed!"
+que.1.d: "The Duplessis Bridge, so proudly named after the President of Quebec, its construction started in the first year of Quebecois independent as declared "As solid as the Union Nationale" by the President has collapsed into the freezing river below leaving 2 workers dead. Critics and dissidents of the Duplessis regime has mockingly called the Bridge as a true monument of the regime, meaningless-as its destination, Montreal is on the Red side, stuck in time- for the contruction has been launched since the first year of independent and ultimately only a wreck. The Chief declared this to be a communist sabotage plot"
+que.1.a: "Damn Communist!"
+### Parties ###
+
+QUE_nationalist_socialism_party:0 "BW"
+QUE_nationalist_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_revolutionary_socialism_party:0 "BW"
+QUE_revolutionary_socialism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_syndicalism_party:0 "BW"
+QUE_syndicalism_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_moderate_socialist_party:0 "BW"
+QUE_moderate_socialist_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_social_democrat_party:0 "BW"
+QUE_social_democrat_party_long:0 "Behörde zur Wiederaufbau"
+
+QUE_social_liberal_party:0 "Union Nationale - L'Avenir"
+QUE_social_liberal_party_long:0 "National Union"
+
+QUE_social_conservative_party:0 "Union Nationale - L'Avenir"
+QUE_social_conservative_party_long:0 "National Union"
+
+QUE_authoritarian_democrat_party:0 "Union Nationale"
+QUE_authoritarian_democrat_party_long:0 "National Union"
+
+QUE_autocratic_party:0 "Union Nationale"
+QUE_autocratic_party_long:0 "National Union"
+
+QUE_ultraconservative_party:0 "Action française popularie"
+QUE_ultraconservative_party_long:0 "-"
+
+QUE_national_corporatist_party:0 "Action française popularie"
+QUE_national_corporatist_party_long:0 "-"
+
+### Country Name ###
+
+QUE_moderate_socialist:0 "Democratic Republic of Quebec"
+QUE_moderate_socialist_ADJ:0 "Québécois"
+QUE_moderate_socialist_DEF:0 "the Democratic Republic of Quebec"
+QUE_social_democrat:0 "State of Quebec"
+QUE_social_democrat_ADJ:0 "Québécois"
+QUE_social_democrat_DEF:0 "the State of Quebec"
+QUE_social_liberal:0 "State of Quebec"
+QUE_social_liberal_ADJ:0 "Québécois"
+QUE_social_liberal_DEF:0 "the State of Quebec"
+QUE_conservative:0 "State of Quebec"
+QUE_conservative_ADJ:0 "Québécois"
+QUE_conservative_DEF:0 "the State of Quebec"
+QUE_authoritarian_democrat:0 "State of Quebec"
+QUE_authoritarian_democrat_ADJ:0 "Québécois"
+QUE_authoritarian_democrat_DEF:0 "the State of Quebec"
+QUE_autocratic:0 "State of Quebec"
+QUE_autocratic_ADJ:0 "Québécois"
+QUE_autocratic_DEF:0 "the State of Quebec"
+### Focuses ###
+ 
+### Ideas ###
+
+QUE_crown_of_yore:0 "Crown of Yore"
+QUE_crown_of_yore_desc:0 "The hateful English continues to hold dominion over our land and our people. This is nothing we wish for, but until God gives us his hand, we remain under their crown and scepter."
+QUE_land_of_my_father:0 "Land of My Father"
+QUE_land_of_my_father_desc:0 "For decades, this once was the home of devoted Catholics who toiled to grow crops. And for decades, this was where the first colonists came to reside in. Quebec remains unchanged, just as the earth remains forever."
+QUE_anglo_french_divide:0 "Anglo-French Divide" 
+QUE_anglo_french_divide_desc: "Canada has shattered, and without the lands that once stood united under the English Crown, we dared to embrace our French identity. But some among us still cling to their English blood. Some are suspect, for even the most loyal among them may not approve our ambitions."
+QUE_socialist_infiltration:0 "Socialist Infiltration"
+QUE_socialist_infiltration_desc:0 "We are surrounded by enemies. Traitors on one side, and American reds on the other. Though peace exists between us and the godless socialists, and though their combined influence remains dull, we still fear the day they’ll come, thirsty for blood."
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech? ###

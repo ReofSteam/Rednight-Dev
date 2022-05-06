@@ -1,0 +1,145 @@
+﻿capital = 840
+
+oob = "FIN"
+
+set_cosmetic_tag = SECRET_ARMY
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+}
+
+set_convoys = 5
+
+add_ideas = {
+	#limited_conscription
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Aksel Airo"
+	desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
+	picture = "gfx/leaders/FIN/FIN_Aksel_Airo.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Aksel Airo"
+	portrait_path = "gfx/leaders/FIN/FIN_Aksel_Airo.tga"
+	traits = { winter_specialist }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Ruben Lagus"
+	portrait_path = "gfx/leaders/FIN/FIN_Lagus.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hugo Österman"
+	portrait_path = "gfx/leaders/FIN/FIN_Osterman.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 4
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Erkki Raappana"
+	portrait_path = "gfx/leaders/FIN/FIN_Raappana.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+
+create_corps_commander = {
+	name = "Matti Aarnio"
+	portrait_path = "gfx/leaders/FIN/FIN_Aarnio.tga"
+	traits = { winter_specialist }
+	skill = 1
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Hjalmar Siilasvuo"
+	portrait_path = "gfx/leaders/FIN/FIN_Siilasvuo.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 4
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Olavi Laiho"
+	portrait_path = "gfx/leaders/FIN/FIN_Laiho.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Veikko Pöysti"
+	portrait_path = "gfx/leaders/FIN/FIN_Poysti.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 2
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 4
+}

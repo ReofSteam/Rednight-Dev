@@ -1,0 +1,303 @@
+﻿capital = 112
+oob = "POR"
+
+set_technology = {
+	### MOD ###
+	### General ###
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_support = 1
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_research_slots = 3
+set_convoys = 60
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 27
+    revolutionary_socialism = 0
+    syndicalism = 11
+    moderate_socialist = 7
+    social_democrat = 3
+    social_liberal = 8
+    social_conservative = 10
+    authoritarian_democrat = 4
+    autocratic = 16
+    ultraconservative = 14
+    national_corporatist = 0
+}
+
+add_namespace = {
+	name = "por_unit_leader"
+	type = unit_leader
+}
+
+add_ideas = {
+	#POR_Francisco_Rolao_Preto_hog_npo
+	#POR_Afonso_Lopes_Vieira_for_npo
+	#POR_Alberto_Monsaraz_eco_pau
+	#POR_Jose_Hipolito_Vaz_Raposo_sec_pau
+	#POR_integralist_ethos
+	#POR_Luis_Carlos_de_Lima_de_Almeida_Braga_int_npo
+
+	#medium_economy
+}
+
+create_country_leader = { #Auto-Generated
+	name = "Regente José Norton de Matos"
+	desc = "POLITICS_DUARTE_BRAGANCA_DESC"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Norton_Matos.tga"
+	expire = "1955.1.1"
+	ideology = autocratic_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "João do Canto e Castro"
+	desc = "POLITICS_JOAO_CANTO_CASTRO_DESC"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_Joao_Castro.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Duarte Nuno II"
+	picture = "gfx/leaders/POR/POR_Duarte_Nuno.tga"
+	desc = "POLITICS_ANTONIO_RESENDE_DESC"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Afonso Costa"
+	picture = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_Afonso_Costa.tga"
+	desc = "POLITICS_AFONSO_COSTA_DESC"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}
+
+### Field Marshal
+create_field_marshal = { #Auto-Generated
+	name = "Norton Matos"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Norton_Matos.tga"
+	traits = {
+		old_guard
+		career_officer
+		defensive_doctrine
+
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "José Augusto Alves Roçadas"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Alves_Rocadas.tga"
+	traits = {
+	old_guard
+	inflexible_strategist
+	fortress_buster
+
+	}
+	skill = 3
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Antonio Oscar Fragoso Carmona"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_Antonio_Carmona.tga"
+	traits = {
+		old_guard
+		politically_connected
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Eugénio Augusto de Almada e Castro Bilstein Menezes"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Castro_Bilstein_Menezes.tga"
+	traits = {
+	trait_cautious
+	old_guard
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Frederico da Costa Lopes da Silva"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Costa_Lopes_sa_Silva.tga"
+	traits = {
+	infantry_officer
+	brilliant_strategist
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Garcia Rosado"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Garcia_Rosado.tga"
+	traits = {
+	war_hero
+	old_guard
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "António Vitorino da França Borges"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Franca_Borges.tga"
+	traits = {
+	infantry_officer
+	career_officer
+	jungle_rat
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Artur Carlos de Barros Basto"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Barros_Basto.tga"
+	traits = {
+	trait_cautious
+	politically_connected
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "João Estêvão ?uas"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Joao_Aguas.tga"
+	traits = {
+	politically_connected
+	infantry_officer
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "João de Almeida"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Joao_Almeida.tga"
+	traits = {
+	war_hero
+	politically_connected
+	}
+	skill = 2
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "José Vicente de Freitas"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_de_Freitas.tga"
+	traits = {
+	war_hero
+	career_officer
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Manuel Ortins Torres de Bettencourt"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Torres_de_Bettencourt.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 2 #naval guy, don't patch
+}
+
+create_navy_leader = { #Auto-Generated
+	name = "João do Canto e Castro"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_Portugal_Joao_Castro.tga"
+	traits = {
+		old_guard_navy
+		superior_tactician
+	}
+	skill = 1 #naval guy, don't patch
+}
+
+create_navy_leader = {
+	name = "Manuel Sarmento Rodrigues"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Manuel_Rodrigues.tga"
+	traits = {
+	}
+	skill = 1 #naval guy, don't patch
+}
+
+create_navy_leader = {
+	name = "Américo Thomaz"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/POR/Portrait_POR_Americo_Thomaz.tga"
+	traits = {
+	}
+	skill = 1 #naval guy, don't patch
+}
+
+

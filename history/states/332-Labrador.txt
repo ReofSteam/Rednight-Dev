@@ -1,0 +1,24 @@
+state = {
+	id = 332
+	name = "STATE_332"
+
+	state_category = wasteland
+	impassable = yes
+
+	history = {
+		owner = WCN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = WCN
+		1981.1.1 = {
+		owner = CSA
+		add_core_of = CSA
+}	
+	}
+
+	provinces = {
+		1426 1785 4720 4787 12503
+	}
+	manpower = 12015
+}

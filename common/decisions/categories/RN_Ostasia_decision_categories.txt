@@ -1,0 +1,12 @@
+GEA_Raid_Shipments = {
+	icon = GFX_decision_generic_industry
+	priority = 10
+	allowed = {
+		tag = GEA
+	}
+	visible = {
+	tag = GEA
+	}
+      visible_when_empty = yes
+}
+

@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		IRE_general_strike = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea IRE_general_strike"}
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.5
+				production_factory_max_efficiency_factor = -0.6
+				consumer_goods_factor = 0.32
+				political_power_factor = -0.75
+			}
+			removal_cost = -1
+			picture = general_strike
+		}
+				
+}
+}

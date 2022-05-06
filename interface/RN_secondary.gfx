@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Nikolai_Skoblin"
+		texturefile = "gfx/leaders/RUS/RUS_Skoblin.tga"
+	}
+	spriteType = {
+		name = "GFX_Mikhail_Levitov"
+		texturefile = "gfx/leaders/RUS/Mikhail_Levitov.tga"
+	}
+	spriteType = {
+		name = "GFX_Oswald_Mosley"
+		texturefile = "gfx/leaders/ENG/ENG_Mosley.tga"
+	}
+	spriteType = {
+		name = "GFX_Worker_Council"
+		texturefile = "gfx/leaders/ENG/ENG_Worker_Council.tga"
+	}
+	spriteType = {
+		name = "GFX_HUN_Vladislav_III"
+		texturefile = "gfx/leaders/HUN/HUN_Vladislav_III.tga"
+	}
+	spriteType = {
+		name = "GFX_kaiser_louis_ferdinand"
+		texturefile = "gfx/leaders/PRS/PRS_Ferdinand.tga"
+	}
+	spriteType = {
+		name = "GFX_kaiser_wilhelm_third"
+		texturefile = "gfx/leaders/PRS/PRS_wilhelm_third.tga"
+	}	
+	spriteType = {
+		name = "GFX_SER_Alexander_I"
+		texturefile = "gfx/leaders/SER/SER_Alexander.tga"
+	}	
+	spriteType = {
+		name = "GFX_INS_Sukarno"
+		texturefile = "gfx/leaders/INS/INS_Sukarno.png"
+	}		
+	spriteType = {
+		name = "GFX_legislature"
+		texturefile = "gfx/interface/parties/legislature.tga"
+	}
+}

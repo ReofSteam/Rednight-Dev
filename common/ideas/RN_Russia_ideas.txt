@@ -1,0 +1,243 @@
+### Russia
+
+ideas = {
+	country = {
+		RUS_yusopov_investments = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_yusopov_investments"}
+			picture = RUS_Yusopov_money
+			modifier = {
+production_speed_buildings_factor = 0.05
+			}
+		}
+
+	}
+	country = {
+		RUS_siberian_plan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_siberian_plan"}
+			picture = AUS_age_uncertainty
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}	
+	country = {
+		RUS_five_years_plan = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_five_years_plan"}
+			picture = RUS_five_years_plan
+			modifier = {
+production_speed_buildings_factor = 0.15
+political_power_gain = -0.5
+			}
+		}
+
+	}
+	country = {
+		RUS_failed_NEP = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_failed_NEP"}
+			picture = RUS_failed_NEP
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}
+	country = {
+		RUS_successful_NEP = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_successful_NEP"}
+			picture = RUS_successful_NEP
+			modifier = {
+production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+	}
+	country = {
+		RUS_NOELRUD = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_NOELRUD"}
+			picture = RUS_NOELRUD
+			modifier = {
+production_speed_buildings_factor = 0.10
+production_factory_max_efficiency_factor = 0.10
+			}
+		}
+
+	}
+	country = {
+		RUS_minorities_crisis = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis"}
+			picture = RUS_narodost_1
+			modifier = {
+			stability_factor = -0.30
+			recruitable_population_factor = -0.5
+			war_support_factor = -0.20	
+			}
+		}
+
+	}	
+	country = {
+		RUS_minorities_crisis_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_2"}
+			picture = RUS_narodost_2
+			modifier = {
+			stability_factor = -0.25
+			recruitable_population_factor = -0.25
+			war_support_factor = -0.10	
+			}
+		}
+
+	}
+	country = {
+		RUS_minorities_crisis_3 = { #Loyal Minorities
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_3"}
+			picture = RUS_narodost_3
+			modifier = {
+			stability_factor = -0.15
+			recruitable_population_factor = 0.25
+			war_support_factor = -0.10	
+			}
+		}
+
+	}	
+	country = {
+		RUS_minorities_crisis_4 = { #All-Russa
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_minorities_crisis_4"}
+			picture = RUS_narodost_3
+			modifier = {
+			stability_factor = 0.12
+			recruitable_population_factor = -0.25
+			war_support_factor = 0.15	
+			}
+		}
+
+	}		
+	country = {
+		RUS_bad_civil_service = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_bad_civil_service"}
+			picture = RUS_bad_civil_service
+			modifier = {
+			local_resources_factor = -0.10
+			consumer_goods_factor = 0.05
+			}
+		}
+
+	}		
+	country = {
+		RUS_army_gap = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_army_gap"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}
+	country = {
+		RUS_mechanisation_of_farming = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_mechanisation_of_farming"}
+			picture = bad_military
+			modifier = {
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = 0.15
+			}
+		}
+
+	}
+	country = {
+		RUS_agriculture_stability = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability_2"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}	
+	country = {
+		RUS_agriculture_stability = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_agriculture_stability_3"}
+			picture = bad_military
+			modifier = {
+			planning_speed = -0.20
+			army_org_factor = -0.05
+			}
+		}
+
+	}
+	country = {
+		RUS_outdated_agrarian_production = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_outdated_agrarian_production"}
+			picture = outdated_agrarian
+			modifier = {
+			production_speed_buildings_factor = -0.05
+			consumer_goods_factor = 0.10
+			}
+		}
+
+	}	
+	country = {
+		RUS_weak_economy = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_weak_economy"}
+			picture = economy_bad
+			modifier = {
+			production_speed_industrial_complex_factor = -0.1
+            production_factory_max_efficiency_factor = -0.05
+			political_power_gain = -0.5
+			}
+		}
+
+	}	
+country = {
+		RUS_the_enemy_among_us = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_the_enemy_among_us"}
+			picture = economy_bad
+			modifier = {
+			stability_factor = -0.05
+			}
+		}
+
+	}		
+########Companies ########
+	industrial_concern = {
+
+		RUS_national_construction_corporation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_national_construction_corporation"}
+			allowed = { original_tag = RUS }
+			traits = { industrial_manufacturer }
+			available = {
+has_country_flag = RUS_heavy_industry_1
+}			
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.2
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+	}	
+	industrial_concern = {
+		RUS_prodamet_corporation = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RUS_prodamet_corporation"}
+			allowed = { original_tag = RUS }
+			traits = { industrial_manufacturer }
+			available = {
+has_country_flag = RUS_heavy_industry_2
+}			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.15
+			}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+
+	}
+
+
+
+}
+

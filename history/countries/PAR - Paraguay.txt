@@ -1,0 +1,258 @@
+﻿capital = 301
+OOB = "PAR"
+set_research_slots = 2
+set_technology = {
+	### Navy ###
+
+	####Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+}
+
+add_ideas = {
+	#extensive_conscription
+	#PAR_pensions
+	#PAR_prussia
+}
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Higenio Morinigo Martinez"
+	desc = "POLITICS_HUGENIO_MARTINEZ_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Hugenio_Morinigi.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Juan Manuel Frutos"
+	desc = "POLITICS_JUAN_MANUEL_FRUTOS_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Juan_Manuel.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Rafael Franco"
+	desc = "POLITICS_FRANCO_PAR_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Rafael_Franco.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Eduardo Schaerer"
+	desc = "POLITICS_EDUARDO_SCHAERER_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Eduardo_Schaerer.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "José Patricio Guggiari"
+	desc = "POLITICS_JOSE_PATRICO_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Jose_Patricio.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Alfredo Stroessner"
+	desc = "POLITICS_STROESSNER_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Alfredo_Stroessner.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Luís Avelino Argaña"
+	desc = "POLITICS_LUIS_AVELINO_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Luis_Avelino.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "José Félix Estigarribia"
+	desc = "POLITICS_ESTIGARRIBIA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Estigarribia.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Lucas Ibarrola"
+	desc = "POLITICS_LUCAS_IBARROLA_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Lucas_Ibarrola.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Obdulio Barthe"
+	desc = "POLITICS_OBDULIO_BARTHE_DESC"
+	picture = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Obdulio_Barthe.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+
+### Field Marshal
+create_field_marshal = { #Auto-Generated
+	name = "José Félix Estigarribia"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Estigarribia.tga"
+	traits = {
+		media_personality
+		war_hero
+		aggressive_assaulter
+		trickster
+		swamp_fox
+		fortress_buster
+	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 5
+}
+### Corps Commander
+create_corps_commander = { #Auto-Generated
+	name = "Raimundo Rolon Villasanti"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Raimundo_Rolon.tga"
+	traits = {
+		career_officer
+		war_hero
+		commando
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+
+create_corps_commander = { #Auto-Generated
+	name = "Higenio Morinigo Martinez"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_Paraguay_Hugenio_Morinigi.tga"
+	traits = {
+		trickster
+		swamp_fox
+		fortress_buster
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Eugenio Garay"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Garay.tga"
+	traits = {
+		war_hero
+		old_guard
+		swamp_fox
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Federico Smith"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Smith.tga"
+	traits = {
+		cavalry_officer
+		old_guard
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+
+create_corps_commander = { #Auto-Generated
+	name = "Luis Irrazábal"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Irrazabal.tga"
+	traits = {
+		#artillery_officer
+		infantry_officer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "José Ortiz"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Jose_Ortiz.tga"
+	traits = {
+		career_officer
+		inflexible_strategist
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = { #Auto-Generated
+	name = "Alfredo Stroessner"
+	portrait_path = "gfx/leaders/SOUTH_AMERICA/PAR/Portrait_PAR_Alfredo_Stroessner.tga"
+	traits = {
+		career_officer
+		media_personality
+		swamp_fox
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+### Navy Leader

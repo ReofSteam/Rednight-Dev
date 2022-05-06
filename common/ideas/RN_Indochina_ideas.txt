@@ -1,0 +1,51 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+			INC_fatherland_return = {
+			picture = INC_return_to_fatherland
+
+			modifier = {
+				monthly_population = 0.15
+				research_speed_factor = 0.05
+			}
+			removal_cost = -1
+		}
+
+
+			INC_martyrs_desire = {
+			picture = INC_martyr		
+			modifier = {
+				production_speed_buildings_factor = 0.3
+				research_speed_factor = 0.15
+				stability_factor = 0.1
+			}
+			removal_cost = -1
+		}
+
+
+			INC_thick_blood = {
+			picture = INC_3_republics_feud		
+			modifier = {
+				political_power_factor = -0.4
+				stability_factor = -0.5
+			}
+			removal_cost = -1
+		}
+
+
+			INC_common_education = {
+			picture = INC_common_education		
+
+			modifier = {
+				political_power_factor = -0.3
+				research_speed_factor = -0.6
+			
+			}
+			removal_cost = -1
+		}
+	}
+}		
+		

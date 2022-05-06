@@ -1,0 +1,116 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Country Name ###
+
+DEI_social_nationalist:0 "Dutch East Indies"
+DEI_social_nationalist_ADJ:0 "Dutch East Indies"
+DEI_social_nationalist_DEF:0 "Dutch East Indies"
+DEI_marxist:0 "Dutch East Indies"
+DEI_marxist_ADJ:0 "Dutch East Indies"
+DEI_marxist_DEF:0 "Dutch East Indies"
+DEI_moderate_socialist:0 "Dutch East Indies"
+DEI_moderate_socialist_ADJ:0 "Dutch East Indies"
+DEI_moderate_socialist_DEF:0 "Dutch East Indies"
+DEI_social_democrat:0 "Dutch East Indies"
+DEI_social_democrat_ADJ:0 "Dutch East Indies"
+DEI_social_democrat_DEF:0 "Dutch East Indies"
+DEI_social_liberal:0 "Dutch East Indies"
+DEI_social_liberal_ADJ:0 "Dutch East Indies"
+DEI_social_liberal_DEF:0 "Dutch East Indies"
+DEI_conservative:0 "Dutch East Indies"
+DEI_conservative_ADJ:0 "Dutch East Indies"
+DEI_conservative_DEF:0 "Dutch East Indies"
+DEI_authoritarian_democrat:0 "Dutch East Indies"
+DEI_authoritarian_democrat_ADJ:0 "Dutch East Indies"
+DEI_authoritarian_democrat_DEF:0 "Dutch East Indies"
+DEI_autocratic:0 "Dutch East Indies"
+DEI_autocratic_ADJ:0 "Dutch East Indies"
+DEI_autocratic_DEF:0 "Dutch East Indies"
+DEI_fundamentalist:0 "Dutch East Indies"
+DEI_fundamentalist_ADJ:0 "Dutch East Indies"
+DEI_fundamentalist_DEF:0 "Dutch East Indies"
+DEI_voynist:0 "Dutch East Indies"
+DEI_voynist_ADJ:0 "Dutch East Indies"
+DEI_voynist_DEF:0 "Dutch East Indies"
+
+### Parties ###
+DEI_social_nationalist_party:0 "PKI-I (Radical) - Insulindian-Irian Independence Party"
+DEI_social_nationalist_party_long:0 "Partij Kemerdekaan Insulindia-Irian (Radikal)"
+DEI_marxist_party:0 "PVI - Insulindian Worker's Union"
+DEI_marxist_party_long:0 "Persatuan Vakbonded Insulindia"
+DEI_libertarian_party:0 "Jong Digoel - Digoel Youth"
+DEI_libertarian_party_long:0 "Jong Digoel"
+DEI_moderate_socialist_party:0 "PKI-I - Insulindian-Irian Independence Party"
+DEI_moderate_socialist_party_long:0 "Partij Kemerdekaan Insulindia-Irian"
+DEI_social_democrat_party:0 "ISDV - East Indies Social-Democratic Union"
+DEI_social_democrat_party_long:0 "Indische Sociaal-Demokratische Vereeniging"
+DEI_social_liberal_party:0 "LSP - Liberal State Party"
+DEI_social_liberal_party_long:0 "Liberaal Staatspartij"
+DEI_conservative_party:0 "ARP / RKSP - Anti-Revolutionary Party / Roman Catholic State Party"
+DEI_conservative_party_long:0 "Anti-Revolutionaire Partij / Rooms-Katholieke Staatspartij"
+DEI_authoritarian_democrat_party:0 "East Indies Government - Military Administration"
+DEI_authoritarian_democrat_party_long:0 "Gouvernement van Oost-Indië - Militaire Administratie"
+DEI_autocratic_party:0 "East Indies Government - Emergency Government"
+DEI_autocratic_party_long:0 "Gouvernement van Oost-Indië - Noordregering"
+DEI_fundamentalist_party:0 "East Indies Government - KST"
+DEI_fundamentalist_party_long:0 "Gouvernement van Oost-Indië - Korps Speciale Troepen"
+DEI_voynist_party:0 "VNH - Alliance for National Recovery"
+DEI_voynist_party_long:0 "Verbond voor Nationaal Herstel"
+
+### Cosmetic Tags ###
+
+### Opinions ###
+DEI_other_relevant_tag_if_specific_descriptive_word_or_two:0 "-"
+DEI_descriptive_word_or_two:0 "-"
+
+### Ideas ###
+DEI_colonial_nation_idea:0 "Colonial Government"
+DEI_colonial_nation_idea_desc:0 "Even now, the Dutch East Indies is still an inherently colonial government, just one without a master. Many inhabitants do not serve in the army, and although that problem is not as big as it once was, this still leaves us with a considerably smaller recruitment pool."
+DEI_naval_junta_idea:0 "Naval Junta"
+DEI_naval_junta_idea_desc:0 "The government of the East Indies stands under heavy military influence, with the Governor-General being a Vice-Admiral and the Emergency Government largely filled with navy and army officers that got out of the East Indies following the collapse."
+
+DEI_economy_lvl0_idea:0 "Underdeveloped Economy"
+DEI_economy_lvl0_idea_desc:0 "New Guinea is rich in minerals and other resources, but it has never been heavily invested in and its industrial base is small. This has to change if we are to last here."
+DEI_economy_lvl1_idea:0 "Developing Economy"
+DEI_economy_lvl1_idea_desc:0 ""
+DEI_economy_lvl2_idea:0 "Growing Economy"
+DEI_economy_lvl2_idea_desc:0 ""
+DEI_economy_lvl3_idea:0 "Rising Economy"
+DEI_economy_lvl3_idea_desc:0 ""
+DEI_economy_lvl4_idea:0 "Competing Economy"
+DEI_economy_lvl4_idea_desc:0 ""
+
+
+### Focuses ###
+DEI_FOCUS_NAME:0 "-"
+DEI_FOCUS_NAME_desc:0 "-"
+
+### Decisions ###
+DEI_decision_group_name:0 "-"
+DEI_decision_group_name_desc:0 "-"
+
+### Flags ###
+DEI_flag_name:0 "-"
+
+### Tooltips ###
+DEI_thing_being_tooltiped_name_tooltip:0 "-"
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+POLITICS_FURSTNER_DESC:0 "Johan Theodorus Furstner was born on the 16th of January 1887 in Amsterdam, the Netherlands. He would join the Koninklijk Instituut voor de Marine (KIM, Royal Navy Institute) to become an officer, and after completing his education was sent to the East Indies to serve in the Royal Navy’s East Indies Squadron. From there he followed the development in Europe, in particular its descent into warfare. He would later return to the Netherlands in 1918 and stayed for a while, becoming notably discontent with the stagnant state of Dutch politics. \n\nHe returned to the East Indies again in 1926 to serve as an officer in the East Indies Navy. There he came into contact with Henri Swart, the ex-military governor of Aceh and retired member of the Raad van Nederlands-Indië. He would return to the Netherlands with Swart a few years later where, together with other concerned citizens and military personnel, he founded the VNH (Verbond voor Nationaal Herstel), an authoritarian right-wing party dedicated to strengthening the Netherlands. \n\n Furstner was promoted to Vice-Admiral in 1935 in recognition of his skill, and he would later be appointed as Governor-General of the East Indies, seen as the man fit for the job of dealing with the First Insulindian Uprising in 1936. After some daring military manoeuvres, the colonial government soon regained ground and Furstner implemented further measures to hasten the war’s end, such as expansions to the Papua Camps. Once the uprising was over, he put even more restricting regulations in place, such as freezing the Ethical Policy and dissolving the Volksraad. \n\n However, following the Second Weltkrieg and the capitulation of the Netherlands, things quickly turned sour. Spurred by rumours of Dutch weakness and foreign help, a Second Insulindian Uprising soon broke out in 1945. While initially going in the favour of the colonial government, they soon found themselves losing as guerilla tactics were expertly used. They fled to parts of the colony that remained loyal. Now, Furstner finds himself in a precarious position. Most of his power is lost, and he must try to build a new nation from scratch."
+
+### Tech ###
+
+### Events ###
+event_namespace.X.identifying_letter:0 "-"
+#Ex:
+epic_example_events.1.t:0 "this is a title"
+epic_example_events.1.d:0 "this is a description"
+epic_example_events.1.a:0 "it's important to note the identifying letter is entirely abritrary,"
+epic_example_events.1.b:0 "but, it's still preferred you do it in the before format."
+epic_example_events.1.c:0 "That is, t for title d for description and then a-c, e-f for options."

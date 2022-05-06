@@ -1,0 +1,22 @@
+state={
+	id=1094
+	name="STATE_1094"
+	state_category=five
+	history={
+		owner = JOZ
+		add_core_of = JOZ
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		1981.1.1 = {
+		owner = PRS
+		add_core_of = PRS
+}	
+	}
+	provinces={
+		268 293 3258 
+	}
+	manpower=645680
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 972
+	name = "STATE_972"
+
+	history = {
+		owner = KAM
+		add_core_of = KAM
+		add_core_of = COG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		13605
+	}
+	manpower = 22500
+	state_category = wasteland
+}

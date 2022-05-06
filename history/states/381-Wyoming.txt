@@ -1,0 +1,28 @@
+
+state={
+	id=381
+	name="STATE_381"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = CSA
+		victory_points = {
+			4723 1 
+		}
+
+	}
+
+	provinces={
+		4723 10640 10711 1815 7814
+	}
+	manpower=240000
+	buildings_max_level_factor=1.000
+	state_category=two
+}

@@ -1,0 +1,76 @@
+﻿capital = 304
+OOB = PAN
+set_convoys = 10
+set_research_slots = 2
+set_technology = {
+	### Navy ###
+
+	early_submarine = 1
+	early_destroyer = 1
+	transport = 1
+	####Tanks ###
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+}
+
+set_stability = 0.55
+set_war_support = 0.45
+
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 0
+	revolutionary_socialism = 0
+	syndicalism = 0
+	moderate_socialist = 0
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	authoritarian_democrat = 100
+	autocratic = 0
+	ultraconservative = 0
+	national_corporatist = 0
+}
+
+add_ideas = {
+	#medium_economy
+
+	#PAN_Arnulfo_Arias_de_la_Madrid_hog_mli
+	#PAN_Narciso_Garay_Diaz_for_sli
+	#PAN_Daniel_C_Pinzon_eco_mli
+	#PAN_Raoul_Arias_Amador_sec_sco
+
+}
+create_country_leader = {
+	name = "Juan Demostenes Arosemena"
+	desc = "POLITICS_JUAN_AROSEMENA_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/PAN/Portrait_PAN_Juan_Demostenes_Arosemena.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+
+### Field Marshal
+### Corps Commander
+create_corps_commander = {
+	name = "Boris Nestor Martinez Salazar"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/PAN/Portrait_PAN_Boris_Salazar.tga"
+	traits = {
+		organizer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}

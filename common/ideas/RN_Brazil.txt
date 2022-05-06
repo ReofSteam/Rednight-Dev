@@ -1,0 +1,59 @@
+### Brazil
+
+ideas = {
+	country = {
+		BRA_aib_remnants = {
+			picture = BRA_integralist
+			modifier = {
+political_power_gain = -0.1
+stability_factor = -0.3
+		  }
+
+	   }
+}
+	
+country = {
+		BRA_democracy_bastion = {
+		picture =  BRA_liberty		
+		modifier = {
+drift_defence_factor = 0.5
+national_corporatist_acceptance = -100
+autocratic_acceptance = -100
+ultraconservative_acceptance = -100
+moderate_socialism_acceptance = -100
+syndicalism_acceptance = -100
+revolutionary_socialism_acceptance = -100
+nationalist_socialism = -100
+
+	   }
+}
+
+}	
+
+country = {
+		BRA_vigilant_population = {
+		picture =  BRA_army
+		modifier = {
+        conscription = 0.05
+        industrial_capacity_factory = 0.05
+
+	}
+
+			
+}
+
+}
+country = {
+		BRA_neutral_nation = {
+			picture =  neutrality
+			modifier = {
+min_export = 0.5
+production_speed_industrial_complex_factor = 0.25
+production_factory_efficiency_gain_factor = 0.25
+
+	   }
+}
+
+}
+
+}			

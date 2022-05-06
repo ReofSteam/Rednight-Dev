@@ -1,0 +1,1994 @@
+###########################
+#Russian Decisions# WIP
+###########################
+
+
+RUS_ICBM_activation = {
+
+	RUS_confirm_order = {
+		fire_only_once = yes
+		visible = { 
+		NOT = { has_country_flag = RUS_ICBM_stage2 }
+		}
+		allowed = { 
+		has_global_flag = PARDAN_0_international
+	}
+		cost = 20
+		days_remove = 1
+		complete_effect = {
+		country_event = rus.100
+	}	
+		remove_effect = {
+		set_country_flag = RUS_ICBM_stage2
+		}
+	}
+
+	RUS_confirm_authorisation_code = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage2
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.101
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage2
+		set_country_flag = RUS_ICBM_stage3
+		}
+	}
+
+	RUS_set_launch_calculation = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage3
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.102
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage3
+		set_country_flag = RUS_ICBM_stage4
+		}
+	}
+	RUS_activate_nuclear_key = {
+		days_re_enable = 7
+		fire_only_once = no
+		available = { 
+		has_country_flag = RUS_ICBM_stage4
+	}
+		days_remove = 2
+		complete_effect = {
+		country_event = rus.103
+	}	
+		remove_effect = {
+		clr_country_flag = RUS_ICBM_stage4
+		set_country_flag = RUS_ICBM_ready
+		}
+	}
+	RUS_PARDAN_0_Paris = {
+		days_re_enable = 7
+		fire_only_once = no
+		visible = { has_country_flag = RUS_ICBM_ready }
+		available = { 
+		NOT = { 195 = {
+		has_state_flag = nuclear_destroyed 
+		} }
+		has_country_flag = RUS_ICBM_ready
+	}
+		days_remove = 1
+		complete_effect = {
+	}	
+		remove_effect = {
+		set_country_flag = RUS_ICBM_stage2	
+		clr_country_flag = RUS_ICBM_ready
+		launch_nuke = {
+		province = 11506
+		state = 16
+		controller = FRA
+		use_nuke = yes
+	}	
+	launch_nuke = {
+		state = 11516
+		controller = FRA
+		use_nuke = yes
+	}
+	launch_nuke = {
+		state = 33
+		controller = FRA
+		use_nuke = yes
+	}
+	launch_nuke = {
+		state = 15
+		controller = FRA
+		use_nuke = yes
+	}
+	15 = {
+		ICBM_attack_destruction = yes
+	}
+		779 = {
+		ICBM_attack_destruction = yes
+	}
+		33 = {
+		ICBM_attack_destruction = yes
+		}
+	
+		random_list = { 
+	90 = { 
+		16 = { 
+		ICBM_attack_destruction = yes
+		set_state_name = "Ruins of Paris"	
+		}
+		
+		
+	}
+	10 = {
+		16 = {
+		add_manpower = -10000
+		}	
+	}	
+	}	
+	}
+	}
+	RUS_PARDAN_0_Moscow = {
+		visible = { has_country_flag = RUS_ICBM_ready }
+	
+	}
+	}
+
+
+RUS_siberian_industrialisation = {
+
+	RUS_construct_siberian_civ_factory = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = yusopov_decrees
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+				has_country_flag = yusopov_decrees
+		}
+
+		cost = 20
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RUS = {
+					has_war = yes
+				}
+			}
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_civ_factory"
+		random_list = {
+    4 = { 579 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 580 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 653 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 572 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 583 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 590 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 403 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 571 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 577 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 570 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 40 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 576 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 575 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 562 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 560 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 409 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 408 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 567 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 516 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+    }}	
+}
+		}
+		
+	}
+RUS_construct_siberian_mil_factory = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = yusopov_decrees
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = yusopov_decrees
+		}
+
+		cost = 20
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RUS = {
+					has_war = yes
+				}
+			}
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_mil_factory"
+		random_list = {
+    4 = { 579 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 580 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 653 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 572 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 583 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 590 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 403 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 571 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 577 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 570 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 40 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 576 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 575 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 562 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 560 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 409 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 408 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 567 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 516 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+    }}	
+}
+		}
+		
+	}	
+
+RUS_construct_siberian_infra = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = construct_siberian_infra
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = construct_siberian_infra
+		}
+
+		cost = 20
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 25
+				RUS = {
+					has_war = yes
+				}
+			}
+		}
+		fixed_random_seed = no
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_construct_siberian_infra"
+		random_list = {
+    5 = { 579 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 580 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 653 = {
+				add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 572 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 583 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 590 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 403 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 571 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 577 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 570 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 40 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 576 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 575 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 562 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 560 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 409 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 408 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 588 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 574 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    4 = { 567 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}
+    5 = { 516 = {
+					add_extra_state_shared_building_slots = 1 
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+    }}	
+}
+		}
+		
+	}	
+}
+
+RUS_rebels_suppression = {
+
+RUS_Finland_reinforcement = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_great_rebellion_FIN
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_great_rebellion_FIN
+		}
+
+		cost = 50
+		days_re_enable = 30
+
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_reinforcement"
+			add_manpower = -10000
+			RFN = { country_event = { 
+	id = rus.26
+	}
+	}
+		} 
+}		
+
+
+RUS_Finland_supply = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_great_rebellion_FIN
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_great_rebellion_FIN
+		}
+
+		cost = 50
+		days_re_enable = 20
+
+		ai_will_do = {
+			factor = 75
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
+			add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -5000
+}	
+		RFN = { country_event = { 
+	id = rus.27
+	}
+	}
+		}	
+}
+
+RUS_intercept_frogs = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+				#has_country_flag = RUS_great_rebellion_FIN
+				has_global_flag = france_arms_pekkas
+		}
+
+		visible = {
+			#RUS = {
+			#	exists = yes
+			#}
+			has_country_flag = RUS_great_rebellion_FIN
+			NOT = { has_global_flag = the_corridor_is_closed }
+		}
+
+		cost = 20
+		days_re_enable = 15
+
+		ai_will_do = {
+			factor = 35
+			modifier = {
+				factor = 25
+				RFN = {
+					has_war = yes
+					surrender_progress > 0.5
+				}
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_Finland_supply"
+			set_global_flag = french_help_intercepted
+				custom_effect_tooltip = tt_intercepting_frogs
+				}	
+		}	
+
+
+french_help_arriving = {                           # This is our mission id
+          allowed = { tag = RUS }                 # This mission is only allowed for Poland. Other countries will not be able to see it or activate it.
+          available = {      
+          has_global_flag = french_help_intercepted
+          	#                   # Available here means as much as goal because:
+          #    command_power > 6
+				                      # we can only finish this mission if we control state 64 (Berlin)
+          }
+          activation = {                          # The mission appears and starts counting down under these circumstances:
+              has_global_flag = france_arms_pekkas                      # War with Germany
+          }
+          is_good = no                           # This mission is color coded to be a positive thing (not a crisis)
+         # selectable_mission = yes                # This mission will complete when the player selects the mission rather than completing automatically
+          days_mission_timeout = 20              # How many days before the mission fails?
+          timeout_effect = {         
+          	   FIN = {
+          	   add_manpower = 7500
+			add_equipment_to_stockpile = {
+			 type = infantry_equipment
+    			 amount = 500
+   				 producer = FRA
+			}
+			add_equipment_to_stockpile = {
+			 type = support_equipment
+    			 amount = 250
+   				 producer = FRA
+			} 
+          	   }
+          	   clr_global_flag = france_arms_pekkas 
+          	   clr_global_flag = french_help_intercepted            # Lose 50 PP
+          }
+          
+          complete_effect = {             
+          RFN = {       # What happens when we activate the mission i.e. mission success?
+              add_equipment_to_stockpile = {
+			 type = infantry_equipment
+    			 amount = 250
+   				 producer = FRA
+			}
+			add_equipment_to_stockpile = {
+			 type = support_equipment
+    			 amount = 125
+   				 producer = FRA
+			}
+			}
+			army_experience = 20 
+			clr_global_flag = france_arms_pekkas 
+			clr_global_flag = french_help_intercepted 
+          }
+     }
+
+the_corridor_closes = {                           # This is our mission id
+          allowed = { tag = RUS }                 # This mission is only allowed for Poland. Other countries will not be able to see it or activate it.
+          available = {      
+          	#                   # Available here means as much as goal because:
+              ships_in_state_ports = {
+    				type = submarine
+    				size > 50
+    				state = 13
+				}
+				                      # we can only finish this mission if we control state 64 (Berlin)
+          }
+          activation = {                          # The mission appears and starts counting down under these circumstances:
+              has_global_flag = liberty_corridor_exists     
+              NOT = { has_global_flag = the_corridor_is_closed }                 # War with Germany
+          }
+          is_good = no                           # This mission is color coded to be a positive thing (not a crisis)
+         # selectable_mission = yes                # This mission will complete when the player selects the mission rather than completing automatically
+          days_mission_timeout = 100              # How many days before the mission fails?
+          timeout_effect = {         
+          	   custom_effect_tooltip = the_people_know             # What happens when we fail the mission?
+               add_political_power = -150               # Lose 50 PP
+          }
+          complete_effect = {                    # What happens when we activate the mission i.e. mission success?
+               custom_effect_tooltip = the_french_lose
+               add_political_power = 100               # Gain 50 PP
+               set_global_flag = the_corridor_is_closed
+          }
+     }	
+
+
+
+
+}
+
+RUS_five_years_plan = { 
+RUS_national_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_rural_electrification
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -5000
+          }  
+          days_remove = 120
+          remove_effect = {
+		  add_ideas	= { RUS_NOELRUD }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 5000
+          }
+		} 
+RUS_heavy_industry_2 = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_private_heavy_industry
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 60
+          remove_effect = {
+		  set_country_flag = RUS_heavy_industry_2
+		  add_ideas	= { RUS_prodamet_corporation }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 1000
+          }
+		}		
+RUS_heavy_industry_1 = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_state_heavy_industry
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -5000
+          }  
+          days_remove = 80
+          remove_effect = {
+		  add_ideas	= { RUS_national_construction_corporation }
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 5000
+          }
+}		  
+RUS_national_farms = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			AND = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_corporatist_land_reforms
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+	}
+		}
+RUS_land_redistribution = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			AND = {
+				has_country_flag = RUS_five_years_plan
+				has_country_flag = RUS_corporatist_land_reforms_2
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_national_electrification"
+			add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+	}
+		}		
+		
+RUS_mechanisation_of_farming = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			OR = {
+				has_country_flag = RUS_corporatist_land_reforms
+				has_country_flag = RUS_corporatist_land_reforms_2
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 25
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_ideas = {
+		  RUS_mechanisation_of_farming
+		  }
+          }  
+          days_remove = 120
+          remove_effect = {
+		  swap_ideas = {
+    remove_idea = RUS_mechanisation_of_farming
+    add_idea = RUS_agriculture_stability
+}
+remove_ideas = RUS_outdated_agrarian_production
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+	country_event = rus.53
+          }
+		}				
+RUS_Petrogard_Moscow_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+244 = { add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+264 = { add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+247 = { add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+219 = { add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+195 = { add_building_construction = {
+    type = infrastructure
+    level = 2
+    instant_build = yes
+}
+}
+          add_manpower = 1000
+          }
+		}		
+RUS_North_Causcacus_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+223 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+258 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+260 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+245 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+218 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}		  
+238 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+234 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 1000
+          }
+		}
+RUS_Volga_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+406 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+407 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+652 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+251 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+250 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+255 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+401 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+          add_manpower = 1000
+          }
+		}		
+RUS_Nizhny_Novgorod_rail_electrification = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_five_years_plan
+			}
+		}
+
+		visible = {
+			RUS = {
+				exists = yes
+			}
+			has_country_flag = RUS_five_years_plan
+		}
+
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 10
+		}
+          complete_effect = {
+          add_manpower = -1000
+          }  
+          days_remove = 70
+          remove_effect = {
+253 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+256 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+249 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+252 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+652 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}
+402 = { add_building_construction = {
+    type = infrastructure
+    level = 1
+    instant_build = yes
+}
+}		  
+		  add_to_variable = {
+    var = RUS_nep
+    value = 1
+}
+          add_manpower = 1000
+          }
+		}	                           
+RUS_completion_of_NEP = {                         
+          allowed = { tag = RUS }              
+          available = {                         
+               AND = {
+			   has_country_flag = RUS_rural_electrification
+			   check_variable = {
+    var = RUS_nep
+    value = 6
+    compare = greater_than_or_equals
+}
+			   }
+			   
+          }
+          activation = {                        
+               has_country_flag = RUS_five_years_plan                   
+          }
+          is_good = yes                         
+          selectable_mission = no               
+          days_mission_timeout = 365             
+          timeout_effect = {                     
+               add_political_power = -100     
+			   add_timed_idea = {
+    idea = RUS_failed_NEP
+    days = 60
+}
+			   
+          }
+          complete_effect = {                    
+          add_political_power = 100     
+add_timed_idea = {
+    idea = RUS_successful_NEP
+    days = 60
+}			   
+          }
+     }
+}	
+RUS_matters_of_state = { 
+RUS_transamur_crisis = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_transamur_united
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_transamur_united
+			}
+			}
+		}
+
+		cost = 25
+		days_re_enable = 170
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_transamur_crisis"
+		country_event = rus.60	
+	}
+		} 
+RUS_crackdown_on_SRs = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_SRs_legalised
+			}
+			}
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_SRs_legalised
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 	
+		
+RUS_crackdown_on_bolsheviks = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			original_tag = RUS
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+				has_country_flag = RUS_bolshevik_destroyed
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 
+RUS_organise_german_volunteers = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+			original_tag = RUS
+		}
+
+		visible = {
+			RUS = {
+			NOT = {
+			has_country_flag = RUS_teutonphobia
+			}
+			}
+		}
+
+		cost = 20
+		days_re_enable = 20		
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+			
+	}
+		} 		
+}		
+
+RUS_kremlin_crisis = { 
+RUS_arrest_levitov = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+		RUS = {
+			has_country_flag = RUS_kremlin_crisis                   			
+		}
+}
+		visible = {
+			RUS = {
+			has_country_flag = RUS_kremlin_crisis                   
+			}
+		}
+
+		cost = 20
+		fire_only_once = yes	
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision RUS_crackdown_on_SRs"
+		hidden_effect = {
+		if = {
+		limit = {
+		OR = {
+		has_country_flag = RFN_defeated
+		has_country_flag = RUR_defeated
+		}
+		}
+		random_list = {
+		50 = { country_event = rus.16 }
+		25 = { country_event = rus.17 } 
+		25 = { country_event = rus.70 } 		
+		} 
+}
+		else_if = { 
+		limit = { 
+		AND = {
+		has_country_flag = RFN_defeated
+		has_country_flag = RUR_defeated
+}
+}
+		random_list = {
+		25 = { country_event = rus.16 }
+		45 = { country_event = rus.17 }
+		30 = { country_event = rus.70 } 		
+		} 		
+}		
+		else = { 
+		random_list = {
+		60 = { country_event = rus.16 }
+		25 = { country_event = rus.17 }
+		15 = { country_event = rus.70 } 				
+		} 		 		
+}		
+}
+}
+}
+RUS_ROVS_motion_of_no_confidence = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			AND = {
+			original_tag = RUS
+			NOT = {
+			has_country_flag = RUS_extreme_crisis
+			}
+		}	
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_levitov_arrested
+			}
+		}
+
+		activation = {    
+		AND = {
+            has_country_flag = RUS_kremlin_crisis   
+			NOT = {
+			has_country_flag = RUS_extreme_crisis
+			}			   
+         }
+		 }
+		fire_only_once = yes 
+        is_good = no                         
+        selectable_mission = no               
+        days_mission_timeout = 20  
+		timeout_effect = {                     
+        add_political_power = -50     
+		country_event = rus.71
+		set_country_flag = RUS_levitov_vozhd
+			   
+          }
+	}
+
+RUS_wrangel_march = { 	
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			AND = {
+			original_tag = RUS
+			NOT = {
+			OR = {
+			has_country_flag = RUS_wrangel_stopped_kornilov
+			has_country_flag = RUS_wrangel_stopped_siberian
+		}
+		}	
+		}
+		}
+
+		available = {
+			RUS = {
+				has_country_flag = RUS_extreme_crisis
+			}
+		}
+		fire_only_once = yes
+
+		activation = {                        
+		has_country_flag = RUS_extreme_crisis		   
+         }
+        is_good = no                         
+        selectable_mission = no               
+        days_mission_timeout = 20  
+		timeout_effect = {                     
+        add_political_power = -50     
+		country_event = rus.18			   
+          }
+	}
+
+RUS_assemble_loyal_forces = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+		NOT = { has_country_flag = RUS_siberian_army 
+		}
+		}
+
+		visible = {
+			has_country_flag = RUS_extreme_crisis
+		}
+
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+		set_country_flag = RUS_kornilovist_forces
+          add_political_power = -80
+          }  
+          days_remove = 20
+		  fire_only_once = yes
+          remove_effect = {
+		  if = { 
+		  limit = {
+		  AND = {
+		  has_country_flag = RUS_disapproved_conservative
+		  has_country_flag = RUS_disapproved_liberals
+		  has_country_flag = RUS_disapproved_cossacks
+		  has_country_flag = RUS_disapproved_republican
+		  }
+		  }
+		  country_event = rus.73
+		  }
+		  else = {
+		  limit = {
+		  AND = {
+		  has_country_flag = RUS_disapproved_liberals
+		  has_country_flag = RUS_disapproved_cossacks
+		  }}
+		  random_list = {
+		  35 = { country_event = rus.73 }
+		  65 = { country_event = rus.74 } }
+		  }
+		 
+}
+}	
+RUS_summon_the_siberian_army = {
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = RUS
+			
+		}
+
+		available = {
+		NOT = { has_country_flag = RUS_kornilovist_forces 
+		}
+		}
+
+		visible = {
+			has_country_flag = RUS_extreme_crisis
+		}
+
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+		set_country_flag = RUS_siberian_army
+          add_political_power = -20
+          }  
+          days_remove = 20
+		  fire_only_once = yes
+          remove_effect = {
+		  if = { 
+		  limit = {
+		  has_completed_focus = RUS_siberian_plan
+		  }
+		  country_event = rus.75
+		  }
+		  else = {
+		  random_list = {
+		  35 = { country_event = rus.73 }
+		  65 = { country_event = rus.75 } }
+		  }
+		 
+}
+}		  
+}
+
+		

@@ -1,0 +1,143 @@
+capital = 2
+
+set_research_slots = 2
+
+add_ideas = {
+
+}
+
+# Starting tech
+set_technology = {
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+}
+
+
+set_convoys = 50
+set_stability = 0.60
+set_war_support = 0.30
+
+
+set_politics = {	
+	ruling_party = syndicalism
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 7
+    revolutionary_socialism = 19
+    syndicalism = 30
+    moderate_socialist = 6
+    social_democrat = 12
+    social_liberal = 21
+    social_conservative = 0
+    authoritarian_democrat = 0
+    autocratic = 0
+    ultraconservative = 0
+    national_corporatist = 5
+}
+
+
+create_country_leader = {
+	name = "Armando Borghi"
+	picture = "gfx/leaders/ITA/ITA_Borghi.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+
+
+### Field Marshal
+
+
+### Corps Commander
+
+## Field Marshals 
+create_field_marshal = {
+	name = "Raffaele Cadorna"
+	portrait_path = "gfx/leaders/ITA/ITA_Cadorna.tga"
+	traits = {  }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Pompeo Colajanni"
+	portrait_path = "gfx/leaders/ITA/ITA_Colajanni.tga"
+	traits = {
+		war_hero
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Carlo Ravnich"
+	portrait_path = "gfx/leaders/ITA/ITA_Ravnich.tga"
+	traits = {
+		
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Enea Navarini"
+	portrait_path = "gfx/leaders/ITA/ITA_Navarini.tga"
+	traits = {
+	
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Arnaldo Azzi"
+	portrait_path = "gfx/leaders/ITA/ITA_Azzi.tga"
+	traits = {
+	}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+### Navy Leader
+create_navy_leader = {# Riccardo Formica
+	name = "Riccardo Formica"
+	portrait_path = "gfx/leaders/WESTERN_MEDITERRANEAN/ITA/ITA_Riccardo_Formica.tga"
+	traits = {  }
+	skill = 2 
+}

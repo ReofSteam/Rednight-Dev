@@ -1,0 +1,48 @@
+spriteTypes = {
+	
+	frameAnimatedSpriteType = {
+    	name = "GFX_swiss_federal_council"
+    	texturefile = "gfx/leaders/SWI/SWI_Federal_Council.dds"
+    	noOfFrames = 13
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 10
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+}
+
+spriteTypes = {
+		frameAnimatedSpriteType = {
+    	name = "GFX_joint_zone"
+    	texturefile = "gfx/leaders/GER/RN_Joint_Council.dds"
+    	noOfFrames = 20
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 10
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+}
+
+spriteTypes = {
+		frameAnimatedSpriteType = {
+    	name = "GFX_presidential_commission"
+    	texturefile = "gfx/leaders/IRE/IRE_presidential_commission.dds"
+    	noOfFrames = 30
+    	loadType = "INGAME"
+    	alwaystransparent = no
+    	animation_rate_fps = 10
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+}
+
+SpriteType = { 
+		name = "GFX_generic_syndie_1984"
+		texturefile = "gfx/leaders/Apocalypse_War/AW_US.tga"
+}	

@@ -1,0 +1,26 @@
+state={
+	id = 1103
+	name = "Sudwalki"
+	provinces = {
+		 3272 6281 6407 11312
+}
+
+history = {
+	owner = RUS
+	add_core_of = POL
+	add_core_of = RUS
+	buildings = {
+		infastructure = 4
+		
+	}
+	1981.1.1 = {
+	owner = RUS
+	add_core_of = POL
+	add_core_of = RUS
+	}
+}
+
+manpower = 300000
+state_category = two
+buildings_max_level_factor = 1.000
+}

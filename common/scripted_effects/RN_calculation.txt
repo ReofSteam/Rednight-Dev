@@ -1,0 +1,13 @@
+### calculation
+
+RN_faction_power_calculation = {
+set_temp_variable = { factory = ROOT.num_of_factories }
+set_temp_variable = { deployed = ROOT.num_divisions }
+set_temp_variable = { population = ROOT.max_manpower_k }
+divide_temp_variable = { population = 500 }
+add_to_temp_variable = { factory = deployed }
+add_to_temp_variable = { factory = population }
+multiply_temp_variable = { factory = ROOT.stability }
+round_temp_variable = factory
+set_variable = { ROOT.faction_power = factory }
+}

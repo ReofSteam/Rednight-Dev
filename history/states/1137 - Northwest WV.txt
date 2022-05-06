@@ -1,0 +1,14 @@
+state = {
+	id = 1137
+	name = "STATE_1137"
+	manpower = 1000
+	state_category = ten
+
+	history = {
+		owner = CSA
+		add_core_of = CSA	
+	}
+	provinces = {
+	801 3941 3975 6971 6850 9923 10441	
+	}
+}

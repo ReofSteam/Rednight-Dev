@@ -1,0 +1,36 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = PRS
+		add_core_of = PRS
+		victory_points = {
+			362 15 
+		}
+		victory_points = {
+			11288 1 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+			362 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		334 362 389 3324 9252 9263 11288
+	}
+	manpower=1280156
+	buildings_max_level_factor=1.000
+	state_category=six
+}

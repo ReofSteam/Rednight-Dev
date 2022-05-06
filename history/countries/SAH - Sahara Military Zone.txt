@@ -1,0 +1,94 @@
+﻿capital = 557
+OOB = "SAH"
+
+set_technology = {
+	infantry_weapons = 1
+	motorised_infantry = 1
+        tech_support = 1
+        gw_artillery = 1
+        gwtank = 1
+}
+set_research_slots = 2
+
+SEN = {
+    set_autonomy = {
+        target = SAH
+        autonomy_state = autonomy_puppet
+    }
+}
+set_politics = {
+	ruling_party = autocratic
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    nationalist_socialism = 4
+    revolutionary_socialism = 19
+    syndicalism = 0
+    moderate_socialist = 32
+    social_democrat = 13
+    social_liberal = 9
+    social_conservative = 8
+    authoritarian_democrat = 4
+    autocratic = 3
+    ultraconservative = 7
+    national_corporatist = 1
+}
+
+create_country_leader = {
+	name = "Henri d'Astier de La Vigerie"
+	desc = "POLITICS_MAURICE_DUPLESSIS_DESC"
+	picture = "gfx/leaders/French_Exiles/Henri_dAstier.tga"
+	expire = "1965.1.1"
+	ideology = autocratic_subtype
+	traits = {
+
+	}
+}
+
+create_corps_commander = {
+	name = "Hélie de Saint Marc"
+	portrait_path = "gfx/leaders/French_Exiles/Helie_Saint_Marc.tga"
+	traits = { }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Henri d'Astier de La Vigerie"
+	portrait_path = "gfx/leaders/French_Exiles/Henri_dAstier.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Christian de Castries"
+	portrait_path = "gfx/leaders/French_Exiles/De_Castries.tga"
+	traits = { }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Fernand Bonnier de La Chapelle"
+	portrait_path = "gfx/leaders/French_Exiles/Fernand_Bonnier.tga"
+	traits = { }
+	skill = 1
+    attack_skill = 3
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 4
+}

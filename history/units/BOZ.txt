@@ -1,0 +1,109 @@
+﻿########
+# Templates
+########
+
+
+division_template = {
+	name = "British Infantry Division"
+	division_names_group = ENG_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorised Combat Group"
+	division_names_group = ENG_MOT_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Armoured-Division"
+	division_names_group = ENG_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+
+
+### Units ###
+units = {
+### Land ### 5 infantry divisions, 1 MCG and 2 amoured divisions
+
+	division = {
+		name = "7th (BAG) Infantry Division"
+		location = 6377
+		division_template = "British Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "8th (BAG) Infantry Division"
+		location = 6377
+		division_template = "British Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "9th (BAG) Infantry Division"
+		location = 495
+		division_template = "British Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+		division = {
+		name = "10th (BAG) Infantry Division"
+		location = 9560
+		division_template = "British Infantry Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "11th (BAG) Infantry Division"
+		location = 11360
+		division_template = "British Infantry Division"
+		start_experience_factor = 0.3
+	}
+		division = {
+		name = "1st (BAG) Scottish Motorised Group"
+		location = 6377
+		division_template = "Motorised Combat Group"
+		start_experience_factor = 0.3
+	}
+	
+			division = {
+		name = "7th (BAG) Armoured Division"
+		location = 336
+		division_template = "Armoured-Division"
+		start_experience_factor = 0.3
+	}
+			division = {
+		name = "7th (BAG) Armoured Division"
+		location = 321
+		division_template = "Armoured-Division"
+		start_experience_factor = 0.3
+	}
+
+
+
+
+

@@ -1,0 +1,235 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Country Name ###
+SAU_social_nationalist:0 "United Arab Republic"
+SAU_social_nationalist_ADJ:0 "Arabian"
+SAU_social_nationalist_DEF:0 "United Arab Republic"
+
+SAU_marxist:0 "United Arab Republic"
+SAU_marxist_ADJ:0 "Arabian"
+SAU_marxist_DEF:0 "United Arab Republic"
+
+SAU_libertarian:0 "United Arab Republic"
+SAU_libertarian_ADJ:0 "Arabian"
+SAU_libertarian_DEF:0 "United Arab Republic"
+
+SAU_moderate_socialist:0 "United Arab Republic"
+SAU_moderate_socialist_ADJ:0 "Arabian"
+SAU_moderate_socialist_DEF:0 "United Arab Republic"
+
+SAU_social_democrat:0 "United Arab Republic"
+SAU_social_democrat_ADJ:0 "Arabian"
+SAU_social_democrat_DEF:0 "United Arab Republic"
+
+SAU_social_liberal:0 "Saudi Arabia"
+SAU_social_liberal_ADJ:0 "Saudi Arabian"
+SAU_social_liberal_ADJ:0 "Saudi Arabia"
+
+SAU_conservative:0 "Saudi Arabia"
+SAU_conservative_ADJ:0 "Saudi Arabian"
+SAU_conservative_ADJ:0 "Saudi Arabia"
+
+SAU_authoritarian_democrat:0 "United Arab Emirates"
+SAU_authoritarian_democrat_ADJ:0 "Emirati"
+SAU_authoritarian_democrat_ADJ:0 "United Arab Emirates"
+
+SAU_autocratic:0 "Saudi Arabia"
+SAU_autocratic_ADJ:0 "Saudi Arabian"
+SAU_autocratic_ADJ:0 "Saudi Arabia"
+
+SAU_fundamentalist:0 "Saudi Arabia"
+SAU_fundamentalist_ADJ:0 "Saudi Arabian"
+SAU_fundamentalist_ADJ:0 "Saudi Arabia"
+
+SAU_voynist:0 "Saudi Arabia"
+SAU_voynist_ADJ:0 "Saudi Arabian"
+SAU_voynist_ADJ:0 "Saudi Arabia"
+
+### Parties ###
+SAU_social_nationalist_party:0 "-"
+SAU_social_nationalist_party_long:0 "-"
+
+SAU_marxist_party:0 "-"
+SAU_marxist_party_long:0 "-"
+
+SAU_libertarian_party:0 "-"
+SAU_libertarian_party_long:0 "-"
+
+SAU_moderate_socialist_party:0 "-"
+SAU_moderate_socialist_party_long:0 "-"
+
+SAU_social_democrat_party:0 "-"
+SAU_social_democrat_party_long:0 "-"
+
+SAU_social_liberal_party:0 "-"
+SAU_social_liberal_party_long:0 "-"
+
+SAU_conservative_party:0 "-"
+SAU_conservative_party_long:0 "-"
+
+SAU_authoritarian_democrat_party:0 "-"
+SAU_authoritarian_democrat_party_long:0 "-"
+
+SAU_autocratic_party:0 "-"
+SAU_autocratic_party_long:0 "-"
+
+SAU_fundamentalist_party:0 "-"
+SAU_fundamentalist_party_long:0 "-"
+
+SAU_voynist_party:0 "-"
+SAU_voynist_party_long:0 "-"
+
+### Cosmetic Tags ###
+
+### Opinions ###
+
+### Ideas ###
+
+### Focuses ###
+SAU_targettheirstockpiles:0 "Target their Stockpiles"
+SAU_targettheirstockpiles_desc:0 ""
+SAU_cutoffdamascus:0 "Cut off Damascus"
+SAU_cutoffdamascus_desc:0 ""
+SAU_foreignmujahedin:0 "Foreign Mujahedin"
+SAU_foreignmujahedin_desc:0 ""
+SAU_muslimbrothers:0 "Muslim Brothers"
+SAU_muslimbrothers_desc:0 ""
+SAU_letthemrunwild:0 "Let Them Run Wild"
+SAU_letthemrunwild_desc:0 ""
+SAU_piousdiscipline:0 "Pious Discipline"
+SAU_piousdiscipline_desc:0 ""
+SAU_rootouttraitors:0 "Root Out Traitors"
+SAU_rootouttraitors_desc:0 ""
+SAU_neverlosefaith:0 "Never Lose Faith"
+SAU_neverlosefaith_desc:0 ""
+SAU_longliveoursultan:0 "Long Live Our Sultan"
+SAU_longliveoursultan_desc:0 ""
+SAU_placatethepeasants:0 "Placate the Peasants"
+SAU_placatethepeasants_desc:0 ""
+SAU_propagandacampaign:0 "Propaganda Campaign"
+SAU_propagandacampaign_desc:0 ""
+SAU_fortificationsinriyadh:0 "Fortifications in Riyadh"
+SAU_fortificationsinriyadh_desc:0 ""
+SAU_russianairsuport:0 "Russian Air Suport"
+SAU_russianairsuport_desc:0 ""
+SAU_meettheminforce:0 "Meet Them in Force"
+SAU_meettheminforce_desc:0 ""
+SAU_negotiateaceasefire:0 "Negotiate a Ceasefire"
+SAU_negotiateaceasefire_desc:0 ""
+SAU_thecaptureofdamascus:0 "The Capture of Damascus"
+SAU_thecaptureofdamascus_desc:0 ""
+SAU_targettheirindustry:0 "Target their Industry"
+SAU_targettheirindustry_desc:0 ""
+SAU_uptheeuphrates:0 "Up the Euphrates"
+SAU_uptheeuphrates_desc:0 ""
+SAU_weneedsoldiers:0 "We Need Soldiers"
+SAU_weneedsoldiers_desc:0 ""
+SAU_drawthemintothedesert:0 "Draw Them Into the Desert"
+SAU_drawthemintothedesert_desc:0 ""
+SAU_strikefromthemosques:0 "Strike From the Mosques"
+SAU_strikefromthemosques_desc:0 ""
+SAU_trenchnetworks:0 "Trench Networks"
+SAU_trenchnetworks_desc:0 ""
+SAU_paythemwithfood:0 "Pay Them with Food"
+SAU_paythemwithfood_desc:0 ""
+SAU_thecallofthefaith:0 "The Call of the Faith"
+SAU_thecallofthefaith_desc:0 ""
+SAU_prepareourdefenses:0 "Prepare Our Defenses"
+SAU_prepareourdefenses_desc:0 ""
+SAU_wecantgiveup:0 "We Can't Give Up"
+SAU_wecantgiveup_desc:0 ""
+SAU_increasetheshipments:0 "Increase the Shipments"
+SAU_increasetheshipments_desc:0 ""
+SAU_operativesindamascus:0 "Operatives in Damascus"
+SAU_operativesindamascus_desc:0 ""
+SAU_hitemwhereithurts:0 "Hit Em Where it Hurts!"
+SAU_hitemwhereithurts_desc:0 ""
+SAU_bedouincaravans:0 "Bedouin Caravans"
+SAU_bedouincaravans_desc:0 ""
+SAU_camoflaugedroads:0 "Camoflauged Roads"
+SAU_camoflaugedroads_desc:0 ""
+SAU_ikhwanconvoys:0 "Ikhwan Convoys"
+SAU_ikhwanconvoys_desc:0 ""
+SAU_theraidonkuwait:0 "The Raid on Kuwait"
+SAU_theraidonkuwait_desc:0 ""
+SAU_warinjebelakhdar:0 "War in Jebel Akhdar"
+SAU_warinjebelakhdar_desc:0 ""
+SAU_refusecollectivization:0 "Refuse Collectivization"
+SAU_refusecollectivization_desc:0 ""
+SAU_thefaisalalduwaishtrail:0 "The Faisal al-Duwaish Trail"
+SAU_thefaisalalduwaishtrail_desc:0 ""
+SAU_skirmishesinhadhramaut:0 "Skirmishes in Hadhramaut"
+SAU_skirmishesinhadhramaut_desc:0 ""
+SAU_alliancewiththemufti:0 "Alliance with the Mufti"
+SAU_alliancewiththemufti_desc:0 ""
+SAU_assemblethetribes:0 "Assemble the Tribes"
+SAU_assemblethetribes_desc:0 ""
+SAU_rallythepeasants:0 "Rally the Peasants"
+SAU_rallythepeasants_desc:0 ""
+SAU_behindenemylines:0 "Behind Enemy Lines"
+SAU_behindenemylines_desc:0 ""
+SAU_blendinwththelocals:0 "Blend in wth the Locals"
+SAU_blendinwththelocals_desc:0 ""
+SAU_themashriqioffensive:0 "The Mashriqi Offensive"
+SAU_themashriqioffensive_desc:0 ""
+SAU_quitwhilewereahead:0 "Quit While We're Ahead"
+SAU_quitwhilewereahead_desc:0 ""
+SAU_arenewedfury:0 "A Renewed Fury"
+SAU_arenewedfury_desc:0 ""
+SAU_starvethemout:0 "Starve Them Out"
+SAU_starvethemout_desc:0 ""
+SAU_calluponourfriends:0 "Call Upon Our Friends"
+SAU_calluponourfriends_desc:0 ""
+SAU_cuttheheadoffthesnake:0 "Cut the Head off the Snake"
+SAU_cuttheheadoffthesnake_desc:0 ""
+SAU_infiltratetheemirates:0 "Infiltrate the Emirates"
+SAU_infiltratetheemirates_desc:0 ""
+SAU_masssabotage:0 "Mass Sabotage"
+SAU_masssabotage_desc:0 ""
+SAU_attacksupplylines:0 "Attack Supply Lines"
+SAU_attacksupplylines_desc:0 ""
+SAU_thegulfoffensive:0 "The Gulf Offensive"
+SAU_thegulfoffensive_desc:0 ""
+SAU_ramadanmutinies:0 "Ramadan Mutinies"
+SAU_ramadanmutinies_desc:0 ""
+SAU_shadowsinthedesert:0 "Shadows in the Desert"
+SAU_shadowsinthedesert_desc:0 ""
+SAU_alloutforarabia:0 "All Out For Arabia"
+SAU_alloutforarabia_desc:0 ""
+SAU_militarizethetrail:0 "Militarize the Trail"
+SAU_militarizethetrail_desc:0 ""
+SAU_extendthetrail:0 "Extend the Trail"
+SAU_extendthetrail_desc:0 ""
+SAU_tothestreetsofankara:0 "To the Streets of Ankara"
+SAU_tothestreetsofankara_desc:0 ""
+SAU_syrianbedouins:0 "Syrian Bedouins"
+SAU_syrianbedouins_desc:0 ""
+SAU_securethesource:0 "Secure the Source"
+SAU_securethesource_desc:0 ""
+SAU_tothepersianmountains:0 "To the Persian Mountains"
+SAU_tothepersianmountains_desc:0 ""
+SAU_theutmostsecrecy:0 "The Utmost Secrecy"
+SAU_theutmostsecrecy_desc:0 ""
+SAU_thehailoffensive:0 "The Ha'il Offensive"
+SAU_thehailoffensive_desc:0 ""
+SAU_purgetheikhwan:0 "Purge the Ikhwan"
+SAU_purgetheikhwan_desc:0 ""
+
+
+### Decisions ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+### Tech ###
+
+### Events ###

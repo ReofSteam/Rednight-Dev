@@ -1,0 +1,82 @@
+﻿l_english:
+
+### Popularity ###
+party_pop_0_00:0 "0-10% Party Popularity"
+party_pop_0_10:0 "10-20% Party Popularity"
+party_pop_0_20:0 "20-30% Party Popularity"
+party_pop_0_30:0 "30-40% Party Popularity"
+party_pop_0_40:0 "40-50% Party Popularity"
+party_pop_0_50:0 "50-60% Party Popularity"
+party_pop_0_60:0 "60-70% Party Popularity"
+party_pop_0_70:0 "70-80% Party Popularity"
+party_pop_0_80:0 "80-90% Party Popularity"
+party_pop_0_90:0 "90-100% Party Popularity"
+
+### Minister Influences Ruling Party Events ###
+sp.political.16.t:0 "A Minister Supports His Ideology"
+sp.political.16.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.16.a:0 "There is nothing we can do."
+sp.political.16.b:0 "Use our influence to revert his efforts."
+
+sp.political.17.t:0 "Our Ideology Has Grown"
+sp.political.17.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.17.a:0 "Excellent."
+sp.political.17.b:0 "We don't need this."
+
+sp.political.18.t:0 "Our Ideology Has Grown"
+sp.political.18.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.18.a:0 "Excellent."
+sp.political.18.b:0 "We don't need this."
+
+sp.political.19.t:0 "Our Ideology Has Grown"
+sp.political.19.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.19.a:0 "Excellent."
+sp.political.19.b:0 "We don't need this."
+
+sp.political.20.t:0 "Our Ideology Has Grown"
+sp.political.20.d:0 "Due to his popular policies, one of our loyal ministers has managed to strengthen our ideology. With some additional influence we could use this to increase our popularity."
+sp.political.20.a:0 "Excellent."
+sp.political.20.b:0 "We don't need this."
+
+sp.political.21.t:0 "A Minister supports his Ideology"
+sp.political.21.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.21.a:0 "There is nothing we can do."
+sp.political.21.b:0 "Use our influence to revert his efforts."
+
+sp.political.22.t:0 "A Minister supports his Ideology"
+sp.political.22.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.22.a:0 "There is nothing we can do."
+sp.political.22.b:0 "Use our influence to revert his efforts."
+
+sp.political.23.t:0 "A Minister supports his Ideology"
+sp.political.23.d:0 "Our current government contains a Minister who belongs to a different ideology. He has begun supporting his own ideology which has damaged our own party popularity. We must act now if we are to reverse his actions."
+sp.political.23.a:0 "There is nothing we can do."
+sp.political.23.b:0 "Use our influence to revert his efforts."
+
+### Starting Events ###
+sp.political.24.t:0 "Spartakus Alpha 0.01 - 'Slightly Buggy'"
+sp.political.24.d:0 "Welcome to Spartakus, a brand new Hearts of Iron IV alternate history modification that is being actively worked on by a talented panel of developers. Development may take a long time, but the mod will eventually end up in a finished state. This is not to say, however, that one day development will suddenly cease. Bug fixes and content additions will continue indefinitely regardless of whether the mod is considered finished or not.\n\nSpartakus is a modification that is based around an alternative history where the Spartacists of the German Revolution succeed in their goal of establishing a Communist society. As a result, various other revolutions are able to survive throughout Europe and abroad. The intent is to explore the aftermath of such a turn of events within a fun mod. Spartakus is inspired heavily by Kaiserreich for its narrative driven mechanics, and as a result includes some familiar systems such as stability and party popularity. You can read on the changes made regarding the stability system below. Spartakus will also be using mechanics seen in previous Hearts of Iron titles such as the minister cabinet system.\n\nSimilar to Kaiserreich, Spartakus is designed with the idea of annexing all states in mind. You should always make sure to annex everything possible, and it is highly recommended to use the Player-Led Peace Conferences mod in order to make this process easier. It is also recommended to annex countries to a single country. Partititioning a country through the peace conference rather than through scripted events may cause issues down the line and could impede your gameplay experience. \n\nSpartakus is in a very early stage. Incomplete countries, buggy events, crashes, and other issues should not be taken as a surprise to anyone. With that said, reporting them would be a major help for a dev team that simply cannot do accident proof playtesting on every single area of the mod. We will try out best, however, and developers identifying issues as quick and early as possible will benefit both you and the development team alike.\n\nHave fun!"
+sp.political.24.a:0 "Cool!"
+sp.political.24.c:0 "I want to know more! (FAQ)"
+
+sp.political.26.t:0 "FAQ"
+sp.political.26.d:0 "Why is puppeting disabled in peace conferences?\n\nSpartakus uses an event based puppeting system in order to allow more dynamic options such as placing specific parties or leaders in power. It also punishes you for outright annexing territory which your country otherwise would not want to or be able to directly control. Territory that is a core of the puppeteer will not be transferred to the puppet state, so your rightful clay will not be stolen from you.\n\nWhy can I not join or create my own faction?\n\nSpartakus restricts joining or creating factions because the modification is intended to be narrative driven. As a result, only factions relevant to the lore and story will be allowed. With that said, many countries have the ability or will have the ability to form factions through national focuses, events and/or decisions.\n\nI want to contribute to the project, where do I sign up?\n\nSpartakus is still in need of developers and contributors of any kind. If you simply want to make a contribution by writing lore or doing research, that is accepted. If you want to go even further by doing codework, or gfx work, that is also a great help. If you wish to help out, contact the Head Developer, sparkz/Hunter9502, over Steam, Discord or Reddit."
+sp.political.26.a:0 "Thanks!"
+
+### Remove Independent War Event ###
+sp.political.30.t:0 "End of Our Independent War"
+sp.political.30.d:0 "Now that our independent war is over we can call our allies to war again."
+sp.political.30.a:0 "Understood"
+
+### Gamestart Opinion Modifiers ###
+sp.political.40.t:0 "Setting Opinion Modifiers"
+sp.political.40.d:0 "If you can see this, make a bug report!"
+sp.political.40.a:0 "Seriously, report it."
+
+SP_different_ideology:0 "Different Ideology"
+SP_similar_ideology:0 "Similar Ideology"
+SP_same_ideology:0 "Same Ideology"
+same_ruling_party:0 "Base"
+different_party_types:0 "Base"
+
+SP_factional_rivalry:0 "Factional Rivalry"

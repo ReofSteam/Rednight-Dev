@@ -1,0 +1,42 @@
+ideas = {
+
+##############
+# Country ideas
+##############
+	country = {
+
+		ANA_marxist_leninist_thought = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_marxist_leninist_thought"}
+			modifier = {
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.05
+			}
+			removal_cost = -1
+			picture = Comintern_logo
+		}
+		ANA_liberty_and_equality = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_liberty_and_equality"}
+			modifier = {
+				army_org_factor = -0.10
+				conscription = 0.015
+				land_reinforce_rate = 0.05
+			}
+			removal_cost = -1
+			picture = fighting_for_freedom
+		}
+		ANA_white_terror = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_white_terror"}
+			modifier = {
+				MONTHLY_POPULATION = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				army_speed_factor = -0.05
+				industry_repair_factor = -0.5
+			}
+			removal_cost = -1
+			picture = Small_Industrial_Crisis
+		}
+		
+		
+
+}
+}

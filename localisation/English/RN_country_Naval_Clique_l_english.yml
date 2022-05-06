@@ -1,0 +1,214 @@
+﻿l_english:
+
+### Bookmark ###
+USN_STARTING_DATE_NAME:0 "-"
+
+### Country Name ###
+USN_social_nationalist:0 "Puerto Rico"
+USN_social_nationalist_ADJ:0 "Puerto Rican"
+USN_social_nationalist_DEF:0 "Puerto Rico"
+
+USN_marxist:0 "Puerto Rico"
+USN_marxist_ADJ:0 "Puerto Rican"
+USN_marxist_DEF:0 "Puerto Rico"
+
+USN_libertarian_socialist:0 "Puerto Rico"
+USN_libertarian_ADJ:0 "Puerto Rican"
+USN_libertarian_DEF:0 "Puerto Rico"
+
+USN_moderate_socialist:0 "Puerto Rico"
+USN_moderate_socialist_ADJ:0 "Puerto Rican"
+USN_moderate_socialist_DEF:0 "Puerto Rico"
+
+USN_social_democrat:0 "U.S. Naval Clique"
+USN_social_democrat_ADJ:0 "American"
+USN_social_democrat_DEF:0 "the Emergency Government of the United States of America"
+
+USN_social_liberal:0 "U.S. Naval Clique"
+USN_social_liberal_ADJ:0 "American"
+USN_social_liberal_DEF:0 "the Emergency Government of the United States of America"
+
+USN_conservative:0 "U.S. Naval Clique"
+USN_conservative_ADJ:0 "American"
+USN_conservative_DEF:0 "the Emergency Government of the United States of America"
+
+USN_authoritarian_democrat:0 "U.S. Naval Clique"
+USN_authoritarian_democrat_ADJ:0 "American"
+USN_authoritarian_democrat_DEF:0 "the Emergency Government of the United States of America"
+
+USN_autocratic:0 "U.S. Naval Clique"
+USN_autocratic_ADJ:0 "American"
+USN_autocratic_DEF:0 "the Emergency Government of the United States of America"
+
+USN_fundamentalist:0 "United States"
+USN_fundamentalist_ADJ:0 "American"
+USN_fundamentalist_DEF:0 "the Emergency Government of the United States of America"
+
+USN_voynist:0 "United States"
+USN_voynist_ADJ:0 "American"
+USN_voynist_DEF:0 "the United States of America"
+
+### Parties ###
+USN_social_nationalist_party_long:0 "Partido Nacionalista de Puerto Rico"
+USN_social_nationalist_party:0 "PNPR - Nationalist Party of Puerto Rico"
+
+USN_marxist_party_long:0 "Partido Comunista Puertorriqueño"
+USN_marxist_party:0 "PCP - Puerto Rican Communist Party"
+
+USN_libertarian_party_long:0 "Partido Socialista y Federal de Puerto Rico"
+USN_libertarian_party:0 "PSFPR - Socialist and Federalist Party of Puerto Rico"
+
+USN_moderate_socialist_party_long:0 "Partido Obrero de Puerto Rico"
+USN_moderate_socialist_party:0 "POPR - Worker's Party of Puerto Rico"
+
+USN_social_democrat_party_long:0 "Partido Popular Democratico"
+USN_social_democrat_party:0 "PPD - Popular Democratic Party"
+
+USN_social_liberal_party_long:0 "Partido Popular Democratico"
+USN_social_liberal_party:0 "PPD - Popular Democratic Party"
+
+USN_conservative_party_long:0 "Partido Liberal"
+USN_conservative_party:0 "PL - Liberal Party"
+
+USN_authoritarian_democrat_party_long:0 "United States Joint Chiefs of Staff"
+USN_authoritarian_democrat_party:0 "USJCOS - United States Joint Chiefs of Staff"
+
+USN_autocratic_party_long:0 "United States Joint Chiefs of Staff"
+USN_autocratic_party:0 "USJCOS - United States Joint Chiefs of Staff"
+
+USN_fundamentalist_party_long:0 "Iglesia Católica"
+USN_fundamentalist_party:0 "IC - Catholic Church"
+
+USN_voynist_party_long:0 "Partido Nacionalista de Puerto Rico"
+USN_voynist_party:0 "PNPR - Nationalist Party of Puerto Rico"
+
+### Cosmetic Tags ###
+
+### Opinions ###
+
+### Ideas ###
+
+USN_act_of_return:0 "The Act of Return"
+USN_act_of_return_desc:0 "The Act of Return, The Dream of Return, the idea of the return of democracy and liberty to our home. The Act was signed in the year 1939 on the eve of the fall of Washington D.C. by those members of Congress present in Norfolk. The Act so encoded the Dream of Return into the very nature of the Emergency government, entrusting the Chairman of the Joint Chiefs of Staff with the legal powers of Dictator. Our State, our Leader, exist solely to see our return, the return of liberty to our home and to strike from it the red tyranny."
+USN_axis_of_liberty:0 "Axis of Liberty"
+USN_axis_of_liberty_desc:0 "We are all that stands of the old guard in the new world. We must ensure that the islands around us do not fall to the evils of socialism."
+USN_surrounded_within_without:0 "Surrounded Within and Without"
+USN_surrounded_within_without_desc:0 "We are surrounded, within and without. We must never forget the days of November, 1939 when in our weary entrance to these isles we were greeted not with the cheering of an appreciative, liberated, people but instead by the guns of revolutionaries and communists."
+USN_naval_clique:0 "The Naval Clique"
+USN_naval_clique_desc:0 "We are all that remains of the glorious United States Navy. Our sailors and soldiers are veterans and while supplies may be low, we are experts at using our navy in the best way possible."
+
+### Focuses ###
+
+USN_thenavalclique:0 "The Naval Clique"
+USN_thenavalclique_desc:0 ""
+USN_admiralleahy:0 "Admiral Leahy"
+USN_admiralleahy_desc:0 ""
+USN_generaleisenhower:0 "General Eisenhower"
+USN_generaleisenhower_desc:0 ""
+USN_reformtheclique:0 "Reform the Clique"
+USN_reformtheclique_desc:0 ""
+USN_reformthejusticesystem:0 "Reform the Justice System"
+USN_reformthejusticesystem_desc:0 ""
+USN_endmartiallaw:0 "End Martial Law"
+USN_endmartiallaw_desc:0 ""
+USN_independentjudiciary:0 "Set up an Independent Judiciary"
+USN_independentjudiciary_desc:0 ""
+USN_releaseprisoners:0 "Release Prisoners"
+USN_releaseprisoners_desc:0 ""
+USN_reformpoliticalsystem:0 "Reform the Political System"
+USN_reformpoliticalsystem_desc:0 ""
+USN_towardsciviliangovernment:0 "Towards a Civilian Government"
+USN_towardsciviliangovernment_desc:0 ""
+USN_amendactofreturn:0 "Amend the Act of Return"
+USN_amendactofreturn_desc:0 ""
+USN_eisenhowersspeech:0 "Eisenhower's Speech"
+USN_eisenhowersspeech_desc:0 ""
+USN_reformmilitary:0 "Reform the Military"
+USN_reformmilitary_desc:0 ""
+USN_amilitaryacademy:0 "A Military Academy"
+USN_amilitaryacademy_desc:0 ""
+USN_puertoricanconscription:0 "Puerto Rican Conscription"
+USN_puertoricanconscription_desc:0 ""
+USN_preparetransferofpower:0 "Prepare the Transfer of Power"
+USN_preparetransferofpower_desc:0 ""
+USN_elections:0 "Elections!"
+USN_elections_desc:0 ""
+USN_admiralking:0 "Admiral King"
+USN_admiralking_desc:0 ""
+USN_endtheclique:0 "End the Clique"
+USN_endtheclique_desc:0 ""
+USN_rebelquestion:0 "The Rebel Question"
+USN_rebelquestion_desc:0 ""
+USN_negotiatewiththepopr:0 "Negotiate with the POPR"
+USN_negotiatewiththepopr_desc:0 ""
+USN_negotiatewiththeppr:0 "Negotiate with the PPR"
+USN_negotiatewiththeppr_desc:0 ""
+USN_prepareciviliangovernment:0 "Prepare the Civilian Government"
+USN_prepareciviliangovernment_desc:0 ""
+USN_admiralburke:0 "Admiral Burke"
+USN_admiralburke_desc:0 ""
+USN_destroyredfleet:0 "Destroy the Red Fleet"
+USN_destroyredfleet_desc:0 ""
+USN_preparethefleet:0 "Prepare the Fleet"
+USN_preparethefleet_desc:0 ""
+USN_raidredshipping:0 "Raid Red Shipping"
+USN_raidredshipping_desc:0 ""
+USN_destroyersforfuel:0 "Destroyers for Fuel"
+USN_destroyersforfuel_desc:0 ""
+USN_forcedconscription:0 "Forced Conscription"
+USN_forcedconscription_desc:0 ""
+USN_wecandoit:0 "We Can do it!"
+USN_wecandoit_desc:0 ""
+USN_finalpreparations:0 "Final Preparations"
+USN_finalpreparations_desc:0 ""
+USN_crackdownonrebels:0 "Crack down on the Rebels"
+USN_crackdownonrebels_desc:0 ""
+USN_expandpatrols:0 "Expand Patrols"
+USN_expandpatrols_desc:0 ""
+USN_raidstockpiles:0 "Raid Stockpiles"
+USN_raidstockpiles_desc:0 ""
+USN_destroyredtraitors:0 "Destroy the Red Traitors!"
+USN_destroyredtraitors_desc:0 ""
+
+
+
+
+
+
+
+
+
+
+
+### Decisions ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+USN_US_Joint_Chiefs_hog:0 "US Joint Chiefs of Staff"
+USN_John_Dewitt_interior:0 "John L. DeWitt"
+USN_Ernest_King_economy:0 "Ernest King"
+USN_Robert_Lovett_foreign:0 "Robert A. Lovett"
+USN_Richard_Russell_education:0 "Richard Russell Jr."
+USN_Henry_Byrd_culture:0 "Henry F. Byrd"
+USN_William_Standley_transport:0 "William H. Standley"
+USN_Sidney_Souers_intel:0 "Sidney Souers"
+USN_William_Leahy_cos:0 "William D. Leahy"
+USN_Dwight_Eisenhower_coa:0 "Dwight D. Eisenhower"
+USN_Carl_Spaatz_coaf:0 "Carl Spaatz"
+USN_Arleigh_Burke_con:0 "Arleigh Burke"
+
+### Leaders ###
+POLITICS_WILLIAM_D_LEAHY_DESC:0 "§YChairman of the Joint Chiefs of Staff of the Emergency Government of the United States of America§!\n\nWilliam Leahy never exactly asked for the job he was given. When he decided to assist in MacArthur’s coup against the President of the U.S. Leahy thought the job would be swift and safe, that it would protect American Democracy and ensure the best for all Americans. Rather, it brought him this. Leahy may not have asked for this work, but now that it has fallen on his shoulders he will do everything and anything to see it to the end."
+### Tech ###
+
+### Events ###
+
+usn.1.t:0 "The Emergency Government of the United States of America"
+usn.1.d:0 "The Emergency Government of the United States of America has had a tumultuous and violent history. Formed in 1937 in the fires of the civil war by General Douglas MacAurthur, its history on the mainland was short. As Washington was besieged in 1939, the remaining members of Congress and the Joint Chiefs of Staff gathered to sign the Act of Return. The Act of Return is what gives this naval clique its legitimacy, giving the legal powers of dictator over to the Joint Chiefs of Staff until the United States can be restored. With the act signed, the remains of the government sailed for San Juan spearheaded by the admiralty under the leadership of Admiral William Leahy. There, they were greeted by armed rebels and revolutionaries, unwilling to accept their imposed rule. After 11 years of essentially an occupation of the island by the fleet which is the source of the clique’s power, the clique needs to change or it will collapse from the inside. If something were to befall the Admiral, the clique could either keep the spirit of America alive, or let it collapse in on itself."
+usn.1.a:0 "God Bless America"

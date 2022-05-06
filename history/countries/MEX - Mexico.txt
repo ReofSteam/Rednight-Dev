@@ -1,0 +1,261 @@
+﻿capital = 277
+OOB = "MEX"
+set_convoys = 40
+
+set_technology = {
+### Navy ###
+
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battlecruiser = 1
+	transport = 1
+	####Tanks ###
+	gwtank = 1
+	### INF ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	### AIR ###
+	early_fighter = 1
+	naval_bomber1 = 1
+}
+
+
+set_research_slots = 3
+set_politics = {
+	ruling_party = authoritarian_democrat
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 2
+    revolutionary_socialism = 1
+    syndicalism = 10
+    moderate_socialist = 7
+    social_democrat = 1
+    social_liberal = 7
+    social_conservative = 8
+    authoritarian_democrat = 31
+    autocratic = 19
+    ultraconservative = 13
+    national_corporatist = 1
+}
+
+add_ideas = {
+	#medium_economy
+
+	#MEX_Emiliano_Zapata_hog_syn
+	#MEX_Francisco_Castillo_Najera_for_rso
+	#MEX_Luis_Cabrera_eco_syn
+	#MEX_Pancho_Villa_sec_rso
+	#MEX_Plutarco_Elias_Calles_int_tot
+
+
+	#laws
+	#limited_exports
+}
+create_country_leader = {
+	name = "Emiliano Zapata"
+	desc = "POLITICS_EMILIANO_ZAPATA_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Emiliano_Zapata.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialism_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Pancho Villa"
+	desc = "POLITICS_PANCHO_VILLA_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Pancho_Villa.tga"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Plutarco Calles"
+	desc = "POLITICS_PLUTARCO_CALLES_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Plutarco_Calles.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Pablo Gonzalez Garza"
+	desc = "POLITICS_PABLO_GONZALEZ_GARZA_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/MEX/MEX_Pablo_Gonzalez_Garza.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Jose Antonia Urquiza"
+	desc = "POLITICS_JOSE_URQUIZA_DESC"
+	picture = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Urquiza.tga"
+	expire = "1965.1.1"
+	ideology = ultraconservative_subtype
+	traits = {}
+}
+
+### Field Marshal
+create_field_marshal = {# Emiliano Zapata
+	name = "Emiliano Zapata"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Emiliano_Zapata.tga"
+	id = 9372
+	traits = {
+		infantry_officer
+		war_hero
+		inspirational_leader
+		trickster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+### General ###
+create_corps_commander = {# Pancho Villa
+	name = "Pancho Villa"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Pancho_Villa_General.tga"
+	traits = {
+		trickster
+		guerilla_fighter
+		war_hero
+		trait_reckless
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {# Plutarco Elías Calles
+	name = "Plutarco Elías Calles"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_Mexico_Plutarco_Calles_General.tga"
+	traits = {
+		politically_connected
+		trait_cautious
+		organizer
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = { #Juan G. Cabral
+	name = "Juan G. Cabral"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Juan_G_Cabral.tga"
+	traits = {
+		career_officer
+		trait_engineer
+		fortress_buster
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Pablo Quiroga Escamilla
+	name = "Pablo Quiroga Escamilla"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Quiroga_Escamilla.tga"
+	traits = {
+		old_guard
+		war_hero
+		infantry_leader
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Joaquín Amaro
+	name = "Joaquín Amaro"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Amaro_Dominguez.tga"
+	traits = {
+		career_officer
+		war_hero
+		commando
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {# Francisco Luis Urquizo
+	name = "Francisco Luis Urquizo"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_L_Urquizo.tga"
+	traits = {
+		old_guard
+		politically_connected
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {# Pablo Macias Valenzuela
+	name = "Pablo Macias Valenzuela"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Pablo_Macias_Valenzuela.tga"
+	traits = {
+		career_officer
+		politically_connected
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {# Abelardo L. Rodríguez
+	name = "Abelardo L. Rodríguez"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Pablo_Abelardo_Rodriguez.tga"
+	traits = {
+		career_officer
+		politically_connected
+		infantry_leader
+	}
+	skill = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {# Maximino Avila Camacho-Generated
+	name = "Maximino Avila Camacho"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Maximino_Avila_Camacho.tga"
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+### Navy Leader
+create_navy_leader = { #Auto-Generated
+	name = "Othon Blanco Nunez de Caceres"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Othon_Blanco.tga"
+	traits = {
+		old_guard_navy
+		superior_tactician
+	}
+	skill = 2 #naval guy, don't patch
+}
+create_navy_leader = { #Auto-Generated
+	name = "Manuel Zermeno Araico"
+	portrait_path = "gfx/leaders/NORTH_AMERICA/MEX/Portrait_MEX_Zermeno_Araico.tga"
+	traits = {
+		blockade_runner
+	}
+	skill = 1 #naval guy, don't patch
+}

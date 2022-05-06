@@ -1,0 +1,147 @@
+defined_text = {
+	name = GetREICHConspirator
+	text = {
+		trigger = {
+			has_country_flag = PRS_reichconspirator_identified
+	}
+		localization_key = "GFX_PRS_heinemann"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_reichconspirator_eliminated
+	}
+		localization_key = "FRA_ELIMINATED"
+	}		
+}
+
+defined_text = {
+	name = GetGRUConspiratorName1
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_1
+	}
+		localization_key = "Viktor Abakumov"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_2
+	}
+		localization_key = "Yuri Andropov"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_3
+	}
+		localization_key = "Pavel Sudoplatov"
+	}	
+}
+
+defined_text = {
+	name = GetGRUConspiratorName2
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_1
+	}`
+		localization_key = "Claudius Foss"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_2
+	}
+		localization_key = "Viktor Larionov"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_GRU_version_3
+	}
+		localization_key = "Claudius Foss"
+	}	
+}
+
+defined_text = {
+	name = GetCDUConspiratorName
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_1
+	}
+		localization_key = "Helmuth James von Moltke"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_2
+	}
+		localization_key = "Gustav Heinemann"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_3
+	}
+		localization_key = "Jakob Kaiser"
+	}	
+}
+
+defined_text = {
+	name = GetCDUConspiratorName2
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_1
+	}
+		localization_key = "Gustav Heinemann"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_2
+	}
+		localization_key = "Jakob Kaiser"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_CDU_version_3
+	}
+		localization_key = "Kurt Schumacher"
+	}	
+}
+
+defined_text = {
+	name = GetHEERConspiratorName
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_1
+	}
+		localization_key = "Count von Baudissin"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_2
+	}
+		localization_key = "Ulrich de Maizière"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_3
+	}
+		localization_key = "Johann von Kielmansegg"
+	}	
+}
+
+defined_text = {
+	name = GetHEERConspiratorNameDesc
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_1
+	}
+		localization_key = "Prussian noble"
+	}	
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_2
+	}
+		localization_key = "Prussian-Huguenot lesser noble"
+	}
+	text = {
+		trigger = {
+			has_country_flag = PRS_conspiracy_HEER_version_3
+	}
+		localization_key = "Hannoverian nobility"
+	}	
+}

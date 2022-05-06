@@ -1,0 +1,19 @@
+state = {
+	id = 918
+	name = "STATE_918"
+
+	history = {
+		owner = TAN
+		add_core_of = TAN
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		4171
+	}
+	manpower = 308100
+	state_category = wasteland
+}

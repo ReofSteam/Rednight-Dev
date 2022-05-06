@@ -1,0 +1,36 @@
+### Madagascar
+
+ideas = {
+	country = {
+		MAG_merina_dominance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_merina_dominance"}
+			picture = MAG_merina_dominance
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.05
+				political_advisor_cost_factor = -0.25
+				production_factory_efficiency_gain_factor = 0.05
+				custom_modifier_tooltip = MAG_merina_dominance_tt
+			}
+		}
+		MAG_ongoing_westernization = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_ongoing_westernization"}
+			picture = MAG_ongoing_westernization
+			modifier = {
+				stability_factor = -0.05
+				conscription_factor = -0.2
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		MAG_legacy_teacher = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea MAG_legacy_teacher"}
+			picture = MAG_legacy_teacher
+			modifier = {
+				stability_weekly = 0.01
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+	}
+}

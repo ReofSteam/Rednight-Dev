@@ -1,0 +1,117 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+SWI_social_nationalist_party:0 "ZU"
+SWI_social_nationalist_party_long:0 "Zentralist Union"
+SWI_marxist_party:0 "SPS"
+SWI_marxist_party_long:0 "Syndikalistische Partei der Schweiz"
+SWI_libertarian_party:0 "PAS"
+SWI_libertarian_party_long:0 "Partei der Arbeiter der Schweiz"
+SWI_moderate_socialist_party:0 "Social Democratic Party"
+SWI_moderate_socialist_party_long:0 "Sozialdemokratische Partei der Schweiz"
+SWI_social_democrat_party:0 "SDPS"
+SWI_social_democrat_party_long:0 "Sozialdemokratische Partei der Schweiz"
+SWI_social_liberal_party:0 "LU"
+SWI_social_liberal_party_long:0 "Landesring der Unabhängigen"
+SWI_conservative_party:0 "BGB"
+SWI_conservative_party_long:0 "Bauern-Gewerbe-und Bürgerpartei"
+SWI_authoritarian_democrat_party:0 "Committee of the Armed Forces"
+SWI_authoritarian_democrat_party_long:0 "Bundesausschuss der Streitkräfte"
+SWI_autocratic_party:0 "-"
+SWI_autocratic_party_long:0 ""
+SWI_fundamentalist_party:0 "-"
+SWI_fundamentalist_party_long:0 ""
+SWI_voynist_party:0 "SVV"
+SWI_voynist_party_long:0 "Schweizerische Vaterländischer Verband"
+
+### Country Name ###
+ 
+SWI_nationalist_socialism:0 "Swiss Confederation"
+SWI_nationalist_socialism_ADJ:0 "the Swiss Confederation"
+SWI_nationalist_socialism_DEF:0 "Swiss"
+
+SWI_revolutionary_socialism:0 "Swiss Confederation"
+SWI_revolutionary_socialism_ADJ:0 "the Swiss Confederation"
+SWI_revolutionary_socialism_DEF:0 "Swiss"
+
+SWI_syndicalism:0 "Swiss Confederation"
+SWI_syndicalism_ADJ:0 "the Swiss Confederation"
+SWI_syndicalism_DEF:0 "Swiss"
+
+SWI_moderate_socialist:0 "Swiss Confederation"
+SWI_moderate_socialist_ADJ:0 "the Swiss Confederation"
+SWI_moderate_socialist_DEF:0 "Swiss"
+
+SWI_social_democrat:0 "Swiss Confederation"
+SWI_social_democrat_ADJ:0 "the Swiss Confederation"
+SWI_social_democrat_DEF:0 "Swiss"
+
+SWI_social_liberal:0 "Swiss Confederation"
+SWI_social_liberal_ADJ:0 "the Swiss Confederation"
+SWI_social_liberal_DEF:0 "Swiss"
+
+SWI_social_conservative:0 "Swiss Confederation"
+SWI_social_conservative_ADJ:0 "the Swiss Confederation"
+SWI_social_conservative_DEF:0 "Swiss"
+
+SWI_authoritarian_democrat:0 "Swiss Confederation"
+SWI_authoritarian_democrat_ADJ:0 "the Swiss Confederation"
+SWI_authoritarian_democrat_DEF:0 "Swiss"
+
+SWI_autocratic:0 "Swiss Confederation"
+SWI_autocratic_ADJ:0 "the Swiss Confederation"
+SWI_autocratic_DEF:0 "Swiss"
+
+SWI_ultraconservative:0 "Swiss Confederation"
+SWI_ultraconservative_ADJ:0 "the Swiss Confederation"
+SWI_ultraconservative_DEF:0 "Swiss"
+
+SWI_national_corporatist:0 "Swiss Confederation"
+SWI_national_corporatist_ADJ:0 "the Swiss Confederation"
+SWI_national_corporatist_DEF:0 "Swiss"
+
+###Focuses###
+
+
+### Ideas ###
+
+SWI_demobilisation:0 "Compromised Redout"
+SWI_demobilisation_desc:0 "As part of our compromise with the new European order, the swiss army remains partially demobilised, and all our national redoubt fortresses remain unoccupied. While this policy was done in a gesture of good will towards larger powers, it is also unacceptable for obvious reasons. We must be allowed to move freely within our own territory"
+SWI_new_order:0 "New Order"
+SWI_new_order_desc:0 "For centuries, we have watched from our perch. Confident in our traditions, we trust neutrality amongst the european turmoil, and in turn, Europe trusts us.\n\nOr so goes the rose tinted story The truth is that the swiss nation has never been more isolated. A new order has arisen, red and vengeful. We are a bastion of the old ways, surrounded in an unrecognizable continent. We must adapt or die..."
+SWI_regime_of_the_colonels:0 "Regime of the Colonels"
+SWI_regime_of_the_colonels_desc:0 "Since 1939, the Military has kept a firm hand upon the back of the Swiss nation. General Guissan may have retired from the service, but his disciples steer the ship of state to this day. The extent of their involvement remains an ongoing axis of swiss politics."
+SWI_economic_crisis:0 "Economic Crisis"
+SWI_economic_crisis_desc:0 "The loss of the global market, and the swift vanquishing of our trade partners has left us totally economically crippled. Switzerland must find new financial avenues, lest it be lost to the tides."
+
+### Flags ###
+
+### Tooltips ###
+SWI_1_tt:0 "The Swiss military is operating within Constitutional limits"
+SWI_2_tt:0 "As per the compromises, the Swiss army can not fully mobilise"
+### Companies ###
+
+### Ministers ###
+
+SWI_Henri_Guisan:0 "Henri Guisan"
+SWI_Charles_Daniel:0 "Charles Daniel"
+SWI_Emilio_Luccini:0 "Emilio Luccini"
+SWI_Robert_Frick:0 "Robert Frick"
+SWI_Pierre_Musy:0 "Pierre Musy"
+SWI_Jakob_Annasohn:0 "Jakob Annasohn"
+SWI_Charles_Dubois:0 "Charles Dubois"
+SWI_Roger_Masson:0 "Roger Masson"
+SWI_Louis_Montmollin:0 "Louis de Montmollin"
+SWI_Jakob_Huber:0 "Jakob Huber"
+SWI_Rihner_Fritz:0 "Rihner Fritz"
+
+### Leaders ###
+
+### Tech? ###

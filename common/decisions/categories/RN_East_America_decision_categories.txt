@@ -1,0 +1,26 @@
+CSA_arrest_troublemakers = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = CSA
+	}
+
+	visible = { 
+	has_country_flag = CSA_arrest_troublemakers
+
+	}
+}
+
+CSA_convention_status = {
+	icon = GFX_decision_category_generic_industry
+	priority = 200
+	allowed = {
+		tag = CSA
+	}
+
+	visible = { 
+	has_country_flag = CSA_convention_in_process
+	}
+	visible_when_empty = no
+	scripted_gui = RN_CSA_congress_convention
+}

@@ -1,0 +1,85 @@
+RUS_ICBM_activation = {
+	icon = GFX_decision_generic_nuke
+	priority = 80
+	allowed = {
+		tag = RUS
+	}
+	visible = { 
+		has_global_flag = PARDAN_0_international
+	}
+}
+
+RUS_siberian_industrialisation = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+}
+
+RUS_rebels_suppression = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	scripted_gui = KN_liberty_corridor
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+	has_global_flag = RUS_great_rebellion_FIN
+	#tag = RUS
+	}
+}
+
+RUS_fuck_pekkas = { #I should fix this
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+	has_global_flag = RUS_great_rebellion_FIN
+	
+	#tag = RUS
+	}
+}
+
+RUS_five_years_plan = { 
+	icon = GFX_idea_RUS_five_years_plan
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+	has_country_flag = RUS_five_years_plan
+	
+	#tag = RUS
+	}
+}
+
+RUS_matters_of_state = { 
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+tag = RUS
+	}
+}
+
+RUS_kremlin_crisis = { 
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+
+	allowed = {
+			tag = RUS
+	}
+	visible = { 
+tag = RUS
+has_country_flag = RUS_kremlin_crisis
+	}
+}

@@ -1,0 +1,42 @@
+﻿capital = 315
+
+oob = "CUB"
+
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+
+set_war_support = 0.1
+set_convoys = 20
+
+set_politics = {
+	ruling_party = nationalist_socialism
+	last_election = "1949.10.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	nationalist_socialism = 30
+	revolutionary_socialism = 10
+	syndicalism = 0
+	moderate_socialist = 30
+	social_democrat = 5
+	social_liberal = 3
+	social_conservative = 3
+	authoritarian_democrat = 4
+	autocratic = 5
+	ultraconservative = 8
+	national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "José Agripino Barnet"
+	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+	picture = "GFX_portrait_cuba_jose_barnet"
+	expire = "1965.1.1"
+	ideology = syndicalism_subtype
+	traits = {
+		#
+	}
+}

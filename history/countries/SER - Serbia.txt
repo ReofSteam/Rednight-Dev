@@ -1,0 +1,76 @@
+﻿capital = 107
+
+set_research_slots = 3
+
+oob = "SER"
+set_cosmetic_tag = YUG
+set_country_flag = SER_alexander_ii_is_king
+add_ideas = {
+SER_yugoslav_dilemma
+SER_balkan_pillar
+SER_agrarian_society
+}
+
+set_technology = {
+	### General ###
+
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_war_support = 0.6
+
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    nationalist_socialism = 5
+    revolutionary_socialism = 3
+    syndicalism = 1
+    moderate_socialist = 2
+    social_democrat = 2
+    social_liberal = 4
+    social_conservative = 12
+    authoritarian_democrat = 7
+    autocratic = 18
+    ultraconservative = 20
+    national_corporatist = 26
+}
+
+### Starting cabinet
+add_ideas = {
+}
+
+### Starting party leaders
+
+create_country_leader = {
+	name = "Dusan Simovic"
+	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
+	picture = "gfx/leaders/SER/SER_Simovic.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = { }
+}
+create_corps_commander = {
+	name = "Milorad Petrović"
+	portrait_path = "gfx/leaders/SER/SER_Petrović.png"
+	traits = { }
+	skill = 3
+	id = 1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
