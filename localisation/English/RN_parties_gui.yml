@@ -1,3 +1,0 @@
-l_english:
-
-parties_list:0 "§S[SOCNAT_PARTY]§W - [?party_popularity@social_nationalist|%0]\n§M[MARXIST_PARTY]§W - [?party_popularity@marxist|%0]\n§L[LIB_PARTY]§W - [?party_popularity@libertarian|%0]\n§m[MODSOC_PARTY]§W - [?party_popularity@moderate_socialist|%0]\n§s[SOCDEM_PARTY]§W - [?party_popularity@social_democrat|%0]\n§l[SOCLIB_PARTY]§W - [?party_popularity@social_liberal|%0]\n§C[CON_PARTY]§W - [?party_popularity@conservative|%0]\n§A[AUTHDEM_PARTY]§W - [?party_popularity@authoritarian_democrat|%0]\n§a[AUTOCRATIC_PARTY]§W - [?party_popularity@autocratic|%0]\n§F[FUNDIE_PARTY]§W - [?party_popularity@fundamentalist|%0]\n§V[VOYNIST_PARTY]§W - [?party_popularity@voynist|%0]\n"
