@@ -1,0 +1,16 @@
+state = {
+	id = 1140
+	name = "STATE_1140"
+	manpower = 0
+	state_category = two
+
+	history = {
+		owner = MOR
+		add_core_of = MOR		
+	}
+
+	provinces = {
+	13810 13813 13818 13820 13821 13830 13827 13826 13829 13801 13798 13814 13822 13807 13800 13795 13792 13840 13838 13839 13837
+
+	}
+}
