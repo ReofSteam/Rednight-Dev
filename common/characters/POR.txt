@@ -1,0 +1,121 @@
+characters={
+	POR_Duarte_Nuno={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+    }
+	POR_Duarte_Nuno_2={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=autocratic_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+    POR_Duarte_Nuno_3={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=Authoritarian_Democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POR_Duarte_Nuno_4={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POR_Duarte_Nuno_5={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	POR_Duarte_Nuno_6={
+		name="Duarte Nuno"
+		portraits={
+			civilian={
+				large="gfx/Leaders/POR/POR_Duarte_Nuno.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_Duarte_Nuno_DESC"		
+			ideology=ultraconservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}	
+			}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
