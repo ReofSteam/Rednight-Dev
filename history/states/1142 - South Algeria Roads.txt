@@ -1,0 +1,15 @@
+state = {
+	id = 1142
+	name = "STATE_1142"
+	manpower = 0
+	state_category = two
+
+	history = {
+		owner = ALG
+		add_core_of = ALG
+	}
+
+	provinces = {
+		13817 13824 13811 13805 13804 13806 13809 13812 13815 13823 13825 13831 13828 13832 13836 13835 13834 13833
+	}
+}

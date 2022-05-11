@@ -163,4 +163,84 @@ characters={
 			id=-1
 		}
 	}
+
+####Army###
+	CNT_Juan_Modesto={
+		name="Juan Modesto"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CNT/CNT_modesto.png"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CNT_Jose_Miaja={
+		name="José Miaja"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CNT/CNT_Miaja.png"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CNT_Vincente_Lluch={
+		name="Vicente Rojo Lluch"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CNT/CNT_Lluch.png"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}	
+	CNT_antonio_garcia={
+		name="Antonio Cordón García"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CNT/CNT_Garcia.png"
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}	
+	
 }

@@ -71,6 +71,12 @@ recruit_character = CNT_luis_barradas
 recruit_character = CNT_pascual_menéndez
 recruit_character = CNT_segismundo_blázquez
 
+recruit_character = CNT_Juan_Modesto
+recruit_character = CNT_Jose_Miaja
+recruit_character = CNT_Vincente_Lluch
+recruit_character = CNT_antonio_garcia
+
+
 ### Ship Variants ###
 
 create_equipment_variant = {
