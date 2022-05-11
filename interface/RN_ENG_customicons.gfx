@@ -2,17 +2,17 @@ spriteTypes = {
 	##Icon For: O England, Arise!
 	SpriteType = { 
 		name = "GFX_ENG_o_england_arise-7595"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.png"
 	}
 
 	##Icon Shine For: O England, Arise!
 	SpriteType = { 
 		name = "GFX_ENG_o_england_arise-7595_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -23,8 +23,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_o_england_arise.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -40,17 +40,17 @@ spriteTypes = {
 	##Icon For: Interceptor Program
 	SpriteType = { 
 		name = "GFX_ENG_interceptor_program"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.png"
 	}
 
 	##Icon Shine For: Interceptor Program
 	SpriteType = { 
 		name = "GFX_ENG_interceptor_program_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -61,8 +61,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_interceptor_program.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -78,17 +78,17 @@ spriteTypes = {
 	##Icon For: Women's Revolutionary Federation
 	SpriteType = { 
 		name = "GFX_ENG_womens_revolutionary_federation"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.png"
 	}
 
 	##Icon Shine For: Women's Revolutionary Federation
 	SpriteType = { 
 		name = "GFX_ENG_womens_revolutionary_federation_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -99,8 +99,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_womens_revolutionary_federation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -116,17 +116,17 @@ spriteTypes = {
 	##Icon For: Operation Wilfred
 	SpriteType = { 
 		name = "GFX_ENG_operation_wilfred"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.png"
 	}
 
 	##Icon Shine For: Operation Wilfred
 	SpriteType = { 
 		name = "GFX_ENG_operation_wilfred_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -137,8 +137,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_wilfred.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -154,17 +154,17 @@ spriteTypes = {
 	##Icon For: Project Northumberland
 	SpriteType = { 
 		name = "GFX_ENG_project_northumberland"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.png"
 	}
 
 	##Icon Shine For: Project Northumberland
 	SpriteType = { 
 		name = "GFX_ENG_project_northumberland_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -175,8 +175,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_project_northumberland.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -192,17 +192,17 @@ spriteTypes = {
 	##Icon For: Operation Fork
 	SpriteType = { 
 		name = "GFX_ENG_operation_fork"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.png"
 	}
 
 	##Icon Shine For: Operation Fork
 	SpriteType = { 
 		name = "GFX_ENG_operation_fork_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -213,8 +213,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_fork.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -230,17 +230,17 @@ spriteTypes = {
 	##Icon For: Revolutionary Guards Expansion
 	SpriteType = { 
 		name = "GFX_ENG_revolutionary_guards_expansion"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.png"
 	}
 
 	##Icon Shine For: Revolutionary Guards Expansion
 	SpriteType = { 
 		name = "GFX_ENG_revolutionary_guards_expansion_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -251,8 +251,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_revolutionary_guards_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -268,17 +268,17 @@ spriteTypes = {
 	##Icon For: Standing Army Expansion
 	SpriteType = { 
 		name = "GFX_ENG_standing_army_expansion"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.png"
 	}
 
 	##Icon Shine For: Standing Army Expansion
 	SpriteType = { 
 		name = "GFX_ENG_standing_army_expansion_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -289,8 +289,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_standing_army_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -306,17 +306,17 @@ spriteTypes = {
 	##Icon For: Mixed Economy
 	SpriteType = { 
 		name = "GFX_ENG_mixed_economy"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.png"
 	}
 
 	##Icon Shine For: Mixed Economy
 	SpriteType = { 
 		name = "GFX_ENG_mixed_economy_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -327,8 +327,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mixed_economy.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -344,17 +344,17 @@ spriteTypes = {
 	##Icon For: Operation Strongbow
 	SpriteType = { 
 		name = "GFX_ENG_operation_strongbow"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.png"
 	}
 
 	##Icon Shine For: Operation Strongbow
 	SpriteType = { 
 		name = "GFX_ENG_operation_strongbow_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -365,8 +365,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_strongbow.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -382,17 +382,17 @@ spriteTypes = {
 	##Icon For: Industry for National Defense
 	SpriteType = { 
 		name = "GFX_ENG_industry_for_national_defense"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.png"
 	}
 
 	##Icon Shine For: Industry for National Defense
 	SpriteType = { 
 		name = "GFX_ENG_industry_for_national_defense_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -403,8 +403,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_industry_for_national_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -420,17 +420,17 @@ spriteTypes = {
 	##Icon For: NHS Expansion
 	SpriteType = { 
 		name = "GFX_ENG_nhs_expansion"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.png"
 	}
 
 	##Icon Shine For: NHS Expansion
 	SpriteType = { 
 		name = "GFX_ENG_nhs_expansion_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -441,8 +441,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_nhs_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -458,17 +458,17 @@ spriteTypes = {
 	##Icon For: Department of Internal Security
 	SpriteType = { 
 		name = "GFX_ENG_department_of_internal_security"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.png"
 	}
 
 	##Icon Shine For: Department of Internal Security
 	SpriteType = { 
 		name = "GFX_ENG_department_of_internal_security_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -479,8 +479,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_department_of_internal_security.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -496,17 +496,17 @@ spriteTypes = {
 	##Icon For: National Bourgeoise Initiative
 	SpriteType = { 
 		name = "GFX_ENG_national_bourgeoise_initiative"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.png"
 	}
 
 	##Icon Shine For: National Bourgeoise Initiative
 	SpriteType = { 
 		name = "GFX_ENG_national_bourgeoise_initiative_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -517,8 +517,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_bourgeoise_initiative.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -534,17 +534,17 @@ spriteTypes = {
 	##Icon For: Control the Unions
 	SpriteType = { 
 		name = "GFX_ENG_control_the_unions"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.png"
 	}
 
 	##Icon Shine For: Control the Unions
 	SpriteType = { 
 		name = "GFX_ENG_control_the_unions_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -555,8 +555,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_control_the_unions.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -572,17 +572,17 @@ spriteTypes = {
 	##Icon For: Will you disown your native land?
 	SpriteType = { 
 		name = "GFX_ENG_will_you_disown_your_native_land"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.png"
 	}
 
 	##Icon Shine For: Will you disown your native land?
 	SpriteType = { 
 		name = "GFX_ENG_will_you_disown_your_native_land_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -593,8 +593,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_will_you_disown_your_native_land.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -610,17 +610,17 @@ spriteTypes = {
 	##Icon For: Exports Revolution
 	SpriteType = { 
 		name = "GFX_ENG_exports_revolution"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.png"
 	}
 
 	##Icon Shine For: Exports Revolution
 	SpriteType = { 
 		name = "GFX_ENG_exports_revolution_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -631,8 +631,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_exports_revolution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -648,17 +648,17 @@ spriteTypes = {
 	##Icon For: The Ages Yet to Extinguish
 	SpriteType = { 
 		name = "GFX_ENG_the_ages_yet_to_extinguish"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.png"
 	}
 
 	##Icon Shine For: The Ages Yet to Extinguish
 	SpriteType = { 
 		name = "GFX_ENG_the_ages_yet_to_extinguish_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -669,8 +669,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ages_yet_to_extinguish.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -686,17 +686,17 @@ spriteTypes = {
 	##Icon For: The Arsenal of England
 	SpriteType = { 
 		name = "GFX_ENG_the_arsenal_of_england"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.png"
 	}
 
 	##Icon Shine For: The Arsenal of England
 	SpriteType = { 
 		name = "GFX_ENG_the_arsenal_of_england_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -707,8 +707,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_arsenal_of_england.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -724,17 +724,17 @@ spriteTypes = {
 	##Icon For: British Worker's Government
 	SpriteType = { 
 		name = "GFX_ENG_british_workers_government"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.png"
 	}
 
 	##Icon Shine For: British Worker's Government
 	SpriteType = { 
 		name = "GFX_ENG_british_workers_government_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -745,8 +745,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_workers_government.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -762,17 +762,17 @@ spriteTypes = {
 	##Icon For: National Labour Victory
 	SpriteType = { 
 		name = "GFX_ENG_national_labour_victory"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.png"
 	}
 
 	##Icon Shine For: National Labour Victory
 	SpriteType = { 
 		name = "GFX_ENG_national_labour_victory_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -783,8 +783,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_national_labour_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -800,17 +800,17 @@ spriteTypes = {
 	##Icon For: Mosley's Democratic Election
 	SpriteType = { 
 		name = "GFX_ENG_mosleys_democratic_election"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.png"
 	}
 
 	##Icon Shine For: Mosley's Democratic Election
 	SpriteType = { 
 		name = "GFX_ENG_mosleys_democratic_election_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -821,8 +821,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mosleys_democratic_election.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -838,17 +838,17 @@ spriteTypes = {
 	##Icon For: English Socialist Victory
 	SpriteType = { 
 		name = "GFX_ENG_english_socialist_victory"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.png"
 	}
 
 	##Icon Shine For: English Socialist Victory
 	SpriteType = { 
 		name = "GFX_ENG_english_socialist_victory_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -859,8 +859,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_english_socialist_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -876,17 +876,17 @@ spriteTypes = {
 	##Icon For: Maximist Victory
 	SpriteType = { 
 		name = "GFX_ENG_maximist_victory"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.png"
 	}
 
 	##Icon Shine For: Maximist Victory
 	SpriteType = { 
 		name = "GFX_ENG_maximist_victory_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -897,8 +897,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_maximist_victory.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -914,17 +914,17 @@ spriteTypes = {
 	##Icon For: New Britain Plan
 	SpriteType = { 
 		name = "GFX_ENG_new_britain_plan"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.png"
 	}
 
 	##Icon Shine For: New Britain Plan
 	SpriteType = { 
 		name = "GFX_ENG_new_britain_plan_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -935,8 +935,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_new_britain_plan.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -952,17 +952,17 @@ spriteTypes = {
 	##Icon For: Winter of Discontent
 	SpriteType = { 
 		name = "GFX_ENG_winter_of_discontent"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.png"
 	}
 
 	##Icon Shine For: Winter of Discontent
 	SpriteType = { 
 		name = "GFX_ENG_winter_of_discontent_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -973,8 +973,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_winter_of_discontent.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -990,17 +990,17 @@ spriteTypes = {
 	##Icon For: North Sea Expansion
 	SpriteType = { 
 		name = "GFX_ENG_north_sea_expansion"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.png"
 	}
 
 	##Icon Shine For: North Sea Expansion
 	SpriteType = { 
 		name = "GFX_ENG_north_sea_expansion_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1011,8 +1011,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_north_sea_expansion.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1028,17 +1028,17 @@ spriteTypes = {
 	##Icon For: Question of Political Warfare
 	SpriteType = { 
 		name = "GFX_ENG_question_of_political_warfare"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.png"
 	}
 
 	##Icon Shine For: Question of Political Warfare
 	SpriteType = { 
 		name = "GFX_ENG_question_of_political_warfare_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1049,8 +1049,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_question_of_political_warfare.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1066,17 +1066,17 @@ spriteTypes = {
 	##Icon For: Centralised Economy
 	SpriteType = { 
 		name = "GFX_ENG_centralised_economy"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.png"
 	}
 
 	##Icon Shine For: Centralised Economy
 	SpriteType = { 
 		name = "GFX_ENG_centralised_economy_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1087,8 +1087,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_centralised_economy.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1104,17 +1104,17 @@ spriteTypes = {
 	##Icon For: British Railway Collective
 	SpriteType = { 
 		name = "GFX_ENG_british_railway_collective"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.png"
 	}
 
 	##Icon Shine For: British Railway Collective
 	SpriteType = { 
 		name = "GFX_ENG_british_railway_collective_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1125,8 +1125,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_railway_collective.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1142,17 +1142,17 @@ spriteTypes = {
 	##Icon For: R.E.D Atlantic Division
 	SpriteType = { 
 		name = "GFX_ENG_red_atlantic_division"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.png"
 	}
 
 	##Icon Shine For: R.E.D Atlantic Division
 	SpriteType = { 
 		name = "GFX_ENG_red_atlantic_division_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1163,8 +1163,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_red_atlantic_division.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1180,17 +1180,17 @@ spriteTypes = {
 	##Icon For: Operation Pendragon II
 	SpriteType = { 
 		name = "GFX_ENG_operation_pendragon_ii"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.png"
 	}
 
 	##Icon Shine For: Operation Pendragon II
 	SpriteType = { 
 		name = "GFX_ENG_operation_pendragon_ii_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1201,8 +1201,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_operation_pendragon_ii.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1218,17 +1218,17 @@ spriteTypes = {
 	##Icon For: Strategic Warfare Assistance Bureau
 	SpriteType = { 
 		name = "GFX_ENG_strategic_warfare_assistance_bureau"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.png"
 	}
 
 	##Icon Shine For: Strategic Warfare Assistance Bureau
 	SpriteType = { 
 		name = "GFX_ENG_strategic_warfare_assistance_bureau_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1239,8 +1239,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_strategic_warfare_assistance_bureau.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1256,17 +1256,17 @@ spriteTypes = {
 	##Icon For: Destruction of the Regime
 	SpriteType = { 
 		name = "GFX_ENG_destruction_of_the_regime"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.png"
 	}
 
 	##Icon Shine For: Destruction of the Regime
 	SpriteType = { 
 		name = "GFX_ENG_destruction_of_the_regime_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1277,8 +1277,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destruction_of_the_regime.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1294,17 +1294,17 @@ spriteTypes = {
 	##Icon For: London People's Court
 	SpriteType = { 
 		name = "GFX_ENG_london_peoples_court"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.png"
 	}
 
 	##Icon Shine For: London People's Court
 	SpriteType = { 
 		name = "GFX_ENG_london_peoples_court_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1315,8 +1315,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_london_peoples_court.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1332,17 +1332,17 @@ spriteTypes = {
 	##Icon For: British Cultural Revolution
 	SpriteType = { 
 		name = "GFX_ENG_british_cultural_revolution"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.png"
 	}
 
 	##Icon Shine For: British Cultural Revolution
 	SpriteType = { 
 		name = "GFX_ENG_british_cultural_revolution_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1353,8 +1353,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_cultural_revolution.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1370,17 +1370,17 @@ spriteTypes = {
 	##Icon For: Personal Weapon Research
 	SpriteType = { 
 		name = "GFX_ENG_personal_weapon_research"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.png"
 	}
 
 	##Icon Shine For: Personal Weapon Research
 	SpriteType = { 
 		name = "GFX_ENG_personal_weapon_research_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1391,8 +1391,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_personal_weapon_research.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1408,17 +1408,17 @@ spriteTypes = {
 	##Icon For: The Great Naval Reorganisation
 	SpriteType = { 
 		name = "GFX_ENG_the_great_naval_reorganisation"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.png"
 	}
 
 	##Icon Shine For: The Great Naval Reorganisation
 	SpriteType = { 
 		name = "GFX_ENG_the_great_naval_reorganisation_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1429,8 +1429,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_great_naval_reorganisation.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1446,17 +1446,17 @@ spriteTypes = {
 	##Icon For: Helicopter Auxillary Forces
 	SpriteType = { 
 		name = "GFX_ENG_helicopter_auxillary_forces"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.png"
 	}
 
 	##Icon Shine For: Helicopter Auxillary Forces
 	SpriteType = { 
 		name = "GFX_ENG_helicopter_auxillary_forces_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1467,8 +1467,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_helicopter_auxillary_forces.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1484,17 +1484,17 @@ spriteTypes = {
 	##Icon For: Expand the SAS
 	SpriteType = { 
 		name = "GFX_ENG_expand_the_sas"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.png"
 	}
 
 	##Icon Shine For: Expand the SAS
 	SpriteType = { 
 		name = "GFX_ENG_expand_the_sas_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1505,8 +1505,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_expand_the_sas.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1522,17 +1522,17 @@ spriteTypes = {
 	##Icon For: Light Tanks and Amoured Vehicles Focus
 	SpriteType = { 
 		name = "GFX_ENG_light_tanks_and_amoured_vehicles_focus"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.png"
 	}
 
 	##Icon Shine For: Light Tanks and Amoured Vehicles Focus
 	SpriteType = { 
 		name = "GFX_ENG_light_tanks_and_amoured_vehicles_focus_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1543,8 +1543,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_light_tanks_and_amoured_vehicles_focus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1560,17 +1560,17 @@ spriteTypes = {
 	##Icon For: MBT Focus
 	SpriteType = { 
 		name = "GFX_ENG_mbt_focus"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.png"
 	}
 
 	##Icon Shine For: MBT Focus
 	SpriteType = { 
 		name = "GFX_ENG_mbt_focus_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1581,8 +1581,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_mbt_focus.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1598,17 +1598,17 @@ spriteTypes = {
 	##Icon For: Memories of the Second Great War
 	SpriteType = { 
 		name = "GFX_ENG_memories_of_the_second_great_war"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.png"
 	}
 
 	##Icon Shine For: Memories of the Second Great War
 	SpriteType = { 
 		name = "GFX_ENG_memories_of_the_second_great_war_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1619,8 +1619,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_memories_of_the_second_great_war.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1636,17 +1636,17 @@ spriteTypes = {
 	##Icon For: Jet Fighter Squadrons
 	SpriteType = { 
 		name = "GFX_ENG_jet_fighter_squadrons"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.png"
 	}
 
 	##Icon Shine For: Jet Fighter Squadrons
 	SpriteType = { 
 		name = "GFX_ENG_jet_fighter_squadrons_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1657,8 +1657,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_jet_fighter_squadrons.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1674,17 +1674,17 @@ spriteTypes = {
 	##Icon For: The Future Aerial Warfare Committee
 	SpriteType = { 
 		name = "GFX_ENG_the_future_aerial_warfare_committee"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.png"
 	}
 
 	##Icon Shine For: The Future Aerial Warfare Committee
 	SpriteType = { 
 		name = "GFX_ENG_the_future_aerial_warfare_committee_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1695,8 +1695,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_future_aerial_warfare_committee.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1712,17 +1712,17 @@ spriteTypes = {
 	##Icon For: Combat Nationalism
 	SpriteType = { 
 		name = "GFX_ENG_combat_nationalism"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.png"
 	}
 
 	##Icon Shine For: Combat Nationalism
 	SpriteType = { 
 		name = "GFX_ENG_combat_nationalism_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1733,8 +1733,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_combat_nationalism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1750,17 +1750,17 @@ spriteTypes = {
 	##Icon For: Plan Rose
 	SpriteType = { 
 		name = "GFX_ENG_plan_rose"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.png"
 	}
 
 	##Icon Shine For: Plan Rose
 	SpriteType = { 
 		name = "GFX_ENG_plan_rose_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1771,8 +1771,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_rose.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1788,17 +1788,17 @@ spriteTypes = {
 	##Icon For: The ocean sparkling lights
 	SpriteType = { 
 		name = "GFX_ENG_the_ocean_sparkling_lights"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.png"
 	}
 
 	##Icon Shine For: The ocean sparkling lights
 	SpriteType = { 
 		name = "GFX_ENG_the_ocean_sparkling_lights_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1809,8 +1809,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_ocean_sparkling_lights.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1826,17 +1826,17 @@ spriteTypes = {
 	##Icon For: Your harvest shall it reap?
 	SpriteType = { 
 		name = "GFX_ENG_your_harvest_shall_it_reap"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.png"
 	}
 
 	##Icon Shine For: Your harvest shall it reap?
 	SpriteType = { 
 		name = "GFX_ENG_your_harvest_shall_it_reap_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1847,8 +1847,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_your_harvest_shall_it_reap.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1864,17 +1864,17 @@ spriteTypes = {
 	##Icon For: Destroy English Romanticism
 	SpriteType = { 
 		name = "GFX_ENG_destroy_english_romanticism"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.png"
 	}
 
 	##Icon Shine For: Destroy English Romanticism
 	SpriteType = { 
 		name = "GFX_ENG_destroy_english_romanticism_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1885,8 +1885,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_destroy_english_romanticism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1902,17 +1902,17 @@ spriteTypes = {
 	##Icon For: The Principles of Pacifism
 	SpriteType = { 
 		name = "GFX_ENG_the_principles_of_pacifism"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.png"
 	}
 
 	##Icon Shine For: The Principles of Pacifism
 	SpriteType = { 
 		name = "GFX_ENG_the_principles_of_pacifism_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1923,8 +1923,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_principles_of_pacifism.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1940,17 +1940,17 @@ spriteTypes = {
 	##Icon For: Plan Violet
 	SpriteType = { 
 		name = "GFX_ENG_plan_violet"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.png"
 	}
 
 	##Icon Shine For: Plan Violet
 	SpriteType = { 
 		name = "GFX_ENG_plan_violet_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1961,8 +1961,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_violet.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1978,17 +1978,17 @@ spriteTypes = {
 	##Icon For: All your valleys call you
 	SpriteType = { 
 		name = "GFX_ENG_all_your_valleys_call_you"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.png"
 	}
 
 	##Icon Shine For: All your valleys call you
 	SpriteType = { 
 		name = "GFX_ENG_all_your_valleys_call_you_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -1999,8 +1999,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_all_your_valleys_call_you.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2016,17 +2016,17 @@ spriteTypes = {
 	##Icon For: Over your face a web of lies
 	SpriteType = { 
 		name = "GFX_ENG_over_your_face_a_web_of_lies"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.png"
 	}
 
 	##Icon Shine For: Over your face a web of lies
 	SpriteType = { 
 		name = "GFX_ENG_over_your_face_a_web_of_lies_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2037,8 +2037,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_over_your_face_a_web_of_lies.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2054,17 +2054,17 @@ spriteTypes = {
 	##Icon For: Plan Lily
 	SpriteType = { 
 		name = "GFX_ENG_plan_lily"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.png"
 	}
 
 	##Icon Shine For: Plan Lily
 	SpriteType = { 
 		name = "GFX_ENG_plan_lily_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2075,8 +2075,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_plan_lily.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2092,17 +2092,17 @@ spriteTypes = {
 	##Icon For: Proletarian Culture
 	SpriteType = { 
 		name = "GFX_ENG_proletarian_culture"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.png"
 	}
 
 	##Icon Shine For: Proletarian Culture
 	SpriteType = { 
 		name = "GFX_ENG_proletarian_culture_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2113,8 +2113,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_proletarian_culture.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2130,17 +2130,17 @@ spriteTypes = {
 	##Icon For: Non-Interventionalism
 	SpriteType = { 
 		name = "GFX_ENG_noninterventionalism-12010"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.png"
 	}
 
 	##Icon Shine For: Non-Interventionalism
 	SpriteType = { 
 		name = "GFX_ENG_noninterventionalism-12010_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2151,8 +2151,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_noninterventionalism-12010.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2168,17 +2168,17 @@ spriteTypes = {
 	##Icon For: The British Nationalities
 	SpriteType = { 
 		name = "GFX_ENG_the_british_nationalities"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.png"
 	}
 
 	##Icon Shine For: The British Nationalities
 	SpriteType = { 
 		name = "GFX_ENG_the_british_nationalities_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2189,8 +2189,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_the_british_nationalities.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2206,17 +2206,17 @@ spriteTypes = {
 	##Icon For: Britannia rules the waves!
 	SpriteType = { 
 		name = "GFX_ENG_britannia_rules_the_waves"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.png"
 	}
 
 	##Icon Shine For: Britannia rules the waves!
 	SpriteType = { 
 		name = "GFX_ENG_britannia_rules_the_waves_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2227,8 +2227,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_britannia_rules_the_waves.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2244,17 +2244,17 @@ spriteTypes = {
 	##Icon For: British Home Defense
 	SpriteType = { 
 		name = "GFX_ENG_british_home_defense"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.png"
 	}
 
 	##Icon Shine For: British Home Defense
 	SpriteType = { 
 		name = "GFX_ENG_british_home_defense_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2265,8 +2265,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_british_home_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2282,17 +2282,17 @@ spriteTypes = {
 	##Icon For: COG Bunkers
 	SpriteType = { 
 		name = "GFX_ENG_cog_bunkers"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.png"
 	}
 
 	##Icon Shine For: COG Bunkers
 	SpriteType = { 
 		name = "GFX_ENG_cog_bunkers_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2303,8 +2303,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_cog_bunkers.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2320,17 +2320,17 @@ spriteTypes = {
 	##Icon For: Home Isles Aerospace Defense Command
 	SpriteType = { 
 		name = "GFX_ENG_home_isles_aerospace_defense_command"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.png"
 	}
 
 	##Icon Shine For: Home Isles Aerospace Defense Command
 	SpriteType = { 
 		name = "GFX_ENG_home_isles_aerospace_defense_command_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2341,8 +2341,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_home_isles_aerospace_defense_command.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2358,17 +2358,17 @@ spriteTypes = {
 	##Icon For: Scottish Coastal Defense
 	SpriteType = { 
 		name = "GFX_ENG_scottish_coastal_defense"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.png"
 	}
 
 	##Icon Shine For: Scottish Coastal Defense
 	SpriteType = { 
 		name = "GFX_ENG_scottish_coastal_defense_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2379,8 +2379,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_scottish_coastal_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2396,17 +2396,17 @@ spriteTypes = {
 	##Icon For: Southern England Coastal Defense
 	SpriteType = { 
 		name = "GFX_ENG_southern_england_coastal_defense"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.png"
 	}
 
 	##Icon Shine For: Southern England Coastal Defense
 	SpriteType = { 
 		name = "GFX_ENG_southern_england_coastal_defense_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2417,8 +2417,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_southern_england_coastal_defense.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2434,17 +2434,17 @@ spriteTypes = {
 	##Icon For: Set the Sea on Fire
 	SpriteType = { 
 		name = "GFX_ENG_set_the_sea_on_fire"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.png"
 	}
 
 	##Icon Shine For: Set the Sea on Fire
 	SpriteType = { 
 		name = "GFX_ENG_set_the_sea_on_fire_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2455,8 +2455,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_set_the_sea_on_fire.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2472,17 +2472,17 @@ spriteTypes = {
 	##Icon For: European Navigation and Guidance Network
 	SpriteType = { 
 		name = "GFX_ENG_european_navigation_and_guidance_network"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.png"
 	}
 
 	##Icon Shine For: European Navigation and Guidance Network
 	SpriteType = { 
 		name = "GFX_ENG_european_navigation_and_guidance_network_shine"
-		texturefile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.dds"
+		texturefile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = -90.0
 			animationlooping = no
 			animationtime = 0.75
@@ -2493,8 +2493,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationmaskfile = "gfx/interface/goals/ENG/GFX_ENG_european_navigation_and_guidance_network.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.png"
 			animationrotation = 90.0
 			animationlooping = no
 			animationtime = 0.75
