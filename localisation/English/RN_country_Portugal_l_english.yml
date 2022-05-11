@@ -8,29 +8,49 @@
 
 ### Country Name ###
 
-POR_nationalist_Socialism:0 "Portugal"
-POR_nationalist_Socialism_ADJ:0 "Portugal"
-POR_nationalist_Socialism_DEF:0 "Portugal"
+POR_nationalist_socialism:0 "Portuguese Peoples Republic"
+POR_nationalist_socialism_ADJ:0 "the Portuguese Peoples Republic"
+POR_nationalist_socialism_DEF:0 "Portuguese"
 
-POR_revolutionary_Socialism:0 "Portugal"
-POR_revolutionary_Socialism_ADJ:0 "Portugal"
-POR_revolutionary_Socialism_DEF:0 "Portugal"
+POR_revolutionary_socialism:0 "Portuguese Peoples Republic"
+POR_revolutionary_socialism_ADJ:0 "the Portuguese Peoples Republic"
+POR_revolutionary_socialism_DEF:0 "Portuguese"
 
-POR_moderate_Socialism:0 "Portugal"
-POR_moderate_Socialism_ADJ:0 "Portugal"
-POR_moderate_Socialism_DEF:0 "Portugal"
+POR_syndicalism:0 "Portuguese Republic"
+POR_syndicalism_ADJ:0 "the Portuguese Republic"
+POR_syndicalism_DEF:0 "Portuguese"
 
-POR_social_democracy:0 "Portugal"
-POR_social_democracy_ADJ:0 "Portugal"
-POR_social_democracy_DEF:0 "Portugal"
+POR_moderate_socialist:0 "Portuguese Republic"
+POR_moderate_socialist_ADJ:0 "the"Portuguese Republic"
+POR_moderate_socialist_DEF:0 "Portuguese"
 
-POR_autocratic:0 "Portugal"
-POR_autocratic_ADJ:0 "Portugal"
-POR_autocratic_DEF:0 "Portugal"
+POR_social_democrat:0 "Portuguese Republic"
+POR_social_democrat_ADJ:0 "the Portuguese Republic"
+POR_social_democrat_DEF:0 "Portuguese"
 
-POR_social_conservative:0 "Portugal"
-POR_social_conservative_ADJ:0 "Portugal"
-POR_social_conservative_DEF:0 "Portugal"
+POR_social_liberal:0 " Kingdom of Portugal and the Algarves"
+POR_social_liberal_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_social_liberal_DEF:0 "Portuguese"
+
+POR_social_conservative:0 " Kingdom of Portugal and the Algarves"
+POR_social_conservative_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_social_conservative_DEF:0 "Portuguese"
+
+POR_authoritarian_democrat:0 " Kingdom of Portugal and the Algarves"
+POR_authoritarian_democrat_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_authoritarian_democrat_DEF:0 "Portuguese"
+
+POR_autocratic:0 " Kingdom of Portugal and the Algarves"
+POR_autocratic_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_autocratic_DEF:0 "Portuguese"
+
+POR_ultraconservative:0 " Kingdom of Portugal and the Algarves"
+POR_ultraconservative_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_ultraconservative_DEF:0 "Portuguese"
+
+POR_national_corporatist:0 " Kingdom of Portugal and the Algarves"
+POR_national_corporatist_ADJ:0 "the  Kingdom of Portugal and the Algarves"
+POR_national_corporatist_DEF:0 "Portuguese"
 
 
 ### Opinion Modifiers ###
@@ -38,27 +58,28 @@ POR_social_conservative_DEF:0 "Portugal"
 ### Focus ###
 
 ### Parties ###
-PEX_social_nationalist_party:0 "-"
-PEX_social_nationalist_party_long:0 "-"
-PEX_marxist_party:0 "-"
-PEX_marxist_party_long:0 "-"
-PEX_libertarian_party:0 "-"
-PEX_libertarian_party_long:0 "-"
-PEX_moderate_socialist_party:0 "-"
-PEX_moderate_socialist_party_long:0 "-"
-PEX_social_democrat_party:0 "-"
-PEX_social_democrat_party_long:0 "-"
-PEX_social_liberal_party:0 "PD"
-PEX_social_liberal_party_long:0 "Partido Democrático"
-PEX_conservative_party:0 "PNR"
-PEX_conservative_party_long:0 "Partido Nacional Republicano"
-PEX_authoritarian_democrat_party:0 "CNA"
-PEX_authoritarian_democrat_party_long:0 "Cruzada Nun'Álvares"
-PEX_autocratic_party:0 "Regency"
-PEX_autocratic_party_long:0 "Regência da Salvação Real"
-PEX_fundamentalist_party:0 "IL"
-PEX_fundamentalist_party_long:0 "Integralismo Lusitano"
-PEX_voynist_party_long:0 "-"
+POR_nationalist_socialism_party:0 "-"
+POR_nationalist_socialism_party_long:0 "-"
+POR_revolutionary_socialism_party:0 "-"
+POR_revolutionary_socialism_party_long:0 "-"
+POR_syndicalism_party:0 "PSP"
+POR_syndicalism_party_long:0 "Partido Sindicalista Português"
+POR_moderate_socialist_party:0 "ASP"
+POR_moderate_socialist_party_long:0 "Acção Socialista Portuguesa"
+POR_social_democrat_party:0 "PDR"
+POR_social_democrat_party_long:0 "Partido Democrático Republicano"
+POR_social_liberal_party:0 "UD"
+POR_social_liberal_party_long:0 "União Democrática"
+POR_conservative_party:0 "UD"
+POR_conservative_party_long:0 "União Democrática"
+POR_authoritarian_democrat_party:0 "UD"
+POR_authoritarian_democrat_party_long:0 "União Democrática"
+POR_autocratic_party:0 "MM"
+POR_autocratic_party_long:0 "Movimento Monárquico"
+POR_ultraconservative_party:0 "IL"
+POR_ultraconservative_party_long:0 "Integralismo Lusitano (Moderates)"
+POR_national_corporatist:0 "IL"
+POR_national_corporatist_long:0 "Integralismo Lusitano (Radicals)"
 
 
 
