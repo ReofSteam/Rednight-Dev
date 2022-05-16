@@ -7,8 +7,8 @@ state = {
 	manpower = 740796
 
 	history = {
-		owner = KAM
-		add_core_of = KAM
+		owner = BGU
+		add_core_of = BGU
 		add_core_of = KON
 		buildings = {
 			infrastructure = 3
