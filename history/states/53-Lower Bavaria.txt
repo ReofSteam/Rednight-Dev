@@ -9,7 +9,7 @@ state = {
 		owner = FOZ
 		add_core_of = FOZ
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 1
 		}
 		1981.1.1 = {

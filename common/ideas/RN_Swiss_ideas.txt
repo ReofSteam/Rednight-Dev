@@ -7,7 +7,8 @@ ideas = {
 
 		SWI_demobilisation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWI_demobilisation"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				army_core_defence_factor = -0.1
 				mobilization_speed = -0.35	
 				conscription_factor = -0.05			
@@ -19,7 +20,8 @@ ideas = {
 		
 		SWI_new_order = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWI_new_order"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				political_power_gain = -0.50
 				stability_factor = 0.10
 			}
@@ -29,7 +31,8 @@ ideas = {
 		
 		SWI_regime_of_the_colonels = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SWI_regime_of_the_colonels"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			political_power_gain = 0.10
 
 			}
@@ -43,7 +46,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				justify_war_goal_time = 0.90
 			}
 			removal_cost = -1
@@ -55,7 +59,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				production_speed_buildings_factor = -0.5
 				production_factory_max_efficiency_factor = -0.25
 				consumer_goods_factor = 0.40

@@ -820,7 +820,7 @@ ideas = {
 				production_speed_buildings_factor = 0.1		
 				stability_factor = 0.05
 			}
-
+			default = yes
 			ai_will_do = {
 				factor = 1
 			}

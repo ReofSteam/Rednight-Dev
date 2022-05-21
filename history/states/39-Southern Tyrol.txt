@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			6675 = {
 				bunker = 1
 

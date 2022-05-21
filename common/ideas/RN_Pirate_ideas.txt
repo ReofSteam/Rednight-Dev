@@ -8,7 +8,8 @@ ideas = {
 
 GEA_Bauers_Submariners = {
 picture = PRS_submarine
-    modifier = {
+                allowed_civil_war = { always = yes }
+            modifier = {
    stability_factor = -0.4
    political_power_factor = 0.2
    navy_leader_start_attack_level = 3

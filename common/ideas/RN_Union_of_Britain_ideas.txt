@@ -6,7 +6,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			war_support_factor = 0.05
 			stability_factor = 0.05
 
@@ -19,7 +20,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				conscription_factor = -0.1
 				army_morale_factor = -0.1
 				planning_speed = 0.5
@@ -32,8 +34,10 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
-				add_opinion_modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
+				add_opinion_            allowed_civil_war = { always = yes }
+            modifier = {
 					target = FRA
 					modifier = medium_decrease
 					}
@@ -47,7 +51,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				consumer_goods_factor = 0.05
 
 			}
@@ -59,7 +64,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = -0.02
 			industrial_capacity_factory = 0.05
 			}
@@ -70,7 +76,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = 0.03
 			}
 			removal_cost = -1
@@ -80,7 +87,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = -0.02
 			}
 			removal_cost = -1
@@ -90,7 +98,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = -0.02
 			}
 			removal_cost = -1
@@ -100,7 +109,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				production_speed_buildings_factor = 0.5 
 				civilian_factory_use = -.5
 				stability_factor = 0.3
@@ -113,7 +123,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			research_speed_factor = 0.10
 			industrial_capacity_factory = 0.10
 			}
@@ -124,7 +135,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			research_speed_factor = 0.10
 			industrial_capacity_factory = 0.10
 			consumer_goods_factor = 0.3
@@ -136,7 +148,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = 0.03
 			}
 			removal_cost = -1
@@ -146,7 +159,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			war_support_factor = 0.05
 			}
 			removal_cost = -1
@@ -156,7 +170,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			monthly_population = 0.05
 
 			}
@@ -167,7 +182,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			war_support_factor = 0.05
 			monthly_population = 0.05
 
@@ -179,7 +195,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			war_support_factor = 0.05
 			stability_factor = 0.02
 			}
@@ -190,7 +207,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_speed_rail_way_factor = 0.05
 			}
 			removal_cost = -1
@@ -200,7 +218,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			stability_factor = 0.05
 			}
 			removal_cost = -1
@@ -210,7 +229,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_factory_efficiency_gain_factor = 0.05
 			consumer_goods_factor = -0.03
 			}
@@ -221,7 +241,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_factory_efficiency_gain_factor = 0.05
 			consumer_goods_factor = -0.02
 			}
@@ -232,7 +253,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_speed_buildings_factor  = 0.05
 			political_power_gain  = 0.02
 			}
@@ -243,7 +265,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor   = 0.05
 			stability_factor   = 0.02
 			}
@@ -254,7 +277,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor   = 0.05
 			stability_factor   = 0.05
 			}
@@ -265,7 +289,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			drift_defence_factor    = 0.5
 			}
 			removal_cost = -1
@@ -275,7 +300,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			political_power_gain  = -0.15
 			stability_factor = -0.02
 			consumer_goods_factor = -2 
@@ -288,7 +314,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			political_power_gain = -0.10
 			stability_factor = -0.05
 			consumer_goods_factor = -0.5 
@@ -301,7 +328,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_factory_efficiency_gain_factor = 0.10
 			}
 			removal_cost = -1
@@ -311,7 +339,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			stability_factor  = 0.10
 			}
 			removal_cost = -1
@@ -321,7 +350,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor = 0.3
 			}
 			removal_cost = -1
@@ -332,7 +362,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			research_speed_factor = 0.10
 			industrial_capacity_factory = 0.10
 			production_factory_efficiency_gain_factor = 0.10
@@ -344,7 +375,8 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			consumer_goods_factor  = 0.5 
 			civilian_factory_use = -.5
 			stability_factor = -0.10

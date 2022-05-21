@@ -7,7 +7,8 @@ ideas = {
 
 		ANA_marxist_leninist_thought = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_marxist_leninist_thought"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				political_power_gain = 0.15
 				production_speed_buildings_factor = 0.05
 			}
@@ -16,7 +17,8 @@ ideas = {
 		}
 		ANA_liberty_and_equality = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_liberty_and_equality"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				army_org_factor = -0.10
 				conscription = 0.015
 				land_reinforce_rate = 0.05
@@ -26,7 +28,8 @@ ideas = {
 		}
 		ANA_white_terror = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ANA_white_terror"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				MONTHLY_POPULATION = -0.1
 				production_factory_max_efficiency_factor = -0.1
 				army_speed_factor = -0.05

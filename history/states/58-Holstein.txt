@@ -12,7 +12,7 @@ state = {
 		owner = FOZ
 		add_core_of = FOZ
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 
 			dockyard = 3
 			air_base = 5

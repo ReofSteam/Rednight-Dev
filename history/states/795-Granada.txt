@@ -7,7 +7,7 @@ state={
 		owner = CNT
 		add_core_of = CNT
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 		}
 
 	}

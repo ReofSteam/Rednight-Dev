@@ -11,7 +11,7 @@ state = {
 		owner = CSA
 		add_core_of = CSA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			industrial_complex = 2
 		}
 		victory_points = {

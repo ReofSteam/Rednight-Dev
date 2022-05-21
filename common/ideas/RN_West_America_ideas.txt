@@ -7,7 +7,8 @@ ideas = {
 
 		America_new_year_peace = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea America_new_year_peace"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             conscription_factor = -0.15
 			}
 			removal_cost = -1
@@ -15,7 +16,8 @@ ideas = {
 		}	
 		CAL_prosperity = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_prosperity"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             stability_factor = 0.15
 			production_speed_buildings_factor = 0.35
 			industry_repair_factor = 0.05
@@ -27,7 +29,8 @@ ideas = {
 		}	
 		CAL_the_caravan = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_caravan"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             consumer_goods_factor = 0.3
 			monthly_population = 0.45
 			stability_factor = -0.1
@@ -37,7 +40,8 @@ ideas = {
 		}		
 		CAL_covenant = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_covenant"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             political_power_factor = -0.25
 			}
 			removal_cost = -1
@@ -46,7 +50,8 @@ ideas = {
 		###############Army Democrats Staring##############
 		TEX_gun_and_rose = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_gun_and_rose"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             production_speed_buildings_factor = 0.25
 			production_lack_of_resource_penalty_factor = 0.15 
 			research_speed_factor = -0.4
@@ -57,7 +62,8 @@ ideas = {
 		}
 		TEX_anti_long = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_anti_long"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             weekly_stability = -0.01
 			political_power_factor = -0.65
 			}
@@ -66,7 +72,8 @@ ideas = {
 		}
 		TEX_soldiers_nation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea TEX_soldiers_nation"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             stability_factor = 0.05
 
 			}

@@ -8,7 +8,8 @@ country = {
 
 INS_army_friction = {
 	picture = INS_army
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}
@@ -16,7 +17,8 @@ INS_army_friction = {
 
 INS_papau_struggle = {
 	picture = INS_dutch_remnant
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}
@@ -24,14 +26,16 @@ INS_papau_struggle = {
 
 INS_election_question = {
 	picture = INS_election_question
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}
 }
 INS_war_damage = {
 	picture = INS_recover
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}

@@ -7,7 +7,8 @@ ideas = {
 			HUN_Defeated_but_not_destroyed = {
 			picture = HUN_Defeated_but_not_destroyed
 
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			}
 			removal_cost = -1
 		}
@@ -15,7 +16,8 @@ ideas = {
 
 			HUN_underground_democrats = {
 			picture = HUN_underground_democrats		
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			}
 			removal_cost = -1
 		}
@@ -23,7 +25,8 @@ ideas = {
 
 			HUN_Unused_potential = {
 			picture = economy_bad		
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			removal_cost = -1
 		}
 	}
@@ -31,7 +34,8 @@ ideas = {
 
 			HUN_Radicals_in_the_cabinet = {
 			picture = economy_bad		
-                  modifier = {
+                  allowed_civil_war = { always = yes }
+            modifier = {
 			}
 			removal_cost = -1
 		}

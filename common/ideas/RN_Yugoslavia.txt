@@ -8,7 +8,8 @@ country = {
 
 SER_yugoslav_dilemma = {
 	picture = SER_yugoslavia_disunity
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	stability_factor = -0.2
 	political_power_gain = -0.2
 	}
@@ -16,7 +17,8 @@ SER_yugoslav_dilemma = {
 
 SER_balkan_pillar = {
 	picture = SER_independent_power
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	war_support_factor = 0.1
       war_stability_factor = 0.1
       army_core_defence_factor = 0.05
@@ -25,7 +27,8 @@ SER_balkan_pillar = {
 
 SER_agrarian_society = {
 	picture = rural_society
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
 	research_speed_factor = -0.15
 	}
 }

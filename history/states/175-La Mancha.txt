@@ -10,7 +10,7 @@ state = {
 		add_core_of = CNT
 		buildings = {
 			industrial_complex = 1
-			infrastructure = 6
+			infrastructure = 5
 		}
 	}
 

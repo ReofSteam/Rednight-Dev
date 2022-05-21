@@ -8,7 +8,8 @@ ideas = {
 
 CSA_internal_war = {
 	picture = CSA_CIA
-    modifier = {
+                allowed_civil_war = { always = yes }
+            modifier = {
    stability_factor = -0.6
    research_speed_factor = -0.3
    political_power_gain = -0.2
@@ -20,7 +21,8 @@ CSA_internal_war = {
 
 CSA_ruins = {
 	picture = CSA_east_ruins
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
    production_speed_buildings_factor = -0.7
 			 } 
 			 removal_cost = -1
@@ -28,7 +30,8 @@ CSA_ruins = {
 
 CSA_divided_goverment = {
 	picture = CSA_divided_gov
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
    political_power_gain = -0.35
    stability_factor = -0.1
    }
@@ -37,7 +40,8 @@ CSA_divided_goverment = {
 
 America_new_year_peace = {
 	on_add = { log = "[GetDateText]: [Root.GetName]: add idea America_new_year_peace"}
-	modifier = {
+	            allowed_civil_war = { always = yes }
+            modifier = {
    conscription_factor = -0.15
 			}
 			removal_cost = -1
@@ -45,7 +49,8 @@ America_new_year_peace = {
 
 CSA_refugee_crisis = {
 		picture = CSA_refugees
-		modifier = {
+		            allowed_civil_war = { always = yes }
+            modifier = {
 			stability_weekly_factor = -0.05
 			war_support_factor = -0.3
 			political_power_gain = -0.45
@@ -57,7 +62,8 @@ CSA_refugee_crisis = {
 		}
 
 		CSA_refugee_crisis_improved = {
-			modifier = { 
+			            allowed_civil_war = { always = yes }
+            modifier = { 
 				war_support_factor = -0.1
 				political_power_gain = -0.2
 				monthly_population = 0.1

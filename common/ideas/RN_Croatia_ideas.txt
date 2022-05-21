@@ -11,10 +11,12 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				political_power_gain = -0.25
 				stability_factor = -0.20	
-				add_opinion_modifier = { target = ITA modifier = CRO_italy_question }
+				add_opinion_            allowed_civil_war = { always = yes }
+            modifier = { target = ITA modifier = CRO_italy_question }
 			}
 			picture = CRO_italy_question			
 		}
@@ -24,7 +26,8 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				war_support_factor = 0.05	
 				mobilization_speed = 0.10	
 			}
@@ -36,7 +39,8 @@ ideas = {
 				always = no
 			}
 			removal_cost = -1
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_speed_buildings_factor = -0.2
 			production_factory_max_efficiency_factor = -0.25
 			}

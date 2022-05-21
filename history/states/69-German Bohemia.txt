@@ -8,7 +8,7 @@ state = {
 	history = {
 		owner = JOZ
 		buildings = {
-			infrastructure = 8
+			infrastructure = 5
 			industrial_complex = 1
 		}
 		add_core_of = JOZ

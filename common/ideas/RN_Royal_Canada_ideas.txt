@@ -7,7 +7,8 @@ ideas = {
 
 		WCN_memories_of_royalty = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_memories_of_royalty"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
             political_power_factor = -0.10	
 			war_support_factor = -0.15	
 			}
@@ -16,7 +17,8 @@ ideas = {
 		}
 		WCN_divided_nation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_divided_nation"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			production_speed_buildings_factor = -0.2
 			local_resources_factor = -0.10
 			army_speed_factor = -0.05
@@ -27,7 +29,8 @@ ideas = {
 		}
 		WCN_western_revolt = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WCN_western_revolt"}
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 			stability_factor = -0.20			
 			conscription_factor = -0.1
 			}

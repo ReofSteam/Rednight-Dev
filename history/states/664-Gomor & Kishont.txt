@@ -11,7 +11,7 @@ state = {
 	history = {
 		owner = SLK
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			11679 = {
 				bunker = 2
 			}

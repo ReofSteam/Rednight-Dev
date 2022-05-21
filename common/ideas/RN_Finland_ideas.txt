@@ -6,7 +6,8 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_national_revolution"}
 			picture = FIN_national_revolution
 
-		modifier = {
+		            allowed_civil_war = { always = yes }
+            modifier = {
 		army_morale_factor = 0.2
 		max_dig_in = 1
 			hidden_modifer = {
@@ -21,7 +22,8 @@ ideas = {
 		FIN_choking_rebellion = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_choking_rebellion"}
 			picture = FIN_choking_rebellion
-		modifier = {
+		            allowed_civil_war = { always = yes }
+            modifier = {
 		army_morale_factor = 0.2
         offence = 0.25
 			}
@@ -32,7 +34,8 @@ ideas = {
 		FIN_no_more_supply = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea FIN_no_more_supply"}
 			picture = FIN_last_stand
-		modifier = {
+		            allowed_civil_war = { always = yes }
+            modifier = {
 		army_org_factor = -0.5
 		army_defence_factor = -0.5
 		army_attack_factor = -0.5
@@ -46,7 +49,8 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea RFN_finnish_rebellion"}
 			picture = RUS_Finland
 
-		modifier = {
+		            allowed_civil_war = { always = yes }
+            modifier = {
 		army_morale_factor = -0.2
         surrender_limit = 1
 			}

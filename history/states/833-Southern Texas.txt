@@ -10,7 +10,7 @@ state={
 		owner = CAL
 		buildings = {
 			industrial_complex = 4
-			infrastructure = 6
+			infrastructure = 5
 			6785 = {
 				naval_base = 1
 

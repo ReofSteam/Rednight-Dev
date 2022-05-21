@@ -7,7 +7,8 @@ ideas = {
 			INC_fatherland_return = {
 			picture = INC_return_to_fatherland
 
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				monthly_population = 0.15
 				research_speed_factor = 0.05
 			}
@@ -17,7 +18,8 @@ ideas = {
 
 			INC_martyrs_desire = {
 			picture = INC_martyr		
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				production_speed_buildings_factor = 0.3
 				research_speed_factor = 0.15
 				stability_factor = 0.1
@@ -28,7 +30,8 @@ ideas = {
 
 			INC_thick_blood = {
 			picture = INC_3_republics_feud		
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				political_power_factor = -0.4
 				stability_factor = -0.5
 			}
@@ -39,7 +42,8 @@ ideas = {
 			INC_common_education = {
 			picture = INC_common_education		
 
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				political_power_factor = -0.3
 				research_speed_factor = -0.6
 			

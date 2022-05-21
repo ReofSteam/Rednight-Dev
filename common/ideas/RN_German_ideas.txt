@@ -5,7 +5,8 @@ hidden_ideas = {
 		GER_freegerman_army_real = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_freegerman_army_real"}
 			picture = GER_free_germany
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				conscription = 0.3
 			}
 		}
@@ -21,7 +22,8 @@ ideas = {
 		GER_reconstruction_germany = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_reconstruction_germany"}
 			picture = GER_occupation_spirit
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				custom_modifier_tooltip = GER_cannot_train_units_tt
 				production_factory_max_efficiency_factor = -0.5
 				consumer_goods_factor = 1
@@ -31,7 +33,8 @@ ideas = {
 		GER_reconstruction_germany2 = { #GER 
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_reconstruction_germany"}
 			picture = GER_occupation_spirit
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				production_factory_max_efficiency_factor = -0.1
 				consumer_goods_factor = 0.2
 			}
@@ -40,7 +43,8 @@ ideas = {
 		GER_freegerman_army = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GER_freegerman_army"}
 			picture = GER_free_germany
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				custom_modifier_tooltip = GER_maintain_all_units_tt
 			}
 		}

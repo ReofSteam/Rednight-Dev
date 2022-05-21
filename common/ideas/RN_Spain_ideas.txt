@@ -5,7 +5,8 @@ ideas = {
 		CNT_civil_war_recovery = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_civil_war_recovery"}
 			picture = CNT_recover_from_war
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				production_speed_buildings_factor = 0.1
 				stability_factor = 0.05
 				political_power_gain = 0.2					
@@ -15,14 +16,16 @@ ideas = {
 		CNT_political_divide = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_political_divide"}
 			picture = CNT_political_divide
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				stability_factor = -0.1	
 			}
 		}
 		CNT_legacy_of_the_purge = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea CNT_legacy_of_the_purge"}
 			picture = CNT_anarchists_purged
-			modifier = {
+			            allowed_civil_war = { always = yes }
+            modifier = {
 				stability_factor = -0.05
                         political_power_gain = 0.1					
 			}
