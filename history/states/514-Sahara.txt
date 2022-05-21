@@ -6,9 +6,7 @@ state = {
 		owner = SAH
 		add_core_of = SAH
 		add_core_of = ALG
-		buildings = {
-			infrastructure = 1
-		}
+
 	}
 	impassable = yes
 	provinces = {

@@ -4,7 +4,6 @@ state = {
 
 	history = {
 		owner = GUI
-		add_core_of = CAF
 		add_core_of = GUI
 		add_claim_by = VEN
 		buildings = {

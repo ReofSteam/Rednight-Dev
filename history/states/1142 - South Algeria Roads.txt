@@ -7,6 +7,12 @@ state = {
 	history = {
 		owner = ALG
 		add_core_of = ALG
+		buildings = {
+			infrastructure = 3
+		}	
+		victory_points = {
+			13836 1
+		}			
 	}
 
 	provinces = {

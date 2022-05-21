@@ -8,7 +8,6 @@ state = {
 		owner = ARG
 		set_demilitarized_zone = yes
 		add_core_of = ARG
-		add_claim_by = FOP
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
