@@ -106,6 +106,28 @@ on_peaceconference_ended = {
    
    }
    } 
-}	  
+}	 
+
+on_declare_war = { 
+    effect = {
+        if = {
+            limit = {
+                FROM = { is_internal_tag = yes }
+            }
+		set_country_flag = RN_is_internal_war 	
+        }
+    }
+}
+on_war = {
+    effect = {
+        if = {
+            limit = {
+                FROM = { is_internal_tag = no }
+            }
+		clr_country_flag = RN_is_internal_war 	
+        }
+    }
+}
+ 
 }	
 

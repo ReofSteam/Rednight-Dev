@@ -142,3 +142,9 @@ ai_air_doctrine_tier_2_trigger = {
 		has_tech = operational_destruction
 	}
 }
+
+is_internal_tag = {
+	all_owned_state = {
+	is_core_of = ROOT
+	}
+}

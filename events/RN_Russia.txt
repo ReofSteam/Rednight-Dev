@@ -216,7 +216,6 @@ country_event = { #Ukrainian Revolt
 
 	option = {
 		name = rus.12.a
-		set_country_flag = RN_is_internal_war
 		add_manpower = -100000		
 		UKR = { transfer_state = 201
 transfer_state = 792
