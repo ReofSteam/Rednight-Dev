@@ -1,0 +1,135 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+
+### Parties ###
+NRD_nationalist_socialism_party:0 "Mittelafrika PNI"
+NRD_nationalist_socialism_party_long:0 "Mittelafrika - MittelafrikaNational Party"
+NRD_revolutionary_socialism_party:0 "Mittelafrika PNI/CFI"
+NRD_revolutionary_socialism_party_long:0 "MittelafrikaNational Party - Communist Federation of Mittelafrika"
+NRD_syndicalism_party:0 "PSV - Mittelafrika Tendency"
+NRD_syndicalism_party_long:0 "Dang Xa Hoi Mittelafrika - Socialist Party of Mittelafrika"
+NRD_moderate_socialist_party:0 "Mittelafrika PNI/PTI"
+NRD_moderate_socialist_party_long:0 "MittelafrikaNational Party - MittelafrikaLabour Party"
+NRD_social_democrat_party:0 "Mittelafrika Mittelafrika"
+NRD_social_democrat_party_long:0 "Mittelafrika Quoc Dan Dang - Nationalist Party of Mittelafrika"
+NRD_social_liberal_party:0 "Mittelafrika"
+NRD_social_liberal_party_long:0 "Mittelafrika Dan Chinh Dang - Party of People's Reforms"
+NRD_social_conservative_party:0 "Mittelafrika"
+NRD_social_conservative_party_long:0 "Mittelafrika - Catholic Social Party"
+NRD_authoritarian_democrat_party:0 "Dissident Mittelafrika"
+NRD_authoritarian_democrat_party_long:0 "Mittelafrika Quoc Dan Dang - Nationalist Party of Mittelafrika"
+NRD_autocratic_party:0 "Mittelafrika"
+NRD_autocratic_party_long:0 "Mittelafrika - Workers-Peasant Party"
+NRD_ultraconservative_party:0 "Mittelafrika"
+NRD_ultraconservative_party_long:0 "Mittelafrika - Workers-Peasant Party"
+NRD_national_corporatist_party:0 "Mittelafrika"
+NRD_national_corporatist_party_long:0 "Mittelafrika Quoc Xa Dang - National Socialist Party"
+
+
+NRD_nationalist_socialism:0 "Union of Mittelafrika"
+NRD_nationalist_socialism_ADJ:0 "Mittelafrikan"
+NRD_nationalist_socialism_DEF:0 "the Union of Mittelafrika"
+
+NRD_revolutionary_socialism:0 "Union of Mittelafrika"
+NRD_revolutionary_socialism_ADJ:0 "Mittelafrikan"
+NRD_revolutionary_socialism_DEF:0 "the Union of Mittelafrika"
+
+NRD_syndicalism:0 "Union of Mittelafrika"
+NRD_syndicalism_ADJ:0 "Mittelafrikan"
+NRD_syndicalism_DEF:0 "the Union of Mittelafrika"
+
+NRD_moderate_socialist:0 "Union of Mittelafrika"
+NRD_moderate_socialist_ADJ:0 "Mittelafrikan"
+NRD_moderate_socialist_DEF:0 "the Union of Mittelafrika"
+
+NRD_social_democrat:0 "Union of Mittelafrika"
+NRD_social_democrat_ADJ:0 "Mittelafrikan"
+NRD_social_democrat_DEF:0 "the Union of Mittelafrika"
+
+NRD_social_liberal:0 "MittelafrikaRepublic"
+NRD_social_liberal_ADJ:0 "Mittelafrikan"
+NRD_social_liberal_DEF:0 "the MittelafrikaRepublic"
+
+NRD_social_conservative:0 "MittelafrikaRepublic"
+NRD_social_conservative_ADJ:0 "Mittelafrikan"
+NRD_social_conservative_DEF:0 "the MittelafrikaRepublic"
+
+NRD_authoritarian_democrat:0 "Mittelafrika State"
+NRD_authoritarian_democrat_ADJ:0 "Mittelafrikan"
+NRD_authoritarian_democrat_DEF:0 "the MittelafrikaState"
+
+NRD_autocratic:0 "Mittelafrika State"
+NRD_autocratic_ADJ:0 "Mittelafrikan"
+NRD_autocratic_DEF:0 "the MittelafrikaState"
+
+NRD_ultraconservative:0 "Mittelafrika State"
+NRD_ultraconservative_ADJ:0 "Mittelafrikan"
+NRD_ultraconservative_DEF:0 "the MittelafrikaState"
+
+NRD_national_corporatist:0 "Mittelafrika State"
+NRD_national_corporatist_ADJ:0 "Mittelafrikan"
+NRD_national_corporatist_DEF:0 "the MittelafrikaState"
+NRD_Neutralist_Front:0 "National Neutralist Front"
+NRD_Neutralist_Front_long:0 "National Front for the Stability, Neutrality and Security"
+NRD_Cambodian_Leftfront:0 "National Coalition for the Defense of the Republic"
+NRD_Cambodian_Leftfront_long:0 "Coalition nationale pour la défense de la république"
+#####Mittelafrika
+NRD_voynist_party:0 "Mittelafrika - Mittelafrika National Party"
+### Country Name ###
+NRD_moderate_socialist:0 "Union of Mittelafrika"
+NRD_moderate_socialist_ADJ:0 "Mittelafrikan"
+NRD_moderate_socialist_DEF:0  "the Union of Mittelafrika"
+NRD_social_democrat:0 "Union of Mittelafrika"
+NRD_social_democrat_ADJ:0 "Mittelafrikan"
+NRD_social_democrat_DEF:0 "the Union of Mittelafrika"
+
+#Seprated#Mittelafrika
+
+NRD_moderate_socialist:0 "Democratic Republic of Mittelafrika"
+NRD_moderate_socialist_ADJ:0 "Mittelafrikaese"
+NRD_moderate_socialist_DEF:0  "the Democratic Republic of Mittelafrika"
+NRD_social_democrat:0 "Democratic Republic of Mittelafrika"
+NRD_social_democrat_ADJ:0 "Mittelafrikaese"
+NRD_social_democrat_DEF:0 "the Democratic Republic of Mittelafrika"
+VINC:0 "Democratic Republic of Mittelafrika"
+VNRD_ADJ:0 "Mittelafrikaese"
+VNRD_DEF:0 "the Democratic Republic of Mittelafrika"
+#Seprated#Laos
+LAO_moderate_socialist:0 "Democratic Republic of Laos"
+LAO_moderate_socialist_ADJ:0 "Mittelafrikan"
+LAO_moderate_socialist_DEF:0  "the Democratic Republic of Laos"
+LAO_social_democrat:0 "Democratic Republic of Laos"
+LAO_social_democrat_ADJ:0 "Mittelafrikan"
+LAO_social_democrat_DEF:0 "the Democratic Republic of Laos"
+
+#Seprated#Cambodia
+CAM_moderate_socialist:0 "Democratic Republic of Mittelafrika"
+CAM_moderate_socialist_ADJ:0 "Mittelafrika"
+CAM_moderate_socialist_DEF:0  "the Democratic Republic of Mittelafrika"
+CAM_social_democrat:0 "Democratic Republic of Mittelafrika"
+CAM_social_democrat_ADJ:0 "Mittelafrika"
+CAM_social_democrat_DEF:0 "the Democratic Republic of Mittelafrika"
+
+### Focuses ###
+
+### Ideas ###
+### Flags ###
+
+### Tooltips ###
+
+### Companies ###
+
+### Ministers ###
+
+### Leaders ###
+
+POLITICS_DEDAN_KIMATHI_DESC: "Job Odebrecht (25 February 1892 – 20 November 1982) was a German general during World War II. He was also a recipient of the Knight's Cross of the Iron Cross of Imperal Germany. Odebrecht entered the German navy as an officer cadet in 1909 and was commissioned in 1912. After serving on flotilla craft and capital ships, he was assigned to East Africa. He commanded a company of naval troops there when the weltkrieg broke out, and was exiled when German East Africa fell to the Allies."
+
+### Tech? ###
+
+### Events ###
+ 
