@@ -37,9 +37,9 @@ set_popularities = {
 
 ###LEADERS
 create_country_leader = {
-	name = "Job Odebrecht"
+	name = "Stewart Gore-Browne"
 	desc = "POLITICS_DEDAN_KIMATHI_DESC"
-	picture = "gfx/leaders/NRD/Job_Odebrecht.png"
+	picture = "gfx/leaders/BRITISH_EXILES/Gore_Browne.png"
 	expire = "1965.1.1"
 	ideology = autocratic_subtype
 	traits = {
