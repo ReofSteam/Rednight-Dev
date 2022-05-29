@@ -1,4 +1,4 @@
-﻿capital = 813
+﻿#capital = 6
 
 oob = "TAN"
 
@@ -14,7 +14,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = revolutionary_socialism
 	last_election = "1930.1.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -37,9 +37,9 @@ set_popularities = {
 create_country_leader = {
 	name = "Job Odebrecht" 
 	desc = "POLITICS_DEMANY_DESC"
-	picture = "gfx/leaders/NRD/Job_Odebrecht.png" #picture does not work for some reason?
+#	picture = "gfx/leaders/NRD/Job_Odebrecht.png"
 	expire = "1953.3.1"
-	ideology = autocratic
+	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}

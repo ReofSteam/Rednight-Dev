@@ -1,5 +1,5 @@
 ﻿capital = 813
-OOB = "TAN" 
+OOB = "empty"
 
 add_ideas = {
 

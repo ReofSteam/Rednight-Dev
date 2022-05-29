@@ -95,9 +95,24 @@ TAN_moderate_socialist_DEF:0  "the Democratic Republic of Mittelafrika"
 TAN_social_democrat:0 "Democratic Republic of Mittelafrika"
 TAN_social_democrat_ADJ:0 "Mittelafrikaese"
 TAN_social_democrat_DEF:0 "the Democratic Republic of Mittelafrika"
-TAN:0 "Democratic Republic of Mittelafrika"
-TAN_ADJ:0 "Mittelafrikaese"
-TAN_DEF:0 "the Democratic Republic of Mittelafrika"
+VINC:0 "Democratic Republic of Mittelafrika"
+VTAN_ADJ:0 "Mittelafrikaese"
+VTAN_DEF:0 "the Democratic Republic of Mittelafrika"
+#Seprated#Laos
+LAO_moderate_socialist:0 "Democratic Republic of Laos"
+LAO_moderate_socialist_ADJ:0 "Mittelafrikan"
+LAO_moderate_socialist_DEF:0  "the Democratic Republic of Laos"
+LAO_social_democrat:0 "Democratic Republic of Laos"
+LAO_social_democrat_ADJ:0 "Mittelafrikan"
+LAO_social_democrat_DEF:0 "the Democratic Republic of Laos"
+
+#Seprated#Cambodia
+CAM_moderate_socialist:0 "Democratic Republic of Mittelafrika"
+CAM_moderate_socialist_ADJ:0 "Mittelafrika"
+CAM_moderate_socialist_DEF:0  "the Democratic Republic of Mittelafrika"
+CAM_social_democrat:0 "Democratic Republic of Mittelafrika"
+CAM_social_democrat_ADJ:0 "Mittelafrika"
+CAM_social_democrat_DEF:0 "the Democratic Republic of Mittelafrika"
 
 ### Focuses ###
 
