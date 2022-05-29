@@ -88,6 +88,10 @@ spriteTypes = {
 	SpriteType = { 
         name = "GFX_focus_Generic_Russian_market"
         texturefile = "gfx/interface/goals/generic/Generic_Join_Russian_market.tga"
+    }
+    SpriteType = { 
+        name = "GFX_focus_Generic_Brazil_market"
+        texturefile = "gfx/interface/goals/generic/Generic_Join_Brazil_market.png"
     }	
 	SpriteType = { 
         name = "GFX_focus_generic_the_family"
@@ -1189,5 +1193,22 @@ spriteTypes = {
 	SpriteType = { 
 		name = "GFX_CNT_What_it_was_meant_to_be"
 		texturefile = "gfx/interface/goals/CNT/GFX_CNT_What_it_was_meant_to_be.png"
+	}
+#########Quebec
+    SpriteType = { 
+		name = "QUE_chuch_and_state"
+		texturefile = "gfx/interface/goals/QUE/QUE_chuch_and_state.png"
+	}
+	SpriteType = { 
+		name = "QUE_matter_of_newfoundland"
+		texturefile = "gfx/interface/goals/QUE/QUE_matter_of_newfoundland.png"
+	}
+	SpriteType = { 
+		name = "QUE_race"
+		texturefile = "gfx/interface/goals/QUE/QUE_race.png"
+	}
+	SpriteType = { 
+		name = "QUE_socialist_menace"
+		texturefile = "gfx/interface/goals/QUE/QUE_socialist_menace.png"
 	}
 }

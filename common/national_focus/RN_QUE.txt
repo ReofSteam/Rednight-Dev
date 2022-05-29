@@ -10,7 +10,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_in_the_shadow_of_the_godless
-		icon = GFX_CNT_Diaz_final_hours
+		icon = QUE_socialist_menace
 		x = 4
 		y = 0
 		cost = 5
@@ -20,7 +20,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_the_matter_of_newfoundland
-		icon = GFX_CNT_Diaz_final_hours
+		icon = QUE_matter_of_newfoundland
 		x = 2
 		y = 1
 		cost = 5
@@ -33,7 +33,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_find_a_lifeline
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_focus_generic_funds
 		x = 2
 		y = 2
 		cost = 5
@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_catholic_brethen
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_focus_Generic_Brazil_market
 		x = 1
 		y = 3
 		cost = 5
@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_the_king
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_focus_generic_home_defense
 		x = 5
 		y = 2
 		cost = 5
@@ -118,7 +118,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_the_race
-		icon = GFX_CNT_Diaz_final_hours
+		icon = QUE_race
 		x = 7
 		y = 2
 		cost = 5
@@ -131,7 +131,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_in_combat_against_socialists
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_goal_anti_comintern_pact
 		x = 6
 		y = 3
 		cost = 5
@@ -147,7 +147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_affirm_church_loyalty
-		icon = GFX_CNT_Diaz_final_hours
+		icon = QUE_chuch_and_state
 		x = 5
 		y = 4
 		cost = 5
