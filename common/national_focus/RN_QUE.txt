@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_across_the_north_sea
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_focus_Generic_Russian_market
 		x = 3
 		y = 3
 		cost = 5
@@ -92,7 +92,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_the_essense_of_Canadien
-		icon = GFX_CNT_Diaz_final_hours
+		icon = QUE_quebec_founding
 		x = 6
 		y = 1
 		cost = 5
@@ -105,7 +105,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_the_king
-		icon = GFX_focus_generic_home_defense
+		icon = QUE_the_monarchy
 		x = 5
 		y = 2
 		cost = 5

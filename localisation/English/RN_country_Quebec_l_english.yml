@@ -64,7 +64,20 @@ QUE_autocratic:0 "State of Quebec"
 QUE_autocratic_ADJ:0 "Québécois"
 QUE_autocratic_DEF:0 "the State of Quebec"
 ### Focuses ###
- 
+QUE_in_the_shadow_of_the_godless:0 "In the Shadow of the Godless"
+QUE_the_matter_of_newfoundland:0 "The Matter of Newfoundland"
+QUE_find_a_lifeline:0 "Find a Lifeline"
+QUE_catholic_brethen:0 "Catholic Brethens"
+QUE_across_the_north_sea:0 "Across the North Sea"
+QUE_hard_work_will_save_us:0 "Hard Work Will Save Us"
+QUE_the_essense_of_Canadien:0 "Essense of A Canadien"
+QUE_the_king:0 "Protector of Our Faith"
+QUE_the_race:0 "Uncorrupted Blood"
+QUE_in_combat_against_socialists:0 "In Combat Against the Red Menace"
+QUE_affirm_church_loyalty:0 "Affirm Church Loyalty"
+QUE_militarise_catholic_action_organisations:0 "Militarise Catholic Action Organisations"
+QUE_good_time_still_ahead:0 "Good Time Still Ahead"
+QUE_from_now_on:0 "Désormais, l'avenir"
 ### Ideas ###
 
 QUE_crown_of_yore:0 "Crown of Yore"
