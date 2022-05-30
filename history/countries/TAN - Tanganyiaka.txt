@@ -14,7 +14,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = autocratic_subtype
 	last_election = "1930.1.6"
 	election_frequency = 48
 	elections_allowed = no
@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_DEMANY_DESC"
 	picture = "gfx/leaders/NRD/Job_Odebrecht.png" #picture does not work for some reason?
 	expire = "1953.3.1"
-	ideology = autocratic
+	ideology = autocratic_subtype
 	traits = {
 		
 	}
