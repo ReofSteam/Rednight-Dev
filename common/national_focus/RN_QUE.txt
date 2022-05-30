@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_across_the_north_sea
-		icon = GFX_CNT_Diaz_final_hours
+		icon = ENG_fishing_industry_expansion
 		x = 3
 		y = 3
 		cost = 5
@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = QUE_hard_work_will_save_us
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_focus_generic_worker_effort
 		x = 2
 		y = 4
 		cost = 5
