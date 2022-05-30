@@ -20,17 +20,17 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	nationalist_socialism = 1
-	revolutionary_socialism = 19
-	syndicalism = 34
-	moderate_socialist = 23
-	social_democrat = 5
-	social_liberal = 2
-	social_conservative = 1
-	authoritarian_democrat = 13
-	autocratic = 1
-	ultraconservative = 0
-	national_corporatist = 1
+	nationalist_socialism_subtype = 1
+	revolutionary_socialism_subtype = 19
+	syndicalism_subtype = 34
+	moderate_socialist_subtype = 23
+	social_democrat_subtype = 5
+	social_liberal_subtype = 2
+	social_conservative_subtype = 1
+	authoritarian_democrat_subtype = 13
+	autocratic_subtype = 1
+	ultraconservative_subtype = 0
+	national_corporatist_subtype = 1
 }
 
 
