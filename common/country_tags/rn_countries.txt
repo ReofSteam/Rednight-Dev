@@ -80,8 +80,6 @@ SIB = "countries/Russia.txt"
 OLD = "countries/White_Germany.txt"
 CAU = "countries/Russia.txt"
 
-
-
 ###Asia
 ##Middle-East
 ADE = "countries/Aden.txt"
