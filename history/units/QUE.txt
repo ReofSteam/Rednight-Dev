@@ -1,0 +1,85 @@
+﻿########
+# Templates
+########
+
+
+division_template = {
+	name = "Infantry Division"
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }		
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 		
+		artillery = { x = 0 y = 1 } 	
+	}	
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 1 } 	
+	}	
+}
+
+division_template = {
+	name = "Armoured Division"
+	division_names_group = FRA_ARM_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
+### Units ###
+units = {
+### Land ###
+	division = {
+		name = "2nd Infantry Division"
+		location = 7132
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "13th Infantry Brigade"
+		location = 4345
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}
+	division = {
+		name = "15th Infantry Brigade"
+		location = 3776
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}	
+	division = {
+		name = "10th Infantry Brigade"
+		location = 3635
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}
+	division = {
+		name = "88th Infantry Brigade"
+		location = 10230
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+	}		
+}
