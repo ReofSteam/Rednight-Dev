@@ -872,6 +872,14 @@ SUD = {
 	color = rgb { 135 144 180 }
 	color_ui = rgb { 135 144 180 }
 }
+TAN = {
+	color = rgb { 66  82  72 }
+	color_ui = rgb { 66  82  72 }
+	}
+NRD = {
+	color = rgb { 66  82  72 }
+	color_ui = rgb { 66  82  72 }
+	}	
 ##Central
 BGU = {
 	color = rgb { 127 13 5 }
