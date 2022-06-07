@@ -894,16 +894,16 @@ GAB = {
 	color_ui = rgb { 87 164 87 }
 }
 KAM = {
-	color = rgb { 62 5 8 }
-	color_ui = rgb { 62 5 8 }
+	color = rgb { 66  82  72 }
+	color_ui = rgb { 66  82  72 }
 }
 KON = {
 	color = rgb { 193 237 203 }
 	color_ui = rgb { 193 237 203 }
 }
 TAS = {
-	color = rgb { 111 60 1 }
-	color_ui = rgb { 111 60 1 }
+	color = rgb { 66  82  72 }
+	color_ui = rgb { 66  82  72 }
 }
 TKE = {
 	color = rgb { 145 92 38 }
