@@ -664,7 +664,7 @@ focus_tree = {
 	#Focus for Defense of the Republic
 	focus = {
 		id = ENG_defense_of_the_republic
-		icon = goal_generic_military_sphere
+		icon = ENG_defense_republic
 		x = 36
 		y = 6
 		cost = 10
@@ -1070,7 +1070,7 @@ focus_tree = {
 	#Focus for Strategic Bomber Strike Force
 	focus = {
 		id = ENG_strategic_bomber_strike_force
-		icon = goal_generic_air_bomber
+		icon = ENG_strat_bomb
 		x = 35
 		y = 10
 		cost = 10
@@ -1127,7 +1127,7 @@ focus_tree = {
 	#Focus for International Revolutionary Offense
 	focus = {
 		id = ENG_international_revolutionary_offense
-		icon = focus_ger_great_red_menace
+		icon = GFX_focus_ger_great_red_menace
 		x = 42
 		y = 7
 		cost = 10

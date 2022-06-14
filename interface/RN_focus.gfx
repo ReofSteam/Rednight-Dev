@@ -287,7 +287,7 @@ spriteTypes = {
 	}
 	SpriteType = { 
         name = "ENG_light_tanks_and_amoured_vehicles_focus"
-        texturefile = "gfx/interface/goals/ENG/ENG_jet_fighter_squadrons.png"
+        texturefile = "gfx/interface/goals/ENG/ENG_light_tanks_and_amoured_vehicles_focus.png"
 	}
 	SpriteType = { 
         name = "ENG_london_peoples_court"
@@ -524,6 +524,14 @@ spriteTypes = {
 	SpriteType = { 
         name = "ENG_towards_food_self_sufficency"
         texturefile = "gfx/interface/goals/ENG/ENG_towards_food_self_sufficency.png"
+	}
+	SpriteType = { 
+        name = "ENG_defense_republic"
+        texturefile = "gfx/interface/goals/ENG/ENG_defense_republic.png"
+	}
+	SpriteType = { 
+        name = "ENG_strat_bomb"
+        texturefile = "gfx/interface/goals/ENG/ENG_strat_bomb.png"
 	}
 	
 	###AUS
