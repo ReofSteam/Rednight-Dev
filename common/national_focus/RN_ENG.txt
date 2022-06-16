@@ -908,7 +908,7 @@ focus_tree = {
 	#Focus for Artillery Focus
 	focus = {
 		id = ENG_artillery_focus
-		icon = GFX_goal_generic_army_artillery2
+		icon = ENG_artillery_focus
 		x = 44
 		y = 11
 		cost = 10
@@ -1040,7 +1040,7 @@ focus_tree = {
 	#Focus for Mobile Armed Forces
 	focus = {
 		id = ENG_mobile_armed_forces
-		icon = ENG_mobile_warfare
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
 		x = 40
 		y = 9
 		cost = 10
@@ -1127,7 +1127,7 @@ focus_tree = {
 	#Focus for International Revolutionary Offense
 	focus = {
 		id = ENG_international_revolutionary_offense
-		icon = GFX_focus_ger_great_red_menace
+		icon = GFX_focus_generic_international
 		x = 42
 		y = 7
 		cost = 10
@@ -1533,7 +1533,7 @@ focus_tree = {
 	#Focus for Submarine Efforts
 	focus = {
 		id = ENG_submarine_efforts
-		icon = ENG_sub_fleet
+		icon = GFX_goal_generic_navy_submarine
 		x = 49
 		y = 11
 		cost = 10
@@ -1547,7 +1547,7 @@ focus_tree = {
 	#Focus for Carrier Combat Group
 	focus = {
 		id = ENG_carrier_combat_group
-		icon = ENG_CV_fleet
+		icon = GFX_goal_generic_navy_carrier
 		x = 47
 		y = 11
 		cost = 10
