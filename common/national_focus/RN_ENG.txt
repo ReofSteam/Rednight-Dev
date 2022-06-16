@@ -833,7 +833,7 @@ focus_tree = {
 	#Focus for New Military Shipyards
 	focus = {
 		id = ENG_new_military_shipyards
-		icon = goal_generic_navy_cruiser
+		icon = GFX_focus_generic_navy_battleship2
 		x = 48
 		y = 10
 		cost = 10
@@ -850,7 +850,7 @@ focus_tree = {
 	#Focus for Retire Outdated Ships
 	focus = {
 		id = ENG_retire_outdated_ships
-		icon = goal_continuous_naval_production
+		icon = GFX_goal_continuous_naval_production
 		x = 49
 		y = 9
 		cost = 10
@@ -865,7 +865,7 @@ focus_tree = {
 	#Focus for Maintain the Great Fleet
 	focus = {
 		id = ENG_maintain_the_great_fleet
-		icon = goal_generic_navy_battleship
+		icon = GFX_goal_generic_navy_battleship
 		x = 47
 		y = 9
 		cost = 10
@@ -908,7 +908,7 @@ focus_tree = {
 	#Focus for Artillery Focus
 	focus = {
 		id = ENG_artillery_focus
-		icon = goal_generic_army_artillery2
+		icon = GFX_goal_generic_army_artillery2
 		x = 44
 		y = 11
 		cost = 10
@@ -922,7 +922,7 @@ focus_tree = {
 	#Focus for Modern Infantry Tactic
 	focus = {
 		id = ENG_modern_infantry_tactic
-		icon = focus_generic_military_academy
+		icon = ENG_new_infantry_tatic
 		x = 44
 		y = 10
 		cost = 10
@@ -936,7 +936,7 @@ focus_tree = {
 	#Focus for The Grand Army
 	focus = {
 		id = ENG_the_grand_army
-		icon = focus_generic_little_entente
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		x = 44
 		y = 9
 		cost = 10
@@ -982,7 +982,7 @@ focus_tree = {
 	#Focus for Expand the Republican Marines
 	focus = {
 		id = ENG_expand_the_republican_marines
-		icon = goal_generic_amphibious_assault
+		icon = ENG_marines
 		x = 41
 		y = 11
 		cost = 10
@@ -1040,7 +1040,7 @@ focus_tree = {
 	#Focus for Mobile Armed Forces
 	focus = {
 		id = ENG_mobile_armed_forces
-		icon = goal_generic_cavalry
+		icon = ENG_mobile_warfare
 		x = 40
 		y = 9
 		cost = 10
@@ -1055,7 +1055,7 @@ focus_tree = {
 	#Focus for Master of the Azure
 	focus = {
 		id = ENG_master_of_the_azure
-		icon = goal_generic_air_fighter2
+		icon = GFX_focus_SOV_flying_clubs
 		x = 37
 		y = 9
 		cost = 10
@@ -1112,7 +1112,7 @@ focus_tree = {
 	#Focus for Raze the Earth
 	focus = {
 		id = ENG_raze_the_earth
-		icon = goal_generic_occupy_start_war
+		icon = GFX_goal_generic_occupy_start_war
 		x = 35
 		y = 9
 		cost = 10
@@ -1533,7 +1533,7 @@ focus_tree = {
 	#Focus for Submarine Efforts
 	focus = {
 		id = ENG_submarine_efforts
-		icon = goal_generic_navy_submarine
+		icon = ENG_sub_fleet
 		x = 49
 		y = 11
 		cost = 10
@@ -1547,7 +1547,7 @@ focus_tree = {
 	#Focus for Carrier Combat Group
 	focus = {
 		id = ENG_carrier_combat_group
-		icon = goal_generic_navy_carrier
+		icon = ENG_CV_fleet
 		x = 47
 		y = 11
 		cost = 10

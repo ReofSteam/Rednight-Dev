@@ -530,8 +530,32 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/ENG/ENG_defense_republic.png"
 	}
 	SpriteType = { 
+        name = "ENG_sub_fleet"
+        texturefile = "gfx/interface/goals/ENG/ENG_sub_fleet.png"
+	}
+	SpriteType = { 
+        name = "ENG_CV_fleet"
+        texturefile = "gfx/interface/goals/ENG/ENG_CV_fleet.png"
+	}
+	SpriteType = { 
+        name = "ENG_artillery_focus"
+        texturefile = "gfx/interface/goals/ENG/ENG_artillery_focus.png"
+	}
+	SpriteType = { 
         name = "ENG_strat_bomb"
         texturefile = "gfx/interface/goals/ENG/ENG_strat_bomb.png"
+	}
+	SpriteType = { 
+        name = "ENG_new_infantry_tatic"
+        texturefile = "gfx/interface/goals/ENG/ENG_new_infantry_tatic.png"
+	}
+	SpriteType = { 
+        name = "ENG_mobile_warfare"
+        texturefile = "gfx/interface/goals/ENG/ENG_mobile_warfare.png"
+	}
+	SpriteType = { 
+        name = "ENG_marines"
+        texturefile = "gfx/interface/goals/ENG/ENG_marines.png"
 	}
 	
 	###AUS
