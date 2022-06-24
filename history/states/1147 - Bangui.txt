@@ -1,0 +1,20 @@
+state = {
+	id = 1147
+	name = "STATE_1147"
+	manpower = 215700
+	state_category = five
+
+	history = {
+		owner = BGU
+		add_core_of = BGU
+		buildings = {
+			infrastructure = 3
+		}	
+
+	}
+
+	provinces = {
+		1974 8078 12830
+
+	}
+}

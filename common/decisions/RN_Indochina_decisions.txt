@@ -1,0 +1,20 @@
+###########################
+#Indochina Decisions# WIP
+###########################     
+ 
+INC_republic_status =   {                                                                                    
+    INC_promote_indochinese_unity = {                                 
+	 days_re_enable = 1       
+	 fire_only_once = no   
+          allowed = {  
+		  tag = I            
+}		  
+          available = {                          
+          tag = INC       
+}           
+          complete_effect = {                    
+               add_political_power = 10
+			   
+          }
+     }
+}

@@ -1,0 +1,148 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "INC_republic_loyalty"
+		size = { width = 581 height = 400 }
+		position = { x = 0 y = -80 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+		
+		iconType = {
+			name ="INC_emblem_big_icon"
+			spriteType = "GFX_INC_emblem_big_icon"
+			position = { x = 120 y = -10 }
+			pdx_tooltip = "BNT_serbs_status"			
+		}
+	
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_title" 
+			position = { x = 100 y = 200 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "STRENGHT OF FEDERAL CONTROL"
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = center
+		}
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_laos_icon"
+			position = { x = 15 y = 235 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "INC_flag_display_1" 
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+		iconType = {
+			name ="INC_laos_progress_bar"
+			spriteType = "GFX_CSA_operation_progress_0"
+			position = { x = 15 y = 270 }
+			pdx_tooltip = "BNT_serbs_status"			
+		}				
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_laos"
+			position = { x = 15 y = 250 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "DEMOCRATIC REPUBLIC OF PATHET LAO:" 
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_laos_status"
+			position = { x = 150 y = 250 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "RN_INC_cambodia_status" 
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = right
+		}		
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_cambodia_icon"
+			position = { x = 15 y = 285 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "INC_flag_display_2"    
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left   
+		}		
+		iconType = {
+			name ="INC_cambodia_progress_bar"
+			spriteType = "GFX_CSA_operation_progress_0"
+			position = { x = 15 y = 320 }
+			pdx_tooltip = "BNT_serbs_status"			
+		}			
+		instantTextBoxType = { 
+			name = "RN_inc_republic_loyalty_cambodia"
+			position = { x = 15 y = 300 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "DEMOCRATIC REPUBLIC OF KAMPUCHEA:"    
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}
+		instantTextBoxType = { 
+			name = "RN_inc_republic_loyalty_cambodia_status"
+			position = { x = 150 y = 300 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "RN_INC_cambodia_status"    
+			maxWidth = 290
+			maxHeight = 20   
+			fixedsize = yes	
+			format = right
+		}		
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_vietnam_people_icon"
+			position = { x = 15 y = 335 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "INC_flag_display_3"    
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}	
+		iconType = {
+			name ="INC_vietnam_progress_bar"
+			spriteType = "GFX_CSA_operation_progress_0"
+			position = { x = 15 y = 370 }
+			pdx_tooltip = "BNT_serbs_status"			
+		}		
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_united_nationalities_status"
+			position = { x = 150 y = 350 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "RN_INC_cambodia_status" 
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = right
+		}		
+		instantTextBoxType = {
+			name = "RN_inc_republic_loyalty_united_nationalities"
+			position = { x = 15 y = 350 }
+			font = "rn_viasans"
+			borderSize = {x = 0 y = 0}
+			text = "UNITED PEOPLES OF VIETNAM:" 
+			maxWidth = 290
+			maxHeight = 20
+			fixedsize = yes	
+			format = left
+		}		
+	}
+}

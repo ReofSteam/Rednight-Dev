@@ -898,8 +898,8 @@ KAM = {
 	color_ui = rgb { 66  82  72 }
 }
 KON = {
-	color = rgb { 193 237 203 }
-	color_ui = rgb { 193 237 203 }
+	color = rgb { 34 26 71 }
+	color_ui = rgb { 34 26 71 }
 }
 TAS = {
 	color = rgb { 66  82  72 }

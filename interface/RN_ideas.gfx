@@ -412,7 +412,7 @@ spriteType = {
 	}
 	spriteType = {
 		name = "GFX_idea_Small_Industrial_Crisis"
-		texturefile = "gfx/interface/ideas/ideas/Small_Industrial_Crisis.tga"
+		texturefile = "gfx/interface/ideas/ideas/Small_Industrial_Crisis.png"
 	}
 	spriteType = {
 		name = "GFX_idea_America_new_year_peace"
@@ -509,5 +509,14 @@ spriteType = {
 	    name = "GFX_idea_HUN_underground_democrats"
 		texturefile = "gfx/interface/ideas/HUN/HUN_underground_democrats.png"
 	}
-	
+
+#########ENG
+	spriteType = {
+	    name = "GFX_idea_ENG_franco_british_rivalry"
+		texturefile = "gfx/interface/ideas/ENG/ENG_french_rivalry.tga"
+	}	
+	spriteType = {
+	    name = "GFX_idea_ENG_united_britain"
+		texturefile = "gfx/interface/ideas/ENG/ENG_United_England.tga"
+	}	
 }

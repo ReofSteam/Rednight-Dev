@@ -202,3 +202,11 @@ inc.32.d:0 "The last retreating regiments from Hanoi have assembled in Vietbac, 
  INC_expand_PNI_membership_desc:0 ""
  INC_indochinese_national_solidarity:0 "Indochinese National Solidarity"
  INC_indochinese_national_solidarity_desc:0 ""
+ 
+ ###Decisions
+ INC_promote_indochinese_unity:0 "Promote Indochinese Unity"
+ INC_republic_status:0 "State of the Union"
+ INC_flag_display_1:0 "[LAO.GetFlag]"
+ INC_flag_display_2:0 "[CAM.GetFlag]"
+ INC_flag_display_3:0 "[VIN.GetFlag]"
+ RN_INC_cambodia_status:0 "§YOPPOSITION§!"

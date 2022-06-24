@@ -1,0 +1,15 @@
+INC_republic_status = {
+	icon = GFX_decision_category_generic_industry
+	priority = 80
+	allowed = {
+		tag = INC
+	}
+	visible = { 
+	tag = INC
+	}
+    visible_when_empty = yes
+    scripted_gui = RN_republic_loyalty 
+    priority = 10000	
+}
+
+

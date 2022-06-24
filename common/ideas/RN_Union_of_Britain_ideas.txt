@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		# Start
 		ENG_united_britain = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_united_britain"}
 			allowed = {
 				always = no
 			}
@@ -13,38 +13,35 @@ ideas = {
 
 			}
 			removal_cost = -1
-			picture = ENG_army_of_germany
+			picture = ENG_united_britain
 		}
 		ENG_postwar_recession = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_postwar_recession"}
 			allowed = {
 				always = no
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-				conscription_factor = -0.1
-				army_morale_factor = -0.1
-				planning_speed = 0.5
-			}
-			removal_cost = -1
-			picture = ENG_army_of_germany
-		}	
-		ENG_french_rivalry = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-				add_opinion_            allowed_civil_war = { always = yes }
-            modifier = {
-					target = FRA
-					modifier = medium_decrease
-					}
+				consumer_goods_factor = 0.05
+      			stability_factor = 0.1
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
 
 			}
 			removal_cost = -1
-			picture = ENG_army_of_germany
+			picture = Small_Industrial_Crisis
+		}	
+		ENG_french_rivalry = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_french_rivalry"}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+            modifier = {
+
+			}
+			removal_cost = -1
+			picture = ENG_franco_british_rivalry
 		}
 		ENG_food_import = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
@@ -57,7 +54,7 @@ ideas = {
 
 			}
 			removal_cost = -1
-			picture = ENG_food_import
+			picture = Import_Dependency
 		}		
 		ENG_Import_Dependency_FOB = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
@@ -130,7 +127,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_ISH = { #submarine program
+		NBP_ISH = { #industrial_spearhead
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no

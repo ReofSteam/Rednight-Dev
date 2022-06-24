@@ -176,7 +176,11 @@ spriteTypes = {
 	spriteType = {
 	name = "GFX_FRA_french_army_logo"
 	texturefile = "gfx/interface/FRA_gui/french_army_logo.tga"
-	}			
+	}	
+	spriteType = {
+	name = "GFX_INC_emblem_big_icon"
+	texturefile = "gfx/interface/gui_misc/emblem_indochina_3d_bw.png"
+	}		
 #########Super Event	
 	spriteType = {
 	name = "GFX_superevent_frame"

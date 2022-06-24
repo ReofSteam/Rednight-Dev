@@ -28,59 +28,20 @@ KON_social_liberal:0 "Kongo"
 KON_social_liberal_ADJ:0 "Kongolese"
 KON_social_liberal_DEF:0 "Kongo"
 
-KON_conservative:0 "Kingdom of Kongo"
+KON_conservative:0 "Kongolese Republic"
 KON_conservative_ADJ:0 "Kongolese"
-KON_conservative_DEF:0 "the Kingdom of Kongo"
+KON_conservative_DEF:0 "the Kongolese Republic"
 
-KON_authoritarian_democrat:0 "Kingdom of Kongo"
+KON_authoritarian_democrat:0 "Kongolese Republic"
 KON_authoritarian_democrat_ADJ:0 "Kongolese"
-KON_authoritarian_democrat_DEF:0 "the Kingdom of Kongo"
+KON_authoritarian_democrat_DEF:0 "the Kongolese Republic"
 
-KON_autocratic:0 "Kingdom of Kongo"
+KON_autocratic:0 "Kongolese Republic"
 KON_autocratic_ADJ:0 "Kongolese"
-KON_autocratic_DEF:0 "the Kingdom of Kongo"
-
-KON_fundamentalist:0 "Kingdom of Kongo"
-KON_fundamentalist_ADJ:0 "Kongolese"
-KON_fundamentalist_DEF:0 "the Kingdom of Kongo"
-
-KON_voynist:0 "Kongo"
-KON_voynist_ADJ:0 "Kongolese"
-KON_voynist_DEF:0 "the Republic of Kongo"
+KON_autocratic_DEF:0 "the Kongolese Republic"
 
 ### Parties ###
-KON_social_nationalist_party:0 "-"
-KON_social_nationalist_party_long:0 "-"
 
-KON_marxist_party:0 "-"
-KON_marxist_party_long:0 "-"
-
-KON_libertarian_party:0 "-"
-KON_libertarian_party_long:0 "-"
-
-KON_moderate_socialist_party:0 "-"
-KON_moderate_socialist_party_long:0 "-"
-
-KON_social_democrat_party:0 "-"
-KON_social_democrat_party_long:0 "-"
-
-KON_social_liberal_party:0 "-"
-KON_social_liberal_party_long:0 "-"
-
-KON_conservative_party:0 "-"
-KON_conservative_party_long:0 "-"
-
-KON_authoritarian_democrat_party:0 "-"
-KON_authoritarian_democrat_party_long:0 "-"
-
-KON_autocratic_party:0 "-"
-KON_autocratic_party_long:0 "-"
-
-KON_fundamentalist_party:0 "-"
-KON_fundamentalist_party_long:0 "-"
-
-KON_voynist_party:0 "-"
-KON_voynist_party_long:0 "-"
 
 ### Cosmetic Tags ###
 
