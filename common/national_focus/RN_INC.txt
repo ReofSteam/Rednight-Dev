@@ -35,7 +35,7 @@ focus_tree = {
 	focus = {
 		id = INC_toward_the_new_revolution
 		icon = GFX_INC_nguyen_duc_canh
-		x = 7
+		x = 5
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -52,6 +52,102 @@ focus_tree = {
 			factor = 1
 		}
 	}
+	focus = {
+		id = INC_repeal_article_24
+		icon = GFX_INC_nguyen_duc_canh
+		x = 3
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = {
+		id = INC_reorganise_red_guards
+		icon = GFX_INC_nguyen_duc_canh
+		x = 2
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = INC_repeal_article_24
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = INC_form_people_courts
+		icon = GFX_INC_nguyen_duc_canh
+		x = 4
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = INC_repeal_article_24
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_the_4000_years_vengeance
+		icon = GFX_INC_nguyen_duc_canh
+		x = 3
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = {
+			focus = INC_reorganise_red_guards
+		}
+		prerequisite = {
+			focus = INC_form_people_courts
+		}	
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_Paris_Orthodoxy
+		icon = GFX_INC_nguyen_duc_canh
+		x = 2
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = {
+			focus = INC_Peasant_Republic
+		}		
+		prerequisite = {
+			focus = INC_the_4000_years_vengeance
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	
+	focus = {
+		id = INC_Peasant_Republic
+		icon = GFX_INC_nguyen_duc_canh
+		x = 4
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = {
+			focus = INC_Paris_Orthodoxy
+		}
+		prerequisite = {
+			focus = INC_the_4000_years_vengeance
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
 	focus = {
 		id = INC_adhere_to_the_paris_charter
 		icon = GFX_goal_generic_soviet_construction
@@ -75,6 +171,20 @@ focus_tree = {
 		available_if_capitulated = yes			
 		prerequisite = {
 			focus = INC_toward_the_new_revolution
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = INC_all_tyrants_will_fall
+		icon = GFX_goal_generic_soviet_construction
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes			
+		prerequisite = {
+			focus = INC_against_chauvinism_against_dai_viet
 		}
 		ai_will_do = {
 			factor = 1

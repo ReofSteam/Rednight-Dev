@@ -119,7 +119,6 @@ CAS = "countries/Turkestan.txt" #Caspian Republic
 ##East
 JAP = "countries/Japan.txt"
 KOR = "countries/Korea.txt"
-#TAI = "countries/Taiwan.txt"			Unimplemented
 MNC = "countries/Manchuria.txt"
 MON = "countries/Mongolia.txt"
 TIB = "countries/Tibet.txt"
@@ -166,6 +165,9 @@ SIA = "countries/Siam.txt"
 BUR = "countries/Burma.txt"
 INS = "countries/Indonesia.txt"
 VIN = "countries/Vietnam.txt"
+TAI = "countries/Vietnam.txt"			###Tai Country+Including Hmong Land
+NEV = "countries/Vietnam.txt"     #Northeast Vietnam
+MOT = "countries/Vietnam.txt"     #Higlander Country
 LAO = "countries/Laos.txt"
 CAM = "countries/Cambodia.txt"
 PHI = "countries/Philippines.txt"
