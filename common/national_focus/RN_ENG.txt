@@ -617,7 +617,7 @@ focus_tree = {
 	#Focus for Operation Wilfred
 	focus = {
 		id = ENG_operation_wilfred
-		icon = ENG_operation_wilfred
+		icon = GFX_focus_Attack_NOR
 		x = 38
 		y = 2
 		cost = 10
@@ -645,7 +645,7 @@ focus_tree = {
 	#Focus for Operation Fork
 	focus = {
 		id = ENG_operation_fork
-		icon = ENG_operation_fork
+		icon = GFX_focus_Attack_ICE
 		x = 36
 		y = 2
 		cost = 10
@@ -705,7 +705,7 @@ focus_tree = {
 	#Focus for Operation Strongbow
 	focus = {
 		id = ENG_operation_strongbow
-		icon = ENG_operation_strongbow
+		icon = GFX_focus_Attack_IRE
 		x = 34
 		y = 2
 		cost = 10
@@ -785,7 +785,7 @@ focus_tree = {
 	#Focus for Operation Pendragon II
 	focus = {
 		id = ENG_operation_pendragon_ii
-		icon = ENG_operation_pendragon_ii
+		icon = GFX_focus_Attack_Ulster
 		x = 32
 		y = 2
 		cost = 10

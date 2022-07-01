@@ -195,6 +195,18 @@ spriteTypes = {
         name = "GFX_focus_Attack_SAF"
         texturefile = "gfx/interface/goals/generic/Attack_SAF.tga"
     }
+	SpriteType = { 
+        name = "GFX_focus_Attack_IRE"
+        texturefile = "gfx/interface/goals/generic/Attack_IRE.png"
+    }
+	SpriteType = { 
+        name = "GFX_focus_Attack_Ulster"
+        texturefile = "gfx/interface/goals/generic/Attack_Ulster.png"
+    }
+	SpriteType = { 
+        name = "GFX_focus_Attack_NOR"
+        texturefile = "gfx/interface/goals/generic/Attack_NOR.png"
+    }
     		
  ######ENG
     SpriteType = { 
