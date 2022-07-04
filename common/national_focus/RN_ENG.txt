@@ -659,7 +659,7 @@ focus_tree = {
 	#Focus for Department of the North Sea
 	focus = {
 		id = ENG_department_of_the_north_sea
-		icon = focus_eng_global_defense
+		icon = ENG_North_Sea_Department
 		x = 36
 		y = 1
 		cost = 10
@@ -686,7 +686,7 @@ focus_tree = {
 	#Focus for Department of British Isles
 	focus = {
 		id = ENG_department_of_british_isles
-		icon = focus_eng_global_defense
+		icon = ENG_British_Isles_Department
 		x = 34
 		y = 1
 		cost = 10
@@ -1418,7 +1418,7 @@ focus_tree = {
 	#Focus for Plan Osborne
 	focus = {
 		id = ENG_plan_osborne
-		icon = focus_generic_paratrooper
+		icon = ENG_plan_osborne
 		x = 34
 		y = 3
 		cost = 10

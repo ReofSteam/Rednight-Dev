@@ -557,6 +557,18 @@ spriteTypes = {
         name = "ENG_artillery_focus"
         texturefile = "gfx/interface/goals/ENG/ENG_artillery_focus.png"
 	}
+	SpriteType = { 
+        name = "ENG_British_Isles_Department"
+        texturefile = "gfx/interface/goals/ENG/ENG_British_Isles_Department.png"
+	}
+	SpriteType = { 
+        name = "ENG_North_Sea_Department"
+        texturefile = "gfx/interface/goals/ENG/ENG_North_Sea_Department.png"
+	}
+	SpriteType = { 
+        name = "ENG_plan_osborne"
+        texturefile = "gfx/interface/goals/ENG/ENG_plan_osborne.png"
+	}
 	
 	###AUS
 	SpriteType = { 
