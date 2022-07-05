@@ -513,7 +513,7 @@ spriteType = {
 #########ENG
 	spriteType = {
 	    name = "GFX_idea_ENG_franco_british_rivalry"
-		texturefile = "gfx/interface/ideas/ENG/ENG_french_rivalry.tga"
+		texturefile = "gfx/interface/ideas/ENG/ENG_french_rivalry.png"
 	}	
 	spriteType = {
 	    name = "GFX_idea_ENG_united_britain"
