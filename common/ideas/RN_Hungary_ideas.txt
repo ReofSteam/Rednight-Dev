@@ -33,7 +33,7 @@ ideas = {
 
 
 			HUN_Radicals_in_the_cabinet = {
-			picture = economy_bad		
+			picture = saf_ossewabrandwag_fascism		
                   allowed_civil_war = { always = yes }
             modifier = {
 			}
