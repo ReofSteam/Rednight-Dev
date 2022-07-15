@@ -220,7 +220,7 @@ create_country_leader = {
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = ENGnews.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
 
@@ -236,7 +236,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.1" }
 
@@ -251,7 +251,7 @@ news_event = { #
 		name = Uob.1.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.2" }
 
@@ -266,7 +266,7 @@ news_event = { #
 		name = Uob.2.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.3" }
 
@@ -282,7 +282,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.4" }
 
@@ -297,7 +297,7 @@ news_event = { #
 		name = Uob.4.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.5" }
 
@@ -313,7 +313,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.6
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.6" }
 
@@ -328,7 +328,7 @@ news_event = { #
 		name = Uob.6.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.7" }
 
@@ -343,7 +343,7 @@ news_event = { #
 		name = Uob.7.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.8" }
 
@@ -359,7 +359,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.9
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.9" }
 

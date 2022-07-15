@@ -206,9 +206,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_centralized_economy 
-		}
-		prerequisite = {
-		focus = ENG_mixed_economy 
+                        focus = ENG_mixed_economy
 		}
 		ai_will_do = {
 			factor = 1
@@ -246,6 +244,7 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = ENG_mixed_economy
+                        focus = ENG_centralized_economy
 
 		}		
 		ai_will_do = {
@@ -434,15 +433,18 @@ focus_tree = {
 		icon = ENG_mosleys_democratic_election
 		x = 11
 		y = 0
-		cost = 10
+		cost = 6
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_political_power = 100
-
+                        hidden_effect = {
+				news_event = { id = worldnews.1 hours = 4 }
+			}
 		}
+                 
 	}
 
 	#Focus for Industrial Research Grant
