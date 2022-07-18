@@ -242,7 +242,7 @@ country_event = { #
 
 	title = Uob.1.t
 	desc = Uob.1.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_britain_plan
 
 	is_triggered_only = yes
 
