@@ -43,25 +43,13 @@ focus_tree = {
 		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_industrial_research_grant }
-        prerequisite = {
+			focus = ENG_industrial_research_grant 
 			focus = ENG_a_professional_workforce 
 		}
 		ai_will_do = {
 			factor = 1
 		} 
 		completion_reward = {
-			if = {
-				limit = {
-					has_completed_focus = ENG_british_railway_collective
-				}
-			
-			swap_ideas = {
-			remove_idea = NBP_Professional_Workforce_1
-			add_idea =  NBP_industrial_expansion_1	
-		}
-			}
-			else = {
 			swap_ideas = {
 			remove_idea = NBP_Professional_Workforce
 			add_idea =  NBP_industrial_expansion	
@@ -70,7 +58,7 @@ focus_tree = {
 			}	
 
 	}
-	}
+	
 
 	#Focus for NHS expansion
 	focus = {
@@ -624,23 +612,11 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-        if = {
-				limit = {
-					has_completed_focus = ENG_british_railway_collective
-				}
-			
-			swap_ideas = {
-			remove_idea = NBP_railroad_1
-			add_idea =  NBP_Professional_Workforce_1	
-		}
-			}
-			else = {
 			swap_ideas = {
 			remove_idea = NBP_ISH
 			add_idea = NBP_Professional_Workforce
 			}	
 
-			}
 			}
 
 		}
@@ -1889,8 +1865,8 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_industrial_spearhead 
-			focus = ENG_rural_renovation 
+			focus = ENG_industrial_expansion
+			focus = ENG_towards_food_self_sufficency
 		}
 		ai_will_do = {
 			factor = 1
@@ -1898,38 +1874,28 @@ focus_tree = {
 		completion_reward = {
 		 if = {
 				limit = {
-					has_completed_focus = ENG_industrial_spearhead
-					has_not_completed_focus = ENG_a_professional_workforce
-					has_not_completed_focus = ENG_industrial_expansion
+					has_completed_focus = ENG_industrial_expansion
 				}
 			
 			swap_ideas = {
-			remove_idea = NBP_ISH
+			remove_idea = NBP_industrial_expansion
 			add_idea =  NBP_railroad_1
 		}
 			}
 
+		else = {
 		if = {
 				limit = {
 					has_completed_focus = ENG_a_professional_workforce
 					has_not_completed_focus = ENG_industrial_expansion
+					not = { has_idea = NBP_railroad_1 }
 				}
 			
 			swap_ideas = {
-			remove_idea = NBP_ISH
-			add_idea =  NBP_railroad_1
+			remove_idea = NBP_Professional_Workforce
+			add_idea = NBP_railroad_2
 		}
 
-		}
-		else = {
-		limit = {
-					has_completed_focus = ENG_a_professional_workforce
-					has_not_completed_focus = ENG_industrial_expansion
-				}
-			
-			swap_ideas = {
-			remove_idea = NBP_ISH
-			add_idea =  NBP_railroad_1
 		}
 		}
 		}

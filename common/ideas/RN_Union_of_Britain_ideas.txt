@@ -214,6 +214,9 @@ ideas = {
 		    stability_factor = 0.03
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+            global_building_slots_factor = 0.1
 			}
 			removal_cost = -1
 		}
@@ -347,24 +350,6 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Professional_Workforce_1 = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			production_speed_rail_way_factor = 0.05
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
-            research_speed_factor = 0.10
-			industrial_capacity_factory = 0.1
-			production_factory_efficiency_gain_factor = 0.1
-			production_factory_max_efficiency_factor = 0.1
-			}
-			removal_cost = -1
-		}
 		NBP_steady = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
@@ -424,25 +409,6 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
-            research_speed_factor = 0.10
-			industrial_capacity_factory = 0.1
-			production_factory_efficiency_gain_factor = 0.1
-			production_factory_max_efficiency_factor = 0.1
-            global_building_slots_factor = 0.1
-			}
-			removal_cost = -1
-		}
-		NBP_industrial_expansion_1  = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			production_speed_rail_way_factor = 0.05
 			production_speed_buildings_factor = 0.05 
 		    production_speed_industrial_complex_factor = 0.05 
 		    stability_factor = 0.03
