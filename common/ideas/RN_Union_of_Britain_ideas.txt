@@ -86,7 +86,7 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			consumer_goods_factor = -0.02
+			consumer_goods_factor = 0.03
 			}
 			removal_cost = -1
 		}
@@ -108,9 +108,9 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-				production_speed_buildings_factor = 0.5 
-				civilian_factory_use = -.5
-				stability_factor = 0.3
+				production_speed_buildings_factor = 0.05 
+				production_speed_industrial_complex_factor = 0.05 
+				stability_factor = 0.03
 			}
 			removal_cost = -1
 		}
@@ -134,9 +134,11 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			research_speed_factor = 0.10
-			industrial_capacity_factory = 0.10
-			consumer_goods_factor = 0.3
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
 			}
 			removal_cost = -1
 		}
@@ -199,7 +201,7 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_railroad = { #submarine program
+		NBP_railroad_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
@@ -207,6 +209,11 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 			production_speed_rail_way_factor = 0.05
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
 			}
 			removal_cost = -1
 		}
@@ -320,14 +327,38 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NBP_Professional_Workfoce = { #submarine program
+		NBP_Professional_Workforce = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_factory_efficiency_gain_factor = 0.10
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+			}
+			removal_cost = -1
+		}
+		NBP_Professional_Workforce_1 = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			production_speed_rail_way_factor = 0.05
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
 			}
 			removal_cost = -1
 		}
@@ -380,6 +411,56 @@ ideas = {
 			production_speed_buildings_factor = -0.5 
 
 
+			}
+			removal_cost = -1
+		}
+		NBP_industrial_expansion  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+            global_building_slots_factor = 0.1
+			}
+			removal_cost = -1
+		}
+		NBP_industrial_expansion_1  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			production_speed_rail_way_factor = 0.05
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+		    stability_factor = 0.03
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+            global_building_slots_factor = 0.1
+			}
+			removal_cost = -1
+		}
+		NBP_rural  = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			production_speed_buildings_factor = 0.05 
+				production_speed_industrial_complex_factor = 0.05 
+				stability_factor = 0.03
 			}
 			removal_cost = -1
 		}

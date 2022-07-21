@@ -27,7 +27,7 @@ news_event = { #Germanny_occupation_ends
 	id = worldnews.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.2" }
 
-	title = worldnews.t
+	title = worldnews.2.t
 	desc = worldnews.2.d
 	picture = GFX_germany_occupation_ends
 	major = yes
@@ -104,7 +104,7 @@ news_event = { #Death of Collins
 	id = worldnews.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.4" }
 
-	title = worldnews.t
+	title = worldnews.4.t
 	desc = worldnews.4.d
 	picture = GFX_news_IRE_Collins_death
 	major = yes

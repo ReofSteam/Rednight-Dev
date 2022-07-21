@@ -40,20 +40,36 @@ focus_tree = {
 		icon = ENG_Industrial_Expansion
 		x = 11
 		y = 6
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_industrial_research_grant 
-		}
-		prerequisite = { 
+			focus = ENG_industrial_research_grant }
+        prerequisite = {
 			focus = ENG_a_professional_workforce 
 		}
 		ai_will_do = {
 			factor = 1
-		}
+		} 
 		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = ENG_british_railway_collective
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_Professional_Workforce_1
+			add_idea =  NBP_industrial_expansion_1	
+		}
+			}
+			else = {
+			swap_ideas = {
+			remove_idea = NBP_Professional_Workforce
+			add_idea =  NBP_industrial_expansion	
 
 			}
+			}	
+
+	}
 	}
 
 	#Focus for NHS expansion
@@ -104,22 +120,80 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Rural Renovation
+	#Focus for Rural Renovation 122, 123, 125, 129, 338, 131, 133, 120, 136
 	focus = {
 		id = ENG_rural_renovation
 		icon = ENG_rural_renovation
 		x = 15
 		y = 4
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_peacetime_development }
 		mutually_exclusive = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
+	completion_reward = {
+	    122 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+		} 
+	} 
+		123 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	125 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	129 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	338 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	131 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	133 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	120 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	136 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	swap_ideas = {
+	remove_idea = ENG_food_import
+	add_idea = ENG_Import_Dependency_fishing
 
 		}
+			}
 			}
 		
 
@@ -173,6 +247,10 @@ focus_tree = {
 		
 	}
 	add_opinion_modifier = { target = NOR modifier = medium_decrease }
+	swap_ideas = {
+	remove_idea = ENG_food_import 
+	add_idea = ENG_Import_Dependency_fishing
+	}
 	}
 	}
 
@@ -304,7 +382,7 @@ focus_tree = {
 		icon = ENG_peacetime_development
 		x = 13
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_new_britain_plan }
 		ai_will_do = {
@@ -324,7 +402,7 @@ focus_tree = {
 		icon = ENG_industrial_spearhead
 		x = 11
 		y = 4
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_peacetime_development }
 		mutually_exclusive = { focus = ENG_rural_renovation }
@@ -335,7 +413,7 @@ focus_tree = {
 			country_event = { id = Uob.2 hours = 1 }
 			swap_ideas = {
 				remove_idea = ENG_new_britain_plan
-				add_idea = NBP_ISH
+				add_idea = NBP_ISH 
 			}
 		}
 	}
@@ -453,7 +531,7 @@ focus_tree = {
 		icon = ENG_industrial_research_grant
 		x = 10
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
@@ -541,20 +619,34 @@ focus_tree = {
 		icon = ENG_a_professional_workforce
 		x = 12
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-
+        if = {
+				limit = {
+					has_completed_focus = ENG_british_railway_collective
+				}
+			
 			swap_ideas = {
-				remove_idea = NBP_ISH
-				add_idea = NBP_Professional_Workfoce
-			}
+			remove_idea = NBP_railroad_1
+			add_idea =  NBP_Professional_Workforce_1	
 		}
-	}
+			}
+			else = {
+			swap_ideas = {
+			remove_idea = NBP_ISH
+			add_idea = NBP_Professional_Workforce
+			}	
+
+			}
+			}
+
+		}
+	
 
 	#Focus for The English way of life
 	focus = {
@@ -1806,9 +1898,36 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = { NBP_RAILROAD }
-			country_event = { id = Uob.6 hours = 1 }
+		 if = {
+				limit = {
+					has_completed_focus = ENG_industrial_spearhead
+					has_not_completed_focus = ENG_a_professional_workforce
+					has_not_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_ISH
+			add_idea =  NBP_railroad_1
 		}
-	}	
+			}
+
+		if = {
+				limit = {
+					has_completed_focus = ENG_a_professional_workforce
+					has_not_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_ISH
+			add_idea =  NBP_railroad_1
+		}
+
+		}
+		else = {add_political_power = 100	
+
+			}
+		}
+		}
+		
 #End of focuses 
  }

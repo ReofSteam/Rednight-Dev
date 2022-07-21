@@ -205,7 +205,7 @@ spriteTypes = {
 	}	
 		spriteType = { 
 		name = "GFX_germany_occupation_ends"
-		texturefile = "gfx/event_pictures/germany_occupation_ends.dds"
+		texturefile = "gfx/event_pictures/germany_occupation_ends.png"
 	}	
 		spriteType = { 
 		name = "GFX_news_mosley_victory"

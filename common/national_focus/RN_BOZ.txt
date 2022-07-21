@@ -210,7 +210,7 @@ focus_tree = {
 	#Focus for Local Conscription
 	focus = {
 		id = BOZ_local_conscription
-		icon = GFX_ENG_revolutionary_guards_expansion
+		icon = ENG_revolutionary_guards_expansion
 		x = 7
 		y = 3
 		cost = 10
