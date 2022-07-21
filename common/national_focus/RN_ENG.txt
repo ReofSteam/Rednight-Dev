@@ -1921,9 +1921,17 @@ focus_tree = {
 		}
 
 		}
-		else = {add_political_power = 100	
-
-			}
+		else = {
+		limit = {
+					has_completed_focus = ENG_a_professional_workforce
+					has_not_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_ISH
+			add_idea =  NBP_railroad_1
+		}
+		}
 		}
 		}
 		
