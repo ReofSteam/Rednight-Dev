@@ -189,8 +189,8 @@ focus_tree = {
 	}
 	}
 	swap_ideas = {
-	remove_idea = ENG_food_import
-	add_idea = ENG_Import_Dependency_fishing
+	remove_idea = ENG_new_britain_plan
+	add_idea = NBP_rural
 
 		}
 			}
@@ -452,9 +452,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_NBI
-			}
+            add_ideas = NBP_NBI
 			country_event = { id = Uob.7 hours = 1 }
 		}
 	}
