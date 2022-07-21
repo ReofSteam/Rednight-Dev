@@ -355,8 +355,13 @@ NBP_Professional_Workforce:0 "New Britain Plan - Industrial Spearhead"
 NHS_Expansion:0"National Health Service Expanded"
 NBP_railroad_1:0 "New Britain Plan - Industrial Spearhead"
 NBP_fob:0 "Fields Of Britian Campagin"
-ENG_way_of_life:0 "English Way Of Life"
-NBP_industrial_expansion:0 "New Britain Plan - Industrial Spearhead"
-NBP_rural:0 "New Britain Plan - Rural Renovation"
+NBP_industrial_expansion:0 "New Britain Plan - Industrial Spearhead
 ENG_Import_Dependency_fishing:0 "Food Import Dependency"
+ENG_Import_Dependency_fishing_desc:0 "Our glorious revolution have put an end to the ruthless colonial regime over 2 decades ago, but with the loss of the colonies, although unavoidable and righteous, came damage to the homeland, especially in the field of agriculture. The homeland have lost agricultural self sustainability many years ago, and with the loss of cheap imports from the colonies, it became reliant on food imports from France and other allies, which puts a strain on our economy."
 NBP_Centralized:0 "New Britain Plan - National Bourgeoisie Initiative"
+ENG_Import_Dependency_towards_food_ss:0 "Towards Food Self Sufficiency"
+NBP_rural:0 "New Britain Plan - Rural Renovation
+NBP_rural_1:0 "New Britain Plan - Rural Renovation"
+NBP_railroad_2:0 "New Britain Plan - Rural Renovation"
+ENG_NBP_fishing:0 "New Britain Plan - Rural Renovation"
+

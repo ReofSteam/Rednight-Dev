@@ -203,7 +203,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_fob }
+			add_ideas = NBP_fob 
 			country_event = { id = Uob.4 hours = 1 }
 		}
 	}
@@ -238,6 +238,10 @@ focus_tree = {
 	swap_ideas = {
 	remove_idea = ENG_food_import 
 	add_idea = ENG_Import_Dependency_fishing
+	}
+	swap_ideas = {
+	remove_idea = NBP_rural
+	add_idea = ENG_NBP_fishing
 	}
 	}
 	}
@@ -635,9 +639,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {
-				ENG_way_of_life
-			}
+		    add_war_support = 0.05
 			country_event = { id = Uob.3 hours = 1 }
 		}
 	}
@@ -658,7 +660,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = { id = Uob.5 hours = 1 }
+		swap_ideas = {
+	     remove_idea = ENG_Import_Dependency_fishing
+		 add_idea = ENG_Import_Dependency_towards_food_ss
+        }
+		swap_ideas = {
+		   remove_idea = ENG_NBP_fishing
+		   add_idea = NBP_rural_1
+        }		
+		country_event = { id = Uob.5 hours = 1 }
 		}
 	}
 
@@ -1884,22 +1894,16 @@ focus_tree = {
 			}
 
 		else = {
-		if = {
-				limit = {
-					has_completed_focus = ENG_a_professional_workforce
-					has_not_completed_focus = ENG_industrial_expansion
-					not = { has_idea = NBP_railroad_1 }
-				}
 			
 			swap_ideas = {
-			remove_idea = NBP_Professional_Workforce
+			remove_idea = NBP_rural_1
 			add_idea = NBP_railroad_2
 		}
 
 		}
 		}
 		}
-		}
+		
 		
 #End of focuses 
  }
