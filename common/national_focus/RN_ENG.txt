@@ -66,7 +66,7 @@ focus_tree = {
 		icon = ENG_nhs_expansion
 		x = 13
 		y = 7
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_industrial_expansion 
@@ -80,7 +80,25 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		 add_ideas = NHS_Expansion
+		 if = {
+				limit = {
+					has_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_railroad_1
+			add_idea =  NBP_NHS
+		}
+			}
+
+		else = {
+			
+			swap_ideas = {
+			remove_idea = NBP_railroad_2
+			add_idea = NBP_NHS_1
+		}
+
+		}
 
 		}
 	}
@@ -191,7 +209,7 @@ focus_tree = {
 		icon = ENG_fields_of_britain_campaign
 		x = 16
 		y = 5
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_rural_renovation 
@@ -214,7 +232,7 @@ focus_tree = {
 		icon = ENG_fishing_industry_expansion
 		x = 14
 		y = 5
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_rural_renovation }
 		ai_will_do = {
@@ -632,7 +650,7 @@ focus_tree = {
 		icon = ENG_way_of_life_focus
 		x = 16
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_english_socialist_victory }
 		ai_will_do = {
@@ -650,7 +668,7 @@ focus_tree = {
 		icon = ENG_towards_food_self_sufficency
 		x = 15
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_fields_of_britain_campaign 
@@ -1872,7 +1890,7 @@ focus_tree = {
 		icon = ENG_british_railway_collective
 		x = 13
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_industrial_expansion

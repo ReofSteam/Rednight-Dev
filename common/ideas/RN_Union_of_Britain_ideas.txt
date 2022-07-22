@@ -121,17 +121,6 @@ ideas = {
 			}
 			removal_cost = -1
 		}
-		NHS_Expansion = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			consumer_goods_factor = 0.03
-			}
-			removal_cost = -1
-		}
 		ENG_NBP_fishing = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
@@ -204,7 +193,33 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			stability_factor = 0.05
+			stability_factor = 0.08
+			production_speed_rail_way_factor = 0.05
+			production_speed_buildings_factor = 0.05 
+		    production_speed_industrial_complex_factor = 0.05 
+            research_speed_factor = 0.10
+			industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+            global_building_slots_factor = 0.1
+			consumer_goods_factor = 0.02
+			}
+			removal_cost = -1
+		}
+		NBP_NHS_1 = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			stability_factor = 0.07
+			production_speed_rail_way_factor = 0.05
+			monthly_population = 0.1
+			production_speed_buildings_factor = 0.05 
+			production_speed_industrial_complex_factor = 0.05 
+			stability_factor = 0.1
+			consumer_goods_factor = 0.02
 			}
 			removal_cost = -1
 		}
