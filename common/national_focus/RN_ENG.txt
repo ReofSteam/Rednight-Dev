@@ -7,6 +7,179 @@ focus_tree = {
 			tag = ENG
 		}
 	}
+	
+	####R.E.D BRANCH####
+	
+	#Focus for Plan Lily
+	focus = {
+		id = ENG_plan_lily
+		icon = ENG_plan_lily
+		x = 50
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Plan Osborne
+	focus = {
+		id = ENG_plan_osborne
+		icon = ENG_plan_osborne
+		x = 44
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_strongbow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Violet
+	focus = {
+		id = ENG_plan_violet
+		icon = ENG_plan_violet
+		x = 48
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Wilfred
+	focus = {
+		id = ENG_operation_wilfred
+		icon = GFX_focus_Attack_NOR
+		x = 48
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Fork
+	focus = {
+		id = ENG_operation_fork
+		icon = GFX_focus_Attack_ICE
+		x = 46
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of the North Sea
+	focus = {
+		id = ENG_department_of_the_north_sea
+		icon = ENG_North_Sea_Department
+		x = 46
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Rose
+	focus = {
+		id = ENG_plan_rose
+		icon = ENG_plan_rose
+		x = 46
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		#Focus for R.E.D Atlantic Division
+	focus = {
+		id = ENG_red_atlantic_division
+		icon = ENG_red_atlantic_division
+		x = 45
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Operation Pendragon II
+	focus = {
+		id = ENG_operation_pendragon_ii
+		icon = GFX_focus_Attack_Ulster
+		x = 42
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Department of British Isles
+	focus = {
+		id = ENG_department_of_british_isles
+		icon = ENG_British_Isles_Department
+		x = 44
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Focus for Operation Strongbow
+	focus = {
+		id = ENG_operation_strongbow
+		icon = GFX_focus_Attack_IRE
+		x = 44
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############
+	
+	
+	
 	#Focus for O England, Arise!
 	focus = {
 		id = ENG_o_england_arise
@@ -709,21 +882,6 @@ focus_tree = {
 		}
 	}
 
-
-	#Focus for Operation Wilfred
-	focus = {
-		id = ENG_operation_wilfred
-		icon = GFX_focus_Attack_NOR
-		x = 38
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for Project Northumberland
 	focus = {
 		id = ENG_project_northumberland
@@ -733,34 +891,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_reforming_the_airdefense_system }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Operation Fork
-	focus = {
-		id = ENG_operation_fork
-		icon = GFX_focus_Attack_ICE
-		x = 36
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Department of the North Sea
-	focus = {
-		id = ENG_department_of_the_north_sea
-		icon = ENG_North_Sea_Department
-		x = 36
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
 		ai_will_do = {
 			factor = 1
 		}
@@ -779,44 +909,7 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Department of British Isles
-	focus = {
-		id = ENG_department_of_british_isles
-		icon = ENG_British_Isles_Department
-		x = 34
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
-
-
-
-
-	#Focus for Operation Strongbow
-	focus = {
-		id = ENG_operation_strongbow
-		icon = GFX_focus_Attack_IRE
-		x = 34
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	
-
-
-
-	#Focus for Will you disown your native land?
+    #Focus for Will you disown your native land?
 	focus = {
 		id = ENG_will_you_disown_your_native_land
 		icon = ENG_will_you_disown_your_native_land
@@ -862,36 +955,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
-
-
-	#Focus for R.E.D Atlantic Division
-	focus = {
-		id = ENG_red_atlantic_division
-		icon = ENG_red_atlantic_division
-		x = 35
-		y = 0
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Operation Pendragon II
-	focus = {
-		id = ENG_operation_pendragon_ii
-		icon = GFX_focus_Attack_Ulster
-		x = 32
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 
 	#Focus for Destruction of the Regime
 	focus = {
@@ -1271,26 +1334,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Plan Rose
-	focus = {
-		id = ENG_plan_rose
-		icon = ENG_plan_rose
-		x = 36
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Sits idelness Encrowned
 	focus = {
@@ -1367,27 +1410,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_destruction_of_the_regime }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Plan Violet
-	focus = {
-		id = ENG_plan_violet
-		icon = ENG_plan_violet
-		x = 38
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1491,39 +1513,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Plan Lily
-	focus = {
-		id = ENG_plan_lily
-		icon = ENG_plan_lily
-		x = 40
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Plan Osborne
-	focus = {
-		id = ENG_plan_osborne
-		icon = ENG_plan_osborne
-		x = 34
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_strongbow }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Worker's Self-Management
 	focus = {
