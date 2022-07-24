@@ -598,6 +598,10 @@ focus_tree = {
 				remove_idea = ENG_new_britain_plan
 				add_idea = NBP_ISH 
 			}
+			swap_ideas = {
+				remove_idea = ENG_food_import
+				add_idea = ENG_food_import_2 
+			}
 		}
 	}
 

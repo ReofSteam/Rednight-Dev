@@ -23,7 +23,7 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 				consumer_goods_factor = 0.05
-      			stability_factor = 0.1
+      			stability_factor = -0.1
 				production_speed_buildings_factor = -0.05
 				industrial_capacity_factory = -0.05
 
@@ -55,7 +55,20 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = Import_Dependency
-		}		
+		}
+        ENG_food_import_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_army_of_germany"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+				consumer_goods_factor = 0.08
+
+			}
+			removal_cost = -1
+			picture = Import_Dependency
+		}			
 		ENG_Import_Dependency_fishing = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
 			allowed = {
@@ -87,22 +100,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-				production_speed_buildings_factor = 0.05 
 				production_speed_industrial_complex_factor = 0.05 
-				stability_factor = 0.03
-			}
-			removal_cost = -1
-		}
-
-			ENG_industry_Spherehead = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			research_speed_factor = 0.10
-			industrial_capacity_factory = 0.10
+                consumer_goods_factor = 0.05
+      			stability_factor = -0.07
+				industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
 		}
@@ -113,9 +114,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
+			production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.08
+      	    stability_factor = -0.07
+		    industrial_capacity_factory = -0.05
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
 			}
@@ -129,11 +131,10 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 			monthly_population = 0.05
-			production_speed_buildings_factor = 0.05 
-			production_speed_industrial_complex_factor = 0.05 
-			stability_factor = 0.03
-			
-
+            production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.05
+      		stability_factor = -0.07
+			industrial_capacity_factory = -0.05
 			}
 
 			removal_cost = -1
@@ -160,9 +161,10 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 			production_speed_rail_way_factor = 0.05
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
+			production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.08
+      	    stability_factor = -0.07
+		    industrial_capacity_factory = -0.05
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
 			production_factory_efficiency_gain_factor = 0.1
@@ -180,9 +182,10 @@ ideas = {
             modifier = {
 			production_speed_rail_way_factor = 0.05
 			monthly_population = 0.1
-			production_speed_buildings_factor = 0.05 
 			production_speed_industrial_complex_factor = 0.05 
-			stability_factor = 0.05
+            consumer_goods_factor = 0.05
+      		stability_factor = -0.05
+			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
 		}
@@ -193,16 +196,15 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			stability_factor = 0.08
-			production_speed_rail_way_factor = 0.05
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
+			production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.1
+      	    stability_factor = -0.02
+		    industrial_capacity_factory = -0.05
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
 			production_factory_efficiency_gain_factor = 0.1
 			production_factory_max_efficiency_factor = 0.1
             global_building_slots_factor = 0.1
-			consumer_goods_factor = 0.02
 			}
 			removal_cost = -1
 		}
@@ -213,13 +215,11 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			stability_factor = 0.07
 			production_speed_rail_way_factor = 0.05
 			monthly_population = 0.1
-			production_speed_buildings_factor = 0.05 
 			production_speed_industrial_complex_factor = 0.05 
-			stability_factor = 0.1
-			consumer_goods_factor = 0.02
+            consumer_goods_factor = 0.07
+			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
 		}
@@ -332,9 +332,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
+			production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.08
+      	    stability_factor = -0.07
+		    industrial_capacity_factory = -0.05
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
 			production_factory_efficiency_gain_factor = 0.1
@@ -354,19 +355,6 @@ ideas = {
 			removal_cost = -1
 		}
 		
-		NBP_Spherehead_indsutry_Professional_Workforce = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			research_speed_factor = 0.10
-			industrial_capacity_factory = 0.10
-			production_factory_efficiency_gain_factor = 0.10
-			}
-			removal_cost = -1
-		}
 		NBP_industrial_expansion  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
@@ -374,9 +362,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_speed_buildings_factor = 0.05 
-		    production_speed_industrial_complex_factor = 0.05 
-		    stability_factor = 0.03
+			production_speed_industrial_complex_factor = 0.05 
+            consumer_goods_factor = 0.08
+      	    stability_factor = -0.07
+		    industrial_capacity_factory = -0.05
             research_speed_factor = 0.10
 			industrial_capacity_factory = 0.1
 			production_factory_efficiency_gain_factor = 0.1
@@ -392,10 +381,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			production_speed_buildings_factor = 0.05 
 			production_speed_industrial_complex_factor = 0.05 
-			stability_factor = 0.03
-			monthly_population = 0.01
+            consumer_goods_factor = 0.05
+      	    stability_factor = -0.07
+			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
 		}
@@ -407,9 +396,10 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 			monthly_population = 0.1
-			production_speed_buildings_factor = 0.05 
 			production_speed_industrial_complex_factor = 0.05 
-			stability_factor = 0.05
+            consumer_goods_factor = 0.05
+      		stability_factor = -0.05
+			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
 		}

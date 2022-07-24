@@ -111,6 +111,14 @@ spriteTypes = {
 		name = "GFX_ENG_britain_plan"
 		texturefile = "gfx/event_pictures/ENG_britain_plan.png"
 	}
+	spriteType = { 
+		name = "GFX_ENG_field_of_britain"
+		texturefile = "gfx/event_pictures/ENG_field_of_britain.png"
+	}
+    spriteType = { 
+		name = "GFX_ENG_industrial"
+		texturefile = "gfx/event_pictures/ENG_industrial.png"
+	}
 
 	####CSA
 	spriteType = { 

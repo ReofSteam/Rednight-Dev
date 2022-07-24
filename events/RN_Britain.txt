@@ -251,13 +251,13 @@ country_event = { #
 		name = Uob.1.a
 	}
 }
-country_event = { #
+country_event = { #A nation of coal and steel
 	id = Uob.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.2" }
 
 	title = Uob.2.t
 	desc = Uob.2.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_industrial
 
 	is_triggered_only = yes
 
@@ -282,13 +282,13 @@ country_event = { #
 	}
 }
 
-country_event = { #
+country_event = { #The Fields of Britain
 	id = Uob.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.4" }
 
 	title = Uob.4.t
 	desc = Uob.4.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_field_of_britain
 
 	is_triggered_only = yes
 
