@@ -107,6 +107,18 @@ spriteTypes = {
 		name = "GFX_ENG_fall_of_mosley"
 		texturefile = "gfx/event_pictures/ENG_fall_of_mosley.dds"
 	}
+	spriteType = { 
+		name = "GFX_ENG_britain_plan"
+		texturefile = "gfx/event_pictures/ENG_britain_plan.png"
+	}
+	spriteType = { 
+		name = "GFX_ENG_field_of_britain"
+		texturefile = "gfx/event_pictures/ENG_field_of_britain.png"
+	}
+    spriteType = { 
+		name = "GFX_ENG_industrial"
+		texturefile = "gfx/event_pictures/ENG_industrial.png"
+	}
 
 	####CSA
 	spriteType = { 
@@ -205,7 +217,7 @@ spriteTypes = {
 	}	
 		spriteType = { 
 		name = "GFX_germany_occupation_ends"
-		texturefile = "gfx/event_pictures/germany_occupation_ends.dds"
+		texturefile = "gfx/event_pictures/germany_occupation_ends.png"
 	}	
 		spriteType = { 
 		name = "GFX_news_mosley_victory"

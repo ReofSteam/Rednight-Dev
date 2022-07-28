@@ -220,7 +220,7 @@ create_country_leader = {
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = ENGnews.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
 
@@ -236,13 +236,13 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.1" }
 
 	title = Uob.1.t
 	desc = Uob.1.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_britain_plan
 
 	is_triggered_only = yes
 
@@ -251,13 +251,13 @@ news_event = { #
 		name = Uob.1.a
 	}
 }
-news_event = { #
+country_event = { #A nation of coal and steel
 	id = Uob.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.2" }
 
 	title = Uob.2.t
 	desc = Uob.2.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_industrial
 
 	is_triggered_only = yes
 
@@ -266,7 +266,7 @@ news_event = { #
 		name = Uob.2.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.3
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.3" }
 
@@ -282,13 +282,13 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #The Fields of Britain
 	id = Uob.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.4" }
 
 	title = Uob.4.t
 	desc = Uob.4.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_field_of_britain
 
 	is_triggered_only = yes
 
@@ -297,7 +297,7 @@ news_event = { #
 		name = Uob.4.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.5" }
 
@@ -313,7 +313,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.6
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.6" }
 
@@ -328,7 +328,7 @@ news_event = { #
 		name = Uob.6.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.7
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.7" }
 
@@ -343,7 +343,7 @@ news_event = { #
 		name = Uob.7.a
 	}
 }
-news_event = { #
+country_event = { #
 	id = Uob.8
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.8" }
 
@@ -359,7 +359,7 @@ news_event = { #
 	}
 }
 
-news_event = { #
+country_event = { #
 	id = Uob.9
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.9" }
 

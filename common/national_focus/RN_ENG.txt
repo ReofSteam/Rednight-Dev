@@ -7,6 +7,179 @@ focus_tree = {
 			tag = ENG
 		}
 	}
+	
+	####R.E.D BRANCH####
+	
+	#Focus for Plan Lily
+	focus = {
+		id = ENG_plan_lily
+		icon = ENG_plan_lily
+		x = 50
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Plan Osborne
+	focus = {
+		id = ENG_plan_osborne
+		icon = ENG_plan_osborne
+		x = 44
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_strongbow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Violet
+	focus = {
+		id = ENG_plan_violet
+		icon = ENG_plan_violet
+		x = 48
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Wilfred
+	focus = {
+		id = ENG_operation_wilfred
+		icon = GFX_focus_Attack_NOR
+		x = 48
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Fork
+	focus = {
+		id = ENG_operation_fork
+		icon = GFX_focus_Attack_ICE
+		x = 46
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of the North Sea
+	focus = {
+		id = ENG_department_of_the_north_sea
+		icon = ENG_North_Sea_Department
+		x = 46
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Rose
+	focus = {
+		id = ENG_plan_rose
+		icon = ENG_plan_rose
+		x = 46
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		#Focus for R.E.D Atlantic Division
+	focus = {
+		id = ENG_red_atlantic_division
+		icon = ENG_red_atlantic_division
+		x = 45
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Operation Pendragon II
+	focus = {
+		id = ENG_operation_pendragon_ii
+		icon = GFX_focus_Attack_Ulster
+		x = 42
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Department of British Isles
+	focus = {
+		id = ENG_department_of_british_isles
+		icon = ENG_British_Isles_Department
+		x = 44
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Focus for Operation Strongbow
+	focus = {
+		id = ENG_operation_strongbow
+		icon = GFX_focus_Attack_IRE
+		x = 44
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############
+	
+	
+	
 	#Focus for O England, Arise!
 	focus = {
 		id = ENG_o_england_arise
@@ -40,21 +213,25 @@ focus_tree = {
 		icon = ENG_Industrial_Expansion
 		x = 11
 		y = 6
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_industrial_research_grant 
-		}
-		prerequisite = { 
 			focus = ENG_a_professional_workforce 
 		}
 		ai_will_do = {
 			factor = 1
-		}
+		} 
 		completion_reward = {
+			swap_ideas = {
+			remove_idea = NBP_Professional_Workforce
+			add_idea =  NBP_industrial_expansion	
 
 			}
+			}	
+
 	}
+	
 
 	#Focus for NHS expansion
 	focus = {
@@ -62,7 +239,7 @@ focus_tree = {
 		icon = ENG_nhs_expansion
 		x = 13
 		y = 7
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_industrial_expansion 
@@ -76,7 +253,25 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-		 add_ideas = NHS_Expansion
+		 if = {
+				limit = {
+					has_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_railroad_1
+			add_idea =  NBP_NHS
+		}
+			}
+
+		else = {
+			
+			swap_ideas = {
+			remove_idea = NBP_railroad_2
+			add_idea = NBP_NHS_1
+		}
+
+		}
 
 		}
 	}
@@ -104,22 +299,80 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Rural Renovation
+	#Focus for Rural Renovation 122, 123, 125, 129, 338, 131, 133, 120, 136
 	focus = {
 		id = ENG_rural_renovation
 		icon = ENG_rural_renovation
 		x = 15
 		y = 4
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_peacetime_development }
 		mutually_exclusive = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
 		}
-		completion_reward = {
+	completion_reward = {
+	    122 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+		} 
+	} 
+		123 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	125 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	129 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	338 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	131 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	133 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	120 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	136 = { add_building_construction = {
+	type = infrastructure
+	level = 1
+	instant_build = yes
+	}
+	}
+	swap_ideas = {
+	remove_idea = ENG_new_britain_plan
+	add_idea = NBP_rural
 
 		}
+			}
 			}
 		
 
@@ -129,7 +382,7 @@ focus_tree = {
 		icon = ENG_fields_of_britain_campaign
 		x = 16
 		y = 5
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_rural_renovation 
@@ -141,7 +394,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  NBP_fob }
+			add_ideas = NBP_fob 
 			country_event = { id = Uob.4 hours = 1 }
 		}
 	}
@@ -152,7 +405,7 @@ focus_tree = {
 		icon = ENG_fishing_industry_expansion
 		x = 14
 		y = 5
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_rural_renovation }
 		ai_will_do = {
@@ -173,6 +426,14 @@ focus_tree = {
 		
 	}
 	add_opinion_modifier = { target = NOR modifier = medium_decrease }
+	swap_ideas = {
+	remove_idea = ENG_food_import 
+	add_idea = ENG_Import_Dependency_fishing
+	}
+	swap_ideas = {
+	remove_idea = NBP_rural
+	add_idea = ENG_NBP_fishing
+	}
 	}
 	}
 
@@ -206,9 +467,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_centralized_economy 
-		}
-		prerequisite = {
-		focus = ENG_mixed_economy 
+                        focus = ENG_mixed_economy
 		}
 		ai_will_do = {
 			factor = 1
@@ -246,6 +505,7 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = ENG_mixed_economy
+                        focus = ENG_centralized_economy
 
 		}		
 		ai_will_do = {
@@ -305,7 +565,7 @@ focus_tree = {
 		icon = ENG_peacetime_development
 		x = 13
 		y = 3
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_new_britain_plan }
 		ai_will_do = {
@@ -325,7 +585,7 @@ focus_tree = {
 		icon = ENG_industrial_spearhead
 		x = 11
 		y = 4
-		cost = 10
+		cost = 7
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_peacetime_development }
 		mutually_exclusive = { focus = ENG_rural_renovation }
@@ -336,7 +596,11 @@ focus_tree = {
 			country_event = { id = Uob.2 hours = 1 }
 			swap_ideas = {
 				remove_idea = ENG_new_britain_plan
-				add_idea = NBP_ISH
+				add_idea = NBP_ISH 
+			}
+			swap_ideas = {
+				remove_idea = ENG_food_import
+				add_idea = ENG_food_import_2 
 			}
 		}
 	}
@@ -375,9 +639,7 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {  
-				NBP_NBI
-			}
+            add_ideas = NBP_NBI
 			country_event = { id = Uob.7 hours = 1 }
 		}
 	}
@@ -434,15 +696,18 @@ focus_tree = {
 		icon = ENG_mosleys_democratic_election
 		x = 11
 		y = 0
-		cost = 10
+		cost = 6
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
 			add_political_power = 100
-
+                        hidden_effect = {
+				news_event = { id = worldnews.1 hours = 4 }
+			}
 		}
+                 
 	}
 
 	#Focus for Industrial Research Grant
@@ -451,7 +716,7 @@ focus_tree = {
 		icon = ENG_industrial_research_grant
 		x = 10
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
@@ -539,20 +804,22 @@ focus_tree = {
 		icon = ENG_a_professional_workforce
 		x = 12
 		y = 5
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_industrial_spearhead }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-
 			swap_ideas = {
-				remove_idea = NBP_ISH
-				add_idea = NBP_Professional_Workfoce
+			remove_idea = NBP_ISH
+			add_idea = NBP_Professional_Workforce
+			}	
+
 			}
+
 		}
-	}
+	
 
 	#Focus for The English way of life
 	focus = {
@@ -560,16 +827,14 @@ focus_tree = {
 		icon = ENG_way_of_life_focus
 		x = 16
 		y = 3
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_english_socialist_victory }
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = {
-				ENG_way_of_life
-			}
+		    add_war_support = 0.05
 			country_event = { id = Uob.3 hours = 1 }
 		}
 	}
@@ -580,7 +845,7 @@ focus_tree = {
 		icon = ENG_towards_food_self_sufficency
 		x = 15
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_fields_of_britain_campaign 
@@ -590,7 +855,15 @@ focus_tree = {
 			factor = 1
 		}
 		completion_reward = {
-			country_event = { id = Uob.5 hours = 1 }
+		swap_ideas = {
+	     remove_idea = ENG_Import_Dependency_fishing
+		 add_idea = ENG_Import_Dependency_towards_food_ss
+        }
+		swap_ideas = {
+		   remove_idea = ENG_NBP_fishing
+		   add_idea = NBP_rural_1
+        }		
+		country_event = { id = Uob.5 hours = 1 }
 		}
 	}
 
@@ -613,21 +886,6 @@ focus_tree = {
 		}
 	}
 
-
-	#Focus for Operation Wilfred
-	focus = {
-		id = ENG_operation_wilfred
-		icon = ENG_operation_wilfred
-		x = 38
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for Project Northumberland
 	focus = {
 		id = ENG_project_northumberland
@@ -637,34 +895,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_reforming_the_airdefense_system }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Operation Fork
-	focus = {
-		id = ENG_operation_fork
-		icon = ENG_operation_fork
-		x = 36
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Department of the North Sea
-	focus = {
-		id = ENG_department_of_the_north_sea
-		icon = focus_eng_global_defense
-		x = 36
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
 		ai_will_do = {
 			factor = 1
 		}
@@ -683,44 +913,7 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Department of British Isles
-	focus = {
-		id = ENG_department_of_british_isles
-		icon = focus_eng_global_defense
-		x = 34
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
-
-
-
-
-	#Focus for Operation Strongbow
-	focus = {
-		id = ENG_operation_strongbow
-		icon = ENG_operation_strongbow
-		x = 34
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	
-
-
-
-	#Focus for Will you disown your native land?
+    #Focus for Will you disown your native land?
 	focus = {
 		id = ENG_will_you_disown_your_native_land
 		icon = ENG_will_you_disown_your_native_land
@@ -766,36 +959,6 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
-
-
-	#Focus for R.E.D Atlantic Division
-	focus = {
-		id = ENG_red_atlantic_division
-		icon = ENG_red_atlantic_division
-		x = 35
-		y = 0
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Operation Pendragon II
-	focus = {
-		id = ENG_operation_pendragon_ii
-		icon = ENG_operation_pendragon_ii
-		x = 32
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 
 	#Focus for Destruction of the Regime
 	focus = {
@@ -1175,26 +1338,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Plan Rose
-	focus = {
-		id = ENG_plan_rose
-		icon = ENG_plan_rose
-		x = 36
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Sits idelness Encrowned
 	focus = {
@@ -1271,27 +1414,6 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_destruction_of_the_regime }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Plan Violet
-	focus = {
-		id = ENG_plan_violet
-		icon = ENG_plan_violet
-		x = 38
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1395,39 +1517,6 @@ focus_tree = {
 		}
 	}
 
-	#Focus for Plan Lily
-	focus = {
-		id = ENG_plan_lily
-		icon = ENG_plan_lily
-		x = 40
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Plan Osborne
-	focus = {
-		id = ENG_plan_osborne
-		icon = focus_generic_paratrooper
-		x = 34
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_strongbow }
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	#Focus for Worker's Self-Management
 	focus = {
@@ -1794,19 +1883,38 @@ focus_tree = {
 		icon = ENG_british_railway_collective
 		x = 13
 		y = 6
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_industrial_spearhead 
-			focus = ENG_rural_renovation 
+			focus = ENG_industrial_expansion
+			focus = ENG_towards_food_self_sufficency
 		}
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			add_ideas = { NBP_RAILROAD }
-			country_event = { id = Uob.6 hours = 1 }
+		 if = {
+				limit = {
+					has_completed_focus = ENG_industrial_expansion
+				}
+			
+			swap_ideas = {
+			remove_idea = NBP_industrial_expansion
+			add_idea =  NBP_railroad_1
 		}
-	}	
+			}
+
+		else = {
+			
+			swap_ideas = {
+			remove_idea = NBP_rural_1
+			add_idea = NBP_railroad_2
+		}
+
+		}
+		}
+		}
+		
+		
 #End of focuses 
  }

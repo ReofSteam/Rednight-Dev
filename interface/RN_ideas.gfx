@@ -232,7 +232,11 @@ spriteType = {
 		spriteType = {
 		name = "GFX_idea_RUS_narodost_3"
 		texturefile = "gfx/interface/ideas/RUS/RUS_narodost_3.dds"
-	}			
+	}	
+    spriteType = {
+		name = "GFX_idea_RUS_enemy_with_in"
+		texturefile = "gfx/interface/ideas/RUS/RUS_enemy_with_in.png"
+	}		
 			
 ###Quebec#####
 	spriteType = {
@@ -513,7 +517,7 @@ spriteType = {
 #########ENG
 	spriteType = {
 	    name = "GFX_idea_ENG_franco_british_rivalry"
-		texturefile = "gfx/interface/ideas/ENG/ENG_french_rivalry.tga"
+		texturefile = "gfx/interface/ideas/ENG/ENG_french_rivalry.png"
 	}	
 	spriteType = {
 	    name = "GFX_idea_ENG_united_britain"

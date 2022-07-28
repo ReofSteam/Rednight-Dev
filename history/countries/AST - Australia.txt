@@ -62,7 +62,7 @@ set_country_flag = coalition_authoritarian_democrat
 set_country_flag = coalition_autocratic
 
 
-set_convoys = 650
+set_convoys = 150
 
 create_country_leader = {
 	name = "Thomas Blamey"

@@ -1,9 +1,12 @@
 focus_tree = {
-	id = RN_Austria
+	id = AUS
 	country = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
 	}
-	default = yes
 	focus = {
 		id = AUS_the_dolfuss_regime
 		icon = GFX_AUS_dollfuss_regime
@@ -14,7 +17,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_csvfo_victory
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		cost = 10
 		x = 18
 		y = 0
@@ -22,7 +25,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_heimwehr_coup
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_one_party
 		cost = 10
 		x = 5
 		y = 6
@@ -30,7 +33,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_austrian_military
-		icon = GFX_goal_unknown
+		icon = GFX_focus_secret_rearmament
 		cost = 10
 		x = 18
 		y = 8
@@ -63,7 +66,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_incorporating_heimwehr
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_deal
 		cost = 10
 		prerequisite = {
 			focus = AUS_heimwehr_coup
@@ -100,7 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_russian_loans
-		icon = GFX_focus_generic_funds
+		icon = GFX_focus_generic_russian_loans
 		cost = 10
 		prerequisite = {
 			focus = AUS_decrease_pangerman
@@ -151,7 +154,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_volkich_outlook
-		icon = GFX_goal_unknown
+		icon = GFX_goal_support_fascism
 		cost = 10
 		prerequisite = {
 			focus = AUS_heimwehr_coup
@@ -162,7 +165,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_secularization
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		cost = 10
 		prerequisite = {
 			focus = AUS_volkich_outlook
@@ -187,7 +190,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_cultural_council
-		icon = GFX_goal_unknown
+		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10
 		prerequisite = {
 			focus = AUS_vertical_revolution
@@ -198,7 +201,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_catholic_governance
-		icon = GFX_goal_unknown
+		icon = GFX_focus_mex_restore_the_army_of_christ
 		cost = 10
 		prerequisite = {
 			focus = AUS_cultural_council
@@ -209,7 +212,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_state_diet
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		cost = 10
 		prerequisite = {
 			focus = AUS_vertical_revolution
@@ -220,7 +223,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_abolish_parliament
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10
 		prerequisite = {
 			focus = AUS_catholic_governance
@@ -234,7 +237,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_dismantle_parties
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_major_war
 		cost = 10
 		prerequisite = {
 			focus = AUS_abolish_parliament
@@ -245,7 +248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_economic_council
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_industry_3
 		cost = 10
 		prerequisite = {
 			focus = AUS_vertical_revolution
@@ -256,7 +259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_agricultural_cooperative
-		icon = GFX_goal_unknown
+		icon = GFX_focus_SOV_breadbasket_of_the_union
 		cost = 10
 		prerequisite = {
 			focus = AUS_state_diet
@@ -270,7 +273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_establish_guilds
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_small_arms
 		cost = 10
 		prerequisite = {
 			focus = AUS_agricultural_cooperative
@@ -281,7 +284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_catholic_model
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_the_family
 		cost = 10
 		prerequisite = {
 			focus = AUS_dismantle_parties
@@ -382,7 +385,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_weeding_rats
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10
 		prerequisite = {
 			focus = AUS_maintain_steady_course
@@ -394,7 +397,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_purge_heimatschutz
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		cost = 10
 		prerequisite = {
 			focus = AUS_weeding_rats
@@ -405,7 +408,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_incorporate_remnants
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_conspiracy
 		cost = 10
 		prerequisite = {
 			focus = AUS_purge_heimatschutz
@@ -438,7 +441,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_protect_rural
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_farm_requisition
 		cost = 10
 		prerequisite = {
 			focus = AUS_maintain_steady_course
@@ -449,7 +452,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_government_propaganda
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_film
 		cost = 10
 		prerequisite = {
 			focus = AUS_protect_rural
@@ -460,7 +463,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_strengthen_dolfuss
-		icon = GFX_goal_unknown
+		icon = GFX_AUS_dollfuss_years
 		cost = 10
 		prerequisite = {
 			focus = AUS_maintain_steady_course
@@ -471,7 +474,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_maintain_powerbase
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_secret_service
 		cost = 10
 		prerequisite = {
 			focus = AUS_strengthen_dolfuss
@@ -482,7 +485,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_create_mass_movement
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_study
 		cost = 10
 		prerequisite = {
 			focus = AUS_government_propaganda
@@ -496,7 +499,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_vote_obey
-		icon = GFX_goal_unknown
+		icon = ENG_the_ages_yet_to_extinguish
 		cost = 10
 		prerequisite = {
 			focus = AUS_maintain_powerbase
@@ -532,7 +535,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_cs_control
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strengthen_cabinet
 		cost = 10
 		prerequisite = {
 			focus = AUS_strengthen_dolfuss
@@ -543,7 +546,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_centralize_banks
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_capitalism
 		cost = 10
 		prerequisite = {
 			focus = AUS_maintain_steady_course
@@ -579,7 +582,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_farmer_help
-		icon = GFX_goal_unknown
+		icon = ENG_fields_of_britain_campaign
 		cost = 10
 		prerequisite = {
 			focus = AUS_centralize_banks
@@ -590,7 +593,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_farmer_welfare
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_funds
 		cost = 10
 		prerequisite = {
 			focus = AUS_cs_control
@@ -637,7 +640,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_russian_aid
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Generic_Rus_Cooperation
 		cost = 10
 		prerequisite = {
 			focus = AUS_rebuild_steyrwork
@@ -659,7 +662,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_dolfuss_control
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 10
 		prerequisite = {
 			focus = AUS_farmer_welfare
@@ -673,7 +676,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_establishing_heimatblock
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		cost = 10
 		prerequisite = {
 			focus = AUS_heimwehr_coup
@@ -684,7 +687,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_dismantle_dolfuss
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 10
 		prerequisite = {
 			focus = AUS_incorporating_heimwehr
@@ -695,7 +698,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_one_party_state
-		icon = GFX_AUS_one_party
+		icon = GFX_focus_generic_military_dictatorship
 		cost = 10
 		prerequisite = {
 			focus = AUS_establishing_heimatblock
@@ -712,7 +715,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_paramilitary_justice
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_small_arms
 		cost = 10
 		prerequisite = {
 			focus = AUS_one_party_state
@@ -723,7 +726,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_centralize_state
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		prerequisite = {
 			focus = AUS_one_party_state
@@ -734,7 +737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_industrial_push
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		prerequisite = {
 			focus = AUS_one_party_state
@@ -745,7 +748,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_new_life
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_study
 		cost = 10
 		prerequisite = {
 			focus = AUS_paramilitary_justice
@@ -759,7 +762,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_five_years
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_worker_effort
 		cost = 10
 		prerequisite = {
 			focus = AUS_centralize_state
@@ -773,7 +776,7 @@ focus_tree = {
 	}
 	focus = {
 		id = AUS_new_regime
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_sphere
 		cost = 10
 		prerequisite = {
 			focus = AUS_new_life
