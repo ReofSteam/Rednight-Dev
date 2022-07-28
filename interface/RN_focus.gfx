@@ -136,7 +136,10 @@ spriteTypes = {
         name = "GFX_focus_generic_foods"
         texturefile = "gfx/interface/goals/generic/generic_foods.png"
     }
-	
+	SpriteType = { 
+		name = "GFX_focus_generic_socialist_worker"
+		texturefile = "gfx/interface/goals/generic/The_socialist_worker.png"
+	}		
 
  ##########Attack Country
 	SpriteType = { 
@@ -1172,7 +1175,15 @@ spriteTypes = {
     SpriteType = { 
 		name = "GFX_INC_nguyen_duc_canh"
 		texturefile = "gfx/interface/goals/INC/INC_PNI_workers_clique.png"
-	}	
+	}
+    SpriteType = { 
+		name = "GFX_INC_red_guards"
+		texturefile = "gfx/interface/goals/INC/INC_red_guards.png"
+	}		
+    SpriteType = { 
+		name = "GFX_INC_dayoftherepublic"
+		texturefile = "gfx/interface/goals/INC/INC_dayoftherepublic.tga"
+	}		
  ############Spain
     SpriteType = { 
 		name = "GFX_CNT_a_national_revolution"

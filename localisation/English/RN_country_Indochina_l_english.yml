@@ -132,6 +132,7 @@ INC_common_education_desc: "The Common Education Commission has but one overridi
 ### Flags ###
 
 ### Tooltips ###
+INC_republican_disloyalty_increases:0 "Separatist Influence Increases"
 
 ### Companies ###
 
@@ -146,9 +147,10 @@ POLITICS_HO_HOC_LAM_DESC: "Ho Hoc Lam is the quintessential revolutionary, a com
 
 ### Events ###
 
-inc.1.t:0 "Day of the Republic"
-inc.1.d:0 "As we celebrate our annual “Day of the Republic” and enter the Third Republican Year it is important we look back upon our great history, but also towards our uncertain future.In 1947, the twin shackles of feudalism and colonialism were shattered. Our homeland returned to its people’s hands. To the Viets went Vietnam, to the Laotians went Laos, to the Khmer went Kampuchea. A union of freeborn republics, conceived in liberty and revolutionary fire came to be.\nNow it is 1950, and in those two years since our people stood proudly together much has changed.The government is ruled by the ever fragile “United Coalition Government”. A frankenstein compromise between the leftist Democratic Popular Front and the traditionalist National front. Both formed from smaller parties during the revolution and neither often willing to work with the other.\nIn addition to a seemingly impossible government, the Indochinese economy is now starting from scratch. Its ministers constantly fight to stave off famine and stabilize monetary crises. Industrialisation still seems like a distant dream.Despite bipartisan programmes, Illiteracy also remains common. A remnant of hundreds of years of ngu dân (suppression of basic literacy) by colonial oppressors. Much more will have to be done to improve the situation, after all education is the lifeblood of democracy.The National Army mirrors its government. Constructed from hundreds of highly partisan revolutionary remnants, centralized command is impossible. For this and many other reasons both the NF and DPF maintain their own private militias.\nIn the east, the rising sun looms large. Making more and more aggressive overtures, many in our nation fear the pearl of the orient cannot survive its menace.On this national holiday, we must not lose sight of the work that is to be done. For If we lose sight now, all the martyrs of the revolution may have died in vain."
-inc.1.a:0 "Long live the People, Long live the Revolution"
+inc.1.t:0 "Indochinese Legislative Election"
+inc.1.d:0 "Our republic is democratic and our institutions are elected by universal suffrages, but due to the peculiar nature of our nation, still recovering from the plight of famine and centuries of ignorance, caused by the despots at home and abroad, the National Party have taken its mantle to guide the nation to freedom. The people will elect their parliament but its known that the PNI has the mantle of the nation and will undoubtedly win a majority. What the people expect from this joyous civic holiday is the for the National Congress of the PNI to decide its new chairman, and by virtue, the Prime Minister of the Federal Government."
+inc.1.a:0 "Our future in a moment..."
+
 inc.5.t:0 "German officers will lead the efforts"
 inc.5.d:0 "In the twilight hours of yesterday afternoon famous general Nguyen Van To Quoc of the Euro-African Corps arrived via a biplane in Saigon. A Vietnamese by the citizenship forced upon him but is an ethnic German also known as Arno Von Lenski, the General has always been a somewhat controversial outsider. A status compounded by both his heritage and  allegations of crimes against the people during his time within colonial forces. Regardless, it seems that the admiration of his combat record has triumphed over cries of protest within the government. After being restored to his pre-war rank, Lenski's teachings will apparently be used to whip the overzealous militia and disorganized units into shape. A small part of a larger government initiative to modernize the armed forces. Only time will tell if his efforts can accomplish such a task." 
 inc.5.a:0 "Good luck, Herr General"
@@ -161,9 +163,7 @@ inc.7.t:0 "Chinese officers will lead the efforts"
 inc.7.d:0  "A small crowd gathered today in the Haiphong harbor, bearing witness to the return of another ship fulls of Indochinese expats in China. Standing on the ship's deck to accompany the weary returning civilians was Chinese General Hu Lien and a group of officers from the Whampoa Military Academy. Invited to northern Indochina as part of an initiative to help modernize the armed forces. Reporters present described the General as a Jovial man, laughing  and making conversation with soldiers and inquiring about their various homelands. Despite his seemingly informal nature, Hu Lien has an impressive combat record attached to his name. While not from a more disciplined European army, he is likely a safe choice for such a job."
 inc.7.a:0 "Good luck, Comrade."
 
-inc.10.t:0 "Indochina Legislative Election"
-inc.10.d:0 "While elections occured in the time of colonial rule, true mass democracy is a relatively new concept in Indochina. What was once the sole domain of the european clubs, rich capitalists, and scheming plantation owners now belongs to every house and village. As a result, its implementation has been turbid and tumultuous.The 1948 election was a frantic battle in the true meaning of the word. None can truly recall just how many bullets were exchanged in militia shootouts to recover stolen ballot boxes. Fewer still can confirm how many voters found themselves intimidated by gangs to vote one way or another.To say that the results of the election were dubious is an understatement. The First People's Parliament has been based on contribution during the revolution and hasty compromises more then serious ballot counts.\n\nNow, on the eve of yet another election, things are looking to be just as savage. The united coalition government has collapsed, it's absurd contradictions finally ushering in its undoing. In its place, both sides gear up for the final struggle. The future of Indochina for decades to come is about to be sealed. As police forces enact their futile preparations in cities across Indochina. Soon, the militias will storm to the voting places to the sounds of fluttering paper and rifle fire. The time has come to finally decide the destiny of the republic, and the soul of the Indochinese people."
-inc.10.a:0 "Our future in a moment..."
+
 
 inc.20.t:0 "Dissolution of the Union of Republics"
 inc.20.d:0 "In 1948, the whole of Indochina came together under a single flag. A centuries old vision of a free and united peninsula had been realized. However all dreams end, and today the vietnamese people finally awoke from their long slumber. The Union of Indochina takes its place in the altar of the past. From its ashes; three republics arise.\nWe tried to build utopia. Bring our Brothers forth with us into the future. Perhaps we were too naive, to believe that the Cham and Khmer shared our vision. Somewhere along the way, we were blinded by glory and got lost in the clouds.To our west, nationalists and pragmatists alike celebrate the deaths of what they saw as an oppressive bureaucracy eternally dominated by the vietnamese. Parades and parties are breaking out in the streets.\nIn Saigon, the city is silent.\nSolidarity and Victory to the Khmer nation, the Champa nation and the Viet nation, may our bound last 'till the last dust of the earth passed away."
@@ -177,6 +177,10 @@ inc.29.d:0 "Whiplash inducing developments came out of Phnom Penh today. Only ho
 inc.29.a:0 "Good job comrades."
 inc.32.t:0 "Viet Bac in operation again!"
 inc.32.d:0 "The last retreating regiments from Hanoi have assembled in Vietbac, the base established in the early days of the Revolution by the Vietnam Liberation Army. It now serves as a temporary capital for all forces and territories of the DRV in the north. Lt. General Hoang Van Thai has assumed command of the Resistance-Administrative Committee and all 4 Resistance zones under its jurisdiction. With the loss of most major cities throughout northern  Vietnam, his command is entirely independent. This is compounded by the extreme difficulty of currently communicating with the central government."
+
+incnews.1.t:0 "[GetNewsHeadline]Shocking Result from Election!"
+incnews.1.d:0 "As predicted, a supermajority of the PNI and allied parties continue to dominate the Federal People's Parliament, but upsetting results have shocked Phnom Phenh and Saigon. Son Ngoc Thanh's Free Khmer Coalition has managed to achieve a slight majority over the Republicans and Socialists of Cambodia, the PNI party in Cambodia. They will go on to form a new government, despite the fact the PNI controls the media, the police and the state institutions of the fledgling democracy, it would seem that the memory of the 1949 riot is still powerful enough to compel such a change. Only time will tell what outcome the separatist groups will have on both Kampuchea and the union as a whole."
+incnews.1.a:0 "The Khmer is Khmer-ing, get it?"
  #TODO
  INC_the_new_parliament:0 "The New Parliament"
  INC_the_new_parliament_desc:0 ""
@@ -212,7 +216,7 @@ inc.32.d:0 "The last retreating regiments from Hanoi have assembled in Vietbac, 
  RN_INC_cambodia_status:0 "§YOPPOSITION§!"
 
  #TODO
- INC_repeal_article_24:0 "Repeal Article 24"
+ INC_repeal_article_24:0 "Repeal Article 12"
  INC_repeal_article_24_desc:0 ""
  INC_reorganise_red_guards:0 "Reorganise Red Guards"
  INC_reorganise_red_guards_desc:0 ""
@@ -234,3 +238,6 @@ inc.32.d:0 "The last retreating regiments from Hanoi have assembled in Vietbac, 
  INC_nationalise_foreign_estates_desc:0 ""
  INC_enemies_of_the_republic:0 "Enemies of the Republic"
  INC_enemies_of_the_republic_desc:0 ""
+ 
+ ####Tooltips
+ 

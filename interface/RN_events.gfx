@@ -198,6 +198,10 @@ spriteTypes = {
 		spriteType = { 
 		name = "GFX_news_american_peace"
 		texturefile = "gfx/event_pictures/news_peace.dds"
+	}
+		spriteType = { 
+		name = "GFX_news_khmer_army"
+		texturefile = "gfx/event_pictures/news_khmer_army.png"
 	}	
 		spriteType = { 
 		name = "GFX_germany_occupation_ends"
