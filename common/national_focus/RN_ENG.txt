@@ -626,7 +626,7 @@ focus_tree = {
 		icon = ENG_enterprise_financial_autonomy
 		x = 6
 		y = 6
-		cost = 10
+		cost = 8
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_limited_liberalization }
 		ai_will_do = {
