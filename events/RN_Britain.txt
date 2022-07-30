@@ -220,19 +220,35 @@ create_country_leader = {
 	}
 }
 
-country_event = { #
-	id = ENGnews.1
+country_event = { # Death of Orwell
+	id = ENG.9
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
 
-	title = ENGnews.1.t
-	desc = ENGnews.1.d
-	picture = FRA_oslobomb
+	title = ENG.9.t
+	desc = ENG.9.d
+	picture = GFX_ENG_blair
 
 	is_triggered_only = yes
+	fire_only_once = yes
 
+    option = {
+		name = ENG.9.a
+	}
+}
 
-	option = {
-		name = ENGnews.1.a
+country_event = { # Death of Orwell
+	id = ENG.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = boz.1.t
+	desc = boz.1.d
+	picture = GFX_homecoming
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = boz.1.a
 	}
 }
 

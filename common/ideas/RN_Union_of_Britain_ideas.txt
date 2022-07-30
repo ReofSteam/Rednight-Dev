@@ -15,6 +15,20 @@ ideas = {
 			removal_cost = -1
 			picture = ENG_united_britain
 		}
+		ENG_united_britain_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_united_britain"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			war_support_factor = 0.05
+			stability_factor = 0.15
+
+			}
+			removal_cost = -1
+			picture = ENG_united_britain
+		}
 		ENG_postwar_recession = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_postwar_recession"}
 			allowed = {
@@ -232,7 +246,7 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 			production_factory_efficiency_gain_factor = 0.05
-			consumer_goods_factor = -0.05
+			consumer_goods_factor = -0.03
 			}
 			removal_cost = -1
 		}
@@ -244,7 +258,7 @@ ideas = {
 			            allowed_civil_war = { always = yes }
             modifier = {
 		    line_change_production_efficiency_factor = 0.05
-			consumer_goods_factor = -0.07
+			consumer_goods_factor = -0.05
 			production_factory_efficiency_gain_factor = 0.05
 			}
 			removal_cost = -1
@@ -259,42 +273,93 @@ ideas = {
 			production_speed_buildings_factor  = 0.05
 			political_power_gain  = 0.15
 			production_factory_efficiency_gain_factor = 0.05
-			consumer_goods_factor = -0.05
+			consumer_goods_factor = -0.03
 			}
 			removal_cost = -1
 		}
-		NBP_Bureaucratic   = { #submarine program
+		NBP_Bureaucratic_1   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			consumer_goods_factor   = 0.05
-			stability_factor   = 0.02
+			production_speed_buildings_factor  = 0.05
+			political_power_gain  = 0.15
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.02
 			}
 			removal_cost = -1
 		}
-		NBP_Middle    = { #submarine program
+		NBP_Bureaucratic_2   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			consumer_goods_factor   = 0.05
-			stability_factor   = 0.05
+			line_change_production_efficiency_factor = 0.05
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.02
 			}
 			removal_cost = -1
 		}
-		NBP_Quo   = { #submarine program
+		NBP_Middle_1    = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
 			allowed = {
 				always = no
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			drift_defence_factor    = 0.5
+			production_speed_buildings_factor  = 0.05
+			political_power_gain  = 0.15
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.07
+			}
+			removal_cost = -1
+		}
+		NBP_Middle_2    = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			line_change_production_efficiency_factor = 0.05
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.07
+			}
+			removal_cost = -1
+		}
+		NBP_Quo_1   = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			opinion_gain_monthly_same_ideology_factor = 0.5
+			production_speed_buildings_factor  = 0.05
+			political_power_gain  = 0.15
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.07
+			}
+			removal_cost = -1
+		}
+		NBP_Quo_2   = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			opinion_gain_monthly_same_ideology_factor = 0.5
+			line_change_production_efficiency_factor = 0.05
+			consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = 0.05
+			stability_factor = 0.07
 			}
 			removal_cost = -1
 		}
@@ -307,8 +372,8 @@ ideas = {
             modifier = {
 			political_power_gain  = -0.15
 			stability_factor = -0.02
-			consumer_goods_factor = -2 
-			production_speed_buildings_factor =0.05
+			consumer_goods_factor = -0.02 
+			production_speed_buildings_factor = 0.05
 			}
 			removal_cost = -1
 		}
@@ -319,10 +384,10 @@ ideas = {
 			}
 			            allowed_civil_war = { always = yes }
             modifier = {
-			political_power_gain = -0.10
-			stability_factor = -0.05
-			consumer_goods_factor = -0.5 
-			production_speed_buildings_factor =0.05
+			political_power_gain  = -0.25
+			stability_factor = -0.07
+			consumer_goods_factor = -0.07
+			production_speed_buildings_factor = 0.1
 			}
 			removal_cost = -1
 		}
