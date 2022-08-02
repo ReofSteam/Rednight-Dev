@@ -217,6 +217,8 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { 
 			focus = ENG_industrial_research_grant 
+		}
+		prerequisite = { 
 			focus = ENG_a_professional_workforce 
 		}
 		ai_will_do = {
@@ -522,7 +524,8 @@ focus_tree = {
 			focus = ENG_mixed_economy
                         focus = ENG_centralized_economy
 
-		}		
+		}
+	
 		ai_will_do = {
 			factor = 1
 		}
@@ -651,6 +654,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_new_britain_plan
 		}
+		available = {
+        has_completed_focus = ENG_peacetime_development
+        }	
 		
 		ai_will_do = {
 			factor = 1

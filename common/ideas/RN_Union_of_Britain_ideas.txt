@@ -119,6 +119,7 @@ ideas = {
       			stability_factor = -0.07
 				industrial_capacity_factory = -0.05
 			}
+			picture = factory
 			removal_cost = -1
 		}
 		NBP_ISH = { #industrial_spearhead
@@ -136,6 +137,7 @@ ideas = {
 			industrial_capacity_factory = 0.1
 			}
 			removal_cost = -1
+			picture = factory
 		}
 		ENG_NBP_fishing = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
@@ -150,6 +152,7 @@ ideas = {
       		stability_factor = -0.07
 			industrial_capacity_factory = -0.05
 			}
+			picture = ENG_rural
 
 			removal_cost = -1
 		}
@@ -166,6 +169,7 @@ ideas = {
             consumer_goods_factor = -0.02
 			}
 			removal_cost = -1
+			picture = LIT_invested_in_farms
 		}
 		NBP_railroad_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -185,6 +189,7 @@ ideas = {
 			production_factory_max_efficiency_factor = 0.1
             global_building_slots_factor = 0.1
 			}
+			picture = factory
 			removal_cost = -1
 		}
 		NBP_railroad_2 = { #submarine program
@@ -202,6 +207,7 @@ ideas = {
 			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
+			picture = ENG_rural
 		}
 		NBP_NHS = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -222,6 +228,7 @@ ideas = {
             global_building_slots_factor = 0.1
 			}
 			removal_cost = -1
+			picture = factory
 		}
 		NBP_NHS_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -237,6 +244,7 @@ ideas = {
 			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
+			picture = ENG_rural
 		}
 		NBP_NBI = { #National Bourgossies Initiative
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NBP_NBI"}
@@ -249,6 +257,7 @@ ideas = {
 			consumer_goods_factor = -0.03
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_mixed = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -262,6 +271,7 @@ ideas = {
 			production_factory_efficiency_gain_factor = 0.05
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Centralized  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -276,6 +286,7 @@ ideas = {
 			consumer_goods_factor = -0.03
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Bureaucratic_1   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -290,6 +301,7 @@ ideas = {
 			stability_factor = 0.02
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Bureaucratic_2   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -304,6 +316,7 @@ ideas = {
 			stability_factor = 0.02
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Middle_1    = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -318,6 +331,7 @@ ideas = {
 			stability_factor = 0.07
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Middle_2    = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -332,6 +346,7 @@ ideas = {
 			stability_factor = 0.07
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Quo_1   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -347,6 +362,7 @@ ideas = {
 			stability_factor = 0.07
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Quo_2   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -362,6 +378,7 @@ ideas = {
 			stability_factor = 0.07
 			}
 			removal_cost = -1
+			picture = ENG_capitalist
 		}
 		NBP_Liberal = { #Limited Liberalization
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -376,6 +393,7 @@ ideas = {
 			production_speed_buildings_factor = 0.05
 			}
 			removal_cost = -1
+			picture = ENG_lib_enterprise
 		}
 		NBP_Enterprice = { #Enterprice
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -388,8 +406,10 @@ ideas = {
 			stability_factor = -0.07
 			consumer_goods_factor = -0.07
 			production_speed_buildings_factor = 0.1
+			picture = ENG_lib_enterprise
 			}
 			removal_cost = -1
+			picture = ENG_lib_enterprise
 		}
 		NBP_Professional_Workforce = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -408,17 +428,7 @@ ideas = {
 			production_factory_max_efficiency_factor = 0.1
 			}
 			removal_cost = -1
-		}
-		NBP_steady = { #submarine program
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
-			allowed = {
-				always = no
-			}
-			            allowed_civil_war = { always = yes }
-            modifier = {
-			stability_factor  = 0.10
-			}
-			removal_cost = -1
+			picture = factory
 		}
 		
 		NBP_industrial_expansion  = { #submarine program
@@ -438,6 +448,7 @@ ideas = {
 			production_factory_max_efficiency_factor = 0.1
             global_building_slots_factor = 0.1
 			}
+			picture = factory
 			removal_cost = -1
 		}
 		NBP_rural  = { #submarine program
@@ -453,6 +464,7 @@ ideas = {
 			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
+			picture = ENG_rural
 		}
 		NBP_rural_1  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -468,6 +480,7 @@ ideas = {
 			industrial_capacity_factory = -0.05
 			}
 			removal_cost = -1
+			picture = ENG_rural
 		}
 		######
 }
