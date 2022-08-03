@@ -119,6 +119,10 @@ spriteTypes = {
 		name = "GFX_ENG_industrial"
 		texturefile = "gfx/event_pictures/ENG_industrial.png"
 	}
+	spriteType = { 
+		name = "GFX_ENG_blair"
+		texturefile = "gfx/event_pictures/ENG_blair.png"
+	}
 
 	####CSA
 	spriteType = { 

@@ -352,8 +352,12 @@ spriteType = {
 	}	
 	spriteType = {
 		name = "GFX_idea_Import_Dependency"
-		texturefile = "gfx/interface/ideas/generic/Import_Dependency.tga"
-	}		
+		texturefile = "gfx/interface/ideas/generic/Import_Dependency.png"
+	}	
+    spriteType = {
+		name = "GFX_idea_factory"
+		texturefile = "gfx/interface/ideas/generic/factory.png"
+	}	
 	spriteType = {
 		name = "GFX_idea_economy_bad"
 		texturefile = "gfx/interface/ideas/generic/economy_bad.dds"
@@ -523,4 +527,16 @@ spriteType = {
 	    name = "GFX_idea_ENG_united_britain"
 		texturefile = "gfx/interface/ideas/ENG/ENG_United_England.tga"
 	}	
+	spriteType = {
+	    name = "GFX_idea_ENG_capitalist"
+		texturefile = "gfx/interface/ideas/ENG/ENG_capitalist.png"
+	}	
+	spriteType = {
+	    name = "GFX_idea_ENG_lib_enterprise"
+		texturefile = "gfx/interface/ideas/ENG/ENG_lib_enterprise.png"
+	}
+	spriteType = {
+	    name = "GFX_idea_ENG_rural"
+		texturefile = "gfx/interface/ideas/ENG/ENG_rural.png"
+	}
 }

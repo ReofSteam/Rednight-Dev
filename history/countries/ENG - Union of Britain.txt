@@ -208,3 +208,13 @@ create_equipment_variant = {
 			ship_armor_upgrade = 1
 		}
 	}
+
+
+country_event = {
+id = ENG.9
+days = 21
+}
+country_event = {
+id = ENG.10
+days = 362
+}
