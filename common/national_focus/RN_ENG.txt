@@ -8,210 +8,13 @@ focus_tree = {
 		}
 	}
 	
-	####R.E.D BRANCH####
 	
-	#Focus for Plan Lily
-	focus = {
-		id = ENG_plan_lily
-		icon = ENG_plan_lily
-		x = 50
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Plan Osborne
-	focus = {
-		id = ENG_plan_osborne
-		icon = ENG_plan_osborne
-		x = 44
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_strongbow }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Plan Violet
-	focus = {
-		id = ENG_plan_violet
-		icon = ENG_plan_violet
-		x = 48
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_rose 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Operation Wilfred
-	focus = {
-		id = ENG_operation_wilfred
-		icon = GFX_focus_Attack_NOR
-		x = 48
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Operation Fork
-	focus = {
-		id = ENG_operation_fork
-		icon = GFX_focus_Attack_ICE
-		x = 46
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_the_north_sea }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Department of the North Sea
-	focus = {
-		id = ENG_department_of_the_north_sea
-		icon = ENG_North_Sea_Department
-		x = 46
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#Focus for Plan Rose
-	focus = {
-		id = ENG_plan_rose
-		icon = ENG_plan_rose
-		x = 46
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_operation_wilfred }
-		mutually_exclusive = { 
-			focus = ENG_plan_violet 
-		}
-		mutually_exclusive = { 
-			focus = ENG_plan_lily 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-		#Focus for R.E.D Atlantic Division
-	focus = {
-		id = ENG_red_atlantic_division
-		icon = ENG_red_atlantic_division
-		x = 45
-		y = 0
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    #Focus for Operation Pendragon II
-	focus = {
-		id = ENG_operation_pendragon_ii
-		icon = GFX_focus_Attack_Ulster
-		x = 42
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    #Focus for Department of British Isles
-	focus = {
-		id = ENG_department_of_british_isles
-		icon = ENG_British_Isles_Department
-		x = 44
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_red_atlantic_division }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    #Focus for Operation Strongbow
-	focus = {
-		id = ENG_operation_strongbow
-		icon = GFX_focus_Attack_IRE
-		x = 44
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_department_of_british_isles }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-############
-	
-	
-	
-	#Focus for O England, Arise!
-	focus = {
-		id = ENG_o_england_arise
-		icon = ENG_o_england_arise
-		x = 25
-		y = 0
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for People's War Plan
-	focus = {
-		id = ENG_peoples_war_plan
-		icon = goal_generic_attack_allies
-		x = 28
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_home_defense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-  ###############
- #Focus for Industrial Expansion
+	##### STARTING TREE - Mosley being a nice autocrat ####
+	#Focus for Industrial Expansion
 	focus = {
 		id = ENG_industrial_expansion
 		icon = ENG_Industrial_Expansion
-		x = 11
+		x = 21
 		y = 6
 		cost = 8
 		available_if_capitulated = yes
@@ -234,12 +37,11 @@ focus_tree = {
 
 	}
 	
-
-	#Focus for NHS expansion
+    #Focus for NHS expansion
 	focus = {
 		id = ENG_nhs_expansion
 		icon = ENG_nhs_expansion
-		x = 13
+		x = 23
 		y = 7
 		cost = 7
 		available_if_capitulated = yes
@@ -282,7 +84,7 @@ focus_tree = {
 	focus = {
 		id = ENG_steady_as_she_goes
 		icon = ENG_Steady_as_she_goes
-		x = 11
+		x = 21
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
@@ -308,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = ENG_rural_renovation
 		icon = ENG_rural_renovation
-		x = 15
+		x = 25
 		y = 4
 		cost = 7
 		available_if_capitulated = yes
@@ -385,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = ENG_fields_of_britain_campaign
 		icon = ENG_fields_of_britain_campaign
-		x = 16
+		x = 26
 		y = 5
 		cost = 7
 		available_if_capitulated = yes
@@ -408,7 +210,7 @@ focus_tree = {
 	focus = {
 		id = ENG_fishing_industry_expansion
 		icon = ENG_fishing_industry_expansion
-		x = 14
+		x = 24
 		y = 5
 		cost = 7
 		available_if_capitulated = yes
@@ -446,7 +248,7 @@ focus_tree = {
 	focus = {
 		id = ENG_safeguard_the_status_qou
 		icon = ENG_safeguard_the_status_qou
-		x = 8
+		x = 18
 		y = 7
 		cost = 5
 		available_if_capitulated = yes
@@ -478,7 +280,7 @@ focus_tree = {
 	focus = {
 		id = ENG_bureaucratic_economy
 		icon = ENG_bureaucratic_economy
-		x = 8
+		x = 18
 		y = 5
 		cost = 7
 		available_if_capitulated = yes
@@ -513,7 +315,7 @@ focus_tree = {
 	focus = {
 		id = ENG_limited_liberalization
 		icon = ENG_limited_liberalization
-		x = 6
+		x = 16
 		y = 5
 		cost = 8
 		available_if_capitulated = yes
@@ -539,7 +341,7 @@ focus_tree = {
 	focus = {
 		id = ENG_centralized_economy
 		icon = ENG_centralised_economy
-		x = 9
+		x = 19
 		y = 4
 		cost = 7
 		available_if_capitulated = yes
@@ -560,7 +362,7 @@ focus_tree = {
 	focus = {
 		id = ENG_mixed_economy
 		icon = ENG_mixed_economy
-		x = 7
+		x = 17
 		y = 4
 		cost = 7
 		available_if_capitulated = yes
@@ -581,7 +383,7 @@ focus_tree = {
 	focus = {
 		id = ENG_peacetime_development
 		icon = ENG_peacetime_development
-		x = 13
+		x = 23
 		y = 3
 		cost = 8
 		available_if_capitulated = yes
@@ -601,7 +403,7 @@ focus_tree = {
 	focus = {
 		id = ENG_industrial_spearhead
 		icon = ENG_industrial_spearhead
-		x = 11
+		x = 21
 		y = 4
 		cost = 7
 		available_if_capitulated = yes
@@ -627,7 +429,7 @@ focus_tree = {
 	focus = {
 		id = ENG_enterprise_financial_autonomy
 		icon = ENG_enterprise_financial_autonomy
-		x = 6
+		x = 16
 		y = 6
 		cost = 8
 		available_if_capitulated = yes
@@ -648,7 +450,7 @@ focus_tree = {
 	focus = {
 		id = ENG_national_bourgeoisie_initiative
 		icon = ENG_national_bourgeoise_initiative
-		x = 8
+		x = 18
 		y = 3
 		cost = 8
 		available_if_capitulated = yes
@@ -671,7 +473,7 @@ focus_tree = {
 	focus = {
 		id = ENG_maximalist_victory
 		icon = ENG_maximist_victory
-		x = 11
+		x = 21
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -694,7 +496,7 @@ focus_tree = {
 	focus = {
 		id = ENG_national_labour_victory
 		icon = ENG_national_labour_victory
-		x = 6
+		x = 16
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -717,12 +519,12 @@ focus_tree = {
 	focus = {
 		id = ENG_mosleys_democratic_election
 		icon = ENG_mosleys_democratic_election
-		x = 11
+		x = 21
 		y = 0
 		cost = 6
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
 		completion_reward = {
 			add_political_power = 100
@@ -737,7 +539,7 @@ focus_tree = {
 	focus = {
 		id = ENG_industrial_research_grant
 		icon = ENG_industrial_research_grant
-		x = 10
+		x = 20
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
@@ -759,7 +561,7 @@ focus_tree = {
 	focus = {
 		id = ENG_english_socialist_victory
 		icon = ENG_english_socialist_victory
-		x = 16
+		x = 26
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -780,7 +582,7 @@ focus_tree = {
 	focus = {
 		id = ENG_new_britain_plan
 		icon = ENG_new_britain_plan
-		x = 11
+		x = 21
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -804,7 +606,7 @@ focus_tree = {
 	focus = {
 		id = ENG_middle_class_socialism
 		icon = ENG_middle_class_socialism
-		x = 8
+		x = 18
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -837,7 +639,7 @@ focus_tree = {
 	focus = {
 		id = ENG_a_professional_workforce
 		icon = ENG_a_professional_workforce
-		x = 12
+		x = 22
 		y = 5
 		cost = 5
 		available_if_capitulated = yes
@@ -860,7 +662,7 @@ focus_tree = {
 	focus = {
 		id = ENG_way_of_life_focus
 		icon = ENG_way_of_life_focus
-		x = 16
+		x = 26
 		y = 3
 		cost = 5
 		available_if_capitulated = yes
@@ -878,7 +680,7 @@ focus_tree = {
 	focus = {
 		id = ENG_towards_food_self_sufficency
 		icon = ENG_towards_food_self_sufficency
-		x = 15
+		x = 25
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -901,1022 +703,11 @@ focus_tree = {
 		country_event = { id = Uob.5 hours = 1 }
 		}
 	}
-
-
-
-
- ###############
-
-	#Focus for Interceptor Program
-	focus = {
-		id = ENG_interceptor_program
-		icon = ENG_interceptor_program
-		x = 25
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_home_isles_aerospace_defense_command }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Project Northumberland
-	focus = {
-		id = ENG_project_northumberland
-		icon = ENG_project_northumberland
-		x = 24
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_reforming_the_airdefense_system }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Defense of the Republic
-	focus = {
-		id = ENG_defense_of_the_republic
-		icon = ENG_defense_republic
-		x = 36
-		y = 6
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-    #Focus for Will you disown your native land?
-	focus = {
-		id = ENG_will_you_disown_your_native_land
-		icon = ENG_will_you_disown_your_native_land
-		x = 25
-		y = 4
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_the_ocean_sparkling_lights 
-		}
-		prerequisite = { 
-			focus = ENG_your_harvest_shall_it_reap 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Exports Revolution
-	focus = {
-		id = ENG_exports_revolution
-		icon = ENG_exports_revolution-11206
-		x = 10
-		y = 13
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_noninterventionalism }
-		mutually_exclusive = { focus = ENG_noninterventionalism }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for British Worker's Government
-	focus = {
-		id = ENG_british_workers_government
-		icon = ENG_british_workers_government
-		x = 11
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Destruction of the Regime
-	focus = {
-		id = ENG_destruction_of_the_regime
-		icon = ENG_destruction_of_the_regime
-		x = 9
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_workers_government }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for London People's Court
-	focus = {
-		id = ENG_london_peoples_court
-		icon = ENG_london_peoples_court
-		x = 8
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_destruction_of_the_regime }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for British Cultural Revolution
-	focus = {
-		id = ENG_british_cultural_revolution
-		icon = ENG_british_cultural_revolution
-		x = 13
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_workers_government }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for New Military Shipyards
-	focus = {
-		id = ENG_new_military_shipyards
-		icon = GFX_focus_generic_navy_battleship2
-		x = 48
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_maintain_the_great_fleet 
-			focus = ENG_retire_outdated_ships 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Retire Outdated Ships
-	focus = {
-		id = ENG_retire_outdated_ships
-		icon = GFX_goal_continuous_naval_production
-		x = 49
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_great_naval_reorganisation }
-		mutually_exclusive = { focus = ENG_maintain_the_great_fleet }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Maintain the Great Fleet
-	focus = {
-		id = ENG_maintain_the_great_fleet
-		icon = GFX_goal_generic_navy_battleship
-		x = 47
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_great_naval_reorganisation }
-		mutually_exclusive = { focus = ENG_retire_outdated_ships }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Personal Weapon Research
-	focus = {
-		id = ENG_personal_weapon_research
-		icon = ENG_personal_weapon_research
-		x = 44
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_artillery_focus }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Great Naval Reorganisation
-	focus = {
-		id = ENG_the_great_naval_reorganisation
-		icon = ENG_the_great_naval_reorganisation
-		x = 48
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_international_revolutionary_offense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Artillery Focus
-	focus = {
-		id = ENG_artillery_focus
-		icon = ENG_artillery_focus
-		x = 44
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_modern_infantry_tactic }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Modern Infantry Tactic
-	focus = {
-		id = ENG_modern_infantry_tactic
-		icon = ENG_new_infantry_tatic
-		x = 44
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_grand_army }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Grand Army
-	focus = {
-		id = ENG_the_grand_army
-		icon = GFX_focus_SOV_builder_of_the_red_army
-		x = 44
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_memories_of_the_second_great_war }
-		mutually_exclusive = { focus = ENG_mobile_armed_forces }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Helicopter Auxillary Forces
-	focus = {
-		id = ENG_helicopter_auxillary_forces
-		icon = ENG_helicopter_auxillary_forces
-		x = 40
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_expand_the_sas 
-			focus = ENG_expand_the_republican_marines 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Expand the SAS
-	focus = {
-		id = ENG_expand_the_sas
-		icon = ENG_expand_the_sas
-		x = 39
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_light_tanks_and_amoured_vehicles_focus }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Expand the Republican Marines
-	focus = {
-		id = ENG_expand_the_republican_marines
-		icon = ENG_marines
-		x = 41
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_mbt_focus }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Light Tanks and Amoured Vehicles Focus
-	focus = {
-		id = ENG_light_tanks_and_amoured_vehicles_focus
-		icon = ENG_light_tanks_and_amoured_vehicles_focus
-		x = 39
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_mobile_armed_forces }
-		mutually_exclusive = { focus = ENG_mbt_focus }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for MBT Focus
-	focus = {
-		id = ENG_mbt_focus
-		icon = ENG_mbt_focus
-		x = 41
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_mobile_armed_forces }
-		mutually_exclusive = { focus = ENG_light_tanks_and_amoured_vehicles_focus }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Memories of the Second Great War
-	focus = {
-		id = ENG_memories_of_the_second_great_war
-		icon = ENG_memories_of_the_second_great_war
-		x = 42
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_international_revolutionary_offense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Mobile Armed Forces
-	focus = {
-		id = ENG_mobile_armed_forces
-		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
-		x = 40
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_memories_of_the_second_great_war }
-		mutually_exclusive = { focus = ENG_the_grand_army }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Master of the Azure
-	focus = {
-		id = ENG_master_of_the_azure
-		icon = GFX_focus_SOV_flying_clubs
-		x = 37
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_future_aerial_warfare_committee }
-		mutually_exclusive = { focus = ENG_raze_the_earth }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Strategic Bomber Strike Force
-	focus = {
-		id = ENG_strategic_bomber_strike_force
-		icon = ENG_strat_bomb
-		x = 35
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_raze_the_earth }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Jet Fighter Squadrons
-	focus = {
-		id = ENG_jet_fighter_squadrons
-		icon = ENG_jet_fighter_squadrons
-		x = 37
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_master_of_the_azure }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Future Aerial Warfare Committee
-	focus = {
-		id = ENG_the_future_aerial_warfare_committee
-		icon = ENG_the_future_aerial_warfare_committee
-		x = 36
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_international_revolutionary_offense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Raze the Earth
-	focus = {
-		id = ENG_raze_the_earth
-		icon = GFX_goal_generic_occupy_start_war
-		x = 35
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_future_aerial_warfare_committee }
-		mutually_exclusive = { focus = ENG_master_of_the_azure }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for International Revolutionary Offense
-	focus = {
-		id = ENG_international_revolutionary_offense
-		icon = GFX_focus_generic_international
-		x = 42
-		y = 7
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_defense_of_the_republic }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Reforming the Air-Defense System
-	focus = {
-		id = ENG_reforming_the_airdefense_system
-		icon = focus_generic_air_defense
-		x = 25
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_home_defense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Combat Nationalism
-	focus = {
-		id = ENG_combat_nationalism
-		icon = ENG_combat_nationalism
-		x = 14
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_proletarian_culture }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
-	#Focus for Sits idelness Encrowned
-	focus = {
-		id = ENG_sits_idelness_encrowned
-		icon = focus_rom_abdicate
-		x = 28
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_over_your_face_a_web_of_lies }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The ocean sparkling lights
-	focus = {
-		id = ENG_the_ocean_sparkling_lights
-		icon = ENG_the_ocean_sparkling_lights
-		x = 23
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_all_your_valleys_call_you 
-		}
-		prerequisite = { 
-			focus = ENG_from_your_fields_and_hills 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Your harvest shall it reap?
-	focus = {
-		id = ENG_your_harvest_shall_it_reap
-		icon = ENG_your_harvest_shall_it_reap
-		x = 27
-		y = 3
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_sits_idelness_encrowned 
-		}
-		prerequisite = { 
-			focus = ENG_laws_that_are_falsehood 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Destroy English Romanticism
-	focus = {
-		id = ENG_destroy_english_romanticism
-		icon = ENG_destroy_english_romanticism
-		x = 12
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_cultural_revolution }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Principles of Pacifism
-	focus = {
-		id = ENG_the_principles_of_pacifism
-		icon = ENG_the_principles_of_pacifism
-		x = 10
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_destruction_of_the_regime }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for From your fields and hills
-	focus = {
-		id = ENG_from_your_fields_and_hills
-		icon = focus_prc_agrarian_socialism
-		x = 22
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_dream_of_toil_and_sorrow }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for All your valleys call you
-	focus = {
-		id = ENG_all_your_valleys_call_you
-		icon = ENG_all_your_valleys_call_you
-		x = 24
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_dream_of_toil_and_sorrow }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Laws that are falsehood
-	focus = {
-		id = ENG_laws_that_are_falsehood
-		icon = focus_renounce_the_treaty_of_trianon
-		x = 26
-		y = 2
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_over_your_face_a_web_of_lies }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Dream of Toil and Sorrow
-	focus = {
-		id = ENG_dream_of_toil_and_sorrow
-		icon = focus_fra_liberte_egalite_solidarite
-		x = 23
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_o_england_arise }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Over your face a web of lies
-	focus = {
-		id = ENG_over_your_face_a_web_of_lies
-		icon = ENG_over_your_face_a_web_of_lies
-		x = 27
-		y = 1
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_o_england_arise }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for England is risen, and the day is here!
-	focus = {
-		id = ENG_england_is_risen_and_the_day_is_here
-		icon = focus_spr_torchbearers_of_tomorrow
-		x = 25
-		y = 5
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_will_you_disown_your_native_land }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Collectivisation
-	focus = {
-		id = ENG_collectivisation
-		icon = goal_generic_war_with_comintern
-		x = 12
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_destroy_english_romanticism }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
-	#Focus for Worker's Self-Management
-	focus = {
-		id = ENG_workers_selfmanagement
-		icon = focus_YUG_pan_slavic_congress
-		x = 12
-		y = 13
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_collectivisation 
-		}
-		prerequisite = { 
-			focus = ENG_combat_nationalism 
-		}
-		mutually_exclusive = { focus = ENG_central_economic_planning }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Central Economic Planning
-	focus = {
-		id = ENG_central_economic_planning
-		icon = goal_generic_soviet_construction
-		x = 14
-		y = 13
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_collectivisation 
-		}
-		prerequisite = { 
-			focus = ENG_combat_nationalism 
-		}
-		mutually_exclusive = { 
-			focus = ENG_workers_selfmanagement 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Proletarian Culture
-	focus = {
-		id = ENG_proletarian_culture
-		icon = ENG_proletarian_culture
-		x = 14
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_cultural_revolution }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Non-Interventionalism
-	focus = {
-		id = ENG_noninterventionalism
-		icon = ENG_noninterventionalism
-		x = 8
-		y = 13
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_british_nationalities }
-		mutually_exclusive = { focus = ENG_exports_revolution }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The British Nationalities
-	focus = {
-		id = ENG_the_british_nationalities
-		icon = ENG_the_british_nationalities
-		x = 10
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_london_peoples_court 
-		}
-		prerequisite = { 
-			focus = ENG_the_principles_of_pacifism 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Dicatorship of the Proletariat
-	focus = {
-		id = ENG_dicatorship_of_the_proletariat
-		icon = focus_por_workers_of_iberia
-		x = 11
-		y = 14
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_central_economic_planning 
-			focus = ENG_workers_selfmanagement 
-			focus = ENG_noninterventionalism 
-			focus = ENG_exports_revolution 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Submarine Efforts
-	focus = {
-		id = ENG_submarine_efforts
-		icon = GFX_goal_generic_navy_submarine
-		x = 49
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_new_military_shipyards }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Carrier Combat Group
-	focus = {
-		id = ENG_carrier_combat_group
-		icon = GFX_goal_generic_navy_carrier
-		x = 47
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_new_military_shipyards }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Britannia rules the waves!
-	focus = {
-		id = ENG_britannia_rules_the_waves
-		icon = ENG_britannia_rules_the_waves
-		x = 48
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_carrier_combat_group 
-		}
-		prerequisite = { 
-			focus = ENG_submarine_efforts 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for British Home Defense
-	focus = {
-		id = ENG_british_home_defense
-		icon = ENG_british_home_defense
-		x = 28
-		y = 7
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_defense_of_the_republic }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The Atlantic Wall
-	focus = {
-		id = ENG_the_atlantic_wall
-		icon = focus_generic_coastal_fort
-		x = 31
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_home_defense }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for New Radar Technology
-	focus = {
-		id = ENG_new_radar_technology
-		icon = focus_generic_cryptologic_bomb
-		x = 26
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_reforming_the_airdefense_system }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Future War Shelter Program
-	focus = {
-		id = ENG_future_war_shelter_program
-		icon = focus_usa_guarantee_the_american_dream
-		x = 30
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_atlantic_wall }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for COG Bunkers
-	focus = {
-		id = ENG_cog_bunkers
-		icon = ENG_cog_bunkers
-		x = 32
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_atlantic_wall }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Anstruther Government War Headquarters
-	focus = {
-		id = ENG_anstruther_government_war_headquarters
-		icon = goal_generic_fortify_city
-		x = 31
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_future_war_shelter_program 
-		}
-		prerequisite = { 
-			focus = ENG_cog_bunkers 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Home Isles Aerospace Defense Command
-	focus = {
-		id = ENG_home_isles_aerospace_defense_command
-		icon = ENG_home_isles_aerospace_defense_command
-		x = 25
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_project_northumberland 
-		}
-		prerequisite = { 
-			focus = ENG_new_radar_technology 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Scottish Coastal Defense
-	focus = {
-		id = ENG_scottish_coastal_defense
-		icon = ENG_scottish_coastal_defense
-		x = 32
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_anstruther_government_war_headquarters }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Southern England Coastal Defense
-	focus = {
-		id = ENG_southern_england_coastal_defense
-		icon = ENG_southern_england_coastal_defense
-		x = 30
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_anstruther_government_war_headquarters }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Set the Sea on Fire
-	focus = {
-		id = ENG_set_the_sea_on_fire
-		icon = ENG_set_the_sea_on_fire
-		x = 31
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_southern_england_coastal_defense 
-		}
-		prerequisite = { 
-			focus = ENG_scottish_coastal_defense 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Hidden Amouries
-	focus = {
-		id = ENG_hidden_amouries
-		icon = focus_generic_army_tanks2
-		x = 28
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_peoples_war_plan }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Ministry of Unconventional Warfare
-	focus = {
-		id = ENG_ministry_of_unconventional_warfare
-		icon = goal_generic_more_territorial_claims
-		x = 28
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_hidden_amouries }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for European Navigation and Guidance Network
-	focus = {
-		id = ENG_european_navigation_and_guidance_network
-		icon = ENG_european_navigation_and_guidance_network
-		x = 36
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_jet_fighter_squadrons 
-		}
-		prerequisite = { 
-			focus = ENG_strategic_bomber_strike_force 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	#Focus for British Railway Collective
 	focus = {
 		id = ENG_british_railway_collective
 		icon = ENG_british_railway_collective
-		x = 13
+		x = 23
 		y = 6
 		cost = 5
 		available_if_capitulated = yes
@@ -1949,7 +740,1216 @@ focus_tree = {
 		}
 		}
 		}
-		
-		
+	
+	
+	
+	####R.E.D BRANCH####
+	
+	#Focus for Plan Lily
+	focus = {
+		id = ENG_plan_lily
+		icon = ENG_plan_lily
+		x = 56
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Plan Osborne
+	focus = {
+		id = ENG_plan_osborne
+		icon = ENG_plan_osborne
+		x = 50
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_strongbow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Violet
+	focus = {
+		id = ENG_plan_violet
+		icon = ENG_plan_violet
+		x = 54
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_rose 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Wilfred
+	focus = {
+		id = ENG_operation_wilfred
+		icon = GFX_focus_Attack_NOR
+		x = 54
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Operation Fork
+	focus = {
+		id = ENG_operation_fork
+		icon = GFX_focus_Attack_ICE
+		x = 52
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_the_north_sea }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Department of the North Sea
+	focus = {
+		id = ENG_department_of_the_north_sea
+		icon = ENG_North_Sea_Department
+		x = 52
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Plan Rose
+	focus = {
+		id = ENG_plan_rose
+		icon = ENG_plan_rose
+		x = 52
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_operation_wilfred }
+		mutually_exclusive = { 
+			focus = ENG_plan_violet 
+		}
+		mutually_exclusive = { 
+			focus = ENG_plan_lily 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		#Focus for R.E.D Atlantic Division
+	focus = {
+		id = ENG_red_atlantic_division
+		icon = ENG_red_atlantic_division
+		x = 51
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Operation Pendragon II
+	focus = {
+		id = ENG_operation_pendragon_ii
+		icon = GFX_focus_Attack_Ulster
+		x = 48
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    #Focus for Department of British Isles
+	focus = {
+		id = ENG_department_of_british_isles
+		icon = ENG_British_Isles_Department
+		x = 50
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_red_atlantic_division }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+    #Focus for Operation Strongbow
+	focus = {
+		id = ENG_operation_strongbow
+		icon = GFX_focus_Attack_IRE
+		x = 50
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_department_of_british_isles }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#########
+
+
+   ######### BLAIRISM AKA SOCDEM ###########
+	#Focus for O England, Arise!
+	focus = {
+		id = ENG_o_england_arise
+		icon = ENG_o_england_arise
+		x = 38
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for From your fields and hills
+	focus = {
+		id = ENG_from_your_fields_and_hills
+		icon = focus_prc_agrarian_socialism
+		x = 35
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_dream_of_toil_and_sorrow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for All your valleys call you
+	focus = {
+		id = ENG_all_your_valleys_call_you
+		icon = ENG_all_your_valleys_call_you
+		x = 37
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_dream_of_toil_and_sorrow }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Laws that are falsehood
+	focus = {
+		id = ENG_laws_that_are_falsehood
+		icon = focus_renounce_the_treaty_of_trianon
+		x = 39
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_over_your_face_a_web_of_lies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dream of Toil and Sorrow
+	focus = {
+		id = ENG_dream_of_toil_and_sorrow
+		icon = focus_fra_liberte_egalite_solidarite
+		x = 36
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_o_england_arise }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Over your face a web of lies
+	focus = {
+		id = ENG_over_your_face_a_web_of_lies
+		icon = ENG_over_your_face_a_web_of_lies
+		x = 40
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_o_england_arise }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for England is risen, and the day is here!
+	focus = {
+		id = ENG_england_is_risen_and_the_day_is_here
+		icon = focus_spr_torchbearers_of_tomorrow
+		x = 38
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_will_you_disown_your_native_land }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		#Focus for The ocean sparkling lights
+	focus = {
+		id = ENG_the_ocean_sparkling_lights
+		icon = ENG_the_ocean_sparkling_lights
+		x = 36
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_all_your_valleys_call_you 
+		}
+		prerequisite = { 
+			focus = ENG_from_your_fields_and_hills 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Your harvest shall it reap?
+	focus = {
+		id = ENG_your_harvest_shall_it_reap
+		icon = ENG_your_harvest_shall_it_reap
+		x = 40
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_sits_idelness_encrowned 
+		}
+		prerequisite = { 
+			focus = ENG_laws_that_are_falsehood 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Sits idelness Encrowned
+	focus = {
+		id = ENG_sits_idelness_encrowned
+		icon = focus_rom_abdicate
+		x = 41
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_over_your_face_a_web_of_lies }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+    #Focus for Will you disown your native land?
+	focus = {
+		id = ENG_will_you_disown_your_native_land
+		icon = ENG_will_you_disown_your_native_land
+		x = 38
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_the_ocean_sparkling_lights 
+		}
+		prerequisite = { 
+			focus = ENG_your_harvest_shall_it_reap 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+#######
+	
+
+   ##### COMMUNIST - The best path ####
+   #Focus for Exports Revolution
+	focus = {
+		id = ENG_exports_revolution
+		icon = ENG_exports_revolution-11206
+		x = 10
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_noninterventionalism }
+		mutually_exclusive = { focus = ENG_noninterventionalism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for British Worker's Government
+	focus = {
+		id = ENG_british_workers_government
+		icon = ENG_british_workers_government
+		x = 11
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Destruction of the Regime
+	focus = {
+		id = ENG_destruction_of_the_regime
+		icon = ENG_destruction_of_the_regime
+		x = 9
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_workers_government }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for London People's Court
+	focus = {
+		id = ENG_london_peoples_court
+		icon = ENG_london_peoples_court
+		x = 8
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destruction_of_the_regime }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for British Cultural Revolution
+	focus = {
+		id = ENG_british_cultural_revolution
+		icon = ENG_british_cultural_revolution
+		x = 13
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_workers_government }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Focus for Combat Nationalism
+	focus = {
+		id = ENG_combat_nationalism
+		icon = ENG_combat_nationalism
+		x = 14
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_proletarian_culture }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    
+	#Focus for Destroy English Romanticism
+	focus = {
+		id = ENG_destroy_english_romanticism
+		icon = ENG_destroy_english_romanticism
+		x = 12
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_cultural_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Principles of Pacifism
+	focus = {
+		id = ENG_the_principles_of_pacifism
+		icon = ENG_the_principles_of_pacifism
+		x = 10
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destruction_of_the_regime }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Focus for Collectivisation
+	focus = {
+		id = ENG_collectivisation
+		icon = goal_generic_war_with_comintern
+		x = 12
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destroy_english_romanticism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#Focus for Worker's Self-Management
+	focus = {
+		id = ENG_workers_selfmanagement
+		icon = focus_YUG_pan_slavic_congress
+		x = 12
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_collectivisation 
+		}
+		prerequisite = { 
+			focus = ENG_combat_nationalism 
+		}
+		mutually_exclusive = { focus = ENG_central_economic_planning }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Central Economic Planning
+	focus = {
+		id = ENG_central_economic_planning
+		icon = goal_generic_soviet_construction
+		x = 14
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_collectivisation 
+		}
+		prerequisite = { 
+			focus = ENG_combat_nationalism 
+		}
+		mutually_exclusive = { 
+			focus = ENG_workers_selfmanagement 
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Proletarian Culture
+	focus = {
+		id = ENG_proletarian_culture
+		icon = ENG_proletarian_culture
+		x = 14
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_cultural_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Non-Interventionalism
+	focus = {
+		id = ENG_noninterventionalism
+		icon = ENG_noninterventionalism
+		x = 8
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_british_nationalities }
+		mutually_exclusive = { focus = ENG_exports_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The British Nationalities
+	focus = {
+		id = ENG_the_british_nationalities
+		icon = ENG_the_british_nationalities
+		x = 10
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_london_peoples_court 
+		}
+		prerequisite = { 
+			focus = ENG_the_principles_of_pacifism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Dicatorship of the Proletariat
+	focus = {
+		id = ENG_dicatorship_of_the_proletariat
+		icon = focus_por_workers_of_iberia
+		x = 11
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_central_economic_planning 
+			focus = ENG_workers_selfmanagement 
+			focus = ENG_noninterventionalism 
+			focus = ENG_exports_revolution 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   ######
+
+  ###### MILITARY ######
+   
+    #Focus for People's War Plan
+	focus = {
+		id = ENG_peoples_war_plan
+		icon = goal_generic_attack_allies
+		x = 28
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_home_defense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Focus for Interceptor Program
+	focus = {
+		id = ENG_interceptor_program
+		icon = ENG_interceptor_program
+		x = 25
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_home_isles_aerospace_defense_command }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Project Northumberland
+	focus = {
+		id = ENG_project_northumberland
+		icon = ENG_project_northumberland
+		x = 24
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reforming_the_airdefense_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Defense of the Republic
+	focus = {
+		id = ENG_defense_of_the_republic
+		icon = ENG_defense_republic
+		x = 36
+		y = 10
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for New Military Shipyards
+	focus = {
+		id = ENG_new_military_shipyards
+		icon = GFX_focus_generic_navy_battleship2
+		x = 48
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_maintain_the_great_fleet 
+			focus = ENG_retire_outdated_ships 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Retire Outdated Ships
+	focus = {
+		id = ENG_retire_outdated_ships
+		icon = GFX_goal_continuous_naval_production
+		x = 49
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_great_naval_reorganisation }
+		mutually_exclusive = { focus = ENG_maintain_the_great_fleet }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Maintain the Great Fleet
+	focus = {
+		id = ENG_maintain_the_great_fleet
+		icon = GFX_goal_generic_navy_battleship
+		x = 47
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_great_naval_reorganisation }
+		mutually_exclusive = { focus = ENG_retire_outdated_ships }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Personal Weapon Research
+	focus = {
+		id = ENG_personal_weapon_research
+		icon = ENG_personal_weapon_research
+		x = 44
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_artillery_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Great Naval Reorganisation
+	focus = {
+		id = ENG_the_great_naval_reorganisation
+		icon = ENG_the_great_naval_reorganisation
+		x = 48
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_international_revolutionary_offense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Artillery Focus
+	focus = {
+		id = ENG_artillery_focus
+		icon = ENG_artillery_focus
+		x = 44
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_modern_infantry_tactic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Modern Infantry Tactic
+	focus = {
+		id = ENG_modern_infantry_tactic
+		icon = ENG_new_infantry_tatic
+		x = 44
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_grand_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Grand Army
+	focus = {
+		id = ENG_the_grand_army
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		x = 44
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_memories_of_the_second_great_war }
+		mutually_exclusive = { focus = ENG_mobile_armed_forces }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Helicopter Auxillary Forces
+	focus = {
+		id = ENG_helicopter_auxillary_forces
+		icon = ENG_helicopter_auxillary_forces
+		x = 40
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_expand_the_sas 
+			focus = ENG_expand_the_republican_marines 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the SAS
+	focus = {
+		id = ENG_expand_the_sas
+		icon = ENG_expand_the_sas
+		x = 39
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_light_tanks_and_amoured_vehicles_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Expand the Republican Marines
+	focus = {
+		id = ENG_expand_the_republican_marines
+		icon = ENG_marines
+		x = 41
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_mbt_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Light Tanks and Amoured Vehicles Focus
+	focus = {
+		id = ENG_light_tanks_and_amoured_vehicles_focus
+		icon = ENG_light_tanks_and_amoured_vehicles_focus
+		x = 39
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_mobile_armed_forces }
+		mutually_exclusive = { focus = ENG_mbt_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for MBT Focus
+	focus = {
+		id = ENG_mbt_focus
+		icon = ENG_mbt_focus
+		x = 41
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_mobile_armed_forces }
+		mutually_exclusive = { focus = ENG_light_tanks_and_amoured_vehicles_focus }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Memories of the Second Great War
+	focus = {
+		id = ENG_memories_of_the_second_great_war
+		icon = ENG_memories_of_the_second_great_war
+		x = 42
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_international_revolutionary_offense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Mobile Armed Forces
+	focus = {
+		id = ENG_mobile_armed_forces
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		x = 40
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_memories_of_the_second_great_war }
+		mutually_exclusive = { focus = ENG_the_grand_army }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Master of the Azure
+	focus = {
+		id = ENG_master_of_the_azure
+		icon = GFX_focus_SOV_flying_clubs
+		x = 37
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_future_aerial_warfare_committee }
+		mutually_exclusive = { focus = ENG_raze_the_earth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Strategic Bomber Strike Force
+	focus = {
+		id = ENG_strategic_bomber_strike_force
+		icon = ENG_strat_bomb
+		x = 35
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_raze_the_earth }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Jet Fighter Squadrons
+	focus = {
+		id = ENG_jet_fighter_squadrons
+		icon = ENG_jet_fighter_squadrons
+		x = 37
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_master_of_the_azure }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Future Aerial Warfare Committee
+	focus = {
+		id = ENG_the_future_aerial_warfare_committee
+		icon = ENG_the_future_aerial_warfare_committee
+		x = 36
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_international_revolutionary_offense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Raze the Earth
+	focus = {
+		id = ENG_raze_the_earth
+		icon = GFX_goal_generic_occupy_start_war
+		x = 35
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_future_aerial_warfare_committee }
+		mutually_exclusive = { focus = ENG_master_of_the_azure }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for International Revolutionary Offense
+	focus = {
+		id = ENG_international_revolutionary_offense
+		icon = GFX_focus_generic_international
+		x = 42
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_defense_of_the_republic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Reforming the Air-Defense System
+	focus = {
+		id = ENG_reforming_the_airdefense_system
+		icon = focus_generic_air_defense
+		x = 25
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_home_defense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#Focus for Submarine Efforts
+	focus = {
+		id = ENG_submarine_efforts
+		icon = GFX_goal_generic_navy_submarine
+		x = 49
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_new_military_shipyards }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Carrier Combat Group
+	focus = {
+		id = ENG_carrier_combat_group
+		icon = GFX_goal_generic_navy_carrier
+		x = 47
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_new_military_shipyards }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Britannia rules the waves!
+	focus = {
+		id = ENG_britannia_rules_the_waves
+		icon = ENG_britannia_rules_the_waves
+		x = 48
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_carrier_combat_group 
+		}
+		prerequisite = { 
+			focus = ENG_submarine_efforts 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for British Home Defense
+	focus = {
+		id = ENG_british_home_defense
+		icon = ENG_british_home_defense
+		x = 28
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_defense_of_the_republic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Atlantic Wall
+	focus = {
+		id = ENG_the_atlantic_wall
+		icon = focus_generic_coastal_fort
+		x = 31
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_british_home_defense }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for New Radar Technology
+	focus = {
+		id = ENG_new_radar_technology
+		icon = focus_generic_cryptologic_bomb
+		x = 26
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reforming_the_airdefense_system }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Future War Shelter Program
+	focus = {
+		id = ENG_future_war_shelter_program
+		icon = focus_usa_guarantee_the_american_dream
+		x = 30
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_atlantic_wall }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for COG Bunkers
+	focus = {
+		id = ENG_cog_bunkers
+		icon = ENG_cog_bunkers
+		x = 32
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_the_atlantic_wall }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Anstruther Government War Headquarters
+	focus = {
+		id = ENG_anstruther_government_war_headquarters
+		icon = goal_generic_fortify_city
+		x = 31
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_future_war_shelter_program 
+		}
+		prerequisite = { 
+			focus = ENG_cog_bunkers 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Home Isles Aerospace Defense Command
+	focus = {
+		id = ENG_home_isles_aerospace_defense_command
+		icon = ENG_home_isles_aerospace_defense_command
+		x = 25
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_project_northumberland 
+		}
+		prerequisite = { 
+			focus = ENG_new_radar_technology 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Scottish Coastal Defense
+	focus = {
+		id = ENG_scottish_coastal_defense
+		icon = ENG_scottish_coastal_defense
+		x = 32
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_anstruther_government_war_headquarters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Southern England Coastal Defense
+	focus = {
+		id = ENG_southern_england_coastal_defense
+		icon = ENG_southern_england_coastal_defense
+		x = 30
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_anstruther_government_war_headquarters }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Set the Sea on Fire
+	focus = {
+		id = ENG_set_the_sea_on_fire
+		icon = ENG_set_the_sea_on_fire
+		x = 31
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_southern_england_coastal_defense 
+		}
+		prerequisite = { 
+			focus = ENG_scottish_coastal_defense 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Hidden Amouries
+	focus = {
+		id = ENG_hidden_amouries
+		icon = focus_generic_army_tanks2
+		x = 28
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_peoples_war_plan }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for Ministry of Unconventional Warfare
+	focus = {
+		id = ENG_ministry_of_unconventional_warfare
+		icon = goal_generic_more_territorial_claims
+		x = 28
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_hidden_amouries }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for European Navigation and Guidance Network
+	focus = {
+		id = ENG_european_navigation_and_guidance_network
+		icon = ENG_european_navigation_and_guidance_network
+		x = 36
+		y = 15
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_jet_fighter_squadrons 
+		}
+		prerequisite = { 
+			focus = ENG_strategic_bomber_strike_force 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  #####	
 #End of focuses 
  }
