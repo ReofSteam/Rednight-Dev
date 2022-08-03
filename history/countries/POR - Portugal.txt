@@ -59,14 +59,9 @@ recruit_character = POR_Duarte_Nuno_5
 recruit_character = POR_Duarte_Nuno_6
 
 add_ideas = {
-	#POR_Francisco_Rolao_Preto_hog_npo
-	#POR_Afonso_Lopes_Vieira_for_npo
-	#POR_Alberto_Monsaraz_eco_pau
-	#POR_Jose_Hipolito_Vaz_Raposo_sec_pau
-	#POR_integralist_ethos
-	#POR_Luis_Carlos_de_Lima_de_Almeida_Braga_int_npo
-
-	#medium_economy
-			}
+POR_Uniao_Democratica_dominance
+POR_Surrounded_on_all_sides
+POR_last_of_the_old_order
+}
 
 
