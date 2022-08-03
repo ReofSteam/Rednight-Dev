@@ -1,12 +1,40 @@
 ﻿l_english:
 
-### Tooltips ###
+### Bookmark ###
 
-### Ideas ###
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+POR_nationalist_socialism_party:0 "-"
+POR_nationalist_socialism_party_long:0 "-"
+POR_revolutionary_socialism_party:0 "-"
+POR_revolutionary_socialism_party_long:0 "-"
+POR_syndicalism_party:0 "PSP"
+POR_syndicalism_party_long:0 "Partido Sindicalista Português"
+POR_moderate_socialist_party:0 "ASP"
+POR_moderate_socialist_party_long:0 "Acção Socialista Portuguesa"
+POR_social_democrat_party:0 "PDR"
+POR_social_democrat_party_long:0 "Partido Democrático Republicano"
+POR_social_liberal_party:0 "UD"
+POR_social_liberal_party_long:0 "União Democrática"
+POR_social_conservative_party:0 "UD"
+POR_social_conservative_party_long:0 "União Democrática"
+POR_authoritarian_democrat_party:0 "UD"
+POR_authoritarian_democrat_party_long:0 "União Democrática"
+POR_autocratic_party:0 "MM"
+POR_autocratic_party_long:0 "Movimento Monárquico"
+POR_ultraconservative_party:0 "IL"
+POR_ultraconservative_party_long:0 "Integralismo Lusitano (Moderates)"
+POR_national_corporatist:0 "IL"
+POR_national_corporatist_long:0 "Integralismo Lusitano (Radicals)"
 
 ### Traits ###
 
 ### Country Name ###
+ 
 
 POR_nationalist_Socialism:0 "Portugal"
 POR_nationalist_Socialism_ADJ:0 "Portugal"
@@ -33,10 +61,10 @@ POR_social_conservative_ADJ:0 "Portugal"
 POR_social_conservative_DEF:0 "Portugal"
 
 
-### Opinion Modifiers ###
+###Focuses###
 
-### Focus ###
 
+<<<<<<< Updated upstream
 ### Parties ###
 PEX_social_nationalist_party:0 "-"
 PEX_social_nationalist_party_long:0 "-"
@@ -59,8 +87,40 @@ PEX_autocratic_party_long:0 "Regência da Salvação Real"
 PEX_fundamentalist_party:0 "IL"
 PEX_fundamentalist_party_long:0 "Integralismo Lusitano"
 PEX_voynist_party_long:0 "-"
+=======
+### Ideas ###
+POR_Uniao_Democratica_dominance:0 "União Democrática dominance"
+POR_Uniao_Democratica_dominance_desc:0 "Currently, the União Democrática controls the Portuguese Assembly and Senate. This, together with the UD's diversity in ideologies make the UD's dominance unbreakable (at least in the current situation)"
+POR_Surrounded on all sides:0 "Surrounded on all sides"
+POR_Surrounded on all sides_desc:0 "WIP"
+POR_last_of_the_old_order:0 "Last of the old order"
+POR_last_of_the_old_order_desc:0 "WIP"
+>>>>>>> Stashed changes
+
+### Flags ###
+
+### Tooltips ###
+SWI_1_tt:0 "The Swiss military is operating within Constitutional limits"
+SWI_2_tt:0 "As per the compromises, the Swiss army can not fully mobilise"
 
 
+### Companies ###
 
-### Events ###
+### Ministers ###
 
+SWI_Henri_Guisan:0 "Henri Guisan"
+SWI_Charles_Daniel:0 "Charles Daniel"
+SWI_Emilio_Luccini:0 "Emilio Luccini"
+SWI_Robert_Frick:0 "Robert Frick"
+SWI_Pierre_Musy:0 "Pierre Musy"
+SWI_Jakob_Annasohn:0 "Jakob Annasohn"
+SWI_Charles_Dubois:0 "Charles Dubois"
+SWI_Roger_Masson:0 "Roger Masson"
+SWI_Louis_Montmollin:0 "Louis de Montmollin"
+SWI_Jakob_Huber:0 "Jakob Huber"
+SWI_Rihner_Fritz:0 "Rihner Fritz"
+
+### Leaders ###
+POLITICS_JOSE_DIAZ_DESC:0 "Some years ago, in the nineteen-thirties, the name "José Díaz" was not one that usually came through people's mouths. Not even in the left, that was dominated by Anarchist groups. And those anarchist groups, more specifically "La Aurora" (a  bakers trade union that later joined the CNT) were the first political groups José joined.In 1917 he led a bakers strike and in 1920 he participated in the CNT's general strike, but the 1923 coup stopped his political career and he was imprisoned in 1925. When he got out of jail, he joined the USE and was elected as its leader in 1932. José initially formed a rivalry with the Anarchist CNT and the socialist UGT, attracting radical workers to join the party, but even then, they still couldn't match the CNT's growing popularity. José's own life was saved by chance, as he was getting treatment for his stomach cancer in France when the civil war started and avoided being assassinated by monarchist forces. He stayed in France as a sort of diplomat for the socialist cause, and got to meet Pierre Semard himself. After the end of the Civil War, now in Spain, he would be one of the main voices against the Anarchist leaders, and his opportunity came in 1942 when the Invasion of Portugal started and opposition began to form against the CNT-FAI. At first, everything pointed to Francisco Franco becoming the next leader of Spain, but the French disagreed and Franco ultimately gave in to their demands. Now, José's cancer seems to be winning the battle against him, and it is clear that his days left are few."
+
+### Tech? ###

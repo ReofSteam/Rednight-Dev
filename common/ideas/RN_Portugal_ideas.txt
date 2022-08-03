@@ -1,0 +1,39 @@
+### Portugal
+
+ideas = {
+	country = {
+		POR_Uniao_Democratica_dominance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_Uniao_Democratica_dominance"}
+			picture = POR_UD_dominance
+			            allowed_civil_war = { always = yes }
+            modifier = {
+				stability_factor = -0.1	
+				nationalist_socialism_drift = -0.02			
+				revolutionary_socialism_drift = -0.02
+				syndicalism_drift = -0.02
+			}
+		}
+		POR_Surrounded_on_all _sides = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_Surrounded on all sides"}
+			picture = POR_surrounded
+			            allowed_civil_war = { always = yes }
+            modifier = {
+				nationalist_socialism_acceptance = -20
+				revolutionary_socialism_acceptance = -20
+				syndicalism_acceptance = -20
+				war_support_factor = 0.1
+				army_defence_factor = 0.5
+			}
+		}
+		POR_last_of_the_old_order = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea POR_last_of_the_old_order"}
+			picture = POR_last_of_the_old_order
+			            allowed_civil_war = { always = yes }
+            modifier = {
+				war_support_factor = 0.1
+				command_power_gain = 0.5 	
+				political_power_gain = 0.1
+			}
+		}	
+	}
+}
