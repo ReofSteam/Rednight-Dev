@@ -741,7 +741,209 @@ focus_tree = {
 		}
 		}
 	
+######
+
+    #### Arsenal of Britain  ####	
 	
+	#Arsenal of Britain
+	focus = {
+		id = ENG_arsenal_of_Britain
+		icon = GFX_CNT_Diaz_final_hours
+		x = 31
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_english_socialist_victory
+         focus = ENG_maximalist_victory 
+		 focus = ENG_national_labour_victory
+		 }
+	}
+	#Shipyard of Britain
+	focus = {
+		id = ENG_shipyard_of_britain
+		icon = GFX_CNT_Diaz_final_hours
+		x = 28
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_arsenal_of_Britain
+		 }
+		 mutually_exclusive = { 
+			focus = ENG_national_defense
+		}
+	}
+	#Naval power project
+	focus = {
+		id = ENG_naval_power_project
+		icon = ENG_plan_lily
+		x = 28
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_shipyard_of_britain
+		 }
+	}
+	#Industry of national defense
+	focus = {
+		id = ENG_national_defense
+		icon = ENG_industry_for_national_defense
+		x = 30
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_arsenal_of_Britain
+		 }
+		 mutually_exclusive = { 
+			focus = ENG_shipyard_of_britain
+		}
+	}
+	#Revolutionary guard expansion
+	focus = {
+		id = ENG_revolutionary_guard_expansion
+		icon = ENG_revolutionary_guards_expansion
+		x = 32
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_arsenal_of_Britain
+		 }
+		 mutually_exclusive = {
+		focus = ENG_standing_army_expansion
+		}
+
+	}
+	#Standing army expansion
+	focus = {
+		id = ENG_standing_army_expansion
+		icon = ENG_standing_army_expansion
+		x = 34
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_arsenal_of_Britain
+		 }
+		mutually_exclusive = {
+		focus = ENG_revolutionary_guard_expansion
+		}
+	}
+	#A professional army
+	focus = {
+		id = ENG_professional_army
+		icon = ENG_plan_lily
+		x = 34
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_standing_army_expansion
+		 }
+	}
+	#Mass Production
+	focus = {
+		id = ENG_mass_production
+		icon = ENG_plan_lily
+		x = 31
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_national_defense
+		 focus = ENG_revolutionary_guard_expansion
+		 }
+	}
+	#Mandatory arms training
+	focus = {
+		id = ENG_arms_training
+		icon = GFX_focus_generic_fortress_europe
+		x = 31
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+          focus = ENG_mass_production
+		 }
+	}
+	#Project Trident
+	focus = {
+		id = ENG_project_trident
+		icon = ENG_plan_lily
+		x = 29
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_shipyard_of_britain
+		 focus = ENG_national_defense
+		 }
+	}
+	#Strategic warfare assistance
+	focus = {
+		id = ENG_strat_warfare_assistance
+		icon = ENG_plan_lily
+		x = 29
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_project_trident
+		 }
+	}
+	#The question of political warfare
+	focus = {
+		id = ENG_question_of_political_warfare
+		icon = ENG_question_of_political_warfare
+		x = 33
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_standing_army_expansion
+		 focus = ENG_revolutionary_guard_expansion
+		 }
+	}
+	#Womern revolutionary federation
+	focus = {
+		id = ENG_women_federation
+		icon = ENG_womens_revolutionary_federation
+		x = 33
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+		 focus = ENG_question_of_political_warfare
+		 }
+	}
 	
 	####R.E.D BRANCH####
 	
@@ -919,7 +1121,7 @@ focus_tree = {
 	focus = {
 		id = ENG_o_england_arise
 		icon = ENG_o_england_arise
-		x = 38
+		x = 39
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -931,7 +1133,7 @@ focus_tree = {
 	focus = {
 		id = ENG_from_your_fields_and_hills
 		icon = focus_prc_agrarian_socialism
-		x = 35
+		x = 36
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -945,7 +1147,7 @@ focus_tree = {
 	focus = {
 		id = ENG_all_your_valleys_call_you
 		icon = ENG_all_your_valleys_call_you
-		x = 37
+		x = 38
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -959,7 +1161,7 @@ focus_tree = {
 	focus = {
 		id = ENG_laws_that_are_falsehood
 		icon = focus_renounce_the_treaty_of_trianon
-		x = 39
+		x = 40
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -973,7 +1175,7 @@ focus_tree = {
 	focus = {
 		id = ENG_dream_of_toil_and_sorrow
 		icon = focus_fra_liberte_egalite_solidarite
-		x = 36
+		x = 37
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -987,7 +1189,7 @@ focus_tree = {
 	focus = {
 		id = ENG_over_your_face_a_web_of_lies
 		icon = ENG_over_your_face_a_web_of_lies
-		x = 40
+		x = 41
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -1001,7 +1203,7 @@ focus_tree = {
 	focus = {
 		id = ENG_england_is_risen_and_the_day_is_here
 		icon = focus_spr_torchbearers_of_tomorrow
-		x = 38
+		x = 39
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -1033,7 +1235,7 @@ focus_tree = {
 	focus = {
 		id = ENG_your_harvest_shall_it_reap
 		icon = ENG_your_harvest_shall_it_reap
-		x = 40
+		x = 41
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -1051,7 +1253,7 @@ focus_tree = {
 	focus = {
 		id = ENG_sits_idelness_encrowned
 		icon = focus_rom_abdicate
-		x = 41
+		x = 42
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -1065,7 +1267,7 @@ focus_tree = {
 	focus = {
 		id = ENG_will_you_disown_your_native_land
 		icon = ENG_will_you_disown_your_native_land
-		x = 38
+		x = 39
 		y = 4
 		cost = 10
 		available_if_capitulated = yes

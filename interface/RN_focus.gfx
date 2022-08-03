@@ -105,6 +105,10 @@ spriteTypes = {
         name = "GFX_focus_generic_question"
         texturefile = "gfx/interface/goals/generic/focus_generic_question.dds"
     }	
+	SpriteType = { 
+        name = "GFX_focus_generic_fortress_europe"
+        texturefile = "gfx/interface/goals/generic/Generic_Fortress_Europe.tga"
+    }	
 
 	SpriteType = { 
 		name = "GFX_focus_generic_drain"
