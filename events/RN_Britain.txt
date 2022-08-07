@@ -248,7 +248,7 @@ country_event = { # Death of Orwell
 	fire_only_once = yes
 
     option = {
-		name = boz.1.a
+		name = ENG.10.a
 	}
 }
 

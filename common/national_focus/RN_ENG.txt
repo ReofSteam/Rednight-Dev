@@ -748,7 +748,7 @@ focus_tree = {
 	#Arsenal of Britain
 	focus = {
 		id = ENG_arsenal_of_Britain
-		icon = GFX_CNT_Diaz_final_hours
+		icon = ENG_the_arsenal_of_england
 		x = 31
 		y = 2
 		cost = 5
@@ -763,7 +763,7 @@ focus_tree = {
 	#Shipyard of Britain
 	focus = {
 		id = ENG_shipyard_of_britain
-		icon = GFX_CNT_Diaz_final_hours
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 28
 		y = 3
 		cost = 5
@@ -780,7 +780,7 @@ focus_tree = {
 	#Naval power project
 	focus = {
 		id = ENG_naval_power_project
-		icon = ENG_plan_lily
+		icon = ENG_naval_power_project
 		x = 28
 		y = 4
 		cost = 5
@@ -811,7 +811,7 @@ focus_tree = {
 	#Revolutionary guard expansion
 	focus = {
 		id = ENG_revolutionary_guard_expansion
-		icon = ENG_revolutionary_guards_expansion
+		icon = ENG_standing_army_expansion
 		x = 32
 		y = 3
 		cost = 5
@@ -829,7 +829,7 @@ focus_tree = {
 	#Standing army expansion
 	focus = {
 		id = ENG_standing_army_expansion
-		icon = ENG_standing_army_expansion
+		icon = ENG_revolutionary_guards_expansion
 		x = 34
 		y = 3
 		cost = 5
@@ -846,7 +846,7 @@ focus_tree = {
 	#A professional army
 	focus = {
 		id = ENG_professional_army
-		icon = ENG_plan_lily
+		icon = GFX_focus_generic_military_mission
 		x = 34
 		y = 4
 		cost = 5
@@ -860,7 +860,7 @@ focus_tree = {
 	#Mass Production
 	focus = {
 		id = ENG_mass_production
-		icon = ENG_plan_lily
+		icon = ENG_mass_production
 		x = 31
 		y = 4
 		cost = 5
@@ -889,7 +889,7 @@ focus_tree = {
 	#Project Trident
 	focus = {
 		id = ENG_project_trident
-		icon = ENG_plan_lily
+		icon = ENG_project_trident
 		x = 29
 		y = 5
 		cost = 5
@@ -904,7 +904,7 @@ focus_tree = {
 	#Strategic warfare assistance
 	focus = {
 		id = ENG_strat_warfare_assistance
-		icon = ENG_plan_lily
+		icon = ENG_strategic_warfare_assistance_bureau
 		x = 29
 		y = 6
 		cost = 5
