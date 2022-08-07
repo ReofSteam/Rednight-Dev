@@ -14,6 +14,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_united_britain
+			cancel = {
+        NOT = {has_government = nationalist_socialism}
+        }
 		}
 		ENG_united_britain_1 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_united_britain"}
@@ -28,6 +31,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_united_britain
+			cancel = {
+        NOT = {has_government = nationalist_socialism}
+        }
 		}
 		ENG_postwar_recession = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_postwar_recession"}
@@ -44,6 +50,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = Small_Industrial_Crisis
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}	
 		ENG_french_rivalry = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_french_rivalry"}
@@ -121,6 +130,9 @@ ideas = {
 			}
 			picture = factory
 			removal_cost = -1
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_ISH = { #industrial_spearhead
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -138,6 +150,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = factory
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		ENG_NBP_fishing = { #interceptor program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_interceptior_program"}
@@ -155,6 +170,9 @@ ideas = {
 			picture = ENG_rural
 
 			removal_cost = -1
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_fob = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -170,6 +188,7 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = LIT_invested_in_farms
+			
 		}
 		NBP_railroad_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -191,6 +210,9 @@ ideas = {
 			}
 			picture = factory
 			removal_cost = -1
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_railroad_2 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -208,6 +230,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_rural
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_NHS = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -229,6 +254,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = factory
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_NHS_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -245,6 +273,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_rural
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_NBI = { #National Bourgossies Initiative
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea NBP_NBI"}
@@ -258,6 +289,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_mixed = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -272,6 +306,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Centralized  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -287,6 +324,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Bureaucratic_1   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -302,6 +342,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Bureaucratic_2   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -317,6 +360,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Middle_1    = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -332,6 +378,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Middle_2    = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -347,6 +396,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Quo_1   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -363,6 +415,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Quo_2   = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -379,6 +434,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_capitalist
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Liberal = { #Limited Liberalization
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -394,6 +452,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_lib_enterprise
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Enterprice = { #Enterprice
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -410,6 +471,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_lib_enterprise
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_Professional_Workforce = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -429,6 +493,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = factory
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		
 		NBP_industrial_expansion  = { #submarine program
@@ -450,6 +517,9 @@ ideas = {
 			}
 			picture = factory
 			removal_cost = -1
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_rural  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -465,6 +535,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_rural
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_rural_1  = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -481,6 +554,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_rural
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		######
 }

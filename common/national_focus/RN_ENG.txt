@@ -531,6 +531,7 @@ focus_tree = {
                         hidden_effect = {
 				news_event = { id = worldnews.1 hours = 4 }
 			}
+			country_event = { id = ENG.11 }
 		}
                  
 	}
@@ -1121,19 +1122,21 @@ focus_tree = {
 	focus = {
 		id = ENG_o_england_arise
 		icon = ENG_o_england_arise
-		x = 39
+		x = 40
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = moderate_socialist}
+		
 	}
 	#Focus for From your fields and hills
 	focus = {
 		id = ENG_from_your_fields_and_hills
 		icon = focus_prc_agrarian_socialism
-		x = 36
+		x = 37
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -1147,7 +1150,7 @@ focus_tree = {
 	focus = {
 		id = ENG_all_your_valleys_call_you
 		icon = ENG_all_your_valleys_call_you
-		x = 38
+		x = 39
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -1161,7 +1164,7 @@ focus_tree = {
 	focus = {
 		id = ENG_laws_that_are_falsehood
 		icon = focus_renounce_the_treaty_of_trianon
-		x = 40
+		x = 41
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -1175,7 +1178,7 @@ focus_tree = {
 	focus = {
 		id = ENG_dream_of_toil_and_sorrow
 		icon = focus_fra_liberte_egalite_solidarite
-		x = 37
+		x = 38
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -1189,7 +1192,7 @@ focus_tree = {
 	focus = {
 		id = ENG_over_your_face_a_web_of_lies
 		icon = ENG_over_your_face_a_web_of_lies
-		x = 41
+		x = 42
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
@@ -1203,7 +1206,7 @@ focus_tree = {
 	focus = {
 		id = ENG_england_is_risen_and_the_day_is_here
 		icon = focus_spr_torchbearers_of_tomorrow
-		x = 39
+		x = 40
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
@@ -1216,7 +1219,7 @@ focus_tree = {
 	focus = {
 		id = ENG_the_ocean_sparkling_lights
 		icon = ENG_the_ocean_sparkling_lights
-		x = 36
+		x = 37
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -1235,7 +1238,7 @@ focus_tree = {
 	focus = {
 		id = ENG_your_harvest_shall_it_reap
 		icon = ENG_your_harvest_shall_it_reap
-		x = 41
+		x = 42
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
@@ -1253,7 +1256,7 @@ focus_tree = {
 	focus = {
 		id = ENG_sits_idelness_encrowned
 		icon = focus_rom_abdicate
-		x = 42
+		x = 43
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
@@ -1267,7 +1270,7 @@ focus_tree = {
 	focus = {
 		id = ENG_will_you_disown_your_native_land
 		icon = ENG_will_you_disown_your_native_land
-		x = 39
+		x = 40
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
@@ -1312,6 +1315,8 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = revolutionary_socialism}
+
 	}
 
 	#Focus for Destruction of the Regime

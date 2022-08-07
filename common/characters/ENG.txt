@@ -28,7 +28,7 @@ characters={
 		}
 	}
 	ENG_micheal_macdonald={
-		name="Micheal MacDonald"
+		name="Malcolm MacDonald"
 		portraits={
 			civilian={
 				large="GFX/Leaders/ENG/ENG_MacDonald.tga"
