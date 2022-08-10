@@ -123,13 +123,22 @@ country_event = { #Great British General Strike
 	option = {
 		name = ENG.5.a #Ingsoc
 		country_event = { id = ENG.7 hours = 6 }
+		 ai_chance = {
+            base = 30       
+        }
 	}
 		option = {
 		name = ENG.5.b #WRC
         country_event = { id = ENG.6 hours = 6 }
+		 ai_chance = {
+            base = 30       
+        }
     }
 	option = {
 	    name = ENG.5.c
+		 ai_chance = {
+            base = 40      
+        }
     }
 }
 
@@ -264,6 +273,9 @@ country_event = { # Election
 				country_event = { id = ENG.12 days = 1 }
 			}
 		}
+		 ai_chance = {
+            base = 20     
+        }
 	}
 	option = {
 		name = ENG.11.b
@@ -272,6 +284,9 @@ country_event = { # Election
 				country_event = { id = ENG.13 days = 1 }
 			}
 		}
+		 ai_chance = {
+            base = 40      
+        }
 	}
 	option = {
 		name = ENG.11.c
@@ -280,6 +295,9 @@ country_event = { # Election
 				country_event = { id = ENG.14 days = 1 }
 			}
 		}
+		 ai_chance = {
+            base = 40   
+        }
 	}
 }
 
