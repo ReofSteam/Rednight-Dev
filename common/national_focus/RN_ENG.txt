@@ -26,7 +26,8 @@ focus_tree = {
 		}
 		ai_will_do = {
 			factor = 1
-		} 
+		}
+        available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			swap_ideas = {
 			remove_idea = NBP_Professional_Workforce
@@ -56,6 +57,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		 if = {
 				limit = {
@@ -104,6 +106,7 @@ focus_tree = {
 			}
 			country_event = { id = Uob.9 hours = 1 }
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for Rural Renovation 122, 123, 125, 129, 338, 131, 133, 120, 136
@@ -119,6 +122,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 	completion_reward = {
 	    122 = { add_building_construction = {
 	type = infrastructure
@@ -200,6 +204,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			add_ideas = NBP_fob 
 			country_event = { id = Uob.4 hours = 1 }
@@ -218,6 +223,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			136 = { add_building_construction = {
 	type = dockyard
@@ -256,6 +262,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		if = {
 				limit = {
@@ -291,6 +298,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			if = {
 				limit = {
@@ -329,8 +337,9 @@ focus_tree = {
 		}
 	
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			add_political_power = -50
 			add_ideas = { NBP_Liberal }
@@ -355,6 +364,7 @@ focus_tree = {
 			remove_idea = NBP_NBI
 			add_idea = NBP_Centralized	
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 	}
 
@@ -377,6 +387,7 @@ focus_tree = {
 			add_idea = NBP_mixed
 			}
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for Peacetime Development
@@ -389,7 +400,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_new_britain_plan }
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
 		completion_reward = {
 			swap_ideas = {
@@ -397,6 +408,7 @@ focus_tree = {
 				add_idea = ENG_new_britain_plan
 				}			
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for Industrial Spearhead
@@ -423,6 +435,7 @@ focus_tree = {
 			}
 			country_event = { id = Uob.2 hours = 1 }
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for Enterprise Financial Autonomy
@@ -444,6 +457,7 @@ focus_tree = {
 				remove_idea = NBP_Liberal
 			}
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for National Bourgeoisie Initiative
@@ -461,18 +475,19 @@ focus_tree = {
         }	
 		
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
 		completion_reward = {
             add_ideas = NBP_NBI
 			country_event = { id = Uob.7 hours = 1 }
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 
 	#Focus for Maximalist Victory
 	focus = {
 		id = ENG_maximalist_victory
-		icon = ENG_maximist_victory
+		icon = ENG_maximalist_victory
 		x = 21
 		y = 1
 		cost = 10
@@ -548,6 +563,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			add_tech_bonus = {
 			bonus = 0.5
@@ -593,8 +609,9 @@ focus_tree = {
 		focus = ENG_english_socialist_victory
 	}
 		ai_will_do = {
-			factor = 1
+			factor = 2500
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			add_political_power = 100
 			country_event = {
@@ -615,6 +632,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		if = {
 				limit = {
@@ -648,6 +666,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 			swap_ideas = {
 			remove_idea = NBP_ISH
@@ -669,8 +688,9 @@ focus_tree = {
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_english_socialist_victory }
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		    add_war_support = 0.05
 			country_event = { id = Uob.3 hours = 1 }
@@ -690,8 +710,9 @@ focus_tree = {
 			focus = ENG_fishing_industry_expansion 
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		swap_ideas = {
 	     remove_idea = ENG_Import_Dependency_fishing
@@ -719,6 +740,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
+		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		 if = {
 				limit = {
@@ -756,11 +778,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = { has_government = nationalist_socialism }	
 		prerequisite = { focus = ENG_english_socialist_victory
          focus = ENG_maximalist_victory 
 		 focus = ENG_national_labour_victory
 		 }
+		 ai_will_do = {
+			factor = 1
+		}
 	}
+	
 	#Shipyard of Britain
 	focus = {
 		id = ENG_shipyard_of_britain
@@ -777,6 +804,8 @@ focus_tree = {
 		 mutually_exclusive = { 
 			focus = ENG_national_defense
 		}
+		available = { has_government = nationalist_socialism }	
+		
 	}
 	#Naval power project
 	focus = {
@@ -791,6 +820,7 @@ focus_tree = {
 		prerequisite = { 
 		 focus = ENG_shipyard_of_britain
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Industry of national defense
 	focus = {
@@ -808,6 +838,7 @@ focus_tree = {
 		 mutually_exclusive = { 
 			focus = ENG_shipyard_of_britain
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 	#Revolutionary guard expansion
 	focus = {
@@ -825,6 +856,7 @@ focus_tree = {
 		 mutually_exclusive = {
 		focus = ENG_standing_army_expansion
 		}
+		available = { has_government = nationalist_socialism }	
 
 	}
 	#Standing army expansion
@@ -843,6 +875,7 @@ focus_tree = {
 		mutually_exclusive = {
 		focus = ENG_revolutionary_guard_expansion
 		}
+		available = { has_government = nationalist_socialism }	
 	}
 	#A professional army
 	focus = {
@@ -857,6 +890,7 @@ focus_tree = {
 		prerequisite = { 
 		 focus = ENG_standing_army_expansion
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Mass Production
 	focus = {
@@ -872,6 +906,7 @@ focus_tree = {
 		 focus = ENG_national_defense
 		 focus = ENG_revolutionary_guard_expansion
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Mandatory arms training
 	focus = {
@@ -886,6 +921,7 @@ focus_tree = {
 		prerequisite = { 
           focus = ENG_mass_production
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Project Trident
 	focus = {
@@ -901,6 +937,7 @@ focus_tree = {
 		 focus = ENG_shipyard_of_britain
 		 focus = ENG_national_defense
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Strategic warfare assistance
 	focus = {
@@ -915,6 +952,7 @@ focus_tree = {
 		prerequisite = { 
 		 focus = ENG_project_trident
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#The question of political warfare
 	focus = {
@@ -930,6 +968,7 @@ focus_tree = {
 		 focus = ENG_standing_army_expansion
 		 focus = ENG_revolutionary_guard_expansion
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	#Womern revolutionary federation
 	focus = {
@@ -944,6 +983,7 @@ focus_tree = {
 		prerequisite = { 
 		 focus = ENG_question_of_political_warfare
 		 }
+		 available = { has_government = nationalist_socialism }	
 	}
 	
 	####R.E.D BRANCH####
@@ -1067,11 +1107,14 @@ focus_tree = {
 		icon = ENG_red_atlantic_division
 		x = 51
 		y = 0
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+        has_completed_focus = ENG_mosleys_democratic_election
+        }
 	}
     #Focus for Operation Pendragon II
 	focus = {
@@ -1127,7 +1170,7 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
 		available = { has_government = moderate_socialist}
 		
@@ -1313,10 +1356,12 @@ focus_tree = {
 		cost = 10
 		available_if_capitulated = yes
 		ai_will_do = {
-			factor = 1
+			factor = 1500
 		}
 		available = { has_government = revolutionary_socialism}
-
+        completion_reward = {
+		country_event = { id = ENG.8 hours = 1 }
+		}
 	}
 
 	#Focus for Destruction of the Regime
@@ -1579,11 +1624,14 @@ focus_tree = {
 		icon = ENG_defense_republic
 		x = 36
 		y = 10
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1
 		}
+		available = {
+        has_completed_focus = ENG_mosleys_democratic_election
+        }
 	}
 	#Focus for New Military Shipyards
 	focus = {

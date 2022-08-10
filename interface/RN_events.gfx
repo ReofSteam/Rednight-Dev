@@ -123,6 +123,26 @@ spriteTypes = {
 		name = "GFX_ENG_blair"
 		texturefile = "gfx/event_pictures/ENG_blair.png"
 	}
+	spriteType = { 
+		name = "GFX_ENG_steady"
+		texturefile = "gfx/event_pictures/ENG_steady.png"
+	}
+	spriteType = { 
+		name = "GFX_ENG_mosley_victory"
+		texturefile = "gfx/event_pictures/ENG_mosley_victory.png"
+	}
+	spriteType = { 
+		name = "GFX_ENG_nat_labour_victory"
+		texturefile = "gfx/event_pictures/ENG_nat_labour_victory.png"
+	}
+	spriteType = { 
+		name = "GFX_ENG_engsoc_victory"
+		texturefile = "gfx/event_pictures/ENG_engsoc_victory.png"
+	}
+	spriteType = { 
+		name = "GFX_ENG_election"
+		texturefile = "gfx/event_pictures/ENG_election.png"
+	}
 
 	####CSA
 	spriteType = { 

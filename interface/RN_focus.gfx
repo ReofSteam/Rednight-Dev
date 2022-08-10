@@ -313,8 +313,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/ENG/ENG_london_peoples_court.png"
 	}
 	SpriteType = { 
-        name = "ENG_maximist_victory"
-        texturefile = "gfx/interface/goals/ENG/ENG_maximist_victory.png"
+        name = "ENG_maximalist_victory"
+        texturefile = "gfx/interface/goals/ENG/ENG_maximalist_victory.png"
 	}
 	SpriteType = { 
         name = "ENG_mbt_focus"
