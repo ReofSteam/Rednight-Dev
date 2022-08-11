@@ -389,6 +389,12 @@ country_event = { # Deal with strike
 	news_event = { id = worldnews.31 hours = 1 }
 	}
   }
+    option = {
+    name = ENG.15.b
+	hidden_effect = {
+	news_event = { id = worldnews.32 hours = 1 }
+	}
+  }
 }
 country_event = { #
 	id = Uob.1
