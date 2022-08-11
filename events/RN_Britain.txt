@@ -140,6 +140,7 @@ country_event = { #Great British General Strike
 		 ai_chance = {
             base = 40      
         }
+		country_event = { id = ENG.15 hours = 6 }
     }
 }
 
@@ -271,7 +272,7 @@ country_event = { # Election
 		name = ENG.11.a
 		hidden_effect = {
 			ENG = {
-				country_event = { id = ENG.12 days = 1 }
+				country_event = { id = ENG.12 days = 15 }
 			}
 		}
 		 ai_chance = {
@@ -282,7 +283,7 @@ country_event = { # Election
 		name = ENG.11.b
 		hidden_effect = {
 			ENG = {
-				country_event = { id = ENG.13 days = 1 }
+				country_event = { id = ENG.13 days = 15 }
 			}
 		}
 		 ai_chance = {
@@ -293,7 +294,7 @@ country_event = { # Election
 		name = ENG.11.c
 		hidden_effect = {
 			ENG = {
-				country_event = { id = ENG.14 days = 1 }
+				country_event = { id = ENG.14 days = 15 }
 			}
 		}
 		 ai_chance = {
@@ -369,6 +370,25 @@ country_event = { # Engsoc win election
 }		
     complete_national_focus = ENG_english_socialist_victory 
 	}
+}
+
+country_event = { # Deal with strike
+	id = ENG.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.15.t
+	desc = ENG.15.d
+	picture = GFX_ENG_engsoc_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+    name = ENG.15.a
+	hidden_effect = {
+	news_event = { id = worldnews.31 hours = 1 }
+	}
+  }
 }
 country_event = { #
 	id = Uob.1
