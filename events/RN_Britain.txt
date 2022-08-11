@@ -38,6 +38,7 @@ country_event = { #Cambridge University Riot
 	ENG = {
 				country_event = { id = ENG.3 days = 5 }
 			}
+	hidden_effect = { news_event = { id = worldnews.29 hours = 1 } }
 	}
 	}
 	
@@ -159,7 +160,7 @@ country_event = { #Workers Revolutionary Council seized power
     set_politics = {
 	ruling_party = revolutionary_socialism
 }	
-
+hidden_effect = { news_event = { id = worldnews.28 hours = 1 } }
 	}
 }	
 country_event = { #Ingsoc seized power
@@ -188,7 +189,7 @@ create_country_leader = {
     set_politics = {
 	ruling_party = moderate_socialist
 }	
-
+hidden_effect = { news_event = { id = worldnews.30 hours = 1 } }
 	}
 }
 

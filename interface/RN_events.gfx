@@ -143,6 +143,10 @@ spriteTypes = {
 		name = "GFX_ENG_election"
 		texturefile = "gfx/event_pictures/ENG_election.png"
 	}
+	spriteType = { 
+		name = "GFX_ENG_engsoc_victory"
+		texturefile = "gfx/event_pictures/ENG_engsoc_victory.png"
+	}
 
 	####CSA
 	spriteType = { 
