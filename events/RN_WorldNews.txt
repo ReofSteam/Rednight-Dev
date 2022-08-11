@@ -612,6 +612,100 @@ news_event = {
 		name = worldnews.27.a
 	}	
 }
+news_event = { #WRC
+	id = worldnews.28
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.28" }
+
+	title = worldnews.28.t
+	desc = worldnews.28.d
+	picture = GFX_news_WRC_revolution
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.28.a
+	}
+}
+
+news_event = { #Cambridge riot
+	id = worldnews.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.29" }
+
+	title = worldnews.29.t
+	desc = worldnews.29.d
+	picture = GFX_news_cambridge_riot
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.29.a
+	}
+}
+
+news_event = { #Engsoc
+	id = worldnews.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.30" }
+
+	title = worldnews.30.t
+	desc = worldnews.30.d
+	picture = GFX_news_engsoc_revolution
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.30.a
+	}
+}
+
+news_event = { #1984 Mosley
+	id = worldnews.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.31" }
+
+	title = worldnews.31.t
+	desc = worldnews.31.d
+	picture = GFX_news_order_restored_1
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.31.a
+	}
+}
+
+news_event = { #Mosley Compromise
+	id = worldnews.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event worldnews.32" }
+
+	title = worldnews.32.t
+	desc = worldnews.32.d
+	picture = GFX_news_order_restored_2
+	major = yes
+	show_major = {
+	is_in_europe = yes
+	}
+	is_triggered_only = yes
+
+
+	option = {
+		name = worldnews.32.a
+	}
+}
 
 news_event = { 
 	id = worldnews.1000

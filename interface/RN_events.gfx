@@ -136,8 +136,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/ENG_nat_labour_victory.png"
 	}
 	spriteType = { 
-		name = "GFX_ENG_engsoc_victory"
-		texturefile = "gfx/event_pictures/ENG_engsoc_victory.png"
+		name = "GFX_news_engsoc_revolution"
+		texturefile = "gfx/event_pictures/news_engsoc_revolution.png"
 	}
 	spriteType = { 
 		name = "GFX_ENG_election"
@@ -283,6 +283,22 @@ spriteTypes = {
 		name = "GFX_news_PRS_rightwing"
 		texturefile = "gfx/event_pictures/news_PRS_rightwing.tga"
 	}	
+	spriteType = { 
+		name = "GFX_news_WRC_revolution"
+		texturefile = "gfx/event_pictures/news_WRC_revolution.png"
+	}	
+	spriteType = { 
+		name = "GFX_news_cambridge_riot"
+		texturefile = "gfx/event_pictures/news_cambridge_riot.png"
+	}	
+	spriteType = { 
+		name = "GFX_news_order_restored_1"
+		texturefile = "gfx/event_pictures/news_order_restored_1.png"
+	}
+	spriteType = { 
+		name = "GFX_news_order_restored_2"
+		texturefile = "gfx/event_pictures/news_order_restored_2.png"
+	}
 ######CSA
 		spriteType = { 
 		name = "GFX_CSA_congress_report"
