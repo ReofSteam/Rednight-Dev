@@ -188,7 +188,9 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = LIT_invested_in_farms
-			
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
 		}
 		NBP_railroad_1 = { #submarine program
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
@@ -554,6 +556,164 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = ENG_rural
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_shipyard_of_britain = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			industrial_capacity_dockyard = 0.1
+			production_speed_dockyard_factor = 0.1
+			}
+			removal_cost = -1
+			picture = generic_navy_bonus
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_revolutionary_expansion = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			conscription = 0.01
+		    army_org = -10
+			}
+			removal_cost = -1
+			picture = GFX_idea_red_junta
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_defense_industry = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+            modifier = {
+			production_speed_arms_factory_factor = 0.1
+			}
+			removal_cost = -1
+			picture = SOV_third_five_year_plan_military
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_production = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+			
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_arm_training = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+			modifier = {
+			training_time_army_factor = -0.1
+			resistance_growth_on_our_occupied_states  = 0.25
+			}
+			
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_standing_army_1 = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			modifier = {
+				
+            experience_gain_army_factor = 0.1
+			}
+			
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_standing_army_2 = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			modifier = {
+				
+            experience_gain_army_factor = 0.1
+			experience_loss_factor = -0.1
+			army_org_factor = 0.1
+			army_attack_factor = 0.1
+			}
+			
+			removal_cost = -1
+			picture = SOV_organize_wreckers
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_political_question = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			modifier = {
+			stability_factor = -0.05
+			army_morale_factor = 0.05
+			political_power_factor = 0.05
+			}
+			
+			removal_cost = -1
+			picture = saf_soviet_advisers
+			cancel = {
+            NOT = {has_government = nationalist_socialism}
+        }
+		}
+		NPB_women_force = { #submarine program
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ENG_submarineboost"}
+			allowed = {
+				always = no
+			}
+			            allowed_civil_war = { always = yes }
+			modifier = {
+			conscription_factor = 0.15
+			}
+			
+			removal_cost = -1
+			picture = eng_imperial_conscription
 			cancel = {
             NOT = {has_government = nationalist_socialism}
         }

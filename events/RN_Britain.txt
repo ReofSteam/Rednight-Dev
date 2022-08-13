@@ -396,6 +396,27 @@ country_event = { # Deal with strike
 	}
   }
 }
+
+country_event = { # commissars
+	id = ENG.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.16.t
+	desc = ENG.16.d
+	picture = GFX_ENG_engsoc_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+    name = ENG.16.a
+	add_ideas = NPB_political_question
+  }
+    option = {
+    name = ENG.16.b
+    add_political_power = 40
+  }
+}
 country_event = { #
 	id = Uob.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.1" }

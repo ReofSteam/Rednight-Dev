@@ -392,6 +392,14 @@ ENG.13.a:0 "Congratulations!"
 ENG.14.t:0 "English Socialists Win The Elections!"
 ENG.14.d:0 "A somewhat surprising result has emerged from the elections. The so-called “English Socialists” have emerged victorious by somewhat comfortable margins. Romanticists opposed to French Marxian influence, they believe in the ideal of a Socialist England with a uniquely English Socialism. Not opposed to Mosley in any way,  they are also not slavish Maximalists and may oppose Mosley on some key issues./n/nGrand Protector Mosley has issued statements praising the smooth election and the newly elected representatives, proclaiming that ‘Their idealism and Patriotism in the face of opposition is exactly what Britain needs now”. Meanwhile Hugh Dalton, the leader of the English Socialists has congratulated the “good fight” of their opposition."
 ENG.14.a:0 "This wasn’t supposed to happe- I mean, Congratulations!"
+ENG.15.t:0 ""
+ENG.15.d:0 ""
+ENG.15.a:0 "Arrest all their leaders"
+ENG.15.b:0 "Compromise with them"
+ENG.16.t:0 " le commissars or no"
+ENG.16.d:0 ""
+ENG.16.a:0 "Yes"
+ENG.16.b:0 "No"
 ####News
 
 ##########Ideas 
@@ -424,6 +432,15 @@ ENG_NBP_fishing:0 "New Britain Plan - Rural Renovation"
 NBP_NHS_1:0 "New Britain Plan - Rural Renovation"
 ENG_united_britain_1:0 "United Britain"
 
+NPB_shipyard_of_britain:0 "Shipyards of Britain"
+NPB_revolutionary_expansion:0 "Revolutionary Guards Expansion"
+NPB_defense_industry:0 "Industry of National Defence"
+NPB_production:0 "Mass Production"
+NPB_arm_training:0 "Mandatory Arms Training"
+NPB_standing_army_1:0 "Standing Army Expansion"
+NPB_standing_army_2:0 "Standing Army Expansion"
+NPB_political_question:0 "Commissars"
+NPB_women_force:0 "Women’s Revolutionary Federation"
 ##########
 
 

@@ -15,9 +15,6 @@ news_event = { #British Election
 
 	is_triggered_only = yes
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
 	option = {
 		name = worldnews.1.a
 	}
@@ -620,9 +617,7 @@ news_event = { #WRC
 	desc = worldnews.28.d
 	picture = GFX_news_WRC_revolution
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
+
 	is_triggered_only = yes
 
 
@@ -639,9 +634,7 @@ news_event = { #Cambridge riot
 	desc = worldnews.29.d
 	picture = GFX_news_cambridge_riot
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
+
 	is_triggered_only = yes
 
 
@@ -658,9 +651,7 @@ news_event = { #Engsoc
 	desc = worldnews.30.d
 	picture = GFX_news_engsoc_revolution
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
+
 	is_triggered_only = yes
 
 
@@ -677,9 +668,7 @@ news_event = { #1984 Mosley
 	desc = worldnews.31.d
 	picture = GFX_news_order_restored_1
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
+
 	is_triggered_only = yes
 
 
@@ -696,9 +685,7 @@ news_event = { #Mosley Compromise
 	desc = worldnews.32.d
 	picture = GFX_news_order_restored_2
 	major = yes
-	show_major = {
-	is_in_europe = yes
-	}
+	
 	is_triggered_only = yes
 
 

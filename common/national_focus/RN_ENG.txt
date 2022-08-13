@@ -805,7 +805,16 @@ focus_tree = {
 			focus = ENG_national_defense
 		}
 		available = { has_government = nationalist_socialism }	
-		
+		completion_reward = {
+		add_ideas = NPB_shipyard_of_britain
+		127 = { add_building_construction = {
+	type = dockyard
+	level = 2
+	instant_build = yes
+		} 
+	}
+	}
+ 
 	}
 	#Naval power project
 	focus = {
@@ -821,6 +830,9 @@ focus_tree = {
 		 focus = ENG_shipyard_of_britain
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 add_war_support = 0.05
+	}
 	}
 	#Industry of national defense
 	focus = {
@@ -839,6 +851,21 @@ focus_tree = {
 			focus = ENG_shipyard_of_britain
 		}
 		available = { has_government = nationalist_socialism }	
+		completion_reward = {
+		132 = { add_building_construction = {
+	type = arms_factory
+	level = 1
+	instant_build = yes
+		} 
+	} 
+		128 = { add_building_construction = {
+	type = arms_factory
+	level = 1
+	instant_build = yes
+	}
+	}
+	add_ideas = NPB_defense_industry
+	}
 	}
 	#Revolutionary guard expansion
 	focus = {
@@ -857,7 +884,10 @@ focus_tree = {
 		focus = ENG_standing_army_expansion
 		}
 		available = { has_government = nationalist_socialism }	
-
+        completion_reward = {
+		add_war_support = 0.05
+		add_ideas = NPB_revolutionary_expansion
+		}
 	}
 	#Standing army expansion
 	focus = {
@@ -876,6 +906,14 @@ focus_tree = {
 		focus = ENG_revolutionary_guard_expansion
 		}
 		available = { has_government = nationalist_socialism }	
+		completion_reward = {
+		army_experience = 35
+		swap_ideas = {
+		remove_idea = small_reservist_force
+		add_idea = medium_reservist_force
+		}
+		add_ideas = NPB_standing_army_1
+		}
 	}
 	#A professional army
 	focus = {
@@ -891,6 +929,12 @@ focus_tree = {
 		 focus = ENG_standing_army_expansion
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 swap_ideas = {
+		 remove_idea = NPB_standing_army_1
+		 add_idea = NPB_standing_army_2
+		 }
+		}
 	}
 	#Mass Production
 	focus = {
@@ -904,9 +948,14 @@ focus_tree = {
 		}
 		prerequisite = { 
 		 focus = ENG_national_defense
+		 }
+		 prerequisite = { 
 		 focus = ENG_revolutionary_guard_expansion
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 add_ideas = NPB_production
+		 }
 	}
 	#Mandatory arms training
 	focus = {
@@ -922,6 +971,12 @@ focus_tree = {
           focus = ENG_mass_production
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		
+		 add_ideas = NPB_arm_training
+		 remove_ideas = NPB_production
+		 
+		} 
 	}
 	#Project Trident
 	focus = {
@@ -938,6 +993,14 @@ focus_tree = {
 		 focus = ENG_national_defense
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+			add_tech_bonus = {
+			bonus = 0.1
+			uses = 2
+			category = nuclear
+ }
+
+		}
 	}
 	#Strategic warfare assistance
 	focus = {
@@ -953,6 +1016,9 @@ focus_tree = {
 		 focus = ENG_project_trident
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 research_sharing_per_country_bonus = 0.5
+		 }
 	}
 	#The question of political warfare
 	focus = {
@@ -969,6 +1035,10 @@ focus_tree = {
 		 focus = ENG_revolutionary_guard_expansion
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 country_event = { id = ENG.16 }
+		 }
+		
 	}
 	#Womern revolutionary federation
 	focus = {
@@ -984,6 +1054,9 @@ focus_tree = {
 		 focus = ENG_question_of_political_warfare
 		 }
 		 available = { has_government = nationalist_socialism }	
+		 completion_reward = {
+		 add_ideas = NPB_women_force
+		 }
 	}
 	
 	####R.E.D BRANCH####
