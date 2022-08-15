@@ -34,7 +34,14 @@ country_event = { #Cambridge University Riot
 
 	option = {
 		name = ENG.2.a
+	hidden_effect = {
+	ENG = {
+				country_event = { id = ENG.3 days = 5 }
+			}
+	hidden_effect = { news_event = { id = worldnews.29 hours = 1 } }
 	}
+	}
+	
 }
 
 country_event = { #Ingsoc joined protestors
@@ -49,18 +56,16 @@ country_event = { #Ingsoc joined protestors
 
 
 	option = {
-		name = ENG.3.a
-	set_political_party = {
-    ideology = moderate_socialist
-    popularity = 20
-}	
-	}
-		option = {
 		name = ENG.3.b
 	set_political_party = {
     ideology = moderate_socialist
     popularity = 20
-}			
+}	
+    hidden_effect = {
+	ENG = {
+				country_event = { id = ENG.4 days = 5 }
+			}
+	}
 	}
 	
 }
@@ -90,35 +95,18 @@ country_event = { #Workers Revolutionary Council
 create_country_leader = {
 	name = "Workers Revolutionary Council"
 	desc = "POLITICS_WRC_DESC"
-	picture = "GFX/ENG/ENG_Worker_Council.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialism_subtype
-	traits = {
-		
-	}
-}	
-	}
-		option = {
-		name = ENG.4.b
-		set_political_party = {
-    ideology = revolutionary_socialism_subtype
-    popularity = 20
-}	
-	set_party_name = { 
-    ideology = revolutionary_socialism
-    long_name = ENG_Workers_Council_long 
-    name = ENG_Workers_Council
-}
-create_country_leader = {
-	name = "Workers Revolutionary Council"
-	desc = "POLITICS_WRC_DESC"
 	picture = "GFX/Leaders/ENG/ENG_Worker_Council.tga"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
 		
 	}
-}		
+}	
+	hidden_effect = {
+	ENG = {
+				country_event = { id = ENG.5 days = 5 }
+			}
+	}
 	}
 }
 
@@ -135,11 +123,27 @@ country_event = { #Great British General Strike
 
 	option = {
 		name = ENG.5.a #Ingsoc
+		country_event = { id = ENG.7 hours = 6 }
+		 ai_chance = {
+            base = 30       
+        }
 	}
 		option = {
-		name = ENG.5.a #WRC
-	}
+		name = ENG.5.b #WRC
+        country_event = { id = ENG.6 hours = 6 }
+		 ai_chance = {
+            base = 30       
+        }
+    }
+	option = {
+	    name = ENG.5.c
+		 ai_chance = {
+            base = 40      
+        }
+		country_event = { id = ENG.15 hours = 6 }
+    }
 }
+
 
 country_event = { #Workers Revolutionary Council seized power
 	id = ENG.6
@@ -157,6 +161,7 @@ country_event = { #Workers Revolutionary Council seized power
     set_politics = {
 	ruling_party = revolutionary_socialism
 }	
+hidden_effect = { news_event = { id = worldnews.28 hours = 1 } }
 	}
 }	
 country_event = { #Ingsoc seized power
@@ -185,7 +190,7 @@ create_country_leader = {
     set_politics = {
 	ruling_party = moderate_socialist
 }	
-
+hidden_effect = { news_event = { id = worldnews.30 hours = 1 } }
 	}
 }
 
@@ -210,7 +215,7 @@ country_event = { #United Workers Party of Britain
 create_country_leader = {
 	name = "Reg Birch "
 	desc = "POLITICS_REG_BIRCH_DESC"
-	picture = "GFX/Leaders/ENG/ENG_Joe.tga"
+	picture = "GFX/Leaders/ENG/ENG_Birch.png"
 	expire = "1965.1.1"
 	ideology = revolutionary_socialism_subtype
 	traits = {
@@ -236,7 +241,7 @@ country_event = { # Death of Orwell
 	}
 }
 
-country_event = { # Death of Orwell
+country_event = { # Homecoming
 	id = ENG.10
 	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
 
@@ -248,10 +253,170 @@ country_event = { # Death of Orwell
 	fire_only_once = yes
 
     option = {
-		name = boz.1.a
+		name = ENG.10.a
 	}
 }
 
+country_event = { # Election
+	id = ENG.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.11.t
+	desc = ENG.11.d
+	picture = GFX_ENG_election
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = ENG.11.a
+		hidden_effect = {
+			ENG = {
+				country_event = { id = ENG.12 days = 15 }
+			}
+		}
+		 ai_chance = {
+            base = 20     
+        }
+	}
+	option = {
+		name = ENG.11.b
+		hidden_effect = {
+			ENG = {
+				country_event = { id = ENG.13 days = 15 }
+			}
+		}
+		 ai_chance = {
+            base = 40      
+        }
+	}
+	option = {
+		name = ENG.11.c
+		hidden_effect = {
+			ENG = {
+				country_event = { id = ENG.14 days = 15 }
+			}
+		}
+		 ai_chance = {
+            base = 40   
+        }
+	}
+}
+
+country_event = { # National Labourites win election
+	id = ENG.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.12.t
+	desc = ENG.12.d
+	picture = GFX_ENG_nat_labour_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = ENG.12.a
+		create_country_leader = {
+	name = "Malcolm MacDonald"
+	desc = "POLITICS_REG_BIRCH_DESC"
+	picture = "GFX/Leaders/ENG/ENG_MacDonald.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+		}
+}		
+    complete_national_focus = ENG_national_labour_victory 
+	}
+}
+
+country_event = { # Maxinmalist victory
+	id = ENG.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.13.t
+	desc = ENG.13.d
+	picture = GFX_ENG_mosley_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = ENG.13.a
+	    
+    complete_national_focus = ENG_maximalist_victory
+	}
+}
+country_event = { # Engsoc win election
+	id = ENG.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.14.t
+	desc = ENG.14.d
+	picture = GFX_ENG_engsoc_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+		name = ENG.14.a
+		create_country_leader = {
+	name = "Hugh Dalton"
+	desc = "POLITICS_REG_BIRCH_DESC"
+	picture = "GFX/Leaders/ENG/ENG_Dalton.tga"
+	expire = "1965.1.1"
+	ideology = nationalist_socialism_subtype
+	traits = {
+		}
+}		
+    complete_national_focus = ENG_english_socialist_victory 
+	}
+}
+
+country_event = { # Deal with strike
+	id = ENG.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.15.t
+	desc = ENG.15.d
+	picture = GFX_ENG_engsoc_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+    name = ENG.15.a
+	hidden_effect = {
+	news_event = { id = worldnews.31 hours = 1 }
+	}
+  }
+    option = {
+    name = ENG.15.b
+	hidden_effect = {
+	news_event = { id = worldnews.32 hours = 1 }
+	}
+  }
+}
+
+country_event = { # commissars
+	id = ENG.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ENGnews.1" }
+
+	title = ENG.16.t
+	desc = ENG.16.d
+	picture = GFX_ENG_engsoc_victory
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+    name = ENG.16.a
+	add_ideas = NPB_political_question
+  }
+    option = {
+    name = ENG.16.b
+    add_political_power = 40
+  }
+}
 country_event = { #
 	id = Uob.1
 	immediate = { log = "[GetDateText]: [Root.GetName]: event Uob.1" }
@@ -381,7 +546,7 @@ country_event = { #
 
 	title = Uob.9.t
 	desc = Uob.9.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_steady
 
 	is_triggered_only = yes
 

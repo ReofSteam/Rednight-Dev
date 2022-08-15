@@ -218,3 +218,7 @@ country_event = {
 id = ENG.10
 days = 362
 }
+country_event = {
+id = ENG.2
+days = 215
+}

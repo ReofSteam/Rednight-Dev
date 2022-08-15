@@ -105,6 +105,10 @@ spriteTypes = {
         name = "GFX_focus_generic_question"
         texturefile = "gfx/interface/goals/generic/focus_generic_question.dds"
     }	
+	SpriteType = { 
+        name = "GFX_focus_generic_fortress_europe"
+        texturefile = "gfx/interface/goals/generic/Generic_Fortress_Europe.tga"
+    }	
 
 	SpriteType = { 
 		name = "GFX_focus_generic_drain"
@@ -309,8 +313,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/ENG/ENG_london_peoples_court.png"
 	}
 	SpriteType = { 
-        name = "ENG_maximist_victory"
-        texturefile = "gfx/interface/goals/ENG/ENG_maximist_victory.png"
+        name = "ENG_maximalist_victory"
+        texturefile = "gfx/interface/goals/ENG/ENG_maximalist_victory.png"
 	}
 	SpriteType = { 
         name = "ENG_mbt_focus"
@@ -439,6 +443,10 @@ spriteTypes = {
 	SpriteType = { 
         name = "ENG_the_arsenal_of_england"
         texturefile = "gfx/interface/goals/ENG/ENG_the_arsenal_of_england.png"
+	}
+	SpriteType = { 
+        name = "ENG_naval_power_project"
+        texturefile = "gfx/interface/goals/ENG/ENG_naval_power_project.png"
 	}
 	SpriteType = { 
         name = "ENG_the_british_nationalities"
@@ -571,6 +579,14 @@ spriteTypes = {
 	SpriteType = { 
         name = "ENG_plan_osborne"
         texturefile = "gfx/interface/goals/ENG/ENG_plan_osborne.png"
+	}
+	SpriteType = { 
+        name = "ENG_project_trident"
+        texturefile = "gfx/interface/goals/ENG/ENG_project_trident.png"
+	}
+	SpriteType = { 
+        name = "ENG_mass_production"
+        texturefile = "gfx/interface/goals/ENG/ENG_mass_production.png"
 	}
 	
 	###AUS
