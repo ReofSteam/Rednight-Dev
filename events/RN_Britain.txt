@@ -161,6 +161,8 @@ country_event = { #Workers Revolutionary Council seized power
     set_politics = {
 	ruling_party = revolutionary_socialism
 }	
+    add_ideas = ENG_chaotic_economy
+    add_ideas = ENG_disunited_union	
 hidden_effect = { news_event = { id = worldnews.28 hours = 1 } }
 	}
 }	
@@ -189,7 +191,8 @@ create_country_leader = {
 }
     set_politics = {
 	ruling_party = moderate_socialist
-}	
+}
+
 hidden_effect = { news_event = { id = worldnews.30 hours = 1 } }
 	}
 }
@@ -222,6 +225,7 @@ create_country_leader = {
 		
 	}
 }		
+
 	}
 }
 
@@ -515,7 +519,7 @@ country_event = { #
 
 	title = Uob.7.t
 	desc = Uob.7.d
-	picture = FRA_oslobomb
+	picture = GFX_ENG_capitalist
 
 	is_triggered_only = yes
 
