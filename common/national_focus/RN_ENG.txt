@@ -807,8 +807,10 @@ focus_tree = {
 		available = { has_government = nationalist_socialism }	
 		completion_reward = {
 		add_ideas = NPB_shipyard_of_britain
-		127 = { add_building_construction = {
-	type = dockyard
+		127 = { 
+			add_extra_state_shared_building_slots = 2
+		add_building_construction = {
+    type = dockyard
 	level = 2
 	instant_build = yes
 		} 
@@ -852,13 +854,18 @@ focus_tree = {
 		}
 		available = { has_government = nationalist_socialism }	
 		completion_reward = {
-		132 = { add_building_construction = {
+		132 = { 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
 	type = arms_factory
 	level = 1
 	instant_build = yes
 		} 
 	} 
-		128 = { add_building_construction = {
+		128 = 
+		{ 
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
 	type = arms_factory
 	level = 1
 	instant_build = yes
@@ -1404,29 +1411,14 @@ focus_tree = {
 #######
 	
 
-   ##### COMMUNIST - The best path ####
-   #Focus for Exports Revolution
-	focus = {
-		id = ENG_exports_revolution
-		icon = ENG_exports_revolution-11206
-		x = 10
-		y = 14
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_noninterventionalism }
-		mutually_exclusive = { focus = ENG_noninterventionalism }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for British Worker's Government
+   ##### COMMUNIST - Hello Russia ####
+   #Focus for British Worker's Government
 	focus = {
 		id = ENG_british_workers_government
 		icon = ENG_british_workers_government
 		x = 11
 		y = 10
-		cost = 10
+		cost = 1
 		available_if_capitulated = yes
 		ai_will_do = {
 			factor = 1500
@@ -1441,11 +1433,37 @@ focus_tree = {
 	focus = {
 		id = ENG_destruction_of_the_regime
 		icon = ENG_destruction_of_the_regime
-		x = 9
+		x = 11
 		y = 11
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_british_workers_government }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Consolidating our control
+	focus = {
+		id = ENG_consolidating_control
+		icon = ENG_consolidating_our_control
+		x = 10
+		y = 12
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destruction_of_the_regime }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Seeking French Support
+	focus = {
+		id = ENG_seeking_french_support
+		icon = ENG_french_support
+		x = 10
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_consolidating_control }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1455,7 +1473,7 @@ focus_tree = {
 	focus = {
 		id = ENG_london_peoples_court
 		icon = ENG_london_peoples_court
-		x = 8
+		x = 12
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
@@ -1464,41 +1482,52 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
+	#Dismantling the national assembly
+	focus = {
+		id = ENG_dismantling_national_assembly
+		icon = ENG_dismantle_assembly
+		x = 12
+		y = 13
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_london_peoples_court }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#A new union
+	focus = {
+		id = ENG_a_new_union
+		icon = GFX_GER_old_heroes
+		x = 11
+		y = 14
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_dismantling_national_assembly}
+        prerequisite = { focus = ENG_seeking_french_support}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#Focus for British Cultural Revolution
 	focus = {
 		id = ENG_british_cultural_revolution
 		icon = ENG_british_cultural_revolution
-		x = 13
-		y = 11
+		x = 11
+		y = 15
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_workers_government }
+		prerequisite = { focus = ENG_a_new_union }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	
-	#Focus for Combat Nationalism
+	#Poletarian Democracy
 	focus = {
-		id = ENG_combat_nationalism
-		icon = ENG_combat_nationalism
-		x = 14
-		y = 13
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_proletarian_culture }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-    
-	#Focus for Destroy English Romanticism
-	focus = {
-		id = ENG_destroy_english_romanticism
-		icon = ENG_destroy_english_romanticism
-		x = 12
-		y = 12
+		id = ENG_poletarian_democracy
+		icon = ENG_poletarian_democracy
+		x = 10
+		y = 16
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = ENG_british_cultural_revolution }
@@ -1506,69 +1535,193 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
-	#Focus for The Principles of Pacifism
+	#Focus for destroy reaction
 	focus = {
-		id = ENG_the_principles_of_pacifism
-		icon = ENG_the_principles_of_pacifism
-		x = 10
-		y = 12
+		id = ENG_combat_nationalism
+		icon = ENG_combat_nationalism
+		x = 12
+		y = 16
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = ENG_destruction_of_the_regime }
+		prerequisite = { focus = ENG_british_cultural_revolution }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Rooting out Bureaucratism
+	focus = {
+		id = ENG_rooting_out_bureaucratism
+		icon = GFX_focus_SOV_the_last_purge
+		x = 9
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_combat_nationalism }
+		prerequisite = { focus = ENG_poletarian_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for The British Nationalities
+	focus = {
+		id = ENG_the_british_nationalities
+		icon = ENG_the_british_nationalities
+		x = 11
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+	    prerequisite = { focus = ENG_combat_nationalism }
+		prerequisite = { focus = ENG_poletarian_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Supress for Destroy English Romanticism
+	focus = {
+		id = ENG_destroy_english_romanticism
+		icon = ENG_destroy_english_romanticism
+		x = 13
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_combat_nationalism }
+		prerequisite = { focus = ENG_poletarian_democracy }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Socialist Education
+	focus = {
+		id = ENG_socialist_education
+		icon = ENG_soc_education
+		x = 10
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destroy_english_romanticism }
+		prerequisite = { focus = ENG_the_british_nationalities }
+		prerequisite = { focus = ENG_rooting_out_bureaucratism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Socialist Realism
+	focus = {
+		id = ENG_socialist_realism
+		icon = GFX_focus_focus_fra_revolution_utmost
+		x = 12
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_destroy_english_romanticism }
+		prerequisite = { focus = ENG_the_british_nationalities }
+		prerequisite = { focus = ENG_rooting_out_bureaucratism }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Proletarian Culture
+	focus = {
+		id = ENG_proletarian_culture
+		icon = GFX_focus_generic_syndicalist_workers
+		x = 11
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_socialist_realism }
+		prerequisite = { focus = ENG_socialist_education }
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	#Focus for Collectivisation
+	#Reg Birch
 	focus = {
-		id = ENG_collectivisation
-		icon = goal_generic_war_with_comintern
-		x = 12
-		y = 13
+		id = ENG_reg_birch
+		icon = ENG_chairman_Birch
+		x = 4
+		y = 15
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = ENG_destroy_english_romanticism }
+				available = {
+			always = no
+		}
+		prerequisite = { focus = ENG_a_new_union}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-
+	#Economic Reorganization
+	focus = {
+		id = ENG_economic_reorganization
+		icon = ENG_economic_reorganization
+		x = 4
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_reg_birch}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	# Integrating the Workers Councils
+	focus = {
+		id = ENG_integrating_workers_councils
+		icon = ENG_chairman_Birch
+		x = 3
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_economic_reorganization}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Ending the Shopkeeper's Nation
+	focus = {
+		id = ENG_ending_the_shopkeeper_nation
+		icon = ENG_chairman_Birch
+		x = 5
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_economic_reorganization}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#Focus for Worker's Self-Management
 	focus = {
 		id = ENG_workers_selfmanagement
-		icon = focus_YUG_pan_slavic_congress
-		x = 12
-		y = 14
+		icon = ENG_proletarian_culture_1
+		x = 2
+		y = 18
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_collectivisation 
+			focus = ENG_ending_the_shopkeeper_nation 
 		}
 		prerequisite = { 
-			focus = ENG_combat_nationalism 
+			focus = ENG_integrating_workers_councils
 		}
 		mutually_exclusive = { focus = ENG_central_economic_planning }
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
 	#Focus for Central Economic Planning
 	focus = {
 		id = ENG_central_economic_planning
 		icon = goal_generic_soviet_construction
-		x = 14
-		y = 14
+		x = 4
+		y = 18
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_collectivisation 
+			focus = ENG_ending_the_shopkeeper_nation 
 		}
 		prerequisite = { 
-			focus = ENG_combat_nationalism 
+			focus = ENG_integrating_workers_councils
 		}
 		mutually_exclusive = { 
 			focus = ENG_workers_selfmanagement 
@@ -1578,73 +1731,139 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
-	#Focus for Proletarian Culture
+	#Integrating the Cooperatives
 	focus = {
-		id = ENG_proletarian_culture
-		icon = ENG_proletarian_culture
-		x = 14
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_british_cultural_revolution }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for Non-Interventionalism
-	focus = {
-		id = ENG_noninterventionalism
-		icon = ENG_noninterventionalism
-		x = 8
-		y = 14
-		cost = 10
-		available_if_capitulated = yes
-		prerequisite = { focus = ENG_the_british_nationalities }
-		mutually_exclusive = { focus = ENG_exports_revolution }
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	#Focus for The British Nationalities
-	focus = {
-		id = ENG_the_british_nationalities
-		icon = ENG_the_british_nationalities
-		x = 10
-		y = 13
+		id = ENG_integrating_the_cooperatives
+		icon = goal_generic_soviet_construction
+		x = 6
+		y = 18
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = ENG_london_peoples_court 
+			focus = ENG_ending_the_shopkeeper_nation 
 		}
 		prerequisite = { 
-			focus = ENG_the_principles_of_pacifism 
+			focus = ENG_integrating_workers_councils
 		}
+
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
-	#Focus for Dicatorship of the Proletariat
+	# Focusing on Modernization
 	focus = {
-		id = ENG_dicatorship_of_the_proletariat
-		icon = focus_por_workers_of_iberia
-		x = 11
+		id = ENG_focus_on_modernization
+		icon = goal_generic_soviet_construction
+		x = 3
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_central_economic_planning
+			focus = ENG_workers_selfmanagement
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Finalizing Agricultural Proletarianization
+	focus = {
+		id = ENG_finalizing_agricultural_proletarianization
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 5
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_central_economic_planning
+			focus = ENG_workers_selfmanagement
+		}
+		prerequisite = { 
+			focus = ENG_integrating_the_cooperatives
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Building of Socialism
+	focus = {
+		id = ENG_building_of_socialism
+		icon = GFX_GER_road_socialism
+		x = 4
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ENG_finalizing_agricultural_proletarianization
+		}
+		prerequisite = { 
+			focus = ENG_focus_on_modernization
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	#Sid French
+	focus = {
+		id = ENG_sid_french
+		icon = ENG_chairman_French
+		x = 18
 		y = 15
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { 
-			focus = ENG_central_economic_planning 
-			focus = ENG_workers_selfmanagement 
-			focus = ENG_noninterventionalism 
-			focus = ENG_exports_revolution 
-		}
+		prerequisite = { focus = ENG_a_new_union}
 		ai_will_do = {
 			factor = 1
 		}
 	}
+	#Food
+	focus = {
+		id = ENG_ensure_food_security
+		icon = ENG_chairman_French
+		x = 17
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_sid_french}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#State Planning Committee
+	focus = {
+		id = ENG_state_planning_committee
+		icon = ENG_chairman_French
+		x = 19
+		y = 16
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_sid_french}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#The First Five Years Plan
+	focus = {
+		id = ENG_five_year_plan
+		icon = ENG_chairman_French
+		x = 18
+		y = 17
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_state_planning_committee}
+		prerequisite = { focus = ENG_ensure_food_security}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	
    ######
 
   ###### MILITARY ######
