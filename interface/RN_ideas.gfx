@@ -539,4 +539,8 @@ spriteType = {
 	    name = "GFX_idea_ENG_rural"
 		texturefile = "gfx/interface/ideas/ENG/ENG_rural.png"
 	}
+	spriteType = {
+	    name = "GFX_idea_ENG_disunited"
+		texturefile = "gfx/interface/ideas/ENG/ENG_disunited.png"
+	}
 }

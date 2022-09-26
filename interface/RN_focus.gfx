@@ -401,8 +401,8 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/ENG/ENG_project_northumberland.png"
 	}
 	SpriteType = { 
-        name = "ENG_proletarian_culture"
-        texturefile = "gfx/interface/goals/ENG/ENG_proletarian_culture.png"
+        name = "ENG_proletarian_culture_1"
+        texturefile = "gfx/interface/goals/ENG/ENG_proletarian_culture_1.png"
 	}
 	SpriteType = { 
         name = "ENG_question_of_political_warfare"
@@ -587,6 +587,38 @@ spriteTypes = {
 	SpriteType = { 
         name = "ENG_mass_production"
         texturefile = "gfx/interface/goals/ENG/ENG_mass_production.png"
+	}
+	SpriteType = { 
+        name = "ENG_chairman_French"
+        texturefile = "gfx/interface/goals/ENG/ENG_chairman_French.png"
+	}
+	SpriteType = { 
+        name = "ENG_chairman_Birch"
+        texturefile = "gfx/interface/goals/ENG/ENG_chairman_Birch.png"
+	}
+	SpriteType = { 
+        name = "ENG_soc_education"
+        texturefile = "gfx/interface/goals/ENG/ENG_soc_education.png"
+	}
+	SpriteType = { 
+        name = "ENG_poletarian_democracy"
+        texturefile = "gfx/interface/goals/ENG/ENG_poletarian_democracy.png"
+	}
+	SpriteType = { 
+        name = "ENG_french_support"
+        texturefile = "gfx/interface/goals/ENG/ENG_french_support.png"
+	}
+	SpriteType = { 
+        name = "ENG_dismantle_assembly"
+        texturefile = "gfx/interface/goals/ENG/ENG_dismantle_assembly.png"
+	}
+	SpriteType = { 
+        name = "ENG_consolidating_our_control"
+        texturefile = "gfx/interface/goals/ENG/ENG_consolidating_our_control.png"
+	}
+	SpriteType = { 
+        name = "ENG_economic_reorganization"
+        texturefile = "gfx/interface/goals/ENG/ENG_economic_reorganization.png"
 	}
 	
 	###AUS
