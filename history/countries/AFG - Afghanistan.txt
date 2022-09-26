@@ -28,7 +28,7 @@ set_popularities = {
 
 create_field_marshal = {
 	name = "Mohammed Nadir Shah"
-	portrait_path = "gfx/leaders/RMK/AFG/Portrait_Nadir_Khan_of_Afghanistan.dds"
+	portrait_path = "gfx/leaders/AFG/Portrait_Nadir_Khan_of_Afghanistan.dds"
 	traits = {
 		harsh_leader
 		old_guard
@@ -42,7 +42,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Shah Wali Khan"
-	portrait_path = "gfx/leaders/RMK/AFG/Portrait_Afghan_Shah_Wali_Khan.tga"
+	portrait_path = "gfx/leaders/AFG/Portrait_Afghan_Shah_Wali_Khan.tga"
 	traits = {
 		harsh_leader
 		defensive_doctrine
@@ -56,7 +56,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Mohammed Daoud Khan"
-	portrait_path = "gfx/leaders/RMK/AFG/Portrait_Afghan_Mohammed_Daoud_Khan.tga"
+	portrait_path = "gfx/leaders/AFG/Portrait_Afghan_Mohammed_Daoud_Khan.tga"
 	traits = {
 		infantry_officer
 		hill_fighter

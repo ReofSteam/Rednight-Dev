@@ -332,7 +332,6 @@ focus_tree = {
 		}
 		prerequisite = { 
 			focus = ENG_mixed_economy
-                        focus = ENG_centralized_economy
 
 		}
 	
@@ -737,10 +736,15 @@ focus_tree = {
 			focus = ENG_industrial_expansion
 			focus = ENG_towards_food_self_sufficency
 		}
+		prerequisite = { 
+			focus = ENG_industrial_spearhead
+			focus = ENG_rural_renovation
+		}
 		ai_will_do = {
 			factor = 1
 		}
-		available = { has_government = nationalist_socialism }	
+		available = { has_government = nationalist_socialism 
+}		
 		completion_reward = {
 		 if = {
 				limit = {
@@ -1861,7 +1865,154 @@ focus_tree = {
 			factor = 1
 		}
 	}
-
+	#Worker's hammer
+	focus = {
+		id = ENG_worker_hammer
+		icon = GFX_focus_generic_socialist_worker
+		x = 16
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_five_year_plan}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Sid's Plan
+	focus = {
+		id = ENG_Sid_plan
+		icon = GFX_focus_generic_socialist_worker
+		x = 15
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_worker_hammer}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Sid's Plan
+	focus = {
+		id = ENG_Sid_plan
+		icon = GFX_focus_generic_socialist_worker
+		x = 15
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_worker_hammer}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#New Labour Code
+	focus = {
+		id = ENG_new_labour_code
+		icon = GFX_focus_generic_socialist_worker
+		x = 17
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_worker_hammer}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Workshop of the world
+	focus = {
+		id = ENG_workshop_of_the_world
+		icon = GFX_focus_generic_socialist_worker
+		x = 16
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_new_labour_code}
+		prerequisite = { focus = ENG_Sid_plan}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Peasant Sickle
+	focus = {
+		id = ENG_peasant_sickle
+		icon = GFX_FRA_The_Humble_Revolution
+		x = 20
+		y = 18
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_five_year_plan}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Collective Farming
+	focus = {
+		id = ENG_collective_farming
+		icon = GFX_FRA_The_Humble_Revolution
+		x = 19
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_peasant_sickle}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Agricultural Mechanization
+	focus = {
+		id = ENG_agricultural_mechanization
+		icon = GFX_FRA_The_Humble_Revolution
+		x = 21
+		y = 19
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_peasant_sickle}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Green Revolution
+	focus = {
+		id = ENG_green_revolution
+		icon = GFX_FRA_The_Humble_Revolution
+		x = 20
+		y = 20
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_collective_farming }
+		prerequisite = {focus = ENG_agricultural_mechanization}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Architect of Communism
+	focus = {
+		id = ENG_architect_of_communism
+		icon = GFX_FRA_The_Humble_Revolution
+		x = 18
+		y = 21
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_green_revolution }
+		prerequisite = {focus = ENG_workshop_of_the_world}
+        ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Dicatorship of the Proletariat
+	focus = {
+		id = ENG_dicatorship_of_the_proletariat
+		icon = focus_por_workers_of_iberia
+		x = 11
+		y = 22
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ENG_architect_of_communism }
+		prerequisite = { focus = ENG_building_of_socialism}
+		prerequisite = { focus = ENG_proletarian_culture} 
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	
    ######
