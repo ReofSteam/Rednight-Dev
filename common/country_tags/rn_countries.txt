@@ -17,7 +17,6 @@ RUR = "countries/WestEur.txt" #Little Russia
 RFN = "countries/WestEur.txt" #Russian Finland
 TRM = "countries/WestEur.txt"	#Transamur
 RUS = "countries/Russia.txt" #Russia
-CSA = "countries/CSA.txt" #csa
 ##Central
 AUS = "countries/Austria.txt"
 BOZ = "countries/British Occupation Zone.txt"
