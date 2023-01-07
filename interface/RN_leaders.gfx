@@ -42,7 +42,9 @@ spriteTypes = {
 	}
 }
 
-SpriteType = { 
+spriteTypes = {
+    SpriteType  = { 
 		name = "GFX_generic_syndie_1984"
 		texturefile = "gfx/leaders/Apocalypse_War/AW_US.tga"
-}	
+    }	
+}

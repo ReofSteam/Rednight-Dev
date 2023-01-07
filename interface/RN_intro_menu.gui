@@ -24,7 +24,6 @@ guiTypes = {
 			position = { x = 380 y = -50 }
 			#Orientation = "CENTER"
 			spriteType = "GFX_intro_arch"
-			clipping = yes
 			frame = 1
 		}		
 		instantTextBoxType = {

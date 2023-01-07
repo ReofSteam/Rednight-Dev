@@ -361,22 +361,6 @@ spriteTypes = {
         texturefile = "gfx/interface/goals/ENG/ENG_o_england_arise.png"
 	}
 	SpriteType = { 
-        name = "ENG_operation_fork"
-        texturefile = "gfx/interface/goals/ENG/ENG_operation_fork.png"
-	}
-	SpriteType = { 
-        name = "ENG_operation_pendragon_ii"
-        texturefile = "gfx/interface/goals/ENG/ENG_operation_pendragon_ii.png"
-	}
-	SpriteType = { 
-        name = "ENG_operation_strongbow"
-        texturefile = "gfx/interface/goals/ENG/ENG_operation_strongbow.png"
-	}
-	SpriteType = { 
-        name = "ENG_operation_wilfred"
-        texturefile = "gfx/interface/goals/ENG/ENG_operation_wilfred.png"
-	}
-	SpriteType = { 
         name = "ENG_over_your_face_a_web_of_lies"
         texturefile = "gfx/interface/goals/ENG/ENG_over_your_face_a_web_of_lies.png"
 	}

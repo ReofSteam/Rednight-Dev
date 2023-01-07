@@ -149,7 +149,6 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 				alwaystransparent = yes
-				clipping = yes
 			}
 
 			iconType =
