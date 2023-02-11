@@ -15,7 +15,7 @@ bookmarks = {
 			
 			}
 		}
-		USA = {
+		CSA = {
 			history = USA_RN_1981_DESC
 			ideology = syndicalism
 			ideas = {

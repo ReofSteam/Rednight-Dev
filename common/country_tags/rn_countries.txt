@@ -27,6 +27,7 @@ JOZ = "countries/Joint Occupation Zone.txt"
 NTH = "countries/Netherlands.txt"
 SWI = "countries/Switzerland.txt"
 MRV = "countries/Moravia.txt" 
+ 
 
 
 #Southwest
@@ -47,6 +48,7 @@ SLN = "countries/Slovenia.txt"
 YUG = "countries/Yugoslavia.txt"
 VAR = "countries/Vardar.txt"
 BNT = "countries/Romania.txt"
+RPL = "countries/Socialist Poland.txt"
 
 ##North
 DEN = "countries/Denmark.txt"

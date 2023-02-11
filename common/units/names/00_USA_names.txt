@@ -1,4 +1,4 @@
-﻿USA = {
+﻿CAL = {
 	fleet_names_template = FLEET_NAME_USA
 	submarine = {
 		prefix = "USS"
